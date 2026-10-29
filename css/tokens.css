@@ -1,0 +1,176 @@
+/* ═══════════════════════════════════════════════════════════════
+   KEYONS · TOKENS
+   Fuente única de verdad. La consumen el libro de marca y los productos.
+   Tres capas: primitivos → semánticos → componentes.
+   Los productos solo deben leer las capas 2 y 3.
+   ═══════════════════════════════════════════════════════════════ */
+
+@font-face{
+  font-family:'TASA Orbiter';
+  src:url('../assets/fonts/TASAOrbiter-VariableFont_wght.ttf') format('truetype');
+  font-weight:400 800;
+  font-display:swap;
+}
+
+:root{
+  /* ─────────────────────────────────────────────
+     1 · PRIMITIVOS  ·  valores crudos, nunca se usan directo
+     ───────────────────────────────────────────── */
+
+  /* Paleta corporativa base */
+  --k-noche:#10122A;          /* Azul Noche */
+  --k-blanco:#F4F4F4;         /* Blanco Keyons */
+  --k-cielo:#729BDD;          /* Azul Cielo */
+  --k-salmon:#CE635D;         /* Salmón Tierra */
+  --k-atardecer:#E99D9E;      /* Salmón Atardecer · solo sobre Azul Noche */
+  --k-puro:#FFFFFF;
+
+  /* Escala Azul Cielo */
+  --k-cielo-100:#E0E7F1; --k-cielo-200:#C6D5EC; --k-cielo-300:#ACC3E7;
+  --k-cielo-400:#8FAFE2; --k-cielo-500:#729BDD; --k-cielo-600:#5E80B9;
+  --k-cielo-700:#496192; --k-cielo-800:#35466E; --k-cielo-900:#242D4E;
+
+  /* Escalas con medios pasos (6.6): 100 a 900 y sus 150, 250… interpolados en OKLab */
+  --k-gris-100:#F4F4F4; --k-gris-150:#EFEFEF; --k-gris-200:#EAEAEB; --k-gris-250:#E3E3E5; --k-gris-300:#DDDDDF; --k-gris-350:#D2D2D5; --k-gris-400:#C7C8CB; --k-gris-450:#B9BABD; --k-gris-500:#ABACB0; --k-gris-550:#9B9CA1; --k-gris-600:#8B8C92; --k-gris-650:#7A7B82; --k-gris-700:#6A6B72; --k-gris-750:#595A61; --k-gris-800:#494A51; --k-gris-850:#393A41; --k-gris-900:#2A2B31;
+  --k-noche-100:#F4F4F4; --k-noche-150:#DDDDDF; --k-noche-200:#C6C7CB; --k-noche-250:#BBBBC1; --k-noche-300:#B0B0B8; --k-noche-350:#A4A4AD; --k-noche-400:#9899A3; --k-noche-450:#82838F; --k-noche-500:#6C6D7B; --k-noche-550:#606171; --k-noche-600:#555667; --k-noche-650:#494A5D; --k-noche-700:#3E3F53; --k-noche-750:#2D2F45; --k-noche-800:#1D1F38; --k-noche-850:#161831; --k-noche-900:#10122A;
+  --k-cielo-150:#D3DEEF; --k-cielo-250:#B9CCEA; --k-cielo-350:#9DB9E5; --k-cielo-450:#80A5E0; --k-cielo-550:#688DCB; --k-cielo-650:#5370A5; --k-cielo-750:#3F5380; --k-cielo-850:#2C395E;
+  --k-salmon-100:#F7ECEB; --k-salmon-150:#F3E5E4; --k-salmon-200:#EEDEDD; --k-salmon-250:#EBCFCE; --k-salmon-300:#E7C1BF; --k-salmon-350:#E3B2B0; --k-salmon-400:#DFA4A1; --k-salmon-450:#DB948F; --k-salmon-500:#D6837E; --k-salmon-550:#D2736E; --k-salmon-600:#CE635D; --k-salmon-650:#BB5B58; --k-salmon-700:#A85353; --k-salmon-750:#934A4E; --k-salmon-800:#7E4148; --k-salmon-850:#6A373D; --k-salmon-900:#562E33;
+
+  /* Grises tipográficos · códigos propios, no opacidades */
+  --k-gris-1:#10122A; --k-gris-2:#3A3C4E; --k-gris-3:#6B6D7E;
+  --k-gris-titular:#8B8C92;   /* escala Blanco 600 · titulares atenuados ≥ 24 px */
+  --k-gris-4:#A8AAB5;         /* deshabilitado */
+  --k-gris-5:#E0E1E5;         /* divisores */
+
+  /* Fondos de estado (pastel) */
+  --k-est-cielo:#C6D5EC; --k-est-verde:#D5E0D2; --k-est-mostaza:#F4E8C1;
+  --k-est-lavanda:#D9D6ED; --k-est-terracota:#F0D0CB; --k-est-naranja:#F5D8B8;
+  --k-est-gris:#E0E1E5;
+
+  /* Cielo Mediodía · ingredientes del degradado */
+  --k-med-profundo:#3D6BAF; --k-med-medio:#8FB4DC; --k-med-claro:#C4DBF0;
+  --k-med-sombra:#CCD6E5;
+
+  /* ─────────────────────────────────────────────
+     2 · SEMÁNTICOS  ·  lo que el color significa
+     ───────────────────────────────────────────── */
+
+  --color-bg:var(--k-blanco);
+  --color-surface:var(--k-puro);
+  --color-inverse:var(--k-noche);
+
+  --color-text:var(--k-gris-1);
+  --color-text-2:var(--k-gris-2);
+  --color-text-3:var(--k-gris-3);
+  --color-text-title-muted:var(--k-gris-titular);
+  --color-text-disabled:var(--k-gris-4);
+  --color-text-inverse:var(--k-blanco);
+  --color-text-inverse-2:rgba(244,244,244,.72);
+
+  --color-border:var(--k-gris-5);
+  --color-border-strong:rgba(16,18,42,.16);
+
+  --color-brand:var(--k-cielo);          /* señal: subrayados, bordes, iconos, superficies */
+  --color-brand-soft:var(--k-cielo-200);
+  --color-warm:var(--k-salmon);          /* señal cálida: viñetas, acentos */
+  --color-warm-on-dark:var(--k-atardecer);
+  --color-focus:var(--k-cielo);
+
+  /* Regla: el color señala, no escribe. Sobre claro, el texto va en Azul Noche. */
+  --color-status-success:var(--k-est-verde);
+  --color-status-warning:var(--k-est-mostaza);
+  --color-status-error:var(--k-est-terracota);
+  --color-status-info:var(--k-est-cielo);
+  --color-status-review:var(--k-est-lavanda);
+  --color-status-locked:var(--k-est-naranja);
+  --color-status-neutral:var(--k-est-gris);
+
+  /* Tipografía */
+  --font-display:'TASA Orbiter','Plus Jakarta Sans',system-ui,sans-serif;
+  --font-sans:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:ui-monospace,'SFMono-Regular','Cascadia Mono',Consolas,monospace;
+
+  /* Espacio · base 4 */
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:20px; --s6:24px;
+  --s8:32px; --s10:40px; --s12:48px; --s16:64px; --s20:80px; --s24:96px; --s32:128px;
+
+  /* Separación entre elementos */
+  --gap:24px;          /* estándar · valor por defecto */
+  --gap-fusion:0px;    /* excepción: partes de un solo ítem */
+  --gap-list:12px;     /* excepción: ítems del mismo tipo en secuencia */
+  --gap-section:64px;  /* excepción: grupos distintos · mínimo el doble del interno */
+
+  /* Radio proporcional · sale del lado corto */
+  --r-none:0px; --r-micro:3px; --r-control:12px; --r-component:18px;
+  --r-card:30px; --r-block:50px; --r-pill:9999px;
+
+  /* Movimiento */
+  --m-fast:180ms; --m-base:300ms; --m-slow:520ms;
+  --e-out:cubic-bezier(.22,.61,.36,1);
+  --e-io:cubic-bezier(.65,.05,.36,1);     /* firma de movimiento Keyons */
+
+  /* ─────────────────────────────────────────────
+     3 · COMPONENTES
+     ───────────────────────────────────────────── */
+
+  /* Nivel 1 · acción principal: Salmón Tierra con texto Azul Noche */
+  --btn-primary-bg:var(--k-salmon);
+  --btn-primary-fg:var(--k-noche);
+  /* Nivel 2 · sólido */
+  --btn-solid-bg:var(--k-noche);
+  --btn-solid-fg:var(--k-blanco);
+  --btn-solid-hover-bg:var(--k-cielo);
+  --btn-solid-hover-fg:var(--k-noche);
+  /* Nivel 3 · contorno: borde Cielo, texto Noche */
+  --btn-outline-border:var(--k-cielo);
+  --btn-outline-fg:var(--k-noche);
+
+  --link-fg:var(--k-noche);
+  --link-underline:var(--k-cielo);
+
+  --badge-fg:var(--k-noche);          /* texto e icono siempre Azul Noche */
+  --icon-stroke:1.6px;                /* trazo constante, nunca bold */
+
+  /* Cristal · capas translúcidas sobre color o cielo (medios digitales) */
+  --glass-bg:rgba(255,255,255,.24);
+  --glass-bg-strong:rgba(244,244,244,.62);
+  --glass-border:rgba(255,255,255,.5);
+  --glass-blur:24px;
+  --glass-shadow:0 20px 50px -20px rgba(16,18,42,.28);
+
+  /* Cielos · degradados oficiales (orgánicos, asimétricos, con punto focal) */
+  --sky-amanecer:
+    radial-gradient(42% 52% at 72% 92%,#FFCE49 0%,rgba(255,206,73,0) 70%),
+    radial-gradient(46% 50% at 12% 74%,rgba(233,157,158,.85) 0%,rgba(233,157,158,0) 72%),
+    radial-gradient(60% 50% at 8% 0%,rgba(114,155,221,.75) 0%,rgba(114,155,221,0) 75%),
+    linear-gradient(180deg,#B2BFE5 0%,#FED8B5 58%,#FFEBB1 100%);
+  --sky-mediodia:
+    radial-gradient(34% 46% at 80% 30%,rgba(255,255,255,.85) 0%,rgba(255,255,255,0) 70%),
+    radial-gradient(56% 44% at 16% 96%,#CCD6E5 0%,rgba(204,214,229,0) 80%),
+    linear-gradient(180deg,#3D6BAF 0%,#729BDD 38%,#8FB4DC 70%,#C4DBF0 100%);
+  --sky-atardecer:
+    radial-gradient(40% 46% at 28% 96%,#F5A742 0%,rgba(245,167,66,0) 72%),
+    radial-gradient(44% 44% at 84% 64%,rgba(233,157,158,.8) 0%,rgba(233,157,158,0) 72%),
+    linear-gradient(180deg,#3D6BAF 0%,#7D81B9 30%,#C4658B 60%,#E87838 84%,#F5A742 100%);
+  --sky-noche:
+    radial-gradient(44% 40% at 76% 22%,rgba(62,84,127,.9) 0%,rgba(62,84,127,0) 72%),
+    radial-gradient(50% 46% at 14% 84%,rgba(44,60,120,.85) 0%,rgba(44,60,120,0) 74%),
+    linear-gradient(180deg,#10122A 0%,#17234F 58%,#2D4775 100%);
+  --sky-galaxia:
+    radial-gradient(30% 34% at 70% 30%,rgba(232,212,176,.35) 0%,rgba(232,212,176,0) 70%),
+    radial-gradient(42% 46% at 32% 66%,rgba(139,58,71,.75) 0%,rgba(139,58,71,0) 72%),
+    radial-gradient(46% 44% at 78% 78%,rgba(107,46,92,.7) 0%,rgba(107,46,92,0) 72%),
+    radial-gradient(1.2px 1.2px at 22% 24%,#FFF8E7 50%,transparent 51%),
+    radial-gradient(1px 1px at 64% 14%,#FFF8E7 50%,transparent 51%),
+    radial-gradient(1.4px 1.4px at 86% 46%,#FFF8E7 50%,transparent 51%),
+    radial-gradient(1px 1px at 44% 82%,#FFF8E7 50%,transparent 51%),
+    linear-gradient(180deg,#050817 0%,#1E2A5C 62%,#2D4775 100%);
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+
+  /* Regla: Salmón Tierra y Azul Cielo nunca se apoyan uno sobre otro.
+     Sin botones Salmón sobre fondo Cielo ni botones Cielo sobre fondo Salmón. */
+
+  --field-radius:var(--r-pill);
+  --field-focus-ring:0 0 0 5px rgba(198,213,236,.7);
+  --field-error-ring:0 0 0 5px var(--k-est-terracota);
+}

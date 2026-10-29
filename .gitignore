@@ -1,0 +1,14 @@
+# Archivos de trabajo y pruebas
+_tmp/
+# Repositorio aparte (vacío), no forma parte del manual
+Libro de marcar/
+# Configuración local del editor y del visor
+.claude/
+.vscode/
+# Python
+__pycache__/
+*.pyc
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

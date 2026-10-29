@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formulario Genia · Propuesta</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--noche:#10122A;--blanco:#F4F4F4;--t3:#6B6D7E;--line:#E0E1E5}
+*{box-sizing:border-box;margin:0}
+body{background:#E9EAEE;color:var(--noche);font-family:'Plus Jakarta Sans',system-ui,sans-serif;padding:48px 40px 80px}
+h1{font-size:28px;font-weight:500;letter-spacing:-.02em}
+.sub{margin-top:8px;font-size:14px;color:var(--t3)}
+.row{margin-top:48px}
+.row h2{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--t3)}
+.pair{display:flex;flex-wrap:wrap;align-items:flex-start;gap:40px;margin-top:16px}
+.dev p{margin-bottom:10px;font-size:12px;color:var(--t3)}
+/* Computadora: 1280 × 820 a escala */
+.desk{width:calc(1280px * .62);height:calc(820px * .62);overflow:hidden;background:#fff;box-shadow:0 0 0 1px rgba(16,18,42,.12),0 30px 60px -40px rgba(16,18,42,.5)}
+.desk iframe{width:1280px;height:820px;border:0;transform:scale(.62);transform-origin:0 0}
+/* Celular: 390 × 844 a escala, con marco */
+.phone{width:calc(390px * .78 + 20px);height:calc(844px * .78 + 20px);padding:10px;border-radius:44px;background:var(--noche);box-shadow:0 30px 60px -40px rgba(16,18,42,.6)}
+.phone div{width:100%;height:100%;overflow:hidden;border-radius:34px;background:#fff}
+.phone iframe{width:390px;height:844px;border:0;transform:scale(.78);transform-origin:0 0}
+.top{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.dl{display:inline-flex;align-items:center;gap:10px;height:46px;padding:0 24px;border-radius:999px;background:#10122A;color:#F4F4F4;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background-color .25s,color .25s}
+.dl:hover{background:#729BDD;color:#10122A}
+.dl svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+</style>
+</head>
+<body>
+<div class="top"><div><h1>Taller de nivelación 01 · Genia 2026 · propuesta con la marca Keyons</h1>
+<p class="sub">Interactivo: se puede escribir, comenzar, responder y finalizar. Para ver el aviso de intento único, use un correo que contenga «usado».</p></div><a class="dl" href="../genia-formulario.zip" download>Descargar zip <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2.5v8M4.5 7 8 10.5 11.5 7M3 13.5h10"/></svg></a></div>
+
+<section class="row"><h2>Inicio</h2>
+  <div class="pair">
+    <div class="dev"><p>Computadora · 1280 px</p><div class="desk"><iframe src="formulario.html" title="Inicio en computadora"></iframe></div></div>
+    <div class="dev"><p>Celular · 390 px</p><div class="phone"><div><iframe src="formulario.html" title="Inicio en celular"></iframe></div></div></div>
+  </div>
+</section>
+
+<section class="row"><h2>Pregunta</h2>
+  <div class="pair">
+    <div class="dev"><p>Computadora · 1280 px</p><div class="desk"><iframe src="formulario.html?p=q" title="Pregunta en computadora"></iframe></div></div>
+    <div class="dev"><p>Celular · 390 px</p><div class="phone"><div><iframe src="formulario.html?p=q" title="Pregunta en celular"></iframe></div></div></div>
+  </div>
+</section>
+
+<section class="row"><h2>Aviso de intento único</h2>
+  <div class="pair">
+    <div class="dev"><p>Computadora · 1280 px</p><div class="desk"><iframe src="formulario.html?p=error" title="Aviso en computadora"></iframe></div></div>
+    <div class="dev"><p>Celular · 390 px</p><div class="phone"><div><iframe src="formulario.html?p=error" title="Aviso en celular"></iframe></div></div></div>
+  </div>
+</section>
+<section class="row"><h2>Gracias</h2>
+  <div class="pair">
+    <div class="dev"><p>Computadora · 1280 px</p><div class="desk"><iframe src="formulario.html?p=done" title="Gracias en computadora"></iframe></div></div>
+    <div class="dev"><p>Celular · 390 px</p><div class="phone"><div><iframe src="formulario.html?p=done" title="Gracias en celular"></iframe></div></div></div>
+  </div>
+</section>
+
+<section class="row"><h2>Tiempo agotado</h2>
+  <div class="pair">
+    <div class="dev"><p>Computadora · 1280 px</p><div class="desk"><iframe src="formulario.html?p=timeout" title="Tiempo agotado en computadora"></iframe></div></div>
+    <div class="dev"><p>Celular · 390 px</p><div class="phone"><div><iframe src="formulario.html?p=timeout" title="Tiempo agotado en celular"></iframe></div></div></div>
+  </div>
+</section>
+<section class="row"><h2>Explicaciones</h2>
+  <div class="pair">
+    <div class="dev"><p>Computadora · 1280 px</p><div class="desk"><iframe src="formulario.html?p=rev" title="Explicaciones en computadora"></iframe></div></div>
+    <div class="dev"><p>Celular · 390 px</p><div class="phone"><div><iframe src="formulario.html?p=rev" title="Explicaciones en celular"></iframe></div></div></div>
+  </div>
+</section>
+</body>
+</html>

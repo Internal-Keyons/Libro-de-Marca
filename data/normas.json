@@ -1,0 +1,632 @@
+{
+ "aplicaciones/personalizacion.html#blanca": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PER-004",
+  "n": "22.4",
+  "t": "Modelo C · Marca blanca"
+ },
+ "aplicaciones/personalizacion.html#boutique": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PER-003",
+  "n": "22.3",
+  "t": "Modelo B · Boutique"
+ },
+ "aplicaciones/personalizacion.html#modelos": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PER-001",
+  "n": "22.1",
+  "t": "Tres modelos"
+ },
+ "aplicaciones/personalizacion.html#saas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PER-002",
+  "n": "22.2",
+  "t": "Modelo A · SaaS"
+ },
+ "aplicaciones/presentaciones.html#antes": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-014",
+  "n": "18.14",
+  "t": "Antes de presentar"
+ },
+ "aplicaciones/presentaciones.html#arco": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-004",
+  "n": "18.4",
+  "t": "El arco Keyons"
+ },
+ "aplicaciones/presentaciones.html#contraste": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-009",
+  "n": "18.9",
+  "t": "Contraste"
+ },
+ "aplicaciones/presentaciones.html#escribir": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-005",
+  "n": "18.5",
+  "t": "Escribir para la pantalla"
+ },
+ "aplicaciones/presentaciones.html#historia": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-003",
+  "n": "18.3",
+  "t": "Storytelling"
+ },
+ "aplicaciones/presentaciones.html#imagen": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-012",
+  "n": "18.12",
+  "t": "Imagen y gráficos"
+ },
+ "aplicaciones/presentaciones.html#lienzo": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-007",
+  "n": "18.7",
+  "t": "Lienzo y retícula"
+ },
+ "aplicaciones/presentaciones.html#limites": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-006",
+  "n": "18.6",
+  "t": "Límites y notas"
+ },
+ "aplicaciones/presentaciones.html#metodo": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-002",
+  "n": "18.2",
+  "t": "Método"
+ },
+ "aplicaciones/presentaciones.html#plantillas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-013",
+  "n": "18.13",
+  "t": "Plantillas"
+ },
+ "aplicaciones/presentaciones.html#riesgo": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-011",
+  "n": "18.11",
+  "t": "Riesgo y estado"
+ },
+ "aplicaciones/presentaciones.html#ritmo": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-010",
+  "n": "18.10",
+  "t": "Ritmo"
+ },
+ "aplicaciones/presentaciones.html#tipografia": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-008",
+  "n": "18.8",
+  "t": "Tipografía"
+ },
+ "aplicaciones/presentaciones.html#tipos": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PRE-001",
+  "n": "18.1",
+  "t": "Tipos"
+ },
+ "fundamentos/color/cielos.html#cielos": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-007",
+  "n": "6.7",
+  "t": "Paleta de cielos"
+ },
+ "fundamentos/color/cielos.html#especiales": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-008",
+  "n": "6.8",
+  "t": "Cielos especiales"
+ },
+ "fundamentos/color/cielos.html#gradientes": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-009",
+  "n": "6.9",
+  "t": "Gradientes"
+ },
+ "fundamentos/color/escalas.html#escalas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-006",
+  "n": "6.6",
+  "t": "Escalas tonales"
+ },
+ "fundamentos/color/funcionales.html#accion": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-015",
+  "n": "6.16",
+  "t": "Acción y superficies"
+ },
+ "fundamentos/color/funcionales.html#estados": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-014",
+  "n": "6.15",
+  "t": "Estados del sistema"
+ },
+ "fundamentos/color/funcionales.html#grises": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-013",
+  "n": "6.14",
+  "t": "Grises tipográficos"
+ },
+ "fundamentos/color/paleta-base.html#apoyo": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-003",
+  "n": "6.3",
+  "t": "Colores de apoyo"
+ },
+ "fundamentos/color/paleta-base.html#capas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-001",
+  "n": "6.1",
+  "t": "Sistema de color"
+ },
+ "fundamentos/color/paleta-base.html#contraste": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-005",
+  "n": "6.5",
+  "t": "Combinaciones"
+ },
+ "fundamentos/color/paleta-base.html#principales": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-002",
+  "n": "6.2",
+  "t": "Colores principales"
+ },
+ "fundamentos/color/paleta-base.html#reglas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-004",
+  "n": "6.4",
+  "t": "Reglas de uso"
+ },
+ "fundamentos/color/por-modo.html#expresivo": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-011",
+  "n": "6.11",
+  "t": "Modo expresivo"
+ },
+ "fundamentos/color/por-modo.html#institucional": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-010",
+  "n": "6.10",
+  "t": "Modo institucional"
+ },
+ "fundamentos/color/por-modo.html#interfaz": {
+  "estado": "vigente",
+  "id": "KYN-MRK-COL-012",
+  "n": "6.12",
+  "t": "Modo interfaz"
+ },
+ "fundamentos/datos/graficos.html#estructura": {
+  "estado": "vigente",
+  "id": "KYN-MRK-DAT-005",
+  "n": "11.5",
+  "t": "Estructura"
+ },
+ "fundamentos/datos/graficos.html#paleta": {
+  "estado": "vigente",
+  "id": "KYN-MRK-DAT-002",
+  "n": "11.2",
+  "t": "Sistema cromático"
+ },
+ "fundamentos/datos/graficos.html#principios": {
+  "estado": "vigente",
+  "id": "KYN-MRK-DAT-001",
+  "n": "11.1",
+  "t": "Principios"
+ },
+ "fundamentos/datos/graficos.html#tipografia": {
+  "estado": "vigente",
+  "id": "KYN-MRK-DAT-003",
+  "n": "11.3",
+  "t": "Tipografía en gráficos"
+ },
+ "fundamentos/datos/graficos.html#tipos": {
+  "estado": "vigente",
+  "id": "KYN-MRK-DAT-004",
+  "n": "11.4",
+  "t": "Tipos de gráfico"
+ },
+ "fundamentos/elementos/graficos.html#cristal": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ILU-004",
+  "n": "9.4",
+  "t": "Cristal"
+ },
+ "fundamentos/elementos/graficos.html#enfasis": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ILU-002",
+  "n": "9.2",
+  "t": "Elementos de énfasis"
+ },
+ "fundamentos/elementos/graficos.html#fotografia": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ILU-008",
+  "n": "9.8",
+  "t": "Fotografía"
+ },
+ "fundamentos/elementos/graficos.html#lineas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ILU-003",
+  "n": "9.3",
+  "t": "Líneas y cotas"
+ },
+ "fundamentos/elementos/graficos.html#patrones": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ILU-007",
+  "n": "9.7",
+  "t": "Patrones y texturas"
+ },
+ "fundamentos/elementos/graficos.html#rafagas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ILU-006",
+  "n": "9.6",
+  "t": "Ráfagas"
+ },
+ "fundamentos/elementos/graficos.html#ventana": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ILU-005",
+  "n": "9.5",
+  "t": "Ventanas de cielo"
+ },
+ "fundamentos/elementos/graficos.html#vinetas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ILU-001",
+  "n": "9.1",
+  "t": "Viñetas de marca"
+ },
+ "fundamentos/forma/espacio.html#densidad": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ESP-005",
+  "n": "8.5",
+  "t": "Densidad"
+ },
+ "fundamentos/forma/espacio.html#diagramas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ESP-007",
+  "n": "8.7",
+  "t": "Diagramas de información"
+ },
+ "fundamentos/forma/espacio.html#espaciado": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ESP-003",
+  "n": "8.3",
+  "t": "Espaciado"
+ },
+ "fundamentos/forma/espacio.html#esquinas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ESP-001",
+  "n": "8.1",
+  "t": "Regla de esquinas"
+ },
+ "fundamentos/forma/espacio.html#patrones": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ESP-006",
+  "n": "8.6",
+  "t": "Patrones de contenido"
+ },
+ "fundamentos/forma/espacio.html#radios": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ESP-002",
+  "n": "8.2",
+  "t": "Radios"
+ },
+ "fundamentos/forma/espacio.html#reticula": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ESP-004",
+  "n": "8.4",
+  "t": "Retícula y responsive"
+ },
+ "fundamentos/iconografia/iconos.html#animacion": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ICO-004",
+  "n": "10.4",
+  "t": "Animación"
+ },
+ "fundamentos/iconografia/iconos.html#catalogo": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ICO-005",
+  "n": "10.5",
+  "t": "Cómo se usan"
+ },
+ "fundamentos/iconografia/iconos.html#entrega": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ICO-006",
+  "n": "10.6",
+  "t": "Entrega técnica"
+ },
+ "fundamentos/iconografia/iconos.html#familias": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ICO-002",
+  "n": "10.2",
+  "t": "Familias y variantes"
+ },
+ "fundamentos/iconografia/iconos.html#reticula": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ICO-001",
+  "n": "10.1",
+  "t": "Retícula"
+ },
+ "fundamentos/iconografia/iconos.html#uso": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ICO-003",
+  "n": "10.3",
+  "t": "Uso"
+ },
+ "fundamentos/identidad/isotipo.html#corchete": {
+  "estado": "vigente",
+  "id": "KYN-MRK-LOG-007",
+  "n": "5.7",
+  "t": "El corchete"
+ },
+ "fundamentos/identidad/isotipo.html#destello": {
+  "estado": "vigente",
+  "id": "KYN-MRK-LOG-009",
+  "n": "5.9",
+  "t": "Destello central"
+ },
+ "fundamentos/identidad/isotipo.html#evolucion": {
+  "estado": "vigente",
+  "id": "KYN-MRK-LOG-008",
+  "n": "5.8",
+  "t": "Estado y evolución"
+ },
+ "fundamentos/identidad/isotipo.html#transicion": {
+  "estado": "vigente",
+  "id": "KYN-MRK-LOG-010",
+  "n": "5.10",
+  "t": "Criterio de transición"
+ },
+ "fundamentos/identidad/logotipo.html#construccion": {
+  "estado": "vigente",
+  "id": "KYN-MRK-LOG-002",
+  "n": "5.2",
+  "t": "Construcción"
+ },
+ "fundamentos/identidad/logotipo.html#geometria": {
+  "estado": "vigente",
+  "id": "KYN-MRK-LOG-003",
+  "n": "5.3",
+  "t": "Geometría"
+ },
+ "fundamentos/identidad/logotipo.html#incorrectos": {
+  "estado": "vigente",
+  "id": "KYN-MRK-LOG-006",
+  "n": "5.6",
+  "t": "Usos incorrectos"
+ },
+ "fundamentos/identidad/logotipo.html#minimo": {
+  "estado": "vigente",
+  "id": "KYN-MRK-LOG-005",
+  "n": "5.5",
+  "t": "Tamaño mínimo"
+ },
+ "fundamentos/identidad/logotipo.html#proteccion": {
+  "estado": "vigente",
+  "id": "KYN-MRK-LOG-004",
+  "n": "5.4",
+  "t": "Área de protección"
+ },
+ "fundamentos/identidad/logotipo.html#versiones": {
+  "estado": "vigente",
+  "id": "KYN-MRK-LOG-001",
+  "n": "5.1",
+  "t": "Versiones"
+ },
+ "fundamentos/tipografia/sistema.html#escala": {
+  "estado": "vigente",
+  "id": "KYN-MRK-TYP-002",
+  "n": "7.2",
+  "t": "Escala y jerarquía"
+ },
+ "fundamentos/tipografia/sistema.html#familias": {
+  "estado": "vigente",
+  "id": "KYN-MRK-TYP-001",
+  "n": "7.1",
+  "t": "Familias"
+ },
+ "fundamentos/tipografia/sistema.html#kickers": {
+  "estado": "vigente",
+  "id": "KYN-MRK-TYP-005",
+  "n": "7.5",
+  "t": "Kickers"
+ },
+ "fundamentos/tipografia/sistema.html#probador": {
+  "estado": "vigente",
+  "id": "KYN-MRK-TYP-003",
+  "n": "7.3",
+  "t": "Probador"
+ },
+ "fundamentos/tipografia/sistema.html#reglas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-TYP-006",
+  "n": "7.6",
+  "t": "Reglas de uso"
+ },
+ "fundamentos/tipografia/sistema.html#titular": {
+  "estado": "vigente",
+  "id": "KYN-MRK-TYP-004",
+  "n": "7.4",
+  "t": "Titular editorial"
+ },
+ "marca/adn.html#esencia": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ADN-001",
+  "n": "1.1",
+  "t": "Esencia de marca"
+ },
+ "marca/adn.html#espectro": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ADN-003",
+  "n": "1.2.3",
+  "t": "Espectro de personalización"
+ },
+ "marca/adn.html#filosofia": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ADN-005",
+  "n": "1.4.1",
+  "t": "Filosofía operativa"
+ },
+ "marca/adn.html#origen": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ADN-004",
+  "n": "1.3",
+  "t": "Origen y visión global"
+ },
+ "marca/adn.html#principios": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ADN-007",
+  "n": "1.5",
+  "t": "Principios de marca"
+ },
+ "marca/adn.html#proposito": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ADN-002",
+  "n": "1.2",
+  "t": "Propósito de marca"
+ },
+ "marca/adn.html#propuesta": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ADN-006",
+  "n": "1.4.2",
+  "t": "Propuesta de valor"
+ },
+ "marca/cielo.html#diario": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CON-003",
+  "n": "2.1.2",
+  "t": "Diario de Cielos"
+ },
+ "marca/cielo.html#jerarquia": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CON-002",
+  "n": "2.1.1",
+  "t": "Jerarquía de cielos"
+ },
+ "marca/cielo.html#simbolo": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CON-001",
+  "n": "2.1",
+  "t": "El concepto central"
+ },
+ "marca/composicion.html#anti": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CON-008",
+  "n": "2.5",
+  "t": "Anti-referentes"
+ },
+ "marca/composicion.html#contraste": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CON-007",
+  "n": "2.4",
+  "t": "Regla del contraste"
+ },
+ "marca/composicion.html#herencia": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CON-009",
+  "n": "2.6",
+  "t": "Herencia estética"
+ },
+ "marca/composicion.html#reglas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CON-006",
+  "n": "2.3",
+  "t": "Reglas de composición"
+ },
+ "marca/metaforas.html#canal": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CON-005",
+  "n": "2.2",
+  "t": "Formalidad según canal"
+ },
+ "marca/metaforas.html#condiciones": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CON-004",
+  "n": "2.2",
+  "t": "Sistema de metáforas"
+ },
+ "marca/trato.html#persona": {
+  "estado": "vigente",
+  "id": "KYN-MRK-VOZ-006",
+  "n": "3.6",
+  "t": "Primera o tercera persona"
+ },
+ "marca/trato.html#traduccion": {
+  "estado": "vigente",
+  "id": "KYN-MRK-VOZ-007",
+  "n": "3.7",
+  "t": "De lo técnico a lo humano"
+ },
+ "marca/trato.html#usted": {
+  "estado": "vigente",
+  "id": "KYN-MRK-VOZ-005",
+  "n": "3.5",
+  "t": "El trato"
+ },
+ "marca/vocabulario.html#evita": {
+  "estado": "vigente",
+  "id": "KYN-MRK-VOZ-004",
+  "n": "3.4",
+  "t": "Vocabulario que evitamos"
+ },
+ "marca/vocabulario.html#propio": {
+  "estado": "vigente",
+  "id": "KYN-MRK-VOZ-003",
+  "n": "3.3",
+  "t": "Vocabulario propio"
+ },
+ "marca/voz.html#modos": {
+  "estado": "vigente",
+  "id": "KYN-MRK-VOZ-001",
+  "n": "3.1",
+  "t": "Esencia de la voz"
+ },
+ "marca/voz.html#reglas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-VOZ-002",
+  "n": "3.2",
+  "t": "Reglas de escritura"
+ },
+ "recursos/galeria.html#galeria": {
+  "estado": "vigente",
+  "id": "KYN-MRK-GAL-001",
+  "n": "23.1",
+  "t": "Galería"
+ },
+ "recursos/iconos.html#catalogo": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ICN-001",
+  "n": "25.1",
+  "t": "Catálogo"
+ },
+ "recursos/plantillas.html#documentos": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PLA-002",
+  "n": "26.2",
+  "t": "Documentos"
+ },
+ "recursos/plantillas.html#plantillas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-PLA-001",
+  "n": "26.1",
+  "t": "Plantillas"
+ },
+ "recursos/referencia.html#indice": {
+  "estado": "vigente",
+  "id": "KYN-MRK-REF-002",
+  "n": "27.2",
+  "t": "Índice"
+ },
+ "recursos/referencia.html#nomenclatura": {
+  "estado": "vigente",
+  "id": "KYN-MRK-REF-001",
+  "n": "27.1",
+  "t": "Nomenclatura"
+ },
+ "recursos/texturas.html#texturas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-TEX-001",
+  "n": "24.1",
+  "t": "Catálogo"
+ }
+}
