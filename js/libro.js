@@ -954,9 +954,10 @@
   const ap = $('area-page');
   if (ap && area) {
     const pages = area.ch.reduce((n, c) => n + c.items.filter((x) => x.t).length, 0);
+    /* El mismo nombre corto del menú lateral (una línea); el completo queda en el title */
     const pg = (it) => it.href
-      ? `<a class="pg" href="${url(it.href)}">${esc(it.t)}${ic(I.right)}${dot(it.s)}</a>`
-      : `<span class="pg">${esc(it.t)}${dot(it.s)}</span>`;
+      ? `<a class="pg" href="${url(it.href)}" title="${esc(it.t)}">${esc(it.st || it.t)}${ic(I.right)}${dot(it.s)}</a>`
+      : `<span class="pg" title="${esc(it.t)}">${esc(it.st || it.t)}${dot(it.s)}</span>`;
     const cols = (c) => {
       const groups = [];
       c.items.forEach((it) => {

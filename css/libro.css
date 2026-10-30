@@ -3853,3 +3853,113 @@ body .portal .portal__arcs{animation:none!important;--ripple:0px;will-change:tra
 /* 12.9 · Profundidad atmosférica: un plano Blanco sobre Azul Cielo liso, con sombra difusa */
 .atmo{display:grid;place-items:center;margin-top:var(--s10);aspect-ratio:16/7;background:var(--k-cielo)}
 .atmo__card{width:44%;aspect-ratio:4/3;background:var(--k-blanco);box-shadow:0 40px 80px -24px rgba(16,18,42,.35),0 12px 24px -12px rgba(16,18,42,.18)}
+
+/* Portada del libro: título y entrada centrados */
+.hero__in--center{text-align:center}
+.hero__in--center .t-lead{margin-left:auto;margin-right:auto}
+/* 3.3 · sin imágenes: dos columnas de texto separadas por una línea vertical */
+.cye{gap:0}
+.cye__i + .cye__i{padding-left:var(--s10);border-left:1px solid var(--color-border)}
+.cye figcaption{margin-top:0}
+.cye figcaption p{font-size:clamp(24px,2.4vw,32px)}
+@media(max-width:760px){.cye{gap:var(--s6)}.cye__i + .cye__i{padding-left:0;border-left:0;padding-top:var(--s6);border-top:1px solid var(--color-border)}}
+
+/* ════ Ronda 2026-10-30 · 2 ════ */
+/* Contraste (11.3): los números y rótulos pequeños en Gris titular (#8B8C92, unos 3:1 sobre Blanco Keyons)
+   pasan al gris terciario oficial (#6B6D7E, 4,6:1). El Gris titular queda para titulares de 24 px o más. */
+.area__list a span,.nav-ch__num,.rule__n,.promise__n,.row__n,.pgrid__n,.matrix__n,.zig__n,.step__n,.canon__n,.index__w sup,
+.note > span,.strip__n,.lexi__list button span,.lspec__n,.cats__tabs button span,.stats__n,.tally__n,.skyrow__n,.orbs__t span,
+.rulex__n,.lgrid__n,.rview__list button span,.ed__label span:first-child,.pager .is-soon .pager__t{color:var(--color-text-3)}
+.btn-icon{color:var(--color-text-3)}
+
+/* Bordes de botones y barras: de 1 a 1,5 px para que la línea no se pierda, sin volverse ruidosa */
+.btn,.hdr__search,.hdr__panel-search,.search__field input{border-width:1.5px}
+.btn-icon{border-width:1.5px;border-color:rgba(107,109,126,.5)}
+.btn--outline{box-shadow:inset 0 0 0 1.5px var(--k-cielo)}
+.icat__q,.icat__bar .icat__q{box-shadow:inset 0 0 0 1.5px var(--color-border)}
+.icat__q:focus,.icat__bar .icat__q:focus{box-shadow:inset 0 0 0 1.5px var(--k-cielo)}
+.fpop__btn,.icat__bar .fpop__btn{box-shadow:inset 0 0 0 1.5px var(--color-border)!important}
+.icat__chips button,.fpop__row button,.vbar__dl button,.moments li,.ptype__tabs,.fmt{box-shadow:inset 0 0 0 1.5px var(--color-border-strong)}
+.icat__chips button:hover{box-shadow:inset 0 0 0 1.5px var(--k-noche)}
+
+/* Menú: las líneas se juntan y luego giran a la X (al cerrar, al revés); los enlaces entran en cascada */
+.hdr__burger path{transform:none!important;transform-origin:12px 12px;
+  transition:translate 220ms var(--e-out) 140ms,rotate 240ms var(--e-out) 0ms,scale 200ms var(--e-out) 120ms,opacity 160ms ease 120ms}
+.hdr.is-open .hdr__burger .b1{translate:0 5px;rotate:45deg}
+.hdr.is-open .hdr__burger .b3{translate:0 -5px;rotate:-45deg}
+.hdr.is-open .hdr__burger .b1,.hdr.is-open .hdr__burger .b3{transition:translate 200ms var(--e-out) 0ms,rotate 360ms cubic-bezier(.34,1.4,.64,1) 170ms}
+.hdr.is-open .hdr__burger .b2{scale:0 1;opacity:0;transition:scale 180ms var(--e-out) 0ms,opacity 120ms ease 0ms}
+@media(hover:hover){.hdr:not(.is-open) .hdr__burger:hover .b2{scale:.6 1}}
+.hdr__panel nav a{opacity:0;translate:0 8px;transition:opacity 260ms var(--e-out),translate 320ms var(--e-out),color 300ms ease}
+.hdr.is-open .hdr__panel nav a{opacity:1;translate:0 0}
+.hdr.is-open .hdr__panel nav a:nth-child(2){transition-delay:40ms}.hdr.is-open .hdr__panel nav a:nth-child(3){transition-delay:80ms}
+.hdr.is-open .hdr__panel nav a:nth-child(4){transition-delay:120ms}.hdr.is-open .hdr__panel nav a:nth-child(5){transition-delay:160ms}
+.hdr.is-open .hdr__panel nav a:nth-child(6){transition-delay:200ms}
+@media(prefers-reduced-motion:reduce){.hdr__burger path,.hdr__panel nav a{transition:none!important}}
+
+/* 12.5 · Profundidad atmosférica: Azul Cielo con un degradado de cielo apenas perceptible */
+.atmo{background:linear-gradient(180deg,#6990D3 0%,#729BDD 50%,#88AAE2 100%)}
+
+/* 11 · Criterios visuales: la regla en líneas (la primera es la idea central), escalera numerada y ejemplos dibujados */
+.vrule__wrap{margin-top:var(--s8)}
+.vrule__wrap .paren{display:block;margin-bottom:var(--s3);font-size:13px;color:var(--color-text-3)}
+.vprob{max-width:56ch;font-size:clamp(18px,1.6vw,20px);line-height:1.5;color:var(--color-text-2);text-wrap:pretty}
+.vrule{display:grid;gap:var(--s3);margin:0;padding:0;list-style:none}
+.vrule li{position:relative;max-width:60ch;padding-left:var(--s6);font-size:16px;line-height:1.55;color:var(--color-text-2);text-wrap:pretty}
+.vrule li::before{content:"";position:absolute;left:0;top:.78em;width:10px;height:1.5px;background:var(--k-cielo)}
+.vrule li.vrule__main{padding-left:0;font-size:clamp(18px,1.6vw,20px);font-weight:500;line-height:1.45;color:var(--color-text)}
+.vrule li.vrule__main::before{display:none}
+.vrank{margin-top:var(--s10)}
+.vrank__h{margin-bottom:var(--s4);font-size:13px;color:var(--color-text-3)}
+.vrank ol{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:0;padding:0;list-style:none;border-top:1px solid var(--color-border-strong)}
+.vrank li{padding:var(--s6) var(--s5) var(--s2) 0;font-size:15px;line-height:1.45;color:var(--color-text)}
+.vrank li + li{padding-left:var(--s5);border-left:1px solid var(--color-border)}
+.vrank li span{display:block;margin-bottom:var(--s4);font-family:var(--font-display);font-size:clamp(40px,4vw,56px);font-weight:500;line-height:1;letter-spacing:-.04em;color:var(--k-noche)}
+@media(max-width:760px){.vrank ol{grid-template-columns:repeat(2,minmax(0,1fr))}.vrank li:nth-child(3){padding-left:0;border-left:0}}
+.vdemo{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s2);margin-top:var(--s10)}
+.vdemo__i{margin:0}
+.vdemo__s{display:grid;place-items:center;aspect-ratio:16/10;padding:var(--s8);background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border)}
+.vdemo__i--no .vdemo__s{border-radius:0 var(--r-card) var(--r-card) 0}
+.vdemo__i--yes .vdemo__s{border-radius:var(--r-card) 0 0 var(--r-card)}
+.vdemo figcaption{margin-top:var(--s4)}
+.vdemo figcaption .paren{display:block;margin-bottom:var(--s1);font-size:13px;color:var(--color-text-3)}
+.vdemo figcaption p{max-width:42ch;font-size:15px;line-height:1.5;color:var(--color-text-2)}
+.vdemo figcaption b{font-weight:600;color:var(--color-text)}
+@media(max-width:760px){.vdemo{grid-template-columns:minmax(0,1fr);gap:var(--s8)}.vdemo__i--no .vdemo__s,.vdemo__i--yes .vdemo__s{border-radius:0}}
+/* Ejemplos dibujados */
+.vd-k{display:grid;gap:8px;width:100%}
+.vd-k__k{font-family:var(--font-display);font-size:11px;font-weight:500;letter-spacing:.12em;color:var(--color-text-3)}
+.vd-k__t{font-size:clamp(24px,2.4vw,32px);font-weight:500;letter-spacing:-.025em;line-height:1.1;color:var(--k-noche)}
+.vd-k__l{max-width:30ch;font-size:14px;line-height:1.5;color:var(--color-text-2)}
+.vd-c{display:grid;width:100%}
+.vd-c--cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.vd-c--cards i{height:96px;background:var(--k-puro);border-radius:14px;box-shadow:0 10px 24px -10px rgba(16,18,42,.35),0 0 0 1px rgba(16,18,42,.06)}
+.vd-c--rows i{height:34px;border-top:1px solid var(--color-border-strong)}
+.vd-c--rows i:last-child{border-bottom:1px solid var(--color-border-strong)}
+.vd-g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;width:100%}
+.vd-g i{height:100px;background:var(--k-cielo-200)}
+.vd-g--round i{border-radius:16px}
+.vd-g--keyons i:first-child{border-radius:0 var(--r-component) var(--r-component) 0}
+.vd-g--keyons i:nth-child(2){border-radius:var(--r-component)}
+.vd-g--keyons i:last-child{border-radius:var(--r-component) 0 0 var(--r-component)}
+.vd-a{display:grid;gap:4px;width:100%}
+.vd-a span{font-size:clamp(20px,2vw,26px);font-weight:500;letter-spacing:-.02em;line-height:1.2;color:var(--k-noche)}
+.vd-a em{font-style:normal;background:var(--k-cielo-200)}
+.vd-x{display:grid;gap:6px;width:100%}
+.vd-x span:first-child{font-size:20px;font-weight:500}
+.vd-x span:last-child{font-size:12px;color:var(--color-text-3)}
+.vd-x--bad span:first-child{color:#C7C8CB}
+.vd-x--good span:first-child{color:#6B6D7E}
+
+/* 10.2 y 10.3 · comparación simétrica y retícula anotada */
+.vd-sym{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;width:100%}
+.vd-sym i{height:110px;background:var(--k-cielo-200)}
+.vd-asym{display:grid;grid-template-columns:7fr 5fr;gap:8px;width:100%}
+.vd-asym i{height:110px;background:var(--k-cielo-200)}
+.vd-asym i:first-child{background:var(--k-noche)}
+.grid75{margin:var(--s10) 0 0}
+.grid75 svg{display:block;width:100%;height:auto}
+.grid75 .tag{font-family:var(--font-sans);font-size:12px;font-weight:500;fill:#6B6D7E}
+.vd-sym i:first-child,.vd-asym i:first-child{border-radius:0 var(--r-component) var(--r-component) 0}
+.vd-sym i:nth-child(2){border-radius:var(--r-component)}
+.vd-sym i:last-child,.vd-asym i:last-child{border-radius:var(--r-component) 0 0 var(--r-component)}
