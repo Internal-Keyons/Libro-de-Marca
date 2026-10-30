@@ -63,7 +63,7 @@
       <div class="hdr__bg">${IS_HOME ? `<div class="hdr__clouds" aria-hidden="true">${clouds}</div>` : ''}</div>
       <div class="hdr__in">
         <nav class="hdr__links" aria-label="Áreas del manual">${linkHtml('hdr__link')}</nav>
-        <a class="hdr__logo" href="${url('index.html')}" aria-label="Keyons · volver a la portada">${LOGO}</a>
+        <a class="hdr__logo" href="${url('inicio.html')}" aria-label="Keyons · volver a la portada">${LOGO}</a>
         <div class="hdr__right">
           <button class="hdr__search" type="button" data-search aria-label="Buscar en el manual (Ctrl K)">${ic(I.search)}<span>Buscar</span><kbd>Ctrl K</kbd></button>
         </div>
@@ -1004,7 +1004,7 @@
   const pg = $('pager');
   if (pg) {
     const k = seq.findIndex((x) => base(x.href) === PAGE);
-    const prev = k > 0 ? seq[k - 1] : { t: 'Portada', href: 'index.html' };
+    const prev = k > 0 ? seq[k - 1] : { t: 'Portada', href: 'inicio.html' };
     const next = k >= 0 && k < seq.length - 1 ? seq[k + 1] : null;
     pg.className = 'pager';
     pg.innerHTML = `<a href="${url(prev.href)}"><span class="paren">(Anterior)</span><span class="pager__t">${ic(I.left)}${esc(prev.t)}</span></a>`

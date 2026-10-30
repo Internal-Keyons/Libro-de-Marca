@@ -20,14 +20,14 @@
 
   <main class="content chapter">
     <nav class="crumbs" aria-label="Ruta">
-      <a href="../../index.html">Inicio</a>
+      <a href="../../inicio.html">Inicio</a>
       <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg>
       <a href="../index.html">Fundamentos</a>
       <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg>
       <a href="../index.html#cap-tipografia">08 Tipografía</a>
     </nav>
 
-    <section class="portal" aria-label="08 Tipografía · Sistema tipográfico">
+    <section class="portal portal--cielo" aria-label="08 Tipografía · Sistema tipográfico">
       <div class="portal__arcs" aria-hidden="true"></div>
       <div class="portal__txt">
         <span class="kicker">08 · Tipografía</span>
@@ -155,6 +155,38 @@
         <p class="ed__lead">Lo que hace que la tipografía se lea como Keyons. <strong>Cada regla trae su demostración.</strong></p>
         <div class="rview" data-rview><ol class="rview__list"><li><button type="button" data-rv="0" aria-pressed="true"><span>01</span>Tamaño, peso y color</button></li><li><button type="button" data-rv="1" aria-pressed="false"><span>02</span>Pocos tamaños</button></li><li><button type="button" data-rv="2" aria-pressed="false"><span>03</span>Interlineado inverso</button></li><li><button type="button" data-rv="3" aria-pressed="false"><span>04</span>Espaciado según tamaño</button></li><li><button type="button" data-rv="4" aria-pressed="false"><span>05</span>Negrita con intención</button></li><li><button type="button" data-rv="5" aria-pressed="false"><span>06</span>Números tabulares</button></li><li><button type="button" data-rv="6" aria-pressed="false"><span>07</span>TASA, solo protagonista</button></li></ol><div class="rview__stage"><div class="rview__it"><div class="rview__demo"><p class="dm-a">Presencia humana</p><p class="dm-b">Siempre hay un elemento real, <strong>preferentemente humano</strong>.</p></div><p class="rview__d">La jerarquía combina los tres. Así se lee aunque dos textos estén cerca en tamaño.</p></div><div class="rview__it" hidden><div class="rview__demo"><p class="dm-sizes"><span style="font-size:44px">Aa</span><span style="font-size:20px">Aa</span><span style="font-size:16px">Aa</span></p></div><p class="rview__d">Máximo tres tamaños de lectura por pieza. Si hace falta más jerarquía, se resuelve con peso o color.</p></div><div class="rview__it" hidden><div class="rview__demo"><p class="dm-tight">Lo que hace,<br>no cómo se llama</p><p class="dm-loose">Cada término técnico se traduce. No es simplificar: es respetar al lector.</p></div><p class="rview__d">Titulares apretados, de 0.93 a 1.2. Cuerpo holgado, de 1.55 a 1.65.</p></div><div class="rview__it" hidden><div class="rview__demo"><p class="dm-track"><span>Cielo</span><span class="kicker">Índice</span></p></div><p class="rview__d">Titulares grandes de −2 % a −4 %. Cuerpo sin ajuste. Mayúsculas pequeñas, +8 %.</p></div><div class="rview__it" hidden><div class="rview__demo"><p class="dm-b" style="font-size:17px">Primero entendemos su operación; <strong>después construimos</strong>.</p></div><p class="rview__d">Semibold solo para las palabras clave que guían la lectura. Nunca en acordeones ni en recuadros.</p></div><div class="rview__it" hidden><div class="rview__demo"><p class="dm-num"><span>1 250.00</span><span>98.40</span><span>12 004.10</span></p></div><p class="rview__d">Tablas, cifras, facturas y dashboards alinean sus columnas con la variante tabular.</p></div><div class="rview__it" hidden><div class="rview__demo"><p class="dm-tasa">Galaxia</p></div><p class="rview__d">Display, portadas y kickers. Nunca en cuerpo de texto ni por debajo de 24 px, salvo el kicker.</p></div></div></div>
         <p class="ed__close">Si hace falta más jerarquía, <span class="hl">se resuelve con peso, no con otro tamaño.</span></p>
+      </div>
+    </section>
+
+    <!-- 8.7 · Uso por función -->
+    <section class="ed" id="funcion">
+      <div class="ed__label"><span>8.7</span><span>Uso por función</span></div>
+      <div>
+        <h2 class="ed__title">Cada familia, su función</h2>
+        <p class="ed__lead">Se conservan las dos familias oficiales. <strong>TASA Orbiter</strong> da presencia; <strong>Plus Jakarta Sans</strong> sostiene la lectura y la operación.</p>
+        <div class="tyfn">
+          <div class="tyfn__r"><span class="tyfn__s tyfn__s--tasa">Titular</span><div><p class="tyfn__t">TASA Orbiter</p><p class="tyfn__d">Titulares editoriales de fuerte presencia y numeración monumental.</p></div></div>
+          <div class="tyfn__r"><span class="tyfn__s tyfn__s--jak">Lectura</span><div><p class="tyfn__t">Plus Jakarta Sans</p><p class="tyfn__d">Subtítulos, lectura prolongada, navegación, datos y controles funcionales.</p></div></div>
+          <div class="tyfn__r"><span class="tyfn__s tyfn__s--tasa tyfn__s--num">39</span><div><p class="tyfn__t">Números expresivos</p><p class="tyfn__d">TASA Orbiter, cuando el número actúa como recurso editorial.</p></div></div>
+          <div class="tyfn__r"><span class="tyfn__s tyfn__s--jak tyfn__s--op">1.240,50</span><div><p class="tyfn__t">Números operativos</p><p class="tyfn__d">Plus Jakarta Sans, con cifras tabulares cuando corresponda: tablas, datos y controles.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8.8 · Tracking en pantalla -->
+    <section class="ed ed--full" id="tracking">
+      <div class="ed__label"><span>8.8</span><span>Tracking en pantalla</span></div>
+      <div>
+        <h2 class="ed__title">Una comparación antes de decidir</h2>
+        <p class="ed__lead">Los valores de presentaciones, <strong>−5 % para grandes titulares y −3 % para ciertos subtítulos</strong>, están pendientes de validación en interfaces digitales. No son valores universales ni se aplican de forma global.</p>
+        <div class="trk">
+          <div class="trk__r trk__h"><span class="trk__k">Escala</span><span>0 %</span><span>−3 %</span><span>−5 %</span></div>
+          <div class="trk__r"><span class="trk__k">96 px</span><div class="trk__c"><span class="trk__s" style="font-size:96px;letter-spacing:0">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:96px;letter-spacing:-0.03em">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:96px;letter-spacing:-0.05em">El mismo cielo</span></div></div><div class="trk__r"><span class="trk__k">56 px</span><div class="trk__c"><span class="trk__s" style="font-size:56px;letter-spacing:0">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:56px;letter-spacing:-0.03em">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:56px;letter-spacing:-0.05em">El mismo cielo</span></div></div><div class="trk__r"><span class="trk__k">32 px</span><div class="trk__c"><span class="trk__s" style="font-size:32px;letter-spacing:0">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:32px;letter-spacing:-0.03em">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:32px;letter-spacing:-0.05em">El mismo cielo</span></div></div>
+        </div>
+        <div class="ed__stack">
+          <div><span class="paren">(Mientras se valida)</span><p>Rige la escala de KYN-MRK-TYP-002. El texto de cuerpo conserva el espaciado que favorece la lectura.</p></div>
+          <div><span class="paren">(Estado)</span><p>Propuesta pendiente de validación: sin ID hasta que se apruebe.</p></div>
+        </div>
       </div>
     </section>
 

@@ -3,68 +3,119 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Keyons · Manual de marca</title>
-<meta name="description" content="Manual de marca de Keyons: ADN, fundamentos visuales y reglas para aplicar la marca en cada modo.">
+<title>Biblioteca Keyons</title>
+<meta name="description" content="Los manuales de Keyons: marca, diseño, producto, ventas, servicio y cultura.">
 <link rel="icon" href="assets/logos/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/tokens.css">
-<link rel="stylesheet" href="css/libro.css">
+<style>
+/* Biblioteca Keyons · portada de los seis manuales.
+   Usa los tokens del sistema y el cielo del libro, pero no su hoja de estilos: cada manual conserva su independencia. */
+*{box-sizing:border-box;margin:0}
+body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{width:100%;max-width:1200px;margin:0 auto;padding:0 var(--s16)}
+
+/* Encabezado con el cielo del libro (KeyonsCielo, mediodía) y el mismo cristal acanalado */
+.hero{position:relative;overflow:hidden;isolation:isolate;min-height:clamp(420px,58vh,620px);display:flex;flex-direction:column;background:linear-gradient(180deg,#3D6BAF 0%,#729BDD 32%,#8FB4DC 58%,#C4DBF0 100%)}
+.hero__glass{position:absolute;inset:0;z-index:1;pointer-events:none;backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);background-color:rgba(255,255,255,.06);
+  background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.16) 0px,rgba(255,255,255,.16) 1px,rgba(255,255,255,.07) 1px,rgba(255,255,255,.01) 25px,rgba(255,255,255,.01) 26px,rgba(255,255,255,.07) 49px,rgba(255,255,255,.07) 50px)}
+.hero > .wrap{position:relative;z-index:2;pointer-events:none}
+.hero a{pointer-events:auto}
+.top{display:flex;align-items:center;justify-content:space-between;height:96px}
+.top img{display:block;height:44px;width:auto}
+.top span{font-family:var(--font-display);font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase}
+.hero__in{margin-top:auto;padding-bottom:var(--s16)}
+h1{font-family:var(--font-display);font-size:clamp(52px,7.4vw,112px);font-weight:500;line-height:.93;letter-spacing:-.04em}
+.lead{max-width:34ch;margin-top:var(--s6);font-size:20px;line-height:1.5;text-wrap:balance}
+.lead b{font-weight:600}
+
+/* Los seis manuales: filas editoriales separadas por líneas, sin tarjetas */
+.shelf{padding:var(--s20) 0 var(--s24)}
+.shelf__h{display:flex;align-items:baseline;justify-content:space-between;gap:var(--s4);padding-bottom:var(--s5);border-bottom:1px solid var(--color-border-strong)}
+.shelf__h h2{font-size:clamp(28px,3vw,40px);font-weight:500;letter-spacing:-.03em;line-height:1.1}
+.shelf__h p{font-size:14px;color:var(--color-text-3)}
+.list{list-style:none;padding:0}
+.row{display:grid;grid-template-columns:72px minmax(0,1fr) auto 40px;align-items:center;column-gap:var(--s6);padding:var(--s8) 0;border-bottom:1px solid var(--color-border);text-decoration:none}
+.row__n{font-size:14px;font-weight:600;color:var(--color-text-title-muted)}
+.row__t{font-size:clamp(22px,2.4vw,30px);font-weight:500;letter-spacing:-.02em;line-height:1.2}
+.row__d{margin-top:var(--s2);max-width:58ch;font-size:15px;line-height:1.55;color:var(--color-text-2)}
+.row__go{width:40px;height:40px;display:grid;place-items:center;border-radius:var(--r-pill);box-shadow:inset 0 0 0 1px var(--btn-outline-border);transition:background-color var(--m-fast) var(--e-out),transform var(--m-base) var(--e-out)}
+.row__go svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+a.row:hover .row__t{text-decoration:underline;text-decoration-color:var(--link-underline);text-decoration-thickness:2px;text-underline-offset:6px}
+a.row:hover .row__go{background:var(--k-cielo);box-shadow:none}
+a.row:focus-visible{outline:2px solid var(--color-focus);outline-offset:4px}
+.row--off .row__t{color:var(--color-text-3)}
+/* Badges: el color vive en el fondo; texto e ícono en Azul Noche */
+.badge{display:inline-flex;align-items:center;gap:var(--s2);padding:7px 14px 7px 11px;border-radius:var(--r-pill);font-size:13px;font-weight:600;line-height:1;color:var(--badge-fg);white-space:nowrap}
+.badge svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.badge--on{background:var(--color-status-success)}
+.badge--off{background:var(--color-status-neutral)}
+.foot{border-top:1px solid var(--color-border)}
+.foot .wrap{display:flex;justify-content:space-between;gap:var(--s4);padding-top:var(--s6);padding-bottom:var(--s6);font-size:13px;color:var(--color-text-3)}
+
+@media(max-width:1099px){.wrap{padding:0 var(--s8)}}
+@media(max-width:759px){
+  .wrap{padding:0 var(--s4)}
+  .top{height:72px}.top img{height:34px}
+  .hero{min-height:380px}
+  .lead{font-size:17px}
+  .shelf{padding:var(--s12) 0 var(--s16)}
+  .shelf__h{flex-direction:column;gap:var(--s1)}
+  .row{grid-template-columns:40px minmax(0,1fr) 40px;row-gap:var(--s3);padding:var(--s6) 0}
+  .row .badge{grid-column:2;grid-row:2;justify-self:start}
+  .row__go{grid-column:3;grid-row:1}
+  .foot .wrap{flex-direction:column}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
 </head>
-<body class="is-home" data-root="." data-area="">
+<body>
 
-<header id="topbar"></header>
+<header class="hero" id="hero">
+  <div class="hero__glass" aria-hidden="true"></div>
+  <div class="wrap top">
+    <a href="index.html" aria-label="Biblioteca Keyons"><img src="assets/logos/keyons-negro.svg" alt="Keyons"></a>
+    <span>Biblioteca</span>
+  </div>
+  <div class="wrap hero__in">
+    <h1>Biblioteca<br>Keyons</h1>
+    <p class="lead">Los manuales que explican <b>cómo trabaja Keyons</b>. Cada uno conserva su propia voz y su propio diseño.</p>
+  </div>
+</header>
 
-<main>
-  <!-- ══ PORTADA · Azul Cielo sólido, nubes detrás de vidrio acanalado ══ -->
-  <section class="hero">
-    <div class="hero__clouds" aria-hidden="true"></div>
-    <div class="hero__glass" aria-hidden="true"></div>
-    <div class="hero__in">
-      <h1 class="t-display">El mismo cielo<br>Nadie lo ve igual</h1>
-      <p class="t-lead">Este es el <strong>manual de marca de Keyons</strong>. Aquí vive todo lo que hace <strong>reconocible</strong> a la marca y las <strong>reglas</strong> para aplicarla bien en cada pieza: del contrato a la interfaz del producto.</p>
+<main class="shelf">
+  <div class="wrap">
+    <div class="shelf__h">
+      <h2>Seis manuales</h2>
+      <p>1 disponible · 5 en preparación</p>
     </div>
-  </section>
-
-  <!-- ══ ÍNDICE · áreas, capítulos y estado en un solo lugar ══ -->
-  <section class="section" id="indice">
-    <div class="wrap">
-      <div class="sec-head">
-        <span class="kicker">Índice del manual</span>
-        <h2 class="t-h2">Seis áreas, <span class="ink">un solo sistema</span></h2>
-        <div class="acar__nav"><button class="btn-icon" type="button" data-cstep="-1" data-target="areas-grid" aria-label="Anterior"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13 8H3M6.8 4.2 3 8l3.8 3.8"/></svg></button><button class="btn-icon" type="button" data-cstep="1" data-target="areas-grid" aria-label="Siguiente"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></button></div>
-      </div>
-      <div class="grp grp--row acar" data-r="card" id="areas-grid"></div>
-    </div>
-  </section>
-
-  <!-- ══ CÓMO LEER · cuatro capas que no se confunden ══ -->
-  <section class="section" style="padding-top:0">
-    <div class="wrap">
-      <div class="sec-head">
-        <span class="kicker">Cómo leer este manual</span>
-        <h2 class="t-h2"><span class="mute">Cuatro capas</span> que no se confunden</h2>
-        <p class="t-lead">Este manual es la norma para <strong>diseñadores, desarrolladores, agentes de inteligencia artificial y colaboradores externos</strong>. Keyons hace productos SaaS, software a la medida, herramientas internas y soluciones con la marca exclusiva del cliente: por eso cada regla pertenece a una de estas capas.</p>
-      </div>
-      <div class="cols">
-        <div><div class="cols__n">01</div><p class="t-h4">La identidad visual de Keyons</p><p class="t-sm">Logotipo, color, tipografía, forma y recursos propios. Vive en Marca y Fundamentos, y no se impone en la marca exclusiva de un cliente.</p></div>
-        <div><div class="cols__n">02</div><p class="t-h4">Los principios de experiencia</p><p class="t-sm">Lo que comparten todas las soluciones Keyons, con su marca o con la del cliente. Viven en el capítulo 03, Principios de diseño.</p></div>
-        <div><div class="cols__n">03</div><p class="t-h4">El sistema de diseño</p><p class="t-sm">La infraestructura que aplica identidad y experiencia en pantalla. Vive en Sistemas de Interfaces.</p></div>
-        <div><div class="cols__n">04</div><p class="t-h4">La expresión de cada producto y cliente</p><p class="t-sm">Cómo cambia la pieza según el registro, el canal y el modelo comercial. Vive en Modos, Aplicaciones y Personalización.</p></div>
-      </div>
-    </div>
-  </section>
+    <ol class="list">
+      <li><a class="row" href="inicio.html">
+        <span class="row__n">01</span>
+        <span><span class="row__t">Marca y Experiencia</span><span class="row__d" style="display:block">El Libro de Marca: identidad, principios de diseño, sistemas de interfaces, aplicaciones y recursos.</span></span>
+        <span class="badge badge--on"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5 6.2 12 13 4.5"/></svg>Disponible</span>
+        <span class="row__go" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></span>
+      </a></li>
+      <li><div class="row row--off"><span class="row__n">02</span><span class="row__t">Sistema de Diseño</span><span class="badge badge--off">En preparación</span></div></li>
+      <li><div class="row row--off"><span class="row__n">03</span><span class="row__t">Producto e Ingeniería</span><span class="badge badge--off">En preparación</span></div></li>
+      <li><div class="row row--off"><span class="row__n">04</span><span class="row__t">Ventas y Crecimiento</span><span class="badge badge--off">En preparación</span></div></li>
+      <li><div class="row row--off"><span class="row__n">05</span><span class="row__t">Experiencia y Servicio al Cliente</span><span class="badge badge--off">En preparación</span></div></li>
+      <li><div class="row row--off"><span class="row__n">06</span><span class="row__t">Cultura y Operaciones</span><span class="badge badge--off">En preparación</span></div></li>
+    </ol>
+  </div>
 </main>
 
-<footer class="footer">
-  <div class="wrap footer__in">
-    <div><p class="footer__name">Keyons</p><p class="t-sm">Manual de marca · Versión 0.1 · Borrador · Costa Rica, 2026 · Parte de la <a class="link" href="biblioteca/index.html">Biblioteca Keyons</a></p></div>
-    <a class="btn-text" href="#" data-top>Volver arriba <svg class="go-u" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13V3M4.2 6.8 8 3l3.8 3.8"/></svg></a>
-  </div>
+<footer class="foot">
+  <div class="wrap"><span>Keyons · Costa Rica, 2026</span><span>Permisos, búsqueda y consulta con Estela: en preparación</span></div>
 </footer>
 
-<script src="js/nav-data.js"></script>
-<script src="js/libro.js"></script>
+<script src="js/keyons-cielo.js"></script>
+<script>
+/* El mismo cielo del libro, sin tocar el shader: solo la configuración */
+if (window.KeyonsCielo) window.KeyonsCielo.mount(document.getElementById('hero'), { sky: 'mediodia', seed: 'biblioteca-keyons' });
+</script>
 </body>
 </html>

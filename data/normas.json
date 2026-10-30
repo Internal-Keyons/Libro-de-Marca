@@ -197,6 +197,30 @@
   "n": "7.12",
   "t": "Modo interfaz"
  },
+ "fundamentos/composicion/editorial.html#decidir": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CMP-001",
+  "n": "10.1",
+  "t": "Decidir la composición"
+ },
+ "fundamentos/composicion/editorial.html#reticulas": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CMP-003",
+  "n": "10.3",
+  "t": "Retículas editoriales"
+ },
+ "fundamentos/composicion/editorial.html#ritmo": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CMP-004",
+  "n": "10.4",
+  "t": "Ritmo visual"
+ },
+ "fundamentos/composicion/editorial.html#simetria": {
+  "estado": "vigente",
+  "id": "KYN-MRK-CMP-002",
+  "n": "10.2",
+  "t": "Orden y experimentación"
+ },
  "fundamentos/criterio/antipatrones.html#vis-001": {
   "estado": "vigente",
   "id": "KYN-MRK-VIS-001",
@@ -352,6 +376,12 @@
   "id": "KYN-MRK-ILU-007",
   "n": "12.7",
   "t": "Patrones y texturas"
+ },
+ "fundamentos/elementos/graficos.html#profundidad": {
+  "estado": "vigente",
+  "id": "KYN-MRK-ILU-009",
+  "n": "12.9",
+  "t": "Profundidad atmosférica"
  },
  "fundamentos/elementos/graficos.html#rafagas": {
   "estado": "vigente",
@@ -521,6 +551,12 @@
   "n": "8.1",
   "t": "Familias"
  },
+ "fundamentos/tipografia/sistema.html#funcion": {
+  "estado": "vigente",
+  "id": "KYN-MRK-TYP-007",
+  "n": "8.7",
+  "t": "Uso por función"
+ },
  "fundamentos/tipografia/sistema.html#kickers": {
   "estado": "vigente",
   "id": "KYN-MRK-TYP-005",
@@ -642,7 +678,7 @@
   "t": "Sistema de metáforas"
  },
  "marca/principios.html#calidad": {
-  "estado": "vigente",
+  "estado": "descontinuada",
   "id": "KYN-MRK-DIS-006",
   "n": "3.6",
   "t": "Calidad sin firma visible"
@@ -651,25 +687,25 @@
   "estado": "vigente",
   "id": "KYN-MRK-DIS-003",
   "n": "3.3",
-  "t": "Calma estructural y expresión visual"
+  "t": "Diseño: calma y expresión"
  },
  "marca/principios.html#capas": {
   "estado": "vigente",
   "id": "KYN-MRK-DIS-002",
   "n": "3.2",
-  "t": "Identidad, experiencia y sistema"
+  "t": "Identidad, experiencia y sistema: roles definidos"
  },
  "marca/principios.html#comprension": {
   "estado": "vigente",
   "id": "KYN-MRK-DIS-005",
   "n": "3.5",
-  "t": "Comprensión antes que complejidad"
+  "t": "Claridad antes que complejidad"
  },
  "marca/principios.html#contexto": {
   "estado": "vigente",
   "id": "KYN-MRK-DIS-004",
   "n": "3.4",
-  "t": "Expresividad contextual"
+  "t": "Intensidad según contexto"
  },
  "marca/principios.html#criterio": {
   "estado": "vigente",

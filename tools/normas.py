@@ -36,6 +36,24 @@ NUEVAS = {
         'Gradientes ornamentales', 'Geometría genérica', 'Acentos tipográficos repetidos', 'Iconografía de relleno',
         'Saturación de microelementos', 'Simetría automática', 'Movimiento ornamental', 'Contraste insuficiente',
         'Lenguaje genérico', 'Maximalismo uniforme', 'Originalidad a costa de orientación', 'Composición no intercambiable'], 1)},
+    # 10 · Composiciones (2026-10-30)
+    'fundamentos/composicion/editorial.html#decidir': ('KYN-MRK-CMP-001', 'Decidir la composición'),
+    'fundamentos/composicion/editorial.html#simetria': ('KYN-MRK-CMP-002', 'Orden y experimentación'),
+    'fundamentos/composicion/editorial.html#reticulas': ('KYN-MRK-CMP-003', 'Retículas editoriales'),
+    'fundamentos/composicion/editorial.html#ritmo': ('KYN-MRK-CMP-004', 'Ritmo visual'),
+    # 08 · Tipografía y 12 · Elementos gráficos (2026-10-30)
+    'fundamentos/tipografia/sistema.html#funcion': ('KYN-MRK-TYP-007', 'Uso por función'),
+    'fundamentos/elementos/graficos.html#profundidad': ('KYN-MRK-ILU-009', 'Profundidad atmosférica'),
+}
+
+# Cambios de título o estado de normas ya emitidas (el ID nunca cambia)
+CAMBIOS = {
+    'KYN-MRK-DIS-002': {'t': 'Identidad, experiencia y sistema: roles definidos'},
+    'KYN-MRK-DIS-003': {'t': 'Diseño: calma y expresión'},
+    'KYN-MRK-DIS-004': {'t': 'Intensidad según contexto'},
+    'KYN-MRK-DIS-005': {'t': 'Claridad antes que complejidad'},
+    # 2026-10-30: sale de Principios de diseño; el ID queda reservado
+    'KYN-MRK-DIS-006': {'estado': 'descontinuada'},
 }
 
 
@@ -67,9 +85,10 @@ def main():
     reg = json.load(open(REG, encoding='utf-8'))
     ids = {v['id'] for v in reg.values()}
     for h, v in reg.items():
+        v.update(CAMBIOS.get(v['id'], {}))
         if h in secs:
             v['n'] = secs[h][0]
-        else:
+        elif v['estado'] != 'descontinuada':
             print('AVISO: la norma', v['id'], 'ya no tiene sección en', h, '(no se borra)')
     for h, (nid, t) in NUEVAS.items():
         if h in reg:

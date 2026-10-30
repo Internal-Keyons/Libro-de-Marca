@@ -259,8 +259,7 @@ body.is-home{padding-top:0}
 .hdr__panel-search{width:100%;display:flex;align-items:center;justify-content:center;gap:8px;padding:16px;border:1px solid #fff;border-radius:var(--r-pill);font-size:14px;font-weight:500;color:#fff;transition:background-color 300ms ease,border-color 300ms ease}
 .hdr__panel-search svg{width:16px;height:16px;stroke:currentColor;stroke-width:1.6;fill:none;stroke-linecap:round}
 .hdr__panel-search:hover{background:var(--k-cielo);border-color:var(--k-cielo)}
-/* Seis áreas desde 2026-10-29: el menú pasa a la hamburguesa antes, para no tocar el logo */
-@media(max-width:1239px){
+@media(max-width:1179px){
   .hdr__links,.hdr__right{display:none}
   .hdr__burger{display:inline-flex}
   .hdr__logo{left:24px;width:64px;height:64px;transform:translateY(-50%)}
@@ -3787,3 +3786,70 @@ body .portal .portal__arcs{animation:none!important;--ripple:0px;will-change:tra
 .kidx__r{grid-template-columns:150px 52px minmax(0,1fr) auto;padding:16px 0}
 @media(max-width:900px){.kcodes,.kidx__list{grid-template-columns:1fr}}
 .canon--2 .canon__ex{padding-top:45px}
+
+
+/* ════ Ronda 2026-10-30 ════ */
+/* Menú: hamburguesa en todos los tamaños (seis áreas saturaban la barra). En escritorio va a la izquierda,
+   el logo sigue centrado y el buscador a la derecha. El panel abierto es blanco con letras Azul Noche. */
+.hdr__links{display:none}
+.hdr__burger{display:inline-flex;order:-1;margin-left:-8px}
+@media(max-width:1179px){.hdr__burger{order:0;margin-left:auto}}
+.hdr__panel{background:var(--k-puro);backdrop-filter:none;-webkit-backdrop-filter:none;border-top:1px solid var(--color-border);box-shadow:0 24px 48px -24px rgba(16,18,42,.28)}
+.hdr__panel nav{max-width:1232px;margin:0 auto;gap:20px}
+.hdr__panel a{color:var(--k-noche)}
+.hdr__panel a:hover{color:var(--k-noche)}
+@media(hover:hover) and (min-width:1180px){.hdr__panel a:hover{text-decoration:underline;text-decoration-color:var(--k-cielo);text-decoration-thickness:2px;text-underline-offset:6px}}
+.hdr__panel a[aria-current="true"]{color:var(--k-noche);font-weight:700;text-decoration:underline;text-decoration-color:var(--k-cielo);text-decoration-thickness:2px;text-underline-offset:6px}
+.hdr__panel-foot{max-width:1232px;margin-left:auto;margin-right:auto;border-top-color:var(--color-border)}
+.hdr__panel-search{border-color:var(--k-cielo);color:var(--k-noche)}
+.hdr__panel-search:hover{background:var(--k-cielo);border-color:var(--k-cielo);color:var(--k-noche)}
+@media(min-width:1180px){.hdr__panel-search{width:auto;display:inline-flex;padding:12px 28px}}
+
+/* Más aire entre columnas: condiciones de metáforas (KYN-MRK-CON-004) y pares evitamos / hacemos */
+.step{column-gap:var(--s16)}
+.pairs__row > *{padding-right:var(--s10)}
+.pairs__row > * + *{padding-left:var(--s10)}
+@media(max-width:760px){.step{column-gap:var(--s5)}.pairs__row > *{padding-right:0}.pairs__row > * + *{padding-left:0}}
+
+/* 3.3 · Calma y expresión: dos paneles en fila; exterior recto, interior curvo */
+.cye{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s2);margin-top:var(--s10)}
+.cye__i{margin:0}
+.cye__stage{aspect-ratio:400/260;overflow:hidden}
+.cye__stage svg{display:block;width:100%;height:100%}
+.cye__stage--calma{background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border);border-radius:0 var(--r-card) var(--r-card) 0}
+.cye__stage--expresion{background:var(--k-noche);border-radius:var(--r-card) 0 0 var(--r-card)}
+.cye figcaption{margin-top:var(--s5)}
+.cye figcaption .paren{display:block;margin-bottom:var(--s1);font-size:13px;color:var(--color-text-3)}
+.cye figcaption p{font-size:clamp(20px,1.9vw,24px);font-weight:500;letter-spacing:-.02em;line-height:1.25;color:var(--color-text)}
+@media(max-width:760px){
+  .cye{grid-template-columns:minmax(0,1fr);gap:var(--s8)}
+  .cye__stage--calma,.cye__stage--expresion{border-radius:0}
+}
+
+/* 3.5 · Claridad primero: arcos de método (8.7) */
+.orient{margin-top:var(--s10)}
+.orient svg{display:block;width:100%;height:auto}
+
+/* 8.7 · Uso por función: muestra de cada familia a la izquierda, su función a la derecha */
+.tyfn{margin-top:var(--s10);border-bottom:1px solid var(--color-border-strong)}
+.tyfn__r{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);column-gap:var(--s10);align-items:center;padding:var(--s8) 0;border-top:1px solid var(--color-border-strong)}
+.tyfn__s{font-size:clamp(34px,3.6vw,52px);line-height:1;color:var(--color-text)}
+.tyfn__s--tasa{font-family:var(--font-display);font-weight:500;letter-spacing:-.04em}
+.tyfn__s--jak{font-family:var(--font-sans);font-weight:500;letter-spacing:-.02em}
+.tyfn__s--num{font-size:clamp(56px,6vw,88px)}
+.tyfn__s--op{font-size:clamp(28px,2.6vw,36px);font-variant-numeric:tabular-nums;letter-spacing:0}
+.tyfn__t{font-size:17px;font-weight:600;line-height:1.35}
+.tyfn__d{margin-top:var(--s1);font-size:15px;line-height:1.55;color:var(--color-text-2)}
+@media(max-width:760px){.tyfn__r{grid-template-columns:minmax(0,1fr);row-gap:var(--s3)}}
+
+/* 8.8 · Tracking en pantalla: la misma frase a tres escalas y tres espaciados (comparación, no regla) */
+.trk{margin-top:var(--s10);overflow-x:auto}
+.trk__r{display:grid;grid-template-columns:72px repeat(3,minmax(220px,1fr));column-gap:var(--s6);align-items:center;padding:var(--s5) 0;border-top:1px solid var(--color-border)}
+.trk__h{padding:var(--s3) 0;font-size:13px;color:var(--color-text-3);border-top:0}
+.trk__k{font-size:13px;color:var(--color-text-3)}
+.trk__c{overflow:hidden}
+.trk__s{display:block;font-family:var(--font-display);font-weight:500;line-height:1;white-space:nowrap;color:var(--color-text)}
+
+/* 12.9 · Profundidad atmosférica: un plano Blanco sobre Azul Cielo liso, con sombra difusa */
+.atmo{display:grid;place-items:center;margin-top:var(--s10);aspect-ratio:16/7;background:var(--k-cielo)}
+.atmo__card{width:44%;aspect-ratio:4/3;background:var(--k-blanco);box-shadow:0 40px 80px -24px rgba(16,18,42,.35),0 12px 24px -12px rgba(16,18,42,.18)}
