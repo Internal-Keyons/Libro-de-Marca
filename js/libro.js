@@ -26,7 +26,8 @@
   const STATUS = { v: 'Vigente', b: 'Borrador', p: 'Por definir' };
   const SKEY = { v: 'vigente', b: 'borrador', p: 'pendiente' };
   const dot = (s = 'p') => `<span class="dot dot--${SKEY[s]}" title="${STATUS[s]}" aria-label="${STATUS[s]}"></span>`;
-  const slug = (c) => 'cap-' + c.n;
+  /* Ancla estable por clave: el número de capítulo puede cambiar, la clave no */
+  const slug = (c) => 'cap-' + (c.k || c.n);
   const base = (h) => (h || '').split('#')[0];
   const hash = (h) => (h || '').split('#')[1] || '';
 
@@ -88,7 +89,7 @@
   }
 
   /* ─── Referencias que llevan a su sección ───
-     Cada «6.15», «capítulo 11» o «(14)» del texto se vuelve un enlace a esa sección. */
+     Cada ID (KYN-MRK-COL-014), «capítulo 14» o «(14)» del texto se vuelve un enlace a esa sección. */
   {
     const sx = document.createElement('script');
     sx.src = (document.body.dataset.root || '.') + '/js/secciones.js';
@@ -129,7 +130,7 @@
           let href = null, pre = '', label = m[0], post = '';
           if (m[1] && byId[m[1]]) { href = byId[m[1]].h; label = m[1]; }
           else if (m[3] && C[String(+m[3])]) { href = C[String(+m[3])]; pre = m[2]; label = m[3]; }
-          else if (m[4] && S[m[4]]) { href = S[m[4]]; label = (byH[href] && byH[href].e === 'vigente') ? byH[href].id : m[4]; }
+          /* Un número suelto («6.15») ya no se enlaza: las citas se escriben por ID. Así «WCAG 2.1» o «6.5 : 1» no apuntan a una norma */
           else if (m[5] && C[String(+m[5])]) { href = C[String(+m[5])]; pre = '('; label = m[5]; post = ')'; }
           if (!href) continue;
           frag = frag || document.createDocumentFragment();
@@ -640,7 +641,7 @@
       <article class="area">
         <div class="area__color grad grad--${a.color}" aria-hidden="true"></div>
         <div class="area__body">
-          <h3 class="t-h3">${esc(a.t)}</h3>
+          <h3 class="t-h3">${esc(a.full || a.t)}</h3>
           <p class="t-sm">${esc(a.d)}</p>
           <ul class="area__list">${a.ch.map((c) => `<li><a href="${url(a.href)}#${slug(c)}"><span>${c.n}</span>${esc(c.t)}${dot(c.s)}</a></li>`).join('')}</ul>
           <div class="area__foot"><span class="paren">(${a.ch.length} ${a.ch.length === 1 ? 'capítulo' : 'capítulos'})</span>
@@ -973,7 +974,7 @@
     const badge = (st) => `<span class="badge badge--${SKEY[st]}">${ic({ v: I.check, b: '<circle cx="8" cy="8" r="5.6"/><path d="M8 2.4v11.2"/>', p: '<circle cx="8" cy="8" r="5.6"/>' }[st])}${STATUS[st]}</span>`;
     ap.innerHTML = `
       <header class="page-head">
-        <h1 class="t-h1">${esc(area.t)}</h1>
+        <h1 class="t-h1">${esc(area.full || area.t)}</h1>
         <p class="t-lead">${esc(area.d)}</p>
         <div class="facts">
           <div><span class="paren">(Capítulos)</span><b>${area.ch[0].n}–${area.ch[area.ch.length - 1].n}</b></div>
@@ -992,7 +993,11 @@
           <div class="chap__cols">${cols(c)}</div>
         </section>`).join('')}`;
     /* El contenido se genera después de cargar: se respeta el ancla de la URL */
-    if (location.hash) { const t = document.querySelector(location.hash); if (t) requestAnimationFrame(() => t.scrollIntoView()); }
+    /* Enlaces anteriores a la renumeración (#cap-06): llevan al capítulo que tenía ese número */
+    const old = /^#cap-(\d\d)$/.exec(location.hash);
+    const was = old && area.ch.find((c) => c.was === old[1]);
+    if (was) history.replaceState(null, '', '#' + slug(was));
+    if (location.hash) { const t = document.getElementById(location.hash.slice(1)); if (t) requestAnimationFrame(() => t.scrollIntoView()); }
   }
 
   /* ─── Paginador automático ─── */
