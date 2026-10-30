@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Usar normas en un proyecto · Manual de marca · Keyons</title>
+<meta name="description" content="El Libro de Marca Keyons en formato estructurado: Markdown por capítulo y por norma, índice JSON y tokens de diseño.">
+<link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/libro.css">
+</head>
+<body data-root=".." data-area="">
+
+<header id="topbar"></header>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Ruta"><a href="../inicio.html">Inicio</a>
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg><span>Usar normas en un proyecto</span></nav>
+      <div class="sec-head">
+        <h1 class="t-h2">Usar normas <span class="mute">en un proyecto</span></h1>
+        <p class="t-lead">El manual se escribe una vez y se publica en tres formas. Esta es la <strong>lectura estructurada</strong>: la que usan Estela, los agentes de inteligencia artificial y los equipos de desarrollo.</p>
+      </div>
+      <div class="cols cols--3">
+        <div><div class="cols__n">01</div><p class="t-h4">Lectura<br>visual</p><p class="t-sm">El libro web, con ejemplos, demostraciones y enlaces entre normas. Es la experiencia diseñada para las personas.</p></div>
+        <div><div class="cols__n">02</div><p class="t-h4">Lectura<br>documental</p><p class="t-sm">La versión íntegra para leer, archivar e imprimir en PDF. <a class="link" href="../documental/index.html">Consultar versión documental</a></p></div>
+        <div><div class="cols__n">03</div><p class="t-h4">Lectura<br>estructurada</p><p class="t-sm">Markdown por capítulo y por norma, con identificadores, estado, versión, rutas y referencias.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="t-h2"><span class="mute">Los</span> archivos</h2>
+      </div>
+      <div class="iafiles">
+        <a class="iafile" href="libro-de-marca.md"><b>Libro completo</b><code>/ia/libro-de-marca.md</code><span>Todas las áreas, capítulos y normas en el orden del índice, con la ruta de origen de cada sección.</span></a>
+        <a class="iafile" href="indice.json"><b>Índice</b><code>/ia/indice.json</code><span>Áreas, capítulos y normas: estado, versión, rutas, archivo de cada una, las normas que cita y las que la citan.</span></a>
+        <a class="iafile" href="capitulos/12-elementos.md"><b>Un capítulo</b><code>/ia/capitulos/&lt;número&gt;-&lt;clave&gt;.md</code><span>Un archivo por capítulo. Ejemplo: 12 Elementos gráficos.</span></a>
+        <a class="iafile" href="normas/KYN-MRK-ILU-001.md"><b>Una norma</b><code>/ia/normas/&lt;ID&gt;.md</code><span>Un archivo por norma con ID permanente. Ejemplo: KYN-MRK-ILU-001, Viñetas de marca.</span></a>
+        <a class="iafile" href="tokens.json"><b>Tokens de diseño</b><code>/ia/tokens.json</code><span>Color, espacio, radio, movimiento y tipografía en el formato del Design Tokens Community Group.</span></a>
+        <a class="iafile" href="../llms.txt"><b>Entrada para IA</b><code>/llms.txt</code><span>El mapa breve que leen primero las herramientas de inteligencia artificial.</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="t-h2"><span class="mute">Cómo</span> citarlas</h2>
+      </div>
+      <div class="cols cols--3">
+        <div><div class="cols__n">01</div><p class="t-h4">Por su ID</p><p class="t-sm">Cada norma se cita por su identificador permanente, KYN-MRK-XXX-###. El número de sección puede cambiar; el ID no.</p></div>
+        <div><div class="cols__n">02</div><p class="t-h4">Solo vigentes</p><p class="t-sm">Un proyecto aplica las normas vigentes. Los borradores y lo pendiente de validación son propuestas, no estándar.</p></div>
+        <div><div class="cols__n">03</div><p class="t-h4">Con su versión</p><p class="t-sm">Cada archivo indica la versión del manual y la fecha de exportación. Un proyecto anota con cuál se construyó.</p></div>
+      </div>
+      <p class="howto__alt"><span>Acceso sujeto a permisos: se asignarán con la Biblioteca Keyons. Mientras tanto, uso interno y distribución autorizada.</span></p>
+    </div>
+  </section>
+</main>
+
+<script src="../js/nav-data.js"></script>
+<script src="../js/libro.js"></script>
+</body>
+</html>

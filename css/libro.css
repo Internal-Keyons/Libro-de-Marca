@@ -3963,3 +3963,46 @@ body .portal .portal__arcs{animation:none!important;--ripple:0px;will-change:tra
 .vd-sym i:first-child,.vd-asym i:first-child{border-radius:0 var(--r-component) var(--r-component) 0}
 .vd-sym i:nth-child(2){border-radius:var(--r-component)}
 .vd-sym i:last-child,.vd-asym i:last-child{border-radius:var(--r-component) 0 0 var(--r-component)}
+
+/* Encabezado de Interfaces: Salmón Atardecer con los arcos claros de Modos */
+body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
+
+/* 12.1 · Viñetas: dos formas, color permitido y copia en SVG */
+.vtool{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:var(--s2);margin-top:var(--s12);--vt-c:#729BDD}
+.vtool__stage{display:grid;grid-template-columns:1fr 1fr;background:var(--k-puro);box-shadow:inset 0 0 0 1.5px var(--color-border);border-radius:0 var(--r-component) var(--r-component) 0;transition:background-color .5s var(--e-out)}
+.vtool__v{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--s6);min-height:300px;padding:var(--s8);color:var(--vt-c);cursor:copy;transition:color .4s var(--e-out)}
+.vtool__v svg{width:132px;height:132px;transition:scale .4s var(--e-out)}
+.vtool__v:hover svg,.vtool__v:focus-visible svg{scale:1.06}
+.vtool__v span{font-size:13px;color:var(--color-text-3)}
+.vtool__info{display:flex;flex-direction:column;gap:var(--s4);padding:var(--s8);background:var(--k-puro);box-shadow:inset 0 0 0 1.5px var(--color-border);border-radius:var(--r-component) 0 0 var(--r-component)}
+.vtool__info .paren{color:var(--color-text-3)}
+.vtool__colors{display:grid;gap:var(--s1)}
+.vtool__colors button{display:flex;align-items:center;gap:var(--s3);padding:6px 0;font-size:14px;color:var(--color-text-2);text-align:left}
+.vtool__colors button i{width:16px;height:16px;border-radius:50%;box-shadow:0 0 0 1px var(--color-border-strong)}
+.vtool__colors button[aria-pressed="true"]{font-weight:600;color:var(--color-text)}
+.vtool__colors button[aria-pressed="true"] i{box-shadow:0 0 0 2px var(--k-blanco),0 0 0 3px var(--k-noche)}
+.vtool__d{display:grid;row-gap:2px;margin-top:auto;font-size:14px;color:var(--color-text-2)}
+.vtool__d b{font-size:15px;font-weight:500;color:var(--color-text)}
+.vtool__hint{font-size:13px;color:var(--color-text-3)}
+.vtool.is-dark .vtool__stage{background:var(--k-noche);box-shadow:none}
+.vtool.is-dark .vtool__v span{color:rgba(244,244,244,.7)}
+@media(max-width:760px){.vtool{grid-template-columns:1fr}.vtool__stage,.vtool__info{border-radius:0}.vtool__v{min-height:220px}.vtool__v svg{width:96px;height:96px}}
+
+/* Otras formas de leer el manual: discretas, en el menú y en la portada */
+.hdr__panel-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:var(--s4) var(--s8)}
+.hdr__panel-alt{display:flex;flex-wrap:wrap;gap:var(--s2) var(--s6)}
+.hdr__panel-alt a{font-size:13px;color:var(--color-text-3);text-decoration:none;transition:color .3s var(--e-out)}
+.hdr__panel-alt a:hover,.hdr__panel-alt a:focus-visible{color:var(--k-noche)}
+@media(max-width:1179px){.hdr__panel-foot{flex-direction:column;align-items:stretch}.hdr__panel-alt{justify-content:center}}
+.howto__alt{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s2) var(--s8);margin-top:var(--s12);padding-top:var(--s6);border-top:1.5px solid var(--color-border)}
+.howto__alt span{margin-left:auto;font-size:13px;color:var(--color-text-3)}
+@media(max-width:640px){.howto__alt span{margin-left:0;width:100%}}
+/* Usar normas en un proyecto · lista de archivos */
+.iafiles{border-top:1.5px solid var(--k-noche)}
+.iafile{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,4fr) minmax(0,5fr);gap:var(--s2) var(--s8);align-items:baseline;padding:var(--s6) 0;border-bottom:1px solid var(--color-border);color:var(--color-text);text-decoration:none;transition:background-color .3s var(--e-out)}
+.iafile:hover,.iafile:focus-visible{background:var(--k-puro)}
+.iafile b{font-size:17px;font-weight:500}
+.iafile code{font:13px var(--font-mono);color:var(--color-text-2);overflow-wrap:anywhere}
+.iafile span{font-size:14px;color:var(--color-text-2)}
+@media(max-width:760px){.iafile{grid-template-columns:1fr}}
+.wrap > .crumbs{margin-bottom:var(--s10)}

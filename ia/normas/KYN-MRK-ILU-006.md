@@ -1,0 +1,68 @@
+---
+manual: "Libro de Marca Keyons"
+version: "0.1"
+fecha: "2026-10-30"
+permisos: "por definir; se asignarán con la Biblioteca Keyons"
+id: "KYN-MRK-ILU-006"
+titulo: "Ráfagas"
+numero: "12.7"
+estado: "vigente"
+capitulo: "12 Elementos gráficos"
+area: "Fundamentos"
+fuente: "/fundamentos/elementos/graficos.html#rafagas"
+referencias: []
+citada_por: ["KYN-MRK-VIS-011"]
+---
+
+# KYN-MRK-ILU-006 · Ráfagas
+
+Número: 12.7 · Estado: vigente · Capítulo: 12 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#rafagas`
+
+##### El viento, liberado sobre blanco
+
+Estelas de degradado orgánico que fluyen sobre Blanco Keyons sin estar enmarcadas: el movimiento del viento en la fase activa del cielo. **Son el recurso más expresivo del sistema.**
+
+Ráfaga
+(01/06)
+Ola · Mediodía
+
+Ráfaga
+(02/06)
+Flujo · Atardecer
+
+Ráfaga
+(03/06)
+Giro · Amanecer
+
+Ráfaga
+(04/06)
+Estela · Noche
+
+Ráfaga
+(05/06)
+Pulso · Galaxia
+
+Ráfaga
+(06/06)
+Corriente · Mediodía
+
+**(Qué son)**
+Flujos difusos de color con textura granulada, dirección clara y forma serpenteante. No tienen bordes definidos: se disuelven en el blanco. **Hay varios estilos** (ola, flujo, giro, estela, pulso y corriente) y cada uno toma una fase del cielo.
+
+**(Cuándo se usan)**
+Portadas de reporte, historias y portadas de reels, contenido educativo, propuestas enterprise, piezas manifiesto, encabezados animados y piezas de modo expresivo.
+
+**(Cuándo no)**
+En interfaz de producto, tableros, documentos legales y comunicados corporativos sobrios. Tampoco sobre fondos de color: siempre sobre Blanco Keyons o Crema.
+
+###### Construcción
+
+- Color · Una sola fase del cielo por ráfaga: Amanecer, Atardecer, Noche o Galaxia. Nunca una mezcla de fases.
+- Textura · Grano fino al 15 a 20 % de opacidad, siempre.
+- Forma · Serpenteante y orgánica. Nunca geométrica ni un círculo perfecto.
+- Dirección · Clara y legible: diagonal, vertical o curva. Nunca estática ni centrada.
+- Difuminado · Los bordes se disuelven en el Blanco Keyons sin un corte visible.
+- Animación · Movimiento lento y continuo en la dirección del viento, en ciclos de 20 a 30 s. Orgánico, nunca mecánico.
+- Con tipografía · Puede acompañarse de texto vertical en los bordes, al estilo de revista. Nunca sobre la zona densa: el texto vive en el blanco que la rodea.
+
+La ráfaga es el viento visible: libera el cielo del marco.

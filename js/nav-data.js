@@ -151,8 +151,8 @@ window.KEYONS_NAV = [
     id: 'interfaces', t: 'Interfaces', href: 'interfaces/index.html', color: 'atardecer', colorName: 'Salmón Atardecer',
     d: 'Diseño web, SaaS, custom y herramientas internas.',
     ch: [
-      { n: '20', k: 'arquitectura', t: 'Sistemas de diseño', s: 'p', d: 'Identidad, experiencia, sistema y expresión de cada producto: cuatro capas que no se confunden.', items: [
-        { t: 'Las cuatro capas' }, { t: 'Capas de tokens' }, { t: 'Qué hereda cada producto' }, { t: 'Relación con el manual Sistema de Diseño', st: 'Sistema de Diseño' } ] },
+      { n: '20', k: 'arquitectura', t: 'Sistemas de diseño', s: 'b', d: 'Identidad, experiencia, sistema y expresión de cada producto: cuatro capas que no se confunden.', items: [
+        { t: 'Las cuatro capas', s: 'b', href: 'interfaces/sistemas.html#capas' }, { t: 'Capas de tokens' }, { t: 'Qué hereda cada producto' }, { t: 'Relación con el manual Sistema de Diseño', st: 'Sistema de Diseño' } ] },
       { n: '21', k: 'tokens', t: 'Tokens visuales', s: 'p', d: 'Tokens semánticos de interfaz y temas. Los valores de color, tipografía y espacio viven en Fundamentos.', items: [
         { t: 'Tokens semánticos' }, { t: 'Temperatura sobria y viva' }, { t: 'Temas claro y oscuro' }, { t: 'Temas de cliente' } ] },
       { n: '22', k: 'componentes', t: 'Componentes UI', s: 'p', d: 'Botones, campos, mensajes, badges y tablas con la geometría de Forma y espacio.', items: [

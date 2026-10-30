@@ -1,0 +1,57 @@
+# Libro de Marca Keyons
+
+> Manual de identidad y expresión visual de Keyons. Versión 0.1, exportada el 2026-10-30. Cada norma tiene un ID permanente KYN-MRK-XXX-### y un estado: vigente, borrador o descontinuada.
+
+Escrito una vez en el libro (HTML) y publicado en tres formas: lectura visual, documental y estructurada. Permisos: por definir; se asignarán con la Biblioteca Keyons.
+
+## Libro completo
+
+- [Libro completo en Markdown](/ia/libro-de-marca.md)
+- [Índice de áreas, capítulos y normas](/ia/indice.json): estado, versión, rutas y referencias cruzadas
+- [Tokens de diseño](/ia/tokens.json): formato Design Tokens Community Group
+
+## Capítulos
+
+- [01 ADN](/ia/capitulos/01-adn.md): La esencia, el propósito y los principios que no se negocian.
+- [02 Concepto](/ia/capitulos/02-concepto.md): El cielo como símbolo, las metáforas y lo que no somos.
+- [03 Principios de diseño](/ia/capitulos/03-principios.md): Cinco principios que guían cada decisión de diseño de Keyons, con su marca o la del cliente.
+- [04 Voz](/ia/capitulos/04-voz.md): Cómo escribe Keyons: dos modos, cuatro reglas y un vocabulario propio.
+- [05 Estela](/ia/capitulos/05-estela.md): La cara de Keyons: quién es, cómo habla, cómo se ve y cómo actúa.
+- [06 Identidad](/ia/capitulos/06-identidad.md): Logotipo, isotipo e insignia: construcción y uso.
+- [07 Color](/ia/capitulos/07-color.md): Un sistema en capas: paleta base, escalas, cielos y color por modo.
+- [08 Tipografía](/ia/capitulos/08-tipografia.md): Plus Jakarta Sans y TASA Orbiter: escala, jerarquía y reglas.
+- [09 Forma y espacio](/ia/capitulos/09-forma.md): Interior curvo, exterior recto. Radio y separación.
+- [10 Composiciones](/ia/capitulos/10-composicion.md): Cómo decidir la composición que conviene a cada contenido: retícula, simetría, asimetría y ritmo.
+- [11 Criterios visuales](/ia/capitulos/11-criterio.md): Dieciséis normas para reconocer lo genérico y elegir una alternativa con razón.
+- [12 Elementos gráficos](/ia/capitulos/12-elementos.md): Viñetas, alternancia de formas, cristal y fotografía.
+- [13 Iconografía](/ia/capitulos/13-iconografia.md): Estilo de trazo, tamaños según contexto y catálogo.
+- [14 Datos](/ia/capitulos/14-datos.md): Gráficos que comunican con rigor: principios, color, tipografía y estructura.
+- [15 Movimiento](/ia/capitulos/15-movimiento.md): Curvas, duraciones y resortes de la firma de movimiento.
+- [16 Accesibilidad](/ia/capitulos/16-accesibilidad.md): Contraste, tamaños mínimos y verificación.
+- [17 Corporativo](/ia/capitulos/17-corporativo.md): El registro formal: sobrio, claro y preciso, de principio a fin.
+- [18 Expresivo](/ia/capitulos/18-expresivo.md): El registro abierto: cielos, narrativa y emoción, siempre sobre la retícula.
+- [19 Digital](/ia/capitulos/19-digital.md): Producto e interfaz: sobrio con momentos vivos. Componentes y patrones.
+- [20 Sistemas de diseño](/ia/capitulos/20-arquitectura.md): Identidad, experiencia, sistema y expresión de cada producto: cuatro capas que no se confunden.
+- [21 Tokens visuales](/ia/capitulos/21-tokens.md): Tokens semánticos de interfaz y temas. Los valores de color, tipografía y espacio viven en Fundamentos.
+- [22 Componentes UI](/ia/capitulos/22-componentes.md): Botones, campos, mensajes, badges y tablas con la geometría de Forma y espacio.
+- [23 Patrones visuales](/ia/capitulos/23-patrones.md): Cómo se orienta la persona: dónde está, qué puede hacer, qué ocurre y cómo sigue.
+- [24 SaaS predeterminado](/ia/capitulos/24-saas.md): La interfaz por defecto de los productos Keyons y las zonas que el cliente ajusta.
+- [25 Personalización](/ia/capitulos/25-marca-blanca.md): Productos bajo la identidad del cliente: la calidad Keyons sin firma visible.
+- [26 Interfaces de Estela](/ia/capitulos/26-estela-ui.md): Cómo aparece y actúa Estela en pantalla. Su personalidad vive en Marca.
+- [27 Motion graphics](/ia/capitulos/27-motion.md): Movimiento de interfaz, Ráfaga y la experiencia sensorial de los productos.
+- [28 Guías visuales](/ia/capitulos/28-accesibilidad-ui.md): Foco, objetivos táctiles, contraste en componentes y estados que no dependen del color.
+- [29 Documentos](/ia/capitulos/29-documentos.md): Propuestas, contratos, facturas, correspondencia y papelería.
+- [30 Presentaciones](/ia/capitulos/30-presentaciones.md): Para clientes, capacitaciones, el equipo y talleres: método, historia, voz y estética.
+- [31 Sitio web](/ia/capitulos/31-sitio-web.md): Claridad antes que creatividad, con momentos de cielo.
+- [32 Redes y campañas](/ia/capitulos/32-redes.md): Publicaciones, campañas y contenido para redes sociales.
+- [33 Eventos y merch](/ia/capitulos/33-eventos.md): Eventos, talleres presenciales y artículos de marca.
+- [34 Personalización](/ia/capitulos/34-personalizacion.md): Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca blanca.
+- [35 Galería de imágenes](/ia/capitulos/35-galeria.md): Degradados, cielos, naturaleza y personas, con ID y crédito.
+- [36 Texturas y degradados](/ia/capitulos/36-texturas.md): Cielos hechos con código, con ID.
+- [37 Íconos](/ia/capitulos/37-iconos.md): El catálogo completo de la familia.
+- [38 Plantillas y documentos](/ia/capitulos/38-plantillas.md): Plantillas de presentación y manuales.
+- [39 Referencia](/ia/capitulos/39-referencia.md): La memoria de las decisiones.
+
+## Normas
+
+Un archivo por norma en /ia/normas/<ID>.md; la lista completa está en el índice.

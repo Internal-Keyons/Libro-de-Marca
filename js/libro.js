@@ -73,7 +73,8 @@
       </div>
       <div class="hdr__panel">
         <nav aria-label="Áreas del manual">${linkHtml('')}</nav>
-        <div class="hdr__panel-foot"><button class="hdr__panel-search" type="button" data-search>${ic(I.search)}Buscar en el manual</button></div>
+        <div class="hdr__panel-foot"><button class="hdr__panel-search" type="button" data-search>${ic(I.search)}Buscar en el manual</button>
+          <span class="hdr__panel-alt"><a href="${url('documental/index.html')}">Consultar versión documental</a><a href="${url('ia/index.html')}">Usar normas en un proyecto</a></span></div>
       </div>`;
     const burger = top.querySelector('.hdr__burger');
     const setOpen = (o) => { top.classList.toggle('is-open', o); burger.setAttribute('aria-expanded', o); burger.setAttribute('aria-label', o ? 'Cerrar menú' : 'Abrir menú'); };
@@ -461,6 +462,24 @@
       filter();
     });
     select(cur, false);
+  });
+
+  /* Viñetas: elegir un color permitido y copiar la forma en SVG */
+  document.querySelectorAll('[data-vtool]').forEach((vt) => {
+    let col = '#729BDD', name = 'Azul Cielo';
+    vt.addEventListener('click', (e) => {
+      const c = e.target.closest('[data-vc]');
+      if (c) {
+        col = c.dataset.vc; name = c.textContent.trim();
+        vt.style.setProperty('--vt-c', col); vt.classList.toggle('is-dark', c.dataset.bg === '#10122A');
+        vt.querySelectorAll('[data-vc]').forEach((o) => o.setAttribute('aria-pressed', String(o === c)));
+        vt.querySelector('.vtool__d').innerHTML = `<b>${name}</b><span>${c.dataset.d}</span>`;
+        return;
+      }
+      const v = e.target.closest('[data-vf]'); if (!v) return;
+      const svg = v.querySelector('svg').outerHTML.replace('viewBox="-2 -2 24 24" aria-hidden="true"', 'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20"').replace('currentColor', col);
+      copy(svg, `SVG copiado · viñeta ${v.dataset.vf}, ${v.dataset.vn}, ${name}`);
+    });
   });
 
   /* Cifras que cuentan desde cero */
