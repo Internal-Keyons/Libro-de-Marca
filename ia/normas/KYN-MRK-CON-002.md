@@ -22,6 +22,8 @@ Número: 2.1.1 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/c
 
 No aparecen en la misma proporción. Repetir el cielo dominante construye **reconocimiento**; variarlo con intención da **rango expresivo**.
 
+Las proporciones indicadas orientan el uso de los cielos en las piezas donde corresponde aplicar este lenguaje visual. No son cuotas obligatorias para cada documento, campaña o producto.
+
 01 · Primario
 
 ###### Mediodía
@@ -77,7 +79,3 @@ No: Mediodía. Sí: el cielo que corresponde a ese propósito.
 
 **(¿Hay duda entre dos?)**
 Gana Mediodía. Nunca se fuerza un cielo solo por cambiar.
-
-**(Las proporciones)**
-Las proporciones establecidas orientan la distribución de los cinco cielos en las piezas donde corresponde utilizar este lenguaje visual. No representan cuotas obligatorias para cada campaña, documento o producto.
-La elección de un cielo responde primero al sentido narrativo de la pieza. Su frecuencia de uso contribuye a mantener el reconocimiento de marca sin imponer recursos expresivos en contextos que requieren mayor contención.

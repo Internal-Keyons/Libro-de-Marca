@@ -25,11 +25,8 @@ La estética Keyons es una **identidad**. La experiencia Keyons es una **metodol
 **(Productos para clientes)**
 Los productos desarrollados para clientes pueden tener identidades visuales diferentes sin perder los estándares de calidad, claridad, accesibilidad y experiencia que caracterizan el trabajo de Keyons.
 
-**(Productos con estética predeterminada)**
-Los productos SaaS y las soluciones personalizadas que no requieren una identidad visual propia pueden utilizar una estética predeterminada desarrollada por Keyons.
-Esta expresión mantiene los estándares de experiencia compartidos y ofrece una identidad visual profesional, consistente y adaptable dentro de los límites establecidos para cada producto.
-
 **(Marca exclusiva del cliente)**
-Cuando una solución adopta la identidad exclusiva del cliente, debe respetar sus criterios visuales y las condiciones de personalización acordadas.
-Los proyectos contratados sin firma visible de Keyons no deben incorporar logotipos, marcas de agua ni otros elementos destinados a revelar la identidad del proveedor.
-La ausencia de marca visible no modifica los compromisos de claridad, accesibilidad, seguridad y calidad de experiencia.
+Las soluciones desarrolladas bajo la identidad exclusiva del cliente respetan sus criterios visuales, sin incorporar elementos destinados a revelar la participación de Keyons. Los estándares compartidos de experiencia y calidad permanecen.
+
+**(Estética predeterminada)**
+Los productos sin identidad visual propia pueden utilizar una estética desarrollada por Keyons, adaptable según los límites de cada modalidad de servicio.

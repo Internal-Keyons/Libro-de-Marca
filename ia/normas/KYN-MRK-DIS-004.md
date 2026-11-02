@@ -29,8 +29,6 @@ Puede utilizar grandes fotografías, composiciones experimentales y movimiento a
 Utilizada repetidamente durante el día, debe priorizar legibilidad, navegación sencilla, claridad y estabilidad visual.
 
 **(Dentro de una misma experiencia)**
-La intensidad visual también puede variar entre las pantallas de un mismo producto.
-Una bienvenida, una presentación de resultados o una sección explicativa pueden admitir mayor expresión gráfica. Los formularios, las tablas y las operaciones frecuentes requieren una composición más contenida, donde la información y las acciones sean protagonistas.
-El nivel de expresión debe responder a lo que la persona necesita comprender o realizar en cada momento.
+La intensidad también puede variar dentro de un mismo producto: una bienvenida admite mayor expresión gráfica que un formulario o una tabla utilizada diariamente.
 
 La creatividad nunca debe obstaculizar una decisión funcional.

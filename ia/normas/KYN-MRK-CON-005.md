@@ -5,7 +5,7 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-CON-005"
 titulo: "Formalidad según canal"
-numero: "2.2"
+numero: "2.2.1"
 estado: "vigente"
 capitulo: "02 Concepto"
 area: "Marca"
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-CON-005 · Formalidad según canal
 
-Número: 2.2 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/metaforas.html#canal`
+Número: 2.2.1 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/metaforas.html#canal`
 
 ##### El canal define la libertad
 

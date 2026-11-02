@@ -20,7 +20,7 @@ Número: 2.1 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/cie
 
 ##### Un mismo cielo, ningún horizonte igual
 
-Los retos de eficiencia, orden y escala se repiten en cualquier industria, pero **ninguna empresa los enfrenta desde el mismo horizonte**. Por eso cada solución se diseña a la medida de quien la habita.
+Los retos de eficiencia, orden y crecimiento se repiten entre industrias, pero cada organización los enfrenta desde una realidad diferente. Por eso nuestras soluciones responden a distintos niveles de adaptación, sin perder de vista las necesidades de quienes las utilizan.
 
 **(Universal)**
 El cielo es el único lenguaje visual que no necesita traducción. Cualquiera lo entiende, en cualquier idioma y cultura. Eso permite que Keyons hable con cualquier organización, en cualquier país, sin perder identidad.
@@ -31,4 +31,6 @@ Keyons nace en Costa Rica, así que sus primeros cielos son costarricenses: el a
 **(Excepción cósmica)**
 La Galaxia es el único cielo que no se fotografía en un lugar: representa la evolución ilimitada hacia lo que aún no existe.
 
-El cielo es el origen conceptual y cromático de la identidad Keyons. Su presencia visual se adapta al propósito de cada pieza: puede protagonizar una composición editorial o expresiva, mientras que en las aplicaciones funcionales la identidad se sostiene mediante los recursos visuales que correspondan.
+El cielo es el origen conceptual y cromático de Keyons. Su representación visual depende del propósito de cada pieza.
+
+En composiciones editoriales puede convertirse en protagonista. En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.

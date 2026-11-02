@@ -20,12 +20,11 @@ Número: 4.2 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/voz.html
 
 ##### Cuatro principios para escribir con claridad
 
-Cada principio ayuda a construir mensajes **precisos, naturales y fáciles de comprender**. Los ejemplos muestran cómo mejorar una redacción sin convertir sus estructuras en fórmulas obligatorias.
+Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su propósito es comunicar ideas concretas con naturalidad y precisión.
 
 01
 Afirmar antes que negar
-Priorizamos las formulaciones que explican qué hacemos, qué proponemos y qué puede esperar el lector.
-La negación se utiliza cuando es necesaria para comunicar una prohibición, un límite, una advertencia o una condición importante. En estos casos, la claridad prevalece sobre la preferencia por las frases afirmativas.
+Preferimos explicar qué hacemos y qué proponemos. Utilizamos la negación cuando es necesaria para comunicar un límite, una prohibición o una condición importante.
 
 **(Antes)**
 No somos una consultora tradicional.
@@ -35,8 +34,7 @@ Keyons diseña la IA alrededor de cómo ya trabaja su equipo.
 
 02
 Una idea principal por frase
-Cada oración debe tener una intención reconocible. Cuando una frase acumula ideas independientes y dificulta la lectura, conviene dividirla o reorganizarla.
-La extensión no es un problema por sí misma. Una oración puede desarrollar relaciones complejas cuando su estructura permite comprenderlas con facilidad.
+Cada oración debe tener una intención clara. Dividimos las frases cuando acumulan ideas que dificultan la comprensión, no por una cantidad fija de conceptos.
 
 **(Antes)**
 Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnología a la medida.
@@ -46,8 +44,7 @@ Automatizamos lo repetitivo. Su equipo recupera tiempo para pensar.
 
 03
 Lo concreto antes que lo abstracto
-Preferimos explicar hechos, acciones, beneficios y situaciones reconocibles antes que utilizar conceptos amplios sin contexto.
-Los conceptos abstractos están permitidos cuando aportan significado, pero deben acompañarse de una explicación que permita comprender su aplicación.
+Explicamos acciones, beneficios y situaciones reconocibles. Los conceptos abstractos se utilizan cuando aportan significado y cuentan con el contexto necesario.
 
 **(Antes)**
 Libertad y propósito.
@@ -57,8 +54,7 @@ Libertad para pensar en el negocio.
 
 04
 Verbos precisos antes que adjetivos genéricos
-Elegimos verbos que expliquen qué ocurre o qué hacemos, en lugar de apoyarnos en adjetivos que podrían describir a cualquier empresa.
-Los adjetivos deben aportar información, precisión o carácter. Evitamos acumularlos cuando no modifican sustancialmente el mensaje.
+Elegimos verbos que expliquen qué ocurre o qué hacemos. Los adjetivos deben aportar información, no reemplazarla.
 
 **(Antes)**
 Creamos soluciones innovadoras.
@@ -66,15 +62,4 @@ Creamos soluciones innovadoras.
 **(En Keyons)**
 Diseñamos a partir de su operación.
 
-###### Criterio de consistencia
-
-**(Dentro de una pieza)**
-Dentro de una misma pieza, los mensajes relacionados deben conservar su sentido, terminología y construcción gramatical.
-
-**(En las series)**
-Las series de promesas, beneficios, instrucciones o características deben seguir una estructura coherente. La variedad editorial puede enriquecer la lectura, pero no debe generar cambios arbitrarios de voz ni confusión.
-
-**(La repetición)**
-La repetición de información se justifica cuando permite confirmar un dato importante, reforzar una decisión o comprender un contexto nuevo. En los demás casos, debe evitarse.
-
-Antes de aprobar un texto, comprobamos que informa con claridad, suena natural al leerlo y comunica algo concreto. Si depende de palabras grandilocuentes para parecer importante, necesita una nueva redacción.
+Antes de aprobar un texto, comprobamos que comunica algo concreto, resulta comprensible y suena natural al leerlo.

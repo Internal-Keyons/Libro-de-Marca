@@ -20,6 +20,4 @@ Número: 1.4.1 · Estado: vigente · Capítulo: 01 ADN · Fuente: `/marca/adn.ht
 
 ##### La tecnología, al servicio de la operación
 
-Integramos inteligencia artificial al trabajo de las organizaciones para **ampliar las capacidades de sus equipos** y facilitar sus actividades cotidianas.
-
-Buscamos que cada solución sea comprensible, útil y sencilla de adoptar, respetando el conocimiento de las personas y permitiéndoles mantener el criterio sobre las decisiones que requieren su intervención.
+Integramos inteligencia artificial al trabajo de las organizaciones para ampliar las capacidades de sus equipos, facilitar las tareas cotidianas y permitir que las personas mantengan el criterio sobre las decisiones que requieren su intervención.

@@ -18,14 +18,13 @@ citada_por: ["KYN-MRK-ESP-006"]
 
 Número: 1.1 · Estado: vigente · Capítulo: 01 ADN · Fuente: `/marca/adn.html#esencia`
 
-##### Arquitectura operativa, hecha a la medida
+##### Arquitectura operativa, adaptada a cada realidad
 
-Somos una firma que rediseña la arquitectura operativa de las organizaciones con **ecosistemas de Inteligencia Artificial** hechos a la medida de cada realidad.
+Somos una firma que transforma la arquitectura operativa de las organizaciones mediante ecosistemas de inteligencia artificial adaptados a sus necesidades.
 
 **(Cómo trabajamos)**
-Desarrollamos productos especializados listos para adoptar y soluciones personalizadas que permiten distintos niveles de adaptación. En cada modalidad buscamos integrar la tecnología al trabajo de las personas, con el alcance y acompañamiento que corresponde a sus necesidades.
+Desarrollamos productos especializados listos para adoptar y soluciones personalizadas. Cada modalidad ofrece distintos niveles de adaptación y acompañamiento, siempre a partir de las necesidades reales de la operación.
 
 **(Por qué lo hacemos)**
-Creemos que la tecnología debe potenciar el criterio humano, no imponer nuevas complejidades. Diseñamos soluciones que ayudan a reducir tareas repetitivas, mejorar la continuidad de los procesos y proteger la información.
-
-Nuestro propósito es que los equipos recuperen tiempo y capacidad para concentrarse en las decisiones que realmente importan.
+Creemos que la tecnología debe potenciar el criterio humano, no imponer nuevas complejidades.
+Buscamos reducir las tareas repetitivas y facilitar el trabajo de los equipos, para devolverles tiempo y capacidad de concentrarse en lo que realmente importa.

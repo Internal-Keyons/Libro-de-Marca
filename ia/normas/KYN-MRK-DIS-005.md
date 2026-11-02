@@ -30,7 +30,4 @@ Keyons debe resolver la complejidad durante el proceso de diseño, en lugar de t
 **(Para todas las personas)**
 Las soluciones deben ser comprensibles incluso para personas con baja familiaridad tecnológica.
 
-**(Claridad ante las dificultades)**
-Una experiencia clara también debe orientar cuando algo no sucede como se esperaba.
-Los mensajes y estados de la interfaz deben ayudar a comprender qué ocurrió, qué información necesita la persona y cuáles son las alternativas disponibles para resolver la situación o continuar.
-La especificación de los componentes, mensajes y mecanismos de recuperación corresponde a las normas funcionales del sistema de diseño.
+Cuando algo falla, la interfaz también debe ayudar a comprender qué ocurrió y cómo resolverlo o continuar.

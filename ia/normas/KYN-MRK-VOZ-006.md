@@ -20,9 +20,9 @@ Número: 4.6 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/trato.ht
 
 ##### Una voz coherente, en primera o tercera persona
 
-Keyons puede comunicarse en **tercera persona** cuando necesita presentar formalmente su identidad, sus capacidades o su posición institucional. La **primera persona plural** expresa compromisos, decisiones y acciones asumidas por la empresa: favorece una comunicación más directa sin perder profesionalismo.
+Utilizamos la tercera persona cuando conviene presentar formalmente a Keyons. La primera persona plural expresa nuestros compromisos, decisiones y acciones.
 
-La elección depende del propósito de la pieza y de la relación con el lector. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente a primera persona después del primer párrafo.
+La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo.
 
 Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones.
 
@@ -34,15 +34,11 @@ Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trab
 **(Primera persona plural)**
 La empresa habla directamente con su público.
 
-**(Tercera persona · dónde)**
-Es apropiada para presentaciones institucionales, biografías corporativas, descripciones de empresa, comunicados y textos donde Keyons se presenta como entidad.
-Hero de web · apertura de propuesta · bio corporativa · comunicados de prensa · meta descripciones · títulos de sección.
+**(Tercera persona)**
+Apropiada para presentaciones institucionales, biografías corporativas y descripciones formales de la empresa.
 
-**(Primera persona · dónde)**
-Es apropiada para propuestas de valor, compromisos, mensajes de servicio, explicaciones de procesos y comunicaciones donde la empresa habla directamente con su público.
-Cuerpo de propuestas · secciones secundarias de web · redes sociales · blog · soporte · capacitaciones.
+**(Primera persona plural)**
+Apropiada para propuestas de valor, compromisos, comunicaciones de servicio y explicaciones donde Keyons habla directamente con su público.
 
-**(Consistencia de la pieza)**
-Los bloques que pertenecen a una misma categoría comunicativa deben mantener una construcción gramatical coherente.
-Por ejemplo, una serie de cinco promesas puede utilizar cinco verbos en primera persona plural. No debe cambiar arbitrariamente entre «diseñamos», «ofrecer», «el cliente recibe» y «Keyons construye».
-Los cambios de persona se permiten cuando existe una transición editorial clara y cumplen una función comunicativa.
+**(Consistencia)**
+Dentro de una misma serie de promesas, beneficios o instrucciones, mantenemos una construcción gramatical coherente. Los cambios de persona deben cumplir una función comunicativa clara.

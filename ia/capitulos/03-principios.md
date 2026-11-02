@@ -54,14 +54,11 @@ La estética Keyons es una **identidad**. La experiencia Keyons es una **metodol
 **(Productos para clientes)**
 Los productos desarrollados para clientes pueden tener identidades visuales diferentes sin perder los estándares de calidad, claridad, accesibilidad y experiencia que caracterizan el trabajo de Keyons.
 
-**(Productos con estética predeterminada)**
-Los productos SaaS y las soluciones personalizadas que no requieren una identidad visual propia pueden utilizar una estética predeterminada desarrollada por Keyons.
-Esta expresión mantiene los estándares de experiencia compartidos y ofrece una identidad visual profesional, consistente y adaptable dentro de los límites establecidos para cada producto.
-
 **(Marca exclusiva del cliente)**
-Cuando una solución adopta la identidad exclusiva del cliente, debe respetar sus criterios visuales y las condiciones de personalización acordadas.
-Los proyectos contratados sin firma visible de Keyons no deben incorporar logotipos, marcas de agua ni otros elementos destinados a revelar la identidad del proveedor.
-La ausencia de marca visible no modifica los compromisos de claridad, accesibilidad, seguridad y calidad de experiencia.
+Las soluciones desarrolladas bajo la identidad exclusiva del cliente respetan sus criterios visuales, sin incorporar elementos destinados a revelar la participación de Keyons. Los estándares compartidos de experiencia y calidad permanecen.
+
+**(Estética predeterminada)**
+Los productos sin identidad visual propia pueden utilizar una estética desarrollada por Keyons, adaptable según los límites de cada modalidad de servicio.
 
 ## KYN-MRK-DIS-003 · 3.3 Calma y expresión
 
@@ -72,17 +69,12 @@ Número: 3.3 · ID: `KYN-MRK-DIS-003` · Estado: vigente · Fuente: `/marca/prin
 El lenguaje visual de Keyons utiliza claridad, tipografía, retículas y espacio negativo para generar **calma**; fotografía, color, textura y movimiento para generar **carácter**.
 
 **(Minimalismo estructural)**
-Organiza la información mediante tipografía, retículas, jerarquías claras y espacio negativo. Su propósito es facilitar la lectura, orientar la atención y generar una experiencia visual equilibrada.
-El minimalismo no significa ausencia de personalidad. La precisión compositiva y el uso deliberado del espacio también construyen identidad.
+Organiza la información, orienta la atención y aporta claridad mediante una composición precisa.
 
 **(Maximalismo gráfico)**
-Aporta carácter mediante fotografía, ilustración, color, textura, tramas y movimiento.
-Su aplicación es selectiva y responde al contenido. Un recurso expresivo puede convertirse en protagonista sin que el resto de la composición deba alcanzar la misma intensidad.
-El maximalismo no consiste en acumular elementos visuales, sino en utilizarlos con intención y criterio.
+Aporta personalidad y expresión mediante recursos visuales utilizados con intención.
 
-Ambos enfoques se complementan: la estructura aporta claridad y la expresión construye carácter. Su equilibrio debe responder al contexto, sin competir con la información ni comprometer la experiencia del usuario.
-
-Esta combinación define la dirección estética de Keyons. No constituye una obligación visual para los productos que adoptan la identidad de otra marca.
+Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.
 
 ## KYN-MRK-DIS-004 · 3.4 Según contexto
 
@@ -99,9 +91,7 @@ Puede utilizar grandes fotografías, composiciones experimentales y movimiento a
 Utilizada repetidamente durante el día, debe priorizar legibilidad, navegación sencilla, claridad y estabilidad visual.
 
 **(Dentro de una misma experiencia)**
-La intensidad visual también puede variar entre las pantallas de un mismo producto.
-Una bienvenida, una presentación de resultados o una sección explicativa pueden admitir mayor expresión gráfica. Los formularios, las tablas y las operaciones frecuentes requieren una composición más contenida, donde la información y las acciones sean protagonistas.
-El nivel de expresión debe responder a lo que la persona necesita comprender o realizar en cada momento.
+La intensidad también puede variar dentro de un mismo producto: una bienvenida admite mayor expresión gráfica que un formulario o una tabla utilizada diariamente.
 
 La creatividad nunca debe obstaculizar una decisión funcional.
 
@@ -121,7 +111,4 @@ Keyons debe resolver la complejidad durante el proceso de diseño, en lugar de t
 **(Para todas las personas)**
 Las soluciones deben ser comprensibles incluso para personas con baja familiaridad tecnológica.
 
-**(Claridad ante las dificultades)**
-Una experiencia clara también debe orientar cuando algo no sucede como se esperaba.
-Los mensajes y estados de la interfaz deben ayudar a comprender qué ocurrió, qué información necesita la persona y cuáles son las alternativas disponibles para resolver la situación o continuar.
-La especificación de los componentes, mensajes y mecanismos de recuperación corresponde a las normas funcionales del sistema de diseño.
+Cuando algo falla, la interfaz también debe ayudar a comprender qué ocurrió y cómo resolverlo o continuar.

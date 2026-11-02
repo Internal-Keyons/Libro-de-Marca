@@ -45,7 +45,7 @@ Número: 2.1 · ID: `KYN-MRK-CON-001` · Estado: vigente · Fuente: `/marca/ciel
 
 ### Un mismo cielo, ningún horizonte igual
 
-Los retos de eficiencia, orden y escala se repiten en cualquier industria, pero **ninguna empresa los enfrenta desde el mismo horizonte**. Por eso cada solución se diseña a la medida de quien la habita.
+Los retos de eficiencia, orden y crecimiento se repiten entre industrias, pero cada organización los enfrenta desde una realidad diferente. Por eso nuestras soluciones responden a distintos niveles de adaptación, sin perder de vista las necesidades de quienes las utilizan.
 
 **(Universal)**
 El cielo es el único lenguaje visual que no necesita traducción. Cualquiera lo entiende, en cualquier idioma y cultura. Eso permite que Keyons hable con cualquier organización, en cualquier país, sin perder identidad.
@@ -56,7 +56,9 @@ Keyons nace en Costa Rica, así que sus primeros cielos son costarricenses: el a
 **(Excepción cósmica)**
 La Galaxia es el único cielo que no se fotografía en un lugar: representa la evolución ilimitada hacia lo que aún no existe.
 
-El cielo es el origen conceptual y cromático de la identidad Keyons. Su presencia visual se adapta al propósito de cada pieza: puede protagonizar una composición editorial o expresiva, mientras que en las aplicaciones funcionales la identidad se sostiene mediante los recursos visuales que correspondan.
+El cielo es el origen conceptual y cromático de Keyons. Su representación visual depende del propósito de cada pieza.
+
+En composiciones editoriales puede convertirse en protagonista. En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.
 
 ## KYN-MRK-CON-002 · 2.1.1 Jerarquía de cielos
 
@@ -65,6 +67,8 @@ Número: 2.1.1 · ID: `KYN-MRK-CON-002` · Estado: vigente · Fuente: `/marca/ci
 ### Cinco cielos, tres funciones
 
 No aparecen en la misma proporción. Repetir el cielo dominante construye **reconocimiento**; variarlo con intención da **rango expresivo**.
+
+Las proporciones indicadas orientan el uso de los cielos en las piezas donde corresponde aplicar este lenguaje visual. No son cuotas obligatorias para cada documento, campaña o producto.
 
 01 · Primario
 
@@ -122,10 +126,6 @@ No: Mediodía. Sí: el cielo que corresponde a ese propósito.
 **(¿Hay duda entre dos?)**
 Gana Mediodía. Nunca se fuerza un cielo solo por cambiar.
 
-**(Las proporciones)**
-Las proporciones establecidas orientan la distribución de los cinco cielos en las piezas donde corresponde utilizar este lenguaje visual. No representan cuotas obligatorias para cada campaña, documento o producto.
-La elección de un cielo responde primero al sentido narrativo de la pieza. Su frecuencia de uso contribuye a mantener el reconocimiento de marca sin imponer recursos expresivos en contextos que requieren mayor contención.
-
 ## KYN-MRK-CON-003 · 2.1.2 Diario de Cielos
 
 Número: 2.1.2 · ID: `KYN-MRK-CON-003` · Estado: vigente · Fuente: `/marca/cielo.html#diario`
@@ -152,6 +152,7 @@ Los cielos se fotografían en Costa Rica: San José, Guanacaste, el Chirripó, e
 
 **(Firma humana)**
 Cada cielo lleva el nombre de quien lo capturó, junto al lugar y la fecha. No es una cuestión de propiedad: es recordar que detrás de cada imagen hubo una persona que se detuvo a mirar el cielo. Un gesto pequeño que le pone rostro a lo que compartimos y vuelve cercana a la marca.
+Los datos de autoría y procedencia deben conservarse en el catálogo. Su presencia visible en cada pieza dependerá del contexto de publicación y de los créditos correspondientes.
 
 **(Expansión con propósito)**
 Solo entran cielos de lugares donde Keyons tiene presencia o un vínculo real. Un cielo de Tokio entra si la marca está en Japón.
@@ -178,7 +179,7 @@ Anclaje real
 Nace de un elemento cotidiano e hiperreconocible.
 
 **(Criterio)**
-Se conecta en menos de 2 segundos, sin requerir explicación.
+La primera lectura debe ser comprensible sin una explicación previa, aunque la composición permita descubrir nuevos significados al observarla con mayor atención.
 
 02
 
@@ -199,11 +200,10 @@ El objetivo (entender, sentir, actuar) se sintetiza en una sola línea.
 04
 
 Presencia humana
-La autoría humana se reconoce en el origen de la idea, la elección de los recursos y el criterio con que se construye la composición.
+La autoría humana se reconoce en la elección de los recursos, la construcción de la idea y el criterio aplicado a la composición.
 
 **(Criterio)**
-Puede manifestarse mediante fotografía, ilustración, materiales, trazos o decisiones de dirección artística. No requiere introducir imperfecciones artificiales ni efectos de desgaste.
-Una composición precisa y limpia también puede expresar una sensibilidad profundamente humana.
+No requiere incorporar manchas, desgastes ni imperfecciones artificiales. Un recurso gráfico preciso y limpio también puede expresar autoría y sensibilidad humana.
 
 05
 
@@ -213,9 +213,9 @@ El cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz
 **(Criterio)**
 Nace desde el boceto inicial, nunca como un filtro o adhesivo final.
 
-## KYN-MRK-CON-005 · 2.2 Formalidad según canal
+## KYN-MRK-CON-005 · 2.2.1 Formalidad según canal
 
-Número: 2.2 · ID: `KYN-MRK-CON-005` · Estado: vigente · Fuente: `/marca/metaforas.html#canal`
+Número: 2.2.1 · ID: `KYN-MRK-CON-005` · Estado: vigente · Fuente: `/marca/metaforas.html#canal`
 
 ### El canal define la libertad
 
@@ -250,11 +250,9 @@ Las reglas que hacen que una pieza sea Keyons, incluso sin el logo.
 
 Número: 2.3 · ID: `KYN-MRK-CON-006` · Estado: vigente · Fuente: `/marca/composicion.html#reglas`
 
-### Cuatro reglas sin excepción
+### Cuatro criterios para la composición expresiva
 
-Estas reglas establecen la **dirección artística de las piezas de comunicación de marca**, especialmente cuando se utilizan fotografía, ilustración y recursos narrativos.
-
-Su aplicación debe responder al propósito y al soporte. Los documentos operativos, las interfaces funcionales y los productos personalizados conservan los principios de claridad, calidad y criterio de Keyons, sin requerir todos los recursos expresivos propios de la comunicación corporativa.
+Estos criterios orientan las piezas gráficas y narrativas de la marca. No obligan a incorporar fotografías, cielos o elementos figurativos en todas las pantallas funcionales o documentos operativos.
 
 01
 Presencia humana
@@ -266,7 +264,7 @@ Todo empieza en algo hecho por una persona: una foto, un trazo, un material. La 
 
 03
 Cielo propio
-Fotografía del equipo o el degradado oficial de Keyons. Nunca imágenes de banco genéricas: Keyons prioriza imágenes con procedencia, dirección artística y una relación auténtica con su narrativa.
+Utilizamos fotografías con procedencia documentada o los degradados oficiales de Keyons. Las imágenes de banco genéricas no sustituyen los cielos propios de la marca.
 
 04
 Singularidad verificable
@@ -316,10 +314,10 @@ Valores fuertes, expresados con serenidad.
 **La startup genérica** · Colores flúor, personajes exagerados, degradados saturados.
 Sobriedad deliberada.
 
-**Lo hecho sin autor** · Imágenes sin dirección artística, composiciones intercambiables y recursos generados automáticamente sin una intención reconocible.
-Conceptos visuales propios, decisiones compositivas justificadas y un proceso creativo con criterio y responsabilidad humana.
+**Producción visual sin criterio** · Imágenes o composiciones generadas sin una intención reconocible, que podrían pertenecer indistintamente a cualquier marca.
+**Dirección artística propia** · Ideas visuales justificadas por el contenido, con autoría y criterio reconocibles en su concepción y ejecución.
 
-La presencia de textura, imperfecciones o efectos materiales no determina por sí sola la originalidad ni la calidad de una imagen.
+La originalidad no depende de añadir textura, desgaste o imperfecciones.
 
 ## KYN-MRK-CON-009 · 2.6 Herencia estética
 

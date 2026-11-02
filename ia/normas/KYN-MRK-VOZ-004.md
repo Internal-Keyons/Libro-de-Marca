@@ -20,9 +20,7 @@ Número: 4.4 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/vocabula
 
 ##### Las palabras gastadas
 
-Evitamos expresiones que **suenan importantes sin comunicar información concreta**.
-
-Algunas se han utilizado tanto en la comunicación empresarial que han perdido precisión. Otras pueden generar expectativas difíciles de comprobar. No están prohibidas por su forma: se evitan cuando sustituyen una explicación clara o una afirmación verificable.
+Evitamos expresiones que parecen importantes sin comunicar información concreta. Cuando un término tiene un significado preciso, podemos utilizarlo; cuando funciona como una promesa vacía, explicamos lo que realmente queremos decir.
 
 Transformación digital
 Nombrar qué cambia: una operación, una forma de trabajar, un flujo.
@@ -31,10 +29,10 @@ Disruptivo, disrupción
 Mostrar qué se rompe y qué lo reemplaza.
 
 Soluciones integrales
-Explicar qué servicios, capacidades o etapas están realmente incluidos y cómo se relacionan entre sí.
+Explicar qué capacidades o servicios están incluidos y cómo se relacionan.
 
 Soluciones a medida
-Indicar qué puede adaptarse, con qué profundidad y dentro de cuáles condiciones. En productos SaaS, diferenciar las opciones de configuración de los desarrollos personalizados.
+Indicar qué puede adaptarse, con qué profundidad y dentro de cuáles condiciones.
 
 Revolucionar
 Cambiar, rediseñar, replantear.
@@ -49,7 +47,7 @@ Potencial ilimitado
 Nombrar la capacidad concreta que se amplifica.
 
 ROI garantizado
-Presentar beneficios previstos, resultados medidos y condiciones que permiten evaluarlos. Las proyecciones se identifican como estimaciones, no como garantías.
+Presentar resultados comprobados o estimaciones identificadas como tales, sin prometer beneficios universales.
 
 Game-changer, vanguardia
 Describir qué cambia en términos concretos.
@@ -65,9 +63,5 @@ Afirmar qué es Keyons con sus propias palabras.
 
 Partners estratégicos
 Aliados, acompañantes, colaboradores.
-
-**(Criterio final)**
-Una expresión puede utilizarse cuando tiene un significado técnico, comercial o contractual preciso.
-La regla no consiste en evitar palabras conocidas, sino en impedir que sustituyan información relevante.
 
 Describir la idea es más largo, pero más distintivo y más honesto.

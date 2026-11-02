@@ -4075,3 +4075,9 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
   --g-noche:linear-gradient(180deg,#0F1128 0%,#15172F 55%,#22243B 100%);
 }
 .grad--cielo.area__color,.grad--cielo.band,.grad--noche.area__color,.grad--noche.band{background-size:100% 100%;background-position:center}
+
+/* Anti-referentes: una comparación con título y descripción en la columna «En Keyons» */
+.pairs__yes:has(b){font-weight:400;color:var(--color-text-2)}
+.pairs__yes b{display:block;font-weight:600;color:var(--color-text)}
+/* Calma y expresión: con la barra lateral y la columna de etiqueta, entre 1001 y 1199 px cada columna quedaba en ~190 px; se apilan como en móvil */
+@media(min-width:1001px) and (max-width:1199px){.cye{grid-template-columns:minmax(0,1fr);gap:var(--s6)}.cye__i + .cye__i{padding-left:0;border-left:0;padding-top:var(--s6);border-top:1px solid var(--color-border)}}

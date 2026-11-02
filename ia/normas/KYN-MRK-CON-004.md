@@ -28,7 +28,7 @@ Anclaje real
 Nace de un elemento cotidiano e hiperreconocible.
 
 **(Criterio)**
-Se conecta en menos de 2 segundos, sin requerir explicación.
+La primera lectura debe ser comprensible sin una explicación previa, aunque la composición permita descubrir nuevos significados al observarla con mayor atención.
 
 02
 
@@ -49,11 +49,10 @@ El objetivo (entender, sentir, actuar) se sintetiza en una sola línea.
 04
 
 Presencia humana
-La autoría humana se reconoce en el origen de la idea, la elección de los recursos y el criterio con que se construye la composición.
+La autoría humana se reconoce en la elección de los recursos, la construcción de la idea y el criterio aplicado a la composición.
 
 **(Criterio)**
-Puede manifestarse mediante fotografía, ilustración, materiales, trazos o decisiones de dirección artística. No requiere introducir imperfecciones artificiales ni efectos de desgaste.
-Una composición precisa y limpia también puede expresar una sensibilidad profundamente humana.
+No requiere incorporar manchas, desgastes ni imperfecciones artificiales. Un recurso gráfico preciso y limpio también puede expresar autoría y sensibilidad humana.
 
 05
 

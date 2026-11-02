@@ -18,11 +18,9 @@ citada_por: ["KYN-MRK-ESP-006", "KYN-MRK-VIS-016"]
 
 Número: 2.3 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/composicion.html#reglas`
 
-##### Cuatro reglas sin excepción
+##### Cuatro criterios para la composición expresiva
 
-Estas reglas establecen la **dirección artística de las piezas de comunicación de marca**, especialmente cuando se utilizan fotografía, ilustración y recursos narrativos.
-
-Su aplicación debe responder al propósito y al soporte. Los documentos operativos, las interfaces funcionales y los productos personalizados conservan los principios de claridad, calidad y criterio de Keyons, sin requerir todos los recursos expresivos propios de la comunicación corporativa.
+Estos criterios orientan las piezas gráficas y narrativas de la marca. No obligan a incorporar fotografías, cielos o elementos figurativos en todas las pantallas funcionales o documentos operativos.
 
 01
 Presencia humana
@@ -34,7 +32,7 @@ Todo empieza en algo hecho por una persona: una foto, un trazo, un material. La 
 
 03
 Cielo propio
-Fotografía del equipo o el degradado oficial de Keyons. Nunca imágenes de banco genéricas: Keyons prioriza imágenes con procedencia, dirección artística y una relación auténtica con su narrativa.
+Utilizamos fotografías con procedencia documentada o los degradados oficiales de Keyons. Las imágenes de banco genéricas no sustituyen los cielos propios de la marca.
 
 04
 Singularidad verificable

@@ -37,17 +37,14 @@ El voseo marcaría a Keyons como marca local pequeña. El usted es universal y l
 **(Mercados en inglés)**
 El «you» neutraliza el pronombre y conserva el tono profesional.
 
-**(Excepción · Estela)**
-Estela tendrá una personalidad y unas reglas de trato propias, documentadas en su capítulo.
-Su forma de dirigirse a las personas deberá mantener coherencia con esa personalidad, con el contexto de uso y con las preferencias o condiciones del producto.
-Hasta que se apruebe su identidad conversacional, no se establece el tuteo ni el voseo como tratamiento predeterminado.
+**(Estela y los agentes de IA)**
+Estela tendrá una personalidad y unas reglas de trato propias. Hasta que se aprueben, no se establece el tuteo ni el voseo como tratamiento predeterminado.
 
 **(Excepción · Campañas culturales costarricenses)**
 Fiestas patrias, humor local y celebraciones internas. Se aprueban campaña por campaña; no son regla general.
 
 **(Productos bajo marcas de clientes)**
-Cuando una solución utiliza la identidad exclusiva de un cliente, el tratamiento verbal debe responder a las reglas de esa marca.
-Los principios de claridad, respeto y comprensión se mantienen, aunque cambien el pronombre, el nivel de formalidad o el vocabulario.
+Los productos desarrollados bajo la identidad exclusiva de un cliente utilizan las reglas de trato y tono de esa marca, conservando los principios compartidos de claridad y respeto.
 
 **(Aplicación en inglés)**
 El tono profesional y cercano debe trasladarse de manera natural al inglés, respetando las convenciones del idioma. No se deben reproducir literalmente las construcciones del español cuando produzcan expresiones poco naturales.

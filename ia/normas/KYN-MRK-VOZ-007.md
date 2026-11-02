@@ -20,9 +20,9 @@ Número: 4.7 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/trato.ht
 
 ##### Lo que hace, no cómo se llama
 
-Explicamos la tecnología desde **su función, sus efectos y su utilidad** para las personas.
+Explicamos la tecnología desde su función y su utilidad para las personas. Utilizamos términos técnicos cuando aportan precisión y los acompañamos de una explicación comprensible cuando el lector la necesita.
 
-Los términos técnicos se utilizan cuando aportan precisión o son necesarios para comprender el tema. Cuando el lector no necesita conocerlos, priorizamos una explicación directa. Una traducción sencilla nunca debe alterar el significado técnico, omitir una limitación importante ni prometer capacidades que el sistema no tiene.
+Simplificar no significa alterar el significado ni prometer capacidades que el sistema no tiene.
 
 01
 Explicar qué hace
@@ -30,15 +30,15 @@ Presentamos primero la función o el resultado que el lector necesita comprender
 
 02
 Utilizar analogías que aclaren
-Las analogías ayudan a comprender conceptos complejos, pero no deben presentar equivalencias inexactas. Cuando una comparación tiene límites importantes, se explican.
+Las comparaciones ayudan a explicar conceptos complejos, siempre que no creen equivalencias incorrectas.
 
 03
 Conservar los términos necesarios
-Cuando una denominación técnica, legal o comercial es relevante, la utilizamos y explicamos su significado en el contexto correspondiente. No es necesario repetir la definición cada vez que aparece el término si el lector ya dispone del contexto.
+Utilizamos y explicamos las denominaciones técnicas, comerciales o legales cuando son relevantes.
 
 04
 Priorizar acciones comprensibles
-Preferimos verbos y descripciones concretas antes que acumular siglas. Las siglas permanecen cuando son necesarias para identificar una tecnología, una norma o una especificación.
+Preferimos descripciones concretas antes que acumular siglas innecesarias.
 
 ###### Así lo decimos
 
@@ -49,25 +49,25 @@ Los términos se agrupan por temática para encontrarlos rápido. **Los principi
 **(Cómo se traduce)** Desacralizando la tecnología: se explica qué hace la IA, sin misterio ni promesas.
 
 **(RAG)**
-Técnica que permite a la IA buscar información en fuentes disponibles y utilizarla como contexto para elaborar una respuesta.
+Técnica que permite a la IA recuperar información de fuentes disponibles y utilizarla como contexto para elaborar una respuesta.
 
 **(Fine-tuning)**
-Ajuste adicional de un modelo de IA mediante ejemplos de entrenamiento para mejorar su desempeño en determinadas tareas.
+Ajuste adicional de un modelo mediante ejemplos de entrenamiento para mejorar su desempeño en determinadas tareas.
 
 **(Agentes autónomos)**
-Sistemas de IA que pueden realizar tareas y utilizar herramientas dentro de permisos y límites definidos. Algunas acciones pueden requerir autorización humana.
+Sistemas de IA capaces de ejecutar tareas y utilizar herramientas dentro de permisos y límites definidos. Algunas acciones requieren aprobación humana.
 
 **(LLM)**
-La IA que entiende y escribe texto.
+Modelo de inteligencia artificial entrenado para trabajar con lenguaje y generar o analizar texto.
 
 **(Prompt engineering)**
 Diseño de instrucciones para la IA.
 
 **(Vector database)**
-Base de datos que almacena representaciones numéricas de información y permite recuperarla mediante búsquedas por similitud.
+Base de datos que permite recuperar información mediante búsquedas por similitud entre representaciones numéricas.
 
 **(Hallucination)**
-Respuesta de IA que presenta información incorrecta, inventada o sin respaldo suficiente como si fuera un hecho.
+Respuesta de IA que presenta información inventada o incorrecta como si fuera un hecho.
 
 **(Guardrails)**
 Reglas que delimitan qué puede hacer la IA.
@@ -114,7 +114,7 @@ Tiempo que toma una tarea de principio a fin.
 **(Cómo se traduce)** Haciendo visible el cuidado: dónde está la información y quién la protege.
 
 **(ETL · Pipeline de datos)**
-Proceso para extraer datos de una fuente, transformarlos y cargarlos en otro sistema.
+Proceso para extraer datos, transformarlos y cargarlos en otro sistema.
 
 **(Data warehouse)**
 Lugar centralizado donde se guardan los datos de la empresa.
@@ -123,10 +123,10 @@ Lugar centralizado donde se guardan los datos de la empresa.
 Repositorio donde los datos se guardan tal como llegan.
 
 **(Encriptación)**
-Utilizar preferentemente el término «cifrado» en español. Es el proceso de transformar información para impedir su lectura sin los medios autorizados para recuperarla.
+Utilizar preferentemente «cifrado»: transformación de información para impedir su lectura sin los medios autorizados.
 
 **(Anonimización)**
-Tratamiento de datos destinado a impedir la identificación de personas. Para considerarse efectiva, debe evaluarse el riesgo de reidentificación.
+Tratamiento de datos destinado a impedir la identificación de personas, considerando también el riesgo de reidentificación.
 
 **(Compliance)**
 Cumplimiento de las normativas aplicables.

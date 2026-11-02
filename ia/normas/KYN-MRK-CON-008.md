@@ -40,7 +40,7 @@ Valores fuertes, expresados con serenidad.
 **La startup genérica** · Colores flúor, personajes exagerados, degradados saturados.
 Sobriedad deliberada.
 
-**Lo hecho sin autor** · Imágenes sin dirección artística, composiciones intercambiables y recursos generados automáticamente sin una intención reconocible.
-Conceptos visuales propios, decisiones compositivas justificadas y un proceso creativo con criterio y responsabilidad humana.
+**Producción visual sin criterio** · Imágenes o composiciones generadas sin una intención reconocible, que podrían pertenecer indistintamente a cualquier marca.
+**Dirección artística propia** · Ideas visuales justificadas por el contenido, con autoría y criterio reconocibles en su concepción y ejecución.
 
-La presencia de textura, imperfecciones o efectos materiales no determina por sí sola la originalidad ni la calidad de una imagen.
+La originalidad no depende de añadir textura, desgaste o imperfecciones.
