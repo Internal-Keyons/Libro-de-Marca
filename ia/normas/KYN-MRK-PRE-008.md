@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-008"
 titulo: "Tipografía"
-numero: "30.8"
+numero: "21.8"
 estado: "vigente"
-capitulo: "30 Presentaciones"
+capitulo: "21 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#tipografia"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PRE-008 · Tipografía
 
-Número: 30.8 · Estado: vigente · Capítulo: 30 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#tipografia`
+Número: 21.8 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#tipografia`
 
 ##### Se lee desde el fondo
 

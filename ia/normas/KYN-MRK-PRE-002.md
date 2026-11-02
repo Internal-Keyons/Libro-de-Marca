@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-002"
 titulo: "Método"
-numero: "30.2"
+numero: "21.2"
 estado: "vigente"
-capitulo: "30 Presentaciones"
+capitulo: "21 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#metodo"
 referencias: ["KYN-MRK-PRE-003", "KYN-MRK-PRE-006", "KYN-MRK-PRE-014"]
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PRE-002 · Método
 
-Número: 30.2 · Estado: vigente · Capítulo: 30 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#metodo`
+Número: 21.2 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#metodo`
 
 ##### De la idea a la sala
 

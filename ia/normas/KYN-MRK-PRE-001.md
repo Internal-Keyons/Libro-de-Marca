@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-001"
 titulo: "Tipos"
-numero: "30.1"
+numero: "21.1"
 estado: "vigente"
-capitulo: "30 Presentaciones"
+capitulo: "21 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#tipos"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PRE-001 · Tipos
 
-Número: 30.1 · Estado: vigente · Capítulo: 30 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#tipos`
+Número: 21.1 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#tipos`
 
 ##### Cuatro salas, una marca
 

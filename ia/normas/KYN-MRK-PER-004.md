@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PER-004"
 titulo: "Modelo C · Marca blanca"
-numero: "34.4"
+numero: "24.4"
 estado: "vigente"
-capitulo: "34 Personalización"
+capitulo: "24 Personalización"
 area: "Aplicaciones"
 fuente: "/aplicaciones/personalizacion.html#blanca"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PER-004 · Modelo C · Marca blanca
 
-Número: 34.4 · Estado: vigente · Capítulo: 34 Personalización · Fuente: `/aplicaciones/personalizacion.html#blanca`
+Número: 24.4 · Estado: vigente · Capítulo: 24 Personalización · Fuente: `/aplicaciones/personalizacion.html#blanca`
 
 ##### Invisible, pero presente
 

@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-GAL-001"
 titulo: "Galería"
-numero: "35.1"
+numero: "25.1"
 estado: "vigente"
-capitulo: "35 Galería de imágenes"
+capitulo: "25 Galería de imágenes"
 area: "Recursos"
 fuente: "/recursos/galeria.html#galeria"
 referencias: []
@@ -16,11 +16,11 @@ citada_por: []
 
 # KYN-MRK-GAL-001 · Galería
 
-Número: 35.1 · Estado: vigente · Capítulo: 35 Galería de imágenes · Fuente: `/recursos/galeria.html#galeria`
+Número: 25.1 · Estado: vigente · Capítulo: 25 Galería de imágenes · Fuente: `/recursos/galeria.html#galeria`
 
 ##### Todas las imágenes de Keyons
 
-Degradados hechos desde cero, cielos, naturaleza, personas y stock propio. **Cada imagen tiene un ID** y una ficha con su autor, lugar, año, tipo y uso. Son imágenes hechas de píxeles: para piezas que crecen sin límite, use los cielos hechos con código del capítulo 36.
+Degradados hechos desde cero, cielos, naturaleza, personas y stock propio. **Cada imagen tiene un ID** y una ficha con su autor, lugar, año, tipo y uso. Son imágenes hechas de píxeles: para piezas que crecen sin límite, use los cielos hechos con código del capítulo 26.
 
 Galería
 

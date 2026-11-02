@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-007"
 titulo: "Lienzo y retícula"
-numero: "30.7"
+numero: "21.7"
 estado: "vigente"
-capitulo: "30 Presentaciones"
+capitulo: "21 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#lienzo"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PRE-007 · Lienzo y retícula
 
-Número: 30.7 · Estado: vigente · Capítulo: 30 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#lienzo`
+Número: 21.7 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#lienzo`
 
 ##### Un lienzo para todas las salas
 

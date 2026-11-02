@@ -19,27 +19,27 @@ Este es el **manual de marca de Keyons**. Aquí vive todo lo que hace **reconoci
 
 Índice del manual
 
-### Seis áreas, un solo sistema
+### Cinco áreas, un solo sistema
 
 ### Cómo utilizar este manual
 
 Este libro reúne los criterios que hacen **reconocible la identidad de Keyons** y orientan su aplicación en diferentes medios.
 
 01
-Atención al cliente personalizada
-Brindamos atención personalizada para garantizar una experiencia excepcional.
+Encuentra lo que necesitas
+El índice organiza los contenidos por identidad, fundamentos, modos, aplicaciones y recursos, facilitando la consulta rápida.
 
 02
-Procesos eficientes
-Optimizamos nuestros procesos para ofrecer resultados ágiles y precisos.
+Distingue normas y ejemplos
+Las normas establecen criterios de uso, mientras que los ejemplos ilustran su aplicación y no deben tomarse como plantillas obligatorias.
 
 03
-Innovación constante
-Fomentamos la innovación continua en cada etapa del servicio.
+Comprueba la vigencia
+Cada contenido debe señalar si está aprobado, en desarrollo o pendiente de validación, garantizando su actualización constante.
 
 04
-Compromiso con la calidad
-Mantenemos un firme compromiso con la excelencia y la calidad.
+Aplica las reglas en conjunto
+Cuando una aplicación dependa de varios capítulos, revise las referencias relacionadas antes de producirla para asegurar coherencia.
 
 ## Área 01 · Marca
 
@@ -582,8 +582,6 @@ Esta expresión mantiene los estándares de experiencia compartidos y ofrece una
 Cuando una solución adopta la identidad exclusiva del cliente, debe respetar sus criterios visuales y las condiciones de personalización acordadas.
 Los proyectos contratados sin firma visible de Keyons no deben incorporar logotipos, marcas de agua ni otros elementos destinados a revelar la identidad del proveedor.
 La ausencia de marca visible no modifica los compromisos de claridad, accesibilidad, seguridad y calidad de experiencia.
-
-Las cuatro capas, identidad, experiencia, sistema y expresión, se desarrollan en el capítulo 20, Sistemas de diseño.
 
 #### KYN-MRK-DIS-003 · 3.3 Calma y expresión
 
@@ -4089,185 +4087,13 @@ Producto e interfaz: sobrio con momentos vivos. Componentes y patrones.
 
 *Capítulo sin página: solo existe su índice en el libro.*
 
-## Área 04 · Interfaces
+## Área 04 · Aplicaciones
 
-Color: Salmón Atardecer · Fuente: `/interfaces/index.html`
-
-Diseño web, SaaS, custom y herramientas internas.
-
-### Capítulo 20 · Sistemas de diseño
-
-Estado: borrador · Clave: arquitectura · Ruta: `/interfaces/sistemas.html`
-
-Identidad, experiencia, sistema y expresión de cada producto: cuatro capas que no se confunden.
-
-**Contenido del capítulo**
-
-- Las cuatro capas · borrador · `/interfaces/sistemas.html#capas`
-- Capas de tokens · por definir
-- Qué hereda cada producto · por definir
-- Relación con el manual Sistema de Diseño · por definir
-
-#### Sistemas de diseño
-
-Rótulo: Capítulo 20 · Interfaces · Fuente: `/interfaces/sistemas.html`
-
-La arquitectura que separa identidad, experiencia, sistema y expresión de cada producto.
-
-#### 20.1 Las cuatro capas
-
-Número: 20.1 · Fuente: `/interfaces/sistemas.html#capas`
-
-##### Cuatro capas que no se confunden
-
-Este manual establece los criterios de **identidad y expresión visual** que deben seguir quienes diseñan, desarrollan o producen materiales para Keyons.
-
-01
-La identidad visual de Keyons
-Logotipo, color, tipografía, forma y recursos propios. Vive en Marca y Fundamentos, y no se impone en la marca exclusiva de un cliente.
-
-02
-Los principios de experiencia
-Lo que comparten todas las soluciones Keyons, con su marca o con la del cliente. Viven en el capítulo 03, Principios de diseño.
-
-03
-El sistema de diseño
-La infraestructura que aplica identidad y experiencia en pantalla. Vive en Interfaces.
-
-04
-La expresión de cada producto y cliente
-Cómo cambia la pieza según el registro, el canal y el modelo comercial. Vive en Modos, Aplicaciones y Personalización.
-
-Principio relacionado: KYN-MRK-DIS-002, en Principios de diseño.
-
-### Capítulo 21 · Tokens visuales
-
-Estado: por definir · Clave: tokens
-
-Tokens semánticos de interfaz y temas. Los valores de color, tipografía y espacio viven en Fundamentos.
-
-**Contenido del capítulo**
-
-- Tokens semánticos · por definir
-- Temperatura sobria y viva · por definir
-- Temas claro y oscuro · por definir
-- Temas de cliente · por definir
-
-*Capítulo sin página: solo existe su índice en el libro.*
-
-### Capítulo 22 · Componentes UI
-
-Estado: por definir · Clave: componentes
-
-Botones, campos, mensajes, badges y tablas con la geometría de Forma y espacio.
-
-**Contenido del capítulo**
-
-- Botones · por definir
-- Campos de formulario · por definir
-- Mensajes de estado · por definir
-- Badges · por definir
-- Tablas y datos · por definir
-- Estados de los componentes · por definir
-
-*Capítulo sin página: solo existe su índice en el libro.*
-
-### Capítulo 23 · Patrones visuales
-
-Estado: por definir · Clave: patrones
-
-Cómo se orienta la persona: dónde está, qué puede hacer, qué ocurre y cómo sigue.
-
-**Contenido del capítulo**
-
-- Navegación · por definir
-- Jerarquía de pantalla · por definir
-- Estados vacíos · por definir
-- Onboarding · por definir
-- Tableros · por definir
-
-*Capítulo sin página: solo existe su índice en el libro.*
-
-### Capítulo 24 · SaaS predeterminado
-
-Estado: por definir · Clave: saas
-
-La interfaz por defecto de los productos Keyons y las zonas que el cliente ajusta.
-
-**Contenido del capítulo**
-
-- Qué es intocable · por definir
-- Zonas personalizables · por definir
-- Documentos generados · por definir
-
-*Capítulo sin página: solo existe su índice en el libro.*
-
-### Capítulo 25 · Personalización
-
-Estado: por definir · Clave: marca-blanca
-
-Productos bajo la identidad del cliente: la calidad Keyons sin firma visible.
-
-**Contenido del capítulo**
-
-- Tema del cliente · por definir
-- Créditos · por definir
-- Calidad sin firma · por definir
-
-*Capítulo sin página: solo existe su índice en el libro.*
-
-### Capítulo 26 · Interfaces de Estela
-
-Estado: por definir · Clave: estela-ui
-
-Cómo aparece y actúa Estela en pantalla. Su personalidad vive en Marca.
-
-**Contenido del capítulo**
-
-- Presencia y avatar · por definir
-- Conversación · por definir
-- Acciones generativas · por definir
-- Estados de la agente · por definir
-
-*Capítulo sin página: solo existe su índice en el libro.*
-
-### Capítulo 27 · Motion graphics
-
-Estado: por definir · Clave: motion
-
-Movimiento de interfaz, Ráfaga y la experiencia sensorial de los productos.
-
-**Contenido del capítulo**
-
-- Movimiento de interfaz · por definir
-- Ráfaga y cielo · por definir
-- Duraciones y curvas · por definir
-- Movimiento reducido · por definir
-
-*Capítulo sin página: solo existe su índice en el libro.*
-
-### Capítulo 28 · Guías visuales
-
-Estado: por definir · Clave: accesibilidad-ui
-
-Foco, objetivos táctiles, contraste en componentes y estados que no dependen del color.
-
-**Contenido del capítulo**
-
-- Foco visible · por definir
-- Objetivos táctiles · por definir
-- Contraste en componentes · por definir
-- Estados sin depender del color · por definir
-
-*Capítulo sin página: solo existe su índice en el libro.*
-
-## Área 05 · Aplicaciones
-
-Color: Azul Noche · Fuente: `/aplicaciones/index.html`
+Color: Salmón Atardecer · Fuente: `/aplicaciones/index.html`
 
 Dónde se aplica la marca: cada canal con sus reglas.
 
-### Capítulo 29 · Documentos
+### Capítulo 20 · Documentos
 
 Estado: por definir · Clave: documentos · Número anterior: 17
 
@@ -4299,7 +4125,7 @@ Propuestas, contratos, facturas, correspondencia y papelería.
 
 *Capítulo sin página: solo existe su índice en el libro.*
 
-### Capítulo 30 · Presentaciones
+### Capítulo 21 · Presentaciones
 
 Estado: borrador · Clave: presentaciones · Ruta: `/aplicaciones/presentaciones.html` · Número anterior: 18
 
@@ -4328,13 +4154,13 @@ Para clientes, capacitaciones, el equipo y talleres: método, historia, voz y es
 
 #### Presentaciones
 
-Rótulo: Capítulo 30 · Aplicaciones · Fuente: `/aplicaciones/presentaciones.html`
+Rótulo: Capítulo 21 · Aplicaciones · Fuente: `/aplicaciones/presentaciones.html`
 
 Cómo se construye una presentación Keyons: de la primera frase a la última diapositiva.
 
-#### KYN-MRK-PRE-001 · 30.1 Tipos
+#### KYN-MRK-PRE-001 · 21.1 Tipos
 
-Número: 30.1 · ID: `KYN-MRK-PRE-001` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#tipos`
+Número: 21.1 · ID: `KYN-MRK-PRE-001` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#tipos`
 
 ##### Cuatro salas, una marca
 
@@ -4380,9 +4206,9 @@ Keyons presenta a clientes, capacita equipos, revisa su trabajo y abre talleres.
 
 Si hay duda entre dos salas, gana la más formal.
 
-#### KYN-MRK-PRE-002 · 30.2 Método
+#### KYN-MRK-PRE-002 · 21.2 Método
 
-Número: 30.2 · ID: `KYN-MRK-PRE-002` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#metodo`
+Número: 21.2 · ID: `KYN-MRK-PRE-002` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#metodo`
 
 ##### De la idea a la sala
 
@@ -4405,9 +4231,9 @@ Ocho pasos, en este orden. **El diseño entra en el sexto**, cuando la historia 
 **(Proyectar o enviar)**
 Son dos piezas distintas. La que se envía por correo lleva un documento de apoyo o una versión de lectura, con las notas en pantalla.
 
-#### KYN-MRK-PRE-003 · 30.3 Storytelling
+#### KYN-MRK-PRE-003 · 21.3 Storytelling
 
-Número: 30.3 · ID: `KYN-MRK-PRE-003` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#historia`
+Número: 21.3 · ID: `KYN-MRK-PRE-003` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#historia`
 
 ##### La sala es la protagonista
 
@@ -4452,9 +4278,9 @@ Los profesionales de Ingenya pueden usar IA todos los días sin exponer a sus cl
 
 Cada participante sale con un asistente que resuelve una tarea real de su semana, si lo construye sobre un problema bien definido.
 
-#### KYN-MRK-PRE-004 · 30.4 El arco Keyons
+#### KYN-MRK-PRE-004 · 21.4 El arco Keyons
 
-Número: 30.4 · ID: `KYN-MRK-PRE-004` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#arco`
+Número: 21.4 · ID: `KYN-MRK-PRE-004` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#arco`
 
 ##### El cielo avanza con la historia
 
@@ -4476,9 +4302,9 @@ Seis movimientos para propuestas, capacitaciones e informes; cambia cuánto pesa
 
 Si alguien lee solo los titulares y entiende la historia, la estructura está lista.
 
-#### KYN-MRK-PRE-005 · 30.5 Escribir para la pantalla
+#### KYN-MRK-PRE-005 · 21.5 Escribir para la pantalla
 
-Número: 30.5 · ID: `KYN-MRK-PRE-005` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#escribir`
+Número: 21.5 · ID: `KYN-MRK-PRE-005` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#escribir`
 
 ##### Se lee a tres metros
 
@@ -4592,9 +4418,9 @@ Preguntas & Respuestas · AI PROBLEM SOLVING
 
 **(En Keyons)** Preguntas y respuestas · Resolver problemas con IA
 
-#### KYN-MRK-PRE-006 · 30.6 Límites y notas
+#### KYN-MRK-PRE-006 · 21.6 Límites y notas
 
-Número: 30.6 · ID: `KYN-MRK-PRE-006` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#limites`
+Número: 21.6 · ID: `KYN-MRK-PRE-006` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#limites`
 
 ##### Lo que cabe y lo que se dice
 
@@ -4655,9 +4481,9 @@ Si el riesgo está claro, veamos qué cambia desde mañana.
 
 Una cita externa necesita fuente y nunca cierra la presentación.
 
-#### KYN-MRK-PRE-007 · 30.7 Lienzo y retícula
+#### KYN-MRK-PRE-007 · 21.7 Lienzo y retícula
 
-Número: 30.7 · ID: `KYN-MRK-PRE-007` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#lienzo`
+Número: 21.7 · ID: `KYN-MRK-PRE-007` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#lienzo`
 
 ##### Un lienzo para todas las salas
 
@@ -4689,9 +4515,9 @@ Titular
 **x 96 · y 80**
 Siempre en la misma posición.
 
-#### KYN-MRK-PRE-008 · 30.8 Tipografía
+#### KYN-MRK-PRE-008 · 21.8 Tipografía
 
-Número: 30.8 · ID: `KYN-MRK-PRE-008` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#tipografia`
+Número: 21.8 · ID: `KYN-MRK-PRE-008` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#tipografia`
 
 ##### Se lee desde el fondo
 
@@ -4720,9 +4546,9 @@ Fuente: diagnóstico Keyons, mayo de 2026
 
 A escala 1:3 del lienzo de 1920 px.
 
-#### KYN-MRK-PRE-009 · 30.9 Contraste
+#### KYN-MRK-PRE-009 · 21.9 Contraste
 
-Número: 30.9 · ID: `KYN-MRK-PRE-009` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#contraste`
+Número: 21.9 · ID: `KYN-MRK-PRE-009` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#contraste`
 
 ##### Contraste medido
 
@@ -4740,9 +4566,9 @@ Un proyector lava el color. **4,5:1 para texto de cuerpo y 3:1 para texto grande
 | Salmón Tierra · *#CE635D* | **3,4:1** · Solo grande | **4,9:1** · Texto | Una palabra clave; sobre claro, desde 24 px. |
 | Salmón Atardecer · *#E99D9E* | **2,0:1** · No va en texto | **8,6:1** · Texto | El dato que importa, sobre Azul Noche. |
 
-#### KYN-MRK-PRE-010 · 30.10 Ritmo
+#### KYN-MRK-PRE-010 · 21.10 Ritmo
 
-Número: 30.10 · ID: `KYN-MRK-PRE-010` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#ritmo`
+Número: 21.10 · ID: `KYN-MRK-PRE-010` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#ritmo`
 
 ##### El color marca el ritmo
 
@@ -4835,9 +4661,9 @@ El blanco es el compás; **el cielo, el cambio de movimiento.** Así se ve una p
 
 Salmón Tierra sobre claro y Salmón Atardecer sobre Azul Noche, una vez por diapositiva.
 
-#### KYN-MRK-PRE-011 · 30.11 Riesgo y estado
+#### KYN-MRK-PRE-011 · 21.11 Riesgo y estado
 
-Número: 30.11 · ID: `KYN-MRK-PRE-011` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#riesgo`
+Número: 21.11 · ID: `KYN-MRK-PRE-011` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#riesgo`
 
 ##### Cuatro niveles, siempre con la palabra
 
@@ -4873,9 +4699,9 @@ Herramientas sin licencia corporativa · Bajo
 
 En una diapositiva: la palabra siempre acompaña al color.
 
-#### KYN-MRK-PRE-012 · 30.12 Imagen y gráficos
+#### KYN-MRK-PRE-012 · 21.12 Imagen y gráficos
 
-Número: 30.12 · ID: `KYN-MRK-PRE-012` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#imagen`
+Número: 21.12 · ID: `KYN-MRK-PRE-012` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#imagen`
 
 ##### Una protagonista por diapositiva
 
@@ -4913,9 +4739,9 @@ Aquí va el ejemplo
 - **Fuente en el pie** · Quién midió y cuándo.
 - **Aparecen al avanzar** · Por partes al hacer clic; nunca en bucle.
 
-#### KYN-MRK-PRE-013 · 30.13 Plantillas
+#### KYN-MRK-PRE-013 · 21.13 Plantillas
 
-Número: 30.13 · ID: `KYN-MRK-PRE-013` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#plantillas`
+Número: 21.13 · ID: `KYN-MRK-PRE-013` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#plantillas`
 
 ##### Cuatro plantillas para empezar
 
@@ -4957,9 +4783,9 @@ Grupos · expresivo 19 diapositivas · 16:9 · .pptx
 
 [Descargar](/assets/descargas/keyons-plantilla-taller.pptx)
 
-#### KYN-MRK-PRE-014 · 30.14 Antes de presentar
+#### KYN-MRK-PRE-014 · 21.14 Antes de presentar
 
-Número: 30.14 · ID: `KYN-MRK-PRE-014` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#antes`
+Número: 21.14 · ID: `KYN-MRK-PRE-014` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#antes`
 
 ##### Lista de verificación
 
@@ -4980,29 +4806,7 @@ La revisión del paso siete. **La hace una segunda persona**, con la presentaci�
 
 Una buena presentación se recuerda por lo que la sala hizo después.
 
-### Capítulo 31 · Sitio web
-
-Estado: borrador · Clave: sitio-web · Número anterior: 19
-
-Claridad antes que creatividad, con momentos de cielo.
-
-**Contenido del capítulo**
-
-- **Principios**
-- Claridad antes que creatividad · borrador
-- **Sistema**
-- Lectura en Z · por definir
-- Retícula web · por definir
-- **Componentes**
-- Cabecera · vigente
-- Titulares de sección · vigente
-- Tarjetas · por definir
-- **Aplicaciones**
-- Páginas tipo · por definir
-
-*Capítulo sin página: solo existe su índice en el libro.*
-
-### Capítulo 32 · Redes y campañas
+### Capítulo 22 · Redes y campañas
 
 Estado: por definir · Clave: redes · Número anterior: 20
 
@@ -5015,7 +4819,7 @@ Publicaciones, campañas y contenido para redes sociales.
 
 *Capítulo sin página: solo existe su índice en el libro.*
 
-### Capítulo 33 · Eventos y merch
+### Capítulo 23 · Eventos y merch
 
 Estado: por definir · Clave: eventos · Número anterior: 21
 
@@ -5028,7 +4832,7 @@ Eventos, talleres presenciales y artículos de marca.
 
 *Capítulo sin página: solo existe su índice en el libro.*
 
-### Capítulo 34 · Personalización
+### Capítulo 24 · Personalización
 
 Estado: borrador · Clave: personalizacion · Ruta: `/aplicaciones/personalizacion.html` · Número anterior: 22
 
@@ -5043,13 +4847,13 @@ Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca b
 
 #### Personalización
 
-Rótulo: Capítulo 34 · Aplicaciones · Fuente: `/aplicaciones/personalizacion.html`
+Rótulo: Capítulo 24 · Aplicaciones · Fuente: `/aplicaciones/personalizacion.html`
 
 Qué cambia y qué se queda cuando un producto se entrega a la medida de un cliente.
 
-#### KYN-MRK-PER-001 · 34.1 Tres modelos
+#### KYN-MRK-PER-001 · 24.1 Tres modelos
 
-Número: 34.1 · ID: `KYN-MRK-PER-001` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#modelos`
+Número: 24.1 · ID: `KYN-MRK-PER-001` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#modelos`
 
 ##### Cuánta firma se queda
 
@@ -5061,11 +4865,11 @@ La firma visual cambia según el modelo comercial; **la calidad técnica, nunca*
 | Firma técnica | Siempre presente: la calidad Keyons no se negocia |  |  |
 | Crédito | Keyons visible | Negociable: «Built by Keyons» | Ninguno |
 
-En pantalla, estos modelos se aplican en Sistemas de Interfaces: [24 SaaS predeterminado](/interfaces/index.html#cap-saas) y [25 Personalización](/interfaces/index.html#cap-marca-blanca). El principio KYN-MRK-DIS-002 explica por qué la identidad Keyons no se impone en la marca del cliente.
+El principio KYN-MRK-DIS-002 explica por qué la identidad Keyons no se impone en la marca del cliente.
 
-#### KYN-MRK-PER-002 · 34.2 Modelo A · SaaS
+#### KYN-MRK-PER-002 · 24.2 Modelo A · SaaS
 
-Número: 34.2 · ID: `KYN-MRK-PER-002` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#saas`
+Número: 24.2 · ID: `KYN-MRK-PER-002` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#saas`
 
 ##### La marca se reconoce aunque se personalice
 
@@ -5077,9 +4881,9 @@ Texto en Azul Noche y grises oficiales. Estructura y componentes en Blanco Keyon
 **(Personalizable)**
 El color de acento del cliente en zonas designadas: encabezado de documentos generados, su logotipo arriba y botones de su marca en las secciones donde su identidad es protagonista. Su imagen en la bienvenida, dentro del marco del sistema.
 
-#### KYN-MRK-PER-003 · 34.3 Modelo B · Boutique
+#### KYN-MRK-PER-003 · 24.3 Modelo B · Boutique
 
-Número: 34.3 · ID: `KYN-MRK-PER-003` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#boutique`
+Número: 24.3 · ID: `KYN-MRK-PER-003` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#boutique`
 
 ##### La firma vive en la calidad
 
@@ -5095,9 +4899,9 @@ Proyectos hechos desde cero para un cliente. **Sin colores ni estética Keyons**
 **(Crédito negociable)**
 «Built by Keyons», «Powered by Keyons» o «Made with Keyons» en el pie, los créditos o la documentación. Caso de éxito publicable solo con autorización expresa.
 
-#### KYN-MRK-PER-004 · 34.4 Modelo C · Marca blanca
+#### KYN-MRK-PER-004 · 24.4 Modelo C · Marca blanca
 
-Número: 34.4 · ID: `KYN-MRK-PER-004` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#blanca`
+Número: 24.4 · ID: `KYN-MRK-PER-004` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#blanca`
 
 ##### Invisible, pero presente
 
@@ -5110,13 +4914,13 @@ El cliente contrata invisibilidad total. **El producto es suyo al 100 %.**
 
 La calidad es la firma que no se negocia, ni siquiera en marca blanca.
 
-## Área 06 · Recursos
+## Área 05 · Recursos
 
-Color: Azul Cielo · Fuente: `/recursos/index.html`
+Color: Azul Noche · Fuente: `/recursos/index.html`
 
 El espacio de trabajo: imágenes, texturas, íconos y plantillas.
 
-### Capítulo 35 · Galería de imágenes
+### Capítulo 25 · Galería de imágenes
 
 Estado: borrador · Clave: galeria · Ruta: `/recursos/galeria.html` · Número anterior: 23
 
@@ -5128,17 +4932,17 @@ Degradados, cielos, naturaleza y personas, con ID y crédito.
 
 #### Galería de imágenes
 
-Rótulo: Capítulo 35 · Recursos · Fuente: `/recursos/galeria.html`
+Rótulo: Capítulo 25 · Recursos · Fuente: `/recursos/galeria.html`
 
 Imágenes propias, reales y acreditadas. Se filtran, se tratan y se descargan.
 
-#### KYN-MRK-GAL-001 · 35.1 Galería
+#### KYN-MRK-GAL-001 · 25.1 Galería
 
-Número: 35.1 · ID: `KYN-MRK-GAL-001` · Estado: vigente · Fuente: `/recursos/galeria.html#galeria`
+Número: 25.1 · ID: `KYN-MRK-GAL-001` · Estado: vigente · Fuente: `/recursos/galeria.html#galeria`
 
 ##### Todas las imágenes de Keyons
 
-Degradados hechos desde cero, cielos, naturaleza, personas y stock propio. **Cada imagen tiene un ID** y una ficha con su autor, lugar, año, tipo y uso. Son imágenes hechas de píxeles: para piezas que crecen sin límite, use los cielos hechos con código del capítulo 36.
+Degradados hechos desde cero, cielos, naturaleza, personas y stock propio. **Cada imagen tiene un ID** y una ficha con su autor, lugar, año, tipo y uso. Son imágenes hechas de píxeles: para piezas que crecen sin límite, use los cielos hechos con código del capítulo 26.
 
 Galería
 
@@ -5279,7 +5083,7 @@ Galería
 **(Tratamiento de marca)**
 **(Descargar)**
 
-### Capítulo 36 · Texturas y degradados
+### Capítulo 26 · Texturas y degradados
 
 Estado: borrador · Clave: texturas · Ruta: `/recursos/texturas.html` · Número anterior: 24
 
@@ -5291,13 +5095,13 @@ Cielos hechos con código, con ID.
 
 #### Texturas y degradados
 
-Rótulo: Capítulo 36 · Recursos · Fuente: `/recursos/texturas.html`
+Rótulo: Capítulo 26 · Recursos · Fuente: `/recursos/texturas.html`
 
 Cielos hechos con código, listos para descargar.
 
-#### KYN-MRK-TEX-001 · 36.1 Catálogo
+#### KYN-MRK-TEX-001 · 26.1 Catálogo
 
-Número: 36.1 · ID: `KYN-MRK-TEX-001` · Estado: vigente · Fuente: `/recursos/texturas.html#texturas`
+Número: 26.1 · ID: `KYN-MRK-TEX-001` · Estado: vigente · Fuente: `/recursos/texturas.html#texturas`
 
 ##### Del amanecer a la galaxia
 
@@ -5380,7 +5184,7 @@ Catálogo
 **(Tratamiento de marca)**
 **(Descargar)**
 
-### Capítulo 37 · Íconos
+### Capítulo 27 · Íconos
 
 Estado: borrador · Clave: iconos · Ruta: `/recursos/iconos.html` · Número anterior: 25
 
@@ -5392,13 +5196,13 @@ El catálogo completo de la familia.
 
 #### Íconos
 
-Rótulo: Capítulo 37 · Recursos · Fuente: `/recursos/iconos.html`
+Rótulo: Capítulo 27 · Recursos · Fuente: `/recursos/iconos.html`
 
 El catálogo completo de la familia: se copia en SVG o se descarga.
 
-#### KYN-MRK-ICN-001 · 37.1 Catálogo
+#### KYN-MRK-ICN-001 · 27.1 Catálogo
 
-Número: 37.1 · ID: `KYN-MRK-ICN-001` · Estado: vigente · Fuente: `/recursos/iconos.html#catalogo`
+Número: 27.1 · ID: `KYN-MRK-ICN-001` · Estado: vigente · Fuente: `/recursos/iconos.html#catalogo`
 
 ##### Elija, copie y descargue
 
@@ -5542,7 +5346,7 @@ Objetos y conceptos · 12
 - Ícono `edificio` · ajustado a la retícula, pendiente de revisión
 - Ícono `cono`
 
-### Capítulo 38 · Plantillas y documentos
+### Capítulo 28 · Plantillas y documentos
 
 Estado: borrador · Clave: plantillas · Ruta: `/recursos/plantillas.html` · Número anterior: 26
 
@@ -5555,17 +5359,17 @@ Plantillas de presentación y manuales.
 
 #### Plantillas y documentos
 
-Rótulo: Capítulo 38 · Recursos · Fuente: `/recursos/plantillas.html`
+Rótulo: Capítulo 28 · Recursos · Fuente: `/recursos/plantillas.html`
 
 Lo que se descarga para producir y los manuales que acompañan a este.
 
-#### KYN-MRK-PLA-001 · 38.1 Plantillas
+#### KYN-MRK-PLA-001 · 28.1 Plantillas
 
-Número: 38.1 · ID: `KYN-MRK-PLA-001` · Estado: vigente · Fuente: `/recursos/plantillas.html#plantillas`
+Número: 28.1 · ID: `KYN-MRK-PLA-001` · Estado: vigente · Fuente: `/recursos/plantillas.html#plantillas`
 
 ##### Plantillas de presentación
 
-Cuatro salas, una marca. Las reglas para armarlas están en el capítulo 30.
+Cuatro salas, una marca. Las reglas para armarlas están en el capítulo 21.
 
 01
 
@@ -5603,9 +5407,9 @@ Grupos · expresivo 16:9 · .pptx
 
 [Descargar](/assets/descargas/keyons-plantilla-taller.pptx)
 
-#### KYN-MRK-PLA-002 · 38.2 Documentos
+#### KYN-MRK-PLA-002 · 28.2 Documentos
 
-Número: 38.2 · ID: `KYN-MRK-PLA-002` · Estado: vigente · Fuente: `/recursos/plantillas.html#documentos`
+Número: 28.2 · ID: `KYN-MRK-PLA-002` · Estado: vigente · Fuente: `/recursos/plantillas.html#documentos`
 
 ##### Manuales y documentos
 
@@ -5629,7 +5433,7 @@ Documento
 
 Por enlazar
 
-### Capítulo 39 · Referencia
+### Capítulo 29 · Referencia
 
 Estado: borrador · Clave: referencia · Ruta: `/recursos/referencia.html` · Número anterior: 27
 
@@ -5645,13 +5449,13 @@ La memoria de las decisiones.
 
 #### Referencia
 
-Rótulo: Capítulo 39 · Recursos · Fuente: `/recursos/referencia.html`
+Rótulo: Capítulo 29 · Recursos · Fuente: `/recursos/referencia.html`
 
 La memoria de las decisiones: cómo se nombra y se cita cada regla.
 
-#### KYN-MRK-REF-001 · 39.1 Nomenclatura
+#### KYN-MRK-REF-001 · 29.1 Nomenclatura
 
-Número: 39.1 · ID: `KYN-MRK-REF-001` · Estado: vigente · Fuente: `/recursos/referencia.html#nomenclatura`
+Número: 29.1 · ID: `KYN-MRK-REF-001` · Estado: vigente · Fuente: `/recursos/referencia.html#nomenclatura`
 
 ##### Un código por regla
 
@@ -5728,9 +5532,9 @@ En cada sección, el ID ocupa el lugar del número y se copia con un clic. Recur
 - **PLA** · Plantillas y documentos
 - **REF** · Referencia
 
-#### KYN-MRK-REF-002 · 39.2 Índice
+#### KYN-MRK-REF-002 · 29.2 Índice
 
-Número: 39.2 · ID: `KYN-MRK-REF-002` · Estado: vigente · Fuente: `/recursos/referencia.html#indice`
+Número: 29.2 · ID: `KYN-MRK-REF-002` · Estado: vigente · Fuente: `/recursos/referencia.html#indice`
 
 ##### Todas las normas, por ID
 

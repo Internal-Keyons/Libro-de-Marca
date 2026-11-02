@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-014"
 titulo: "Antes de presentar"
-numero: "30.14"
+numero: "21.14"
 estado: "vigente"
-capitulo: "30 Presentaciones"
+capitulo: "21 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#antes"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-PRE-002"]
 
 # KYN-MRK-PRE-014 · Antes de presentar
 
-Número: 30.14 · Estado: vigente · Capítulo: 30 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#antes`
+Número: 21.14 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#antes`
 
 ##### Lista de verificación
 

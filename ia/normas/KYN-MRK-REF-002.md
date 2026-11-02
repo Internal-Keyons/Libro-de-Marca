@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-REF-002"
 titulo: "Índice"
-numero: "39.2"
+numero: "29.2"
 estado: "vigente"
-capitulo: "39 Referencia"
+capitulo: "29 Referencia"
 area: "Recursos"
 fuente: "/recursos/referencia.html#indice"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-REF-002 · Índice
 
-Número: 39.2 · Estado: vigente · Capítulo: 39 Referencia · Fuente: `/recursos/referencia.html#indice`
+Número: 29.2 · Estado: vigente · Capítulo: 29 Referencia · Fuente: `/recursos/referencia.html#indice`
 
 ##### Todas las normas, por ID
 

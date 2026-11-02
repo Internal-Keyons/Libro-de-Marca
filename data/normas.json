@@ -2,109 +2,109 @@
  "aplicaciones/personalizacion.html#blanca": {
   "estado": "vigente",
   "id": "KYN-MRK-PER-004",
-  "n": "34.4",
+  "n": "24.4",
   "t": "Modelo C · Marca blanca"
  },
  "aplicaciones/personalizacion.html#boutique": {
   "estado": "vigente",
   "id": "KYN-MRK-PER-003",
-  "n": "34.3",
+  "n": "24.3",
   "t": "Modelo B · Boutique"
  },
  "aplicaciones/personalizacion.html#modelos": {
   "estado": "vigente",
   "id": "KYN-MRK-PER-001",
-  "n": "34.1",
+  "n": "24.1",
   "t": "Tres modelos"
  },
  "aplicaciones/personalizacion.html#saas": {
   "estado": "vigente",
   "id": "KYN-MRK-PER-002",
-  "n": "34.2",
+  "n": "24.2",
   "t": "Modelo A · SaaS"
  },
  "aplicaciones/presentaciones.html#antes": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-014",
-  "n": "30.14",
+  "n": "21.14",
   "t": "Antes de presentar"
  },
  "aplicaciones/presentaciones.html#arco": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-004",
-  "n": "30.4",
+  "n": "21.4",
   "t": "El arco Keyons"
  },
  "aplicaciones/presentaciones.html#contraste": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-009",
-  "n": "30.9",
+  "n": "21.9",
   "t": "Contraste"
  },
  "aplicaciones/presentaciones.html#escribir": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-005",
-  "n": "30.5",
+  "n": "21.5",
   "t": "Escribir para la pantalla"
  },
  "aplicaciones/presentaciones.html#historia": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-003",
-  "n": "30.3",
+  "n": "21.3",
   "t": "Storytelling"
  },
  "aplicaciones/presentaciones.html#imagen": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-012",
-  "n": "30.12",
+  "n": "21.12",
   "t": "Imagen y gráficos"
  },
  "aplicaciones/presentaciones.html#lienzo": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-007",
-  "n": "30.7",
+  "n": "21.7",
   "t": "Lienzo y retícula"
  },
  "aplicaciones/presentaciones.html#limites": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-006",
-  "n": "30.6",
+  "n": "21.6",
   "t": "Límites y notas"
  },
  "aplicaciones/presentaciones.html#metodo": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-002",
-  "n": "30.2",
+  "n": "21.2",
   "t": "Método"
  },
  "aplicaciones/presentaciones.html#plantillas": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-013",
-  "n": "30.13",
+  "n": "21.13",
   "t": "Plantillas"
  },
  "aplicaciones/presentaciones.html#riesgo": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-011",
-  "n": "30.11",
+  "n": "21.11",
   "t": "Riesgo y estado"
  },
  "aplicaciones/presentaciones.html#ritmo": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-010",
-  "n": "30.10",
+  "n": "21.10",
   "t": "Ritmo"
  },
  "aplicaciones/presentaciones.html#tipografia": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-008",
-  "n": "30.8",
+  "n": "21.8",
   "t": "Tipografía"
  },
  "aplicaciones/presentaciones.html#tipos": {
   "estado": "vigente",
   "id": "KYN-MRK-PRE-001",
-  "n": "30.1",
+  "n": "21.1",
   "t": "Tipos"
  },
  "fundamentos/color/cielos.html#cielos": {
@@ -758,43 +758,43 @@
  "recursos/galeria.html#galeria": {
   "estado": "vigente",
   "id": "KYN-MRK-GAL-001",
-  "n": "35.1",
+  "n": "25.1",
   "t": "Galería"
  },
  "recursos/iconos.html#catalogo": {
   "estado": "vigente",
   "id": "KYN-MRK-ICN-001",
-  "n": "37.1",
+  "n": "27.1",
   "t": "Catálogo"
  },
  "recursos/plantillas.html#documentos": {
   "estado": "vigente",
   "id": "KYN-MRK-PLA-002",
-  "n": "38.2",
+  "n": "28.2",
   "t": "Documentos"
  },
  "recursos/plantillas.html#plantillas": {
   "estado": "vigente",
   "id": "KYN-MRK-PLA-001",
-  "n": "38.1",
+  "n": "28.1",
   "t": "Plantillas"
  },
  "recursos/referencia.html#indice": {
   "estado": "vigente",
   "id": "KYN-MRK-REF-002",
-  "n": "39.2",
+  "n": "29.2",
   "t": "Índice"
  },
  "recursos/referencia.html#nomenclatura": {
   "estado": "vigente",
   "id": "KYN-MRK-REF-001",
-  "n": "39.1",
+  "n": "29.1",
   "t": "Nomenclatura"
  },
  "recursos/texturas.html#texturas": {
   "estado": "vigente",
   "id": "KYN-MRK-TEX-001",
-  "n": "36.1",
+  "n": "26.1",
   "t": "Catálogo"
  }
 }

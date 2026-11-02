@@ -377,125 +377,24 @@
    ]
   },
   {
-   "id": "interfaces",
-   "titulo": "Interfaces",
-   "descripcion": "Diseño web, SaaS, custom y herramientas internas.",
-   "color": "Salmón Atardecer",
-   "ruta": "/interfaces/index.html",
-   "capitulos": [
-    {
-     "n": "20",
-     "clave": "arquitectura",
-     "titulo": "Sistemas de diseño",
-     "estado": "borrador",
-     "descripcion": "Identidad, experiencia, sistema y expresión de cada producto: cuatro capas que no se confunden.",
-     "rutas": [
-      "/interfaces/sistemas.html"
-     ],
-     "markdown": "/ia/capitulos/20-arquitectura.md",
-     "normas": []
-    },
-    {
-     "n": "21",
-     "clave": "tokens",
-     "titulo": "Tokens visuales",
-     "estado": "por definir",
-     "descripcion": "Tokens semánticos de interfaz y temas. Los valores de color, tipografía y espacio viven en Fundamentos.",
-     "rutas": [],
-     "markdown": "/ia/capitulos/21-tokens.md",
-     "normas": []
-    },
-    {
-     "n": "22",
-     "clave": "componentes",
-     "titulo": "Componentes UI",
-     "estado": "por definir",
-     "descripcion": "Botones, campos, mensajes, badges y tablas con la geometría de Forma y espacio.",
-     "rutas": [],
-     "markdown": "/ia/capitulos/22-componentes.md",
-     "normas": []
-    },
-    {
-     "n": "23",
-     "clave": "patrones",
-     "titulo": "Patrones visuales",
-     "estado": "por definir",
-     "descripcion": "Cómo se orienta la persona: dónde está, qué puede hacer, qué ocurre y cómo sigue.",
-     "rutas": [],
-     "markdown": "/ia/capitulos/23-patrones.md",
-     "normas": []
-    },
-    {
-     "n": "24",
-     "clave": "saas",
-     "titulo": "SaaS predeterminado",
-     "estado": "por definir",
-     "descripcion": "La interfaz por defecto de los productos Keyons y las zonas que el cliente ajusta.",
-     "rutas": [],
-     "markdown": "/ia/capitulos/24-saas.md",
-     "normas": []
-    },
-    {
-     "n": "25",
-     "clave": "marca-blanca",
-     "titulo": "Personalización",
-     "estado": "por definir",
-     "descripcion": "Productos bajo la identidad del cliente: la calidad Keyons sin firma visible.",
-     "rutas": [],
-     "markdown": "/ia/capitulos/25-marca-blanca.md",
-     "normas": []
-    },
-    {
-     "n": "26",
-     "clave": "estela-ui",
-     "titulo": "Interfaces de Estela",
-     "estado": "por definir",
-     "descripcion": "Cómo aparece y actúa Estela en pantalla. Su personalidad vive en Marca.",
-     "rutas": [],
-     "markdown": "/ia/capitulos/26-estela-ui.md",
-     "normas": []
-    },
-    {
-     "n": "27",
-     "clave": "motion",
-     "titulo": "Motion graphics",
-     "estado": "por definir",
-     "descripcion": "Movimiento de interfaz, Ráfaga y la experiencia sensorial de los productos.",
-     "rutas": [],
-     "markdown": "/ia/capitulos/27-motion.md",
-     "normas": []
-    },
-    {
-     "n": "28",
-     "clave": "accesibilidad-ui",
-     "titulo": "Guías visuales",
-     "estado": "por definir",
-     "descripcion": "Foco, objetivos táctiles, contraste en componentes y estados que no dependen del color.",
-     "rutas": [],
-     "markdown": "/ia/capitulos/28-accesibilidad-ui.md",
-     "normas": []
-    }
-   ]
-  },
-  {
    "id": "aplicaciones",
    "titulo": "Aplicaciones",
    "descripcion": "Dónde se aplica la marca: cada canal con sus reglas.",
-   "color": "Azul Noche",
+   "color": "Salmón Atardecer",
    "ruta": "/aplicaciones/index.html",
    "capitulos": [
     {
-     "n": "29",
+     "n": "20",
      "clave": "documentos",
      "titulo": "Documentos",
      "estado": "por definir",
      "descripcion": "Propuestas, contratos, facturas, correspondencia y papelería.",
      "rutas": [],
-     "markdown": "/ia/capitulos/29-documentos.md",
+     "markdown": "/ia/capitulos/20-documentos.md",
      "normas": []
     },
     {
-     "n": "30",
+     "n": "21",
      "clave": "presentaciones",
      "titulo": "Presentaciones",
      "estado": "borrador",
@@ -503,7 +402,7 @@
      "rutas": [
       "/aplicaciones/presentaciones.html"
      ],
-     "markdown": "/ia/capitulos/30-presentaciones.md",
+     "markdown": "/ia/capitulos/21-presentaciones.md",
      "normas": [
       "KYN-MRK-PRE-001",
       "KYN-MRK-PRE-002",
@@ -522,37 +421,27 @@
      ]
     },
     {
-     "n": "31",
-     "clave": "sitio-web",
-     "titulo": "Sitio web",
-     "estado": "borrador",
-     "descripcion": "Claridad antes que creatividad, con momentos de cielo.",
-     "rutas": [],
-     "markdown": "/ia/capitulos/31-sitio-web.md",
-     "normas": []
-    },
-    {
-     "n": "32",
+     "n": "22",
      "clave": "redes",
      "titulo": "Redes y campañas",
      "estado": "por definir",
      "descripcion": "Publicaciones, campañas y contenido para redes sociales.",
      "rutas": [],
-     "markdown": "/ia/capitulos/32-redes.md",
+     "markdown": "/ia/capitulos/22-redes.md",
      "normas": []
     },
     {
-     "n": "33",
+     "n": "23",
      "clave": "eventos",
      "titulo": "Eventos y merch",
      "estado": "por definir",
      "descripcion": "Eventos, talleres presenciales y artículos de marca.",
      "rutas": [],
-     "markdown": "/ia/capitulos/33-eventos.md",
+     "markdown": "/ia/capitulos/23-eventos.md",
      "normas": []
     },
     {
-     "n": "34",
+     "n": "24",
      "clave": "personalizacion",
      "titulo": "Personalización",
      "estado": "borrador",
@@ -560,7 +449,7 @@
      "rutas": [
       "/aplicaciones/personalizacion.html"
      ],
-     "markdown": "/ia/capitulos/34-personalizacion.md",
+     "markdown": "/ia/capitulos/24-personalizacion.md",
      "normas": [
       "KYN-MRK-PER-001",
       "KYN-MRK-PER-002",
@@ -574,11 +463,11 @@
    "id": "recursos",
    "titulo": "Recursos",
    "descripcion": "El espacio de trabajo: imágenes, texturas, íconos y plantillas.",
-   "color": "Azul Cielo",
+   "color": "Azul Noche",
    "ruta": "/recursos/index.html",
    "capitulos": [
     {
-     "n": "35",
+     "n": "25",
      "clave": "galeria",
      "titulo": "Galería de imágenes",
      "estado": "borrador",
@@ -586,13 +475,13 @@
      "rutas": [
       "/recursos/galeria.html"
      ],
-     "markdown": "/ia/capitulos/35-galeria.md",
+     "markdown": "/ia/capitulos/25-galeria.md",
      "normas": [
       "KYN-MRK-GAL-001"
      ]
     },
     {
-     "n": "36",
+     "n": "26",
      "clave": "texturas",
      "titulo": "Texturas y degradados",
      "estado": "borrador",
@@ -600,13 +489,13 @@
      "rutas": [
       "/recursos/texturas.html"
      ],
-     "markdown": "/ia/capitulos/36-texturas.md",
+     "markdown": "/ia/capitulos/26-texturas.md",
      "normas": [
       "KYN-MRK-TEX-001"
      ]
     },
     {
-     "n": "37",
+     "n": "27",
      "clave": "iconos",
      "titulo": "Íconos",
      "estado": "borrador",
@@ -614,13 +503,13 @@
      "rutas": [
       "/recursos/iconos.html"
      ],
-     "markdown": "/ia/capitulos/37-iconos.md",
+     "markdown": "/ia/capitulos/27-iconos.md",
      "normas": [
       "KYN-MRK-ICN-001"
      ]
     },
     {
-     "n": "38",
+     "n": "28",
      "clave": "plantillas",
      "titulo": "Plantillas y documentos",
      "estado": "borrador",
@@ -628,14 +517,14 @@
      "rutas": [
       "/recursos/plantillas.html"
      ],
-     "markdown": "/ia/capitulos/38-plantillas.md",
+     "markdown": "/ia/capitulos/28-plantillas.md",
      "normas": [
       "KYN-MRK-PLA-001",
       "KYN-MRK-PLA-002"
      ]
     },
     {
-     "n": "39",
+     "n": "29",
      "clave": "referencia",
      "titulo": "Referencia",
      "estado": "borrador",
@@ -643,7 +532,7 @@
      "rutas": [
       "/recursos/referencia.html"
      ],
-     "markdown": "/ia/capitulos/39-referencia.md",
+     "markdown": "/ia/capitulos/29-referencia.md",
      "normas": [
       "KYN-MRK-REF-001",
       "KYN-MRK-REF-002"
@@ -1426,10 +1315,10 @@
   {
    "id": "KYN-MRK-GAL-001",
    "titulo": "Galería",
-   "numero": "35.1",
+   "numero": "25.1",
    "rotulo": "Galería",
    "estado": "vigente",
-   "capitulo": "35",
+   "capitulo": "25",
    "area": "recursos",
    "fuente": "/recursos/galeria.html#galeria",
    "markdown": "/ia/normas/KYN-MRK-GAL-001.md",
@@ -1439,10 +1328,10 @@
   {
    "id": "KYN-MRK-ICN-001",
    "titulo": "Catálogo",
-   "numero": "37.1",
+   "numero": "27.1",
    "rotulo": "Catálogo",
    "estado": "vigente",
-   "capitulo": "37",
+   "capitulo": "27",
    "area": "recursos",
    "fuente": "/recursos/iconos.html#catalogo",
    "markdown": "/ia/normas/KYN-MRK-ICN-001.md",
@@ -1806,10 +1695,10 @@
   {
    "id": "KYN-MRK-PER-001",
    "titulo": "Tres modelos",
-   "numero": "34.1",
+   "numero": "24.1",
    "rotulo": "Tres modelos",
    "estado": "vigente",
-   "capitulo": "34",
+   "capitulo": "24",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/personalizacion.html#modelos",
    "markdown": "/ia/normas/KYN-MRK-PER-001.md",
@@ -1821,10 +1710,10 @@
   {
    "id": "KYN-MRK-PER-002",
    "titulo": "Modelo A · SaaS",
-   "numero": "34.2",
+   "numero": "24.2",
    "rotulo": "Modelo A · SaaS",
    "estado": "vigente",
-   "capitulo": "34",
+   "capitulo": "24",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/personalizacion.html#saas",
    "markdown": "/ia/normas/KYN-MRK-PER-002.md",
@@ -1834,10 +1723,10 @@
   {
    "id": "KYN-MRK-PER-003",
    "titulo": "Modelo B · Boutique",
-   "numero": "34.3",
+   "numero": "24.3",
    "rotulo": "Modelo B · Boutique",
    "estado": "vigente",
-   "capitulo": "34",
+   "capitulo": "24",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/personalizacion.html#boutique",
    "markdown": "/ia/normas/KYN-MRK-PER-003.md",
@@ -1847,10 +1736,10 @@
   {
    "id": "KYN-MRK-PER-004",
    "titulo": "Modelo C · Marca blanca",
-   "numero": "34.4",
+   "numero": "24.4",
    "rotulo": "Modelo C · Marca blanca",
    "estado": "vigente",
-   "capitulo": "34",
+   "capitulo": "24",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/personalizacion.html#blanca",
    "markdown": "/ia/normas/KYN-MRK-PER-004.md",
@@ -1860,10 +1749,10 @@
   {
    "id": "KYN-MRK-PLA-001",
    "titulo": "Plantillas",
-   "numero": "38.1",
+   "numero": "28.1",
    "rotulo": "Plantillas",
    "estado": "vigente",
-   "capitulo": "38",
+   "capitulo": "28",
    "area": "recursos",
    "fuente": "/recursos/plantillas.html#plantillas",
    "markdown": "/ia/normas/KYN-MRK-PLA-001.md",
@@ -1873,10 +1762,10 @@
   {
    "id": "KYN-MRK-PLA-002",
    "titulo": "Documentos",
-   "numero": "38.2",
+   "numero": "28.2",
    "rotulo": "Documentos",
    "estado": "vigente",
-   "capitulo": "38",
+   "capitulo": "28",
    "area": "recursos",
    "fuente": "/recursos/plantillas.html#documentos",
    "markdown": "/ia/normas/KYN-MRK-PLA-002.md",
@@ -1886,10 +1775,10 @@
   {
    "id": "KYN-MRK-PRE-001",
    "titulo": "Tipos",
-   "numero": "30.1",
+   "numero": "21.1",
    "rotulo": "Tipos",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#tipos",
    "markdown": "/ia/normas/KYN-MRK-PRE-001.md",
@@ -1899,10 +1788,10 @@
   {
    "id": "KYN-MRK-PRE-002",
    "titulo": "Método",
-   "numero": "30.2",
+   "numero": "21.2",
    "rotulo": "Método",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#metodo",
    "markdown": "/ia/normas/KYN-MRK-PRE-002.md",
@@ -1916,10 +1805,10 @@
   {
    "id": "KYN-MRK-PRE-003",
    "titulo": "Storytelling",
-   "numero": "30.3",
+   "numero": "21.3",
    "rotulo": "Storytelling",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#historia",
    "markdown": "/ia/normas/KYN-MRK-PRE-003.md",
@@ -1931,10 +1820,10 @@
   {
    "id": "KYN-MRK-PRE-004",
    "titulo": "El arco Keyons",
-   "numero": "30.4",
+   "numero": "21.4",
    "rotulo": "El arco Keyons",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#arco",
    "markdown": "/ia/normas/KYN-MRK-PRE-004.md",
@@ -1944,10 +1833,10 @@
   {
    "id": "KYN-MRK-PRE-005",
    "titulo": "Escribir para la pantalla",
-   "numero": "30.5",
+   "numero": "21.5",
    "rotulo": "Escribir para la pantalla",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#escribir",
    "markdown": "/ia/normas/KYN-MRK-PRE-005.md",
@@ -1963,10 +1852,10 @@
   {
    "id": "KYN-MRK-PRE-006",
    "titulo": "Límites y notas",
-   "numero": "30.6",
+   "numero": "21.6",
    "rotulo": "Límites y notas",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#limites",
    "markdown": "/ia/normas/KYN-MRK-PRE-006.md",
@@ -1978,10 +1867,10 @@
   {
    "id": "KYN-MRK-PRE-007",
    "titulo": "Lienzo y retícula",
-   "numero": "30.7",
+   "numero": "21.7",
    "rotulo": "Lienzo y retícula",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#lienzo",
    "markdown": "/ia/normas/KYN-MRK-PRE-007.md",
@@ -1991,10 +1880,10 @@
   {
    "id": "KYN-MRK-PRE-008",
    "titulo": "Tipografía",
-   "numero": "30.8",
+   "numero": "21.8",
    "rotulo": "Tipografía",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#tipografia",
    "markdown": "/ia/normas/KYN-MRK-PRE-008.md",
@@ -2004,10 +1893,10 @@
   {
    "id": "KYN-MRK-PRE-009",
    "titulo": "Contraste",
-   "numero": "30.9",
+   "numero": "21.9",
    "rotulo": "Contraste",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#contraste",
    "markdown": "/ia/normas/KYN-MRK-PRE-009.md",
@@ -2019,10 +1908,10 @@
   {
    "id": "KYN-MRK-PRE-010",
    "titulo": "Ritmo",
-   "numero": "30.10",
+   "numero": "21.10",
    "rotulo": "Ritmo",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#ritmo",
    "markdown": "/ia/normas/KYN-MRK-PRE-010.md",
@@ -2032,10 +1921,10 @@
   {
    "id": "KYN-MRK-PRE-011",
    "titulo": "Riesgo y estado",
-   "numero": "30.11",
+   "numero": "21.11",
    "rotulo": "Riesgo y estado",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#riesgo",
    "markdown": "/ia/normas/KYN-MRK-PRE-011.md",
@@ -2047,10 +1936,10 @@
   {
    "id": "KYN-MRK-PRE-012",
    "titulo": "Imagen y gráficos",
-   "numero": "30.12",
+   "numero": "21.12",
    "rotulo": "Imagen y gráficos",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#imagen",
    "markdown": "/ia/normas/KYN-MRK-PRE-012.md",
@@ -2064,10 +1953,10 @@
   {
    "id": "KYN-MRK-PRE-013",
    "titulo": "Plantillas",
-   "numero": "30.13",
+   "numero": "21.13",
    "rotulo": "Plantillas",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#plantillas",
    "markdown": "/ia/normas/KYN-MRK-PRE-013.md",
@@ -2077,10 +1966,10 @@
   {
    "id": "KYN-MRK-PRE-014",
    "titulo": "Antes de presentar",
-   "numero": "30.14",
+   "numero": "21.14",
    "rotulo": "Antes de presentar",
    "estado": "vigente",
-   "capitulo": "30",
+   "capitulo": "21",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#antes",
    "markdown": "/ia/normas/KYN-MRK-PRE-014.md",
@@ -2092,10 +1981,10 @@
   {
    "id": "KYN-MRK-REF-001",
    "titulo": "Nomenclatura",
-   "numero": "39.1",
+   "numero": "29.1",
    "rotulo": "Nomenclatura",
    "estado": "vigente",
-   "capitulo": "39",
+   "capitulo": "29",
    "area": "recursos",
    "fuente": "/recursos/referencia.html#nomenclatura",
    "markdown": "/ia/normas/KYN-MRK-REF-001.md",
@@ -2107,10 +1996,10 @@
   {
    "id": "KYN-MRK-REF-002",
    "titulo": "Índice",
-   "numero": "39.2",
+   "numero": "29.2",
    "rotulo": "Índice",
    "estado": "vigente",
-   "capitulo": "39",
+   "capitulo": "29",
    "area": "recursos",
    "fuente": "/recursos/referencia.html#indice",
    "markdown": "/ia/normas/KYN-MRK-REF-002.md",
@@ -2120,10 +2009,10 @@
   {
    "id": "KYN-MRK-TEX-001",
    "titulo": "Catálogo",
-   "numero": "36.1",
+   "numero": "26.1",
    "rotulo": "Catálogo",
    "estado": "vigente",
-   "capitulo": "36",
+   "capitulo": "26",
    "area": "recursos",
    "fuente": "/recursos/texturas.html#texturas",
    "markdown": "/ia/normas/KYN-MRK-TEX-001.md",

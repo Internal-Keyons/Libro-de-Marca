@@ -556,7 +556,7 @@ def conv(v, names):
 def main():
     today = datetime.date.today().isoformat()
     inicio = open(os.path.join(ROOT, 'inicio.html'), encoding='utf-8').read()
-    version = re.search(r'Versión ([\d.]+)', inicio).group(1)
+    version = re.search(r'<meta name="keyons:version" content="([\d.]+)">', inicio).group(1)
     reg = json.load(open(os.path.join(ROOT, 'data', 'normas.json'), encoding='utf-8'))
     areas = nav()
 

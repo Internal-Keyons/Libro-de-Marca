@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "33"
+capitulo: "23"
 titulo: "Eventos y merch"
 area: "Aplicaciones"
 estado: "por definir"
@@ -12,7 +12,7 @@ normas: []
 referencias: []
 ---
 
-# Capítulo 33 · Eventos y merch
+# Capítulo 23 · Eventos y merch
 
 Estado: por definir · Clave: eventos · Número anterior: 21
 

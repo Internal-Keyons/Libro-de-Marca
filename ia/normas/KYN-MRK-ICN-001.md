@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ICN-001"
 titulo: "Catálogo"
-numero: "37.1"
+numero: "27.1"
 estado: "vigente"
-capitulo: "37 Íconos"
+capitulo: "27 Íconos"
 area: "Recursos"
 fuente: "/recursos/iconos.html#catalogo"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-ICN-001 · Catálogo
 
-Número: 37.1 · Estado: vigente · Capítulo: 37 Íconos · Fuente: `/recursos/iconos.html#catalogo`
+Número: 27.1 · Estado: vigente · Capítulo: 27 Íconos · Fuente: `/recursos/iconos.html#catalogo`
 
 ##### Elija, copie y descargue
 

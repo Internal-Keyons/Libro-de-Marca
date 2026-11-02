@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "37"
+capitulo: "27"
 titulo: "Íconos"
 area: "Recursos"
 estado: "borrador"
@@ -12,7 +12,7 @@ normas: ["KYN-MRK-ICN-001"]
 referencias: ["KYN-MRK-ICN-001"]
 ---
 
-# Capítulo 37 · Íconos
+# Capítulo 27 · Íconos
 
 Estado: borrador · Clave: iconos · Ruta: `/recursos/iconos.html` · Número anterior: 25
 
@@ -24,13 +24,13 @@ El catálogo completo de la familia.
 
 ## Íconos
 
-Rótulo: Capítulo 37 · Recursos · Fuente: `/recursos/iconos.html`
+Rótulo: Capítulo 27 · Recursos · Fuente: `/recursos/iconos.html`
 
 El catálogo completo de la familia: se copia en SVG o se descarga.
 
-## KYN-MRK-ICN-001 · 37.1 Catálogo
+## KYN-MRK-ICN-001 · 27.1 Catálogo
 
-Número: 37.1 · ID: `KYN-MRK-ICN-001` · Estado: vigente · Fuente: `/recursos/iconos.html#catalogo`
+Número: 27.1 · ID: `KYN-MRK-ICN-001` · Estado: vigente · Fuente: `/recursos/iconos.html#catalogo`
 
 ### Elija, copie y descargue
 

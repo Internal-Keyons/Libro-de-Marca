@@ -4008,17 +4008,19 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
 .wrap > .crumbs{margin-bottom:var(--s10)}
 
 /* ════ Ronda 2026-11-02 ════ */
-/* Salida a la Biblioteca desde cualquier página: ícono «salir» del catálogo junto al menú.
-   En escritorio va con su nombre, separado del menú por una línea; en tableta y móvil, solo el ícono. */
-.hdr__exit{order:-1;display:inline-flex;align-items:center;gap:8px;height:40px;margin-left:12px;padding-left:16px;border-left:1.5px solid var(--color-border);
-  font-size:14px;font-weight:500;color:var(--hdr-search);text-decoration:none;transition:color 300ms var(--e-out)}
-.hdr__exit .ic{width:20px;height:20px;transition:translate 300ms var(--e-out)}
+/* Salida a la Biblioteca desde cualquier página: el ícono «salir» del catálogo, en la esquina superior derecha.
+   En escritorio va después del buscador, separado por una línea; en tableta y móvil, después del menú. */
+.hdr__exit{order:2;display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;margin-left:16px;margin-right:-8px;
+  color:var(--hdr-search);text-decoration:none;position:relative}
+.hdr__exit::before{content:"";position:absolute;left:-8px;top:10px;bottom:10px;border-left:1.5px solid var(--color-border)}
+.hdr__exit span{display:none}
+.hdr__exit .ic{width:21px;height:21px;transition:translate 300ms var(--e-out)}
 .hdr__exit:hover .ic,.hdr__exit:focus-visible .ic{translate:3px 0}
 @media(max-width:1179px){
-  .hdr__exit{order:0;margin-left:auto;width:40px;justify-content:center;padding:0;border-left:0}
-  .hdr__exit span{display:none}
+  .hdr__exit{margin-left:4px}
+  .hdr__exit::before{display:none}
   .hdr__exit .ic{width:22px;height:22px}
-  .hdr__burger{order:1;margin-left:4px}
+  .hdr__burger{order:1;margin-left:auto}
 }
 /* Menú: tres líneas que se recogen y una X corta que se dibuja; sin giros ni rebotes */
 .hdr__burger path{rotate:none!important}

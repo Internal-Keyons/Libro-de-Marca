@@ -148,68 +148,39 @@ window.KEYONS_NAV = [
     ]
   },
   {
-    id: 'interfaces', t: 'Interfaces', href: 'interfaces/index.html', color: 'atardecer', colorName: 'Salmón Atardecer',
-    d: 'Diseño web, SaaS, custom y herramientas internas.',
-    ch: [
-      { n: '20', k: 'arquitectura', t: 'Sistemas de diseño', s: 'b', d: 'Identidad, experiencia, sistema y expresión de cada producto: cuatro capas que no se confunden.', items: [
-        { t: 'Las cuatro capas', s: 'b', href: 'interfaces/sistemas.html#capas' }, { t: 'Capas de tokens' }, { t: 'Qué hereda cada producto' }, { t: 'Relación con el manual Sistema de Diseño', st: 'Sistema de Diseño' } ] },
-      { n: '21', k: 'tokens', t: 'Tokens visuales', s: 'p', d: 'Tokens semánticos de interfaz y temas. Los valores de color, tipografía y espacio viven en Fundamentos.', items: [
-        { t: 'Tokens semánticos' }, { t: 'Temperatura sobria y viva' }, { t: 'Temas claro y oscuro' }, { t: 'Temas de cliente' } ] },
-      { n: '22', k: 'componentes', t: 'Componentes UI', s: 'p', d: 'Botones, campos, mensajes, badges y tablas con la geometría de Forma y espacio.', items: [
-        { t: 'Botones' }, { t: 'Campos de formulario', st: 'Formularios' }, { t: 'Mensajes de estado' }, { t: 'Badges' }, { t: 'Tablas y datos' }, { t: 'Estados de los componentes', st: 'Estados' } ] },
-      { n: '23', k: 'patrones', t: 'Patrones visuales', s: 'p', d: 'Cómo se orienta la persona: dónde está, qué puede hacer, qué ocurre y cómo sigue.', items: [
-        { t: 'Navegación' }, { t: 'Jerarquía de pantalla' }, { t: 'Estados vacíos' }, { t: 'Onboarding' }, { t: 'Tableros' } ] },
-      { n: '24', k: 'saas', t: 'SaaS predeterminado', st: 'SaaS', s: 'p', d: 'La interfaz por defecto de los productos Keyons y las zonas que el cliente ajusta.', items: [
-        { t: 'Qué es intocable' }, { t: 'Zonas personalizables' }, { t: 'Documentos generados' } ] },
-      { n: '25', k: 'marca-blanca', t: 'Personalización', s: 'p', d: 'Productos bajo la identidad del cliente: la calidad Keyons sin firma visible.', items: [
-        { t: 'Tema del cliente' }, { t: 'Créditos' }, { t: 'Calidad sin firma' } ] },
-      { n: '26', k: 'estela-ui', t: 'Interfaces de Estela', st: 'Estela', s: 'p', d: 'Cómo aparece y actúa Estela en pantalla. Su personalidad vive en Marca.', items: [
-        { t: 'Presencia y avatar' }, { t: 'Conversación' }, { t: 'Acciones generativas' }, { t: 'Estados de la agente' } ] },
-      { n: '27', k: 'motion', t: 'Motion graphics', s: 'p', d: 'Movimiento de interfaz, Ráfaga y la experiencia sensorial de los productos.', items: [
-        { t: 'Movimiento de interfaz' }, { t: 'Ráfaga y cielo' }, { t: 'Duraciones y curvas' }, { t: 'Movimiento reducido' } ] },
-      { n: '28', k: 'accesibilidad-ui', t: 'Guías visuales', s: 'p', d: 'Foco, objetivos táctiles, contraste en componentes y estados que no dependen del color.', items: [
-        { t: 'Foco visible' }, { t: 'Objetivos táctiles' }, { t: 'Contraste en componentes' }, { t: 'Estados sin depender del color' } ] }
-    ]
-  },
-  {
-    id: 'aplicaciones', t: 'Aplicaciones', href: 'aplicaciones/index.html', color: 'noche', colorName: 'Azul Noche',
+    id: 'aplicaciones', t: 'Aplicaciones', href: 'aplicaciones/index.html', color: 'atardecer', colorName: 'Salmón Atardecer',
     d: 'Dónde se aplica la marca: cada canal con sus reglas.',
     ch: [
-      { n: '29', k: 'documentos', was: '17', t: 'Documentos', s: 'p', d: 'Propuestas, contratos, facturas, correspondencia y papelería.', items: [
+      { n: '20', k: 'documentos', was: '17', t: 'Documentos', s: 'p', d: 'Propuestas, contratos, facturas, correspondencia y papelería.', items: [
         { grp: 'Comerciales' }, { t: 'Propuesta comercial', deep: 1 }, { t: 'Cotización', deep: 1 }, { t: 'Presentación', deep: 1 }, { t: 'Caso de éxito', deep: 1 },
         { grp: 'Legales' }, { t: 'Contrato', deep: 1 }, { t: 'Confidencialidad', deep: 1 }, { t: 'Anexos', deep: 1 },
         { grp: 'Financieras' }, { t: 'Factura electrónica', deep: 1 }, { t: 'Recibo', deep: 1 }, { t: 'Estado de cuenta', deep: 1 },
         { grp: 'Correspondencia' }, { t: 'Carta', deep: 1 }, { t: 'Firma de correo', deep: 1 }, { t: 'Firma digital', deep: 1 },
         { grp: 'Papelería' }, { t: 'Tarjeta de presentación', st: 'Tarjeta', deep: 1 }, { t: 'Hoja membretada', deep: 1 }, { t: 'Sobre y carpeta', deep: 1 } ] },
-      { n: '30', k: 'presentaciones', was: '18', t: 'Presentaciones', s: 'b', d: 'Para clientes, capacitaciones, el equipo y talleres: método, historia, voz y estética.', items: [
+      { n: '21', k: 'presentaciones', was: '18', t: 'Presentaciones', s: 'b', d: 'Para clientes, capacitaciones, el equipo y talleres: método, historia, voz y estética.', items: [
         { sub: 'Para qué' }, { t: 'Tipos', s: 'b', href: 'aplicaciones/presentaciones.html#tipos' }, { t: 'Método', s: 'b', href: 'aplicaciones/presentaciones.html#metodo' }, { sub: 'Contenido' }, { t: 'Storytelling', s: 'b', href: 'aplicaciones/presentaciones.html#historia' }, { t: 'El arco Keyons', s: 'b', href: 'aplicaciones/presentaciones.html#arco' }, { t: 'Escribir para la pantalla', st: 'Para la pantalla', s: 'b', href: 'aplicaciones/presentaciones.html#escribir' }, { t: 'Límites y notas', s: 'b', href: 'aplicaciones/presentaciones.html#limites' }, { sub: 'Estética' }, { t: 'Lienzo y retícula', s: 'b', href: 'aplicaciones/presentaciones.html#lienzo' }, { t: 'Tipografía', s: 'b', href: 'aplicaciones/presentaciones.html#tipografia' }, { t: 'Contraste', s: 'b', href: 'aplicaciones/presentaciones.html#contraste' }, { t: 'Ritmo', s: 'b', href: 'aplicaciones/presentaciones.html#ritmo' }, { t: 'Riesgo y estado', s: 'b', href: 'aplicaciones/presentaciones.html#riesgo' }, { t: 'Imagen y gráficos', s: 'b', href: 'aplicaciones/presentaciones.html#imagen' }, { sub: 'Hacerla' }, { t: 'Plantillas', s: 'b', href: 'aplicaciones/presentaciones.html#plantillas' }, { t: 'Antes de presentar', s: 'b', href: 'aplicaciones/presentaciones.html#antes' } ] },
-      { n: '31', k: 'sitio-web', was: '19', t: 'Sitio web', s: 'b', d: 'Claridad antes que creatividad, con momentos de cielo.', items: [
-        { sub: 'Principios' }, { t: 'Claridad antes que creatividad', st: 'Claridad primero', s: 'b' },
-        { sub: 'Sistema' }, { t: 'Lectura en Z' }, { t: 'Retícula web' },
-        { sub: 'Componentes' }, { t: 'Cabecera', s: 'v' }, { t: 'Titulares de sección', s: 'v' }, { t: 'Tarjetas' },
-        { sub: 'Aplicaciones' }, { t: 'Páginas tipo' } ] },
-      { n: '32', k: 'redes', was: '20', t: 'Redes y campañas', st: 'Redes', s: 'p', d: 'Publicaciones, campañas y contenido para redes sociales.', items: [
+      { n: '22', k: 'redes', was: '20', t: 'Redes y campañas', st: 'Redes', s: 'p', d: 'Publicaciones, campañas y contenido para redes sociales.', items: [
         { t: 'Redes sociales' }, { t: 'Campañas' } ] },
-      { n: '33', k: 'eventos', was: '21', t: 'Eventos y merch', st: 'Eventos', s: 'p', d: 'Eventos, talleres presenciales y artículos de marca.', items: [
+      { n: '23', k: 'eventos', was: '21', t: 'Eventos y merch', st: 'Eventos', s: 'p', d: 'Eventos, talleres presenciales y artículos de marca.', items: [
         { t: 'Eventos' }, { t: 'Merch' } ] },
-      { n: '34', k: 'personalizacion', was: '22', t: 'Personalización', s: 'b', d: 'Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca blanca.', items: [
+      { n: '24', k: 'personalizacion', was: '22', t: 'Personalización', s: 'b', d: 'Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca blanca.', items: [
         { t: 'Tres modelos', s: 'b', href: 'aplicaciones/personalizacion.html#modelos' }, { t: 'Modelo A · SaaS', st: 'Modelo SaaS', s: 'b', href: 'aplicaciones/personalizacion.html#saas' },
         { t: 'Modelo B · Boutique', st: 'Modelo Boutique', s: 'b', href: 'aplicaciones/personalizacion.html#boutique' }, { t: 'Modelo C · Marca blanca', st: 'Marca blanca', s: 'b', href: 'aplicaciones/personalizacion.html#blanca' } ] }
     ]
   },
   {
-    id: 'recursos', t: 'Recursos', href: 'recursos/index.html', color: 'cielo', colorName: 'Azul Cielo',
+    id: 'recursos', t: 'Recursos', href: 'recursos/index.html', color: 'noche', colorName: 'Azul Noche',
     d: 'El espacio de trabajo: imágenes, texturas, íconos y plantillas.',
     ch: [
-      { n: '35', k: 'galeria', was: '23', t: 'Galería de imágenes', st: 'Galería', s: 'b', d: 'Degradados, cielos, naturaleza y personas, con ID y crédito.', items: [
+      { n: '25', k: 'galeria', was: '23', t: 'Galería de imágenes', st: 'Galería', s: 'b', d: 'Degradados, cielos, naturaleza y personas, con ID y crédito.', items: [
         { t: 'Galería', s: 'b', href: 'recursos/galeria.html#galeria' } ] },
-      { n: '36', k: 'texturas', was: '24', t: 'Texturas y degradados', st: 'Texturas', s: 'b', d: 'Cielos hechos con código, con ID.', items: [
+      { n: '26', k: 'texturas', was: '24', t: 'Texturas y degradados', st: 'Texturas', s: 'b', d: 'Cielos hechos con código, con ID.', items: [
         { t: 'Catálogo', s: 'b', href: 'recursos/texturas.html#texturas' } ] },
-      { n: '37', k: 'iconos', was: '25', t: 'Íconos', s: 'b', d: 'El catálogo completo de la familia.', items: [
+      { n: '27', k: 'iconos', was: '25', t: 'Íconos', s: 'b', d: 'El catálogo completo de la familia.', items: [
         { t: 'Catálogo', s: 'b', href: 'recursos/iconos.html#catalogo' } ] },
-      { n: '38', k: 'plantillas', was: '26', t: 'Plantillas y documentos', st: 'Plantillas', s: 'b', d: 'Plantillas de presentación y manuales.', items: [
+      { n: '28', k: 'plantillas', was: '26', t: 'Plantillas y documentos', st: 'Plantillas', s: 'b', d: 'Plantillas de presentación y manuales.', items: [
         { t: 'Plantillas', s: 'b', href: 'recursos/plantillas.html#plantillas' }, { t: 'Documentos', s: 'b', href: 'recursos/plantillas.html#documentos' } ] },
-      { n: '39', k: 'referencia', was: '27', t: 'Referencia', s: 'b', d: 'La memoria de las decisiones.', items: [
+      { n: '29', k: 'referencia', was: '27', t: 'Referencia', s: 'b', d: 'La memoria de las decisiones.', items: [
         { t: 'Nomenclatura de reglas', st: 'Nomenclatura', s: 'b', href: 'recursos/referencia.html#nomenclatura' }, { t: 'Índice de reglas', st: 'Índice', s: 'b', href: 'recursos/referencia.html#indice' },
         { t: 'Registro de decisiones', st: 'Decisiones' }, { t: 'Glosario' }, { t: 'Cambios' } ] }
     ]

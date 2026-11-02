@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-003"
 titulo: "Storytelling"
-numero: "30.3"
+numero: "21.3"
 estado: "vigente"
-capitulo: "30 Presentaciones"
+capitulo: "21 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#historia"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-PRE-002"]
 
 # KYN-MRK-PRE-003 · Storytelling
 
-Número: 30.3 · Estado: vigente · Capítulo: 30 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#historia`
+Número: 21.3 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#historia`
 
 ##### La sala es la protagonista
 

@@ -33,5 +33,3 @@ Esta expresión mantiene los estándares de experiencia compartidos y ofrece una
 Cuando una solución adopta la identidad exclusiva del cliente, debe respetar sus criterios visuales y las condiciones de personalización acordadas.
 Los proyectos contratados sin firma visible de Keyons no deben incorporar logotipos, marcas de agua ni otros elementos destinados a revelar la identidad del proveedor.
 La ausencia de marca visible no modifica los compromisos de claridad, accesibilidad, seguridad y calidad de experiencia.
-
-Las cuatro capas, identidad, experiencia, sistema y expresión, se desarrollan en el capítulo 20, Sistemas de diseño.

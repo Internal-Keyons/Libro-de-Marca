@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-TEX-001"
 titulo: "Catálogo"
-numero: "36.1"
+numero: "26.1"
 estado: "vigente"
-capitulo: "36 Texturas y degradados"
+capitulo: "26 Texturas y degradados"
 area: "Recursos"
 fuente: "/recursos/texturas.html#texturas"
 referencias: ["KYN-MRK-ILU-007"]
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-TEX-001 · Catálogo
 
-Número: 36.1 · Estado: vigente · Capítulo: 36 Texturas y degradados · Fuente: `/recursos/texturas.html#texturas`
+Número: 26.1 · Estado: vigente · Capítulo: 26 Texturas y degradados · Fuente: `/recursos/texturas.html#texturas`
 
 ##### Del amanecer a la galaxia
 

@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-006"
 titulo: "Límites y notas"
-numero: "30.6"
+numero: "21.6"
 estado: "vigente"
-capitulo: "30 Presentaciones"
+capitulo: "21 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#limites"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-PRE-002"]
 
 # KYN-MRK-PRE-006 · Límites y notas
 
-Número: 30.6 · Estado: vigente · Capítulo: 30 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#limites`
+Número: 21.6 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#limites`
 
 ##### Lo que cabe y lo que se dice
 

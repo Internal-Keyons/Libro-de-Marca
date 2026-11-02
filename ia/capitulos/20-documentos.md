@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "29"
+capitulo: "20"
 titulo: "Documentos"
 area: "Aplicaciones"
 estado: "por definir"
@@ -12,7 +12,7 @@ normas: []
 referencias: []
 ---
 
-# Capítulo 29 · Documentos
+# Capítulo 20 · Documentos
 
 Estado: por definir · Clave: documentos · Número anterior: 17
 

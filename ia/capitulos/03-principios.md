@@ -63,8 +63,6 @@ Cuando una solución adopta la identidad exclusiva del cliente, debe respetar su
 Los proyectos contratados sin firma visible de Keyons no deben incorporar logotipos, marcas de agua ni otros elementos destinados a revelar la identidad del proveedor.
 La ausencia de marca visible no modifica los compromisos de claridad, accesibilidad, seguridad y calidad de experiencia.
 
-Las cuatro capas, identidad, experiencia, sistema y expresión, se desarrollan en el capítulo 20, Sistemas de diseño.
-
 ## KYN-MRK-DIS-003 · 3.3 Calma y expresión
 
 Número: 3.3 · ID: `KYN-MRK-DIS-003` · Estado: vigente · Fuente: `/marca/principios.html#calma`

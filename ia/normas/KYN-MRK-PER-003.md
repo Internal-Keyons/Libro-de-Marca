@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PER-003"
 titulo: "Modelo B · Boutique"
-numero: "34.3"
+numero: "24.3"
 estado: "vigente"
-capitulo: "34 Personalización"
+capitulo: "24 Personalización"
 area: "Aplicaciones"
 fuente: "/aplicaciones/personalizacion.html#boutique"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PER-003 · Modelo B · Boutique
 
-Número: 34.3 · Estado: vigente · Capítulo: 34 Personalización · Fuente: `/aplicaciones/personalizacion.html#boutique`
+Número: 24.3 · Estado: vigente · Capítulo: 24 Personalización · Fuente: `/aplicaciones/personalizacion.html#boutique`
 
 ##### La firma vive en la calidad
 

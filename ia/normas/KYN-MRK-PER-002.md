@@ -5,9 +5,9 @@ fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PER-002"
 titulo: "Modelo A · SaaS"
-numero: "34.2"
+numero: "24.2"
 estado: "vigente"
-capitulo: "34 Personalización"
+capitulo: "24 Personalización"
 area: "Aplicaciones"
 fuente: "/aplicaciones/personalizacion.html#saas"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PER-002 · Modelo A · SaaS
 
-Número: 34.2 · Estado: vigente · Capítulo: 34 Personalización · Fuente: `/aplicaciones/personalizacion.html#saas`
+Número: 24.2 · Estado: vigente · Capítulo: 24 Personalización · Fuente: `/aplicaciones/personalizacion.html#saas`
 
 ##### La marca se reconoce aunque se personalice
 

@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "39"
+capitulo: "29"
 titulo: "Referencia"
 area: "Recursos"
 estado: "borrador"
@@ -12,7 +12,7 @@ normas: ["KYN-MRK-REF-001", "KYN-MRK-REF-002"]
 referencias: ["KYN-MRK-COL-001", "KYN-MRK-REF-001", "KYN-MRK-REF-002"]
 ---
 
-# Capítulo 39 · Referencia
+# Capítulo 29 · Referencia
 
 Estado: borrador · Clave: referencia · Ruta: `/recursos/referencia.html` · Número anterior: 27
 
@@ -28,13 +28,13 @@ La memoria de las decisiones.
 
 ## Referencia
 
-Rótulo: Capítulo 39 · Recursos · Fuente: `/recursos/referencia.html`
+Rótulo: Capítulo 29 · Recursos · Fuente: `/recursos/referencia.html`
 
 La memoria de las decisiones: cómo se nombra y se cita cada regla.
 
-## KYN-MRK-REF-001 · 39.1 Nomenclatura
+## KYN-MRK-REF-001 · 29.1 Nomenclatura
 
-Número: 39.1 · ID: `KYN-MRK-REF-001` · Estado: vigente · Fuente: `/recursos/referencia.html#nomenclatura`
+Número: 29.1 · ID: `KYN-MRK-REF-001` · Estado: vigente · Fuente: `/recursos/referencia.html#nomenclatura`
 
 ### Un código por regla
 
@@ -111,9 +111,9 @@ En cada sección, el ID ocupa el lugar del número y se copia con un clic. Recur
 - **PLA** · Plantillas y documentos
 - **REF** · Referencia
 
-## KYN-MRK-REF-002 · 39.2 Índice
+## KYN-MRK-REF-002 · 29.2 Índice
 
-Número: 39.2 · ID: `KYN-MRK-REF-002` · Estado: vigente · Fuente: `/recursos/referencia.html#indice`
+Número: 29.2 · ID: `KYN-MRK-REF-002` · Estado: vigente · Fuente: `/recursos/referencia.html#indice`
 
 ### Todas las normas, por ID
 
