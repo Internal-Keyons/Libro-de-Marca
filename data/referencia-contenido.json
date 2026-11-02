@@ -1,0 +1,2025 @@
+{
+ "nota": "Generado por tools/verificar.py. No se edita a mano.",
+ "secciones": {
+  "aplicaciones/personalizacion.html#blanca": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PER-004",
+   "texto": "Modelo C · Marca blanca Invisible, pero presente El cliente contrata invisibilidad total. El producto es suyo al 100 %. Sin rastro visual ni verbalNada en la interfaz menciona a Keyons. Sin caso de éxitoSalvo autorización expresa y previa del cliente. Marca del clienteEl producto se entrega bajo su identidad. Calidad intactaEl estándar técnico Keyons sigue ahí, aunque no se vea. La calidad es la firma que no se negocia, ni siquiera en marca blanca.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "a1f7fc30cbfcdeef",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "aplicaciones/personalizacion.html#boutique": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PER-003",
+   "texto": "Modelo B · Boutique La firma vive en la calidad Proyectos hechos desde cero para un cliente. Sin colores ni estética Keyons: la firma está en cómo se construye. Arquitectura de códigoCon los estándares Keyons. Componentes reutilizablesSegún el patrón Keyons. MovimientoLa personalidad de animaciones y transiciones. Retícula y espaciadoBasados en el sistema Keyons. Esquinas, sombras y elevacionesCalibradas según el estándar. AccesibilidadWCAG AA de forma sistemática. (Crédito negociable)«Built by Keyons», «Powered by Keyons» o «Made with Keyons» en el pie, los créditos o la documentación. Caso de éxito publicable solo con autorización expresa.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "2956319696474f5b",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "aplicaciones/personalizacion.html#modelos": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PER-001",
+   "texto": "Tres modelos Cuánta firma se queda La firma visual cambia según el modelo comercial; la calidad técnica, nunca. Precios, contratos y entregas viven en el Manual de Producto. (Modelo) A · SaaSVertical por suscripción B · BoutiqueHecho a la medida C · Marca blancaInvisibilidad total Firma visualPaleta base constante; el cliente pone su color en zonas designadasNinguna: estética del clienteNinguna Firma técnicaSiempre presente: la calidad Keyons no se negocia CréditoKeyons visibleNegociable: «Built by Keyons»Ninguno El principio KYN-MRK-DIS-002 explica por qué la identidad Keyons no se impone en la marca del cliente.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d4f73dde70f72938",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d8623ba704e10deb",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "008caa2a93b224a0",
+     "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "8ad72209b7647de2",
+     "nota": "commit 9bcaf2d"
+    }
+   ]
+  },
+  "aplicaciones/personalizacion.html#saas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PER-002",
+   "texto": "Modelo A · SaaS La marca se reconoce aunque se personalice Verticales estandarizados por suscripción. El cliente pone su color, pero la estructura sigue siendo Keyons. (Intocable)Texto en Azul Noche y grises oficiales. Estructura y componentes en Blanco Keyons, con las acciones del sistema en Azul Cielo. Colores de estado oficiales. (Personalizable)El color de acento del cliente en zonas designadas: encabezado de documentos generados, su logotipo arriba y botones de su marca en las secciones donde su identidad es protagonista. Su imagen en la bienvenida, dentro del marco del sistema.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "59575f221473126b",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#antes": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-014",
+   "texto": "Antes de presentar Lista de verificación La revisión del paso siete. La hace una segunda persona, con la presentación abierta. 0 de 10ReiniciarUna idea por diapositivaSi hay dos titulares, son dos diapositivas.Titulares que afirmanLeídos en orden, cuentan la historia.Dentro de los límites12 palabras de titular y 3 viñetas por bloque.Nada por debajo de 18 pxNi el pie ni las fuentes.Contraste medidoSolo grises oficiales; fotos siempre con velo.Salmón solo para el dato claveY nunca sobre Azul Cielo.Cada cifra con su fuenteQuién midió y cuándo.Notas en cinco líneasTiempo, objetivo, se dice, interacción y transición.Revisó otra personaAlguien que no armó la presentación.Ensayo cronometradoSi no cabe, se quitan diapositivas. Una buena presentación se recuerda por lo que la sala hizo después.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "2294a4930588028b",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#arco": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-004",
+   "texto": "El arco Keyons El cielo avanza con la historia Seis movimientos para propuestas, capacitaciones e informes; cambia cuánto pesa cada uno. Cada separador toma el cielo de su movimiento. 010203040506NocheAnclaQuién habla y por qué importa hoy. Keyons habla en tercera persona.NocheSu operaciónLo que vimos en el diagnóstico, con sus palabras y sus cifras.Antes del amanecerTensiónLo que cuesta seguir igual: el riesgo, la fricción, el tiempo perdido.AmanecerGiroLa idea central, sola en pantalla. Desde aquí Keyons habla en nosotros.DíaCaminoCómo: método, evidencia, demostración y práctica.AtardecerAcciónEl próximo paso, con responsable y fecha.AnclaSu operaciónTensiónGiroCaminoAcción(Los cuatro cielos de los separadores)NochePortada, apertura y tensión. Texto claro.AmanecerEl giro y la propuesta. Texto claro sobre la zona azul.DíaCamino, método y práctica. Texto en Azul Noche.AtardecerPreguntas, acción y cierre. Texto claro. Si alguien lee solo los titulares y entiende la historia, la estructura está lista.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "18886dff7e3c4cb2",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#contraste": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-009",
+   "texto": "Contraste Contraste medido Un proyector lava el color. 4,5:1 para texto de cuerpo y 3:1 para texto grande (WCAG 2.1), solo con los grises oficiales de KYN-MRK-COL-013. (Color)(Sobre Blanco Keyons)(Sobre Azul Noche)(Uso)Azul Noche#10122A · Gris 116,7:1Textoes el fondoTitulares, cuerpo y cifras sobre claro.Gris 2#3A3C4E9,9:1Texto1,7:1No va en textoTexto de cuerpo sobre claro.Gris 3#6B6D7E4,6:1Texto3,6:1Solo grandeSubtítulos, pie, etiquetas y fuentes.Gris titular#8B8C923,0:1Solo grande5,5:1TextoTitulares atenuados desde 24 px.Blanco Keyons#F4F4F4es el fondo16,7:1TextoTexto sobre Azul Noche.Gris 4#A8AAB52,1:1No va en texto8,0:1TextoPie y etiquetas sobre Azul Noche.Azul Cielo#729BDD2,6:1No va en texto6,5:1TextoFormas sobre claro; cifras sobre oscuro.Salmón Tierra#CE635D3,4:1Solo grande4,9:1TextoUna palabra clave; sobre claro, desde 24 px.Salmón Atardecer#E99D9E2,0:1No va en texto8,6:1TextoEl dato que importa, sobre Azul Noche.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "cc32d2ad42d1f52e",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "5f50e022e2d4cc4e",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#escribir": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-005",
+   "texto": "Escribir para la pantalla Se lee a tres metros Las reglas de escritura y de voz del manual, llevadas a la diapositiva. Cada una trae su prueba, tomada de presentaciones reales. Reglas de pantallaVoz a tres metros01Una idea por diapositivaSi necesita dos titulares, son dos diapositivas.(Antes)Cuatro diapositivas con tablas de cuatro riesgos cada una.(En Keyons)Una diapositiva con los seis riesgos altos o críticos; la matriz completa va impresa.Genia, diapositivas 6 a 902El titular dice la conclusiónLeídos en orden, los titulares cuentan la historia sin presentador.(Antes)Riesgos de Ciberseguridad y Datos(En Keyons)Tres de los cuatro riesgos de datos son críticos.Genia, diapositiva 603La pantalla muestra, la persona explicaEl párrafo vive en las notas; en pantalla queda la frase que se recuerda.(Antes)189 palabras sobre el restirador, AutoCAD y la memoria de cálculo, en texto de 7 pt.(En Keyons)Del restirador a AutoCAD: el puesto sigue siendo arquitecto.Genia, diapositiva 2204Mostrar antes que enumerarUna escena, una cifra o un antes y después valen más que cinco viñetas.(Antes)Fuga de datos sensibles · Exposición en servidores externos(En Keyons)Sebastián abre su cuenta personal en el navegador de la empresa.Genia, diapositivas 30 a 3705Cada bloque cambia de estadoCada 8 a 10 minutos la sala responde, vota, escribe o prueba.(Antes)Once diapositivas seguidas de reglamento, sin pausa.(En Keyons)Una pregunta a la sala al cerrar cada artículo del reglamento.Genia, diapositivas 16 a 2606Termina en una acciónQué pasa mañana, quién lo hace y cuándo. La frase final es de Keyons o del cliente.(Antes)«La inteligencia artificial es la nueva electricidad.» (Andrew Ng)(En Keyons)La IA propone. El experto de Ingenya dispone y firma.Genia, diapositivas 13 y 4201Usted y ustedesKYN-MRK-VOZ-005 · Las instrucciones a la sala, en ustedes o en primera persona plural.(Antes)TU TURNO · CONSTRUYE EL PRIMER BLOQUE DEL ASISTENTE(En Keyons)Su turno: construyan el primer bloque del asistente.Sesión 01, diapositiva 902Hecho a la medidaKYN-MRK-VOZ-004 · La firma del pie y de la portada usa el vocabulario propio.(Antes)KEYONS | IA ADAPTADA A VOS(En Keyons)Keyons · IA hecha a la medida de su operaciónSesión 02, portada y cierre03Español primeroKYN-MRK-VOZ-007 · El titular dice qué hace; el término del mercado va una vez, entre paréntesis.(Antes)CONTEXT ENGINEERING(En Keyons)Diseñar lo que la IA sabe (context engineering)Sesión 02, portada04Afirmar antes que negarKYN-MRK-VOZ-002 · En modo expresivo se permite una negación, cuando es el giro.(Antes)PROMPTING NO ES ESCRIBIR BONITO(En Keyons)Escribir para la IA es diseñar instrucciones precisas.Sesión 01, diapositiva 305Primero Keyons, después nosotrosKYN-MRK-VOZ-006 · Portada en tercera persona; desde el giro, primera persona plural.(Antes)Nosotros diseñamos la IA alrededor de su equipo. (en la portada)(En Keyons)Keyons diseña la IA alrededor de cómo ya trabaja su equipo.Apertura de una propuesta06El tamaño enfatiza, no las mayúsculasA tres metros, una frase en mayúsculas sostenidas se lee como un grito; el signo & queda para nombres propios.(Antes)Preguntas & Respuestas · AI PROBLEM SOLVING(En Keyons)Preguntas y respuestas · Resolver problemas con IA",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "1e344f069ba3d282",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "bc775198a8bbbce3",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#historia": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-003",
+   "texto": "Storytelling La sala es la protagonista Keyons acompaña; quien cambia es la audiencia. La historia empieza en su operación y termina en lo que hará distinto mañana. 001La audiencia es la heroínaSe abre con la operación del cliente. Keyons ocupa como máximo una diapositiva, y nunca la primera.Donald MillerStoryBrand002Entre lo que es y lo que podría serLa historia alterna el hoy y el mañana; ese vaivén sostiene la atención.Nancy DuarteResonate003La respuesta primeroCuando la sala decide, la conclusión va en la segunda diapositiva y después los argumentos.Barbara MintoPrincipio de la pirámide004Lo concreto se recuerdaUna persona con nombre, una cifra exacta, una escena que se pueda ver.Chip y Dan HeathMade to Stick005Una idea, una fraseSi la idea no cabe en una frase, la presentación todavía no tiene idea.Nancy DuarteResonate(La idea central, en una frase)GeniaSesiones[Audiencia]puede[cambio concreto]si[acción], porque[razón]Los profesionales de Ingenya pueden usar IA todos los días sin exponer a sus clientes, si trabajan solo en el entorno corporativo y firman lo que validan.Cada participante sale con un asistente que resuelve una tarea real de su semana, si lo construye sobre un problema bien definido.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "62200abdd3315757",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#imagen": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-012",
+   "texto": "Imagen y gráficos Una protagonista por diapositiva Una ventana, una fotografía o una cifra; nunca las tres. Los gráficos salen del capítulo 14 y se agrandan para la sala. Aquí va el ejemploVentana en la diapositiva claveCorporativo: una sola vez, donde la idea lo pide.Aquí va el ejemploTextura de fondoTaller: separadores sobre las texturas de KYN-MRK-ILU-007.Aquí va el ejemploFotografía con veloDe la galería de KYN-MRK-ILU-008, con velo para que el texto se lea.Aquí va el ejemploGráfico de una sola ideaDe KYN-MRK-DAT-004, con el titular que afirma la conclusión.(Gráficos en pantalla)Titular que afirmaLa conclusión arriba, como titular.Una cifra protagonistaEn TASA, de 120 a 160 px, con su lectura debajo.Etiquetas legiblesEjes y valores desde 18 px.Fuente en el pieQuién midió y cuándo.Aparecen al avanzarPor partes al hacer clic; nunca en bucle.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "603e0094dbbb4677",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "38727798230eff47",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#lienzo": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-007",
+   "texto": "Lienzo y retícula Un lienzo para todas las salas Dos tipografías, cuatro colores y cuatro cielos. La variedad sale de la composición, no de sumar recursos. Titular · x 96 · y 80Banda de pie · 72 px96968012 columnas · medianil 24 px1920 × 1080 px · 16:9Proporción16:9Diseño en 1920 × 1080 px. En PowerPoint, 13,333 × 7,5 in.Conversión2 px = 1 ptSolo en el formato de 13,333 in.Márgenes96 px · 80 pxA los lados y arriba. Coinciden con las plantillas.Pie72 pxUna banda donde no entra contenido.Columnas12 · 24 pxTarjetas de 3, 4 o 6 columnas.Titularx 96 · y 80Siempre en la misma posición.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "c3b174e739efd71b",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#limites": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-006",
+   "texto": "Límites y notas Lo que cabe y lo que se dice Máximos, no metas. Lo que no cabe va a las notas, nunca a una letra más chica. 12palabras · 2 líneasTitularSi necesita tres líneas, la idea es demasiado grande.20palabrasSubtítuloCompleta el titular; no lo repite.30palabras · 15 en expresivoCuerpoSin contar titular ni pie.3por bloque · 2 líneas cada unaViñetasLa cuarta pide otra diapositiva.6por diapositivaCajas o tarjetasUn formulario largo se reparte en pasos.1protagonista · 4 en tableroCifrasSiempre con su fuente en el pie.(Notas del presentador · cinco líneas fijas)(Así se ve · diapositiva 6)TiempoCuánto dura la diapositiva o el bloque.12 a 16 minObjetivoLo que la sala entiende al salir de esta diapositiva.Que vean que tres de los cuatro riesgos de datos son críticos.Se diceTres ideas, una por línea.La cuenta personal no tiene los controles de la empresa. Un archivo subido ahí ya no se recupera. El entorno corporativo existe para eso.InteracciónLa pregunta o la acción, si la hay.¿Quién ha abierto su cuenta personal en la computadora del trabajo?TransiciónLa frase que lleva a la siguiente.Si el riesgo está claro, veamos qué cambia desde mañana. Una cita externa necesita fuente y nunca cierra la presentación.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "eb1883c20ebf9684",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#metodo": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-002",
+   "texto": "Método De la idea a la sala Ocho pasos, en este orden. El diseño entra en el sexto, cuando la historia ya funciona sin él. (Historia)Primero funciona sin diseño1Brief en cinco preguntas¿Quién está en la sala y qué sabe ya?¿Qué debe pensar, sentir y hacer al salir?¿Qué modo domina?¿Cuánto tiempo hay y en qué formato?¿Qué material se entrega aparte?2Idea central en una fraseCon la fórmula de KYN-MRK-PRE-003. Si dos personas la entienden distinto, se reescribe.3Escaleta de titularesSolo los titulares, en orden y marcados con su movimiento del arco.4Esqueleto y layoutsUn layout de la plantilla para cada titular. Si ninguno sirve, la idea se divide.5Notas del presentadorEn cinco líneas (KYN-MRK-PRE-006). Ahí va todo lo que no entra en pantalla.(Diseño y ensayo)Aquí entra el diseño6Diseño sobre el masterSiempre desde la plantilla. Nunca se copian diapositivas viejas.7Revisión cruzadaLa hace otra persona del equipo, con la lista de KYN-MRK-PRE-014.8Ensayo cronometradoSi no cabe en el tiempo, se quitan diapositivas. Hablar más rápido no es la solución.(Proyectar o enviar)Son dos piezas distintas. La que se envía por correo lleva un documento de apoyo o una versión de lectura, con las notas en pantalla.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "c2ef0585dc7065bd",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "2069dfc86866645c",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#plantillas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-013",
+   "texto": "Plantillas Cuatro plantillas para empezar Diecinueve diapositivas tipo con texto de ejemplo. Se reemplaza el contenido; colores, fuentes y márgenes no se tocan. 01CapacitaciónMódulos, actividades, cifras del diagnóstico e indicadores del piloto.Cliente · corporativo 19 diapositivas · 16:9 · .pptxDescargar02Propuesta a clienteLo que escuchamos, el reto, la propuesta en etapas y cómo se mide.Cliente · corporativo 19 diapositivas · 16:9 · .pptxDescargar03Revisión internaResultados del trimestre, aprendizajes, prioridades y acuerdos.Equipo · corporativo 19 diapositivas · 16:9 · .pptxDescargar04Taller libreMomentos en Salmón Atardecer, retos, galería y votación del grupo.Grupos · expresivo 19 diapositivas · 16:9 · .pptxDescargar",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "3ffdd5d827d7c183",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#riesgo": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-011",
+   "texto": "Riesgo y estado Cuatro niveles, siempre con la palabra Salen de la paleta de estados (KYN-MRK-COL-014): fondo pastel, texto en Azul Noche y el ícono en su tono fuerte. El color nunca va solo. CríticoTerracota · #F0D0CBSe atiende antes de seguir.AltoNaranja · #F5D8B8Tiene responsable y fecha.MedioMostaza · #F4E8C1Se vigila en el documento de apoyo.BajoVerde · #D5E0D2Se registra; rara vez va a pantalla.(Estado de un indicador)En metaEn riesgoFuera de metaSin datoTres de los cuatro riesgos de datos son críticosFuga de datos en herramientas abiertasCríticoCuentas personales en equipos de la empresaCríticoDatos de clientes en servidores externosCríticoRespuestas de la IA usadas sin revisiónAltoInstrucciones sin plantilla ni registroMedioHerramientas sin licencia corporativaBajoEn una diapositiva: la palabra siempre acompaña al color.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "230e97370a1da56a",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "db099222c53033d1",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#ritmo": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-010",
+   "texto": "Ritmo El color marca el ritmo El blanco es el compás; el cielo, el cambio de movimiento. Así se ve una propuesta y un taller, diapositiva por diapositiva. PropuestaTaller librePase el cursor por una diapositiva55 %Blanco Keyons20 %Azul Noche25 %Cielos del arco44 %Blanco Keyons22 %Azul Noche17 %Salmón Atardecer17 %Texturas Salmón Tierra sobre claro y Salmón Atardecer sobre Azul Noche, una vez por diapositiva. 01 · Portada · Azul Noche 02 · Agenda · Blanco Keyons 03 · Separador · Su operación · Cielo Noche 04 · Lo que vimos · Blanco Keyons 05 · Cifra del diagnóstico · Blanco con dato clave 06 · Separador · Tensión · Antes del amanecer 07 · Riesgos críticos · Blanco Keyons 08 · Cita del cliente · Azul Noche 09 · Giro · la idea central · Cielo Amanecer 10 · La propuesta · Blanco Keyons 11 · Separador · Camino · Cielo Día 12 · Método · Blanco Keyons 13 · Demostración · Blanco Keyons 14 · Cifras del piloto · Blanco con dato clave 15 · Plan · Blanco Keyons 16 · Separador · Acción · Cielo Atardecer 17 · Próximos pasos · Blanco Keyons 18 · Resumen · Blanco Keyons 19 · Preguntas · Azul Noche 20 · Cierre · Azul Noche 01 · Portada · Azul Noche 02 · Hoy vamos a · Blanco Keyons 03 · Momento 1 · Salmón Atardecer 04 · Reto sobre cielo · Textura 05 · Reglas del juego · Blanco Keyons 06 · Reto · Blanco Keyons 07 · Momento 2 · Salmón Atardecer 08 · Ventana al cielo · Textura 09 · Tres retos · Blanco Keyons 10 · Actividad · Blanco Keyons 11 · Cita · Azul Noche 12 · Momento 3 · Salmón Atardecer 13 · Galería · Blanco Keyons 14 · Textura · Textura 15 · Votación · Blanco Keyons 16 · Lo que nos llevamos · Blanco Keyons 17 · Preguntas · Azul Noche 18 · Cierre · Azul Noche",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "1ee8225c0a5c9c92",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#tipografia": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-008",
+   "texto": "Tipografía Se lee desde el fondo Tamaños pensados para proyectar. Si un texto no cabe a 18 px, sobra texto, no falta diapositiva. IA aplicadaPortadaTASA Orbiter 500 · 140 a 190 pxSolo el nombre de la presentación38 %CifraTASA Orbiter 400 · 120 a 160 pxUna protagonista por diapositivaCaminoSeparadorTASA Orbiter 500 · 120 a 140 pxEl nombre del movimientoTres de los cuatro riesgos son críticosTitularPlus Jakarta Sans 500 · 64 a 96 px12 palabras y 2 líneas como máximoLo que encontramos en el diagnósticoSubtítuloPlus Jakarta Sans 400 · 36 pxCompleta el titularCada persona revisa el borrador antes de enviarlo.CuerpoPlus Jakarta Sans 400 · 18 a 24 pxGris 2 sobre claroFuente: diagnóstico Keyons, mayo de 2026Pie y fuentesPlus Jakarta Sans 400 · 18 pxGris 3; nada va por debajoA escala 1:3 del lienzo de 1920 px.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "c155bfb4c1c060ea",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "aplicaciones/presentaciones.html#tipos": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PRE-001",
+   "texto": "Tipos Cuatro salas, una marca Keyons presenta a clientes, capacita equipos, revisa su trabajo y abre talleres. Cambia la energía, no el ADN: cada sala tiene un modo dominante y el resto del sistema se mantiene. ClienteCapacitaciónInternoTaller libreCorporativoExpresivoParaPropuestas, diagnósticos e informes.ModoCorporativo, sin excepciones.RitmoUna idea por diapositiva; de 30 a 45 minutos.PlantillaPropuesta a clienteParaCursos para los equipos de los clientes.ModoCorporativo; las prácticas pueden ser expresivas.RitmoLa sala hace algo cada 8 a 10 minutos.PlantillaCapacitaciónParaRevisiones, planes y decisiones del equipo.ModoCorporativo, más directo.RitmoLa conclusión en la segunda diapositiva; de 20 a 30 minutos.PlantillaRevisión internaParaTalleres creativos y charlas abiertas.ModoExpresivo (18).RitmoPoca teoría y mucha práctica: momentos en lugar de módulos.PlantillaTaller libre Si hay duda entre dos salas, gana la más formal.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "919b32d5f50396d8",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "2493dee208f48e53",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "fundamentos/color/cielos.html#cielos": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-007",
+   "texto": "Paleta de cielos Cinco cielos, cinco escenas La capa narrativa que se suma a la paleta base en modo expresivo. Cada cielo es una escena completa, no un color plano: estos son sus ingredientes. Su sentido vive en Concepto KYN-MRK-CON-002. 01 Cielo Amanecer Inicio, diagnóstico, primeras conversaciones y arranque de proyectos. #FFEBB1#FFCE86#FED8B5#E99D9E#729BDD#2A4275#10122A#B2BFE5#D4DBA5#A8C2A0 02 Cielo Mediodía Claridad, ejecución y operación plena. El cielo por defecto.(Frecuencia)40 a 50 % de las piezas expresivas #3D6BAF#8FB4DC#C4DBF0#729BDD#9EBADD#CCD6E5 03 Cielo Atardecer Transiciones, entregas de fase, cierres de ciclo y cosecha del trabajo. #F5A742#E87838#E99D9E#CE635D#C4658B#D182AB#7D81B9#B2BFE5#3D6BAF#729BDD#D4DBA5#A8C2A0 04 Cielo Noche Pensamiento estratégico, arquitectura invisible y reflexión larga. Azules profundos reales, nunca violetas saturados. #10122A#17234F#2D4775#2C3C78#3E4A7C#3E547F 05 Cielo Galaxia Innovación, visión de futuro y lanzamientos. La referencia es la fotografía astronómica real, lejos del violeta neón.(Frecuencia)5 a 10 % · su escasez le da fuerza #10122A#1E2A5C#2D4775#E99D9E#CE635D#8B3A47#6B2E5C#5C4B7E#FFF8E7#E8D4B0",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "275ddd3764b15656",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "a64f50cab2e3e28e",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "fundamentos/color/cielos.html#especiales": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-008",
+   "texto": "Cielos especiales Un sistema que crece Auroras, tormentas de arena, monzones o cielos volcánicos pueden sumarse como excepción, nunca como reemplazo de los cinco cielos oficiales. 01Fenómeno realUn cielo atmosférico verificable, no una invención estética. 02Vínculo justificadoLa marca tiene una relación real con la región o el tema. 03Autoría documentadaLo fotografía el equipo o un autor identificado, con lugar y fecha. 04Ficha completaSe estructura como los cielos oficiales: sentido e ingredientes. 05Uso escasoSu frecuencia siempre es baja: por eso se nota. Cada cielo especial se aprueba antes de su primera aplicación.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "fdc75f693220008d",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/cielos.html#gradientes": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-009",
+   "texto": "Gradientes Que se sienta cielo, no fondo Cuando la fotografía no aplica, el gradiente traduce el cielo. De tres a seis colores del cielo dominante, que debe reconocerse sin dudas. (Orgánico)Punto focal, asimetría y zonas de calma. (Lineal bien hecho)Un cielo visto desde tierra: varias paradas, sin bandas. 01Siempre propiosSe construyen en casa. Nunca gradientes, imágenes ni ilustraciones de galería. 02Punto focalEl color más luminoso va donde estaría el sol o la fuente de luz. 03Transiciones suavesNunca abruptas ni bandeadas: varias paradas, blur, formas superpuestas o mallas. 04RespiraciónUna zona densa y una tranquila. En los orgánicos, además, la asimetría es intencional. (Orgánico o lineal)Los dos se permiten si están bien hechos. El lineal funciona como fondo sutil o para emular un cielo visto en vertical; el orgánico, cuando el cielo es protagonista. (Herramientas)Mallas de Illustrator, blur sobre formas en Photoshop, plugins de Figma para mallas o generadores dedicados. Un gradiente que no cumple estas reglas no es un gradiente Keyons.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "72d7024884c72161",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/escalas.html#escalas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-006",
+   "texto": "Escalas tonales Pasos y medios pasos Cada color base tiene una escala de 100 a 900 para estados, fondos y bordes, con medios pasos (150, 250…) para transiciones suaves en interfaces y presentaciones. El paso base, marcado con la estrella, es el que firma; los demás lo acompañan. Al tocar un tono se copia su código. (Copiar en)HEXRGBCMYK Gris KeyonsNeutros cálidos que nacen del Blanco Keyons. 100#F4F4F4150#EFEFEF200#EAEAEB250#E3E3E5300#DDDDDF350#D2D2D5400#C7C8CB450#B9BABD500#ABACB0550#9B9CA1600#8B8C92650#7A7B82700#6A6B72750#595A61800#494A51850#393A41900#2A2B31 Azul NocheDel texto principal a los fondos oscuros. 100#F4F4F4150#DDDDDF200#C6C7CB250#BBBBC1300#B0B0B8350#A4A4AD400#9899A3450#82838F500#6C6D7B550#606171600#555667650#494A5D700#3E3F53750#2D2F45800#1D1F38850#161831900#10122A Azul CieloAcción, enlaces, estados de foco y superficies. 100#E0E7F1150#D3DEEF200#C6D5EC250#B9CCEA300#ACC3E7350#9DB9E5400#8FAFE2450#80A5E0500#729BDD550#688DCB600#5E80B9650#5370A5700#496192750#3F5380800#35466E850#2C395E900#242D4E Salmón TierraCalidez puntual y avisos que piden atención sin urgencia. 100#F7ECEB150#F3E5E4200#EEDEDD250#EBCFCE300#E7C1BF350#E3B2B0400#DFA4A1450#DB948F500#D6837E550#D2736E600#CE635D650#BB5B58700#A85353750#934A4E800#7E4148850#6A373D900#562E33",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "20fc1f9631b69617",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/funcionales.html#accion": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-015",
+   "texto": "Acción y superficies Cielo para actuar, blanco para apoyar Dos derivados de la paleta base sostienen toda la interfaz. Su aplicación completa vive en el capítulo de Interfaz. (Acción primaria)Derivada de Azul Cielo, con pasos de su escala para hover, foco y presionado: #729BDD · #5E80B9 · #496192 (Superficies elevadas)Derivadas de Blanco Keyons: un tono más claro o una sombra sutil para lo que debe destacar sobre el fondo.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "6f334ab413756206",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/funcionales.html#estados": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-014",
+   "texto": "Estados del sistema Estados con temperatura Keyons Cada estado tiene un fondo suave, calibrado en tonos tierra, cálidos y sobrios, lejos de los verdes y rojos de librería. Sobre ese fondo, el ícono y el texto van siempre en Azul Noche. ÉxitoVerde tierra suave#D5E0D2AdvertenciaMostaza suave#F4E8C1ErrorTerracota suave#F0D0CBInformaciónCielo suave#C6D5ECRevisiónLila suave#D9D6EDNeutroGris suave#E0E1E5BloqueoNaranja suave#F5D8B8 EsencialesÉxitoAdvertenciaErrorInformaciónOperacionalesPendienteEn procesoBorradorProgramadoRevisiónEn revisiónAprobadoRechazadoEspecialesNuevoDeshabilitadoBloqueadoArchivado",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "f4a5f89d24215ca1",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/funcionales.html#grises": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-013",
+   "texto": "Grises tipográficos Cinco grises con nombre propio Una escala independiente: códigos propios, no opacidades del Azul Noche. Así el contraste es exacto en cualquier pantalla. (Copiar en)HEXRGBCMYK Nivel 1 · texto principalKeyons diseña la IA alrededor de cómo ya trabaja su equipo.#10122A16.7:1 · AAA Nivel 2 · texto secundarioEl sistema cambia con su operación.#3A3C4E9.9:1 · AAA Nivel 3 · texto terciarioActualizado hace 5 minutos#6B6D7E4.6:1 · AA Nivel 4 · deshabilitadoAcción no disponible#A8AAB52.1:1 · Sin requisito Nivel 5 · divisor#E0E1E51.2:1 · Sin requisito El deshabilitado no necesita contraste mínimo; nunca se usa para texto que hay que leer.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "b1147d89382665bc",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/paleta-base.html#apoyo": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-003",
+   "texto": "Colores de apoyo Neutros para ordenar Superficies y grises que construyen jerarquía sin sumar color. Nunca reemplazan a la paleta principal. Superficie#FFFFFF Gris Bruma#E0E1E5 Gris Plata#A8AAB5 Gris Pizarra#6B6D7E",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "3a36ad4a94509f5f",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/paleta-base.html#capas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-001",
+   "texto": "Sistema de color Base fija, expresión modulada El color de Keyons no es una paleta plana: es un sistema en capas. La paleta base está siempre; las demás se suman, de mayor a menor presencia, según el contexto real de cada pieza. 01Paleta base 02Cielos expresivos 03Colores funcionales 04Firma en productos (Paleta base)Cuatro colores que aparecen en toda comunicación. Cambia su proporción según la pieza, nunca su presencia. (Cielos expresivos)Se suman en piezas narrativas y emocionales: redes, campañas, eventos y momentos designados del producto. (Colores funcionales)Aparecen en interfaces: grises de texto, estados del sistema, acciones y superficies. (Firma en productos)Lo que se mantiene cuando un producto se personaliza para un cliente o una vertical. La marca siempre se reconoce y aun así respira distinto según el mensaje.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d5a2c112356f8833",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/paleta-base.html#contraste": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-005",
+   "texto": "Combinaciones Qué combinación sirve para qué Mínimo 4.5:1 para texto normal y 3:1 para texto grande y elementos gráficos. Texto sobre fondoContrasteUso Noche sobre Blanco16.7 : 1Todo Noche sobre Cielo6.5 : 1Todo Noche sobre Salmón4.9 : 1Todo Cielo sobre Noche6.5 : 1Todo Atardecer sobre Noche8.6 : 1Todo Blanco sobre Salmón3.8 : 1Solo texto grande y logotipo Cielo sobre Blanco2.6 : 1Nunca texto; solo superficies",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "7c572989f05a1aaf",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/paleta-base.html#principales": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-002",
+   "texto": "Colores principales Cuatro colores, una jerarquía Azul Noche y Blanco Keyons son la base neutra. Azul Cielo es el primer color con carga cromática. Salmón Tierra aporta la temperatura humana. Proporción de una pieza institucional típica. Al tocar un color se copia su código. (Copiar en)HEXRGBCMYK Blanco Keyons#F4F4F4Azul Noche#10122AAzul Cielo#729BDDSalmón Tierra#CE635D 50 %Blanco KeyonsFondo y espacios negativos 20 %Azul NocheTexto y autoridad 20 %Azul CieloSuperficies y señales 10 %Salmón TierraAcción y acento (Blanco Keyons)Fondo principal y superficie neutra. No es blanco puro: un blanco cálido que evita la esterilidad clínica. (Azul Noche)Texto principal, fondo de piezas oscuras y firma de autoridad. No es negro puro: un azul profundísimo que conecta con los cielos. (Azul Cielo)Color primario. Va del acento puntual a superficies amplias, y es el único que puede tomar protagonismo en una pieza institucional. Es el guiño al Cielo Mediodía. (Salmón Tierra)Color secundario: temperatura humana y contrapeso al celeste. En piezas institucionales es acento; como fondo, solo cuando la calidez es el mensaje.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "4b32c25de601ac9c",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/paleta-base.html#reglas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-004",
+   "texto": "Reglas de uso Cómo se usa el color Las reglas que protegen la jerarquía de la paleta. Se suman nuevas a medida que el sistema crece. 01El color señala, no escribe Sobre fondo claro, Azul Cielo y Salmón Tierra van en superficies, bordes, subrayados e íconos. El texto va en Azul Noche. 02Cielo y Salmón no se apoyan uno sobre otro Nunca un elemento Salmón encima de un fondo Cielo, ni al revés. 03Azul Cielo gana en superficie Cuando conviven, Cielo ocupa más área que Salmón. Salmón domina solo en piezas expresivas donde la calidez es el mensaje. 04Salmón Atardecer vive sobre Azul Noche #E99D9E es la versión de Salmón para fondos oscuros, donde alcanza 8.6:1. 05La proporción es guía, la jerarquía es fija Los porcentajes orientan; el orden Blanco, Noche, Cielo, Salmón no se negocia.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "e4fd107113e6cb0e",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/por-modo.html#expresivo": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-011",
+   "texto": "Modo expresivo El cielo toma la escena Redes, campañas, eventos y storytelling. Los cielos ocupan el fondo y la atmósfera; la paleta base nunca desaparece: vive en la tipografía, los íconos y la estructura. (La regla)En el modo expresivo, el cielo predomina sobre la paleta base: los fondos y degradados aportan color suficiente para transmitir dinamismo. El cielo siempre es más abundante que la paleta base. (Acentos)No resultan indispensables, porque las imágenes ya traen abundancia de color. Cuando aparecen, es para guiar la mirada o una acción. (Proporción libre)Los porcentajes varían según la pieza y su necesidad, siempre que se cumpla la regla. Así el carácter expresivo se mantiene coherente en toda la narrativa visual. (Texto sobre cielo)El texto se ubica en la zona del cielo donde se lee con claridad. Si ninguna zona alcanza un contraste de 4,5 a 1, se suaviza el cielo detrás del texto con un velo de Blanco Keyons o Azul Noche. Sin paleta base, la pieza pierde la firma Keyons.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "0704c36d7b3c0097",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/por-modo.html#institucional": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-010",
+   "texto": "Modo institucional Sobrio de principio a fin Facturas, contratos, propuestas, papelería y presentaciones para clientes. La paleta base cubre casi toda la pieza y los cielos expresivos no aparecen. (Pieza institucional típica)70 %20 %10 %Blanco Keyons o Azul NocheAzul CieloSalmón Tierra (Azul Cielo, primera opción)Puede ir en portadas, encabezados, secciones destacadas e incluso como fondo dominante cuando el mensaje lo justifica. (Salmón Tierra, segunda)Aparece cuando el mensaje pide una calidez que el celeste no transmite. Conviven, pero Cielo siempre ocupa más. La proporción es guía; la jerarquía es fija.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d54199a07f6112d4",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/color/por-modo.html#interfaz": {
+   "estado": "vigente",
+   "id": "KYN-MRK-COL-012",
+   "texto": "Modo interfaz Sobrio con momentos vivos El producto trabaja en dos temperaturas. La sobria sostiene el trabajo diario; la viva aparece solo en momentos designados, y por eso se siente especial. (Tiempo de uso)95 %5 %Temperatura sobria · flujo de trabajoTemperatura viva (Momentos vivos) Bienvenida y onboardingSplash al iniciarTutorialesComunicados y lanzamientosCelebración de logrosFin de un proceso importanteSección vacía que invita a empezar (Temperatura sobria)Blanco Keyons de fondo, Azul Noche en el texto, grises para la jerarquía, Azul Cielo en acciones y Salmón Tierra en avisos. Usable ocho horas sin fatiga, y con todos los estados visibles. (La pregunta antes de pintar)¿Esta pantalla es flujo diario o un momento designado? Si hay duda, gana la temperatura sobria. Una factura dice «esta marca es seria»; el producto dice «esta marca me acompaña».",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "7ef71b3346e438e0",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#decidir": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CMP-001",
+   "texto": "Decidir Primero el contenido La composición se decide por lo que el contenido necesita comunicar, no por un repertorio de diseños para copiar. (Propósito)Elegir la estructura que mejor comunica cada contenido. (Composición)Se parte del tipo de contenido (KYN-MRK-ESP-006) y de la densidad que pide la pieza (KYN-MRK-ESP-005). Desde ahí se eligen retícula, escala y ritmo. (Invariantes)No todas las páginas tienen que verse diferentes, pero ninguna composición se repite automáticamente cuando existe una solución más apropiada para el contenido.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "59c850fd87776f93",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "aef0c224fe12c542",
+     "nota": "commit 8747573"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#reticulas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CMP-003",
+   "texto": "Retículas editoriales La retícula decide el peso El equipo usa retículas editoriales y principios de diseño gráfico para elegir estructuras que comuniquen correctamente. 7 columnas · la idea principal5 columnas · su apoyo (Propósito)Dar a cada idea el peso que le corresponde. (Composición)Sobre las columnas de KYN-MRK-ESP-004 se agrupan bloques desiguales, por ejemplo siete y cinco u ocho y cuatro, según el peso de cada idea. Según el nivel de la pieza, la retícula se cumple, se ajusta o se rompe con intención. (Invariantes)Columnas, márgenes y medianiles son los de KYN-MRK-ESP-004; este capítulo no los repite. La proporción, el aire y la legibilidad no se rompen nunca.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "7e95fb50d537ce3f",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "e65e7a14f70e82db",
+     "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "7eda0cd2869f911b",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#ritmo": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CMP-004",
+   "texto": "Ritmo visual Pausas y cambios El ritmo visual es fundamental: una secuencia de páginas debe tener pausas, cambios de escala, variaciones de composición y momentos de expresión. 01PausasUn bloque con mucho aire después de uno denso. 02Cambios de escalaUna cifra o un titular grande entre textos de lectura. 03Variaciones de composiciónDos patrones iguales no van seguidos: KYN-MRK-ESP-006. 04Momentos de expresiónPocos y elegidos: una imagen a sangre, un cielo, un movimiento. Una secuencia sin pausas no tiene ritmo.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "05225b29d7d6bb6d",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "2b7158cde0772d39",
+     "nota": "commit 8747573"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#simetria": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CMP-002",
+   "texto": "Orden y experimentación Orden y experimentación La identidad Keyons combina composiciones simétricas y asimétricas, con equilibrio entre orden y experimentación. (Simetría)Para lo que se compara o se lee como conjunto. (Asimetría controlada)Cuando una idea pesa más que la otra. (Propósito)Equilibrar estabilidad y tensión según lo que se cuenta. (Composición)Simetría para lo que se compara o se lee como un conjunto. Asimetría controlada cuando una idea pesa más que otra: una columna ancha junto a una angosta, o un titular que ocupa más que su texto. (Invariantes)Ni simetría automática ni asimetría constante: KYN-MRK-VIS-010.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "31ad01e8f139833c",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "65ad265ec5bf5cbf",
+     "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "0c15daa69ba3c8c4",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-001": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-001",
+   "texto": "Kicker decorativo Ningún texto sobre el título solo para completar (Problema que evita)Etiquetas sobre el título que llenan la composición y repiten lo que el título ya dice. (Regla)Ningún texto debe aparecer sobre un título únicamente para completar una composición visual.Los kickers se permiten cuando proporcionan información adicional relevante, como categoría, ubicación, versión, estado o clasificación.No reemplazar automáticamente los kickers por otra forma de decoración. Orden preferente de jerarquización 1Titular editorial directo2Numeración editorial, cuando hay una secuencia real3Acento tipográfico ocasional y justificado4Metadato funcional, cuando orienta NUESTRA ESENCIAQuiénes somos(Uso incorrecto)«NUESTRA ESENCIA» sobre «Quiénes somos» La etiqueta no agrega información: solo ocupa el lugar de un kicker. Quiénes somosUna empresa de ingeniería operativa que integra IA a su equipo.(Alternativa correcta)El titular directo «Quiénes somos», o «Capítulo 04 · Voz» cuando ubica al lector dentro del manual. (Excepciones)Kickers de ubicación en las páginas del manual y metadatos de estado o versión. (Relación)Ajusta KYN-MRK-TYP-005 (Kickers): esa norma define cómo se ve un kicker; esta, cuándo se usa. El principio previo KYS-UI-001 no está en el registro; esta norma queda como referencia principal, pendiente de confirmar.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "6267b71abfc9202a",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "eb51e72be724b560",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-002": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-002",
+   "texto": "Tracking El espaciado entre letras responde a cada texto (Problema que evita)Un mismo espaciado entre letras aplicado a todo, que estropea la lectura de cuerpos, datos y controles. (Regla)El espaciado entre letras debe responder a la tipografía, tamaño, peso, longitud del texto y función del contenido.No aplicar tracking negativo o positivo de forma universal.La intervención tipográfica más expresiva se reserva principalmente para bloques cortos o medianos de texto editorial.Los cuerpos de texto, datos y controles priorizan la legibilidad. (Uso incorrecto)(Alternativa correcta) Tracking negativo en el cuerpo de textoAplicado también a tablas y botones para «verse moderno».Espaciado negativo en el titular display y cero en el cuerpo, como define la escala tipográfica. (Excepciones)Kickers en mayúsculas con espaciado positivo, según su norma. (Relación)KYN-MRK-TYP-002 (Escala y jerarquía) y KYN-MRK-TYP-005 (Kickers).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "e06bcaa3301040f7",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "988b8384fe6127f1",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-003": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-003",
+   "texto": "Jerarquía repetida La jerarquía se construye para cada contenido (Problema que evita)Todas las secciones armadas con la misma fórmula: kicker, titular grande, párrafo y tarjetas. (Regla)No todas las secciones deben organizarse con la secuencia kicker + titular grande + párrafo + tarjetas.La jerarquía puede construirse con escala, contraste, ubicación, espacio negativo, retícula, relación con imágenes y ritmo.Cada composición debe justificarse según el contenido. (Uso incorrecto)(Alternativa correcta) Seis secciones con la misma fórmulaKicker, titular, párrafo y tres tarjetas, una y otra vez.Una cifra grande para un dato, texto a dos columnas para una explicación, una imagen a sangre para un momento. (Excepciones)Listados de consulta que se recorren buscando lo mismo en cada bloque, como un catálogo. (Relación)KYN-MRK-ESP-006 (Patrones de contenido) y el capítulo 10.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "828a4a429952ea48",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "9b9ff1854d28575c",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-004": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-004",
+   "texto": "Tarjetas innecesarias Una tarjeta solo cuando agrupa algo (Problema que evita)Todo encerrado en tarjetas por costumbre: la página se llena de cajas y pierde jerarquía. (Regla)No encerrar automáticamente todas las agrupaciones de contenido en tarjetas.Utilizar espacio, alineación, separadores y retículas cuando resuelvan la estructura con mayor claridad.Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas. (Uso incorrecto)Tres párrafos de una misma idea en tres tarjetas Cada una con su sombra, sin nada que las separe de verdad. (Alternativa correcta)Filas separadas por líneas finas, o columnas alineadas a la retícula. (Excepciones)Elementos que se seleccionan, se abren o se mueven como una unidad, como una plantilla o un producto. (Relación)KYN-MRK-ESP-001 (Regla de esquinas) y KYN-MRK-ESP-006 (Patrones de contenido).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "2443dff6aeb431e1",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "da3502b6289acfb7",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-005": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-005",
+   "texto": "Degradados Un degradado necesita un concepto (Problema que evita)Degradados agregados para que una sección parezca tecnológica o moderna. (Regla)Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.No agregarlos solamente para que una sección parezca tecnológica o moderna. (Uso incorrecto)(Alternativa correcta) Un degradado violeta a cian detrás de un textoSin relación con el contenido ni con los cielos de Keyons.Un cielo oficial como atmósfera de una portada, con su punto focal. (Excepciones)Los degradados oficiales de cielo, usados según su norma. (Relación)KYN-MRK-COL-009 (Gradientes) y KYN-MRK-CON-008 (Anti-referentes).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "e25e1b86c6323eec",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "4784c02a47abaaa5",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-006": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-006",
+   "texto": "Geometría genérica La geometría Keyons, no un radio para todo (Problema que evita)Todo redondeado por igual, como en cualquier plantilla. (Regla)No redondear indiscriminadamente todos los elementos.Aplicar la geometría propia de Keyons según las reglas existentes en Forma y espacio. (Uso incorrecto)El mismo radio en todo Botones, tarjetas, imágenes y campos con idéntico redondeo. (Alternativa correcta)Un grupo de recuadros con esquinas exteriores rectas e interiores curvas, y el radio que corresponde a su lado corto. (Excepciones)Las que define KYN-MRK-ESP-001: botones y badges en píldora. (Relación)KYN-MRK-ESP-001 (Regla de esquinas) y KYN-MRK-ESP-002 (Radios).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d13818063ae642b7",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "6f21c4b45e67aae8",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-007": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-007",
+   "texto": "Acentos repetidos Cada acento necesita una razón (Problema que evita)Cursivas, colores de énfasis o cambios de peso usados como fórmula en cada titular. (Regla)La cursiva, el color de énfasis, los cambios de peso y los tratamientos expresivos no deben repetirse como una fórmula de plantilla.Cada acento necesita una razón editorial. Diseño claroDatos útilesEquipos felices(Uso incorrecto)La última palabra de cada titular en celeste El acento deja de señalar porque está en todas partes. Diseño claroDatos útilesEquipos felices(Alternativa correcta)Un solo resaltado en la idea que la sección quiere dejar. (Excepciones)Negritas en las palabras clave de un texto, según su norma. (Relación)KYN-MRK-TYP-004 (Titular editorial) y KYN-MRK-TYP-006 (Reglas de uso).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "2e7e6670dd4f78af",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "4f1fa9ef6e69c8bd",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-008": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-008",
+   "texto": "Iconografía de relleno Un ícono tiene que ayudar a entender (Problema que evita)Íconos que decoran títulos o textos sin orientar ni explicar nada. (Regla)No introducir íconos únicamente para decorar textos o títulos.Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. (Uso incorrecto)(Alternativa correcta) Un ícono genérico junto a cada titularUna bombilla, un cohete o un engranaje que no dicen nada del contenido.Un ícono que identifica una acción, un estado o un tipo de archivo. (Excepciones)Íconos ilustrativos en estados vacíos y piezas de marca, según su familia. (Relación)KYN-MRK-ICO-002 (Familias y variantes) y KYN-MRK-ICO-003 (Uso).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "643cb818c07feeb9",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "369e5b882870d1ca",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-009": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-009",
+   "texto": "Microelementos La jerarquía no se hace con adornos (Problema que evita)Píldoras, puntos, líneas, estrellas, etiquetas y miniíconos acumulados hasta que nada destaca. (Regla)Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia.La jerarquía no debe depender de la cantidad de elementos decorativos. (Uso incorrecto)(Alternativa correcta) Un titular con todo alrededorEstrella, kicker, píldora de estado, línea y tres miniíconos.El titular y un solo dato funcional, si orienta. (Excepciones)Interfaces de datos densas, donde cada marca comunica un valor. (Relación)KYN-MRK-ILU-001 (Viñetas de marca) y KYN-MRK-ESP-005 (Densidad).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "a59756df499ad374",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "0bf43773a2229ae9",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-010": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-010",
+   "texto": "Simetría automática Ni todo centrado ni todo descompensado (Problema que evita)Todo centrado y en columnas idénticas; o lo contrario, asimetrías constantes que desordenan. (Regla)No utilizar exclusivamente composiciones centradas, columnas idénticas y distribución perfectamente simétrica.La asimetría controlada está permitida cuando mejora la composición.Evitar también el extremo contrario: asimetrías constantes que generen desorden visual. (Uso incorrecto)(Alternativa correcta) Todas las secciones centradas a tres columnasLa página entera tiene el mismo peso en todas partes.Texto en una columna ancha y su dato en una angosta, cuando el texto pesa más. (Excepciones)Comparaciones de opciones equivalentes, donde la igualdad de columnas comunica equivalencia. (Relación)El capítulo 10 y KYN-MRK-ESP-004 (Retícula y responsive).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "b2577608b5bb9d1e",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "f0620419e9e3f004",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-011": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-011",
+   "texto": "Movimiento El movimiento orienta, no distrae (Problema que evita)Animaciones que distraen, cansan o dificultan la operación. (Regla)El movimiento debe orientar, informar, mejorar la continuidad espacial o aportar una expresión de marca contextual.No debe producir distracción, fatiga ni dificultad de operación. (Uso incorrecto)(Alternativa correcta) Elementos que flotan en bucle en una herramienta diariaLa pantalla nunca está quieta mientras se trabaja.Una transición que muestra de dónde viene un panel; el cielo con Ráfaga en una portada. (Excepciones)Los momentos vivos designados, como bienvenida o celebración: KYN-MRK-COL-012. (Relación)KYN-MRK-ICO-004 (Animación), KYN-MRK-ILU-006 (Ráfagas) y KYN-MRK-COL-012 (Modo interfaz).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "b4b494d249aee64c",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "7d14dbbcca14e15a",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-012": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-012",
+   "texto": "Contraste insuficiente Delicado, pero siempre legible (Problema que evita)Textos, controles o datos delicados que no se pueden leer. (Regla)La delicadeza visual no justifica textos, controles ni datos ilegibles.Aplicar requisitos de accesibilidad y comprobar las combinaciones cromáticas reales. Actualizado hace 5 minutos#C7C8CB · 1,6 : 1(Uso incorrecto)Texto gris claro sobre Blanco Keyons Elegido para «verse elegante», sin medir su contraste. Actualizado hace 5 minutos#6B6D7E · 4,6 : 1(Alternativa correcta)Los grises tipográficos oficiales, con su contraste verificado. (Excepciones)El estado deshabilitado, que no exige contraste mínimo y nunca lleva texto que haya que leer: KYN-MRK-COL-013. (Relación)KYN-MRK-COL-005 (Combinaciones) y KYN-MRK-COL-013 (Grises tipográficos).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "329860652cafbd30",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "ac4f319c11959f70",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-013": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-013",
+   "texto": "Lenguaje genérico Específico, comprensible y con sentido (Problema que evita)Titulares intercambiables, descripciones vacías y expresiones tecnológicas exageradas. (Regla)Evitar titulares empresariales intercambiables, descripciones vacías y expresiones tecnológicas exageradas.El contenido debe ser específico, comprensible y significativo. (Uso incorrecto)(Alternativa correcta) «Innovación que transforma el futuro de su negocio»Lo podría firmar cualquier empresa.«Su equipo deja de copiar datos a mano entre tres sistemas.» (Excepciones)Ninguna. (Relación)KYN-MRK-VOZ-002 (Reglas de escritura) y KYN-MRK-VOZ-004 (Vocabulario que evitamos).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "9a89211a35ba18f0",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "089dec6cd3662fc7",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-014": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-014",
+   "texto": "Maximalismo uniforme Intensidad con momentos de reposo (Problema que evita)La misma intensidad gráfica en cada sección y en cada elemento, sin pausas. (Regla)El maximalismo debe tener momentos de intensidad y reposo.La expresión gráfica no debe extenderse con igual intensidad a cada sección y cada elemento. (Uso incorrecto)(Alternativa correcta) Cada sección con foto a sangre, degradado y animaciónNada destaca porque todo grita.Una portada intensa seguida de secciones calmas que dejan respirar. (Excepciones)Piezas de una sola pantalla, como una publicación de campaña. (Relación)KYN-MRK-COL-011 (Modo expresivo), KYN-MRK-ESP-005 (Densidad) y el capítulo 10.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "8262a6c4bcd09880",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "bfaf515cf4293877",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-015": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-015",
+   "texto": "Orientación Original, pero siempre comprensible (Problema que evita)Funciones, navegación, estados o acciones escondidos para lograr una apariencia diferente. (Regla)No ocultar funciones, navegación, estados o acciones necesarias únicamente para conseguir una apariencia diferente.La originalidad visual debe coexistir con patrones de interacción comprensibles. (Uso incorrecto)(Alternativa correcta) Un menú que solo aparece al pasar por una zona sin señalLa persona no sabe que existe.Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo. (Excepciones)Ninguna en herramientas operativas. (Relación)KYN-MRK-DIS-005 (Comprensión antes que complejidad).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "ce7cefae08a469f0",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "33b326b63d29c62e",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#vis-016": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-016",
+   "texto": "No intercambiable Una composición que solo podría ser de Keyons (Problema que evita)Composiciones aprobadas solo porque se ven modernas, estéticas o siguen una tendencia. (Regla)Una composición no se aprobará únicamente por verse moderna, estética o seguir tendencias.Debe existir una relación justificable entre las decisiones formales, el contenido, las personas y la identidad de Keyons.Si una composición puede reemplazar todos sus textos, logotipo y colores por los de cualquier otra empresa sin perder prácticamente nada de su carácter, debe revisarse su dirección artística. (Uso incorrecto)(Alternativa correcta) Una portada que con otro logo serviría igualPodría ser de cualquier empresa de software.Un cielo propio, una persona real y un titular que solo Keyons diría. (Excepciones)Ninguna. (Relación)KYN-MRK-CON-006 (Reglas de composición), KYN-MRK-CON-008 (Anti-referentes) y KYN-MRK-DIS-001 (Diseñar con identidad, construir con criterio).",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "28b165e287a49778",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "0c277f7d4eae0d41",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/datos/graficos.html#estructura": {
+   "estado": "vigente",
+   "id": "KYN-MRK-DAT-005",
+   "texto": "Estructura Siete partes antes de publicar Un número sin contexto es un dato suelto. Cada gráfico lleva estas siete partes; toque un número para ver la suya. 1Las tareas repetitivas bajaron un 38 % en seis meses 2(Horas por persona · Enero a junio 2026) 3−38 % EneFebMarAbrMayJunMeta: 27 hMeta cumplida6 4Fuente: Diagnóstico Keyons, 15 entrevistas, 2026 562 personas: todo el equipo de operaciones 7 01Título que afirmaLa conclusión, no el tema.02Unidad y períodoQué se mide y cuándo.03CifraEl dato protagonista, uno solo.04FuenteQuién lo midió y con qué alcance.05Nota humanaLas personas detrás del número.06ReferenciaMeta, promedio o año anterior.07FirmaEl isotipo, en la esquina inferior derecha. Keyons vende diagnóstico y rigor: sus gráficos también. Enero|39 h Febrero|36 h Marzo|33 h Abril|30 h Mayo|28 h Junio|24 h · meta cumplida",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "c0971e82522e6190",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/datos/graficos.html#paleta": {
+   "estado": "vigente",
+   "id": "KYN-MRK-DAT-002",
+   "texto": "Sistema cromático Tres paletas, nunca mezcladas Cada gráfico usa una sola de tres paletas: la base, una monocromática o la suave. Al tocar un color se copia su código. (Paleta base)Los cuatro colores de la marca, para distinguir hasta cuatro series. Salmón nunca va sobre Azul Cielo.#729BDD#10122A#CE635D#E99D9E (Monocromáticas)Un solo tono de la paleta base, del claro al profundo en pasos parejos. Lo más claro es lo más bajo o lo más antiguo. La de Azul Cielo es la de uso diario.#CDD9ED#A6BFE6#729BDD#506B9E#324269#ECD7D6#E99D9E#CE635D#8C474B#532E33#DDDDE0#BBBCC1#82838F#494A5D#10122A (Paleta suave)Los tonos de los badges, para categorías sin orden y para estados. Siempre con texto y bordes en Azul Noche; con más de cinco categorías se agrupan en «Otros».#C6D5EC#D5E0D2#F4E8C1#F0D0CB#D9D6ED#F5D8B8#E0E1E5 (Destacar)En cualquiera de las tres, el dato clave va en el tono más intenso y el resto en gris suave. Sobre Azul Noche, el protagonista es Salmón Atardecer. Nunca arcoíris, neón ni el verde y rojo de semáforo.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "f6d9c331faa4fb52",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/datos/graficos.html#principios": {
+   "estado": "vigente",
+   "id": "KYN-MRK-DAT-001",
+   "texto": "Principios Siete reglas sin excepción Los datos son evidencia, no adorno. Las reglas vienen de Edward Tufte, Dona Wong, Alberto Cairo y Giorgia Lupi, adaptadas a Keyons. 01El dato manda sobre el diseñoTodo lo que no comunica un dato se elimina. Si al borrarlo el gráfico dice lo mismo, sobraba. 02Nunca 3DSiempre planos: sin perspectiva, sin brillos ni sombras. 03Un gráfico, un mensajeUn dato protagonista con el mayor peso visual. Tres mensajes son tres gráficos. 04Honestidad geométricaEscalas sin truncar, círculos escalados por área y una misma escala al comparar. 05El gráfico correctoCada tipo de dato tiene su forma. Donut y radar no se usan. 06Color con propósitoDistinguir, ordenar, destacar o indicar estado. Rara vez más de cinco colores. 07Contexto obligatorioTítulo que afirma, unidad, período y fuente; referencia y nota cuando aplican. Detrás de cada número hay personas: el gráfico lo recuerda, no lo decora.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d35a19a9be906ff7",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/datos/graficos.html#tipografia": {
+   "estado": "vigente",
+   "id": "KYN-MRK-DAT-003",
+   "texto": "Tipografía en gráficos Los números pesan igual que las barras Cada texto del gráfico tiene su nivel. Toda cifra usa números tabulares. (Etiqueta)(Horas recuperadas · Enero a junio 2026)Jakarta 500 · 13 px, gris. Dice qué se mide y cuándo.(Cifra protagonista)+38 %TASA Orbiter 400 · 40 a 96 px. Una por gráfico.(Lectura)Menos trabajo repetitivo en seis meses, por persona.Jakarta 400 · 13 a 15 px. Explica la cifra en una frase.(Ejes y valores)Ene Feb Mar Abr May JunJakarta 500 · 11 px, números tabulares.(Fuente)Fuente: Diagnóstico Keyons, 15 entrevistas, 2026Jakarta 400 · 11 px, gris nivel 3.(Formato)EspañolInglésMiles1.0001,000Decimales3,53.5Porcentaje45 %45%Moneda₡ 1.500$ 1,500Cifras grandes1,2 M1.2M",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "08b62c3854c7e605",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/datos/graficos.html#tipos": {
+   "estado": "vigente",
+   "id": "KYN-MRK-DAT-004",
+   "texto": "Tipos de gráfico El gráfico correcto según el dato Formas planas, líneas finas y un solo protagonista. Pensados para tableros y presentaciones: al pasar el cursor sobre un dato se ve su valor. (Comparar)Columnas de puntosCada punto es una unidad. El protagonista en Azul Cielo; el resto en gris.EFMAMJJASOND(Comparar)TallosMás livianos que una barra: un trazo fino rematado con una estrella. Para series largas.EFMAMJJASOND(Avance)Barra de avanceUn porcentaje contra el total. El último tramo se aclara para mostrar que sigue en curso.0255075100(Proporción)MedialunaHasta cuatro partes de un total, con relleno plano y contraste: un tono claro, uno profundo y Salmón para lo que falta.en uso diario48 %en piloto36 %sin iniciar16 %(Peso)Círculos en secuenciaDe mayor a menor, tangentes y apoyados en la misma línea. El área de cada círculo es proporcional a su valor.Tareas repetitivas · 48 %Reuniones · 24 %Correo · 16 %Análisis · 12 %(Ranking)Barras en ordenDe mayor a menor, en colores planos y sin espacio entre barras. La cifra a la izquierda; el texto, dentro de la barra.55 %Menos tareas repetitivas49 %Aprender algo nuevo43 %Más equilibrio de trabajo41 %Reconocimiento de su equipo37 %Mejor salario(Proporción)Burbujas 80/20Contornos en gris para el conjunto; Azul Cielo solo para lo que importa. Las cifras viven fuera de las burbujas.20 %de los procesos, en Azul Cielo80 %del retrabajo de la operación(Varias cifras)Cifras en bloquesVarias cifras de un mismo tema, cada una unida por una línea a un bloque de color plano.63 %usa IA en su trabajo70 %usa agentes de IA2,2 hahorradas por semana39 %teme perder su puesto(Varias cifras)Cifras en círculosLa misma idea con círculos superpuestos, para cifras que se cruzan entre sí.63 %usa IA en su trabajo70 %usa agentes de IA2,2 hahorradas por semana39 %teme perder su puesto(Comparar grupos)Esferas en órbitaCada grupo es un círculo plano, tangente al siguiente; el gris es la referencia. Las cifras se conectan con una línea guía.51 %promedio de la regiónya prueba la IA65 %de los equipos enCosta Rica66 %del sectorfinanciero (Interacción)En tableros, cada dato muestra su valor al pasar el cursor o al enfocarlo con el teclado; los demás se atenúan. (Movimiento)Al entrar en pantalla, el gráfico se dibuja una sola vez en menos de un segundo. Nunca en bucle. Lo que no se usa 01Pastel con muchas porcionesMás de cuatro ya no se comparan a simple vista.02Donut y radarDistorsionan las proporciones.033D, brillos y sombrasNunca, en ningún formato.04PictogramasÍconos repetidos para contar cantidades. Ene|24 horas recuperadas Feb|32 horas recuperadas Mar|28 horas recuperadas Abr|40 horas recuperadas May|36 horas recuperadas Jun|48 horas recuperadas Jul|32 horas recuperadas Ago|60 horas recuperadas Set|44 horas recuperadas Oct|36 horas recuperadas Nov|52 horas recuperadas Dic|40 horas recuperadas Ene|12 solicitudes resueltas Feb|16 solicitudes resueltas Mar|14 solicitudes resueltas Abr|20 solicitudes resueltas May|18 solicitudes resueltas Jun|24 solicitudes resueltas Jul|16 solicitudes resueltas Ago|30 solicitudes resueltas Set|22 solicitudes resueltas Oct|18 solicitudes resueltas Nov|26 solicitudes resueltas Dic|20 solicitudes resueltas Avance|38 % del diagnóstico Pendiente|62 % 48 %|Agentes en uso diario 36 %|Agentes en piloto 16 %|Agentes sin iniciar Tareas repetitivas|48 % del tiempo del equipo Reuniones|24 % del tiempo del equipo Correo|16 % del tiempo del equipo Análisis|12 % del tiempo del equipo Menos tareas repetitivas|55 % de las personas Aprender algo nuevo|49 % de las personas Más equilibrio de trabajo|43 % de las personas Reconocimiento de su equipo|41 % de las personas Mejor salario|37 % de las personas Facturación|31 % del retrabajo Inventario|12 % Reportes|9 % 63 %|usa IA en su trabajo 70 %|usa agentes de IA 2,2 h|ahorradas por semana 39 %|teme perder su puesto 63 %|usa IA en su trabajo 70 %|usa agentes de IA 2,2 h|ahorradas por semana 39 %|teme perder su puesto 51 %|promedio de la región ya prueba la IA 65 %|de los equipos en Costa Rica 66 %|del sector financiero",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "4cae7d9f7e41cd07",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "5911198e72abfcb8",
+     "nota": "commit f29d231"
+    }
+   ]
+  },
+  "fundamentos/elementos/graficos.html#cristal": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ILU-004",
+   "texto": "Cristal El cielo, visto a través de un vidrio Cristal es el tratamiento del cielo cuando atraviesa una superficie traslúcida. Suaviza sin tapar: lo que hay detrás se sigue viendo. Es un recurso secundario y se usa con moderación. AcanaladoCanales verticales cada 50 px, con 22 px de desenfoque entre canales. Para portadas verticales: transmite estructura. ArcosCanales curvos cada 60 px que nacen de una esquina. Para encabezados de capítulo: transmite expansión. (Qué es)Un efecto sobre un cielo, o sobre un fondo con cielo, que simula un vidrio traslúcido con líneas sutiles. Hay dos tratamientos oficiales: Acanalado y Arcos. (Cuándo se usa)Portadas de capítulo (Arcos), encabezados principales de documento (Acanalado), separadores de sección en materiales editoriales y fondos de citas destacadas. (Cuándo no)En producto digital funcional y en tableros; sobre tipografía de cuerpo, porque compite con la lectura; y junto a una ventana de cielo en la misma pieza, porque duplica el recurso. (Especificaciones)Opacidad del cristal entre 60 y 80 % sobre el cielo base. Nunca sobre un fondo oscuro al 100 %, porque se pierde la lectura del cielo. Siempre con cielo real debajo, nunca con un degradado puro. El cristal filtra, nunca oculta.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "bf26215cbcfc5955",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/elementos/graficos.html#enfasis": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ILU-002",
+   "texto": "Elementos de énfasis Marcar lo importante sin gritar Cuatro recursos con nombre propio. Se usa uno por bloque; dos juntos compiten. (Resaltado celeste)Una pieza sin cielo no es una pieza Keyons.Para la idea que remata una sección. Cubre la palabra completa, sin redondeo. (Flecha de cambio)Soluciones integrales → un solo aliadoPara mostrar lo que se deja atrás frente a lo que se elige. Lo anterior va en gris, nunca tachado. (Semibold)Primero entendemos su operación; después construimos.Para las palabras clave que guían la lectura. Nunca en recuadros ni acordeones. (Itálica)Lo llamamos human in the loop: la persona siempre decide.Para palabras en otro idioma, títulos de obras, citas y voces de otros. Nunca para frases completas ni como énfasis general.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "1fcd97b95df16bd0",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/elementos/graficos.html#fotografia": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ILU-008",
+   "texto": "Fotografía Imágenes propias, reales y acreditadas Degradados hechos desde cero, cielos, naturaleza y personas. Cada imagen tiene un ID, no un nombre, y lleva quién la tomó, dónde y cuándo. 01/ 05Degradados KeyonsCielos hechos desde cero en el estudio, del amanecer a la galaxia. Son imágenes: se usan a su tamaño o menor.13 imágenes · Ver en la galeríaCielosFotografías del cielo tomadas por el equipo o por autores con crédito. El cielo ocupa el 70 % de la imagen o más.3 imágenes · Ver en la galeríaNaturalezaMontaña, bosque y paisaje: el lugar desde donde se mira el cielo, siempre como ancla y nunca como protagonista.2 imágenes · Ver en la galeríaPersonasRetratos y equipo en sesión, siempre con permiso y con luz natural.2 imágenes · Ver en la galeríaStock propioEscenas de trabajo propias para cuando hace falta contexto: manos, pantallas y espacios reales.2 imágenes · Ver en la galeríaLa regla 70/30 y el Diario de cielosCielo · 70 %Contexto · 30 %Nosara, Costa Rica · marzo 2026 · Keylin(Ubicación)Nosara, Guanacaste, Costa Rica(Fecha y hora)Marzo 2026 · 17:42(Autor)Keylin(Cielo)Atardecer(Composición)Cielo 70 % · contexto 30 % (La regla 70/30)El cielo, o el elemento protagonista, ocupa cerca del 70 % de la composición; el contexto, el 30 % restante. Si se reparte a mitades, el cielo deja de ser protagonista y se vuelve fondo. (Excepciones)Retratos corporativos, fotografía documental de un proyecto y las pocas piezas que exigen no tener cielo, siempre con aprobación. (Diario de cielos)El archivo oficial de fotografías de cielo. Cada entrada registra ubicación, fecha y hora, autor y fase del cielo, como en la ficha de arriba. Contexto humanoLuz y fondoFondos limpios e iluminación natural o de estudio, siempre consistente.Retratos corporativosFondo Azul Cielo #729BDD o un degradado de cielo, cuadrado o vertical, de pecho a cabeza.Fotografía documentalSiempre hay un elemento real, de preferencia humano.FormatoImágenes de píxeles: a su tamaño o menor. Para crecer sin límite, un cielo hecho con código de KYN-MRK-ILU-007.Archivo y gobernanza (Dónde vive)En un repositorio central con acceso para el equipo. Cada archivo se nombra KEY_FECHA_UBICACION_AUTOR_FASE.jpg. (Quién aprueba)Toda fotografía para material oficial pasa por uno de los Co-Editores Generales antes de salir. La galería completa, con filtros, tratamientos y descargas, está en Recursos. Cada fotografía Keyons tiene lugar, fecha y autor. Si no los tiene, no es Keyons.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d94e471e6098b5bb",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "0a123349e1b720b3",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "fundamentos/elementos/graficos.html#lineas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ILU-003",
+   "texto": "Líneas y cotas Líneas que ordenan, nunca decoran Todas las líneas del sistema son finas. Separan, señalan o miden; si no hacen ninguna de las tres, sobran. Divisor1 px, Gris Bruma. Separa filas y bloques. Divisor fuerte1 px, Azul Noche al 16 %. Abre una sección. Línea guíaPunteada. Une una nota con lo que señala. CotaAzul Cielo, con topes. Mide tamaños reales.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "42cfd3853f24c6f3",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/elementos/graficos.html#patrones": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ILU-007",
+   "texto": "Patrones y texturas La repetición que construye atmósfera Patrones y texturas son recursos de fondo o de superficie, nunca protagonistas. Construyen atmósfera, nunca ruido. Arcos naturalesArcos concéntricos que nacen abajo, al centro, y se abren hacia arriba: la trayectoria del sol o la curva del horizonte. Imitan un fenómeno natural, no un gráfico técnico.Siempre nacen de la base y se abren hacia arriba.De 5 a 9 arcos, bien difuminados: menos no comunica movimiento; más satura.Colores de una sola fase del cielo, sin contornos: la transición es solo de tono.Sobre fondo oscuro o degradado de cielo, nunca sobre Blanco Keyons.(Cuándo se usa)Portadas aspiracionales, lanzamientos, encabezados de campañas emocionales y piezas manifiesto.Líneas de vientoEl paisaje visto a través del viento: trazos difusos que se estiran en una sola dirección. Es el patrón con más fuerza narrativa, porque hace visible la fuerza invisible de la marca.Trazos de color barridos por el viento, como una foto tomada en movimiento: los colores salen de una sola fase del cielo.Una sola dirección en toda la pieza, de izquierda a derecha y subiendo un 12 %.Densidad variable, con zonas densas y ralas, como el flujo real del viento. Nunca una trama rígida.En pantalla se mueven en ciclos de 15 a 30 s: apenas perceptible en corporativo, visible y continuo en expresivo.(Cuándo se usa)Fondos de sección web, encabezados de capítulo, portadas de blog y piezas donde el viento es protagonista.Franjas de cieloUn mismo cielo partido en franjas verticales, cada una desplazada a otra altura. El cielo se lee como ventanas que se abren una junto a otra.De 4 a 8 franjas del mismo ancho.Un solo cielo por pieza: cada franja lo desplaza, no lo cambia.Sin líneas ni separaciones: el corte lo marca el propio desplazamiento.En fondos amplios; nunca detrás de texto largo.(Cuándo se usa)Portadas, fondos de sección, separadores de presentación y piezas de redes.Formas de cieloColumnas de color con formas geométricas que se cortan en su borde: el cielo y la paleta convertidos en composición.Columnas del mismo ancho, cada una con un color de la paleta o un cielo.Tres formas: círculo, medio círculo y arco. Cada una ocupa todo el ancho de su columna, o más, y se corta en su borde.La forma contrasta con su columna: claro sobre oscuro u oscuro sobre claro, nunca dos tonos vecinos.Los degradados van dentro de las formas, son lineales y salen de una sola fase del cielo: sin brillos ni volumen.Las formas blancas son planas, en Blanco Keyons.Grano fino en toda la pieza; sin contornos ni sombras.(Cuándo se usa)Portadas de campaña, redes, separadores de presentación y papelería expresiva.EclipseUn plano liso y uno difuminado, divididos por una línea vertical; un círculo la cruza, mitad nítido y mitad disuelto. Es textura y patrón a la vez.Un solo color de la paleta con Blanco Keyons; nunca dos colores.El círculo siempre cruza la división: de un lado nítido, del otro disuelto en el difuminado.El difuminado se abre hacia afuera, como la luz que sale de una ventana.Grano de papel en toda la pieza.(Cuándo se usa)Portadas sobrias, aperturas de capítulo, invitaciones y piezas de una sola idea.Texturas de cieloCielos hechos con código, con grano, nubes y la transición de cada fase. Son el fondo por defecto de las piezas editoriales.Cubren cerca del 70 % de los usos de fondo.Se piden por su ID del catálogo de Recursos, por ejemplo KT-03.Una sola fase del cielo por pieza.Se producen con código a partir de foto propia; nunca generadas por IA desde cero.(Cuándo se usa)Fondos de documentos, portadas, presentaciones e interfaces.GranoRuido monocromático fino sobre fondos planos o degradados: le da alma editorial a la pieza. Es terminación, nunca protagonista.Opacidad de 15 a 20 %, nunca más.Siempre del color del fondo, nunca de colores.Grano fino, de 0,5 a 1,5 px según la resolución de salida.(Cuándo se usa)Sobre degradados, cielos lisos y fondos planos, en piezas impresas o digitales. (Formato)Las texturas y degradados de Recursos están hechos con código (SVG): no se pixelan a ningún tamaño, pesan poco y se adaptan a cualquier proporción. Por eso son los indicados para fondos web que cambian de tamaño, interfaces, pantallas de eventos e impresión en gran formato. Estos materiales se aplican en arte, interfaces y piezas de marca siguiendo estas reglas. Cada uno tiene su ID y se descarga en Recursos. Los patrones construyen atmósfera; nunca compiten con el contenido.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "328e0f17fc43fab8",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "26599462278daf16",
+     "nota": "commit f29d231"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "7515a2c61895b95d",
+     "nota": "commit 6e7edde"
+    }
+   ]
+  },
+  "fundamentos/elementos/graficos.html#profundidad": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ILU-009",
+   "texto": "Profundidad atmosférica Sombras que dan aire Sobre cielos u otras superficies expresivas se puede crear profundidad atmosférica con sombras difusas. (Propósito)Separar planos y dar profundidad a una composición expresiva. (Composición)Sombras amplias, suaves y difusas, sobre un cielo o una superficie de color. (Invariantes)Las sombras no se usan de forma indiscriminada en cada contenedor. (Pendiente de validación)La luz de borde y los reflejos alineados con la dirección de la iluminación son recursos experimentales. No se convierten en comportamiento global.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-30",
+     "huella": "f414a92390005c2e",
+     "nota": "commit 8747573"
+    }
+   ]
+  },
+  "fundamentos/elementos/graficos.html#rafagas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ILU-006",
+   "texto": "Ráfagas El viento, liberado sobre blanco Estelas de degradado orgánico que fluyen sobre Blanco Keyons sin estar enmarcadas: el movimiento del viento en la fase activa del cielo. Son el recurso más expresivo del sistema. Ráfaga(01/06)OlaMediodíaRáfaga(02/06)FlujoAtardecerRáfaga(03/06)GiroAmanecerRáfaga(04/06)EstelaNocheRáfaga(05/06)PulsoGalaxiaRáfaga(06/06)CorrienteMediodíaPase el cursor por una ráfaga: una racha de viento acelera su polvo de color. (Qué son)Flujos difusos de color con textura granulada, dirección clara y forma serpenteante. No tienen bordes definidos: se disuelven en el blanco. Hay varios estilos (ola, flujo, giro, estela, pulso y corriente) y cada uno toma una fase del cielo. (Cuándo se usan)Portadas de reporte, historias y portadas de reels, contenido educativo, propuestas enterprise, piezas manifiesto, encabezados animados y piezas de modo expresivo. (Cuándo no)En interfaz de producto, tableros, documentos legales y comunicados corporativos sobrios. Tampoco sobre fondos de color: siempre sobre Blanco Keyons o Crema. ConstrucciónColorUna sola fase del cielo por ráfaga: Amanecer, Atardecer, Noche o Galaxia. Nunca una mezcla de fases.TexturaGrano fino al 15 a 20 % de opacidad, siempre.FormaSerpenteante y orgánica. Nunca geométrica ni un círculo perfecto.DirecciónClara y legible: diagonal, vertical o curva. Nunca estática ni centrada.DifuminadoLos bordes se disuelven en el Blanco Keyons sin un corte visible.AnimaciónMovimiento lento y continuo en la dirección del viento, en ciclos de 20 a 30 s. Orgánico, nunca mecánico.Con tipografíaPuede acompañarse de texto vertical en los bordes, al estilo de revista. Nunca sobre la zona densa: el texto vive en el blanco que la rodea. La ráfaga es el viento visible: libera el cielo del marco.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "efecffbdde11b604",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/elementos/graficos.html#ventana": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ILU-005",
+   "texto": "Ventanas de cielo Nítido adentro, esmerilado afuera La firma gráfica principal de Keyons: el acto de mirar hacia el cielo a través de un vidrio. Lo que se enmarca no es una medida, es una profundidad adaptada a cada escenario. 01 · Cielo MediodíaRectánguloLa figura más versátil: portadas de documento y encabezados web.02 · Cielo AmanecerCírculoSuave y contemplativa: tarjetas destacadas y redes.03 · Cielo AtardecerTriánguloCon dirección: aperturas de capítulo y piezas que avanzan.04 · Cielo NocheCuadradoEstable y ordenada: formatos cuadrados y piezas sobrias.05 · Cielo GalaxiaEstrellaReservada para Galaxia: lanzamientos y piezas de potencial infinito. (Qué son)Un contenedor con cielo real fotografiado dentro, enmarcado por una figura geométrica interior nítida. El fondo exterior puede ser cielo esmerilado o cielo pleno. (Cuándo se usan)Portadas de documento y de propuesta comercial, encabezado principal de la web, apertura de capítulos, tarjetas destacadas, piezas de redes con mensaje contemplativo y fondos de testimonios. (Cuándo no)Tableros de producto, formularios, listados funcionales, mensajes de error y tablas de datos. La ventana es un momento, no un elemento recurrente. (Cinco figuras)Rectángulo, círculo, triángulo, cuadrado y estrella. No se suman figuras nuevas sin la aprobación de ambos Co-Editores Generales. Cinco reglas sin excepción01La profundidad es la reglaLo que define una ventana es la sensación de mirar a través de un vidrio: afuera esmerilado, adentro nítido. Forma, tamaño y margen cambian según la pieza; esa lectura no.02Figuras geométricas purasSolo las cinco figuras oficiales. No se combinan entre sí dentro de una misma ventana, no se deforman y solo se rotan en ángulos cardinales.03Siempre con cieloDentro de la figura siempre hay cielo real fotografiado por el equipo Keyons. Nunca un degradado digital puro, nunca stock, nunca una imagen generada por IA.04Canto de vidrioEl borde entre lo esmerilado y lo nítido lleva una línea de luz sutil de 1 a 2 px, como el canto de un vidrio real. No es sombra ni brillo: es un contorno muy fino del mismo tono del cielo.05Margen según el escenarioEl margen entre la figura y el borde cambia con el formato: 24 a 48 px en documentos, 16 a 32 px en móvil y hasta 120 px en portadas de alto impacto. Nunca menos del doble del grosor del canto.Regla transversal 70/30. En cualquier pieza con ventana, el cielo ocupa cerca del 70 % de la composición y el contexto (texto, elementos de marca, otros gráficos) el 30 % restante. Así el cielo sigue siendo el protagonista; la regla completa está en KYN-MRK-ILU-008. Una ventana sin cielo no es una ventana Keyons.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "bd99c3647648e016",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "7a8e47f8b1ca46d4",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "fundamentos/elementos/graficos.html#vinetas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ILU-001",
+   "texto": "Viñetas de marca Pequeños módulos, firma constante Las viñetas son las figuras que acompañan listas y enumeraciones: pequeñas pero constantes, aparecen en cada sección, cada tarjeta y cada vertical de servicio. Funcionan con dos ritmos independientes: la forma alterna siempre y el color varía según el modo. A · Círculo B · Cuadrado (Color) Azul CieloSalmón TierraSalmón AtardecerAzul NocheBlanco Keyons (Modo)Fondo claroModo nocturnoCorporativoAzul Cielo y Salmón TierraAzul Cielo y Salmón AtardecerExpresivoLos tres coloresLos tres coloresUn solo colorSolo Azul CieloSolo Salmón TierraSolo Azul CieloSolo Salmón Atardecer (Dos formas)La viñeta A es un círculo con un vacío cuadrado; la B, un cuadrado con un vacío circular: el interior curvo y el exterior recto en miniatura. (Por defecto)La secuencia alterna círculo y cuadrado y siempre abre con el círculo. El color por defecto es Azul Cielo, con Salmón Tierra como alternancia. (Con tres colores)Los colores rotan en secuencia fija: Azul Cielo, Salmón Tierra y Salmón Atardecer. La forma alterna por su cuenta, así que nunca se repite la misma combinación seguida. (Color o Azul Noche)Viñetas de colorPiezas que deben destacar: presentaciones, web, redes y volantes.Azul NocheDocumentación larga: manuales, informes, guías y propuestas extensas. Este manual las usa así.Blanco KeyonsEn modo nocturno, el mismo criterio invertido. (Un solo color)Para listas cortas, de hasta cuatro ítems. Sobre claro, Azul Cielo o Salmón Tierra; en modo nocturno, Azul Cielo o Salmón Atardecer. La forma alterna igual: da ritmo sin romper la unidad del color. (Interior)El vacío deja ver el fondo: Blanco Keyons sobre claro y Azul Noche sobre oscuro. (Tamaño)16 a 20 px junto al texto, alineadas al centro de la primera línea. Abre siempre la secuencia Segunda en la secuencia Por defecto en lo expresivo y en modo nocturno Documentos largos y manuales, con el vacío en Blanco Keyons En modo nocturno, el mismo criterio invertido",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "12ff0df0fff0155e",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "f56ff5b67fd42e16",
+     "nota": "commit 6e7edde"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "a5409ad8584900bf",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "fundamentos/forma/espacio.html#densidad": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ESP-005",
+   "texto": "Densidad Cuánta información cabe en un espacio Aire y minimalismo en lo corporativo; intensidad ordenada en lo expresivo. La densidad no decora: anuncia el tipo de contenido que viene. Corporativo · densidad bajaPocos elementos por bloque, mucho espacio negativo y una idea protagonista por página. Respeta el tiempo del lector. (Cuándo)Propuestas, documentos institucionales, landing principal, hero web, comunicados y este libro.(Regla)Máximo tres bloques por pantalla en escritorio. Alrededor del elemento principal, un aire igual a su tamaño. Un solo CTA por sección. (Ejemplo)Propuesta comercial: una idea, mucho aire Expresivo · densidad ordenadaMás elementos e intensidad informativa, siempre sobre la retícula. Nunca cae en desorden. (Cuándo)Campañas, blog, contenido educativo, redes, piezas culturales y talleres.(Regla)Las 12 columnas sostienen la composición: seis elementos ocupan dos columnas cada uno, con su medianil. La intensidad viene de la cantidad coherente, no del amontonamiento. (Ejemplo)Post de campaña: varios elementos sobre la retícula Interfaz · según la tarea No hay una densidad única, hay una adecuada para lo que el usuario necesita hacer en cada pantalla. (Ejemplo)Pantalla de bienvenidaDensidad bajaBienvenida y onboardingErrores y estados sensiblesPausas en flujos largosConfirmaciones importantesPrimera vez y educación(Ejemplo)Formulario estándarDensidad mediaFormularios estándarInformación estructuradaFlujos transaccionales de rutina(Ejemplo)Tablero operativoDensidad altaTableros de uso diarioTablas de datosListados largos con filtrosVistas de monitoreoPantallas para escanear rápido Aire o intensidad, siempre sobre la retícula: la densidad nunca se traduce en desorden.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "51c9c8f27a191498",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/forma/espacio.html#diagramas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ESP-007",
+   "texto": "Diagramas de información Ordenar ideas, no medirlas Cuando no hay cifras sino relaciones (fases, zonas, niveles o áreas), la información se diagrama. Mismo trazo fino, etiquetas grises y una estrella para lo que importa. (Proceso)Círculos que crecenFases que nacen del mismo punto: cada una contiene a la anterior. La línea baja desde el nombre de la fase y una estrella marca dónde toca su círculo.Entenderla operación01Construircon su equipo02Mediry mejorar03(Avance)Zonas que crecenCírculos que nacen del mismo borde; cada zona contiene a la anterior. Las etiquetas salen arriba y abajo, nunca a los lados.Uso básicoPrimeras pruebasIA integradaOperación transformada(Niveles)Esferas de madurezDel nivel difuso al nítido: la claridad crece con la madurez. Una estrella marca dónde está hoy.1Inicial2Explora3Define4Integra5OptimizaSu empresa hoy(Relaciones)Arcos de métodoFases que se superponen sobre una misma línea de trabajo.RelaciónDiagnósticoComprensiónPlaneaciónConstrucciónAcompañamientoEvoluciónInmersiónEstrategiaProyectoSoporte(Alcance)Círculos de alcanceCírculos apoyados en un mismo punto, del más cercano al más amplio, con su nombre al costado.Su sectorSu empresaSu equipo(Contexto)Anillos de contextoUn tema dentro de los anillos que lo rodean, del más cercano al más amplio, con una idea al centro.CulturaGobierno de datosProcesosPersonasHerramientasLa IA no opera aislada:es parte de toda la operación,no una pieza aparte. (Cuándo)Para explicar un método, un proceso o un contexto en una propuesta, una capacitación o una pieza de marca. Si hay datos medidos, va un gráfico del capítulo 14. (Cómo)Trazo de 1 px en Azul Noche, etiquetas en gris de 11 a 13 px y una estrella en el punto que se señala. Sin degradados ni sombras. 01 · Diagnóstico · 2 a 4 semanas|Entender la operación 02 · Diseño · 4 a 8 semanas|Construir con su equipo 03 · Evolución · continua|Medir y mejorar Zona 1|Uso básico Zona 2|Primeras pruebas Zona 3|IA integrada Zona 4|Operación transformada Nivel 1 · Inicial|Tareas manuales y dispersas Nivel 2 · Explora|Primeras pruebas con IA Nivel 3 · Define|Procesos documentados Nivel 4 · Integra|IA en el trabajo diario Nivel 5 · Optimiza|Mejora continua medida Inmersión|Diagnóstico y comprensión Estrategia|Comprensión y planeación Proyecto|De la planeación al acompañamiento Soporte|Acompañamiento y evolución Cultura|Anillo 1 Gobierno de datos|Anillo 1 Procesos|Anillo 2 Personas|Anillo 2 Herramientas|Anillo 3",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d02ab3a742d6a6aa",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "99c1ba5cef4a5911",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "fundamentos/forma/espacio.html#espaciado": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ESP-003",
+   "texto": "Espaciado Todo se mide en múltiplos de 4 Una sola escala para márgenes, separaciones y rellenos. Si una distancia no está en la escala, no se usa. s14 pxEntre ícono y su bordes28 pxÍcono y textos312 pxEntre líneas de una listas416 pxDentro de controless520 pxs624 pxDentro de tarjetass832 pxEntre bloques relacionadoss1040 pxs1248 pxEntre componentess1664 pxEntre grupos de contenidos2080 pxs2496 pxEntre seccioness32128 pxAire de sección",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "619762e8c7fa059a",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/forma/espacio.html#esquinas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ESP-001",
+   "texto": "Regla de esquinas Exterior recto, interior curvo La regla que da forma a todo el sistema: la esquina que toca el borde del grupo es recta; la que mira a otro elemento, curva. Así un conjunto se lee como una sola pieza. (Fila)Las esquinas de los extremos van rectas; las que se miran, curvas.(Pila)Igual, en vertical: arriba y abajo rectas, adentro curvas.(Cuadrícula)Cada recuadro solo curva la esquina que mira al centro del grupo. (Un recuadro solo)Sus cuatro esquinas son exteriores: van rectas. (Botones y badges)Son la excepción: forma de píldora completa, porque no forman grupo con el contenedor.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "3e74e463bc9fdab0",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/forma/espacio.html#patrones": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ESP-006",
+   "texto": "Patrones de contenido La forma sale del contenido Antes de diagramar, la pregunta es qué tipo de contenido es. La respuesta decide el patrón; nunca al revés. (El contenido es)Se diagrama comoEjemploReglas o principios cortos, de tres a seisCuadrícula de reglasKYN-MRK-CON-006 · Reglas de composiciónPuntos que se leen uno a uno y pueden crecerAcordeónKYN-MRK-COL-004 · Reglas del colorPares o tríos de explicacionesRótulo arriba, texto debajoKYN-MRK-ADN-001 · EsenciaÍtems sin jerarquíaLista con viñetas de marcaKYN-MRK-LOG-006 · Usos incorrectosComparación entre opcionesMatrizKYN-MRK-ADN-003 · EspectroAlgo que se ve: color, logo, letraMuestra en recuadro, con la regla de esquinasKYN-MRK-LOG-001 · VersionesMuchos ítems del mismo tipoSelector o carruselKYN-MRK-VOZ-003 · VocabularioIdeas de distinto peso, que se recorren librementeRetícula dinámica de líneasKYN-MRK-DAT-001 · PrincipiosDatos y cifrasNúmero grande con su lectura14 · DatosUna nota que señala algoFlecha orgánicaKYN-MRK-COL-002 · Colores principales Dos patrones iguales no van seguidos: el ritmo también comunica.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "44af3057f06ce65a",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "85fdc5a1d71ac19e",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "fundamentos/forma/espacio.html#radios": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ESP-002",
+   "texto": "Radios El radio depende del tamaño Se elige mirando el lado más corto del recuadro: entre más grande, más radio. Cada ejemplo está en pareja porque, por la regla de esquinas, solo curvan las esquinas que se miran. r-micro3 px (Lado corto)Menos de 24 px(Se usa en)Barras de datos, chips internos, marcas pequeñas r-control12 px (Lado corto)24 a 64 px(Se usa en)Campos, fichas de color, segmentos r-component18 px (Lado corto)64 a 200 px(Se usa en)Tarjetas y recuadros de contenido r-card30 px (Lado corto)200 a 400 px(Se usa en)Paneles y tarjetas grandes r-block50 px (Lado corto)Más de 400 px(Se usa en)Secciones y bloques de página (Anidados)Un recuadro dentro de otro usa el radio exterior menos el relleno. Si el resultado es menor que 3 px, va recto. (En código)Siempre con su variable: var(--r-card), nunca con un número suelto.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "7425cafd238ea3cd",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/forma/espacio.html#reticula": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ESP-004",
+   "texto": "Retícula y responsive Un piso, no un techo Doce columnas son la base cuando no hay dirección creativa. Entre más libre la pieza, más se puede romper. 01ObligatoriaSe cumple siempre.(Aplica a)Interfaz de producto, tableros, formularios, plantillas, este libro y propuestas comerciales.02RecomendadaEs el punto de partida: márgenes y anchos se ajustan con criterio.(Aplica a)Landing pages, páginas de nicho y correos.03De referenciaAyuda a componer o se rompe con intención.(Aplica a)Redes, campañas, piezas editoriales, pitch decks únicos y materiales culturales. Cómo se adapta (Pantalla)AnchoColumnasMargenMóvilHasta 759 px416 pxTableta760 a 1099 px832 pxEscritorio1100 a 1439 px1264 pxAmplioDesde 1440 px12Contenido hasta 1520 px El responsive no es un modo: es cómo esta retícula se adapta al ancho. El medianil es de 16 px en móvil y de 24 px en el resto. En los tres niveles nunca se rompen la proporción, el aire y la legibilidad.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "4cce77745877cc7f",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/iconografia/iconos.html#animacion": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ICO-004",
+   "texto": "Animación Siempre en la misma dirección Todos los íconos usan la misma animación: aparecen desde el centro y se asientan en 550 ms, para que la familia se mueva como una sola. Pase el cursor por el catálogo para verla. (Interfaz)Micro y funcional: 150 a 450 ms. Se anima al aparecer o al confirmar una acción, nunca en bucle. (Ilustrativa)Más expresiva, hasta 1,2 s. Se entrega como Lottie o SVG animado.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "818a0dbbad80a5f7",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/iconografia/iconos.html#catalogo": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ICO-005",
+   "texto": "Cómo se usan Tres colores, un solo trazo Los íconos de la marca se usan en tres colores y nunca en otros. El trazo es siempre el mismo; lo que cambia es el fondo sobre el que viven. Globo · #10122AAzul NocheEl color de todos los días, sobre fondos claros.Asterisco · #729BDDAzul CieloPara destacar un ícono o marcar un estado activo.Chat · #F4F4F4Blanco KeyonsSobre Azul Noche o sobre cielos profundos.Un color por vistaEn una misma pantalla o pieza, todos los íconos comparten color.Con su etiquetaÍcono y texto a 8 px, alineados al centro. Solo, si la acción es universal.Tamaños16, 20, 24 y 32 px. Se escala en proporción; el trazo no se engrosa.EstadosÉxito, error o advertencia usan los colores de estado de KYN-MRK-COL-014, nunca un color nuevo. (Archivo y catálogo)Cada ícono se pide por su nombre, por ejemplo keyons-buscar-noche.svg. El catálogo completo, para elegir el color, copiar el SVG o descargarlo en SVG, PNG o JPG, está en Recursos.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "c84e2071a817f288",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "0ba4e93710256952",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "fundamentos/iconografia/iconos.html#entrega": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ICO-006",
+   "texto": "Entrega técnica Nombres y versiones claras Cada archivo dice qué es y para qué tamaño. El sistema crece sin romperse. (Tema)ReglaNombre de archivoicon-{nombre}-{tamaño}.svg · ej. icon-flecha-derecha-24.svgVariantesSufijo -solido para la variante sólidaCarpetasinterfaz/ · ilustrativa/ · externos/VersionesSemánticas: 1.0.0 · cambios menores suman el segundo númeroFormatosSVG para producto y web; PNG a 2× para documentos",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "f0abbad99effe138",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/iconografia/iconos.html#familias": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ICO-002",
+   "texto": "Familias y variantes Dos familias, dos variantes La familia define el uso; la variante, el estado. En una misma vista no se mezclan. (Interfaz · contorno)La variante por defecto: navegación, acciones y contenido. (Interfaz · sólida)Solo para el estado activo o seleccionado, y siempre como pareja de un ícono de contorno. (Ilustrativa)Más expresiva, para piezas de marca y estados vacíos. Retícula de 64 px y trazo de 2 px. Aquí van cohete, flor, planta o varita. Por desarrollar. (Marca o sistema)El isotipo { } es identidad y sigue las reglas del logotipo; «guardar» o «editar» son sistema y siguen esta retícula.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "707b70ace0af1827",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/iconografia/iconos.html#reticula": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ICO-001",
+   "texto": "Retícula Lienzo de 32, área viva de 28 Todos los íconos de interfaz se dibujan sobre la misma retícula. Comparten lienzo, margen, grosor y guías, por eso se ven de una misma familia. Lienzo de 32 pxCon 2 px de margen en cada lado: el dibujo vive en 28 × 28 px.Trazo de 2,5 pxEl mismo en todos los íconos, sin trazos residuales.Formas guíaCírculo de 24, cuadrado de 22 y rectángulos de 26 × 20 y 20 × 26 px. Cada ícono usa la que se parece a su silueta, para que todos pesen igual a la vista.TerminacionesRectas, con uniones en ángulo. Sin texto ni números dentro del ícono. (¿Quién usa las guías?)Quien dibuja un ícono nuevo. Para usarlos en código basta el SVG del catálogo; a 16, 20 o 24 px todo se escala en proporción. (Íconos anchos)Nube, interruptor o lista caben en la familia: usan el rectángulo de 26 × 20 px, el mismo trazo y van centrados en vertical. Lo que rompe la familia no es el ancho, es el grosor o el estilo.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "755918af7bfc6b62",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/iconografia/iconos.html#uso": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ICO-003",
+   "texto": "Uso Tamaño, texto y contexto Un ícono comunica mejor acompañado. Solo, debe ser inequívoco. Tamaños16, 20, 24 y 32 px. Debajo de 16 se pierde el trazo.Con textoÍcono y etiqueta a 8 px de distancia, alineados al centro.Sin textoSolo para acciones universales; siempre con nombre accesible.EstadosÉxito, error, advertencia, información, carga y bloqueo usan los colores de KYN-MRK-COL-014 y van con texto cuando son críticos.Agentes de IAEstela y los demás agentes usan su avatar en la conversación y un ícono solo en espacios mínimos.Redes y servicios externosVersión original del servicio, monocroma en Azul Noche o Blanco y al mismo tamaño óptico. Nunca se redibujan.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "de6b4104d5672c7b",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "b9e447cf2a3c60ce",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "fundamentos/identidad/isotipo.html#corchete": {
+   "estado": "vigente",
+   "id": "KYN-MRK-LOG-007",
+   "texto": "El corchete Nace desde dentro de la palabra Los corchetes de programación emergen de la anatomía de la K y la E. Primero se lee KEYONS; en un segundo pase aparecen los corchetes que estaban ahí todo el tiempo. (Isotipo) (Un símbolo universal)En cualquier lenguaje de programación, los corchetes delimitan los bloques donde ocurren las operaciones. Son el marco donde la acción sucede. (El contenedor que ordena)No son la operación ni el resultado: son el marco que permite que todo ocurra con sentido. Esa es la posición de Keyons frente a sus clientes. (Desde adentro, no desde afuera)El símbolo no está al lado del nombre: nace de él. Como Keyons, que se integra en la lógica del cliente para que la solución emerja desde adentro. El corchete hace que el código funcione; Keyons hace que la tecnología del cliente funcione.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "1d8b0db428cfd9f1",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/identidad/isotipo.html#destello": {
+   "estado": "vigente",
+   "id": "KYN-MRK-LOG-009",
+   "texto": "Destello central Una estrella que se sugiere En el centro del logotipo, donde se cruzan las diagonales de la K, la E y la Y, aparece un destello sutil: una intersección que se lee como estrella o punto de luz. (Referencia sin literalidad)Es el guiño al brillo con que el sector habla de inteligencia artificial, construido desde adentro: no hay estrella junto al logotipo, son las diagonales las que la forman. (Está y no está)El receptor entrenado reconoce el guiño; el no entrenado ve un logotipo de carácter geométrico fuerte. En ambos casos, la marca no se lee como cliché de IA. (La misma lógica de las metáforas)No representamos la IA con imágenes de IA, igual que no representamos la tecnología con imágenes de tecnología, sino con la vida real que ella toca.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "bbf5057295ed05a9",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/identidad/isotipo.html#evolucion": {
+   "estado": "vigente",
+   "id": "KYN-MRK-LOG-008",
+   "texto": "Estado y evolución La palabra sostiene, el símbolo acompaña La relación entre logotipo e isotipo sigue una lógica de maduración. Hoy el isotipo camina acompañado; cuando la asociación esté construida, caminará solo. (Hoy · acompañado)Aparece junto al logotipo o donde el entorno ya dice que es Keyons: el favicon del sitio propio, el avatar de cuentas oficiales verificadas o la marca de agua en documentos identificados. (Todavía no · audiencias frías)Frente a quien no conoce a Keyons, los corchetes sin el nombre se leen solo como corchetes. Usarlo así antes de tiempo confundiría al receptor. (Después · autónomo)Bordados en merchandising, ícono de la aplicación móvil, patrones como textura de marca y sellos de firma en piezas donde el logotipo completo no llega. Cuando el mercado esté listo, la relación se invierte.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "422904e3424fe705",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/identidad/isotipo.html#transicion": {
+   "estado": "vigente",
+   "id": "KYN-MRK-LOG-010",
+   "texto": "Criterio de transición Dos de tres, no antes El isotipo se activa como identidad autónoma cuando se cumplen al menos dos de estos tres criterios verificables. 40% Criterio 01Reconocimiento espontáneoAudiencias frías identifican el símbolo como Keyons sin ver el nombre, en estudios cualitativos con el público objetivo. 18meses Criterio 02Densidad de exposiciónExposición continua del isotipo junto al logotipo en sitio web, redes, presentaciones y papelería. 3usos Criterio 03Ecosistema de aplicacionesFavicon, avatares oficiales y marca de agua: tres lugares donde el símbolo se repite con constancia. (01 / 03) Anterior Siguiente (Cuando se cumplen)La marca activa el isotipo autónomo de forma gradual, con revisión trimestral de la dirección de marca durante los primeros seis meses. (Mientras tanto)Cualquier uso autónomo frente a audiencias frías requiere la aprobación explícita de la dirección de marca. Esperar el momento correcto es lo que garantiza que, cuando el símbolo se independice, funcione.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "93e40a73bf4bd8b0",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/identidad/logotipo.html#construccion": {
+   "estado": "vigente",
+   "id": "KYN-MRK-LOG-002",
+   "texto": "Construcción KEY arriba, ONS abajo La división en dos niveles no es un capricho estético: resuelve tres funciones a la vez. La retícula sale de la propia geometría de la marca. (Logotipo principal) (Isotipo) (Logotipo insignia) (Guía la pronunciación)Keyons se pronuncia en inglés, cerca de «kii-ons». Escrita en una línea, un lector hispanohablante tiende a decir «kellons» o «keiyons». La ruptura entre KEY y ONS obliga a leer dos sílabas y activa la pronunciación correcta antes de que el lector note que había un problema. (Refleja lo modular)Key es la llave, el acceso. Ons es la acción, la ejecución. Juntas dicen que la marca es la llave que enciende el sistema: dos componentes autónomos que solo juntos forman la solución, como los módulos de Keyons. (Cabe en los formatos de hoy)Su composición casi cuadrada ocupa con naturalidad los espacios cerrados: avatares, íconos de aplicación y sellos de esquina. Un logotipo horizontal largo se pierde en ellos.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "220f903096dd1746",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/identidad/logotipo.html#geometria": {
+   "estado": "vigente",
+   "id": "KYN-MRK-LOG-003",
+   "texto": "Geometría Geométrico, pero no rígido Una base de disciplina estructural y, sobre ella, dos familias de curvas, cada una con su función. (Base geométrica)Terminaciones afiladas, cortes diagonales precisos y simetría entre KEY y ONS. Dan carácter tecnológico y autoridad al primer vistazo; sin esa base, el logotipo se leería como tipografía genérica. (Curvas contenidas · los corchetes)En la K y la E, curvas cortas y controladas con terminaciones afiladas. Dan fluidez sin quitar carácter técnico: corchetes con presencia, no corchetes de manual. (Curvas expansivas · la O y la S)Conservan la curva natural de su anatomía. Una S angular deja de leerse como S: la legibilidad gana sobre la coherencia dogmática. Respetar la naturaleza de cada letra es el principio Keyons dentro de su propio símbolo. (Diferenciación con propósito)Que las dos familias sean distintas no es incoherencia: los corchetes se leen como corchetes y las letras como letras. La coherencia no viene de que todo se parezca: viene de que cada parte cumple su rol.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "45b8c6c7508ff2f8",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/identidad/logotipo.html#incorrectos": {
+   "estado": "vigente",
+   "id": "KYN-MRK-LOG-006",
+   "texto": "Usos incorrectos Lo que nunca se hace La marca se usa tal como está en los archivos oficiales. Cualquier cambio la convierte en otra cosa. No deformarNunca se estira, se comprime ni se inclina. No rotarSiempre horizontal, sobre su línea base. No cambiar sus coloresSolo Azul Noche, Blanco Keyons o Azul Cielo. No aplicar efectosSin sombras, brillos, relieves, degradados ni texturas. No usarlo sin contrasteNunca tonos claros sobre fondos claros ni oscuros sobre oscuros. No reorganizarKEY y ONS van siempre en dos niveles. No recortarLa palabra se muestra completa, siempre. No añadir adornosNada de tratamientos orgánicos, decorados ni estilos de moda. Ante la duda, se usa el archivo oficial, sin tocarlo.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "9e1cadb389ad2630",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/identidad/logotipo.html#minimo": {
+   "estado": "vigente",
+   "id": "KYN-MRK-LOG-005",
+   "texto": "Tamaño mínimo Lo más pequeño que se lee bien Por debajo de estas medidas los detalles se cierran y el nombre deja de leerse. Cuando el principal no cabe, se usa el isotipo. (Tamaño real)72 pxLogotipo principalDigital72 px de anchoImpreso18 mm de ancho (Tamaño real)67 pxIsotipoDigital67 px de ancho · el alto de la insigniaImpreso14 mm de ancho (Tamaño real)120 pxLogotipo insigniaDigital120 px de anchoImpreso25 mm de ancho (01 / 03) Anterior Siguiente",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "7d7ad4f9baa923ca",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/identidad/logotipo.html#proteccion": {
+   "estado": "vigente",
+   "id": "KYN-MRK-LOG-004",
+   "texto": "Área de protección Un margen que nadie invade El área de protección se mide con el propio isotipo: crece y se reduce con la marca. Dentro de ese margen no entra texto, imagen ni borde. (Logotipo principal) (Isotipo) (Logotipo insignia) (Logotipo principal)A los lados, un isotipo con un cuarto del ancho del logotipo. Arriba y abajo, la altura de ese mismo isotipo en horizontal. (Isotipo)A los lados, la mitad de su ancho; arriba y abajo, la mitad de su alto. Un respiro equilibrado alrededor de la estrella. (Logotipo insignia)A los lados, un isotipo con un cuarto de su ancho. Arriba y abajo, la altura de ese isotipo en horizontal.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "6f03ae974d0b62b3",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/identidad/logotipo.html#versiones": {
+   "estado": "vigente",
+   "id": "KYN-MRK-LOG-001",
+   "texto": "Versiones Tres versiones, una sola firma El logotipo de Keyons es tipográfico: la palabra completa carga la identidad. El isotipo nace desde dentro de la palabra, no desde afuera, y la insignia los une en un sello. Cada versión vive en tres combinaciones y en ninguna otra. Nunca en Salmón. 01Logotipo principal La primera opción siempre que el espacio lo permita. Un bloque sólido y compacto: el nombre en dos niveles, KEY y ONS, guía la pronunciación, expresa la naturaleza modular de nuestras soluciones y dibuja una llave entre la K, la E, la O y la N. (Logotipo principal)Clic para copiar el SVG 01 / 03 SVGPNGJPG 02Isotipo Los corchetes del código, nacidos de la anatomía de la K y la E. Su vacío central forma una estrella de cuatro puntas, como una brújula: la orientación estratégica que ofrecemos.(En esta etapa)Trabaja acompañado del logotipo o donde el receptor ya conoce a Keyons: el favicon del sitio propio o el avatar de cuentas oficiales. (Isotipo)Clic para copiar el SVG 01 / 03 SVGPNGJPG 03Logotipo insignia Un sello monolítico: el nombre en horizontal dentro de la contraforma del isotipo a gran escala. Una insignia sólida, cerrada y compacta para situaciones que piden una mancha gráfica contundente, como un escudo o una medalla.(Usos recomendados)Pines, parches y stickers; merchandising como pulseras o gorras; impresiones a una tinta, como sellos de goma o grabados. (Logotipo insignia)Clic para copiar el SVG 01 / 03 SVGPNGJPG Sobre fotografía, la marca se apoya en la zona más limpia del cielo y toma el tono que más contraste.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "82ae2c45349706a0",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/tipografia/sistema.html#escala": {
+   "estado": "vigente",
+   "id": "KYN-MRK-TYP-002",
+   "texto": "Escala y jerarquía Nueve niveles para pantalla Cada nivel cambia tamaño, peso o color, nunca solo uno de ellos. Valores para sitio web e interfaz; impreso y redes sociales se definen aparte. Display52 a 128pxTASA 500 Interlineado 0.93 · Espaciado −4 % Título de sección30 a 44pxJakarta 500 Interlineado 1.1 · Espaciado −3 % Subtítulo22 a 27pxJakarta 500 Interlineado 1.2 · Espaciado −2 % Título menor17 a 18pxJakarta 600 Interlineado 1.3 · Espaciado −1.5 % Entrada18 a 20pxJakarta 400 Interlineado 1.55 · Espaciado 0 Cuerpo16 a 17pxJakarta 400 Interlineado 1.65 · Espaciado 0 Pequeño14 a 15pxJakarta 400 Interlineado 1.6 · Espaciado 0 Rótulo13pxJakarta 500 Interlineado 1.4 · Espaciado 0 Kicker13pxTASA 500 · mayúsculas Interlineado 1 · Espaciado +8 %",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "2ecbd917e4dbe03d",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/tipografia/sistema.html#familias": {
+   "estado": "vigente",
+   "id": "KYN-MRK-TYP-001",
+   "texto": "Familias Dos familias, una sola voz Plus Jakarta Sans lleva el peso de la lectura; TASA Orbiter aparece cuando la tipografía es protagonista. Las dos son geométricas con sensibilidad humanista, por eso conviven sin chocar. Ag (01 · Principal) Plus Jakarta Sans Títulos, cuerpo de texto, interfaz y documentos. Google Fonts, licencia libre. Regular400 Medium500 Semibold600 Bold700 Italic400 ABCDEFGHIJKLMNÑOPQRSTUVWXYZ abcdefghijklmnñopqrstuvwxyz 0123456789 ¿?¡!«»&@ Ag (02 · Protagonista) TASA Orbiter Display, portadas y kickers. Aparece en momentos puntuales, nunca como tipografía general. Regular400 Medium500 Semibold600 Bold700 ABCDEFGHIJKLMNÑOPQRSTUVWXYZ abcdefghijklmnñopqrstuvwxyz 0123456789 ¿?¡!«»&@ 400 500 600 700 400 400 500 600 700",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "aa26d0e9eef69b8a",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/tipografia/sistema.html#funcion": {
+   "estado": "vigente",
+   "id": "KYN-MRK-TYP-007",
+   "texto": "Uso por función Cada familia, su función Se conservan las dos familias oficiales. TASA Orbiter da presencia; Plus Jakarta Sans sostiene la lectura y la operación. TitularTASA OrbiterTitulares editoriales de fuerte presencia y numeración monumental. LecturaPlus Jakarta SansSubtítulos, lectura prolongada, navegación, datos y controles funcionales. 39Números expresivosTASA Orbiter, cuando el número actúa como recurso editorial. 1.240,50Números operativosPlus Jakarta Sans, con cifras tabulares cuando corresponda: tablas, datos y controles.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-30",
+     "huella": "0c6ffb85bb0bbab1",
+     "nota": "commit 8747573"
+    }
+   ]
+  },
+  "fundamentos/tipografia/sistema.html#kickers": {
+   "estado": "vigente",
+   "id": "KYN-MRK-TYP-005",
+   "texto": "Kickers La etiqueta que anuncia El kicker ubica al lector antes del título. Es la única excepción en la que TASA Orbiter baja a tamaño pequeño. Capítulo 05 · Voz (Ícono)Siempre a la izquierda y nunca se repite a la derecha. La estrella de marca es el ícono por defecto. (Letra)TASA Orbiter 500, en mayúsculas, con espaciado de +8 %. (Punto medio)Separa niveles. Sin punto final. (Tamaño real · 13 px)Capítulo 05 · Voz",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "90d6241d9dadb5a8",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "10f2f5382bb448d9",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "fundamentos/tipografia/sistema.html#probador": {
+   "estado": "vigente",
+   "id": "KYN-MRK-TYP-003",
+   "texto": "Probador Escriba y compare Display Título Entrada Cuerpo Kicker El mismo cielo, nadie lo ve igual TASA Orbiter 500 · 52 a 128 px · −4 %",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d3dfdc2e3e30e323",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/tipografia/sistema.html#reglas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-TYP-006",
+   "texto": "Reglas de uso Cada regla, a la vista Lo que hace que la tipografía se lea como Keyons. Cada regla trae su demostración. 01Tamaño, peso y color02Pocos tamaños03Interlineado inverso04Espaciado según tamaño05Negrita con intención06Números tabulares07TASA, solo protagonistaPresencia humanaSiempre hay un elemento real, preferentemente humano.La jerarquía combina los tres. Así se lee aunque dos textos estén cerca en tamaño.AaAaAaMáximo tres tamaños de lectura por pieza. Si hace falta más jerarquía, se resuelve con peso o color.Lo que hace, no cómo se llamaCada término técnico se traduce. No es simplificar: es respetar al lector.Titulares apretados, de 0.93 a 1.2. Cuerpo holgado, de 1.55 a 1.65.CieloÍndiceTitulares grandes de −2 % a −4 %. Cuerpo sin ajuste. Mayúsculas pequeñas, +8 %.Primero entendemos su operación; después construimos.Semibold solo para las palabras clave que guían la lectura. Nunca en acordeones ni en recuadros.1 250.0098.4012 004.10Tablas, cifras, facturas y dashboards alinean sus columnas con la variante tabular.GalaxiaDisplay, portadas y kickers. Nunca en cuerpo de texto ni por debajo de 24 px, salvo el kicker. Si hace falta más jerarquía, se resuelve con peso, no con otro tamaño.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "4737ac5ce937cfdc",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/tipografia/sistema.html#titular": {
+   "estado": "vigente",
+   "id": "KYN-MRK-TYP-004",
+   "texto": "Titular editorial Título, entrada y cierre Cada sección del manual se arma igual. El orden visual es el orden de lectura, sin recuadros ni colores de apoyo. Un mismo cielo, ningún horizonte igual (Título)Corto, una sola idea, entero en Gris titular. Los retos se repiten en cualquier industria, pero ninguna empresa los enfrenta desde el mismo horizonte. (Entrada)Debajo del título. Semibold solo en las palabras clave. El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons. (Cierre)Remata la sección. El resaltado celeste cubre la palabra completa.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "fb4d6a7ba76eff59",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "fundamentos/tipografia/sistema.html#tracking": {
+   "estado": "sin ID",
+   "id": null,
+   "texto": "Tracking en pantalla Una comparación antes de decidir Los valores de presentaciones, −5 % para grandes titulares y −3 % para ciertos subtítulos, están pendientes de validación en interfaces digitales. No son valores universales ni se aplican de forma global. Escala0 %−3 %−5 % 96 pxEl mismo cieloEl mismo cieloEl mismo cielo56 pxEl mismo cieloEl mismo cieloEl mismo cielo32 pxEl mismo cieloEl mismo cieloEl mismo cielo (Mientras se valida)Rige la escala de KYN-MRK-TYP-002. El texto de cuerpo conserva el espaciado que favorece la lectura. (Estado)Propuesta pendiente de validación: sin ID hasta que se apruebe.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-30",
+     "huella": "8032e33292b64ecd",
+     "nota": "commit 8747573"
+    }
+   ]
+  },
+  "marca/adn.html#esencia": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ADN-001",
+   "texto": "Esencia de marca Arquitectura operativa, hecha a la medida Somos una firma que rediseña la arquitectura operativa de las organizaciones con ecosistemas de Inteligencia Artificial hechos a la medida de cada realidad. (Cómo trabajamos)Desarrollamos productos especializados listos para adoptar y soluciones personalizadas que permiten distintos niveles de adaptación. En cada modalidad buscamos integrar la tecnología al trabajo de las personas, con el alcance y acompañamiento que corresponde a sus necesidades. (Por qué lo hacemos)Creemos que la tecnología debe potenciar el criterio humano, no imponer nuevas complejidades. Diseñamos soluciones que ayudan a reducir tareas repetitivas, mejorar la continuidad de los procesos y proteger la información. Nuestro propósito es que los equipos recuperen tiempo y capacidad para concentrarse en las decisiones que realmente importan.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "e393704c90395d9e",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "24dfcc9f2d58c891",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/adn.html#espectro": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ADN-003",
+   "texto": "Espectro de personalización Todo nivel nace del diagnóstico Sin importar cuántos niveles de servicio existan hoy o se sumen en el futuro, todos nacen con el diagnóstico real. Entre niveles cambia la profundidad; lo que abarca ambas columnas no cambia nunca. (Nivel) NichosProducto vertical listo para adoptar BoutiqueSolución hecha a la medida Diagnóstico Dirigido y acotado Profundo Margen de adaptación Acotado Amplio Acompañamiento Cercano, dentro de un marco definido Cercano y continuo, de principio a fin Lo humano al centro Plenamente presente Plenamente presente Tecnología a la medida Adaptación por vertical 100 % a la medida Esto es ADN de Keyons, no una característica de un servicio en particular.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "18ca9c9b7fc7ce17",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "marca/adn.html#filosofia": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ADN-005",
+   "texto": "Filosofía operativa La tecnología, al servicio de la operación Integramos inteligencia artificial al trabajo de las organizaciones para ampliar las capacidades de sus equipos y facilitar sus actividades cotidianas. Buscamos que cada solución sea comprensible, útil y sencilla de adoptar, respetando el conocimiento de las personas y permitiéndoles mantener el criterio sobre las decisiones que requieren su intervención.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "757e4de349d70d1e",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "edd91f3f17d96d7d",
+     "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "d192ad90a542653f",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/adn.html#origen": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ADN-004",
+   "texto": "Origen y visión global Nace y opera desde Costa Rica Un país reconocido por su estabilidad, su talento humano y su enfoque sostenible. (Desde aquí) Conectamos tecnología global con el contexto real de la región. (Hacia afuera) Llevamos el rigor costarricense a mercados internacionales, con un estándar de ejecución impecable.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "44578b47995449bf",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "marca/adn.html#principios": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ADN-007",
+   "texto": "Principios de marca Siete principios 01Escucha EstratégicaComprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde con causa. 02Diseño a MedidaAdaptamos nuestras soluciones a las necesidades reales de cada organización, dentro del alcance que corresponde a cada modalidad de servicio.En los productos especializados ofrecemos una estructura previamente desarrollada, con posibilidades de configuración y adaptación definidas. En los desarrollos personalizados ampliamos esa capacidad según los objetivos y requisitos del cliente.En ambos casos, buscamos que la tecnología facilite el trabajo de las personas, en lugar de exigir que las personas se adapten innecesariamente a ella. 03Acompañamiento AdaptativoGuiamos cada transición construyendo certezas. Nadie se queda solo frente al sistema. 04Gobernanza como CimientoLa protección de datos es fundamento, no promesa. Ley 8968 y sus equivalentes, desde el diseño. 05Evolución ContinuaSi el negocio evoluciona, la solución evoluciona con él, en cada etapa de crecimiento. 06Transparencia CorporativaHablamos claro, sin tecnicismos innecesarios ni promesas falsas. 07Simbiosis HumanaEl talento sigue siendo el criterio central. La automatización libera capacidad para pensar, no la reemplaza.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "8c6f66d5a3c0f733",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "a3ea3ae42729dc71",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/adn.html#proposito": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ADN-002",
+   "texto": "Propósito de marca Misión y visión (Misión) Creamos ecosistemas de Inteligencia Artificial modulares que se conectan entre sí y se ajustan a cada empresa, ya sea como solución hecha a la medida o como producto vertical listo para adoptar. Diseñamos soluciones fáciles de adoptar, acompañadas de cerca, que absorben las tareas repetitivas y devuelven tiempo real a los equipos. (Visión) Ser el aliado estratégico más cercano y confiable en la transformación operativa con inteligencia artificial de Latinoamérica. Aspiramos a demostrar que la tecnología existe para proteger el criterio humano, no reemplazarlo, construyendo un futuro donde cada empresa crezca con infraestructura inteligente, hecha a la medida de su propia cultura.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "ab6416e0e039b8aa",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "marca/adn.html#propuesta": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ADN-006",
+   "texto": "Propuesta de valor Cinco promesas concretas En Keyons no entendemos el software como un fin en sí mismo. Nuestro compromiso es ayudar a las organizaciones a trabajar con mayor claridad, eficiencia y confianza, mediante soluciones que responden a sus necesidades y evolucionan con su operación. 01Resolvemos lo que realmente importa Convertimos las necesidades de cada organización en soluciones que simplifican el trabajo, reducen fricciones y permiten concentrar tiempo y recursos en lo que aporta valor. Así, cada inversión tecnológica responde a un propósito concreto, con la profundidad de análisis que corresponde al servicio contratado. 02Damos claridad para tomar decisiones Facilitamos información comprensible sobre el alcance, los avances y las decisiones relevantes de cada proyecto o servicio. Nuestro acompañamiento se ajusta a la modalidad contratada para que el cliente conserve visibilidad sobre lo que recibe, lo que está en proceso y los cambios que requieren su participación. 03Protegemos la información desde el diseño Incorporamos la protección de datos y los controles de seguridad como parte del desarrollo de nuestras soluciones, de acuerdo con sus riesgos, características y obligaciones aplicables. Buscamos que las organizaciones trabajen con mayor confianza y conozcan las medidas que respaldan el tratamiento de su información. 04Simplificamos la coordinación Coordinamos las responsabilidades y capacidades incluidas en cada servicio para ofrecer una experiencia de trabajo clara y organizada. Así reducimos las fricciones entre etapas, facilitamos la comunicación y evitamos trasladar al cliente complejidades que podemos resolver desde nuestra propia operación. 05Diseñamos para evolucionar Construimos soluciones que pueden incorporar mejoras y nuevas capacidades conforme cambian las necesidades del negocio. Procuramos preservar lo que ya funciona y facilitar una evolución ordenada, dentro de las posibilidades técnicas y condiciones de cada producto o servicio.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "87c21f84a470af2c",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "abe19b3f1907cce9",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/cielo.html#diario": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CON-003",
+   "texto": "Diario de Cielos Cada cielo tiene lugar, fecha y autor Ningún cielo es genérico. Cada fotografía se toma en un lugar y un momento específicos, por alguien del equipo, y esa procedencia se comparte como parte de la narrativa de la marca. Nosara, Costa Rica · marzo 2026 · Keylin (Ubicación)Nosara, Guanacaste, Costa Rica (Fecha y hora)Marzo 2026 · 17:42 (Autor)Keylin (Cielo)Atardecer (Composición)Cielo 70 % · contexto 30 % (Composición)El cielo ocupa el 70 % o más. El resto es solo un ancla mínima al lugar: una montaña, el horizonte, un techo. Si la pieza no lo necesita, puede ser 100 % cielo. (Origen tico)Los cielos se fotografían en Costa Rica: San José, Guanacaste, el Chirripó, el Caribe, el volcán en su neblina. Cada rincón del país es un cielo Keyons posible. (Firma humana)Cada cielo lleva el nombre de quien lo capturó, junto al lugar y la fecha. No es una cuestión de propiedad: es recordar que detrás de cada imagen hubo una persona que se detuvo a mirar el cielo. Un gesto pequeño que le pone rostro a lo que compartimos y vuelve cercana a la marca. (Expansión con propósito)Solo entran cielos de lugares donde Keyons tiene presencia o un vínculo real. Un cielo de Tokio entra si la marca está en Japón. Nunca se publica un cielo sin procedencia documentada.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "b04a40a1a83d96d4",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "marca/cielo.html#jerarquia": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CON-002",
+   "texto": "Jerarquía de cielos Cinco cielos, tres funciones No aparecen en la misma proporción. Repetir el cielo dominante construye reconocimiento; variarlo con intención da rango expresivo. 01 · PrimarioMediodía40 a 50 % de las piezas El cielo por defecto. Aparece cuando no hay una razón narrativa para otro. Es el más reconocible en cualquier cultura y la firma cromática constante de la marca. 02 · MetodologíaAmanecerComparte 40 a 50 % con Atardecer y Noche Inicio, diagnóstico, primeras conversaciones con el cliente, momentos de descubrimiento. 03 · MetodologíaAtardecerComparte 40 a 50 % con Amanecer y Noche Transiciones, entregas de fase, evolución del cliente, momentos de reflexión. 04 · MetodologíaNocheComparte 40 a 50 % con Amanecer y Atardecer Pensamiento estratégico, arquitectura invisible de los sistemas, sobriedad institucional profunda. 05 · AspiracionalGalaxia5 a 10 % de las piezas Innovación, visión de futuro, lanzamientos importantes y piezas manifiesto. Su escasez es lo que le da fuerza. (¿Hay propósito narrativo?)No: Mediodía. Sí: el cielo que corresponde a ese propósito. (¿Hay duda entre dos?)Gana Mediodía. Nunca se fuerza un cielo solo por cambiar. (Las proporciones)Las proporciones establecidas orientan la distribución de los cinco cielos en las piezas donde corresponde utilizar este lenguaje visual. No representan cuotas obligatorias para cada campaña, documento o producto.La elección de un cielo responde primero al sentido narrativo de la pieza. Su frecuencia de uso contribuye a mantener el reconocimiento de marca sin imponer recursos expresivos en contextos que requieren mayor contención.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "9070f200476152f8",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "81ddab68f5b1fe94",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/cielo.html#simbolo": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CON-001",
+   "texto": "El concepto central Un mismo cielo, ningún horizonte igual Los retos de eficiencia, orden y escala se repiten en cualquier industria, pero ninguna empresa los enfrenta desde el mismo horizonte. Por eso cada solución se diseña a la medida de quien la habita. (Universal)El cielo es el único lenguaje visual que no necesita traducción. Cualquiera lo entiende, en cualquier idioma y cultura. Eso permite que Keyons hable con cualquier organización, en cualquier país, sin perder identidad. (Nace tico)Keyons nace en Costa Rica, así que sus primeros cielos son costarricenses: el amanecer del Valle Central, el atardecer de Guanacaste, la noche del Chirripó. Son su firma de origen. Cuando la marca llega a un nuevo país, suma los cielos de ese lugar, siempre con fotografías reales. (Excepción cósmica)La Galaxia es el único cielo que no se fotografía en un lugar: representa la evolución ilimitada hacia lo que aún no existe. El cielo es el origen conceptual y cromático de la identidad Keyons. Su presencia visual se adapta al propósito de cada pieza: puede protagonizar una composición editorial o expresiva, mientras que en las aplicaciones funcionales la identidad se sostiene mediante los recursos visuales que correspondan.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "3c805d8e095f481d",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "5c848bec82ebeeac",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/composicion.html#anti": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CON-008",
+   "texto": "Anti-referentes Lo que evitamos y qué hacemos en su lugar Saber qué no somos protege la singularidad tanto como saber qué somos. (Lo que evitamos)(En Keyons) La IA como espectáculoCircuitos, cerebros digitales, robots, wireframes azules.La vida real que la tecnología toca. El degradado violeta-cyanEl lenguaje genérico de \"empresa de IA\", sin fotografía ni personas.Cielos propios y presencia humana. La consultora tradicionalAzul marino, ejecutivos de banco de imágenes, ilustración isométrica.Calidez, textura y arraigo local. El caos indieValores fuertes expresados con desorden y gritos visuales.Valores fuertes, expresados con serenidad. La startup genéricaColores flúor, personajes exagerados, degradados saturados.Sobriedad deliberada. Lo hecho sin autorImágenes sin dirección artística, composiciones intercambiables y recursos generados automáticamente sin una intención reconocible.Conceptos visuales propios, decisiones compositivas justificadas y un proceso creativo con criterio y responsabilidad humana. La presencia de textura, imperfecciones o efectos materiales no determina por sí sola la originalidad ni la calidad de una imagen.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "2b6caa85316e4088",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "75fef2e9158a2914",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/composicion.html#contraste": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CON-007",
+   "texto": "Regla del contraste Familiar y disruptivo a la vez Cada pieza combina dos fuerzas. El peso de cada una depende de lo que la pieza necesita comunicar. (Lo familiar)Un escenario cotidiano donde el cliente se reconoce y se siente seguro. Es lo que abre la puerta. (Lo disruptivo)Un elemento inesperado que muestra que ya no hay límites, siempre con sobriedad. Es lo que deja la huella. No busca escandalizar: busca revelar.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "72007ff7f26a7f8f",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "marca/composicion.html#herencia": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CON-009",
+   "texto": "Herencia estética Dos herencias que explican el porqué Keyons no imita movimientos artísticos: aprende de ellos. No dictan cómo se ve una pieza, sino por qué se ve así. (Del Impresionismo, la mirada)Encontrar en el instante cotidiano algo más grande. No mostramos la tecnología con imágenes de tecnología, sino con la vida real que toca: un cielo, una mano, una comida, una espera. (Del Art Déco, la respuesta)Afirmar que la belleza, la precisión geométrica y la calidez humana pueden convivir con la máquina. Ante la saturación de la IA, respondemos con afirmación, no con rechazo. Una afirmación serena en un momento ruidoso.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "deefd7ff424246ae",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "marca/composicion.html#reglas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CON-006",
+   "texto": "Reglas de composición Cuatro reglas sin excepción Estas reglas establecen la dirección artística de las piezas de comunicación de marca, especialmente cuando se utilizan fotografía, ilustración y recursos narrativos. Su aplicación debe responder al propósito y al soporte. Los documentos operativos, las interfaces funcionales y los productos personalizados conservan los principios de claridad, calidad y criterio de Keyons, sin requerir todos los recursos expresivos propios de la comunicación corporativa. 01Presencia humanaSiempre hay un elemento real, preferentemente humano: una mano, un rostro, una planta, la veta de la madera. Su presencia es constante; su protagonismo depende del mensaje. 02Base humana, elevación con IATodo empieza en algo hecho por una persona: una foto, un trazo, un material. La IA lo amplía, lo anima o lo extiende; nunca lo inventa desde cero. 03Cielo propioFotografía del equipo o el degradado oficial de Keyons. Nunca imágenes de banco genéricas: Keyons prioriza imágenes con procedencia, dirección artística y una relación auténtica con su narrativa. 04Singularidad verificableAntes de publicar, la pieza se compara con lo que no somos. Si podría ser de otra marca, vuelve a diseño. El humano crea, la IA impulsa. Nunca al revés.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d607c89b1844dd36",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "cffc5706586f3157",
+     "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "ee3a59c38c10a5c5",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/metaforas.html#canal": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CON-005",
+   "texto": "Formalidad según canal El canal define la libertad Antes de producir, el equipo se pregunta dónde vivirá la pieza y en qué modo mental la encontrará el receptor. Los canales van de más libertad a más contención. Instagram, TikTok y Facebook(Receptor)Explorando, dispuesto a sorprenderse.(Metáforas)Audaces, con humor de criterio y guiños locales. LinkedIn(Receptor)Evaluando aliados de negocio.(Metáforas)Menos audacia, más profundidad conceptual. Sitio web(Receptor)Buscando información concreta.(Metáforas)Solo en secciones clave, nunca en la navegación. Comunicación formal(Receptor)Decidiendo si contratar.(Metáforas)Digeribles y directas: se entienden al primer vistazo. Google Business(Receptor)Verificando datos.(Metáforas)Ninguna. Presencia sólida y honesta. El canal no es el único criterio: también importa lo que la persona necesita comprender o hacer al recibir la pieza. El principio general está en KYN-MRK-DIS-004, Intensidad según contexto. Si el mensaje se entiende mejor sin metáfora, se comunica sin metáfora.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "4869e667ac6d93bb",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "2ed06426bc7d06e0",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/metaforas.html#condiciones": {
+   "estado": "vigente",
+   "id": "KYN-MRK-CON-004",
+   "texto": "Sistema de metáforas Cinco condiciones Una sola metáfora no alcanza para expresar todo lo que es Keyons. Una metáfora es Keyons cuando cumple las cinco. 01 Anclaje realNace de un elemento cotidiano e hiperreconocible. (Criterio)Se conecta en menos de 2 segundos, sin requerir explicación. 02 Composición en capasElementos ordenados para un descubrimiento progresivo. (Criterio)Revela un significado nuevo al observarla por segunda vez. 03 Propósito directoLa creatividad responde estrictamente al objetivo del mensaje. (Criterio)El objetivo (entender, sentir, actuar) se sintetiza en una sola línea. 04 Presencia humanaLa autoría humana se reconoce en el origen de la idea, la elección de los recursos y el criterio con que se construye la composición. (Criterio)Puede manifestarse mediante fotografía, ilustración, materiales, trazos o decisiones de dirección artística. No requiere introducir imperfecciones artificiales ni efectos de desgaste.Una composición precisa y limpia también puede expresar una sensibilidad profundamente humana. 05 Integración atmosféricaEl cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz o como reflejo. (Criterio)Nace desde el boceto inicial, nunca como un filtro o adhesivo final.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "18fb52a123abf2eb",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "2987c311446d423f",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/principios.html#calidad": {
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "1c7e98a3feed1720",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "marca/principios.html#calma": {
+   "estado": "vigente",
+   "id": "KYN-MRK-DIS-003",
+   "texto": "Calma y expresión Diseño: calma y expresión El lenguaje visual de Keyons utiliza claridad, tipografía, retículas y espacio negativo para generar calma; fotografía, color, textura y movimiento para generar carácter. (Minimalismo estructural)Organiza la información mediante tipografía, retículas, jerarquías claras y espacio negativo. Su propósito es facilitar la lectura, orientar la atención y generar una experiencia visual equilibrada.El minimalismo no significa ausencia de personalidad. La precisión compositiva y el uso deliberado del espacio también construyen identidad. (Maximalismo gráfico)Aporta carácter mediante fotografía, ilustración, color, textura, tramas y movimiento.Su aplicación es selectiva y responde al contenido. Un recurso expresivo puede convertirse en protagonista sin que el resto de la composición deba alcanzar la misma intensidad.El maximalismo no consiste en acumular elementos visuales, sino en utilizarlos con intención y criterio. Ambos enfoques se complementan: la estructura aporta claridad y la expresión construye carácter. Su equilibrio debe responder al contexto, sin competir con la información ni comprometer la experiencia del usuario. Esta combinación define la dirección estética de Keyons. No constituye una obligación visual para los productos que adoptan la identidad de otra marca.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "21d1b520370dc0bc",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "3ef95ede10335b03",
+     "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "e84d59bcc1049d25",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/principios.html#capas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-DIS-002",
+   "texto": "Roles definidos Identidad, experiencia y sistema: roles definidos La estética Keyons es una identidad. La experiencia Keyons es una metodología. El sistema de diseño es la infraestructura que permite aplicar ambas sin confundirlas. (Productos para clientes)Los productos desarrollados para clientes pueden tener identidades visuales diferentes sin perder los estándares de calidad, claridad, accesibilidad y experiencia que caracterizan el trabajo de Keyons. (Productos con estética predeterminada)Los productos SaaS y las soluciones personalizadas que no requieren una identidad visual propia pueden utilizar una estética predeterminada desarrollada por Keyons.Esta expresión mantiene los estándares de experiencia compartidos y ofrece una identidad visual profesional, consistente y adaptable dentro de los límites establecidos para cada producto. (Marca exclusiva del cliente)Cuando una solución adopta la identidad exclusiva del cliente, debe respetar sus criterios visuales y las condiciones de personalización acordadas.Los proyectos contratados sin firma visible de Keyons no deben incorporar logotipos, marcas de agua ni otros elementos destinados a revelar la identidad del proveedor.La ausencia de marca visible no modifica los compromisos de claridad, accesibilidad, seguridad y calidad de experiencia.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "649479a905ab9fab",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "ce51268151f385f2",
+     "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "9c0e4eb639305d69",
+     "nota": "commit 6e7edde"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "967062cd821a2b0d",
+     "nota": "commit 2294087"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "9c11389c9ed9df2e",
+     "nota": "commit 9bcaf2d"
+    }
+   ]
+  },
+  "marca/principios.html#comprension": {
+   "estado": "vigente",
+   "id": "KYN-MRK-DIS-005",
+   "texto": "Claridad primero Claridad antes que complejidad Una buena experiencia permite comprender dónde se está, qué se puede hacer, qué está ocurriendo y cómo continuar. Una experiencia clara 01Dónde se está 02Qué se puede hacer 03Qué está ocurriendo 04Cómo continuar (La complejidad)Keyons debe resolver la complejidad durante el proceso de diseño, en lugar de trasladarla innecesariamente al usuario. (Para todas las personas)Las soluciones deben ser comprensibles incluso para personas con baja familiaridad tecnológica. (Claridad ante las dificultades)Una experiencia clara también debe orientar cuando algo no sucede como se esperaba.Los mensajes y estados de la interfaz deben ayudar a comprender qué ocurrió, qué información necesita la persona y cuáles son las alternativas disponibles para resolver la situación o continuar.La especificación de los componentes, mensajes y mecanismos de recuperación corresponde a las normas funcionales del sistema de diseño. Orientación|Dónde se está Posibilidades|Qué se puede hacer Estado|Qué está ocurriendo Continuidad|Cómo continuar",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "e518d0d42e1fbce4",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "fc062463bd31cb2a",
+     "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "21a5d253ce423ac6",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/principios.html#contexto": {
+   "estado": "vigente",
+   "id": "KYN-MRK-DIS-004",
+   "texto": "Según contexto Intensidad según contexto La intensidad gráfica se ajusta al contenido, al público y a la función que cumple. (Una portada editorial)Puede utilizar grandes fotografías, composiciones experimentales y movimiento atmosférico. (Una herramienta operativa)Utilizada repetidamente durante el día, debe priorizar legibilidad, navegación sencilla, claridad y estabilidad visual. (Dentro de una misma experiencia)La intensidad visual también puede variar entre las pantallas de un mismo producto.Una bienvenida, una presentación de resultados o una sección explicativa pueden admitir mayor expresión gráfica. Los formularios, las tablas y las operaciones frecuentes requieren una composición más contenida, donde la información y las acciones sean protagonistas.El nivel de expresión debe responder a lo que la persona necesita comprender o realizar en cada momento. La creatividad nunca debe obstaculizar una decisión funcional.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "f71c4e34d7b5a358",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "49b438c4d40fcf02",
+     "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "4eda6e9a4fada5ed",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/principios.html#criterio": {
+   "estado": "vigente",
+   "id": "KYN-MRK-DIS-001",
+   "texto": "Identidad y criterio Diseñar con identidad, construir con criterio Keyons debe diferenciarse por diseñar experiencias reconocibles, inteligibles y cuidadosamente resueltas, utilizando la libertad gráfica donde aporta valor y la disciplina funcional donde el usuario necesita certeza. (La originalidad)La originalidad no consiste en romper convenciones automáticamente. Consiste en comprender profundamente el contenido, el problema y las personas para encontrar una solución propia y significativa.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "30a47b8ad8d572e2",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "7811a66e85574726",
+     "nota": "commit 8747573"
+    }
+   ]
+  },
+  "marca/trato.html#persona": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VOZ-006",
+   "texto": "Primera o tercera persona Una voz coherente, en primera o tercera persona Keyons puede comunicarse en tercera persona cuando necesita presentar formalmente su identidad, sus capacidades o su posición institucional. La primera persona plural expresa compromisos, decisiones y acciones asumidas por la empresa: favorece una comunicación más directa sin perder profesionalismo. La elección depende del propósito de la pieza y de la relación con el lector. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente a primera persona después del primer párrafo. Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones. (Tercera persona)Keyons se presenta como entidad. Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trabajar con mayor claridad. (Primera persona plural)La empresa habla directamente con su público. (Tercera persona · dónde)Es apropiada para presentaciones institucionales, biografías corporativas, descripciones de empresa, comunicados y textos donde Keyons se presenta como entidad.Hero de web · apertura de propuesta · bio corporativa · comunicados de prensa · meta descripciones · títulos de sección. (Primera persona · dónde)Es apropiada para propuestas de valor, compromisos, mensajes de servicio, explicaciones de procesos y comunicaciones donde la empresa habla directamente con su público.Cuerpo de propuestas · secciones secundarias de web · redes sociales · blog · soporte · capacitaciones. (Consistencia de la pieza)Los bloques que pertenecen a una misma categoría comunicativa deben mantener una construcción gramatical coherente.Por ejemplo, una serie de cinco promesas puede utilizar cinco verbos en primera persona plural. No debe cambiar arbitrariamente entre «diseñamos», «ofrecer», «el cliente recibe» y «Keyons construye».Los cambios de persona se permiten cuando existe una transición editorial clara y cumplen una función comunicativa.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d51149d0bffe84e4",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "2cb90c742392d571",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/trato.html#traduccion": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VOZ-007",
+   "texto": "De lo técnico a lo humano Lo que hace, no cómo se llama Explicamos la tecnología desde su función, sus efectos y su utilidad para las personas. Los términos técnicos se utilizan cuando aportan precisión o son necesarios para comprender el tema. Cuando el lector no necesita conocerlos, priorizamos una explicación directa. Una traducción sencilla nunca debe alterar el significado técnico, omitir una limitación importante ni prometer capacidades que el sistema no tiene. 01Explicar qué hacePresentamos primero la función o el resultado que el lector necesita comprender. 02Utilizar analogías que aclarenLas analogías ayudan a comprender conceptos complejos, pero no deben presentar equivalencias inexactas. Cuando una comparación tiene límites importantes, se explican. 03Conservar los términos necesariosCuando una denominación técnica, legal o comercial es relevante, la utilizamos y explicamos su significado en el contexto correspondiente. No es necesario repetir la definición cada vez que aparece el término si el lector ya dispone del contexto. 04Priorizar acciones comprensiblesPreferimos verbos y descripciones concretas antes que acumular siglas. Las siglas permanecen cuando son necesarias para identificar una tecnología, una norma o una especificación. Así lo decimos Los términos se agrupan por temática para encontrarlos rápido. Los principios son los mismos; el matiz cambia según el dominio. 01Inteligencia artificial02Operaciones y procesos03Datos y gobernanza04Software y arquitectura05Legal y cumplimiento (Cómo se traduce)Desacralizando la tecnología: se explica qué hace la IA, sin misterio ni promesas. (RAG)Técnica que permite a la IA buscar información en fuentes disponibles y utilizarla como contexto para elaborar una respuesta. (Fine-tuning)Ajuste adicional de un modelo de IA mediante ejemplos de entrenamiento para mejorar su desempeño en determinadas tareas. (Agentes autónomos)Sistemas de IA que pueden realizar tareas y utilizar herramientas dentro de permisos y límites definidos. Algunas acciones pueden requerir autorización humana. (LLM)La IA que entiende y escribe texto. (Prompt engineering)Diseño de instrucciones para la IA. (Vector database)Base de datos que almacena representaciones numéricas de información y permite recuperarla mediante búsquedas por similitud. (Hallucination)Respuesta de IA que presenta información incorrecta, inventada o sin respaldo suficiente como si fuera un hecho. (Guardrails)Reglas que delimitan qué puede hacer la IA. (Context window)Cantidad de información que un modelo puede considerar dentro de una interacción, según sus límites técnicos. (Cómo se traduce)Priorizando la acción: qué se hace y qué cambia en el día a día del equipo. (RCA · Root Cause Analysis)Análisis de la causa raíz del problema. (Cuellos de botella)Puntos donde la operación se traba. (SOP · Standard Operating Procedure)Guía escrita de cómo se hace una tarea. (KPI)Indicador que mide si algo está funcionando. (Workflow)La secuencia de pasos de un proceso. (Automatización)Tareas que el sistema hace sin intervención humana. (Lean)Eliminar lo que no aporta valor en un proceso. (Mapeo de procesos)Dibujar cómo funciona realmente un proceso hoy. (Blueprint)Plano detallado de cómo se construirá la solución. (Lead time)Tiempo que toma una tarea de principio a fin. (Cómo se traduce)Haciendo visible el cuidado: dónde está la información y quién la protege. (ETL · Pipeline de datos)Proceso para extraer datos de una fuente, transformarlos y cargarlos en otro sistema. (Data warehouse)Lugar centralizado donde se guardan los datos de la empresa. (Data lake)Repositorio donde los datos se guardan tal como llegan. (Encriptación)Utilizar preferentemente el término «cifrado» en español. Es el proceso de transformar información para impedir su lectura sin los medios autorizados para recuperarla. (Anonimización)Tratamiento de datos destinado a impedir la identificación de personas. Para considerarse efectiva, debe evaluarse el riesgo de reidentificación. (Compliance)Cumplimiento de las normativas aplicables. (Observabilidad)Monitoreo de cómo se comporta el sistema. (Data lineage)El rastro de dónde viene cada dato y por dónde pasó. (Data governance)Reglas de quién puede ver, usar y modificar los datos. (Backup)Copia de seguridad de la información. (Cómo se traduce)Desde lo que vive el usuario, no desde cómo está construido el sistema. (API)La forma en que dos sistemas se comunican entre sí. (Deployment)Instalación en el entorno real de su empresa. (Integración)Conexión entre dos sistemas que antes no se hablaban. (Backend)La parte del sistema que opera por detrás, invisible al usuario. (Frontend)La parte del sistema que el usuario ve y usa. (Infraestructura cloud)Servidores en la nube que sostienen la operación. (Escalabilidad)Capacidad del sistema de crecer sin romperse. (MVP)Versión mínima que ya resuelve el problema central. (SaaS)Software que se usa a través de internet, por suscripción. (Sandbox)Entorno de prueba separado del sistema real. (Cómo se traduce)Con cuidado: cada término tiene implicancia regulatoria. La traducción aclara, nunca reemplaza el nombre oficial. (Ley 8968)Ley costarricense de protección de datos personales. (GDPR)Regulación europea de protección de datos personales. (PRODHAB)Autoridad costarricense que vigila el uso de datos personales. (NDA)Acuerdo de confidencialidad firmado entre dos partes. (Consentimiento informado)Autorización explícita del usuario tras entender qué pasará con sus datos. (Due diligence)Revisión detallada antes de tomar una decisión importante. (Auditoría)Revisión independiente del cumplimiento. (Términos y condiciones)Reglas que gobiernan el uso de un servicio. (Política de privacidad)Documento que explica qué se hace con los datos del usuario. (SLA)Acuerdo escrito sobre los niveles de servicio garantizados. Relación con la comunicación de productos (Consumo de IA)La comunicación comercial de consumo de IA debe expresar unidades comprensibles para el cliente. Cuando corresponda, se utilizarán créditos de IA o unidades vinculadas a tareas del negocio, conforme a las reglas del Manual de Producto. (Términos internos)No se deben introducir términos internos de ingeniería en interfaces comerciales cuando no aportan valor al usuario. (Sistema de Diseño)Las especificaciones de mensajes, etiquetas, errores, confirmaciones y componentes conversacionales se desarrollarán en el Sistema de Diseño, sin duplicar estas reglas generales de voz. Cada término nuevo se traduce con estos cuatro principios y entra en su temática.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "183aeaa7b832e463",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "d5129f3a6aadd1ba",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/trato.html#usted": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VOZ-005",
+   "texto": "El trato Keyons usa usted En todo contexto escrito de marca, en toda geografía y en los dos modos. No es formalidad acartonada: es respeto natural. Mercados en inglés Latinoamérica Costa Rica (Costa Rica)El usted culto convive con el voseo cotidiano. Se percibe respetuoso, no distante: cálido sin suponer confianza previa. (Latinoamérica)El voseo marcaría a Keyons como marca local pequeña. El usted es universal y la sostiene como aliado regional. (Mercados en inglés)El «you» neutraliza el pronombre y conserva el tono profesional. (Excepción · Estela)Estela tendrá una personalidad y unas reglas de trato propias, documentadas en su capítulo.Su forma de dirigirse a las personas deberá mantener coherencia con esa personalidad, con el contexto de uso y con las preferencias o condiciones del producto.Hasta que se apruebe su identidad conversacional, no se establece el tuteo ni el voseo como tratamiento predeterminado. (Excepción · Campañas culturales costarricenses)Fiestas patrias, humor local y celebraciones internas. Se aprueban campaña por campaña; no son regla general. (Productos bajo marcas de clientes)Cuando una solución utiliza la identidad exclusiva de un cliente, el tratamiento verbal debe responder a las reglas de esa marca.Los principios de claridad, respeto y comprensión se mantienen, aunque cambien el pronombre, el nivel de formalidad o el vocabulario. (Aplicación en inglés)El tono profesional y cercano debe trasladarse de manera natural al inglés, respetando las convenciones del idioma. No se deben reproducir literalmente las construcciones del español cuando produzcan expresiones poco naturales.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "601d00e56550c297",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "6c879c229a9b6119",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/vocabulario.html#evita": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VOZ-004",
+   "texto": "Vocabulario que evitamos Las palabras gastadas Evitamos expresiones que suenan importantes sin comunicar información concreta. Algunas se han utilizado tanto en la comunicación empresarial que han perdido precisión. Otras pueden generar expectativas difíciles de comprobar. No están prohibidas por su forma: se evitan cuando sustituyen una explicación clara o una afirmación verificable. Transformación digitalNombrar qué cambia: una operación, una forma de trabajar, un flujo. Disruptivo, disrupciónMostrar qué se rompe y qué lo reemplaza. Soluciones integralesExplicar qué servicios, capacidades o etapas están realmente incluidos y cómo se relacionan entre sí. Soluciones a medidaIndicar qué puede adaptarse, con qué profundidad y dentro de cuáles condiciones. En productos SaaS, diferenciar las opciones de configuración de los desarrollos personalizados. RevolucionarCambiar, rediseñar, replantear. SinergiaTrabajo conjunto, integración concreta. End-to-endDe principio a fin, en todo el ciclo. Potencial ilimitadoNombrar la capacidad concreta que se amplifica. ROI garantizadoPresentar beneficios previstos, resultados medidos y condiciones que permiten evaluarlos. Las proyecciones se identifican como estimaciones, no como garantías. Game-changer, vanguardiaDescribir qué cambia en términos concretos. Líderes en, expertos enDejar que el trabajo hable: casos y resultados. 360°Nombrar las dimensiones reales que se cubren. Más que una consultoraAfirmar qué es Keyons con sus propias palabras. Partners estratégicosAliados, acompañantes, colaboradores. (Criterio final)Una expresión puede utilizarse cuando tiene un significado técnico, comercial o contractual preciso.La regla no consiste en evitar palabras conocidas, sino en impedir que sustituyan información relevante. Describir la idea es más largo, pero más distintivo y más honesto.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "c25bdd8fa7d98f4d",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "aafa74f5f71c1ebd",
+     "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "33f2abb54a4ceded",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/vocabulario.html#propio": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VOZ-003",
+   "texto": "Vocabulario propio Las palabras que usamos Las palabras que utilizamos con frecuencia ayudan a construir una identidad verbal reconocible. Su valor está en la precisión con que describen nuestro trabajo, no en repetirlas por obligación. El vocabulario debe adaptarse al contenido y al lector. Cuando una palabra más sencilla permita explicar mejor una idea, debe preferirse sin perder precisión. 01Arquitectura operativa 02Diagnóstico 03Acompañamiento 04Ritmo 05Criterio 06Oficio 07Rigor 08Operación 09Infraestructura 10Firma (01 / 10) Arquitectura operativa La forma en que una empresa opera. Más precisa que «procesos», menos fría que «sistemas». Anterior Siguiente La forma en que una empresa opera. Más precisa que «procesos», menos fría que «sistemas». Arquitectura operativa Lo que ocurre antes de proponer. Ancla la metodología frente a quienes venden sin entender. Diagnóstico La orientación y participación de Keyons durante las etapas contempladas en cada servicio. Su alcance depende de la modalidad contratada; no sustituye los términos específicos de soporte, capacitación o asesoría cuando corresponden. Acompañamiento Los tiempos reales de cada organización: nos adaptamos al cliente. Ritmo La capacidad humana de juzgar y decidir. Lo que Keyons protege por encima de la automatización. Criterio El trabajo bien hecho, con autoría. Lejos de lo producido en serie. Oficio Precisión seria: profesionalismo sin acartonar. Rigor El día a día real del cliente. Más humano que «negocio» o «empresa». Operación El conjunto de elementos tecnológicos y operativos que sostienen una solución. Se utiliza cuando describe esa estructura; no reemplaza automáticamente términos como producto, plataforma, aplicación o servicio. Infraestructura La autoría y el criterio profesional que respaldan un trabajo. Puede manifestarse mediante identidad visible cuando corresponde, pero también mediante la calidad de ejecución. En productos sin firma del proveedor, no debe convertirse en una señal destinada a revelar la participación de Keyons. Firma",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "69735ecb389005ec",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "56e4bfb06fadc2f3",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/voz.html#modos": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VOZ-001",
+   "texto": "Esencia de la voz Dos modos, una misma voz Keyons habla en modo corporativo y en modo expresivo. Comparten criterio, vocabulario y reglas de escritura: cambia la energía, no el ADN. (Modo corporativo)Cuando el contexto exige respeto institucional: reuniones con clientes, propuestas, contratos, comunicados oficiales, web institucional y documentos legales. Pocas palabras, cada una con peso. La emoción se expresa en elegancia, no en entusiasmo. (Modo expresivo)Cuando el contexto permite calidez abierta: redes sociales, campañas, blog, contenido educativo, capacitaciones y posts culturales. El mismo rigor, con más aire: humor discreto e ingenioso, entusiasmo contenido y metáfora viva. Cuando hay duda sobre qué modo aplicar, gana lo humano bajo las reglas de lo corporativo. La voz según su aplicación (Canales de Keyons)Los modos corporativo y expresivo definen cómo se comunica Keyons en sus propios canales. Ambos comparten claridad, precisión y respeto por el lector; lo que cambia es el grado de cercanía y libertad narrativa que permite cada contexto. (Interfaces de Keyons)En las interfaces digitales de Keyons, estos principios orientan la comunicación, mientras que las reglas específicas de mensajes, instrucciones, estados y errores se desarrollan en el Sistema de Diseño. (Marcas de clientes)Los productos que adoptan la identidad exclusiva de un cliente utilizan la voz y el tono definidos para esa marca, sin perder los estándares compartidos de comprensión y calidad de experiencia. (Estela)La personalidad y el tratamiento conversacional de Estela se documentan en su capítulo correspondiente.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "d83029257187c897",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "6778a29a67c54f74",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "marca/voz.html#reglas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VOZ-002",
+   "texto": "Reglas de escritura Cuatro principios para escribir con claridad Cada principio ayuda a construir mensajes precisos, naturales y fáciles de comprender. Los ejemplos muestran cómo mejorar una redacción sin convertir sus estructuras en fórmulas obligatorias. 01Afirmar antes que negarPriorizamos las formulaciones que explican qué hacemos, qué proponemos y qué puede esperar el lector.La negación se utiliza cuando es necesaria para comunicar una prohibición, un límite, una advertencia o una condición importante. En estos casos, la claridad prevalece sobre la preferencia por las frases afirmativas. (Antes)No somos una consultora tradicional.(En Keyons)Keyons diseña la IA alrededor de cómo ya trabaja su equipo. 02Una idea principal por fraseCada oración debe tener una intención reconocible. Cuando una frase acumula ideas independientes y dificulta la lectura, conviene dividirla o reorganizarla.La extensión no es un problema por sí misma. Una oración puede desarrollar relaciones complejas cuando su estructura permite comprenderlas con facilidad. (Antes)Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnología a la medida.(En Keyons)Automatizamos lo repetitivo. Su equipo recupera tiempo para pensar. 03Lo concreto antes que lo abstractoPreferimos explicar hechos, acciones, beneficios y situaciones reconocibles antes que utilizar conceptos amplios sin contexto.Los conceptos abstractos están permitidos cuando aportan significado, pero deben acompañarse de una explicación que permita comprender su aplicación. (Antes)Libertad y propósito.(En Keyons)Libertad para pensar en el negocio. 04Verbos precisos antes que adjetivos genéricosElegimos verbos que expliquen qué ocurre o qué hacemos, en lugar de apoyarnos en adjetivos que podrían describir a cualquier empresa.Los adjetivos deben aportar información, precisión o carácter. Evitamos acumularlos cuando no modifican sustancialmente el mensaje. (Antes)Creamos soluciones innovadoras.(En Keyons)Diseñamos a partir de su operación. Criterio de consistencia (Dentro de una pieza)Dentro de una misma pieza, los mensajes relacionados deben conservar su sentido, terminología y construcción gramatical. (En las series)Las series de promesas, beneficios, instrucciones o características deben seguir una estructura coherente. La variedad editorial puede enriquecer la lectura, pero no debe generar cambios arbitrarios de voz ni confusión. (La repetición)La repetición de información se justifica cuando permite confirmar un dato importante, reforzar una decisión o comprender un contexto nuevo. En los demás casos, debe evitarse. Antes de aprobar un texto, comprobamos que informa con claridad, suena natural al leerlo y comunica algo concreto. Si depende de palabras grandilocuentes para parecer importante, necesita una nueva redacción.",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "b20ee5d4796df601",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "26234aafe0bea478",
+     "nota": "commit 2294087"
+    }
+   ]
+  },
+  "recursos/galeria.html#galeria": {
+   "estado": "vigente",
+   "id": "KYN-MRK-GAL-001",
+   "texto": "Galería Todas las imágenes de Keyons Degradados hechos desde cero, cielos, naturaleza, personas y stock propio. Cada imagen tiene un ID y una ficha con su autor, lugar, año, tipo y uso. Son imágenes hechas de píxeles: para piezas que crecen sin límite, use los cielos hechos con código del capítulo 26. Todas Todas las imágenesTipo de imagenDegradado KeyonsCielo realNaturalezaPersonasStock propioCieloAmanecerMediodíaAtardecerNocheGalaxiaUsoUso librePortadaRedesFondo con textoOrientaciónVerticalHorizontalCuadrada 22 imágenes Galería01/ 22 001KY-001 · Degradado Keyons · AmanecerEquipo Keyons · Estudio Keyons · 2026Degradado · Uso libre · Vertical002KY-002 · Degradado Keyons · MediodíaEquipo Keyons · Estudio Keyons · 2026Degradado · Portada · Vertical003KY-003 · Degradado Keyons · AtardecerEquipo Keyons · Estudio Keyons · 2026Degradado · Redes · Vertical004KY-004 · Degradado Keyons · NocheEquipo Keyons · Estudio Keyons · 2026Degradado · Fondo con texto · Vertical005KY-005 · Degradado Keyons · GalaxiaEquipo Keyons · Estudio Keyons · 2026Degradado · Portada · Vertical006KY-006 · Degradado Keyons · MediodíaEquipo Keyons · Estudio Keyons · 2026Degradado · Fondo con texto · Horizontal007KY-007 · Degradado Keyons · AtardecerEquipo Keyons · Estudio Keyons · 2026Degradado · Uso libre · Horizontal008KY-008 · Degradado Keyons · NocheEquipo Keyons · Estudio Keyons · 2026Degradado · Redes · Horizontal009KY-009 · Degradado Keyons · AmanecerEquipo Keyons · Estudio Keyons · 2026Degradado · Portada · Vertical010KY-010 · Degradado Keyons · AtardecerEquipo Keyons · Estudio Keyons · 2026Degradado · Fondo con texto · Vertical011KY-011 · Degradado Keyons · GalaxiaEquipo Keyons · Estudio Keyons · 2026Degradado · Redes · Cuadrada012KY-012 · Degradado Keyons · NocheEquipo Keyons · Estudio Keyons · 2026Degradado · Uso libre · Vertical013KY-013 · Degradado Keyons · GalaxiaEquipo Keyons · Estudio Keyons · 2026Degradado · Uso libre · Cuadrada014KY-014 · Cielo real · MediodíaNombre Apellido · Escazú · 2026Nubes altas · Uso libre · HorizontalAquí va la fotografía015KY-015 · Cielo real · AtardecerPor asignar · Santa Ana · 2026Cielo de verano · Portada · HorizontalAquí va la fotografía016KY-016 · Cielo real · NochePor asignar · Guanacaste · 2026Cielo despejado · Fondo con texto · CuadradaAquí va la fotografía017KY-017 · Naturaleza · MediodíaPor asignar · Cartago · 2026Montaña · Uso libre · HorizontalAquí va la fotografía018KY-018 · Naturaleza · AmanecerPor asignar · Monteverde · 2026Bosque nuboso · Redes · VerticalAquí va la fotografía019KY-019 · PersonasPor asignar · San José · 2026Retrato · Portada · VerticalAquí va la fotografía020KY-020 · PersonasPor asignar · Heredia · 2026Equipo en sesión · Redes · CuadradaAquí va la fotografía021KY-021 · Stock propioPor asignar · Estudio Keyons · 2026Escena de trabajo · Fondo con texto · HorizontalAquí va la fotografía022KY-022 · Stock propioPor asignar · Estudio Keyons · 2026Manos y pantalla · Uso libre · Vertical Aquí va la fotografía (Tratamiento de marca) OriginalVentanaVelo para texto (Descargar) OriginalPost 1:1Historia 9:16Portada 16:9 Copiar crédito",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "3ef624ec8f94b548",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "380e486620d655ff",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "484ccb687c003bd5",
+     "nota": "commit 9bcaf2d"
+    }
+   ]
+  },
+  "recursos/iconos.html#catalogo": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ICN-001",
+   "texto": "Catálogo Elija, copie y descargue Solo los íconos que cumplen la retícula, ordenados por uso. Un clic copia el SVG en el color elegido. Las reglas están en el capítulo 13. Ajustado a la retícula · pendiente de revisión Noche Cielo Blanco SVGPNGJPG TodasCategoríaTodas las categoríasNavegaciónAccionesEstados y progresoComunicaciónPersonasArchivosEdición y formasDatosObjetos y conceptos109 íconos Navegación21flecha-derechaflecha-izquierdaflecha-arribaflecha-abajoflecha-diagonalflecha-derecha-largachevron-derechaflecha-girodeshacerflecha-derecha-solidoflecha-izquierda-solidoflecha-arriba-solidoflecha-abajo-solidoflecha-abajo-izquierda-solidoflecha-abajo-derecha-solidoinicionavegarentrarsalirabrir-externocontraerAcciones16masmas-solidomenosmenos-solidocheckcheck-solidocerrarcerrar-solidomas-opcionesbuscarajustesdescargarnube-descargaduplicarmarcadorenviarEstados y progreso14informacionayudaadvertenciaverificadocirculocirculo-solidosectorprogreso-25mitadprogreso-50alarmaalarma-agregaralarma-quitaralarma-checkComunicación12correoarrobachatchat-textochat-agregarchat-checkchat-alertachat-cerrarchat-notificacioncitamicrofonomicrofono-apagadoPersonas5perfilusuario-agregarusuario-quitarusuario-entradausuario-salidaArchivos17carpetacarpeta-agregarcarpeta-checkcarpeta-buscarcarpeta-descargacarpeta-bloqueadaportapapelesportapapeles-checkportapapeles-descargadocumentodocumento-textodocumento-agregardocumento-checkdocumento-buscardocumento-descargadocumento-favoritoclipEdición y formas6formasseleccioncapascapas-agregarlistalista-cuadrosDatos6tendenciaporcentajeigualdiferentedividirdividir-solidoObjetos y conceptos12favorito-circuloestrellafuegoasteriscobrujulaglobonubecalendariocamaramoviledificiocono",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "27da286659c8a3d7",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "208f2a71cb80fdd3",
+     "nota": "commit c344d67"
+    }
+   ]
+  },
+  "recursos/plantillas.html#documentos": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PLA-002",
+   "texto": "Documentos Manuales y documentos Los manuales que acompañan a este. Cada uno se enlaza aquí cuando esté publicado. 01Manual de vozCómo escribe Keyons, en un documento para compartir.DocumentoPor enlazar02Manual de productoInterfaz, componentes y modo digital.DocumentoPor enlazar",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "16fb1902d53e855e",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "recursos/plantillas.html#plantillas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-PLA-001",
+   "texto": "Plantillas Plantillas de presentación Cuatro salas, una marca. Las reglas para armarlas están en el capítulo 21. 01CapacitaciónPlantilla de presentación de 19 diapositivas.Cliente · corporativo 16:9 · .pptxDescargar02Propuesta a clientePlantilla de presentación de 19 diapositivas.Cliente · corporativo 16:9 · .pptxDescargar03Revisión internaPlantilla de presentación de 19 diapositivas.Equipo · corporativo 16:9 · .pptxDescargar04Taller librePlantilla de presentación de 19 diapositivas.Grupos · expresivo 16:9 · .pptxDescargar",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "35c50782d14fa8b6",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "b2318387c4494613",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "d8da3dbb5a90dbc0",
+     "nota": "commit 9bcaf2d"
+    }
+   ]
+  },
+  "recursos/referencia.html#indice": {
+   "estado": "vigente",
+   "id": "KYN-MRK-REF-002",
+   "texto": "Índice Todas las normas, por ID Cada ID lleva a su sección. Las normas descontinuadas conservan su número y se muestran al final. Por númeroAlfabético",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "62be855223814b0c",
+     "nota": "commit c3e33d7"
+    }
+   ]
+  },
+  "recursos/referencia.html#nomenclatura": {
+   "estado": "vigente",
+   "id": "KYN-MRK-REF-001",
+   "texto": "Nomenclatura Un código por regla Toda directriz de este manual se identifica con la clave KYN-MRK-XXX-###. El código no cambia aunque cambie la numeración de las secciones: es la forma oficial de citar una regla. KYN-MRK-COL-001 (KYN · Empresa)Siglas fijas de Keyons. (MRK · Manual)Declara al Manual de Marca como dueño de la norma. Producto usa PRD y Comercial, COM. (COL · Capítulo)Tres o cuatro letras en mayúsculas con el tema del capítulo. (001 · Número)Correlativo de tres dígitos dentro del capítulo, en orden de emisión. Cinco reglas innegociables 01Inmutabilidad de los IDUn identificador emitido nunca se renombra, se elimina ni se reutiliza. Si una regla se descontinúa o cambia, se marca como [DESCONTINUADA] y su número queda reservado para conservar la trazabilidad. 02Numeración sin subcódigosLas normas siguen un orden correlativo simple dentro de su capítulo (COL-001, COL-002). Aunque el capítulo se ordene en secciones, no hay subdivisiones con puntos: COL-001.1 o COL-001.A no existen. 03AntiduplicaciónEl Manual de Marca es el único dueño de la identidad visual, los colores, la tipografía y la estética (KYN-PRD-GOB-004). Producto y Comercial no copian reglas de diseño: citan el ID de Marca. 04Citas por IDEntre equipos y entre manuales hermanos se cita solo el ID completo, por ejemplo «conforme a KYN-MRK-COL-001». El texto de la norma nunca se copia en otro documento, para que no se desactualice. 05Contratos externosCuando una regla de marca debe figurar en un contrato con terceros, como agencias o diseñadores externos, se redacta la cláusula completa y el ID va al final, solo como referencia administrativa. Códigos de capítuloEn cada sección, el ID ocupa el lugar del número y se copia con un clic. Recursos usa los mismos códigos, con sus propios capítulos.ADNADNCONConceptoDISPrincipios de diseñoVOZVozESTEstelaLOGIdentidadCOLColorTYPTipografíaESPForma y espacioCMPComposicionesVISCriterios visualesILUElementos gráficosICOIconografíaDATDatosMOVMovimientoACCAccesibilidadCORCorporativoEXPExpresivoUIDigitalDOCDocumentosPREPresentacionesWEBSitio webREDRedes y campañasEVTEventos y merchPERPersonalizaciónGALGalería de imágenesTEXTexturas y degradadosICNÍconosPLAPlantillas y documentosREFReferencia",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "a3342e57c3bd3617",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "e01e29c02c239786",
+     "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-10-30",
+     "huella": "3b9b036be4128f67",
+     "nota": "commit 8747573"
+    }
+   ]
+  },
+  "recursos/texturas.html#texturas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-TEX-001",
+   "texto": "Catálogo Del amanecer a la galaxia KT son texturas, con grano o nubes; KD son degradados lisos. Todos están hechos con código (SVG): no se pixelan a ningún tamaño, así que sirven para web, interfaces, pantallas de eventos e impresión en gran formato. Las reglas están en KYN-MRK-ILU-007. Todas Todas las piezasTipoTexturasDegradadosCieloAmanecerMediodíaAtardecerNocheGalaxia 12 piezas Catálogo01/ 12 01KT-01 · Textura · AmanecerHecha con código · SVGEscala sin pixelarse02KT-02 · Textura · MediodíaHecha con código · SVGEscala sin pixelarse03KT-03 · Textura · MediodíaHecha con código · SVGEscala sin pixelarse04KT-04 · Textura · MediodíaHecha con código · SVGEscala sin pixelarse05KT-05 · Textura · MediodíaHecha con código · SVGEscala sin pixelarse06KT-06 · Textura · MediodíaHecha con código · SVGEscala sin pixelarse07KT-07 · Textura · AtardecerHecha con código · SVGEscala sin pixelarse08KT-08 · Textura · NocheHecha con código · SVGEscala sin pixelarse09KT-09 · Textura · NocheHecha con código · SVGEscala sin pixelarse01KD-01 · Degradado · AmanecerHecha con código · SVGEscala sin pixelarse02KD-02 · Degradado · AmanecerHecha con código · SVGEscala sin pixelarse03KD-03 · Degradado · AtardecerHecha con código · SVGEscala sin pixelarse (Tratamiento de marca) OriginalVentanaVelo para texto (Descargar) OriginalPost 1:1Historia 9:16Portada 16:9 Copiar ID",
+   "versiones": [
+    {
+     "aprobada": "2026-10-29",
+     "huella": "f464ff44ec6a3c7c",
+     "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-10-29",
+     "huella": "6e26bb677c8e59ed",
+     "nota": "commit c344d67"
+    }
+   ]
+  }
+ }
+}

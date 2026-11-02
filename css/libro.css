@@ -316,12 +316,12 @@ body.is-home{padding-top:0}
 
 /* Degradados corporativos · imágenes oficiales con textura de grano */
 .grad{background-size:cover;background-position:center;background-color:var(--k-cielo)}
-.grad--cielo{background-image:url('../assets/img/degradado-cielo.jpg');background-color:#6C93CE}
+.grad--cielo{background-image:var(--g-cielo);background-color:#6C93CE}
 /* Sistemas de Interfaces · degradado provisional (segundo degradado de cielo) hasta definir el color del área */
-.grad--cielo2{background-image:url('../assets/img/degradado-cielo-2.jpg');background-color:#6C93CE}
-.grad--salmon{background-image:url('../assets/img/degradado-salmon.jpg');background-color:#D27671}
-.grad--atardecer{background-image:url('../assets/img/degradado-atardecer.jpg');background-color:#E7A6A6}
-.grad--noche{background-image:url('../assets/img/degradado-noche.jpg');background-color:#212238}
+.grad--cielo2{background-image:var(--g-cielo2);background-color:#6C93CE}
+.grad--salmon{background-image:var(--g-salmon);background-color:#D27671}
+.grad--atardecer{background-image:var(--g-atardecer);background-color:#E7A6A6}
+.grad--noche{background-image:var(--g-noche);background-color:#212238}
 
 /* Cómo leer · columnas editoriales separadas por líneas */
 .cols{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--color-border-strong)}
@@ -574,7 +574,7 @@ a.pg:hover svg{opacity:1;transform:none}
 
 /* Portal: una abertura de cielo en un muro Azul Noche */
 .portal{position:relative;height:clamp(380px,40vw,540px);overflow:hidden;isolation:isolate;margin-bottom:var(--s24);
-  background:var(--portal-img,url("../assets/img/degradado-noche.jpg")) center/cover,var(--k-noche);color:var(--k-blanco)}
+  background:var(--portal-img,var(--g-noche)) center/cover,var(--k-noche);color:var(--k-blanco)}
 /* Con imagen propia se retira la abertura dibujada y un velo asegura la lectura */
 .portal--img .portal__slit,.portal--img .portal__glow,.portal--img .portal__horizon{display:none}
 .portal--img::before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(16,18,42,.72) 0%,rgba(16,18,42,0) 60%)}
@@ -600,10 +600,10 @@ a.pg:hover svg{opacity:1;transform:none}
 
 /* Tarjeta con imagen y capa de cristal */
 .card-img{position:relative;min-height:500px;display:flex;align-items:flex-end;padding:var(--s5);background-size:cover;background-position:center;overflow:hidden}
-.card-img--cielo{background-image:url("../assets/img/degradado-cielo.jpg")}
-.card-img--noche{background-image:url("../assets/img/degradado-noche.jpg")}
-.card-img--salmon{background-image:url("../assets/img/degradado-salmon.jpg")}
-.card-img--atardecer{background-image:url("../assets/img/degradado-atardecer.jpg")}
+.card-img--cielo{background-image:var(--g-cielo)}
+.card-img--noche{background-image:var(--g-noche)}
+.card-img--salmon{background-image:var(--g-salmon)}
+.card-img--atardecer{background-image:var(--g-atardecer)}
 .glass-panel{width:100%;padding:var(--s8);background:rgba(244,244,244,.64);border:1px solid rgba(255,255,255,.65);
   backdrop-filter:blur(22px) saturate(1.3);-webkit-backdrop-filter:blur(22px) saturate(1.3)}
 .glass-panel .kicker{margin-bottom:var(--s5)}
@@ -632,7 +632,7 @@ a.pg:hover svg{opacity:1;transform:none}
 
 /* Origen: ondas que salen de un punto */
 .origin{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:var(--s12);align-items:stretch}
-.rings{position:relative;min-height:440px;overflow:hidden;background:url("../assets/img/degradado-cielo.jpg") center/cover,var(--k-cielo)}
+.rings{position:relative;min-height:440px;overflow:hidden;background:var(--g-cielo) center/cover,var(--k-cielo)}
 .rings::before{content:"";position:absolute;inset:0;
   background:repeating-radial-gradient(circle at 24% 76%,rgba(255,255,255,0) 0 64px,rgba(255,255,255,.55) 65px,rgba(255,255,255,0) 67px 104px);
   -webkit-mask:radial-gradient(circle at 24% 76%,#000 20%,transparent 75%);mask:radial-gradient(circle at 24% 76%,#000 20%,transparent 75%)}
@@ -662,10 +662,10 @@ a.pg:hover svg{opacity:1;transform:none}
 .pr__n .paren{color:inherit;opacity:.7}
 .pr h3{font-size:clamp(22px,2.2vw,30px);font-weight:600;letter-spacing:-.025em;line-height:1.1;margin-bottom:var(--s3)}
 .pr p{font-size:15px;line-height:1.6;max-width:520px;opacity:.88}
-.pr--noche{background-image:url("../assets/img/degradado-noche.jpg");border-color:transparent;color:var(--k-blanco)}
-.pr--cielo{background-image:url("../assets/img/degradado-cielo.jpg");border-color:transparent;color:var(--k-noche)}
-.pr--salmon{background-image:url("../assets/img/degradado-salmon.jpg");border-color:transparent;color:var(--k-noche)}
-.pr--atardecer{background-image:url("../assets/img/degradado-atardecer.jpg");border-color:transparent;color:var(--k-noche)}
+.pr--noche{background-image:var(--g-noche);border-color:transparent;color:var(--k-blanco)}
+.pr--cielo{background-image:var(--g-cielo);border-color:transparent;color:var(--k-noche)}
+.pr--salmon{background-image:var(--g-salmon);border-color:transparent;color:var(--k-noche)}
+.pr--atardecer{background-image:var(--g-atardecer);border-color:transparent;color:var(--k-noche)}
 .pr--noche strong{color:#fff}
 @media(max-width:900px){
   .bento{grid-template-columns:1fr}
@@ -917,7 +917,7 @@ a.pg:hover svg{opacity:1;transform:none}
 
 /* ═══ Encabezado con imagen (portal) · variantes ═══ */
 /* Foto de cielo con texto en Azul Noche */
-.portal--cielo{background:url("../assets/img/degradado-cielo.jpg") center/cover,var(--k-cielo);color:var(--k-noche)}
+.portal--cielo{background:var(--g-cielo) center/cover,var(--k-cielo);color:var(--k-noche)}
 .portal--cielo .kicker,.portal--cielo .portal__txt p{color:var(--k-noche)}
 .portal--photo{background:url("../assets/img/cielo-foto.jpg") center 35%/cover,var(--k-cielo);color:var(--k-noche)}
 .portal--photo::before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(244,244,244,.55) 0%,rgba(244,244,244,0) 58%)}
@@ -1101,7 +1101,7 @@ a.pg:hover svg{opacity:1;transform:none}
 }
 
 /* Encabezados con el segundo degradado de cielo */
-.portal--cielo2{background:url("../assets/img/degradado-cielo-2.jpg") center/cover,var(--k-cielo)}
+.portal--cielo2{background:var(--g-cielo2) center/cover,var(--k-cielo)}
 
 /* 1.2 · Misión y visión apiladas, con el texto un punto más presente */
 .ed__stack--big p{font-size:clamp(17px,1.4vw,19px);color:var(--color-text);max-width:680px}
@@ -1783,7 +1783,7 @@ body.is-area.side-min .doc{grid-template-columns:76px minmax(0,1fr)}
 @media(max-width:1100px){.states--7{grid-template-columns:repeat(4,minmax(0,1fr))}}
 
 /* Encabezado de Modos: Salmón con arcos claros */
-.portal--salmon{background:url("../assets/img/degradado-salmon.jpg") center/cover,var(--k-salmon);color:var(--k-noche)}
+.portal--salmon{background:var(--g-salmon) center/cover,var(--k-salmon);color:var(--k-noche)}
 .portal--salmon .kicker,.portal--salmon .portal__txt p{color:var(--k-noche)}
 .portal.portal--salmon .portal__arcs{backdrop-filter:none;-webkit-backdrop-filter:none;background-color:transparent;
   background-image:repeating-radial-gradient(circle at -8% 140%,rgba(247,236,235,.32) 0px,rgba(247,236,235,.32) 1px,rgba(86,46,51,.05) 1px,rgba(86,46,51,0) 30px,rgba(86,46,51,0) 31px,rgba(231,193,191,.14) 59px,rgba(231,193,191,.14) 60px)}
@@ -1908,15 +1908,15 @@ body.is-area.side-min .doc{grid-template-columns:76px minmax(0,1fr)}
 .ln--4 i::before{left:0}.ln--4 i::after{right:0}
 .glass2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s2);margin-top:var(--s12)}
 .gl{aspect-ratio:4/3;background-size:cover;background-position:center}
-.gl--flute{background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.16) 0px,rgba(255,255,255,.16) 1px,rgba(255,255,255,.07) 1px,rgba(255,255,255,.01) 25px,rgba(255,255,255,.01) 26px,rgba(255,255,255,.07) 49px,rgba(255,255,255,.07) 50px),url("../assets/img/degradado-cielo.jpg");border-radius:0 var(--r-component) var(--r-component) 0}
-.gl--arcs{background-image:repeating-radial-gradient(circle at -8% 140%,rgba(224,231,241,.42) 0px,rgba(224,231,241,.42) 1px,rgba(36,45,78,.06) 1px,rgba(36,45,78,0) 30px,rgba(36,45,78,0) 31px,rgba(172,195,231,.16) 59px,rgba(172,195,231,.16) 60px),url("../assets/img/degradado-cielo-2.jpg");border-radius:var(--r-component) 0 0 var(--r-component)}
+.gl--flute{background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.16) 0px,rgba(255,255,255,.16) 1px,rgba(255,255,255,.07) 1px,rgba(255,255,255,.01) 25px,rgba(255,255,255,.01) 26px,rgba(255,255,255,.07) 49px,rgba(255,255,255,.07) 50px),var(--g-cielo);border-radius:0 var(--r-component) var(--r-component) 0}
+.gl--arcs{background-image:repeating-radial-gradient(circle at -8% 140%,rgba(224,231,241,.42) 0px,rgba(224,231,241,.42) 1px,rgba(36,45,78,.06) 1px,rgba(36,45,78,0) 30px,rgba(36,45,78,0) 31px,rgba(172,195,231,.16) 59px,rgba(172,195,231,.16) 60px),var(--g-cielo2);border-radius:var(--r-component) 0 0 var(--r-component)}
 .glass2 figcaption,.pats figcaption{display:grid;row-gap:2px;margin-top:var(--s3);font-size:13px;line-height:1.5;color:var(--color-text-2)}
 .glass2 b,.pats b{font-size:15px;font-weight:500;color:var(--color-text)}
 .pats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s8) var(--s2);margin-top:var(--s12)}
 .pat{aspect-ratio:1;border-radius:var(--r-component)}
 .pats figure:nth-child(3n+1) .pat{border-radius:0 var(--r-component) var(--r-component) 0}
 .pats figure:nth-child(3n) .pat{border-radius:var(--r-component) 0 0 var(--r-component)}
-.pat--brackets{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Cg fill='%23F4F4F4' fill-opacity='.42'%3E%3Cg transform='translate%288 12%29 scale%28.05%29'%3E%3Cg transform='translate%28-224 -295%29'%3E%3Cpath d='M224.15,507.07c57.79-55.45,87.02-155.84,91.42-211.97h206.28c.09,3.02.13,6.67.13,9.69,0,115.43-95.9,193.93-186.13,235.21,91.17,42.68,186.13,119.8,186.13,235.24h0c0,3.02-.04,6.67-.13,9.67h-206.28c-4.4-56.11-33.62-156.5-91.39-211.95l-.02-65.88Z'/%3E%3Cpath d='M855.83,572.95c-57.77,55.45-87,155.84-91.39,211.95h-206.28c-.09-3-.13-6.65-.13-9.67h0c0-115.43,94.95-192.56,186.13-235.24-90.23-41.28-186.13-119.78-186.13-235.21,0-3.02.04-6.67.13-9.69h206.28c4.4,56.13,33.62,156.52,91.42,211.97l-.02,65.88Z'/%3E%3C/g%3E%3C/g%3E%3Cg transform='translate%2888 52%29 rotate%2890%29 scale%28.05%29'%3E%3Cg transform='translate%28-224 -295%29'%3E%3Cpath d='M224.15,507.07c57.79-55.45,87.02-155.84,91.42-211.97h206.28c.09,3.02.13,6.67.13,9.69,0,115.43-95.9,193.93-186.13,235.21,91.17,42.68,186.13,119.8,186.13,235.24h0c0,3.02-.04,6.67-.13,9.67h-206.28c-4.4-56.11-33.62-156.5-91.39-211.95l-.02-65.88Z'/%3E%3Cpath d='M855.83,572.95c-57.77,55.45-87,155.84-91.39,211.95h-206.28c-.09-3-.13-6.65-.13-9.67h0c0-115.43,94.95-192.56,186.13-235.24-90.23-41.28-186.13-119.78-186.13-235.21,0-3.02.04-6.67.13-9.69h206.28c4.4,56.13,33.62,156.52,91.42,211.97l-.02,65.88Z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") 0 0/96px 96px,url("../assets/img/degradado-cielo.jpg") center/cover}
+.pat--brackets{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Cg fill='%23F4F4F4' fill-opacity='.42'%3E%3Cg transform='translate%288 12%29 scale%28.05%29'%3E%3Cg transform='translate%28-224 -295%29'%3E%3Cpath d='M224.15,507.07c57.79-55.45,87.02-155.84,91.42-211.97h206.28c.09,3.02.13,6.67.13,9.69,0,115.43-95.9,193.93-186.13,235.21,91.17,42.68,186.13,119.8,186.13,235.24h0c0,3.02-.04,6.67-.13,9.67h-206.28c-4.4-56.11-33.62-156.5-91.39-211.95l-.02-65.88Z'/%3E%3Cpath d='M855.83,572.95c-57.77,55.45-87,155.84-91.39,211.95h-206.28c-.09-3-.13-6.65-.13-9.67h0c0-115.43,94.95-192.56,186.13-235.24-90.23-41.28-186.13-119.78-186.13-235.21,0-3.02.04-6.67.13-9.69h206.28c4.4,56.13,33.62,156.52,91.42,211.97l-.02,65.88Z'/%3E%3C/g%3E%3C/g%3E%3Cg transform='translate%2888 52%29 rotate%2890%29 scale%28.05%29'%3E%3Cg transform='translate%28-224 -295%29'%3E%3Cpath d='M224.15,507.07c57.79-55.45,87.02-155.84,91.42-211.97h206.28c.09,3.02.13,6.67.13,9.69,0,115.43-95.9,193.93-186.13,235.21,91.17,42.68,186.13,119.8,186.13,235.24h0c0,3.02-.04,6.67-.13,9.67h-206.28c-4.4-56.11-33.62-156.5-91.39-211.95l-.02-65.88Z'/%3E%3Cpath d='M855.83,572.95c-57.77,55.45-87,155.84-91.39,211.95h-206.28c-.09-3-.13-6.65-.13-9.67h0c0-115.43,94.95-192.56,186.13-235.24-90.23-41.28-186.13-119.78-186.13-235.21,0-3.02.04-6.67.13-9.69h206.28c4.4,56.13,33.62,156.52,91.42,211.97l-.02,65.88Z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") 0 0/96px 96px,var(--g-cielo) center/cover}
 .pat--board{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cg transform='translate%286 6%29'%3E%3Cpath fill='%23CE635D' fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/g%3E%3Cg transform='translate%2838 6%29'%3E%3Cpath fill='%23729BDD' fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/g%3E%3Cg transform='translate%286 38%29'%3E%3Cpath fill='%23729BDD' fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/g%3E%3Cg transform='translate%2838 38%29'%3E%3Cpath fill='%23CE635D' fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/g%3E%3C/svg%3E") 0 0/64px 64px,var(--k-blanco);box-shadow:inset 0 0 0 1px var(--color-border)}
 .pat--flute{background:repeating-linear-gradient(90deg,rgba(255,255,255,.16) 0px,rgba(255,255,255,.16) 1px,rgba(255,255,255,.07) 1px,rgba(255,255,255,.01) 25px,rgba(255,255,255,.01) 26px,rgba(255,255,255,.07) 49px,rgba(255,255,255,.07) 50px),url("../assets/img/cielo-mediodia.webp") center/cover}
 .pat--arcs{background:repeating-radial-gradient(circle at 20% 80%,rgba(255,255,255,.3) 0 1px,rgba(255,255,255,0) 1px 26px),url("../assets/img/degradado-noche-2.webp") center/cover}
@@ -4041,3 +4041,31 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
 /* 3.3 · Calma y expresión con texto completo: la primera frase manda, las demás la explican */
 .cye figcaption p{font-size:clamp(19px,1.7vw,22px);line-height:1.4}
 .cye figcaption p + p{font-size:16px;font-weight:400;letter-spacing:0;line-height:1.6;color:var(--color-text-2)}
+
+/* ════ Ronda 2026-11-02 · 3 ════ */
+/* Degradados de área hechos con código: la misma luz de las imágenes oficiales, sin descargar archivos.
+   Cada uno es su color base con una zona de luz suave; el grano se suma encima. */
+:root{
+  --g-cielo:radial-gradient(58% 80% at 52% 104%,#D6ECF9 0%,rgba(168,201,242,.8) 26%,rgba(114,155,221,0) 68%),radial-gradient(55% 70% at 0% 0%,rgba(52,80,132,.6),rgba(52,80,132,0) 70%),linear-gradient(180deg,#4C77BB 0%,#5D89CF 52%,#7AA2E2 100%);
+  --g-cielo2:radial-gradient(60% 80% at 70% 90%,rgba(196,219,240,.85),rgba(160,188,239,0) 70%),linear-gradient(160deg,#7DA0DF 0%,#6B95D6 50%,#84A6E1 100%);
+  --g-salmon:radial-gradient(48% 62% at 66% 0%,rgba(242,212,210,.95) 0%,rgba(228,172,169,.6) 38%,rgba(206,99,93,0) 76%),linear-gradient(180deg,#D47D78 0%,#CF6B65 55%,#C95852 100%);
+  --g-atardecer:radial-gradient(42% 60% at 24% 22%,rgba(236,204,202,.95),rgba(232,170,170,0) 72%),linear-gradient(160deg,#E8B2B1 0%,#E8A1A2 55%,#E7999B 100%);
+  --g-noche:radial-gradient(42% 58% at 62% 62%,rgba(82,83,108,.85),rgba(40,41,62,.4) 46%,rgba(16,18,42,0) 76%),linear-gradient(135deg,#0F1128 0%,#15172F 60%,#101229 100%);
+}
+.grad{position:relative;overflow:hidden;isolation:isolate}
+.grad::after{content:"";position:absolute;inset:0;background-image:var(--grain);background-size:160px;opacity:.45;mix-blend-mode:overlay;pointer-events:none}
+.grad--noche::after{opacity:.3}
+
+/* Salida a la Biblioteca: sin línea entre el buscador y el ícono */
+.hdr__exit::before{display:none}
+.hdr__exit{margin-left:12px}
+
+/* Menú: el ícono de reposo es el que antes solo aparecía con el cursor (línea central más corta) */
+.hdr:not(.is-open) .hdr__burger .b2{scale:.6 1}
+
+/* Menú: las dos consultas secundarias tienen un hover propio, más silencioso que el de las áreas */
+.hdr__panel .hdr__panel-alt a{text-decoration:none!important;color:var(--color-text-3);background-image:linear-gradient(currentColor,currentColor);
+  background-size:0 1px;background-position:0 100%;background-repeat:no-repeat;padding-bottom:2px;transition:color .4s var(--e-out),background-size .5s var(--e-out)}
+.hdr__panel .hdr__panel-alt a:hover,.hdr__panel .hdr__panel-alt a:focus-visible{color:var(--color-text-2);background-size:100% 1px}
+/* Las franjas son bajas: muestran un corte de un lienzo más alto, como hacía la imagen con «cover» */
+.area__color.grad,.band.grad{background-size:100% 320%;background-position:50% 58%}
