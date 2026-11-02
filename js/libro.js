@@ -4,6 +4,10 @@
    ═══════════════════════════════════════════════════════════════ */
 (function () {
   const NAV = window.KEYONS_NAV || [];
+  /* Libro: cada manual de la Biblioteca declara su portada, su menú y sus enlaces secundarios.
+     Sin declaración se usan los valores del Libro de Marca. */
+  const BOOK = window.KEYONS_BOOK || {};
+  const HOME = BOOK.home || 'inicio.html';
   const body = document.body;
   const ROOT = (body.dataset.root || '.').replace(/\/$/, '');
   const PAGE = body.dataset.page || '';
@@ -53,7 +57,11 @@
   const top = $('topbar');
   if (top) {
     /* El logotipo lleva al inicio: el menú solo nombra las áreas */
-    const links = NAV.map((a) => ({ t: a.t, h: a.href, cur: a.id === AREA }));
+    /* Un libro de un solo nivel (Sistema de Diseño) nombra sus módulos en el menú */
+    const links = BOOK.menu === 'chapters'
+      ? NAV[0].ch.map((c) => { const h = (c.items.find((it) => it.href) || {}).href || NAV[0].href; return { t: c.t, h, cur: base(h) === PAGE }; })
+      : NAV.map((a) => ({ t: a.t, h: a.href, cur: a.id === AREA }));
+    const alt = BOOK.alt || [['Consultar versión documental', 'documental/index.html'], ['Usar normas en un proyecto', 'ia/index.html']];
     const linkHtml = (cls) => links.map((l) => `<a class="${cls}" href="${url(l.h)}"${l.cur ? ' aria-current="true"' : ''}>${l.t}</a>`).join('');
     /* Nubes: anchos 200–420 px, opacidad 20–45 %, desenfoque 12–24 px, recorrido 44–82 s */
     const clouds = [[200, .32, 12, 44, 8], [420, .2, 24, 82, -6], [280, .45, 16, 58, 30], [340, .26, 20, 70, -18], [240, .38, 14, 52, 46], [380, .22, 22, 76, 14]]
@@ -62,8 +70,8 @@
     top.innerHTML = `
       <div class="hdr__bg">${IS_HOME ? `<div class="hdr__clouds" aria-hidden="true">${clouds}</div>` : ''}</div>
       <div class="hdr__in">
-        <nav class="hdr__links" aria-label="Áreas del manual">${linkHtml('hdr__link')}</nav>
-        <a class="hdr__logo" href="${url('inicio.html')}" aria-label="Keyons · volver a la portada">${LOGO}</a>
+        <nav class="hdr__links" aria-label="${BOOK.menuLabel || 'Áreas del manual'}">${linkHtml('hdr__link')}</nav>
+        <a class="hdr__logo" href="${url(HOME)}" aria-label="Keyons · volver a la portada">${LOGO}</a>
         <div class="hdr__right">
           <button class="hdr__search" type="button" data-search aria-label="Buscar en el manual (Ctrl K)">${ic(I.search)}<span>Buscar</span><kbd>Ctrl K</kbd></button>
         </div>
@@ -73,9 +81,9 @@
         <a class="hdr__exit" href="${url('index.html')}" title="Salir a la Biblioteca Keyons" aria-label="Salir a la Biblioteca Keyons"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,22.8503,17.865)" d="M0 0-4.5-4.83-6.31-3.13-2.82 .62-10.37 .63V3.12L-2.84 3.11-6.31 6.87-4.48 8.56 0 3.69C.96 2.66 .96 1.04 0 0" fill="currentColor"/><path transform="matrix(1,0,0,-1,13.4557,27.2317)" stroke-width="2.5" fill="none" stroke="currentColor" d="M0 22.381L-5.118 22.381L-5.118 0L0 0"/></svg><span>Biblioteca</span></a>
       </div>
       <div class="hdr__panel">
-        <nav aria-label="Áreas del manual">${linkHtml('')}</nav>
+        <nav aria-label="${BOOK.menuLabel || 'Áreas del manual'}">${linkHtml('')}</nav>
         <div class="hdr__panel-foot"><button class="hdr__panel-search" type="button" data-search>${ic(I.search)}Buscar en el manual</button>
-          <span class="hdr__panel-alt"><a href="${url('documental/index.html')}">Consultar versión documental</a><a href="${url('ia/index.html')}">Usar normas en un proyecto</a></span></div>
+          <span class="hdr__panel-alt">${alt.map(([t, h]) => `<a href="${url(h)}">${t}</a>`).join('')}</span></div>
       </div>`;
     const burger = top.querySelector('.hdr__burger');
     const setOpen = (o) => { top.classList.toggle('is-open', o); burger.setAttribute('aria-expanded', o); burger.setAttribute('aria-label', o ? 'Cerrar menú' : 'Abrir menú'); };
@@ -131,6 +139,8 @@
         while ((m = re.exec(t))) {
           let href = null, pre = '', label = m[0], post = '';
           if (m[1] && byId[m[1]]) { href = byId[m[1]].h; label = m[1]; }
+          /* Los números de capítulo solo se enlazan dentro del Libro de Marca; los ID KYN-MRK se enlazan desde cualquier libro */
+          else if (BOOK.home) continue;
           else if (m[3] && C[String(+m[3])]) { href = C[String(+m[3])]; pre = m[2]; label = m[3]; }
           /* Un número suelto («6.15») ya no se enlaza: las citas se escriben por ID. Así «WCAG 2.1» o «6.5 : 1» no apuntan a una norma */
           else if (m[5] && C[String(+m[5])]) { href = C[String(+m[5])]; pre = '('; label = m[5]; post = ')'; }
@@ -605,7 +615,7 @@
         : `<span class="${cls}" title="${esc(it.t)} · página aún no construida"><span class="nav-item__n">${num}</span><span class="nav-item__t">${esc(it.st || it.t)}</span>${dot(it.s)}</span>`;
     }).join('');
     return `<div class="nav-ch" aria-expanded="${open}">
-      <button class="nav-ch__btn" type="button" title="${esc(c.n + ' ' + c.t)}"><span class="nav-ch__num">${c.n}</span><span>${esc(c.t)}</span>${ic(I.chev)}</button>
+      <button class="nav-ch__btn" type="button" title="${esc(c.n + ' ' + c.t)}"><span class="nav-ch__num">${c.n}</span><span>${esc(BOOK.menu === 'chapters' && c.st ? c.st : c.t)}</span>${ic(I.chev)}</button>
       <div class="nav-list">${items}</div></div>`;
   }).join('');
   const area = NAV.find((x) => x.id === AREA);
@@ -1024,7 +1034,7 @@
   const pg = $('pager');
   if (pg) {
     const k = seq.findIndex((x) => base(x.href) === PAGE);
-    const prev = k > 0 ? seq[k - 1] : { t: 'Portada', href: 'inicio.html' };
+    const prev = k > 0 ? seq[k - 1] : { t: 'Portada', href: HOME };
     const next = k >= 0 && k < seq.length - 1 ? seq[k + 1] : null;
     pg.className = 'pager';
     pg.innerHTML = `<a href="${url(prev.href)}"><span class="paren">(Anterior)</span><span class="pager__t">${ic(I.left)}${esc(prev.t)}</span></a>`
