@@ -58,7 +58,7 @@
     {
      "n": "03",
      "clave": "principios",
-     "titulo": "Principios de diseño",
+     "titulo": "Principios",
      "estado": "vigente",
      "descripcion": "Cinco principios que guían cada decisión de diseño de Keyons, con su marca o la del cliente.",
      "rutas": [

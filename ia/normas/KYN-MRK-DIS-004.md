@@ -7,7 +7,7 @@ id: "KYN-MRK-DIS-004"
 titulo: "Intensidad según contexto"
 numero: "3.4"
 estado: "vigente"
-capitulo: "03 Principios de diseño"
+capitulo: "03 Principios"
 area: "Marca"
 fuente: "/marca/principios.html#contexto"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-CON-005"]
 
 # KYN-MRK-DIS-004 · Según contexto
 
-Número: 3.4 · Estado: vigente · Capítulo: 03 Principios de diseño · Fuente: `/marca/principios.html#contexto`
+Número: 3.4 · Estado: vigente · Capítulo: 03 Principios · Fuente: `/marca/principios.html#contexto`
 
 ##### Intensidad según contexto
 

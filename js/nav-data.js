@@ -30,7 +30,7 @@ window.KEYONS_NAV = [
         { sub: 'Composición' },
         { t: 'Composición', s: 'b', href: 'marca/composicion.html#reglas' }, { t: 'Regla del contraste', s: 'b', href: 'marca/composicion.html#contraste' },
         { t: 'Anti-referentes', s: 'b', href: 'marca/composicion.html#anti' }, { t: 'Herencia estética', s: 'b', href: 'marca/composicion.html#herencia' } ] },
-      { n: '03', k: 'principios', t: 'Principios de diseño', s: 'v', d: 'Cinco principios que guían cada decisión de diseño de Keyons, con su marca o la del cliente.', items: [
+      { n: '03', k: 'principios', t: 'Principios', s: 'v', d: 'Cinco principios que guían cada decisión de diseño de Keyons, con su marca o la del cliente.', items: [
         { t: 'Diseñar con identidad, construir con criterio', st: 'Identidad y criterio', s: 'v', href: 'marca/principios.html#criterio' },
         { t: 'Identidad, experiencia y sistema', st: 'Roles definidos', s: 'v', href: 'marca/principios.html#capas' },
         { t: 'Calma y expresión', s: 'v', href: 'marca/principios.html#calma' },

@@ -20,7 +20,7 @@ Número: 4.3 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/vocabula
 
 ##### Las palabras que usamos
 
-Las palabras que elegimos ayudan a construir una identidad reconocible. Su valor está en la precisión con que describen nuestro trabajo, no en repetirlas por obligación.
+Las palabras que elegimos ayudan a construir una **identidad reconocible**. Su valor está en la precisión con que describen nuestro trabajo, no en repetirlas por obligación.
 
 - **Arquitectura operativa**: La forma en que una empresa opera. Más precisa que «procesos», menos fría que «sistemas».
 - **Diagnóstico**: Lo que ocurre antes de proponer. Ancla la metodología frente a quienes venden sin entender.

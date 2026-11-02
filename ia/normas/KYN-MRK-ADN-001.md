@@ -20,7 +20,7 @@ Número: 1.1 · Estado: vigente · Capítulo: 01 ADN · Fuente: `/marca/adn.html
 
 ##### Arquitectura operativa, adaptada a cada realidad
 
-Somos una firma que transforma la arquitectura operativa de las organizaciones mediante ecosistemas de inteligencia artificial adaptados a sus necesidades.
+Somos una firma que transforma la arquitectura operativa de las organizaciones mediante **ecosistemas de inteligencia artificial** adaptados a sus necesidades.
 
 **(Cómo trabajamos)**
 Desarrollamos productos especializados listos para adoptar y soluciones personalizadas. Cada modalidad ofrece distintos niveles de adaptación y acompañamiento, siempre a partir de las necesidades reales de la operación.

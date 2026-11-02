@@ -26,7 +26,7 @@ Comprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde
 
 02
 Diseño a Medida
-Adaptamos la tecnología a las necesidades reales de cada organización. Los productos especializados permiten una configuración dentro de límites definidos; los desarrollos personalizados ofrecen una adaptación más amplia según los objetivos del cliente.
+Adaptamos la tecnología a las necesidades reales de cada organización. Los productos especializados se configuran dentro de límites definidos, mientras que los desarrollos personalizados amplían la adaptación según los objetivos del cliente.
 
 03
 Acompañamiento Adaptativo
@@ -46,4 +46,4 @@ Hablamos claro, sin tecnicismos innecesarios ni promesas falsas.
 
 07
 Simbiosis Humana
-El talento sigue siendo el criterio central. La automatización libera capacidad para pensar, no la reemplaza.
+El talento sigue siendo el criterio central. La automatización libera capacidad para pensar, nunca la reemplaza.

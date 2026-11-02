@@ -64,7 +64,7 @@ En cada sección, el ID ocupa el lugar del número y se copia con un clic. Recur
 
 - **ADN** · ADN
 - **CON** · Concepto
-- **DIS** · Principios de diseño
+- **DIS** · Principios
 - **VOZ** · Voz
 - **EST** · Estela
 - **LOG** · Identidad

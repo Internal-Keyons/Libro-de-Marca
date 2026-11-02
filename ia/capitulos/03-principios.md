@@ -4,7 +4,7 @@ version: "0.1"
 fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "03"
-titulo: "Principios de diseño"
+titulo: "Principios"
 area: "Marca"
 estado: "vigente"
 rutas: ["/marca/principios.html"]
@@ -12,7 +12,7 @@ normas: ["KYN-MRK-DIS-001", "KYN-MRK-DIS-002", "KYN-MRK-DIS-003", "KYN-MRK-DIS-0
 referencias: ["KYN-MRK-DIS-001", "KYN-MRK-DIS-002", "KYN-MRK-DIS-003", "KYN-MRK-DIS-004", "KYN-MRK-DIS-005"]
 ---
 
-# Capítulo 03 · Principios de diseño
+# Capítulo 03 · Principios
 
 Estado: vigente · Clave: principios · Ruta: `/marca/principios.html`
 
@@ -26,7 +26,7 @@ Cinco principios que guían cada decisión de diseño de Keyons, con su marca o 
 - Intensidad según contexto · vigente · `/marca/principios.html#contexto`
 - Claridad primero · vigente · `/marca/principios.html#comprension`
 
-## Principios de diseño
+## Principios
 
 Rótulo: Capítulo 03 · Marca · Fuente: `/marca/principios.html`
 

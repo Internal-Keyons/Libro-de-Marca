@@ -20,7 +20,7 @@ Número: 2.1.2 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/c
 
 ##### Cada cielo tiene lugar, fecha y autor
 
-Ningún cielo es genérico. Cada fotografía se toma en un lugar y un momento específicos, por alguien del equipo, y esa procedencia se comparte como parte de la narrativa de la marca.
+**Ningún cielo es genérico.** Cada fotografía se toma en un lugar y un momento específicos, por alguien del equipo, y esa procedencia se comparte como parte de la narrativa de la marca.
 
 > Recurso visual: Figura: «Ejemplo de entrada del Diario de Cielos»
 

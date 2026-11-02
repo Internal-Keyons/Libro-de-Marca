@@ -45,7 +45,7 @@ Número: 2.1 · ID: `KYN-MRK-CON-001` · Estado: vigente · Fuente: `/marca/ciel
 
 ### Un mismo cielo, ningún horizonte igual
 
-Los retos de eficiencia, orden y crecimiento se repiten entre industrias, pero cada organización los enfrenta desde una realidad diferente. Por eso nuestras soluciones responden a distintos niveles de adaptación, sin perder de vista las necesidades de quienes las utilizan.
+Los retos de eficiencia, orden y crecimiento se repiten entre industrias, pero cada organización los enfrenta desde una realidad diferente. Por eso nuestras soluciones responden a **distintos niveles de adaptación**, sin perder de vista las necesidades de quienes las utilizan.
 
 **(Universal)**
 El cielo es el único lenguaje visual que no necesita traducción. Cualquiera lo entiende, en cualquier idioma y cultura. Eso permite que Keyons hable con cualquier organización, en cualquier país, sin perder identidad.
@@ -132,7 +132,7 @@ Número: 2.1.2 · ID: `KYN-MRK-CON-003` · Estado: vigente · Fuente: `/marca/ci
 
 ### Cada cielo tiene lugar, fecha y autor
 
-Ningún cielo es genérico. Cada fotografía se toma en un lugar y un momento específicos, por alguien del equipo, y esa procedencia se comparte como parte de la narrativa de la marca.
+**Ningún cielo es genérico.** Cada fotografía se toma en un lugar y un momento específicos, por alguien del equipo, y esa procedencia se comparte como parte de la narrativa de la marca.
 
 > Recurso visual: Figura: «Ejemplo de entrada del Diario de Cielos»
 
@@ -179,7 +179,7 @@ Anclaje real
 Nace de un elemento cotidiano e hiperreconocible.
 
 **(Criterio)**
-La primera lectura debe ser comprensible sin una explicación previa, aunque la composición permita descubrir nuevos significados al observarla con mayor atención.
+La primera lectura debe ser clara y comprensible sin explicación previa, aunque la composición permita descubrir significados adicionales al observarla con más detalle.
 
 02
 
@@ -200,10 +200,10 @@ El objetivo (entender, sentir, actuar) se sintetiza en una sola línea.
 04
 
 Presencia humana
-La autoría humana se reconoce en la elección de los recursos, la construcción de la idea y el criterio aplicado a la composición.
+La autoría se reconoce en la elección de recursos y en la construcción de la idea.
 
 **(Criterio)**
-No requiere incorporar manchas, desgastes ni imperfecciones artificiales. Un recurso gráfico preciso y limpio también puede expresar autoría y sensibilidad humana.
+No requiere imperfecciones artificiales: un diseño limpio también expresa sensibilidad humana.
 
 05
 
@@ -219,7 +219,7 @@ Número: 2.2.1 · ID: `KYN-MRK-CON-005` · Estado: vigente · Fuente: `/marca/me
 
 ### El canal define la libertad
 
-Antes de producir, el equipo se pregunta dónde vivirá la pieza y en qué modo mental la encontrará el receptor. Los canales van de más libertad a más contención.
+Antes de producir, el equipo se pregunta **dónde vivirá la pieza** y en qué modo mental la encontrará el receptor. Los canales van de más libertad a más contención.
 
 Instagram, TikTok y Facebook
 **(Receptor)** · Explorando, dispuesto a sorprenderse. **(Metáforas)** · Audaces, con humor de criterio y guiños locales.
@@ -256,23 +256,19 @@ Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicac
 
 01
 Presencia humana
-La presencia humana se reconoce en la intención, las decisiones creativas y el criterio que sostiene cada pieza. Puede expresarse mediante fotografía, ilustración, composición o recursos abstractos, sin necesidad de representar literalmente personas ni introducir imperfecciones artificiales.
+La presencia se reconoce en la intención, las decisiones creativas y el criterio que sostiene cada pieza. Puede expresarse mediante fotografía, ilustración o recursos abstractos, sin necesidad de representar personas ni añadir imperfecciones artificiales.
 
 02
 Dirección humana, creación sin límites de herramienta
-La creación puede combinar fotografía, ilustración, diseño digital, inteligencia artificial y otros medios de producción.
-La IA puede utilizarse para generar imágenes originales desde cero, transformar materiales o desarrollar nuevas posibilidades visuales.
-Cada resultado debe responder a una dirección artística definida, ser revisado por una persona responsable y cumplir los estándares de identidad, originalidad y calidad de Keyons.
-El uso de IA no justifica composiciones genéricas ni sustituye el criterio creativo.
+La creación puede integrar fotografía, ilustración, diseño digital, inteligencia artificial y otros medios de producción. Cada resultado responde a una dirección artística definida, revisada por una persona responsable y alineada con los estándares de identidad y calidad de Keyons.
 
 03
 Cielo propio
-Cuando una pieza utiliza fotografías documentales del cielo, estas deben tener procedencia verificable y cumplir las reglas del Diario de Cielos.
-Las composiciones también pueden incorporar degradados oficiales e interpretaciones artísticas del cielo. Las imágenes sintéticas no deben presentarse como fotografías auténticas de lugares o acontecimientos reales.
+Las piezas que utilizan fotografías documentales del cielo deben tener procedencia verificable y cumplir las reglas del Diario de Cielos. También pueden incorporar degradados oficiales o interpretaciones artísticas, evitando presentar imágenes sintéticas como fotografías auténticas.
 
 04
 Singularidad verificable
-Antes de publicar, la pieza se compara con lo que no somos. Si podría ser de otra marca, vuelve a diseño.
+Antes de publicarse, cada pieza se contrasta con lo que no representa a la marca. Si la composición pudiera confundirse con otra identidad, regresa a diseño para asegurar su carácter único y diferenciado.
 
 La creatividad nace del criterio. La tecnología amplía sus posibilidades.
 
@@ -291,7 +287,7 @@ Número: 2.4 · ID: `KYN-MRK-CON-007` · Estado: vigente · Fuente: `/marca/comp
 
 ### Familiar y disruptivo a la vez
 
-Cada pieza combina dos fuerzas. El peso de cada una depende de lo que la pieza necesita comunicar.
+Cada pieza combina **dos fuerzas**. El peso de cada una depende de lo que la pieza necesita comunicar.
 
 **(Lo familiar)**
 Un escenario cotidiano donde el cliente se reconoce y se siente seguro. Es lo que abre la puerta.
@@ -327,8 +323,8 @@ Valores fuertes, expresados con serenidad.
 **La startup genérica** · Colores flúor, personajes exagerados, degradados saturados.
 Sobriedad deliberada.
 
-**Producción visual sin criterio** · Imágenes o composiciones generadas sin una intención reconocible, que podrían pertenecer indistintamente a cualquier marca.
-**Dirección artística propia** · Ideas visuales justificadas por el contenido, con autoría y criterio reconocibles en su concepción y ejecución.
+**Producción visual sin criterio** · Imágenes o composiciones sin intención reconocible, que podrían pertenecer a cualquier marca.
+**Dirección artística propia** · Ideas visuales justificadas por el contenido, con autoría y criterio claros en su concepción y ejecución.
 
 La originalidad no depende de añadir textura, desgaste o imperfecciones.
 

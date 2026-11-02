@@ -7,7 +7,7 @@ id: "KYN-MRK-DIS-002"
 titulo: "Identidad, experiencia y sistema: roles definidos"
 numero: "3.2"
 estado: "vigente"
-capitulo: "03 Principios de diseño"
+capitulo: "03 Principios"
 area: "Marca"
 fuente: "/marca/principios.html#capas"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-PER-001"]
 
 # KYN-MRK-DIS-002 · Roles definidos
 
-Número: 3.2 · Estado: vigente · Capítulo: 03 Principios de diseño · Fuente: `/marca/principios.html#capas`
+Número: 3.2 · Estado: vigente · Capítulo: 03 Principios · Fuente: `/marca/principios.html#capas`
 
 ##### Identidad, experiencia y sistema: roles definidos
 

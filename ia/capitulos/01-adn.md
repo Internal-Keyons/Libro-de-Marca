@@ -40,7 +40,7 @@ Número: 1.1 · ID: `KYN-MRK-ADN-001` · Estado: vigente · Fuente: `/marca/adn.
 
 ### Arquitectura operativa, adaptada a cada realidad
 
-Somos una firma que transforma la arquitectura operativa de las organizaciones mediante ecosistemas de inteligencia artificial adaptados a sus necesidades.
+Somos una firma que transforma la arquitectura operativa de las organizaciones mediante **ecosistemas de inteligencia artificial** adaptados a sus necesidades.
 
 **(Cómo trabajamos)**
 Desarrollamos productos especializados listos para adoptar y soluciones personalizadas. Cada modalidad ofrece distintos niveles de adaptación y acompañamiento, siempre a partir de las necesidades reales de la operación.
@@ -103,7 +103,7 @@ Número: 1.4.1 · ID: `KYN-MRK-ADN-005` · Estado: vigente · Fuente: `/marca/ad
 
 ### La tecnología, al servicio de la operación
 
-Integramos inteligencia artificial al trabajo de las organizaciones para ampliar las capacidades de sus equipos, facilitar las tareas cotidianas y permitir que las personas mantengan el criterio sobre las decisiones que requieren su intervención.
+Integramos inteligencia artificial al trabajo de las organizaciones para **ampliar las capacidades de sus equipos**, facilitar las tareas cotidianas y permitir que las personas mantengan el criterio sobre las decisiones que requieren su intervención.
 
 ## KYN-MRK-ADN-006 · 1.4.2 Propuesta de valor
 
@@ -111,7 +111,7 @@ Número: 1.4.2 · ID: `KYN-MRK-ADN-006` · Estado: vigente · Fuente: `/marca/ad
 
 ### Cinco promesas concretas
 
-Ayudamos a las organizaciones a trabajar con mayor claridad, eficiencia y confianza, mediante soluciones que responden a sus necesidades y acompañan su evolución.
+Ayudamos a las organizaciones a trabajar con **mayor claridad, eficiencia y confianza**, mediante soluciones que responden a sus necesidades y acompañan su evolución.
 
 **01 · Resolvemos lo que realmente importa**
 
@@ -131,7 +131,7 @@ Organizamos las responsabilidades incluidas en cada servicio para facilitar la c
 
 **05 · Diseñamos para evolucionar**
 
-Construimos soluciones que pueden incorporar mejoras y nuevas capacidades conforme cambian las necesidades del negocio, dentro de las posibilidades de cada producto o servicio.
+Construimos soluciones que incorporan mejoras y nuevas capacidades conforme cambian las necesidades del negocio, dentro de las posibilidades de cada producto o servicio.
 
 ## KYN-MRK-ADN-007 · 1.5 Principios de marca
 
@@ -145,7 +145,7 @@ Comprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde
 
 02
 Diseño a Medida
-Adaptamos la tecnología a las necesidades reales de cada organización. Los productos especializados permiten una configuración dentro de límites definidos; los desarrollos personalizados ofrecen una adaptación más amplia según los objetivos del cliente.
+Adaptamos la tecnología a las necesidades reales de cada organización. Los productos especializados se configuran dentro de límites definidos, mientras que los desarrollos personalizados amplían la adaptación según los objetivos del cliente.
 
 03
 Acompañamiento Adaptativo
@@ -165,4 +165,4 @@ Hablamos claro, sin tecnicismos innecesarios ni promesas falsas.
 
 07
 Simbiosis Humana
-El talento sigue siendo el criterio central. La automatización libera capacidad para pensar, no la reemplaza.
+El talento sigue siendo el criterio central. La automatización libera capacidad para pensar, nunca la reemplaza.

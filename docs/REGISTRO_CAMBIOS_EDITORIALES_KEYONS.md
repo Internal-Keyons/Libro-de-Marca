@@ -115,6 +115,25 @@ Desviaciones cerradas: VOZ-006 (las notas del ejemplo ahora son las definiciones
 - **Interfaz:** menos tracking en los rótulos en mayúsculas del menú lateral (área y subgrupos).
 - **Sin cambios:** ADN-001, ADN-006, CON-001, CON-002, VOZ-001 y el resto de VOZ-002 coincidían ya con el texto reenviado.
 
+## Revisión del 2026-11-02 · 3 (RV3)
+
+- **Textos exactos:**
+  - ADN-006: promesa 05;
+  - ADN-007: principios 02 y 07;
+  - CON-004: criterios 01 y 04;
+  - CON-006: criterios 01 a 04;
+  - CON-008: última comparación;
+  - REF-001: el código DIS pasa a nombrarse «Principios».
+- **CON-004, condición 04:** el texto entregado tiene dos frases. La primera queda como descripción y la segunda como criterio, igual que antes, para no repetirlas.
+- **Capítulo 03:** se llama «Principios». Cambian el índice, la página y la tabla de códigos; los ID no cambian.
+- **Énfasis:** negritas en 12 de las 15 entradas de Marca que no tenían ninguna. El texto no cambia.
+- **Diseño:**
+  - kickers en Plus Jakarta Sans Bold con tracking de +2 %;
+  - tablas `.matrix` con filetes celestes, borde superior e inferior y barras de 4 px;
+  - DIS-003 con barras de 4 px;
+  - botones con borde gris y relleno Azul Noche.
+- **Contradicción abierta:** KYN-MRK-TYP-005 todavía dice «TASA Orbiter 500, en mayúsculas, con espaciado de +8 %».
+
 ## Cómo se mantiene este registro
 
 1. **Una instrucción por cambio.** Cada instrucción editorial indica ID, ubicación, operación y texto exacto. Se aplica solo eso.

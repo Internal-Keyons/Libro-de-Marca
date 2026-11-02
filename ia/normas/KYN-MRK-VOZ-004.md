@@ -20,7 +20,7 @@ Número: 4.4 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/vocabula
 
 ##### Las palabras gastadas
 
-Priorizamos expresiones con significado concreto. Cuando un término aporta precisión, lo utilizamos; si funciona como promesa vacía, explicamos directamente lo que queremos comunicar.
+Priorizamos expresiones con **significado concreto**. Cuando un término aporta precisión, lo utilizamos; si funciona como promesa vacía, explicamos directamente lo que queremos comunicar.
 
 Transformación digital
 Nombrar qué cambia: una operación, una forma de trabajar, un flujo.

@@ -1473,7 +1473,7 @@
   "marca/adn.html#principios": {
    "estado": "vigente",
    "id": "KYN-MRK-ADN-007",
-   "texto": "Principios de marca Siete principios 01Escucha EstratégicaComprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde con causa. 02Diseño a MedidaAdaptamos la tecnología a las necesidades reales de cada organización. Los productos especializados permiten una configuración dentro de límites definidos; los desarrollos personalizados ofrecen una adaptación más amplia según los objetivos del cliente. 03Acompañamiento AdaptativoGuiamos cada transición construyendo certezas. Nadie se queda solo frente al sistema. 04Gobernanza como CimientoLa protección de datos es fundamento, no promesa. Ley 8968 y sus equivalentes, desde el diseño. 05Evolución ContinuaSi el negocio evoluciona, la solución evoluciona con él, en cada etapa de crecimiento. 06Transparencia CorporativaHablamos claro, sin tecnicismos innecesarios ni promesas falsas. 07Simbiosis HumanaEl talento sigue siendo el criterio central. La automatización libera capacidad para pensar, no la reemplaza.",
+   "texto": "Principios de marca Siete principios 01Escucha EstratégicaComprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde con causa. 02Diseño a MedidaAdaptamos la tecnología a las necesidades reales de cada organización. Los productos especializados se configuran dentro de límites definidos, mientras que los desarrollos personalizados amplían la adaptación según los objetivos del cliente. 03Acompañamiento AdaptativoGuiamos cada transición construyendo certezas. Nadie se queda solo frente al sistema. 04Gobernanza como CimientoLa protección de datos es fundamento, no promesa. Ley 8968 y sus equivalentes, desde el diseño. 05Evolución ContinuaSi el negocio evoluciona, la solución evoluciona con él, en cada etapa de crecimiento. 06Transparencia CorporativaHablamos claro, sin tecnicismos innecesarios ni promesas falsas. 07Simbiosis HumanaEl talento sigue siendo el criterio central. La automatización libera capacidad para pensar, nunca la reemplaza.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1489,6 +1489,11 @@
      "aprobada": "2026-11-02",
      "huella": "4881e87ea9b88d92",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "ba2958f7a5063cdd",
+     "nota": "RV3 2026-11-02: ADN-006, ADN-007, CON-004, CON-006, CON-008, REF-001"
     }
    ]
   },
@@ -1507,7 +1512,7 @@
   "marca/adn.html#propuesta": {
    "estado": "vigente",
    "id": "KYN-MRK-ADN-006",
-   "texto": "Propuesta de valor Cinco promesas concretas Ayudamos a las organizaciones a trabajar con mayor claridad, eficiencia y confianza, mediante soluciones que responden a sus necesidades y acompañan su evolución. 01Resolvemos lo que realmente importa Convertimos necesidades operativas en soluciones que simplifican el trabajo y permiten concentrar tiempo y recursos en lo que aporta valor. 02Damos claridad para decidir Facilitamos información comprensible sobre el alcance, los avances y las decisiones relevantes, con el seguimiento que corresponde a cada servicio. 03Protegemos la información desde el diseño Incorporamos la protección de datos y los controles de seguridad adecuados a las características, riesgos y obligaciones aplicables de cada solución. 04Simplificamos la coordinación Organizamos las responsabilidades incluidas en cada servicio para facilitar la comunicación, reducir fricciones y evitar trasladar complejidades innecesarias al cliente. 05Diseñamos para evolucionar Construimos soluciones que pueden incorporar mejoras y nuevas capacidades conforme cambian las necesidades del negocio, dentro de las posibilidades de cada producto o servicio.",
+   "texto": "Propuesta de valor Cinco promesas concretas Ayudamos a las organizaciones a trabajar con mayor claridad, eficiencia y confianza, mediante soluciones que responden a sus necesidades y acompañan su evolución. 01Resolvemos lo que realmente importa Convertimos necesidades operativas en soluciones que simplifican el trabajo y permiten concentrar tiempo y recursos en lo que aporta valor. 02Damos claridad para decidir Facilitamos información comprensible sobre el alcance, los avances y las decisiones relevantes, con el seguimiento que corresponde a cada servicio. 03Protegemos la información desde el diseño Incorporamos la protección de datos y los controles de seguridad adecuados a las características, riesgos y obligaciones aplicables de cada solución. 04Simplificamos la coordinación Organizamos las responsabilidades incluidas en cada servicio para facilitar la comunicación, reducir fricciones y evitar trasladar complejidades innecesarias al cliente. 05Diseñamos para evolucionar Construimos soluciones que incorporan mejoras y nuevas capacidades conforme cambian las necesidades del negocio, dentro de las posibilidades de cada producto o servicio.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1523,6 +1528,11 @@
      "aprobada": "2026-11-02",
      "huella": "a2d8ffa76b4c9bd5",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "16c785842409220c",
+     "nota": "RV3 2026-11-02: ADN-006, ADN-007, CON-004, CON-006, CON-008, REF-001"
     }
    ]
   },
@@ -1590,7 +1600,7 @@
   "marca/composicion.html#anti": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-008",
-   "texto": "Anti-referentes Lo que evitamos y qué hacemos en su lugar Saber qué no somos protege la singularidad tanto como saber qué somos. (Lo que evitamos)(En Keyons) La IA como espectáculoCircuitos, cerebros digitales, robots, wireframes azules.La vida real que la tecnología toca. El degradado violeta-cyanEl lenguaje genérico de \"empresa de IA\", sin fotografía ni personas.Cielos propios y presencia humana. La consultora tradicionalAzul marino, ejecutivos de banco de imágenes, ilustración isométrica.Calidez, textura y arraigo local. El caos indieValores fuertes expresados con desorden y gritos visuales.Valores fuertes, expresados con serenidad. La startup genéricaColores flúor, personajes exagerados, degradados saturados.Sobriedad deliberada. Producción visual sin criterioImágenes o composiciones generadas sin una intención reconocible, que podrían pertenecer indistintamente a cualquier marca.Dirección artística propiaIdeas visuales justificadas por el contenido, con autoría y criterio reconocibles en su concepción y ejecución. La originalidad no depende de añadir textura, desgaste o imperfecciones.",
+   "texto": "Anti-referentes Lo que evitamos y qué hacemos en su lugar Saber qué no somos protege la singularidad tanto como saber qué somos. (Lo que evitamos)(En Keyons) La IA como espectáculoCircuitos, cerebros digitales, robots, wireframes azules.La vida real que la tecnología toca. El degradado violeta-cyanEl lenguaje genérico de \"empresa de IA\", sin fotografía ni personas.Cielos propios y presencia humana. La consultora tradicionalAzul marino, ejecutivos de banco de imágenes, ilustración isométrica.Calidez, textura y arraigo local. El caos indieValores fuertes expresados con desorden y gritos visuales.Valores fuertes, expresados con serenidad. La startup genéricaColores flúor, personajes exagerados, degradados saturados.Sobriedad deliberada. Producción visual sin criterioImágenes o composiciones sin intención reconocible, que podrían pertenecer a cualquier marca.Dirección artística propiaIdeas visuales justificadas por el contenido, con autoría y criterio claros en su concepción y ejecución. La originalidad no depende de añadir textura, desgaste o imperfecciones.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1606,6 +1616,11 @@
      "aprobada": "2026-11-02",
      "huella": "59f846402d59ba84",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "9821d478b5e52daf",
+     "nota": "RV3 2026-11-02: ADN-006, ADN-007, CON-004, CON-006, CON-008, REF-001"
     }
    ]
   },
@@ -1636,7 +1651,7 @@
   "marca/composicion.html#reglas": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-006",
-   "texto": "Reglas de composición Cuatro criterios para la composición expresiva Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor. 01Presencia humanaLa presencia humana se reconoce en la intención, las decisiones creativas y el criterio que sostiene cada pieza. Puede expresarse mediante fotografía, ilustración, composición o recursos abstractos, sin necesidad de representar literalmente personas ni introducir imperfecciones artificiales. 02Dirección humana, creación sin límites de herramientaLa creación puede combinar fotografía, ilustración, diseño digital, inteligencia artificial y otros medios de producción.La IA puede utilizarse para generar imágenes originales desde cero, transformar materiales o desarrollar nuevas posibilidades visuales.Cada resultado debe responder a una dirección artística definida, ser revisado por una persona responsable y cumplir los estándares de identidad, originalidad y calidad de Keyons.El uso de IA no justifica composiciones genéricas ni sustituye el criterio creativo. 03Cielo propioCuando una pieza utiliza fotografías documentales del cielo, estas deben tener procedencia verificable y cumplir las reglas del Diario de Cielos.Las composiciones también pueden incorporar degradados oficiales e interpretaciones artísticas del cielo. Las imágenes sintéticas no deben presentarse como fotografías auténticas de lugares o acontecimientos reales. 04Singularidad verificableAntes de publicar, la pieza se compara con lo que no somos. Si podría ser de otra marca, vuelve a diseño. La creatividad nace del criterio. La tecnología amplía sus posibilidades. Condiciones de aplicación No es obligatorio utilizar IA en las piezas gráficas. La generación de imágenes desde cero está permitida. Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana. Las imágenes documentales deben distinguirse de las representaciones artísticas. Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas. Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.",
+   "texto": "Reglas de composición Cuatro criterios para la composición expresiva Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor. 01Presencia humanaLa presencia se reconoce en la intención, las decisiones creativas y el criterio que sostiene cada pieza. Puede expresarse mediante fotografía, ilustración o recursos abstractos, sin necesidad de representar personas ni añadir imperfecciones artificiales. 02Dirección humana, creación sin límites de herramientaLa creación puede integrar fotografía, ilustración, diseño digital, inteligencia artificial y otros medios de producción. Cada resultado responde a una dirección artística definida, revisada por una persona responsable y alineada con los estándares de identidad y calidad de Keyons. 03Cielo propioLas piezas que utilizan fotografías documentales del cielo deben tener procedencia verificable y cumplir las reglas del Diario de Cielos. También pueden incorporar degradados oficiales o interpretaciones artísticas, evitando presentar imágenes sintéticas como fotografías auténticas. 04Singularidad verificableAntes de publicarse, cada pieza se contrasta con lo que no representa a la marca. Si la composición pudiera confundirse con otra identidad, regresa a diseño para asegurar su carácter único y diferenciado. La creatividad nace del criterio. La tecnología amplía sus posibilidades. Condiciones de aplicación No es obligatorio utilizar IA en las piezas gráficas. La generación de imágenes desde cero está permitida. Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana. Las imágenes documentales deben distinguirse de las representaciones artísticas. Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas. Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1662,6 +1677,11 @@
      "aprobada": "2026-11-02",
      "huella": "aaaf244059a5c3ab",
      "nota": "Revisión 2026-11-02: CON-006, VOZ-002, VOZ-004; diagramación DIS-003 y VOZ-006"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "d119d683701c3226",
+     "nota": "RV3 2026-11-02: ADN-006, ADN-007, CON-004, CON-006, CON-008, REF-001"
     }
    ]
   },
@@ -1685,7 +1705,7 @@
   "marca/metaforas.html#condiciones": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-004",
-   "texto": "Sistema de metáforas Cinco condiciones Una sola metáfora no alcanza para expresar todo lo que es Keyons. Una metáfora es Keyons cuando cumple las cinco. 01 Anclaje realNace de un elemento cotidiano e hiperreconocible. (Criterio)La primera lectura debe ser comprensible sin una explicación previa, aunque la composición permita descubrir nuevos significados al observarla con mayor atención. 02 Composición en capasElementos ordenados para un descubrimiento progresivo. (Criterio)Revela un significado nuevo al observarla por segunda vez. 03 Propósito directoLa creatividad responde estrictamente al objetivo del mensaje. (Criterio)El objetivo (entender, sentir, actuar) se sintetiza en una sola línea. 04 Presencia humanaLa autoría humana se reconoce en la elección de los recursos, la construcción de la idea y el criterio aplicado a la composición. (Criterio)No requiere incorporar manchas, desgastes ni imperfecciones artificiales. Un recurso gráfico preciso y limpio también puede expresar autoría y sensibilidad humana. 05 Integración atmosféricaEl cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz o como reflejo. (Criterio)Nace desde el boceto inicial, nunca como un filtro o adhesivo final.",
+   "texto": "Sistema de metáforas Cinco condiciones Una sola metáfora no alcanza para expresar todo lo que es Keyons. Una metáfora es Keyons cuando cumple las cinco. 01 Anclaje realNace de un elemento cotidiano e hiperreconocible. (Criterio)La primera lectura debe ser clara y comprensible sin explicación previa, aunque la composición permita descubrir significados adicionales al observarla con más detalle. 02 Composición en capasElementos ordenados para un descubrimiento progresivo. (Criterio)Revela un significado nuevo al observarla por segunda vez. 03 Propósito directoLa creatividad responde estrictamente al objetivo del mensaje. (Criterio)El objetivo (entender, sentir, actuar) se sintetiza en una sola línea. 04 Presencia humanaLa autoría se reconoce en la elección de recursos y en la construcción de la idea. (Criterio)No requiere imperfecciones artificiales: un diseño limpio también expresa sensibilidad humana. 05 Integración atmosféricaEl cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz o como reflejo. (Criterio)Nace desde el boceto inicial, nunca como un filtro o adhesivo final.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1701,6 +1721,11 @@
      "aprobada": "2026-11-02",
      "huella": "5267db0d9b0604ad",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "8a9c2d26242906b7",
+     "nota": "RV3 2026-11-02: ADN-006, ADN-007, CON-004, CON-006, CON-008, REF-001"
     }
    ]
   },
@@ -2120,7 +2145,7 @@
   "recursos/referencia.html#nomenclatura": {
    "estado": "vigente",
    "id": "KYN-MRK-REF-001",
-   "texto": "Nomenclatura Un código por regla Toda directriz de este manual se identifica con la clave KYN-MRK-XXX-###. El código no cambia aunque cambie la numeración de las secciones: es la forma oficial de citar una regla. KYN-MRK-COL-001 (KYN · Empresa)Siglas fijas de Keyons. (MRK · Manual)Declara al Manual de Marca como dueño de la norma. Producto usa PRD y Comercial, COM. (COL · Capítulo)Tres o cuatro letras en mayúsculas con el tema del capítulo. (001 · Número)Correlativo de tres dígitos dentro del capítulo, en orden de emisión. Cinco reglas innegociables 01Inmutabilidad de los IDUn identificador emitido nunca se renombra, se elimina ni se reutiliza. Si una regla se descontinúa o cambia, se marca como [DESCONTINUADA] y su número queda reservado para conservar la trazabilidad. 02Numeración sin subcódigosLas normas siguen un orden correlativo simple dentro de su capítulo (COL-001, COL-002). Aunque el capítulo se ordene en secciones, no hay subdivisiones con puntos: COL-001.1 o COL-001.A no existen. 03AntiduplicaciónEl Manual de Marca es el único dueño de la identidad visual, los colores, la tipografía y la estética (KYN-PRD-GOB-004). Producto y Comercial no copian reglas de diseño: citan el ID de Marca. 04Citas por IDEntre equipos y entre manuales hermanos se cita solo el ID completo, por ejemplo «conforme a KYN-MRK-COL-001». El texto de la norma nunca se copia en otro documento, para que no se desactualice. 05Contratos externosCuando una regla de marca debe figurar en un contrato con terceros, como agencias o diseñadores externos, se redacta la cláusula completa y el ID va al final, solo como referencia administrativa. Códigos de capítuloEn cada sección, el ID ocupa el lugar del número y se copia con un clic. Recursos usa los mismos códigos, con sus propios capítulos.ADNADNCONConceptoDISPrincipios de diseñoVOZVozESTEstelaLOGIdentidadCOLColorTYPTipografíaESPForma y espacioCMPComposicionesVISCriterios visualesILUElementos gráficosICOIconografíaDATDatosMOVMovimientoACCAccesibilidadCORCorporativoEXPExpresivoUIDigitalDOCDocumentosPREPresentacionesWEBSitio webREDRedes y campañasEVTEventos y merchPERPersonalizaciónGALGalería de imágenesTEXTexturas y degradadosICNÍconosPLAPlantillas y documentosREFReferencia",
+   "texto": "Nomenclatura Un código por regla Toda directriz de este manual se identifica con la clave KYN-MRK-XXX-###. El código no cambia aunque cambie la numeración de las secciones: es la forma oficial de citar una regla. KYN-MRK-COL-001 (KYN · Empresa)Siglas fijas de Keyons. (MRK · Manual)Declara al Manual de Marca como dueño de la norma. Producto usa PRD y Comercial, COM. (COL · Capítulo)Tres o cuatro letras en mayúsculas con el tema del capítulo. (001 · Número)Correlativo de tres dígitos dentro del capítulo, en orden de emisión. Cinco reglas innegociables 01Inmutabilidad de los IDUn identificador emitido nunca se renombra, se elimina ni se reutiliza. Si una regla se descontinúa o cambia, se marca como [DESCONTINUADA] y su número queda reservado para conservar la trazabilidad. 02Numeración sin subcódigosLas normas siguen un orden correlativo simple dentro de su capítulo (COL-001, COL-002). Aunque el capítulo se ordene en secciones, no hay subdivisiones con puntos: COL-001.1 o COL-001.A no existen. 03AntiduplicaciónEl Manual de Marca es el único dueño de la identidad visual, los colores, la tipografía y la estética (KYN-PRD-GOB-004). Producto y Comercial no copian reglas de diseño: citan el ID de Marca. 04Citas por IDEntre equipos y entre manuales hermanos se cita solo el ID completo, por ejemplo «conforme a KYN-MRK-COL-001». El texto de la norma nunca se copia en otro documento, para que no se desactualice. 05Contratos externosCuando una regla de marca debe figurar en un contrato con terceros, como agencias o diseñadores externos, se redacta la cláusula completa y el ID va al final, solo como referencia administrativa. Códigos de capítuloEn cada sección, el ID ocupa el lugar del número y se copia con un clic. Recursos usa los mismos códigos, con sus propios capítulos.ADNADNCONConceptoDISPrincipiosVOZVozESTEstelaLOGIdentidadCOLColorTYPTipografíaESPForma y espacioCMPComposicionesVISCriterios visualesILUElementos gráficosICOIconografíaDATDatosMOVMovimientoACCAccesibilidadCORCorporativoEXPExpresivoUIDigitalDOCDocumentosPREPresentacionesWEBSitio webREDRedes y campañasEVTEventos y merchPERPersonalizaciónGALGalería de imágenesTEXTexturas y degradadosICNÍconosPLAPlantillas y documentosREFReferencia",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2136,6 +2161,11 @@
      "aprobada": "2026-10-30",
      "huella": "3b9b036be4128f67",
      "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "00f15d8dbf6ac333",
+     "nota": "RV3 2026-11-02: ADN-006, ADN-007, CON-004, CON-006, CON-008, REF-001"
     }
    ]
   },

@@ -20,7 +20,7 @@ Número: 2.4 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/com
 
 ##### Familiar y disruptivo a la vez
 
-Cada pieza combina dos fuerzas. El peso de cada una depende de lo que la pieza necesita comunicar.
+Cada pieza combina **dos fuerzas**. El peso de cada una depende de lo que la pieza necesita comunicar.
 
 **(Lo familiar)**
 Un escenario cotidiano donde el cliente se reconoce y se siente seguro. Es lo que abre la puerta.

@@ -20,7 +20,7 @@ Número: 1.4.2 · Estado: vigente · Capítulo: 01 ADN · Fuente: `/marca/adn.ht
 
 ##### Cinco promesas concretas
 
-Ayudamos a las organizaciones a trabajar con mayor claridad, eficiencia y confianza, mediante soluciones que responden a sus necesidades y acompañan su evolución.
+Ayudamos a las organizaciones a trabajar con **mayor claridad, eficiencia y confianza**, mediante soluciones que responden a sus necesidades y acompañan su evolución.
 
 **01 · Resolvemos lo que realmente importa**
 
@@ -40,4 +40,4 @@ Organizamos las responsabilidades incluidas en cada servicio para facilitar la c
 
 **05 · Diseñamos para evolucionar**
 
-Construimos soluciones que pueden incorporar mejoras y nuevas capacidades conforme cambian las necesidades del negocio, dentro de las posibilidades de cada producto o servicio.
+Construimos soluciones que incorporan mejoras y nuevas capacidades conforme cambian las necesidades del negocio, dentro de las posibilidades de cada producto o servicio.

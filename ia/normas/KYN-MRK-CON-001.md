@@ -20,7 +20,7 @@ Número: 2.1 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/cie
 
 ##### Un mismo cielo, ningún horizonte igual
 
-Los retos de eficiencia, orden y crecimiento se repiten entre industrias, pero cada organización los enfrenta desde una realidad diferente. Por eso nuestras soluciones responden a distintos niveles de adaptación, sin perder de vista las necesidades de quienes las utilizan.
+Los retos de eficiencia, orden y crecimiento se repiten entre industrias, pero cada organización los enfrenta desde una realidad diferente. Por eso nuestras soluciones responden a **distintos niveles de adaptación**, sin perder de vista las necesidades de quienes las utilizan.
 
 **(Universal)**
 El cielo es el único lenguaje visual que no necesita traducción. Cualquiera lo entiende, en cualquier idioma y cultura. Eso permite que Keyons hable con cualquier organización, en cualquier país, sin perder identidad.
