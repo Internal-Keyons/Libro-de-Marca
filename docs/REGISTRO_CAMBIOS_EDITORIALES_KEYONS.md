@@ -51,7 +51,7 @@ Documentación de desarrollo. No forma parte del Libro de Marca ni se enlaza des
 | KYN-MRK-CON-003 | 2.1.2 Diario de Cielos | cielo.html#diario | Vigente | Agregar párrafo al final de «Firma humana» | RC 02-11 | Implementada | Pendiente | `1002216` |
 | KYN-MRK-CON-004 | 2.2 Sistema de metáforas | metaforas.html#condiciones | Vigente | Criterios de 01 y 04 | RC 02-11 | Implementada. En 04, el primer párrafo es la explicación y el segundo el criterio | Pendiente | `1002216` |
 | KYN-MRK-CON-005 | 2.2.1 Formalidad según canal | metaforas.html#canal | Vigente | Conservar; corregir numeración | RC 02-11 | Numeración corregida. Se conserva la nota redactada por IA (ver «Pendientes») | Pendiente | `1002216` |
-| KYN-MRK-CON-006 | 2.3 Reglas de composición | composicion.html#reglas | Vigente | Revisión de la norma: introducción, cuatro criterios, cierre y condiciones de aplicación | Revisión CON-006, 2026-11-02 (RV 02-11) | Implementada. Criterio 02 nuevo: «Dirección humana, creación sin límites de herramienta». Las condiciones de aplicación van plegadas bajo el cierre | Pendiente | RV 02-11 |
+| KYN-MRK-CON-006 | 2.3 Reglas de composición | composicion.html#reglas | Vigente | Revisión de la norma: introducción, cuatro criterios, cierre y condiciones de aplicación | Revisión CON-006, 2026-11-02 (RV 02-11) | Implementada. Criterio 02 nuevo: «Dirección humana, creación sin límites de herramienta». Las condiciones de aplicación van plegadas bajo el cierre | Pendiente | `8eaee97` |
 | KYN-MRK-CON-007 | 2.4 Regla del contraste | composicion.html#contraste | Vigente | Conservar | — | Sin cambios | Pendiente | `c3e33d7` |
 | KYN-MRK-CON-008 | 2.5 Anti-referentes | composicion.html#anti | Vigente | Sustituir la última comparación | RC 02-11 | Implementada. La nota final sustituye a la anterior sobre texturas | Pendiente | `1002216` |
 | KYN-MRK-CON-009 | 2.6 Herencia estética | composicion.html#herencia | Vigente | Conservar | — | Sin cambios | Pendiente | `c3e33d7` |
@@ -62,7 +62,7 @@ Documentación de desarrollo. No forma parte del Libro de Marca ni se enlaza des
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | KYN-MRK-DIS-001 | 3.1 Identidad y criterio | #criterio | Vigente | Conservar | — | Sin cambios | Pendiente | `8747573` |
 | KYN-MRK-DIS-002 | 3.2 Roles definidos | #capas | Vigente | Sustituir «Marca exclusiva del cliente»; una precisión «Estética predeterminada» | RC 02-11 | Implementada. Sale «(Productos con estética predeterminada)», reemplazado por la nueva precisión | Pendiente | `1002216` |
-| KYN-MRK-DIS-003 | 3.3 Calma y expresión | #calma | Vigente | Nueva diagramación, mismos textos | RC 02-11; diagramación RV 02-11 | Implementada. Dos conceptos con nombre y descripción, filete Azul Noche y sin divisor vertical; se apilan por debajo de 1200 px con barra lateral y en móvil | Pendiente | `de4d992`, RV 02-11 |
+| KYN-MRK-DIS-003 | 3.3 Calma y expresión | #calma | Vigente | Nueva diagramación, mismos textos | RC 02-11; diagramación RV 02-11 | Implementada. Dos conceptos con nombre y descripción, filete Azul Noche y sin divisor vertical; se apilan por debajo de 1200 px con barra lateral y en móvil | Pendiente | `de4d992`, `8eaee97` |
 | KYN-MRK-DIS-004 | 3.4 Según contexto | #contexto | Vigente | Una precisión después de «Una herramienta operativa» | RC 02-11 | Implementada con el rótulo existente «(Dentro de una misma experiencia)» | Pendiente | `1002216` |
 | KYN-MRK-DIS-005 | 3.5 Claridad primero | #comprension | Vigente | Una precisión al cierre | RC 02-11 | Implementada como texto de apoyo. Sale «(Claridad ante las dificultades)», de tres párrafos | Pendiente | `1002216` |
 | KYN-MRK-DIS-006 | 3.6 Calidad sin firma visible | (sin sección) | Descontinuada | — | — | ID reservado; texto en Git | — | `8747573` |
@@ -74,11 +74,11 @@ La revisión consolidada reemplaza la propuesta de Voz del 2026-11-02 16:50.
 | Código | Subcapítulo | Ancla | Estado actual | Operación | Redacción aprobada | Implementación | Validación visual | Commit |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | KYN-MRK-VOZ-001 | 4.1 Esencia de la voz | voz.html#modos | Vigente | Una única precisión | RC 02-11 | Implementada como texto de apoyo después del cierre. Sale «La voz según su aplicación» | Pendiente | `1002216` |
-| KYN-MRK-VOZ-002 | 4.2 Reglas de escritura | voz.html#reglas | Vigente | Mejorar explicaciones y dos ejemplos «En Keyons» | RC 02-11; textos RV 02-11 | Implementada. En 01 se conserva el título «Afirmar antes que negar» (ver Pendientes). Los ejemplos «Antes» no cambian | Pendiente | RV 02-11 |
+| KYN-MRK-VOZ-002 | 4.2 Reglas de escritura | voz.html#reglas | Vigente | Mejorar explicaciones y dos ejemplos «En Keyons» | RC 02-11; textos RV 02-11 | Implementada. En 01 se conserva el título «Afirmar antes que negar» (ver Pendientes). Los ejemplos «Antes» no cambian | Pendiente | `8eaee97` |
 | KYN-MRK-VOZ-003 | 4.3 Vocabulario propio | vocabulario.html#propio | Vigente | Introducción y tres definiciones | RC 02-11 | Implementada | Pendiente | `1002216` |
-| KYN-MRK-VOZ-004 | 4.4 Vocabulario que evitamos | vocabulario.html#evita | Vigente | Sustituir texto principal | RV 02-11 | Implementada | Pendiente | RV 02-11 |
+| KYN-MRK-VOZ-004 | 4.4 Vocabulario que evitamos | vocabulario.html#evita | Vigente | Sustituir texto principal | RV 02-11 | Implementada | Pendiente | `8eaee97` |
 | KYN-MRK-VOZ-005 | 4.5 El trato | trato.html#usted | Vigente | Excepción de Estela; precisión sobre productos de clientes | RC 02-11 | Implementada. La precisión reemplaza el bloque anterior de clientes, con su rótulo | Pendiente | `1002216` |
-| KYN-MRK-VOZ-006 | 4.6 Primera o tercera persona | trato.html#persona | Vigente | Aligerar la composición | RC 02-11; diagramación RV 02-11 | Implementada. Las definiciones aprobadas de tercera y primera persona pasan a las notas del ejemplo y salen los dos bloques que las repetían. Queda «Consistencia» | Pendiente | RV 02-11 |
+| KYN-MRK-VOZ-006 | 4.6 Primera o tercera persona | trato.html#persona | Vigente | Aligerar la composición | RC 02-11; diagramación RV 02-11 | Implementada. Las definiciones aprobadas de tercera y primera persona pasan a las notas del ejemplo y salen los dos bloques que las repetían. Queda «Consistencia» | Pendiente | `8eaee97` |
 | KYN-MRK-VOZ-007 | 4.7 De lo técnico a lo humano | trato.html#traduccion | Vigente | Introducción, cuatro principios y diez definiciones | RC 02-11 | Implementada. «Context window» ya coincidía | Pendiente | `1002216` |
 
 ## Decisiones de presentación tomadas al implementar
