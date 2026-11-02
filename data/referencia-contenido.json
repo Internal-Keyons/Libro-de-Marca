@@ -2003,7 +2003,7 @@
   "marca/voz.html#reglas": {
    "estado": "vigente",
    "id": "KYN-MRK-VOZ-002",
-   "texto": "Reglas de escritura Cuatro principios para escribir con claridad Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su propósito es comunicar ideas concretas con naturalidad y precisión. 01Afirmar antes que negarPreferimos explicar qué hacemos y qué proponemos. Usamos la negación solo cuando es necesaria para comunicar un límite, una prohibición o una condición relevante. (Antes)No somos una consultora tradicional.(En Keyons)Keyons diseña la IA en torno al trabajo de su equipo. 02Una idea principal por fraseCada oración debe tener una intención clara. Dividimos frases cuando acumulan ideas que dificultan la comprensión. (Antes)Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnología a la medida.(En Keyons)Automatizamos lo repetitivo. Su equipo gana tiempo para pensar. 03Lo concreto antes que lo abstractoExplicamos acciones, beneficios y situaciones reconocibles. Los conceptos abstractos se usan solo con contexto suficiente. (Antes)Libertad y propósito.(En Keyons)Libertad para pensar en el negocio. 04Verbos precisos antes que adjetivos genéricosElegimos verbos que describan acciones reales. Los adjetivos deben aportar información, nunca sustituirla. (Antes)Creamos soluciones innovadoras.(En Keyons)Diseñamos a partir de su operación. Antes de aprobar un texto, comprobamos que comunica algo concreto, resulta comprensible y suena natural al leerlo.",
+   "texto": "Reglas de escritura Cuatro principios para escribir con claridad Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su propósito es comunicar ideas concretas con naturalidad y precisión. 01Afirmar antes que negarPreferimos explicar qué hacemos y proponemos. Usamos la negación solo cuando es necesaria para comunicar un límite, una prohibición o una condición relevante. (Antes)No somos una consultora tradicional.(En Keyons)Keyons diseña la IA en torno al trabajo de su equipo. 02Una idea principal por fraseCada oración debe tener una intención clara. Dividimos frases cuando acumulan ideas que dificultan la comprensión. (Antes)Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnología a la medida.(En Keyons)Automatizamos lo repetitivo. Su equipo gana tiempo para pensar. 03Lo concreto antes que lo abstractoExplicamos acciones, beneficios y situaciones reconocibles. Los conceptos abstractos se usan solo con contexto suficiente. (Antes)Libertad y propósito.(En Keyons)Libertad para pensar en el negocio. 04Verbos precisos antes que adjetivos genéricosElegimos verbos que describan acciones reales. Los adjetivos deben aportar información, nunca sustituirla. (Antes)Creamos soluciones innovadoras.(En Keyons)Diseñamos a partir de su operación. Antes de aprobar un texto, comprobamos que comunica algo concreto, resulta comprensible y suena natural al leerlo.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2024,6 +2024,11 @@
      "aprobada": "2026-11-02",
      "huella": "bad3f9130b901ad4",
      "nota": "Revisión 2026-11-02: CON-006, VOZ-002, VOZ-004; diagramación DIS-003 y VOZ-006"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "7f6b4b77c8fc258e",
+     "nota": "VOZ-002 principio 01 · instrucción 2026-11-02"
     }
    ]
   },

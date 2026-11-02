@@ -65,7 +65,7 @@ Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su 
 
 01
 Afirmar antes que negar
-Preferimos explicar qué hacemos y qué proponemos. Usamos la negación solo cuando es necesaria para comunicar un límite, una prohibición o una condición relevante.
+Preferimos explicar qué hacemos y proponemos. Usamos la negación solo cuando es necesaria para comunicar un límite, una prohibición o una condición relevante.
 
 **(Antes)**
 No somos una consultora tradicional.
