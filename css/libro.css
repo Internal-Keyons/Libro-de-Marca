@@ -4069,3 +4069,9 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
 .hdr__panel .hdr__panel-alt a:hover,.hdr__panel .hdr__panel-alt a:focus-visible{color:var(--color-text-2);background-size:100% 1px}
 /* Las franjas son bajas: muestran un corte de un lienzo más alto, como hacía la imagen con «cover» */
 .area__color.grad,.band.grad{background-size:100% 320%;background-position:50% 58%}
+/* Encabezados de Marca, Fundamentos y Recursos: solo el degradado natural y el grano, sin zonas de luz */
+:root{
+  --g-cielo:linear-gradient(180deg,#4F7BBF 0%,#638FD3 50%,#86ABE5 100%);
+  --g-noche:linear-gradient(180deg,#0F1128 0%,#15172F 55%,#22243B 100%);
+}
+.grad--cielo.area__color,.grad--cielo.band,.grad--noche.area__color,.grad--noche.band{background-size:100% 100%;background-position:center}
