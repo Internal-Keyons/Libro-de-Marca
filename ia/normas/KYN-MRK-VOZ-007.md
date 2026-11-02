@@ -20,7 +20,7 @@ Número: 4.7 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/trato.ht
 
 ##### Lo que hace, no cómo se llama
 
-Explicamos la tecnología desde su función y su utilidad para las personas. Utilizamos términos técnicos cuando aportan precisión y los acompañamos de una explicación comprensible cuando el lector la necesita.
+Explicamos la tecnología desde **su función y su utilidad** para las personas. Utilizamos términos técnicos cuando aportan precisión y los acompañamos de una explicación comprensible cuando el lector la necesita.
 
 Simplificar no significa alterar el significado ni prometer capacidades que el sistema no tiene.
 

@@ -20,7 +20,7 @@ Número: 4.2 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/voz.html
 
 ##### Cuatro principios para escribir con claridad
 
-Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su propósito es comunicar ideas concretas con naturalidad y precisión.
+Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su propósito es comunicar ideas concretas con **naturalidad y precisión**.
 
 01
 Afirmar antes que negar

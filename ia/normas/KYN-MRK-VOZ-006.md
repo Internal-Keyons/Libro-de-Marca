@@ -20,7 +20,7 @@ Número: 4.6 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/trato.ht
 
 ##### Una voz coherente, en primera o tercera persona
 
-Utilizamos la tercera persona cuando conviene presentar formalmente a Keyons. La primera persona plural expresa nuestros compromisos, decisiones y acciones.
+Utilizamos la **tercera persona** cuando conviene presentar formalmente a Keyons. La **primera persona plural** expresa nuestros compromisos, decisiones y acciones.
 
 La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo.
 

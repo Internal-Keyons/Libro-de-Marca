@@ -61,7 +61,7 @@ Número: 4.2 · ID: `KYN-MRK-VOZ-002` · Estado: vigente · Fuente: `/marca/voz.
 
 ### Cuatro principios para escribir con claridad
 
-Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su propósito es comunicar ideas concretas con naturalidad y precisión.
+Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su propósito es comunicar ideas concretas con **naturalidad y precisión**.
 
 01
 Afirmar antes que negar
@@ -117,7 +117,7 @@ Número: 4.3 · ID: `KYN-MRK-VOZ-003` · Estado: vigente · Fuente: `/marca/voca
 
 ### Las palabras que usamos
 
-Las palabras que elegimos ayudan a construir una identidad reconocible. Su valor está en la precisión con que describen nuestro trabajo, no en repetirlas por obligación.
+Las palabras que elegimos ayudan a construir una **identidad reconocible**. Su valor está en la precisión con que describen nuestro trabajo, no en repetirlas por obligación.
 
 - **Arquitectura operativa**: La forma en que una empresa opera. Más precisa que «procesos», menos fría que «sistemas».
 - **Diagnóstico**: Lo que ocurre antes de proponer. Ancla la metodología frente a quienes venden sin entender.
@@ -136,7 +136,7 @@ Número: 4.4 · ID: `KYN-MRK-VOZ-004` · Estado: vigente · Fuente: `/marca/voca
 
 ### Las palabras gastadas
 
-Priorizamos expresiones con significado concreto. Cuando un término aporta precisión, lo utilizamos; si funciona como promesa vacía, explicamos directamente lo que queremos comunicar.
+Priorizamos expresiones con **significado concreto**. Cuando un término aporta precisión, lo utilizamos; si funciona como promesa vacía, explicamos directamente lo que queremos comunicar.
 
 Transformación digital
 Nombrar qué cambia: una operación, una forma de trabajar, un flujo.
@@ -229,7 +229,7 @@ Número: 4.6 · ID: `KYN-MRK-VOZ-006` · Estado: vigente · Fuente: `/marca/trat
 
 ### Una voz coherente, en primera o tercera persona
 
-Utilizamos la tercera persona cuando conviene presentar formalmente a Keyons. La primera persona plural expresa nuestros compromisos, decisiones y acciones.
+Utilizamos la **tercera persona** cuando conviene presentar formalmente a Keyons. La **primera persona plural** expresa nuestros compromisos, decisiones y acciones.
 
 La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo.
 
@@ -252,7 +252,7 @@ Número: 4.7 · ID: `KYN-MRK-VOZ-007` · Estado: vigente · Fuente: `/marca/trat
 
 ### Lo que hace, no cómo se llama
 
-Explicamos la tecnología desde su función y su utilidad para las personas. Utilizamos términos técnicos cuando aportan precisión y los acompañamos de una explicación comprensible cuando el lector la necesita.
+Explicamos la tecnología desde **su función y su utilidad** para las personas. Utilizamos términos técnicos cuando aportan precisión y los acompañamos de una explicación comprensible cuando el lector la necesita.
 
 Simplificar no significa alterar el significado ni prometer capacidades que el sistema no tiene.
 

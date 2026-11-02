@@ -20,7 +20,7 @@ Número: 2.2.1 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/m
 
 ##### El canal define la libertad
 
-Antes de producir, el equipo se pregunta dónde vivirá la pieza y en qué modo mental la encontrará el receptor. Los canales van de más libertad a más contención.
+Antes de producir, el equipo se pregunta **dónde vivirá la pieza** y en qué modo mental la encontrará el receptor. Los canales van de más libertad a más contención.
 
 Instagram, TikTok y Facebook
 **(Receptor)** · Explorando, dispuesto a sorprenderse. **(Metáforas)** · Audaces, con humor de criterio y guiños locales.

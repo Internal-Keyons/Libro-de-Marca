@@ -14,7 +14,7 @@ Escrito una vez en el libro (HTML) y publicado en tres formas: lectura visual, d
 
 - [01 ADN](/ia/capitulos/01-adn.md): La esencia, el propósito y los principios que no se negocian.
 - [02 Concepto](/ia/capitulos/02-concepto.md): El cielo como símbolo, las metáforas y lo que no somos.
-- [03 Principios de diseño](/ia/capitulos/03-principios.md): Cinco principios que guían cada decisión de diseño de Keyons, con su marca o la del cliente.
+- [03 Principios](/ia/capitulos/03-principios.md): Cinco principios que guían cada decisión de diseño de Keyons, con su marca o la del cliente.
 - [04 Voz](/ia/capitulos/04-voz.md): Cómo escribe Keyons: dos modos, cuatro reglas y un vocabulario propio.
 - [05 Estela](/ia/capitulos/05-estela.md): La cara de Keyons: quién es, cómo habla, cómo se ve y cómo actúa.
 - [06 Identidad](/ia/capitulos/06-identidad.md): Logotipo, isotipo e insignia: construcción y uso.

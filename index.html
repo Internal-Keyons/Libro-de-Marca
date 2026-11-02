@@ -42,9 +42,9 @@ h1{font-family:var(--font-display);font-size:clamp(52px,7.4vw,112px);font-weight
 @media(hover:hover){.row__d{max-height:0;opacity:0;overflow:hidden;transition:max-height var(--m-slow) var(--e-out),opacity var(--m-base) var(--e-out),margin var(--m-slow) var(--e-out)}
   a.row:hover .row__d,a.row:focus-visible .row__d,.row--off:hover .row__d,.row--off:focus-visible .row__d{max-height:140px;opacity:1;margin-top:var(--s2)}}
 @media(hover:none){.row__d{margin-top:var(--s2)}}
-.row__go{width:40px;height:40px;display:grid;place-items:center;border-radius:var(--r-pill);box-shadow:inset 0 0 0 1.5px var(--btn-outline-border);transition:background-color var(--m-fast) var(--e-out),transform var(--m-base) var(--e-out)}
+.row__go{width:40px;height:40px;display:grid;place-items:center;border-radius:var(--r-pill);border:1px solid rgba(168,170,181,.7);color:var(--k-gris-4);transition:background-color var(--m-base) var(--e-io),border-color var(--m-base) var(--e-io),color var(--m-base) var(--e-io),transform var(--m-base) var(--e-out)}
 .row__go svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-a.row:hover .row__go{background:var(--k-cielo);box-shadow:none}
+a.row:hover .row__go{background:var(--k-noche);border-color:var(--k-noche);color:#fff}
 a.row:focus-visible,.row--off:focus-visible{outline:2px solid var(--color-focus);outline-offset:4px}
 .row--off .row__t{color:var(--color-text-3)}
 /* Badges: el color vive en el fondo; texto e ícono en Azul Noche */
@@ -87,7 +87,6 @@ a.row:focus-visible,.row--off:focus-visible{outline:2px solid var(--color-focus)
   <div class="wrap">
     <div class="shelf__h">
       <h2>Seis manuales</h2>
-      <p>1 disponible · 1 en construcción · 4 en preparación</p>
     </div>
     <ol class="list">
       <li><a class="row" href="inicio.html">

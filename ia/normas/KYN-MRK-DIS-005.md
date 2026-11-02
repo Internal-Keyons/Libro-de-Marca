@@ -7,7 +7,7 @@ id: "KYN-MRK-DIS-005"
 titulo: "Claridad antes que complejidad"
 numero: "3.5"
 estado: "vigente"
-capitulo: "03 Principios de diseño"
+capitulo: "03 Principios"
 area: "Marca"
 fuente: "/marca/principios.html#comprension"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-VIS-015"]
 
 # KYN-MRK-DIS-005 · Claridad primero
 
-Número: 3.5 · Estado: vigente · Capítulo: 03 Principios de diseño · Fuente: `/marca/principios.html#comprension`
+Número: 3.5 · Estado: vigente · Capítulo: 03 Principios · Fuente: `/marca/principios.html#comprension`
 
 ##### Claridad antes que complejidad
 

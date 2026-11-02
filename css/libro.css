@@ -4081,7 +4081,7 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
 .pairs__yes b{display:block;font-weight:600;color:var(--color-text)}
 /* Calma y expresión: dos conceptos del mismo peso bajo la declaración. Nombre y descripción, con el filete de los demás divisores */
 .cye{gap:var(--s12);margin-top:var(--s12)}
-.cye__i,.cye__i + .cye__i{padding:var(--s5) 0 0;border-left:0;border-top:1px solid var(--color-border)}
+.cye__i,.cye__i + .cye__i{padding:var(--s5) 0 0;border-left:0;border-top:4px solid var(--k-cielo-200)}
 .cye__t{font-size:20px;font-weight:500;letter-spacing:-.015em;line-height:1.3;color:var(--color-text)}
 .cye__d{margin-top:var(--s3);max-width:380px;font-size:16px;line-height:1.6;color:var(--color-text-2)}
 #calma .cye + .ed__more{margin-top:var(--s12)}
@@ -4121,3 +4121,17 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
 /* Cierre en dos renglones, uno por frase (CON-001): ancho suficiente para que la segunda frase no se parta */
 .ed__close--2{max-width:760px;text-wrap:balance}
 @media(max-width:760px){.ed__close--2 br{display:none}}
+
+/* Botones: borde gris y relleno Azul Noche al pasar el cursor, como los botones de ícono. Sin Azul Cielo */
+.hdr__search::before{background:var(--k-noche)}
+@media(hover:hover){.hdr__search:hover{border-color:var(--k-noche)}}
+.hdr__panel-search:hover{background:var(--k-noche);border-color:var(--k-noche);color:#fff}
+
+/* Kickers: Plus Jakarta Sans Bold con tracking mínimo */
+.kicker{font-family:var(--font-sans);font-weight:700;letter-spacing:.02em}
+.side__area .kicker{letter-spacing:.02em}
+
+/* Tablas pequeñas (.matrix): filetes celestes, borde superior e inferior y columnas separadas por barras de 4 px */
+.matrix{border-top:1px solid var(--k-cielo-100)}
+.matrix__row{border-bottom:1px solid var(--k-cielo-100)}
+.matrix__row > * + *{border-left:4px solid var(--k-cielo-200)}

@@ -7,7 +7,7 @@ id: "KYN-MRK-DIS-003"
 titulo: "Diseño: calma y expresión"
 numero: "3.3"
 estado: "vigente"
-capitulo: "03 Principios de diseño"
+capitulo: "03 Principios"
 area: "Marca"
 fuente: "/marca/principios.html#calma"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-DIS-003 · Calma y expresión
 
-Número: 3.3 · Estado: vigente · Capítulo: 03 Principios de diseño · Fuente: `/marca/principios.html#calma`
+Número: 3.3 · Estado: vigente · Capítulo: 03 Principios · Fuente: `/marca/principios.html#calma`
 
 ##### Diseño: calma y expresión
 
