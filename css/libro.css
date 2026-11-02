@@ -4079,5 +4079,41 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
 /* Anti-referentes: una comparación con título y descripción en la columna «En Keyons» */
 .pairs__yes:has(b){font-weight:400;color:var(--color-text-2)}
 .pairs__yes b{display:block;font-weight:600;color:var(--color-text)}
-/* Calma y expresión: con la barra lateral y la columna de etiqueta, entre 1001 y 1199 px cada columna quedaba en ~190 px; se apilan como en móvil */
-@media(min-width:1001px) and (max-width:1199px){.cye{grid-template-columns:minmax(0,1fr);gap:var(--s6)}.cye__i + .cye__i{padding-left:0;border-left:0;padding-top:var(--s6);border-top:1px solid var(--color-border)}}
+/* Calma y expresión: dos conceptos del mismo peso bajo la declaración. Nombre y descripción, sin divisor vertical */
+.cye{gap:var(--s12);margin-top:var(--s12)}
+.cye__i,.cye__i + .cye__i{padding:var(--s5) 0 0;border-left:0;border-top:1px solid var(--k-noche)}
+.cye__t{font-size:20px;font-weight:500;letter-spacing:-.015em;line-height:1.3;color:var(--color-text)}
+.cye__d{margin-top:var(--s3);max-width:380px;font-size:16px;line-height:1.6;color:var(--color-text-2)}
+#calma .cye + .ed__more{margin-top:var(--s12)}
+/* Con barra lateral y columna de etiqueta (1001 a 1199 px) cada columna quedaba en ~190 px: se apilan, como en móvil */
+@media(max-width:760px),(min-width:1001px) and (max-width:1199px){.cye{grid-template-columns:minmax(0,1fr);gap:var(--s8)}}
+
+/* Menú lateral: rótulos en mayúsculas con menos tracking */
+.side__area .kicker{letter-spacing:.03em}
+.nav-sub{letter-spacing:.02em}
+
+/* Condiciones de aplicación: detalle normativo plegado bajo el cierre, sin competir con los criterios */
+.cond{margin-top:var(--s12);max-width:640px;border-top:1px solid var(--color-border);border-bottom:1px solid var(--color-border)}
+.cond summary{display:flex;align-items:center;justify-content:space-between;gap:var(--s4);padding:var(--s4) 0;cursor:pointer;list-style:none;font-size:15px;font-weight:500;color:var(--color-text)}
+.cond summary::-webkit-details-marker{display:none}
+.cond summary:focus-visible{outline:2px solid var(--color-focus);outline-offset:4px}
+.cond .btn-icon .v{transform-box:fill-box;transform-origin:center;transition:transform var(--m-base) var(--e-io)}
+.cond[open] .btn-icon .v{transform:scaleY(0)}
+.cond summary:hover .btn-icon{background:var(--k-noche);border-color:var(--k-noche);color:#fff}
+.cond__l{display:grid;gap:var(--s2);padding:0 0 var(--s6);list-style:none;animation:rise var(--m-base) var(--e-out)}
+.cond__l li{position:relative;padding-left:var(--s5);font-size:15px;line-height:1.6;color:var(--color-text-2)}
+.cond__l li::before{content:"";position:absolute;left:0;top:.8em;width:8px;border-top:1px solid var(--color-text-3)}
+
+/* Primera o tercera persona: las notas llevan la definición aprobada; se les da una columna más */
+@media(min-width:1200px){
+  #persona .annot__txt{grid-column:1 / span 7}
+  #persona .annot__note{grid-column:9 / -1}
+  #persona .annot__note::before{width:calc(25% + var(--s6))}
+}
+/* Por debajo de 1200 px la nota se lee debajo de su ejemplo */
+@media(min-width:761px) and (max-width:1199px){
+  #persona .annot{row-gap:var(--s5)}
+  #persona .annot__txt,#persona .annot__note{grid-column:1 / -1}
+  #persona .annot__note{margin-top:0;max-width:420px}
+  #persona .annot__note::before{display:none}
+}

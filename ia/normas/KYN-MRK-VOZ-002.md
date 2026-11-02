@@ -24,27 +24,27 @@ Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su 
 
 01
 Afirmar antes que negar
-Preferimos explicar qué hacemos y qué proponemos. Utilizamos la negación cuando es necesaria para comunicar un límite, una prohibición o una condición importante.
+Preferimos explicar qué hacemos y qué proponemos. Usamos la negación solo cuando es necesaria para comunicar un límite, una prohibición o una condición relevante.
 
 **(Antes)**
 No somos una consultora tradicional.
 
 **(En Keyons)**
-Keyons diseña la IA alrededor de cómo ya trabaja su equipo.
+Keyons diseña la IA en torno al trabajo de su equipo.
 
 02
 Una idea principal por frase
-Cada oración debe tener una intención clara. Dividimos las frases cuando acumulan ideas que dificultan la comprensión, no por una cantidad fija de conceptos.
+Cada oración debe tener una intención clara. Dividimos frases cuando acumulan ideas que dificultan la comprensión.
 
 **(Antes)**
 Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnología a la medida.
 
 **(En Keyons)**
-Automatizamos lo repetitivo. Su equipo recupera tiempo para pensar.
+Automatizamos lo repetitivo. Su equipo gana tiempo para pensar.
 
 03
 Lo concreto antes que lo abstracto
-Explicamos acciones, beneficios y situaciones reconocibles. Los conceptos abstractos se utilizan cuando aportan significado y cuentan con el contexto necesario.
+Explicamos acciones, beneficios y situaciones reconocibles. Los conceptos abstractos se usan solo con contexto suficiente.
 
 **(Antes)**
 Libertad y propósito.
@@ -54,7 +54,7 @@ Libertad para pensar en el negocio.
 
 04
 Verbos precisos antes que adjetivos genéricos
-Elegimos verbos que expliquen qué ocurre o qué hacemos. Los adjetivos deben aportar información, no reemplazarla.
+Elegimos verbos que describan acciones reales. Los adjetivos deben aportar información, nunca sustituirla.
 
 **(Antes)**
 Creamos soluciones innovadoras.

@@ -68,10 +68,12 @@ Número: 3.3 · ID: `KYN-MRK-DIS-003` · Estado: vigente · Fuente: `/marca/prin
 
 El lenguaje visual de Keyons utiliza claridad, tipografía, retículas y espacio negativo para generar **calma**; fotografía, color, textura y movimiento para generar **carácter**.
 
-**(Minimalismo estructural)**
+#### Minimalismo estructural
+
 Organiza la información, orienta la atención y aporta claridad mediante una composición precisa.
 
-**(Maximalismo gráfico)**
+#### Maximalismo gráfico
+
 Aporta personalidad y expresión mediante recursos visuales utilizados con intención.
 
 Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.

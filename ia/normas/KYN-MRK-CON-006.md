@@ -20,22 +20,35 @@ Número: 2.3 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/com
 
 ##### Cuatro criterios para la composición expresiva
 
-Estos criterios orientan las piezas gráficas y narrativas de la marca. No obligan a incorporar fotografías, cielos o elementos figurativos en todas las pantallas funcionales o documentos operativos.
+Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor.
 
 01
 Presencia humana
-Siempre hay un elemento real, preferentemente humano: una mano, un rostro, una planta, la veta de la madera. Su presencia es constante; su protagonismo depende del mensaje.
+La presencia humana se reconoce en la intención, las decisiones creativas y el criterio que sostiene cada pieza. Puede expresarse mediante fotografía, ilustración, composición o recursos abstractos, sin necesidad de representar literalmente personas ni introducir imperfecciones artificiales.
 
 02
-Base humana, elevación con IA
-Todo empieza en algo hecho por una persona: una foto, un trazo, un material. La IA lo amplía, lo anima o lo extiende; nunca lo inventa desde cero.
+Dirección humana, creación sin límites de herramienta
+La creación puede combinar fotografía, ilustración, diseño digital, inteligencia artificial y otros medios de producción.
+La IA puede utilizarse para generar imágenes originales desde cero, transformar materiales o desarrollar nuevas posibilidades visuales.
+Cada resultado debe responder a una dirección artística definida, ser revisado por una persona responsable y cumplir los estándares de identidad, originalidad y calidad de Keyons.
+El uso de IA no justifica composiciones genéricas ni sustituye el criterio creativo.
 
 03
 Cielo propio
-Utilizamos fotografías con procedencia documentada o los degradados oficiales de Keyons. Las imágenes de banco genéricas no sustituyen los cielos propios de la marca.
+Cuando una pieza utiliza fotografías documentales del cielo, estas deben tener procedencia verificable y cumplir las reglas del Diario de Cielos.
+Las composiciones también pueden incorporar degradados oficiales e interpretaciones artísticas del cielo. Las imágenes sintéticas no deben presentarse como fotografías auténticas de lugares o acontecimientos reales.
 
 04
 Singularidad verificable
 Antes de publicar, la pieza se compara con lo que no somos. Si podría ser de otra marca, vuelve a diseño.
 
-El humano crea, la IA impulsa. Nunca al revés.
+La creatividad nace del criterio. La tecnología amplía sus posibilidades.
+
+**Condiciones de aplicación**
+
+- No es obligatorio utilizar IA en las piezas gráficas.
+- La generación de imágenes desde cero está permitida.
+- Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana.
+- Las imágenes documentales deben distinguirse de las representaciones artísticas.
+- Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas.
+- Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.

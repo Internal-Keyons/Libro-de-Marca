@@ -27,15 +27,9 @@ La elección responde al propósito del texto. No es obligatorio comenzar siempr
 Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones.
 
 **(Tercera persona)**
-Keyons se presenta como entidad.
+Apropiada para presentaciones institucionales, biografías corporativas y descripciones formales de la empresa.
 
 Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trabajar con mayor claridad.
-
-**(Primera persona plural)**
-La empresa habla directamente con su público.
-
-**(Tercera persona)**
-Apropiada para presentaciones institucionales, biografías corporativas y descripciones formales de la empresa.
 
 **(Primera persona plural)**
 Apropiada para propuestas de valor, compromisos, comunicaciones de servicio y explicaciones donde Keyons habla directamente con su público.

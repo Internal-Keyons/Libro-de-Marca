@@ -1636,7 +1636,7 @@
   "marca/composicion.html#reglas": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-006",
-   "texto": "Reglas de composición Cuatro criterios para la composición expresiva Estos criterios orientan las piezas gráficas y narrativas de la marca. No obligan a incorporar fotografías, cielos o elementos figurativos en todas las pantallas funcionales o documentos operativos. 01Presencia humanaSiempre hay un elemento real, preferentemente humano: una mano, un rostro, una planta, la veta de la madera. Su presencia es constante; su protagonismo depende del mensaje. 02Base humana, elevación con IATodo empieza en algo hecho por una persona: una foto, un trazo, un material. La IA lo amplía, lo anima o lo extiende; nunca lo inventa desde cero. 03Cielo propioUtilizamos fotografías con procedencia documentada o los degradados oficiales de Keyons. Las imágenes de banco genéricas no sustituyen los cielos propios de la marca. 04Singularidad verificableAntes de publicar, la pieza se compara con lo que no somos. Si podría ser de otra marca, vuelve a diseño. El humano crea, la IA impulsa. Nunca al revés.",
+   "texto": "Reglas de composición Cuatro criterios para la composición expresiva Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor. 01Presencia humanaLa presencia humana se reconoce en la intención, las decisiones creativas y el criterio que sostiene cada pieza. Puede expresarse mediante fotografía, ilustración, composición o recursos abstractos, sin necesidad de representar literalmente personas ni introducir imperfecciones artificiales. 02Dirección humana, creación sin límites de herramientaLa creación puede combinar fotografía, ilustración, diseño digital, inteligencia artificial y otros medios de producción.La IA puede utilizarse para generar imágenes originales desde cero, transformar materiales o desarrollar nuevas posibilidades visuales.Cada resultado debe responder a una dirección artística definida, ser revisado por una persona responsable y cumplir los estándares de identidad, originalidad y calidad de Keyons.El uso de IA no justifica composiciones genéricas ni sustituye el criterio creativo. 03Cielo propioCuando una pieza utiliza fotografías documentales del cielo, estas deben tener procedencia verificable y cumplir las reglas del Diario de Cielos.Las composiciones también pueden incorporar degradados oficiales e interpretaciones artísticas del cielo. Las imágenes sintéticas no deben presentarse como fotografías auténticas de lugares o acontecimientos reales. 04Singularidad verificableAntes de publicar, la pieza se compara con lo que no somos. Si podría ser de otra marca, vuelve a diseño. La creatividad nace del criterio. La tecnología amplía sus posibilidades. Condiciones de aplicación No es obligatorio utilizar IA en las piezas gráficas. La generación de imágenes desde cero está permitida. Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana. Las imágenes documentales deben distinguirse de las representaciones artísticas. Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas. Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1657,6 +1657,11 @@
      "aprobada": "2026-11-02",
      "huella": "f272422776bdd519",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "aaaf244059a5c3ab",
+     "nota": "Revisión 2026-11-02: CON-006, VOZ-002, VOZ-004; diagramación DIS-003 y VOZ-006"
     }
    ]
   },
@@ -1711,7 +1716,7 @@
   "marca/principios.html#calma": {
    "estado": "vigente",
    "id": "KYN-MRK-DIS-003",
-   "texto": "Calma y expresión Diseño: calma y expresión El lenguaje visual de Keyons utiliza claridad, tipografía, retículas y espacio negativo para generar calma; fotografía, color, textura y movimiento para generar carácter. (Minimalismo estructural)Organiza la información, orienta la atención y aporta claridad mediante una composición precisa. (Maximalismo gráfico)Aporta personalidad y expresión mediante recursos visuales utilizados con intención. Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.",
+   "texto": "Calma y expresión Diseño: calma y expresión El lenguaje visual de Keyons utiliza claridad, tipografía, retículas y espacio negativo para generar calma; fotografía, color, textura y movimiento para generar carácter. Minimalismo estructuralOrganiza la información, orienta la atención y aporta claridad mediante una composición precisa. Maximalismo gráficoAporta personalidad y expresión mediante recursos visuales utilizados con intención. Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1732,6 +1737,11 @@
      "aprobada": "2026-11-02",
      "huella": "8028eaab427fb5be",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "1772e60e279b7e29",
+     "nota": "Revisión 2026-11-02: CON-006, VOZ-002, VOZ-004; diagramación DIS-003 y VOZ-006"
     }
    ]
   },
@@ -1846,7 +1856,7 @@
   "marca/trato.html#persona": {
    "estado": "vigente",
    "id": "KYN-MRK-VOZ-006",
-   "texto": "Primera o tercera persona Una voz coherente, en primera o tercera persona Utilizamos la tercera persona cuando conviene presentar formalmente a Keyons. La primera persona plural expresa nuestros compromisos, decisiones y acciones. La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo. Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones. (Tercera persona)Keyons se presenta como entidad. Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trabajar con mayor claridad. (Primera persona plural)La empresa habla directamente con su público. (Tercera persona)Apropiada para presentaciones institucionales, biografías corporativas y descripciones formales de la empresa. (Primera persona plural)Apropiada para propuestas de valor, compromisos, comunicaciones de servicio y explicaciones donde Keyons habla directamente con su público. (Consistencia)Dentro de una misma serie de promesas, beneficios o instrucciones, mantenemos una construcción gramatical coherente. Los cambios de persona deben cumplir una función comunicativa clara.",
+   "texto": "Primera o tercera persona Una voz coherente, en primera o tercera persona Utilizamos la tercera persona cuando conviene presentar formalmente a Keyons. La primera persona plural expresa nuestros compromisos, decisiones y acciones. La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo. Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones. (Tercera persona)Apropiada para presentaciones institucionales, biografías corporativas y descripciones formales de la empresa. Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trabajar con mayor claridad. (Primera persona plural)Apropiada para propuestas de valor, compromisos, comunicaciones de servicio y explicaciones donde Keyons habla directamente con su público. (Consistencia)Dentro de una misma serie de promesas, beneficios o instrucciones, mantenemos una construcción gramatical coherente. Los cambios de persona deben cumplir una función comunicativa clara.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1862,6 +1872,11 @@
      "aprobada": "2026-11-02",
      "huella": "e8d835e209845007",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "7bee9b8e09988171",
+     "nota": "Revisión 2026-11-02: CON-006, VOZ-002, VOZ-004; diagramación DIS-003 y VOZ-006"
     }
    ]
   },
@@ -1912,7 +1927,7 @@
   "marca/vocabulario.html#evita": {
    "estado": "vigente",
    "id": "KYN-MRK-VOZ-004",
-   "texto": "Vocabulario que evitamos Las palabras gastadas Evitamos expresiones que parecen importantes sin comunicar información concreta. Cuando un término tiene un significado preciso, podemos utilizarlo; cuando funciona como una promesa vacía, explicamos lo que realmente queremos decir. Transformación digitalNombrar qué cambia: una operación, una forma de trabajar, un flujo. Disruptivo, disrupciónMostrar qué se rompe y qué lo reemplaza. Soluciones integralesExplicar qué capacidades o servicios están incluidos y cómo se relacionan. Soluciones a medidaIndicar qué puede adaptarse, con qué profundidad y dentro de cuáles condiciones. RevolucionarCambiar, rediseñar, replantear. SinergiaTrabajo conjunto, integración concreta. End-to-endDe principio a fin, en todo el ciclo. Potencial ilimitadoNombrar la capacidad concreta que se amplifica. ROI garantizadoPresentar resultados comprobados o estimaciones identificadas como tales, sin prometer beneficios universales. Game-changer, vanguardiaDescribir qué cambia en términos concretos. Líderes en, expertos enDejar que el trabajo hable: casos y resultados. 360°Nombrar las dimensiones reales que se cubren. Más que una consultoraAfirmar qué es Keyons con sus propias palabras. Partners estratégicosAliados, acompañantes, colaboradores. Describir la idea es más largo, pero más distintivo y más honesto.",
+   "texto": "Vocabulario que evitamos Las palabras gastadas Priorizamos expresiones con significado concreto. Cuando un término aporta precisión, lo utilizamos; si funciona como promesa vacía, explicamos directamente lo que queremos comunicar. Transformación digitalNombrar qué cambia: una operación, una forma de trabajar, un flujo. Disruptivo, disrupciónMostrar qué se rompe y qué lo reemplaza. Soluciones integralesExplicar qué capacidades o servicios están incluidos y cómo se relacionan. Soluciones a medidaIndicar qué puede adaptarse, con qué profundidad y dentro de cuáles condiciones. RevolucionarCambiar, rediseñar, replantear. SinergiaTrabajo conjunto, integración concreta. End-to-endDe principio a fin, en todo el ciclo. Potencial ilimitadoNombrar la capacidad concreta que se amplifica. ROI garantizadoPresentar resultados comprobados o estimaciones identificadas como tales, sin prometer beneficios universales. Game-changer, vanguardiaDescribir qué cambia en términos concretos. Líderes en, expertos enDejar que el trabajo hable: casos y resultados. 360°Nombrar las dimensiones reales que se cubren. Más que una consultoraAfirmar qué es Keyons con sus propias palabras. Partners estratégicosAliados, acompañantes, colaboradores. Describir la idea es más largo, pero más distintivo y más honesto.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1933,6 +1948,11 @@
      "aprobada": "2026-11-02",
      "huella": "8685599a9dbcf47e",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "077112cbc9197039",
+     "nota": "Revisión 2026-11-02: CON-006, VOZ-002, VOZ-004; diagramación DIS-003 y VOZ-006"
     }
    ]
   },
@@ -1983,7 +2003,7 @@
   "marca/voz.html#reglas": {
    "estado": "vigente",
    "id": "KYN-MRK-VOZ-002",
-   "texto": "Reglas de escritura Cuatro principios para escribir con claridad Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su propósito es comunicar ideas concretas con naturalidad y precisión. 01Afirmar antes que negarPreferimos explicar qué hacemos y qué proponemos. Utilizamos la negación cuando es necesaria para comunicar un límite, una prohibición o una condición importante. (Antes)No somos una consultora tradicional.(En Keyons)Keyons diseña la IA alrededor de cómo ya trabaja su equipo. 02Una idea principal por fraseCada oración debe tener una intención clara. Dividimos las frases cuando acumulan ideas que dificultan la comprensión, no por una cantidad fija de conceptos. (Antes)Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnología a la medida.(En Keyons)Automatizamos lo repetitivo. Su equipo recupera tiempo para pensar. 03Lo concreto antes que lo abstractoExplicamos acciones, beneficios y situaciones reconocibles. Los conceptos abstractos se utilizan cuando aportan significado y cuentan con el contexto necesario. (Antes)Libertad y propósito.(En Keyons)Libertad para pensar en el negocio. 04Verbos precisos antes que adjetivos genéricosElegimos verbos que expliquen qué ocurre o qué hacemos. Los adjetivos deben aportar información, no reemplazarla. (Antes)Creamos soluciones innovadoras.(En Keyons)Diseñamos a partir de su operación. Antes de aprobar un texto, comprobamos que comunica algo concreto, resulta comprensible y suena natural al leerlo.",
+   "texto": "Reglas de escritura Cuatro principios para escribir con claridad Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su propósito es comunicar ideas concretas con naturalidad y precisión. 01Afirmar antes que negarPreferimos explicar qué hacemos y qué proponemos. Usamos la negación solo cuando es necesaria para comunicar un límite, una prohibición o una condición relevante. (Antes)No somos una consultora tradicional.(En Keyons)Keyons diseña la IA en torno al trabajo de su equipo. 02Una idea principal por fraseCada oración debe tener una intención clara. Dividimos frases cuando acumulan ideas que dificultan la comprensión. (Antes)Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnología a la medida.(En Keyons)Automatizamos lo repetitivo. Su equipo gana tiempo para pensar. 03Lo concreto antes que lo abstractoExplicamos acciones, beneficios y situaciones reconocibles. Los conceptos abstractos se usan solo con contexto suficiente. (Antes)Libertad y propósito.(En Keyons)Libertad para pensar en el negocio. 04Verbos precisos antes que adjetivos genéricosElegimos verbos que describan acciones reales. Los adjetivos deben aportar información, nunca sustituirla. (Antes)Creamos soluciones innovadoras.(En Keyons)Diseñamos a partir de su operación. Antes de aprobar un texto, comprobamos que comunica algo concreto, resulta comprensible y suena natural al leerlo.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1999,6 +2019,11 @@
      "aprobada": "2026-11-02",
      "huella": "99314742346780d4",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "bad3f9130b901ad4",
+     "nota": "Revisión 2026-11-02: CON-006, VOZ-002, VOZ-004; diagramación DIS-003 y VOZ-006"
     }
    ]
   },

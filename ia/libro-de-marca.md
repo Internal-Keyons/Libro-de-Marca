@@ -442,25 +442,38 @@ Número: 2.3 · ID: `KYN-MRK-CON-006` · Estado: vigente · Fuente: `/marca/comp
 
 ##### Cuatro criterios para la composición expresiva
 
-Estos criterios orientan las piezas gráficas y narrativas de la marca. No obligan a incorporar fotografías, cielos o elementos figurativos en todas las pantallas funcionales o documentos operativos.
+Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor.
 
 01
 Presencia humana
-Siempre hay un elemento real, preferentemente humano: una mano, un rostro, una planta, la veta de la madera. Su presencia es constante; su protagonismo depende del mensaje.
+La presencia humana se reconoce en la intención, las decisiones creativas y el criterio que sostiene cada pieza. Puede expresarse mediante fotografía, ilustración, composición o recursos abstractos, sin necesidad de representar literalmente personas ni introducir imperfecciones artificiales.
 
 02
-Base humana, elevación con IA
-Todo empieza en algo hecho por una persona: una foto, un trazo, un material. La IA lo amplía, lo anima o lo extiende; nunca lo inventa desde cero.
+Dirección humana, creación sin límites de herramienta
+La creación puede combinar fotografía, ilustración, diseño digital, inteligencia artificial y otros medios de producción.
+La IA puede utilizarse para generar imágenes originales desde cero, transformar materiales o desarrollar nuevas posibilidades visuales.
+Cada resultado debe responder a una dirección artística definida, ser revisado por una persona responsable y cumplir los estándares de identidad, originalidad y calidad de Keyons.
+El uso de IA no justifica composiciones genéricas ni sustituye el criterio creativo.
 
 03
 Cielo propio
-Utilizamos fotografías con procedencia documentada o los degradados oficiales de Keyons. Las imágenes de banco genéricas no sustituyen los cielos propios de la marca.
+Cuando una pieza utiliza fotografías documentales del cielo, estas deben tener procedencia verificable y cumplir las reglas del Diario de Cielos.
+Las composiciones también pueden incorporar degradados oficiales e interpretaciones artísticas del cielo. Las imágenes sintéticas no deben presentarse como fotografías auténticas de lugares o acontecimientos reales.
 
 04
 Singularidad verificable
 Antes de publicar, la pieza se compara con lo que no somos. Si podría ser de otra marca, vuelve a diseño.
 
-El humano crea, la IA impulsa. Nunca al revés.
+La creatividad nace del criterio. La tecnología amplía sus posibilidades.
+
+**Condiciones de aplicación**
+
+- No es obligatorio utilizar IA en las piezas gráficas.
+- La generación de imágenes desde cero está permitida.
+- Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana.
+- Las imágenes documentales deben distinguirse de las representaciones artísticas.
+- Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas.
+- Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.
 
 #### KYN-MRK-CON-007 · 2.4 Regla del contraste
 
@@ -581,10 +594,12 @@ Número: 3.3 · ID: `KYN-MRK-DIS-003` · Estado: vigente · Fuente: `/marca/prin
 
 El lenguaje visual de Keyons utiliza claridad, tipografía, retículas y espacio negativo para generar **calma**; fotografía, color, textura y movimiento para generar **carácter**.
 
-**(Minimalismo estructural)**
+###### Minimalismo estructural
+
 Organiza la información, orienta la atención y aporta claridad mediante una composición precisa.
 
-**(Maximalismo gráfico)**
+###### Maximalismo gráfico
+
 Aporta personalidad y expresión mediante recursos visuales utilizados con intención.
 
 Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.
@@ -679,27 +694,27 @@ Estos principios orientan la escritura de Keyons. No son fórmulas rígidas: su 
 
 01
 Afirmar antes que negar
-Preferimos explicar qué hacemos y qué proponemos. Utilizamos la negación cuando es necesaria para comunicar un límite, una prohibición o una condición importante.
+Preferimos explicar qué hacemos y qué proponemos. Usamos la negación solo cuando es necesaria para comunicar un límite, una prohibición o una condición relevante.
 
 **(Antes)**
 No somos una consultora tradicional.
 
 **(En Keyons)**
-Keyons diseña la IA alrededor de cómo ya trabaja su equipo.
+Keyons diseña la IA en torno al trabajo de su equipo.
 
 02
 Una idea principal por frase
-Cada oración debe tener una intención clara. Dividimos las frases cuando acumulan ideas que dificultan la comprensión, no por una cantidad fija de conceptos.
+Cada oración debe tener una intención clara. Dividimos frases cuando acumulan ideas que dificultan la comprensión.
 
 **(Antes)**
 Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnología a la medida.
 
 **(En Keyons)**
-Automatizamos lo repetitivo. Su equipo recupera tiempo para pensar.
+Automatizamos lo repetitivo. Su equipo gana tiempo para pensar.
 
 03
 Lo concreto antes que lo abstracto
-Explicamos acciones, beneficios y situaciones reconocibles. Los conceptos abstractos se utilizan cuando aportan significado y cuentan con el contexto necesario.
+Explicamos acciones, beneficios y situaciones reconocibles. Los conceptos abstractos se usan solo con contexto suficiente.
 
 **(Antes)**
 Libertad y propósito.
@@ -709,7 +724,7 @@ Libertad para pensar en el negocio.
 
 04
 Verbos precisos antes que adjetivos genéricos
-Elegimos verbos que expliquen qué ocurre o qué hacemos. Los adjetivos deben aportar información, no reemplazarla.
+Elegimos verbos que describan acciones reales. Los adjetivos deben aportar información, nunca sustituirla.
 
 **(Antes)**
 Creamos soluciones innovadoras.
@@ -750,7 +765,7 @@ Número: 4.4 · ID: `KYN-MRK-VOZ-004` · Estado: vigente · Fuente: `/marca/voca
 
 ##### Las palabras gastadas
 
-Evitamos expresiones que parecen importantes sin comunicar información concreta. Cuando un término tiene un significado preciso, podemos utilizarlo; cuando funciona como una promesa vacía, explicamos lo que realmente queremos decir.
+Priorizamos expresiones con significado concreto. Cuando un término aporta precisión, lo utilizamos; si funciona como promesa vacía, explicamos directamente lo que queremos comunicar.
 
 Transformación digital
 Nombrar qué cambia: una operación, una forma de trabajar, un flujo.
@@ -850,15 +865,9 @@ La elección responde al propósito del texto. No es obligatorio comenzar siempr
 Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones.
 
 **(Tercera persona)**
-Keyons se presenta como entidad.
+Apropiada para presentaciones institucionales, biografías corporativas y descripciones formales de la empresa.
 
 Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trabajar con mayor claridad.
-
-**(Primera persona plural)**
-La empresa habla directamente con su público.
-
-**(Tercera persona)**
-Apropiada para presentaciones institucionales, biografías corporativas y descripciones formales de la empresa.
 
 **(Primera persona plural)**
 Apropiada para propuestas de valor, compromisos, comunicaciones de servicio y explicaciones donde Keyons habla directamente con su público.
