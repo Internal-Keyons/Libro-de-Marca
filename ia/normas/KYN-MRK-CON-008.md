@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-CON-008"
 titulo: "Anti-referentes"
@@ -40,5 +40,7 @@ Valores fuertes, expresados con serenidad.
 **La startup genérica** · Colores flúor, personajes exagerados, degradados saturados.
 Sobriedad deliberada.
 
-**Lo hecho por IA, sin autor** · Imágenes lisas, sin textura ni imperfección.
-Autoría humana visible.
+**Lo hecho sin autor** · Imágenes sin dirección artística, composiciones intercambiables y recursos generados automáticamente sin una intención reconocible.
+Conceptos visuales propios, decisiones compositivas justificadas y un proceso creativo con criterio y responsabilidad humana.
+
+La presencia de textura, imperfecciones o efectos materiales no determina por sí sola la originalidad ni la calidad de una imagen.

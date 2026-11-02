@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-CON-004"
 titulo: "Sistema de metáforas"
@@ -49,10 +49,11 @@ El objetivo (entender, sentir, actuar) se sintetiza en una sola línea.
 04
 
 Presencia humana
-Muestra el rastro de la autoría: una textura, un trazo o un detalle imperfecto.
+La autoría humana se reconoce en el origen de la idea, la elección de los recursos y el criterio con que se construye la composición.
 
 **(Criterio)**
-La huella humana se puede señalar con el dedo.
+Puede manifestarse mediante fotografía, ilustración, materiales, trazos o decisiones de dirección artística. No requiere introducir imperfecciones artificiales ni efectos de desgaste.
+Una composición precisa y limpia también puede expresar una sensibilidad profundamente humana.
 
 05
 

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "31"
 titulo: "Sitio web"

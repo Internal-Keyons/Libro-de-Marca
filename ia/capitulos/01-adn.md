@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "01"
 titulo: "ADN"
@@ -43,12 +43,12 @@ Número: 1.1 · ID: `KYN-MRK-ADN-001` · Estado: vigente · Fuente: `/marca/adn.
 Somos una firma que rediseña la arquitectura operativa de las organizaciones con **ecosistemas de Inteligencia Artificial** hechos a la medida de cada realidad.
 
 **(Cómo trabajamos)**
-En distintos niveles según lo que cada empresa necesite: desde soluciones profundamente personalizadas hasta productos verticales listos para adoptar, siempre respetando cómo ya opera cada equipo.
+Desarrollamos productos especializados listos para adoptar y soluciones personalizadas que permiten distintos niveles de adaptación. En cada modalidad buscamos integrar la tecnología al trabajo de las personas, con el alcance y acompañamiento que corresponde a sus necesidades.
 
-**(Por qué)**
-La tecnología no debe imponer un molde, debe potenciar el criterio humano que ya existe. Crecemos al ritmo de cada organización, construimos flujos que no se caen, absorbemos las tareas repetitivas y blindamos la soberanía de los datos.
+**(Por qué lo hacemos)**
+Creemos que la tecnología debe potenciar el criterio humano, no imponer nuevas complejidades. Diseñamos soluciones que ayudan a reducir tareas repetitivas, mejorar la continuidad de los procesos y proteger la información.
 
-Así protegemos el criterio de las personas y les devolvemos lo más valioso: tiempo para lo que de verdad importa.
+Nuestro propósito es que los equipos recuperen tiempo y capacidad para concentrarse en las decisiones que realmente importan.
 
 ## KYN-MRK-ADN-002 · 1.2 Propósito de marca
 
@@ -104,9 +104,9 @@ Número: 1.4.1 · ID: `KYN-MRK-ADN-005` · Estado: vigente · Fuente: `/marca/ad
 
 ### La tecnología, al servicio de la operación
 
-Integramos Inteligencia Artificial con el talento de su empresa mediante soluciones prácticas y seguras, diseñadas para respetar su forma de trabajar y facilitar la adopción natural por parte de su equipo.
+Integramos inteligencia artificial al trabajo de las organizaciones para **ampliar las capacidades de sus equipos** y facilitar sus actividades cotidianas.
 
-En Keyons, la tecnología se suma a su operación como apoyo estratégico, integrándose de manera natural al trabajo de su equipo.
+Buscamos que cada solución sea comprensible, útil y sencilla de adoptar, respetando el conocimiento de las personas y permitiéndoles mantener el criterio sobre las decisiones que requieren su intervención.
 
 ## KYN-MRK-ADN-006 · 1.4.2 Propuesta de valor
 
@@ -114,27 +114,27 @@ Número: 1.4.2 · ID: `KYN-MRK-ADN-006` · Estado: vigente · Fuente: `/marca/ad
 
 ### Cinco promesas concretas
 
-Quien trabaja con Keyons no compra software: obtiene una arquitectura operativa que se ajusta a su realidad, respeta a su gente y crece con ella.
+En Keyons no entendemos el software como un fin en sí mismo. Nuestro compromiso es ayudar a las organizaciones a trabajar con **mayor claridad, eficiencia y confianza**, mediante soluciones que responden a sus necesidades y evolucionan con su operación.
 
-**01 · Primero entendemos, después construimos.**
+**01 · Resolvemos lo que realmente importa**
 
-Antes de escribir código entendemos su operación: auditorías, causa raíz, entrevistas y observación directa. Se paga por eliminar la causa, no por aliviar síntomas.
+Convertimos las necesidades de cada organización en soluciones que simplifican el trabajo, reducen fricciones y permiten concentrar tiempo y recursos en lo que aporta valor. Así, cada inversión tecnológica responde a un propósito concreto, con la profundidad de análisis que corresponde al servicio contratado.
 
-**02 · Control gerencial en todo momento**
+**02 · Damos claridad para tomar decisiones**
 
-Cada fase y entregable se co-diseña, valida y aprueba con su equipo clave, con visibilidad permanente del avance. Sin sorpresas.
+Facilitamos información comprensible sobre el alcance, los avances y las decisiones relevantes de cada proyecto o servicio. Nuestro acompañamiento se ajusta a la modalidad contratada para que el cliente conserve visibilidad sobre lo que recibe, lo que está en proceso y los cambios que requieren su participación.
 
-**03 · Información protegida por diseño, no por promesa**
+**03 · Protegemos la información desde el diseño**
 
-Ley 8968 y estándares equivalentes en cada mercado, con asesoría legal interna, encriptación real y auditoría desde el diseño.
+Incorporamos la protección de datos y los controles de seguridad como parte del desarrollo de nuestras soluciones, de acuerdo con sus riesgos, características y obligaciones aplicables. Buscamos que las organizaciones trabajen con mayor confianza y conozcan las medidas que respaldan el tratamiento de su información.
 
-**04 · Un solo aliado, no múltiples proveedores**
+**04 · Simplificamos la coordinación**
 
-Desarrollo, consultoría legal, gobierno de datos, ciberseguridad y dirección de proyectos en un único frente. Menos fricción y menos sobrecostos.
+Coordinamos las responsabilidades y capacidades incluidas en cada servicio para ofrecer una experiencia de trabajo clara y organizada. Así reducimos las fricciones entre etapas, facilitamos la comunicación y evitamos trasladar al cliente complejidades que podemos resolver desde nuestra propia operación.
 
-**05 · Evoluciona al ritmo del negocio**
+**05 · Diseñamos para evolucionar**
 
-Lo que construimos hoy evoluciona mañana. Cuando su operación cambia, el sistema cambia con ella, no hay que empezar de nuevo.
+Construimos soluciones que pueden incorporar mejoras y nuevas capacidades conforme cambian las necesidades del negocio. Procuramos preservar lo que ya funciona y facilitar una evolución ordenada, dentro de las posibilidades técnicas y condiciones de cada producto o servicio.
 
 ## KYN-MRK-ADN-007 · 1.5 Principios de marca
 
@@ -148,7 +148,9 @@ Comprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde
 
 02
 Diseño a Medida
-Cada solución se ajusta a la lógica de la empresa. La tecnología se adapta al cliente, nunca al revés.
+Adaptamos nuestras soluciones a las necesidades reales de cada organización, dentro del alcance que corresponde a cada modalidad de servicio.
+En los productos especializados ofrecemos una estructura previamente desarrollada, con posibilidades de configuración y adaptación definidas. En los desarrollos personalizados ampliamos esa capacidad según los objetivos y requisitos del cliente.
+En ambos casos, buscamos que la tecnología facilite el trabajo de las personas, en lugar de exigir que las personas se adapten innecesariamente a ella.
 
 03
 Acompañamiento Adaptativo

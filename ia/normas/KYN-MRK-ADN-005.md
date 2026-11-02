@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ADN-005"
 titulo: "Filosofía operativa"
@@ -20,6 +20,6 @@ Número: 1.4.1 · Estado: vigente · Capítulo: 01 ADN · Fuente: `/marca/adn.ht
 
 ##### La tecnología, al servicio de la operación
 
-Integramos Inteligencia Artificial con el talento de su empresa mediante soluciones prácticas y seguras, diseñadas para respetar su forma de trabajar y facilitar la adopción natural por parte de su equipo.
+Integramos inteligencia artificial al trabajo de las organizaciones para **ampliar las capacidades de sus equipos** y facilitar sus actividades cotidianas.
 
-En Keyons, la tecnología se suma a su operación como apoyo estratégico, integrándose de manera natural al trabajo de su equipo.
+Buscamos que cada solución sea comprensible, útil y sencilla de adoptar, respetando el conocimiento de las personas y permitiéndoles mantener el criterio sobre las decisiones que requieren su intervención.

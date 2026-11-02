@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "04"
 titulo: "Voz"
@@ -53,17 +53,32 @@ Cuando el contexto permite calidez abierta: redes sociales, campañas, blog, con
 
 Cuando hay duda sobre qué modo aplicar, gana lo humano bajo las reglas de lo corporativo.
 
+#### La voz según su aplicación
+
+**(Canales de Keyons)**
+Los modos corporativo y expresivo definen cómo se comunica Keyons en sus propios canales. Ambos comparten claridad, precisión y respeto por el lector; lo que cambia es el grado de cercanía y libertad narrativa que permite cada contexto.
+
+**(Interfaces de Keyons)**
+En las interfaces digitales de Keyons, estos principios orientan la comunicación, mientras que las reglas específicas de mensajes, instrucciones, estados y errores se desarrollan en el Sistema de Diseño.
+
+**(Marcas de clientes)**
+Los productos que adoptan la identidad exclusiva de un cliente utilizan la voz y el tono definidos para esa marca, sin perder los estándares compartidos de comprensión y calidad de experiencia.
+
+**(Estela)**
+La personalidad y el tratamiento conversacional de Estela se documentan en su capítulo correspondiente.
+
 ## KYN-MRK-VOZ-002 · 4.2 Reglas de escritura
 
 Número: 4.2 · ID: `KYN-MRK-VOZ-002` · Estado: vigente · Fuente: `/marca/voz.html#reglas`
 
-### Cuatro reglas sin excepción
+### Cuatro principios para escribir con claridad
 
-Cada regla trae su prueba: **cómo se leía antes** y cómo se escribe en Keyons.
+Cada principio ayuda a construir mensajes **precisos, naturales y fáciles de comprender**. Los ejemplos muestran cómo mejorar una redacción sin convertir sus estructuras en fórmulas obligatorias.
 
 01
 Afirmar antes que negar
-Cada frase dice qué se hace, qué se es, qué se elige. Solo se niega cuando la negación es el mensaje.
+Priorizamos las formulaciones que explican qué hacemos, qué proponemos y qué puede esperar el lector.
+La negación se utiliza cuando es necesaria para comunicar una prohibición, un límite, una advertencia o una condición importante. En estos casos, la claridad prevalece sobre la preferencia por las frases afirmativas.
 
 **(Antes)**
 No somos una consultora tradicional.
@@ -72,8 +87,9 @@ No somos una consultora tradicional.
 Keyons diseña la IA alrededor de cómo ya trabaja su equipo.
 
 02
-Una idea fuerte por frase
-Si una frase lleva dos ideas, se divide. Si lleva tres, se reescribe el párrafo.
+Una idea principal por frase
+Cada oración debe tener una intención reconocible. Cuando una frase acumula ideas independientes y dificulta la lectura, conviene dividirla o reorganizarla.
+La extensión no es un problema por sí misma. Una oración puede desarrollar relaciones complejas cuando su estructura permite comprenderlas con facilidad.
 
 **(Antes)**
 Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnología a la medida.
@@ -82,8 +98,9 @@ Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnolog
 Automatizamos lo repetitivo. Su equipo recupera tiempo para pensar.
 
 03
-Imagen concreta antes que abstracción
-Máximo un abstracto por frase, sostenido por una imagen que se pueda ver.
+Lo concreto antes que lo abstracto
+Preferimos explicar hechos, acciones, beneficios y situaciones reconocibles antes que utilizar conceptos amplios sin contexto.
+Los conceptos abstractos están permitidos cuando aportan significado, pero deben acompañarse de una explicación que permita comprender su aplicación.
 
 **(Antes)**
 Libertad y propósito.
@@ -92,8 +109,9 @@ Libertad y propósito.
 Libertad para pensar en el negocio.
 
 04
-Verbo propio antes que adjetivo prestado
-Máximo dos adjetivos seguidos. Cuando se puede, el verbo carga el peso solo.
+Verbos precisos antes que adjetivos genéricos
+Elegimos verbos que expliquen qué ocurre o qué hacemos, en lugar de apoyarnos en adjetivos que podrían describir a cualquier empresa.
+Los adjetivos deben aportar información, precisión o carácter. Evitamos acumularlos cuando no modifican sustancialmente el mensaje.
 
 **(Antes)**
 Creamos soluciones innovadoras.
@@ -101,7 +119,18 @@ Creamos soluciones innovadoras.
 **(En Keyons)**
 Diseñamos a partir de su operación.
 
-El filtro final: si al leerla en voz alta suena a comercial de perfume, se reescribe.
+#### Criterio de consistencia
+
+**(Dentro de una pieza)**
+Dentro de una misma pieza, los mensajes relacionados deben conservar su sentido, terminología y construcción gramatical.
+
+**(En las series)**
+Las series de promesas, beneficios, instrucciones o características deben seguir una estructura coherente. La variedad editorial puede enriquecer la lectura, pero no debe generar cambios arbitrarios de voz ni confusión.
+
+**(La repetición)**
+La repetición de información se justifica cuando permite confirmar un dato importante, reforzar una decisión o comprender un contexto nuevo. En los demás casos, debe evitarse.
+
+Antes de aprobar un texto, comprobamos que informa con claridad, suena natural al leerlo y comunica algo concreto. Si depende de palabras grandilocuentes para parecer importante, necesita una nueva redacción.
 
 ## Vocabulario
 
@@ -115,18 +144,20 @@ Número: 4.3 · ID: `KYN-MRK-VOZ-003` · Estado: vigente · Fuente: `/marca/voca
 
 ### Las palabras que usamos
 
-El vocabulario propio no es decoración: **usar siempre las mismas palabras** construye memoria de marca.
+Las palabras que utilizamos con frecuencia ayudan a construir una **identidad verbal reconocible**. Su valor está en la precisión con que describen nuestro trabajo, no en repetirlas por obligación.
+
+El vocabulario debe adaptarse al contenido y al lector. Cuando una palabra más sencilla permita explicar mejor una idea, debe preferirse sin perder precisión.
 
 - **Arquitectura operativa**: La forma en que una empresa opera. Más precisa que «procesos», menos fría que «sistemas».
 - **Diagnóstico**: Lo que ocurre antes de proponer. Ancla la metodología frente a quienes venden sin entender.
-- **Acompañamiento**: El vínculo humano continuo. Más preciso que «soporte», que suena transaccional.
+- **Acompañamiento**: La orientación y participación de Keyons durante las etapas contempladas en cada servicio. Su alcance depende de la modalidad contratada; no sustituye los términos específicos de soporte, capacitación o asesoría cuando corresponden.
 - **Ritmo**: Los tiempos reales de cada organización: nos adaptamos al cliente.
 - **Criterio**: La capacidad humana de juzgar y decidir. Lo que Keyons protege por encima de la automatización.
 - **Oficio**: El trabajo bien hecho, con autoría. Lejos de lo producido en serie.
 - **Rigor**: Precisión seria: profesionalismo sin acartonar.
 - **Operación**: El día a día real del cliente. Más humano que «negocio» o «empresa».
-- **Infraestructura**: Lo que Keyons construye. Más precisa que «soluciones» o «productos».
-- **Firma**: La autoría humana que respalda cada entrega.
+- **Infraestructura**: El conjunto de elementos tecnológicos y operativos que sostienen una solución. Se utiliza cuando describe esa estructura; no reemplaza automáticamente términos como producto, plataforma, aplicación o servicio.
+- **Firma**: La autoría y el criterio profesional que respaldan un trabajo. Puede manifestarse mediante identidad visible cuando corresponde, pero también mediante la calidad de ejecución. En productos sin firma del proveedor, no debe convertirse en una señal destinada a revelar la participación de Keyons.
 
 ## KYN-MRK-VOZ-004 · 4.4 Vocabulario que evitamos
 
@@ -134,7 +165,9 @@ Número: 4.4 · ID: `KYN-MRK-VOZ-004` · Estado: vigente · Fuente: `/marca/voca
 
 ### Las palabras gastadas
 
-No están mal: están gastadas. El lector las clasifica como ruido de agencia. Keyons **describe la idea** en lugar de pronunciar la etiqueta.
+Evitamos expresiones que **suenan importantes sin comunicar información concreta**.
+
+Algunas se han utilizado tanto en la comunicación empresarial que han perdido precisión. Otras pueden generar expectativas difíciles de comprobar. No están prohibidas por su forma: se evitan cuando sustituyen una explicación clara o una afirmación verificable.
 
 Transformación digital
 Nombrar qué cambia: una operación, una forma de trabajar, un flujo.
@@ -143,10 +176,10 @@ Disruptivo, disrupción
 Mostrar qué se rompe y qué lo reemplaza.
 
 Soluciones integrales
-«Un solo aliado para todo el ciclo», o enumerar las piezas.
+Explicar qué servicios, capacidades o etapas están realmente incluidos y cómo se relacionan entre sí.
 
 Soluciones a medida
-«Hecho a la medida de su operación».
+Indicar qué puede adaptarse, con qué profundidad y dentro de cuáles condiciones. En productos SaaS, diferenciar las opciones de configuración de los desarrollos personalizados.
 
 Revolucionar
 Cambiar, rediseñar, replantear.
@@ -161,7 +194,7 @@ Potencial ilimitado
 Nombrar la capacidad concreta que se amplifica.
 
 ROI garantizado
-El ahorro específico, el tiempo liberado, la fricción eliminada.
+Presentar beneficios previstos, resultados medidos y condiciones que permiten evaluarlos. Las proyecciones se identifican como estimaciones, no como garantías.
 
 Game-changer, vanguardia
 Describir qué cambia en términos concretos.
@@ -177,6 +210,10 @@ Afirmar qué es Keyons con sus propias palabras.
 
 Partners estratégicos
 Aliados, acompañantes, colaboradores.
+
+**(Criterio final)**
+Una expresión puede utilizarse cuando tiene un significado técnico, comercial o contractual preciso.
+La regla no consiste en evitar palabras conocidas, sino en impedir que sustituyan información relevante.
 
 Describir la idea es más largo, pero más distintivo y más honesto.
 
@@ -209,35 +246,53 @@ El voseo marcaría a Keyons como marca local pequeña. El usted es universal y l
 **(Mercados en inglés)**
 El «you» neutraliza el pronombre y conserva el tono profesional.
 
-**(Excepción · Estela y los agentes de IA)**
-Tienen trato propio, documentado en su módulo. Como personajes, pueden vosear o tutear según su personalidad.
+**(Excepción · Estela)**
+Estela tendrá una personalidad y unas reglas de trato propias, documentadas en su capítulo.
+Su forma de dirigirse a las personas deberá mantener coherencia con esa personalidad, con el contexto de uso y con las preferencias o condiciones del producto.
+Hasta que se apruebe su identidad conversacional, no se establece el tuteo ni el voseo como tratamiento predeterminado.
 
 **(Excepción · Campañas culturales costarricenses)**
 Fiestas patrias, humor local y celebraciones internas. Se aprueban campaña por campaña; no son regla general.
+
+**(Productos bajo marcas de clientes)**
+Cuando una solución utiliza la identidad exclusiva de un cliente, el tratamiento verbal debe responder a las reglas de esa marca.
+Los principios de claridad, respeto y comprensión se mantienen, aunque cambien el pronombre, el nivel de formalidad o el vocabulario.
+
+**(Aplicación en inglés)**
+El tono profesional y cercano debe trasladarse de manera natural al inglés, respetando las convenciones del idioma. No se deben reproducir literalmente las construcciones del español cuando produzcan expresiones poco naturales.
 
 ## KYN-MRK-VOZ-006 · 4.6 Primera o tercera persona
 
 Número: 4.6 · ID: `KYN-MRK-VOZ-006` · Estado: vigente · Fuente: `/marca/trato.html#persona`
 
-### Primero Keyons, después nosotros
+### Una voz coherente, en primera o tercera persona
 
-Ante un lector nuevo, Keyons se nombra en tercera persona para anclar la marca. Con la conversación instalada, pasa a la **primera persona plural** para acercarse.
+Keyons puede comunicarse en **tercera persona** cuando necesita presentar formalmente su identidad, sus capacidades o su posición institucional. La **primera persona plural** expresa compromisos, decisiones y acciones asumidas por la empresa: favorece una comunicación más directa sin perder profesionalismo.
 
-Keyons diseña la inteligencia artificial que se adapta a cómo ya trabaja su empresa.
+La elección depende del propósito de la pieza y de la relación con el lector. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente a primera persona después del primer párrafo.
+
+Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones.
 
 **(Tercera persona)**
-Abre la pieza y ancla la marca.
+Keyons se presenta como entidad.
 
-Primero entendemos su operación; después diseñamos con su equipo, a su ritmo.
+Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trabajar con mayor claridad.
 
 **(Primera persona plural)**
-Después del primer párrafo, acerca.
+La empresa habla directamente con su público.
 
 **(Tercera persona · dónde)**
+Es apropiada para presentaciones institucionales, biografías corporativas, descripciones de empresa, comunicados y textos donde Keyons se presenta como entidad.
 Hero de web · apertura de propuesta · bio corporativa · comunicados de prensa · meta descripciones · títulos de sección.
 
 **(Primera persona · dónde)**
+Es apropiada para propuestas de valor, compromisos, mensajes de servicio, explicaciones de procesos y comunicaciones donde la empresa habla directamente con su público.
 Cuerpo de propuestas · secciones secundarias de web · redes sociales · blog · soporte · capacitaciones.
+
+**(Consistencia de la pieza)**
+Los bloques que pertenecen a una misma categoría comunicativa deben mantener una construcción gramatical coherente.
+Por ejemplo, una serie de cinco promesas puede utilizar cinco verbos en primera persona plural. No debe cambiar arbitrariamente entre «diseñamos», «ofrecer», «el cliente recibe» y «Keyons construye».
+Los cambios de persona se permiten cuando existe una transición editorial clara y cumplen una función comunicativa.
 
 ## KYN-MRK-VOZ-007 · 4.7 De lo técnico a lo humano
 
@@ -245,23 +300,25 @@ Número: 4.7 · ID: `KYN-MRK-VOZ-007` · Estado: vigente · Fuente: `/marca/trat
 
 ### Lo que hace, no cómo se llama
 
-Cada término técnico se traduce. No es simplificar: **es respetar al lector**.
+Explicamos la tecnología desde **su función, sus efectos y su utilidad** para las personas.
+
+Los términos técnicos se utilizan cuando aportan precisión o son necesarios para comprender el tema. Cuando el lector no necesita conocerlos, priorizamos una explicación directa. Una traducción sencilla nunca debe alterar el significado técnico, omitir una limitación importante ni prometer capacidades que el sistema no tiene.
 
 01
-Describir qué hace
-Para el lector, la función importa más que la etiqueta: «la IA consulta sus datos antes de responder».
+Explicar qué hace
+Presentamos primero la función o el resultado que el lector necesita comprender.
 
 02
-Analogías cotidianas
-Una buena analogía instala comprensión en segundos: «el camino que recorre la información».
+Utilizar analogías que aclaren
+Las analogías ayudan a comprender conceptos complejos, pero no deben presentar equivalencias inexactas. Cuando una comparación tiene límites importantes, se explican.
 
 03
-Explicar lo inevitable
-Si el término circula en el mercado, se escribe y se explica en la misma frase, una vez por documento.
+Conservar los términos necesarios
+Cuando una denominación técnica, legal o comercial es relevante, la utilizamos y explicamos su significado en el contexto correspondiente. No es necesario repetir la definición cada vez que aparece el término si el lector ya dispone del contexto.
 
 04
-Verbos antes que siglas
-El verbo mueve; el sustantivo técnico detiene: «consulta», no «arquitectura RAG».
+Priorizar acciones comprensibles
+Preferimos verbos y descripciones concretas antes que acumular siglas. Las siglas permanecen cuando son necesarias para identificar una tecnología, una norma o una especificación.
 
 #### Así lo decimos
 
@@ -272,13 +329,13 @@ Los términos se agrupan por temática para encontrarlos rápido. **Los principi
 **(Cómo se traduce)** Desacralizando la tecnología: se explica qué hace la IA, sin misterio ni promesas.
 
 **(RAG)**
-La IA consulta sus propios datos antes de responder.
+Técnica que permite a la IA buscar información en fuentes disponibles y utilizarla como contexto para elaborar una respuesta.
 
 **(Fine-tuning)**
-Entrenamiento personalizado con sus datos.
+Ajuste adicional de un modelo de IA mediante ejemplos de entrenamiento para mejorar su desempeño en determinadas tareas.
 
 **(Agentes autónomos)**
-Asistentes que ejecutan tareas por su cuenta.
+Sistemas de IA que pueden realizar tareas y utilizar herramientas dentro de permisos y límites definidos. Algunas acciones pueden requerir autorización humana.
 
 **(LLM)**
 La IA que entiende y escribe texto.
@@ -287,16 +344,16 @@ La IA que entiende y escribe texto.
 Diseño de instrucciones para la IA.
 
 **(Vector database)**
-Base de datos que entiende significado, no solo palabras.
+Base de datos que almacena representaciones numéricas de información y permite recuperarla mediante búsquedas por similitud.
 
 **(Hallucination)**
-Cuando la IA inventa información que no es real.
+Respuesta de IA que presenta información incorrecta, inventada o sin respaldo suficiente como si fuera un hecho.
 
 **(Guardrails)**
 Reglas que delimitan qué puede hacer la IA.
 
 **(Context window)**
-Cuánto texto puede leer la IA de una sola vez.
+Cantidad de información que un modelo puede considerar dentro de una interacción, según sus límites técnicos.
 
 **02Operaciones y procesos**
 
@@ -337,7 +394,7 @@ Tiempo que toma una tarea de principio a fin.
 **(Cómo se traduce)** Haciendo visible el cuidado: dónde está la información y quién la protege.
 
 **(ETL · Pipeline de datos)**
-El camino que recorre la información dentro del sistema.
+Proceso para extraer datos de una fuente, transformarlos y cargarlos en otro sistema.
 
 **(Data warehouse)**
 Lugar centralizado donde se guardan los datos de la empresa.
@@ -346,10 +403,10 @@ Lugar centralizado donde se guardan los datos de la empresa.
 Repositorio donde los datos se guardan tal como llegan.
 
 **(Encriptación)**
-Convertir información en código para que solo los autorizados la lean.
+Utilizar preferentemente el término «cifrado» en español. Es el proceso de transformar información para impedir su lectura sin los medios autorizados para recuperarla.
 
 **(Anonimización)**
-Quitar los datos personales para que no se pueda identificar a nadie.
+Tratamiento de datos destinado a impedir la identificación de personas. Para considerarse efectiva, debe evaluarse el riesgo de reidentificación.
 
 **(Compliance)**
 Cumplimiento de las normativas aplicables.
@@ -433,5 +490,16 @@ Documento que explica qué se hace con los datos del usuario.
 
 **(SLA)**
 Acuerdo escrito sobre los niveles de servicio garantizados.
+
+#### Relación con la comunicación de productos
+
+**(Consumo de IA)**
+La comunicación comercial de consumo de IA debe expresar unidades comprensibles para el cliente. Cuando corresponda, se utilizarán créditos de IA o unidades vinculadas a tareas del negocio, conforme a las reglas del Manual de Producto.
+
+**(Términos internos)**
+No se deben introducir términos internos de ingeniería en interfaces comerciales cuando no aportan valor al usuario.
+
+**(Sistema de Diseño)**
+Las especificaciones de mensajes, etiquetas, errores, confirmaciones y componentes conversacionales se desarrollarán en el Sistema de Diseño, sin duplicar estas reglas generales de voz.
 
 Cada término nuevo se traduce con estos cuatro principios y entra en su temática.

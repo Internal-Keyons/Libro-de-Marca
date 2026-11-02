@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-DIS-004"
 titulo: "Intensidad según contexto"
@@ -11,7 +11,7 @@ capitulo: "03 Principios de diseño"
 area: "Marca"
 fuente: "/marca/principios.html#contexto"
 referencias: []
-citada_por: []
+citada_por: ["KYN-MRK-CON-005"]
 ---
 
 # KYN-MRK-DIS-004 · Según contexto
@@ -27,5 +27,10 @@ Puede utilizar grandes fotografías, composiciones experimentales y movimiento a
 
 **(Una herramienta operativa)**
 Utilizada repetidamente durante el día, debe priorizar legibilidad, navegación sencilla, claridad y estabilidad visual.
+
+**(Dentro de una misma experiencia)**
+La intensidad visual también puede variar entre las pantallas de un mismo producto.
+Una bienvenida, una presentación de resultados o una sección explicativa pueden admitir mayor expresión gráfica. Los formularios, las tablas y las operaciones frecuentes requieren una composición más contenida, donde la información y las acciones sean protagonistas.
+El nivel de expresión debe responder a lo que la persona necesita comprender o realizar en cada momento.
 
 La creatividad nunca debe obstaculizar una decisión funcional.

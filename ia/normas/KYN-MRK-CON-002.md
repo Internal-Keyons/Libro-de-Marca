@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-CON-002"
 titulo: "Jerarquía de cielos"
@@ -77,3 +77,7 @@ No: Mediodía. Sí: el cielo que corresponde a ese propósito.
 
 **(¿Hay duda entre dos?)**
 Gana Mediodía. Nunca se fuerza un cielo solo por cambiar.
+
+**(Las proporciones)**
+Las proporciones establecidas orientan la distribución de los cinco cielos en las piezas donde corresponde utilizar este lenguaje visual. No representan cuotas obligatorias para cada campaña, documento o producto.
+La elección de un cielo responde primero al sentido narrativo de la pieza. Su frecuencia de uso contribuye a mantener el reconocimiento de marca sin imponer recursos expresivos en contextos que requieren mayor contención.

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VOZ-002"
 titulo: "Reglas de escritura"
@@ -18,13 +18,14 @@ citada_por: ["KYN-MRK-PRE-005", "KYN-MRK-VIS-013"]
 
 Número: 4.2 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/voz.html#reglas`
 
-##### Cuatro reglas sin excepción
+##### Cuatro principios para escribir con claridad
 
-Cada regla trae su prueba: **cómo se leía antes** y cómo se escribe en Keyons.
+Cada principio ayuda a construir mensajes **precisos, naturales y fáciles de comprender**. Los ejemplos muestran cómo mejorar una redacción sin convertir sus estructuras en fórmulas obligatorias.
 
 01
 Afirmar antes que negar
-Cada frase dice qué se hace, qué se es, qué se elige. Solo se niega cuando la negación es el mensaje.
+Priorizamos las formulaciones que explican qué hacemos, qué proponemos y qué puede esperar el lector.
+La negación se utiliza cuando es necesaria para comunicar una prohibición, un límite, una advertencia o una condición importante. En estos casos, la claridad prevalece sobre la preferencia por las frases afirmativas.
 
 **(Antes)**
 No somos una consultora tradicional.
@@ -33,8 +34,9 @@ No somos una consultora tradicional.
 Keyons diseña la IA alrededor de cómo ya trabaja su equipo.
 
 02
-Una idea fuerte por frase
-Si una frase lleva dos ideas, se divide. Si lleva tres, se reescribe el párrafo.
+Una idea principal por frase
+Cada oración debe tener una intención reconocible. Cuando una frase acumula ideas independientes y dificulta la lectura, conviene dividirla o reorganizarla.
+La extensión no es un problema por sí misma. Una oración puede desarrollar relaciones complejas cuando su estructura permite comprenderlas con facilidad.
 
 **(Antes)**
 Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnología a la medida.
@@ -43,8 +45,9 @@ Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnolog
 Automatizamos lo repetitivo. Su equipo recupera tiempo para pensar.
 
 03
-Imagen concreta antes que abstracción
-Máximo un abstracto por frase, sostenido por una imagen que se pueda ver.
+Lo concreto antes que lo abstracto
+Preferimos explicar hechos, acciones, beneficios y situaciones reconocibles antes que utilizar conceptos amplios sin contexto.
+Los conceptos abstractos están permitidos cuando aportan significado, pero deben acompañarse de una explicación que permita comprender su aplicación.
 
 **(Antes)**
 Libertad y propósito.
@@ -53,8 +56,9 @@ Libertad y propósito.
 Libertad para pensar en el negocio.
 
 04
-Verbo propio antes que adjetivo prestado
-Máximo dos adjetivos seguidos. Cuando se puede, el verbo carga el peso solo.
+Verbos precisos antes que adjetivos genéricos
+Elegimos verbos que expliquen qué ocurre o qué hacemos, en lugar de apoyarnos en adjetivos que podrían describir a cualquier empresa.
+Los adjetivos deben aportar información, precisión o carácter. Evitamos acumularlos cuando no modifican sustancialmente el mensaje.
 
 **(Antes)**
 Creamos soluciones innovadoras.
@@ -62,4 +66,15 @@ Creamos soluciones innovadoras.
 **(En Keyons)**
 Diseñamos a partir de su operación.
 
-El filtro final: si al leerla en voz alta suena a comercial de perfume, se reescribe.
+###### Criterio de consistencia
+
+**(Dentro de una pieza)**
+Dentro de una misma pieza, los mensajes relacionados deben conservar su sentido, terminología y construcción gramatical.
+
+**(En las series)**
+Las series de promesas, beneficios, instrucciones o características deben seguir una estructura coherente. La variedad editorial puede enriquecer la lectura, pero no debe generar cambios arbitrarios de voz ni confusión.
+
+**(La repetición)**
+La repetición de información se justifica cuando permite confirmar un dato importante, reforzar una decisión o comprender un contexto nuevo. En los demás casos, debe evitarse.
+
+Antes de aprobar un texto, comprobamos que informa con claridad, suena natural al leerlo y comunica algo concreto. Si depende de palabras grandilocuentes para parecer importante, necesita una nueva redacción.

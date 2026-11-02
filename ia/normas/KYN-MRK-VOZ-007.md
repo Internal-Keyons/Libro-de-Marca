@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VOZ-007"
 titulo: "De lo técnico a lo humano"
@@ -20,23 +20,25 @@ Número: 4.7 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/trato.ht
 
 ##### Lo que hace, no cómo se llama
 
-Cada término técnico se traduce. No es simplificar: **es respetar al lector**.
+Explicamos la tecnología desde **su función, sus efectos y su utilidad** para las personas.
+
+Los términos técnicos se utilizan cuando aportan precisión o son necesarios para comprender el tema. Cuando el lector no necesita conocerlos, priorizamos una explicación directa. Una traducción sencilla nunca debe alterar el significado técnico, omitir una limitación importante ni prometer capacidades que el sistema no tiene.
 
 01
-Describir qué hace
-Para el lector, la función importa más que la etiqueta: «la IA consulta sus datos antes de responder».
+Explicar qué hace
+Presentamos primero la función o el resultado que el lector necesita comprender.
 
 02
-Analogías cotidianas
-Una buena analogía instala comprensión en segundos: «el camino que recorre la información».
+Utilizar analogías que aclaren
+Las analogías ayudan a comprender conceptos complejos, pero no deben presentar equivalencias inexactas. Cuando una comparación tiene límites importantes, se explican.
 
 03
-Explicar lo inevitable
-Si el término circula en el mercado, se escribe y se explica en la misma frase, una vez por documento.
+Conservar los términos necesarios
+Cuando una denominación técnica, legal o comercial es relevante, la utilizamos y explicamos su significado en el contexto correspondiente. No es necesario repetir la definición cada vez que aparece el término si el lector ya dispone del contexto.
 
 04
-Verbos antes que siglas
-El verbo mueve; el sustantivo técnico detiene: «consulta», no «arquitectura RAG».
+Priorizar acciones comprensibles
+Preferimos verbos y descripciones concretas antes que acumular siglas. Las siglas permanecen cuando son necesarias para identificar una tecnología, una norma o una especificación.
 
 ###### Así lo decimos
 
@@ -47,13 +49,13 @@ Los términos se agrupan por temática para encontrarlos rápido. **Los principi
 **(Cómo se traduce)** Desacralizando la tecnología: se explica qué hace la IA, sin misterio ni promesas.
 
 **(RAG)**
-La IA consulta sus propios datos antes de responder.
+Técnica que permite a la IA buscar información en fuentes disponibles y utilizarla como contexto para elaborar una respuesta.
 
 **(Fine-tuning)**
-Entrenamiento personalizado con sus datos.
+Ajuste adicional de un modelo de IA mediante ejemplos de entrenamiento para mejorar su desempeño en determinadas tareas.
 
 **(Agentes autónomos)**
-Asistentes que ejecutan tareas por su cuenta.
+Sistemas de IA que pueden realizar tareas y utilizar herramientas dentro de permisos y límites definidos. Algunas acciones pueden requerir autorización humana.
 
 **(LLM)**
 La IA que entiende y escribe texto.
@@ -62,16 +64,16 @@ La IA que entiende y escribe texto.
 Diseño de instrucciones para la IA.
 
 **(Vector database)**
-Base de datos que entiende significado, no solo palabras.
+Base de datos que almacena representaciones numéricas de información y permite recuperarla mediante búsquedas por similitud.
 
 **(Hallucination)**
-Cuando la IA inventa información que no es real.
+Respuesta de IA que presenta información incorrecta, inventada o sin respaldo suficiente como si fuera un hecho.
 
 **(Guardrails)**
 Reglas que delimitan qué puede hacer la IA.
 
 **(Context window)**
-Cuánto texto puede leer la IA de una sola vez.
+Cantidad de información que un modelo puede considerar dentro de una interacción, según sus límites técnicos.
 
 **02Operaciones y procesos**
 
@@ -112,7 +114,7 @@ Tiempo que toma una tarea de principio a fin.
 **(Cómo se traduce)** Haciendo visible el cuidado: dónde está la información y quién la protege.
 
 **(ETL · Pipeline de datos)**
-El camino que recorre la información dentro del sistema.
+Proceso para extraer datos de una fuente, transformarlos y cargarlos en otro sistema.
 
 **(Data warehouse)**
 Lugar centralizado donde se guardan los datos de la empresa.
@@ -121,10 +123,10 @@ Lugar centralizado donde se guardan los datos de la empresa.
 Repositorio donde los datos se guardan tal como llegan.
 
 **(Encriptación)**
-Convertir información en código para que solo los autorizados la lean.
+Utilizar preferentemente el término «cifrado» en español. Es el proceso de transformar información para impedir su lectura sin los medios autorizados para recuperarla.
 
 **(Anonimización)**
-Quitar los datos personales para que no se pueda identificar a nadie.
+Tratamiento de datos destinado a impedir la identificación de personas. Para considerarse efectiva, debe evaluarse el riesgo de reidentificación.
 
 **(Compliance)**
 Cumplimiento de las normativas aplicables.
@@ -208,5 +210,16 @@ Documento que explica qué se hace con los datos del usuario.
 
 **(SLA)**
 Acuerdo escrito sobre los niveles de servicio garantizados.
+
+###### Relación con la comunicación de productos
+
+**(Consumo de IA)**
+La comunicación comercial de consumo de IA debe expresar unidades comprensibles para el cliente. Cuando corresponda, se utilizarán créditos de IA o unidades vinculadas a tareas del negocio, conforme a las reglas del Manual de Producto.
+
+**(Términos internos)**
+No se deben introducir términos internos de ingeniería en interfaces comerciales cuando no aportan valor al usuario.
+
+**(Sistema de Diseño)**
+Las especificaciones de mensajes, etiquetas, errores, confirmaciones y componentes conversacionales se desarrollarán en el Sistema de Diseño, sin duplicar estas reglas generales de voz.
 
 Cada término nuevo se traduce con estos cuatro principios y entra en su temática.

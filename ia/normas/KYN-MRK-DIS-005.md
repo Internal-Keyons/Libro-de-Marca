@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-DIS-005"
 titulo: "Claridad antes que complejidad"
@@ -29,3 +29,8 @@ Keyons debe resolver la complejidad durante el proceso de diseño, en lugar de t
 
 **(Para todas las personas)**
 Las soluciones deben ser comprensibles incluso para personas con baja familiaridad tecnológica.
+
+**(Claridad ante las dificultades)**
+Una experiencia clara también debe orientar cuando algo no sucede como se esperaba.
+Los mensajes y estados de la interfaz deben ayudar a comprender qué ocurrió, qué información necesita la persona y cuáles son las alternativas disponibles para resolver la situación o continuar.
+La especificación de los componentes, mensajes y mecanismos de recuperación corresponde a las normas funcionales del sistema de diseño.

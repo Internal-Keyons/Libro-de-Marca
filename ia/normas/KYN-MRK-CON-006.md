@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-CON-006"
 titulo: "Reglas de composición"
@@ -20,6 +20,10 @@ Número: 2.3 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/com
 
 ##### Cuatro reglas sin excepción
 
+Estas reglas establecen la **dirección artística de las piezas de comunicación de marca**, especialmente cuando se utilizan fotografía, ilustración y recursos narrativos.
+
+Su aplicación debe responder al propósito y al soporte. Los documentos operativos, las interfaces funcionales y los productos personalizados conservan los principios de claridad, calidad y criterio de Keyons, sin requerir todos los recursos expresivos propios de la comunicación corporativa.
+
 01
 Presencia humana
 Siempre hay un elemento real, preferentemente humano: una mano, un rostro, una planta, la veta de la madera. Su presencia es constante; su protagonismo depende del mensaje.
@@ -30,7 +34,7 @@ Todo empieza en algo hecho por una persona: una foto, un trazo, un material. La 
 
 03
 Cielo propio
-Fotografía del equipo o el degradado oficial de Keyons. Nunca imágenes de banco: no pertenecen a nadie.
+Fotografía del equipo o el degradado oficial de Keyons. Nunca imágenes de banco genéricas: Keyons prioriza imágenes con procedencia, dirección artística y una relación auténtica con su narrativa.
 
 04
 Singularidad verificable

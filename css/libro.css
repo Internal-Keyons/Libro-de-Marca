@@ -4006,3 +4006,36 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
 .iafile span{font-size:14px;color:var(--color-text-2)}
 @media(max-width:760px){.iafile{grid-template-columns:1fr}}
 .wrap > .crumbs{margin-bottom:var(--s10)}
+
+/* ════ Ronda 2026-11-02 ════ */
+/* Salida a la Biblioteca desde cualquier página: ícono «salir» del catálogo junto al menú.
+   En escritorio va con su nombre, separado del menú por una línea; en tableta y móvil, solo el ícono. */
+.hdr__exit{order:-1;display:inline-flex;align-items:center;gap:8px;height:40px;margin-left:12px;padding-left:16px;border-left:1.5px solid var(--color-border);
+  font-size:14px;font-weight:500;color:var(--hdr-search);text-decoration:none;transition:color 300ms var(--e-out)}
+.hdr__exit .ic{width:20px;height:20px;transition:translate 300ms var(--e-out)}
+.hdr__exit:hover .ic,.hdr__exit:focus-visible .ic{translate:3px 0}
+@media(max-width:1179px){
+  .hdr__exit{order:0;margin-left:auto;width:40px;justify-content:center;padding:0;border-left:0}
+  .hdr__exit span{display:none}
+  .hdr__exit .ic{width:22px;height:22px}
+  .hdr__burger{order:1;margin-left:4px}
+}
+/* Menú: tres líneas que se recogen y una X corta que se dibuja; sin giros ni rebotes */
+.hdr__burger path{rotate:none!important}
+.hdr__burger .x{opacity:0;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 200ms var(--e-out),opacity 0ms linear 200ms}
+.hdr.is-open .hdr__burger .b1{translate:0 5px;opacity:0;transition:translate 180ms var(--e-out),opacity 120ms ease 60ms}
+.hdr.is-open .hdr__burger .b3{translate:0 -5px;opacity:0;transition:translate 180ms var(--e-out),opacity 120ms ease 60ms}
+.hdr.is-open .hdr__burger .b2{opacity:0;transition:opacity 120ms ease 60ms}
+.hdr.is-open .hdr__burger .x{opacity:1;stroke-dashoffset:0;transition:stroke-dashoffset 260ms var(--e-out) 140ms,opacity 0ms linear 140ms}
+.hdr.is-open .hdr__burger .x2{transition-delay:200ms}
+@media(prefers-reduced-motion:reduce){.hdr__burger .x{transition:none!important}}
+/* Área actual en el menú: semibold; buscador del menú con borde Azul Noche */
+.hdr__panel a[aria-current="true"]{font-weight:600}
+.hdr__panel-search{border-color:var(--k-noche)}
+/* Dos entradas seguidas en una norma: la segunda continúa la primera */
+.ed > div > .ed__lead + .ed__lead{margin-top:var(--s4)}
+.pgrid__d + .pgrid__d,.step__c p + p,.cye figcaption p + p{margin-top:var(--s3)}
+.canon__d + .canon__d{margin-top:var(--s2)}
+/* 3.3 · Calma y expresión con texto completo: la primera frase manda, las demás la explican */
+.cye figcaption p{font-size:clamp(19px,1.7vw,22px);line-height:1.4}
+.cye figcaption p + p{font-size:16px;font-weight:400;letter-spacing:0;line-height:1.6;color:var(--color-text-2)}

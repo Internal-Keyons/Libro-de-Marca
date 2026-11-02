@@ -1,7 +1,7 @@
 {
  "manual": "Libro de Marca Keyons",
  "version": "0.1",
- "fecha": "2026-10-30",
+ "fecha": "2026-11-02",
  "permisos": "por definir; se asignarán con la Biblioteca Keyons",
  "areas": [
   {
@@ -1091,7 +1091,9 @@
    "area": "marca",
    "fuente": "/marca/metaforas.html#canal",
    "markdown": "/ia/normas/KYN-MRK-CON-005.md",
-   "referencias": [],
+   "referencias": [
+    "KYN-MRK-DIS-004"
+   ],
    "citada_por": []
   },
   {
@@ -1275,7 +1277,9 @@
    "fuente": "/marca/principios.html#contexto",
    "markdown": "/ia/normas/KYN-MRK-DIS-004.md",
    "referencias": [],
-   "citada_por": []
+   "citada_por": [
+    "KYN-MRK-CON-005"
+   ]
   },
   {
    "id": "KYN-MRK-DIS-005",

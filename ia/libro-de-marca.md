@@ -1,13 +1,13 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-10-30"
+fecha: "2026-11-02"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 ---
 
 # Libro de Marca Keyons
 
-Versión: 0.1 · Fecha de exportación: 2026-10-30 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
+Versión: 0.1 · Fecha de exportación: 2026-11-02 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
 
 Exportación íntegra generada desde las páginas del libro con tools/exportar.py. Conserva la redacción y el orden del índice. Cada sección indica su ruta de origen; los recursos visuales se citan con su ruta o su descripción.
 
@@ -26,24 +26,20 @@ Este es el **manual de marca de Keyons**. Aquí vive todo lo que hace **reconoci
 Este libro reúne los criterios que hacen **reconocible la identidad de Keyons** y orientan su aplicación en diferentes medios.
 
 01
-Encuentra lo que necesitas
-El índice organiza los contenidos por identidad, fundamentos, modos, interfaces, aplicaciones y recursos.
+Atención al cliente personalizada
+Brindamos atención personalizada para garantizar una experiencia excepcional.
 
 02
-Distingue las normas de los ejemplos
-Las normas establecen los criterios de uso. Los ejemplos muestran cómo aplicarlos y no deben interpretarse como plantillas obligatorias.
+Procesos eficientes
+Optimizamos nuestros procesos para ofrecer resultados ágiles y precisos.
 
 03
-Comprueba la vigencia
-Cada contenido debe identificar si está aprobado, en desarrollo o pendiente de validación.
+Innovación constante
+Fomentamos la innovación continua en cada etapa del servicio.
 
 04
-Aplica las reglas en conjunto
-Cuando una aplicación dependa de varios capítulos, consulta sus referencias relacionadas antes de producirla.
-
-[Consultar versión documental](/documental/index.html)
-[Usar normas en un proyecto](/ia/index.html)
-Acceso sujeto a permisos
+Compromiso con la calidad
+Mantenemos un firme compromiso con la excelencia y la calidad.
 
 ## Área 01 · Marca
 
@@ -82,12 +78,12 @@ Número: 1.1 · ID: `KYN-MRK-ADN-001` · Estado: vigente · Fuente: `/marca/adn.
 Somos una firma que rediseña la arquitectura operativa de las organizaciones con **ecosistemas de Inteligencia Artificial** hechos a la medida de cada realidad.
 
 **(Cómo trabajamos)**
-En distintos niveles según lo que cada empresa necesite: desde soluciones profundamente personalizadas hasta productos verticales listos para adoptar, siempre respetando cómo ya opera cada equipo.
+Desarrollamos productos especializados listos para adoptar y soluciones personalizadas que permiten distintos niveles de adaptación. En cada modalidad buscamos integrar la tecnología al trabajo de las personas, con el alcance y acompañamiento que corresponde a sus necesidades.
 
-**(Por qué)**
-La tecnología no debe imponer un molde, debe potenciar el criterio humano que ya existe. Crecemos al ritmo de cada organización, construimos flujos que no se caen, absorbemos las tareas repetitivas y blindamos la soberanía de los datos.
+**(Por qué lo hacemos)**
+Creemos que la tecnología debe potenciar el criterio humano, no imponer nuevas complejidades. Diseñamos soluciones que ayudan a reducir tareas repetitivas, mejorar la continuidad de los procesos y proteger la información.
 
-Así protegemos el criterio de las personas y les devolvemos lo más valioso: tiempo para lo que de verdad importa.
+Nuestro propósito es que los equipos recuperen tiempo y capacidad para concentrarse en las decisiones que realmente importan.
 
 #### KYN-MRK-ADN-002 · 1.2 Propósito de marca
 
@@ -143,9 +139,9 @@ Número: 1.4.1 · ID: `KYN-MRK-ADN-005` · Estado: vigente · Fuente: `/marca/ad
 
 ##### La tecnología, al servicio de la operación
 
-Integramos Inteligencia Artificial con el talento de su empresa mediante soluciones prácticas y seguras, diseñadas para respetar su forma de trabajar y facilitar la adopción natural por parte de su equipo.
+Integramos inteligencia artificial al trabajo de las organizaciones para **ampliar las capacidades de sus equipos** y facilitar sus actividades cotidianas.
 
-En Keyons, la tecnología se suma a su operación como apoyo estratégico, integrándose de manera natural al trabajo de su equipo.
+Buscamos que cada solución sea comprensible, útil y sencilla de adoptar, respetando el conocimiento de las personas y permitiéndoles mantener el criterio sobre las decisiones que requieren su intervención.
 
 #### KYN-MRK-ADN-006 · 1.4.2 Propuesta de valor
 
@@ -153,27 +149,27 @@ Número: 1.4.2 · ID: `KYN-MRK-ADN-006` · Estado: vigente · Fuente: `/marca/ad
 
 ##### Cinco promesas concretas
 
-Quien trabaja con Keyons no compra software: obtiene una arquitectura operativa que se ajusta a su realidad, respeta a su gente y crece con ella.
+En Keyons no entendemos el software como un fin en sí mismo. Nuestro compromiso es ayudar a las organizaciones a trabajar con **mayor claridad, eficiencia y confianza**, mediante soluciones que responden a sus necesidades y evolucionan con su operación.
 
-**01 · Primero entendemos, después construimos.**
+**01 · Resolvemos lo que realmente importa**
 
-Antes de escribir código entendemos su operación: auditorías, causa raíz, entrevistas y observación directa. Se paga por eliminar la causa, no por aliviar síntomas.
+Convertimos las necesidades de cada organización en soluciones que simplifican el trabajo, reducen fricciones y permiten concentrar tiempo y recursos en lo que aporta valor. Así, cada inversión tecnológica responde a un propósito concreto, con la profundidad de análisis que corresponde al servicio contratado.
 
-**02 · Control gerencial en todo momento**
+**02 · Damos claridad para tomar decisiones**
 
-Cada fase y entregable se co-diseña, valida y aprueba con su equipo clave, con visibilidad permanente del avance. Sin sorpresas.
+Facilitamos información comprensible sobre el alcance, los avances y las decisiones relevantes de cada proyecto o servicio. Nuestro acompañamiento se ajusta a la modalidad contratada para que el cliente conserve visibilidad sobre lo que recibe, lo que está en proceso y los cambios que requieren su participación.
 
-**03 · Información protegida por diseño, no por promesa**
+**03 · Protegemos la información desde el diseño**
 
-Ley 8968 y estándares equivalentes en cada mercado, con asesoría legal interna, encriptación real y auditoría desde el diseño.
+Incorporamos la protección de datos y los controles de seguridad como parte del desarrollo de nuestras soluciones, de acuerdo con sus riesgos, características y obligaciones aplicables. Buscamos que las organizaciones trabajen con mayor confianza y conozcan las medidas que respaldan el tratamiento de su información.
 
-**04 · Un solo aliado, no múltiples proveedores**
+**04 · Simplificamos la coordinación**
 
-Desarrollo, consultoría legal, gobierno de datos, ciberseguridad y dirección de proyectos en un único frente. Menos fricción y menos sobrecostos.
+Coordinamos las responsabilidades y capacidades incluidas en cada servicio para ofrecer una experiencia de trabajo clara y organizada. Así reducimos las fricciones entre etapas, facilitamos la comunicación y evitamos trasladar al cliente complejidades que podemos resolver desde nuestra propia operación.
 
-**05 · Evoluciona al ritmo del negocio**
+**05 · Diseñamos para evolucionar**
 
-Lo que construimos hoy evoluciona mañana. Cuando su operación cambia, el sistema cambia con ella, no hay que empezar de nuevo.
+Construimos soluciones que pueden incorporar mejoras y nuevas capacidades conforme cambian las necesidades del negocio. Procuramos preservar lo que ya funciona y facilitar una evolución ordenada, dentro de las posibilidades técnicas y condiciones de cada producto o servicio.
 
 #### KYN-MRK-ADN-007 · 1.5 Principios de marca
 
@@ -187,7 +183,9 @@ Comprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde
 
 02
 Diseño a Medida
-Cada solución se ajusta a la lógica de la empresa. La tecnología se adapta al cliente, nunca al revés.
+Adaptamos nuestras soluciones a las necesidades reales de cada organización, dentro del alcance que corresponde a cada modalidad de servicio.
+En los productos especializados ofrecemos una estructura previamente desarrollada, con posibilidades de configuración y adaptación definidas. En los desarrollos personalizados ampliamos esa capacidad según los objetivos y requisitos del cliente.
+En ambos casos, buscamos que la tecnología facilite el trabajo de las personas, en lugar de exigir que las personas se adapten innecesariamente a ella.
 
 03
 Acompañamiento Adaptativo
@@ -253,7 +251,7 @@ Keyons nace en Costa Rica, así que sus primeros cielos son costarricenses: el a
 **(Excepción cósmica)**
 La Galaxia es el único cielo que no se fotografía en un lugar: representa la evolución ilimitada hacia lo que aún no existe.
 
-El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons.
+El cielo es el origen conceptual y cromático de la identidad Keyons. Su presencia visual se adapta al propósito de cada pieza: puede protagonizar una composición editorial o expresiva, mientras que en las aplicaciones funcionales la identidad se sostiene mediante los recursos visuales que correspondan.
 
 #### KYN-MRK-CON-002 · 2.1.1 Jerarquía de cielos
 
@@ -318,6 +316,10 @@ No: Mediodía. Sí: el cielo que corresponde a ese propósito.
 
 **(¿Hay duda entre dos?)**
 Gana Mediodía. Nunca se fuerza un cielo solo por cambiar.
+
+**(Las proporciones)**
+Las proporciones establecidas orientan la distribución de los cinco cielos en las piezas donde corresponde utilizar este lenguaje visual. No representan cuotas obligatorias para cada campaña, documento o producto.
+La elección de un cielo responde primero al sentido narrativo de la pieza. Su frecuencia de uso contribuye a mantener el reconocimiento de marca sin imponer recursos expresivos en contextos que requieren mayor contención.
 
 #### KYN-MRK-CON-003 · 2.1.2 Diario de Cielos
 
@@ -392,10 +394,11 @@ El objetivo (entender, sentir, actuar) se sintetiza en una sola línea.
 04
 
 Presencia humana
-Muestra el rastro de la autoría: una textura, un trazo o un detalle imperfecto.
+La autoría humana se reconoce en el origen de la idea, la elección de los recursos y el criterio con que se construye la composición.
 
 **(Criterio)**
-La huella humana se puede señalar con el dedo.
+Puede manifestarse mediante fotografía, ilustración, materiales, trazos o decisiones de dirección artística. No requiere introducir imperfecciones artificiales ni efectos de desgaste.
+Una composición precisa y limpia también puede expresar una sensibilidad profundamente humana.
 
 05
 
@@ -428,6 +431,8 @@ Comunicación formal
 Google Business
 **(Receptor)** · Verificando datos. **(Metáforas)** · Ninguna. Presencia sólida y honesta.
 
+El canal no es el único criterio: también importa lo que la persona necesita comprender o hacer al recibir la pieza. El principio general está en KYN-MRK-DIS-004, Intensidad según contexto.
+
 Si el mensaje se entiende mejor sin metáfora, se comunica sin metáfora.
 
 #### Composición
@@ -442,6 +447,10 @@ Número: 2.3 · ID: `KYN-MRK-CON-006` · Estado: vigente · Fuente: `/marca/comp
 
 ##### Cuatro reglas sin excepción
 
+Estas reglas establecen la **dirección artística de las piezas de comunicación de marca**, especialmente cuando se utilizan fotografía, ilustración y recursos narrativos.
+
+Su aplicación debe responder al propósito y al soporte. Los documentos operativos, las interfaces funcionales y los productos personalizados conservan los principios de claridad, calidad y criterio de Keyons, sin requerir todos los recursos expresivos propios de la comunicación corporativa.
+
 01
 Presencia humana
 Siempre hay un elemento real, preferentemente humano: una mano, un rostro, una planta, la veta de la madera. Su presencia es constante; su protagonismo depende del mensaje.
@@ -452,7 +461,7 @@ Todo empieza en algo hecho por una persona: una foto, un trazo, un material. La 
 
 03
 Cielo propio
-Fotografía del equipo o el degradado oficial de Keyons. Nunca imágenes de banco: no pertenecen a nadie.
+Fotografía del equipo o el degradado oficial de Keyons. Nunca imágenes de banco genéricas: Keyons prioriza imágenes con procedencia, dirección artística y una relación auténtica con su narrativa.
 
 04
 Singularidad verificable
@@ -502,8 +511,10 @@ Valores fuertes, expresados con serenidad.
 **La startup genérica** · Colores flúor, personajes exagerados, degradados saturados.
 Sobriedad deliberada.
 
-**Lo hecho por IA, sin autor** · Imágenes lisas, sin textura ni imperfección.
-Autoría humana visible.
+**Lo hecho sin autor** · Imágenes sin dirección artística, composiciones intercambiables y recursos generados automáticamente sin una intención reconocible.
+Conceptos visuales propios, decisiones compositivas justificadas y un proceso creativo con criterio y responsabilidad humana.
+
+La presencia de textura, imperfecciones o efectos materiales no determina por sí sola la originalidad ni la calidad de una imagen.
 
 #### KYN-MRK-CON-009 · 2.6 Herencia estética
 
@@ -563,8 +574,14 @@ La estética Keyons es una **identidad**. La experiencia Keyons es una **metodol
 **(Productos para clientes)**
 Los productos desarrollados para clientes pueden tener identidades visuales diferentes sin perder los estándares de calidad, claridad, accesibilidad y experiencia que caracterizan el trabajo de Keyons.
 
+**(Productos con estética predeterminada)**
+Los productos SaaS y las soluciones personalizadas que no requieren una identidad visual propia pueden utilizar una estética predeterminada desarrollada por Keyons.
+Esta expresión mantiene los estándares de experiencia compartidos y ofrece una identidad visual profesional, consistente y adaptable dentro de los límites establecidos para cada producto.
+
 **(Marca exclusiva del cliente)**
-La identidad corporativa no debe imponerse visualmente en proyectos contratados bajo la marca exclusiva del cliente.
+Cuando una solución adopta la identidad exclusiva del cliente, debe respetar sus criterios visuales y las condiciones de personalización acordadas.
+Los proyectos contratados sin firma visible de Keyons no deben incorporar logotipos, marcas de agua ni otros elementos destinados a revelar la identidad del proveedor.
+La ausencia de marca visible no modifica los compromisos de claridad, accesibilidad, seguridad y calidad de experiencia.
 
 Las cuatro capas, identidad, experiencia, sistema y expresión, se desarrollan en el capítulo 20, Sistemas de diseño.
 
@@ -576,13 +593,18 @@ Número: 3.3 · ID: `KYN-MRK-DIS-003` · Estado: vigente · Fuente: `/marca/prin
 
 El lenguaje visual de Keyons utiliza claridad, tipografía, retículas y espacio negativo para generar **calma**; fotografía, color, textura y movimiento para generar **carácter**.
 
-**(Minimalismo)**
-Proporciona estructura.
+**(Minimalismo estructural)**
+Organiza la información mediante tipografía, retículas, jerarquías claras y espacio negativo. Su propósito es facilitar la lectura, orientar la atención y generar una experiencia visual equilibrada.
+El minimalismo no significa ausencia de personalidad. La precisión compositiva y el uso deliberado del espacio también construyen identidad.
 
-**(Maximalismo)**
-Aporta expresión.
+**(Maximalismo gráfico)**
+Aporta carácter mediante fotografía, ilustración, color, textura, tramas y movimiento.
+Su aplicación es selectiva y responde al contenido. Un recurso expresivo puede convertirse en protagonista sin que el resto de la composición deba alcanzar la misma intensidad.
+El maximalismo no consiste en acumular elementos visuales, sino en utilizarlos con intención y criterio.
 
-Ambos deben coexistir de manera intencional, sin competir por la atención del usuario.
+Ambos enfoques se complementan: la estructura aporta claridad y la expresión construye carácter. Su equilibrio debe responder al contexto, sin competir con la información ni comprometer la experiencia del usuario.
+
+Esta combinación define la dirección estética de Keyons. No constituye una obligación visual para los productos que adoptan la identidad de otra marca.
 
 #### KYN-MRK-DIS-004 · 3.4 Según contexto
 
@@ -597,6 +619,11 @@ Puede utilizar grandes fotografías, composiciones experimentales y movimiento a
 
 **(Una herramienta operativa)**
 Utilizada repetidamente durante el día, debe priorizar legibilidad, navegación sencilla, claridad y estabilidad visual.
+
+**(Dentro de una misma experiencia)**
+La intensidad visual también puede variar entre las pantallas de un mismo producto.
+Una bienvenida, una presentación de resultados o una sección explicativa pueden admitir mayor expresión gráfica. Los formularios, las tablas y las operaciones frecuentes requieren una composición más contenida, donde la información y las acciones sean protagonistas.
+El nivel de expresión debe responder a lo que la persona necesita comprender o realizar en cada momento.
 
 La creatividad nunca debe obstaculizar una decisión funcional.
 
@@ -615,6 +642,11 @@ Keyons debe resolver la complejidad durante el proceso de diseño, en lugar de t
 
 **(Para todas las personas)**
 Las soluciones deben ser comprensibles incluso para personas con baja familiaridad tecnológica.
+
+**(Claridad ante las dificultades)**
+Una experiencia clara también debe orientar cuando algo no sucede como se esperaba.
+Los mensajes y estados de la interfaz deben ayudar a comprender qué ocurrió, qué información necesita la persona y cuáles son las alternativas disponibles para resolver la situación o continuar.
+La especificación de los componentes, mensajes y mecanismos de recuperación corresponde a las normas funcionales del sistema de diseño.
 
 ### Capítulo 04 · Voz
 
@@ -657,17 +689,32 @@ Cuando el contexto permite calidez abierta: redes sociales, campañas, blog, con
 
 Cuando hay duda sobre qué modo aplicar, gana lo humano bajo las reglas de lo corporativo.
 
+###### La voz según su aplicación
+
+**(Canales de Keyons)**
+Los modos corporativo y expresivo definen cómo se comunica Keyons en sus propios canales. Ambos comparten claridad, precisión y respeto por el lector; lo que cambia es el grado de cercanía y libertad narrativa que permite cada contexto.
+
+**(Interfaces de Keyons)**
+En las interfaces digitales de Keyons, estos principios orientan la comunicación, mientras que las reglas específicas de mensajes, instrucciones, estados y errores se desarrollan en el Sistema de Diseño.
+
+**(Marcas de clientes)**
+Los productos que adoptan la identidad exclusiva de un cliente utilizan la voz y el tono definidos para esa marca, sin perder los estándares compartidos de comprensión y calidad de experiencia.
+
+**(Estela)**
+La personalidad y el tratamiento conversacional de Estela se documentan en su capítulo correspondiente.
+
 #### KYN-MRK-VOZ-002 · 4.2 Reglas de escritura
 
 Número: 4.2 · ID: `KYN-MRK-VOZ-002` · Estado: vigente · Fuente: `/marca/voz.html#reglas`
 
-##### Cuatro reglas sin excepción
+##### Cuatro principios para escribir con claridad
 
-Cada regla trae su prueba: **cómo se leía antes** y cómo se escribe en Keyons.
+Cada principio ayuda a construir mensajes **precisos, naturales y fáciles de comprender**. Los ejemplos muestran cómo mejorar una redacción sin convertir sus estructuras en fórmulas obligatorias.
 
 01
 Afirmar antes que negar
-Cada frase dice qué se hace, qué se es, qué se elige. Solo se niega cuando la negación es el mensaje.
+Priorizamos las formulaciones que explican qué hacemos, qué proponemos y qué puede esperar el lector.
+La negación se utiliza cuando es necesaria para comunicar una prohibición, un límite, una advertencia o una condición importante. En estos casos, la claridad prevalece sobre la preferencia por las frases afirmativas.
 
 **(Antes)**
 No somos una consultora tradicional.
@@ -676,8 +723,9 @@ No somos una consultora tradicional.
 Keyons diseña la IA alrededor de cómo ya trabaja su equipo.
 
 02
-Una idea fuerte por frase
-Si una frase lleva dos ideas, se divide. Si lleva tres, se reescribe el párrafo.
+Una idea principal por frase
+Cada oración debe tener una intención reconocible. Cuando una frase acumula ideas independientes y dificulta la lectura, conviene dividirla o reorganizarla.
+La extensión no es un problema por sí misma. Una oración puede desarrollar relaciones complejas cuando su estructura permite comprenderlas con facilidad.
 
 **(Antes)**
 Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnología a la medida.
@@ -686,8 +734,9 @@ Automatizamos procesos, reducimos costos y acompañamos a su equipo con tecnolog
 Automatizamos lo repetitivo. Su equipo recupera tiempo para pensar.
 
 03
-Imagen concreta antes que abstracción
-Máximo un abstracto por frase, sostenido por una imagen que se pueda ver.
+Lo concreto antes que lo abstracto
+Preferimos explicar hechos, acciones, beneficios y situaciones reconocibles antes que utilizar conceptos amplios sin contexto.
+Los conceptos abstractos están permitidos cuando aportan significado, pero deben acompañarse de una explicación que permita comprender su aplicación.
 
 **(Antes)**
 Libertad y propósito.
@@ -696,8 +745,9 @@ Libertad y propósito.
 Libertad para pensar en el negocio.
 
 04
-Verbo propio antes que adjetivo prestado
-Máximo dos adjetivos seguidos. Cuando se puede, el verbo carga el peso solo.
+Verbos precisos antes que adjetivos genéricos
+Elegimos verbos que expliquen qué ocurre o qué hacemos, en lugar de apoyarnos en adjetivos que podrían describir a cualquier empresa.
+Los adjetivos deben aportar información, precisión o carácter. Evitamos acumularlos cuando no modifican sustancialmente el mensaje.
 
 **(Antes)**
 Creamos soluciones innovadoras.
@@ -705,7 +755,18 @@ Creamos soluciones innovadoras.
 **(En Keyons)**
 Diseñamos a partir de su operación.
 
-El filtro final: si al leerla en voz alta suena a comercial de perfume, se reescribe.
+###### Criterio de consistencia
+
+**(Dentro de una pieza)**
+Dentro de una misma pieza, los mensajes relacionados deben conservar su sentido, terminología y construcción gramatical.
+
+**(En las series)**
+Las series de promesas, beneficios, instrucciones o características deben seguir una estructura coherente. La variedad editorial puede enriquecer la lectura, pero no debe generar cambios arbitrarios de voz ni confusión.
+
+**(La repetición)**
+La repetición de información se justifica cuando permite confirmar un dato importante, reforzar una decisión o comprender un contexto nuevo. En los demás casos, debe evitarse.
+
+Antes de aprobar un texto, comprobamos que informa con claridad, suena natural al leerlo y comunica algo concreto. Si depende de palabras grandilocuentes para parecer importante, necesita una nueva redacción.
 
 #### Vocabulario
 
@@ -719,18 +780,20 @@ Número: 4.3 · ID: `KYN-MRK-VOZ-003` · Estado: vigente · Fuente: `/marca/voca
 
 ##### Las palabras que usamos
 
-El vocabulario propio no es decoración: **usar siempre las mismas palabras** construye memoria de marca.
+Las palabras que utilizamos con frecuencia ayudan a construir una **identidad verbal reconocible**. Su valor está en la precisión con que describen nuestro trabajo, no en repetirlas por obligación.
+
+El vocabulario debe adaptarse al contenido y al lector. Cuando una palabra más sencilla permita explicar mejor una idea, debe preferirse sin perder precisión.
 
 - **Arquitectura operativa**: La forma en que una empresa opera. Más precisa que «procesos», menos fría que «sistemas».
 - **Diagnóstico**: Lo que ocurre antes de proponer. Ancla la metodología frente a quienes venden sin entender.
-- **Acompañamiento**: El vínculo humano continuo. Más preciso que «soporte», que suena transaccional.
+- **Acompañamiento**: La orientación y participación de Keyons durante las etapas contempladas en cada servicio. Su alcance depende de la modalidad contratada; no sustituye los términos específicos de soporte, capacitación o asesoría cuando corresponden.
 - **Ritmo**: Los tiempos reales de cada organización: nos adaptamos al cliente.
 - **Criterio**: La capacidad humana de juzgar y decidir. Lo que Keyons protege por encima de la automatización.
 - **Oficio**: El trabajo bien hecho, con autoría. Lejos de lo producido en serie.
 - **Rigor**: Precisión seria: profesionalismo sin acartonar.
 - **Operación**: El día a día real del cliente. Más humano que «negocio» o «empresa».
-- **Infraestructura**: Lo que Keyons construye. Más precisa que «soluciones» o «productos».
-- **Firma**: La autoría humana que respalda cada entrega.
+- **Infraestructura**: El conjunto de elementos tecnológicos y operativos que sostienen una solución. Se utiliza cuando describe esa estructura; no reemplaza automáticamente términos como producto, plataforma, aplicación o servicio.
+- **Firma**: La autoría y el criterio profesional que respaldan un trabajo. Puede manifestarse mediante identidad visible cuando corresponde, pero también mediante la calidad de ejecución. En productos sin firma del proveedor, no debe convertirse en una señal destinada a revelar la participación de Keyons.
 
 #### KYN-MRK-VOZ-004 · 4.4 Vocabulario que evitamos
 
@@ -738,7 +801,9 @@ Número: 4.4 · ID: `KYN-MRK-VOZ-004` · Estado: vigente · Fuente: `/marca/voca
 
 ##### Las palabras gastadas
 
-No están mal: están gastadas. El lector las clasifica como ruido de agencia. Keyons **describe la idea** en lugar de pronunciar la etiqueta.
+Evitamos expresiones que **suenan importantes sin comunicar información concreta**.
+
+Algunas se han utilizado tanto en la comunicación empresarial que han perdido precisión. Otras pueden generar expectativas difíciles de comprobar. No están prohibidas por su forma: se evitan cuando sustituyen una explicación clara o una afirmación verificable.
 
 Transformación digital
 Nombrar qué cambia: una operación, una forma de trabajar, un flujo.
@@ -747,10 +812,10 @@ Disruptivo, disrupción
 Mostrar qué se rompe y qué lo reemplaza.
 
 Soluciones integrales
-«Un solo aliado para todo el ciclo», o enumerar las piezas.
+Explicar qué servicios, capacidades o etapas están realmente incluidos y cómo se relacionan entre sí.
 
 Soluciones a medida
-«Hecho a la medida de su operación».
+Indicar qué puede adaptarse, con qué profundidad y dentro de cuáles condiciones. En productos SaaS, diferenciar las opciones de configuración de los desarrollos personalizados.
 
 Revolucionar
 Cambiar, rediseñar, replantear.
@@ -765,7 +830,7 @@ Potencial ilimitado
 Nombrar la capacidad concreta que se amplifica.
 
 ROI garantizado
-El ahorro específico, el tiempo liberado, la fricción eliminada.
+Presentar beneficios previstos, resultados medidos y condiciones que permiten evaluarlos. Las proyecciones se identifican como estimaciones, no como garantías.
 
 Game-changer, vanguardia
 Describir qué cambia en términos concretos.
@@ -781,6 +846,10 @@ Afirmar qué es Keyons con sus propias palabras.
 
 Partners estratégicos
 Aliados, acompañantes, colaboradores.
+
+**(Criterio final)**
+Una expresión puede utilizarse cuando tiene un significado técnico, comercial o contractual preciso.
+La regla no consiste en evitar palabras conocidas, sino en impedir que sustituyan información relevante.
 
 Describir la idea es más largo, pero más distintivo y más honesto.
 
@@ -813,35 +882,53 @@ El voseo marcaría a Keyons como marca local pequeña. El usted es universal y l
 **(Mercados en inglés)**
 El «you» neutraliza el pronombre y conserva el tono profesional.
 
-**(Excepción · Estela y los agentes de IA)**
-Tienen trato propio, documentado en su módulo. Como personajes, pueden vosear o tutear según su personalidad.
+**(Excepción · Estela)**
+Estela tendrá una personalidad y unas reglas de trato propias, documentadas en su capítulo.
+Su forma de dirigirse a las personas deberá mantener coherencia con esa personalidad, con el contexto de uso y con las preferencias o condiciones del producto.
+Hasta que se apruebe su identidad conversacional, no se establece el tuteo ni el voseo como tratamiento predeterminado.
 
 **(Excepción · Campañas culturales costarricenses)**
 Fiestas patrias, humor local y celebraciones internas. Se aprueban campaña por campaña; no son regla general.
+
+**(Productos bajo marcas de clientes)**
+Cuando una solución utiliza la identidad exclusiva de un cliente, el tratamiento verbal debe responder a las reglas de esa marca.
+Los principios de claridad, respeto y comprensión se mantienen, aunque cambien el pronombre, el nivel de formalidad o el vocabulario.
+
+**(Aplicación en inglés)**
+El tono profesional y cercano debe trasladarse de manera natural al inglés, respetando las convenciones del idioma. No se deben reproducir literalmente las construcciones del español cuando produzcan expresiones poco naturales.
 
 #### KYN-MRK-VOZ-006 · 4.6 Primera o tercera persona
 
 Número: 4.6 · ID: `KYN-MRK-VOZ-006` · Estado: vigente · Fuente: `/marca/trato.html#persona`
 
-##### Primero Keyons, después nosotros
+##### Una voz coherente, en primera o tercera persona
 
-Ante un lector nuevo, Keyons se nombra en tercera persona para anclar la marca. Con la conversación instalada, pasa a la **primera persona plural** para acercarse.
+Keyons puede comunicarse en **tercera persona** cuando necesita presentar formalmente su identidad, sus capacidades o su posición institucional. La **primera persona plural** expresa compromisos, decisiones y acciones asumidas por la empresa: favorece una comunicación más directa sin perder profesionalismo.
 
-Keyons diseña la inteligencia artificial que se adapta a cómo ya trabaja su empresa.
+La elección depende del propósito de la pieza y de la relación con el lector. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente a primera persona después del primer párrafo.
+
+Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones.
 
 **(Tercera persona)**
-Abre la pieza y ancla la marca.
+Keyons se presenta como entidad.
 
-Primero entendemos su operación; después diseñamos con su equipo, a su ritmo.
+Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trabajar con mayor claridad.
 
 **(Primera persona plural)**
-Después del primer párrafo, acerca.
+La empresa habla directamente con su público.
 
 **(Tercera persona · dónde)**
+Es apropiada para presentaciones institucionales, biografías corporativas, descripciones de empresa, comunicados y textos donde Keyons se presenta como entidad.
 Hero de web · apertura de propuesta · bio corporativa · comunicados de prensa · meta descripciones · títulos de sección.
 
 **(Primera persona · dónde)**
+Es apropiada para propuestas de valor, compromisos, mensajes de servicio, explicaciones de procesos y comunicaciones donde la empresa habla directamente con su público.
 Cuerpo de propuestas · secciones secundarias de web · redes sociales · blog · soporte · capacitaciones.
+
+**(Consistencia de la pieza)**
+Los bloques que pertenecen a una misma categoría comunicativa deben mantener una construcción gramatical coherente.
+Por ejemplo, una serie de cinco promesas puede utilizar cinco verbos en primera persona plural. No debe cambiar arbitrariamente entre «diseñamos», «ofrecer», «el cliente recibe» y «Keyons construye».
+Los cambios de persona se permiten cuando existe una transición editorial clara y cumplen una función comunicativa.
 
 #### KYN-MRK-VOZ-007 · 4.7 De lo técnico a lo humano
 
@@ -849,23 +936,25 @@ Número: 4.7 · ID: `KYN-MRK-VOZ-007` · Estado: vigente · Fuente: `/marca/trat
 
 ##### Lo que hace, no cómo se llama
 
-Cada término técnico se traduce. No es simplificar: **es respetar al lector**.
+Explicamos la tecnología desde **su función, sus efectos y su utilidad** para las personas.
+
+Los términos técnicos se utilizan cuando aportan precisión o son necesarios para comprender el tema. Cuando el lector no necesita conocerlos, priorizamos una explicación directa. Una traducción sencilla nunca debe alterar el significado técnico, omitir una limitación importante ni prometer capacidades que el sistema no tiene.
 
 01
-Describir qué hace
-Para el lector, la función importa más que la etiqueta: «la IA consulta sus datos antes de responder».
+Explicar qué hace
+Presentamos primero la función o el resultado que el lector necesita comprender.
 
 02
-Analogías cotidianas
-Una buena analogía instala comprensión en segundos: «el camino que recorre la información».
+Utilizar analogías que aclaren
+Las analogías ayudan a comprender conceptos complejos, pero no deben presentar equivalencias inexactas. Cuando una comparación tiene límites importantes, se explican.
 
 03
-Explicar lo inevitable
-Si el término circula en el mercado, se escribe y se explica en la misma frase, una vez por documento.
+Conservar los términos necesarios
+Cuando una denominación técnica, legal o comercial es relevante, la utilizamos y explicamos su significado en el contexto correspondiente. No es necesario repetir la definición cada vez que aparece el término si el lector ya dispone del contexto.
 
 04
-Verbos antes que siglas
-El verbo mueve; el sustantivo técnico detiene: «consulta», no «arquitectura RAG».
+Priorizar acciones comprensibles
+Preferimos verbos y descripciones concretas antes que acumular siglas. Las siglas permanecen cuando son necesarias para identificar una tecnología, una norma o una especificación.
 
 ###### Así lo decimos
 
@@ -876,13 +965,13 @@ Los términos se agrupan por temática para encontrarlos rápido. **Los principi
 **(Cómo se traduce)** Desacralizando la tecnología: se explica qué hace la IA, sin misterio ni promesas.
 
 **(RAG)**
-La IA consulta sus propios datos antes de responder.
+Técnica que permite a la IA buscar información en fuentes disponibles y utilizarla como contexto para elaborar una respuesta.
 
 **(Fine-tuning)**
-Entrenamiento personalizado con sus datos.
+Ajuste adicional de un modelo de IA mediante ejemplos de entrenamiento para mejorar su desempeño en determinadas tareas.
 
 **(Agentes autónomos)**
-Asistentes que ejecutan tareas por su cuenta.
+Sistemas de IA que pueden realizar tareas y utilizar herramientas dentro de permisos y límites definidos. Algunas acciones pueden requerir autorización humana.
 
 **(LLM)**
 La IA que entiende y escribe texto.
@@ -891,16 +980,16 @@ La IA que entiende y escribe texto.
 Diseño de instrucciones para la IA.
 
 **(Vector database)**
-Base de datos que entiende significado, no solo palabras.
+Base de datos que almacena representaciones numéricas de información y permite recuperarla mediante búsquedas por similitud.
 
 **(Hallucination)**
-Cuando la IA inventa información que no es real.
+Respuesta de IA que presenta información incorrecta, inventada o sin respaldo suficiente como si fuera un hecho.
 
 **(Guardrails)**
 Reglas que delimitan qué puede hacer la IA.
 
 **(Context window)**
-Cuánto texto puede leer la IA de una sola vez.
+Cantidad de información que un modelo puede considerar dentro de una interacción, según sus límites técnicos.
 
 **02Operaciones y procesos**
 
@@ -941,7 +1030,7 @@ Tiempo que toma una tarea de principio a fin.
 **(Cómo se traduce)** Haciendo visible el cuidado: dónde está la información y quién la protege.
 
 **(ETL · Pipeline de datos)**
-El camino que recorre la información dentro del sistema.
+Proceso para extraer datos de una fuente, transformarlos y cargarlos en otro sistema.
 
 **(Data warehouse)**
 Lugar centralizado donde se guardan los datos de la empresa.
@@ -950,10 +1039,10 @@ Lugar centralizado donde se guardan los datos de la empresa.
 Repositorio donde los datos se guardan tal como llegan.
 
 **(Encriptación)**
-Convertir información en código para que solo los autorizados la lean.
+Utilizar preferentemente el término «cifrado» en español. Es el proceso de transformar información para impedir su lectura sin los medios autorizados para recuperarla.
 
 **(Anonimización)**
-Quitar los datos personales para que no se pueda identificar a nadie.
+Tratamiento de datos destinado a impedir la identificación de personas. Para considerarse efectiva, debe evaluarse el riesgo de reidentificación.
 
 **(Compliance)**
 Cumplimiento de las normativas aplicables.
@@ -1037,6 +1126,17 @@ Documento que explica qué se hace con los datos del usuario.
 
 **(SLA)**
 Acuerdo escrito sobre los niveles de servicio garantizados.
+
+###### Relación con la comunicación de productos
+
+**(Consumo de IA)**
+La comunicación comercial de consumo de IA debe expresar unidades comprensibles para el cliente. Cuando corresponda, se utilizarán créditos de IA o unidades vinculadas a tareas del negocio, conforme a las reglas del Manual de Producto.
+
+**(Términos internos)**
+No se deben introducir términos internos de ingeniería en interfaces comerciales cuando no aportan valor al usuario.
+
+**(Sistema de Diseño)**
+Las especificaciones de mensajes, etiquetas, errores, confirmaciones y componentes conversacionales se desarrollarán en el Sistema de Diseño, sin duplicar estas reglas generales de voz.
 
 Cada término nuevo se traduce con estos cuatro principios y entra en su temática.
 
