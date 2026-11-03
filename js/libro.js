@@ -51,6 +51,9 @@
   });
   flat.unshift(...NAV.map((a) => ({ t: a.t, href: a.href, s: 'b', path: 'Área del manual' })));
 
+  /* Cada libro de la Biblioteca lleva su trama en encabezados y subencabezados (css: --trama) */
+  document.documentElement.dataset.libro = (window.KEYONS_BOOK || {}).id || 'marca';
+
   /* ─── Cabecera · misma especificación que el sitio web ─── */
   const top = $('topbar');
   if (top) {

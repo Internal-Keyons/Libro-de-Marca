@@ -28,7 +28,7 @@ Anclaje real
 Nace de un elemento cotidiano e hiperreconocible.
 
 **(Criterio)**
-La primera lectura debe ser clara y comprensible, aunque la composición permita descubrir significados adicionales al observarla con más detalle.
+La primera lectura debe ser clara y comprensible, con significados adicionales al observarla en detalle.
 
 02
 

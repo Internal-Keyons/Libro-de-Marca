@@ -24,19 +24,19 @@ Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicac
 
 01
 Presencia humana
-La presencia se reconoce en la intención, las decisiones creativas y el criterio que sostiene cada pieza. Puede expresarse mediante fotografía, ilustración o recursos abstractos, sin necesidad de representar personas ni añadir imperfecciones artificiales.
+La intención y las decisiones creativas sostienen cada pieza. Puede expresarse con fotografía, ilustración o recursos abstractos. No requiere mostrar personas ni imperfecciones artificiales.
 
 02
-Dirección humana, creación sin límites de herramienta
-La creación puede integrar fotografía, ilustración, diseño digital, inteligencia artificial y otros medios de producción. Cada resultado responde a una dirección artística definida, revisada por una persona responsable y alineada con los estándares de identidad y calidad de Keyons.
+Dirección humana, creación sin límites
+La creación integra fotografía, ilustración, diseño digital o IA. Cada resultado responde a una dirección artística definida. Siempre revisado por una persona responsable y alineado con la marca.
 
 03
 Cielo propio
-Las piezas que utilizan fotografías documentales del cielo deben tener procedencia verificable y cumplir las reglas del Diario de Cielos. También pueden incorporar degradados oficiales o interpretaciones artísticas, evitando presentar imágenes sintéticas como fotografías auténticas.
+Las fotografías del cielo deben tener procedencia verificable. Cumplen las reglas del Diario de Cielos o usan degradados oficiales. Se evitan imágenes sintéticas presentadas como auténticas.
 
 04
 Singularidad verificable
-Antes de publicarse, cada pieza se contrasta con lo que no representa a la marca. Si la composición pudiera confundirse con otra identidad, regresa a diseño para asegurar su carácter único y diferenciado.
+Cada pieza se contrasta con lo que no representa a la marca. Si puede confundirse con otra identidad, regresa a diseño. Se asegura carácter único y diferenciado antes de publicarse.
 
 La creatividad nace del criterio. La tecnología amplía sus posibilidades.
 

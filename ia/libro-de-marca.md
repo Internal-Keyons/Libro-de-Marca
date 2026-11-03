@@ -235,7 +235,7 @@ Número: 2.1 · ID: `KYN-MRK-CON-001` · Estado: vigente · Fuente: `/marca/ciel
 
 ##### Un mismo cielo, ningún horizonte igual
 
-Los retos de eficiencia, orden y crecimiento se repiten entre industrias, pero cada organización los enfrenta desde una realidad diferente. Por eso nuestras soluciones responden a **distintos niveles de adaptación**, sin perder de vista las necesidades de quienes las utilizan.
+Los retos de eficiencia, orden y crecimiento son comunes, pero cada organización los enfrenta desde su realidad. Nuestras soluciones se adaptan a **distintos niveles** según las necesidades de uso.
 
 **(Universal)**
 El cielo es el único lenguaje visual que no necesita traducción. Cualquiera lo entiende, en cualquier idioma y cultura. Eso permite que Keyons hable con cualquier organización, en cualquier país, sin perder identidad.
@@ -369,7 +369,7 @@ Anclaje real
 Nace de un elemento cotidiano e hiperreconocible.
 
 **(Criterio)**
-La primera lectura debe ser clara y comprensible, aunque la composición permita descubrir significados adicionales al observarla con más detalle.
+La primera lectura debe ser clara y comprensible, con significados adicionales al observarla en detalle.
 
 02
 
@@ -446,19 +446,19 @@ Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicac
 
 01
 Presencia humana
-La presencia se reconoce en la intención, las decisiones creativas y el criterio que sostiene cada pieza. Puede expresarse mediante fotografía, ilustración o recursos abstractos, sin necesidad de representar personas ni añadir imperfecciones artificiales.
+La intención y las decisiones creativas sostienen cada pieza. Puede expresarse con fotografía, ilustración o recursos abstractos. No requiere mostrar personas ni imperfecciones artificiales.
 
 02
-Dirección humana, creación sin límites de herramienta
-La creación puede integrar fotografía, ilustración, diseño digital, inteligencia artificial y otros medios de producción. Cada resultado responde a una dirección artística definida, revisada por una persona responsable y alineada con los estándares de identidad y calidad de Keyons.
+Dirección humana, creación sin límites
+La creación integra fotografía, ilustración, diseño digital o IA. Cada resultado responde a una dirección artística definida. Siempre revisado por una persona responsable y alineado con la marca.
 
 03
 Cielo propio
-Las piezas que utilizan fotografías documentales del cielo deben tener procedencia verificable y cumplir las reglas del Diario de Cielos. También pueden incorporar degradados oficiales o interpretaciones artísticas, evitando presentar imágenes sintéticas como fotografías auténticas.
+Las fotografías del cielo deben tener procedencia verificable. Cumplen las reglas del Diario de Cielos o usan degradados oficiales. Se evitan imágenes sintéticas presentadas como auténticas.
 
 04
 Singularidad verificable
-Antes de publicarse, cada pieza se contrasta con lo que no representa a la marca. Si la composición pudiera confundirse con otra identidad, regresa a diseño para asegurar su carácter único y diferenciado.
+Cada pieza se contrasta con lo que no representa a la marca. Si puede confundirse con otra identidad, regresa a diseño. Se asegura carácter único y diferenciado antes de publicarse.
 
 La creatividad nace del criterio. La tecnología amplía sus posibilidades.
 
@@ -514,7 +514,7 @@ Valores fuertes, expresados con serenidad.
 Sobriedad deliberada.
 
 **Producción visual sin criterio** · Imágenes sin intención reconocible, que podrían pertenecer a cualquier marca.
-**Dirección artística propia** · Ideas visuales justificadas por el contenido, con autoría y criterio claros.
+Dirección artística con autoría y criterio claros.
 
 La originalidad no depende de añadir textura, desgaste o imperfecciones.
 
