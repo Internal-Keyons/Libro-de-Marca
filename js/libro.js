@@ -92,15 +92,23 @@
         <a class="hdr__exit" href="${url('index.html')}" title="Salir a la Biblioteca Keyons" aria-label="Salir a la Biblioteca Keyons"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,22.8503,17.865)" d="M0 0-4.5-4.83-6.31-3.13-2.82 .62-10.37 .63V3.12L-2.84 3.11-6.31 6.87-4.48 8.56 0 3.69C.96 2.66 .96 1.04 0 0" fill="currentColor"/><path transform="matrix(1,0,0,-1,13.4557,27.2317)" stroke-width="2.5" fill="none" stroke="currentColor" d="M0 22.381L-5.118 22.381L-5.118 0L0 0"/></svg><span>Biblioteca</span></a>
       </div>
       <div class="hdr__panel">
-        <nav aria-label="${BOOK.menuLabel || 'Áreas del manual'}">${linkHtml('')}</nav>
+        <nav aria-label="${BOOK.menuLabel || 'Áreas del manual'}"${links.length > 5 ? ' class="is-cols"' : ''}>${linkHtml('')}</nav>
         <div class="hdr__panel-foot"><button class="hdr__panel-search" type="button" data-search>${ic(I.search)}Buscar en el manual</button>
           <span class="hdr__panel-alt">${alt.map(([t, h, d, dl]) => `<a href="${url(h)}"${dl ? ' download' : ''}>${d ? ic(I[d] || d) : ''}${t}</a>`).join('')}</span></div>
       </div>`;
     const burger = top.querySelector('.hdr__burger');
-    const setOpen = (o) => { top.classList.toggle('is-open', o); burger.setAttribute('aria-expanded', o); burger.setAttribute('aria-label', o ? 'Cerrar menú' : 'Abrir menú'); };
+    let openY = 0;
+    const setOpen = (o) => { if (o) openY = scrollY; top.classList.toggle('is-open', o); burger.setAttribute('aria-expanded', o); burger.setAttribute('aria-label', o ? 'Cerrar menú' : 'Abrir menú'); };
     burger.addEventListener('click', () => setOpen(!top.classList.contains('is-open')));
     top.querySelector('.hdr__panel').addEventListener('click', (e) => { if (e.target.closest('a,button')) setOpen(false); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setOpen(false); });
+    /* Al desplazar la página hacia arriba o hacia abajo, el menú abierto se cierra solo */
+    const isOpen = () => top.classList.contains('is-open');
+    let touchY = 0;
+    addEventListener('scroll', () => { if (isOpen() && Math.abs(scrollY - openY) > 24) setOpen(false); }, { passive: true });
+    addEventListener('wheel', (e) => { if (isOpen() && Math.abs(e.deltaY) > 4) setOpen(false); }, { passive: true });
+    addEventListener('touchstart', (e) => { touchY = e.touches[0].clientY; }, { passive: true });
+    addEventListener('touchmove', (e) => { if (isOpen() && Math.abs(e.touches[0].clientY - touchY) > 24) setOpen(false); }, { passive: true });
     if (IS_HOME) {
       const hero = document.querySelector('.hero');
       const check = () => top.classList.toggle('is-solid', !hero || hero.getBoundingClientRect().bottom <= top.offsetHeight);
