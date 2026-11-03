@@ -80,52 +80,37 @@ window.KEYONS_NAV = [
         { t: 'Familias', s: 'b', href: 'fundamentos/tipografia/sistema.html#familias' }, { t: 'Escala y jerarquía', s: 'b', href: 'fundamentos/tipografia/sistema.html#escala' }, { t: 'Probador', s: 'b', href: 'fundamentos/tipografia/sistema.html#probador' },
         { t: 'Titular editorial', s: 'v', href: 'fundamentos/tipografia/sistema.html#titular' }, { t: 'Kickers', s: 'b', href: 'fundamentos/tipografia/sistema.html#kickers' },
         { t: 'Reglas de uso', s: 'b', href: 'fundamentos/tipografia/sistema.html#reglas' }, { t: 'Uso por función', s: 'v', href: 'fundamentos/tipografia/sistema.html#funcion' }, { t: 'Tracking en pantalla', st: 'Tracking', s: 'b', href: 'fundamentos/tipografia/sistema.html#tracking' }, { t: 'Tipografía en impreso', st: 'En impreso', s: 'p' } ] },
-      { n: '09', k: 'forma', was: '08', t: 'Forma y espacio', s: 'v', d: 'Interior curvo, exterior recto. Radio y separación.', items: [
-        { t: 'Regla de esquinas', s: 'b', href: 'fundamentos/forma/espacio.html#esquinas' }, { t: 'Radios', s: 'b', href: 'fundamentos/forma/espacio.html#radios' }, { t: 'Espaciado', s: 'b', href: 'fundamentos/forma/espacio.html#espaciado' }, { t: 'Retícula y responsive', s: 'b', href: 'fundamentos/forma/espacio.html#reticula' }, { t: 'Densidad', s: 'b', href: 'fundamentos/forma/espacio.html#densidad' }, { t: 'Patrones de contenido', s: 'b', href: 'fundamentos/forma/espacio.html#patrones' }, { t: 'Diagramas de información', s: 'b', href: 'fundamentos/forma/espacio.html#diagramas' } ] },
-      { n: '10', k: 'composicion', t: 'Composiciones', s: 'v', d: 'Cómo decidir la composición que conviene a cada contenido: retícula, simetría, asimetría y ritmo.', items: [
-        { t: 'Decidir la composición', st: 'Decidir', s: 'v', href: 'fundamentos/composicion/editorial.html#decidir' },
-        { t: 'Orden y experimentación', st: 'Orden y experimento', s: 'v', href: 'fundamentos/composicion/editorial.html#simetria' },
+      { n: '09', k: 'forma', was: '08', t: 'Geometría y espacio', st: 'Geometría y espacio', s: 'v', d: 'El lenguaje geométrico de Keyons: esquinas, radios y espacio.', items: [
+        { t: 'Lenguaje geométrico Keyons', st: 'Lenguaje geométrico', s: 'v', href: 'fundamentos/forma/espacio.html#esquinas' },
+        { t: 'Sistema de radios y curvaturas', st: 'Radios y curvaturas', s: 'v', href: 'fundamentos/forma/espacio.html#radios' },
+        { t: 'Sistema de espaciado', st: 'Espaciado', s: 'v', href: 'fundamentos/forma/espacio.html#espaciado' } ] },
+      { n: '10', k: 'composicion', t: 'Composición y diagramación', st: 'Composición', s: 'v', d: 'Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, densidad, patrones y diagramas.', items: [
+        { t: 'Componer según el contenido', st: 'Componer', s: 'v', href: 'fundamentos/composicion/editorial.html#decidir' },
+        { t: 'Simetría y asimetría', s: 'v', href: 'fundamentos/composicion/editorial.html#simetria' },
         { t: 'Retículas editoriales', s: 'v', href: 'fundamentos/composicion/editorial.html#reticulas' },
-        { t: 'Ritmo visual', s: 'v', href: 'fundamentos/composicion/editorial.html#ritmo' } ] },
-      { n: '11', k: 'criterio', t: 'Criterios visuales', s: 'v', d: 'Dieciséis normas para reconocer lo genérico y elegir una alternativa con razón.', items: [
-        { sub: 'Estructura y jerarquía' },
-        { t: 'Kicker decorativo', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-001' },
-        { t: 'Tracking indiscriminado', st: 'Tracking', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-002' },
-        { t: 'Jerarquía visual repetitiva', st: 'Jerarquía repetida', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-003' },
-        { t: 'Tarjetas innecesarias', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-004' },
-        { sub: 'Recursos gráficos' },
-        { t: 'Gradientes ornamentales', st: 'Degradados', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-005' },
-        { t: 'Geometría genérica', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-006' },
-        { t: 'Acentos tipográficos repetidos', st: 'Acentos repetidos', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-007' },
-        { t: 'Iconografía de relleno', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-008' },
-        { t: 'Saturación de microelementos', st: 'Microelementos', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-009' },
-        { sub: 'Composición y movimiento' },
-        { t: 'Simetría automática', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-010' },
-        { t: 'Movimiento ornamental', st: 'Movimiento', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-011' },
-        { t: 'Contraste insuficiente', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-012' },
-        { sub: 'Carácter y orientación' },
-        { t: 'Lenguaje genérico', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-013' },
-        { t: 'Maximalismo uniforme', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-014' },
-        { t: 'Originalidad a costa de orientación', st: 'Orientación', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-015' },
-        { t: 'Composición no intercambiable', st: 'No intercambiable', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-016' } ] },
-      { n: '12', k: 'elementos', was: '09', t: 'Elementos gráficos', s: 'b', d: 'Viñetas, alternancia de formas, cristal y fotografía.', items: [
+        { t: 'Ritmo y equilibrio visual', st: 'Ritmo y equilibrio', s: 'v', href: 'fundamentos/composicion/editorial.html#ritmo' },
+        { t: 'Jerarquía y densidad de información', st: 'Jerarquía y densidad', s: 'v', href: 'fundamentos/composicion/editorial.html#densidad' },
+        { t: 'Patrones de composición', st: 'Patrones', s: 'v', href: 'fundamentos/composicion/editorial.html#patrones' },
+        { t: 'Diagramas de información', st: 'Diagramas', s: 'v', href: 'fundamentos/composicion/editorial.html#diagramas' },
+        { t: 'Ejemplos de aplicación', st: 'Ejemplos', s: 'b', href: 'fundamentos/composicion/editorial.html#ejemplos' } ] },
+      { n: '11', k: 'elementos', was: ['09', '12'], t: 'Elementos gráficos', s: 'b', d: 'Viñetas, énfasis, transparencia, luz, cielos, tramas y fotografía.', items: [
         { sub: 'Señales y estructura' },
-        { t: 'Viñetas de marca', s: 'b', href: 'fundamentos/elementos/graficos.html#vinetas' }, { t: 'Elementos de énfasis', s: 'b', href: 'fundamentos/elementos/graficos.html#enfasis' }, { t: 'Líneas y cotas', s: 'b', href: 'fundamentos/elementos/graficos.html#lineas' },
+        { t: 'Viñetas y marcadores gráficos', st: 'Viñetas y marcadores', s: 'b', href: 'fundamentos/elementos/graficos.html#vinetas' }, { t: 'Recursos de énfasis visual', st: 'Énfasis visual', s: 'b', href: 'fundamentos/elementos/graficos.html#enfasis' }, { t: 'Líneas, guías y medidas', st: 'Líneas y medidas', s: 'b', href: 'fundamentos/elementos/graficos.html#lineas' },
         { sub: 'Profundidad atmosférica' },
-        { t: 'Cristal', s: 'b', href: 'fundamentos/elementos/graficos.html#cristal' }, { t: 'Profundidad atmosférica', st: 'Profundidad', s: 'v', href: 'fundamentos/elementos/graficos.html#profundidad' }, { t: 'Ventanas de cielo', s: 'b', href: 'fundamentos/elementos/graficos.html#ventana' }, { t: 'Ráfagas', s: 'b', href: 'fundamentos/elementos/graficos.html#rafagas' },
+        { t: 'Transparencia y superposición', st: 'Transparencia', s: 'b', href: 'fundamentos/elementos/graficos.html#cristal' }, { t: 'Luz y profundidad', s: 'v', href: 'fundamentos/elementos/graficos.html#profundidad' }, { t: 'Ventanas de cielo', s: 'b', href: 'fundamentos/elementos/graficos.html#ventana' }, { t: 'Ráfagas de color', st: 'Ráfagas', s: 'b', href: 'fundamentos/elementos/graficos.html#rafagas' },
         { sub: 'Tramas y texturas' },
-        { t: 'Patrones y texturas', s: 'b', href: 'fundamentos/elementos/graficos.html#patrones' },
+        { t: 'Tramas y texturas', s: 'b', href: 'fundamentos/elementos/graficos.html#patrones' },
         { sub: 'Fotografía y procedencia' },
-        { t: 'Fotografía', s: 'b', href: 'fundamentos/elementos/graficos.html#fotografia' } ] },
-      { n: '13', k: 'iconografia', was: '10', t: 'Iconografía', s: 'b', d: 'Estilo de trazo, tamaños según contexto y catálogo.', items: [
+        { t: 'Fotografía e imágenes', st: 'Fotografía', s: 'b', href: 'fundamentos/elementos/graficos.html#fotografia' } ] },
+      { n: '12', k: 'iconografia', was: ['10', '13'], t: 'Iconografía', s: 'b', d: 'Estilo de trazo, tamaños según contexto y catálogo.', items: [
         { t: 'Retícula', s: 'b', href: 'fundamentos/iconografia/iconos.html#reticula' }, { t: 'Familias y variantes', s: 'b', href: 'fundamentos/iconografia/iconos.html#familias' }, { t: 'Uso', s: 'b', href: 'fundamentos/iconografia/iconos.html#uso' }, { t: 'Animación', s: 'b', href: 'fundamentos/iconografia/iconos.html#animacion' }, { t: 'Catálogo', s: 'b', href: 'fundamentos/iconografia/iconos.html#catalogo' }, { t: 'Entrega técnica', s: 'b', href: 'fundamentos/iconografia/iconos.html#entrega' } ] },
-      { n: '14', k: 'datos', was: '11', t: 'Datos', s: 'b', d: 'Gráficos que comunican con rigor: principios, color, tipografía y estructura.', items: [
+      { n: '13', k: 'datos', was: ['11', '14'], t: 'Datos y visualización', st: 'Datos', s: 'b', d: 'Gráficos que comunican con rigor: principios, color, tipografía y estructura.', items: [
         { t: 'Principios', s: 'b', href: 'fundamentos/datos/graficos.html#principios' }, { t: 'Sistema cromático', s: 'b', href: 'fundamentos/datos/graficos.html#paleta' },
         { t: 'Tipografía en gráficos', st: 'Tipografía', s: 'b', href: 'fundamentos/datos/graficos.html#tipografia' }, { t: 'Tipos de gráfico', s: 'b', href: 'fundamentos/datos/graficos.html#tipos' },
         { t: 'Estructura', s: 'b', href: 'fundamentos/datos/graficos.html#estructura' } ] },
-      { n: '15', k: 'movimiento', was: '12', t: 'Movimiento', s: 'p', d: 'Curvas, duraciones y resortes de la firma de movimiento.', items: [
+      { n: '14', k: 'movimiento', was: ['12', '15'], t: 'Movimiento', s: 'p', d: 'Curvas, duraciones y resortes de la firma de movimiento.', items: [
         { t: 'Personalidad de movimiento', st: 'Personalidad' }, { t: 'Duraciones y curvas' }, { t: 'Transiciones' } ] },
-      { n: '16', k: 'accesibilidad', was: '13', t: 'Accesibilidad', s: 'b', d: 'Contraste, tamaños mínimos y verificación.', items: [
+      { n: '15', k: 'accesibilidad', was: ['13', '16'], t: 'Accesibilidad visual', st: 'Accesibilidad', s: 'b', d: 'Contraste, tamaños mínimos y verificación.', items: [
         { t: 'Legibilidad y jerarquía', st: 'Legibilidad', s: 'b' }, { t: 'Contraste y tamaño', s: 'b' },
         { t: 'Checklist de verificación', st: 'Checklist', s: 'b' } ] }
     ]
@@ -134,7 +119,7 @@ window.KEYONS_NAV = [
     id: 'modos', t: 'Modos', href: 'modos/index.html', color: 'salmon', colorName: 'Salmón Tierra',
     d: 'Cómo se ve y suena la marca en cada registro.',
     ch: [
-      { n: '17', k: 'corporativo', was: '14', t: 'Corporativo', s: 'p', d: 'El registro formal: sobrio, claro y preciso, de principio a fin.', items: [
+      { n: '16', k: 'corporativo', was: ['14', '17'], t: 'Corporativo', s: 'p', d: 'El registro formal: sobrio, claro y preciso, de principio a fin.', items: [
         { sub: 'Principios' },
         { t: 'Cuándo aplica' }, { t: 'Color en el modo' }, { t: 'Metáfora contenida' },
         { sub: 'Sistema' },
@@ -142,11 +127,11 @@ window.KEYONS_NAV = [
         { sub: 'Componentes' },
         { t: 'Portada' }, { t: 'Encabezado y pie' }, { t: 'Títulos y numeración' }, { t: 'Tablas y cifras' },
         { t: 'Gráficos' }, { t: 'Notas y citas' }, { t: 'Bloque de firmas' }, { t: 'Sellos y marca de agua', st: 'Sellos' } ] },
-      { n: '18', k: 'expresivo', was: '15', t: 'Expresivo', s: 'b', d: 'El registro abierto: cielos, narrativa y emoción, siempre sobre la retícula.', items: [
+      { n: '17', k: 'expresivo', was: ['15', '18'], t: 'Expresivo', s: 'b', d: 'El registro abierto: cielos, narrativa y emoción, siempre sobre la retícula.', items: [
         { sub: 'Principios' }, { t: 'Libertad por canal', s: 'b' },
         { sub: 'Sistema' }, { t: 'Cielos aplicados', s: 'b' }, { t: 'Degradados', s: 'b' },
         { sub: 'Componentes' }, { t: 'Firma humana' }, { t: 'Titulares expresivos' } ] },
-      { n: '19', k: 'digital', was: '16', t: 'Digital', s: 'b', d: 'Producto e interfaz: sobrio con momentos vivos. Componentes y patrones.', items: [
+      { n: '18', k: 'digital', was: ['16', '19'], t: 'Digital', s: 'b', d: 'Producto e interfaz: sobrio con momentos vivos. Componentes y patrones.', items: [
         { sub: 'Principios' }, { t: 'Sobrio con momentos vivos', st: 'Sobriedad viva', s: 'b' },
         { sub: 'Sistema' }, { t: 'Tokens', s: 'b' }, { t: 'Densidad' },
         { sub: 'Componentes' }, { t: 'Botones', s: 'b' }, { t: 'Campos de formulario', st: 'Formularios', s: 'v' },
@@ -158,19 +143,19 @@ window.KEYONS_NAV = [
     id: 'aplicaciones', t: 'Aplicaciones', href: 'aplicaciones/index.html', color: 'atardecer', colorName: 'Salmón Atardecer',
     d: 'Dónde se aplica la marca: cada canal con sus reglas.',
     ch: [
-      { n: '20', k: 'documentos', was: '17', t: 'Documentos', s: 'p', d: 'Propuestas, contratos, facturas, correspondencia y papelería.', items: [
+      { n: '19', k: 'documentos', was: ['17', '20'], t: 'Documentos', s: 'p', d: 'Propuestas, contratos, facturas, correspondencia y papelería.', items: [
         { grp: 'Comerciales' }, { t: 'Propuesta comercial', deep: 1 }, { t: 'Cotización', deep: 1 }, { t: 'Presentación', deep: 1 }, { t: 'Caso de éxito', deep: 1 },
         { grp: 'Legales' }, { t: 'Contrato', deep: 1 }, { t: 'Confidencialidad', deep: 1 }, { t: 'Anexos', deep: 1 },
         { grp: 'Financieras' }, { t: 'Factura electrónica', deep: 1 }, { t: 'Recibo', deep: 1 }, { t: 'Estado de cuenta', deep: 1 },
         { grp: 'Correspondencia' }, { t: 'Carta', deep: 1 }, { t: 'Firma de correo', deep: 1 }, { t: 'Firma digital', deep: 1 },
         { grp: 'Papelería' }, { t: 'Tarjeta de presentación', st: 'Tarjeta', deep: 1 }, { t: 'Hoja membretada', deep: 1 }, { t: 'Sobre y carpeta', deep: 1 } ] },
-      { n: '21', k: 'presentaciones', was: '18', t: 'Presentaciones', s: 'b', d: 'Para clientes, capacitaciones, el equipo y talleres: método, historia, voz y estética.', items: [
+      { n: '20', k: 'presentaciones', was: ['18', '21'], t: 'Presentaciones', s: 'b', d: 'Para clientes, capacitaciones, el equipo y talleres: método, historia, voz y estética.', items: [
         { sub: 'Para qué' }, { t: 'Tipos', s: 'b', href: 'aplicaciones/presentaciones.html#tipos' }, { t: 'Método', s: 'b', href: 'aplicaciones/presentaciones.html#metodo' }, { sub: 'Contenido' }, { t: 'Storytelling', s: 'b', href: 'aplicaciones/presentaciones.html#historia' }, { t: 'El arco Keyons', s: 'b', href: 'aplicaciones/presentaciones.html#arco' }, { t: 'Escribir para la pantalla', st: 'Para la pantalla', s: 'b', href: 'aplicaciones/presentaciones.html#escribir' }, { t: 'Límites y notas', s: 'b', href: 'aplicaciones/presentaciones.html#limites' }, { sub: 'Estética' }, { t: 'Lienzo y retícula', s: 'b', href: 'aplicaciones/presentaciones.html#lienzo' }, { t: 'Tipografía', s: 'b', href: 'aplicaciones/presentaciones.html#tipografia' }, { t: 'Contraste', s: 'b', href: 'aplicaciones/presentaciones.html#contraste' }, { t: 'Ritmo', s: 'b', href: 'aplicaciones/presentaciones.html#ritmo' }, { t: 'Riesgo y estado', s: 'b', href: 'aplicaciones/presentaciones.html#riesgo' }, { t: 'Imagen y gráficos', s: 'b', href: 'aplicaciones/presentaciones.html#imagen' }, { sub: 'Hacerla' }, { t: 'Plantillas', s: 'b', href: 'aplicaciones/presentaciones.html#plantillas' }, { t: 'Antes de presentar', s: 'b', href: 'aplicaciones/presentaciones.html#antes' } ] },
-      { n: '22', k: 'redes', was: '20', t: 'Redes y campañas', st: 'Redes', s: 'p', d: 'Publicaciones, campañas y contenido para redes sociales.', items: [
+      { n: '21', k: 'redes', was: ['20', '22'], t: 'Redes y campañas', st: 'Redes', s: 'p', d: 'Publicaciones, campañas y contenido para redes sociales.', items: [
         { t: 'Redes sociales' }, { t: 'Campañas' } ] },
-      { n: '23', k: 'eventos', was: '21', t: 'Eventos y merch', st: 'Eventos', s: 'p', d: 'Eventos, talleres presenciales y artículos de marca.', items: [
+      { n: '22', k: 'eventos', was: ['21', '23'], t: 'Eventos y merch', st: 'Eventos', s: 'p', d: 'Eventos, talleres presenciales y artículos de marca.', items: [
         { t: 'Eventos' }, { t: 'Merch' } ] },
-      { n: '24', k: 'personalizacion', was: '22', t: 'Personalización', s: 'b', d: 'Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca blanca.', items: [
+      { n: '23', k: 'personalizacion', was: ['22', '24'], t: 'Personalización', s: 'b', d: 'Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca blanca.', items: [
         { t: 'Tres modelos', s: 'b', href: 'aplicaciones/personalizacion.html#modelos' }, { t: 'Modelo A · SaaS', st: 'Modelo SaaS', s: 'b', href: 'aplicaciones/personalizacion.html#saas' },
         { t: 'Modelo B · Boutique', st: 'Modelo Boutique', s: 'b', href: 'aplicaciones/personalizacion.html#boutique' }, { t: 'Modelo C · Marca blanca', st: 'Marca blanca', s: 'b', href: 'aplicaciones/personalizacion.html#blanca' } ] }
     ]
@@ -179,17 +164,17 @@ window.KEYONS_NAV = [
     id: 'recursos', t: 'Recursos', href: 'recursos/index.html', color: 'noche', colorName: 'Azul Noche',
     d: 'El espacio de trabajo: imágenes, texturas, íconos y plantillas.',
     ch: [
-      { n: '25', k: 'galeria', was: '23', t: 'Galería de imágenes', st: 'Galería', s: 'b', d: 'Degradados, cielos, naturaleza y personas, con ID y crédito.', items: [
+      { n: '24', k: 'galeria', was: ['23', '25'], t: 'Galería de imágenes', st: 'Galería', s: 'b', d: 'Degradados, cielos, naturaleza y personas, con ID y crédito.', items: [
         { t: 'Galería', s: 'b', href: 'recursos/galeria.html#galeria' } ] },
-      { n: '26', k: 'texturas', was: '24', t: 'Texturas y degradados', st: 'Texturas', s: 'b', d: 'Cielos hechos con código, con ID.', items: [
+      { n: '25', k: 'texturas', was: ['24', '26'], t: 'Texturas y degradados', st: 'Texturas', s: 'b', d: 'Cielos hechos con código, con ID.', items: [
         { t: 'Catálogo', s: 'b', href: 'recursos/texturas.html#texturas' } ] },
-      { n: '27', k: 'iconos', was: '25', t: 'Íconos', s: 'b', d: 'El catálogo completo de la familia.', items: [
+      { n: '26', k: 'iconos', was: ['25', '27'], t: 'Íconos', s: 'b', d: 'El catálogo completo de la familia.', items: [
         { t: 'Catálogo', s: 'b', href: 'recursos/iconos.html#catalogo' } ] },
-      { n: '28', k: 'plantillas', was: '26', t: 'Plantillas y documentos', st: 'Plantillas', s: 'b', d: 'Plantillas de presentación y manuales.', items: [
+      { n: '27', k: 'plantillas', was: ['26', '28'], t: 'Plantillas y documentos', st: 'Plantillas', s: 'b', d: 'Plantillas de presentación y manuales.', items: [
         { t: 'Plantillas', s: 'b', href: 'recursos/plantillas.html#plantillas' }, { t: 'Documentos', s: 'b', href: 'recursos/plantillas.html#documentos' } ] },
-      { n: '29', k: 'referencia', was: '27', t: 'Referencia', s: 'b', d: 'La memoria de las decisiones.', items: [
+      { n: '28', k: 'referencia', was: ['27', '29'], t: 'Referencia', s: 'b', d: 'La memoria de las decisiones.', items: [
         { t: 'Nomenclatura de reglas', st: 'Nomenclatura', s: 'b', href: 'recursos/referencia.html#nomenclatura' }, { t: 'Índice de reglas', st: 'Índice', s: 'b', href: 'recursos/referencia.html#indice' },
-        { t: 'Registro de decisiones', st: 'Decisiones' }, { t: 'Glosario' }, { t: 'Cambios' } ] }
+        { t: 'Trazabilidad de Criterios visuales', st: 'Trazabilidad', s: 'v', href: 'fundamentos/criterio/antipatrones.html#trazabilidad' }, { t: 'Registro de decisiones', st: 'Decisiones' }, { t: 'Glosario' }, { t: 'Cambios' } ] }
     ]
   }
 ];

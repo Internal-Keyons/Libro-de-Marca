@@ -120,7 +120,7 @@ def main():
 
     errores, avisos = [], []
     for h, n in reg.items():
-        if n['estado'] != 'descontinuada' and h not in cur:
+        if n['estado'] not in ('descontinuada', 'integrada') and h not in cur:
             errores.append(f'FALTA   {n["id"]} ({h}): la norma no tiene sección en el libro')
     for k, v in cur.items():
         e = ref['secciones'].get(k)

@@ -223,7 +223,11 @@ def capitulo(i, m, c):
 
 def main():
     d = json.load(io.open(DATA, encoding='utf-8'))
-    reg = {v['id']: (h, v['t'], v['n']) for h, v in json.load(io.open(os.path.join(ROOT, 'data', 'normas.json'), encoding='utf-8')).items() if v['estado'] == 'vigente'}
+    todas = json.load(io.open(os.path.join(ROOT, 'data', 'normas.json'), encoding='utf-8'))
+    reg = {v['id']: (h, v['t'], v['n']) for h, v in todas.items() if v['estado'] == 'vigente'}
+    for v in todas.values():   # integrada: se cita la norma que la contiene, con el título de la original
+        if v['estado'] == 'integrada' and v.get('en') in reg:
+            reg[v['id']] = (reg[v['en']][0], v['t'] + ' (en ' + v['en'] + ')', reg[v['en']][2])
     io.open(os.path.join(ROOT, 'js', 'nav-sistema-diseno.js'), 'w', encoding='utf-8', newline='\n').write(nav(d))
     paginas = 0
     for i, m in enumerate(d['modulos']):

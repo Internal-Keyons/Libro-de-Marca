@@ -130,6 +130,16 @@
       const N = window.KEYONS_NORMAS || [], byH = {}, byId = {};
       N.forEach((o) => { byH[o.h] = o; byId[o.id] = o; });
       const base = decodeURI(new URL(root, location.href).pathname), here = decodeURI(location.pathname).slice(base.length);
+      const moved = (window.KEYONS_ALIAS || {})[here + location.hash];
+      if (moved) { location.replace(root + moved); return; }
+      /* El buscador también encuentra cada norma por su ID, su código corto, su título, su título interior y sus nombres anteriores */
+      N.forEach((o) => {
+        if (o.e === 'descontinuada') return;
+        const corto = o.id.replace('KYN-MRK-', '');
+        flat.push({ t: o.t, href: o.h, s: o.e === 'vigente' ? 'v' : 'b', norma: true,
+          path: o.id + (o.en ? ' · integrada en ' + o.en : '') + (o.a && o.a.length ? ' · ' + o.a[o.a.length - 1] : ''),
+          k: [o.id, corto, o.n, ...(o.a || [])].join(' ') });
+      });
       document.querySelectorAll('section.ed[id] > .ed__label').forEach((lb) => {
         const o = byH[`${here}#${lb.parentElement.id}`];
         if (!o || o.e !== 'vigente') return;
@@ -1050,7 +1060,7 @@
     /* El contenido se genera después de cargar: se respeta el ancla de la URL */
     /* Enlaces anteriores a la renumeración (#cap-06): llevan al capítulo que tenía ese número */
     const old = /^#cap-(\d\d)$/.exec(location.hash);
-    const was = old && area.ch.find((c) => c.was === old[1]);
+    const was = old && area.ch.find((c) => [].concat(c.was || []).includes(old[1]));
     if (was) history.replaceState(null, '', '#' + slug(was));
     if (location.hash) { const t = document.getElementById(location.hash.slice(1)); if (t) requestAnimationFrame(() => t.scrollIntoView()); }
   }
@@ -1275,7 +1285,7 @@
   const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const draw = () => {
     const q = norm(input.value.trim());
-    hits = (q ? flat.filter((f) => norm(f.t + ' ' + f.path).includes(q)) : flat.filter((f) => f.href)).slice(0, 12);
+    hits = (q ? flat.filter((f) => norm(f.t + ' ' + f.path + ' ' + (f.k || '')).includes(q)).sort((a, b) => (norm(b.k || '').includes(q) && b.norma) - (norm(a.k || '').includes(q) && a.norma)) : flat.filter((f) => f.href && !f.norma)).filter((f, i, all) => !f.href || all.findIndex((g) => g.href === f.href) === i).slice(0, 12);
     sel = Math.min(sel, Math.max(hits.length - 1, 0));
     res.innerHTML = hits.length ? hits.map((h, i) => {
       const inner = `<span class="r-body"><span class="r-t">${esc(h.t)}</span><br><span class="r-path">${esc(h.path)}</span></span>${dot(h.s)}`;
