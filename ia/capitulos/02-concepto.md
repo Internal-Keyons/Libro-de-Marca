@@ -151,8 +151,8 @@ El cielo ocupa el 70 % o más. El resto es solo un ancla mínima al lugar: una m
 Los cielos se fotografían en Costa Rica: San José, Guanacaste, el Chirripó, el Caribe, el volcán en su neblina. Cada rincón del país es un cielo Keyons posible.
 
 **(Firma humana)**
-Cada cielo lleva el nombre de quien lo capturó, junto al lugar y la fecha. No se trata de propiedad, sino de recordar que detrás de cada imagen hubo una persona que se detuvo a mirar el cielo: un gesto pequeño que pone rostro a lo compartido y acerca la marca.
-Los datos de autoría y procedencia deben conservarse en el catálogo. Su visibilidad en cada pieza dependerá del contexto de publicación y de los créditos correspondientes.
+Cada cielo lleva el nombre, lugar y fecha de quien lo capturó. No es propiedad, sino un gesto que pone rostro a lo compartido y acerca la marca.
+Los datos de autoría y procedencia se conservan en el catálogo, con visibilidad según contexto y créditos.
 
 **(Expansión con propósito)**
 Solo entran cielos de lugares donde Keyons tiene presencia o un vínculo real. Un cielo de Tokio entra si la marca está en Japón.
@@ -323,8 +323,8 @@ Valores fuertes, expresados con serenidad.
 **La startup genérica** · Colores flúor, personajes exagerados, degradados saturados.
 Sobriedad deliberada.
 
-**Producción visual sin criterio** · Imágenes o composiciones sin intención reconocible, que podrían pertenecer a cualquier marca.
-**Dirección artística propia** · Ideas visuales justificadas por el contenido, con autoría y criterio claros en su concepción y ejecución.
+**Producción visual sin criterio** · Imágenes sin intención reconocible, que podrían pertenecer a cualquier marca.
+**Dirección artística propia** · Ideas visuales justificadas por el contenido, con autoría y criterio claros.
 
 La originalidad no depende de añadir textura, desgaste o imperfecciones.
 
