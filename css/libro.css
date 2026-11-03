@@ -4594,3 +4594,19 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 @media(max-width:600px){.orbs__t{font-size:12px;gap:4px}.orbs__t--b:last-of-type{left:auto!important;right:0;margin-top:20px}.orbs{overflow-x:clip}}
 /* Paleta base en móvil y tableta: una sola columna (la variante v2 anulaba el cambio) */
 @media(max-width:1000px){.palette--v2{grid-template-columns:minmax(0,1fr)}}
+
+/* ═══ F.1 · La trama identifica al libro en su portada; los capítulos quedan limpios ═══ */
+.portal .portal__arcs,.portal:not(.portal--cielo):not(.portal--salmon):not(.portal--photo) .portal__arcs{background-image:none!important}
+.band::before,.band.grad--noche::before{background-image:none}
+/* ═══ F.2 · Atmósfera: nubes suaves bajo la trama del encabezado de portada ═══
+   El cristal las difumina; al pasar el cursor o al enfocar un enlace del encabezado ganan presencia y profundidad. */
+.hero.has-cielo .hero__clouds,.hero .hero__clouds{display:block}
+.hero__clouds{opacity:.45;transform-origin:50% 70%;transition:opacity 1.2s var(--e-out),transform 1.8s var(--e-out);
+  background:
+    radial-gradient(36% 24% at 16% 74%,rgba(255,255,255,.85),rgba(255,255,255,0) 70%),
+    radial-gradient(28% 20% at 44% 66%,rgba(255,255,255,.7),rgba(255,255,255,0) 70%),
+    radial-gradient(34% 22% at 80% 78%,rgba(255,255,255,.8),rgba(255,255,255,0) 70%),
+    radial-gradient(24% 16% at 64% 28%,rgba(255,255,255,.45),rgba(255,255,255,0) 70%)}
+@media(hover:hover){.hero:hover .hero__clouds{opacity:.8;transform:scale(1.04) translateY(-1%)}}
+.hero:focus-within .hero__clouds{opacity:.8}
+@media(prefers-reduced-motion:reduce){.hero__clouds{transition:none}.hero:hover .hero__clouds{transform:none}}
