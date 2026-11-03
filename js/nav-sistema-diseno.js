@@ -12,7 +12,7 @@ window.KEYONS_BOOK = {
   home: 'sistema-diseno/index.html',
   menu: 'chapters',
   menuLabel: 'Módulos del Sistema de Diseño',
-  alt: [['Libro de Marca', 'inicio.html'], ['Cómo se documenta una norma', 'sistema-diseno/plantilla.html']]
+  alt: [['Libro de Marca', 'inicio.html', 'right'], ['Plantilla de norma', 'sistema-diseno/plantilla.html', 'code']]
 };
 
 window.KEYONS_NAV = [

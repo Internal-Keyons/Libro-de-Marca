@@ -24,7 +24,9 @@
     right: '<path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/>',
     left: '<path d="M13 8H3M6.8 4.2 3 8l3.8 3.8"/>',
     up: '<path d="M8 13V3M4.2 6.8 8 3l3.8 3.8"/>',
-    check: '<path d="M3 8.5 6.2 12 13 4.5"/>'
+    check: '<path d="M3 8.5 6.2 12 13 4.5"/>',
+    down: '<path d="M8 2.5v8M4.6 7.4 8 10.8l3.4-3.4M3 13.5h10"/>',
+    code: '<path d="M5.5 4.5 2 8l3.5 3.5M10.5 4.5 14 8l-3.5 3.5"/>'
   };
   const LOGO = '<svg viewBox="0 0 1080 1080" aria-hidden="true"><path d="M640.8,418.74h-114.75c6.09,15.64,13.97,28.56,24.93,39.18,7.37.01,15.88-8.08,24.73-7.55v41.57c-8.85.62-17.36-7.41-24.74-7.41-10.44,9.97-18.92,23.62-24.87,39.21h114.7v39.38h-201.52c-.03-1.13-.05-2.49-.05-3.63,0-43.3,35.25-72.17,69.63-88.27-34.11-15.75-69.63-44.93-69.63-88.23,0-1.14.02-2.51.05-3.63h201.52v39.38Z"/><path d="M425.72,559.46c0,1.13-.02,2.55-.05,3.67h-77.4c-1.47-18.79-10.36-50.84-27.66-72.3h-31.42v72.3h-65.05v-247.85h65.05v136.29h31.43c17.3-21.46,26.18-53.43,27.65-72.22h77.4c.03,1.13.05,2.47.05,3.6,0,43.31-35.94,72.76-69.79,88.25,34.21,16.01,69.79,44.95,69.79,88.26Z"/><path d="M640.79,581.04v183.68h-65.24l-71.08-111.51v111.51h-65.24v-183.68h65.24l71.08,111.51v-111.51h65.24Z"/><path d="M855.83,563.13v-183.78h-77.48c-1.59,21.81-2.8,69.74-23.27,75.25-20.47-5.5-21.68-53.44-23.27-75.25h-77.51s0,2.99,0,2.99c0,55.66,45.12,83.15,100.77,83.15h0c23.14,0,44.46-4.75,61.46-14.31v72.65h0v23.09c-4.38-12.94-12.47-22.91-29.44-23.19h-132.8v39.39h201.54-.02Z"/><path d="M719.09,597.28v55.91s114.19,0,114.19,0c12.47,0,22.57,10.17,22.57,22.71v66.1c0,12.54-10.1,22.71-22.57,22.71h-178.98v-39.37h107.45c16.9.28,24.95,10.17,29.31,23.13v-55.91h-115.07c-11.98,0-21.69-9.77-21.69-21.83v-67.88c0-12.05,9.71-21.82,21.69-21.82h179.86v39.37h-107.45c-16.9-.28-24.95-10.17-29.31-23.13Z"/><path d="M245.84,581.04c-11.98,0-21.69,9.71-21.69,21.69v134.99h0v5.3c0,11.98,9.71,21.69,21.69,21.69h158.18c11.98,0,21.69-9.71,21.69-21.69v-140.29c0-11.98-9.71-21.69-21.69-21.69h-158.18ZM289.2,725.44v-104.94h71.49v104.85l-71.49.09Z"/></svg>';
   const STATUS = { v: 'Vigente', b: 'Borrador', p: 'Por definir' };
@@ -61,7 +63,8 @@
     const links = BOOK.menu === 'chapters'
       ? NAV[0].ch.map((c) => { const h = (c.items.find((it) => it.href) || {}).href || NAV[0].href; return { t: c.t, h, cur: base(h) === PAGE }; })
       : NAV.map((a) => ({ t: a.t, h: a.href, cur: a.id === AREA }));
-    const alt = BOOK.alt || [['Consultar versión documental', 'documental/index.html'], ['Usar normas en un proyecto', 'ia/index.html']];
+    /* Enlaces secundarios del menú: [texto, ruta, ícono, descarga] */
+    const alt = BOOK.alt || [['Descargar PDF', 'documental/libro-de-marca-keyons.pdf', I.down, true], ['Normas para IA', 'ia/index.html', I.code]];
     const linkHtml = (cls) => links.map((l) => `<a class="${cls}" href="${url(l.h)}"${l.cur ? ' aria-current="true"' : ''}>${l.t}</a>`).join('');
     /* Nubes: anchos 200–420 px, opacidad 20–45 %, desenfoque 12–24 px, recorrido 44–82 s */
     const clouds = [[200, .32, 12, 44, 8], [420, .2, 24, 82, -6], [280, .45, 16, 58, 30], [340, .26, 20, 70, -18], [240, .38, 14, 52, 46], [380, .22, 22, 76, 14]]
@@ -83,7 +86,7 @@
       <div class="hdr__panel">
         <nav aria-label="${BOOK.menuLabel || 'Áreas del manual'}">${linkHtml('')}</nav>
         <div class="hdr__panel-foot"><button class="hdr__panel-search" type="button" data-search>${ic(I.search)}Buscar en el manual</button>
-          <span class="hdr__panel-alt">${alt.map(([t, h]) => `<a href="${url(h)}">${t}</a>`).join('')}</span></div>
+          <span class="hdr__panel-alt">${alt.map(([t, h, d, dl]) => `<a href="${url(h)}"${dl ? ' download' : ''}>${d ? ic(I[d] || d) : ''}${t}</a>`).join('')}</span></div>
       </div>`;
     const burger = top.querySelector('.hdr__burger');
     const setOpen = (o) => { top.classList.toggle('is-open', o); burger.setAttribute('aria-expanded', o); burger.setAttribute('aria-label', o ? 'Cerrar menú' : 'Abrir menú'); };

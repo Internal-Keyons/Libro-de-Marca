@@ -39,8 +39,8 @@ El cielo ocupa el 70 % o más. El resto es solo un ancla mínima al lugar: una m
 Los cielos se fotografían en Costa Rica: San José, Guanacaste, el Chirripó, el Caribe, el volcán en su neblina. Cada rincón del país es un cielo Keyons posible.
 
 **(Firma humana)**
-Cada cielo lleva el nombre de quien lo capturó, junto al lugar y la fecha. No es una cuestión de propiedad: es recordar que detrás de cada imagen hubo una persona que se detuvo a mirar el cielo. Un gesto pequeño que le pone rostro a lo que compartimos y vuelve cercana a la marca.
-Los datos de autoría y procedencia deben conservarse en el catálogo. Su presencia visible en cada pieza dependerá del contexto de publicación y de los créditos correspondientes.
+Cada cielo lleva el nombre de quien lo capturó, junto al lugar y la fecha. No se trata de propiedad, sino de recordar que detrás de cada imagen hubo una persona que se detuvo a mirar el cielo: un gesto pequeño que pone rostro a lo compartido y acerca la marca.
+Los datos de autoría y procedencia deben conservarse en el catálogo. Su visibilidad en cada pieza dependerá del contexto de publicación y de los créditos correspondientes.
 
 **(Expansión con propósito)**
 Solo entran cielos de lugares donde Keyons tiene presencia o un vínculo real. Un cielo de Tokio entra si la marca está en Japón.

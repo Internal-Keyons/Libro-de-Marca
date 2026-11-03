@@ -22,8 +22,6 @@ Número: 4.6 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/trato.ht
 
 Utilizamos la **tercera persona** cuando conviene presentar formalmente a Keyons. La **primera persona plural** expresa nuestros compromisos, decisiones y acciones.
 
-La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo.
-
 Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones.
 
 **(Tercera persona)**
@@ -33,6 +31,9 @@ Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trab
 
 **(Primera persona plural)**
 Apropiada para propuestas de valor, compromisos, comunicaciones de servicio y explicaciones donde Keyons habla directamente con su público.
+
+**(La elección)**
+La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo.
 
 **(Consistencia)**
 Dentro de una misma serie de promesas, beneficios o instrucciones, mantenemos una construcción gramatical coherente. Los cambios de persona deben cumplir una función comunicativa clara.

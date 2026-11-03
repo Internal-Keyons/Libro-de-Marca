@@ -139,16 +139,16 @@ Número: 4.4 · ID: `KYN-MRK-VOZ-004` · Estado: vigente · Fuente: `/marca/voca
 Priorizamos expresiones con **significado concreto**. Cuando un término aporta precisión, lo utilizamos; si funciona como promesa vacía, explicamos directamente lo que queremos comunicar.
 
 Transformación digital
-Nombrar qué cambia: una operación, una forma de trabajar, un flujo.
+Nombrar qué cambia: operación, forma de trabajar o flujo.
 
 Disruptivo, disrupción
 Mostrar qué se rompe y qué lo reemplaza.
 
 Soluciones integrales
-Explicar qué capacidades o servicios están incluidos y cómo se relacionan.
+Explicar qué servicios incluye y cómo se relacionan.
 
 Soluciones a medida
-Indicar qué puede adaptarse, con qué profundidad y dentro de cuáles condiciones.
+Indicar qué puede adaptarse, con qué alcance y bajo qué condiciones.
 
 Revolucionar
 Cambiar, rediseñar, replantear.
@@ -163,7 +163,7 @@ Potencial ilimitado
 Nombrar la capacidad concreta que se amplifica.
 
 ROI garantizado
-Presentar resultados comprobados o estimaciones identificadas como tales, sin prometer beneficios universales.
+Mostrar datos verificados o estimaciones claras.
 
 Game-changer, vanguardia
 Describir qué cambia en términos concretos.
@@ -231,8 +231,6 @@ Número: 4.6 · ID: `KYN-MRK-VOZ-006` · Estado: vigente · Fuente: `/marca/trat
 
 Utilizamos la **tercera persona** cuando conviene presentar formalmente a Keyons. La **primera persona plural** expresa nuestros compromisos, decisiones y acciones.
 
-La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo.
-
 Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones.
 
 **(Tercera persona)**
@@ -242,6 +240,9 @@ Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trab
 
 **(Primera persona plural)**
 Apropiada para propuestas de valor, compromisos, comunicaciones de servicio y explicaciones donde Keyons habla directamente con su público.
+
+**(La elección)**
+La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo.
 
 **(Consistencia)**
 Dentro de una misma serie de promesas, beneficios o instrucciones, mantenemos una construcción gramatical coherente. Los cambios de persona deben cumplir una función comunicativa clara.

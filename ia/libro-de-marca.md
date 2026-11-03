@@ -180,7 +180,7 @@ Comprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde
 
 02
 Diseño a Medida
-Adaptamos la tecnología a las necesidades reales de cada organización. Los productos especializados se configuran dentro de límites definidos, mientras que los desarrollos personalizados amplían la adaptación según los objetivos del cliente.
+Adaptamos la tecnología a las necesidades reales de cada organización. Los productos se configuran dentro de límites definidos y los desarrollos personalizados amplían la adaptación según los objetivos del cliente.
 
 03
 Acompañamiento Adaptativo
@@ -341,8 +341,8 @@ El cielo ocupa el 70 % o más. El resto es solo un ancla mínima al lugar: una m
 Los cielos se fotografían en Costa Rica: San José, Guanacaste, el Chirripó, el Caribe, el volcán en su neblina. Cada rincón del país es un cielo Keyons posible.
 
 **(Firma humana)**
-Cada cielo lleva el nombre de quien lo capturó, junto al lugar y la fecha. No es una cuestión de propiedad: es recordar que detrás de cada imagen hubo una persona que se detuvo a mirar el cielo. Un gesto pequeño que le pone rostro a lo que compartimos y vuelve cercana a la marca.
-Los datos de autoría y procedencia deben conservarse en el catálogo. Su presencia visible en cada pieza dependerá del contexto de publicación y de los créditos correspondientes.
+Cada cielo lleva el nombre de quien lo capturó, junto al lugar y la fecha. No se trata de propiedad, sino de recordar que detrás de cada imagen hubo una persona que se detuvo a mirar el cielo: un gesto pequeño que pone rostro a lo compartido y acerca la marca.
+Los datos de autoría y procedencia deben conservarse en el catálogo. Su visibilidad en cada pieza dependerá del contexto de publicación y de los créditos correspondientes.
 
 **(Expansión con propósito)**
 Solo entran cielos de lugares donde Keyons tiene presencia o un vínculo real. Un cielo de Tokio entra si la marca está en Japón.
@@ -369,7 +369,7 @@ Anclaje real
 Nace de un elemento cotidiano e hiperreconocible.
 
 **(Criterio)**
-La primera lectura debe ser clara y comprensible sin explicación previa, aunque la composición permita descubrir significados adicionales al observarla con más detalle.
+La primera lectura debe ser clara y comprensible, aunque la composición permita descubrir significados adicionales al observarla con más detalle.
 
 02
 
@@ -764,16 +764,16 @@ Número: 4.4 · ID: `KYN-MRK-VOZ-004` · Estado: vigente · Fuente: `/marca/voca
 Priorizamos expresiones con **significado concreto**. Cuando un término aporta precisión, lo utilizamos; si funciona como promesa vacía, explicamos directamente lo que queremos comunicar.
 
 Transformación digital
-Nombrar qué cambia: una operación, una forma de trabajar, un flujo.
+Nombrar qué cambia: operación, forma de trabajar o flujo.
 
 Disruptivo, disrupción
 Mostrar qué se rompe y qué lo reemplaza.
 
 Soluciones integrales
-Explicar qué capacidades o servicios están incluidos y cómo se relacionan.
+Explicar qué servicios incluye y cómo se relacionan.
 
 Soluciones a medida
-Indicar qué puede adaptarse, con qué profundidad y dentro de cuáles condiciones.
+Indicar qué puede adaptarse, con qué alcance y bajo qué condiciones.
 
 Revolucionar
 Cambiar, rediseñar, replantear.
@@ -788,7 +788,7 @@ Potencial ilimitado
 Nombrar la capacidad concreta que se amplifica.
 
 ROI garantizado
-Presentar resultados comprobados o estimaciones identificadas como tales, sin prometer beneficios universales.
+Mostrar datos verificados o estimaciones claras.
 
 Game-changer, vanguardia
 Describir qué cambia en términos concretos.
@@ -856,8 +856,6 @@ Número: 4.6 · ID: `KYN-MRK-VOZ-006` · Estado: vigente · Fuente: `/marca/trat
 
 Utilizamos la **tercera persona** cuando conviene presentar formalmente a Keyons. La **primera persona plural** expresa nuestros compromisos, decisiones y acciones.
 
-La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo.
-
 Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones.
 
 **(Tercera persona)**
@@ -867,6 +865,9 @@ Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trab
 
 **(Primera persona plural)**
 Apropiada para propuestas de valor, compromisos, comunicaciones de servicio y explicaciones donde Keyons habla directamente con su público.
+
+**(La elección)**
+La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo.
 
 **(Consistencia)**
 Dentro de una misma serie de promesas, beneficios o instrucciones, mantenemos una construcción gramatical coherente. Los cambios de persona deben cumplir una función comunicativa clara.

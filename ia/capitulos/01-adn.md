@@ -145,7 +145,7 @@ Comprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde
 
 02
 Diseño a Medida
-Adaptamos la tecnología a las necesidades reales de cada organización. Los productos especializados se configuran dentro de límites definidos, mientras que los desarrollos personalizados amplían la adaptación según los objetivos del cliente.
+Adaptamos la tecnología a las necesidades reales de cada organización. Los productos se configuran dentro de límites definidos y los desarrollos personalizados amplían la adaptación según los objetivos del cliente.
 
 03
 Acompañamiento Adaptativo

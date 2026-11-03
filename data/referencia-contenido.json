@@ -1473,7 +1473,7 @@
   "marca/adn.html#principios": {
    "estado": "vigente",
    "id": "KYN-MRK-ADN-007",
-   "texto": "Principios de marca Siete principios 01Escucha EstratégicaComprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde con causa. 02Diseño a MedidaAdaptamos la tecnología a las necesidades reales de cada organización. Los productos especializados se configuran dentro de límites definidos, mientras que los desarrollos personalizados amplían la adaptación según los objetivos del cliente. 03Acompañamiento AdaptativoGuiamos cada transición construyendo certezas. Nadie se queda solo frente al sistema. 04Gobernanza como CimientoLa protección de datos es fundamento, no promesa. Ley 8968 y sus equivalentes, desde el diseño. 05Evolución ContinuaSi el negocio evoluciona, la solución evoluciona con él, en cada etapa de crecimiento. 06Transparencia CorporativaHablamos claro, sin tecnicismos innecesarios ni promesas falsas. 07Simbiosis HumanaEl talento sigue siendo el criterio central. La automatización libera capacidad para pensar, nunca la reemplaza.",
+   "texto": "Principios de marca Siete principios 01Escucha EstratégicaComprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde con causa. 02Diseño a MedidaAdaptamos la tecnología a las necesidades reales de cada organización. Los productos se configuran dentro de límites definidos y los desarrollos personalizados amplían la adaptación según los objetivos del cliente. 03Acompañamiento AdaptativoGuiamos cada transición construyendo certezas. Nadie se queda solo frente al sistema. 04Gobernanza como CimientoLa protección de datos es fundamento, no promesa. Ley 8968 y sus equivalentes, desde el diseño. 05Evolución ContinuaSi el negocio evoluciona, la solución evoluciona con él, en cada etapa de crecimiento. 06Transparencia CorporativaHablamos claro, sin tecnicismos innecesarios ni promesas falsas. 07Simbiosis HumanaEl talento sigue siendo el criterio central. La automatización libera capacidad para pensar, nunca la reemplaza.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1494,6 +1494,11 @@
      "aprobada": "2026-11-02",
      "huella": "ba2958f7a5063cdd",
      "nota": "RV3 2026-11-02: ADN-006, ADN-007, CON-004, CON-006, CON-008, REF-001"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "5a113687f46fd221",
+     "nota": "RV4 2026-11-02: ADN-007, CON-003, CON-004, VOZ-004, VOZ-006"
     }
    ]
   },
@@ -1539,7 +1544,7 @@
   "marca/cielo.html#diario": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-003",
-   "texto": "Diario de Cielos Cada cielo tiene lugar, fecha y autor Ningún cielo es genérico. Cada fotografía se toma en un lugar y un momento específicos, por alguien del equipo, y esa procedencia se comparte como parte de la narrativa de la marca. Nosara, Costa Rica · marzo 2026 · Keylin (Ubicación)Nosara, Guanacaste, Costa Rica (Fecha y hora)Marzo 2026 · 17:42 (Autor)Keylin (Cielo)Atardecer (Composición)Cielo 70 % · contexto 30 % (Composición)El cielo ocupa el 70 % o más. El resto es solo un ancla mínima al lugar: una montaña, el horizonte, un techo. Si la pieza no lo necesita, puede ser 100 % cielo. (Origen tico)Los cielos se fotografían en Costa Rica: San José, Guanacaste, el Chirripó, el Caribe, el volcán en su neblina. Cada rincón del país es un cielo Keyons posible. (Firma humana)Cada cielo lleva el nombre de quien lo capturó, junto al lugar y la fecha. No es una cuestión de propiedad: es recordar que detrás de cada imagen hubo una persona que se detuvo a mirar el cielo. Un gesto pequeño que le pone rostro a lo que compartimos y vuelve cercana a la marca.Los datos de autoría y procedencia deben conservarse en el catálogo. Su presencia visible en cada pieza dependerá del contexto de publicación y de los créditos correspondientes. (Expansión con propósito)Solo entran cielos de lugares donde Keyons tiene presencia o un vínculo real. Un cielo de Tokio entra si la marca está en Japón. Nunca se publica un cielo sin procedencia documentada.",
+   "texto": "Diario de Cielos Cada cielo tiene lugar, fecha y autor Ningún cielo es genérico. Cada fotografía se toma en un lugar y un momento específicos, por alguien del equipo, y esa procedencia se comparte como parte de la narrativa de la marca. Nosara, Costa Rica · marzo 2026 · Keylin (Ubicación)Nosara, Guanacaste, Costa Rica (Fecha y hora)Marzo 2026 · 17:42 (Autor)Keylin (Cielo)Atardecer (Composición)Cielo 70 % · contexto 30 % (Composición)El cielo ocupa el 70 % o más. El resto es solo un ancla mínima al lugar: una montaña, el horizonte, un techo. Si la pieza no lo necesita, puede ser 100 % cielo. (Origen tico)Los cielos se fotografían en Costa Rica: San José, Guanacaste, el Chirripó, el Caribe, el volcán en su neblina. Cada rincón del país es un cielo Keyons posible. (Firma humana)Cada cielo lleva el nombre de quien lo capturó, junto al lugar y la fecha. No se trata de propiedad, sino de recordar que detrás de cada imagen hubo una persona que se detuvo a mirar el cielo: un gesto pequeño que pone rostro a lo compartido y acerca la marca.Los datos de autoría y procedencia deben conservarse en el catálogo. Su visibilidad en cada pieza dependerá del contexto de publicación y de los créditos correspondientes. (Expansión con propósito)Solo entran cielos de lugares donde Keyons tiene presencia o un vínculo real. Un cielo de Tokio entra si la marca está en Japón. Nunca se publica un cielo sin procedencia documentada.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1550,6 +1555,11 @@
      "aprobada": "2026-11-02",
      "huella": "cfeea95a31e4d521",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "c0ddeaaa753154d1",
+     "nota": "RV4 2026-11-02: ADN-007, CON-003, CON-004, VOZ-004, VOZ-006"
     }
    ]
   },
@@ -1705,7 +1715,7 @@
   "marca/metaforas.html#condiciones": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-004",
-   "texto": "Sistema de metáforas Cinco condiciones Una sola metáfora no alcanza para expresar todo lo que es Keyons. Una metáfora es Keyons cuando cumple las cinco. 01 Anclaje realNace de un elemento cotidiano e hiperreconocible. (Criterio)La primera lectura debe ser clara y comprensible sin explicación previa, aunque la composición permita descubrir significados adicionales al observarla con más detalle. 02 Composición en capasElementos ordenados para un descubrimiento progresivo. (Criterio)Revela un significado nuevo al observarla por segunda vez. 03 Propósito directoLa creatividad responde estrictamente al objetivo del mensaje. (Criterio)El objetivo (entender, sentir, actuar) se sintetiza en una sola línea. 04 Presencia humanaLa autoría se reconoce en la elección de recursos y en la construcción de la idea. (Criterio)No requiere imperfecciones artificiales: un diseño limpio también expresa sensibilidad humana. 05 Integración atmosféricaEl cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz o como reflejo. (Criterio)Nace desde el boceto inicial, nunca como un filtro o adhesivo final.",
+   "texto": "Sistema de metáforas Cinco condiciones Una sola metáfora no alcanza para expresar todo lo que es Keyons. Una metáfora es Keyons cuando cumple las cinco. 01 Anclaje realNace de un elemento cotidiano e hiperreconocible. (Criterio)La primera lectura debe ser clara y comprensible, aunque la composición permita descubrir significados adicionales al observarla con más detalle. 02 Composición en capasElementos ordenados para un descubrimiento progresivo. (Criterio)Revela un significado nuevo al observarla por segunda vez. 03 Propósito directoLa creatividad responde estrictamente al objetivo del mensaje. (Criterio)El objetivo (entender, sentir, actuar) se sintetiza en una sola línea. 04 Presencia humanaLa autoría se reconoce en la elección de recursos y en la construcción de la idea. (Criterio)No requiere imperfecciones artificiales: un diseño limpio también expresa sensibilidad humana. 05 Integración atmosféricaEl cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz o como reflejo. (Criterio)Nace desde el boceto inicial, nunca como un filtro o adhesivo final.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1726,6 +1736,11 @@
      "aprobada": "2026-11-02",
      "huella": "8a9c2d26242906b7",
      "nota": "RV3 2026-11-02: ADN-006, ADN-007, CON-004, CON-006, CON-008, REF-001"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "b27313e199b2ebf5",
+     "nota": "RV4 2026-11-02: ADN-007, CON-003, CON-004, VOZ-004, VOZ-006"
     }
    ]
   },
@@ -1881,7 +1896,7 @@
   "marca/trato.html#persona": {
    "estado": "vigente",
    "id": "KYN-MRK-VOZ-006",
-   "texto": "Primera o tercera persona Una voz coherente, en primera o tercera persona Utilizamos la tercera persona cuando conviene presentar formalmente a Keyons. La primera persona plural expresa nuestros compromisos, decisiones y acciones. La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo. Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones. (Tercera persona)Apropiada para presentaciones institucionales, biografías corporativas y descripciones formales de la empresa. Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trabajar con mayor claridad. (Primera persona plural)Apropiada para propuestas de valor, compromisos, comunicaciones de servicio y explicaciones donde Keyons habla directamente con su público. (Consistencia)Dentro de una misma serie de promesas, beneficios o instrucciones, mantenemos una construcción gramatical coherente. Los cambios de persona deben cumplir una función comunicativa clara.",
+   "texto": "Primera o tercera persona Una voz coherente, en primera o tercera persona Utilizamos la tercera persona cuando conviene presentar formalmente a Keyons. La primera persona plural expresa nuestros compromisos, decisiones y acciones. Keyons desarrolla soluciones de inteligencia artificial que se integran a las necesidades operativas de las organizaciones. (Tercera persona)Apropiada para presentaciones institucionales, biografías corporativas y descripciones formales de la empresa. Diseñamos soluciones que se adaptan a su operación y ayudan a su equipo a trabajar con mayor claridad. (Primera persona plural)Apropiada para propuestas de valor, compromisos, comunicaciones de servicio y explicaciones donde Keyons habla directamente con su público. (La elección)La elección responde al propósito del texto. No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo. (Consistencia)Dentro de una misma serie de promesas, beneficios o instrucciones, mantenemos una construcción gramatical coherente. Los cambios de persona deben cumplir una función comunicativa clara.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1902,6 +1917,11 @@
      "aprobada": "2026-11-02",
      "huella": "7bee9b8e09988171",
      "nota": "Revisión 2026-11-02: CON-006, VOZ-002, VOZ-004; diagramación DIS-003 y VOZ-006"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "43fe6ae70fce27df",
+     "nota": "RV4 2026-11-02: ADN-007, CON-003, CON-004, VOZ-004, VOZ-006"
     }
    ]
   },
@@ -1952,7 +1972,7 @@
   "marca/vocabulario.html#evita": {
    "estado": "vigente",
    "id": "KYN-MRK-VOZ-004",
-   "texto": "Vocabulario que evitamos Las palabras gastadas Priorizamos expresiones con significado concreto. Cuando un término aporta precisión, lo utilizamos; si funciona como promesa vacía, explicamos directamente lo que queremos comunicar. Transformación digitalNombrar qué cambia: una operación, una forma de trabajar, un flujo. Disruptivo, disrupciónMostrar qué se rompe y qué lo reemplaza. Soluciones integralesExplicar qué capacidades o servicios están incluidos y cómo se relacionan. Soluciones a medidaIndicar qué puede adaptarse, con qué profundidad y dentro de cuáles condiciones. RevolucionarCambiar, rediseñar, replantear. SinergiaTrabajo conjunto, integración concreta. End-to-endDe principio a fin, en todo el ciclo. Potencial ilimitadoNombrar la capacidad concreta que se amplifica. ROI garantizadoPresentar resultados comprobados o estimaciones identificadas como tales, sin prometer beneficios universales. Game-changer, vanguardiaDescribir qué cambia en términos concretos. Líderes en, expertos enDejar que el trabajo hable: casos y resultados. 360°Nombrar las dimensiones reales que se cubren. Más que una consultoraAfirmar qué es Keyons con sus propias palabras. Partners estratégicosAliados, acompañantes, colaboradores. Describir la idea es más largo, pero más distintivo y más honesto.",
+   "texto": "Vocabulario que evitamos Las palabras gastadas Priorizamos expresiones con significado concreto. Cuando un término aporta precisión, lo utilizamos; si funciona como promesa vacía, explicamos directamente lo que queremos comunicar. Transformación digitalNombrar qué cambia: operación, forma de trabajar o flujo. Disruptivo, disrupciónMostrar qué se rompe y qué lo reemplaza. Soluciones integralesExplicar qué servicios incluye y cómo se relacionan. Soluciones a medidaIndicar qué puede adaptarse, con qué alcance y bajo qué condiciones. RevolucionarCambiar, rediseñar, replantear. SinergiaTrabajo conjunto, integración concreta. End-to-endDe principio a fin, en todo el ciclo. Potencial ilimitadoNombrar la capacidad concreta que se amplifica. ROI garantizadoMostrar datos verificados o estimaciones claras. Game-changer, vanguardiaDescribir qué cambia en términos concretos. Líderes en, expertos enDejar que el trabajo hable: casos y resultados. 360°Nombrar las dimensiones reales que se cubren. Más que una consultoraAfirmar qué es Keyons con sus propias palabras. Partners estratégicosAliados, acompañantes, colaboradores. Describir la idea es más largo, pero más distintivo y más honesto.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1978,6 +1998,11 @@
      "aprobada": "2026-11-02",
      "huella": "077112cbc9197039",
      "nota": "Revisión 2026-11-02: CON-006, VOZ-002, VOZ-004; diagramación DIS-003 y VOZ-006"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "a585e8c2a412cd4c",
+     "nota": "RV4 2026-11-02: ADN-007, CON-003, CON-004, VOZ-004, VOZ-006"
     }
    ]
   },
