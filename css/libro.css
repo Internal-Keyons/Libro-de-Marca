@@ -4184,3 +4184,32 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
 /* Misma barra en todas las celdas con borde izquierdo (las reglas por posición dejaban algunas en 1 px gris) */
 .pgrid > div:nth-child(n){border-left-width:4px;border-left-color:var(--k-cielo-200)}
 @media(min-width:761px){.cats__panel{border-left:4px solid var(--k-cielo-200)}}
+
+/* VOZ-002 y VOZ-003: una sola barra de 4 px de la primera a la última línea horizontal.
+   Se dibuja en el contenedor, en el borde de la columna, en lugar de fila por fila */
+@media(min-width:901px){
+  .canon--2{position:relative}
+  .canon--2 .canon__ex{border-left:0}
+  .canon--2::before{content:"";position:absolute;top:0;bottom:0;width:4px;background:var(--k-cielo-200);pointer-events:none;
+    left:calc((100% - 11 * var(--s6)) / 12 * 7 + 6 * var(--s6) + var(--s6) - 4px)}
+}
+@media(min-width:761px){
+  .lexi{position:relative;border-top-color:var(--k-cielo-100);border-bottom-color:var(--k-cielo-100)}
+  .lexi__list{border-right:0}
+  .lexi::before{content:"";position:absolute;top:0;bottom:0;width:4px;background:var(--k-cielo-200);pointer-events:none;
+    left:calc((100% - 11 * var(--s6)) / 12 * 4 + 3 * var(--s6))}
+}
+
+/* Trama de cada libro de la Biblioteca: el mismo vidrio acanalado del encabezado (línea de 1 px cada 50 px), con otra dirección.
+   01 Marca y Experiencia: líneas verticales · 02 Sistema de Diseño: retícula horizontal y vertical.
+   Se aplica al encabezado de portada y a los subencabezados: portal de capítulo y franja de área */
+:root{
+  --trama-v:repeating-linear-gradient(90deg,rgba(255,255,255,.16) 0px,rgba(255,255,255,.16) 1px,rgba(255,255,255,.07) 1px,rgba(255,255,255,.01) 25px,rgba(255,255,255,.01) 26px,rgba(255,255,255,.07) 49px,rgba(255,255,255,.07) 50px);
+  --trama-h:repeating-linear-gradient(0deg,rgba(255,255,255,.16) 0px,rgba(255,255,255,.16) 1px,rgba(255,255,255,.07) 1px,rgba(255,255,255,.01) 25px,rgba(255,255,255,.01) 26px,rgba(255,255,255,.07) 49px,rgba(255,255,255,.07) 50px);
+  --trama:var(--trama-v);
+}
+html[data-libro="sistema-diseno"]{--trama:var(--trama-v),var(--trama-h)}
+.hero__glass{background-image:var(--trama)}
+.portal .portal__arcs{display:block!important;z-index:1;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;background-color:transparent!important;background-image:var(--trama)!important;animation:none!important;transform:none!important}
+.band{position:relative}
+.band::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background-image:var(--trama)}

@@ -1598,7 +1598,7 @@
   "marca/cielo.html#simbolo": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-001",
-   "texto": "El concepto central Un mismo cielo, ningún horizonte igual Los retos de eficiencia, orden y crecimiento se repiten entre industrias, pero cada organización los enfrenta desde una realidad diferente. Por eso nuestras soluciones responden a distintos niveles de adaptación, sin perder de vista las necesidades de quienes las utilizan. (Universal)El cielo es el único lenguaje visual que no necesita traducción. Cualquiera lo entiende, en cualquier idioma y cultura. Eso permite que Keyons hable con cualquier organización, en cualquier país, sin perder identidad. (Nace tico)Keyons nace en Costa Rica, así que sus primeros cielos son costarricenses: el amanecer del Valle Central, el atardecer de Guanacaste, la noche del Chirripó. Son su firma de origen. Cuando la marca llega a un nuevo país, suma los cielos de ese lugar, siempre con fotografías reales. (Excepción cósmica)La Galaxia es el único cielo que no se fotografía en un lugar: representa la evolución ilimitada hacia lo que aún no existe. El cielo es el origen conceptual y cromático de Keyons. Su representación visual depende del propósito de cada pieza. En composiciones editoriales puede convertirse en protagonista. En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.",
+   "texto": "El concepto central Un mismo cielo, ningún horizonte igual Los retos de eficiencia, orden y crecimiento son comunes, pero cada organización los enfrenta desde su realidad. Nuestras soluciones se adaptan a distintos niveles según las necesidades de uso. (Universal)El cielo es el único lenguaje visual que no necesita traducción. Cualquiera lo entiende, en cualquier idioma y cultura. Eso permite que Keyons hable con cualquier organización, en cualquier país, sin perder identidad. (Nace tico)Keyons nace en Costa Rica, así que sus primeros cielos son costarricenses: el amanecer del Valle Central, el atardecer de Guanacaste, la noche del Chirripó. Son su firma de origen. Cuando la marca llega a un nuevo país, suma los cielos de ese lugar, siempre con fotografías reales. (Excepción cósmica)La Galaxia es el único cielo que no se fotografía en un lugar: representa la evolución ilimitada hacia lo que aún no existe. El cielo es el origen conceptual y cromático de Keyons. Su representación visual depende del propósito de cada pieza. En composiciones editoriales puede convertirse en protagonista. En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1614,13 +1614,18 @@
      "aprobada": "2026-11-02",
      "huella": "48f9cef10ce9aba4",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "cfb6c987f5844f73",
+     "nota": "RV6 2026-11-02: CON-001, CON-004, CON-006, CON-008"
     }
    ]
   },
   "marca/composicion.html#anti": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-008",
-   "texto": "Anti-referentes Lo que evitamos y qué hacemos en su lugar Saber qué no somos protege la singularidad tanto como saber qué somos. (Lo que evitamos)(En Keyons) La IA como espectáculoCircuitos, cerebros digitales, robots, wireframes azules.La vida real que la tecnología toca. El degradado violeta-cyanEl lenguaje genérico de \"empresa de IA\", sin fotografía ni personas.Cielos propios y presencia humana. La consultora tradicionalAzul marino, ejecutivos de banco de imágenes, ilustración isométrica.Calidez, textura y arraigo local. El caos indieValores fuertes expresados con desorden y gritos visuales.Valores fuertes, expresados con serenidad. La startup genéricaColores flúor, personajes exagerados, degradados saturados.Sobriedad deliberada. Producción visual sin criterioImágenes sin intención reconocible, que podrían pertenecer a cualquier marca.Dirección artística propiaIdeas visuales justificadas por el contenido, con autoría y criterio claros. La originalidad no depende de añadir textura, desgaste o imperfecciones.",
+   "texto": "Anti-referentes Lo que evitamos y qué hacemos en su lugar Saber qué no somos protege la singularidad tanto como saber qué somos. (Lo que evitamos)(En Keyons) La IA como espectáculoCircuitos, cerebros digitales, robots, wireframes azules.La vida real que la tecnología toca. El degradado violeta-cyanEl lenguaje genérico de \"empresa de IA\", sin fotografía ni personas.Cielos propios y presencia humana. La consultora tradicionalAzul marino, ejecutivos de banco de imágenes, ilustración isométrica.Calidez, textura y arraigo local. El caos indieValores fuertes expresados con desorden y gritos visuales.Valores fuertes, expresados con serenidad. La startup genéricaColores flúor, personajes exagerados, degradados saturados.Sobriedad deliberada. Producción visual sin criterioImágenes sin intención reconocible, que podrían pertenecer a cualquier marca.Dirección artística con autoría y criterio claros. La originalidad no depende de añadir textura, desgaste o imperfecciones.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1646,6 +1651,11 @@
      "aprobada": "2026-11-02",
      "huella": "79ce6f3a8199dcd9",
      "nota": "RV5 2026-11-02: ADN-007, CON-003, CON-008"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "c440ff9d8ed91714",
+     "nota": "RV6 2026-11-02: CON-001, CON-004, CON-006, CON-008"
     }
    ]
   },
@@ -1676,7 +1686,7 @@
   "marca/composicion.html#reglas": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-006",
-   "texto": "Reglas de composición Cuatro criterios para la composición expresiva Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor. 01Presencia humanaLa presencia se reconoce en la intención, las decisiones creativas y el criterio que sostiene cada pieza. Puede expresarse mediante fotografía, ilustración o recursos abstractos, sin necesidad de representar personas ni añadir imperfecciones artificiales. 02Dirección humana, creación sin límites de herramientaLa creación puede integrar fotografía, ilustración, diseño digital, inteligencia artificial y otros medios de producción. Cada resultado responde a una dirección artística definida, revisada por una persona responsable y alineada con los estándares de identidad y calidad de Keyons. 03Cielo propioLas piezas que utilizan fotografías documentales del cielo deben tener procedencia verificable y cumplir las reglas del Diario de Cielos. También pueden incorporar degradados oficiales o interpretaciones artísticas, evitando presentar imágenes sintéticas como fotografías auténticas. 04Singularidad verificableAntes de publicarse, cada pieza se contrasta con lo que no representa a la marca. Si la composición pudiera confundirse con otra identidad, regresa a diseño para asegurar su carácter único y diferenciado. La creatividad nace del criterio. La tecnología amplía sus posibilidades. Condiciones de aplicación No es obligatorio utilizar IA en las piezas gráficas. La generación de imágenes desde cero está permitida. Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana. Las imágenes documentales deben distinguirse de las representaciones artísticas. Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas. Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.",
+   "texto": "Reglas de composición Cuatro criterios para la composición expresiva Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor. 01Presencia humanaLa intención y las decisiones creativas sostienen cada pieza. Puede expresarse con fotografía, ilustración o recursos abstractos. No requiere mostrar personas ni imperfecciones artificiales. 02Dirección humana, creación sin límitesLa creación integra fotografía, ilustración, diseño digital o IA. Cada resultado responde a una dirección artística definida. Siempre revisado por una persona responsable y alineado con la marca. 03Cielo propioLas fotografías del cielo deben tener procedencia verificable. Cumplen las reglas del Diario de Cielos o usan degradados oficiales. Se evitan imágenes sintéticas presentadas como auténticas. 04Singularidad verificableCada pieza se contrasta con lo que no representa a la marca. Si puede confundirse con otra identidad, regresa a diseño. Se asegura carácter único y diferenciado antes de publicarse. La creatividad nace del criterio. La tecnología amplía sus posibilidades. Condiciones de aplicación No es obligatorio utilizar IA en las piezas gráficas. La generación de imágenes desde cero está permitida. Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana. Las imágenes documentales deben distinguirse de las representaciones artísticas. Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas. Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1707,6 +1717,11 @@
      "aprobada": "2026-11-02",
      "huella": "d119d683701c3226",
      "nota": "RV3 2026-11-02: ADN-006, ADN-007, CON-004, CON-006, CON-008, REF-001"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "04f1a85ac71edaad",
+     "nota": "RV6 2026-11-02: CON-001, CON-004, CON-006, CON-008"
     }
    ]
   },
@@ -1730,7 +1745,7 @@
   "marca/metaforas.html#condiciones": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-004",
-   "texto": "Sistema de metáforas Cinco condiciones Una sola metáfora no alcanza para expresar todo lo que es Keyons. Una metáfora es Keyons cuando cumple las cinco. 01 Anclaje realNace de un elemento cotidiano e hiperreconocible. (Criterio)La primera lectura debe ser clara y comprensible, aunque la composición permita descubrir significados adicionales al observarla con más detalle. 02 Composición en capasElementos ordenados para un descubrimiento progresivo. (Criterio)Revela un significado nuevo al observarla por segunda vez. 03 Propósito directoLa creatividad responde estrictamente al objetivo del mensaje. (Criterio)El objetivo (entender, sentir, actuar) se sintetiza en una sola línea. 04 Presencia humanaLa autoría se reconoce en la elección de recursos y en la construcción de la idea. (Criterio)No requiere imperfecciones artificiales: un diseño limpio también expresa sensibilidad humana. 05 Integración atmosféricaEl cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz o como reflejo. (Criterio)Nace desde el boceto inicial, nunca como un filtro o adhesivo final.",
+   "texto": "Sistema de metáforas Cinco condiciones Una sola metáfora no alcanza para expresar todo lo que es Keyons. Una metáfora es Keyons cuando cumple las cinco. 01 Anclaje realNace de un elemento cotidiano e hiperreconocible. (Criterio)La primera lectura debe ser clara y comprensible, con significados adicionales al observarla en detalle. 02 Composición en capasElementos ordenados para un descubrimiento progresivo. (Criterio)Revela un significado nuevo al observarla por segunda vez. 03 Propósito directoLa creatividad responde estrictamente al objetivo del mensaje. (Criterio)El objetivo (entender, sentir, actuar) se sintetiza en una sola línea. 04 Presencia humanaLa autoría se reconoce en la elección de recursos y en la construcción de la idea. (Criterio)No requiere imperfecciones artificiales: un diseño limpio también expresa sensibilidad humana. 05 Integración atmosféricaEl cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz o como reflejo. (Criterio)Nace desde el boceto inicial, nunca como un filtro o adhesivo final.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1756,6 +1771,11 @@
      "aprobada": "2026-11-02",
      "huella": "b27313e199b2ebf5",
      "nota": "RV4 2026-11-02: ADN-007, CON-003, CON-004, VOZ-004, VOZ-006"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "55f235894672e333",
+     "nota": "RV6 2026-11-02: CON-001, CON-004, CON-006, CON-008"
     }
    ]
   },
