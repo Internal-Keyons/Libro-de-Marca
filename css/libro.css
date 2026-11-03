@@ -4577,3 +4577,20 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 
 /* 11.2 · flecha oficial del catálogo en «Flecha de cambio» */
 .emph__arrow{display:inline-block;width:1.1em;height:1.1em;margin:0 .15em;vertical-align:-.18em;color:var(--k-noche)}
+
+/* ═══ E.1 · Aprovechar el ancho con el menú lateral abierto ═══
+   Los párrafos conservan su medida de lectura (600 a 640 px); las demostraciones, tablas y diagramas usan el ancho disponible. */
+.doc{max-width:1720px}
+.chapter > *{max-width:1360px}
+@media(min-width:1280px){.ed{grid-template-columns:176px minmax(0,1fr);column-gap:var(--s12)}}
+@media(min-width:1600px){.content{padding-left:var(--s20);padding-right:var(--s20)}}
+
+/* E.2 · Cierre del buscador: ícono «cerrar» del catálogo, en gris funcional plano */
+.search__field input::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none;width:20px;height:20px;margin-left:8px;cursor:pointer;background:#6B6D7E;-webkit-mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2032%2032%27%3E%3Cpath%20transform%3D%27matrix%281%2C0%2C0%2C-1%2C11.863%2C11.053801%29%27%20stroke-width%3D%272.5%27%20stroke-linecap%3D%27square%27%20fill%3D%27none%27%20stroke%3D%27black%27%20d%3D%27M0%200L8.274%20-9.901%27/%3E%3Cpath%20transform%3D%27matrix%281%2C0%2C0%2C-1%2C20.137%2C11.053801%29%27%20stroke-width%3D%272.5%27%20stroke-linecap%3D%27square%27%20fill%3D%27none%27%20stroke%3D%27black%27%20d%3D%27M-8.274%20-9.901L0%200%27/%3E%3C/svg%3E") center/20px no-repeat;mask:url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2032%2032%27%3E%3Cpath%20transform%3D%27matrix%281%2C0%2C0%2C-1%2C11.863%2C11.053801%29%27%20stroke-width%3D%272.5%27%20stroke-linecap%3D%27square%27%20fill%3D%27none%27%20stroke%3D%27black%27%20d%3D%27M0%200L8.274%20-9.901%27/%3E%3Cpath%20transform%3D%27matrix%281%2C0%2C0%2C-1%2C20.137%2C11.053801%29%27%20stroke-width%3D%272.5%27%20stroke-linecap%3D%27square%27%20fill%3D%27none%27%20stroke%3D%27black%27%20d%3D%27M-8.274%20-9.901L0%200%27/%3E%3C/svg%3E") center/20px no-repeat}
+.search__field input::-webkit-search-cancel-button:hover{background:var(--k-noche)}
+/* Móvil: la columna de contenido de cada sección puede encogerse; tablas y carruseles no ensanchan la página */
+.ed > div{min-width:0}
+/* Móvil: en el diagrama de capas, la etiqueta 04 baja un renglón y se alinea a la derecha para no pisar la 02 */
+@media(max-width:600px){.orbs__t{font-size:12px;gap:4px}.orbs__t--b:last-of-type{left:auto!important;right:0;margin-top:20px}.orbs{overflow-x:clip}}
+/* Paleta base en móvil y tableta: una sola columna (la variante v2 anulaba el cambio) */
+@media(max-width:1000px){.palette--v2{grid-template-columns:minmax(0,1fr)}}

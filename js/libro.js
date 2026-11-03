@@ -644,9 +644,24 @@
       void sl.offsetWidth; sl.classList.add('is-run');
       t = setTimeout(() => go(i + 1), every);
     };
+    /* Recorrido continuo: la primera diapositiva se repite al final (oculta para lectores de pantalla)
+       y, al terminar la transición, el carrusel vuelve a la original sin que se note el regreso */
+    const N = items.length;
+    const clone = items[0].cloneNode(true);
+    clone.setAttribute('aria-hidden', 'true'); clone.inert = true; clone.classList.add('is-clone');
+    track.appendChild(clone);
+    let pos = 0;
+    const place = (p, anim) => {
+      track.style.transition = anim && auto ? '' : 'none';
+      track.style.transform = `translateX(-${p * 100}%)`;
+      if (!(anim && auto)) void track.offsetWidth;
+      pos = p;
+    };
+    track.addEventListener('transitionend', (e) => { if (e.target === track && pos === N) place(0, false); });
     const go = (n) => {
-      i = (n + items.length) % items.length;
-      track.style.transform = `translateX(-${i * 100}%)`;
+      if (n >= N) { place(N, true); i = 0; if (!auto) place(0, false); }
+      else if (n < 0) { place(N, false); place(N - 1, true); i = N - 1; }
+      else { place(n, true); i = n; }
       items.forEach((it, k) => it.setAttribute('aria-hidden', k !== i));
       count.textContent = `(${pad(i + 1)} / ${pad(items.length)})`;
       if (auto) items[i].querySelectorAll('[data-count]').forEach(countUp);
