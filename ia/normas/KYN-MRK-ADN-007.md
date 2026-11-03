@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ADN-007"
 titulo: "Principios de marca"
@@ -26,7 +26,7 @@ Comprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde
 
 02
 Diseño a Medida
-Adaptamos la tecnología a cada organización: productos configurables dentro de límites definidos y desarrollos personalizados según objetivos del cliente.
+Tecnología adaptada: productos configurables y desarrollos personalizados.
 
 03
 Acompañamiento Adaptativo

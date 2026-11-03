@@ -4231,3 +4231,224 @@ html[data-libro="sistema-diseno"]{--trama-o:var(--trama-v-o),var(--trama-h-o)}
 .promise__body:not(:last-child){padding-bottom:var(--s3)}
 /* Cada segmento de la barra de proporción deja leer su etiqueta completa */
 .prop__s{min-width:max-content}
+
+/* ═══ Capítulo 11 · Criterios visuales: problema y criterio, demostración, referencias ═══ */
+.crv-group{display:grid;grid-template-columns:200px minmax(0,1fr);column-gap:var(--s16);align-items:baseline;padding:var(--s16) 0 var(--s6)}
+.crv-group span{font-size:13px;color:var(--color-text-3);font-variant-numeric:tabular-nums}
+.crv-group p{font-size:17px;font-weight:600;color:var(--k-noche)}
+.crv-group + .ed{border-top:4px solid var(--k-cielo-200)}
+@media(max-width:900px){.crv-group{grid-template-columns:minmax(0,1fr);row-gap:var(--s1)}}
+.crv-head{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:var(--s6) var(--s12);margin-top:var(--s10)}
+.crv-head .paren,.crv-row .paren{display:block;margin-bottom:var(--s2);font-size:13px;color:var(--color-text-3)}
+.crv-prob p{max-width:36ch;font-size:16px;line-height:1.6;color:var(--color-text-2);text-wrap:pretty}
+.crv-rule{padding-left:var(--s8);box-shadow:inset 4px 0 0 var(--k-cielo-200)}
+.crv-rule__m{max-width:46ch;font-size:clamp(18px,1.6vw,20px);font-weight:500;line-height:1.45;color:var(--k-noche);text-wrap:pretty}
+.crv-rule__s{max-width:56ch;margin-top:var(--s3);font-size:15px;line-height:1.6;color:var(--color-text-2);text-wrap:pretty}
+@media(max-width:900px){.crv-head{grid-template-columns:minmax(0,1fr)}.crv-rule{padding-left:var(--s5)}}
+.crv .vdemo{margin-top:var(--s12)}
+.crv .vdemo figcaption p{max-width:46ch}
+.crv-demo--57{grid-template-columns:minmax(0,5fr) minmax(0,7fr)}
+@media(max-width:760px){.crv-demo--57{grid-template-columns:minmax(0,1fr)}}
+.crv .vrank{margin-top:var(--s10)}
+.crv .vrank li span{font-size:24px;margin-bottom:var(--s2)}
+.crv-rows + .crv-meta{box-shadow:none}
+.crv-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s5) var(--s10);margin:var(--s12) 0 0;padding-top:var(--s5);box-shadow:inset 0 1px 0 var(--k-cielo-100)}
+.crv-meta dt{margin-bottom:var(--s1);font-size:13px;color:var(--color-text-3)}
+.crv-meta dd{margin:0;max-width:52ch;font-size:14px;line-height:1.6;color:var(--color-text-2)}
+@media(max-width:760px){.crv-meta{grid-template-columns:minmax(0,1fr)}}
+
+/* Filas de demostración: rótulo a la izquierda, escena a la derecha */
+.crv-rows{display:grid;gap:var(--s2);margin-top:var(--s12)}
+.crv-row{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:var(--s8);align-items:center;margin:0;padding:var(--s6) 0;box-shadow:inset 0 1px 0 var(--k-cielo-100)}
+.crv-row:last-child{box-shadow:inset 0 1px 0 var(--k-cielo-100),inset 0 -1px 0 var(--k-cielo-100)}
+.crv-row figcaption p{max-width:36ch;font-size:15px;line-height:1.5;color:var(--color-text-2)}
+.crv-row figcaption b{display:block;font-weight:600;color:var(--color-text)}
+.crv-row__s{padding:var(--s6);background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border)}
+.crv-row:first-child .crv-row__s{border-radius:0 var(--r-card) 0 0}
+.crv-row:last-child .crv-row__s{border-radius:0 0 var(--r-card) 0}
+@media(max-width:900px){.crv-row{grid-template-columns:minmax(0,1fr);gap:var(--s4)}}
+
+/* Líneas de texto simuladas */
+.crv i{display:block;font-style:normal}
+.crv-ms i,.crv-cards i,.crv-eq i,.crv-prot i,.crv-geo__box i,.crv-b i{height:5px;margin-top:6px;border-radius:3px;background:var(--k-gris-300)}
+.crv i.s{width:62%}
+
+/* 11.2 · Tracking */
+.crv-trk{width:100%;max-width:340px}
+.crv-trk__h{font-size:26px;font-weight:500;line-height:1.1;color:var(--k-noche)}
+.crv-trk__p{margin-top:var(--s3);font-size:15px;line-height:1.55;color:var(--color-text-2)}
+.crv-trk--tight p{letter-spacing:-.05em}
+
+/* 11.3 · Secuencias */
+.crv-seq{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s4)}
+.crv-ms{min-height:120px}
+.crv-ms .k{width:34%;height:4px;background:var(--k-gris-400)}
+.crv-ms .t{width:80%;height:10px;margin-top:8px;background:var(--k-noche)}
+.crv-ms__cards{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-top:10px}
+.crv-ms__cards i{height:34px;margin:0;border-radius:6px;background:var(--k-puro);box-shadow:0 4px 10px -4px rgba(16,18,42,.35),0 0 0 1px rgba(16,18,42,.06)}
+.crv-ms--num b{display:block;font-family:var(--font-display);font-size:56px;font-weight:500;line-height:1;letter-spacing:-.04em;color:var(--k-noche)}
+.crv-ms--cols{display:grid;grid-template-columns:1fr 1fr;column-gap:10px}
+.crv-ms--cols .t{grid-column:1/-1}
+.crv-ms--img img{display:block;width:100%;height:120px;object-fit:cover;border-radius:var(--r-control) 0 0 var(--r-control)}
+
+/* 11.4 · Tarjetas */
+.crv-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%}
+.crv-cards b{display:block;min-height:2.6em;font-size:13px;font-weight:600;line-height:1.3;color:var(--k-noche)}
+.crv-cards--box{gap:10px}
+.crv-cards--box > div{padding:12px;border-radius:14px;background:var(--k-puro);box-shadow:0 10px 24px -10px rgba(16,18,42,.35),0 0 0 1px rgba(16,18,42,.06)}
+.crv-cards--open > div{padding:4px 12px 4px 0}
+.crv-cards--open > div + div{padding-left:12px;box-shadow:inset 1px 0 0 var(--k-cielo-200)}
+
+/* 11.5 · Atmósferas */
+.crv-atm{place-items:end start!important}
+.crv-atm--orn{background:linear-gradient(120deg,#7B5CF5,#22D3EE)!important}
+.crv-atm--sky{background:url(../assets/img/cielo-mediodia.webp) center/cover!important}
+.crv-atm__t{max-width:20ch;font-size:clamp(18px,1.8vw,22px);font-weight:500;line-height:1.25;color:#fff}
+.crv-atm--sky .crv-atm__t{color:var(--k-noche)}
+
+/* 11.6 · Geometría */
+.crv-geo{display:grid;grid-template-columns:1fr 1fr;gap:6px;width:100%}
+.crv-geo__img img{display:block;width:100%;height:130px;object-fit:cover}
+.crv-geo__box{padding:14px;background:var(--k-cielo-100)}
+.crv-geo__box b{font-size:14px;font-weight:600;color:var(--k-noche)}
+.crv-geo__btn{display:inline-block;margin-top:14px;padding:6px 12px;font-size:12px;font-weight:500;color:#fff;background:var(--k-noche)}
+.crv-geo--same .crv-geo__img img,.crv-geo--same .crv-geo__box,.crv-geo--same .crv-geo__btn{border-radius:10px}
+.crv-geo--k .crv-geo__img img{border-radius:0 var(--r-component) var(--r-component) 0}
+.crv-geo--k .crv-geo__box{border-radius:var(--r-component) 0 0 var(--r-component)}
+.crv-geo--k .crv-geo__btn{border-radius:var(--r-pill)}
+
+/* 11.8 · Íconos */
+.crv-ico{display:grid;gap:12px;width:100%;margin:0;padding:0;list-style:none}
+.crv-ico li{display:flex;align-items:center;gap:10px;font-size:17px;font-weight:500;color:var(--k-noche)}
+.crv-ico svg{width:22px;height:22px;flex:none;fill:none;stroke:var(--k-cielo);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.crv-ico--fn li{font-size:15px}
+.crv-ico--fn svg{width:18px;height:18px;stroke:var(--k-noche)}
+.crv-ico small{margin-left:auto;font-size:12px;font-weight:400;color:var(--color-text-3)}
+i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:50%;background:var(--k-cielo);vertical-align:middle}
+.crv-ico--fn i.crv-dot{margin:0 5px 0 5px;flex:none}
+
+/* 11.9 · Microelementos */
+.crv-mic{width:100%}
+.crv-mic__t{display:flex;align-items:center;gap:6px;font-size:22px;font-weight:500;color:var(--k-noche)}
+.crv-mic__tags{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:8px 0}
+.crv-mic__tags span{padding:2px 8px;border-radius:var(--r-pill);font-size:11px;color:var(--k-noche);background:var(--k-cielo-200)}
+.crv-mic svg{width:16px;height:16px;fill:none;stroke:var(--k-salmon);stroke-width:1.5}
+.crv-mic i.crv-mic__line{height:2px;width:60%;background:var(--k-salmon)}
+.crv-mic__m{margin-bottom:8px;font-size:12px;color:var(--color-text-3)}
+.crv-mic__m i.crv-dot{margin-left:0}
+
+/* 11.10 · Simetría y asimetría */
+.crv-eq{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%;text-align:center}
+.crv-eq b{display:block;min-height:2.6em;font-size:13px;font-weight:600;line-height:1.3;color:var(--k-noche)}
+.crv-eq i{margin-left:auto;margin-right:auto}
+.crv-prot{display:grid;grid-template-columns:7fr 3fr;gap:18px;width:100%}
+.crv-prot p{font-size:clamp(20px,2vw,26px);font-weight:500;line-height:1.15;color:var(--k-noche)}
+.crv-prot b{display:block;font-family:var(--font-display);font-size:36px;font-weight:500;line-height:1;color:var(--k-noche)}
+
+/* 11.11 · Movimiento */
+.crv-tool{position:relative;height:120px;padding:12px;border-radius:8px;background:var(--k-blanco);box-shadow:inset 0 0 0 1px var(--color-border);overflow:hidden}
+.crv-tool__r{display:block;height:5px;margin-bottom:14px;border-radius:3px;background:var(--k-gris-300)}
+.crv-tool--loop{max-width:420px}
+.crv-orb{position:absolute;width:26px;height:26px;border-radius:50%;background:var(--k-cielo-200);box-shadow:-10px 6px 0 -2px rgba(198,213,236,.55),-20px 12px 0 -4px rgba(198,213,236,.3)}
+.crv-orb:nth-of-type(1){top:16px;left:58%}.crv-orb:nth-of-type(2){top:56px;left:30%}.crv-orb:nth-of-type(3){top:72px;left:80%}
+.crv-frames{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;gap:10px}
+.crv-frames .crv-tool{height:96px;padding:10px}
+.crv-frames__a{width:18px;height:1.5px;background:var(--k-noche);position:relative}
+.crv-frames__a::after{content:"";position:absolute;right:0;top:-3px;width:7px;height:7px;border-top:1.5px solid var(--k-noche);border-right:1.5px solid var(--k-noche);transform:rotate(45deg)}
+.crv-tool__btn{position:absolute;top:10px;right:10px;width:18px;height:10px;border-radius:var(--r-pill);background:var(--k-noche)}
+.crv-tool__panel{position:absolute;top:26px;right:10px;bottom:10px;border-radius:6px;background:var(--k-cielo-200)}
+.crv-tool--f2 .crv-tool__panel{width:22%;opacity:.6}
+.crv-tool--f3 .crv-tool__panel{width:48%}
+@media(max-width:600px){.crv-frames{grid-template-columns:minmax(0,1fr)}.crv-frames__a{justify-self:center;transform:rotate(90deg)}}
+
+/* 11.12 · Fondo Blanco Keyons */
+.crv-bk{background:var(--k-blanco)!important}
+
+/* 11.13 · Lenguaje */
+.crv-q{max-width:22ch;font-size:clamp(20px,2vw,26px);font-weight:500;line-height:1.25;color:var(--k-noche);text-wrap:balance}
+
+/* 11.14 · Bloques de una secuencia */
+.crv-blocks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.crv-b{display:block;height:96px;padding:12px;background:var(--k-blanco);box-shadow:inset 0 0 0 1px var(--color-border)}
+.crv-b--i{padding:0;box-shadow:none}
+.crv-b--i img{display:block;width:100%;height:100%;object-fit:cover}
+.crv-b--a{box-shadow:inset 0 0 0 1px var(--color-border),inset 0 -6px 0 var(--k-cielo)}
+.crv-blocks > :first-child,.crv-blocks > :first-child img{border-radius:0 var(--r-control) var(--r-control) 0}
+.crv-blocks > :nth-child(2),.crv-blocks > :nth-child(3),.crv-blocks > :nth-child(2) img,.crv-blocks > :nth-child(3) img{border-radius:var(--r-control)}
+.crv-blocks > :last-child,.crv-blocks > :last-child img{border-radius:var(--r-control) 0 0 var(--r-control)}
+
+/* 11.15 · Página con y sin navegación visible */
+.crv-page{position:relative;width:100%;overflow:hidden;border-radius:8px;background:var(--k-blanco);box-shadow:inset 0 0 0 1px var(--color-border)}
+.crv-page img{display:block;width:100%;height:96px;object-fit:cover}
+.crv-page > p:last-child{padding:8px 12px;font-size:15px;font-weight:500;color:var(--k-noche)}
+.crv-page__nav{display:flex;align-items:center;gap:12px;padding:8px 12px;font-size:11px;color:var(--color-text-2)}
+.crv-page__nav b{margin-right:auto;font-size:12px;color:var(--k-noche)}
+.crv-page--hidden img{height:127px}
+.crv-page__hint{position:absolute;top:6px;right:6px;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.5)}
+
+/* 11.16 · Portadas */
+.crv-cover{position:relative;display:grid;width:100%;height:100%;min-height:170px}
+.crv-cover--gen{place-items:center;align-content:center;gap:10px;text-align:center;overflow:hidden}
+.crv-cover--gen p{position:relative;font-size:20px;font-weight:700;color:#1E1B4B}
+.crv-cover--gen span{position:relative;padding:6px 16px;border-radius:var(--r-pill);font-size:12px;font-weight:600;color:#fff;background:linear-gradient(90deg,#7B5CF5,#22D3EE)}
+.crv-cover__blob{position:absolute;inset:10% 25%;border-radius:50%;background:radial-gradient(circle,#C4B5FD,rgba(196,181,253,0));filter:blur(8px)}
+.crv-cover--k{grid-template-columns:7fr 5fr;grid-template-rows:auto 1fr;gap:10px}
+.crv-cover__logo{width:56px;height:auto}
+.crv-cover--k p{grid-column:1;align-self:end;font-family:var(--font-display);font-size:clamp(18px,1.7vw,24px);font-weight:500;line-height:1;letter-spacing:-.02em;color:var(--k-noche)}
+.crv-cover__win{grid-column:2;grid-row:1/3;overflow:hidden;border-radius:var(--r-component) 0 0 var(--r-component)}
+.crv-cover__win img{display:block;width:100%;height:100%;object-fit:cover}
+.vd-k__m{font-size:12px;color:var(--color-text-3);font-variant-numeric:tabular-nums}
+
+/* ═══ 12.8 · Catálogo de tramas lineales ═══ */
+.tram{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--s8) var(--s2);margin-top:var(--s8)}
+.tram__i{margin:0}
+.tram__s{aspect-ratio:8/5;overflow:hidden;color:var(--k-noche);background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border)}
+.tram__s svg{display:block;width:100%;height:100%}
+.tram__i:nth-child(4n+1) .tram__s{border-radius:0 var(--r-control) var(--r-control) 0}
+.tram__i:nth-child(4n+2) .tram__s,.tram__i:nth-child(4n+3) .tram__s{border-radius:var(--r-control)}
+.tram__i:nth-child(4n) .tram__s,.tram__i:last-child .tram__s{border-radius:var(--r-control) 0 0 var(--r-control)}
+.tram__i figcaption{margin-top:var(--s3)}
+.tram__i b{display:block;font-size:15px;font-weight:600;color:var(--k-noche)}
+.tram__i span{display:block;margin-top:2px;font-size:13px;color:var(--color-text-3)}
+.tram__lead,.tram__note{max-width:64ch;margin-top:var(--s4);font-size:16px;line-height:1.6;color:var(--color-text-2);text-wrap:pretty}
+.tram__note{margin-top:var(--s6);font-size:15px}
+.tram__fill{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s2);margin-top:var(--s8)}
+.tram__fill figure{margin:0;padding:var(--s6);background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border)}
+.tram__fill figure:first-child{border-radius:0 var(--r-card) var(--r-card) 0}
+.tram__fill figure:last-child{border-radius:var(--r-card) 0 0 var(--r-card)}
+.tram__fill svg{display:block;width:100%;height:auto}
+.tram__lab{font-family:var(--font-sans);font-size:12px;fill:#6B6D7E}
+.patx__st{margin:0 0 var(--s3);font-size:13px;color:var(--color-text-3)}
+@media(max-width:900px){.tram{grid-template-columns:repeat(2,minmax(0,1fr))}.tram__i .tram__s{border-radius:0!important}}
+@media(max-width:600px){.tram__fill{grid-template-columns:minmax(0,1fr)}.tram__fill figure{border-radius:0!important}}
+
+/* Móvil: la salida a la Biblioteca pasa de la cabecera al menú, como botón */
+.hdr__panel-exit{display:none}
+@media(max-width:760px){
+  .hdr__exit{display:none}
+  .hdr__panel .hdr__panel-exit{display:flex;align-items:center;justify-content:center;gap:8px;padding:10px;line-height:1.35;border:1.5px solid var(--k-noche);border-radius:var(--r-pill);
+    font-size:14px;font-weight:500;color:var(--k-noche);text-decoration:none;transition:background-color 300ms ease,color 300ms ease}
+  .hdr__panel .hdr__panel-exit .ic{width:18px;height:18px}
+  .hdr__panel .hdr__panel-exit:hover,.hdr__panel .hdr__panel-exit:focus-visible{background:var(--k-noche);color:#fff}
+}
+/* Móvil: las figuras de patrones y la comparación de tracking no ensanchan la página */
+.patx__fig,.patx__fig svg{overflow:hidden}
+#tracking > div{min-width:0}
+#tracking .trk{overflow-x:auto}
+@media(max-width:760px){.icar--win{overflow-x:clip}}
+.ed__stack p{overflow-wrap:anywhere}
+
+/* ═══ RV11 ═══ */
+/* 8.4 · Titular editorial: líneas como las tablas (horizontales finas, vertical de 4 px continua) */
+#titular .annot.anat{border-bottom:0;box-shadow:inset 0 -1px 0 var(--k-cielo-100)}
+#titular .anat > *{border-top:0;box-shadow:inset 0 1px 0 var(--k-cielo-100)}
+#titular .annot__note{border-left:0;box-shadow:inset 4px 0 0 var(--k-cielo-200),inset 0 1px 0 var(--k-cielo-100)}
+@media(max-width:760px){#titular .annot__note{box-shadow:none}}
+/* 8.6 · Reglas de uso: frase principal y apoyo */
+.rview__d{color:var(--k-noche);font-size:16px}
+.rview__s{margin-top:var(--s2);max-width:420px;font-size:14px;line-height:1.6;color:var(--color-text-3)}
+/* 12.8 · Tramas en Azul Cielo */
+.tram__s{color:var(--k-cielo)}
+/* 9.5 · Densidad con el estilo de los patrones */
+.patx--dens:first-of-type{margin-top:var(--s10)}
+.patx--dens .phbox{aspect-ratio:8/5}

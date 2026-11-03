@@ -177,6 +177,56 @@ Desviaciones cerradas: VOZ-006 (las notas del ejemplo ahora son las definiciones
   - CMP-002 y CMP-003 usan el gris de la regla de esquinas (#C7C8CB) en todos los recuadros.
 - **Contradicción abierta:** el estado Error de COL-014 sigue en «Terracota suave» #F0D0CB; no se inventaron valores nuevos.
 
+## Revisión del 2026-11-03 (RV10)
+
+- **Portada:** el paso 03 de «Cómo utilizar este manual» con el texto enviado; los otros tres ya coincidían.
+- **ADN-007:** Diseño a Medida dice «Tecnología adaptada: productos configurables y desarrollos personalizados.».
+- **CON-006:** los cuatro criterios con los textos nuevos, como párrafo.
+- **8.8 Tracking en pantalla:** título «Comparar antes de aplicar», introducción, validación y estado; sigue sin ID.
+- **Capítulo 09 · Forma y espacio:**
+  - ESP-001 a ESP-007 con los textos enviados;
+  - no cambiaron radios, espaciados, tokens, retícula ni SVG;
+  - en ESP-002, el rótulo «(Lado corto)» pasó a «(Tamaño de referencia)»;
+  - en ESP-004, «(Aplica a)» pasó a «(Criterio)»;
+  - en ESP-006, la columna «Se diagrama como» pasó a «Patrón posible».
+- **Capítulo 10 · Composiciones:**
+  - CMP-003 tiene la cota en Azul Cielo de 4 px y más aire hasta las etiquetas;
+  - CMP-004 tiene la explicación y los cuatro criterios nuevos («Pausas visuales» en dos renglones);
+  - se quitó la regla de patrones seguidos.
+- **Capítulo 11 · Criterios visuales:**
+  - rediseño completo en el orden problema, criterio, demostración y referencias;
+  - las 16 normas y sus cuatro grupos se conservan;
+  - cada norma tiene una demostración visual;
+  - las leyendas de las demostraciones y los textos de ejemplo de 11.2 a 11.16 los escribió IA y están pendientes de revisión.
+- **Capítulo 12 · Elementos gráficos:**
+  - el menú lateral tiene cuatro grupos;
+  - ILU-007 tiene cinco apartados, con el catálogo de siete tramas lineales y la tabla de tramas por libro;
+  - los tratamientos atmosféricos están marcados como «Por validar»;
+  - Texturas de cielo está marcado como «Requiere revisión».
+- **Recursos:**
+  - se quitó el ícono fuego;
+  - calendario, listas, edificio y nubes tienen ahora el ancho visible de cámara (25,3 px), con trazo de 2,5;
+  - la galería quedó sin KY-002, 006, 007, 008, 013 y 014.
+- **Menú móvil:** la salida a la Biblioteca pasa a un botón dentro del menú.
+- **Contradicciones abiertas:**
+  - ILU-007 dice que las tramas no son fondos permanentes de capítulos, pero hoy aparecen en encabezados y subencabezados;
+  - COL-014 mantiene el Error en «Terracota suave»;
+  - en ESP-007, los «Arcos de método» nombran etapas sin documentación oficial de Prisma con la cual contrastarlas.
+
+## Revisión del 2026-11-03 · 2 (RV11)
+
+- **Recursos:**
+  - el calendario tiene ahora el ancho y el alto visibles de cámara;
+  - la galería quedó sin KY-012, así que conserva 15 imágenes.
+- **LOG-010:** el carrusel muestra el número, la condición, el título y una frase. El texto sobre la prueba pasó abajo, con el rótulo «(Prueba de reconocimiento)».
+- **TYP-004:** las líneas son como las de las tablas, con la vertical de 4 px en Azul Cielo.
+- **TYP-006:** cada criterio tiene una frase principal y otra de apoyo más pequeña. Los ejemplos 01 y 02 son más cortos.
+- **Capítulo 12:**
+  - el grupo «Luz, profundidad y atmósfera» se llama «Profundidad atmosférica»;
+  - ILU-006 tiene la frase nueva sobre el texto vertical;
+  - en ILU-007 las tramas van en Azul Cielo y la tabla muestra solo el nombre de cada libro.
+- **ESP-005:** los modos Corporativo y Expresivo tienen el estilo de los patrones de ILU-007.
+
 ## Cómo se mantiene este registro
 
 1. **Una instrucción por cambio.** Cada instrucción editorial indica ID, ubicación, operación y texto exacto. Se aplica solo eso.

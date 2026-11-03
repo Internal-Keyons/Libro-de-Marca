@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-001"
 titulo: "Regla de esquinas"
@@ -20,25 +20,28 @@ Número: 9.1 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fu
 
 ##### Exterior recto, interior curvo
 
-La regla que da forma a todo el sistema: **la esquina que toca el borde del grupo es recta; la que mira a otro elemento, curva.** Así un conjunto se lee como una sola pieza.
+La geometría de Keyons distingue entre **contenedores independientes y conjuntos visuales**.
+
+Un contenedor aislado utiliza esquinas rectas como tratamiento base. Cuando varios elementos forman un conjunto reconocible, pueden combinarse esquinas exteriores rectas e interiores curvas para expresar su relación.
 
 **(Fila)**
-Las esquinas de los extremos van rectas; las que se miran, curvas.
+En un conjunto horizontal, las esquinas exteriores son rectas y las interiores pueden curvarse cuando refuerzan la agrupación.
 
 > Recurso visual: Gráfico SVG en línea · «Fila de tres recuadros»
 
 **(Pila)**
-Igual, en vertical: arriba y abajo rectas, adentro curvas.
+Se aplica el mismo principio en vertical, respetando los límites exteriores del conjunto.
 
 > Recurso visual: Gráfico SVG en línea · «Pila de tres recuadros»
 
 **(Cuadrícula)**
-Cada recuadro solo curva la esquina que mira al centro del grupo.
+La combinación de esquinas responde a la organización visual. No todas las cuadrículas requieren curvas interiores.
 
 > Recurso visual: Gráfico SVG en línea · «Cuadrícula de cuatro recuadros»
 
-**(Un recuadro solo)**
-Sus cuatro esquinas son exteriores: van rectas.
+**(Un contenedor)**
+Las cuatro esquinas permanecen rectas cuando el elemento se presenta de forma independiente.
 
 **(Botones y badges)**
-Son la excepción: forma de píldora completa, porque no forman grupo con el contenedor.
+Los botones mantienen una geometría curva, diferenciada de los contenedores. Las variantes, estados y transiciones funcionales se especifican en el Sistema de Diseño.
+Los badges se rigen por su función y variante documentada, sin asumir automáticamente una geometría universal para todas las etiquetas.

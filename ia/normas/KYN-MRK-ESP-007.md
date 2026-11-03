@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-007"
 titulo: "Diagramas de información"
@@ -20,7 +20,9 @@ Número: 9.7 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fu
 
 ##### Ordenar ideas, no medirlas
 
-Cuando no hay cifras sino relaciones (fases, zonas, niveles o áreas), la información se diagrama. **Mismo trazo fino, etiquetas grises y una estrella para lo que importa.**
+Los diagramas permiten explicar **relaciones entre ideas, etapas, áreas o componentes**. Su geometría debe corresponder a la relación representada: secuencia, agrupación, jerarquía, inclusión o conexión.
+
+Los círculos, arcos y anillos son recursos disponibles, no soluciones obligatorias para cualquier contenido.
 
 (Proceso)
 
@@ -74,8 +76,12 @@ Un tema dentro de los anillos que lo rodean, del más cercano al más amplio, co
 
 > Recurso visual: Gráfico SVG en línea · «Anillos de contexto: la IA dentro de los anillos de la operación» · Textos: Cultura / Gobierno de datos / Procesos / Personas / Herramientas / La IA no opera aislada: / es parte de toda la operación, / no una pieza aparte. · Al pasar el cursor: Cultura: Anillo 1 / Gobierno de datos: Anillo 1 / Procesos: Anillo 2 / Personas: Anillo 2 / Herramientas: Anillo 3
 
-**(Cuándo)**
-Para explicar un método, un proceso o un contexto en una propuesta, una capacitación o una pieza de marca. Si hay datos medidos, va un gráfico del capítulo 14.
+**(Uso)**
+Se utilizan cuando una representación visual permite comprender relaciones que resultarían difíciles de comunicar únicamente mediante texto. Cuando el contenido contiene valores medidos, se elige una visualización cuantitativa adecuada, conforme al capítulo 14, Datos.
 
-**(Cómo)**
-Trazo de 1 px en Azul Noche, etiquetas en gris de 11 a 13 px y una estrella en el punto que se señala. Sin degradados ni sombras.
+**(Construcción)**
+Utilizar trazos precisos, continuos y uniformes, con contraste y etiquetas legibles. Los recursos de énfasis se incorporan cuando ayudan a interpretar el contenido. No es obligatorio utilizar estrellas, círculos o indicadores decorativos.
+Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso.
+
+**(Ejemplos)**
+Los diagramas que presentan etapas o duraciones no deben interpretarse automáticamente como fases oficiales de la metodología Prisma o compromisos de ejecución. Si un ejemplo representa una metodología oficial, debe coincidir con su documentación vigente.

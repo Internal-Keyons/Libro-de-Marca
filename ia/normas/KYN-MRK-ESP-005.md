@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-005"
 titulo: "Densidad"
@@ -20,41 +20,35 @@ Número: 9.5 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fu
 
 ##### Cuánta información cabe en un espacio
 
-Aire y minimalismo en lo corporativo; intensidad ordenada en lo expresivo. **La densidad no decora: anuncia el tipo de contenido que viene.**
+La densidad visual responde al **contenido, la frecuencia de uso y la atención** que requiere cada tarea.
 
-###### Corporativo · densidad baja
-
-Pocos elementos por bloque, mucho espacio negativo y una idea protagonista por página. Respeta el tiempo del lector.
-
-**(Cuándo)**
-
-Propuestas, documentos institucionales, landing principal, hero web, comunicados y este libro.
-
-**(Regla)**
-
-Máximo tres bloques por pantalla en escritorio. Alrededor del elemento principal, un aire igual a su tamaño. Un solo CTA por sección.
+Una composición limpia no necesita ser siempre poco densa. Una composición informativa no debe convertirse en una acumulación de elementos.
 
 **(Ejemplo)**
 Propuesta comercial: una idea, mucho aire
 
-###### Expresivo · densidad ordenada
+###### Corporativo · densidad contenida
 
-Más elementos e intensidad informativa, siempre sobre la retícula. Nunca cae en desorden.
+Prioriza una jerarquía clara, espacio negativo y una lectura cómoda.
 
-**(Cuándo)**
+- La cantidad de bloques, llamadas a la acción y espacios depende de la información y de las decisiones que debe tomar el lector.
 
-Campañas, blog, contenido educativo, redes, piezas culturales y talleres.
-
-**(Regla)**
-
-Las 12 columnas sostienen la composición: seis elementos ocupan dos columnas cada uno, con su medianil. La intensidad viene de la cantidad coherente, no del amontonamiento.
+**(Cuándo se usa)** Se aplica a comunicaciones institucionales, documentos, propuestas y secciones editoriales donde conviene destacar las ideas principales.
 
 **(Ejemplo)**
 Post de campaña: varios elementos sobre la retícula
 
+###### Expresivo · intensidad organizada
+
+Permite una mayor presencia de recursos gráficos, información y variaciones compositivas cuando el contenido lo justifica.
+
+- La retícula proporciona estructura, pero no obliga a distribuir todos los elementos en columnas idénticas.
+
+**(Cuándo se usa)** Campañas, blog, contenido educativo, redes, piezas culturales y talleres.
+
 ###### Interfaz · según la tarea
 
-No hay una densidad única, hay una adecuada para lo que el usuario necesita hacer en cada pantalla.
+La densidad debe facilitar la tarea, no dificultarla. Las vistas de uso frecuente pueden presentar información compacta cuando mantienen legibilidad, orientación y controles accesibles.
 
 **(Ejemplo)**
 Pantalla de bienvenida
@@ -87,4 +81,4 @@ Densidad alta
 - Vistas de monitoreo
 - Pantallas para escanear rápido
 
-Aire o intensidad, siempre sobre la retícula: la densidad nunca se traduce en desorden.
+La densidad adecuada permite comprender y actuar sin añadir ruido visual.

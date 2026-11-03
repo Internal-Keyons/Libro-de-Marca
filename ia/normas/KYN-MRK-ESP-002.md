@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-002"
 titulo: "Radios"
@@ -18,14 +18,16 @@ citada_por: ["KYN-MRK-VIS-006"]
 
 Número: 9.2 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fundamentos/forma/espacio.html#radios`
 
-##### El radio depende del tamaño
+##### El radio responde a la función
 
-Se elige mirando **el lado más corto del recuadro**: entre más grande, más radio. Cada ejemplo está en pareja porque, por la regla de esquinas, solo curvan las esquinas que se miran.
+Los radios se seleccionan según **la función del elemento, su tamaño y su relación** con otros componentes.
+
+El tamaño puede orientar la elección, pero no determina automáticamente que una superficie grande deba tener esquinas más redondeadas.
 
 **r-micro**
 3 px
 
-**(Lado corto)**
+**(Tamaño de referencia)**
 Menos de 24 px
 **(Se usa en)**
 Barras de datos, chips internos, marcas pequeñas
@@ -33,7 +35,7 @@ Barras de datos, chips internos, marcas pequeñas
 **r-control**
 12 px
 
-**(Lado corto)**
+**(Tamaño de referencia)**
 24 a 64 px
 **(Se usa en)**
 Campos, fichas de color, segmentos
@@ -41,7 +43,7 @@ Campos, fichas de color, segmentos
 **r-component**
 18 px
 
-**(Lado corto)**
+**(Tamaño de referencia)**
 64 a 200 px
 **(Se usa en)**
 Tarjetas y recuadros de contenido
@@ -49,7 +51,7 @@ Tarjetas y recuadros de contenido
 **r-card**
 30 px
 
-**(Lado corto)**
+**(Tamaño de referencia)**
 200 a 400 px
 **(Se usa en)**
 Paneles y tarjetas grandes
@@ -57,13 +59,14 @@ Paneles y tarjetas grandes
 **r-block**
 50 px
 
-**(Lado corto)**
+**(Tamaño de referencia)**
 Más de 400 px
 **(Se usa en)**
 Secciones y bloques de página
 
 **(Anidados)**
-Un recuadro dentro de otro usa el radio exterior menos el relleno. Si el resultado es menor que 3 px, va recto.
+Cuando un contenedor curvo contiene otro elemento, los radios y el espacio interior deben mantener una relación visual coherente, evitando encuentros irregulares.
+La fórmula del radio exterior menos el relleno puede utilizarse como referencia geométrica, pero debe comprobarse visualmente y no aplicarse de manera automática en todos los casos.
 
 **(En código)**
 Siempre con su variable: `var(--r-card)`, nunca con un número suelto.

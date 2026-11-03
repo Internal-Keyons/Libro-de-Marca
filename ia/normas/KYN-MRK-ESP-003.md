@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-003"
 titulo: "Espaciado"
@@ -20,11 +20,13 @@ Número: 9.3 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fu
 
 ##### Todo se mide en múltiplos de 4
 
-Una sola escala para márgenes, separaciones y rellenos. **Si una distancia no está en la escala, no se usa.**
+La escala de espaciado utiliza **incrementos de 4 px** para organizar márgenes, separaciones y rellenos de forma consistente.
+
+Sus valores son referencias para construir relaciones espaciales claras. La escala no sustituye las necesidades específicas de tipografía, bordes, adaptación responsive o representación gráfica.
 
 s1 · 4 px · Entre ícono y su borde
 s2 · 8 px · Ícono y texto
-s3 · 12 px · Entre líneas de una lista
+s3 · 12 px · Entre elementos de una lista
 s4 · 16 px · Dentro de controles
 s5 · 20 px
 s6 · 24 px · Dentro de tarjetas
@@ -35,3 +37,7 @@ s16 · 64 px · Entre grupos de contenido
 s20 · 80 px
 s24 · 96 px · Entre secciones
 s32 · 128 px · Aire de sección
+
+**(Criterio de uso)**
+Las separaciones se eligen según la relación entre los elementos y la densidad necesaria. No es obligatorio utilizar grandes espacios en todos los contextos ni comprimir una composición para mostrar más información.
+Cuando la escala no resuelva una necesidad técnica justificada, la excepción debe documentarse en el sistema correspondiente.

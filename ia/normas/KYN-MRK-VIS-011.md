@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-011"
 titulo: "Movimiento ornamental"
@@ -20,22 +20,19 @@ Número: 11.11 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente:
 
 ##### El movimiento orienta, no distrae
 
-**(Problema que evita)**
+**(Problema)**
 Animaciones que distraen, cansan o dificultan la operación.
 
-**(Regla)**
+**(Criterio)**
+El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite.
+En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas.
+En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.
 
-- El movimiento debe orientar, informar, mejorar la continuidad espacial o aportar una expresión de marca contextual.
-- No debe producir distracción, fatiga ni dificultad de operación.
+**(Uso incorrecto)**
+**Animación constante durante una tarea** Elementos que flotan en bucle mientras se trabaja.
 
-(Uso incorrecto)
-(Alternativa correcta)
+**(Alternativa mejor)**
+Una transición breve muestra de dónde viene el panel. Se presenta como secuencia, sin animación automática.
 
-**Elementos que flotan en bucle en una herramienta diaria** · La pantalla nunca está quieta mientras se trabaja.
-Una transición que muestra de dónde viene un panel; el cielo con Ráfaga en una portada.
-
-**(Excepciones)**
-Los momentos vivos designados, como bienvenida o celebración: KYN-MRK-COL-012.
-
-**(Relación)**
-KYN-MRK-ICO-004 (Animación), KYN-MRK-ILU-006 (Ráfagas) y KYN-MRK-COL-012 (Modo interfaz).
+- **Excepciones**: Los momentos vivos designados, como bienvenida o celebración: KYN-MRK-COL-012.
+- **Relación**: KYN-MRK-ICO-004 (Animación), KYN-MRK-ILU-006 (Ráfagas) y KYN-MRK-COL-012 (Modo interfaz).

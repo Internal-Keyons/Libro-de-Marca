@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-014"
 titulo: "Maximalismo uniforme"
@@ -20,22 +20,28 @@ Número: 11.14 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente:
 
 ##### Intensidad con momentos de reposo
 
-**(Problema que evita)**
+**(Problema)**
 La misma intensidad gráfica en cada sección y en cada elemento, sin pausas.
 
-**(Regla)**
+**(Criterio)**
+La expresión gráfica necesita contraste entre momentos intensos y momentos de reposo.
+El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura.
 
-- El maximalismo debe tener momentos de intensidad y reposo.
-- La expresión gráfica no debe extenderse con igual intensidad a cada sección y cada elemento.
+**(Uso incorrecto)**
+**La misma intensidad en cada bloque** Fotografía, color y textura en todas partes: nada destaca.
 
-(Uso incorrecto)
-(Alternativa correcta)
+> Recurso visual: Imagen: /assets/img/cielo-atardecer.webp
 
-**Cada sección con foto a sangre, degradado y animación** · Nada destaca porque todo grita.
-Una portada intensa seguida de secciones calmas que dejan respirar.
+> Recurso visual: Imagen: /assets/img/cielo-atardecer.webp
 
-**(Excepciones)**
-Piezas de una sola pantalla, como una publicación de campaña.
+> Recurso visual: Imagen: /assets/img/cielo-atardecer.webp
 
-**(Relación)**
-KYN-MRK-COL-011 (Modo expresivo), KYN-MRK-ESP-005 (Densidad) y el capítulo 10.
+> Recurso visual: Imagen: /assets/img/cielo-atardecer.webp
+
+**(Alternativa mejor)**
+Un momento expresivo entre secciones contenidas, ubicado donde el contenido lo pide. Conserva el carácter sin saturar.
+
+> Recurso visual: Imagen: /assets/img/cielo-atardecer.webp
+
+- **Excepciones**: Piezas de una sola pantalla, como una publicación de campaña.
+- **Relación**: KYN-MRK-COL-011 (Modo expresivo), KYN-MRK-ESP-005 (Densidad) y el capítulo 10.

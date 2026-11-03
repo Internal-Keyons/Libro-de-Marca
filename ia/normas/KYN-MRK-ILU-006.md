@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ILU-006"
 titulo: "Ráfagas"
@@ -63,6 +63,6 @@ En interfaz de producto, tableros, documentos legales y comunicados corporativos
 - Dirección · Clara y legible: diagonal, vertical o curva. Nunca estática ni centrada.
 - Difuminado · Los bordes se disuelven en el Blanco Keyons sin un corte visible.
 - Animación · Movimiento lento y continuo en la dirección del viento, en ciclos de 20 a 30 s. Orgánico, nunca mecánico.
-- Con tipografía · Puede acompañarse de texto vertical en los bordes, al estilo de revista. Nunca sobre la zona densa: el texto vive en el blanco que la rodea.
+- Con tipografía · Puede acompañarse de texto vertical en los bordes, al estilo revista. Se ubica en el blanco que rodea, nunca sobre la zona densa.
 
 La ráfaga es el viento visible: libera el cielo del marco.

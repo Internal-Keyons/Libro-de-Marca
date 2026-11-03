@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "08"
 titulo: "Tipografía"
@@ -185,39 +185,53 @@ La tipografía debe **organizar la lectura, transmitir identidad** y adaptarse a
 
 
 Cuatro colores, una jerarquía
-Azul Noche y Blanco Keyons son la base neutra. **Azul Cielo es el primer color** con carga cromática.
+Azul Noche y Blanco Keyons son **la base neutra**.
 
-Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio. La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.
+Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio.
 
-Nueve niveles, una jerarquía flexible
-La escala proporciona referencias para organizar titulares, textos, etiquetas y contenido de lectura.
+La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.
 
-Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad. Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.
+Nueve niveles, una jerarquía
+La escala organiza titulares, textos y etiquetas.
+
+Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.
+
+Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.
 
 Cielo
 Índice
 
-El tracking se ajusta según la fuente, el tamaño y la función del texto. No se aplican valores negativos o positivos de forma indiscriminada.
+El tracking se ajusta según la fuente, el tamaño y la función del texto.
+
+No se aplican valores negativos o positivos de forma indiscriminada.
 
 Primero entendemos su operación; **después construimos**.
 
-El peso semibold permite destacar información relevante. No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.
+El peso semibold permite destacar información relevante.
+
+No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.
 
 1 250.00
 98.40
 12 004.10
 
-Las cifras operativas utilizan Plus Jakarta Sans. En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.
+Las cifras operativas utilizan Plus Jakarta Sans.
+
+En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.
 
 Galaxia
 
-TASA Orbiter se reserva para titulares, portadas y cifras con intención editorial. Los textos prolongados y controles funcionales priorizan la legibilidad.
+TASA Orbiter se reserva para titulares, portadas y cifras con intención editorial.
+
+Los textos prolongados y controles funcionales priorizan la legibilidad.
 
 Aa
 Aa
 Aa
 
-Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad. El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
+Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.
+
+El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
 
 ## KYN-MRK-TYP-007 · 8.7 Uso por función
 
@@ -251,9 +265,11 @@ Plus Jakarta Sans, con cifras tabulares cuando corresponda: tablas, datos y cont
 
 Número: 8.8 · Fuente: `/fundamentos/tipografia/sistema.html#tracking`
 
-### Una comparación antes de decidir
+### Comparar antes de aplicar
 
-Los valores de presentaciones, **−5 % para grandes titulares y −3 % para ciertos subtítulos**, están pendientes de validación en interfaces digitales. No son valores universales ni se aplican de forma global.
+Los ajustes negativos de tracking utilizados en algunas presentaciones pueden aportar carácter a determinados titulares, pero **no constituyen reglas universales** para interfaces digitales.
+
+Los valores −3 % y −5 % deben evaluarse en las fuentes, tamaños y contextos donde se proponga utilizarlos.
 
 Escala
 0 %
@@ -278,5 +294,8 @@ El mismo cielo
 **(Mientras se valida)**
 Rige la escala de KYN-MRK-TYP-002. El texto de cuerpo conserva el espaciado que favorece la lectura.
 
+**(Validación)**
+Comprobar los ajustes con TASA Orbiter y Plus Jakarta Sans, según corresponda; titulares cortos y largos; caracteres con acentos y signos del español; diferentes anchos de pantalla, y ampliación de texto y modificaciones de espaciado.
+
 **(Estado)**
-Propuesta pendiente de validación: sin ID hasta que se apruebe.
+Propuesta pendiente de validación. No utilizar estos valores para modificar todas las clases de titulares del proyecto ni convertirlos en tokens oficiales hasta que se haya aprobado su aplicación.

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ILU-007"
 titulo: "Patrones y texturas"
@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "12 Elementos gráficos"
 area: "Fundamentos"
 fuente: "/fundamentos/elementos/graficos.html#patrones"
-referencias: []
+referencias: ["KYN-MRK-CON-006"]
 citada_por: ["KYN-MRK-ILU-008", "KYN-MRK-PRE-012", "KYN-MRK-TEX-001"]
 ---
 
@@ -22,7 +22,52 @@ Número: 12.8 · Estado: vigente · Capítulo: 12 Elementos gráficos · Fuente:
 
 Patrones y texturas son recursos de fondo o de superficie, nunca protagonistas. **Construyen atmósfera, nunca ruido.**
 
+###### Familias de tramas lineales
+
+Trazos delgados, nítidos, continuos y uniformes. Las tramas lineales no llevan grano, desgaste, manchas ni difuminado. Las variantes que aún no tienen archivo oficial se identifican como propuesta.
+
+**Verticales** · En uso · Marca y Experiencia
+
+**Horizontales** · Confirmada · Cultura y Operaciones
+
+**Diagonales ascendentes** · Propuesta
+
+**Diagonales descendentes** · Propuesta
+
+**Diagonales cruzadas** · Propuesta
+
+**Retícula** · Propuesta
+
+**Curvas concéntricas** · Propuesta
+
+###### Tramas e identidad de libros
+
+| (Libro) | Trama | Estado |
+|---|---|---|
+| Marca y Experiencia | Verticales | Confirmada |
+| Sistema de Diseño | Retícula | Propuesta pendiente de validación |
+| Producto e Ingeniería | Diagonales cruzadas | Propuesta pendiente de validación |
+| Ventas y Crecimiento | Diagonales en una dirección | Propuesta pendiente de validación |
+| Experiencia y Servicio al Cliente | Curvas concéntricas | Propuesta pendiente de validación |
+| Cultura y Operaciones | Horizontales | Confirmada |
+
+Las tramas identifican libros principalmente en sus portadas y en el selector de Biblioteca. No se utilizan como fondos permanentes de los capítulos ni establecen nuevos colores principales para cada libro.
+
+###### Aplicación gráfica y rellenos
+
+> Recurso visual: Gráfico SVG en línea · «Barras con rellenos de trama y su etiqueta» · Textos: Serie 1 / Serie 2 / Serie 3 / Serie 4
+
+> Recurso visual: Gráfico SVG en línea · «Formas con rellenos de trama»
+
+Estas muestras ilustran el recurso. Las reglas para representar categorías, series y datos medidos se desarrollarán en el capítulo 14, Datos, y en el Sistema de Diseño, sin duplicar aquí sus especificaciones. No utilizar una trama como único indicador de información sin el contexto o la identificación correspondiente.
+
+###### Tratamientos atmosféricos
+
+Composiciones basadas en cielo, luz, gradientes, efectos difusos y otros tratamientos de superficie. Son un inventario aparte del catálogo de tramas lineales: los efectos de grano o desenfoque no son requisitos de las tramas lineales.
+
 ###### Arcos naturales
+
+Por validar
 
 Arcos concéntricos que nacen abajo, al centro, y se abren hacia arriba: la trayectoria del sol o la curva del horizonte. Imitan un fenómeno natural, no un gráfico técnico.
 
@@ -35,6 +80,8 @@ Arcos concéntricos que nacen abajo, al centro, y se abren hacia arriba: la tray
 
 ###### Líneas de viento
 
+Por validar
+
 El paisaje visto a través del viento: trazos difusos que se estiran en una sola dirección. Es el patrón con más fuerza narrativa, porque hace visible la fuerza invisible de la marca.
 
 - Trazos de color barridos por el viento, como una foto tomada en movimiento: los colores salen de una sola fase del cielo.
@@ -46,6 +93,8 @@ El paisaje visto a través del viento: trazos difusos que se estiran en una sola
 
 ###### Franjas de cielo
 
+Por validar
+
 Un mismo cielo partido en franjas verticales, cada una desplazada a otra altura. El cielo se lee como ventanas que se abren una junto a otra.
 
 - De 4 a 8 franjas del mismo ancho.
@@ -56,6 +105,8 @@ Un mismo cielo partido en franjas verticales, cada una desplazada a otra altura.
 **(Cuándo se usa)** Portadas, fondos de sección, separadores de presentación y piezas de redes.
 
 ###### Formas de cielo
+
+Por validar
 
 Columnas de color con formas geométricas que se cortan en su borde: el cielo y la paleta convertidos en composición.
 
@@ -70,6 +121,8 @@ Columnas de color con formas geométricas que se cortan en su borde: el cielo y 
 
 ###### Eclipse
 
+Por validar
+
 Un plano liso y uno difuminado, divididos por una línea vertical; un círculo la cruza, mitad nítido y mitad disuelto. Es textura y patrón a la vez.
 
 - Un solo color de la paleta con Blanco Keyons; nunca dos colores.
@@ -83,6 +136,8 @@ Un plano liso y uno difuminado, divididos por una línea vertical; un círculo l
 
 ###### Texturas de cielo
 
+Requiere revisión: su regla sobre IA contradice KYN-MRK-CON-006
+
 Cielos hechos con código, con grano, nubes y la transición de cada fase. Son el fondo por defecto de las piezas editoriales.
 
 - Cubren cerca del 70 % de los usos de fondo.
@@ -93,6 +148,8 @@ Cielos hechos con código, con grano, nubes y la transición de cada fase. Son e
 **(Cuándo se usa)** Fondos de documentos, portadas, presentaciones e interfaces.
 
 ###### Grano
+
+Por validar
 
 Ruido monocromático fino sobre fondos planos o degradados: le da alma editorial a la pieza. Es terminación, nunca protagonista.
 
@@ -105,6 +162,10 @@ Ruido monocromático fino sobre fondos planos o degradados: le da alma editorial
 **(Formato)**
 **Las texturas y degradados de Recursos están hechos con código** (SVG): no se pixelan a ningún tamaño, pesan poco y se adaptan a cualquier proporción. Por eso son los indicados para fondos web que cambian de tamaño, interfaces, pantallas de eventos e impresión en gran formato.
 
-Estos materiales se aplican en arte, interfaces y piezas de marca siguiendo estas reglas. Cada uno tiene su ID y se descarga en [Recursos](/recursos/texturas.html).
+###### Catálogo y archivos oficiales
+
+Los SVG oficiales y sus versiones permanecen en Recursos, Texturas y degradados. Este capítulo define los criterios de uso; Recursos almacena los archivos, las muestras exportables y sus metadatos.
+
+Cada recurso tiene su ID y se descarga en [Recursos](/recursos/texturas.html).
 
 Los patrones construyen atmósfera; nunca compiten con el contenido.

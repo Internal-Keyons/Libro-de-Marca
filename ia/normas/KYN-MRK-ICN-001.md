@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ICN-001"
 titulo: "Catálogo"
@@ -145,11 +145,10 @@ Datos · 6
 - Ícono `dividir`
 - Ícono `dividir-solido`
 
-Objetos y conceptos · 12
+Objetos y conceptos · 11
 
 - Ícono `favorito-circulo`
 - Ícono `estrella` · ajustado a la retícula, pendiente de revisión
-- Ícono `fuego` · ajustado a la retícula, pendiente de revisión
 - Ícono `asterisco`
 - Ícono `brujula`
 - Ícono `globo`

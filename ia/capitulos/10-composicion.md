@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "10"
 titulo: "Composiciones"
@@ -100,22 +100,22 @@ Número: 10.4 · ID: `KYN-MRK-CMP-004` · Estado: vigente · Fuente: `/fundament
 
 ### Pausas y cambios
 
-El ritmo visual es fundamental: una secuencia de páginas debe tener **pausas, cambios de escala, variaciones de composición y momentos de expresión.**
+El ritmo visual **organiza la atención** a lo largo de una pieza. Combina pausas, diferencias de escala, continuidad y momentos expresivos según las necesidades de lectura.
 
 01
-Pausas
-Un bloque con mucho aire después de uno denso.
+Pausas visuales
+El espacio negativo permite distinguir y asimilar las ideas.
 
 02
 Cambios de escala
-Una cifra o un titular grande entre textos de lectura.
+Una diferencia de tamaño puede señalar información protagonista.
 
 03
-Variaciones de composición
-Dos patrones iguales no van seguidos: KYN-MRK-ESP-006.
+Continuidad y variación
+Repetir una composición aporta coherencia cuando facilita la lectura; cambiarla puede comunicar una nueva intención.
 
 04
-Momentos de expresión
-Pocos y elegidos: una imagen a sangre, un cielo, un movimiento.
+Momentos expresivos
+Fotografías, color, textura o movimiento adquieren protagonismo cuando el contenido lo justifica.
 
 Una secuencia sin pausas no tiene ritmo.
