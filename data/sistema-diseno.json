@@ -1,0 +1,1251 @@
+{
+ "nota": "Arquitectura documental V1 del Sistema de Diseño. Fuente única de tools/sistema_diseno.py. Los números son ubicación documental, no códigos de norma.",
+ "version": "1",
+ "modulos": [
+  {
+   "n": "01",
+   "k": "PEX",
+   "t": "Principios de experiencia",
+   "slug": "principios-experiencia",
+   "d": "Define los principios de calidad de experiencia compartidos por las herramientas internas y los productos para clientes.",
+   "estado": "estructura",
+   "marca": [
+    "DIS-001",
+    "DIS-002",
+    "DIS-003",
+    "DIS-004",
+    "DIS-005"
+   ],
+   "capitulos": [
+    {
+     "n": "01.01",
+     "t": "Principios compartidos",
+     "slug": "principios-compartidos",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "01.01.01",
+       "t": "Claridad y orientación",
+       "estado": "pendiente"
+      },
+      {
+       "n": "01.01.02",
+       "t": "Consistencia y previsibilidad",
+       "estado": "pendiente"
+      },
+      {
+       "n": "01.01.03",
+       "t": "Control y confianza",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "01.02",
+     "t": "Personas y contextos de uso",
+     "slug": "personas-y-contextos-de-uso",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "01.02.01",
+       "t": "Roles y capacidades de los usuarios",
+       "estado": "pendiente"
+      },
+      {
+       "n": "01.02.02",
+       "t": "Objetivos, tareas y frecuencia de uso",
+       "estado": "pendiente"
+      },
+      {
+       "n": "01.02.03",
+       "t": "Carga cognitiva y densidad informativa",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "01.03",
+     "t": "Decisiones verificables de experiencia",
+     "slug": "decisiones-verificables-de-experiencia",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "01.03.01",
+       "t": "Principios, hipótesis y requisitos",
+       "estado": "pendiente"
+      },
+      {
+       "n": "01.03.02",
+       "t": "Criterios de aceptación UX",
+       "estado": "pendiente"
+      },
+      {
+       "n": "01.03.03",
+       "t": "Indicadores de calidad de experiencia",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "02",
+   "k": "ARQ",
+   "t": "Arquitectura y navegación",
+   "slug": "arquitectura-navegacion",
+   "d": "Establece cómo se organiza la información y cómo las personas se desplazan por las aplicaciones.",
+   "estado": "estructura",
+   "marca": [
+    "ESP-004",
+    "ESP-006",
+    "ESP-007"
+   ],
+   "capitulos": [
+    {
+     "n": "02.01",
+     "t": "Arquitectura de información",
+     "slug": "arquitectura-de-informacion",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "02.01.01",
+       "t": "Mapas de contenido y módulos funcionales",
+       "estado": "pendiente"
+      },
+      {
+       "n": "02.01.02",
+       "t": "Taxonomías y nomenclatura",
+       "estado": "pendiente"
+      },
+      {
+       "n": "02.01.03",
+       "t": "Jerarquías y relaciones de información",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "02.02",
+     "t": "Estructura de navegación",
+     "slug": "estructura-de-navegacion",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "02.02.01",
+       "t": "Estructura base de aplicación",
+       "estado": "pendiente"
+      },
+      {
+       "n": "02.02.02",
+       "t": "Menús laterales, cabeceras y navegación contextual",
+       "estado": "pendiente"
+      },
+      {
+       "n": "02.02.03",
+       "t": "Rutas, niveles y navegación adaptable",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "02.03",
+     "t": "Búsqueda y orientación",
+     "slug": "busqueda-y-orientacion",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "02.03.01",
+       "t": "Búsqueda global y contextual",
+       "estado": "pendiente"
+      },
+      {
+       "n": "02.03.02",
+       "t": "Filtros y descubrimiento de contenido",
+       "estado": "pendiente"
+      },
+      {
+       "n": "02.03.03",
+       "t": "Ubicación, rutas de navegación y cambio de contexto",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "03",
+   "k": "FUI",
+   "t": "Fundamentos de interfaz",
+   "slug": "fundamentos-interfaz",
+   "d": "Traduce los fundamentos visuales de Marca a reglas técnicas y visuales aplicables a interfaces.",
+   "estado": "estructura",
+   "marca": [
+    "COL-012",
+    "COL-013",
+    "TYP-007",
+    "ESP-001",
+    "ESP-002",
+    "ESP-003",
+    "ICO-003"
+   ],
+   "capitulos": [
+    {
+     "n": "03.01",
+     "t": "Tokens de diseño",
+     "slug": "tokens-de-diseno",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "03.01.01",
+       "t": "Tokens base, semánticos y de componente",
+       "estado": "pendiente"
+      },
+      {
+       "n": "03.01.02",
+       "t": "Nomenclatura, jerarquía y herencia",
+       "estado": "pendiente"
+      },
+      {
+       "n": "03.01.03",
+       "t": "Temas visuales y versionado",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "03.02",
+     "t": "Color funcional",
+     "slug": "color-funcional",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "03.02.01",
+       "t": "Superficies, texto y bordes",
+       "estado": "pendiente"
+      },
+      {
+       "n": "03.02.02",
+       "t": "Colores de interacción, foco y estados",
+       "estado": "pendiente"
+      },
+      {
+       "n": "03.02.03",
+       "t": "Contraste y adaptación entre modos de color",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "03.03",
+     "t": "Tipografía aplicada",
+     "slug": "tipografia-aplicada",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "03.03.01",
+       "t": "Funciones de las familias tipográficas oficiales",
+       "estado": "pendiente"
+      },
+      {
+       "n": "03.03.02",
+       "t": "Jerarquías, escalas y legibilidad",
+       "estado": "pendiente"
+      },
+      {
+       "n": "03.03.03",
+       "t": "Números, cifras y tipografía de datos",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "03.04",
+     "t": "Espacio, retícula y geometría",
+     "slug": "espacio-reticula-y-geometria",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "03.04.01",
+       "t": "Retículas y puntos de adaptación",
+       "estado": "pendiente"
+      },
+      {
+       "n": "03.04.02",
+       "t": "Espaciado y densidad de interfaz",
+       "estado": "pendiente"
+      },
+      {
+       "n": "03.04.03",
+       "t": "Geometría y esquinas de componentes",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "03.05",
+     "t": "Recursos visuales de interfaz",
+     "slug": "recursos-visuales-de-interfaz",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "03.05.01",
+       "t": "Iconografía funcional",
+       "estado": "pendiente"
+      },
+      {
+       "n": "03.05.02",
+       "t": "Bordes, sombras y elevación",
+       "estado": "pendiente"
+      },
+      {
+       "n": "03.05.03",
+       "t": "Imágenes, degradados y texturas aplicadas",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "04",
+   "k": "CPE",
+   "t": "Componentes y estados",
+   "slug": "componentes-estados",
+   "d": "Define los componentes reutilizables y sus variantes. Aquí se documentan las piezas, mientras que los flujos completos pertenecen a Patrones de interacción.",
+   "estado": "estructura",
+   "marca": [
+    "COL-014",
+    "COL-015",
+    "ESP-002",
+    "ILU-004"
+   ],
+   "capitulos": [
+    {
+     "n": "04.01",
+     "t": "Componentes de acción",
+     "slug": "componentes-de-accion",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "04.01.01",
+       "t": "Botones y botones con icono",
+       "estado": "pendiente"
+      },
+      {
+       "n": "04.01.02",
+       "t": "Enlaces, menús y acciones",
+       "estado": "pendiente"
+      },
+      {
+       "n": "04.01.03",
+       "t": "Estados de disponibilidad y procesamiento",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "04.02",
+     "t": "Controles de entrada",
+     "slug": "controles-de-entrada",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "04.02.01",
+       "t": "Campos de texto y áreas de escritura",
+       "estado": "pendiente"
+      },
+      {
+       "n": "04.02.02",
+       "t": "Selectores, casillas, radios e interruptores",
+       "estado": "pendiente"
+      },
+      {
+       "n": "04.02.03",
+       "t": "Fechas, archivos y entradas especializadas",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "04.03",
+     "t": "Componentes de estructura",
+     "slug": "componentes-de-estructura",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "04.03.01",
+       "t": "Pestañas y componentes de navegación",
+       "estado": "pendiente"
+      },
+      {
+       "n": "04.03.02",
+       "t": "Tablas, listas y contenedores",
+       "estado": "pendiente"
+      },
+      {
+       "n": "04.03.03",
+       "t": "Acordeones, árboles y contenido expandible",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "04.04",
+     "t": "Retroalimentación y superposiciones",
+     "slug": "retroalimentacion-y-superposiciones",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "04.04.01",
+       "t": "Alertas, notificaciones y etiquetas de estado",
+       "estado": "pendiente"
+      },
+      {
+       "n": "04.04.02",
+       "t": "Diálogos, paneles y ventanas emergentes",
+       "estado": "pendiente"
+      },
+      {
+       "n": "04.04.03",
+       "t": "Indicadores de progreso y carga",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "05",
+   "k": "PAT",
+   "t": "Patrones de interacción",
+   "slug": "patrones-interaccion",
+   "d": "Define cómo se combinan los componentes para resolver tareas y procesos completos.",
+   "estado": "estructura",
+   "marca": [
+    "DIS-004",
+    "DIS-005",
+    "ESP-006",
+    "VIS-015"
+   ],
+   "capitulos": [
+    {
+     "n": "05.01",
+     "t": "Formularios y validaciones",
+     "slug": "formularios-y-validaciones",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "05.01.01",
+       "t": "Estructura y ayuda contextual",
+       "estado": "pendiente"
+      },
+      {
+       "n": "05.01.02",
+       "t": "Validación y comunicación de errores",
+       "estado": "pendiente"
+      },
+      {
+       "n": "05.01.03",
+       "t": "Formularios de múltiples pasos",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "05.02",
+     "t": "Flujos de trabajo",
+     "slug": "flujos-de-trabajo",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "05.02.01",
+       "t": "Creación, edición y guardado",
+       "estado": "pendiente"
+      },
+      {
+       "n": "05.02.02",
+       "t": "Eliminación y acciones masivas",
+       "estado": "pendiente"
+      },
+      {
+       "n": "05.02.03",
+       "t": "Borradores y continuidad de tareas",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "05.03",
+     "t": "Estados y recuperación",
+     "slug": "estados-y-recuperacion",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "05.03.01",
+       "t": "Estados vacíos y de espera",
+       "estado": "pendiente"
+      },
+      {
+       "n": "05.03.02",
+       "t": "Reintentos, deshacer y recuperación",
+       "estado": "pendiente"
+      },
+      {
+       "n": "05.03.03",
+       "t": "Errores y continuidad operativa",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "05.04",
+     "t": "Decisiones y operaciones sensibles",
+     "slug": "decisiones-y-operaciones-sensibles",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "05.04.01",
+       "t": "Confirmaciones de alto impacto",
+       "estado": "pendiente"
+      },
+      {
+       "n": "05.04.02",
+       "t": "Permisos y autorizaciones humanas",
+       "estado": "pendiente"
+      },
+      {
+       "n": "05.04.03",
+       "t": "Trazabilidad visible de acciones",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "06",
+   "k": "ACC",
+   "t": "Accesibilidad y adaptación",
+   "slug": "accesibilidad-adaptacion",
+   "d": "Establece los requisitos de accesibilidad y adaptación, tomando WCAG 2.2 nivel AA como referencia de cumplimiento.",
+   "estado": "estructura",
+   "marca": [
+    "COL-005",
+    "VIS-012",
+    [
+     "fundamentos/index.html#cap-accesibilidad",
+     "16",
+     "Accesibilidad"
+    ]
+   ],
+   "capitulos": [
+    {
+     "n": "06.01",
+     "t": "Accesibilidad perceptiva",
+     "slug": "accesibilidad-perceptiva",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "06.01.01",
+       "t": "Contraste y legibilidad",
+       "estado": "pendiente"
+      },
+      {
+       "n": "06.01.02",
+       "t": "Información no dependiente del color",
+       "estado": "pendiente"
+      },
+      {
+       "n": "06.01.03",
+       "t": "Zoom, redistribución y espaciado de texto",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "06.02",
+     "t": "Accesibilidad operativa",
+     "slug": "accesibilidad-operativa",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "06.02.01",
+       "t": "Teclado y secuencia de foco",
+       "estado": "pendiente"
+      },
+      {
+       "n": "06.02.02",
+       "t": "Lectores de pantalla y semántica accesible",
+       "estado": "pendiente"
+      },
+      {
+       "n": "06.02.03",
+       "t": "Objetivos táctiles y formas de interacción",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "06.03",
+     "t": "Adaptación de la experiencia",
+     "slug": "adaptacion-de-la-experiencia",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "06.03.01",
+       "t": "Diseño adaptable y dispositivos",
+       "estado": "pendiente"
+      },
+      {
+       "n": "06.03.02",
+       "t": "Preferencias del sistema y movimiento reducido",
+       "estado": "pendiente"
+      },
+      {
+       "n": "06.03.03",
+       "t": "Diferentes capacidades y condiciones de uso",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "07",
+   "k": "CNT",
+   "t": "Contenido y comunicación",
+   "slug": "contenido-comunicacion",
+   "d": "Aplica los principios de voz y claridad a los mensajes de las interfaces.",
+   "estado": "estructura",
+   "marca": [
+    "VOZ-001",
+    "VOZ-002",
+    "VOZ-003",
+    "VOZ-004",
+    "VOZ-007"
+   ],
+   "capitulos": [
+    {
+     "n": "07.01",
+     "t": "Escritura de interfaz",
+     "slug": "escritura-de-interfaz",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "07.01.01",
+       "t": "Etiquetas y llamadas a la acción",
+       "estado": "pendiente"
+      },
+      {
+       "n": "07.01.02",
+       "t": "Instrucciones y textos de ayuda",
+       "estado": "pendiente"
+      },
+      {
+       "n": "07.01.03",
+       "t": "Brevedad, claridad y consistencia verbal",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "07.02",
+     "t": "Mensajes del sistema",
+     "slug": "mensajes-del-sistema",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "07.02.01",
+       "t": "Confirmaciones y mensajes de progreso",
+       "estado": "pendiente"
+      },
+      {
+       "n": "07.02.02",
+       "t": "Errores y acciones de recuperación",
+       "estado": "pendiente"
+      },
+      {
+       "n": "07.02.03",
+       "t": "Advertencias, límites y estados vacíos",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "07.03",
+     "t": "Lenguaje y localización",
+     "slug": "lenguaje-y-localizacion",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "07.03.01",
+       "t": "Terminología y lenguaje técnico",
+       "estado": "pendiente"
+      },
+      {
+       "n": "07.03.02",
+       "t": "Español, inglés y adaptación regional",
+       "estado": "pendiente"
+      },
+      {
+       "n": "07.03.03",
+       "t": "Voz y tono según identidad de producto",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "08",
+   "k": "DAV",
+   "t": "Datos y visualización",
+   "slug": "datos-visualizacion",
+   "d": "Define cómo presentar información cuantitativa y operativa sin comprometer la interpretación.",
+   "estado": "estructura",
+   "marca": [
+    "DAT-001",
+    "DAT-002",
+    "DAT-003",
+    "DAT-004",
+    "DAT-005"
+   ],
+   "capitulos": [
+    {
+     "n": "08.01",
+     "t": "Tablas y datos estructurados",
+     "slug": "tablas-y-datos-estructurados",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "08.01.01",
+       "t": "Columnas, ordenamiento y estructura",
+       "estado": "pendiente"
+      },
+      {
+       "n": "08.01.02",
+       "t": "Filtros, paginación y navegación de registros",
+       "estado": "pendiente"
+      },
+      {
+       "n": "08.01.03",
+       "t": "Densidad y adaptación de tablas",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "08.02",
+     "t": "Gráficos de datos",
+     "slug": "graficos-de-datos",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "08.02.01",
+       "t": "Selección del tipo de visualización",
+       "estado": "pendiente"
+      },
+      {
+       "n": "08.02.02",
+       "t": "Paletas categóricas, secuenciales y divergentes",
+       "estado": "pendiente"
+      },
+      {
+       "n": "08.02.03",
+       "t": "Escalas, leyendas y accesibilidad de gráficos",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "08.03",
+     "t": "Indicadores y cifras",
+     "slug": "indicadores-y-cifras",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "08.03.01",
+       "t": "Formatos numéricos, unidades y fechas",
+       "estado": "pendiente"
+      },
+      {
+       "n": "08.03.02",
+       "t": "Variaciones, comparaciones y tendencias",
+       "estado": "pendiente"
+      },
+      {
+       "n": "08.03.03",
+       "t": "Datos ausentes, inciertos o incompletos",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "08.04",
+     "t": "Dashboards e informes",
+     "slug": "dashboards-e-informes",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "08.04.01",
+       "t": "Organización según tareas y decisiones",
+       "estado": "pendiente"
+      },
+      {
+       "n": "08.04.02",
+       "t": "Exploración y profundización de datos",
+       "estado": "pendiente"
+      },
+      {
+       "n": "08.04.03",
+       "t": "Exportación, impresión y presentación de resultados",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "09",
+   "k": "IAE",
+   "t": "Experiencias con IA y Estela",
+   "slug": "ia-estela",
+   "d": "Define la interacción con IA. La identidad y personalidad de Estela se documentarán en el Libro de Marca; aquí se definirá cómo se aplican en productos.",
+   "estado": "estructura",
+   "marca": [
+    "VOZ-005",
+    "ADN-007",
+    [
+     "marca/index.html#cap-estela",
+     "05",
+     "Estela"
+    ]
+   ],
+   "capitulos": [
+    {
+     "n": "09.01",
+     "t": "Principios de experiencia con IA",
+     "slug": "principios-de-experiencia-con-ia",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "09.01.01",
+       "t": "Transparencia de capacidades y límites",
+       "estado": "pendiente"
+      },
+      {
+       "n": "09.01.02",
+       "t": "Incertidumbre, fuentes y verificación",
+       "estado": "pendiente"
+      },
+      {
+       "n": "09.01.03",
+       "t": "Control del usuario sobre la interacción",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "09.02",
+     "t": "Interfaz conversacional de Estela",
+     "slug": "interfaz-conversacional-de-estela",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "09.02.01",
+       "t": "Aplicación de su identidad y personalidad",
+       "estado": "pendiente"
+      },
+      {
+       "n": "09.02.02",
+       "t": "Mensajes, referencias y archivos",
+       "estado": "pendiente"
+      },
+      {
+       "n": "09.02.03",
+       "t": "Historial, contexto y continuidad conversacional",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "09.03",
+     "t": "Agentes y ejecución de acciones",
+     "slug": "agentes-y-ejecucion-de-acciones",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "09.03.01",
+       "t": "Orquestación y representación de agentes",
+       "estado": "pendiente"
+      },
+      {
+       "n": "09.03.02",
+       "t": "Planificación y visualización de acciones",
+       "estado": "pendiente"
+      },
+      {
+       "n": "09.03.03",
+       "t": "Confirmaciones, aprobaciones y registro de ejecución",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "09.04",
+     "t": "Seguridad y confianza en IA",
+     "slug": "seguridad-y-confianza-en-ia",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "09.04.01",
+       "t": "Privacidad y control de acceso",
+       "estado": "pendiente"
+      },
+      {
+       "n": "09.04.02",
+       "t": "Errores, límites y escalamiento humano",
+       "estado": "pendiente"
+      },
+      {
+       "n": "09.04.03",
+       "t": "Diferenciación entre acciones automáticas y humanas",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "10",
+   "k": "SPR",
+   "t": "Sistemas de producto",
+   "slug": "sistemas-producto",
+   "d": "Define las diferentes aplicaciones del sistema de diseño, con fundamentos compartidos y expresiones visuales distintas.",
+   "estado": "estructura",
+   "marca": [
+    "DIS-002",
+    "PER-001",
+    "PER-002",
+    "PER-003",
+    "PER-004"
+   ],
+   "capitulos": [
+    {
+     "n": "10.01",
+     "t": "Base compartida",
+     "slug": "base-compartida",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "10.01.01",
+       "t": "Estándares UX comunes",
+       "estado": "pendiente"
+      },
+      {
+       "n": "10.01.02",
+       "t": "Reutilización de componentes",
+       "estado": "pendiente"
+      },
+      {
+       "n": "10.01.03",
+       "t": "Herencia y variación de temas visuales",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "10.02",
+     "t": "Sitio web corporativo Keyons",
+     "slug": "sitio-web-corporativo-keyons",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "10.02.01",
+       "t": "Aplicación funcional de la identidad corporativa",
+       "estado": "pendiente"
+      },
+      {
+       "n": "10.02.02",
+       "t": "Navegación y composición web",
+       "estado": "pendiente"
+      },
+      {
+       "n": "10.02.03",
+       "t": "Interacciones y acciones públicas",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "10.03",
+     "t": "Herramientas internas Keyons",
+     "slug": "herramientas-internas-keyons",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "10.03.01",
+       "t": "Identidad visual operativa Keyons",
+       "estado": "pendiente"
+      },
+      {
+       "n": "10.03.02",
+       "t": "Navegación por roles y tareas",
+       "estado": "pendiente"
+      },
+      {
+       "n": "10.03.03",
+       "t": "Densidad informativa y espacios de trabajo",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "10.04",
+     "t": "Keyons Product Default",
+     "slug": "keyons-product-default",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "10.04.01",
+       "t": "Estética neutral premium",
+       "estado": "pendiente"
+      },
+      {
+       "n": "10.04.02",
+       "t": "Estructura base de aplicaciones SaaS",
+       "estado": "pendiente"
+      },
+      {
+       "n": "10.04.03",
+       "t": "Opciones de configuración y personalización",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "10.05",
+     "t": "Soluciones personalizadas y white-label",
+     "slug": "soluciones-personalizadas-y-white-label",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "10.05.01",
+       "t": "Aplicación de identidades de clientes",
+       "estado": "pendiente"
+      },
+      {
+       "n": "10.05.02",
+       "t": "Marca blanca sin firma visual del proveedor",
+       "estado": "pendiente"
+      },
+      {
+       "n": "10.05.03",
+       "t": "Límites de personalización y consistencia funcional",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "11",
+   "k": "MOV",
+   "t": "Movimiento e interacción sensorial",
+   "slug": "movimiento-sensorial",
+   "d": "Regula el movimiento y los recursos sensoriales, sin convertirlos en requisitos decorativos.",
+   "estado": "estructura",
+   "marca": [
+    "ICO-004",
+    "ILU-006",
+    "VIS-011",
+    [
+     "fundamentos/index.html#cap-movimiento",
+     "15",
+     "Movimiento"
+    ]
+   ],
+   "capitulos": [
+    {
+     "n": "11.01",
+     "t": "Movimiento operativo",
+     "slug": "movimiento-operativo",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "11.01.01",
+       "t": "Transiciones funcionales",
+       "estado": "pendiente"
+      },
+      {
+       "n": "11.01.02",
+       "t": "Retroalimentación y progreso",
+       "estado": "pendiente"
+      },
+      {
+       "n": "11.01.03",
+       "t": "Interrupciones y límites del movimiento",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "11.02",
+     "t": "Movimiento editorial",
+     "slug": "movimiento-editorial",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "11.02.01",
+       "t": "Entradas y cambios de escena",
+       "estado": "pendiente"
+      },
+      {
+       "n": "11.02.02",
+       "t": "Movimiento atmosférico y expresivo",
+       "estado": "pendiente"
+      },
+      {
+       "n": "11.02.03",
+       "t": "Intensidad y adaptación al contexto",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "11.03",
+     "t": "Interacción multisensorial",
+     "slug": "interaccion-multisensorial",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "11.03.01",
+       "t": "Sonido y control de reproducción",
+       "estado": "pendiente"
+      },
+      {
+       "n": "11.03.02",
+       "t": "Respuesta háptica",
+       "estado": "pendiente"
+      },
+      {
+       "n": "11.03.03",
+       "t": "Atajos de teclado y convenciones del sistema operativo",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ],
+   "nota": "El sonido permanecerá desactivado por defecto. La háptica se mantendrá como capacidad conceptual hasta definir una implementación."
+  },
+  {
+   "n": "12",
+   "k": "GOB",
+   "t": "Calidad y gobierno del diseño",
+   "slug": "calidad-gobierno",
+   "d": "Establece cómo se gestionan, implementan, prueban y mantienen las reglas del Sistema de Diseño.",
+   "estado": "estructura",
+   "marca": [
+    "REF-001",
+    "REF-002",
+    "VIS-003",
+    "VIS-013",
+    "VIS-016"
+   ],
+   "capitulos": [
+    {
+     "n": "12.01",
+     "t": "Gobierno normativo",
+     "slug": "gobierno-normativo",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "12.01.01",
+       "t": "Propiedad y fuente oficial de cada norma",
+       "estado": "pendiente"
+      },
+      {
+       "n": "12.01.02",
+       "t": "Identificadores y referencias permanentes",
+       "estado": "pendiente"
+      },
+      {
+       "n": "12.01.03",
+       "t": "Aprobación, cambios y descontinuación",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "12.02",
+     "t": "Implementación técnica",
+     "slug": "implementacion-tecnica",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "12.02.01",
+       "t": "Traducción de tokens y componentes a código",
+       "estado": "pendiente"
+      },
+      {
+       "n": "12.02.02",
+       "t": "Especificaciones para desarrollo",
+       "estado": "pendiente"
+      },
+      {
+       "n": "12.02.03",
+       "t": "Compatibilidad, mantenimiento y versiones",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "12.03",
+     "t": "Validación de calidad",
+     "slug": "validacion-de-calidad",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "12.03.01",
+       "t": "Verificación visual y funcional",
+       "estado": "pendiente"
+      },
+      {
+       "n": "12.03.02",
+       "t": "Pruebas de usabilidad por perfiles y tareas",
+       "estado": "pendiente"
+      },
+      {
+       "n": "12.03.03",
+       "t": "Verificación de accesibilidad y regresiones",
+       "estado": "pendiente"
+      }
+     ]
+    },
+    {
+     "n": "12.04",
+     "t": "Documentación y consulta",
+     "slug": "documentacion-y-consulta",
+     "estado": "estructura",
+     "subcapitulos": [
+      {
+       "n": "12.04.01",
+       "t": "Catálogo y relaciones entre normas",
+       "estado": "pendiente"
+      },
+      {
+       "n": "12.04.02",
+       "t": "Exportación para personas y sistemas de IA",
+       "estado": "pendiente"
+      },
+      {
+       "n": "12.04.03",
+       "t": "Consulta autorizada y permisos documentales",
+       "estado": "pendiente"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -6,31 +6,35 @@ Documentación de desarrollo. No se publica con el sitio.
 - **Punto de recuperación:** `respaldo-2026-11-02e`.
 - **Ruta:** `/sistema-diseno/` (portada en `sistema-diseno/index.html`).
 
-## Cómo funciona
+## Arquitectura documental V1
 
-El Sistema de Diseño usa el mismo código que el Libro de Marca (`js/libro.js`) con su propio índice.
+**Libro → módulo → capítulo → subcapítulo → norma.**
+- **Estructura:** 12 módulos, 45 capítulos y 135 subcapítulos, según la instrucción del 2026-11-02.
+- **Numeración:** la documental (01.02.03) indica la ubicación y no es el código de una norma. Los códigos (`KYN-SDI-…`) son permanentes y van aparte.
 
-| Archivo | Función |
+| Nivel | Dónde se ve |
 | --- | --- |
-| `js/nav-sistema-diseno.js` | Índice del libro: un área, doce módulos. Reemplaza a `js/nav-data.js` en sus páginas. Declara `KEYONS_BOOK`: portada, menú por módulos y enlaces secundarios |
-| `js/libro.js` | Lee `KEYONS_BOOK`. Sin esa declaración, el Libro de Marca funciona igual que antes |
-| `js/sistema-diseno.js` | Tarjetas de módulo de la portada (mismo marcado que las áreas de Marca), códigos de módulo y ejemplo interactivo |
-| `css/sistema-diseno.css` | Solo lo que Marca no tiene (ejemplo interactivo), con prefijo `sd-` |
-| `sistema-diseno/*.html` | Portada, página de área (`modulos.html`), doce módulos y plantilla de norma |
+| Módulos | Portada (tarjetas en carrusel), `modulos.html` (página de área) y menú |
+| Capítulos | Página de módulo `sistema-diseno/<módulo>.html` y lateral |
+| Subcapítulos | Página de capítulo `sistema-diseno/<módulo>/<capítulo>.html`, con ancla `#s-01-02-03` |
+| Normas | Se agregarán dentro de cada subcapítulo con la estructura de `plantilla.html` |
 
-- **Diseño:** es el mismo del Libro de Marca.
-  - Portada con cielo y vidrio; índice de módulos en tarjetas, como el de Marca; portal de capítulo en cada módulo; página de área generada.
-  - Rejillas `.cols`, secciones `.ed` y lista de normas `.kidx`.
-  - Los nombres de los módulos se ven completos en el lateral.
+**Estados:** Estructura definida, Contenido pendiente, Borrador, En revisión, Vigente y Descontinuado. Hoy los 45 capítulos están en «Estructura definida» y los 135 subcapítulos en «Contenido pendiente». Nada está vigente.
 
-- **Referencias a Marca:** un ID `KYN-MRK-…` escrito en el texto se enlaza a su norma del Libro de Marca. En este libro no se enlazan los números de capítulo.
-- **Fuera del registro de Marca:** `tools/normas.py`, `tools/verificar.py` y `tools/exportar.py` siguen trabajando solo con el Libro de Marca.
+## Cómo se mantiene
 
-## Cómo se agrega una norma
+1. **Fuente única:** `data/sistema-diseno.json` (módulos, capítulos, subcapítulos, estados y normas de Marca relacionadas).
+2. **Para regenerar,** después de cambiar el JSON, ejecutar:
 
-1. En la página del módulo, una sección `<section class="ed" id="clave">` con la estructura de `sistema-diseno/plantilla.html`.
-2. En `js/nav-sistema-diseno.js`, un ítem dentro del módulo con `href: 'sistema-diseno/modulo.html#clave'` y su estado.
-3. Una fila en el índice de normas del módulo (`.sd-norms`), con su código, título y estado.
+   ```
+   python tools/sistema_diseno.py
+   ```
+
+   El generador escribe `js/nav-sistema-diseno.js`, las 12 páginas de módulo y las 45 de capítulo.
+3. **Archivos a mano:** la portada (`index.html`), `modulos.html` y `plantilla.html` se editan a mano.
+4. **Código compartido:** `js/libro.js` lee `KEYONS_BOOK` (portada, menú, estados, leyenda y nombres de nivel). Sin esa declaración, el Libro de Marca no cambia.
+5. **Estilos:** `css/sistema-diseno.css` guarda solo lo que Marca no tiene (estados nuevos, listas de capítulos y subcapítulos, ejemplo interactivo).
+6. **Referencias a Marca:** un ID `KYN-MRK-…` se enlaza a su norma del Libro de Marca. No se duplica el texto.
 
 ## Pendientes de decisión
 

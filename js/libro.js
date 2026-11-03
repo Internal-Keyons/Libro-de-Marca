@@ -29,8 +29,13 @@
     code: '<path d="M5.5 4.5 2 8l3.5 3.5M10.5 4.5 14 8l-3.5 3.5"/>'
   };
   const LOGO = '<svg viewBox="0 0 1080 1080" aria-hidden="true"><path d="M640.8,418.74h-114.75c6.09,15.64,13.97,28.56,24.93,39.18,7.37.01,15.88-8.08,24.73-7.55v41.57c-8.85.62-17.36-7.41-24.74-7.41-10.44,9.97-18.92,23.62-24.87,39.21h114.7v39.38h-201.52c-.03-1.13-.05-2.49-.05-3.63,0-43.3,35.25-72.17,69.63-88.27-34.11-15.75-69.63-44.93-69.63-88.23,0-1.14.02-2.51.05-3.63h201.52v39.38Z"/><path d="M425.72,559.46c0,1.13-.02,2.55-.05,3.67h-77.4c-1.47-18.79-10.36-50.84-27.66-72.3h-31.42v72.3h-65.05v-247.85h65.05v136.29h31.43c17.3-21.46,26.18-53.43,27.65-72.22h77.4c.03,1.13.05,2.47.05,3.6,0,43.31-35.94,72.76-69.79,88.25,34.21,16.01,69.79,44.95,69.79,88.26Z"/><path d="M640.79,581.04v183.68h-65.24l-71.08-111.51v111.51h-65.24v-183.68h65.24l71.08,111.51v-111.51h65.24Z"/><path d="M855.83,563.13v-183.78h-77.48c-1.59,21.81-2.8,69.74-23.27,75.25-20.47-5.5-21.68-53.44-23.27-75.25h-77.51s0,2.99,0,2.99c0,55.66,45.12,83.15,100.77,83.15h0c23.14,0,44.46-4.75,61.46-14.31v72.65h0v23.09c-4.38-12.94-12.47-22.91-29.44-23.19h-132.8v39.39h201.54-.02Z"/><path d="M719.09,597.28v55.91s114.19,0,114.19,0c12.47,0,22.57,10.17,22.57,22.71v66.1c0,12.54-10.1,22.71-22.57,22.71h-178.98v-39.37h107.45c16.9.28,24.95,10.17,29.31,23.13v-55.91h-115.07c-11.98,0-21.69-9.77-21.69-21.83v-67.88c0-12.05,9.71-21.82,21.69-21.82h179.86v39.37h-107.45c-16.9-.28-24.95-10.17-29.31-23.13Z"/><path d="M245.84,581.04c-11.98,0-21.69,9.71-21.69,21.69v134.99h0v5.3c0,11.98,9.71,21.69,21.69,21.69h158.18c11.98,0,21.69-9.71,21.69-21.69v-140.29c0-11.98-9.71-21.69-21.69-21.69h-158.18ZM289.2,725.44v-104.94h71.49v104.85l-71.49.09Z"/></svg>';
-  const STATUS = { v: 'Vigente', b: 'Borrador', p: 'Por definir' };
-  const SKEY = { v: 'vigente', b: 'borrador', p: 'pendiente' };
+  /* Estados documentales. El Sistema de Diseño suma los suyos y cambia el nombre de algunos (KEYONS_BOOK.status) */
+  const STATUS = Object.assign({ v: 'Vigente', b: 'Borrador', p: 'Por definir', e: 'Estructura definida', r: 'En revisión', d: 'Descontinuado' }, BOOK.status || {});
+  const SKEY = { v: 'vigente', b: 'borrador', p: 'pendiente', e: 'estructura', r: 'revision', d: 'descontinuado' };
+  const LEGEND = BOOK.legend || ['v', 'b', 'p'];
+  /* Nombres de los niveles en la página de área: Marca cuenta capítulos y páginas; el Sistema de Diseño, módulos y capítulos */
+  const W = Object.assign({ ch: 'Capítulos', pg: 'Páginas', pgs: 'páginas' }, BOOK.words || {});
+  const counted = (it) => it.t && !it.idx;
   const dot = (s = 'p') => `<span class="dot dot--${SKEY[s]}" title="${STATUS[s]}" aria-label="${STATUS[s]}"></span>`;
   /* Ancla estable por clave: el número de capítulo puede cambiar, la clave no */
   const slug = (c) => 'cap-' + (c.k || c.n);
@@ -596,6 +601,7 @@
 
   /* ─── Lateral ─── */
   const secNum = (it, c, k) => {
+    if (it.n) return it.n;
     const h = hash(it.href);
     if (h && base(it.href) === PAGE) {
       const lb = document.getElementById(h)?.querySelector('.ed__label span');
@@ -627,7 +633,7 @@
     side.innerHTML = `<div class="side__head"><a class="side__area" href="${url(area.href)}"${PAGE === area.href ? ' aria-current="page"' : ''} title="${esc(area.t)}"><span class="kicker">${esc(area.t)}</span></a>`
       + `<button class="side__toggle" type="button" aria-label="Contraer el menú lateral" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3.5 5.5 8l4.5 4.5"/></svg></button></div>`
       + chapters(area)
-      + `<div class="side__legend"><span>${dot('v')} Vigente</span><span>${dot('b')} Borrador</span><span>${dot('p')} Por definir</span></div>`;
+      + `<div class="side__legend">${LEGEND.map((k) => `<span>${dot(k)} ${STATUS[k]}</span>`).join('')}</div>`;
     const setMin = (on) => {
       body.classList.toggle('side-min', on);
       const t = side.querySelector('.side__toggle');
@@ -985,7 +991,7 @@
      agrupadas en columnas por subcategoría. */
   const ap = $('area-page');
   if (ap && area) {
-    const pages = area.ch.reduce((n, c) => n + c.items.filter((x) => x.t).length, 0);
+    const pages = area.ch.reduce((n, c) => n + c.items.filter(counted).length, 0);
     /* El mismo nombre corto del menú lateral (una línea); el completo queda en el title */
     const pg = (it) => it.href
       ? `<a class="pg" href="${url(it.href)}" title="${esc(it.t)}">${esc(it.st || it.t)}${ic(I.right)}${dot(it.s)}</a>`
@@ -1004,14 +1010,14 @@
       }
       return groups.map((g) => `<div>${g.t ? `<p class="chap__col-t">${esc(g.t)}</p>` : ''}${g.items.map((it) => it.grp ? `<p class="chap__grp">${esc(it.grp)}</p>` : pg(it)).join('')}</div>`).join('');
     };
-    const badge = (st) => `<span class="badge badge--${SKEY[st]}">${ic({ v: I.check, b: '<circle cx="8" cy="8" r="5.6"/><path d="M8 2.4v11.2"/>', p: '<circle cx="8" cy="8" r="5.6"/>' }[st])}${STATUS[st]}</span>`;
+    const badge = (st) => `<span class="badge badge--${SKEY[st]}">${ic({ v: I.check, b: '<circle cx="8" cy="8" r="5.6"/><path d="M8 2.4v11.2"/>', p: '<circle cx="8" cy="8" r="5.6"/>', e: '<path d="M2.5 4.5h11M2.5 8h11M2.5 11.5h7"/>', r: '<circle cx="8" cy="8" r="5.6"/><circle cx="8" cy="8" r="1.6"/>', d: '<circle cx="8" cy="8" r="5.6"/><path d="M4 12 12 4"/>' }[st])}${STATUS[st]}</span>`;
     ap.innerHTML = `
       <header class="page-head">
         <h1 class="t-h1">${esc(area.full || area.t)}</h1>
         <p class="t-lead">${esc(area.d)}</p>
         <div class="facts">
-          <div><span class="paren">(Capítulos)</span><b>${area.ch[0].n}–${area.ch[area.ch.length - 1].n}</b></div>
-          <div><span class="paren">(Páginas)</span><b>${pages}</b></div>
+          <div><span class="paren">(${W.ch})</span><b>${area.ch[0].n}–${area.ch[area.ch.length - 1].n}</b></div>
+          <div><span class="paren">(${W.pg})</span><b>${pages}</b></div>
           <div><span class="paren">(Color)</span><b>${esc(area.colorName)}</b></div>
         </div>
       </header>
@@ -1021,7 +1027,7 @@
           <div class="chap__head">
             <span class="chap__n">${c.n}</span>
             <div><h2 class="chap__t">${esc(c.t)}</h2><p class="t-body chap__d">${esc(c.d || '')}</p></div>
-            <div class="chap__meta">${badge(c.s || 'p')}<span class="paren">(${c.items.filter((x) => x.t).length} páginas)</span></div>
+            <div class="chap__meta">${badge(c.s || 'p')}<span class="paren">(${c.items.filter(counted).length} ${W.pgs})</span></div>
           </div>
           <div class="chap__cols">${cols(c)}</div>
         </section>`).join('')}`;

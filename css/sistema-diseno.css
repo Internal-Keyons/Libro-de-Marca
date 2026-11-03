@@ -31,3 +31,46 @@
 [data-ctx="interna"]{--ui-bg:#ECEDEF;--ui-surface:var(--k-blanco);--ui-text:var(--k-noche);--ui-text-2:#5A5C6E;--ui-border:#D4D5D9;--ui-field:#FFFFFF;--ui-accent:var(--k-noche);--ui-on-accent:var(--k-blanco);--ui-radius:6px;--ui-pad:20px;--ui-title:17px;--ui-shadow:inset 0 0 0 1px #D4D5D9}
 [data-ctx="saas"]{--ui-bg:#F2F2F3;--ui-surface:#FFFFFF;--ui-text:#18181B;--ui-text-2:#5F5F66;--ui-border:#DCDCE0;--ui-field:#FFFFFF;--ui-accent:#18181B;--ui-on-accent:#FFFFFF;--ui-radius:8px;--ui-pad:24px;--ui-title:18px;--ui-shadow:0 1px 2px rgba(24,24,27,.06),inset 0 0 0 1px #E4E4E7}
 [data-ctx="cliente"]{--ui-bg:#E9F0EC;--ui-surface:#FFFFFF;--ui-text:#14281F;--ui-text-2:#4D5E55;--ui-border:#C9D6CF;--ui-field:#FFFFFF;--ui-accent:#1F6B4A;--ui-on-accent:#FFFFFF;--ui-radius:4px;--ui-pad:24px;--ui-title:18px;--ui-shadow:inset 0 0 0 1px #C9D6CF}
+
+/* Estados documentales que Marca no usa: estructura definida, en revisión y descontinuado */
+.dot--estructura{box-shadow:inset 0 0 0 1.5px var(--k-cielo-500);background:radial-gradient(circle,var(--k-cielo-500) 0 1.5px,transparent 2px)}
+.dot--revision{box-shadow:inset 0 0 0 1.5px var(--k-noche);background:radial-gradient(circle,var(--k-noche) 0 1.5px,transparent 2px)}
+.dot--descontinuado{background:linear-gradient(135deg,transparent 45%,var(--k-gris-4) 45% 55%,transparent 55%);box-shadow:inset 0 0 0 1.5px var(--k-gris-4)}
+.badge--estructura{background:var(--k-cielo-100)}
+.badge--revision{background:var(--color-status-info)}
+.badge--descontinuado{background:var(--color-status-neutral)}
+.sd-st{display:inline-flex;align-items:center;gap:var(--s2);font-size:13px;color:var(--color-text-3);white-space:nowrap}
+
+/* Página de módulo: capítulos con la misma composición que las páginas de área de Marca.
+   Los números documentales (01.02) son más largos que los de Marca: columna y cifra se ajustan */
+.sd-caps{border-bottom:1px solid var(--color-border-strong)}
+.sd-caps__h{display:flex;flex-wrap:wrap;justify-content:space-between;gap:var(--s2) var(--s6);padding-bottom:var(--s5);color:var(--color-text-3)}
+.sd-caps .chap__head{grid-template-columns:150px minmax(0,1fr) auto}
+.sd-caps .chap__n{font-size:clamp(34px,3.6vw,52px)}
+.sd-caps .chap__t a{color:inherit;text-decoration:none}
+.sd-caps .chap__t a:hover{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:5px}
+.sd-caps .chap__cols{margin-left:calc(150px + var(--s8));grid-template-columns:1fr}
+.sd-num{flex:0 0 auto;min-width:76px;font-size:13px;color:var(--color-text-3);font-variant-numeric:tabular-nums}
+.sd-caps .pg{color:var(--color-text-2)}
+.sd-caps .pg:hover{color:var(--color-text)}
+.sd-caps + .ed__more{margin:var(--s8) 0 0;max-width:640px}
+.sd-sub{grid-template-columns:120px minmax(0,1fr) auto}
+@media(max-width:760px){
+  .sd-caps .chap__head{grid-template-columns:minmax(0,1fr);gap:var(--s3)}
+  .sd-caps .chap__meta{align-items:flex-start}
+  .sd-caps .chap__cols{margin-left:0}
+  .sd-sub{grid-template-columns:96px minmax(0,1fr);row-gap:var(--s1)}
+  .sd-sub .sd-st{grid-column:2}
+}
+
+/* Lateral: los nombres de capítulo se leen completos, en dos líneas si hace falta */
+[data-area="sd"] .nav-item__t{white-space:normal;overflow:visible;text-overflow:clip;line-height:1.35}
+[data-area="sd"] .nav-item{align-items:flex-start}
+[data-area="sd"] .nav-item .dot{margin-top:6px}
+/* Subcapítulos de un capítulo: una sola columna, número · título · estado */
+#subcapitulos .kidx__list{columns:auto;display:block}
+#subcapitulos .kidx__r.sd-sub{display:grid;grid-template-columns:96px minmax(0,1fr) auto;gap:var(--s5);padding:var(--s4) 0}
+#subcapitulos .sd-sub .kidx__t{font-size:16px;color:var(--color-text)}
+@media(max-width:760px){#subcapitulos .kidx__r.sd-sub{grid-template-columns:76px minmax(0,1fr);row-gap:var(--s1)}#subcapitulos .sd-sub .sd-st{grid-column:2}}
+/* Tarjetas de módulo: la cifra documental (01.01) es más ancha que la de Marca */
+#sd-modulos .area__list a{grid-template-columns:44px minmax(0,1fr) auto}
