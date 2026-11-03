@@ -23,16 +23,16 @@ Número: 4.4 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/vocabula
 Priorizamos expresiones con **significado concreto**. Cuando un término aporta precisión, lo utilizamos; si funciona como promesa vacía, explicamos directamente lo que queremos comunicar.
 
 Transformación digital
-Nombrar qué cambia: una operación, una forma de trabajar, un flujo.
+Nombrar qué cambia: operación, forma de trabajar o flujo.
 
 Disruptivo, disrupción
 Mostrar qué se rompe y qué lo reemplaza.
 
 Soluciones integrales
-Explicar qué capacidades o servicios están incluidos y cómo se relacionan.
+Explicar qué servicios incluye y cómo se relacionan.
 
 Soluciones a medida
-Indicar qué puede adaptarse, con qué profundidad y dentro de cuáles condiciones.
+Indicar qué puede adaptarse, con qué alcance y bajo qué condiciones.
 
 Revolucionar
 Cambiar, rediseñar, replantear.
@@ -47,7 +47,7 @@ Potencial ilimitado
 Nombrar la capacidad concreta que se amplifica.
 
 ROI garantizado
-Presentar resultados comprobados o estimaciones identificadas como tales, sin prometer beneficios universales.
+Mostrar datos verificados o estimaciones claras.
 
 Game-changer, vanguardia
 Describir qué cambia en términos concretos.

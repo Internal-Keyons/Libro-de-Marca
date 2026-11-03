@@ -4135,3 +4135,28 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
 .matrix{border-top:1px solid var(--k-cielo-100)}
 .matrix__row{border-bottom:1px solid var(--k-cielo-100)}
 .matrix__row > * + *{border-left:4px solid var(--k-cielo-200)}
+
+/* Tablas e ítems en recuadros con el estilo de ADN-003: filetes celestes y barras de 4 px entre columnas.
+   Solo se cambian color y grosor; donde una columna no lleva borde (móvil, primera columna) sigue sin llevarlo */
+.pgrid{border-top-color:var(--k-cielo-100)}
+.pgrid > div{border-bottom-color:var(--k-cielo-100);border-left-color:var(--k-cielo-200);border-left-width:4px;border-right-color:var(--k-cielo-200);border-right-width:4px}
+.pairs,.steps,.canon,.redline{border-top:1px solid var(--k-cielo-100);border-bottom-color:var(--k-cielo-100)}
+.gloss{border-bottom-color:var(--k-cielo-100)}
+.pairs__row,.step,.canon__row,.gloss > div,.redline__i{border-top-color:var(--k-cielo-100)}
+.pairs__row:first-child,.step:first-child,.canon__row:first-child,.redline__i:first-child{border-top-color:transparent}
+.pairs__row > * + *{border-left-color:var(--k-cielo-200);border-left-width:4px}
+@media(min-width:761px){
+  .step__c,.redline__yes{border-left:4px solid var(--k-cielo-200);padding-left:var(--s6)}
+  .gloss:not(.cats .gloss) > div:nth-child(2n){border-left:4px solid var(--k-cielo-200);padding-left:var(--s6)}
+}
+@media(min-width:901px){.canon__ex{border-left:4px solid var(--k-cielo-200);padding-left:var(--s6)}}
+
+/* Menú: dos enlaces secundarios cortos, con ícono y sin subrayado animado */
+.hdr__panel .hdr__panel-alt{gap:var(--s2) var(--s8)}
+.hdr__panel .hdr__panel-alt a{display:inline-flex;align-items:center;gap:var(--s2);padding:6px 0;background-image:none;font-size:14px;font-weight:500;color:var(--color-text-2)}
+.hdr__panel .hdr__panel-alt a:hover,.hdr__panel .hdr__panel-alt a:focus-visible{color:var(--k-noche)}
+.hdr__panel-alt svg{width:16px;height:16px;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+/* CON-006: con barra lateral y menos de 1280 px, los criterios se apilan para que cada título quede en dos renglones */
+@media(min-width:901px) and (max-width:1279px){#reglas .pgrid--2{grid-template-columns:1fr}#reglas .pgrid--2 > div{border-left:0!important;padding-left:0!important}}
+/* Palabras gastadas: el espaciado pasa a las celdas para que la barra sea continua entre filas */
+@media(min-width:761px){.redline__i{padding:0;align-items:stretch}.redline__i > *{padding:var(--s5) 0}.redline__i > .redline__yes{padding-left:var(--s6)}}

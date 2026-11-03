@@ -134,6 +134,23 @@ Desviaciones cerradas: VOZ-006 (las notas del ejemplo ahora son las definiciones
   - botones con borde gris y relleno Azul Noche.
 - **Contradicción abierta:** KYN-MRK-TYP-005 todavía dice «TASA Orbiter 500, en mayúsculas, con espaciado de +8 %».
 
+## Revisión del 2026-11-02 · 4 (RV4)
+
+- **Textos exactos:**
+  - ADN-007: Diseño a Medida;
+  - CON-003: Firma humana;
+  - CON-004: criterio 01;
+  - VOZ-004: cuatro alternativas.
+- **CON-006:**
+  - los cuatro títulos se ven en dos renglones;
+  - entre 901 y 1279 px los criterios se apilan para lograrlo;
+  - no se aplicó la versión con el título «Creación con criterio humano», que venía dentro de una conversación pegada.
+- **VOZ-006:** «La elección responde al propósito del texto…» pasa a la lista de abajo, con el rótulo «(La elección)», propuesto por IA.
+- **Diseño:**
+  - el estilo de tabla de ADN-003 pasa a las rejillas, comparaciones, pasos, reglas con ejemplos, glosarios y vocabulario evitado;
+  - el menú tiene dos enlaces: «Descargar PDF» (descarga directa del PDF) y «Normas para IA».
+- **Sin cambios:** CON-008 ya tenía el texto enviado.
+
 ## Cómo se mantiene este registro
 
 1. **Una instrucción por cambio.** Cada instrucción editorial indica ID, ubicación, operación y texto exacto. Se aplica solo eso.
