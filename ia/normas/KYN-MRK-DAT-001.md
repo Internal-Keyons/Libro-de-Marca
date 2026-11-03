@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-DAT-001"
 titulo: "Principios"
-numero: "14.1"
+numero: "13.1"
 estado: "vigente"
-capitulo: "14 Datos"
+capitulo: "13 Datos y visualización"
 area: "Fundamentos"
 fuente: "/fundamentos/datos/graficos.html#principios"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-ESP-006"]
 
 # KYN-MRK-DAT-001 · Principios
 
-Número: 14.1 · Estado: vigente · Capítulo: 14 Datos · Fuente: `/fundamentos/datos/graficos.html#principios`
+Número: 13.1 · Estado: vigente · Capítulo: 13 Datos y visualización · Fuente: `/fundamentos/datos/graficos.html#principios`
 
 ##### Siete reglas sin excepción
 

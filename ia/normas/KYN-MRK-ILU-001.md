@@ -4,19 +4,19 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ILU-001"
-titulo: "Viñetas de marca"
-numero: "12.1"
+titulo: "Viñetas y marcadores gráficos"
+numero: "11.1"
 estado: "vigente"
-capitulo: "12 Elementos gráficos"
+capitulo: "11 Elementos gráficos"
 area: "Fundamentos"
 fuente: "/fundamentos/elementos/graficos.html#vinetas"
 referencias: []
 citada_por: ["KYN-MRK-VIS-009"]
 ---
 
-# KYN-MRK-ILU-001 · Viñetas de marca
+# KYN-MRK-ILU-001 · Viñetas y marcadores
 
-Número: 12.1 · Estado: vigente · Capítulo: 12 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#vinetas`
+Número: 11.1 · Estado: vigente · Capítulo: 11 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#vinetas`
 
 ##### Pequeños módulos, firma constante
 

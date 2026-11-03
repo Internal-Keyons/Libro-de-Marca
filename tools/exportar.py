@@ -595,7 +595,7 @@ def main():
             title = f'Capítulo {c["n"]} · {c["t"]}'
             meta = [('Estado', STATUS[c['s']]), ('Clave', c['k'])] + [('Ruta', '/' + p) for p in pages]
             if c.get('was'):
-                meta.append(('Número anterior', c['was']))
+                meta.append(('Número anterior', ', '.join([c['was']] if isinstance(c['was'], str) else c['was'])))
 
             def chapter(l):
                 out = [('h', l, title), ('meta', meta), ('p', c['d']), ('p', '**Contenido del capítulo**'), ('ul', items)]

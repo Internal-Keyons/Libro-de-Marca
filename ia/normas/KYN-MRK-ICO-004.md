@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ICO-004"
 titulo: "Animación"
-numero: "13.4"
+numero: "12.4"
 estado: "vigente"
-capitulo: "13 Iconografía"
+capitulo: "12 Iconografía"
 area: "Fundamentos"
 fuente: "/fundamentos/iconografia/iconos.html#animacion"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-VIS-011"]
 
 # KYN-MRK-ICO-004 · Animación
 
-Número: 13.4 · Estado: vigente · Capítulo: 13 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#animacion`
+Número: 12.4 · Estado: vigente · Capítulo: 12 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#animacion`
 
 ##### Siempre en la misma dirección
 

@@ -7,7 +7,7 @@ id: "KYN-MRK-CMP-003"
 titulo: "Retículas editoriales"
 numero: "10.3"
 estado: "vigente"
-capitulo: "10 Composiciones"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#reticulas"
 referencias: ["KYN-MRK-ESP-004"]
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-CMP-003 · Retículas editoriales
 
-Número: 10.3 · Estado: vigente · Capítulo: 10 Composiciones · Fuente: `/fundamentos/composicion/editorial.html#reticulas`
+Número: 10.3 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#reticulas`
 
 ##### La retícula decide el peso
 

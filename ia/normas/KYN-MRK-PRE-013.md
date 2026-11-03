@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-013"
 titulo: "Plantillas"
-numero: "21.13"
+numero: "20.13"
 estado: "vigente"
-capitulo: "21 Presentaciones"
+capitulo: "20 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#plantillas"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PRE-013 · Plantillas
 
-Número: 21.13 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#plantillas`
+Número: 20.13 · Estado: vigente · Capítulo: 20 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#plantillas`
 
 ##### Cuatro plantillas para empezar
 

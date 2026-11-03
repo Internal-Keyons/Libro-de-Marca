@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PER-001"
 titulo: "Tres modelos"
-numero: "24.1"
+numero: "23.1"
 estado: "vigente"
-capitulo: "24 Personalización"
+capitulo: "23 Personalización"
 area: "Aplicaciones"
 fuente: "/aplicaciones/personalizacion.html#modelos"
 referencias: ["KYN-MRK-DIS-002"]
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PER-001 · Tres modelos
 
-Número: 24.1 · Estado: vigente · Capítulo: 24 Personalización · Fuente: `/aplicaciones/personalizacion.html#modelos`
+Número: 23.1 · Estado: vigente · Capítulo: 23 Personalización · Fuente: `/aplicaciones/personalizacion.html#modelos`
 
 ##### Cuánta firma se queda
 

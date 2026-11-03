@@ -4,19 +4,19 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-CMP-002"
-titulo: "Orden y experimentación"
+titulo: "Simetría y asimetría"
 numero: "10.2"
 estado: "vigente"
-capitulo: "10 Composiciones"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#simetria"
 referencias: ["KYN-MRK-VIS-010"]
 citada_por: []
 ---
 
-# KYN-MRK-CMP-002 · Orden y experimentación
+# KYN-MRK-CMP-002 · Simetría y asimetría
 
-Número: 10.2 · Estado: vigente · Capítulo: 10 Composiciones · Fuente: `/fundamentos/composicion/editorial.html#simetria`
+Número: 10.2 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#simetria`
 
 ##### Orden y experimentación
 

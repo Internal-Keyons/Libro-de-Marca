@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "21"
+capitulo: "20"
 titulo: "Presentaciones"
 area: "Aplicaciones"
 estado: "borrador"
@@ -12,9 +12,9 @@ normas: ["KYN-MRK-PRE-001", "KYN-MRK-PRE-002", "KYN-MRK-PRE-003", "KYN-MRK-PRE-0
 referencias: ["KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-DAT-004", "KYN-MRK-ILU-007", "KYN-MRK-ILU-008", "KYN-MRK-PRE-001", "KYN-MRK-PRE-002", "KYN-MRK-PRE-003", "KYN-MRK-PRE-004", "KYN-MRK-PRE-005", "KYN-MRK-PRE-006", "KYN-MRK-PRE-007", "KYN-MRK-PRE-008", "KYN-MRK-PRE-009", "KYN-MRK-PRE-010", "KYN-MRK-PRE-011", "KYN-MRK-PRE-012", "KYN-MRK-PRE-013", "KYN-MRK-PRE-014", "KYN-MRK-VOZ-002", "KYN-MRK-VOZ-004", "KYN-MRK-VOZ-005", "KYN-MRK-VOZ-006", "KYN-MRK-VOZ-007"]
 ---
 
-# Capítulo 21 · Presentaciones
+# Capítulo 20 · Presentaciones
 
-Estado: borrador · Clave: presentaciones · Ruta: `/aplicaciones/presentaciones.html` · Número anterior: 18
+Estado: borrador · Clave: presentaciones · Ruta: `/aplicaciones/presentaciones.html` · Número anterior: 18, 21
 
 Para clientes, capacitaciones, el equipo y talleres: método, historia, voz y estética.
 
@@ -41,13 +41,13 @@ Para clientes, capacitaciones, el equipo y talleres: método, historia, voz y es
 
 ## Presentaciones
 
-Rótulo: Capítulo 21 · Aplicaciones · Fuente: `/aplicaciones/presentaciones.html`
+Rótulo: Capítulo 20 · Aplicaciones · Fuente: `/aplicaciones/presentaciones.html`
 
 Cómo se construye una presentación Keyons: de la primera frase a la última diapositiva.
 
-## KYN-MRK-PRE-001 · 21.1 Tipos
+## KYN-MRK-PRE-001 · 20.1 Tipos
 
-Número: 21.1 · ID: `KYN-MRK-PRE-001` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#tipos`
+Número: 20.1 · ID: `KYN-MRK-PRE-001` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#tipos`
 
 ### Cuatro salas, una marca
 
@@ -93,9 +93,9 @@ Keyons presenta a clientes, capacita equipos, revisa su trabajo y abre talleres.
 
 Si hay duda entre dos salas, gana la más formal.
 
-## KYN-MRK-PRE-002 · 21.2 Método
+## KYN-MRK-PRE-002 · 20.2 Método
 
-Número: 21.2 · ID: `KYN-MRK-PRE-002` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#metodo`
+Número: 20.2 · ID: `KYN-MRK-PRE-002` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#metodo`
 
 ### De la idea a la sala
 
@@ -118,9 +118,9 @@ Ocho pasos, en este orden. **El diseño entra en el sexto**, cuando la historia 
 **(Proyectar o enviar)**
 Son dos piezas distintas. La que se envía por correo lleva un documento de apoyo o una versión de lectura, con las notas en pantalla.
 
-## KYN-MRK-PRE-003 · 21.3 Storytelling
+## KYN-MRK-PRE-003 · 20.3 Storytelling
 
-Número: 21.3 · ID: `KYN-MRK-PRE-003` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#historia`
+Número: 20.3 · ID: `KYN-MRK-PRE-003` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#historia`
 
 ### La sala es la protagonista
 
@@ -165,9 +165,9 @@ Los profesionales de Ingenya pueden usar IA todos los días sin exponer a sus cl
 
 Cada participante sale con un asistente que resuelve una tarea real de su semana, si lo construye sobre un problema bien definido.
 
-## KYN-MRK-PRE-004 · 21.4 El arco Keyons
+## KYN-MRK-PRE-004 · 20.4 El arco Keyons
 
-Número: 21.4 · ID: `KYN-MRK-PRE-004` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#arco`
+Número: 20.4 · ID: `KYN-MRK-PRE-004` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#arco`
 
 ### El cielo avanza con la historia
 
@@ -189,9 +189,9 @@ Seis movimientos para propuestas, capacitaciones e informes; cambia cuánto pesa
 
 Si alguien lee solo los titulares y entiende la historia, la estructura está lista.
 
-## KYN-MRK-PRE-005 · 21.5 Escribir para la pantalla
+## KYN-MRK-PRE-005 · 20.5 Escribir para la pantalla
 
-Número: 21.5 · ID: `KYN-MRK-PRE-005` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#escribir`
+Número: 20.5 · ID: `KYN-MRK-PRE-005` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#escribir`
 
 ### Se lee a tres metros
 
@@ -305,9 +305,9 @@ Preguntas & Respuestas · AI PROBLEM SOLVING
 
 **(En Keyons)** Preguntas y respuestas · Resolver problemas con IA
 
-## KYN-MRK-PRE-006 · 21.6 Límites y notas
+## KYN-MRK-PRE-006 · 20.6 Límites y notas
 
-Número: 21.6 · ID: `KYN-MRK-PRE-006` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#limites`
+Número: 20.6 · ID: `KYN-MRK-PRE-006` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#limites`
 
 ### Lo que cabe y lo que se dice
 
@@ -368,9 +368,9 @@ Si el riesgo está claro, veamos qué cambia desde mañana.
 
 Una cita externa necesita fuente y nunca cierra la presentación.
 
-## KYN-MRK-PRE-007 · 21.7 Lienzo y retícula
+## KYN-MRK-PRE-007 · 20.7 Lienzo y retícula
 
-Número: 21.7 · ID: `KYN-MRK-PRE-007` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#lienzo`
+Número: 20.7 · ID: `KYN-MRK-PRE-007` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#lienzo`
 
 ### Un lienzo para todas las salas
 
@@ -402,9 +402,9 @@ Titular
 **x 96 · y 80**
 Siempre en la misma posición.
 
-## KYN-MRK-PRE-008 · 21.8 Tipografía
+## KYN-MRK-PRE-008 · 20.8 Tipografía
 
-Número: 21.8 · ID: `KYN-MRK-PRE-008` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#tipografia`
+Número: 20.8 · ID: `KYN-MRK-PRE-008` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#tipografia`
 
 ### Se lee desde el fondo
 
@@ -433,9 +433,9 @@ Fuente: diagnóstico Keyons, mayo de 2026
 
 A escala 1:3 del lienzo de 1920 px.
 
-## KYN-MRK-PRE-009 · 21.9 Contraste
+## KYN-MRK-PRE-009 · 20.9 Contraste
 
-Número: 21.9 · ID: `KYN-MRK-PRE-009` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#contraste`
+Número: 20.9 · ID: `KYN-MRK-PRE-009` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#contraste`
 
 ### Contraste medido
 
@@ -453,9 +453,9 @@ Un proyector lava el color. **4,5:1 para texto de cuerpo y 3:1 para texto grande
 | Salmón Tierra · *#CE635D* | **3,4:1** · Solo grande | **4,9:1** · Texto | Una palabra clave; sobre claro, desde 24 px. |
 | Salmón Atardecer · *#E99D9E* | **2,0:1** · No va en texto | **8,6:1** · Texto | El dato que importa, sobre Azul Noche. |
 
-## KYN-MRK-PRE-010 · 21.10 Ritmo
+## KYN-MRK-PRE-010 · 20.10 Ritmo
 
-Número: 21.10 · ID: `KYN-MRK-PRE-010` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#ritmo`
+Número: 20.10 · ID: `KYN-MRK-PRE-010` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#ritmo`
 
 ### El color marca el ritmo
 
@@ -548,9 +548,9 @@ El blanco es el compás; **el cielo, el cambio de movimiento.** Así se ve una p
 
 Salmón Tierra sobre claro y Salmón Atardecer sobre Azul Noche, una vez por diapositiva.
 
-## KYN-MRK-PRE-011 · 21.11 Riesgo y estado
+## KYN-MRK-PRE-011 · 20.11 Riesgo y estado
 
-Número: 21.11 · ID: `KYN-MRK-PRE-011` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#riesgo`
+Número: 20.11 · ID: `KYN-MRK-PRE-011` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#riesgo`
 
 ### Cuatro niveles, siempre con la palabra
 
@@ -586,13 +586,13 @@ Herramientas sin licencia corporativa · Bajo
 
 En una diapositiva: la palabra siempre acompaña al color.
 
-## KYN-MRK-PRE-012 · 21.12 Imagen y gráficos
+## KYN-MRK-PRE-012 · 20.12 Imagen y gráficos
 
-Número: 21.12 · ID: `KYN-MRK-PRE-012` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#imagen`
+Número: 20.12 · ID: `KYN-MRK-PRE-012` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#imagen`
 
 ### Una protagonista por diapositiva
 
-Una ventana, una fotografía o una cifra; **nunca las tres.** Los gráficos salen del capítulo 14 y se agrandan para la sala.
+Una ventana, una fotografía o una cifra; **nunca las tres.** Los gráficos salen del capítulo 13 y se agrandan para la sala.
 
 > Recurso visual: Figura: «Espacio para el ejemplo: Ventana en la diapositiva clave»
 
@@ -626,9 +626,9 @@ Aquí va el ejemplo
 - **Fuente en el pie** · Quién midió y cuándo.
 - **Aparecen al avanzar** · Por partes al hacer clic; nunca en bucle.
 
-## KYN-MRK-PRE-013 · 21.13 Plantillas
+## KYN-MRK-PRE-013 · 20.13 Plantillas
 
-Número: 21.13 · ID: `KYN-MRK-PRE-013` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#plantillas`
+Número: 20.13 · ID: `KYN-MRK-PRE-013` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#plantillas`
 
 ### Cuatro plantillas para empezar
 
@@ -670,9 +670,9 @@ Grupos · expresivo 19 diapositivas · 16:9 · .pptx
 
 [Descargar](/assets/descargas/keyons-plantilla-taller.pptx)
 
-## KYN-MRK-PRE-014 · 21.14 Antes de presentar
+## KYN-MRK-PRE-014 · 20.14 Antes de presentar
 
-Número: 21.14 · ID: `KYN-MRK-PRE-014` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#antes`
+Número: 20.14 · ID: `KYN-MRK-PRE-014` · Estado: vigente · Fuente: `/aplicaciones/presentaciones.html#antes`
 
 ### Lista de verificación
 

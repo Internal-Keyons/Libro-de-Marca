@@ -4,19 +4,19 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ILU-006"
-titulo: "Ráfagas"
-numero: "12.7"
+titulo: "Ráfagas de color"
+numero: "11.7"
 estado: "vigente"
-capitulo: "12 Elementos gráficos"
+capitulo: "11 Elementos gráficos"
 area: "Fundamentos"
 fuente: "/fundamentos/elementos/graficos.html#rafagas"
 referencias: []
 citada_por: ["KYN-MRK-VIS-011"]
 ---
 
-# KYN-MRK-ILU-006 · Ráfagas
+# KYN-MRK-ILU-006 · Ráfagas de color
 
-Número: 12.7 · Estado: vigente · Capítulo: 12 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#rafagas`
+Número: 11.7 · Estado: vigente · Capítulo: 11 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#rafagas`
 
 ##### El viento, liberado sobre blanco
 

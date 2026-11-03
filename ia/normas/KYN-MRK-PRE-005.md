@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-005"
 titulo: "Escribir para la pantalla"
-numero: "21.5"
+numero: "20.5"
 estado: "vigente"
-capitulo: "21 Presentaciones"
+capitulo: "20 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#escribir"
 referencias: ["KYN-MRK-VOZ-002", "KYN-MRK-VOZ-004", "KYN-MRK-VOZ-005", "KYN-MRK-VOZ-006", "KYN-MRK-VOZ-007"]
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PRE-005 · Escribir para la pantalla
 
-Número: 21.5 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#escribir`
+Número: 20.5 · Estado: vigente · Capítulo: 20 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#escribir`
 
 ##### Se lee a tres metros
 

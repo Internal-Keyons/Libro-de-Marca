@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ICO-001"
 titulo: "Retícula"
-numero: "13.1"
+numero: "12.1"
 estado: "vigente"
-capitulo: "13 Iconografía"
+capitulo: "12 Iconografía"
 area: "Fundamentos"
 fuente: "/fundamentos/iconografia/iconos.html#reticula"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-ICO-001 · Retícula
 
-Número: 13.1 · Estado: vigente · Capítulo: 13 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#reticula`
+Número: 12.1 · Estado: vigente · Capítulo: 12 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#reticula`
 
 ##### Lienzo de 32, área viva de 28
 

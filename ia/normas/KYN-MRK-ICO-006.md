@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ICO-006"
 titulo: "Entrega técnica"
-numero: "13.6"
+numero: "12.6"
 estado: "vigente"
-capitulo: "13 Iconografía"
+capitulo: "12 Iconografía"
 area: "Fundamentos"
 fuente: "/fundamentos/iconografia/iconos.html#entrega"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-ICO-006 · Entrega técnica
 
-Número: 13.6 · Estado: vigente · Capítulo: 13 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#entrega`
+Número: 12.6 · Estado: vigente · Capítulo: 12 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#entrega`
 
 ##### Nombres y versiones claras
 

@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-010"
 titulo: "Simetría automática"
-numero: "11.10"
+numero: "10.2.1"
 estado: "vigente"
-capitulo: "11 Criterios visuales"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
-fuente: "/fundamentos/criterio/antipatrones.html#vis-010"
+fuente: "/fundamentos/composicion/editorial.html#vis-010"
 referencias: ["KYN-MRK-ESP-004"]
 citada_por: ["KYN-MRK-CMP-002"]
 ---
 
 # KYN-MRK-VIS-010 · Simetría automática
 
-Número: 11.10 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: `/fundamentos/criterio/antipatrones.html#vis-010`
+Número: 10.2.1 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#vis-010`
 
 ##### Ni todo centrado ni todo descompensado
 

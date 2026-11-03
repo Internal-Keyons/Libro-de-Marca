@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-013"
 titulo: "Lenguaje genérico"
-numero: "11.13"
+numero: "4.4.1"
 estado: "vigente"
-capitulo: "11 Criterios visuales"
-area: "Fundamentos"
-fuente: "/fundamentos/criterio/antipatrones.html#vis-013"
+capitulo: "04 Voz"
+area: "Marca"
+fuente: "/marca/vocabulario.html#vis-013"
 referencias: ["KYN-MRK-VOZ-002", "KYN-MRK-VOZ-004"]
 citada_por: []
 ---
 
 # KYN-MRK-VIS-013 · Lenguaje genérico
 
-Número: 11.13 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: `/fundamentos/criterio/antipatrones.html#vis-013`
+Número: 4.4.1 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/vocabulario.html#vis-013`
 
 ##### Específico, comprensible y con sentido
 

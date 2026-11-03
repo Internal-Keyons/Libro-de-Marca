@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-010"
 titulo: "Ritmo"
-numero: "21.10"
+numero: "20.10"
 estado: "vigente"
-capitulo: "21 Presentaciones"
+capitulo: "20 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#ritmo"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PRE-010 · Ritmo
 
-Número: 21.10 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#ritmo`
+Número: 20.10 · Estado: vigente · Capítulo: 20 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#ritmo`
 
 ##### El color marca el ritmo
 

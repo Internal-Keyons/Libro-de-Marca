@@ -8,8 +8,8 @@ titulo: "Color"
 area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/color/paleta-base.html", "/fundamentos/color/escalas.html", "/fundamentos/color/cielos.html", "/fundamentos/color/por-modo.html", "/fundamentos/color/funcionales.html"]
-normas: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015"]
-referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015", "KYN-MRK-CON-002"]
+normas: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-VIS-012", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-VIS-005", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015"]
+referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015", "KYN-MRK-CON-002", "KYN-MRK-CON-008", "KYN-MRK-VIS-005", "KYN-MRK-VIS-012"]
 ---
 
 # Capítulo 07 · Color
@@ -160,6 +160,32 @@ Mínimo 4.5:1 para texto normal y 3:1 para texto grande y elementos gráficos.
 | Atardecer sobre Noche | 8.6 : 1 | Todo |
 | Blanco sobre Salmón | 3.8 : 1 | Solo texto grande y logotipo |
 | Cielo sobre Blanco | 2.6 : 1 | Nunca texto; solo superficies |
+
+## KYN-MRK-VIS-012 · 7.5.1 Contraste insuficiente
+
+Número: 7.5.1 · ID: `KYN-MRK-VIS-012` · Estado: vigente · Fuente: `/fundamentos/color/paleta-base.html#vis-012`
+
+### Delicado, pero siempre legible
+
+**(Problema)**
+Textos, controles o datos delicados que no se pueden leer.
+
+**(Criterio)**
+La delicadeza visual no justifica textos, controles ni datos ilegibles.
+El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.
+
+> Recurso visual: Ejemplo dibujado: Actualizado hace 5 minutos#C7C8CB · 1,5 : 1
+
+**(Uso incorrecto)**
+**Texto gris claro sobre Blanco Keyons** Elegido para «verse elegante», sin medir su contraste.
+
+> Recurso visual: Ejemplo dibujado: Actualizado hace 5 minutos#6B6D7E · 4,6 : 1
+
+**(Alternativa mejor)**
+Los grises tipográficos oficiales, con su contraste verificado.
+
+- **Excepciones**: Los controles inactivos tienen las excepciones previstas por WCAG. Esa excepción no autoriza a presentar información necesaria con contraste insuficiente. Distinguir los separadores decorativos de los bordes e indicadores necesarios para comprender una interfaz.
+- **Relación**: KYN-MRK-COL-005 (Combinaciones) y KYN-MRK-COL-013 (Grises tipográficos).
 
 ## Escalas
 
@@ -314,6 +340,32 @@ Los dos se permiten si están bien hechos. El lineal funciona como fondo sutil o
 Mallas de Illustrator, blur sobre formas en Photoshop, plugins de Figma para mallas o generadores dedicados.
 
 Un gradiente que no cumple estas reglas no es un gradiente Keyons.
+
+## KYN-MRK-VIS-005 · 7.9.1 Degradados
+
+Número: 7.9.1 · ID: `KYN-MRK-VIS-005` · Estado: vigente · Fuente: `/fundamentos/color/cielos.html#vis-005`
+
+### Un degradado necesita un concepto
+
+**(Problema)**
+Degradados agregados para que una sección parezca tecnológica o moderna.
+
+**(Criterio)**
+Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.
+No agregarlos solamente para que una sección parezca tecnológica o moderna.
+
+> Recurso visual: Ejemplo dibujado: Primero entendemos su operación; después construimos.
+
+**(Uso incorrecto)**
+**Un degradado violeta a cian detrás de un texto** Sin relación con el contenido ni con los cielos de Keyons.
+
+> Recurso visual: Ejemplo dibujado: Primero entendemos su operación; después construimos.
+
+**(Alternativa mejor)**
+Un cielo oficial como atmósfera, con el texto en su zona de calma. El degradado no es obligatorio en cada pieza.
+
+- **Excepciones**: Los degradados oficiales de cielo, usados según su norma.
+- **Relación**: KYN-MRK-COL-009 (Gradientes) y KYN-MRK-CON-008 (Anti-referentes).
 
 ## Color por modo
 

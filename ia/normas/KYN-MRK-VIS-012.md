@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-012"
 titulo: "Contraste insuficiente"
-numero: "11.12"
+numero: "7.5.1"
 estado: "vigente"
-capitulo: "11 Criterios visuales"
+capitulo: "07 Color"
 area: "Fundamentos"
-fuente: "/fundamentos/criterio/antipatrones.html#vis-012"
+fuente: "/fundamentos/color/paleta-base.html#vis-012"
 referencias: ["KYN-MRK-COL-005", "KYN-MRK-COL-013"]
 citada_por: []
 ---
 
 # KYN-MRK-VIS-012 · Contraste insuficiente
 
-Número: 11.12 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: `/fundamentos/criterio/antipatrones.html#vis-012`
+Número: 7.5.1 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos/color/paleta-base.html#vis-012`
 
 ##### Delicado, pero siempre legible
 

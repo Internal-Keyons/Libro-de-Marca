@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-016"
 titulo: "Composición no intercambiable"
-numero: "11.16"
+numero: "10.8.1"
 estado: "vigente"
-capitulo: "11 Criterios visuales"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
-fuente: "/fundamentos/criterio/antipatrones.html#vis-016"
+fuente: "/fundamentos/composicion/editorial.html#vis-016"
 referencias: ["KYN-MRK-CON-006", "KYN-MRK-CON-008", "KYN-MRK-DIS-001"]
 citada_por: []
 ---
 
-# KYN-MRK-VIS-016 · No intercambiable
+# KYN-MRK-VIS-016 · Identidad visual aplicada
 
-Número: 11.16 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: `/fundamentos/criterio/antipatrones.html#vis-016`
+Número: 10.8.1 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#vis-016`
 
 ##### Una composición con identidad propia
 

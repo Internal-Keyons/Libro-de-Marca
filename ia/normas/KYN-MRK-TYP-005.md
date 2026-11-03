@@ -4,34 +4,35 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-TYP-005"
-titulo: "Kickers"
+titulo: "Etiquetas de contexto"
 numero: "8.5"
 estado: "vigente"
 capitulo: "08 Tipografía"
 area: "Fundamentos"
 fuente: "/fundamentos/tipografia/sistema.html#kickers"
 referencias: []
-citada_por: ["KYN-MRK-VIS-001", "KYN-MRK-VIS-002"]
+citada_por: []
 ---
 
-# KYN-MRK-TYP-005 · Kickers
+# KYN-MRK-TYP-005 · Etiquetas de contexto
 
 Número: 8.5 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundamentos/tipografia/sistema.html#kickers`
 
-##### La etiqueta que anuncia
+##### Etiquetas que aportan contexto
 
-El kicker ubica al lector antes del título. Es **la única excepción** en la que TASA Orbiter baja a tamaño pequeño.
+Las etiquetas editoriales identifican **categorías, ubicaciones, versiones, estados o clasificaciones** que complementan un título.
 
-Capítulo 05 · Voz
+Su uso aporta información adicional y facilita la orientación del lector.
 
-**(Ícono)**
-Siempre a la izquierda y nunca se repite a la derecha. La estrella de marca es el ícono por defecto.
+Capítulo 01 · ADN
+Quiénes somos
+Una empresa de ingeniería operativa que integra inteligencia artificial a los equipos.
+La etiqueta ubica el contenido dentro de la estructura del manual.
 
-**(Letra)**
-TASA Orbiter 500, en mayúsculas, con espaciado de +8 %.
+**(Criterios)**
 
-**(Punto medio)**
-Separa niveles. Sin punto final.
-
-**(Tamaño real · 13 px)**
-Capítulo 05 · Voz
+- Utilizar una etiqueta cuando aporta contexto.
+- Seleccionar la tipografía según la función y el tratamiento editorial.
+- Ajustar el espaciado de acuerdo con las reglas tipográficas correspondientes.
+- Incorporar símbolos cuando contribuyan al significado.
+- Utilizar separadores para organizar metadatos relacionados.

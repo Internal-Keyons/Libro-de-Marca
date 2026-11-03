@@ -5,10 +5,10 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-015"
 titulo: "Originalidad a costa de orientación"
-numero: "11.15"
+numero: "28.3.2"
 estado: "vigente"
-capitulo: "11 Criterios visuales"
-area: "Fundamentos"
+capitulo: "28 Referencia"
+area: "Recursos"
 fuente: "/fundamentos/criterio/antipatrones.html#vis-015"
 referencias: ["KYN-MRK-DIS-005"]
 citada_por: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-VIS-015 · Orientación
 
-Número: 11.15 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: `/fundamentos/criterio/antipatrones.html#vis-015`
+Número: 28.3.2 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/fundamentos/criterio/antipatrones.html#vis-015`
 
 ##### Original, pero siempre comprensible
 

@@ -137,7 +137,7 @@
   "aplicaciones/presentaciones.html#imagen": {
    "estado": "vigente",
    "id": "KYN-MRK-PRE-012",
-   "texto": "Imagen y gráficos Una protagonista por diapositiva Una ventana, una fotografía o una cifra; nunca las tres. Los gráficos salen del capítulo 14 y se agrandan para la sala. Aquí va el ejemploVentana en la diapositiva claveCorporativo: una sola vez, donde la idea lo pide.Aquí va el ejemploTextura de fondoTaller: separadores sobre las texturas de KYN-MRK-ILU-007.Aquí va el ejemploFotografía con veloDe la galería de KYN-MRK-ILU-008, con velo para que el texto se lea.Aquí va el ejemploGráfico de una sola ideaDe KYN-MRK-DAT-004, con el titular que afirma la conclusión.(Gráficos en pantalla)Titular que afirmaLa conclusión arriba, como titular.Una cifra protagonistaEn TASA, de 120 a 160 px, con su lectura debajo.Etiquetas legiblesEjes y valores desde 18 px.Fuente en el pieQuién midió y cuándo.Aparecen al avanzarPor partes al hacer clic; nunca en bucle.",
+   "texto": "Imagen y gráficos Una protagonista por diapositiva Una ventana, una fotografía o una cifra; nunca las tres. Los gráficos salen del capítulo 13 y se agrandan para la sala. Aquí va el ejemploVentana en la diapositiva claveCorporativo: una sola vez, donde la idea lo pide.Aquí va el ejemploTextura de fondoTaller: separadores sobre las texturas de KYN-MRK-ILU-007.Aquí va el ejemploFotografía con veloDe la galería de KYN-MRK-ILU-008, con velo para que el texto se lea.Aquí va el ejemploGráfico de una sola ideaDe KYN-MRK-DAT-004, con el titular que afirma la conclusión.(Gráficos en pantalla)Titular que afirmaLa conclusión arriba, como titular.Una cifra protagonistaEn TASA, de 120 a 160 px, con su lectura debajo.Etiquetas legiblesEjes y valores desde 18 px.Fuente en el pieQuién midió y cuándo.Aparecen al avanzarPor partes al hacer clic; nunca en bucle.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -148,6 +148,11 @@
      "aprobada": "2026-10-29",
      "huella": "38727798230eff47",
      "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "54760a65559d306e",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
@@ -303,6 +308,18 @@
     }
    ]
   },
+  "fundamentos/color/cielos.html#vis-005": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-005",
+   "texto": "Degradados Un degradado necesita un concepto (Problema)Degradados agregados para que una sección parezca tecnológica o moderna. (Criterio)Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.No agregarlos solamente para que una sección parezca tecnológica o moderna. Primero entendemos su operación; después construimos.(Uso incorrecto)Un degradado violeta a cian detrás de un texto Sin relación con el contenido ni con los cielos de Keyons. Primero entendemos su operación; después construimos.(Alternativa mejor)Un cielo oficial como atmósfera, con el texto en su zona de calma. El degradado no es obligatorio en cada pieza. ExcepcionesLos degradados oficiales de cielo, usados según su norma.RelaciónKYN-MRK-COL-009 (Gradientes) y KYN-MRK-CON-008 (Anti-referentes).",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "52e17e8b5d5bb2d5",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
   "fundamentos/color/escalas.html#escalas": {
    "estado": "vigente",
    "id": "KYN-MRK-COL-006",
@@ -436,6 +453,18 @@
     }
    ]
   },
+  "fundamentos/color/paleta-base.html#vis-012": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-012",
+   "texto": "Contraste insuficiente Delicado, pero siempre legible (Problema)Textos, controles o datos delicados que no se pueden leer. (Criterio)La delicadeza visual no justifica textos, controles ni datos ilegibles.El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables. Actualizado hace 5 minutos#C7C8CB · 1,5 : 1(Uso incorrecto)Texto gris claro sobre Blanco Keyons Elegido para «verse elegante», sin medir su contraste. Actualizado hace 5 minutos#6B6D7E · 4,6 : 1(Alternativa mejor)Los grises tipográficos oficiales, con su contraste verificado. ExcepcionesLos controles inactivos tienen las excepciones previstas por WCAG. Esa excepción no autoriza a presentar información necesaria con contraste insuficiente. Distinguir los separadores decorativos de los bordes e indicadores necesarios para comprender una interfaz.RelaciónKYN-MRK-COL-005 (Combinaciones) y KYN-MRK-COL-013 (Grises tipográficos).",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "7f383c940a0abd02",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
   "fundamentos/color/por-modo.html#expresivo": {
    "estado": "vigente",
    "id": "KYN-MRK-COL-011",
@@ -504,6 +533,66 @@
     }
    ]
   },
+  "fundamentos/composicion/editorial.html#densidad": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ESP-005",
+   "texto": "Jerarquía y densidad Cuánta información cabe en un espacio La densidad visual responde al contenido, la frecuencia de uso y la atención que requiere cada tarea. Una composición limpia no necesita ser siempre poco densa. Una composición informativa no debe convertirse en una acumulación de elementos. (Ejemplo)Propuesta comercial: una idea, mucho aireCorporativo · densidad contenidaPrioriza una jerarquía clara, espacio negativo y una lectura cómoda.La cantidad de bloques, llamadas a la acción y espacios depende de la información y de las decisiones que debe tomar el lector.(Cuándo se usa)Se aplica a comunicaciones institucionales, documentos, propuestas y secciones editoriales donde conviene destacar las ideas principales. (Ejemplo)Post de campaña: varios elementos sobre la retículaExpresivo · intensidad organizadaPermite una mayor presencia de recursos gráficos, información y variaciones compositivas cuando el contenido lo justifica.La retícula proporciona estructura, pero no obliga a distribuir todos los elementos en columnas idénticas.(Cuándo se usa)Campañas, blog, contenido educativo, redes, piezas culturales y talleres. Interfaz · según la tarea La densidad debe facilitar la tarea, no dificultarla. Las vistas de uso frecuente pueden presentar información compacta cuando mantienen legibilidad, orientación y controles accesibles. (Ejemplo)Pantalla de bienvenidaDensidad bajaBienvenida y onboardingErrores y estados sensiblesPausas en flujos largosConfirmaciones importantesPrimera vez y educación(Ejemplo)Formulario estándarDensidad mediaFormularios estándarInformación estructuradaFlujos transaccionales de rutina(Ejemplo)Tablero operativoDensidad altaTableros de uso diarioTablas de datosListados largos con filtrosVistas de monitoreoPantallas para escanear rápido La densidad adecuada permite comprender y actuar sin añadir ruido visual.",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "a2f840f2766e0115",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#diagramas": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ESP-007",
+   "texto": "Diagramas de información Ordenar ideas, no medirlas Los diagramas permiten explicar relaciones entre ideas, etapas, áreas o componentes. Su geometría debe corresponder a la relación representada: secuencia, agrupación, jerarquía, inclusión o conexión. Los círculos, arcos y anillos son recursos disponibles, no soluciones obligatorias para cualquier contenido. (Proceso)Círculos que crecenFases que nacen del mismo punto: cada una contiene a la anterior. La línea baja desde el nombre de la fase y una estrella marca dónde toca su círculo.Entenderla operación01Construircon su equipo02Mediry mejorar03(Avance)Zonas que crecenCírculos que nacen del mismo borde; cada zona contiene a la anterior. Las etiquetas salen arriba y abajo, nunca a los lados.Uso básicoPrimeras pruebasIA integradaOperación transformada(Niveles)Esferas de madurezDel nivel difuso al nítido: la claridad crece con la madurez. Una estrella marca dónde está hoy.1Inicial2Explora3Define4Integra5OptimizaSu empresa hoy(Relaciones)Arcos de métodoFases que se superponen sobre una misma línea de trabajo.RelaciónDiagnósticoComprensiónPlaneaciónConstrucciónAcompañamientoEvoluciónInmersiónEstrategiaProyectoSoporte(Alcance)Círculos de alcanceCírculos apoyados en un mismo punto, del más cercano al más amplio, con su nombre al costado.Su sectorSu empresaSu equipo(Contexto)Anillos de contextoUn tema dentro de los anillos que lo rodean, del más cercano al más amplio, con una idea al centro.CulturaGobierno de datosProcesosPersonasHerramientasLa IA no opera aislada:es parte de toda la operación,no una pieza aparte. (Uso)Se utilizan cuando una representación visual permite comprender relaciones que resultarían difíciles de comunicar únicamente mediante texto. Cuando el contenido contiene valores medidos, se elige una visualización cuantitativa adecuada, conforme al capítulo 13, Datos. (Construcción)Utilizar trazos precisos, continuos y uniformes, con contraste y etiquetas legibles. Los recursos de énfasis se incorporan cuando ayudan a interpretar el contenido. No es obligatorio utilizar estrellas, círculos o indicadores decorativos.Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso. (Ejemplos)Los diagramas que presentan etapas o duraciones no deben interpretarse automáticamente como fases oficiales de la metodología Prisma o compromisos de ejecución. Si un ejemplo representa una metodología oficial, debe coincidir con su documentación vigente. 01 · Diagnóstico · 2 a 4 semanas|Entender la operación 02 · Diseño · 4 a 8 semanas|Construir con su equipo 03 · Evolución · continua|Medir y mejorar Zona 1|Uso básico Zona 2|Primeras pruebas Zona 3|IA integrada Zona 4|Operación transformada Nivel 1 · Inicial|Tareas manuales y dispersas Nivel 2 · Explora|Primeras pruebas con IA Nivel 3 · Define|Procesos documentados Nivel 4 · Integra|IA en el trabajo diario Nivel 5 · Optimiza|Mejora continua medida Inmersión|Diagnóstico y comprensión Estrategia|Comprensión y planeación Proyecto|De la planeación al acompañamiento Soporte|Acompañamiento y evolución Cultura|Anillo 1 Gobierno de datos|Anillo 1 Procesos|Anillo 2 Personas|Anillo 2 Herramientas|Anillo 3",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "3abd69ab81ffb282",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#ejemplos": {
+   "estado": "sin ID",
+   "id": null,
+   "texto": "Ejemplos de aplicación Cuatro piezas, cuatro estructuras Cada ejemplo muestra cómo el contenido decide la retícula: un documento de lectura, una presentación, un brochure y una pieza editorial. Propuesta de automatizaciónNota Cifra38 % (Documento)Lectura prolongadaUna columna de lectura de siete columnas y notas al margen en cinco. El orden se repite página a página para que la lectura no se interrumpa.Retícula 7 + 5 · KYN-MRK-CMP-003 Primero entendemos su operación3 (Presentación)Una idea protagonistaLa declaración ocupa el lado ancho y el dato que la sostiene, el angosto. Una sola idea por diapositiva, con aire alrededor.Asimetría controlada · KYN-MRK-CMP-002 Cómo trabajamosDiagnósticoConstrucciónAcompañamiento (Brochure)Síntesis modularTres paneles con títulos equivalentes para comparar etapas. La imagen abre el recorrido y los módulos lo ordenan.Ritmo y patrones · KYN-MRK-CMP-004 y KYN-MRK-ESP-006 Informe 2026Un mismo cielo, ningún horizonte igual 01Contexto02Operación03Resultados04Próximos pasos (Pieza editorial)Momento expresivo y reposoUna portada con el cielo como protagonista y un índice sobrio a continuación: la intensidad tiene su pausa.Ritmo y equilibrio · KYN-MRK-CMP-004",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "78cfc06e85e31e2f",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#patrones": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ESP-006",
+   "texto": "Patrones de composición La forma sale del contenido La elección de una composición comienza por comprender el contenido y cómo necesita recorrerlo el lector. Los patrones son alternativas de diseño, no plantillas obligatorias. (El contenido es)Patrón posibleEjemploReglas o principios cortos, de tres a seisCuadrícula de reglasKYN-MRK-CON-006 · Reglas de composiciónPuntos que se leen uno a uno y pueden crecerAcordeónKYN-MRK-COL-004 · Reglas del colorPares o tríos de explicacionesRótulo arriba, texto debajoKYN-MRK-ADN-001 · EsenciaÍtems sin jerarquíaLista con viñetas de marcaKYN-MRK-LOG-006 · Usos incorrectosComparación entre opcionesMatrizKYN-MRK-ADN-003 · EspectroAlgo que se ve: color, logo, letraMuestra en recuadro, con la regla de esquinasKYN-MRK-LOG-001 · VersionesMuchos ítems del mismo tipoSelector o carruselKYN-MRK-VOZ-003 · VocabularioIdeas de distinto peso, que se recorren librementeRetícula dinámica de líneasKYN-MRK-DAT-001 · PrincipiosDatos y cifrasNúmero grande con su lectura14 · DatosUna nota que señala algoFlecha orgánicaKYN-MRK-COL-002 · Colores principales (Uso)Las asociaciones de cuadrículas, acordeones, listas, matrices, carruseles, retículas, indicadores y flechas deben interpretarse como ejemplos. Un patrón debe elegirse por su utilidad, no por la cantidad de elementos o porque aparezca en el catálogo. (Relación con otros capítulos)Este capítulo establece criterios para seleccionar composiciones. El capítulo 10, Composiciones, desarrolla cómo utilizar simetría, asimetría, retículas y ritmo editorial. El Sistema de Diseño define los patrones funcionales de interacción. La repetición aporta consistencia cuando facilita la comprensión. La variación se utiliza cuando el contenido necesita otro ritmo o una jerarquía diferente.",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "2876ac48ab94109f",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#reticula": {
+   "estado": "vigente",
+   "id": "KYN-MRK-ESP-004",
+   "texto": "Retícula y responsive Un piso, no un techo La retícula organiza relaciones, proporciones y alineaciones. Las doce columnas constituyen una referencia versátil, pero la estructura debe adaptarse al contenido y a las necesidades de cada experiencia. La claridad y la coherencia son obligatorias; una distribución específica de columnas no lo es en todos los formatos. 01Estructura funcionalPara interfaces operativas, formularios, dashboards y documentación.(Criterio)La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes. La cantidad de columnas se adapta a la tarea y al espacio disponible.02Estructura adaptablePara sitios web, páginas informativas y experiencias comerciales.(Criterio)Las columnas, los márgenes y las proporciones se ajustan al contenido sin perder coherencia.03Estructura editorialPara campañas, presentaciones, piezas culturales y composiciones expresivas.(Criterio)Se permite una mayor experimentación mediante simetría, asimetría y cambios de escala, siempre que el contenido mantenga una lectura clara. Cómo se adapta (Pantalla)AnchoColumnasMargenMóvilHasta 759 px416 pxTableta760 a 1099 px832 pxEscritorio1100 a 1439 px1264 pxAmplioDesde 1440 px12Contenido hasta 1520 px El responsive no es un modo: es cómo esta retícula se adapta al ancho. El medianil es de 16 px en móvil y de 24 px en el resto. Estos rangos documentan la retícula editorial de referencia. Los productos pueden necesitar ajustes según el ancho disponible, el contenido y las necesidades de sus usuarios. Sus puntos de adaptación se definen en el Sistema de Diseño. La retícula proporciona orden sin imponer composiciones idénticas.",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "4ceaa821fe0c2fc0",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
   "fundamentos/composicion/editorial.html#reticulas": {
    "estado": "vigente",
    "id": "KYN-MRK-CMP-003",
@@ -529,7 +618,7 @@
   "fundamentos/composicion/editorial.html#ritmo": {
    "estado": "vigente",
    "id": "KYN-MRK-CMP-004",
-   "texto": "Ritmo visual Pausas y cambios El ritmo visual organiza la atención a lo largo de una pieza. Combina pausas, diferencias de escala, continuidad y momentos expresivos según las necesidades de lectura. 01Pausas visualesEl espacio negativo permite distinguir y asimilar las ideas. 02Cambios de escalaUna diferencia de tamaño puede señalar información protagonista. 03Continuidad y variaciónRepetir una composición aporta coherencia cuando facilita la lectura; cambiarla puede comunicar una nueva intención. 04Momentos expresivosFotografías, color, textura o movimiento adquieren protagonismo cuando el contenido lo justifica. Una secuencia sin pausas no tiene ritmo.",
+   "texto": "Ritmo y equilibrio Pausas y cambios El ritmo visual organiza la atención a lo largo de una pieza. Combina pausas, diferencias de escala, continuidad y momentos expresivos según las necesidades de lectura. 01Pausas visualesEl espacio negativo permite distinguir y asimilar las ideas. 02Cambios de escalaUna diferencia de tamaño puede señalar información protagonista. 03Continuidad y variaciónRepetir una composición aporta coherencia cuando facilita la lectura; cambiarla puede comunicar una nueva intención. 04Momentos expresivosFotografías, color, textura o movimiento adquieren protagonismo cuando el contenido lo justifica. Una secuencia sin pausas no tiene ritmo.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -545,13 +634,18 @@
      "aprobada": "2026-11-03",
      "huella": "31a1b672c072d566",
      "nota": "RV10: CON-006, TYP 8.8, ESP-001 a 007, CMP-004, VIS-001 a 016 e ILU-007 con los textos enviados por el usuario; leyendas de demostraciones de VIS propuestas por IA"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "5cf03cb40bce039c",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/composicion/editorial.html#simetria": {
    "estado": "vigente",
    "id": "KYN-MRK-CMP-002",
-   "texto": "Orden y experimentación Orden y experimentación La identidad Keyons combina composiciones simétricas y asimétricas, con equilibrio entre orden y experimentación. (Simetría)Para lo que se compara o se lee como conjunto. (Asimetría controlada)Cuando una idea pesa más que la otra. (Propósito)Equilibrar estabilidad y tensión según lo que se cuenta. (Composición)Simetría para lo que se compara o se lee como un conjunto. Asimetría controlada cuando una idea pesa más que otra: una columna ancha junto a una angosta, o un titular que ocupa más que su texto. (Invariantes)Ni simetría automática ni asimetría constante: KYN-MRK-VIS-010.",
+   "texto": "Simetría y asimetría Orden y experimentación La identidad Keyons combina composiciones simétricas y asimétricas, con equilibrio entre orden y experimentación. (Simetría)Para lo que se compara o se lee como conjunto. (Asimetría controlada)Cuando una idea pesa más que la otra. (Propósito)Equilibrar estabilidad y tensión según lo que se cuenta. (Composición)Simetría para lo que se compara o se lee como un conjunto. Asimetría controlada cuando una idea pesa más que otra: una columna ancha junto a una angosta, o un titular que ocupa más que su texto. (Invariantes)Ni simetría automática ni asimetría constante: KYN-MRK-VIS-010.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -567,6 +661,95 @@
      "aprobada": "2026-10-30",
      "huella": "0c15daa69ba3c8c4",
      "nota": "commit f29d231"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "f7e8dc732c1f040c",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#vis-003": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-003",
+   "texto": "Jerarquía repetida La jerarquía se construye para cada contenido (Problema)Todas las secciones armadas con la misma fórmula: kicker, titular grande, párrafo y tarjetas. (Criterio)La composición debe responder a las relaciones y prioridades del contenido.Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución. (Uso incorrecto)Tres secciones con la misma fórmula Kicker, titular, párrafo y tarjetas, una y otra vez. (Alternativa mejor)Un dato, una explicación y una imagen, cada uno con la composición que su función necesita.45 ExcepcionesListados de consulta que se recorren buscando lo mismo en cada bloque, como un catálogo.RelaciónKYN-MRK-ESP-006 (Patrones de contenido) y el capítulo 10.",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "2efe37eb41d19085",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#vis-004": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-004",
+   "texto": "Tarjetas innecesarias Una tarjeta solo cuando agrupa algo (Problema)Todo encerrado en tarjetas por costumbre: la página se llena de cajas y pierde jerarquía. (Criterio)Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas.Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente. Entender la operaciónConstruir con su equipoMedir y mejorar(Uso incorrecto)Cada párrafo en su propia tarjeta Sombras y bordes que no agrupan nada y quitan espacio. Entender la operaciónConstruir con su equipoMedir y mejorar(Alternativa mejor)El mismo contenido con jerarquía, alineación y separadores discretos. Recupera espacio negativo sin perder claridad. ExcepcionesLas tarjetas son apropiadas cuando representan objetos, opciones o unidades que se seleccionan, abren, trasladan o consultan como conjunto.RelaciónKYN-MRK-ESP-001 (Regla de esquinas) y KYN-MRK-ESP-006 (Patrones de contenido).",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "69764d66286a9131",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#vis-009": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-009",
+   "texto": "Microelementos La jerarquía no se hace con adornos (Problema)Píldoras, puntos, líneas, estrellas, etiquetas y miniíconos acumulados hasta que nada destaca. (Criterio)Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia.La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa. NuevoIAv2Reglas de composiciónDestacado(Uso incorrecto)Un titular con todo alrededor Estrellas, etiquetas, puntos, líneas y miniíconos sin función. KYN-MRK-CON-006 · VigenteReglas de composición(Alternativa mejor)El titular y los datos que orientan, como el código y el estado de la norma. ExcepcionesInterfaces de datos densas, donde cada marca comunica un valor.RelaciónKYN-MRK-ILU-001 (Viñetas de marca) y KYN-MRK-ESP-005 (Densidad).",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "d993a844a9f0dda4",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#vis-010": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-010",
+   "texto": "Simetría automática Ni todo centrado ni todo descompensado (Problema)Todo centrado y en columnas idénticas; o lo contrario, asimetrías constantes que desordenan. (Criterio)La simetría comunica estabilidad y equivalencia. La asimetría controlada permite establecer diferencias de protagonismo.Ninguna debe utilizarse automáticamente. Herramientas internasProducto SaaSA la medida(Opciones equivalentes)Tres opciones del mismo nivel: la simetría comunica su equivalencia. Primero entendemos su operación03(Una idea protagonista)Una idea pesa más que su apoyo: la asimetría marca el protagonismo. ExcepcionesComparaciones de opciones equivalentes, donde la igualdad de columnas comunica equivalencia.RelaciónEl capítulo 10 y KYN-MRK-ESP-004 (Retícula y responsive).",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "19eba4dc6f097088",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#vis-014": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-014",
+   "texto": "Maximalismo uniforme Intensidad con momentos de reposo (Problema)La misma intensidad gráfica en cada sección y en cada elemento, sin pausas. (Criterio)La expresión gráfica necesita contraste entre momentos intensos y momentos de reposo.El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura. (Uso incorrecto)La misma intensidad en cada bloque Fotografía, color y textura en todas partes: nada destaca. (Alternativa mejor)Un momento expresivo entre secciones contenidas, ubicado donde el contenido lo pide. Conserva el carácter sin saturar. ExcepcionesPiezas de una sola pantalla, como una publicación de campaña.RelaciónKYN-MRK-COL-011 (Modo expresivo), KYN-MRK-ESP-005 (Densidad) y el capítulo 10.",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "778c1a0b7424ec2b",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/composicion/editorial.html#vis-016": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-016",
+   "texto": "Identidad visual aplicada Una composición con identidad propia (Problema)Composiciones aprobadas solo porque se ven modernas, estéticas o siguen una tendencia. (Criterio)Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia.Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña.En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología. Innovación para tu negocioComenzar(Uso incorrecto)Una portada que con otro logo serviría igual Podría ser de cualquier empresa de tecnología. Ordenar ideas, no medirlas(Alternativa mejor)Tipografía, retícula y una ventana de cielo elegidas para Keyons. Cada pieza usa los recursos que le corresponden. Productos de clientesLos productos con identidad exclusiva del cliente deben expresar esa identidad, sin introducir una firma visual destinada a revelar a Keyons como proveedor. La calidad de experiencia, accesibilidad y consistencia funcional permanecen como estándares compartidos.RelaciónKYN-MRK-CON-006 (Reglas de composición), KYN-MRK-CON-008 (Anti-referentes) y KYN-MRK-DIS-001 (Diseñar con identidad, construir con criterio).",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "f8ff2e38443a562f",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/criterio/antipatrones.html#trazabilidad": {
+   "estado": "sin ID",
+   "id": null,
+   "texto": "Trazabilidad Dieciséis normas, una fuente cada una El capítulo Criterios visuales se integró en las materias que regulan cada tema. Los dieciséis ID se conservan: cada uno lleva a su ubicación vigente. (Norma)DestinoEstado KYN-MRK-VIS-001 · Kicker decorativoKYN-MRK-TYP-005 · Etiquetas de contextoIntegrada KYN-MRK-VIS-002 · Tracking indiscriminadoTipografía · Tracking (8.8)Integrada KYN-MRK-VIS-003 · Jerarquía visual repetitivaComposición · Jerarquía y densidadTrasladada KYN-MRK-VIS-004 · Tarjetas innecesariasComposición · Patrones de composiciónTrasladada KYN-MRK-VIS-005 · Gradientes ornamentalesColor · GradientesTrasladada KYN-MRK-VIS-006 · Geometría genéricaGeometría y espacio · Radios y curvaturasTrasladada KYN-MRK-VIS-007 · Acentos tipográficos repetidosKYN-MRK-TYP-006 · Énfasis con moderaciónIntegrada KYN-MRK-VIS-008 · Iconografía de rellenoIconografía · UsoTrasladada KYN-MRK-VIS-009 · Saturación de microelementosComposición · Jerarquía y densidadTrasladada KYN-MRK-VIS-010 · Simetría automáticaComposición · Simetría y asimetríaTrasladada KYN-MRK-VIS-011 · Movimiento ornamentalMovimientoEn integración KYN-MRK-VIS-012 · Contraste insuficienteColor · Combinaciones, con referencia a AccesibilidadTrasladada KYN-MRK-VIS-013 · Lenguaje genéricoVoz · Vocabulario que evitamosTrasladada KYN-MRK-VIS-014 · Maximalismo uniformeComposición · Ritmo y equilibrioTrasladada KYN-MRK-VIS-015 · Originalidad a costa de orientaciónSistema de Diseño · Principios de experienciaEn integración KYN-MRK-VIS-016 · Composición no intercambiableComposición · Identidad visual aplicadaTrasladada Las dos normas en integración siguen vigentes aquí hasta que su destino tenga página: Movimiento en este libro y Principios de experiencia en el Sistema de Diseño.",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "100097571496ba9b",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
@@ -990,31 +1173,41 @@
   "fundamentos/elementos/graficos.html#cristal": {
    "estado": "vigente",
    "id": "KYN-MRK-ILU-004",
-   "texto": "Cristal El cielo, visto a través de un vidrio Cristal es el tratamiento del cielo cuando atraviesa una superficie traslúcida. Suaviza sin tapar: lo que hay detrás se sigue viendo. Es un recurso secundario y se usa con moderación. AcanaladoCanales verticales cada 50 px, con 22 px de desenfoque entre canales. Para portadas verticales: transmite estructura. ArcosCanales curvos cada 60 px que nacen de una esquina. Para encabezados de capítulo: transmite expansión. (Qué es)Un efecto sobre un cielo, o sobre un fondo con cielo, que simula un vidrio traslúcido con líneas sutiles. Hay dos tratamientos oficiales: Acanalado y Arcos. (Cuándo se usa)Portadas de capítulo (Arcos), encabezados principales de documento (Acanalado), separadores de sección en materiales editoriales y fondos de citas destacadas. (Cuándo no)En producto digital funcional y en tableros; sobre tipografía de cuerpo, porque compite con la lectura; y junto a una ventana de cielo en la misma pieza, porque duplica el recurso. (Especificaciones)Opacidad del cristal entre 60 y 80 % sobre el cielo base. Nunca sobre un fondo oscuro al 100 %, porque se pierde la lectura del cielo. Siempre con cielo real debajo, nunca con un degradado puro. El cristal filtra, nunca oculta.",
+   "texto": "Transparencia El cielo, visto a través de un vidrio Cristal es el tratamiento del cielo cuando atraviesa una superficie traslúcida. Suaviza sin tapar: lo que hay detrás se sigue viendo. Es un recurso secundario y se usa con moderación. AcanaladoCanales verticales cada 50 px, con 22 px de desenfoque entre canales. Para portadas verticales: transmite estructura. ArcosCanales curvos cada 60 px que nacen de una esquina. Para encabezados de capítulo: transmite expansión. (Qué es)Un efecto sobre un cielo, o sobre un fondo con cielo, que simula un vidrio traslúcido con líneas sutiles. Hay dos tratamientos oficiales: Acanalado y Arcos. (Cuándo se usa)Portadas de capítulo (Arcos), encabezados principales de documento (Acanalado), separadores de sección en materiales editoriales y fondos de citas destacadas. (Cuándo no)En producto digital funcional y en tableros; sobre tipografía de cuerpo, porque compite con la lectura; y junto a una ventana de cielo en la misma pieza, porque duplica el recurso. (Especificaciones)Opacidad del cristal entre 60 y 80 % sobre el cielo base. Nunca sobre un fondo oscuro al 100 %, porque se pierde la lectura del cielo. Siempre con cielo real debajo, nunca con un degradado puro. El cristal filtra, nunca oculta.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
      "huella": "bf26215cbcfc5955",
      "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "45553a8aeeee56ca",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/elementos/graficos.html#enfasis": {
    "estado": "vigente",
    "id": "KYN-MRK-ILU-002",
-   "texto": "Elementos de énfasis Marcar lo importante sin gritar Cuatro recursos con nombre propio. Se usa uno por bloque; dos juntos compiten. (Resaltado celeste)Una pieza sin cielo no es una pieza Keyons.Para la idea que remata una sección. Cubre la palabra completa, sin redondeo. (Flecha de cambio)Soluciones integrales → un solo aliadoPara mostrar lo que se deja atrás frente a lo que se elige. Lo anterior va en gris, nunca tachado. (Semibold)Primero entendemos su operación; después construimos.Para las palabras clave que guían la lectura. Nunca en recuadros ni acordeones. (Itálica)Lo llamamos human in the loop: la persona siempre decide.Para palabras en otro idioma, títulos de obras, citas y voces de otros. Nunca para frases completas ni como énfasis general.",
+   "texto": "Énfasis visual Marcar lo importante sin gritar Cuatro recursos con nombre propio. Se usa uno por bloque; dos juntos compiten. (Resaltado celeste)Una pieza sin cielo no es una pieza Keyons.Para la idea que remata una sección. Cubre la palabra completa, sin redondeo. (Flecha de cambio)Soluciones integrales un solo aliadoPara mostrar lo que se deja atrás frente a lo que se elige. Lo anterior va en gris, nunca tachado. (Semibold)Primero entendemos su operación; después construimos.Para las palabras clave que guían la lectura. Nunca en recuadros ni acordeones. (Itálica)Lo llamamos human in the loop: la persona siempre decide.Para palabras en otro idioma, títulos de obras, citas y voces de otros. Nunca para frases completas ni como énfasis general. (Flechas)Las flechas utilizadas como iconos de señalización y cambio en materiales corporativos Keyons proceden del catálogo oficial de Iconografía. Su forma, proporciones y trazo mantienen la coherencia visual de la familia: KYN-MRK-ICO-005.Las flechas integradas en diagramas de información pueden seguir las convenciones del diagrama y la materia que representan.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
      "huella": "1fcd97b95df16bd0",
      "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "b0fcde49b94e4c70",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/elementos/graficos.html#fotografia": {
    "estado": "vigente",
    "id": "KYN-MRK-ILU-008",
-   "texto": "Fotografía Imágenes propias, reales y acreditadas Degradados hechos desde cero, cielos, naturaleza y personas. Cada imagen tiene un ID, no un nombre, y lleva quién la tomó, dónde y cuándo. 01/ 05Degradados KeyonsCielos hechos desde cero en el estudio, del amanecer a la galaxia. Son imágenes: se usan a su tamaño o menor.13 imágenes · Ver en la galeríaCielosFotografías del cielo tomadas por el equipo o por autores con crédito. El cielo ocupa el 70 % de la imagen o más.3 imágenes · Ver en la galeríaNaturalezaMontaña, bosque y paisaje: el lugar desde donde se mira el cielo, siempre como ancla y nunca como protagonista.2 imágenes · Ver en la galeríaPersonasRetratos y equipo en sesión, siempre con permiso y con luz natural.2 imágenes · Ver en la galeríaStock propioEscenas de trabajo propias para cuando hace falta contexto: manos, pantallas y espacios reales.2 imágenes · Ver en la galeríaLa regla 70/30 y el Diario de cielosCielo · 70 %Contexto · 30 %Nosara, Costa Rica · marzo 2026 · Keylin(Ubicación)Nosara, Guanacaste, Costa Rica(Fecha y hora)Marzo 2026 · 17:42(Autor)Keylin(Cielo)Atardecer(Composición)Cielo 70 % · contexto 30 % (La regla 70/30)El cielo, o el elemento protagonista, ocupa cerca del 70 % de la composición; el contexto, el 30 % restante. Si se reparte a mitades, el cielo deja de ser protagonista y se vuelve fondo. (Excepciones)Retratos corporativos, fotografía documental de un proyecto y las pocas piezas que exigen no tener cielo, siempre con aprobación. (Diario de cielos)El archivo oficial de fotografías de cielo. Cada entrada registra ubicación, fecha y hora, autor y fase del cielo, como en la ficha de arriba. Contexto humanoLuz y fondoFondos limpios e iluminación natural o de estudio, siempre consistente.Retratos corporativosFondo Azul Cielo #729BDD o un degradado de cielo, cuadrado o vertical, de pecho a cabeza.Fotografía documentalSiempre hay un elemento real, de preferencia humano.FormatoImágenes de píxeles: a su tamaño o menor. Para crecer sin límite, un cielo hecho con código de KYN-MRK-ILU-007.Archivo y gobernanza (Dónde vive)En un repositorio central con acceso para el equipo. Cada archivo se nombra KEY_FECHA_UBICACION_AUTOR_FASE.jpg. (Quién aprueba)Toda fotografía para material oficial pasa por uno de los Co-Editores Generales antes de salir. La galería completa, con filtros, tratamientos y descargas, está en Recursos. Cada fotografía Keyons tiene lugar, fecha y autor. Si no los tiene, no es Keyons.",
+   "texto": "Fotografía e imágenes Imágenes propias, reales y acreditadas Degradados hechos desde cero, cielos, naturaleza y personas. Cada imagen tiene un ID, no un nombre, y lleva quién la tomó, dónde y cuándo. 01/ 05Degradados KeyonsCielos hechos desde cero en el estudio, del amanecer a la galaxia. Son imágenes: se usan a su tamaño o menor.13 imágenes · Ver en la galeríaCielosFotografías del cielo tomadas por el equipo o por autores con crédito. El cielo ocupa el 70 % de la imagen o más.3 imágenes · Ver en la galeríaNaturalezaMontaña, bosque y paisaje: el lugar desde donde se mira el cielo, siempre como ancla y nunca como protagonista.2 imágenes · Ver en la galeríaPersonasRetratos y equipo en sesión, siempre con permiso y con luz natural.2 imágenes · Ver en la galeríaStock propioEscenas de trabajo propias para cuando hace falta contexto: manos, pantallas y espacios reales.2 imágenes · Ver en la galeríaLa regla 70/30 y el Diario de cielosCielo · 70 %Contexto · 30 %Nosara, Costa Rica · marzo 2026 · Keylin(Ubicación)Nosara, Guanacaste, Costa Rica(Fecha y hora)Marzo 2026 · 17:42(Autor)Keylin(Cielo)Atardecer(Composición)Cielo 70 % · contexto 30 % (La regla 70/30)El cielo, o el elemento protagonista, ocupa cerca del 70 % de la composición; el contexto, el 30 % restante. Si se reparte a mitades, el cielo deja de ser protagonista y se vuelve fondo. (Excepciones)Retratos corporativos, fotografía documental de un proyecto y las pocas piezas que exigen no tener cielo, siempre con aprobación. (Diario de cielos)El archivo oficial de fotografías de cielo. Cada entrada registra ubicación, fecha y hora, autor y fase del cielo, como en la ficha de arriba. Contexto humanoLuz y fondoFondos limpios e iluminación natural o de estudio, siempre consistente.Retratos corporativosFondo Azul Cielo #729BDD o un degradado de cielo, cuadrado o vertical, de pecho a cabeza.Fotografía documentalSiempre hay un elemento real, de preferencia humano.FormatoImágenes de píxeles: a su tamaño o menor. Para crecer sin límite, un cielo hecho con código de KYN-MRK-ILU-007.Archivo y gobernanza (Dónde vive)En un repositorio central con acceso para el equipo. Cada archivo se nombra KEY_FECHA_UBICACION_AUTOR_FASE.jpg. (Quién aprueba)Toda fotografía para material oficial pasa por uno de los Co-Editores Generales antes de salir. La galería completa, con filtros, tratamientos y descargas, está en Recursos. Cada fotografía Keyons tiene lugar, fecha y autor. Si no los tiene, no es Keyons.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1025,25 +1218,35 @@
      "aprobada": "2026-10-29",
      "huella": "0a123349e1b720b3",
      "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "4f8e7bc798bd405d",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/elementos/graficos.html#lineas": {
    "estado": "vigente",
    "id": "KYN-MRK-ILU-003",
-   "texto": "Líneas y cotas Líneas que ordenan, nunca decoran Todas las líneas del sistema son finas. Separan, señalan o miden; si no hacen ninguna de las tres, sobran. Divisor1 px, Gris Bruma. Separa filas y bloques. Divisor fuerte1 px, Azul Noche al 16 %. Abre una sección. Línea guíaPunteada. Une una nota con lo que señala. CotaAzul Cielo, con topes. Mide tamaños reales.",
+   "texto": "Líneas y medidas Líneas que ordenan, nunca decoran Todas las líneas del sistema son finas. Separan, señalan o miden; si no hacen ninguna de las tres, sobran. Divisor1 px, Gris Bruma. Separa filas y bloques. Divisor fuerte1 px, Azul Noche al 16 %. Abre una sección. Línea guíaPunteada. Une una nota con lo que señala. CotaAzul Cielo, con topes. Mide tamaños reales.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
      "huella": "42cfd3853f24c6f3",
      "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "a2ed7490f1a074cf",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/elementos/graficos.html#patrones": {
    "estado": "vigente",
    "id": "KYN-MRK-ILU-007",
-   "texto": "Patrones y texturas La repetición que construye atmósfera Patrones y texturas son recursos de fondo o de superficie, nunca protagonistas. Construyen atmósfera, nunca ruido. Familias de tramas lineales Trazos delgados, nítidos, continuos y uniformes. Las tramas lineales no llevan grano, desgaste, manchas ni difuminado. Las variantes que aún no tienen archivo oficial se identifican como propuesta. VerticalesEn uso · Marca y ExperienciaHorizontalesConfirmada · Cultura y OperacionesDiagonales ascendentesPropuestaDiagonales descendentesPropuestaDiagonales cruzadasPropuestaRetículaPropuestaCurvas concéntricasPropuesta Tramas e identidad de libros (Libro)TramaEstadoMarca y ExperienciaVerticalesConfirmadaSistema de DiseñoRetículaPropuesta pendiente de validaciónProducto e IngenieríaDiagonales cruzadasPropuesta pendiente de validaciónVentas y CrecimientoDiagonales en una direcciónPropuesta pendiente de validaciónExperiencia y Servicio al ClienteCurvas concéntricasPropuesta pendiente de validaciónCultura y OperacionesHorizontalesConfirmada Las tramas identifican libros principalmente en sus portadas y en el selector de Biblioteca. No se utilizan como fondos permanentes de los capítulos ni establecen nuevos colores principales para cada libro. Aplicación gráfica y rellenos Serie 1Serie 2Serie 3Serie 4 Estas muestras ilustran el recurso. Las reglas para representar categorías, series y datos medidos se desarrollarán en el capítulo 14, Datos, y en el Sistema de Diseño, sin duplicar aquí sus especificaciones. No utilizar una trama como único indicador de información sin el contexto o la identificación correspondiente. Tratamientos atmosféricos Composiciones basadas en cielo, luz, gradientes, efectos difusos y otros tratamientos de superficie. Son un inventario aparte del catálogo de tramas lineales: los efectos de grano o desenfoque no son requisitos de las tramas lineales. Arcos naturalesPor validarArcos concéntricos que nacen abajo, al centro, y se abren hacia arriba: la trayectoria del sol o la curva del horizonte. Imitan un fenómeno natural, no un gráfico técnico.Siempre nacen de la base y se abren hacia arriba.De 5 a 9 arcos, bien difuminados: menos no comunica movimiento; más satura.Colores de una sola fase del cielo, sin contornos: la transición es solo de tono.Sobre fondo oscuro o degradado de cielo, nunca sobre Blanco Keyons.(Cuándo se usa)Portadas aspiracionales, lanzamientos, encabezados de campañas emocionales y piezas manifiesto.Líneas de vientoPor validarEl paisaje visto a través del viento: trazos difusos que se estiran en una sola dirección. Es el patrón con más fuerza narrativa, porque hace visible la fuerza invisible de la marca.Trazos de color barridos por el viento, como una foto tomada en movimiento: los colores salen de una sola fase del cielo.Una sola dirección en toda la pieza, de izquierda a derecha y subiendo un 12 %.Densidad variable, con zonas densas y ralas, como el flujo real del viento. Nunca una trama rígida.En pantalla se mueven en ciclos de 15 a 30 s: apenas perceptible en corporativo, visible y continuo en expresivo.(Cuándo se usa)Fondos de sección web, encabezados de capítulo, portadas de blog y piezas donde el viento es protagonista.Franjas de cieloPor validarUn mismo cielo partido en franjas verticales, cada una desplazada a otra altura. El cielo se lee como ventanas que se abren una junto a otra.De 4 a 8 franjas del mismo ancho.Un solo cielo por pieza: cada franja lo desplaza, no lo cambia.Sin líneas ni separaciones: el corte lo marca el propio desplazamiento.En fondos amplios; nunca detrás de texto largo.(Cuándo se usa)Portadas, fondos de sección, separadores de presentación y piezas de redes.Formas de cieloPor validarColumnas de color con formas geométricas que se cortan en su borde: el cielo y la paleta convertidos en composición.Columnas del mismo ancho, cada una con un color de la paleta o un cielo.Tres formas: círculo, medio círculo y arco. Cada una ocupa todo el ancho de su columna, o más, y se corta en su borde.La forma contrasta con su columna: claro sobre oscuro u oscuro sobre claro, nunca dos tonos vecinos.Los degradados van dentro de las formas, son lineales y salen de una sola fase del cielo: sin brillos ni volumen.Las formas blancas son planas, en Blanco Keyons.Grano fino en toda la pieza; sin contornos ni sombras.(Cuándo se usa)Portadas de campaña, redes, separadores de presentación y papelería expresiva.EclipsePor validarUn plano liso y uno difuminado, divididos por una línea vertical; un círculo la cruza, mitad nítido y mitad disuelto. Es textura y patrón a la vez.Un solo color de la paleta con Blanco Keyons; nunca dos colores.El círculo siempre cruza la división: de un lado nítido, del otro disuelto en el difuminado.El difuminado se abre hacia afuera, como la luz que sale de una ventana.Grano de papel en toda la pieza.(Cuándo se usa)Portadas sobrias, aperturas de capítulo, invitaciones y piezas de una sola idea.Texturas de cieloRequiere revisión: su regla sobre IA contradice KYN-MRK-CON-006Cielos hechos con código, con grano, nubes y la transición de cada fase. Son el fondo por defecto de las piezas editoriales.Cubren cerca del 70 % de los usos de fondo.Se piden por su ID del catálogo de Recursos, por ejemplo KT-03.Una sola fase del cielo por pieza.Se producen con código a partir de foto propia; nunca generadas por IA desde cero.(Cuándo se usa)Fondos de documentos, portadas, presentaciones e interfaces.GranoPor validarRuido monocromático fino sobre fondos planos o degradados: le da alma editorial a la pieza. Es terminación, nunca protagonista.Opacidad de 15 a 20 %, nunca más.Siempre del color del fondo, nunca de colores.Grano fino, de 0,5 a 1,5 px según la resolución de salida.(Cuándo se usa)Sobre degradados, cielos lisos y fondos planos, en piezas impresas o digitales. (Formato)Las texturas y degradados de Recursos están hechos con código (SVG): no se pixelan a ningún tamaño, pesan poco y se adaptan a cualquier proporción. Por eso son los indicados para fondos web que cambian de tamaño, interfaces, pantallas de eventos e impresión en gran formato. Catálogo y archivos oficiales Los SVG oficiales y sus versiones permanecen en Recursos, Texturas y degradados. Este capítulo define los criterios de uso; Recursos almacena los archivos, las muestras exportables y sus metadatos. Cada recurso tiene su ID y se descarga en Recursos. Los patrones construyen atmósfera; nunca compiten con el contenido.",
+   "texto": "Tramas y texturas La repetición que construye atmósfera Patrones y texturas son recursos de fondo o de superficie, nunca protagonistas. Construyen atmósfera, nunca ruido. Familias de tramas lineales Azul Cielo es el color de referencia de las líneas que presentan las familias en este catálogo. Los recursos de un contexto específico pueden aplicar las variantes cromáticas documentadas para ese contexto. Trazos delgados, nítidos, continuos y uniformes. Las tramas lineales no llevan grano, desgaste, manchas ni difuminado. Las variantes que aún no tienen archivo oficial se identifican como propuesta. VerticalesEn uso · Marca y ExperienciaHorizontalesConfirmada · Cultura y OperacionesDiagonales ascendentesPropuestaDiagonales descendentesPropuestaDiagonales cruzadasPropuestaRetículaPropuestaCurvas concéntricasPropuesta Tramas e identidad de libros (Libro)TramaEstadoMarca y ExperienciaVerticalesConfirmadaSistema de DiseñoRetículaPropuesta pendiente de validaciónProducto e IngenieríaDiagonales cruzadasPropuesta pendiente de validaciónVentas y CrecimientoDiagonales en una direcciónPropuesta pendiente de validaciónExperiencia y Servicio al ClienteCurvas concéntricasPropuesta pendiente de validaciónCultura y OperacionesHorizontalesConfirmada Las tramas identifican libros principalmente en sus portadas y en el selector de Biblioteca. No se utilizan como fondos permanentes de los capítulos ni establecen nuevos colores principales para cada libro. Aplicación gráfica y rellenos Serie 1Serie 2Serie 3Serie 4 Se distinguen tres usos: tramas de identidad visual, tramas utilizadas como relleno gráfico y líneas que representan datos medidos. Este capítulo documenta las familias y su construcción; el capítulo Datos establece la selección cromática y las condiciones de lectura de los gráficos cuantitativos. Estas muestras ilustran el recurso. Las reglas para representar categorías, series y datos medidos se desarrollarán en el capítulo 13, Datos, y en el Sistema de Diseño, sin duplicar aquí sus especificaciones. No utilizar una trama como único indicador de información sin el contexto o la identificación correspondiente. Tratamientos atmosféricos Composiciones basadas en cielo, luz, gradientes, efectos difusos y otros tratamientos de superficie. Son un inventario aparte del catálogo de tramas lineales: los efectos de grano o desenfoque no son requisitos de las tramas lineales. Arcos naturalesPor validarArcos concéntricos que nacen abajo, al centro, y se abren hacia arriba: la trayectoria del sol o la curva del horizonte. Imitan un fenómeno natural, no un gráfico técnico.Siempre nacen de la base y se abren hacia arriba.De 5 a 9 arcos, bien difuminados: menos no comunica movimiento; más satura.Colores de una sola fase del cielo, sin contornos: la transición es solo de tono.Sobre fondo oscuro o degradado de cielo, nunca sobre Blanco Keyons.(Cuándo se usa)Portadas aspiracionales, lanzamientos, encabezados de campañas emocionales y piezas manifiesto.Líneas de vientoPor validarEl paisaje visto a través del viento: trazos difusos que se estiran en una sola dirección. Es el patrón con más fuerza narrativa, porque hace visible la fuerza invisible de la marca.Trazos de color barridos por el viento, como una foto tomada en movimiento: los colores salen de una sola fase del cielo.Una sola dirección en toda la pieza, de izquierda a derecha y subiendo un 12 %.Densidad variable, con zonas densas y ralas, como el flujo real del viento. Nunca una trama rígida.En pantalla se mueven en ciclos de 15 a 30 s: apenas perceptible en corporativo, visible y continuo en expresivo.(Cuándo se usa)Fondos de sección web, encabezados de capítulo, portadas de blog y piezas donde el viento es protagonista.Franjas de cieloPor validarUn mismo cielo partido en franjas verticales, cada una desplazada a otra altura. El cielo se lee como ventanas que se abren una junto a otra.De 4 a 8 franjas del mismo ancho.Un solo cielo por pieza: cada franja lo desplaza, no lo cambia.Sin líneas ni separaciones: el corte lo marca el propio desplazamiento.En fondos amplios; nunca detrás de texto largo.(Cuándo se usa)Portadas, fondos de sección, separadores de presentación y piezas de redes.Formas de cieloPor validarColumnas de color con formas geométricas que se cortan en su borde: el cielo y la paleta convertidos en composición.Columnas del mismo ancho, cada una con un color de la paleta o un cielo.Tres formas: círculo, medio círculo y arco. Cada una ocupa todo el ancho de su columna, o más, y se corta en su borde.La forma contrasta con su columna: claro sobre oscuro u oscuro sobre claro, nunca dos tonos vecinos.Los degradados van dentro de las formas, son lineales y salen de una sola fase del cielo: sin brillos ni volumen.Las formas blancas son planas, en Blanco Keyons.Grano fino en toda la pieza; sin contornos ni sombras.(Cuándo se usa)Portadas de campaña, redes, separadores de presentación y papelería expresiva.EclipsePor validarUn plano liso y uno difuminado, divididos por una línea vertical; un círculo la cruza, mitad nítido y mitad disuelto. Es textura y patrón a la vez.Un solo color de la paleta con Blanco Keyons; nunca dos colores.El círculo siempre cruza la división: de un lado nítido, del otro disuelto en el difuminado.El difuminado se abre hacia afuera, como la luz que sale de una ventana.Grano de papel en toda la pieza.(Cuándo se usa)Portadas sobrias, aperturas de capítulo, invitaciones y piezas de una sola idea.Texturas de cieloRequiere revisión: su regla sobre IA contradice KYN-MRK-CON-006Cielos hechos con código, con grano, nubes y la transición de cada fase. Son el fondo por defecto de las piezas editoriales.Cubren cerca del 70 % de los usos de fondo.Se piden por su ID del catálogo de Recursos, por ejemplo KT-03.Una sola fase del cielo por pieza.Se producen con código a partir de foto propia; nunca generadas por IA desde cero.(Cuándo se usa)Fondos de documentos, portadas, presentaciones e interfaces.GranoPor validarRuido monocromático fino sobre fondos planos o degradados: le da alma editorial a la pieza. Es terminación, nunca protagonista.Opacidad de 15 a 20 %, nunca más.Siempre del color del fondo, nunca de colores.Grano fino, de 0,5 a 1,5 px según la resolución de salida.(Cuándo se usa)Sobre degradados, cielos lisos y fondos planos, en piezas impresas o digitales. (Formato)Las texturas y degradados de Recursos están hechos con código (SVG): no se pixelan a ningún tamaño, pesan poco y se adaptan a cualquier proporción. Por eso son los indicados para fondos web que cambian de tamaño, interfaces, pantallas de eventos e impresión en gran formato. Catálogo y archivos oficiales Los SVG oficiales y sus versiones permanecen en Recursos, Texturas y degradados. Este capítulo define los criterios de uso; Recursos almacena los archivos, las muestras exportables y sus metadatos. Cada recurso tiene su ID y se descarga en Recursos. Los patrones construyen atmósfera; nunca compiten con el contenido.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1069,25 +1272,35 @@
      "aprobada": "2026-11-03",
      "huella": "99ebbf6d84ac12ca",
      "nota": "RV11: ILU-006 e ILU-007, TYP-006, LOG-010, ESP-005 y galería con lo pedido por el usuario el 2026-11-03"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "3938998f3ead2d3d",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/elementos/graficos.html#profundidad": {
    "estado": "vigente",
    "id": "KYN-MRK-ILU-009",
-   "texto": "Profundidad atmosférica Sombras que dan aire Sobre cielos u otras superficies expresivas se puede crear profundidad atmosférica con sombras difusas. (Propósito)Separar planos y dar profundidad a una composición expresiva. (Composición)Sombras amplias, suaves y difusas, sobre un cielo o una superficie de color. (Invariantes)Las sombras no se usan de forma indiscriminada en cada contenedor. (Pendiente de validación)La luz de borde y los reflejos alineados con la dirección de la iluminación son recursos experimentales. No se convierten en comportamiento global.",
+   "texto": "Luz y profundidad Sombras que dan aire Sobre cielos u otras superficies expresivas se puede crear profundidad atmosférica con sombras difusas. (Propósito)Separar planos y dar profundidad a una composición expresiva. (Composición)Sombras amplias, suaves y difusas, sobre un cielo o una superficie de color. (Invariantes)Las sombras no se usan de forma indiscriminada en cada contenedor. (Pendiente de validación)La luz de borde y los reflejos alineados con la dirección de la iluminación son recursos experimentales. No se convierten en comportamiento global.",
    "versiones": [
     {
      "aprobada": "2026-10-30",
      "huella": "f414a92390005c2e",
      "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "7b4cca2fa2f7730d",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/elementos/graficos.html#rafagas": {
    "estado": "vigente",
    "id": "KYN-MRK-ILU-006",
-   "texto": "Ráfagas El viento, liberado sobre blanco Estelas de degradado orgánico que fluyen sobre Blanco Keyons sin estar enmarcadas: el movimiento del viento en la fase activa del cielo. Son el recurso más expresivo del sistema. Ráfaga(01/06)OlaMediodíaRáfaga(02/06)FlujoAtardecerRáfaga(03/06)GiroAmanecerRáfaga(04/06)EstelaNocheRáfaga(05/06)PulsoGalaxiaRáfaga(06/06)CorrienteMediodíaPase el cursor por una ráfaga: una racha de viento acelera su polvo de color. (Qué son)Flujos difusos de color con textura granulada, dirección clara y forma serpenteante. No tienen bordes definidos: se disuelven en el blanco. Hay varios estilos (ola, flujo, giro, estela, pulso y corriente) y cada uno toma una fase del cielo. (Cuándo se usan)Portadas de reporte, historias y portadas de reels, contenido educativo, propuestas enterprise, piezas manifiesto, encabezados animados y piezas de modo expresivo. (Cuándo no)En interfaz de producto, tableros, documentos legales y comunicados corporativos sobrios. Tampoco sobre fondos de color: siempre sobre Blanco Keyons o Crema. ConstrucciónColorUna sola fase del cielo por ráfaga: Amanecer, Atardecer, Noche o Galaxia. Nunca una mezcla de fases.TexturaGrano fino al 15 a 20 % de opacidad, siempre.FormaSerpenteante y orgánica. Nunca geométrica ni un círculo perfecto.DirecciónClara y legible: diagonal, vertical o curva. Nunca estática ni centrada.DifuminadoLos bordes se disuelven en el Blanco Keyons sin un corte visible.AnimaciónMovimiento lento y continuo en la dirección del viento, en ciclos de 20 a 30 s. Orgánico, nunca mecánico.Con tipografíaPuede acompañarse de texto vertical en los bordes, al estilo revista. Se ubica en el blanco que rodea, nunca sobre la zona densa. La ráfaga es el viento visible: libera el cielo del marco.",
+   "texto": "Ráfagas de color El viento, liberado sobre blanco Estelas de degradado orgánico que fluyen sobre Blanco Keyons sin estar enmarcadas: el movimiento del viento en la fase activa del cielo. Son el recurso más expresivo del sistema. Ráfaga(01/06)OlaMediodíaRáfaga(02/06)FlujoAtardecerRáfaga(03/06)GiroAmanecerRáfaga(04/06)EstelaNocheRáfaga(05/06)PulsoGalaxiaRáfaga(06/06)CorrienteMediodíaPase el cursor por una ráfaga: una racha de viento acelera su polvo de color. (Qué son)Flujos difusos de color con textura granulada, dirección clara y forma serpenteante. No tienen bordes definidos: se disuelven en el blanco. Hay varios estilos (ola, flujo, giro, estela, pulso y corriente) y cada uno toma una fase del cielo. (Cuándo se usan)Portadas de reporte, historias y portadas de reels, contenido educativo, propuestas enterprise, piezas manifiesto, encabezados animados y piezas de modo expresivo. (Cuándo no)En interfaz de producto, tableros, documentos legales y comunicados corporativos sobrios. Tampoco sobre fondos de color: siempre sobre Blanco Keyons o Crema. ConstrucciónColorUna sola fase del cielo por ráfaga: Amanecer, Atardecer, Noche o Galaxia. Nunca una mezcla de fases.TexturaGrano fino al 15 a 20 % de opacidad, siempre.FormaSerpenteante y orgánica. Nunca geométrica ni un círculo perfecto.DirecciónClara y legible: diagonal, vertical o curva. Nunca estática ni centrada.DifuminadoLos bordes se disuelven en el Blanco Keyons sin un corte visible.AnimaciónMovimiento lento y continuo en la dirección del viento, en ciclos de 20 a 30 s. Orgánico, nunca mecánico.Con tipografíaPuede acompañarse de texto vertical en los bordes, al estilo revista. Se ubica en el blanco que rodea, nunca sobre la zona densa. La ráfaga es el viento visible: libera el cielo del marco.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1098,6 +1311,11 @@
      "aprobada": "2026-11-03",
      "huella": "c0c2cf08ed5a70cc",
      "nota": "RV11: ILU-006 e ILU-007, TYP-006, LOG-010, ESP-005 y galería con lo pedido por el usuario el 2026-11-03"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "16786554deac09e1",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
@@ -1121,7 +1339,7 @@
   "fundamentos/elementos/graficos.html#vinetas": {
    "estado": "vigente",
    "id": "KYN-MRK-ILU-001",
-   "texto": "Viñetas de marca Pequeños módulos, firma constante Las viñetas son las figuras que acompañan listas y enumeraciones: pequeñas pero constantes, aparecen en cada sección, cada tarjeta y cada vertical de servicio. Funcionan con dos ritmos independientes: la forma alterna siempre y el color varía según el modo. A · Círculo B · Cuadrado (Color) Azul CieloSalmón TierraSalmón AtardecerAzul NocheBlanco Keyons (Modo)Fondo claroModo nocturnoCorporativoAzul Cielo y Salmón TierraAzul Cielo y Salmón AtardecerExpresivoLos tres coloresLos tres coloresUn solo colorSolo Azul CieloSolo Salmón TierraSolo Azul CieloSolo Salmón Atardecer (Dos formas)La viñeta A es un círculo con un vacío cuadrado; la B, un cuadrado con un vacío circular: el interior curvo y el exterior recto en miniatura. (Por defecto)La secuencia alterna círculo y cuadrado y siempre abre con el círculo. El color por defecto es Azul Cielo, con Salmón Tierra como alternancia. (Con tres colores)Los colores rotan en secuencia fija: Azul Cielo, Salmón Tierra y Salmón Atardecer. La forma alterna por su cuenta, así que nunca se repite la misma combinación seguida. (Color o Azul Noche)Viñetas de colorPiezas que deben destacar: presentaciones, web, redes y volantes.Azul NocheDocumentación larga: manuales, informes, guías y propuestas extensas. Este manual las usa así.Blanco KeyonsEn modo nocturno, el mismo criterio invertido. (Un solo color)Para listas cortas, de hasta cuatro ítems. Sobre claro, Azul Cielo o Salmón Tierra; en modo nocturno, Azul Cielo o Salmón Atardecer. La forma alterna igual: da ritmo sin romper la unidad del color. (Interior)El vacío deja ver el fondo: Blanco Keyons sobre claro y Azul Noche sobre oscuro. (Tamaño)16 a 20 px junto al texto, alineadas al centro de la primera línea. Abre siempre la secuencia Segunda en la secuencia Por defecto en lo expresivo y en modo nocturno Documentos largos y manuales, con el vacío en Blanco Keyons En modo nocturno, el mismo criterio invertido",
+   "texto": "Viñetas y marcadores Pequeños módulos, firma constante Las viñetas son las figuras que acompañan listas y enumeraciones: pequeñas pero constantes, aparecen en cada sección, cada tarjeta y cada vertical de servicio. Funcionan con dos ritmos independientes: la forma alterna siempre y el color varía según el modo. A · Círculo B · Cuadrado (Color) Azul CieloSalmón TierraSalmón AtardecerAzul NocheBlanco Keyons (Modo)Fondo claroModo nocturnoCorporativoAzul Cielo y Salmón TierraAzul Cielo y Salmón AtardecerExpresivoLos tres coloresLos tres coloresUn solo colorSolo Azul CieloSolo Salmón TierraSolo Azul CieloSolo Salmón Atardecer (Dos formas)La viñeta A es un círculo con un vacío cuadrado; la B, un cuadrado con un vacío circular: el interior curvo y el exterior recto en miniatura. (Por defecto)La secuencia alterna círculo y cuadrado y siempre abre con el círculo. El color por defecto es Azul Cielo, con Salmón Tierra como alternancia. (Con tres colores)Los colores rotan en secuencia fija: Azul Cielo, Salmón Tierra y Salmón Atardecer. La forma alterna por su cuenta, así que nunca se repite la misma combinación seguida. (Color o Azul Noche)Viñetas de colorPiezas que deben destacar: presentaciones, web, redes y volantes.Azul NocheDocumentación larga: manuales, informes, guías y propuestas extensas. Este manual las usa así.Blanco KeyonsEn modo nocturno, el mismo criterio invertido. (Un solo color)Para listas cortas, de hasta cuatro ítems. Sobre claro, Azul Cielo o Salmón Tierra; en modo nocturno, Azul Cielo o Salmón Atardecer. La forma alterna igual: da ritmo sin romper la unidad del color. (Interior)El vacío deja ver el fondo: Blanco Keyons sobre claro y Azul Noche sobre oscuro. (Tamaño)16 a 20 px junto al texto, alineadas al centro de la primera línea. Abre siempre la secuencia Segunda en la secuencia Por defecto en lo expresivo y en modo nocturno Documentos largos y manuales, con el vacío en Blanco Keyons En modo nocturno, el mismo criterio invertido",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1137,6 +1355,11 @@
      "aprobada": "2026-11-02",
      "huella": "a5409ad8584900bf",
      "nota": "commit 2294087"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "cdfa19ec55d04af1",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
@@ -1187,7 +1410,7 @@
   "fundamentos/forma/espacio.html#espaciado": {
    "estado": "vigente",
    "id": "KYN-MRK-ESP-003",
-   "texto": "Espaciado Todo se mide en múltiplos de 4 La escala de espaciado utiliza incrementos de 4 px para organizar márgenes, separaciones y rellenos de forma consistente. Sus valores son referencias para construir relaciones espaciales claras. La escala no sustituye las necesidades específicas de tipografía, bordes, adaptación responsive o representación gráfica. s14 pxEntre ícono y su bordes28 pxÍcono y textos312 pxEntre elementos de una listas416 pxDentro de controless520 pxs624 pxDentro de tarjetass832 pxEntre bloques relacionadoss1040 pxs1248 pxEntre componentess1664 pxEntre grupos de contenidos2080 pxs2496 pxEntre seccioness32128 pxAire de sección (Criterio de uso)Las separaciones se eligen según la relación entre los elementos y la densidad necesaria. No es obligatorio utilizar grandes espacios en todos los contextos ni comprimir una composición para mostrar más información.Cuando la escala no resuelva una necesidad técnica justificada, la excepción debe documentarse en el sistema correspondiente.",
+   "texto": "Sistema de espaciado Todo se mide en múltiplos de 4 La escala de espaciado utiliza incrementos de 4 px para organizar márgenes, separaciones y rellenos de forma consistente. Sus valores son referencias para construir relaciones espaciales claras. La escala no sustituye las necesidades específicas de tipografía, bordes, adaptación responsive o representación gráfica. s14 pxEntre ícono y su bordes28 pxÍcono y textos312 pxEntre elementos de una listas416 pxDentro de controless520 pxs624 pxDentro de tarjetass832 pxEntre bloques relacionadoss1040 pxs1248 pxEntre componentess1664 pxEntre grupos de contenidos2080 pxs2496 pxEntre seccioness32128 pxAire de sección (Criterio de uso)Las separaciones se eligen según la relación entre los elementos y la densidad necesaria. No es obligatorio utilizar grandes espacios en todos los contextos ni comprimir una composición para mostrar más información.Cuando la escala no resuelva una necesidad técnica justificada, la excepción debe documentarse en el sistema correspondiente.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1198,13 +1421,18 @@
      "aprobada": "2026-11-03",
      "huella": "c98ae58aa528215d",
      "nota": "RV10: CON-006, TYP 8.8, ESP-001 a 007, CMP-004, VIS-001 a 016 e ILU-007 con los textos enviados por el usuario; leyendas de demostraciones de VIS propuestas por IA"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "f7bcb780e30a8d0a",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/forma/espacio.html#esquinas": {
    "estado": "vigente",
    "id": "KYN-MRK-ESP-001",
-   "texto": "Regla de esquinas Exterior recto, interior curvo La geometría de Keyons distingue entre contenedores independientes y conjuntos visuales. Un contenedor aislado utiliza esquinas rectas como tratamiento base. Cuando varios elementos forman un conjunto reconocible, pueden combinarse esquinas exteriores rectas e interiores curvas para expresar su relación. (Fila)En un conjunto horizontal, las esquinas exteriores son rectas y las interiores pueden curvarse cuando refuerzan la agrupación.(Pila)Se aplica el mismo principio en vertical, respetando los límites exteriores del conjunto.(Cuadrícula)La combinación de esquinas responde a la organización visual. No todas las cuadrículas requieren curvas interiores. (Un contenedor)Las cuatro esquinas permanecen rectas cuando el elemento se presenta de forma independiente. (Botones y badges)Los botones mantienen una geometría curva, diferenciada de los contenedores. Las variantes, estados y transiciones funcionales se especifican en el Sistema de Diseño.Los badges se rigen por su función y variante documentada, sin asumir automáticamente una geometría universal para todas las etiquetas.",
+   "texto": "Lenguaje geométrico Exterior recto, interior curvo La geometría de Keyons distingue entre contenedores independientes y conjuntos visuales. Un contenedor aislado utiliza esquinas rectas como tratamiento base. Cuando varios elementos forman un conjunto reconocible, pueden combinarse esquinas exteriores rectas e interiores curvas para expresar su relación. (Fila)En un conjunto horizontal, las esquinas exteriores son rectas y las interiores pueden curvarse cuando refuerzan la agrupación.(Pila)Se aplica el mismo principio en vertical, respetando los límites exteriores del conjunto.(Cuadrícula)La combinación de esquinas responde a la organización visual. No todas las cuadrículas requieren curvas interiores. (Un contenedor)Las cuatro esquinas permanecen rectas cuando el elemento se presenta de forma independiente. (Botones y badges)Los botones mantienen una geometría curva, diferenciada de los contenedores. Las variantes, estados y transiciones funcionales se especifican en el Sistema de Diseño.Los badges se rigen por su función y variante documentada, sin asumir automáticamente una geometría universal para todas las etiquetas.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1215,6 +1443,11 @@
      "aprobada": "2026-11-03",
      "huella": "940f7dec0ab0280d",
      "nota": "RV10: CON-006, TYP 8.8, ESP-001 a 007, CMP-004, VIS-001 a 016 e ILU-007 con los textos enviados por el usuario; leyendas de demostraciones de VIS propuestas por IA"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "44f83dc4a34b390d",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
@@ -1243,7 +1476,7 @@
   "fundamentos/forma/espacio.html#radios": {
    "estado": "vigente",
    "id": "KYN-MRK-ESP-002",
-   "texto": "Radios El radio responde a la función Los radios se seleccionan según la función del elemento, su tamaño y su relación con otros componentes. El tamaño puede orientar la elección, pero no determina automáticamente que una superficie grande deba tener esquinas más redondeadas. r-micro3 px (Tamaño de referencia)Menos de 24 px(Se usa en)Barras de datos, chips internos, marcas pequeñas r-control12 px (Tamaño de referencia)24 a 64 px(Se usa en)Campos, fichas de color, segmentos r-component18 px (Tamaño de referencia)64 a 200 px(Se usa en)Tarjetas y recuadros de contenido r-card30 px (Tamaño de referencia)200 a 400 px(Se usa en)Paneles y tarjetas grandes r-block50 px (Tamaño de referencia)Más de 400 px(Se usa en)Secciones y bloques de página (Anidados)Cuando un contenedor curvo contiene otro elemento, los radios y el espacio interior deben mantener una relación visual coherente, evitando encuentros irregulares.La fórmula del radio exterior menos el relleno puede utilizarse como referencia geométrica, pero debe comprobarse visualmente y no aplicarse de manera automática en todos los casos. (En código)Siempre con su variable: var(--r-card), nunca con un número suelto.",
+   "texto": "Radios y curvaturas El radio responde a la función Los radios se seleccionan según la función del elemento, su tamaño y su relación con otros componentes. El tamaño puede orientar la elección, pero no determina automáticamente que una superficie grande deba tener esquinas más redondeadas. r-micro3 px (Tamaño de referencia)Menos de 24 px(Se usa en)Barras de datos, chips internos, marcas pequeñas r-control12 px (Tamaño de referencia)24 a 64 px(Se usa en)Campos, fichas de color, segmentos r-component18 px (Tamaño de referencia)64 a 200 px(Se usa en)Tarjetas y recuadros de contenido r-card30 px (Tamaño de referencia)200 a 400 px(Se usa en)Paneles y tarjetas grandes r-block50 px (Tamaño de referencia)Más de 400 px(Se usa en)Secciones y bloques de página (Anidados)Cuando un contenedor curvo contiene otro elemento, los radios y el espacio interior deben mantener una relación visual coherente, evitando encuentros irregulares.La fórmula del radio exterior menos el relleno puede utilizarse como referencia geométrica, pero debe comprobarse visualmente y no aplicarse de manera automática en todos los casos. (En código)Siempre con su variable: var(--r-card), nunca con un número suelto.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1254,6 +1487,11 @@
      "aprobada": "2026-11-03",
      "huella": "c9d6f28b6acc4227",
      "nota": "RV10: CON-006, TYP 8.8, ESP-001 a 007, CMP-004, VIS-001 a 016 e ILU-007 con los textos enviados por el usuario; leyendas de demostraciones de VIS propuestas por IA"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "24b66edd9975d1ea",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
@@ -1271,6 +1509,18 @@
      "aprobada": "2026-11-03",
      "huella": "4ceaa821fe0c2fc0",
      "nota": "RV10: CON-006, TYP 8.8, ESP-001 a 007, CMP-004, VIS-001 a 016 e ILU-007 con los textos enviados por el usuario; leyendas de demostraciones de VIS propuestas por IA"
+    }
+   ]
+  },
+  "fundamentos/forma/espacio.html#vis-006": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-006",
+   "texto": "Geometría genérica La geometría Keyons, no un radio para todo (Problema)Todo redondeado por igual, como en cualquier plantilla. (Criterio)La geometría de los elementos debe responder a su función y relación compositiva.No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad.En las composiciones de Keyons se aplica el principio de contenedores individuales rectos y agrupaciones con combinaciones justificadas de esquinas rectas y curvas. Cielo propioVer capítulo(Uso incorrecto)El mismo radio en todo Imagen, contenedor y botón con idéntico redondeo. Cielo propioVer capítulo(Alternativa mejor)La imagen y el texto forman un conjunto: exterior recto, interior curvo. El botón conserva su geometría curva. ExcepcionesLos botones conservan su geometría curva. Las variantes y estados funcionales se especifican en el Sistema de Diseño. Las etiquetas y badges utilizan la geometría correspondiente a su función y variante documentada.RelaciónKYN-MRK-ESP-001 (Regla de esquinas) y KYN-MRK-ESP-002 (Radios).",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "d80cfec9feece6d6",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
@@ -1353,6 +1603,18 @@
      "aprobada": "2026-10-29",
      "huella": "b9e447cf2a3c60ce",
      "nota": "commit c344d67"
+    }
+   ]
+  },
+  "fundamentos/iconografia/iconos.html#vis-008": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-008",
+   "texto": "Iconografía de relleno Un ícono tiene que ayudar a entender (Problema)Íconos que decoran títulos o textos sin orientar ni explicar nada. (Criterio)No introducir íconos únicamente para decorar textos o títulos.Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada. Nuestra visiónCrecimientoProcesos(Uso incorrecto)Un ícono genérico junto a cada titular Una bombilla, un cohete o un engranaje que no dicen nada del contenido. Descargar PDFAcciónVigenteEstadoPlantilla de propuestaCategoría(Alternativa mejor)El ícono identifica una acción, un estado o una categoría. ExcepcionesÍconos ilustrativos en estados vacíos y piezas de marca, según su familia.RelaciónKYN-MRK-ICO-002 (Familias y variantes) y KYN-MRK-ICO-003 (Uso).",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "f0886b04c10db1f4",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
@@ -1499,7 +1761,7 @@
   "fundamentos/tipografia/sistema.html#escala": {
    "estado": "vigente",
    "id": "KYN-MRK-TYP-002",
-   "texto": "Escala y jerarquía Nueve niveles, una jerarquía flexible La escala proporciona referencias para organizar titulares, textos, etiquetas y contenido de lectura. No es necesario utilizar todos los niveles en una misma pieza. La jerarquía se construye mediante tamaño, peso, posición, contraste y espacio, seleccionando únicamente las diferencias que faciliten la comprensión. Display52 a 128pxTASA 500 Interlineado 0.93 · Espaciado −4 % Título de sección30 a 44pxJakarta 500 Interlineado 1.1 · Espaciado −3 % Subtítulo22 a 27pxJakarta 500 Interlineado 1.2 · Espaciado −2 % Título menor17 a 18pxJakarta 600 Interlineado 1.3 · Espaciado −1.5 % Entrada18 a 20pxJakarta 400 Interlineado 1.55 · Espaciado 0 Cuerpo16 a 17pxJakarta 400 Interlineado 1.65 · Espaciado 0 Pequeño14 a 15pxJakarta 400 Interlineado 1.6 · Espaciado 0 Rótulo13pxJakarta 500 Interlineado 1.4 · Espaciado 0 Kicker13pxTASA 500 · mayúsculas Interlineado 1 · Espaciado +8 % (Espaciado)Los valores de tracking negativo incluidos en los niveles de titulares son referencias pendientes de validación, no ajustes globales obligatorios. Los cuerpos de lectura conservan el espaciado de letras necesario para facilitar la comprensión. (Criterio de aplicación)No aumentar automáticamente el tamaño de un texto por su importancia normativa. El tamaño debe corresponder a su función dentro de la composición. Los párrafos de apoyo deben mantenerse visualmente subordinados a las declaraciones principales.",
+   "texto": "Escala y jerarquía Nueve niveles, una jerarquía flexible La escala tipográfica organiza las relaciones entre títulos, declaraciones, subtítulos y textos de lectura. Cada composición parte de una combinación coherente de tamaños, pesos y espacios. Keyons utiliza jerarquías tradicionales e invertidas, junto con modelos de lectura que se adaptan al contenido y al medio. Display52 a 128pxTASA 500 Interlineado 0.93 · Espaciado −4 % Título de sección30 a 44pxJakarta 500 Interlineado 1.1 · Espaciado −3 % Subtítulo22 a 27pxJakarta 500 Interlineado 1.2 · Espaciado −2 % Título menor17 a 18pxJakarta 600 Interlineado 1.3 · Espaciado −1.5 % Entrada18 a 20pxJakarta 400 Interlineado 1.55 · Espaciado 0 Cuerpo16 a 17pxJakarta 400 Interlineado 1.65 · Espaciado 0 Pequeño14 a 15pxJakarta 400 Interlineado 1.6 · Espaciado 0 Rótulo13pxJakarta 500 Interlineado 1.4 · Espaciado 0 Kicker13pxTASA 500 · mayúsculas Interlineado 1 · Espaciado +8 % Dos jerarquías Quiénes somosUna empresa de ingeniería operativa que integra inteligencia artificial a los equipos.Primero entendemos su operación; después construimos con su equipo.(Jerarquía tradicional)El título principal adquiere protagonismo mediante tamaño, posición o peso. Los niveles siguientes acompañan esa jerarquía de forma progresiva. Quiénes somosUna empresa de ingeniería operativa que integra inteligencia artificial a los equipos.Primero entendemos su operación; después construimos con su equipo.(Jerarquía editorial invertida)Un título contextual de menor tamaño introduce la composición. Una declaración de mayor escala desarrolla la idea protagonista, con una tonalidad secundaria de contraste adecuado cuando corresponde. La estructura semántica conserva un recorrido de lectura lógico y accesible. Dos modelos de lectura (Lectura prolongada)Modelo para documentos, informes, artículos y contenidos extensos. Organizar las secciones mediante títulos, párrafos, notas y recursos complementarios con una jerarquía estable.Referencias digitales iniciales V1: cuerpo de 16 a 18 px, interlineado de 1,5 a 1,65, longitud de línea de aproximadamente 55 a 75 caracteres y alineación inicial a la izquierda. (Síntesis modular)Modelo para propuestas, presentaciones, brochures e informes ejecutivos. Utilizar retículas, agrupaciones y títulos equivalentes para comparar información relacionada, y distribuir el contenido según su significado y volumen.Los modelos de lectura prolongada y síntesis modular pueden combinarse con las jerarquías tradicional e invertida. Configuraciones de referencia V1 (Nivel)Institucional tradicionalEditorial invertidaExpresivaDisplay52 px80 pxTítulo contextual20 pxDeclaración protagonista44 pxTítulo de sección36 px44 pxSubtítulo24 px27 pxEntrada o apoyo20 px18 px20 pxCuerpo16 px16 px16 px Propuesta V1. Estas configuraciones se presentan como referencias para explorar y validar con las fuentes reales. Reglas de aplicación Seleccionar una configuración coherente como punto de partida.Ajustar los niveles según su función.Mantener diferencias perceptibles entre información protagonista y secundaria.Conservar tamaños de lectura adecuados al contenido extenso.Evaluar variaciones expresivas según el contexto.Verificar la composición en el formato final. (Espaciado)Los valores de tracking negativo incluidos en los niveles de titulares son referencias pendientes de validación, no ajustes globales obligatorios. Los cuerpos de lectura conservan el espaciado de letras necesario para facilitar la comprensión. (Criterio de aplicación)No aumentar automáticamente el tamaño de un texto por su importancia normativa. El tamaño debe corresponder a su función dentro de la composición. Los párrafos de apoyo deben mantenerse visualmente subordinados a las declaraciones principales.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1510,37 +1772,64 @@
      "aprobada": "2026-11-02",
      "huella": "125b28b6f005e718",
      "nota": "RV9: CON-006 en párrafo, COL-002/004/006/010/011/012/014/015, LOG-007/008/010, TYP-002/006 con los textos enviados por el usuario"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "6df48946befa172a",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/tipografia/sistema.html#familias": {
    "estado": "vigente",
    "id": "KYN-MRK-TYP-001",
-   "texto": "Familias Dos familias, una sola voz Plus Jakarta Sans lleva el peso de la lectura; TASA Orbiter aparece cuando la tipografía es protagonista. Las dos son geométricas con sensibilidad humanista, por eso conviven sin chocar. Ag (01 · Principal) Plus Jakarta Sans Títulos, cuerpo de texto, interfaz y documentos. Google Fonts, licencia libre. Regular400 Medium500 Semibold600 Bold700 Italic400 ABCDEFGHIJKLMNÑOPQRSTUVWXYZ abcdefghijklmnñopqrstuvwxyz 0123456789 ¿?¡!«»&@ Ag (02 · Protagonista) TASA Orbiter Display, portadas y kickers. Aparece en momentos puntuales, nunca como tipografía general. Regular400 Medium500 Semibold600 Bold700 ABCDEFGHIJKLMNÑOPQRSTUVWXYZ abcdefghijklmnñopqrstuvwxyz 0123456789 ¿?¡!«»&@ 400 500 600 700 400 400 500 600 700",
+   "texto": "Familias tipográficas Dos familias, una sola voz Plus Jakarta Sans lleva el peso de la lectura; TASA Orbiter aparece cuando la tipografía es protagonista. Las dos son geométricas con sensibilidad humanista, por eso conviven sin chocar. Ag (01 · Principal) Plus Jakarta Sans Lectura, documentos, explicaciones, información funcional y cifras operativas. Google Fonts, licencia libre. Regular400 Medium500 Semibold600 Bold700 Italic400 ABCDEFGHIJKLMNÑOPQRSTUVWXYZ abcdefghijklmnñopqrstuvwxyz 0123456789 ¿?¡!«»&@ Ag (02 · Protagonista) TASA Orbiter Titulares protagonistas, números editoriales y momentos expresivos. Regular400 Medium500 Semibold600 Bold700 ABCDEFGHIJKLMNÑOPQRSTUVWXYZ abcdefghijklmnñopqrstuvwxyz 0123456789 ¿?¡!«»&@ (Alcance)Tipografía regula el lenguaje tipográfico de Keyons en presentaciones, documentos, informes, brochures, publicaciones editoriales, redes sociales, campañas y web corporativa.El Sistema de Diseño desarrolla los tokens tipográficos de interfaces, componentes, dashboards y formularios. Los productos con identidad visual de cliente aplican las fuentes y escalas correspondientes a su marca. 400 500 600 700 400 400 500 600 700",
    "versiones": [
     {
      "aprobada": "2026-10-29",
      "huella": "aa26d0e9eef69b8a",
      "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "0355481e1deafa8d",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/tipografia/sistema.html#funcion": {
    "estado": "vigente",
    "id": "KYN-MRK-TYP-007",
-   "texto": "Uso por función Cada familia, su función Se conservan las dos familias oficiales. TASA Orbiter da presencia; Plus Jakarta Sans sostiene la lectura y la operación. TitularTASA OrbiterTitulares editoriales de fuerte presencia y numeración monumental. LecturaPlus Jakarta SansSubtítulos, lectura prolongada, navegación, datos y controles funcionales. 39Números expresivosTASA Orbiter, cuando el número actúa como recurso editorial. 1.240,50Números operativosPlus Jakarta Sans, con cifras tabulares cuando corresponda: tablas, datos y controles.",
+   "texto": "Uso por función Cada familia, su función Se conservan las dos familias oficiales. TASA Orbiter da presencia; Plus Jakarta Sans sostiene la lectura y la operación. TitularTitulares protagonistasTASA Orbiter. LecturaLecturaPlus Jakarta Sans. 39Cifras editorialesTASA Orbiter. 1.240,50Cifras operativasPlus Jakarta Sans. En valores comparables, utilizar cifras tabulares cuando la fuente las admita y la alineación se beneficie de ello.",
    "versiones": [
     {
      "aprobada": "2026-10-30",
      "huella": "0c6ffb85bb0bbab1",
      "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "c682353de74ee511",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "fundamentos/tipografia/sistema.html#impreso": {
+   "estado": "sin ID",
+   "id": null,
+   "texto": "Tipografía para impresión El tamaño depende del soporte Referencias V1 para piezas impresas y proyectadas. Los tamaños definitivos se validan en cada soporte. (Soporte)Referencia V1VerificaciónDocumentos impresosCuerpo inicial de 11 a 12 ptPrueba impresa a tamaño realPresentacionesCuerpo de referencia de 20 a 28 ptVerificación específica de los tamaños cercanos a 18 ptBrochuresEscala adecuada al formato físico o digitalSegún la distancia de lectura Propuesta V1, pendiente de validación por soporte.",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "694caa614625a4b4",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/tipografia/sistema.html#kickers": {
    "estado": "vigente",
    "id": "KYN-MRK-TYP-005",
-   "texto": "Kickers La etiqueta que anuncia El kicker ubica al lector antes del título. Es la única excepción en la que TASA Orbiter baja a tamaño pequeño. Capítulo 05 · Voz (Ícono)Siempre a la izquierda y nunca se repite a la derecha. La estrella de marca es el ícono por defecto. (Letra)TASA Orbiter 500, en mayúsculas, con espaciado de +8 %. (Punto medio)Separa niveles. Sin punto final. (Tamaño real · 13 px)Capítulo 05 · Voz",
+   "texto": "Etiquetas de contexto Etiquetas que aportan contexto Las etiquetas editoriales identifican categorías, ubicaciones, versiones, estados o clasificaciones que complementan un título. Su uso aporta información adicional y facilita la orientación del lector. Capítulo 01 · ADNQuiénes somosUna empresa de ingeniería operativa que integra inteligencia artificial a los equipos.La etiqueta ubica el contenido dentro de la estructura del manual. (Criterios)Utilizar una etiqueta cuando aporta contexto.Seleccionar la tipografía según la función y el tratamiento editorial.Ajustar el espaciado de acuerdo con las reglas tipográficas correspondientes.Incorporar símbolos cuando contribuyan al significado.Utilizar separadores para organizar metadatos relacionados.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1551,25 +1840,35 @@
      "aprobada": "2026-10-29",
      "huella": "10f2f5382bb448d9",
      "nota": "commit c344d67"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "400db4cb671f227e",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/tipografia/sistema.html#probador": {
    "estado": "vigente",
    "id": "KYN-MRK-TYP-003",
-   "texto": "Probador Escriba y compare Display Título Entrada Cuerpo Kicker El mismo cielo, nadie lo ve igual TASA Orbiter 500 · 52 a 128 px · −4 %",
+   "texto": "Probador tipográfico Escriba y compare Display Título Entrada Cuerpo Etiqueta El mismo cielo, nadie lo ve igual TASA Orbiter 500 · 52 a 128 px (Comparar configuraciones V1 · propuesta)Institucional tradicionalEditorial invertidaExpresiva",
    "versiones": [
     {
      "aprobada": "2026-10-29",
      "huella": "d3dfdc2e3e30e323",
      "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "ff16cdddba38a7a6",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/tipografia/sistema.html#reglas": {
    "estado": "vigente",
    "id": "KYN-MRK-TYP-006",
-   "texto": "Reglas de uso Siete criterios de aplicación La tipografía debe organizar la lectura, transmitir identidad y adaptarse a las necesidades del contenido. 01Jerarquía con criterio02Interlineado adecuado03Espaciado selectivo04Énfasis con moderación05Números que se leen06Expresión tipográfica07Adaptación y accesibilidadCuatro colores, una jerarquíaAzul Noche y Blanco Keyons son la base neutra.Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio.La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.Nueve niveles, una jerarquíaLa escala organiza titulares, textos y etiquetas.Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.CieloÍndiceEl tracking se ajusta según la fuente, el tamaño y la función del texto.No se aplican valores negativos o positivos de forma indiscriminada.Primero entendemos su operación; después construimos.El peso semibold permite destacar información relevante.No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.1 250.0098.4012 004.10Las cifras operativas utilizan Plus Jakarta Sans.En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.GalaxiaTASA Orbiter se reserva para titulares, portadas y cifras con intención editorial.Los textos prolongados y controles funcionales priorizan la legibilidad.AaAaAaLas composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.",
+   "texto": "Criterios de aplicación Siete criterios de aplicación La tipografía debe organizar la lectura, transmitir identidad y adaptarse a las necesidades del contenido. 01Jerarquía con criterio02Interlineado adecuado03Espaciado selectivo04Énfasis con moderación05Números que se leen06Expresión tipográfica07Adaptación y accesibilidadTradicionalQuiénes somosIngeniería operativa con inteligencia artificial.InvertidaQuiénes somosIngeniería operativa con inteligencia artificial.El mismo contenido con dos jerarquías: cambia qué elemento es protagonista.Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio.La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.1,2 · compactoPrimero entendemos su operación; después construimos con su equipo y medimos cada mejora.1,55 · equilibradoPrimero entendemos su operación; después construimos con su equipo y medimos cada mejora.1,9 · amplioPrimero entendemos su operación; después construimos con su equipo y medimos cada mejora.El mismo párrafo con tres interlineados: el equilibrado es el de lectura.Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.0 %Cielo propio−3 % · en evaluaciónCielo propio−5 % · en evaluaciónCielo propioTASA Orbiter a 32 px con tres ajustes: se elige al ver la palabra completa.El tracking se ajusta según la fuente, el tamaño y la función del texto.No se aplican valores negativos o positivos de forma indiscriminada.Énfasis dispersoPrimero entendemos su operación; después construimos con su equipo.Énfasis puntualPrimero entendemos su operación; después construimos con su equipo.Un solo acento guía la lectura; varios se anulan entre sí.El peso semibold permite destacar información relevante.No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.Cifra editorial · TASA Orbiter38 %Valores operativos · Plus Jakarta SansEnero1 250.00Febrero98.40Marzo12 004.10La cifra que cuenta una historia y las cifras que se comparan en columna.Las cifras operativas utilizan Plus Jakarta Sans.En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.Portada editorialUn mismo cielo, ningún horizonte igualDocumento informativoAlcance del servicioLa expresión en la portada; la lectura en el documento.TASA Orbiter se reserva para titulares, portadas y cifras con intención editorial.Los textos prolongados y controles funcionales priorizan la legibilidad.100 %Registro de clienteNombreCorreo200 %Registro de clienteNombreCorreoAl ampliar el texto, las columnas se apilan y nada se corta.Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto. Contenido extenso y agentes de IA (Antes de componer, identificar)Medio y formato.Volumen de información.Distancia de lectura.Jerarquía elegida.Modelo de lectura.Fuentes y escalas aplicables.Elementos especiales: tablas, citas, notas, cifras o etiquetas. (Aplicar)Anchura de lectura apropiada.Interlineado estable.Proximidad entre títulos y contenido.Agrupaciones por significado.Continuidad entre páginas.Espacio negativo proporcionado.Jerarquías semánticas claras.Verificación en el tamaño final. Las técnicas de composición compartidas se desarrollan en el capítulo 10, con referencias a estas normas tipográficas.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1585,25 +1884,35 @@
      "aprobada": "2026-11-03",
      "huella": "ebc63645aa5b9adc",
      "nota": "RV11: ILU-006 e ILU-007, TYP-006, LOG-010, ESP-005 y galería con lo pedido por el usuario el 2026-11-03"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "06368ca0609c84dd",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/tipografia/sistema.html#titular": {
    "estado": "vigente",
    "id": "KYN-MRK-TYP-004",
-   "texto": "Titular editorial Título, entrada y cierre Cada sección del manual se arma igual. El orden visual es el orden de lectura, sin recuadros ni colores de apoyo. Un mismo cielo, ningún horizonte igual (Título)Corto, una sola idea, entero en Gris titular. Los retos se repiten en cualquier industria, pero ninguna empresa los enfrenta desde el mismo horizonte. (Entrada)Debajo del título. Semibold solo en las palabras clave. El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons. (Cierre)Remata la sección. El resaltado celeste cubre la palabra completa.",
+   "texto": "Composición editorial Título, entrada y cierre Una composición editorial presenta una idea principal, desarrolla su contexto y ofrece una conclusión cuando corresponde. La jerarquía tradicional o invertida permite adaptar el protagonismo de cada elemento al propósito de la pieza. Un mismo cielo, ningún horizonte igual (Título)Corto, una sola idea, entero en Gris titular. Los retos se repiten en cualquier industria, pero ninguna empresa los enfrenta desde el mismo horizonte. (Entrada)Debajo del título. Semibold solo en las palabras clave. El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons. (Cierre)Remata la sección. El resaltado celeste cubre la palabra completa.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
      "huella": "fb4d6a7ba76eff59",
      "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "0ed6f9311262b887",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "fundamentos/tipografia/sistema.html#tracking": {
    "estado": "sin ID",
    "id": null,
-   "texto": "Tracking en pantalla Comparar antes de aplicar Los ajustes negativos de tracking utilizados en algunas presentaciones pueden aportar carácter a determinados titulares, pero no constituyen reglas universales para interfaces digitales. Los valores −3 % y −5 % deben evaluarse en las fuentes, tamaños y contextos donde se proponga utilizarlos. Escala0 %−3 %−5 % 96 pxEl mismo cieloEl mismo cieloEl mismo cielo56 pxEl mismo cieloEl mismo cieloEl mismo cielo32 pxEl mismo cieloEl mismo cieloEl mismo cielo (Mientras se valida)Rige la escala de KYN-MRK-TYP-002. El texto de cuerpo conserva el espaciado que favorece la lectura. (Validación)Comprobar los ajustes con TASA Orbiter y Plus Jakarta Sans, según corresponda; titulares cortos y largos; caracteres con acentos y signos del español; diferentes anchos de pantalla, y ampliación de texto y modificaciones de espaciado. (Estado)Propuesta pendiente de validación. No utilizar estos valores para modificar todas las clases de titulares del proyecto ni convertirlos en tokens oficiales hasta que se haya aprobado su aplicación.",
+   "texto": "Tracking y espaciado Comparar antes de aplicar Referencia técnica para ajustar el espaciado de letras según familia, tamaño, longitud y soporte. El texto de lectura utiliza el espaciado natural de Plus Jakarta Sans como punto de partida.Los titulares editoriales de TASA Orbiter pueden incorporar ajustes validados para tamaños específicos.Las etiquetas en mayúsculas pueden incorporar espaciado adicional cuando mejora su lectura.Los ajustes expresivos se evalúan según familia, tamaño, longitud y soporte. (Pruebas experimentales)0 %−3 %−5 % Escala0 %−3 %−5 % 96 pxEl mismo cieloEl mismo cieloEl mismo cielo56 pxEl mismo cieloEl mismo cieloEl mismo cielo32 pxEl mismo cieloEl mismo cieloEl mismo cielo Ajustes registrados (Fuente y contexto)TamañoAjusteEstadoPlus Jakarta Sans · lectura14 a 20 px0 %, espaciado naturalVigenteEtiquetas en mayúsculas11 a 13 px+8 %VigenteTASA Orbiter · titulares editoriales52 px o más−3 % y −5 %En evaluación (Mientras se valida)Rige la escala de KYN-MRK-TYP-002. El texto de cuerpo conserva el espaciado que favorece la lectura. (Validación)Comprobar los ajustes con TASA Orbiter y Plus Jakarta Sans, según corresponda; titulares cortos y largos; caracteres con acentos y signos del español; diferentes anchos de pantalla, y ampliación de texto y modificaciones de espaciado. (Estado)Propuesta pendiente de validación. No utilizar estos valores para modificar todas las clases de titulares del proyecto ni convertirlos en tokens oficiales hasta que se haya aprobado su aplicación.",
    "versiones": [
     {
      "aprobada": "2026-10-30",
@@ -1614,6 +1923,11 @@
      "aprobada": "2026-11-03",
      "huella": "c27aac04c0a0da93",
      "nota": "RV10: CON-006, TYP 8.8, ESP-001 a 007, CMP-004, VIS-001 a 016 e ILU-007 con los textos enviados por el usuario; leyendas de demostraciones de VIS propuestas por IA"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "4ec380bcf3f1ce62",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
@@ -2293,6 +2607,18 @@
     }
    ]
   },
+  "marca/vocabulario.html#vis-013": {
+   "estado": "vigente",
+   "id": "KYN-MRK-VIS-013",
+   "texto": "Lenguaje genérico Específico, comprensible y con sentido (Problema)Titulares intercambiables, descripciones vacías y expresiones tecnológicas exageradas. (Criterio)El contenido debe ser específico, comprensible y significativo.No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta. «Innovación que transforma el futuro de su negocio»(Uso incorrecto)Una promesa intercambiable Lo podría firmar cualquier empresa. «Su equipo deja de copiar datos a mano entre tres sistemas.»(Alternativa mejor)Una explicación concreta de lo que cambia para el cliente. ExcepcionesNinguna.RelaciónKYN-MRK-VOZ-002 (Reglas de escritura) y KYN-MRK-VOZ-004 (Vocabulario que evitamos).",
+   "versiones": [
+    {
+     "aprobada": "2026-11-03",
+     "huella": "f37db233f49daaa5",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
   "marca/voz.html#modos": {
    "estado": "vigente",
    "id": "KYN-MRK-VOZ-001",
@@ -2350,7 +2676,7 @@
   "recursos/galeria.html#galeria": {
    "estado": "vigente",
    "id": "KYN-MRK-GAL-001",
-   "texto": "Galería Todas las imágenes de Keyons Degradados hechos desde cero, cielos, naturaleza, personas y stock propio. Cada imagen tiene un ID y una ficha con su autor, lugar, año, tipo y uso. Son imágenes hechas de píxeles: para piezas que crecen sin límite, use los cielos hechos con código del capítulo 26. Todas Todas las imágenesTipo de imagenDegradado KeyonsCielo realNaturalezaPersonasStock propioCieloAmanecerMediodíaAtardecerNocheGalaxiaUsoUso librePortadaRedesFondo con textoOrientaciónVerticalHorizontalCuadrada 15 imágenes Galería01/ 22 001KY-001 · Degradado Keyons · AmanecerEquipo Keyons · Estudio Keyons · 2026Degradado · Uso libre · Vertical003KY-003 · Degradado Keyons · AtardecerEquipo Keyons · Estudio Keyons · 2026Degradado · Redes · Vertical004KY-004 · Degradado Keyons · NocheEquipo Keyons · Estudio Keyons · 2026Degradado · Fondo con texto · Vertical005KY-005 · Degradado Keyons · GalaxiaEquipo Keyons · Estudio Keyons · 2026Degradado · Portada · Vertical009KY-009 · Degradado Keyons · AmanecerEquipo Keyons · Estudio Keyons · 2026Degradado · Portada · Vertical010KY-010 · Degradado Keyons · AtardecerEquipo Keyons · Estudio Keyons · 2026Degradado · Fondo con texto · Vertical011KY-011 · Degradado Keyons · GalaxiaEquipo Keyons · Estudio Keyons · 2026Degradado · Redes · CuadradaAquí va la fotografía015KY-015 · Cielo real · AtardecerPor asignar · Santa Ana · 2026Cielo de verano · Portada · HorizontalAquí va la fotografía016KY-016 · Cielo real · NochePor asignar · Guanacaste · 2026Cielo despejado · Fondo con texto · CuadradaAquí va la fotografía017KY-017 · Naturaleza · MediodíaPor asignar · Cartago · 2026Montaña · Uso libre · HorizontalAquí va la fotografía018KY-018 · Naturaleza · AmanecerPor asignar · Monteverde · 2026Bosque nuboso · Redes · VerticalAquí va la fotografía019KY-019 · PersonasPor asignar · San José · 2026Retrato · Portada · VerticalAquí va la fotografía020KY-020 · PersonasPor asignar · Heredia · 2026Equipo en sesión · Redes · CuadradaAquí va la fotografía021KY-021 · Stock propioPor asignar · Estudio Keyons · 2026Escena de trabajo · Fondo con texto · HorizontalAquí va la fotografía022KY-022 · Stock propioPor asignar · Estudio Keyons · 2026Manos y pantalla · Uso libre · Vertical Aquí va la fotografía (Tratamiento de marca) OriginalVentanaVelo para texto (Descargar) OriginalPost 1:1Historia 9:16Portada 16:9 Copiar crédito",
+   "texto": "Galería Todas las imágenes de Keyons Degradados hechos desde cero, cielos, naturaleza, personas y stock propio. Cada imagen tiene un ID y una ficha con su autor, lugar, año, tipo y uso. Son imágenes hechas de píxeles: para piezas que crecen sin límite, use los cielos hechos con código del capítulo 25. Todas Todas las imágenesTipo de imagenDegradado KeyonsCielo realNaturalezaPersonasStock propioCieloAmanecerMediodíaAtardecerNocheGalaxiaUsoUso librePortadaRedesFondo con textoOrientaciónVerticalHorizontalCuadrada 15 imágenes Galería01/ 22 001KY-001 · Degradado Keyons · AmanecerEquipo Keyons · Estudio Keyons · 2026Degradado · Uso libre · Vertical003KY-003 · Degradado Keyons · AtardecerEquipo Keyons · Estudio Keyons · 2026Degradado · Redes · Vertical004KY-004 · Degradado Keyons · NocheEquipo Keyons · Estudio Keyons · 2026Degradado · Fondo con texto · Vertical005KY-005 · Degradado Keyons · GalaxiaEquipo Keyons · Estudio Keyons · 2026Degradado · Portada · Vertical009KY-009 · Degradado Keyons · AmanecerEquipo Keyons · Estudio Keyons · 2026Degradado · Portada · Vertical010KY-010 · Degradado Keyons · AtardecerEquipo Keyons · Estudio Keyons · 2026Degradado · Fondo con texto · Vertical011KY-011 · Degradado Keyons · GalaxiaEquipo Keyons · Estudio Keyons · 2026Degradado · Redes · CuadradaAquí va la fotografía015KY-015 · Cielo real · AtardecerPor asignar · Santa Ana · 2026Cielo de verano · Portada · HorizontalAquí va la fotografía016KY-016 · Cielo real · NochePor asignar · Guanacaste · 2026Cielo despejado · Fondo con texto · CuadradaAquí va la fotografía017KY-017 · Naturaleza · MediodíaPor asignar · Cartago · 2026Montaña · Uso libre · HorizontalAquí va la fotografía018KY-018 · Naturaleza · AmanecerPor asignar · Monteverde · 2026Bosque nuboso · Redes · VerticalAquí va la fotografía019KY-019 · PersonasPor asignar · San José · 2026Retrato · Portada · VerticalAquí va la fotografía020KY-020 · PersonasPor asignar · Heredia · 2026Equipo en sesión · Redes · CuadradaAquí va la fotografía021KY-021 · Stock propioPor asignar · Estudio Keyons · 2026Escena de trabajo · Fondo con texto · HorizontalAquí va la fotografía022KY-022 · Stock propioPor asignar · Estudio Keyons · 2026Manos y pantalla · Uso libre · Vertical Aquí va la fotografía (Tratamiento de marca) OriginalVentanaVelo para texto (Descargar) OriginalPost 1:1Historia 9:16Portada 16:9 Copiar crédito",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2376,13 +2702,18 @@
      "aprobada": "2026-11-03",
      "huella": "db03bdef6e03777e",
      "nota": "RV11: ILU-006 e ILU-007, TYP-006, LOG-010, ESP-005 y galería con lo pedido por el usuario el 2026-11-03"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "4572a137b4954d85",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
   "recursos/iconos.html#catalogo": {
    "estado": "vigente",
    "id": "KYN-MRK-ICN-001",
-   "texto": "Catálogo Elija, copie y descargue Solo los íconos que cumplen la retícula, ordenados por uso. Un clic copia el SVG en el color elegido. Las reglas están en el capítulo 13. Ajustado a la retícula · pendiente de revisión Noche Cielo Blanco SVGPNGJPG TodasCategoríaTodas las categoríasNavegaciónAccionesEstados y progresoComunicaciónPersonasArchivosEdición y formasDatosObjetos y conceptos108 íconos Navegación21flecha-derechaflecha-izquierdaflecha-arribaflecha-abajoflecha-diagonalflecha-derecha-largachevron-derechaflecha-girodeshacerflecha-derecha-solidoflecha-izquierda-solidoflecha-arriba-solidoflecha-abajo-solidoflecha-abajo-izquierda-solidoflecha-abajo-derecha-solidoinicionavegarentrarsalirabrir-externocontraerAcciones16masmas-solidomenosmenos-solidocheckcheck-solidocerrarcerrar-solidomas-opcionesbuscarajustesdescargarnube-descargaduplicarmarcadorenviarEstados y progreso14informacionayudaadvertenciaverificadocirculocirculo-solidosectorprogreso-25mitadprogreso-50alarmaalarma-agregaralarma-quitaralarma-checkComunicación12correoarrobachatchat-textochat-agregarchat-checkchat-alertachat-cerrarchat-notificacioncitamicrofonomicrofono-apagadoPersonas5perfilusuario-agregarusuario-quitarusuario-entradausuario-salidaArchivos17carpetacarpeta-agregarcarpeta-checkcarpeta-buscarcarpeta-descargacarpeta-bloqueadaportapapelesportapapeles-checkportapapeles-descargadocumentodocumento-textodocumento-agregardocumento-checkdocumento-buscardocumento-descargadocumento-favoritoclipEdición y formas6formasseleccioncapascapas-agregarlistalista-cuadrosDatos6tendenciaporcentajeigualdiferentedividirdividir-solidoObjetos y conceptos11favorito-circuloestrellaasteriscobrujulaglobonubecalendariocamaramoviledificiocono",
+   "texto": "Catálogo Elija, copie y descargue Solo los íconos que cumplen la retícula, ordenados por uso. Un clic copia el SVG en el color elegido. Las reglas están en el capítulo 12. Ajustado a la retícula · pendiente de revisión Noche Cielo Blanco SVGPNGJPG TodasCategoríaTodas las categoríasNavegaciónAccionesEstados y progresoComunicaciónPersonasArchivosEdición y formasDatosObjetos y conceptos108 íconos Navegación21flecha-derechaflecha-izquierdaflecha-arribaflecha-abajoflecha-diagonalflecha-derecha-largachevron-derechaflecha-girodeshacerflecha-derecha-solidoflecha-izquierda-solidoflecha-arriba-solidoflecha-abajo-solidoflecha-abajo-izquierda-solidoflecha-abajo-derecha-solidoinicionavegarentrarsalirabrir-externocontraerAcciones16masmas-solidomenosmenos-solidocheckcheck-solidocerrarcerrar-solidomas-opcionesbuscarajustesdescargarnube-descargaduplicarmarcadorenviarEstados y progreso14informacionayudaadvertenciaverificadocirculocirculo-solidosectorprogreso-25mitadprogreso-50alarmaalarma-agregaralarma-quitaralarma-checkComunicación12correoarrobachatchat-textochat-agregarchat-checkchat-alertachat-cerrarchat-notificacioncitamicrofonomicrofono-apagadoPersonas5perfilusuario-agregarusuario-quitarusuario-entradausuario-salidaArchivos17carpetacarpeta-agregarcarpeta-checkcarpeta-buscarcarpeta-descargacarpeta-bloqueadaportapapelesportapapeles-checkportapapeles-descargadocumentodocumento-textodocumento-agregardocumento-checkdocumento-buscardocumento-descargadocumento-favoritoclipEdición y formas6formasseleccioncapascapas-agregarlistalista-cuadrosDatos6tendenciaporcentajeigualdiferentedividirdividir-solidoObjetos y conceptos11favorito-circuloestrellaasteriscobrujulaglobonubecalendariocamaramoviledificiocono",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2398,6 +2729,11 @@
      "aprobada": "2026-11-03",
      "huella": "31fcdc14a6a85245",
      "nota": "RV10: CON-006, TYP 8.8, ESP-001 a 007, CMP-004, VIS-001 a 016 e ILU-007 con los textos enviados por el usuario; leyendas de demostraciones de VIS propuestas por IA"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "5666875e8b73586f",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },
@@ -2416,7 +2752,7 @@
   "recursos/plantillas.html#plantillas": {
    "estado": "vigente",
    "id": "KYN-MRK-PLA-001",
-   "texto": "Plantillas Plantillas de presentación Cuatro salas, una marca. Las reglas para armarlas están en el capítulo 21. 01CapacitaciónPlantilla de presentación de 19 diapositivas.Cliente · corporativo 16:9 · .pptxDescargar02Propuesta a clientePlantilla de presentación de 19 diapositivas.Cliente · corporativo 16:9 · .pptxDescargar03Revisión internaPlantilla de presentación de 19 diapositivas.Equipo · corporativo 16:9 · .pptxDescargar04Taller librePlantilla de presentación de 19 diapositivas.Grupos · expresivo 16:9 · .pptxDescargar",
+   "texto": "Plantillas Plantillas de presentación Cuatro salas, una marca. Las reglas para armarlas están en el capítulo 20. 01CapacitaciónPlantilla de presentación de 19 diapositivas.Cliente · corporativo 16:9 · .pptxDescargar02Propuesta a clientePlantilla de presentación de 19 diapositivas.Cliente · corporativo 16:9 · .pptxDescargar03Revisión internaPlantilla de presentación de 19 diapositivas.Equipo · corporativo 16:9 · .pptxDescargar04Taller librePlantilla de presentación de 19 diapositivas.Grupos · expresivo 16:9 · .pptxDescargar",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2432,6 +2768,11 @@
      "aprobada": "2026-11-02",
      "huella": "d8da3dbb5a90dbc0",
      "nota": "commit 9bcaf2d"
+    },
+    {
+     "aprobada": "2026-11-03",
+     "huella": "117f3cb0160e4917",
+     "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
     }
    ]
   },

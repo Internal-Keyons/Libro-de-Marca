@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-DAT-002"
 titulo: "Sistema cromático"
-numero: "14.2"
+numero: "13.2"
 estado: "vigente"
-capitulo: "14 Datos"
+capitulo: "13 Datos y visualización"
 area: "Fundamentos"
 fuente: "/fundamentos/datos/graficos.html#paleta"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-DAT-002 · Sistema cromático
 
-Número: 14.2 · Estado: vigente · Capítulo: 14 Datos · Fuente: `/fundamentos/datos/graficos.html#paleta`
+Número: 13.2 · Estado: vigente · Capítulo: 13 Datos y visualización · Fuente: `/fundamentos/datos/graficos.html#paleta`
 
 ##### Tres paletas, nunca mezcladas
 

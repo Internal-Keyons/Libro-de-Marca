@@ -24,20 +24,20 @@ Se conservan las dos familias oficiales. **TASA Orbiter** da presencia; **Plus J
 
 Titular
 
-TASA Orbiter
-Titulares editoriales de fuerte presencia y numeración monumental.
+Titulares protagonistas
+TASA Orbiter.
 
 Lectura
 
-Plus Jakarta Sans
-Subtítulos, lectura prolongada, navegación, datos y controles funcionales.
+Lectura
+Plus Jakarta Sans.
 
 39
 
-Números expresivos
-TASA Orbiter, cuando el número actúa como recurso editorial.
+Cifras editoriales
+TASA Orbiter.
 
 1.240,50
 
-Números operativos
-Plus Jakarta Sans, con cifras tabulares cuando corresponda: tablas, datos y controles.
+Cifras operativas
+Plus Jakarta Sans. En valores comparables, utilizar cifras tabulares cuando la fuente las admita y la alineación se beneficie de ello.

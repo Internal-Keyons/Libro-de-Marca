@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "27"
+capitulo: "26"
 titulo: "Íconos"
 area: "Recursos"
 estado: "borrador"
@@ -12,9 +12,9 @@ normas: ["KYN-MRK-ICN-001"]
 referencias: ["KYN-MRK-ICN-001"]
 ---
 
-# Capítulo 27 · Íconos
+# Capítulo 26 · Íconos
 
-Estado: borrador · Clave: iconos · Ruta: `/recursos/iconos.html` · Número anterior: 25
+Estado: borrador · Clave: iconos · Ruta: `/recursos/iconos.html` · Número anterior: 25, 27
 
 El catálogo completo de la familia.
 
@@ -24,17 +24,17 @@ El catálogo completo de la familia.
 
 ## Íconos
 
-Rótulo: Capítulo 27 · Recursos · Fuente: `/recursos/iconos.html`
+Rótulo: Capítulo 26 · Recursos · Fuente: `/recursos/iconos.html`
 
 El catálogo completo de la familia: se copia en SVG o se descarga.
 
-## KYN-MRK-ICN-001 · 27.1 Catálogo
+## KYN-MRK-ICN-001 · 26.1 Catálogo
 
-Número: 27.1 · ID: `KYN-MRK-ICN-001` · Estado: vigente · Fuente: `/recursos/iconos.html#catalogo`
+Número: 26.1 · ID: `KYN-MRK-ICN-001` · Estado: vigente · Fuente: `/recursos/iconos.html#catalogo`
 
 ### Elija, copie y descargue
 
-Solo los íconos que cumplen la retícula, ordenados por uso. Un clic **copia el SVG** en el color elegido. Las reglas están en el capítulo 13.
+Solo los íconos que cumplen la retícula, ordenados por uso. Un clic **copia el SVG** en el color elegido. Las reglas están en el capítulo 12.
 
 Ajustado a la retícula · pendiente de revisión
 

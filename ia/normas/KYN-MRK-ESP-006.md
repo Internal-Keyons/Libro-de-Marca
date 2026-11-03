@@ -4,19 +4,19 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-006"
-titulo: "Patrones de contenido"
-numero: "9.6"
+titulo: "Patrones de composición"
+numero: "10.6"
 estado: "vigente"
-capitulo: "09 Forma y espacio"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
-fuente: "/fundamentos/forma/espacio.html#patrones"
+fuente: "/fundamentos/composicion/editorial.html#patrones"
 referencias: ["KYN-MRK-ADN-001", "KYN-MRK-ADN-003", "KYN-MRK-COL-002", "KYN-MRK-COL-004", "KYN-MRK-CON-006", "KYN-MRK-DAT-001", "KYN-MRK-LOG-001", "KYN-MRK-LOG-006", "KYN-MRK-VOZ-003"]
 citada_por: ["KYN-MRK-CMP-001", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004"]
 ---
 
-# KYN-MRK-ESP-006 · Patrones de contenido
+# KYN-MRK-ESP-006 · Patrones de composición
 
-Número: 9.6 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fundamentos/forma/espacio.html#patrones`
+Número: 10.6 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#patrones`
 
 ##### La forma sale del contenido
 

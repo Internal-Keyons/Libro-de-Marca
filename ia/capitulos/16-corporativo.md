@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "17"
+capitulo: "16"
 titulo: "Corporativo"
 area: "Modos"
 estado: "por definir"
@@ -12,9 +12,9 @@ normas: []
 referencias: []
 ---
 
-# Capítulo 17 · Corporativo
+# Capítulo 16 · Corporativo
 
-Estado: por definir · Clave: corporativo · Número anterior: 14
+Estado: por definir · Clave: corporativo · Número anterior: 14, 17
 
 El registro formal: sobrio, claro y preciso, de principio a fin.
 

@@ -3,46 +3,46 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "12"
+capitulo: "11"
 titulo: "Elementos gráficos"
 area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/elementos/graficos.html"]
 normas: ["KYN-MRK-ILU-001", "KYN-MRK-ILU-002", "KYN-MRK-ILU-003", "KYN-MRK-ILU-004", "KYN-MRK-ILU-009", "KYN-MRK-ILU-005", "KYN-MRK-ILU-006", "KYN-MRK-ILU-007", "KYN-MRK-ILU-008"]
-referencias: ["KYN-MRK-CON-006", "KYN-MRK-ILU-001", "KYN-MRK-ILU-002", "KYN-MRK-ILU-003", "KYN-MRK-ILU-004", "KYN-MRK-ILU-005", "KYN-MRK-ILU-006", "KYN-MRK-ILU-007", "KYN-MRK-ILU-008", "KYN-MRK-ILU-009"]
+referencias: ["KYN-MRK-CON-006", "KYN-MRK-ICO-005", "KYN-MRK-ILU-001", "KYN-MRK-ILU-002", "KYN-MRK-ILU-003", "KYN-MRK-ILU-004", "KYN-MRK-ILU-005", "KYN-MRK-ILU-006", "KYN-MRK-ILU-007", "KYN-MRK-ILU-008", "KYN-MRK-ILU-009"]
 ---
 
-# Capítulo 12 · Elementos gráficos
+# Capítulo 11 · Elementos gráficos
 
-Estado: borrador · Clave: elementos · Ruta: `/fundamentos/elementos/graficos.html` · Número anterior: 09
+Estado: borrador · Clave: elementos · Ruta: `/fundamentos/elementos/graficos.html` · Número anterior: 09, 12
 
-Viñetas, alternancia de formas, cristal y fotografía.
+Viñetas, énfasis, transparencia, luz, cielos, tramas y fotografía.
 
 **Contenido del capítulo**
 
 - **Señales y estructura**
-- Viñetas de marca · borrador · `/fundamentos/elementos/graficos.html#vinetas`
-- Elementos de énfasis · borrador · `/fundamentos/elementos/graficos.html#enfasis`
-- Líneas y cotas · borrador · `/fundamentos/elementos/graficos.html#lineas`
+- Viñetas y marcadores gráficos · borrador · `/fundamentos/elementos/graficos.html#vinetas`
+- Recursos de énfasis visual · borrador · `/fundamentos/elementos/graficos.html#enfasis`
+- Líneas, guías y medidas · borrador · `/fundamentos/elementos/graficos.html#lineas`
 - **Profundidad atmosférica**
-- Cristal · borrador · `/fundamentos/elementos/graficos.html#cristal`
-- Profundidad atmosférica · vigente · `/fundamentos/elementos/graficos.html#profundidad`
+- Transparencia y superposición · borrador · `/fundamentos/elementos/graficos.html#cristal`
+- Luz y profundidad · vigente · `/fundamentos/elementos/graficos.html#profundidad`
 - Ventanas de cielo · borrador · `/fundamentos/elementos/graficos.html#ventana`
-- Ráfagas · borrador · `/fundamentos/elementos/graficos.html#rafagas`
+- Ráfagas de color · borrador · `/fundamentos/elementos/graficos.html#rafagas`
 - **Tramas y texturas**
-- Patrones y texturas · borrador · `/fundamentos/elementos/graficos.html#patrones`
+- Tramas y texturas · borrador · `/fundamentos/elementos/graficos.html#patrones`
 - **Fotografía y procedencia**
-- Fotografía · borrador · `/fundamentos/elementos/graficos.html#fotografia`
+- Fotografía e imágenes · borrador · `/fundamentos/elementos/graficos.html#fotografia`
 
 ## Elementos
 
-Rótulo: Capítulo 12 · Fundamentos · Fuente: `/fundamentos/elementos/graficos.html`
+Rótulo: Capítulo 11 · Fundamentos · Fuente: `/fundamentos/elementos/graficos.html`
 
 Los recursos visuales propios de la marca: viñetas, ventanas, ráfagas, patrones y fotografía.
 
-## KYN-MRK-ILU-001 · 12.1 Viñetas de marca
+## KYN-MRK-ILU-001 · 11.1 Viñetas y marcadores
 
-Número: 12.1 · ID: `KYN-MRK-ILU-001` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#vinetas`
+Número: 11.1 · ID: `KYN-MRK-ILU-001` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#vinetas`
 
 ### Pequeños módulos, firma constante
 
@@ -87,9 +87,9 @@ El vacío deja ver el fondo: **Blanco Keyons sobre claro** y Azul Noche sobre os
 **(Tamaño)**
 **16 a 20 px** junto al texto, alineadas al centro de la primera línea.
 
-## KYN-MRK-ILU-002 · 12.2 Elementos de énfasis
+## KYN-MRK-ILU-002 · 11.2 Énfasis visual
 
-Número: 12.2 · ID: `KYN-MRK-ILU-002` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#enfasis`
+Número: 11.2 · ID: `KYN-MRK-ILU-002` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#enfasis`
 
 ### Marcar lo importante sin gritar
 
@@ -100,7 +100,13 @@ Una pieza sin cielo no es una pieza Keyons.
 Para la idea que remata una sección. Cubre la palabra completa, sin redondeo.
 
 **(Flecha de cambio)**
-Soluciones integrales → un solo aliado
+
+Soluciones integrales
+
+> Recurso visual: Gráfico SVG en línea · «flecha-derecha, catálogo de Iconografía»
+
+un solo aliado
+
 Para mostrar lo que se deja atrás frente a lo que se elige. Lo anterior va en gris, nunca tachado.
 
 **(Semibold)**
@@ -111,9 +117,13 @@ Para las palabras clave que guían la lectura. Nunca en recuadros ni acordeones.
 Lo llamamos *human in the loop*: la persona siempre decide.
 Para palabras en otro idioma, títulos de obras, citas y voces de otros. Nunca para frases completas ni como énfasis general.
 
-## KYN-MRK-ILU-003 · 12.3 Líneas y cotas
+**(Flechas)**
+Las flechas utilizadas como iconos de señalización y cambio en materiales corporativos Keyons proceden del catálogo oficial de Iconografía. Su forma, proporciones y trazo mantienen la coherencia visual de la familia: KYN-MRK-ICO-005.
+Las flechas integradas en diagramas de información pueden seguir las convenciones del diagrama y la materia que representan.
 
-Número: 12.3 · ID: `KYN-MRK-ILU-003` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#lineas`
+## KYN-MRK-ILU-003 · 11.3 Líneas y medidas
+
+Número: 11.3 · ID: `KYN-MRK-ILU-003` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#lineas`
 
 ### Líneas que ordenan, nunca decoran
 
@@ -127,9 +137,9 @@ Todas las líneas del sistema son finas. **Separan, señalan o miden**; si no ha
 
 **Cota** · Azul Cielo, con topes. Mide tamaños reales.
 
-## KYN-MRK-ILU-004 · 12.4 Cristal
+## KYN-MRK-ILU-004 · 11.4 Transparencia
 
-Número: 12.4 · ID: `KYN-MRK-ILU-004` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#cristal`
+Número: 11.4 · ID: `KYN-MRK-ILU-004` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#cristal`
 
 ### El cielo, visto a través de un vidrio
 
@@ -153,9 +163,9 @@ Opacidad del cristal entre 60 y 80 % sobre el cielo base. Nunca sobre un fondo o
 
 El cristal filtra, nunca oculta.
 
-## KYN-MRK-ILU-009 · 12.5 Profundidad atmosférica
+## KYN-MRK-ILU-009 · 11.5 Luz y profundidad
 
-Número: 12.5 · ID: `KYN-MRK-ILU-009` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#profundidad`
+Número: 11.5 · ID: `KYN-MRK-ILU-009` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#profundidad`
 
 ### Sombras que dan aire
 
@@ -175,9 +185,9 @@ Las sombras no se usan de forma indiscriminada en cada contenedor.
 **(Pendiente de validación)**
 La luz de borde y los reflejos alineados con la dirección de la iluminación son recursos experimentales. No se convierten en comportamiento global.
 
-## KYN-MRK-ILU-005 · 12.6 Ventanas de cielo
+## KYN-MRK-ILU-005 · 11.6 Ventanas de cielo
 
-Número: 12.6 · ID: `KYN-MRK-ILU-005` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#ventana`
+Número: 11.6 · ID: `KYN-MRK-ILU-005` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#ventana`
 
 ### Nítido adentro, esmerilado afuera
 
@@ -251,9 +261,9 @@ El margen entre la figura y el borde cambia con el formato: 24 a 48 px en docume
 
 Una ventana sin cielo no es una ventana Keyons.
 
-## KYN-MRK-ILU-006 · 12.7 Ráfagas
+## KYN-MRK-ILU-006 · 11.7 Ráfagas de color
 
-Número: 12.7 · ID: `KYN-MRK-ILU-006` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#rafagas`
+Número: 11.7 · ID: `KYN-MRK-ILU-006` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#rafagas`
 
 ### El viento, liberado sobre blanco
 
@@ -304,15 +314,17 @@ En interfaz de producto, tableros, documentos legales y comunicados corporativos
 
 La ráfaga es el viento visible: libera el cielo del marco.
 
-## KYN-MRK-ILU-007 · 12.8 Patrones y texturas
+## KYN-MRK-ILU-007 · 11.8 Tramas y texturas
 
-Número: 12.8 · ID: `KYN-MRK-ILU-007` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#patrones`
+Número: 11.8 · ID: `KYN-MRK-ILU-007` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#patrones`
 
 ### La repetición que construye atmósfera
 
 Patrones y texturas son recursos de fondo o de superficie, nunca protagonistas. **Construyen atmósfera, nunca ruido.**
 
 #### Familias de tramas lineales
+
+Azul Cielo es el color de referencia de las líneas que presentan las familias en este catálogo. Los recursos de un contexto específico pueden aplicar las variantes cromáticas documentadas para ese contexto.
 
 Trazos delgados, nítidos, continuos y uniformes. Las tramas lineales no llevan grano, desgaste, manchas ni difuminado. Las variantes que aún no tienen archivo oficial se identifican como propuesta.
 
@@ -349,7 +361,9 @@ Las tramas identifican libros principalmente en sus portadas y en el selector de
 
 > Recurso visual: Gráfico SVG en línea · «Formas con rellenos de trama»
 
-Estas muestras ilustran el recurso. Las reglas para representar categorías, series y datos medidos se desarrollarán en el capítulo 14, Datos, y en el Sistema de Diseño, sin duplicar aquí sus especificaciones. No utilizar una trama como único indicador de información sin el contexto o la identificación correspondiente.
+Se distinguen tres usos: **tramas de identidad visual**, tramas utilizadas como relleno gráfico y líneas que representan datos medidos. Este capítulo documenta las familias y su construcción; el capítulo Datos establece la selección cromática y las condiciones de lectura de los gráficos cuantitativos.
+
+Estas muestras ilustran el recurso. Las reglas para representar categorías, series y datos medidos se desarrollarán en el capítulo 13, Datos, y en el Sistema de Diseño, sin duplicar aquí sus especificaciones. No utilizar una trama como único indicador de información sin el contexto o la identificación correspondiente.
 
 #### Tratamientos atmosféricos
 
@@ -460,9 +474,9 @@ Cada recurso tiene su ID y se descarga en [Recursos](/recursos/texturas.html).
 
 Los patrones construyen atmósfera; nunca compiten con el contenido.
 
-## KYN-MRK-ILU-008 · 12.9 Fotografía
+## KYN-MRK-ILU-008 · 11.9 Fotografía e imágenes
 
-Número: 12.9 · ID: `KYN-MRK-ILU-008` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#fotografia`
+Número: 11.9 · ID: `KYN-MRK-ILU-008` · Estado: vigente · Fuente: `/fundamentos/elementos/graficos.html#fotografia`
 
 ### Imágenes propias, reales y acreditadas
 

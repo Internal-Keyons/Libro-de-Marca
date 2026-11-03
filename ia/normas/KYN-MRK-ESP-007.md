@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-007"
 titulo: "Diagramas de información"
-numero: "9.7"
+numero: "10.7"
 estado: "vigente"
-capitulo: "09 Forma y espacio"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
-fuente: "/fundamentos/forma/espacio.html#diagramas"
+fuente: "/fundamentos/composicion/editorial.html#diagramas"
 referencias: []
 citada_por: []
 ---
 
 # KYN-MRK-ESP-007 · Diagramas de información
 
-Número: 9.7 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fundamentos/forma/espacio.html#diagramas`
+Número: 10.7 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
 
 ##### Ordenar ideas, no medirlas
 
@@ -77,7 +77,7 @@ Un tema dentro de los anillos que lo rodean, del más cercano al más amplio, co
 > Recurso visual: Gráfico SVG en línea · «Anillos de contexto: la IA dentro de los anillos de la operación» · Textos: Cultura / Gobierno de datos / Procesos / Personas / Herramientas / La IA no opera aislada: / es parte de toda la operación, / no una pieza aparte. · Al pasar el cursor: Cultura: Anillo 1 / Gobierno de datos: Anillo 1 / Procesos: Anillo 2 / Personas: Anillo 2 / Herramientas: Anillo 3
 
 **(Uso)**
-Se utilizan cuando una representación visual permite comprender relaciones que resultarían difíciles de comunicar únicamente mediante texto. Cuando el contenido contiene valores medidos, se elige una visualización cuantitativa adecuada, conforme al capítulo 14, Datos.
+Se utilizan cuando una representación visual permite comprender relaciones que resultarían difíciles de comunicar únicamente mediante texto. Cuando el contenido contiene valores medidos, se elige una visualización cuantitativa adecuada, conforme al capítulo 13, Datos.
 
 **(Construcción)**
 Utilizar trazos precisos, continuos y uniformes, con contraste y etiquetas legibles. Los recursos de énfasis se incorporan cuando ayudan a interpretar el contenido. No es obligatorio utilizar estrellas, círculos o indicadores decorativos.

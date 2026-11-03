@@ -4,19 +4,19 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ILU-009"
-titulo: "Profundidad atmosférica"
-numero: "12.5"
+titulo: "Luz y profundidad"
+numero: "11.5"
 estado: "vigente"
-capitulo: "12 Elementos gráficos"
+capitulo: "11 Elementos gráficos"
 area: "Fundamentos"
 fuente: "/fundamentos/elementos/graficos.html#profundidad"
 referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-ILU-009 · Profundidad atmosférica
+# KYN-MRK-ILU-009 · Luz y profundidad
 
-Número: 12.5 · Estado: vigente · Capítulo: 12 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#profundidad`
+Número: 11.5 · Estado: vigente · Capítulo: 11 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#profundidad`
 
 ##### Sombras que dan aire
 

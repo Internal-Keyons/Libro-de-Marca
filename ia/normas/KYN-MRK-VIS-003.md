@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-003"
 titulo: "Jerarquía visual repetitiva"
-numero: "11.3"
+numero: "10.5.1"
 estado: "vigente"
-capitulo: "11 Criterios visuales"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
-fuente: "/fundamentos/criterio/antipatrones.html#vis-003"
+fuente: "/fundamentos/composicion/editorial.html#vis-003"
 referencias: ["KYN-MRK-ESP-006"]
 citada_por: []
 ---
 
 # KYN-MRK-VIS-003 · Jerarquía repetida
 
-Número: 11.3 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: `/fundamentos/criterio/antipatrones.html#vis-003`
+Número: 10.5.1 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#vis-003`
 
 ##### La jerarquía se construye para cada contenido
 

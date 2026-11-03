@@ -4,7 +4,7 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-TYP-001"
-titulo: "Familias"
+titulo: "Familias tipográficas"
 numero: "8.1"
 estado: "vigente"
 capitulo: "08 Tipografía"
@@ -14,7 +14,7 @@ referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-TYP-001 · Familias
+# KYN-MRK-TYP-001 · Familias tipográficas
 
 Número: 8.1 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundamentos/tipografia/sistema.html#familias`
 
@@ -28,7 +28,7 @@ Plus Jakarta Sans lleva el peso de la lectura; TASA Orbiter aparece cuando la ti
 
 ###### Plus Jakarta Sans
 
-Títulos, cuerpo de texto, interfaz y documentos. Google Fonts, licencia libre.
+Lectura, documentos, explicaciones, información funcional y cifras operativas. Google Fonts, licencia libre.
 
 
 
@@ -40,8 +40,12 @@ Títulos, cuerpo de texto, interfaz y documentos. Google Fonts, licencia libre.
 
 ###### TASA Orbiter
 
-Display, portadas y kickers. Aparece en momentos puntuales, nunca como tipografía general.
+Titulares protagonistas, números editoriales y momentos expresivos.
 
 
 
 > Recurso visual: Muestra visual: ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789 ¿?¡!«»&@
+
+**(Alcance)**
+Tipografía regula el lenguaje tipográfico de Keyons en presentaciones, documentos, informes, brochures, publicaciones editoriales, redes sociales, campañas y web corporativa.
+El Sistema de Diseño desarrolla los tokens tipográficos de interfaces, componentes, dashboards y formularios. Los productos con identidad visual de cliente aplican las fuentes y escalas correspondientes a su marca.

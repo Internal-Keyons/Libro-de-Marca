@@ -20,27 +20,26 @@ Escrito una vez en el libro (HTML) y publicado en tres formas: lectura visual, d
 - [06 Identidad](/ia/capitulos/06-identidad.md): Logotipo, isotipo e insignia: construcción y uso.
 - [07 Color](/ia/capitulos/07-color.md): Un sistema en capas: paleta base, escalas, cielos y color por modo.
 - [08 Tipografía](/ia/capitulos/08-tipografia.md): Plus Jakarta Sans y TASA Orbiter: escala, jerarquía y reglas.
-- [09 Forma y espacio](/ia/capitulos/09-forma.md): Interior curvo, exterior recto. Radio y separación.
-- [10 Composiciones](/ia/capitulos/10-composicion.md): Cómo decidir la composición que conviene a cada contenido: retícula, simetría, asimetría y ritmo.
-- [11 Criterios visuales](/ia/capitulos/11-criterio.md): Dieciséis normas para reconocer lo genérico y elegir una alternativa con razón.
-- [12 Elementos gráficos](/ia/capitulos/12-elementos.md): Viñetas, alternancia de formas, cristal y fotografía.
-- [13 Iconografía](/ia/capitulos/13-iconografia.md): Estilo de trazo, tamaños según contexto y catálogo.
-- [14 Datos](/ia/capitulos/14-datos.md): Gráficos que comunican con rigor: principios, color, tipografía y estructura.
-- [15 Movimiento](/ia/capitulos/15-movimiento.md): Curvas, duraciones y resortes de la firma de movimiento.
-- [16 Accesibilidad](/ia/capitulos/16-accesibilidad.md): Contraste, tamaños mínimos y verificación.
-- [17 Corporativo](/ia/capitulos/17-corporativo.md): El registro formal: sobrio, claro y preciso, de principio a fin.
-- [18 Expresivo](/ia/capitulos/18-expresivo.md): El registro abierto: cielos, narrativa y emoción, siempre sobre la retícula.
-- [19 Digital](/ia/capitulos/19-digital.md): Producto e interfaz: sobrio con momentos vivos. Componentes y patrones.
-- [20 Documentos](/ia/capitulos/20-documentos.md): Propuestas, contratos, facturas, correspondencia y papelería.
-- [21 Presentaciones](/ia/capitulos/21-presentaciones.md): Para clientes, capacitaciones, el equipo y talleres: método, historia, voz y estética.
-- [22 Redes y campañas](/ia/capitulos/22-redes.md): Publicaciones, campañas y contenido para redes sociales.
-- [23 Eventos y merch](/ia/capitulos/23-eventos.md): Eventos, talleres presenciales y artículos de marca.
-- [24 Personalización](/ia/capitulos/24-personalizacion.md): Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca blanca.
-- [25 Galería de imágenes](/ia/capitulos/25-galeria.md): Degradados, cielos, naturaleza y personas, con ID y crédito.
-- [26 Texturas y degradados](/ia/capitulos/26-texturas.md): Cielos hechos con código, con ID.
-- [27 Íconos](/ia/capitulos/27-iconos.md): El catálogo completo de la familia.
-- [28 Plantillas y documentos](/ia/capitulos/28-plantillas.md): Plantillas de presentación y manuales.
-- [29 Referencia](/ia/capitulos/29-referencia.md): La memoria de las decisiones.
+- [09 Geometría y espacio](/ia/capitulos/09-forma.md): El lenguaje geométrico de Keyons: esquinas, radios y espacio.
+- [10 Composición y diagramación](/ia/capitulos/10-composicion.md): Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, densidad, patrones y diagramas.
+- [11 Elementos gráficos](/ia/capitulos/11-elementos.md): Viñetas, énfasis, transparencia, luz, cielos, tramas y fotografía.
+- [12 Iconografía](/ia/capitulos/12-iconografia.md): Estilo de trazo, tamaños según contexto y catálogo.
+- [13 Datos y visualización](/ia/capitulos/13-datos.md): Gráficos que comunican con rigor: principios, color, tipografía y estructura.
+- [14 Movimiento](/ia/capitulos/14-movimiento.md): Curvas, duraciones y resortes de la firma de movimiento.
+- [15 Accesibilidad visual](/ia/capitulos/15-accesibilidad.md): Contraste, tamaños mínimos y verificación.
+- [16 Corporativo](/ia/capitulos/16-corporativo.md): El registro formal: sobrio, claro y preciso, de principio a fin.
+- [17 Expresivo](/ia/capitulos/17-expresivo.md): El registro abierto: cielos, narrativa y emoción, siempre sobre la retícula.
+- [18 Digital](/ia/capitulos/18-digital.md): Producto e interfaz: sobrio con momentos vivos. Componentes y patrones.
+- [19 Documentos](/ia/capitulos/19-documentos.md): Propuestas, contratos, facturas, correspondencia y papelería.
+- [20 Presentaciones](/ia/capitulos/20-presentaciones.md): Para clientes, capacitaciones, el equipo y talleres: método, historia, voz y estética.
+- [21 Redes y campañas](/ia/capitulos/21-redes.md): Publicaciones, campañas y contenido para redes sociales.
+- [22 Eventos y merch](/ia/capitulos/22-eventos.md): Eventos, talleres presenciales y artículos de marca.
+- [23 Personalización](/ia/capitulos/23-personalizacion.md): Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca blanca.
+- [24 Galería de imágenes](/ia/capitulos/24-galeria.md): Degradados, cielos, naturaleza y personas, con ID y crédito.
+- [25 Texturas y degradados](/ia/capitulos/25-texturas.md): Cielos hechos con código, con ID.
+- [26 Íconos](/ia/capitulos/26-iconos.md): El catálogo completo de la familia.
+- [27 Plantillas y documentos](/ia/capitulos/27-plantillas.md): Plantillas de presentación y manuales.
+- [28 Referencia](/ia/capitulos/28-referencia.md): La memoria de las decisiones.
 
 ## Normas
 

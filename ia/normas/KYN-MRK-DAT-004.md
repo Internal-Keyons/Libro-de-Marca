@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-DAT-004"
 titulo: "Tipos de gráfico"
-numero: "14.4"
+numero: "13.4"
 estado: "vigente"
-capitulo: "14 Datos"
+capitulo: "13 Datos y visualización"
 area: "Fundamentos"
 fuente: "/fundamentos/datos/graficos.html#tipos"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-PRE-012"]
 
 # KYN-MRK-DAT-004 · Tipos de gráfico
 
-Número: 14.4 · Estado: vigente · Capítulo: 14 Datos · Fuente: `/fundamentos/datos/graficos.html#tipos`
+Número: 13.4 · Estado: vigente · Capítulo: 13 Datos y visualización · Fuente: `/fundamentos/datos/graficos.html#tipos`
 
 ##### El gráfico correcto según el dato
 

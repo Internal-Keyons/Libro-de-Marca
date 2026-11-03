@@ -90,6 +90,7 @@
       "KYN-MRK-VOZ-002",
       "KYN-MRK-VOZ-003",
       "KYN-MRK-VOZ-004",
+      "KYN-MRK-VIS-013",
       "KYN-MRK-VOZ-005",
       "KYN-MRK-VOZ-006",
       "KYN-MRK-VOZ-007"
@@ -158,10 +159,12 @@
       "KYN-MRK-COL-003",
       "KYN-MRK-COL-004",
       "KYN-MRK-COL-005",
+      "KYN-MRK-VIS-012",
       "KYN-MRK-COL-006",
       "KYN-MRK-COL-007",
       "KYN-MRK-COL-008",
       "KYN-MRK-COL-009",
+      "KYN-MRK-VIS-005",
       "KYN-MRK-COL-010",
       "KYN-MRK-COL-011",
       "KYN-MRK-COL-012",
@@ -193,9 +196,9 @@
     {
      "n": "09",
      "clave": "forma",
-     "titulo": "Forma y espacio",
+     "titulo": "Geometría y espacio",
      "estado": "vigente",
-     "descripcion": "Interior curvo, exterior recto. Radio y separación.",
+     "descripcion": "El lenguaje geométrico de Keyons: esquinas, radios y espacio.",
      "rutas": [
       "/fundamentos/forma/espacio.html"
      ],
@@ -203,19 +206,16 @@
      "normas": [
       "KYN-MRK-ESP-001",
       "KYN-MRK-ESP-002",
-      "KYN-MRK-ESP-003",
-      "KYN-MRK-ESP-004",
-      "KYN-MRK-ESP-005",
-      "KYN-MRK-ESP-006",
-      "KYN-MRK-ESP-007"
+      "KYN-MRK-VIS-006",
+      "KYN-MRK-ESP-003"
      ]
     },
     {
      "n": "10",
      "clave": "composicion",
-     "titulo": "Composiciones",
+     "titulo": "Composición y diagramación",
      "estado": "vigente",
-     "descripcion": "Cómo decidir la composición que conviene a cada contenido: retícula, simetría, asimetría y ritmo.",
+     "descripcion": "Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, densidad, patrones y diagramas.",
      "rutas": [
       "/fundamentos/composicion/editorial.html"
      ],
@@ -223,49 +223,30 @@
      "normas": [
       "KYN-MRK-CMP-001",
       "KYN-MRK-CMP-002",
-      "KYN-MRK-CMP-003",
-      "KYN-MRK-CMP-004"
-     ]
-    },
-    {
-     "n": "11",
-     "clave": "criterio",
-     "titulo": "Criterios visuales",
-     "estado": "vigente",
-     "descripcion": "Dieciséis normas para reconocer lo genérico y elegir una alternativa con razón.",
-     "rutas": [
-      "/fundamentos/criterio/antipatrones.html"
-     ],
-     "markdown": "/ia/capitulos/11-criterio.md",
-     "normas": [
-      "KYN-MRK-VIS-001",
-      "KYN-MRK-VIS-002",
-      "KYN-MRK-VIS-003",
-      "KYN-MRK-VIS-004",
-      "KYN-MRK-VIS-005",
-      "KYN-MRK-VIS-006",
-      "KYN-MRK-VIS-007",
-      "KYN-MRK-VIS-008",
-      "KYN-MRK-VIS-009",
       "KYN-MRK-VIS-010",
-      "KYN-MRK-VIS-011",
-      "KYN-MRK-VIS-012",
-      "KYN-MRK-VIS-013",
+      "KYN-MRK-CMP-003",
+      "KYN-MRK-ESP-004",
+      "KYN-MRK-CMP-004",
       "KYN-MRK-VIS-014",
-      "KYN-MRK-VIS-015",
+      "KYN-MRK-ESP-005",
+      "KYN-MRK-VIS-003",
+      "KYN-MRK-VIS-009",
+      "KYN-MRK-ESP-006",
+      "KYN-MRK-VIS-004",
+      "KYN-MRK-ESP-007",
       "KYN-MRK-VIS-016"
      ]
     },
     {
-     "n": "12",
+     "n": "11",
      "clave": "elementos",
      "titulo": "Elementos gráficos",
      "estado": "borrador",
-     "descripcion": "Viñetas, alternancia de formas, cristal y fotografía.",
+     "descripcion": "Viñetas, énfasis, transparencia, luz, cielos, tramas y fotografía.",
      "rutas": [
       "/fundamentos/elementos/graficos.html"
      ],
-     "markdown": "/ia/capitulos/12-elementos.md",
+     "markdown": "/ia/capitulos/11-elementos.md",
      "normas": [
       "KYN-MRK-ILU-001",
       "KYN-MRK-ILU-002",
@@ -279,7 +260,7 @@
      ]
     },
     {
-     "n": "13",
+     "n": "12",
      "clave": "iconografia",
      "titulo": "Iconografía",
      "estado": "borrador",
@@ -287,26 +268,27 @@
      "rutas": [
       "/fundamentos/iconografia/iconos.html"
      ],
-     "markdown": "/ia/capitulos/13-iconografia.md",
+     "markdown": "/ia/capitulos/12-iconografia.md",
      "normas": [
       "KYN-MRK-ICO-001",
       "KYN-MRK-ICO-002",
       "KYN-MRK-ICO-003",
+      "KYN-MRK-VIS-008",
       "KYN-MRK-ICO-004",
       "KYN-MRK-ICO-005",
       "KYN-MRK-ICO-006"
      ]
     },
     {
-     "n": "14",
+     "n": "13",
      "clave": "datos",
-     "titulo": "Datos",
+     "titulo": "Datos y visualización",
      "estado": "borrador",
      "descripcion": "Gráficos que comunican con rigor: principios, color, tipografía y estructura.",
      "rutas": [
       "/fundamentos/datos/graficos.html"
      ],
-     "markdown": "/ia/capitulos/14-datos.md",
+     "markdown": "/ia/capitulos/13-datos.md",
      "normas": [
       "KYN-MRK-DAT-001",
       "KYN-MRK-DAT-002",
@@ -316,23 +298,23 @@
      ]
     },
     {
-     "n": "15",
+     "n": "14",
      "clave": "movimiento",
      "titulo": "Movimiento",
      "estado": "por definir",
      "descripcion": "Curvas, duraciones y resortes de la firma de movimiento.",
      "rutas": [],
-     "markdown": "/ia/capitulos/15-movimiento.md",
+     "markdown": "/ia/capitulos/14-movimiento.md",
      "normas": []
     },
     {
-     "n": "16",
+     "n": "15",
      "clave": "accesibilidad",
-     "titulo": "Accesibilidad",
+     "titulo": "Accesibilidad visual",
      "estado": "borrador",
      "descripcion": "Contraste, tamaños mínimos y verificación.",
      "rutas": [],
-     "markdown": "/ia/capitulos/16-accesibilidad.md",
+     "markdown": "/ia/capitulos/15-accesibilidad.md",
      "normas": []
     }
    ]
@@ -345,33 +327,33 @@
    "ruta": "/modos/index.html",
    "capitulos": [
     {
-     "n": "17",
+     "n": "16",
      "clave": "corporativo",
      "titulo": "Corporativo",
      "estado": "por definir",
      "descripcion": "El registro formal: sobrio, claro y preciso, de principio a fin.",
      "rutas": [],
-     "markdown": "/ia/capitulos/17-corporativo.md",
+     "markdown": "/ia/capitulos/16-corporativo.md",
      "normas": []
     },
     {
-     "n": "18",
+     "n": "17",
      "clave": "expresivo",
      "titulo": "Expresivo",
      "estado": "borrador",
      "descripcion": "El registro abierto: cielos, narrativa y emoción, siempre sobre la retícula.",
      "rutas": [],
-     "markdown": "/ia/capitulos/18-expresivo.md",
+     "markdown": "/ia/capitulos/17-expresivo.md",
      "normas": []
     },
     {
-     "n": "19",
+     "n": "18",
      "clave": "digital",
      "titulo": "Digital",
      "estado": "borrador",
      "descripcion": "Producto e interfaz: sobrio con momentos vivos. Componentes y patrones.",
      "rutas": [],
-     "markdown": "/ia/capitulos/19-digital.md",
+     "markdown": "/ia/capitulos/18-digital.md",
      "normas": []
     }
    ]
@@ -384,17 +366,17 @@
    "ruta": "/aplicaciones/index.html",
    "capitulos": [
     {
-     "n": "20",
+     "n": "19",
      "clave": "documentos",
      "titulo": "Documentos",
      "estado": "por definir",
      "descripcion": "Propuestas, contratos, facturas, correspondencia y papelería.",
      "rutas": [],
-     "markdown": "/ia/capitulos/20-documentos.md",
+     "markdown": "/ia/capitulos/19-documentos.md",
      "normas": []
     },
     {
-     "n": "21",
+     "n": "20",
      "clave": "presentaciones",
      "titulo": "Presentaciones",
      "estado": "borrador",
@@ -402,7 +384,7 @@
      "rutas": [
       "/aplicaciones/presentaciones.html"
      ],
-     "markdown": "/ia/capitulos/21-presentaciones.md",
+     "markdown": "/ia/capitulos/20-presentaciones.md",
      "normas": [
       "KYN-MRK-PRE-001",
       "KYN-MRK-PRE-002",
@@ -421,27 +403,27 @@
      ]
     },
     {
-     "n": "22",
+     "n": "21",
      "clave": "redes",
      "titulo": "Redes y campañas",
      "estado": "por definir",
      "descripcion": "Publicaciones, campañas y contenido para redes sociales.",
      "rutas": [],
-     "markdown": "/ia/capitulos/22-redes.md",
+     "markdown": "/ia/capitulos/21-redes.md",
      "normas": []
     },
     {
-     "n": "23",
+     "n": "22",
      "clave": "eventos",
      "titulo": "Eventos y merch",
      "estado": "por definir",
      "descripcion": "Eventos, talleres presenciales y artículos de marca.",
      "rutas": [],
-     "markdown": "/ia/capitulos/23-eventos.md",
+     "markdown": "/ia/capitulos/22-eventos.md",
      "normas": []
     },
     {
-     "n": "24",
+     "n": "23",
      "clave": "personalizacion",
      "titulo": "Personalización",
      "estado": "borrador",
@@ -449,7 +431,7 @@
      "rutas": [
       "/aplicaciones/personalizacion.html"
      ],
-     "markdown": "/ia/capitulos/24-personalizacion.md",
+     "markdown": "/ia/capitulos/23-personalizacion.md",
      "normas": [
       "KYN-MRK-PER-001",
       "KYN-MRK-PER-002",
@@ -467,7 +449,7 @@
    "ruta": "/recursos/index.html",
    "capitulos": [
     {
-     "n": "25",
+     "n": "24",
      "clave": "galeria",
      "titulo": "Galería de imágenes",
      "estado": "borrador",
@@ -475,13 +457,13 @@
      "rutas": [
       "/recursos/galeria.html"
      ],
-     "markdown": "/ia/capitulos/25-galeria.md",
+     "markdown": "/ia/capitulos/24-galeria.md",
      "normas": [
       "KYN-MRK-GAL-001"
      ]
     },
     {
-     "n": "26",
+     "n": "25",
      "clave": "texturas",
      "titulo": "Texturas y degradados",
      "estado": "borrador",
@@ -489,13 +471,13 @@
      "rutas": [
       "/recursos/texturas.html"
      ],
-     "markdown": "/ia/capitulos/26-texturas.md",
+     "markdown": "/ia/capitulos/25-texturas.md",
      "normas": [
       "KYN-MRK-TEX-001"
      ]
     },
     {
-     "n": "27",
+     "n": "26",
      "clave": "iconos",
      "titulo": "Íconos",
      "estado": "borrador",
@@ -503,13 +485,13 @@
      "rutas": [
       "/recursos/iconos.html"
      ],
-     "markdown": "/ia/capitulos/27-iconos.md",
+     "markdown": "/ia/capitulos/26-iconos.md",
      "normas": [
       "KYN-MRK-ICN-001"
      ]
     },
     {
-     "n": "28",
+     "n": "27",
      "clave": "plantillas",
      "titulo": "Plantillas y documentos",
      "estado": "borrador",
@@ -517,25 +499,28 @@
      "rutas": [
       "/recursos/plantillas.html"
      ],
-     "markdown": "/ia/capitulos/28-plantillas.md",
+     "markdown": "/ia/capitulos/27-plantillas.md",
      "normas": [
       "KYN-MRK-PLA-001",
       "KYN-MRK-PLA-002"
      ]
     },
     {
-     "n": "29",
+     "n": "28",
      "clave": "referencia",
      "titulo": "Referencia",
      "estado": "borrador",
      "descripcion": "La memoria de las decisiones.",
      "rutas": [
-      "/recursos/referencia.html"
+      "/recursos/referencia.html",
+      "/fundamentos/criterio/antipatrones.html"
      ],
-     "markdown": "/ia/capitulos/29-referencia.md",
+     "markdown": "/ia/capitulos/28-referencia.md",
      "normas": [
       "KYN-MRK-REF-001",
-      "KYN-MRK-REF-002"
+      "KYN-MRK-REF-002",
+      "KYN-MRK-VIS-011",
+      "KYN-MRK-VIS-015"
      ]
     }
    ]
@@ -639,7 +624,7 @@
   },
   {
    "id": "KYN-MRK-CMP-001",
-   "titulo": "Decidir la composición",
+   "titulo": "Componer según el contenido",
    "numero": "10.1",
    "rotulo": "Decidir",
    "estado": "vigente",
@@ -655,9 +640,9 @@
   },
   {
    "id": "KYN-MRK-CMP-002",
-   "titulo": "Orden y experimentación",
+   "titulo": "Simetría y asimetría",
    "numero": "10.2",
-   "rotulo": "Orden y experimentación",
+   "rotulo": "Simetría y asimetría",
    "estado": "vigente",
    "capitulo": "10",
    "area": "fundamentos",
@@ -685,9 +670,9 @@
   },
   {
    "id": "KYN-MRK-CMP-004",
-   "titulo": "Ritmo visual",
+   "titulo": "Ritmo y equilibrio visual",
    "numero": "10.4",
-   "rotulo": "Ritmo visual",
+   "rotulo": "Ritmo y equilibrio",
    "estado": "vigente",
    "capitulo": "10",
    "area": "fundamentos",
@@ -1046,10 +1031,10 @@
   {
    "id": "KYN-MRK-DAT-001",
    "titulo": "Principios",
-   "numero": "14.1",
+   "numero": "13.1",
    "rotulo": "Principios",
    "estado": "vigente",
-   "capitulo": "14",
+   "capitulo": "13",
    "area": "fundamentos",
    "fuente": "/fundamentos/datos/graficos.html#principios",
    "markdown": "/ia/normas/KYN-MRK-DAT-001.md",
@@ -1061,10 +1046,10 @@
   {
    "id": "KYN-MRK-DAT-002",
    "titulo": "Sistema cromático",
-   "numero": "14.2",
+   "numero": "13.2",
    "rotulo": "Sistema cromático",
    "estado": "vigente",
-   "capitulo": "14",
+   "capitulo": "13",
    "area": "fundamentos",
    "fuente": "/fundamentos/datos/graficos.html#paleta",
    "markdown": "/ia/normas/KYN-MRK-DAT-002.md",
@@ -1074,10 +1059,10 @@
   {
    "id": "KYN-MRK-DAT-003",
    "titulo": "Tipografía en gráficos",
-   "numero": "14.3",
+   "numero": "13.3",
    "rotulo": "Tipografía en gráficos",
    "estado": "vigente",
-   "capitulo": "14",
+   "capitulo": "13",
    "area": "fundamentos",
    "fuente": "/fundamentos/datos/graficos.html#tipografia",
    "markdown": "/ia/normas/KYN-MRK-DAT-003.md",
@@ -1087,10 +1072,10 @@
   {
    "id": "KYN-MRK-DAT-004",
    "titulo": "Tipos de gráfico",
-   "numero": "14.4",
+   "numero": "13.4",
    "rotulo": "Tipos de gráfico",
    "estado": "vigente",
-   "capitulo": "14",
+   "capitulo": "13",
    "area": "fundamentos",
    "fuente": "/fundamentos/datos/graficos.html#tipos",
    "markdown": "/ia/normas/KYN-MRK-DAT-004.md",
@@ -1102,10 +1087,10 @@
   {
    "id": "KYN-MRK-DAT-005",
    "titulo": "Estructura",
-   "numero": "14.5",
+   "numero": "13.5",
    "rotulo": "Estructura",
    "estado": "vigente",
-   "capitulo": "14",
+   "capitulo": "13",
    "area": "fundamentos",
    "fuente": "/fundamentos/datos/graficos.html#estructura",
    "markdown": "/ia/normas/KYN-MRK-DAT-005.md",
@@ -1196,9 +1181,9 @@
   },
   {
    "id": "KYN-MRK-ESP-001",
-   "titulo": "Regla de esquinas",
+   "titulo": "Lenguaje geométrico Keyons",
    "numero": "9.1",
-   "rotulo": "Regla de esquinas",
+   "rotulo": "Lenguaje geométrico",
    "estado": "vigente",
    "capitulo": "09",
    "area": "fundamentos",
@@ -1212,9 +1197,9 @@
   },
   {
    "id": "KYN-MRK-ESP-002",
-   "titulo": "Radios",
+   "titulo": "Sistema de radios y curvaturas",
    "numero": "9.2",
-   "rotulo": "Radios",
+   "rotulo": "Radios y curvaturas",
    "estado": "vigente",
    "capitulo": "09",
    "area": "fundamentos",
@@ -1227,9 +1212,9 @@
   },
   {
    "id": "KYN-MRK-ESP-003",
-   "titulo": "Espaciado",
+   "titulo": "Sistema de espaciado",
    "numero": "9.3",
-   "rotulo": "Espaciado",
+   "rotulo": "Sistema de espaciado",
    "estado": "vigente",
    "capitulo": "09",
    "area": "fundamentos",
@@ -1241,12 +1226,12 @@
   {
    "id": "KYN-MRK-ESP-004",
    "titulo": "Retícula y responsive",
-   "numero": "9.4",
+   "numero": "10.3.1",
    "rotulo": "Retícula y responsive",
    "estado": "vigente",
-   "capitulo": "09",
+   "capitulo": "10",
    "area": "fundamentos",
-   "fuente": "/fundamentos/forma/espacio.html#reticula",
+   "fuente": "/fundamentos/composicion/editorial.html#reticula",
    "markdown": "/ia/normas/KYN-MRK-ESP-004.md",
    "referencias": [],
    "citada_por": [
@@ -1256,13 +1241,13 @@
   },
   {
    "id": "KYN-MRK-ESP-005",
-   "titulo": "Densidad",
-   "numero": "9.5",
-   "rotulo": "Densidad",
+   "titulo": "Jerarquía y densidad de información",
+   "numero": "10.5",
+   "rotulo": "Jerarquía y densidad",
    "estado": "vigente",
-   "capitulo": "09",
+   "capitulo": "10",
    "area": "fundamentos",
-   "fuente": "/fundamentos/forma/espacio.html#densidad",
+   "fuente": "/fundamentos/composicion/editorial.html#densidad",
    "markdown": "/ia/normas/KYN-MRK-ESP-005.md",
    "referencias": [],
    "citada_por": [
@@ -1273,13 +1258,13 @@
   },
   {
    "id": "KYN-MRK-ESP-006",
-   "titulo": "Patrones de contenido",
-   "numero": "9.6",
-   "rotulo": "Patrones de contenido",
+   "titulo": "Patrones de composición",
+   "numero": "10.6",
+   "rotulo": "Patrones de composición",
    "estado": "vigente",
-   "capitulo": "09",
+   "capitulo": "10",
    "area": "fundamentos",
-   "fuente": "/fundamentos/forma/espacio.html#patrones",
+   "fuente": "/fundamentos/composicion/editorial.html#patrones",
    "markdown": "/ia/normas/KYN-MRK-ESP-006.md",
    "referencias": [
     "KYN-MRK-ADN-001",
@@ -1301,12 +1286,12 @@
   {
    "id": "KYN-MRK-ESP-007",
    "titulo": "Diagramas de información",
-   "numero": "9.7",
+   "numero": "10.7",
    "rotulo": "Diagramas de información",
    "estado": "vigente",
-   "capitulo": "09",
+   "capitulo": "10",
    "area": "fundamentos",
-   "fuente": "/fundamentos/forma/espacio.html#diagramas",
+   "fuente": "/fundamentos/composicion/editorial.html#diagramas",
    "markdown": "/ia/normas/KYN-MRK-ESP-007.md",
    "referencias": [],
    "citada_por": []
@@ -1314,10 +1299,10 @@
   {
    "id": "KYN-MRK-GAL-001",
    "titulo": "Galería",
-   "numero": "25.1",
+   "numero": "24.1",
    "rotulo": "Galería",
    "estado": "vigente",
-   "capitulo": "25",
+   "capitulo": "24",
    "area": "recursos",
    "fuente": "/recursos/galeria.html#galeria",
    "markdown": "/ia/normas/KYN-MRK-GAL-001.md",
@@ -1327,10 +1312,10 @@
   {
    "id": "KYN-MRK-ICN-001",
    "titulo": "Catálogo",
-   "numero": "27.1",
+   "numero": "26.1",
    "rotulo": "Catálogo",
    "estado": "vigente",
-   "capitulo": "27",
+   "capitulo": "26",
    "area": "recursos",
    "fuente": "/recursos/iconos.html#catalogo",
    "markdown": "/ia/normas/KYN-MRK-ICN-001.md",
@@ -1340,10 +1325,10 @@
   {
    "id": "KYN-MRK-ICO-001",
    "titulo": "Retícula",
-   "numero": "13.1",
+   "numero": "12.1",
    "rotulo": "Retícula",
    "estado": "vigente",
-   "capitulo": "13",
+   "capitulo": "12",
    "area": "fundamentos",
    "fuente": "/fundamentos/iconografia/iconos.html#reticula",
    "markdown": "/ia/normas/KYN-MRK-ICO-001.md",
@@ -1353,10 +1338,10 @@
   {
    "id": "KYN-MRK-ICO-002",
    "titulo": "Familias y variantes",
-   "numero": "13.2",
+   "numero": "12.2",
    "rotulo": "Familias y variantes",
    "estado": "vigente",
-   "capitulo": "13",
+   "capitulo": "12",
    "area": "fundamentos",
    "fuente": "/fundamentos/iconografia/iconos.html#familias",
    "markdown": "/ia/normas/KYN-MRK-ICO-002.md",
@@ -1368,10 +1353,10 @@
   {
    "id": "KYN-MRK-ICO-003",
    "titulo": "Uso",
-   "numero": "13.3",
+   "numero": "12.3",
    "rotulo": "Uso",
    "estado": "vigente",
-   "capitulo": "13",
+   "capitulo": "12",
    "area": "fundamentos",
    "fuente": "/fundamentos/iconografia/iconos.html#uso",
    "markdown": "/ia/normas/KYN-MRK-ICO-003.md",
@@ -1385,10 +1370,10 @@
   {
    "id": "KYN-MRK-ICO-004",
    "titulo": "Animación",
-   "numero": "13.4",
+   "numero": "12.4",
    "rotulo": "Animación",
    "estado": "vigente",
-   "capitulo": "13",
+   "capitulo": "12",
    "area": "fundamentos",
    "fuente": "/fundamentos/iconografia/iconos.html#animacion",
    "markdown": "/ia/normas/KYN-MRK-ICO-004.md",
@@ -1400,25 +1385,27 @@
   {
    "id": "KYN-MRK-ICO-005",
    "titulo": "Cómo se usan",
-   "numero": "13.5",
+   "numero": "12.5",
    "rotulo": "Cómo se usan",
    "estado": "vigente",
-   "capitulo": "13",
+   "capitulo": "12",
    "area": "fundamentos",
    "fuente": "/fundamentos/iconografia/iconos.html#catalogo",
    "markdown": "/ia/normas/KYN-MRK-ICO-005.md",
    "referencias": [
     "KYN-MRK-COL-014"
    ],
-   "citada_por": []
+   "citada_por": [
+    "KYN-MRK-ILU-002"
+   ]
   },
   {
    "id": "KYN-MRK-ICO-006",
    "titulo": "Entrega técnica",
-   "numero": "13.6",
+   "numero": "12.6",
    "rotulo": "Entrega técnica",
    "estado": "vigente",
-   "capitulo": "13",
+   "capitulo": "12",
    "area": "fundamentos",
    "fuente": "/fundamentos/iconografia/iconos.html#entrega",
    "markdown": "/ia/normas/KYN-MRK-ICO-006.md",
@@ -1427,11 +1414,11 @@
   },
   {
    "id": "KYN-MRK-ILU-001",
-   "titulo": "Viñetas de marca",
-   "numero": "12.1",
-   "rotulo": "Viñetas de marca",
+   "titulo": "Viñetas y marcadores gráficos",
+   "numero": "11.1",
+   "rotulo": "Viñetas y marcadores",
    "estado": "vigente",
-   "capitulo": "12",
+   "capitulo": "11",
    "area": "fundamentos",
    "fuente": "/fundamentos/elementos/graficos.html#vinetas",
    "markdown": "/ia/normas/KYN-MRK-ILU-001.md",
@@ -1442,24 +1429,26 @@
   },
   {
    "id": "KYN-MRK-ILU-002",
-   "titulo": "Elementos de énfasis",
-   "numero": "12.2",
-   "rotulo": "Elementos de énfasis",
+   "titulo": "Recursos de énfasis visual",
+   "numero": "11.2",
+   "rotulo": "Énfasis visual",
    "estado": "vigente",
-   "capitulo": "12",
+   "capitulo": "11",
    "area": "fundamentos",
    "fuente": "/fundamentos/elementos/graficos.html#enfasis",
    "markdown": "/ia/normas/KYN-MRK-ILU-002.md",
-   "referencias": [],
+   "referencias": [
+    "KYN-MRK-ICO-005"
+   ],
    "citada_por": []
   },
   {
    "id": "KYN-MRK-ILU-003",
-   "titulo": "Líneas y cotas",
-   "numero": "12.3",
-   "rotulo": "Líneas y cotas",
+   "titulo": "Líneas, guías y medidas",
+   "numero": "11.3",
+   "rotulo": "Líneas y medidas",
    "estado": "vigente",
-   "capitulo": "12",
+   "capitulo": "11",
    "area": "fundamentos",
    "fuente": "/fundamentos/elementos/graficos.html#lineas",
    "markdown": "/ia/normas/KYN-MRK-ILU-003.md",
@@ -1468,11 +1457,11 @@
   },
   {
    "id": "KYN-MRK-ILU-004",
-   "titulo": "Cristal",
-   "numero": "12.4",
-   "rotulo": "Cristal",
+   "titulo": "Transparencia y superposición",
+   "numero": "11.4",
+   "rotulo": "Transparencia",
    "estado": "vigente",
-   "capitulo": "12",
+   "capitulo": "11",
    "area": "fundamentos",
    "fuente": "/fundamentos/elementos/graficos.html#cristal",
    "markdown": "/ia/normas/KYN-MRK-ILU-004.md",
@@ -1482,10 +1471,10 @@
   {
    "id": "KYN-MRK-ILU-005",
    "titulo": "Ventanas de cielo",
-   "numero": "12.6",
+   "numero": "11.6",
    "rotulo": "Ventanas de cielo",
    "estado": "vigente",
-   "capitulo": "12",
+   "capitulo": "11",
    "area": "fundamentos",
    "fuente": "/fundamentos/elementos/graficos.html#ventana",
    "markdown": "/ia/normas/KYN-MRK-ILU-005.md",
@@ -1496,11 +1485,11 @@
   },
   {
    "id": "KYN-MRK-ILU-006",
-   "titulo": "Ráfagas",
-   "numero": "12.7",
-   "rotulo": "Ráfagas",
+   "titulo": "Ráfagas de color",
+   "numero": "11.7",
+   "rotulo": "Ráfagas de color",
    "estado": "vigente",
-   "capitulo": "12",
+   "capitulo": "11",
    "area": "fundamentos",
    "fuente": "/fundamentos/elementos/graficos.html#rafagas",
    "markdown": "/ia/normas/KYN-MRK-ILU-006.md",
@@ -1511,11 +1500,11 @@
   },
   {
    "id": "KYN-MRK-ILU-007",
-   "titulo": "Patrones y texturas",
-   "numero": "12.8",
-   "rotulo": "Patrones y texturas",
+   "titulo": "Tramas y texturas",
+   "numero": "11.8",
+   "rotulo": "Tramas y texturas",
    "estado": "vigente",
-   "capitulo": "12",
+   "capitulo": "11",
    "area": "fundamentos",
    "fuente": "/fundamentos/elementos/graficos.html#patrones",
    "markdown": "/ia/normas/KYN-MRK-ILU-007.md",
@@ -1530,11 +1519,11 @@
   },
   {
    "id": "KYN-MRK-ILU-008",
-   "titulo": "Fotografía",
-   "numero": "12.9",
-   "rotulo": "Fotografía",
+   "titulo": "Fotografía e imágenes",
+   "numero": "11.9",
+   "rotulo": "Fotografía e imágenes",
    "estado": "vigente",
-   "capitulo": "12",
+   "capitulo": "11",
    "area": "fundamentos",
    "fuente": "/fundamentos/elementos/graficos.html#fotografia",
    "markdown": "/ia/normas/KYN-MRK-ILU-008.md",
@@ -1548,11 +1537,11 @@
   },
   {
    "id": "KYN-MRK-ILU-009",
-   "titulo": "Profundidad atmosférica",
-   "numero": "12.5",
-   "rotulo": "Profundidad atmosférica",
+   "titulo": "Luz y profundidad",
+   "numero": "11.5",
+   "rotulo": "Luz y profundidad",
    "estado": "vigente",
-   "capitulo": "12",
+   "capitulo": "11",
    "area": "fundamentos",
    "fuente": "/fundamentos/elementos/graficos.html#profundidad",
    "markdown": "/ia/normas/KYN-MRK-ILU-009.md",
@@ -1700,10 +1689,10 @@
   {
    "id": "KYN-MRK-PER-001",
    "titulo": "Tres modelos",
-   "numero": "24.1",
+   "numero": "23.1",
    "rotulo": "Tres modelos",
    "estado": "vigente",
-   "capitulo": "24",
+   "capitulo": "23",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/personalizacion.html#modelos",
    "markdown": "/ia/normas/KYN-MRK-PER-001.md",
@@ -1715,10 +1704,10 @@
   {
    "id": "KYN-MRK-PER-002",
    "titulo": "Modelo A · SaaS",
-   "numero": "24.2",
+   "numero": "23.2",
    "rotulo": "Modelo A · SaaS",
    "estado": "vigente",
-   "capitulo": "24",
+   "capitulo": "23",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/personalizacion.html#saas",
    "markdown": "/ia/normas/KYN-MRK-PER-002.md",
@@ -1728,10 +1717,10 @@
   {
    "id": "KYN-MRK-PER-003",
    "titulo": "Modelo B · Boutique",
-   "numero": "24.3",
+   "numero": "23.3",
    "rotulo": "Modelo B · Boutique",
    "estado": "vigente",
-   "capitulo": "24",
+   "capitulo": "23",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/personalizacion.html#boutique",
    "markdown": "/ia/normas/KYN-MRK-PER-003.md",
@@ -1741,10 +1730,10 @@
   {
    "id": "KYN-MRK-PER-004",
    "titulo": "Modelo C · Marca blanca",
-   "numero": "24.4",
+   "numero": "23.4",
    "rotulo": "Modelo C · Marca blanca",
    "estado": "vigente",
-   "capitulo": "24",
+   "capitulo": "23",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/personalizacion.html#blanca",
    "markdown": "/ia/normas/KYN-MRK-PER-004.md",
@@ -1754,10 +1743,10 @@
   {
    "id": "KYN-MRK-PLA-001",
    "titulo": "Plantillas",
-   "numero": "28.1",
+   "numero": "27.1",
    "rotulo": "Plantillas",
    "estado": "vigente",
-   "capitulo": "28",
+   "capitulo": "27",
    "area": "recursos",
    "fuente": "/recursos/plantillas.html#plantillas",
    "markdown": "/ia/normas/KYN-MRK-PLA-001.md",
@@ -1767,10 +1756,10 @@
   {
    "id": "KYN-MRK-PLA-002",
    "titulo": "Documentos",
-   "numero": "28.2",
+   "numero": "27.2",
    "rotulo": "Documentos",
    "estado": "vigente",
-   "capitulo": "28",
+   "capitulo": "27",
    "area": "recursos",
    "fuente": "/recursos/plantillas.html#documentos",
    "markdown": "/ia/normas/KYN-MRK-PLA-002.md",
@@ -1780,10 +1769,10 @@
   {
    "id": "KYN-MRK-PRE-001",
    "titulo": "Tipos",
-   "numero": "21.1",
+   "numero": "20.1",
    "rotulo": "Tipos",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#tipos",
    "markdown": "/ia/normas/KYN-MRK-PRE-001.md",
@@ -1793,10 +1782,10 @@
   {
    "id": "KYN-MRK-PRE-002",
    "titulo": "Método",
-   "numero": "21.2",
+   "numero": "20.2",
    "rotulo": "Método",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#metodo",
    "markdown": "/ia/normas/KYN-MRK-PRE-002.md",
@@ -1810,10 +1799,10 @@
   {
    "id": "KYN-MRK-PRE-003",
    "titulo": "Storytelling",
-   "numero": "21.3",
+   "numero": "20.3",
    "rotulo": "Storytelling",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#historia",
    "markdown": "/ia/normas/KYN-MRK-PRE-003.md",
@@ -1825,10 +1814,10 @@
   {
    "id": "KYN-MRK-PRE-004",
    "titulo": "El arco Keyons",
-   "numero": "21.4",
+   "numero": "20.4",
    "rotulo": "El arco Keyons",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#arco",
    "markdown": "/ia/normas/KYN-MRK-PRE-004.md",
@@ -1838,10 +1827,10 @@
   {
    "id": "KYN-MRK-PRE-005",
    "titulo": "Escribir para la pantalla",
-   "numero": "21.5",
+   "numero": "20.5",
    "rotulo": "Escribir para la pantalla",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#escribir",
    "markdown": "/ia/normas/KYN-MRK-PRE-005.md",
@@ -1857,10 +1846,10 @@
   {
    "id": "KYN-MRK-PRE-006",
    "titulo": "Límites y notas",
-   "numero": "21.6",
+   "numero": "20.6",
    "rotulo": "Límites y notas",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#limites",
    "markdown": "/ia/normas/KYN-MRK-PRE-006.md",
@@ -1872,10 +1861,10 @@
   {
    "id": "KYN-MRK-PRE-007",
    "titulo": "Lienzo y retícula",
-   "numero": "21.7",
+   "numero": "20.7",
    "rotulo": "Lienzo y retícula",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#lienzo",
    "markdown": "/ia/normas/KYN-MRK-PRE-007.md",
@@ -1885,10 +1874,10 @@
   {
    "id": "KYN-MRK-PRE-008",
    "titulo": "Tipografía",
-   "numero": "21.8",
+   "numero": "20.8",
    "rotulo": "Tipografía",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#tipografia",
    "markdown": "/ia/normas/KYN-MRK-PRE-008.md",
@@ -1898,10 +1887,10 @@
   {
    "id": "KYN-MRK-PRE-009",
    "titulo": "Contraste",
-   "numero": "21.9",
+   "numero": "20.9",
    "rotulo": "Contraste",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#contraste",
    "markdown": "/ia/normas/KYN-MRK-PRE-009.md",
@@ -1913,10 +1902,10 @@
   {
    "id": "KYN-MRK-PRE-010",
    "titulo": "Ritmo",
-   "numero": "21.10",
+   "numero": "20.10",
    "rotulo": "Ritmo",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#ritmo",
    "markdown": "/ia/normas/KYN-MRK-PRE-010.md",
@@ -1926,10 +1915,10 @@
   {
    "id": "KYN-MRK-PRE-011",
    "titulo": "Riesgo y estado",
-   "numero": "21.11",
+   "numero": "20.11",
    "rotulo": "Riesgo y estado",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#riesgo",
    "markdown": "/ia/normas/KYN-MRK-PRE-011.md",
@@ -1941,10 +1930,10 @@
   {
    "id": "KYN-MRK-PRE-012",
    "titulo": "Imagen y gráficos",
-   "numero": "21.12",
+   "numero": "20.12",
    "rotulo": "Imagen y gráficos",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#imagen",
    "markdown": "/ia/normas/KYN-MRK-PRE-012.md",
@@ -1958,10 +1947,10 @@
   {
    "id": "KYN-MRK-PRE-013",
    "titulo": "Plantillas",
-   "numero": "21.13",
+   "numero": "20.13",
    "rotulo": "Plantillas",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#plantillas",
    "markdown": "/ia/normas/KYN-MRK-PRE-013.md",
@@ -1971,10 +1960,10 @@
   {
    "id": "KYN-MRK-PRE-014",
    "titulo": "Antes de presentar",
-   "numero": "21.14",
+   "numero": "20.14",
    "rotulo": "Antes de presentar",
    "estado": "vigente",
-   "capitulo": "21",
+   "capitulo": "20",
    "area": "aplicaciones",
    "fuente": "/aplicaciones/presentaciones.html#antes",
    "markdown": "/ia/normas/KYN-MRK-PRE-014.md",
@@ -1986,10 +1975,10 @@
   {
    "id": "KYN-MRK-REF-001",
    "titulo": "Nomenclatura",
-   "numero": "29.1",
+   "numero": "28.1",
    "rotulo": "Nomenclatura",
    "estado": "vigente",
-   "capitulo": "29",
+   "capitulo": "28",
    "area": "recursos",
    "fuente": "/recursos/referencia.html#nomenclatura",
    "markdown": "/ia/normas/KYN-MRK-REF-001.md",
@@ -2001,10 +1990,10 @@
   {
    "id": "KYN-MRK-REF-002",
    "titulo": "Índice",
-   "numero": "29.2",
+   "numero": "28.2",
    "rotulo": "Índice",
    "estado": "vigente",
-   "capitulo": "29",
+   "capitulo": "28",
    "area": "recursos",
    "fuente": "/recursos/referencia.html#indice",
    "markdown": "/ia/normas/KYN-MRK-REF-002.md",
@@ -2014,10 +2003,10 @@
   {
    "id": "KYN-MRK-TEX-001",
    "titulo": "Catálogo",
-   "numero": "26.1",
+   "numero": "25.1",
    "rotulo": "Catálogo",
    "estado": "vigente",
-   "capitulo": "26",
+   "capitulo": "25",
    "area": "recursos",
    "fuente": "/recursos/texturas.html#texturas",
    "markdown": "/ia/normas/KYN-MRK-TEX-001.md",
@@ -2028,9 +2017,9 @@
   },
   {
    "id": "KYN-MRK-TYP-001",
-   "titulo": "Familias",
+   "titulo": "Familias tipográficas",
    "numero": "8.1",
-   "rotulo": "Familias",
+   "rotulo": "Familias tipográficas",
    "estado": "vigente",
    "capitulo": "08",
    "area": "fundamentos",
@@ -2050,15 +2039,13 @@
    "fuente": "/fundamentos/tipografia/sistema.html#escala",
    "markdown": "/ia/normas/KYN-MRK-TYP-002.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-002"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-TYP-003",
-   "titulo": "Probador",
+   "titulo": "Probador tipográfico",
    "numero": "8.3",
-   "rotulo": "Probador",
+   "rotulo": "Probador tipográfico",
    "estado": "vigente",
    "capitulo": "08",
    "area": "fundamentos",
@@ -2069,49 +2056,42 @@
   },
   {
    "id": "KYN-MRK-TYP-004",
-   "titulo": "Titular editorial",
+   "titulo": "Composición editorial",
    "numero": "8.4",
-   "rotulo": "Titular editorial",
+   "rotulo": "Composición editorial",
    "estado": "vigente",
    "capitulo": "08",
    "area": "fundamentos",
    "fuente": "/fundamentos/tipografia/sistema.html#titular",
    "markdown": "/ia/normas/KYN-MRK-TYP-004.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-007"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-TYP-005",
-   "titulo": "Kickers",
+   "titulo": "Etiquetas de contexto",
    "numero": "8.5",
-   "rotulo": "Kickers",
+   "rotulo": "Etiquetas de contexto",
    "estado": "vigente",
    "capitulo": "08",
    "area": "fundamentos",
    "fuente": "/fundamentos/tipografia/sistema.html#kickers",
    "markdown": "/ia/normas/KYN-MRK-TYP-005.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-001",
-    "KYN-MRK-VIS-002"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-TYP-006",
-   "titulo": "Reglas de uso",
+   "titulo": "Criterios de aplicación",
    "numero": "8.6",
-   "rotulo": "Reglas de uso",
+   "rotulo": "Criterios de aplicación",
    "estado": "vigente",
    "capitulo": "08",
    "area": "fundamentos",
    "fuente": "/fundamentos/tipografia/sistema.html#reglas",
    "markdown": "/ia/normas/KYN-MRK-TYP-006.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-007"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-TYP-007",
@@ -2129,43 +2109,30 @@
   {
    "id": "KYN-MRK-VIS-001",
    "titulo": "Kicker decorativo",
-   "numero": "11.1",
-   "rotulo": "Kicker decorativo",
-   "estado": "vigente",
-   "capitulo": "11",
-   "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-001",
-   "markdown": "/ia/normas/KYN-MRK-VIS-001.md",
-   "referencias": [
-    "KYN-MRK-TYP-005"
-   ],
+   "numero": "8.5",
+   "estado": "integrada",
+   "fuente": "/fundamentos/tipografia/sistema.html#vis-001",
+   "referencias": [],
    "citada_por": []
   },
   {
    "id": "KYN-MRK-VIS-002",
    "titulo": "Tracking indiscriminado",
-   "numero": "11.2",
-   "rotulo": "Tracking",
-   "estado": "vigente",
-   "capitulo": "11",
-   "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-002",
-   "markdown": "/ia/normas/KYN-MRK-VIS-002.md",
-   "referencias": [
-    "KYN-MRK-TYP-002",
-    "KYN-MRK-TYP-005"
-   ],
+   "numero": "8.2",
+   "estado": "integrada",
+   "fuente": "/fundamentos/tipografia/sistema.html#vis-002",
+   "referencias": [],
    "citada_por": []
   },
   {
    "id": "KYN-MRK-VIS-003",
    "titulo": "Jerarquía visual repetitiva",
-   "numero": "11.3",
+   "numero": "10.5.1",
    "rotulo": "Jerarquía repetida",
    "estado": "vigente",
-   "capitulo": "11",
+   "capitulo": "10",
    "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-003",
+   "fuente": "/fundamentos/composicion/editorial.html#vis-003",
    "markdown": "/ia/normas/KYN-MRK-VIS-003.md",
    "referencias": [
     "KYN-MRK-ESP-006"
@@ -2175,12 +2142,12 @@
   {
    "id": "KYN-MRK-VIS-004",
    "titulo": "Tarjetas innecesarias",
-   "numero": "11.4",
+   "numero": "10.6.1",
    "rotulo": "Tarjetas innecesarias",
    "estado": "vigente",
-   "capitulo": "11",
+   "capitulo": "10",
    "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-004",
+   "fuente": "/fundamentos/composicion/editorial.html#vis-004",
    "markdown": "/ia/normas/KYN-MRK-VIS-004.md",
    "referencias": [
     "KYN-MRK-ESP-001",
@@ -2191,12 +2158,12 @@
   {
    "id": "KYN-MRK-VIS-005",
    "titulo": "Gradientes ornamentales",
-   "numero": "11.5",
+   "numero": "7.9.1",
    "rotulo": "Degradados",
    "estado": "vigente",
-   "capitulo": "11",
+   "capitulo": "07",
    "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-005",
+   "fuente": "/fundamentos/color/cielos.html#vis-005",
    "markdown": "/ia/normas/KYN-MRK-VIS-005.md",
    "referencias": [
     "KYN-MRK-COL-009",
@@ -2207,12 +2174,12 @@
   {
    "id": "KYN-MRK-VIS-006",
    "titulo": "Geometría genérica",
-   "numero": "11.6",
+   "numero": "9.2.1",
    "rotulo": "Geometría genérica",
    "estado": "vigente",
-   "capitulo": "11",
+   "capitulo": "09",
    "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-006",
+   "fuente": "/fundamentos/forma/espacio.html#vis-006",
    "markdown": "/ia/normas/KYN-MRK-VIS-006.md",
    "referencias": [
     "KYN-MRK-ESP-001",
@@ -2223,28 +2190,21 @@
   {
    "id": "KYN-MRK-VIS-007",
    "titulo": "Acentos tipográficos repetidos",
-   "numero": "11.7",
-   "rotulo": "Acentos repetidos",
-   "estado": "vigente",
-   "capitulo": "11",
-   "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-007",
-   "markdown": "/ia/normas/KYN-MRK-VIS-007.md",
-   "referencias": [
-    "KYN-MRK-TYP-004",
-    "KYN-MRK-TYP-006"
-   ],
+   "numero": "8.6",
+   "estado": "integrada",
+   "fuente": "/fundamentos/tipografia/sistema.html#vis-007",
+   "referencias": [],
    "citada_por": []
   },
   {
    "id": "KYN-MRK-VIS-008",
    "titulo": "Iconografía de relleno",
-   "numero": "11.8",
+   "numero": "12.3.1",
    "rotulo": "Iconografía de relleno",
    "estado": "vigente",
-   "capitulo": "11",
+   "capitulo": "12",
    "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-008",
+   "fuente": "/fundamentos/iconografia/iconos.html#vis-008",
    "markdown": "/ia/normas/KYN-MRK-VIS-008.md",
    "referencias": [
     "KYN-MRK-ICO-002",
@@ -2255,12 +2215,12 @@
   {
    "id": "KYN-MRK-VIS-009",
    "titulo": "Saturación de microelementos",
-   "numero": "11.9",
+   "numero": "10.5.2",
    "rotulo": "Microelementos",
    "estado": "vigente",
-   "capitulo": "11",
+   "capitulo": "10",
    "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-009",
+   "fuente": "/fundamentos/composicion/editorial.html#vis-009",
    "markdown": "/ia/normas/KYN-MRK-VIS-009.md",
    "referencias": [
     "KYN-MRK-CON-006",
@@ -2272,12 +2232,12 @@
   {
    "id": "KYN-MRK-VIS-010",
    "titulo": "Simetría automática",
-   "numero": "11.10",
+   "numero": "10.2.1",
    "rotulo": "Simetría automática",
    "estado": "vigente",
-   "capitulo": "11",
+   "capitulo": "10",
    "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-010",
+   "fuente": "/fundamentos/composicion/editorial.html#vis-010",
    "markdown": "/ia/normas/KYN-MRK-VIS-010.md",
    "referencias": [
     "KYN-MRK-ESP-004"
@@ -2289,11 +2249,11 @@
   {
    "id": "KYN-MRK-VIS-011",
    "titulo": "Movimiento ornamental",
-   "numero": "11.11",
+   "numero": "28.3.1",
    "rotulo": "Movimiento",
    "estado": "vigente",
-   "capitulo": "11",
-   "area": "fundamentos",
+   "capitulo": "28",
+   "area": "recursos",
    "fuente": "/fundamentos/criterio/antipatrones.html#vis-011",
    "markdown": "/ia/normas/KYN-MRK-VIS-011.md",
    "referencias": [
@@ -2306,12 +2266,12 @@
   {
    "id": "KYN-MRK-VIS-012",
    "titulo": "Contraste insuficiente",
-   "numero": "11.12",
+   "numero": "7.5.1",
    "rotulo": "Contraste insuficiente",
    "estado": "vigente",
-   "capitulo": "11",
+   "capitulo": "07",
    "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-012",
+   "fuente": "/fundamentos/color/paleta-base.html#vis-012",
    "markdown": "/ia/normas/KYN-MRK-VIS-012.md",
    "referencias": [
     "KYN-MRK-COL-005",
@@ -2322,12 +2282,12 @@
   {
    "id": "KYN-MRK-VIS-013",
    "titulo": "Lenguaje genérico",
-   "numero": "11.13",
+   "numero": "4.4.1",
    "rotulo": "Lenguaje genérico",
    "estado": "vigente",
-   "capitulo": "11",
-   "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-013",
+   "capitulo": "04",
+   "area": "marca",
+   "fuente": "/marca/vocabulario.html#vis-013",
    "markdown": "/ia/normas/KYN-MRK-VIS-013.md",
    "referencias": [
     "KYN-MRK-VOZ-002",
@@ -2338,12 +2298,12 @@
   {
    "id": "KYN-MRK-VIS-014",
    "titulo": "Maximalismo uniforme",
-   "numero": "11.14",
+   "numero": "10.4.1",
    "rotulo": "Maximalismo uniforme",
    "estado": "vigente",
-   "capitulo": "11",
+   "capitulo": "10",
    "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-014",
+   "fuente": "/fundamentos/composicion/editorial.html#vis-014",
    "markdown": "/ia/normas/KYN-MRK-VIS-014.md",
    "referencias": [
     "KYN-MRK-COL-011",
@@ -2354,11 +2314,11 @@
   {
    "id": "KYN-MRK-VIS-015",
    "titulo": "Originalidad a costa de orientación",
-   "numero": "11.15",
+   "numero": "28.3.2",
    "rotulo": "Orientación",
    "estado": "vigente",
-   "capitulo": "11",
-   "area": "fundamentos",
+   "capitulo": "28",
+   "area": "recursos",
    "fuente": "/fundamentos/criterio/antipatrones.html#vis-015",
    "markdown": "/ia/normas/KYN-MRK-VIS-015.md",
    "referencias": [
@@ -2369,12 +2329,12 @@
   {
    "id": "KYN-MRK-VIS-016",
    "titulo": "Composición no intercambiable",
-   "numero": "11.16",
-   "rotulo": "No intercambiable",
+   "numero": "10.8.1",
+   "rotulo": "Identidad visual aplicada",
    "estado": "vigente",
-   "capitulo": "11",
+   "capitulo": "10",
    "area": "fundamentos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-016",
+   "fuente": "/fundamentos/composicion/editorial.html#vis-016",
    "markdown": "/ia/normas/KYN-MRK-VIS-016.md",
    "referencias": [
     "KYN-MRK-CON-006",

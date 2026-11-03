@@ -4,7 +4,7 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-TYP-003"
-titulo: "Probador"
+titulo: "Probador tipográfico"
 numero: "8.3"
 estado: "vigente"
 capitulo: "08 Tipografía"
@@ -14,11 +14,12 @@ referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-TYP-003 · Probador
+# KYN-MRK-TYP-003 · Probador tipográfico
 
 Número: 8.3 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundamentos/tipografia/sistema.html#probador`
 
 ##### Escriba y compare
 
 El mismo cielo, nadie lo ve igual
-TASA Orbiter 500 · 52 a 128 px · −4 %
+TASA Orbiter 500 · 52 a 128 px
+**(Comparar configuraciones V1 · propuesta)**

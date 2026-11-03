@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ICO-002"
 titulo: "Familias y variantes"
-numero: "13.2"
+numero: "12.2"
 estado: "vigente"
-capitulo: "13 Iconografía"
+capitulo: "12 Iconografía"
 area: "Fundamentos"
 fuente: "/fundamentos/iconografia/iconos.html#familias"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-VIS-008"]
 
 # KYN-MRK-ICO-002 · Familias y variantes
 
-Número: 13.2 · Estado: vigente · Capítulo: 13 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#familias`
+Número: 12.2 · Estado: vigente · Capítulo: 12 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#familias`
 
 ##### Dos familias, dos variantes
 

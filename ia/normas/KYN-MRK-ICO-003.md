@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ICO-003"
 titulo: "Uso"
-numero: "13.3"
+numero: "12.3"
 estado: "vigente"
-capitulo: "13 Iconografía"
+capitulo: "12 Iconografía"
 area: "Fundamentos"
 fuente: "/fundamentos/iconografia/iconos.html#uso"
 referencias: ["KYN-MRK-COL-014"]
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-VIS-008"]
 
 # KYN-MRK-ICO-003 · Uso
 
-Número: 13.3 · Estado: vigente · Capítulo: 13 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#uso`
+Número: 12.3 · Estado: vigente · Capítulo: 12 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#uso`
 
 ##### Tamaño, texto y contexto
 

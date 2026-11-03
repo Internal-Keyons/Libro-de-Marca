@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-DAT-005"
 titulo: "Estructura"
-numero: "14.5"
+numero: "13.5"
 estado: "vigente"
-capitulo: "14 Datos"
+capitulo: "13 Datos y visualización"
 area: "Fundamentos"
 fuente: "/fundamentos/datos/graficos.html#estructura"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-DAT-005 · Estructura
 
-Número: 14.5 · Estado: vigente · Capítulo: 14 Datos · Fuente: `/fundamentos/datos/graficos.html#estructura`
+Número: 13.5 · Estado: vigente · Capítulo: 13 Datos y visualización · Fuente: `/fundamentos/datos/graficos.html#estructura`
 
 ##### Siete partes antes de publicar
 

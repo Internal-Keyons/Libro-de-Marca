@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "20"
+capitulo: "19"
 titulo: "Documentos"
 area: "Aplicaciones"
 estado: "por definir"
@@ -12,9 +12,9 @@ normas: []
 referencias: []
 ---
 
-# Capítulo 20 · Documentos
+# Capítulo 19 · Documentos
 
-Estado: por definir · Clave: documentos · Número anterior: 17
+Estado: por definir · Clave: documentos · Número anterior: 17, 20
 
 Propuestas, contratos, facturas, correspondencia y papelería.
 

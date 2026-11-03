@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "15"
+capitulo: "14"
 titulo: "Movimiento"
 area: "Fundamentos"
 estado: "por definir"
@@ -12,9 +12,9 @@ normas: []
 referencias: []
 ---
 
-# Capítulo 15 · Movimiento
+# Capítulo 14 · Movimiento
 
-Estado: por definir · Clave: movimiento · Número anterior: 12
+Estado: por definir · Clave: movimiento · Número anterior: 12, 15
 
 Curvas, duraciones y resortes de la firma de movimiento.
 

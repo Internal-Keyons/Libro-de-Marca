@@ -4,19 +4,19 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-003"
-titulo: "Espaciado"
+titulo: "Sistema de espaciado"
 numero: "9.3"
 estado: "vigente"
-capitulo: "09 Forma y espacio"
+capitulo: "09 Geometría y espacio"
 area: "Fundamentos"
 fuente: "/fundamentos/forma/espacio.html#espaciado"
 referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-ESP-003 · Espaciado
+# KYN-MRK-ESP-003 · Sistema de espaciado
 
-Número: 9.3 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fundamentos/forma/espacio.html#espaciado`
+Número: 9.3 · Estado: vigente · Capítulo: 09 Geometría y espacio · Fuente: `/fundamentos/forma/espacio.html#espaciado`
 
 ##### Todo se mide en múltiplos de 4
 

@@ -4,19 +4,19 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-CMP-004"
-titulo: "Ritmo visual"
+titulo: "Ritmo y equilibrio visual"
 numero: "10.4"
 estado: "vigente"
-capitulo: "10 Composiciones"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#ritmo"
 referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-CMP-004 · Ritmo visual
+# KYN-MRK-CMP-004 · Ritmo y equilibrio
 
-Número: 10.4 · Estado: vigente · Capítulo: 10 Composiciones · Fuente: `/fundamentos/composicion/editorial.html#ritmo`
+Número: 10.4 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#ritmo`
 
 ##### Pausas y cambios
 

@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-012"
 titulo: "Imagen y gráficos"
-numero: "21.12"
+numero: "20.12"
 estado: "vigente"
-capitulo: "21 Presentaciones"
+capitulo: "20 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#imagen"
 referencias: ["KYN-MRK-DAT-004", "KYN-MRK-ILU-007", "KYN-MRK-ILU-008"]
@@ -16,11 +16,11 @@ citada_por: []
 
 # KYN-MRK-PRE-012 · Imagen y gráficos
 
-Número: 21.12 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#imagen`
+Número: 20.12 · Estado: vigente · Capítulo: 20 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#imagen`
 
 ##### Una protagonista por diapositiva
 
-Una ventana, una fotografía o una cifra; **nunca las tres.** Los gráficos salen del capítulo 14 y se agrandan para la sala.
+Una ventana, una fotografía o una cifra; **nunca las tres.** Los gráficos salen del capítulo 13 y se agrandan para la sala.
 
 > Recurso visual: Figura: «Espacio para el ejemplo: Ventana en la diapositiva clave»
 

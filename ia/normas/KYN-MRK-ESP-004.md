@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-004"
 titulo: "Retícula y responsive"
-numero: "9.4"
+numero: "10.3.1"
 estado: "vigente"
-capitulo: "09 Forma y espacio"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
-fuente: "/fundamentos/forma/espacio.html#reticula"
+fuente: "/fundamentos/composicion/editorial.html#reticula"
 referencias: []
 citada_por: ["KYN-MRK-CMP-003", "KYN-MRK-VIS-010"]
 ---
 
 # KYN-MRK-ESP-004 · Retícula y responsive
 
-Número: 9.4 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fundamentos/forma/espacio.html#reticula`
+Número: 10.3.1 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#reticula`
 
 ##### Un piso, no un techo
 

@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ICN-001"
 titulo: "Catálogo"
-numero: "27.1"
+numero: "26.1"
 estado: "vigente"
-capitulo: "27 Íconos"
+capitulo: "26 Íconos"
 area: "Recursos"
 fuente: "/recursos/iconos.html#catalogo"
 referencias: []
@@ -16,11 +16,11 @@ citada_por: []
 
 # KYN-MRK-ICN-001 · Catálogo
 
-Número: 27.1 · Estado: vigente · Capítulo: 27 Íconos · Fuente: `/recursos/iconos.html#catalogo`
+Número: 26.1 · Estado: vigente · Capítulo: 26 Íconos · Fuente: `/recursos/iconos.html#catalogo`
 
 ##### Elija, copie y descargue
 
-Solo los íconos que cumplen la retícula, ordenados por uso. Un clic **copia el SVG** en el color elegido. Las reglas están en el capítulo 13.
+Solo los íconos que cumplen la retícula, ordenados por uso. Un clic **copia el SVG** en el color elegido. Las reglas están en el capítulo 12.
 
 Ajustado a la retícula · pendiente de revisión
 

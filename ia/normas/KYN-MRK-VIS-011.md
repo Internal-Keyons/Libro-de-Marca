@@ -5,10 +5,10 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-011"
 titulo: "Movimiento ornamental"
-numero: "11.11"
+numero: "28.3.1"
 estado: "vigente"
-capitulo: "11 Criterios visuales"
-area: "Fundamentos"
+capitulo: "28 Referencia"
+area: "Recursos"
 fuente: "/fundamentos/criterio/antipatrones.html#vis-011"
 referencias: ["KYN-MRK-COL-012", "KYN-MRK-ICO-004", "KYN-MRK-ILU-006"]
 citada_por: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-VIS-011 · Movimiento
 
-Número: 11.11 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: `/fundamentos/criterio/antipatrones.html#vis-011`
+Número: 28.3.1 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/fundamentos/criterio/antipatrones.html#vis-011`
 
 ##### El movimiento orienta, no distrae
 

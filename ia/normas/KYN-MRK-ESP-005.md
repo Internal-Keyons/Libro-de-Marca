@@ -4,19 +4,19 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-005"
-titulo: "Densidad"
-numero: "9.5"
+titulo: "Jerarquía y densidad de información"
+numero: "10.5"
 estado: "vigente"
-capitulo: "09 Forma y espacio"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
-fuente: "/fundamentos/forma/espacio.html#densidad"
+fuente: "/fundamentos/composicion/editorial.html#densidad"
 referencias: []
 citada_por: ["KYN-MRK-CMP-001", "KYN-MRK-VIS-009", "KYN-MRK-VIS-014"]
 ---
 
-# KYN-MRK-ESP-005 · Densidad
+# KYN-MRK-ESP-005 · Jerarquía y densidad
 
-Número: 9.5 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fundamentos/forma/espacio.html#densidad`
+Número: 10.5 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#densidad`
 
 ##### Cuánta información cabe en un espacio
 

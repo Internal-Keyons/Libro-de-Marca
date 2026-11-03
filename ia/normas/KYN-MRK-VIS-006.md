@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-006"
 titulo: "Geometría genérica"
-numero: "11.6"
+numero: "9.2.1"
 estado: "vigente"
-capitulo: "11 Criterios visuales"
+capitulo: "09 Geometría y espacio"
 area: "Fundamentos"
-fuente: "/fundamentos/criterio/antipatrones.html#vis-006"
+fuente: "/fundamentos/forma/espacio.html#vis-006"
 referencias: ["KYN-MRK-ESP-001", "KYN-MRK-ESP-002"]
 citada_por: []
 ---
 
 # KYN-MRK-VIS-006 · Geometría genérica
 
-Número: 11.6 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: `/fundamentos/criterio/antipatrones.html#vis-006`
+Número: 9.2.1 · Estado: vigente · Capítulo: 09 Geometría y espacio · Fuente: `/fundamentos/forma/espacio.html#vis-006`
 
 ##### La geometría Keyons, no un radio para todo
 

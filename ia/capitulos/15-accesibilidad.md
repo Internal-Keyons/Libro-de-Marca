@@ -3,8 +3,8 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "16"
-titulo: "Accesibilidad"
+capitulo: "15"
+titulo: "Accesibilidad visual"
 area: "Fundamentos"
 estado: "borrador"
 rutas: []
@@ -12,9 +12,9 @@ normas: []
 referencias: []
 ---
 
-# Capítulo 16 · Accesibilidad
+# Capítulo 15 · Accesibilidad visual
 
-Estado: borrador · Clave: accesibilidad · Número anterior: 13
+Estado: borrador · Clave: accesibilidad · Número anterior: 13, 16
 
 Contraste, tamaños mínimos y verificación.
 

@@ -4,19 +4,19 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ILU-004"
-titulo: "Cristal"
-numero: "12.4"
+titulo: "Transparencia y superposición"
+numero: "11.4"
 estado: "vigente"
-capitulo: "12 Elementos gráficos"
+capitulo: "11 Elementos gráficos"
 area: "Fundamentos"
 fuente: "/fundamentos/elementos/graficos.html#cristal"
 referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-ILU-004 · Cristal
+# KYN-MRK-ILU-004 · Transparencia
 
-Número: 12.4 · Estado: vigente · Capítulo: 12 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#cristal`
+Número: 11.4 · Estado: vigente · Capítulo: 11 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#cristal`
 
 ##### El cielo, visto a través de un vidrio
 

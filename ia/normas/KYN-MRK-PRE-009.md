@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PRE-009"
 titulo: "Contraste"
-numero: "21.9"
+numero: "20.9"
 estado: "vigente"
-capitulo: "21 Presentaciones"
+capitulo: "20 Presentaciones"
 area: "Aplicaciones"
 fuente: "/aplicaciones/presentaciones.html#contraste"
 referencias: ["KYN-MRK-COL-013"]
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PRE-009 · Contraste
 
-Número: 21.9 · Estado: vigente · Capítulo: 21 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#contraste`
+Número: 20.9 · Estado: vigente · Capítulo: 20 Presentaciones · Fuente: `/aplicaciones/presentaciones.html#contraste`
 
 ##### Contraste medido
 

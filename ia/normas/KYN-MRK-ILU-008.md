@@ -4,19 +4,19 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ILU-008"
-titulo: "Fotografía"
-numero: "12.9"
+titulo: "Fotografía e imágenes"
+numero: "11.9"
 estado: "vigente"
-capitulo: "12 Elementos gráficos"
+capitulo: "11 Elementos gráficos"
 area: "Fundamentos"
 fuente: "/fundamentos/elementos/graficos.html#fotografia"
 referencias: ["KYN-MRK-ILU-007"]
 citada_por: ["KYN-MRK-ILU-005", "KYN-MRK-PRE-012"]
 ---
 
-# KYN-MRK-ILU-008 · Fotografía
+# KYN-MRK-ILU-008 · Fotografía e imágenes
 
-Número: 12.9 · Estado: vigente · Capítulo: 12 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#fotografia`
+Número: 11.9 · Estado: vigente · Capítulo: 11 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#fotografia`
 
 ##### Imágenes propias, reales y acreditadas
 

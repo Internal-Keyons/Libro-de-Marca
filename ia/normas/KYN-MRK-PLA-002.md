@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PLA-002"
 titulo: "Documentos"
-numero: "28.2"
+numero: "27.2"
 estado: "vigente"
-capitulo: "28 Plantillas y documentos"
+capitulo: "27 Plantillas y documentos"
 area: "Recursos"
 fuente: "/recursos/plantillas.html#documentos"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PLA-002 · Documentos
 
-Número: 28.2 · Estado: vigente · Capítulo: 28 Plantillas y documentos · Fuente: `/recursos/plantillas.html#documentos`
+Número: 27.2 · Estado: vigente · Capítulo: 27 Plantillas y documentos · Fuente: `/recursos/plantillas.html#documentos`
 
 ##### Manuales y documentos
 

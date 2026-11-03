@@ -4,25 +4,27 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ILU-007"
-titulo: "Patrones y texturas"
-numero: "12.8"
+titulo: "Tramas y texturas"
+numero: "11.8"
 estado: "vigente"
-capitulo: "12 Elementos gráficos"
+capitulo: "11 Elementos gráficos"
 area: "Fundamentos"
 fuente: "/fundamentos/elementos/graficos.html#patrones"
 referencias: ["KYN-MRK-CON-006"]
 citada_por: ["KYN-MRK-ILU-008", "KYN-MRK-PRE-012", "KYN-MRK-TEX-001"]
 ---
 
-# KYN-MRK-ILU-007 · Patrones y texturas
+# KYN-MRK-ILU-007 · Tramas y texturas
 
-Número: 12.8 · Estado: vigente · Capítulo: 12 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#patrones`
+Número: 11.8 · Estado: vigente · Capítulo: 11 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#patrones`
 
 ##### La repetición que construye atmósfera
 
 Patrones y texturas son recursos de fondo o de superficie, nunca protagonistas. **Construyen atmósfera, nunca ruido.**
 
 ###### Familias de tramas lineales
+
+Azul Cielo es el color de referencia de las líneas que presentan las familias en este catálogo. Los recursos de un contexto específico pueden aplicar las variantes cromáticas documentadas para ese contexto.
 
 Trazos delgados, nítidos, continuos y uniformes. Las tramas lineales no llevan grano, desgaste, manchas ni difuminado. Las variantes que aún no tienen archivo oficial se identifican como propuesta.
 
@@ -59,7 +61,9 @@ Las tramas identifican libros principalmente en sus portadas y en el selector de
 
 > Recurso visual: Gráfico SVG en línea · «Formas con rellenos de trama»
 
-Estas muestras ilustran el recurso. Las reglas para representar categorías, series y datos medidos se desarrollarán en el capítulo 14, Datos, y en el Sistema de Diseño, sin duplicar aquí sus especificaciones. No utilizar una trama como único indicador de información sin el contexto o la identificación correspondiente.
+Se distinguen tres usos: **tramas de identidad visual**, tramas utilizadas como relleno gráfico y líneas que representan datos medidos. Este capítulo documenta las familias y su construcción; el capítulo Datos establece la selección cromática y las condiciones de lectura de los gráficos cuantitativos.
+
+Estas muestras ilustran el recurso. Las reglas para representar categorías, series y datos medidos se desarrollarán en el capítulo 13, Datos, y en el Sistema de Diseño, sin duplicar aquí sus especificaciones. No utilizar una trama como único indicador de información sin el contexto o la identificación correspondiente.
 
 ###### Tratamientos atmosféricos
 

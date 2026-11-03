@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ILU-005"
 titulo: "Ventanas de cielo"
-numero: "12.6"
+numero: "11.6"
 estado: "vigente"
-capitulo: "12 Elementos gráficos"
+capitulo: "11 Elementos gráficos"
 area: "Fundamentos"
 fuente: "/fundamentos/elementos/graficos.html#ventana"
 referencias: ["KYN-MRK-ILU-008"]
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-ILU-005 · Ventanas de cielo
 
-Número: 12.6 · Estado: vigente · Capítulo: 12 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#ventana`
+Número: 11.6 · Estado: vigente · Capítulo: 11 Elementos gráficos · Fuente: `/fundamentos/elementos/graficos.html#ventana`
 
 ##### Nítido adentro, esmerilado afuera
 

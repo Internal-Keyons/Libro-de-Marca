@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "19"
+capitulo: "18"
 titulo: "Digital"
 area: "Modos"
 estado: "borrador"
@@ -12,9 +12,9 @@ normas: []
 referencias: []
 ---
 
-# Capítulo 19 · Digital
+# Capítulo 18 · Digital
 
-Estado: borrador · Clave: digital · Número anterior: 16
+Estado: borrador · Clave: digital · Número anterior: 16, 19
 
 Producto e interfaz: sobrio con momentos vivos. Componentes y patrones.
 

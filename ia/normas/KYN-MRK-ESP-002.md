@@ -4,19 +4,19 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-002"
-titulo: "Radios"
+titulo: "Sistema de radios y curvaturas"
 numero: "9.2"
 estado: "vigente"
-capitulo: "09 Forma y espacio"
+capitulo: "09 Geometría y espacio"
 area: "Fundamentos"
 fuente: "/fundamentos/forma/espacio.html#radios"
 referencias: []
 citada_por: ["KYN-MRK-VIS-006"]
 ---
 
-# KYN-MRK-ESP-002 · Radios
+# KYN-MRK-ESP-002 · Radios y curvaturas
 
-Número: 9.2 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fundamentos/forma/espacio.html#radios`
+Número: 9.2 · Estado: vigente · Capítulo: 09 Geometría y espacio · Fuente: `/fundamentos/forma/espacio.html#radios`
 
 ##### El radio responde a la función
 

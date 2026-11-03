@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-005"
 titulo: "Gradientes ornamentales"
-numero: "11.5"
+numero: "7.9.1"
 estado: "vigente"
-capitulo: "11 Criterios visuales"
+capitulo: "07 Color"
 area: "Fundamentos"
-fuente: "/fundamentos/criterio/antipatrones.html#vis-005"
+fuente: "/fundamentos/color/cielos.html#vis-005"
 referencias: ["KYN-MRK-COL-009", "KYN-MRK-CON-008"]
 citada_por: []
 ---
 
 # KYN-MRK-VIS-005 · Degradados
 
-Número: 11.5 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: `/fundamentos/criterio/antipatrones.html#vis-005`
+Número: 7.9.1 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos/color/cielos.html#vis-005`
 
 ##### Un degradado necesita un concepto
 

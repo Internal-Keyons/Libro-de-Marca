@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ICO-005"
 titulo: "Cómo se usan"
-numero: "13.5"
+numero: "12.5"
 estado: "vigente"
-capitulo: "13 Iconografía"
+capitulo: "12 Iconografía"
 area: "Fundamentos"
 fuente: "/fundamentos/iconografia/iconos.html#catalogo"
 referencias: ["KYN-MRK-COL-014"]
-citada_por: []
+citada_por: ["KYN-MRK-ILU-002"]
 ---
 
 # KYN-MRK-ICO-005 · Cómo se usan
 
-Número: 13.5 · Estado: vigente · Capítulo: 13 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#catalogo`
+Número: 12.5 · Estado: vigente · Capítulo: 12 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#catalogo`
 
 ##### Tres colores, un solo trazo
 

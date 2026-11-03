@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "25"
+capitulo: "24"
 titulo: "Galería de imágenes"
 area: "Recursos"
 estado: "borrador"
@@ -12,9 +12,9 @@ normas: ["KYN-MRK-GAL-001"]
 referencias: ["KYN-MRK-GAL-001"]
 ---
 
-# Capítulo 25 · Galería de imágenes
+# Capítulo 24 · Galería de imágenes
 
-Estado: borrador · Clave: galeria · Ruta: `/recursos/galeria.html` · Número anterior: 23
+Estado: borrador · Clave: galeria · Ruta: `/recursos/galeria.html` · Número anterior: 23, 25
 
 Degradados, cielos, naturaleza y personas, con ID y crédito.
 
@@ -24,17 +24,17 @@ Degradados, cielos, naturaleza y personas, con ID y crédito.
 
 ## Galería de imágenes
 
-Rótulo: Capítulo 25 · Recursos · Fuente: `/recursos/galeria.html`
+Rótulo: Capítulo 24 · Recursos · Fuente: `/recursos/galeria.html`
 
 Imágenes propias, reales y acreditadas. Se filtran, se tratan y se descargan.
 
-## KYN-MRK-GAL-001 · 25.1 Galería
+## KYN-MRK-GAL-001 · 24.1 Galería
 
-Número: 25.1 · ID: `KYN-MRK-GAL-001` · Estado: vigente · Fuente: `/recursos/galeria.html#galeria`
+Número: 24.1 · ID: `KYN-MRK-GAL-001` · Estado: vigente · Fuente: `/recursos/galeria.html#galeria`
 
 ### Todas las imágenes de Keyons
 
-Degradados hechos desde cero, cielos, naturaleza, personas y stock propio. **Cada imagen tiene un ID** y una ficha con su autor, lugar, año, tipo y uso. Son imágenes hechas de píxeles: para piezas que crecen sin límite, use los cielos hechos con código del capítulo 26.
+Degradados hechos desde cero, cielos, naturaleza, personas y stock propio. **Cada imagen tiene un ID** y una ficha con su autor, lugar, año, tipo y uso. Son imágenes hechas de píxeles: para piezas que crecen sin límite, use los cielos hechos con código del capítulo 25.
 
 Galería
 

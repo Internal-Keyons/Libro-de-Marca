@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-REF-001"
 titulo: "Nomenclatura"
-numero: "29.1"
+numero: "28.1"
 estado: "vigente"
-capitulo: "29 Referencia"
+capitulo: "28 Referencia"
 area: "Recursos"
 fuente: "/recursos/referencia.html#nomenclatura"
 referencias: ["KYN-MRK-COL-001"]
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-REF-001 · Nomenclatura
 
-Número: 29.1 · Estado: vigente · Capítulo: 29 Referencia · Fuente: `/recursos/referencia.html#nomenclatura`
+Número: 28.1 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/recursos/referencia.html#nomenclatura`
 
 ##### Un código por regla
 

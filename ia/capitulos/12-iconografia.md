@@ -3,18 +3,18 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "13"
+capitulo: "12"
 titulo: "Iconografía"
 area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/iconografia/iconos.html"]
-normas: ["KYN-MRK-ICO-001", "KYN-MRK-ICO-002", "KYN-MRK-ICO-003", "KYN-MRK-ICO-004", "KYN-MRK-ICO-005", "KYN-MRK-ICO-006"]
-referencias: ["KYN-MRK-COL-014", "KYN-MRK-ICO-001", "KYN-MRK-ICO-002", "KYN-MRK-ICO-003", "KYN-MRK-ICO-004", "KYN-MRK-ICO-005", "KYN-MRK-ICO-006"]
+normas: ["KYN-MRK-ICO-001", "KYN-MRK-ICO-002", "KYN-MRK-ICO-003", "KYN-MRK-VIS-008", "KYN-MRK-ICO-004", "KYN-MRK-ICO-005", "KYN-MRK-ICO-006"]
+referencias: ["KYN-MRK-COL-014", "KYN-MRK-ICO-001", "KYN-MRK-ICO-002", "KYN-MRK-ICO-003", "KYN-MRK-ICO-004", "KYN-MRK-ICO-005", "KYN-MRK-ICO-006", "KYN-MRK-VIS-008"]
 ---
 
-# Capítulo 13 · Iconografía
+# Capítulo 12 · Iconografía
 
-Estado: borrador · Clave: iconografia · Ruta: `/fundamentos/iconografia/iconos.html` · Número anterior: 10
+Estado: borrador · Clave: iconografia · Ruta: `/fundamentos/iconografia/iconos.html` · Número anterior: 10, 13
 
 Estilo de trazo, tamaños según contexto y catálogo.
 
@@ -29,13 +29,13 @@ Estilo de trazo, tamaños según contexto y catálogo.
 
 ## Iconografía
 
-Rótulo: Capítulo 13 · Fundamentos · Fuente: `/fundamentos/iconografia/iconos.html`
+Rótulo: Capítulo 12 · Fundamentos · Fuente: `/fundamentos/iconografia/iconos.html`
 
 Una familia de íconos sobre una misma retícula, lista para copiar y descargar.
 
-## KYN-MRK-ICO-001 · 13.1 Retícula
+## KYN-MRK-ICO-001 · 12.1 Retícula
 
-Número: 13.1 · ID: `KYN-MRK-ICO-001` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#reticula`
+Número: 12.1 · ID: `KYN-MRK-ICO-001` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#reticula`
 
 ### Lienzo de 32, área viva de 28
 
@@ -52,9 +52,9 @@ Quien dibuja un ícono nuevo. Para usarlos en código basta el SVG del catálogo
 **(Íconos anchos)**
 Nube, interruptor o lista caben en la familia: usan el rectángulo de 26 × 20 px, el mismo trazo y van centrados en vertical. Lo que rompe la familia no es el ancho, es el grosor o el estilo.
 
-## KYN-MRK-ICO-002 · 13.2 Familias y variantes
+## KYN-MRK-ICO-002 · 12.2 Familias y variantes
 
-Número: 13.2 · ID: `KYN-MRK-ICO-002` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#familias`
+Número: 12.2 · ID: `KYN-MRK-ICO-002` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#familias`
 
 ### Dos familias, dos variantes
 
@@ -72,9 +72,9 @@ Más expresiva, para piezas de marca y estados vacíos. Retícula de 64 px y tra
 **(Marca o sistema)**
 El isotipo { } es identidad y sigue las reglas del logotipo; «guardar» o «editar» son sistema y siguen esta retícula.
 
-## KYN-MRK-ICO-003 · 13.3 Uso
+## KYN-MRK-ICO-003 · 12.3 Uso
 
-Número: 13.3 · ID: `KYN-MRK-ICO-003` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#uso`
+Número: 12.3 · ID: `KYN-MRK-ICO-003` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#uso`
 
 ### Tamaño, texto y contexto
 
@@ -87,9 +87,35 @@ Un ícono comunica mejor acompañado. **Solo, debe ser inequívoco.**
 - Agentes de IA · Estela y los demás agentes usan su avatar en la conversación y un ícono solo en espacios mínimos.
 - Redes y servicios externos · Versión original del servicio, monocroma en Azul Noche o Blanco y al mismo tamaño óptico. Nunca se redibujan.
 
-## KYN-MRK-ICO-004 · 13.4 Animación
+## KYN-MRK-VIS-008 · 12.3.1 Iconografía de relleno
 
-Número: 13.4 · ID: `KYN-MRK-ICO-004` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#animacion`
+Número: 12.3.1 · ID: `KYN-MRK-VIS-008` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#vis-008`
+
+### Un ícono tiene que ayudar a entender
+
+**(Problema)**
+Íconos que decoran títulos o textos sin orientar ni explicar nada.
+
+**(Criterio)**
+No introducir íconos únicamente para decorar textos o títulos.
+Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada.
+
+> Recurso visual: Ejemplo dibujado: Nuestra visión · Crecimiento · Procesos
+
+**(Uso incorrecto)**
+**Un ícono genérico junto a cada titular** Una bombilla, un cohete o un engranaje que no dicen nada del contenido.
+
+> Recurso visual: Ejemplo dibujado: Descargar PDF · Acción · Vigente · Estado · Plantilla de propuesta · Categoría
+
+**(Alternativa mejor)**
+El ícono identifica una acción, un estado o una categoría.
+
+- **Excepciones**: Íconos ilustrativos en estados vacíos y piezas de marca, según su familia.
+- **Relación**: KYN-MRK-ICO-002 (Familias y variantes) y KYN-MRK-ICO-003 (Uso).
+
+## KYN-MRK-ICO-004 · 12.4 Animación
+
+Número: 12.4 · ID: `KYN-MRK-ICO-004` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#animacion`
 
 ### Siempre en la misma dirección
 
@@ -101,9 +127,9 @@ Micro y funcional: 150 a 450 ms. Se anima al aparecer o al confirmar una acción
 **(Ilustrativa)**
 Más expresiva, hasta 1,2 s. Se entrega como Lottie o SVG animado.
 
-## KYN-MRK-ICO-005 · 13.5 Cómo se usan
+## KYN-MRK-ICO-005 · 12.5 Cómo se usan
 
-Número: 13.5 · ID: `KYN-MRK-ICO-005` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#catalogo`
+Número: 12.5 · ID: `KYN-MRK-ICO-005` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#catalogo`
 
 ### Tres colores, un solo trazo
 
@@ -135,9 +161,9 @@ Sobre Azul Noche o sobre cielos profundos.
 **(Archivo y catálogo)**
 Cada ícono se pide por su nombre, por ejemplo keyons-buscar-noche.svg. El catálogo completo, para elegir el color, copiar el SVG o descargarlo en SVG, PNG o JPG, está en [Recursos](/recursos/iconos.html).
 
-## KYN-MRK-ICO-006 · 13.6 Entrega técnica
+## KYN-MRK-ICO-006 · 12.6 Entrega técnica
 
-Número: 13.6 · ID: `KYN-MRK-ICO-006` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#entrega`
+Número: 12.6 · ID: `KYN-MRK-ICO-006` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#entrega`
 
 ### Nombres y versiones claras
 

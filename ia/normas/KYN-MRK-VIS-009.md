@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-009"
 titulo: "Saturación de microelementos"
-numero: "11.9"
+numero: "10.5.2"
 estado: "vigente"
-capitulo: "11 Criterios visuales"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
-fuente: "/fundamentos/criterio/antipatrones.html#vis-009"
+fuente: "/fundamentos/composicion/editorial.html#vis-009"
 referencias: ["KYN-MRK-CON-006", "KYN-MRK-ESP-005", "KYN-MRK-ILU-001"]
 citada_por: []
 ---
 
 # KYN-MRK-VIS-009 · Microelementos
 
-Número: 11.9 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: `/fundamentos/criterio/antipatrones.html#vis-009`
+Número: 10.5.2 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#vis-009`
 
 ##### La jerarquía no se hace con adornos
 

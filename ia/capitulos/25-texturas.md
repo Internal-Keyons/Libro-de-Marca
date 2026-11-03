@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "26"
+capitulo: "25"
 titulo: "Texturas y degradados"
 area: "Recursos"
 estado: "borrador"
@@ -12,9 +12,9 @@ normas: ["KYN-MRK-TEX-001"]
 referencias: ["KYN-MRK-ILU-007", "KYN-MRK-TEX-001"]
 ---
 
-# Capítulo 26 · Texturas y degradados
+# Capítulo 25 · Texturas y degradados
 
-Estado: borrador · Clave: texturas · Ruta: `/recursos/texturas.html` · Número anterior: 24
+Estado: borrador · Clave: texturas · Ruta: `/recursos/texturas.html` · Número anterior: 24, 26
 
 Cielos hechos con código, con ID.
 
@@ -24,13 +24,13 @@ Cielos hechos con código, con ID.
 
 ## Texturas y degradados
 
-Rótulo: Capítulo 26 · Recursos · Fuente: `/recursos/texturas.html`
+Rótulo: Capítulo 25 · Recursos · Fuente: `/recursos/texturas.html`
 
 Cielos hechos con código, listos para descargar.
 
-## KYN-MRK-TEX-001 · 26.1 Catálogo
+## KYN-MRK-TEX-001 · 25.1 Catálogo
 
-Número: 26.1 · ID: `KYN-MRK-TEX-001` · Estado: vigente · Fuente: `/recursos/texturas.html#texturas`
+Número: 25.1 · ID: `KYN-MRK-TEX-001` · Estado: vigente · Fuente: `/recursos/texturas.html#texturas`
 
 ### Del amanecer a la galaxia
 

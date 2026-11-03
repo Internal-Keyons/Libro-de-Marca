@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-DAT-003"
 titulo: "Tipografía en gráficos"
-numero: "14.3"
+numero: "13.3"
 estado: "vigente"
-capitulo: "14 Datos"
+capitulo: "13 Datos y visualización"
 area: "Fundamentos"
 fuente: "/fundamentos/datos/graficos.html#tipografia"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-DAT-003 · Tipografía en gráficos
 
-Número: 14.3 · Estado: vigente · Capítulo: 14 Datos · Fuente: `/fundamentos/datos/graficos.html#tipografia`
+Número: 13.3 · Estado: vigente · Capítulo: 13 Datos y visualización · Fuente: `/fundamentos/datos/graficos.html#tipografia`
 
 ##### Los números pesan igual que las barras
 

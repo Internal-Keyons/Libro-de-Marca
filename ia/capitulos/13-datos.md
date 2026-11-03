@@ -3,8 +3,8 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "14"
-titulo: "Datos"
+capitulo: "13"
+titulo: "Datos y visualización"
 area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/datos/graficos.html"]
@@ -12,9 +12,9 @@ normas: ["KYN-MRK-DAT-001", "KYN-MRK-DAT-002", "KYN-MRK-DAT-003", "KYN-MRK-DAT-0
 referencias: ["KYN-MRK-DAT-001", "KYN-MRK-DAT-002", "KYN-MRK-DAT-003", "KYN-MRK-DAT-004", "KYN-MRK-DAT-005"]
 ---
 
-# Capítulo 14 · Datos
+# Capítulo 13 · Datos y visualización
 
-Estado: borrador · Clave: datos · Ruta: `/fundamentos/datos/graficos.html` · Número anterior: 11
+Estado: borrador · Clave: datos · Ruta: `/fundamentos/datos/graficos.html` · Número anterior: 11, 14
 
 Gráficos que comunican con rigor: principios, color, tipografía y estructura.
 
@@ -26,15 +26,15 @@ Gráficos que comunican con rigor: principios, color, tipografía y estructura.
 - Tipos de gráfico · borrador · `/fundamentos/datos/graficos.html#tipos`
 - Estructura · borrador · `/fundamentos/datos/graficos.html#estructura`
 
-## Datos
+## Datos y visualización
 
-Rótulo: Capítulo 14 · Fundamentos · Fuente: `/fundamentos/datos/graficos.html`
+Rótulo: Capítulo 13 · Fundamentos · Fuente: `/fundamentos/datos/graficos.html`
 
 Hacer visible lo que importa, sin decorarlo.
 
-## KYN-MRK-DAT-001 · 14.1 Principios
+## KYN-MRK-DAT-001 · 13.1 Principios
 
-Número: 14.1 · ID: `KYN-MRK-DAT-001` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#principios`
+Número: 13.1 · ID: `KYN-MRK-DAT-001` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#principios`
 
 ### Siete reglas sin excepción
 
@@ -70,9 +70,9 @@ Título que afirma, unidad, período y fuente; referencia y nota cuando aplican.
 
 Detrás de cada número hay personas: el gráfico lo recuerda, no lo decora.
 
-## KYN-MRK-DAT-002 · 14.2 Sistema cromático
+## KYN-MRK-DAT-002 · 13.2 Sistema cromático
 
-Número: 14.2 · ID: `KYN-MRK-DAT-002` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#paleta`
+Número: 13.2 · ID: `KYN-MRK-DAT-002` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#paleta`
 
 ### Tres paletas, nunca mezcladas
 
@@ -95,9 +95,9 @@ En cualquiera de las tres, el dato clave va en el tono más intenso y el resto e
 
 Nunca arcoíris, neón ni el verde y rojo de semáforo.
 
-## KYN-MRK-DAT-003 · 14.3 Tipografía en gráficos
+## KYN-MRK-DAT-003 · 13.3 Tipografía en gráficos
 
-Número: 14.3 · ID: `KYN-MRK-DAT-003` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#tipografia`
+Número: 13.3 · ID: `KYN-MRK-DAT-003` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#tipografia`
 
 ### Los números pesan igual que las barras
 
@@ -131,9 +131,9 @@ Jakarta 400 · 11 px, gris nivel 3.
 | Moneda | ₡ 1.500 | $ 1,500 |
 | Cifras grandes | 1,2 M | 1.2M |
 
-## KYN-MRK-DAT-004 · 14.4 Tipos de gráfico
+## KYN-MRK-DAT-004 · 13.4 Tipos de gráfico
 
-Número: 14.4 · ID: `KYN-MRK-DAT-004` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#tipos`
+Número: 13.4 · ID: `KYN-MRK-DAT-004` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#tipos`
 
 ### El gráfico correcto según el dato
 
@@ -243,9 +243,9 @@ Nunca, en ningún formato.
 Pictogramas
 Íconos repetidos para contar cantidades.
 
-## KYN-MRK-DAT-005 · 14.5 Estructura
+## KYN-MRK-DAT-005 · 13.5 Estructura
 
-Número: 14.5 · ID: `KYN-MRK-DAT-005` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#estructura`
+Número: 13.5 · ID: `KYN-MRK-DAT-005` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#estructura`
 
 ### Siete partes antes de publicar
 

@@ -5,18 +5,18 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-014"
 titulo: "Maximalismo uniforme"
-numero: "11.14"
+numero: "10.4.1"
 estado: "vigente"
-capitulo: "11 Criterios visuales"
+capitulo: "10 Composición y diagramación"
 area: "Fundamentos"
-fuente: "/fundamentos/criterio/antipatrones.html#vis-014"
+fuente: "/fundamentos/composicion/editorial.html#vis-014"
 referencias: ["KYN-MRK-COL-011", "KYN-MRK-ESP-005"]
 citada_por: []
 ---
 
 # KYN-MRK-VIS-014 · Maximalismo uniforme
 
-Número: 11.14 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: `/fundamentos/criterio/antipatrones.html#vis-014`
+Número: 10.4.1 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#vis-014`
 
 ##### Intensidad con momentos de reposo
 

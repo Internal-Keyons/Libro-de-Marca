@@ -8,8 +8,8 @@ titulo: "Voz"
 area: "Marca"
 estado: "borrador"
 rutas: ["/marca/voz.html", "/marca/vocabulario.html", "/marca/trato.html"]
-normas: ["KYN-MRK-VOZ-001", "KYN-MRK-VOZ-002", "KYN-MRK-VOZ-003", "KYN-MRK-VOZ-004", "KYN-MRK-VOZ-005", "KYN-MRK-VOZ-006", "KYN-MRK-VOZ-007"]
-referencias: ["KYN-MRK-VOZ-001", "KYN-MRK-VOZ-002", "KYN-MRK-VOZ-003", "KYN-MRK-VOZ-004", "KYN-MRK-VOZ-005", "KYN-MRK-VOZ-006", "KYN-MRK-VOZ-007"]
+normas: ["KYN-MRK-VOZ-001", "KYN-MRK-VOZ-002", "KYN-MRK-VOZ-003", "KYN-MRK-VOZ-004", "KYN-MRK-VIS-013", "KYN-MRK-VOZ-005", "KYN-MRK-VOZ-006", "KYN-MRK-VOZ-007"]
+referencias: ["KYN-MRK-VIS-013", "KYN-MRK-VOZ-001", "KYN-MRK-VOZ-002", "KYN-MRK-VOZ-003", "KYN-MRK-VOZ-004", "KYN-MRK-VOZ-005", "KYN-MRK-VOZ-006", "KYN-MRK-VOZ-007"]
 ---
 
 # Capítulo 04 · Voz
@@ -181,6 +181,32 @@ Partners estratégicos
 Aliados, acompañantes, colaboradores.
 
 Describir la idea es más largo, pero más distintivo y más honesto.
+
+## KYN-MRK-VIS-013 · 4.4.1 Lenguaje genérico
+
+Número: 4.4.1 · ID: `KYN-MRK-VIS-013` · Estado: vigente · Fuente: `/marca/vocabulario.html#vis-013`
+
+### Específico, comprensible y con sentido
+
+**(Problema)**
+Titulares intercambiables, descripciones vacías y expresiones tecnológicas exageradas.
+
+**(Criterio)**
+El contenido debe ser específico, comprensible y significativo.
+No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta.
+
+> Recurso visual: Ejemplo dibujado: «Innovación que transforma el futuro de su negocio»
+
+**(Uso incorrecto)**
+**Una promesa intercambiable** Lo podría firmar cualquier empresa.
+
+> Recurso visual: Ejemplo dibujado: «Su equipo deja de copiar datos a mano entre tres sistemas.»
+
+**(Alternativa mejor)**
+Una explicación concreta de lo que cambia para el cliente.
+
+- **Excepciones**: Ninguna.
+- **Relación**: KYN-MRK-VOZ-002 (Reglas de escritura) y KYN-MRK-VOZ-004 (Vocabulario que evitamos).
 
 ## Trato
 

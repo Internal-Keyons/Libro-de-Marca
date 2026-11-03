@@ -5,9 +5,9 @@ fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-PLA-001"
 titulo: "Plantillas"
-numero: "28.1"
+numero: "27.1"
 estado: "vigente"
-capitulo: "28 Plantillas y documentos"
+capitulo: "27 Plantillas y documentos"
 area: "Recursos"
 fuente: "/recursos/plantillas.html#plantillas"
 referencias: []
@@ -16,11 +16,11 @@ citada_por: []
 
 # KYN-MRK-PLA-001 · Plantillas
 
-Número: 28.1 · Estado: vigente · Capítulo: 28 Plantillas y documentos · Fuente: `/recursos/plantillas.html#plantillas`
+Número: 27.1 · Estado: vigente · Capítulo: 27 Plantillas y documentos · Fuente: `/recursos/plantillas.html#plantillas`
 
 ##### Plantillas de presentación
 
-Cuatro salas, una marca. Las reglas para armarlas están en el capítulo 21.
+Cuatro salas, una marca. Las reglas para armarlas están en el capítulo 20.
 
 01
 

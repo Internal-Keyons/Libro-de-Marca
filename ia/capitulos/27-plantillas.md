@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "28"
+capitulo: "27"
 titulo: "Plantillas y documentos"
 area: "Recursos"
 estado: "borrador"
@@ -12,9 +12,9 @@ normas: ["KYN-MRK-PLA-001", "KYN-MRK-PLA-002"]
 referencias: ["KYN-MRK-PLA-001", "KYN-MRK-PLA-002"]
 ---
 
-# Capítulo 28 · Plantillas y documentos
+# Capítulo 27 · Plantillas y documentos
 
-Estado: borrador · Clave: plantillas · Ruta: `/recursos/plantillas.html` · Número anterior: 26
+Estado: borrador · Clave: plantillas · Ruta: `/recursos/plantillas.html` · Número anterior: 26, 28
 
 Plantillas de presentación y manuales.
 
@@ -25,17 +25,17 @@ Plantillas de presentación y manuales.
 
 ## Plantillas y documentos
 
-Rótulo: Capítulo 28 · Recursos · Fuente: `/recursos/plantillas.html`
+Rótulo: Capítulo 27 · Recursos · Fuente: `/recursos/plantillas.html`
 
 Lo que se descarga para producir y los manuales que acompañan a este.
 
-## KYN-MRK-PLA-001 · 28.1 Plantillas
+## KYN-MRK-PLA-001 · 27.1 Plantillas
 
-Número: 28.1 · ID: `KYN-MRK-PLA-001` · Estado: vigente · Fuente: `/recursos/plantillas.html#plantillas`
+Número: 27.1 · ID: `KYN-MRK-PLA-001` · Estado: vigente · Fuente: `/recursos/plantillas.html#plantillas`
 
 ### Plantillas de presentación
 
-Cuatro salas, una marca. Las reglas para armarlas están en el capítulo 21.
+Cuatro salas, una marca. Las reglas para armarlas están en el capítulo 20.
 
 01
 
@@ -73,9 +73,9 @@ Grupos · expresivo 16:9 · .pptx
 
 [Descargar](/assets/descargas/keyons-plantilla-taller.pptx)
 
-## KYN-MRK-PLA-002 · 28.2 Documentos
+## KYN-MRK-PLA-002 · 27.2 Documentos
 
-Número: 28.2 · ID: `KYN-MRK-PLA-002` · Estado: vigente · Fuente: `/recursos/plantillas.html#documentos`
+Número: 27.2 · ID: `KYN-MRK-PLA-002` · Estado: vigente · Fuente: `/recursos/plantillas.html#documentos`
 
 ### Manuales y documentos
 

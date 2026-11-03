@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-capitulo: "24"
+capitulo: "23"
 titulo: "Personalización"
 area: "Aplicaciones"
 estado: "borrador"
@@ -12,9 +12,9 @@ normas: ["KYN-MRK-PER-001", "KYN-MRK-PER-002", "KYN-MRK-PER-003", "KYN-MRK-PER-0
 referencias: ["KYN-MRK-DIS-002", "KYN-MRK-PER-001", "KYN-MRK-PER-002", "KYN-MRK-PER-003", "KYN-MRK-PER-004"]
 ---
 
-# Capítulo 24 · Personalización
+# Capítulo 23 · Personalización
 
-Estado: borrador · Clave: personalizacion · Ruta: `/aplicaciones/personalizacion.html` · Número anterior: 22
+Estado: borrador · Clave: personalizacion · Ruta: `/aplicaciones/personalizacion.html` · Número anterior: 22, 24
 
 Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca blanca.
 
@@ -27,13 +27,13 @@ Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca b
 
 ## Personalización
 
-Rótulo: Capítulo 24 · Aplicaciones · Fuente: `/aplicaciones/personalizacion.html`
+Rótulo: Capítulo 23 · Aplicaciones · Fuente: `/aplicaciones/personalizacion.html`
 
 Qué cambia y qué se queda cuando un producto se entrega a la medida de un cliente.
 
-## KYN-MRK-PER-001 · 24.1 Tres modelos
+## KYN-MRK-PER-001 · 23.1 Tres modelos
 
-Número: 24.1 · ID: `KYN-MRK-PER-001` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#modelos`
+Número: 23.1 · ID: `KYN-MRK-PER-001` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#modelos`
 
 ### Cuánta firma se queda
 
@@ -47,9 +47,9 @@ La firma visual cambia según el modelo comercial; **la calidad técnica, nunca*
 
 El principio KYN-MRK-DIS-002 explica por qué la identidad Keyons no se impone en la marca del cliente.
 
-## KYN-MRK-PER-002 · 24.2 Modelo A · SaaS
+## KYN-MRK-PER-002 · 23.2 Modelo A · SaaS
 
-Número: 24.2 · ID: `KYN-MRK-PER-002` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#saas`
+Número: 23.2 · ID: `KYN-MRK-PER-002` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#saas`
 
 ### La marca se reconoce aunque se personalice
 
@@ -61,9 +61,9 @@ Texto en Azul Noche y grises oficiales. Estructura y componentes en Blanco Keyon
 **(Personalizable)**
 El color de acento del cliente en zonas designadas: encabezado de documentos generados, su logotipo arriba y botones de su marca en las secciones donde su identidad es protagonista. Su imagen en la bienvenida, dentro del marco del sistema.
 
-## KYN-MRK-PER-003 · 24.3 Modelo B · Boutique
+## KYN-MRK-PER-003 · 23.3 Modelo B · Boutique
 
-Número: 24.3 · ID: `KYN-MRK-PER-003` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#boutique`
+Número: 23.3 · ID: `KYN-MRK-PER-003` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#boutique`
 
 ### La firma vive en la calidad
 
@@ -79,9 +79,9 @@ Proyectos hechos desde cero para un cliente. **Sin colores ni estética Keyons**
 **(Crédito negociable)**
 «Built by Keyons», «Powered by Keyons» o «Made with Keyons» en el pie, los créditos o la documentación. Caso de éxito publicable solo con autorización expresa.
 
-## KYN-MRK-PER-004 · 24.4 Modelo C · Marca blanca
+## KYN-MRK-PER-004 · 23.4 Modelo C · Marca blanca
 
-Número: 24.4 · ID: `KYN-MRK-PER-004` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#blanca`
+Número: 23.4 · ID: `KYN-MRK-PER-004` · Estado: vigente · Fuente: `/aplicaciones/personalizacion.html#blanca`
 
 ### Invisible, pero presente
 
