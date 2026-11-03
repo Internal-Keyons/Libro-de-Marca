@@ -14,12 +14,21 @@ Documentación de desarrollo. No se publica con el sitio.
 
 | Nivel | Dónde se ve |
 | --- | --- |
-| Módulos | Portada (tarjetas en carrusel), `modulos.html` (página de área) y menú |
-| Capítulos | Página de módulo `sistema-diseno/<módulo>.html` y lateral |
-| Subcapítulos | Página de capítulo `sistema-diseno/<módulo>/<capítulo>.html`, con ancla `#s-01-02-03` |
+| Módulos | Cada módulo es un área, como en el Libro de Marca: tarjeta en la portada, entrada del menú y página de área `sistema-diseno/<módulo>.html` |
+| Capítulos | Página de área del módulo, lateral y tarjeta |
+| Subcapítulos | Página de capítulo `sistema-diseno/<módulo>/<capítulo>.html`, con ancla `#s-01-02-03`, y lateral |
 | Normas | Se agregarán dentro de cada subcapítulo con la estructura de `plantilla.html` |
 
 **Estados:** Estructura definida, Contenido pendiente, Borrador, En revisión, Vigente y Descontinuado. Hoy los 45 capítulos están en «Estructura definida» y los 135 subcapítulos en «Contenido pendiente». Nada está vigente.
+
+## Nombres cortos y trama
+
+- **Nombres cortos (propuesta, 2026-11-02):** el menú, las tarjetas y el lateral usan nombres de una línea, como el Libro de Marca. Están en `data/sistema-diseno.json`:
+  - `st`, nombre corto de módulos, capítulos y subcapítulos;
+  - `dc`, descripción corta de la tarjeta del módulo.
+
+  Los títulos completos aprobados siguen en las páginas.
+- **Trama:** el libro declara `KEYONS_BOOK.id = 'sistema-diseno'` y `libro.js` lo escribe en `<html data-libro>`. La trama es la retícula horizontal y vertical, en el encabezado de portada, los portales de capítulo y las franjas de área.
 
 ## Cómo se mantiene
 
@@ -30,9 +39,9 @@ Documentación de desarrollo. No se publica con el sitio.
    python tools/sistema_diseno.py
    ```
 
-   El generador escribe `js/nav-sistema-diseno.js`, las 12 páginas de módulo y las 45 de capítulo.
-3. **Archivos a mano:** la portada (`index.html`), `modulos.html` y `plantilla.html` se editan a mano.
-4. **Código compartido:** `js/libro.js` lee `KEYONS_BOOK` (portada, menú, estados, leyenda y nombres de nivel). Sin esa declaración, el Libro de Marca no cambia.
+   El generador escribe `js/nav-sistema-diseno.js`, las 12 páginas de área de módulo y las 45 de capítulo.
+3. **Archivos a mano:** la portada (`index.html`) y `plantilla.html` se editan a mano.
+4. **Código compartido:** `js/libro.js` lee `KEYONS_BOOK` (id, portada, enlaces del menú, estados, leyenda, nombres de nivel, `cardShort` y `areaFull`). Sin esa declaración, el Libro de Marca no cambia.
 5. **Estilos:** `css/sistema-diseno.css` guarda solo lo que Marca no tiene (estados nuevos, listas de capítulos y subcapítulos, ejemplo interactivo).
 6. **Referencias a Marca:** un ID `KYN-MRK-…` se enlaza a su norma del Libro de Marca. No se duplica el texto.
 

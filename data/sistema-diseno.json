@@ -1,5 +1,5 @@
 {
- "nota": "Arquitectura documental V1 del Sistema de Diseño. Fuente única de tools/sistema_diseno.py. Los números son ubicación documental, no códigos de norma.",
+ "nota": "Arquitectura documental V1 del Sistema de Diseño. Fuente única de tools/sistema_diseno.py. Los números son ubicación documental, no códigos de norma. «st» es el nombre corto de navegación (una línea); «dc», la descripción corta de la tarjeta del módulo.",
  "version": "1",
  "modulos": [
   {
@@ -26,19 +26,23 @@
       {
        "n": "01.01.01",
        "t": "Claridad y orientación",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Claridad y orientación"
       },
       {
        "n": "01.01.02",
        "t": "Consistencia y previsibilidad",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Consistencia"
       },
       {
        "n": "01.01.03",
        "t": "Control y confianza",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Control y confianza"
       }
-     ]
+     ],
+     "st": "Principios comunes"
     },
     {
      "n": "01.02",
@@ -49,19 +53,23 @@
       {
        "n": "01.02.01",
        "t": "Roles y capacidades de los usuarios",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Roles y capacidades"
       },
       {
        "n": "01.02.02",
        "t": "Objetivos, tareas y frecuencia de uso",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Objetivos y tareas"
       },
       {
        "n": "01.02.03",
        "t": "Carga cognitiva y densidad informativa",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Carga cognitiva"
       }
-     ]
+     ],
+     "st": "Personas y contextos"
     },
     {
      "n": "01.03",
@@ -72,21 +80,27 @@
       {
        "n": "01.03.01",
        "t": "Principios, hipótesis y requisitos",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Hipótesis y requisitos"
       },
       {
        "n": "01.03.02",
        "t": "Criterios de aceptación UX",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Criterios UX"
       },
       {
        "n": "01.03.03",
        "t": "Indicadores de calidad de experiencia",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Indicadores"
       }
-     ]
+     ],
+     "st": "Decisiones verificables"
     }
-   ]
+   ],
+   "st": "Experiencia",
+   "dc": "Criterios de calidad comunes a herramientas internas y productos."
   },
   {
    "n": "02",
@@ -110,19 +124,23 @@
       {
        "n": "02.01.01",
        "t": "Mapas de contenido y módulos funcionales",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Mapas de contenido"
       },
       {
        "n": "02.01.02",
        "t": "Taxonomías y nomenclatura",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Taxonomías"
       },
       {
        "n": "02.01.03",
        "t": "Jerarquías y relaciones de información",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Jerarquías"
       }
-     ]
+     ],
+     "st": "Información"
     },
     {
      "n": "02.02",
@@ -133,19 +151,23 @@
       {
        "n": "02.02.01",
        "t": "Estructura base de aplicación",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Estructura base"
       },
       {
        "n": "02.02.02",
        "t": "Menús laterales, cabeceras y navegación contextual",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Menús laterales"
       },
       {
        "n": "02.02.03",
        "t": "Rutas, niveles y navegación adaptable",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Rutas y niveles"
       }
-     ]
+     ],
+     "st": "Navegación"
     },
     {
      "n": "02.03",
@@ -156,21 +178,27 @@
       {
        "n": "02.03.01",
        "t": "Búsqueda global y contextual",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Búsqueda global"
       },
       {
        "n": "02.03.02",
        "t": "Filtros y descubrimiento de contenido",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Filtros"
       },
       {
        "n": "02.03.03",
        "t": "Ubicación, rutas de navegación y cambio de contexto",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Ubicación y contexto"
       }
-     ]
+     ],
+     "st": "Búsqueda"
     }
-   ]
+   ],
+   "st": "Arquitectura",
+   "dc": "Cómo se organiza la información y cómo se recorre."
   },
   {
    "n": "03",
@@ -198,19 +226,23 @@
       {
        "n": "03.01.01",
        "t": "Tokens base, semánticos y de componente",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Tokens base"
       },
       {
        "n": "03.01.02",
        "t": "Nomenclatura, jerarquía y herencia",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Nomenclatura"
       },
       {
        "n": "03.01.03",
        "t": "Temas visuales y versionado",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Temas visuales"
       }
-     ]
+     ],
+     "st": "Tokens"
     },
     {
      "n": "03.02",
@@ -221,19 +253,23 @@
       {
        "n": "03.02.01",
        "t": "Superficies, texto y bordes",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Superficies"
       },
       {
        "n": "03.02.02",
        "t": "Colores de interacción, foco y estados",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Colores de interacción"
       },
       {
        "n": "03.02.03",
        "t": "Contraste y adaptación entre modos de color",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Contraste"
       }
-     ]
+     ],
+     "st": "Color funcional"
     },
     {
      "n": "03.03",
@@ -244,19 +280,23 @@
       {
        "n": "03.03.01",
        "t": "Funciones de las familias tipográficas oficiales",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Familias tipográficas"
       },
       {
        "n": "03.03.02",
        "t": "Jerarquías, escalas y legibilidad",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Jerarquías y escalas"
       },
       {
        "n": "03.03.03",
        "t": "Números, cifras y tipografía de datos",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Cifras y datos"
       }
-     ]
+     ],
+     "st": "Tipografía"
     },
     {
      "n": "03.04",
@@ -267,19 +307,23 @@
       {
        "n": "03.04.01",
        "t": "Retículas y puntos de adaptación",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Retículas"
       },
       {
        "n": "03.04.02",
        "t": "Espaciado y densidad de interfaz",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Espaciado"
       },
       {
        "n": "03.04.03",
        "t": "Geometría y esquinas de componentes",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Geometría"
       }
-     ]
+     ],
+     "st": "Espacio y retícula"
     },
     {
      "n": "03.05",
@@ -290,21 +334,27 @@
       {
        "n": "03.05.01",
        "t": "Iconografía funcional",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Iconografía funcional"
       },
       {
        "n": "03.05.02",
        "t": "Bordes, sombras y elevación",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Bordes"
       },
       {
        "n": "03.05.03",
        "t": "Imágenes, degradados y texturas aplicadas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Imágenes"
       }
-     ]
+     ],
+     "st": "Recursos visuales"
     }
-   ]
+   ],
+   "st": "Fundamentos",
+   "dc": "Los fundamentos de Marca convertidos en reglas de interfaz."
   },
   {
    "n": "04",
@@ -329,19 +379,23 @@
       {
        "n": "04.01.01",
        "t": "Botones y botones con icono",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Botones"
       },
       {
        "n": "04.01.02",
        "t": "Enlaces, menús y acciones",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Enlaces"
       },
       {
        "n": "04.01.03",
        "t": "Estados de disponibilidad y procesamiento",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Disponibilidad"
       }
-     ]
+     ],
+     "st": "Acciones"
     },
     {
      "n": "04.02",
@@ -352,19 +406,23 @@
       {
        "n": "04.02.01",
        "t": "Campos de texto y áreas de escritura",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Campos de texto"
       },
       {
        "n": "04.02.02",
        "t": "Selectores, casillas, radios e interruptores",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Selectores"
       },
       {
        "n": "04.02.03",
        "t": "Fechas, archivos y entradas especializadas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Fechas"
       }
-     ]
+     ],
+     "st": "Entradas"
     },
     {
      "n": "04.03",
@@ -375,19 +433,23 @@
       {
        "n": "04.03.01",
        "t": "Pestañas y componentes de navegación",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Pestañas"
       },
       {
        "n": "04.03.02",
        "t": "Tablas, listas y contenedores",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Tablas"
       },
       {
        "n": "04.03.03",
        "t": "Acordeones, árboles y contenido expandible",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Acordeones"
       }
-     ]
+     ],
+     "st": "Estructura"
     },
     {
      "n": "04.04",
@@ -398,21 +460,27 @@
       {
        "n": "04.04.01",
        "t": "Alertas, notificaciones y etiquetas de estado",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Alertas"
       },
       {
        "n": "04.04.02",
        "t": "Diálogos, paneles y ventanas emergentes",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Diálogos"
       },
       {
        "n": "04.04.03",
        "t": "Indicadores de progreso y carga",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Indicadores de progreso"
       }
-     ]
+     ],
+     "st": "Retroalimentación"
     }
-   ]
+   ],
+   "st": "Componentes",
+   "dc": "Piezas reutilizables, sus variantes y sus estados."
   },
   {
    "n": "05",
@@ -437,19 +505,23 @@
       {
        "n": "05.01.01",
        "t": "Estructura y ayuda contextual",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Estructura y ayuda"
       },
       {
        "n": "05.01.02",
        "t": "Validación y comunicación de errores",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Validación"
       },
       {
        "n": "05.01.03",
        "t": "Formularios de múltiples pasos",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Múltiples pasos"
       }
-     ]
+     ],
+     "st": "Formularios"
     },
     {
      "n": "05.02",
@@ -460,19 +532,23 @@
       {
        "n": "05.02.01",
        "t": "Creación, edición y guardado",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Creación"
       },
       {
        "n": "05.02.02",
        "t": "Eliminación y acciones masivas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Eliminación"
       },
       {
        "n": "05.02.03",
        "t": "Borradores y continuidad de tareas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Borradores"
       }
-     ]
+     ],
+     "st": "Flujos de trabajo"
     },
     {
      "n": "05.03",
@@ -483,19 +559,23 @@
       {
        "n": "05.03.01",
        "t": "Estados vacíos y de espera",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Estados vacíos"
       },
       {
        "n": "05.03.02",
        "t": "Reintentos, deshacer y recuperación",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Reintentos"
       },
       {
        "n": "05.03.03",
        "t": "Errores y continuidad operativa",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Errores"
       }
-     ]
+     ],
+     "st": "Recuperación"
     },
     {
      "n": "05.04",
@@ -506,21 +586,27 @@
       {
        "n": "05.04.01",
        "t": "Confirmaciones de alto impacto",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Confirmaciones"
       },
       {
        "n": "05.04.02",
        "t": "Permisos y autorizaciones humanas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Permisos"
       },
       {
        "n": "05.04.03",
        "t": "Trazabilidad visible de acciones",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Trazabilidad visible"
       }
-     ]
+     ],
+     "st": "Operaciones sensibles"
     }
-   ]
+   ],
+   "st": "Patrones",
+   "dc": "Componentes combinados para resolver tareas completas."
   },
   {
    "n": "06",
@@ -548,19 +634,23 @@
       {
        "n": "06.01.01",
        "t": "Contraste y legibilidad",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Contraste y legibilidad"
       },
       {
        "n": "06.01.02",
        "t": "Información no dependiente del color",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Sin depender del color"
       },
       {
        "n": "06.01.03",
        "t": "Zoom, redistribución y espaciado de texto",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Zoom y redistribución"
       }
-     ]
+     ],
+     "st": "Percepción"
     },
     {
      "n": "06.02",
@@ -571,19 +661,23 @@
       {
        "n": "06.02.01",
        "t": "Teclado y secuencia de foco",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Teclado"
       },
       {
        "n": "06.02.02",
        "t": "Lectores de pantalla y semántica accesible",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Lectores de pantalla"
       },
       {
        "n": "06.02.03",
        "t": "Objetivos táctiles y formas de interacción",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Objetivos táctiles"
       }
-     ]
+     ],
+     "st": "Operación"
     },
     {
      "n": "06.03",
@@ -594,21 +688,27 @@
       {
        "n": "06.03.01",
        "t": "Diseño adaptable y dispositivos",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Diseño adaptable"
       },
       {
        "n": "06.03.02",
        "t": "Preferencias del sistema y movimiento reducido",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Preferencias del sistema"
       },
       {
        "n": "06.03.03",
        "t": "Diferentes capacidades y condiciones de uso",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Diferentes capacidades"
       }
-     ]
+     ],
+     "st": "Adaptación"
     }
-   ]
+   ],
+   "st": "Accesibilidad",
+   "dc": "Requisitos de acceso y adaptación, con WCAG 2.2 AA."
   },
   {
    "n": "07",
@@ -634,19 +734,23 @@
       {
        "n": "07.01.01",
        "t": "Etiquetas y llamadas a la acción",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Etiquetas"
       },
       {
        "n": "07.01.02",
        "t": "Instrucciones y textos de ayuda",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Instrucciones"
       },
       {
        "n": "07.01.03",
        "t": "Brevedad, claridad y consistencia verbal",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Brevedad"
       }
-     ]
+     ],
+     "st": "Escritura"
     },
     {
      "n": "07.02",
@@ -657,19 +761,23 @@
       {
        "n": "07.02.01",
        "t": "Confirmaciones y mensajes de progreso",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Confirmaciones"
       },
       {
        "n": "07.02.02",
        "t": "Errores y acciones de recuperación",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Errores"
       },
       {
        "n": "07.02.03",
        "t": "Advertencias, límites y estados vacíos",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Advertencias"
       }
-     ]
+     ],
+     "st": "Mensajes"
     },
     {
      "n": "07.03",
@@ -680,21 +788,27 @@
       {
        "n": "07.03.01",
        "t": "Terminología y lenguaje técnico",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Terminología"
       },
       {
        "n": "07.03.02",
        "t": "Español, inglés y adaptación regional",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Idiomas y regiones"
       },
       {
        "n": "07.03.03",
        "t": "Voz y tono según identidad de producto",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Voz y tono"
       }
-     ]
+     ],
+     "st": "Localización"
     }
-   ]
+   ],
+   "st": "Contenido",
+   "dc": "La voz de Keyons aplicada a los mensajes de interfaz."
   },
   {
    "n": "08",
@@ -720,19 +834,23 @@
       {
        "n": "08.01.01",
        "t": "Columnas, ordenamiento y estructura",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Columnas"
       },
       {
        "n": "08.01.02",
        "t": "Filtros, paginación y navegación de registros",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Filtros"
       },
       {
        "n": "08.01.03",
        "t": "Densidad y adaptación de tablas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Densidad"
       }
-     ]
+     ],
+     "st": "Tablas"
     },
     {
      "n": "08.02",
@@ -743,19 +861,23 @@
       {
        "n": "08.02.01",
        "t": "Selección del tipo de visualización",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Tipo de gráfico"
       },
       {
        "n": "08.02.02",
        "t": "Paletas categóricas, secuenciales y divergentes",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Paletas categóricas"
       },
       {
        "n": "08.02.03",
        "t": "Escalas, leyendas y accesibilidad de gráficos",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Escalas"
       }
-     ]
+     ],
+     "st": "Gráficos"
     },
     {
      "n": "08.03",
@@ -766,19 +888,23 @@
       {
        "n": "08.03.01",
        "t": "Formatos numéricos, unidades y fechas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Formatos numéricos"
       },
       {
        "n": "08.03.02",
        "t": "Variaciones, comparaciones y tendencias",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Variaciones"
       },
       {
        "n": "08.03.03",
        "t": "Datos ausentes, inciertos o incompletos",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Datos ausentes"
       }
-     ]
+     ],
+     "st": "Indicadores"
     },
     {
      "n": "08.04",
@@ -789,21 +915,27 @@
       {
        "n": "08.04.01",
        "t": "Organización según tareas y decisiones",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Organización"
       },
       {
        "n": "08.04.02",
        "t": "Exploración y profundización de datos",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Exploración"
       },
       {
        "n": "08.04.03",
        "t": "Exportación, impresión y presentación de resultados",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Exportación"
       }
-     ]
+     ],
+     "st": "Dashboards"
     }
-   ]
+   ],
+   "st": "Datos",
+   "dc": "Información cuantitativa clara y bien interpretada."
   },
   {
    "n": "09",
@@ -831,19 +963,23 @@
       {
        "n": "09.01.01",
        "t": "Transparencia de capacidades y límites",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Transparencia"
       },
       {
        "n": "09.01.02",
        "t": "Incertidumbre, fuentes y verificación",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Incertidumbre"
       },
       {
        "n": "09.01.03",
        "t": "Control del usuario sobre la interacción",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Control del usuario"
       }
-     ]
+     ],
+     "st": "Principios de IA"
     },
     {
      "n": "09.02",
@@ -854,19 +990,23 @@
       {
        "n": "09.02.01",
        "t": "Aplicación de su identidad y personalidad",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Identidad de Estela"
       },
       {
        "n": "09.02.02",
        "t": "Mensajes, referencias y archivos",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Mensajes"
       },
       {
        "n": "09.02.03",
        "t": "Historial, contexto y continuidad conversacional",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Historial"
       }
-     ]
+     ],
+     "st": "Conversación"
     },
     {
      "n": "09.03",
@@ -877,19 +1017,23 @@
       {
        "n": "09.03.01",
        "t": "Orquestación y representación de agentes",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Orquestación"
       },
       {
        "n": "09.03.02",
        "t": "Planificación y visualización de acciones",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Planificación"
       },
       {
        "n": "09.03.03",
        "t": "Confirmaciones, aprobaciones y registro de ejecución",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Aprobaciones y registro"
       }
-     ]
+     ],
+     "st": "Agentes"
     },
     {
      "n": "09.04",
@@ -900,21 +1044,27 @@
       {
        "n": "09.04.01",
        "t": "Privacidad y control de acceso",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Privacidad"
       },
       {
        "n": "09.04.02",
        "t": "Errores, límites y escalamiento humano",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Errores"
       },
       {
        "n": "09.04.03",
        "t": "Diferenciación entre acciones automáticas y humanas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Acciones automáticas"
       }
-     ]
+     ],
+     "st": "Seguridad y confianza"
     }
-   ]
+   ],
+   "st": "IA y Estela",
+   "dc": "Cómo se interactúa con la IA y con Estela en los productos."
   },
   {
    "n": "10",
@@ -940,19 +1090,23 @@
       {
        "n": "10.01.01",
        "t": "Estándares UX comunes",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Estándares UX comunes"
       },
       {
        "n": "10.01.02",
        "t": "Reutilización de componentes",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Reutilización"
       },
       {
        "n": "10.01.03",
        "t": "Herencia y variación de temas visuales",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Herencia de temas"
       }
-     ]
+     ],
+     "st": "Base compartida"
     },
     {
      "n": "10.02",
@@ -963,19 +1117,23 @@
       {
        "n": "10.02.01",
        "t": "Aplicación funcional de la identidad corporativa",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Aplicación funcional"
       },
       {
        "n": "10.02.02",
        "t": "Navegación y composición web",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Navegación"
       },
       {
        "n": "10.02.03",
        "t": "Interacciones y acciones públicas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Interacciones"
       }
-     ]
+     ],
+     "st": "Sitio web"
     },
     {
      "n": "10.03",
@@ -986,19 +1144,23 @@
       {
        "n": "10.03.01",
        "t": "Identidad visual operativa Keyons",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Identidad visual"
       },
       {
        "n": "10.03.02",
        "t": "Navegación por roles y tareas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Navegación por roles"
       },
       {
        "n": "10.03.03",
        "t": "Densidad informativa y espacios de trabajo",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Densidad informativa"
       }
-     ]
+     ],
+     "st": "Herramientas internas"
     },
     {
      "n": "10.04",
@@ -1009,19 +1171,23 @@
       {
        "n": "10.04.01",
        "t": "Estética neutral premium",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Estética neutral premium"
       },
       {
        "n": "10.04.02",
        "t": "Estructura base de aplicaciones SaaS",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Estructura base"
       },
       {
        "n": "10.04.03",
        "t": "Opciones de configuración y personalización",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Configuración"
       }
-     ]
+     ],
+     "st": "Product Default"
     },
     {
      "n": "10.05",
@@ -1032,21 +1198,27 @@
       {
        "n": "10.05.01",
        "t": "Aplicación de identidades de clientes",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Identidades de clientes"
       },
       {
        "n": "10.05.02",
        "t": "Marca blanca sin firma visual del proveedor",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Marca blanca"
       },
       {
        "n": "10.05.03",
        "t": "Límites de personalización y consistencia funcional",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Límites"
       }
-     ]
+     ],
+     "st": "White-label"
     }
-   ]
+   ],
+   "st": "Productos",
+   "dc": "Una base común con expresiones visuales distintas."
   },
   {
    "n": "11",
@@ -1075,19 +1247,23 @@
       {
        "n": "11.01.01",
        "t": "Transiciones funcionales",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Transiciones funcionales"
       },
       {
        "n": "11.01.02",
        "t": "Retroalimentación y progreso",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Retroalimentación"
       },
       {
        "n": "11.01.03",
        "t": "Interrupciones y límites del movimiento",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Interrupciones"
       }
-     ]
+     ],
+     "st": "Movimiento operativo"
     },
     {
      "n": "11.02",
@@ -1098,19 +1274,23 @@
       {
        "n": "11.02.01",
        "t": "Entradas y cambios de escena",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Entradas"
       },
       {
        "n": "11.02.02",
        "t": "Movimiento atmosférico y expresivo",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Movimiento atmosférico"
       },
       {
        "n": "11.02.03",
        "t": "Intensidad y adaptación al contexto",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Intensidad"
       }
-     ]
+     ],
+     "st": "Movimiento editorial"
     },
     {
      "n": "11.03",
@@ -1121,22 +1301,28 @@
       {
        "n": "11.03.01",
        "t": "Sonido y control de reproducción",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Sonido"
       },
       {
        "n": "11.03.02",
        "t": "Respuesta háptica",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Respuesta háptica"
       },
       {
        "n": "11.03.03",
        "t": "Atajos de teclado y convenciones del sistema operativo",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Atajos de teclado"
       }
-     ]
+     ],
+     "st": "Multisensorial"
     }
    ],
-   "nota": "El sonido permanecerá desactivado por defecto. La háptica se mantendrá como capacidad conceptual hasta definir una implementación."
+   "nota": "El sonido permanecerá desactivado por defecto. La háptica se mantendrá como capacidad conceptual hasta definir una implementación.",
+   "st": "Movimiento",
+   "dc": "Movimiento y recursos sensoriales con un propósito claro."
   },
   {
    "n": "12",
@@ -1162,19 +1348,23 @@
       {
        "n": "12.01.01",
        "t": "Propiedad y fuente oficial de cada norma",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Propiedad"
       },
       {
        "n": "12.01.02",
        "t": "Identificadores y referencias permanentes",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Identificadores"
       },
       {
        "n": "12.01.03",
        "t": "Aprobación, cambios y descontinuación",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Aprobación"
       }
-     ]
+     ],
+     "st": "Gobierno normativo"
     },
     {
      "n": "12.02",
@@ -1185,19 +1375,23 @@
       {
        "n": "12.02.01",
        "t": "Traducción de tokens y componentes a código",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Traducción de tokens"
       },
       {
        "n": "12.02.02",
        "t": "Especificaciones para desarrollo",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Especificaciones"
       },
       {
        "n": "12.02.03",
        "t": "Compatibilidad, mantenimiento y versiones",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Compatibilidad"
       }
-     ]
+     ],
+     "st": "Implementación"
     },
     {
      "n": "12.03",
@@ -1208,19 +1402,23 @@
       {
        "n": "12.03.01",
        "t": "Verificación visual y funcional",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Verificación visual"
       },
       {
        "n": "12.03.02",
        "t": "Pruebas de usabilidad por perfiles y tareas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Pruebas de usabilidad"
       },
       {
        "n": "12.03.03",
        "t": "Verificación de accesibilidad y regresiones",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Regresiones"
       }
-     ]
+     ],
+     "st": "Validación"
     },
     {
      "n": "12.04",
@@ -1231,21 +1429,27 @@
       {
        "n": "12.04.01",
        "t": "Catálogo y relaciones entre normas",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Catálogo"
       },
       {
        "n": "12.04.02",
        "t": "Exportación para personas y sistemas de IA",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Exportación para IA"
       },
       {
        "n": "12.04.03",
        "t": "Consulta autorizada y permisos documentales",
-       "estado": "pendiente"
+       "estado": "pendiente",
+       "st": "Consulta autorizada"
       }
-     ]
+     ],
+     "st": "Documentación"
     }
-   ]
+   ],
+   "st": "Gobierno",
+   "dc": "Cómo se gestionan, implementan y prueban las normas."
   }
  ]
 }

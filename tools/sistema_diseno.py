@@ -2,14 +2,15 @@
 
 Uso: python tools/sistema_diseno.py
 
-Fuente única: data/sistema-diseno.json (módulos, capítulos y subcapítulos, con su estado).
+Fuente única: data/sistema-diseno.json (módulos, capítulos y subcapítulos, con estado y nombre corto).
+El libro usa los mismos componentes que el Libro de Marca: cada módulo es un área.
 Escribe:
-- js/nav-sistema-diseno.js           índice del libro para js/libro.js (lateral, menú, buscador, paginador)
-- sistema-diseno/<módulo>.html       página de módulo: sus capítulos y las normas de Marca que aplica
-- sistema-diseno/<módulo>/<cap>.html página de capítulo: sus subcapítulos
+- js/nav-sistema-diseno.js           índice para js/libro.js (tarjetas, menú, lateral, buscador, paginador, páginas de área)
+- sistema-diseno/<módulo>.html       página de área del módulo (generada en el navegador) y normas de Marca que aplica
+- sistema-diseno/<módulo>/<cap>.html página de capítulo con sus subcapítulos
 
-La portada (sistema-diseno/index.html), la página de módulos (modulos.html) y la plantilla
-se editan a mano. Los números (01.02.03) son ubicación documental; no son códigos de norma.
+La portada (sistema-diseno/index.html) y la plantilla se editan a mano.
+Los números (01.02.03) son ubicación documental; no son códigos de norma.
 """
 import html
 import io
@@ -29,9 +30,9 @@ PORTAL = {'noche': 'portal', 'cielo': 'portal portal--cielo', 'salmon': 'portal 
 NOMBRE_COLOR = {'noche': 'Azul Noche', 'cielo': 'Azul Cielo', 'salmon': 'Salmón Tierra', 'atardecer': 'Salmón Atardecer'}
 ESTADO = {'vigente': 'v', 'borrador': 'b', 'pendiente': 'p', 'estructura': 'e', 'revision': 'r', 'descontinuado': 'd'}
 TEXTO = {'v': 'Vigente', 'b': 'Borrador', 'p': 'Contenido pendiente', 'e': 'Estructura definida', 'r': 'En revisión', 'd': 'Descontinuado'}
+CLASE = {'v': 'vigente', 'b': 'borrador', 'p': 'pendiente', 'e': 'estructura', 'r': 'revision', 'd': 'descontinuado'}
 
 CHEV = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg>'
-GO = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg>'
 
 
 def e(t):
@@ -40,6 +41,10 @@ def e(t):
 
 def js(t):
     return t.replace('\\', '\\\\').replace("'", "\\'")
+
+
+def ancla(n):
+    return 's-' + n.replace('.', '-')
 
 
 def head(title, root):
@@ -71,63 +76,55 @@ def foot(root):
 
 
 def dot(k):
-    s = {'v': 'vigente', 'b': 'borrador', 'p': 'pendiente', 'e': 'estructura', 'r': 'revision', 'd': 'descontinuado'}[k]
-    return f'<span class="dot dot--{s}" title="{TEXTO[k]}" aria-label="{TEXTO[k]}"></span>'
+    return f'<span class="dot dot--{CLASE[k]}" title="{TEXTO[k]}" aria-label="{TEXTO[k]}"></span>'
 
 
 def nav(d):
-    """js/nav-sistema-diseno.js: un área con doce módulos; cada módulo lista su índice y sus capítulos."""
-    out = ['''/* ═══════════════════════════════════════════════════════════════
+    """Doce áreas (una por módulo); cada capítulo lista sus subcapítulos como secciones de su página."""
+    areas = []
+    for i, m in enumerate(d['modulos']):
+        color = COLORES[i % 4]
+        caps = []
+        for c in m['capitulos']:
+            items = ',\n          '.join(
+                f"{{ n: '{s['n']}', t: '{js(s['t'])}', st: '{js(s['st'])}', s: '{ESTADO[s['estado']]}', href: 'sistema-diseno/{m['slug']}/{c['slug']}.html#{ancla(s['n'])}' }}"
+                for s in c['subcapitulos'])
+            caps.append(f"      {{ n: '{c['n']}', k: '{c['n'].replace('.', '-')}', t: '{js(c['st'])}', full: '{js(c['t'])}', s: '{ESTADO[c['estado']]}', items: [\n          {items} ] }}")
+        areas.append(f'''  {{
+    id: '{m['k'].lower()}', k: '{m['k']}', t: '{js(m['st'])}', full: '{js(m['t'])}', href: 'sistema-diseno/{m['slug']}.html', color: '{color}', colorName: '{NOMBRE_COLOR[color]}',
+    cd: '{js(m['dc'])}',
+    d: '{js(m['d'])}',
+    ch: [
+{(',' + chr(10)).join(caps)}
+    ]
+  }}''')
+    return '''/* ═══════════════════════════════════════════════════════════════
    KEYONS · MAPA DEL SISTEMA DE DISEÑO
    Generado por tools/sistema_diseno.py desde data/sistema-diseno.json.
    No se edita a mano: se cambia el JSON y se vuelve a generar.
-   Libro → módulo → capítulo → subcapítulo → norma. Los números son
-   ubicación documental; los códigos de norma son permanentes y aparte.
+   Cada módulo es un área, como en el Libro de Marca: t es el nombre corto
+   (menú, tarjeta, lateral) y full el título completo (página de área).
+   Los números son ubicación documental; los códigos de norma van aparte.
    ═══════════════════════════════════════════════════════════════ */
 window.KEYONS_BOOK = {
+  id: 'sistema-diseno',
   home: 'sistema-diseno/index.html',
-  menu: 'chapters',
   menuLabel: 'Módulos del Sistema de Diseño',
   alt: [['Libro de Marca', 'inicio.html', 'right'], ['Plantilla de norma', 'sistema-diseno/plantilla.html', 'code']],
   status: { p: 'Contenido pendiente' },
   legend: ['e', 'p', 'b', 'r', 'v', 'd'],
-  words: { ch: 'Módulos', pg: 'Capítulos', pgs: 'capítulos' }
+  words: { ch: 'Capítulos', pg: 'Subcapítulos', pgs: 'subcapítulos' },
+  cardShort: true,
+  areaFull: true
 };
 
 window.KEYONS_NAV = [
-  {
-    id: 'sd', t: 'Sistema de Diseño', full: 'Módulos del Sistema de Diseño', href: 'sistema-diseno/modulos.html', color: 'noche', colorName: 'Azul Noche',
-    d: 'Doce módulos, 45 capítulos y 135 subcapítulos: la estructura donde se desarrollan las normas de UX y UI de Keyons.',
-    ch: [''']
-    mods = []
-    for i, m in enumerate(d['modulos']):
-        items = [f"{{ n: '{m['n']}', idx: true, t: 'Índice del módulo', st: 'Índice del módulo', s: '{ESTADO[m['estado']]}', href: 'sistema-diseno/{m['slug']}.html' }}"]
-        items += [f"{{ n: '{c['n']}', t: '{js(c['t'])}', s: '{ESTADO[c['estado']]}', href: 'sistema-diseno/{m['slug']}/{c['slug']}.html' }}" for c in m['capitulos']]
-        mods.append(f"      {{ n: '{m['n']}', k: '{m['k']}', t: '{js(m['t'])}', s: '{ESTADO[m['estado']]}', color: '{COLORES[i % 4]}', d: '{js(m['d'])}', items: [\n        "
-                    + ',\n        '.join(items) + ' ] }')
-    out.append(',\n'.join(mods))
-    out.append('''    ]
-  }
+''' + ',\n'.join(areas) + '''
 ];
-''')
-    return '\n'.join(out)
+'''
 
 
 def modulo(i, m, reg):
-    color = COLORES[i % 4]
-    caps = []
-    for c in m['capitulos']:
-        k = ESTADO[c['estado']]
-        subs = ''.join(f'<a class="pg" href="{m["slug"]}/{c["slug"]}.html#s-{s["n"].replace(".", "-")}" title="{e(s["t"])}">'
-                       f'<span class="sd-num">{s["n"]}</span>{e(s["t"])}{dot(ESTADO[s["estado"]])}</a>' for s in c['subcapitulos'])
-        caps.append(f'''      <section class="chap" id="c-{c['n'].replace('.', '-')}">
-        <div class="chap__head">
-          <span class="chap__n">{c['n']}</span>
-          <div><h2 class="chap__t"><a href="{m['slug']}/{c['slug']}.html">{e(c['t'])}</a></h2></div>
-          <div class="chap__meta"><span class="sd-st">{dot(k)}{TEXTO[k]}</span><span class="paren">({len(c['subcapitulos'])} subcapítulos)</span></div>
-        </div>
-        <div class="chap__cols sd-subs"><div>{subs}</div></div>
-      </section>''')
     refs = []
     for r in m['marca']:
         if isinstance(r, list):
@@ -138,43 +135,24 @@ def modulo(i, m, reg):
             lab = 'KYN-MRK-' + r
         refs.append(f'          <a class="kidx__r" href="../{h}"><b>{lab}</b><span class="kidx__n">{num}</span><span class="kidx__t">{e(t)}</span></a>')
     nota = f'\n        <p class="ed__more">{e(m["nota"])}</p>' if m.get('nota') else ''
-    return head(m['t'], '..') + f'''<body class="is-area" data-root=".." data-area="sd" data-page="sistema-diseno/{m['slug']}.html">
+    return head(m['t'], '..') + f'''<body class="is-area" data-root=".." data-area="{m['k'].lower()}" data-page="sistema-diseno/{m['slug']}.html">
 
 <header id="topbar"></header>
 
 <div class="doc">
-  <aside class="side" id="side" aria-label="Módulos del Sistema de Diseño"></aside>
-
-  <main class="content chapter">
-    <nav class="crumbs" aria-label="Ruta">
-      <a href="index.html">Sistema de Diseño</a>
-      {CHEV}
-      <a href="modulos.html">Módulos</a>
-      {CHEV}
-      <span>{m['n']} {e(m['t'])}</span>
-    </nav>
-
-    <section class="{PORTAL[color]}" aria-label="Módulo {m['n']} · {e(m['t'])}">
-      <div class="portal__arcs" aria-hidden="true"></div>
-      <div class="portal__txt">
-        <span class="kicker">Módulo {m['n']} · Sistema de Diseño</span>
-        <h1 class="t-display">{e(m['t'])}</h1>
-        <p>{e(m['d'])}</p>
-      </div>
-    </section>
-
-    <!-- Capítulos del módulo y sus subcapítulos. Generado por tools/sistema_diseno.py -->
-    <div class="sd-caps">
-      <div class="sd-caps__h"><span class="paren">(Capítulos)</span><span class="paren">({len(m['capitulos'])} capítulos · {sum(len(c['subcapitulos']) for c in m['capitulos'])} subcapítulos · código provisional KYN-SDI-{m['k']})</span></div>
-{chr(10).join(caps)}
-    </div>{nota}
+  <aside class="side" id="side" aria-label="Capítulos de {e(m['st'])}"></aside>
+  <main class="content">
+    <nav class="crumbs" aria-label="Ruta"><a href="index.html">Sistema de Diseño</a>
+      {CHEV}<span>{e(m['st'])}</span></nav>
+    <!-- Contenido generado desde js/nav-sistema-diseno.js, igual que las áreas del Libro de Marca -->
+    <div id="area-page"></div>
 
     <!-- Relación con el Libro de Marca: se cita, no se duplica -->
     <section class="ed" id="marca">
       <div class="ed__label"><span>{m['n']}</span><span>Libro de Marca</span></div>
       <div>
         <h2 class="ed__title">Normas de marca que aplica</h2>
-        <p class="ed__lead">La fuente oficial de cada una es el <strong>Libro de Marca</strong>. Este módulo las aplica en la interfaz sin duplicarlas.</p>
+        <p class="ed__lead">La fuente oficial de cada una es el <strong>Libro de Marca</strong>. Este módulo las aplica en la interfaz sin duplicarlas.</p>{nota}
         <div class="kidx__list sd-refs">
 {chr(10).join(refs)}
         </div>
@@ -191,28 +169,28 @@ def modulo(i, m, reg):
 def capitulo(i, m, c):
     color = COLORES[i % 4]
     k = ESTADO[c['estado']]
-    filas = '\n'.join(f'          <div class="kidx__r sd-sub" id="s-{s["n"].replace(".", "-")}"><b>{s["n"]}</b><span class="kidx__t">{e(s["t"])}</span>'
+    filas = '\n'.join(f'          <div class="kidx__r sd-sub" id="{ancla(s["n"])}"><b>{s["n"]}</b><span class="kidx__t">{e(s["t"])}</span>'
                       f'<span class="sd-st">{dot(ESTADO[s["estado"]])}{TEXTO[ESTADO[s["estado"]]]}</span></div>' for s in c['subcapitulos'])
-    return head(c['t'], '../..') + f'''<body class="is-area" data-root="../.." data-area="sd" data-page="sistema-diseno/{m['slug']}/{c['slug']}.html">
+    return head(c['t'], '../..') + f'''<body class="is-area" data-root="../.." data-area="{m['k'].lower()}" data-page="sistema-diseno/{m['slug']}/{c['slug']}.html">
 
 <header id="topbar"></header>
 
 <div class="doc">
-  <aside class="side" id="side" aria-label="Módulos del Sistema de Diseño"></aside>
+  <aside class="side" id="side" aria-label="Capítulos de {e(m['st'])}"></aside>
 
   <main class="content chapter">
     <nav class="crumbs" aria-label="Ruta">
       <a href="../index.html">Sistema de Diseño</a>
       {CHEV}
-      <a href="../{m['slug']}.html">{m['n']} {e(m['t'])}</a>
+      <a href="../{m['slug']}.html">{e(m['st'])}</a>
       {CHEV}
-      <span>{c['n']} {e(c['t'])}</span>
+      <span>{c['n']} {e(c['st'])}</span>
     </nav>
 
     <section class="{PORTAL[color]}" aria-label="Capítulo {c['n']} · {e(c['t'])}">
       <div class="portal__arcs" aria-hidden="true"></div>
       <div class="portal__txt">
-        <span class="kicker">Capítulo {c['n']} · {e(m['t'])}</span>
+        <span class="kicker">Capítulo {c['n']} · {e(m['st'])}</span>
         <h1 class="t-display">{e(c['t'])}</h1>
         <p>{TEXTO[k]}. Sus {len(c['subcapitulos'])} subcapítulos todavía no tienen normas aprobadas.</p>
       </div>

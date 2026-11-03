@@ -682,8 +682,8 @@
       <article class="area">
         <div class="area__color grad grad--${a.color}" aria-hidden="true"></div>
         <div class="area__body">
-          <h3 class="t-h3">${esc(a.full || a.t)}</h3>
-          <p class="t-sm">${esc(a.d)}</p>
+          <h3 class="t-h3">${esc(BOOK.cardShort ? a.t : (a.full || a.t))}</h3>
+          <p class="t-sm">${esc(a.cd || a.d)}</p>
           <ul class="area__list">${a.ch.map((c) => `<li><a href="${url(a.href)}#${slug(c)}"><span>${c.n}</span>${esc(c.t)}${dot(c.s)}</a></li>`).join('')}</ul>
           <div class="area__foot"><span class="paren">(${a.ch.length} ${a.ch.length === 1 ? 'capítulo' : 'capítulos'})</span>
             <a class="btn-icon" href="${url(a.href)}" aria-label="Abrir ${esc(a.t)}">${ic(I.right)}</a></div>
@@ -996,9 +996,10 @@
   if (ap && area) {
     const pages = area.ch.reduce((n, c) => n + c.items.filter(counted).length, 0);
     /* El mismo nombre corto del menú lateral (una línea); el completo queda en el title */
+    const pgT = (it) => (BOOK.areaFull ? it.t : (it.st || it.t));
     const pg = (it) => it.href
-      ? `<a class="pg" href="${url(it.href)}" title="${esc(it.t)}">${esc(it.st || it.t)}${ic(I.right)}${dot(it.s)}</a>`
-      : `<span class="pg" title="${esc(it.t)}">${esc(it.st || it.t)}${dot(it.s)}</span>`;
+      ? `<a class="pg" href="${url(it.href)}" title="${esc(it.t)}">${esc(pgT(it))}${ic(I.right)}${dot(it.s)}</a>`
+      : `<span class="pg" title="${esc(it.t)}">${esc(pgT(it))}${dot(it.s)}</span>`;
     const cols = (c) => {
       const groups = [];
       c.items.forEach((it) => {
@@ -1029,7 +1030,7 @@
         <section class="chap" id="${slug(c)}">
           <div class="chap__head">
             <span class="chap__n">${c.n}</span>
-            <div><h2 class="chap__t">${esc(c.t)}</h2><p class="t-body chap__d">${esc(c.d || '')}</p></div>
+            <div><h2 class="chap__t">${esc(c.full || c.t)}</h2><p class="t-body chap__d">${esc(c.d || '')}</p></div>
             <div class="chap__meta">${badge(c.s || 'p')}<span class="paren">(${c.items.filter(counted).length} ${W.pgs})</span></div>
           </div>
           <div class="chap__cols">${cols(c)}</div>
