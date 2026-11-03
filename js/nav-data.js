@@ -84,7 +84,7 @@ window.KEYONS_NAV = [
         { t: 'Lenguaje geométrico Keyons', st: 'Lenguaje geométrico', s: 'v', href: 'fundamentos/forma/espacio.html#esquinas' },
         { t: 'Sistema de radios y curvaturas', st: 'Radios y curvaturas', s: 'v', href: 'fundamentos/forma/espacio.html#radios' },
         { t: 'Sistema de espaciado', st: 'Espaciado', s: 'v', href: 'fundamentos/forma/espacio.html#espaciado' } ] },
-      { n: '10', k: 'composicion', t: 'Composición y diagramación', st: 'Composición', s: 'v', d: 'Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, densidad, patrones y diagramas.', items: [
+      { n: '10', k: 'composicion', t: 'Composición', s: 'v', d: 'Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, densidad, patrones y diagramas.', items: [
         { t: 'Componer según el contenido', st: 'Componer', s: 'v', href: 'fundamentos/composicion/editorial.html#decidir' },
         { t: 'Simetría y asimetría', s: 'v', href: 'fundamentos/composicion/editorial.html#simetria' },
         { t: 'Retículas editoriales', s: 'v', href: 'fundamentos/composicion/editorial.html#reticulas' },

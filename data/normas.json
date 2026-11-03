@@ -129,9 +129,10 @@
   "antes": [
    "fundamentos/criterio/antipatrones.html#vis-005"
   ],
-  "estado": "vigente",
+  "en": "KYN-MRK-COL-009",
+  "estado": "integrada",
   "id": "KYN-MRK-VIS-005",
-  "n": "7.9.1",
+  "n": "7.9",
   "t": "Gradientes ornamentales"
  },
  "fundamentos/color/escalas.html#escalas": {

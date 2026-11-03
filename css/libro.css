@@ -4595,9 +4595,6 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 /* Paleta base en móvil y tableta: una sola columna (la variante v2 anulaba el cambio) */
 @media(max-width:1000px){.palette--v2{grid-template-columns:minmax(0,1fr)}}
 
-/* ═══ F.1 · La trama identifica al libro en su portada; los capítulos quedan limpios ═══ */
-.portal .portal__arcs,.portal:not(.portal--cielo):not(.portal--salmon):not(.portal--photo) .portal__arcs{background-image:none!important}
-.band::before,.band.grad--noche::before{background-image:none}
 /* ═══ F.2 · Atmósfera: nubes suaves bajo la trama del encabezado de portada ═══
    El cristal las difumina; al pasar el cursor o al enfocar un enlace del encabezado ganan presencia y profundidad. */
 .hero.has-cielo .hero__clouds,.hero .hero__clouds{display:block}
@@ -4610,3 +4607,70 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 @media(hover:hover){.hero:hover .hero__clouds{opacity:.8;transform:scale(1.04) translateY(-1%)}}
 .hero:focus-within .hero__clouds{opacity:.8}
 @media(prefers-reduced-motion:reduce){.hero__clouds{transition:none}.hero:hover .hero__clouds{transform:none}}
+
+/* ═══ Ronda 12 · diagramación común a todos los libros ═══ */
+/* Cabecera: menú, buscador y salida van hacia los bordes, alineados con los márgenes de la página */
+.hdr__in{max-width:none;padding-left:clamp(16px,3.2vw,56px);padding-right:clamp(16px,3.2vw,56px)}
+/* El contenido de cada capítulo queda centrado en su columna: el mismo aire a la izquierda y a la derecha */
+.chapter > *{margin-left:auto;margin-right:auto}
+@media(min-width:1280px){.content{padding-left:clamp(48px,4.5vw,96px);padding-right:clamp(48px,4.5vw,96px)}}
+/* Textos un poco más anchos para aprovechar el espacio, sin perder la medida de lectura */
+.ed__lead{max-width:680px}
+.ed--full .ed__lead{max-width:680px}
+.ed__stack p{max-width:720px}
+.ed__close{max-width:720px}
+/* Rótulos laterales de dos renglones, equilibrados */
+.ed__label span{text-wrap:balance}
+/* Líneas: todas en la familia Azul Cielo, como las de las tablas */
+.mslide--stats .mslide__view{border-top-color:var(--k-cielo-200)}
+/* Sin líneas verticales entre ítems que no son una tabla */
+.crv-rule{padding-left:0;box-shadow:none}
+.sdx-cols > div + div{box-shadow:none}
+.tcols > div{padding-left:0;box-shadow:none}
+/* Normas VIS: solo el criterio, a una columna (sin el formato de problema) */
+.crv-head{grid-template-columns:minmax(0,1fr);margin-top:var(--s8)}
+.crv-rule__m{max-width:56ch;font-size:clamp(19px,1.7vw,22px)}
+.crv-rule__s{max-width:64ch}
+
+/* ═══ Comparativo editorial: dos columnas enmarcadas, muestra y filas cortas (sin párrafos debajo) ═══ */
+.cmpx{display:grid;grid-template-columns:minmax(120px,.7fr) repeat(2,minmax(0,1fr));gap:0 var(--s3);margin-top:var(--s12)}
+.cmpx__lab{display:grid;grid-template-rows:subgrid;grid-row:span 3}
+.cmpx__lab,.cmpx__col{display:grid;grid-template-rows:auto auto 1fr}
+.cmpx__lab{grid-template-rows:56px minmax(220px,auto) auto}
+.cmpx__lab > span:nth-child(n+3){display:flex;align-items:center;min-height:64px;font-size:13px;color:var(--color-text-3);box-shadow:inset 0 1px 0 var(--k-cielo-100)}
+.cmpx__lab{display:flex;flex-direction:column}
+.cmpx__lh{height:56px}.cmpx__ls{height:220px}
+.cmpx__col{display:flex;flex-direction:column;overflow:hidden;background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--k-cielo-200)}
+.cmpx__col--no{border-radius:0 var(--r-card) var(--r-card) 0}
+.cmpx__col--yes{border-radius:var(--r-card) 0 0 var(--r-card)}
+.cmpx__h{display:flex;align-items:center;justify-content:center;height:56px;font-size:15px;font-weight:600;color:var(--k-noche);background:var(--k-blanco);box-shadow:inset 0 -1px 0 var(--k-cielo-200)}
+.cmpx__col--yes .cmpx__h{background:var(--k-cielo-200)}
+.cmpx__s{display:grid;place-items:center;height:220px;padding:var(--s6) var(--s8);text-align:center}
+.cmpx--bk .cmpx__s{background:var(--k-blanco)}
+.cmpx__t{font-size:clamp(18px,1.8vw,22px);font-weight:500}
+.cmpx__q{max-width:22ch;font-size:clamp(19px,1.8vw,24px);font-weight:500;line-height:1.25;color:var(--k-noche);text-wrap:balance}
+.cmpx__col--no .cmpx__q{color:var(--color-text-3)}
+.cmpx__rows p{display:flex;align-items:center;justify-content:center;min-height:64px;padding:var(--s2) var(--s4);font-size:15px;text-align:center;color:var(--color-text-2);box-shadow:inset 0 1px 0 var(--k-cielo-100)}
+.cmpx__col--yes .cmpx__rows p{color:var(--k-noche);font-weight:500}
+@media(max-width:760px){
+  .cmpx{grid-template-columns:minmax(0,1fr);gap:var(--s4)}
+  .cmpx__lab{display:none}
+  .cmpx__col{border-radius:0!important}
+  .cmpx__s{height:auto;min-height:160px}
+  .cmpx__rows p{flex-direction:column;gap:2px;min-height:0;padding:var(--s3) var(--s4)}
+  .cmpx__rows p::before{content:attr(data-k);font-size:12px;font-weight:400;color:var(--color-text-3)}
+}
+/* Excepciones y relación: franja de casillas, como las secciones del Sistema de Diseño */
+.crv-meta{box-shadow:inset 0 1px 0 var(--k-cielo-100),inset 0 -1px 0 var(--k-cielo-100);gap:0;padding-top:0}
+.crv-meta > div{padding:var(--s6) var(--s6) var(--s8) 0}
+.crv-meta > div + div{padding-left:var(--s6);box-shadow:inset 1px 0 0 var(--k-cielo-100)}
+@media(max-width:760px){.crv-meta > div + div{padding-left:0;box-shadow:inset 0 1px 0 var(--k-cielo-100)}}
+.cmpx__col{box-shadow:none;border:1px solid var(--k-cielo-200)}
+.cmpx__t{font-size:clamp(16px,1.5vw,20px)}
+/* DIS-003: las líneas marcan el inicio de cada ítem; van en Azul Cielo puro, más finas que las barras de tabla */
+.cye__i,.cye__i + .cye__i{border-top:2px solid var(--k-cielo)}
+
+/* VOZ-007: «Cómo se traduce» es la instrucción de cada temática; se presenta como franja, no como una fila más */
+.cats__how{padding:var(--s5) var(--s6);background:var(--k-cielo-100);border-radius:0 var(--r-component) var(--r-component) 0;font-size:16px;line-height:1.55;color:var(--k-noche)}
+.cats__how .paren{font-size:12px;font-weight:600;letter-spacing:.02em;color:var(--k-noche)}
+.cats__how + .gloss{margin-top:var(--s6)}

@@ -37,7 +37,7 @@
   --k-salmon-100:#F7ECEB; --k-salmon-150:#F3E5E4; --k-salmon-200:#EEDEDD; --k-salmon-250:#EBCFCE; --k-salmon-300:#E7C1BF; --k-salmon-350:#E3B2B0; --k-salmon-400:#DFA4A1; --k-salmon-450:#DB948F; --k-salmon-500:#D6837E; --k-salmon-550:#D2736E; --k-salmon-600:#CE635D; --k-salmon-650:#BB5B58; --k-salmon-700:#A85353; --k-salmon-750:#934A4E; --k-salmon-800:#7E4148; --k-salmon-850:#6A373D; --k-salmon-900:#562E33;
 
   /* Grises tipográficos · códigos propios, no opacidades */
-  --k-gris-1:#10122A; --k-gris-2:#3A3C4E; --k-gris-3:#6B6D7E;
+  --k-gris-1:#10122A; --k-gris-2:#4B4D60; --k-gris-3:#6B6D7E;
   --k-gris-titular:#8B8C92;   /* escala Blanco 600 · titulares atenuados ≥ 24 px */
   --k-gris-4:#A8AAB5;         /* deshabilitado */
   --k-gris-5:#E0E1E5;         /* divisores */
@@ -67,8 +67,8 @@
   --color-text-inverse:var(--k-blanco);
   --color-text-inverse-2:rgba(244,244,244,.72);
 
-  --color-border:var(--k-gris-5);
-  --color-border-strong:rgba(16,18,42,.16);
+  --color-border:var(--k-cielo-100);
+  --color-border-strong:var(--k-cielo-200);
 
   --color-brand:var(--k-cielo);          /* señal: subrayados, bordes, iconos, superficies */
   --color-brand-soft:var(--k-cielo-200);

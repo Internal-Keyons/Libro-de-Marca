@@ -76,7 +76,7 @@ Registro interno del encargo «Conciliación definitiva de instrucciones y conso
 | 07 Color | 07 Color |
 | 08 Tipografía | 08 Tipografía |
 | 09 Forma y espacio (7 normas) | 09 Geometría y espacio (ESP-001 a 003 y VIS-006) |
-| 10 Composiciones (4 normas) | 10 Composición y diagramación (CMP, ESP-004 a 007, cinco VIS y 10.8 Ejemplos) |
+| 10 Composiciones (4 normas) | 10 Composición (CMP, ESP-004 a 007, cinco VIS y 10.8 Ejemplos) |
 | 11 Criterios visuales (16 normas) | Sale de Fundamentos. La trazabilidad queda en 28 Referencia |
 | 12 Elementos gráficos | 11 Elementos gráficos |
 | 13 Iconografía | 12 Iconografía |

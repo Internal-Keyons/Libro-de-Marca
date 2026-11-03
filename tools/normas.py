@@ -77,12 +77,14 @@ INTEGRADAS = {
     'KYN-MRK-VIS-001': 'KYN-MRK-TYP-005',
     'KYN-MRK-VIS-002': 'KYN-MRK-TYP-002',   # apartado 8.8, Tracking (sin ID propio), dentro del capítulo de TYP-002
     'KYN-MRK-VIS-007': 'KYN-MRK-TYP-006',
+    'KYN-MRK-VIS-005': 'KYN-MRK-COL-009',   # 2026-11: su premisa pasa a Gradientes
 }
 # Ancla real donde vive el contenido integrado
 ANCLA_INTEGRADA = {
     'KYN-MRK-VIS-001': 'fundamentos/tipografia/sistema.html#kickers',
     'KYN-MRK-VIS-002': 'fundamentos/tipografia/sistema.html#tracking',
     'KYN-MRK-VIS-007': 'fundamentos/tipografia/sistema.html#reglas',
+    'KYN-MRK-VIS-005': 'fundamentos/color/cielos.html#gradientes',
 }
 
 # Cambios de título o estado de normas ya emitidas (el ID nunca cambia)
@@ -199,6 +201,7 @@ def main():
         return o
     normas = sorted((fila(h, v) for h, v in reg.items()), key=lambda o: o['id'])
     alias = {old: (ANCLA_INTEGRADA.get(v['id'], h)) for h, v in reg.items() for old in v.get('antes', [])}
+    alias.update({h: ANCLA_INTEGRADA[v['id']] for h, v in reg.items() if v['id'] in ANCLA_INTEGRADA and h != ANCLA_INTEGRADA[v['id']]})
     with open(OUT, 'w', encoding='utf-8', newline='\n') as f:
         f.write('window.KEYONS_SECS = ' + json.dumps(secs_js, ensure_ascii=False) + ';\n')
         f.write('window.KEYONS_CAPS = ' + json.dumps(caps, ensure_ascii=False) + ';\n')
