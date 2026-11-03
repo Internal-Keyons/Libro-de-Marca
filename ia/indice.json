@@ -1663,7 +1663,9 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/identidad/isotipo.html#evolucion",
    "markdown": "/ia/normas/KYN-MRK-LOG-008.md",
-   "referencias": [],
+   "referencias": [
+    "KYN-MRK-LOG-010"
+   ],
    "citada_por": []
   },
   {
@@ -1690,7 +1692,9 @@
    "fuente": "/fundamentos/identidad/isotipo.html#transicion",
    "markdown": "/ia/normas/KYN-MRK-LOG-010.md",
    "referencias": [],
-   "citada_por": []
+   "citada_por": [
+    "KYN-MRK-LOG-008"
+   ]
   },
   {
    "id": "KYN-MRK-PER-001",

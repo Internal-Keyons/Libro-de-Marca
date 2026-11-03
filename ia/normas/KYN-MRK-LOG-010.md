@@ -11,42 +11,42 @@ capitulo: "06 Identidad"
 area: "Fundamentos"
 fuente: "/fundamentos/identidad/isotipo.html#transicion"
 referencias: []
-citada_por: []
+citada_por: ["KYN-MRK-LOG-008"]
 ---
 
 # KYN-MRK-LOG-010 · Criterio de transición
 
 Número: 6.10 · Estado: vigente · Capítulo: 06 Identidad · Fuente: `/fundamentos/identidad/isotipo.html#transicion`
 
-##### Dos de tres, no antes
+##### La autonomía se comprueba
 
-El isotipo se activa como identidad autónoma cuando se cumplen **al menos dos de estos tres criterios** verificables.
+El isotipo podrá utilizarse como identificador independiente cuando exista **reconocimiento comprobado** entre las audiencias correspondientes y **aprobación expresa** de la dirección de marca.
 
-**40**
-%
+La exposición sostenida y la presencia en distintos canales contribuyen a construir reconocimiento, pero no lo sustituyen.
 
-Criterio 01
+**01**
+
+Condición necesaria
 Reconocimiento espontáneo
-Audiencias frías identifican el símbolo como Keyons sin ver el nombre, en estudios cualitativos con el público objetivo.
+Comprobar que personas del público objetivo identifican el símbolo como Keyons sin mostrarles el logotipo completo.
+La prueba debe documentar el público evaluado, la metodología, los resultados y sus limitaciones.
 
-**18**
-meses
+**02**
 
-Criterio 02
-Densidad de exposición
-Exposición continua del isotipo junto al logotipo en sitio web, redes, presentaciones y papelería.
+Evidencia complementaria
+Exposición sostenida
+Registrar durante cuánto tiempo y en qué canales se ha presentado el isotipo acompañado de la identidad Keyons.
 
-**3**
-usos
+**03**
 
-Criterio 03
-Ecosistema de aplicaciones
-Favicon, avatares oficiales y marca de agua: tres lugares donde el símbolo se repite con constancia.
+Evidencia complementaria
+Aplicaciones reconocibles
+Documentar sus usos contextualizados, como favicons, avatares oficiales y marcas de agua en materiales identificados.
 
-**(Cuando se cumplen)**
-La marca activa el isotipo autónomo de forma gradual, con revisión trimestral de la dirección de marca durante los primeros seis meses.
+**(Autorización)**
+La dirección de marca evaluará la evidencia y aprobará, cuando corresponda, una introducción gradual del isotipo autónomo, con revisión trimestral durante los primeros seis meses después de la autorización.
 
 **(Mientras tanto)**
-Cualquier uso autónomo frente a audiencias frías requiere la aprobación explícita de la dirección de marca.
+Mientras no exista esa autorización, cualquier uso autónomo frente a audiencias que no conocen Keyons requiere aprobación expresa.
 
 Esperar el momento correcto es lo que garantiza que, cuando el símbolo se independice, funcione.

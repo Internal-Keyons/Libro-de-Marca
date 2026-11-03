@@ -72,9 +72,11 @@ Display, portadas y kickers. Aparece en momentos puntuales, nunca como tipograf�
 
 Número: 8.2 · ID: `KYN-MRK-TYP-002` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#escala`
 
-### Nueve niveles para pantalla
+### Nueve niveles, una jerarquía flexible
 
-Cada nivel cambia tamaño, peso o color, **nunca solo uno de ellos**. Valores para sitio web e interfaz; impreso y redes sociales se definen aparte.
+La escala proporciona referencias para organizar titulares, textos, etiquetas y contenido de lectura.
+
+No es necesario utilizar todos los niveles en una misma pieza. La jerarquía se construye mediante **tamaño, peso, posición, contraste y espacio**, seleccionando únicamente las diferencias que faciliten la comprensión.
 
 Display
 52 a 128 · px
@@ -111,6 +113,12 @@ Jakarta 500 Interlineado 1.4 · Espaciado 0
 Kicker
 13 · px
 TASA 500 · mayúsculas Interlineado 1 · Espaciado +8 %
+
+**(Espaciado)**
+Los valores de tracking negativo incluidos en los niveles de titulares son referencias pendientes de validación, no ajustes globales obligatorios. Los cuerpos de lectura conservan el espaciado de letras necesario para facilitar la comprensión.
+
+**(Criterio de aplicación)**
+No aumentar automáticamente el tamaño de un texto por su importancia normativa. El tamaño debe corresponder a su función dentro de la composición. Los párrafos de apoyo deben mantenerse visualmente subordinados a las declaraciones principales.
 
 ## KYN-MRK-TYP-003 · 8.3 Probador
 
@@ -170,48 +178,46 @@ Capítulo 05 · Voz
 
 Número: 8.6 · ID: `KYN-MRK-TYP-006` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#reglas`
 
-### Cada regla, a la vista
+### Siete criterios de aplicación
 
-Lo que hace que la tipografía se lea como Keyons. **Cada regla trae su demostración.**
+La tipografía debe **organizar la lectura, transmitir identidad** y adaptarse a las necesidades del contenido.
 
 
 
-Presencia humana
-Siempre hay un elemento real, **preferentemente humano**.
+Cuatro colores, una jerarquía
+Azul Noche y Blanco Keyons son la base neutra. **Azul Cielo es el primer color** con carga cromática.
 
-La jerarquía combina los tres. Así se lee aunque dos textos estén cerca en tamaño.
+Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio. La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.
 
-Aa
-Aa
-Aa
+Nueve niveles, una jerarquía flexible
+La escala proporciona referencias para organizar titulares, textos, etiquetas y contenido de lectura.
 
-Máximo tres tamaños de lectura por pieza. Si hace falta más jerarquía, se resuelve con peso o color.
-
-Lo que hace, no cómo se llama
-Cada término técnico se traduce. No es simplificar: es respetar al lector.
-
-Titulares apretados, de 0.93 a 1.2. Cuerpo holgado, de 1.55 a 1.65.
+Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad. Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.
 
 Cielo
 Índice
 
-Titulares grandes de −2 % a −4 %. Cuerpo sin ajuste. Mayúsculas pequeñas, +8 %.
+El tracking se ajusta según la fuente, el tamaño y la función del texto. No se aplican valores negativos o positivos de forma indiscriminada.
 
 Primero entendemos su operación; **después construimos**.
 
-Semibold solo para las palabras clave que guían la lectura. Nunca en acordeones ni en recuadros.
+El peso semibold permite destacar información relevante. No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.
 
 1 250.00
 98.40
 12 004.10
 
-Tablas, cifras, facturas y dashboards alinean sus columnas con la variante tabular.
+Las cifras operativas utilizan Plus Jakarta Sans. En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.
 
 Galaxia
 
-Display, portadas y kickers. Nunca en cuerpo de texto ni por debajo de 24 px, salvo el kicker.
+TASA Orbiter se reserva para titulares, portadas y cifras con intención editorial. Los textos prolongados y controles funcionales priorizan la legibilidad.
 
-Si hace falta más jerarquía, se resuelve con peso, no con otro tamaño.
+Aa
+Aa
+Aa
+
+Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad. El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
 
 ## KYN-MRK-TYP-007 · 8.7 Uso por función
 

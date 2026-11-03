@@ -20,16 +20,16 @@ Número: 7.11 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos
 
 ##### El cielo toma la escena
 
-Redes, campañas, eventos y storytelling. Los cielos ocupan el fondo y la atmósfera; **la paleta base nunca desaparece**: vive en la tipografía, los íconos y la estructura.
+En campañas, contenidos narrativos y piezas editoriales, **los cielos pueden convertirse en protagonistas**. Su intensidad responde al mensaje y convive con los recursos estructurales de Keyons.
 
 **(La regla)**
-En el modo expresivo, el cielo predomina sobre la paleta base: los fondos y degradados aportan color suficiente para transmitir dinamismo. **El cielo siempre es más abundante que la paleta base.**
+Cuando una pieza utiliza el cielo como recurso expresivo principal, su presencia debe estar justificada por la intención narrativa y conservar zonas de lectura clara.
 
 **(Acentos)**
 No resultan indispensables, porque las imágenes ya traen abundancia de color. Cuando aparecen, es para guiar la mirada o una acción.
 
 **(Proporción libre)**
-Los porcentajes varían según la pieza y su necesidad, siempre que se cumpla la regla. Así el carácter expresivo se mantiene coherente en toda la narrativa visual.
+La composición determina cuánto espacio ocupa el cielo. No es obligatorio que supere siempre la superficie de la paleta base.
 
 **(Texto sobre cielo)**
 El texto se ubica en la zona del cielo donde se lee con claridad. Si ninguna zona alcanza un contraste de 4,5 a 1, se suaviza el cielo detrás del texto con un velo de Blanco Keyons o Azul Noche.

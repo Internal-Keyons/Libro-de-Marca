@@ -82,6 +82,7 @@ Número: 7.2 · ID: `KYN-MRK-COL-002` · Estado: vigente · Fuente: `/fundamento
 ### Cuatro colores, una jerarquía
 
 Azul Noche y Blanco Keyons son la base neutra. Azul Cielo es el primer color con carga cromática. Salmón Tierra aporta la temperatura humana.
+La cantidad de cada color responde al contenido y la composición. **No es necesario utilizar los cuatro colores en todas las piezas.**
 Proporción de una pieza institucional típica. Al tocar un color se copia su código.
 **(Copiar en)**
 
@@ -118,9 +119,11 @@ Número: 7.4 · ID: `KYN-MRK-COL-004` · Estado: vigente · Fuente: `/fundamento
 
 Las reglas que protegen la jerarquía de la paleta. **Se suman nuevas a medida que el sistema crece.**
 
-**01 · El color señala, no escribe**
+**01 · El color señala, no sustituye la legibilidad**
 
-Sobre fondo claro, Azul Cielo y Salmón Tierra van en superficies, bordes, subrayados e íconos. El texto va en Azul Noche.
+Sobre fondos claros, utilizamos preferentemente Azul Noche para los textos.
+
+Azul Cielo y los salmones pueden aportar acentos, superficies y señales gráficas. Su utilización en textos o elementos funcionales requiere comprobar el contraste correspondiente.
 
 **02 · Cielo y Salmón no se apoyan uno sobre otro**
 
@@ -130,13 +133,15 @@ Nunca un elemento Salmón encima de un fondo Cielo, ni al revés.
 
 Cuando conviven, Cielo ocupa más área que Salmón. Salmón domina solo en piezas expresivas donde la calidez es el mensaje.
 
+Esta jerarquía no sustituye los colores semánticos ni las necesidades específicas de una visualización de datos.
+
 **04 · Salmón Atardecer vive sobre Azul Noche**
 
 #E99D9E es la versión de Salmón para fondos oscuros, donde alcanza 8.6:1.
 
-**05 · La proporción es guía, la jerarquía es fija**
+**05 · La proporción orienta**
 
-Los porcentajes orientan; el orden Blanco, Noche, Cielo, Salmón no se negocia.
+Las proporciones ayudan a construir jerarquía, pero la composición, la legibilidad y la función de cada pieza determinan su aplicación.
 
 ## KYN-MRK-COL-005 · 7.5 Combinaciones
 
@@ -168,7 +173,9 @@ Número: 7.6 · ID: `KYN-MRK-COL-006` · Estado: vigente · Fuente: `/fundamento
 
 ### Pasos y medios pasos
 
-Cada color base tiene una escala de 100 a 900 para estados, fondos y bordes, con **medios pasos (150, 250…)** para transiciones suaves en interfaces y presentaciones. **El paso base, marcado con la estrella, es el que firma**; los demás lo acompañan. Al tocar un tono se copia su código.
+Las escalas tonales amplían los colores oficiales para adaptarlos a **distintas funciones y condiciones de contraste**.
+
+Cada familia mantiene una única escala documentada. Los tonos se seleccionan por su función y legibilidad, no únicamente por preferencia estética. Al tocar un tono se copia su código.
 
 **(Copiar en)**
 
@@ -182,7 +189,7 @@ Azul Cielo
 Acción, enlaces, estados de foco y superficies.
 
 Salmón Tierra
-Calidez puntual y avisos que piden atención sin urgencia.
+Acento cálido de identidad. No representa errores, pérdidas, rechazos ni otros estados negativos.
 
 ## Cielos
 
@@ -320,9 +327,9 @@ Número: 7.10 · ID: `KYN-MRK-COL-010` · Estado: vigente · Fuente: `/fundament
 
 ### Sobrio de principio a fin
 
-Facturas, contratos, propuestas, papelería y presentaciones para clientes. **La paleta base cubre casi toda la pieza** y los cielos expresivos no aparecen.
+El modo institucional prioriza **claridad, sobriedad y una presencia cromática contenida**. La base neutra sostiene la comunicación y los acentos se utilizan cuando aportan jerarquía o carácter.
 
-(Pieza institucional típica)
+(Distribución orientativa)
 **70 %** · **20 %** · **10 %**
 Blanco Keyons o Azul Noche · Azul Cielo · Salmón Tierra
 
@@ -330,9 +337,9 @@ Blanco Keyons o Azul Noche · Azul Cielo · Salmón Tierra
 Puede ir en portadas, encabezados, secciones destacadas e incluso como fondo dominante cuando el mensaje lo justifica.
 
 **(Salmón Tierra, segunda)**
-Aparece cuando el mensaje pide una calidez que el celeste no transmite. Conviven, pero Cielo siempre ocupa más.
+Aparece cuando el mensaje pide una calidez que el celeste no transmite. Cuando conviven, Cielo siempre ocupa más.
 
-La proporción es guía; la jerarquía es fija.
+La jerarquía cromática orienta la composición; su proporción depende de la función de cada pieza.
 
 ## KYN-MRK-COL-011 · 7.11 Modo expresivo
 
@@ -340,16 +347,16 @@ Número: 7.11 · ID: `KYN-MRK-COL-011` · Estado: vigente · Fuente: `/fundament
 
 ### El cielo toma la escena
 
-Redes, campañas, eventos y storytelling. Los cielos ocupan el fondo y la atmósfera; **la paleta base nunca desaparece**: vive en la tipografía, los íconos y la estructura.
+En campañas, contenidos narrativos y piezas editoriales, **los cielos pueden convertirse en protagonistas**. Su intensidad responde al mensaje y convive con los recursos estructurales de Keyons.
 
 **(La regla)**
-En el modo expresivo, el cielo predomina sobre la paleta base: los fondos y degradados aportan color suficiente para transmitir dinamismo. **El cielo siempre es más abundante que la paleta base.**
+Cuando una pieza utiliza el cielo como recurso expresivo principal, su presencia debe estar justificada por la intención narrativa y conservar zonas de lectura clara.
 
 **(Acentos)**
 No resultan indispensables, porque las imágenes ya traen abundancia de color. Cuando aparecen, es para guiar la mirada o una acción.
 
 **(Proporción libre)**
-Los porcentajes varían según la pieza y su necesidad, siempre que se cumpla la regla. Así el carácter expresivo se mantiene coherente en toda la narrativa visual.
+La composición determina cuánto espacio ocupa el cielo. No es obligatorio que supere siempre la superficie de la paleta base.
 
 **(Texto sobre cielo)**
 El texto se ubica en la zona del cielo donde se lee con claridad. Si ninguna zona alcanza un contraste de 4,5 a 1, se suaviza el cielo detrás del texto con un velo de Blanco Keyons o Azul Noche.
@@ -362,10 +369,10 @@ Número: 7.12 · ID: `KYN-MRK-COL-012` · Estado: vigente · Fuente: `/fundament
 
 ### Sobrio con momentos vivos
 
-El producto trabaja en dos temperaturas. **La sobria sostiene el trabajo diario**; la viva aparece solo en momentos designados, y por eso se siente especial.
+En las interfaces que utilizan identidad Keyons, **la expresión cromática se adapta a la función**. El trabajo operativo prioriza estabilidad y claridad; los momentos editoriales permiten mayor intensidad visual.
 
-(Tiempo de uso)
-**95 %** · **5 %**
+(Dos temperaturas)
+**Predominante** · **Puntual**
 Temperatura sobria · flujo de trabajo · Temperatura viva
 
 (Momentos vivos)
@@ -379,7 +386,10 @@ Temperatura sobria · flujo de trabajo · Temperatura viva
 - Sección vacía que invita a empezar
 
 **(Temperatura sobria)**
-Blanco Keyons de fondo, Azul Noche en el texto, grises para la jerarquía, Azul Cielo en acciones y Salmón Tierra en avisos. Usable ocho horas sin fatiga, y con todos los estados visibles.
+Utiliza superficies neutras, tipografía legible, jerarquías claras y acentos de Azul Cielo donde corresponda. Los avisos y estados utilizan colores semánticos adecuados a su significado.
+
+**(Alcance)**
+Las interfaces con identidad exclusiva del cliente utilizan su tema visual. Comparten los principios UX, pero no están obligadas a reproducir la paleta corporativa. Los tokens, componentes y temas específicos se documentan en el Sistema de Diseño.
 
 **(La pregunta antes de pintar)**
 ¿Esta pantalla es flujo diario o un momento designado? Si hay duda, gana la temperatura sobria.
@@ -427,9 +437,11 @@ El deshabilitado no necesita contraste mínimo; nunca se usa para texto que hay 
 
 Número: 7.15 · ID: `KYN-MRK-COL-014` · Estado: vigente · Fuente: `/fundamentos/color/funcionales.html#estados`
 
-### Estados con temperatura Keyons
+### Estados con significado propio
 
-Cada estado tiene un fondo suave, calibrado en tonos **tierra, cálidos y sobrios**, lejos de los verdes y rojos de librería. Sobre ese fondo, el ícono y el texto van siempre en Azul Noche.
+Los colores de estado comunican significado y deben ser **comprensibles, consistentes y accesibles**.
+
+No es necesario que todos pertenezcan a la paleta cromática corporativa. Los errores y resultados negativos utilizan rojo semántico, nunca Salmón Tierra.
 
 Esenciales
 Éxito
@@ -454,16 +466,21 @@ Deshabilitado
 Bloqueado
 Archivado
 
+**(Aplicación)**
+Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado. Los fondos y textos deben conservar el contraste correspondiente. Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.
+
 ## KYN-MRK-COL-015 · 7.16 Acción y superficies
 
 Número: 7.16 · ID: `KYN-MRK-COL-015` · Estado: vigente · Fuente: `/fundamentos/color/funcionales.html#accion`
 
 ### Cielo para actuar, blanco para apoyar
 
-Dos derivados de la paleta base sostienen toda la interfaz. **Su aplicación completa vive en el capítulo de Interfaz.**
+Los colores de acción y superficie se derivan de las **familias cromáticas oficiales** y se adaptan a las funciones de cada interfaz.
+
+Su aplicación técnica se documenta mediante tokens y componentes del Sistema de Diseño.
 
 **(Acción primaria)**
-Derivada de Azul Cielo, con pasos de su escala para hover, foco y presionado: · ·
+Los tonos de Azul Cielo pueden utilizarse para acciones, seleccionando variantes que mantengan la legibilidad y visibilidad de los estados correspondientes.
 
 **(Superficies elevadas)**
-Derivadas de Blanco Keyons: un tono más claro o una sombra sutil para lo que debe destacar sobre el fondo.
+Las superficies utilizan los neutros oficiales, con diferencias sutiles de tono, bordes o elevación cuando ayudan a distinguir los elementos.

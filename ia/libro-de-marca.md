@@ -1334,8 +1334,9 @@ Los corchetes de programación emergen de la anatomía de la K y la E. Primero s
 
 > Recurso visual: Gráfico SVG en línea · «Isotipo de Keyons» · Símbolo: #k-iso
 
-**(Un símbolo universal)**
-En cualquier lenguaje de programación, los corchetes delimitan los bloques donde ocurren las operaciones. Son el marco donde la acción sucede.
+**(Un símbolo reconocible)**
+En distintos lenguajes de programación, los corchetes permiten agrupar o delimitar elementos, aunque su función específica varía según el contexto.
+Keyons toma esa forma como una metáfora de estructura y organización.
 
 **(El contenedor que ordena)**
 No son la operación ni el resultado: son el marco que permite que todo ocurra con sentido. Esa es la posición de Keyons frente a sus clientes.
@@ -1343,7 +1344,7 @@ No son la operación ni el resultado: son el marco que permite que todo ocurra c
 **(Desde adentro, no desde afuera)**
 El símbolo no está al lado del nombre: nace de él. Como Keyons, que se integra en la lógica del cliente para que la solución emerja desde adentro.
 
-El corchete hace que el código funcione; Keyons hace que la tecnología del cliente funcione.
+El símbolo representa la estructura. Keyons aporta el criterio para conectar tecnología y operación.
 
 #### KYN-MRK-LOG-008 · 6.8 Estado y evolución
 
@@ -1353,16 +1354,16 @@ Número: 6.8 · ID: `KYN-MRK-LOG-008` · Estado: vigente · Fuente: `/fundamento
 
 La relación entre logotipo e isotipo sigue una lógica de maduración. **Hoy el isotipo camina acompañado**; cuando la asociación esté construida, caminará solo.
 
-**(Hoy · acompañado)**
-Aparece junto al logotipo o donde el entorno ya dice que es Keyons: el favicon del sitio propio, el avatar de cuentas oficiales verificadas o la marca de agua en documentos identificados.
+**(Hoy · Uso contextual)**
+El isotipo puede acompañar al logotipo o utilizarse individualmente cuando el entorno identifica claramente a Keyons, como el favicon de su sitio o los avatares de sus cuentas oficiales.
 
-**(Todavía no · audiencias frías)**
-Frente a quien no conoce a Keyons, los corchetes sin el nombre se leen solo como corchetes. Usarlo así antes de tiempo confundiría al receptor.
+**(Todavía no · Audiencias que no conocen la marca)**
+El isotipo no debe sustituir automáticamente al nombre completo cuando el público todavía no puede reconocerlo como Keyons.
 
-**(Después · autónomo)**
-Bordados en merchandising, ícono de la aplicación móvil, patrones como textura de marca y sellos de firma en piezas donde el logotipo completo no llega.
+**(Después · Identidad autónoma)**
+El isotipo podrá representar a Keyons sin el nombre cuando se autorice su autonomía conforme a los criterios establecidos en KYN-MRK-LOG-010.
 
-Cuando el mercado esté listo, la relación se invierte.
+La autonomía del símbolo se demuestra mediante su reconocimiento, no solamente por el tiempo transcurrido.
 
 #### KYN-MRK-LOG-009 · 6.9 Destello central
 
@@ -1385,36 +1386,36 @@ No representamos la IA con imágenes de IA, igual que no representamos la tecnol
 
 Número: 6.10 · ID: `KYN-MRK-LOG-010` · Estado: vigente · Fuente: `/fundamentos/identidad/isotipo.html#transicion`
 
-##### Dos de tres, no antes
+##### La autonomía se comprueba
 
-El isotipo se activa como identidad autónoma cuando se cumplen **al menos dos de estos tres criterios** verificables.
+El isotipo podrá utilizarse como identificador independiente cuando exista **reconocimiento comprobado** entre las audiencias correspondientes y **aprobación expresa** de la dirección de marca.
 
-**40**
-%
+La exposición sostenida y la presencia en distintos canales contribuyen a construir reconocimiento, pero no lo sustituyen.
 
-Criterio 01
+**01**
+
+Condición necesaria
 Reconocimiento espontáneo
-Audiencias frías identifican el símbolo como Keyons sin ver el nombre, en estudios cualitativos con el público objetivo.
+Comprobar que personas del público objetivo identifican el símbolo como Keyons sin mostrarles el logotipo completo.
+La prueba debe documentar el público evaluado, la metodología, los resultados y sus limitaciones.
 
-**18**
-meses
+**02**
 
-Criterio 02
-Densidad de exposición
-Exposición continua del isotipo junto al logotipo en sitio web, redes, presentaciones y papelería.
+Evidencia complementaria
+Exposición sostenida
+Registrar durante cuánto tiempo y en qué canales se ha presentado el isotipo acompañado de la identidad Keyons.
 
-**3**
-usos
+**03**
 
-Criterio 03
-Ecosistema de aplicaciones
-Favicon, avatares oficiales y marca de agua: tres lugares donde el símbolo se repite con constancia.
+Evidencia complementaria
+Aplicaciones reconocibles
+Documentar sus usos contextualizados, como favicons, avatares oficiales y marcas de agua en materiales identificados.
 
-**(Cuando se cumplen)**
-La marca activa el isotipo autónomo de forma gradual, con revisión trimestral de la dirección de marca durante los primeros seis meses.
+**(Autorización)**
+La dirección de marca evaluará la evidencia y aprobará, cuando corresponda, una introducción gradual del isotipo autónomo, con revisión trimestral durante los primeros seis meses después de la autorización.
 
 **(Mientras tanto)**
-Cualquier uso autónomo frente a audiencias frías requiere la aprobación explícita de la dirección de marca.
+Mientras no exista esa autorización, cualquier uso autónomo frente a audiencias que no conocen Keyons requiere aprobación expresa.
 
 Esperar el momento correcto es lo que garantiza que, cuando el símbolo se independice, funcione.
 
@@ -1488,6 +1489,7 @@ Número: 7.2 · ID: `KYN-MRK-COL-002` · Estado: vigente · Fuente: `/fundamento
 ##### Cuatro colores, una jerarquía
 
 Azul Noche y Blanco Keyons son la base neutra. Azul Cielo es el primer color con carga cromática. Salmón Tierra aporta la temperatura humana.
+La cantidad de cada color responde al contenido y la composición. **No es necesario utilizar los cuatro colores en todas las piezas.**
 Proporción de una pieza institucional típica. Al tocar un color se copia su código.
 **(Copiar en)**
 
@@ -1524,9 +1526,11 @@ Número: 7.4 · ID: `KYN-MRK-COL-004` · Estado: vigente · Fuente: `/fundamento
 
 Las reglas que protegen la jerarquía de la paleta. **Se suman nuevas a medida que el sistema crece.**
 
-**01 · El color señala, no escribe**
+**01 · El color señala, no sustituye la legibilidad**
 
-Sobre fondo claro, Azul Cielo y Salmón Tierra van en superficies, bordes, subrayados e íconos. El texto va en Azul Noche.
+Sobre fondos claros, utilizamos preferentemente Azul Noche para los textos.
+
+Azul Cielo y los salmones pueden aportar acentos, superficies y señales gráficas. Su utilización en textos o elementos funcionales requiere comprobar el contraste correspondiente.
 
 **02 · Cielo y Salmón no se apoyan uno sobre otro**
 
@@ -1536,13 +1540,15 @@ Nunca un elemento Salmón encima de un fondo Cielo, ni al revés.
 
 Cuando conviven, Cielo ocupa más área que Salmón. Salmón domina solo en piezas expresivas donde la calidez es el mensaje.
 
+Esta jerarquía no sustituye los colores semánticos ni las necesidades específicas de una visualización de datos.
+
 **04 · Salmón Atardecer vive sobre Azul Noche**
 
 #E99D9E es la versión de Salmón para fondos oscuros, donde alcanza 8.6:1.
 
-**05 · La proporción es guía, la jerarquía es fija**
+**05 · La proporción orienta**
 
-Los porcentajes orientan; el orden Blanco, Noche, Cielo, Salmón no se negocia.
+Las proporciones ayudan a construir jerarquía, pero la composición, la legibilidad y la función de cada pieza determinan su aplicación.
 
 #### KYN-MRK-COL-005 · 7.5 Combinaciones
 
@@ -1574,7 +1580,9 @@ Número: 7.6 · ID: `KYN-MRK-COL-006` · Estado: vigente · Fuente: `/fundamento
 
 ##### Pasos y medios pasos
 
-Cada color base tiene una escala de 100 a 900 para estados, fondos y bordes, con **medios pasos (150, 250…)** para transiciones suaves en interfaces y presentaciones. **El paso base, marcado con la estrella, es el que firma**; los demás lo acompañan. Al tocar un tono se copia su código.
+Las escalas tonales amplían los colores oficiales para adaptarlos a **distintas funciones y condiciones de contraste**.
+
+Cada familia mantiene una única escala documentada. Los tonos se seleccionan por su función y legibilidad, no únicamente por preferencia estética. Al tocar un tono se copia su código.
 
 **(Copiar en)**
 
@@ -1588,7 +1596,7 @@ Azul Cielo
 Acción, enlaces, estados de foco y superficies.
 
 Salmón Tierra
-Calidez puntual y avisos que piden atención sin urgencia.
+Acento cálido de identidad. No representa errores, pérdidas, rechazos ni otros estados negativos.
 
 #### Cielos
 
@@ -1726,9 +1734,9 @@ Número: 7.10 · ID: `KYN-MRK-COL-010` · Estado: vigente · Fuente: `/fundament
 
 ##### Sobrio de principio a fin
 
-Facturas, contratos, propuestas, papelería y presentaciones para clientes. **La paleta base cubre casi toda la pieza** y los cielos expresivos no aparecen.
+El modo institucional prioriza **claridad, sobriedad y una presencia cromática contenida**. La base neutra sostiene la comunicación y los acentos se utilizan cuando aportan jerarquía o carácter.
 
-(Pieza institucional típica)
+(Distribución orientativa)
 **70 %** · **20 %** · **10 %**
 Blanco Keyons o Azul Noche · Azul Cielo · Salmón Tierra
 
@@ -1736,9 +1744,9 @@ Blanco Keyons o Azul Noche · Azul Cielo · Salmón Tierra
 Puede ir en portadas, encabezados, secciones destacadas e incluso como fondo dominante cuando el mensaje lo justifica.
 
 **(Salmón Tierra, segunda)**
-Aparece cuando el mensaje pide una calidez que el celeste no transmite. Conviven, pero Cielo siempre ocupa más.
+Aparece cuando el mensaje pide una calidez que el celeste no transmite. Cuando conviven, Cielo siempre ocupa más.
 
-La proporción es guía; la jerarquía es fija.
+La jerarquía cromática orienta la composición; su proporción depende de la función de cada pieza.
 
 #### KYN-MRK-COL-011 · 7.11 Modo expresivo
 
@@ -1746,16 +1754,16 @@ Número: 7.11 · ID: `KYN-MRK-COL-011` · Estado: vigente · Fuente: `/fundament
 
 ##### El cielo toma la escena
 
-Redes, campañas, eventos y storytelling. Los cielos ocupan el fondo y la atmósfera; **la paleta base nunca desaparece**: vive en la tipografía, los íconos y la estructura.
+En campañas, contenidos narrativos y piezas editoriales, **los cielos pueden convertirse en protagonistas**. Su intensidad responde al mensaje y convive con los recursos estructurales de Keyons.
 
 **(La regla)**
-En el modo expresivo, el cielo predomina sobre la paleta base: los fondos y degradados aportan color suficiente para transmitir dinamismo. **El cielo siempre es más abundante que la paleta base.**
+Cuando una pieza utiliza el cielo como recurso expresivo principal, su presencia debe estar justificada por la intención narrativa y conservar zonas de lectura clara.
 
 **(Acentos)**
 No resultan indispensables, porque las imágenes ya traen abundancia de color. Cuando aparecen, es para guiar la mirada o una acción.
 
 **(Proporción libre)**
-Los porcentajes varían según la pieza y su necesidad, siempre que se cumpla la regla. Así el carácter expresivo se mantiene coherente en toda la narrativa visual.
+La composición determina cuánto espacio ocupa el cielo. No es obligatorio que supere siempre la superficie de la paleta base.
 
 **(Texto sobre cielo)**
 El texto se ubica en la zona del cielo donde se lee con claridad. Si ninguna zona alcanza un contraste de 4,5 a 1, se suaviza el cielo detrás del texto con un velo de Blanco Keyons o Azul Noche.
@@ -1768,10 +1776,10 @@ Número: 7.12 · ID: `KYN-MRK-COL-012` · Estado: vigente · Fuente: `/fundament
 
 ##### Sobrio con momentos vivos
 
-El producto trabaja en dos temperaturas. **La sobria sostiene el trabajo diario**; la viva aparece solo en momentos designados, y por eso se siente especial.
+En las interfaces que utilizan identidad Keyons, **la expresión cromática se adapta a la función**. El trabajo operativo prioriza estabilidad y claridad; los momentos editoriales permiten mayor intensidad visual.
 
-(Tiempo de uso)
-**95 %** · **5 %**
+(Dos temperaturas)
+**Predominante** · **Puntual**
 Temperatura sobria · flujo de trabajo · Temperatura viva
 
 (Momentos vivos)
@@ -1785,7 +1793,10 @@ Temperatura sobria · flujo de trabajo · Temperatura viva
 - Sección vacía que invita a empezar
 
 **(Temperatura sobria)**
-Blanco Keyons de fondo, Azul Noche en el texto, grises para la jerarquía, Azul Cielo en acciones y Salmón Tierra en avisos. Usable ocho horas sin fatiga, y con todos los estados visibles.
+Utiliza superficies neutras, tipografía legible, jerarquías claras y acentos de Azul Cielo donde corresponda. Los avisos y estados utilizan colores semánticos adecuados a su significado.
+
+**(Alcance)**
+Las interfaces con identidad exclusiva del cliente utilizan su tema visual. Comparten los principios UX, pero no están obligadas a reproducir la paleta corporativa. Los tokens, componentes y temas específicos se documentan en el Sistema de Diseño.
 
 **(La pregunta antes de pintar)**
 ¿Esta pantalla es flujo diario o un momento designado? Si hay duda, gana la temperatura sobria.
@@ -1833,9 +1844,11 @@ El deshabilitado no necesita contraste mínimo; nunca se usa para texto que hay 
 
 Número: 7.15 · ID: `KYN-MRK-COL-014` · Estado: vigente · Fuente: `/fundamentos/color/funcionales.html#estados`
 
-##### Estados con temperatura Keyons
+##### Estados con significado propio
 
-Cada estado tiene un fondo suave, calibrado en tonos **tierra, cálidos y sobrios**, lejos de los verdes y rojos de librería. Sobre ese fondo, el ícono y el texto van siempre en Azul Noche.
+Los colores de estado comunican significado y deben ser **comprensibles, consistentes y accesibles**.
+
+No es necesario que todos pertenezcan a la paleta cromática corporativa. Los errores y resultados negativos utilizan rojo semántico, nunca Salmón Tierra.
 
 Esenciales
 Éxito
@@ -1860,19 +1873,24 @@ Deshabilitado
 Bloqueado
 Archivado
 
+**(Aplicación)**
+Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado. Los fondos y textos deben conservar el contraste correspondiente. Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.
+
 #### KYN-MRK-COL-015 · 7.16 Acción y superficies
 
 Número: 7.16 · ID: `KYN-MRK-COL-015` · Estado: vigente · Fuente: `/fundamentos/color/funcionales.html#accion`
 
 ##### Cielo para actuar, blanco para apoyar
 
-Dos derivados de la paleta base sostienen toda la interfaz. **Su aplicación completa vive en el capítulo de Interfaz.**
+Los colores de acción y superficie se derivan de las **familias cromáticas oficiales** y se adaptan a las funciones de cada interfaz.
+
+Su aplicación técnica se documenta mediante tokens y componentes del Sistema de Diseño.
 
 **(Acción primaria)**
-Derivada de Azul Cielo, con pasos de su escala para hover, foco y presionado: · ·
+Los tonos de Azul Cielo pueden utilizarse para acciones, seleccionando variantes que mantengan la legibilidad y visibilidad de los estados correspondientes.
 
 **(Superficies elevadas)**
-Derivadas de Blanco Keyons: un tono más claro o una sombra sutil para lo que debe destacar sobre el fondo.
+Las superficies utilizan los neutros oficiales, con diferencias sutiles de tono, bordes o elevación cuando ayudan a distinguir los elementos.
 
 ### Capítulo 08 · Tipografía
 
@@ -1934,9 +1952,11 @@ Display, portadas y kickers. Aparece en momentos puntuales, nunca como tipograf�
 
 Número: 8.2 · ID: `KYN-MRK-TYP-002` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#escala`
 
-##### Nueve niveles para pantalla
+##### Nueve niveles, una jerarquía flexible
 
-Cada nivel cambia tamaño, peso o color, **nunca solo uno de ellos**. Valores para sitio web e interfaz; impreso y redes sociales se definen aparte.
+La escala proporciona referencias para organizar titulares, textos, etiquetas y contenido de lectura.
+
+No es necesario utilizar todos los niveles en una misma pieza. La jerarquía se construye mediante **tamaño, peso, posición, contraste y espacio**, seleccionando únicamente las diferencias que faciliten la comprensión.
 
 Display
 52 a 128 · px
@@ -1973,6 +1993,12 @@ Jakarta 500 Interlineado 1.4 · Espaciado 0
 Kicker
 13 · px
 TASA 500 · mayúsculas Interlineado 1 · Espaciado +8 %
+
+**(Espaciado)**
+Los valores de tracking negativo incluidos en los niveles de titulares son referencias pendientes de validación, no ajustes globales obligatorios. Los cuerpos de lectura conservan el espaciado de letras necesario para facilitar la comprensión.
+
+**(Criterio de aplicación)**
+No aumentar automáticamente el tamaño de un texto por su importancia normativa. El tamaño debe corresponder a su función dentro de la composición. Los párrafos de apoyo deben mantenerse visualmente subordinados a las declaraciones principales.
 
 #### KYN-MRK-TYP-003 · 8.3 Probador
 
@@ -2032,48 +2058,46 @@ Capítulo 05 · Voz
 
 Número: 8.6 · ID: `KYN-MRK-TYP-006` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#reglas`
 
-##### Cada regla, a la vista
+##### Siete criterios de aplicación
 
-Lo que hace que la tipografía se lea como Keyons. **Cada regla trae su demostración.**
+La tipografía debe **organizar la lectura, transmitir identidad** y adaptarse a las necesidades del contenido.
 
 
 
-Presencia humana
-Siempre hay un elemento real, **preferentemente humano**.
+Cuatro colores, una jerarquía
+Azul Noche y Blanco Keyons son la base neutra. **Azul Cielo es el primer color** con carga cromática.
 
-La jerarquía combina los tres. Así se lee aunque dos textos estén cerca en tamaño.
+Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio. La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.
 
-Aa
-Aa
-Aa
+Nueve niveles, una jerarquía flexible
+La escala proporciona referencias para organizar titulares, textos, etiquetas y contenido de lectura.
 
-Máximo tres tamaños de lectura por pieza. Si hace falta más jerarquía, se resuelve con peso o color.
-
-Lo que hace, no cómo se llama
-Cada término técnico se traduce. No es simplificar: es respetar al lector.
-
-Titulares apretados, de 0.93 a 1.2. Cuerpo holgado, de 1.55 a 1.65.
+Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad. Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.
 
 Cielo
 Índice
 
-Titulares grandes de −2 % a −4 %. Cuerpo sin ajuste. Mayúsculas pequeñas, +8 %.
+El tracking se ajusta según la fuente, el tamaño y la función del texto. No se aplican valores negativos o positivos de forma indiscriminada.
 
 Primero entendemos su operación; **después construimos**.
 
-Semibold solo para las palabras clave que guían la lectura. Nunca en acordeones ni en recuadros.
+El peso semibold permite destacar información relevante. No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.
 
 1 250.00
 98.40
 12 004.10
 
-Tablas, cifras, facturas y dashboards alinean sus columnas con la variante tabular.
+Las cifras operativas utilizan Plus Jakarta Sans. En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.
 
 Galaxia
 
-Display, portadas y kickers. Nunca en cuerpo de texto ni por debajo de 24 px, salvo el kicker.
+TASA Orbiter se reserva para titulares, portadas y cifras con intención editorial. Los textos prolongados y controles funcionales priorizan la legibilidad.
 
-Si hace falta más jerarquía, se resuelve con peso, no con otro tamaño.
+Aa
+Aa
+Aa
+
+Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad. El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
 
 #### KYN-MRK-TYP-007 · 8.7 Uso por función
 

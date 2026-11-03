@@ -20,9 +20,9 @@ Número: 7.10 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos
 
 ##### Sobrio de principio a fin
 
-Facturas, contratos, propuestas, papelería y presentaciones para clientes. **La paleta base cubre casi toda la pieza** y los cielos expresivos no aparecen.
+El modo institucional prioriza **claridad, sobriedad y una presencia cromática contenida**. La base neutra sostiene la comunicación y los acentos se utilizan cuando aportan jerarquía o carácter.
 
-(Pieza institucional típica)
+(Distribución orientativa)
 **70 %** · **20 %** · **10 %**
 Blanco Keyons o Azul Noche · Azul Cielo · Salmón Tierra
 
@@ -30,6 +30,6 @@ Blanco Keyons o Azul Noche · Azul Cielo · Salmón Tierra
 Puede ir en portadas, encabezados, secciones destacadas e incluso como fondo dominante cuando el mensaje lo justifica.
 
 **(Salmón Tierra, segunda)**
-Aparece cuando el mensaje pide una calidez que el celeste no transmite. Conviven, pero Cielo siempre ocupa más.
+Aparece cuando el mensaje pide una calidez que el celeste no transmite. Cuando conviven, Cielo siempre ocupa más.
 
-La proporción es guía; la jerarquía es fija.
+La jerarquía cromática orienta la composición; su proporción depende de la función de cada pieza.
