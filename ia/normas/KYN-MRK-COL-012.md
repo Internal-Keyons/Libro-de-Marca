@@ -20,10 +20,10 @@ Número: 7.12 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos
 
 ##### Sobrio con momentos vivos
 
-El producto trabaja en dos temperaturas. **La sobria sostiene el trabajo diario**; la viva aparece solo en momentos designados, y por eso se siente especial.
+En las interfaces que utilizan identidad Keyons, **la expresión cromática se adapta a la función**. El trabajo operativo prioriza estabilidad y claridad; los momentos editoriales permiten mayor intensidad visual.
 
-(Tiempo de uso)
-**95 %** · **5 %**
+(Dos temperaturas)
+**Predominante** · **Puntual**
 Temperatura sobria · flujo de trabajo · Temperatura viva
 
 (Momentos vivos)
@@ -37,7 +37,10 @@ Temperatura sobria · flujo de trabajo · Temperatura viva
 - Sección vacía que invita a empezar
 
 **(Temperatura sobria)**
-Blanco Keyons de fondo, Azul Noche en el texto, grises para la jerarquía, Azul Cielo en acciones y Salmón Tierra en avisos. Usable ocho horas sin fatiga, y con todos los estados visibles.
+Utiliza superficies neutras, tipografía legible, jerarquías claras y acentos de Azul Cielo donde corresponda. Los avisos y estados utilizan colores semánticos adecuados a su significado.
+
+**(Alcance)**
+Las interfaces con identidad exclusiva del cliente utilizan su tema visual. Comparten los principios UX, pero no están obligadas a reproducir la paleta corporativa. Los tokens, componentes y temas específicos se documentan en el Sistema de Diseño.
 
 **(La pregunta antes de pintar)**
 ¿Esta pantalla es flujo diario o un momento designado? Si hay duda, gana la temperatura sobria.

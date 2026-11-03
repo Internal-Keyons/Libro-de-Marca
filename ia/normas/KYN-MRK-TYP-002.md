@@ -18,9 +18,11 @@ citada_por: ["KYN-MRK-VIS-002"]
 
 Número: 8.2 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundamentos/tipografia/sistema.html#escala`
 
-##### Nueve niveles para pantalla
+##### Nueve niveles, una jerarquía flexible
 
-Cada nivel cambia tamaño, peso o color, **nunca solo uno de ellos**. Valores para sitio web e interfaz; impreso y redes sociales se definen aparte.
+La escala proporciona referencias para organizar titulares, textos, etiquetas y contenido de lectura.
+
+No es necesario utilizar todos los niveles en una misma pieza. La jerarquía se construye mediante **tamaño, peso, posición, contraste y espacio**, seleccionando únicamente las diferencias que faciliten la comprensión.
 
 Display
 52 a 128 · px
@@ -57,3 +59,9 @@ Jakarta 500 Interlineado 1.4 · Espaciado 0
 Kicker
 13 · px
 TASA 500 · mayúsculas Interlineado 1 · Espaciado +8 %
+
+**(Espaciado)**
+Los valores de tracking negativo incluidos en los niveles de titulares son referencias pendientes de validación, no ajustes globales obligatorios. Los cuerpos de lectura conservan el espaciado de letras necesario para facilitar la comprensión.
+
+**(Criterio de aplicación)**
+No aumentar automáticamente el tamaño de un texto por su importancia normativa. El tamaño debe corresponder a su función dentro de la composición. Los párrafos de apoyo deben mantenerse visualmente subordinados a las declaraciones principales.

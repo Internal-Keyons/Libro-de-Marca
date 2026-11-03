@@ -26,8 +26,9 @@ Los corchetes de programación emergen de la anatomía de la K y la E. Primero s
 
 > Recurso visual: Gráfico SVG en línea · «Isotipo de Keyons» · Símbolo: #k-iso
 
-**(Un símbolo universal)**
-En cualquier lenguaje de programación, los corchetes delimitan los bloques donde ocurren las operaciones. Son el marco donde la acción sucede.
+**(Un símbolo reconocible)**
+En distintos lenguajes de programación, los corchetes permiten agrupar o delimitar elementos, aunque su función específica varía según el contexto.
+Keyons toma esa forma como una metáfora de estructura y organización.
 
 **(El contenedor que ordena)**
 No son la operación ni el resultado: son el marco que permite que todo ocurra con sentido. Esa es la posición de Keyons frente a sus clientes.
@@ -35,4 +36,4 @@ No son la operación ni el resultado: son el marco que permite que todo ocurra c
 **(Desde adentro, no desde afuera)**
 El símbolo no está al lado del nombre: nace de él. Como Keyons, que se integra en la lógica del cliente para que la solución emerja desde adentro.
 
-El corchete hace que el código funcione; Keyons hace que la tecnología del cliente funcione.
+El símbolo representa la estructura. Keyons aporta el criterio para conectar tecnología y operación.

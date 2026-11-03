@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "06 Identidad"
 area: "Fundamentos"
 fuente: "/fundamentos/identidad/isotipo.html#evolucion"
-referencias: []
+referencias: ["KYN-MRK-LOG-010"]
 citada_por: []
 ---
 
@@ -22,13 +22,13 @@ Número: 6.8 · Estado: vigente · Capítulo: 06 Identidad · Fuente: `/fundamen
 
 La relación entre logotipo e isotipo sigue una lógica de maduración. **Hoy el isotipo camina acompañado**; cuando la asociación esté construida, caminará solo.
 
-**(Hoy · acompañado)**
-Aparece junto al logotipo o donde el entorno ya dice que es Keyons: el favicon del sitio propio, el avatar de cuentas oficiales verificadas o la marca de agua en documentos identificados.
+**(Hoy · Uso contextual)**
+El isotipo puede acompañar al logotipo o utilizarse individualmente cuando el entorno identifica claramente a Keyons, como el favicon de su sitio o los avatares de sus cuentas oficiales.
 
-**(Todavía no · audiencias frías)**
-Frente a quien no conoce a Keyons, los corchetes sin el nombre se leen solo como corchetes. Usarlo así antes de tiempo confundiría al receptor.
+**(Todavía no · Audiencias que no conocen la marca)**
+El isotipo no debe sustituir automáticamente al nombre completo cuando el público todavía no puede reconocerlo como Keyons.
 
-**(Después · autónomo)**
-Bordados en merchandising, ícono de la aplicación móvil, patrones como textura de marca y sellos de firma en piezas donde el logotipo completo no llega.
+**(Después · Identidad autónoma)**
+El isotipo podrá representar a Keyons sin el nombre cuando se autorice su autonomía conforme a los criterios establecidos en KYN-MRK-LOG-010.
 
-Cuando el mercado esté listo, la relación se invierte.
+La autonomía del símbolo se demuestra mediante su reconocimiento, no solamente por el tiempo transcurrido.

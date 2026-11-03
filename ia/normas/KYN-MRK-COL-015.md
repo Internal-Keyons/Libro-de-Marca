@@ -20,10 +20,12 @@ Número: 7.16 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos
 
 ##### Cielo para actuar, blanco para apoyar
 
-Dos derivados de la paleta base sostienen toda la interfaz. **Su aplicación completa vive en el capítulo de Interfaz.**
+Los colores de acción y superficie se derivan de las **familias cromáticas oficiales** y se adaptan a las funciones de cada interfaz.
+
+Su aplicación técnica se documenta mediante tokens y componentes del Sistema de Diseño.
 
 **(Acción primaria)**
-Derivada de Azul Cielo, con pasos de su escala para hover, foco y presionado: · ·
+Los tonos de Azul Cielo pueden utilizarse para acciones, seleccionando variantes que mantengan la legibilidad y visibilidad de los estados correspondientes.
 
 **(Superficies elevadas)**
-Derivadas de Blanco Keyons: un tono más claro o una sombra sutil para lo que debe destacar sobre el fondo.
+Las superficies utilizan los neutros oficiales, con diferencias sutiles de tono, bordes o elevación cuando ayudan a distinguir los elementos.

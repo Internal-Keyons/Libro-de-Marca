@@ -151,6 +151,32 @@ Desviaciones cerradas: VOZ-006 (las notas del ejemplo ahora son las definiciones
   - el menú tiene dos enlaces: «Descargar PDF» (descarga directa del PDF) y «Normas para IA».
 - **Sin cambios:** CON-008 ya tenía el texto enviado.
 
+## Revisión del 2026-11-02 · 9 (RV9)
+
+- **Concepto:** CON-006 conserva sus textos; cada criterio pasa de tres renglones forzados a un párrafo.
+- **Identidad:**
+  - LOG-007: «Un símbolo reconocible» y cierre nuevo;
+  - LOG-008: los tres momentos y el cierre;
+  - LOG-010: título, introducción, criterio 01 como condición necesaria y 02 y 03 como evidencia complementaria;
+  - LOG-010 deja de mostrar 40 %, 18 meses y 3 usos, que ya no están en la norma; las tarjetas muestran 01, 02 y 03;
+  - LOG-004: las medidas de los diagramas coinciden con el texto; solo hay redondeo de décimas.
+- **Color:**
+  - COL-002 suma la precisión sobre la cantidad de cada color;
+  - COL-004 actualiza las reglas 01, 03 y 05; la 04 se comprobó en 8.57:1, que redondea a 8.6:1;
+  - COL-006 cambia la introducción y la descripción de Salmón Tierra;
+  - COL-010 cambia la introducción, la etiqueta «(Distribución orientativa)» y el cierre; Salmón dice «Cuando conviven»;
+  - COL-011 cambia la introducción, «La regla» y «Proporción libre»;
+  - COL-012 cambia 95 y 5 % por «Predominante» y «Puntual», con la etiqueta «(Dos temperaturas)», la temperatura sobria y el alcance nuevo;
+  - COL-014 cambia el título y la introducción y suma «(Aplicación)»;
+  - COL-015 cambia la introducción y los dos apartados, sin los HEX de hover, foco y presionado.
+- **Tipografía:**
+  - TYP-002 cambia el título y la introducción y suma «(Espaciado)» y «(Criterio de aplicación)»;
+  - TYP-006 se reorganiza en siete criterios; las demostraciones de presencia humana y términos técnicos se sustituyen por textos del propio libro, y se retira el cierre, que contradecía el criterio 01.
+- **Diseño:**
+  - COL-009 pasa de una tabla con columna vacía a la rejilla de dos columnas;
+  - CMP-002 y CMP-003 usan el gris de la regla de esquinas (#C7C8CB) en todos los recuadros.
+- **Contradicción abierta:** el estado Error de COL-014 sigue en «Terracota suave» #F0D0CB; no se inventaron valores nuevos.
+
 ## Cómo se mantiene este registro
 
 1. **Una instrucción por cambio.** Cada instrucción editorial indica ID, ubicación, operación y texto exacto. Se aplica solo eso.

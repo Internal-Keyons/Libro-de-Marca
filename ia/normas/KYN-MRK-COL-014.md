@@ -18,9 +18,11 @@ citada_por: ["KYN-MRK-ICO-003", "KYN-MRK-ICO-005", "KYN-MRK-PRE-011"]
 
 Número: 7.15 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos/color/funcionales.html#estados`
 
-##### Estados con temperatura Keyons
+##### Estados con significado propio
 
-Cada estado tiene un fondo suave, calibrado en tonos **tierra, cálidos y sobrios**, lejos de los verdes y rojos de librería. Sobre ese fondo, el ícono y el texto van siempre en Azul Noche.
+Los colores de estado comunican significado y deben ser **comprensibles, consistentes y accesibles**.
+
+No es necesario que todos pertenezcan a la paleta cromática corporativa. Los errores y resultados negativos utilizan rojo semántico, nunca Salmón Tierra.
 
 Esenciales
 Éxito
@@ -44,3 +46,6 @@ Nuevo
 Deshabilitado
 Bloqueado
 Archivado
+
+**(Aplicación)**
+Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado. Los fondos y textos deben conservar el contraste correspondiente. Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.

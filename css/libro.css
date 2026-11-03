@@ -3953,10 +3953,9 @@ body .portal .portal__arcs{animation:none!important;--ripple:0px;will-change:tra
 
 /* 10.2 y 10.3 · comparación simétrica y retícula anotada */
 .vd-sym{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;width:100%}
-.vd-sym i{height:110px;background:var(--k-cielo-200)}
+.vd-sym i{height:110px;background:var(--k-gris-400)}
 .vd-asym{display:grid;grid-template-columns:7fr 5fr;gap:8px;width:100%}
-.vd-asym i{height:110px;background:var(--k-cielo-200)}
-.vd-asym i:first-child{background:var(--k-noche)}
+.vd-asym i{height:110px;background:var(--k-gris-400)}
 .grid75{margin:var(--s10) 0 0}
 .grid75 svg{display:block;width:100%;height:auto}
 .grid75 .tag{font-family:var(--font-sans);font-size:12px;font-weight:500;fill:#6B6D7E}
@@ -4227,3 +4226,8 @@ html[data-libro="sistema-diseno"]{--trama-o:var(--trama-v-o),var(--trama-h-o)}
 
 /* Botones de flecha: el mismo borde fino de la Biblioteca en todos los libros */
 .btn-icon{border-width:1px;border-color:rgba(168,170,181,.7)}
+
+/* Reglas con más de un párrafo dentro del acordeón */
+.promise__body:not(:last-child){padding-bottom:var(--s3)}
+/* Cada segmento de la barra de proporción deja leer su etiqueta completa */
+.prop__s{min-width:max-content}

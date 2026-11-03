@@ -20,7 +20,9 @@ Número: 7.6 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos/
 
 ##### Pasos y medios pasos
 
-Cada color base tiene una escala de 100 a 900 para estados, fondos y bordes, con **medios pasos (150, 250…)** para transiciones suaves en interfaces y presentaciones. **El paso base, marcado con la estrella, es el que firma**; los demás lo acompañan. Al tocar un tono se copia su código.
+Las escalas tonales amplían los colores oficiales para adaptarlos a **distintas funciones y condiciones de contraste**.
+
+Cada familia mantiene una única escala documentada. Los tonos se seleccionan por su función y legibilidad, no únicamente por preferencia estética. Al tocar un tono se copia su código.
 
 **(Copiar en)**
 
@@ -34,4 +36,4 @@ Azul Cielo
 Acción, enlaces, estados de foco y superficies.
 
 Salmón Tierra
-Calidez puntual y avisos que piden atención sin urgencia.
+Acento cálido de identidad. No representa errores, pérdidas, rechazos ni otros estados negativos.

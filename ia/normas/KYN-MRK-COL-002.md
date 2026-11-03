@@ -21,6 +21,7 @@ Número: 7.2 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos/
 ##### Cuatro colores, una jerarquía
 
 Azul Noche y Blanco Keyons son la base neutra. Azul Cielo es el primer color con carga cromática. Salmón Tierra aporta la temperatura humana.
+La cantidad de cada color responde al contenido y la composición. **No es necesario utilizar los cuatro colores en todas las piezas.**
 Proporción de una pieza institucional típica. Al tocar un color se copia su código.
 **(Copiar en)**
 

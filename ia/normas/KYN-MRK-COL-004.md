@@ -22,9 +22,11 @@ Número: 7.4 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos/
 
 Las reglas que protegen la jerarquía de la paleta. **Se suman nuevas a medida que el sistema crece.**
 
-**01 · El color señala, no escribe**
+**01 · El color señala, no sustituye la legibilidad**
 
-Sobre fondo claro, Azul Cielo y Salmón Tierra van en superficies, bordes, subrayados e íconos. El texto va en Azul Noche.
+Sobre fondos claros, utilizamos preferentemente Azul Noche para los textos.
+
+Azul Cielo y los salmones pueden aportar acentos, superficies y señales gráficas. Su utilización en textos o elementos funcionales requiere comprobar el contraste correspondiente.
 
 **02 · Cielo y Salmón no se apoyan uno sobre otro**
 
@@ -34,10 +36,12 @@ Nunca un elemento Salmón encima de un fondo Cielo, ni al revés.
 
 Cuando conviven, Cielo ocupa más área que Salmón. Salmón domina solo en piezas expresivas donde la calidez es el mensaje.
 
+Esta jerarquía no sustituye los colores semánticos ni las necesidades específicas de una visualización de datos.
+
 **04 · Salmón Atardecer vive sobre Azul Noche**
 
 #E99D9E es la versión de Salmón para fondos oscuros, donde alcanza 8.6:1.
 
-**05 · La proporción es guía, la jerarquía es fija**
+**05 · La proporción orienta**
 
-Los porcentajes orientan; el orden Blanco, Noche, Cielo, Salmón no se negocia.
+Las proporciones ayudan a construir jerarquía, pero la composición, la legibilidad y la función de cada pieza determinan su aplicación.

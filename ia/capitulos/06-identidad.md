@@ -241,8 +241,9 @@ Los corchetes de programación emergen de la anatomía de la K y la E. Primero s
 
 > Recurso visual: Gráfico SVG en línea · «Isotipo de Keyons» · Símbolo: #k-iso
 
-**(Un símbolo universal)**
-En cualquier lenguaje de programación, los corchetes delimitan los bloques donde ocurren las operaciones. Son el marco donde la acción sucede.
+**(Un símbolo reconocible)**
+En distintos lenguajes de programación, los corchetes permiten agrupar o delimitar elementos, aunque su función específica varía según el contexto.
+Keyons toma esa forma como una metáfora de estructura y organización.
 
 **(El contenedor que ordena)**
 No son la operación ni el resultado: son el marco que permite que todo ocurra con sentido. Esa es la posición de Keyons frente a sus clientes.
@@ -250,7 +251,7 @@ No son la operación ni el resultado: son el marco que permite que todo ocurra c
 **(Desde adentro, no desde afuera)**
 El símbolo no está al lado del nombre: nace de él. Como Keyons, que se integra en la lógica del cliente para que la solución emerja desde adentro.
 
-El corchete hace que el código funcione; Keyons hace que la tecnología del cliente funcione.
+El símbolo representa la estructura. Keyons aporta el criterio para conectar tecnología y operación.
 
 ## KYN-MRK-LOG-008 · 6.8 Estado y evolución
 
@@ -260,16 +261,16 @@ Número: 6.8 · ID: `KYN-MRK-LOG-008` · Estado: vigente · Fuente: `/fundamento
 
 La relación entre logotipo e isotipo sigue una lógica de maduración. **Hoy el isotipo camina acompañado**; cuando la asociación esté construida, caminará solo.
 
-**(Hoy · acompañado)**
-Aparece junto al logotipo o donde el entorno ya dice que es Keyons: el favicon del sitio propio, el avatar de cuentas oficiales verificadas o la marca de agua en documentos identificados.
+**(Hoy · Uso contextual)**
+El isotipo puede acompañar al logotipo o utilizarse individualmente cuando el entorno identifica claramente a Keyons, como el favicon de su sitio o los avatares de sus cuentas oficiales.
 
-**(Todavía no · audiencias frías)**
-Frente a quien no conoce a Keyons, los corchetes sin el nombre se leen solo como corchetes. Usarlo así antes de tiempo confundiría al receptor.
+**(Todavía no · Audiencias que no conocen la marca)**
+El isotipo no debe sustituir automáticamente al nombre completo cuando el público todavía no puede reconocerlo como Keyons.
 
-**(Después · autónomo)**
-Bordados en merchandising, ícono de la aplicación móvil, patrones como textura de marca y sellos de firma en piezas donde el logotipo completo no llega.
+**(Después · Identidad autónoma)**
+El isotipo podrá representar a Keyons sin el nombre cuando se autorice su autonomía conforme a los criterios establecidos en KYN-MRK-LOG-010.
 
-Cuando el mercado esté listo, la relación se invierte.
+La autonomía del símbolo se demuestra mediante su reconocimiento, no solamente por el tiempo transcurrido.
 
 ## KYN-MRK-LOG-009 · 6.9 Destello central
 
@@ -292,35 +293,35 @@ No representamos la IA con imágenes de IA, igual que no representamos la tecnol
 
 Número: 6.10 · ID: `KYN-MRK-LOG-010` · Estado: vigente · Fuente: `/fundamentos/identidad/isotipo.html#transicion`
 
-### Dos de tres, no antes
+### La autonomía se comprueba
 
-El isotipo se activa como identidad autónoma cuando se cumplen **al menos dos de estos tres criterios** verificables.
+El isotipo podrá utilizarse como identificador independiente cuando exista **reconocimiento comprobado** entre las audiencias correspondientes y **aprobación expresa** de la dirección de marca.
 
-**40**
-%
+La exposición sostenida y la presencia en distintos canales contribuyen a construir reconocimiento, pero no lo sustituyen.
 
-Criterio 01
+**01**
+
+Condición necesaria
 Reconocimiento espontáneo
-Audiencias frías identifican el símbolo como Keyons sin ver el nombre, en estudios cualitativos con el público objetivo.
+Comprobar que personas del público objetivo identifican el símbolo como Keyons sin mostrarles el logotipo completo.
+La prueba debe documentar el público evaluado, la metodología, los resultados y sus limitaciones.
 
-**18**
-meses
+**02**
 
-Criterio 02
-Densidad de exposición
-Exposición continua del isotipo junto al logotipo en sitio web, redes, presentaciones y papelería.
+Evidencia complementaria
+Exposición sostenida
+Registrar durante cuánto tiempo y en qué canales se ha presentado el isotipo acompañado de la identidad Keyons.
 
-**3**
-usos
+**03**
 
-Criterio 03
-Ecosistema de aplicaciones
-Favicon, avatares oficiales y marca de agua: tres lugares donde el símbolo se repite con constancia.
+Evidencia complementaria
+Aplicaciones reconocibles
+Documentar sus usos contextualizados, como favicons, avatares oficiales y marcas de agua en materiales identificados.
 
-**(Cuando se cumplen)**
-La marca activa el isotipo autónomo de forma gradual, con revisión trimestral de la dirección de marca durante los primeros seis meses.
+**(Autorización)**
+La dirección de marca evaluará la evidencia y aprobará, cuando corresponda, una introducción gradual del isotipo autónomo, con revisión trimestral durante los primeros seis meses después de la autorización.
 
 **(Mientras tanto)**
-Cualquier uso autónomo frente a audiencias frías requiere la aprobación explícita de la dirección de marca.
+Mientras no exista esa autorización, cualquier uso autónomo frente a audiencias que no conocen Keyons requiere aprobación expresa.
 
 Esperar el momento correcto es lo que garantiza que, cuando el símbolo se independice, funcione.
