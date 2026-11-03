@@ -175,7 +175,8 @@
   const heroEl = document.querySelector('.hero');
   if (heroEl) cielos.push([heroEl, 'mediodia', 'portada']);
   document.querySelectorAll('.portal').forEach((p) => {
-    if (p.matches('.portal--photo, .portal--img')) return;
+    /* Un portal --plano muestra solo el color de su área, sin cielo animado */
+    if (p.matches('.portal--photo, .portal--img, .portal--plano')) return;
     const sky = p.matches('.portal--cielo') ? 'mediodia' : p.matches('.portal--salmon') ? 'atardecer' : 'noche';
     cielos.push([p, sky, document.body.dataset.page || location.pathname, true]);
   });

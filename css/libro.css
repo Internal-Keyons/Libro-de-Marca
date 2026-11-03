@@ -4213,3 +4213,17 @@ html[data-libro="sistema-diseno"]{--trama:var(--trama-v),var(--trama-h)}
 .portal .portal__arcs{display:block!important;z-index:1;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;background-color:transparent!important;background-image:var(--trama)!important;animation:none!important;transform:none!important}
 .band{position:relative}
 .band::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background-image:var(--trama)}
+
+/* Trama sobre fondos oscuros (Azul Noche): la línea se mantiene y el sombreado pasa a oscuro,
+   igual de natural que el sombreado claro sobre los fondos claros */
+:root{
+  --trama-v-o:repeating-linear-gradient(90deg,rgba(150,158,210,.16) 0px,rgba(150,158,210,.16) 1px,rgba(5,8,23,.12) 1px,rgba(5,8,23,0) 25px,rgba(5,8,23,0) 26px,rgba(5,8,23,.12) 49px,rgba(5,8,23,.12) 50px);
+  --trama-h-o:repeating-linear-gradient(0deg,rgba(150,158,210,.16) 0px,rgba(150,158,210,.16) 1px,rgba(5,8,23,.12) 1px,rgba(5,8,23,0) 25px,rgba(5,8,23,0) 26px,rgba(5,8,23,.12) 49px,rgba(5,8,23,.12) 50px);
+  --trama-o:var(--trama-v-o);
+}
+html[data-libro="sistema-diseno"]{--trama-o:var(--trama-v-o),var(--trama-h-o)}
+.portal:not(.portal--cielo):not(.portal--salmon):not(.portal--photo) .portal__arcs{background-image:var(--trama-o)!important}
+.band.grad--noche::before{background-image:var(--trama-o)}
+
+/* Botones de flecha: el mismo borde fino de la Biblioteca en todos los libros */
+.btn-icon{border-width:1px;border-color:rgba(168,170,181,.7)}
