@@ -644,7 +644,7 @@
     const bar = document.createElement('button');
     bar.type = 'button';
     bar.className = 'chapbar';
-    bar.innerHTML = ic('<path d="M2.5 4.5h11M2.5 8h11M2.5 11.5h7"/>') + (cur ? `${cur[0].n} ${esc(cur[0].t)} <span>· ${esc(cur[1].t)}</span>` : `${esc(area.t)} <span>· capítulos</span>`);
+    bar.innerHTML = ic('<path d="M2.5 4.5h11M2.5 8h11M2.5 11.5h7"/>') + (cur ? `${cur[0].n} ${esc(cur[0].t)}${cur[1].t === cur[0].t ? '' : ` <span>· ${esc(cur[1].t)}</span>`}` : `${esc(area.t)} <span>· capítulos</span>`);
     bar.addEventListener('click', () => body.classList.add('nav-open'));
     document.querySelector('.doc').before(bar);
     const scrim = document.createElement('div');
