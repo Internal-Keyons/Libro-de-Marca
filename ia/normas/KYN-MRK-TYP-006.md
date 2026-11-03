@@ -114,9 +114,7 @@ Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin per
 
 El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
 
-**Ficha técnica`KYN-MRK-TYP-006`**
-
-**Contenido extenso y agentes de IA · antes de componer, identificar**
+**(Contenido extenso y agentes de IA · antes de componer, identificar)**
 
 - Medio y formato.
 - Volumen de información.
@@ -125,16 +123,5 @@ El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redis
 - Modelo de lectura.
 - Fuentes y escalas aplicables.
 - Elementos especiales: tablas, citas, notas, cifras o etiquetas.
-
-**Aplicar**
-
-- Anchura de lectura apropiada.
-- Interlineado estable.
-- Proximidad entre títulos y contenido.
-- Agrupaciones por significado.
-- Continuidad entre páginas.
-- Espacio negativo proporcionado.
-- Jerarquías semánticas claras.
-- Verificación en el tamaño final.
 
 Las técnicas de composición compartidas se desarrollan en el capítulo 10, con referencias a estas normas tipográficas.

@@ -11,7 +11,7 @@ capitulo: "08 Tipografía"
 area: "Fundamentos"
 fuente: "/fundamentos/tipografia/sistema.html#escala"
 referencias: []
-citada_por: ["KYN-MRK-TYP-004"]
+citada_por: []
 ---
 
 # KYN-MRK-TYP-002 · Escala y jerarquía
@@ -58,69 +58,24 @@ Kicker
 13 · px
 TASA Orbiter
 
-Quiénes somos
-Una empresa de ingeniería operativa que integra inteligencia artificial a los equipos
-Primero entendemos su operación; después construimos con su equipo
+**(Lectura prolongada · Referencia digital V1)**
 
-El titular guía la lectura mediante su tamaño y posición.
+###### Una base estable para leer con comodidad
 
-> Recurso visual: Demostración visual (clase `tmod__s`)
+Plus Jakarta Sans para artículos, informes digitales y documentos extensos.
 
-**(Lectura prolongada)**
-Organiza contenido extenso mediante párrafos, títulos y una columna de lectura estable.
+- **Tamaño de cuerpo**: 16–18 px
+- **Interlineado**: 1,5–1,65
+- **Caracteres por línea**: 55–75
+- **Alineación inicial**: Izquierda
 
-> Recurso visual: Demostración visual (clase `tmod__s`)
+**(01 · Coherencia)**
+Los niveles tipográficos parten de una configuración común y mantienen relaciones reconocibles.
 
-**(Síntesis modular)**
-Agrupa información relacionada para facilitar su recorrido y comparación.
+**(02 · Expresión)**
+Los títulos y las declaraciones pueden variar su escala, proporción y tratamiento visual según la intención editorial. La lectura mantiene sus parámetros de legibilidad.
+
+**(03 · Comprobación)**
+Cada composición se evalúa con las fuentes oficiales, el contenido real y el tamaño final de publicación.
 
 Selecciona una configuración coherente como punto de partida y adapta sus proporciones a la función de cada texto.
-
-**Ficha técnica`KYN-MRK-TYP-002`**
-
-**Parámetros de los nueve niveles**
-
-| (Nivel) | Peso | Interlineado | Tracking |
-|---|---|---|---|
-| Display | 500 | 0.93 | −4 % · Tracking en evaluación |
-| Título de sección | 500 | 1.1 | −3 % · Tracking en evaluación |
-| Subtítulo | 500 | 1.2 | −2 % · Tracking en evaluación |
-| Título menor | 600 | 1.3 | −1.5 % · Tracking en evaluación |
-| Entrada | 400 | 1.55 | 0 · Vigente |
-| Cuerpo | 400 | 1.65 | 0 · Vigente |
-| Pequeño | 400 | 1.6 | 0 · Vigente |
-| Rótulo | 500 | 1.4 | 0 · Vigente |
-| Kicker | 500 · mayúsculas | 1 | +8 % · Vigente |
-
-Los valores de tracking negativo de los titulares son referencias pendientes de validación, no ajustes globales obligatorios.
-
-**Configuraciones de referencia V1 · propuesta**
-
-| (Nivel) | Institucional tradicional | Editorial invertida | Expresiva |
-|---|---|---|---|
-| Display | 52 px |  | 80 px |
-| Título contextual |  | 20 px |  |
-| Declaración protagonista |  | 44 px |  |
-| Título de sección | 36 px |  | 44 px |
-| Subtítulo | 24 px |  | 27 px |
-| Entrada o apoyo | 20 px | 18 px | 20 px |
-| Cuerpo | 16 px | 16 px | 16 px |
-
-**Lectura prolongada · referencias V1**
-
-- Cuerpo de 16 a 18 px.
-- Interlineado de 1,5 a 1,65.
-- Longitud de línea de aproximadamente 55 a 75 caracteres.
-- Alineación inicial a la izquierda.
-
-Las reglas de longitud de línea, columnas, paginación y espaciado se documentan en el capítulo 10, Composición.
-
-**Reglas de aplicación**
-
-- Seleccionar una configuración coherente como punto de partida.
-- Ajustar los niveles según su función.
-- Mantener diferencias perceptibles entre información protagonista y secundaria.
-- Conservar tamaños de lectura adecuados al contenido extenso.
-- Evaluar variaciones expresivas según el contexto.
-- Verificar la composición en el formato final.
-- No aumentar automáticamente el tamaño de un texto por su importancia normativa.

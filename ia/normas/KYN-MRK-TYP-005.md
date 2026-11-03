@@ -26,22 +26,8 @@ Capítulo 01 · ADN
 Quiénes somos
 La etiqueta ubica el contenido dentro del manual.
 
-**Ficha técnica`KYN-MRK-TYP-005`**
-
-**Criterios**
-
-- Utilizar una etiqueta cuando aporta contexto.
-- Seleccionar la tipografía según la función y el tratamiento editorial.
-- Ajustar el espaciado de acuerdo con las reglas tipográficas correspondientes.
-- Incorporar símbolos cuando contribuyan al significado.
-- Utilizar separadores para organizar metadatos relacionados.
-
-**Especificación vigente en este manual**
-
-| (Elemento) | Especificación |
-|---|---|
-| Fuente | TASA Orbiter 500, en mayúsculas |
-| Tamaño | 13 px |
-| Espaciado | +8 % |
-| Símbolo | Estrella de marca a la izquierda, sin repetirse a la derecha |
-| Separador | Punto medio entre niveles, sin punto final |
+- **Fuente**: TASA Orbiter 500, en mayúsculas
+- **Tamaño**: 13 px
+- **Espaciado**: +8 %
+- **Símbolo**: Estrella de marca a la izquierda, sin repetirse a la derecha
+- **Separador**: Punto medio entre niveles, sin punto final

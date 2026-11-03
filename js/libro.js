@@ -403,57 +403,148 @@
     show(cur);
   });
 
-  /* Probador tipográfico */
-  document.querySelectorAll('[data-tester]').forEach((tb) => {
-    const LV = {
-      display: ['tsx--display', 'TASA Orbiter 500 · 52–128 px · espaciado −4 %'],
-      title: ['tsx--title', 'Jakarta 500 · 30–44 px · espaciado −3 % · Gris titular'],
-      lead: ['tsx--lead', 'Jakarta 400 · 18–20 px · interlineado 1.55'],
-      body: ['tsx--body', 'Jakarta 400 · 16–17 px · interlineado 1.65'],
-      kicker: ['kicker tsx--kicker', 'Etiqueta de contexto · 13 px · mayúsculas · espaciado +8 %'],
-    };
-    /* Configuraciones de referencia V1 (propuesta): el texto escrito hace de protagonista */
-    const CFG = {
-      trad: [['Display · 52 px', 52, 'd'], ['Título de sección · 36 px', 36, 't', 'Un mismo cielo, ningún horizonte igual'], ['Entrada · 20 px', 20, 'l', 'Los retos se repiten en cualquier industria, pero ninguna empresa los enfrenta desde el mismo horizonte.'], ['Cuerpo · 16 px', 16, 'b', 'Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.']],
-      inv: [['Título contextual · 20 px', 20, 'c', 'Quiénes somos'], ['Declaración protagonista · 44 px', 44, 'x'], ['Apoyo · 18 px', 18, 'l', 'Los retos se repiten en cualquier industria, pero ninguna empresa los enfrenta desde el mismo horizonte.'], ['Cuerpo · 16 px', 16, 'b', 'Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.']],
-      exp: [['Display · 80 px', 80, 'd'], ['Título de sección · 44 px', 44, 't', 'Un mismo cielo, ningún horizonte igual'], ['Subtítulo · 27 px', 27, 's', 'Cómo trabajamos'], ['Entrada · 20 px', 20, 'l', 'Los retos se repiten en cualquier industria, pero ninguna empresa los enfrenta desde el mismo horizonte.'], ['Cuerpo · 16 px', 16, 'b', 'Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.']],
-    };
-    const comp = tb.querySelector('.tester__comp');
-    let cfg = null;
-    const drawCfg = () => {
-      if (!comp) return;
-      comp.hidden = !cfg;
-      if (!cfg) return;
-      comp.innerHTML = CFG[cfg].map(([lab, px, k, txt]) => `<div class="tcfg tcfg--${k}"><span class="tcfg__l">${lab}</span><p style="font-size:${px}px">${esc(txt || inp.value || ' ')}</p></div>`).join('');
-    };
-    const inp = tb.querySelector('.tester__in'), out = tb.querySelector('.tester__out'), meta = tb.querySelector('.tester__meta');
-    let lv = 'display';
-    const EX = { w: '500', lh: '1.3', ls: '0' };
-    const draw = () => {
-      out.textContent = inp.value || ' '; out.className = 'tester__out ' + LV[lv][0];
-      if (tb.querySelector('.tester__ex')) {
-        out.style.fontWeight = EX.w; out.style.lineHeight = EX.lh; out.style.letterSpacing = EX.ls + 'em';
-        const tr = EX.ls === '0' ? '0 % · aprobado' : `${Math.round(EX.ls * -100) * -1} % · experimental`.replace('-', '−');
-        meta.textContent = `${LV[lv][1].split(' · ').filter((x) => !/^(espaciado|interlineado)/.test(x)).join(' · ')} · peso ${EX.w} · interlineado ${EX.lh.replace('.', ',')} · tracking ${tr}`;
-      } else meta.textContent = LV[lv][1];
-    };
-    tb.querySelectorAll('.tester__ex [data-w], .tester__ex [data-lh], .tester__ex [data-ls]').forEach((b) => b.addEventListener('click', () => {
-      const k = b.dataset.w ? 'w' : b.dataset.lh ? 'lh' : 'ls';
-      EX[k] = b.dataset[k];
-      tb.querySelectorAll(`.tester__ex [data-${k}]`).forEach((o) => o.setAttribute('aria-pressed', String(o === b))); draw();
-    }));
-    inp.addEventListener('input', () => { draw(); drawCfg(); });
-    tb.querySelectorAll('[data-lv]').forEach((b) => b.addEventListener('click', () => {
-      lv = b.dataset.lv; tb.querySelectorAll('[data-lv]').forEach((o) => o.setAttribute('aria-pressed', o === b)); draw();
-    }));
-    tb.querySelectorAll('[data-cfg]').forEach((b) => {
-      b.setAttribute('aria-pressed', 'false');
-      b.addEventListener('click', () => {
-        cfg = cfg === b.dataset.cfg ? null : b.dataset.cfg;
-        tb.querySelectorAll('[data-cfg]').forEach((o) => o.setAttribute('aria-pressed', String(o.dataset.cfg === cfg))); drawCfg();
+  /* Tipografía: la escala editable (8.2), el probador (8.3) y las referencias V1 leen KEYONS_TIPO */
+  const TIPO = window.KEYONS_TIPO;
+  const tNum = (v) => String(v).replace('.', ',');
+  const tPct = (v) => (v > 0 ? '+' : v < 0 ? '−' : '') + tNum(Math.abs(v)) + ' %';
+  const tLv = (k) => TIPO && (TIPO.niveles.find((n) => n.k === k) || TIPO.niveles.find((n) => n.k === TIPO.roles[k].base));
+  const tName = (k) => { const n = TIPO.niveles.find((x) => x.k === k); return n ? n.n : TIPO.roles[k].n; };
+  const tRango = (n) => (n.min === n.max ? `${n.min} px` : `${n.min} a ${n.max} px`);
+
+  /* 8.2 · Escriba un tamaño en cualquier nivel: los demás toman la misma posición dentro de su rango */
+  document.querySelectorAll('[data-escala]').forEach((g) => {
+    if (!TIPO) return;
+    g.innerHTML = TIPO.niveles.map((n) => `<div class="szc" data-k="${n.k}"><span class="szc__k">${n.n}</span><p class="szc__v">${n.min === n.max ? n.min
+      : `<input type="text" inputmode="numeric" maxlength="3" value="${n.min}" aria-label="${n.n}, tamaño en px">`}<sup>px</sup></p><p class="szc__m">${TIPO.familias[n.f]} · <span>${tRango(n)}</span></p></div>`).join('');
+    const reset = document.createElement('button');
+    reset.type = 'button'; reset.className = 'szc-reset'; reset.textContent = 'Restablecer'; reset.hidden = true;
+    g.after(reset);
+    const fit = (i) => { if (!CSS.supports('field-sizing', 'content')) i.style.width = `${Math.max(1, i.value.length) + 0.15}ch`; };
+    const cells = [...g.querySelectorAll('.szc')];
+    const apply = (src, v) => {
+      const s = tLv(src.dataset.k), t = (v - s.min) / (s.max - s.min), tc = Math.min(1, Math.max(0, t));
+      cells.forEach((c) => {
+        const n = tLv(c.dataset.k), i = c.querySelector('input');
+        if (!i) return;
+        const out = c === src && (t < 0 || t > 1);
+        c.classList.toggle('is-out', out);
+        c.querySelector('.szc__m span').textContent = out ? `Fuera del rango ${tRango(n)}` : tRango(n);
+        if (c !== src) { i.value = Math.round(n.min + tc * (n.max - n.min)); fit(i); }
       });
+      reset.hidden = false;
+    };
+    cells.forEach((c) => {
+      const i = c.querySelector('input');
+      if (!i) return;
+      fit(i);
+      i.addEventListener('input', () => {
+        i.value = i.value.replace(/\D/g, ''); fit(i);
+        const v = parseInt(i.value, 10);
+        if (v > 0) apply(c, v);
+      });
+      i.addEventListener('blur', () => { if (!i.value) { i.value = tLv(c.dataset.k).min; fit(i); } });
     });
-    draw();
+    reset.addEventListener('click', () => {
+      cells.forEach((c) => {
+        const i = c.querySelector('input'), n = tLv(c.dataset.k);
+        c.classList.remove('is-out'); c.querySelector('.szc__m span').textContent = tRango(n);
+        if (i) { i.value = n.min; fit(i); }
+      });
+      reset.hidden = true;
+    });
+  });
+
+  /* 8.2 · Lectura prolongada: valores de referencia */
+  document.querySelectorAll('[data-lectura] [data-l]').forEach((d) => {
+    const v = TIPO && TIPO.lectura[d.dataset.l];
+    if (!v) return;
+    d.textContent = d.dataset.l === 'cuerpo' ? `${v[0]}–${v[1]} px` : `${tNum(v[0])}–${tNum(v[1])}`;
+  });
+
+  /* 8.3 · Referencias V1 a la vista: una tabla por jerarquía */
+  document.querySelectorAll('[data-tipo-v1]').forEach((box) => {
+    if (!TIPO) return;
+    const row = (k, vals) => `<div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">${tName(k)}</span>${vals.map((v) => `<span class="matrix__v" role="cell">${v} px</span>`).join('')}</div>`;
+    const head = (cols) => `<div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader">(Nivel)</span>${cols.map((c) => `<span class="matrix__lvl" role="columnheader">${c}</span>`).join('')}</div>`;
+    const c = TIPO.v1['trad-contenida'], e = TIPO.v1['trad-expresiva'], inv = TIPO.v1['inv-contenida'];
+    const [t1, t2] = box.querySelectorAll('.tv1__t');
+    t1.insertAdjacentHTML('afterend', `<div class="matrix" role="table" aria-label="Jerarquía tradicional">${head(['Contenida', 'Expresiva'])}${c.map(([k, px]) => row(k, [px, e.find((x) => x[0] === k)[1]])).join('')}</div>`);
+    t2.insertAdjacentHTML('afterend', `<div class="matrix matrix--1" role="table" aria-label="Jerarquía editorial invertida">${head(['Contenida'])}${inv.map(([k, px]) => row(k, [px])).join('')}</div>`);
+  });
+
+  /* 8.3 · Probador: nivel, peso, interlineado y tracking; jerarquía, intensidad y organización */
+  document.querySelectorAll('[data-tester]').forEach((tb) => {
+    if (!TIPO) return;
+    const LVK = { display: 'display', title: 'titulo', lead: 'entrada', body: 'cuerpo', kicker: 'kicker' };
+    const CLS = { display: 'tsx--display', title: 'tsx--title', lead: 'tsx--lead', body: 'tsx--body', kicker: 'kicker tsx--kicker' };
+    const OPT = { w: [400, 500, 600, 700], lh: [0.93, 1, 1.1, 1.2, 1.3, 1.4, 1.55, 1.6, 1.65], ls: [8, 0, -1.5, -2, -3, -4, -5] };
+    const LAB = { w: String, lh: tNum, ls: tPct };
+    const q = (x) => tb.querySelector(x);
+    const inp = q('.tester__in'), out = q('.tester__out'), meta = q('.tester__meta'), comp = q('.tester__comp'), sizes = q('.tester__sizes');
+    Object.keys(OPT).forEach((k) => { const s = q(`[data-ex="${k}"]`); if (s) s.innerHTML = OPT[k].map((v) => `<option value="${v}">${LAB[k](v)}</option>`).join(''); });
+    let lv = 'display';
+    const EX = {};
+    const setLv = () => {
+      const n = tLv(LVK[lv]);
+      EX.w = n.peso; EX.lh = n.lh; EX.ls = n.est === 'aprobado' ? n.tr : 0;
+      ['w', 'lh', 'ls'].forEach((k) => { const s = q(`[data-ex="${k}"]`); if (s) s.value = String(EX[k]); });
+    };
+    const draw = () => {
+      const n = tLv(LVK[lv]);
+      out.textContent = inp.value || ' '; out.className = 'tester__out ' + CLS[lv];
+      out.style.fontWeight = EX.w; out.style.lineHeight = EX.lh; out.style.letterSpacing = `${EX.ls / 100}em`;
+      const est = EX.ls < 0 ? 'experimental' : EX.ls === 0 || EX.ls === n.tr ? 'aprobado' : 'fuera de la referencia';
+      meta.textContent = `${TIPO.familias[n.f]} ${EX.w}${n.mayus ? ' · mayúsculas' : ''} · ${tRango(n).replace(' a ', '–')} · interlineado ${tNum(EX.lh)} · tracking ${tPct(EX.ls)} · ${est}`;
+    };
+    /* Composición de muestra: cada combinación con las fuentes oficiales */
+    const CF = { j: 'trad', i: 'contenida', o: 'breve' };
+    const TX = {
+      titulo: 'Un mismo cielo, ningún horizonte igual', subtitulo: 'Cómo trabajamos', contexto: 'Quiénes somos',
+      entrada: 'Los retos se repiten en cualquier industria, pero ninguna empresa los enfrenta desde el mismo horizonte.',
+      cuerpo: 'Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.',
+      cierre: 'El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons.',
+    };
+    TX.apoyo = TX.entrada;
+    const MOD = [['Diagnóstico', 'Primero entendemos su operación.'], ['Construcción', 'Después construimos con su equipo.'], ['Medición', 'Medimos cada mejora.']];
+    const sizesFor = (j, i) => {
+      const key = `${j}-${i}`;
+      if (TIPO.v1[key]) return [TIPO.v1[key], 'Referencia V1 · en revisión'];
+      /* Sin referencia V1: cada función crece en la misma proporción que su equivalente tradicional */
+      const g = (arr, k) => arr.find((x) => x[0] === k)[1], c = TIPO.v1['trad-contenida'], e = TIPO.v1['trad-expresiva'];
+      const EQ = { contexto: 'subtitulo', declaracion: 'display', apoyo: 'entrada', cuerpo: 'cuerpo' };
+      return [TIPO.v1[`${j}-contenida`].map(([k, px]) => [k, Math.round((px * g(e, EQ[k])) / g(c, EQ[k]))]), 'Combinación por validar'];
+    };
+    const el = (k, px, txt, cls = '') => {
+      const n = tLv(k), tr = n.est === 'aprobado' ? n.tr : 0;
+      return `<p class="tcx tcx--${k}${cls}" style="font-size:${px}px;font-weight:${n.peso};line-height:${n.lh};letter-spacing:${tr / 100}em">${esc(txt)}</p>`;
+    };
+    const drawComp = () => {
+      if (!comp) return;
+      const [set, estado] = sizesFor(CF.j, CF.i), px = Object.fromEntries(set), pro = inp.value || ' ';
+      const used = [];
+      const put = (k, txt, cls) => { if (!used.includes(k)) used.push(k); return el(k, px[k], txt, cls); };
+      let h = '';
+      if (CF.j === 'trad') {
+        h += put('display', pro);
+        if (CF.o === 'breve') h += put('entrada', TX.entrada);
+        if (CF.o === 'lectura') h += put('titulo', TX.titulo) + put('subtitulo', TX.subtitulo) + put('entrada', TX.entrada) + `<div class="tcx__col">${put('cuerpo', TX.cuerpo)}${put('cuerpo', TX.cierre)}</div>`;
+        if (CF.o === 'modular') h += `<div class="tcx__mods">${MOD.map(([t, d]) => `<div>${put('subtitulo', t)}${put('cuerpo', d)}</div>`).join('')}</div>`;
+      } else {
+        h += put('contexto', TX.contexto) + put('declaracion', pro);
+        if (CF.o === 'lectura') h += put('apoyo', TX.apoyo) + `<div class="tcx__col">${put('cuerpo', TX.cuerpo)}${put('cuerpo', TX.cierre)}</div>`;
+        if (CF.o === 'modular') h += `<div class="tcx__mods">${MOD.map(([t, d]) => `<div>${put('contexto', t)}${put('cuerpo', d)}</div>`).join('')}</div>`;
+      }
+      comp.className = `tester__comp tcx-${CF.j} tcx-${CF.o}`;
+      comp.innerHTML = h;
+      if (sizes) sizes.innerHTML = used.map((k) => `<span>${tName(k)} <b>${px[k]} px</b></span>`).join('') + `<span class="tester__st">${estado}</span>`;
+    };
+    tb.querySelectorAll('[data-ex]').forEach((s) => s.addEventListener('change', () => { EX[s.dataset.ex] = Number(s.value); draw(); }));
+    tb.querySelectorAll('[data-cf]').forEach((s) => s.addEventListener('change', () => { CF[s.dataset.cf] = s.value; drawComp(); }));
+    inp.addEventListener('input', () => { draw(); drawComp(); });
+    tb.querySelectorAll('[data-lv]').forEach((b) => b.addEventListener('click', () => {
+      lv = b.dataset.lv; tb.querySelectorAll('[data-lv]').forEach((o) => o.setAttribute('aria-pressed', o === b)); setLv(); draw();
+    }));
+    setLv(); draw(); drawComp();
   });
 
   /* 8.8 · Tracking: si una muestra no cabe completa, se ve una variante a la vez */
@@ -472,19 +563,6 @@
     }));
     fit(); addEventListener('load', fit); let ft; addEventListener('resize', () => { clearTimeout(ft); ft = setTimeout(fit, 150); });
   });
-
-  /* 8.2 · Jerarquía: la misma composición, tradicional o invertida */
-  document.querySelectorAll('[data-tjx]').forEach((tj) => {
-    const st = tj.querySelector('.tjx__stage'), note = tj.querySelector('.tjx__note');
-    tj.querySelectorAll('[data-j]').forEach((b) => b.addEventListener('click', () => {
-      st.classList.toggle('is-trad', b.dataset.j === 'trad'); st.classList.toggle('is-inv', b.dataset.j === 'inv');
-      note.textContent = note.dataset[b.dataset.j];
-      tj.querySelectorAll('[data-j]').forEach((o) => o.setAttribute('aria-pressed', String(o === b)));
-    }));
-  });
-  /* Fichas técnicas: se abren desde su enlace permanente (#ficha-…) */
-  const openSpec = () => { const d = location.hash && document.getElementById(location.hash.slice(1)); if (d && d.matches('details.spec')) { d.open = true; requestAnimationFrame(() => d.scrollIntoView({ block: 'start' })); } };
-  addEventListener('hashchange', openSpec); openSpec();
 
   /* Escalas tonales: flechas que avanzan de a varias fichas */
   document.addEventListener('click', (e) => {
@@ -1413,4 +1491,24 @@
     const c = e.target.closest('[data-copy-code]');
     if (c) copy(c.closest('.code').querySelector('pre').innerText, 'Código copiado');
   });
+  /* Titulares largos en dos renglones: el corte va después de la coma o el punto y coma */
+  document.querySelectorAll('.ed__title').forEach((t) => {
+    if (t.children.length || t.textContent.length < 34) return;
+    const m = t.textContent.match(/^(.{8,}?[,;])\s+(.{8,})$/);
+    if (m) t.innerHTML = `${esc(m[1])}<br>${esc(m[2])}`;
+  });
+  /* Sin palabras sueltas: la primera palabra de cada oración no queda sola al final de un renglón,
+     y el último renglón de un párrafo nunca es una sola palabra */
+  document.querySelectorAll('main p, main li, main dd').forEach((p) => {
+    if (p.closest('input, textarea, [contenteditable], .tester__out, .tcx, .trk') || parseFloat(getComputedStyle(p).fontSize) > 24 || p.clientWidth < 260) return;
+    const w = document.createTreeWalker(p, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (w.nextNode()) nodes.push(w.currentNode);
+    nodes.forEach((n, i) => {
+      let v = n.nodeValue.replace(/(^|[.!?:;»]\s+)([¿¡«]?[A-ZÁÉÍÓÚÑ][\wáéíóúñ]{0,5}) (?=\S)/g, '$1$2 ');
+      if (i === nodes.length - 1) v = v.replace(/ (\S+\s*)$/, ' $1');
+      if (v !== n.nodeValue) n.nodeValue = v;
+    });
+  });
+
 })();

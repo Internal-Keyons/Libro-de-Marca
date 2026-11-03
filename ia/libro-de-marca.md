@@ -2003,19 +2003,6 @@ Titulares protagonistas, números editoriales y momentos expresivos.
 
 > Recurso visual: Muestra visual: ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789 ¿?¡!«»&@
 
-**Ficha técnica`KYN-MRK-TYP-001`**
-
-**Pesos y variantes**
-
-| (Familia) | Pesos | Variantes |
-|---|---|---|
-| Plus Jakarta Sans | 400, 500, 600 y 700 | Itálica 400 |
-| TASA Orbiter | 400, 500, 600 y 700 | Sin itálica |
-
-**Alcance**
-
-Tipografía regula el lenguaje tipográfico de Keyons en presentaciones, documentos, informes, brochures, publicaciones editoriales, redes sociales, campañas y web corporativa. El Sistema de Diseño desarrolla los tokens tipográficos de interfaces, componentes, dashboards y formularios. Los productos con identidad visual de cliente aplican las fuentes y escalas correspondientes a su marca.
-
 #### KYN-MRK-TYP-002 · 8.2 Escala y jerarquía
 
 Número: 8.2 · ID: `KYN-MRK-TYP-002` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#escala`
@@ -2060,72 +2047,27 @@ Kicker
 13 · px
 TASA Orbiter
 
-Quiénes somos
-Una empresa de ingeniería operativa que integra inteligencia artificial a los equipos
-Primero entendemos su operación; después construimos con su equipo
+**(Lectura prolongada · Referencia digital V1)**
 
-El titular guía la lectura mediante su tamaño y posición.
+###### Una base estable para leer con comodidad
 
-> Recurso visual: Demostración visual (clase `tmod__s`)
+Plus Jakarta Sans para artículos, informes digitales y documentos extensos.
 
-**(Lectura prolongada)**
-Organiza contenido extenso mediante párrafos, títulos y una columna de lectura estable.
+- **Tamaño de cuerpo**: 16–18 px
+- **Interlineado**: 1,5–1,65
+- **Caracteres por línea**: 55–75
+- **Alineación inicial**: Izquierda
 
-> Recurso visual: Demostración visual (clase `tmod__s`)
+**(01 · Coherencia)**
+Los niveles tipográficos parten de una configuración común y mantienen relaciones reconocibles.
 
-**(Síntesis modular)**
-Agrupa información relacionada para facilitar su recorrido y comparación.
+**(02 · Expresión)**
+Los títulos y las declaraciones pueden variar su escala, proporción y tratamiento visual según la intención editorial. La lectura mantiene sus parámetros de legibilidad.
+
+**(03 · Comprobación)**
+Cada composición se evalúa con las fuentes oficiales, el contenido real y el tamaño final de publicación.
 
 Selecciona una configuración coherente como punto de partida y adapta sus proporciones a la función de cada texto.
-
-**Ficha técnica`KYN-MRK-TYP-002`**
-
-**Parámetros de los nueve niveles**
-
-| (Nivel) | Peso | Interlineado | Tracking |
-|---|---|---|---|
-| Display | 500 | 0.93 | −4 % · Tracking en evaluación |
-| Título de sección | 500 | 1.1 | −3 % · Tracking en evaluación |
-| Subtítulo | 500 | 1.2 | −2 % · Tracking en evaluación |
-| Título menor | 600 | 1.3 | −1.5 % · Tracking en evaluación |
-| Entrada | 400 | 1.55 | 0 · Vigente |
-| Cuerpo | 400 | 1.65 | 0 · Vigente |
-| Pequeño | 400 | 1.6 | 0 · Vigente |
-| Rótulo | 500 | 1.4 | 0 · Vigente |
-| Kicker | 500 · mayúsculas | 1 | +8 % · Vigente |
-
-Los valores de tracking negativo de los titulares son referencias pendientes de validación, no ajustes globales obligatorios.
-
-**Configuraciones de referencia V1 · propuesta**
-
-| (Nivel) | Institucional tradicional | Editorial invertida | Expresiva |
-|---|---|---|---|
-| Display | 52 px |  | 80 px |
-| Título contextual |  | 20 px |  |
-| Declaración protagonista |  | 44 px |  |
-| Título de sección | 36 px |  | 44 px |
-| Subtítulo | 24 px |  | 27 px |
-| Entrada o apoyo | 20 px | 18 px | 20 px |
-| Cuerpo | 16 px | 16 px | 16 px |
-
-**Lectura prolongada · referencias V1**
-
-- Cuerpo de 16 a 18 px.
-- Interlineado de 1,5 a 1,65.
-- Longitud de línea de aproximadamente 55 a 75 caracteres.
-- Alineación inicial a la izquierda.
-
-Las reglas de longitud de línea, columnas, paginación y espaciado se documentan en el capítulo 10, Composición.
-
-**Reglas de aplicación**
-
-- Seleccionar una configuración coherente como punto de partida.
-- Ajustar los niveles según su función.
-- Mantener diferencias perceptibles entre información protagonista y secundaria.
-- Conservar tamaños de lectura adecuados al contenido extenso.
-- Evaluar variaciones expresivas según el contexto.
-- Verificar la composición en el formato final.
-- No aumentar automáticamente el tamaño de un texto por su importancia normativa.
 
 #### KYN-MRK-TYP-003 · 8.3 Probador tipográfico
 
@@ -2134,11 +2076,19 @@ Número: 8.3 · ID: `KYN-MRK-TYP-003` · Estado: vigente · Fuente: `/fundamento
 ##### Escriba y compare
 
 El mismo cielo, nadie lo ve igual
-TASA Orbiter 500 · 52 a 128 px
-**(Peso)** · **(Interlineado)** · **(Tracking)**
-**(Configuraciones V1 · propuesta)**
+TASA Orbiter 500 · 52–128 px
+**(Peso)(Interlineado)(Tracking)**
+**(Jerarquía)(Intensidad)(Organización)**
 
-[Ficha técnica de la escala y las configuraciones](/fundamentos/tipografia/sistema.html#ficha-typ-002)
+###### Jerarquía tradicional
+
+**(Referencias V1 · en revisión)**
+
+###### Jerarquía editorial invertida
+
+**(Referencias V1 · en revisión)**
+
+Las combinaciones adicionales requerirán validación antes de formar parte de los valores oficiales.
 
 #### KYN-MRK-TYP-004 · 8.4 Composición editorial
 
@@ -2163,7 +2113,7 @@ El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons.
 **(Cierre)**
 Remata la sección. El resaltado celeste cubre la palabra completa.
 
-Los modelos de jerarquía tradicional e invertida están en KYN-MRK-TYP-002.
+Los modelos de jerarquía tradicional e invertida se exploran en KYN-MRK-TYP-003.
 
 #### KYN-MRK-TYP-005 · 8.5 Etiquetas de contexto
 
@@ -2177,25 +2127,11 @@ Capítulo 01 · ADN
 Quiénes somos
 La etiqueta ubica el contenido dentro del manual.
 
-**Ficha técnica`KYN-MRK-TYP-005`**
-
-**Criterios**
-
-- Utilizar una etiqueta cuando aporta contexto.
-- Seleccionar la tipografía según la función y el tratamiento editorial.
-- Ajustar el espaciado de acuerdo con las reglas tipográficas correspondientes.
-- Incorporar símbolos cuando contribuyan al significado.
-- Utilizar separadores para organizar metadatos relacionados.
-
-**Especificación vigente en este manual**
-
-| (Elemento) | Especificación |
-|---|---|
-| Fuente | TASA Orbiter 500, en mayúsculas |
-| Tamaño | 13 px |
-| Espaciado | +8 % |
-| Símbolo | Estrella de marca a la izquierda, sin repetirse a la derecha |
-| Separador | Punto medio entre niveles, sin punto final |
+- **Fuente**: TASA Orbiter 500, en mayúsculas
+- **Tamaño**: 13 px
+- **Espaciado**: +8 %
+- **Símbolo**: Estrella de marca a la izquierda, sin repetirse a la derecha
+- **Separador**: Punto medio entre niveles, sin punto final
 
 #### KYN-MRK-TYP-006 · 8.6 Criterios de aplicación
 
@@ -2297,9 +2233,7 @@ Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin per
 
 El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
 
-**Ficha técnica`KYN-MRK-TYP-006`**
-
-**Contenido extenso y agentes de IA · antes de componer, identificar**
+**(Contenido extenso y agentes de IA · antes de componer, identificar)**
 
 - Medio y formato.
 - Volumen de información.
@@ -2308,17 +2242,6 @@ El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redis
 - Modelo de lectura.
 - Fuentes y escalas aplicables.
 - Elementos especiales: tablas, citas, notas, cifras o etiquetas.
-
-**Aplicar**
-
-- Anchura de lectura apropiada.
-- Interlineado estable.
-- Proximidad entre títulos y contenido.
-- Agrupaciones por significado.
-- Continuidad entre páginas.
-- Espacio negativo proporcionado.
-- Jerarquías semánticas claras.
-- Verificación en el tamaño final.
 
 Las técnicas de composición compartidas se desarrollan en el capítulo 10, con referencias a estas normas tipográficas.
 
@@ -2349,8 +2272,6 @@ TASA Orbiter.
 
 Cifras operativas
 Plus Jakarta Sans, con cifras tabulares.
-
-**Ficha técnica`KYN-MRK-TYP-007`**
 
 En valores comparables, utilizar cifras tabulares cuando la fuente las admita y la alineación se beneficie de ello.
 
@@ -2384,16 +2305,7 @@ El mismo cielo
 El mismo cielo
 El mismo cielo
 
-**Ficha técnica`8.8 · Tracking`**
-
-**Criterios**
-
-- El texto de lectura utiliza el espaciado natural de Plus Jakarta Sans como punto de partida.
-- Los titulares editoriales de TASA Orbiter pueden incorporar ajustes validados para tamaños específicos.
-- Las etiquetas en mayúsculas pueden incorporar espaciado adicional cuando mejora su lectura.
-- Los ajustes expresivos se evalúan según familia, tamaño, longitud y soporte.
-
-**Ajustes registrados**
+###### Ajustes registrados
 
 | (Fuente y contexto) | Tamaño | Ajuste | Estado |
 |---|---|---|---|
@@ -2401,16 +2313,13 @@ El mismo cielo
 | Etiquetas en mayúsculas | 11 a 13 px | +8 % | Vigente |
 | TASA Orbiter · titulares editoriales | 52 px o más | −3 % y −5 % | En evaluación |
 
-**Mientras se valida**
-
+**(Mientras se valida)**
 Rige la escala de KYN-MRK-TYP-002. El texto de cuerpo conserva el espaciado que favorece la lectura.
 
-**Validación**
-
+**(Validación)**
 Comprobar los ajustes con TASA Orbiter y Plus Jakarta Sans, según corresponda; titulares cortos y largos; caracteres con acentos y signos del español; diferentes anchos de pantalla, y ampliación de texto y modificaciones de espaciado.
 
-**Estado**
-
+**(Estado)**
 Propuesta pendiente de validación. No utilizar estos valores para modificar todas las clases de titulares del proyecto ni convertirlos en tokens oficiales hasta que se haya aprobado su aplicación.
 
 #### 8.9 Tipografía para impresión
@@ -2426,11 +2335,13 @@ Primero entendemos su operación; después construimos con su equipo y medimos c
 
 **(Documentos)**
 Cuerpo de 11 a 12 pt
+Prueba impresa a tamaño real
 
 Primero entendemos su operación
 
 **(Presentaciones)**
 Cuerpo de 20 a 28 pt
+Verificación específica de los tamaños cercanos a 18 pt
 
 Diagnóstico
 
@@ -2440,14 +2351,7 @@ Medición
 
 **(Brochures)**
 Según el formato y la distancia
-
-**Ficha técnica`8.9 · Impresión`**
-
-| (Soporte) | Referencia V1 | Verificación |
-|---|---|---|
-| Documentos impresos | Cuerpo inicial de 11 a 12 pt | Prueba impresa a tamaño real |
-| Presentaciones | Cuerpo de referencia de 20 a 28 pt | Verificación específica de los tamaños cercanos a 18 pt |
-| Brochures | Escala adecuada al formato físico o digital | Según la distancia de lectura |
+Según la distancia de lectura
 
 Propuesta V1, pendiente de validación por soporte.
 

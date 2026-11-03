@@ -2035,9 +2035,7 @@
    "fuente": "/fundamentos/tipografia/sistema.html#escala",
    "markdown": "/ia/normas/KYN-MRK-TYP-002.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-TYP-004"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-TYP-003",
@@ -2050,7 +2048,9 @@
    "fuente": "/fundamentos/tipografia/sistema.html#probador",
    "markdown": "/ia/normas/KYN-MRK-TYP-003.md",
    "referencias": [],
-   "citada_por": []
+   "citada_por": [
+    "KYN-MRK-TYP-004"
+   ]
   },
   {
    "id": "KYN-MRK-TYP-004",
@@ -2063,7 +2063,7 @@
    "fuente": "/fundamentos/tipografia/sistema.html#titular",
    "markdown": "/ia/normas/KYN-MRK-TYP-004.md",
    "referencias": [
-    "KYN-MRK-TYP-002"
+    "KYN-MRK-TYP-003"
    ],
    "citada_por": []
   },

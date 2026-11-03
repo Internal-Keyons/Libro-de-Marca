@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "08 Tipografía"
 area: "Fundamentos"
 fuente: "/fundamentos/tipografia/sistema.html#titular"
-referencias: ["KYN-MRK-TYP-002"]
+referencias: ["KYN-MRK-TYP-003"]
 citada_por: []
 ---
 
@@ -37,4 +37,4 @@ El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons.
 **(Cierre)**
 Remata la sección. El resaltado celeste cubre la palabra completa.
 
-Los modelos de jerarquía tradicional e invertida están en KYN-MRK-TYP-002.
+Los modelos de jerarquía tradicional e invertida se exploran en KYN-MRK-TYP-003.

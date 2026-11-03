@@ -45,16 +45,3 @@ Titulares protagonistas, números editoriales y momentos expresivos.
 
 
 > Recurso visual: Muestra visual: ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789 ¿?¡!«»&@
-
-**Ficha técnica`KYN-MRK-TYP-001`**
-
-**Pesos y variantes**
-
-| (Familia) | Pesos | Variantes |
-|---|---|---|
-| Plus Jakarta Sans | 400, 500, 600 y 700 | Itálica 400 |
-| TASA Orbiter | 400, 500, 600 y 700 | Sin itálica |
-
-**Alcance**
-
-Tipografía regula el lenguaje tipográfico de Keyons en presentaciones, documentos, informes, brochures, publicaciones editoriales, redes sociales, campañas y web corporativa. El Sistema de Diseño desarrolla los tokens tipográficos de interfaces, componentes, dashboards y formularios. Los productos con identidad visual de cliente aplican las fuentes y escalas correspondientes a su marca.

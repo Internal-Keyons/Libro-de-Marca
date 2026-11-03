@@ -42,6 +42,4 @@ TASA Orbiter.
 Cifras operativas
 Plus Jakarta Sans, con cifras tabulares.
 
-**Ficha técnica`KYN-MRK-TYP-007`**
-
 En valores comparables, utilizar cifras tabulares cuando la fuente las admita y la alineación se beneficie de ello.

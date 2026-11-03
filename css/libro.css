@@ -4764,3 +4764,94 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 .tprint__s--bro .tprint__h{margin-bottom:6px}
 .tprint__s--bro span{min-width:0;padding:var(--s4) var(--s2) var(--s4) var(--s3)}
 .tprint__s--bro .tprint__h{font-size:11px;overflow-wrap:anywhere;hyphens:auto}
+
+/* ═══ Ronda 13 · ancho y márgenes del diseño original, con márgenes laterales algo menores ═══ */
+.doc{max-width:1600px}
+.chapter > *{max-width:1180px;margin-left:0;margin-right:0}
+@media(min-width:1100px){.content{padding-left:var(--s16);padding-right:var(--s16)}}
+@media(min-width:1280px){.ed{grid-template-columns:200px minmax(0,1fr);column-gap:var(--s16)}}
+/* La cabecera se alinea con el documento: menú y salida en sus bordes */
+.hdr__in{max-width:1600px;padding-left:clamp(16px,2vw,24px);padding-right:clamp(16px,2vw,24px)}
+/* Medidas de lectura originales */
+.ed__lead{max-width:600px}
+.ed--full .ed__lead{max-width:640px}
+.ed__stack p{max-width:600px}
+.ed__close{max-width:640px}
+/* Párrafos sin palabras sueltas en el último renglón */
+.content p,.content li,.content dd{text-wrap:pretty}
+
+/* ═══ Tipografía · ronda 13 ═══ */
+/* 8.2 · escala editable */
+.szc__v input{width:3.15ch;min-width:1.15ch;padding:0;border:0;border-radius:0;background:transparent;font:inherit;letter-spacing:inherit;color:inherit;font-variant-numeric:tabular-nums;box-shadow:inset 0 -1px 0 var(--k-cielo-200);outline:none;transition:box-shadow var(--m-fast) var(--e-out)}
+.szc__v input:hover{box-shadow:inset 0 -2px 0 var(--k-cielo)}
+.szc__v input:focus-visible{box-shadow:inset 0 -2px 0 var(--k-noche)}
+.szc.is-out .szc__m span{color:var(--k-salmon-600,#B4533A)}
+.szc-reset{margin-top:var(--s4);padding:5px 14px;border-radius:var(--r-pill);font-size:12px;font-weight:500;color:var(--color-text-2);box-shadow:inset 0 0 0 1px var(--color-border-strong)}
+.szc-reset:hover{color:var(--k-noche);box-shadow:inset 0 0 0 1px var(--k-noche)}
+/* 8.2 · lectura prolongada en dos columnas y criterios con la diagramación base */
+.tread{margin-top:var(--s16)}
+.tread__t{margin-top:var(--s3);font-size:clamp(22px,2vw,27px);font-weight:500;line-height:1.2;letter-spacing:-.02em;color:var(--k-noche)}
+.tread__d{max-width:600px;margin-top:var(--s3);font-size:17px;line-height:1.6;color:var(--color-text-2)}
+.tread__g{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 var(--s10);max-width:760px;margin:var(--s8) 0 0}
+.tread__g > div{display:flex;flex-direction:column-reverse;justify-content:flex-end;gap:var(--s1);padding:var(--s5) 0;box-shadow:inset 0 1px 0 var(--k-cielo-100)}
+.tread__g dd{margin:0;font-size:clamp(22px,2vw,26px);font-weight:500;letter-spacing:-.01em;color:var(--k-noche);font-variant-numeric:tabular-nums}
+.tread__g dt{font-size:13px;color:var(--color-text-3)}
+.tread__rules{margin-top:var(--s12)}
+@media(max-width:600px){.tread__g{grid-template-columns:minmax(0,1fr)}}
+/* 8.3 · menús desplegables del probador */
+.tester__ex,.tester__cfg{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s3) var(--s6);padding:var(--s4) 0;border-top:1px solid var(--color-border)}
+.tester__ex label,.tester__cfg label{display:inline-flex;align-items:center;gap:var(--s2)}
+.tester__ex .paren,.tester__cfg .paren{margin:0;font-size:12px;color:var(--color-text-3)}
+.tsel{appearance:none;-webkit-appearance:none;padding:6px 30px 6px 14px;border:0;border-radius:var(--r-pill);background:var(--k-puro) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='m4 6 4 4 4-4' fill='none' stroke='%2310122A' stroke-width='1.5'/%3E%3C/svg%3E") right 10px center/12px no-repeat;font:inherit;font-size:13px;font-weight:500;color:var(--k-noche);box-shadow:inset 0 0 0 1px var(--color-border-strong);cursor:pointer}
+.tsel:hover{box-shadow:inset 0 0 0 1px var(--k-noche)}
+.tsel:focus-visible{outline:2px solid var(--k-cielo);outline-offset:2px}
+/* 8.3 · composición de muestra */
+.tester__comp{padding:var(--s10) 0 var(--s8);border-top:1px solid var(--color-border)}
+.tcx{margin:0;max-width:22ch;color:var(--k-noche);overflow-wrap:anywhere;text-wrap:balance}
+.tcx--display{font-family:var(--font-display)}
+.tcx--titulo,.tcx--declaracion{color:var(--color-text-title-muted)}
+.tcx--entrada,.tcx--apoyo{max-width:52ch;color:var(--color-text-2)}
+.tcx--cuerpo{max-width:62ch;color:var(--color-text-2);text-wrap:pretty}
+.tcx + .tcx{margin-top:var(--s4)}
+.tcx--display + .tcx,.tcx--declaracion + .tcx{margin-top:var(--s6)}
+.tcx-inv .tcx--declaracion{max-width:24ch}
+.tcx__col{margin-top:var(--s8)}
+.tcx__mods{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s8);margin-top:var(--s10)}
+.tcx__mods > div{padding-top:var(--s4);box-shadow:inset 0 2px 0 var(--k-cielo)}
+.tcx__mods .tcx{max-width:none}
+.tester__sizes{display:flex;flex-wrap:wrap;gap:var(--s2) var(--s5);padding:var(--s4) 0;font-size:12px;color:var(--color-text-3);border-top:1px solid var(--color-border)}
+.tester__sizes b{font-weight:500;color:var(--k-noche)}
+.tester__st{margin-left:auto}
+@media(max-width:760px){.tcx__mods{grid-template-columns:minmax(0,1fr);gap:var(--s5)}.tester__st{margin-left:0}}
+/* 8.3 · referencias V1 abiertas */
+.tv1__t{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--s1) var(--s3);margin-top:var(--s12)}
+.tv1__t h3,.tsub{font-size:17px;font-weight:600;color:var(--k-noche)}
+.tv1__t .paren{font-size:13px;color:var(--color-text-3)}
+.tv1 .matrix{margin-top:var(--s4)}
+.matrix--1 .matrix__row{grid-template-columns:200px minmax(0,1fr)}
+/* 8.5 · especificación de la etiqueta */
+.tspec{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 var(--s10);max-width:760px;margin:var(--s10) 0 0}
+.tspec > div{padding:var(--s4) 0;box-shadow:inset 0 1px 0 var(--k-cielo-100)}
+.tspec dt{font-size:13px;color:var(--color-text-3)}
+.tspec dd{margin:var(--s1) 0 0;font-size:16px;line-height:1.5;color:var(--k-noche)}
+@media(max-width:600px){.tspec{grid-template-columns:minmax(0,1fr)}}
+/* 8.6 · antes de componer contenido extenso */
+.tlong{margin-top:var(--s12)}
+.tlong .paren{display:block;font-size:13px;color:var(--color-text-3)}
+.tlong .vlist{margin-top:var(--s4)}
+/* 8.8 · ajustes registrados, a la vista */
+.tsub{margin-top:var(--s12)}
+.tsub + .matrix{margin-top:var(--s4)}
+.tslots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:var(--s10);box-shadow:inset 0 1px 0 var(--k-cielo-100),inset 0 -1px 0 var(--k-cielo-100)}
+.tslots > div{padding:var(--s6) var(--s6) var(--s8) 0}
+.tslots > div + div{padding-left:var(--s6);box-shadow:inset 1px 0 0 var(--k-cielo-100)}
+.tslots .paren{display:block;font-size:13px;color:var(--color-text-3)}
+.tslots p{margin-top:var(--s2);font-size:15px;line-height:1.55;color:var(--color-text-2)}
+@media(max-width:900px){.tslots{grid-template-columns:minmax(0,1fr)}.tslots > div + div{padding-left:0;box-shadow:inset 0 1px 0 var(--k-cielo-100)}}
+/* 8.9 · verificación por soporte */
+.tprint figcaption .tprint__v{margin-top:2px;font-size:13px;color:var(--color-text-3)}
+.szc__v input{field-sizing:content;width:auto}
+.tcx-lectura .tcx--titulo{margin-top:var(--s10)}
+/* Presentaciones en móvil: el panel de tipos de presentación va en una columna y la fórmula puede partir sus piezas */
+@media(max-width:900px){.ed__wide .ptype__panel{grid-template-columns:minmax(0,1fr);gap:var(--s6)}}
+@media(max-width:600px){.fml{padding:var(--s5)}.fml__chip{white-space:normal}}
