@@ -21,24 +21,24 @@
      "n": "01.01",
      "t": "Principios compartidos",
      "slug": "principios-compartidos",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "01.01.01",
        "t": "Claridad y orientación",
-       "estado": "pendiente",
+       "estado": "borrador",
        "st": "Claridad y orientación"
       },
       {
        "n": "01.01.02",
        "t": "Consistencia y previsibilidad",
-       "estado": "pendiente",
+       "estado": "borrador",
        "st": "Consistencia"
       },
       {
        "n": "01.01.03",
        "t": "Control y confianza",
-       "estado": "pendiente",
+       "estado": "borrador",
        "st": "Control y confianza"
       }
      ],

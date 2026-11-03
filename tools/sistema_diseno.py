@@ -7,7 +7,8 @@ El libro usa los mismos componentes que el Libro de Marca: cada módulo es un á
 Escribe:
 - js/nav-sistema-diseno.js           índice para js/libro.js (tarjetas, menú, lateral, buscador, paginador, páginas de área)
 - sistema-diseno/<módulo>.html       página de área del módulo (generada en el navegador) y normas de Marca que aplica
-- sistema-diseno/<módulo>/<cap>.html página de capítulo con sus subcapítulos
+- sistema-diseno/<módulo>/<cap>.html página de capítulo con sus subcapítulos, o con su contenido si existe
+                                     data/sd-capitulos/<cap>.html (secciones .ed con las anclas #s-NN-NN-NN)
 
 La portada (sistema-diseno/index.html) y la plantilla se editan a mano.
 Los capítulos se numeran del 01 al 45 en todo el libro; no son códigos de norma.
@@ -22,6 +23,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from normas import ROOT  # noqa: E402
 
 DATA = os.path.join(ROOT, 'data', 'sistema-diseno.json')
+CONTENIDO = os.path.join(ROOT, 'data', 'sd-capitulos')   # contenido redactado: <slug del capítulo>.html
 OUT = os.path.join(ROOT, 'sistema-diseno')
 
 # Mismo ciclo de color que las áreas del Libro de Marca
@@ -170,6 +172,22 @@ def capitulo(i, m, c):
     k = ESTADO[c['estado']]
     filas = '\n'.join(f'          <div class="kidx__r sd-sub" id="{ancla(s["n"])}"><span class="kidx__t">{e(s["t"])}</span>'
                       f'<span class="sd-st">{dot(ESTADO[s["estado"]])}{TEXTO[ESTADO[s["estado"]]]}</span></div>' for s in c['subcapitulos'])
+    redactado = os.path.join(CONTENIDO, c['slug'] + '.html')
+    if os.path.exists(redactado):
+        cuerpo = io.open(redactado, encoding='utf-8').read().rstrip() + '\n'
+    else:
+        cuerpo = f'''    <!-- Subcapítulos: cada uno reunirá sus normas. Generado por tools/sistema_diseno.py -->
+    <section class="ed" id="subcapitulos">
+      <div class="ed__label"><span>{c['num']}</span><span>Subcapítulos</span></div>
+      <div>
+        <h2 class="ed__title">Subcapítulos</h2>
+        <p class="ed__lead">Cada subcapítulo reunirá sus <strong>reglas, ejemplos y especificaciones</strong>. Sus {len(c['subcapitulos'])} subcapítulos todavía no tienen normas aprobadas.</p>
+        <div class="kidx__list sd-refs">
+{filas}
+        </div>
+      </div>
+    </section>
+'''
     return head(c['t'], '../..') + f'''<body class="is-area" data-root="../.." data-area="{m['k'].lower()}" data-page="sistema-diseno/{m['slug']}/{c['slug']}.html">
 
 <header id="topbar"></header>
@@ -195,18 +213,7 @@ def capitulo(i, m, c):
       </div>
     </section>
 
-    <!-- Subcapítulos: cada uno reunirá sus normas. Generado por tools/sistema_diseno.py -->
-    <section class="ed" id="subcapitulos">
-      <div class="ed__label"><span>{c['num']}</span><span>Subcapítulos</span></div>
-      <div>
-        <h2 class="ed__title">Subcapítulos</h2>
-        <p class="ed__lead">Cada subcapítulo reunirá sus <strong>reglas, ejemplos y especificaciones</strong>. Sus {len(c['subcapitulos'])} subcapítulos todavía no tienen normas aprobadas.</p>
-        <div class="kidx__list sd-refs">
-{filas}
-        </div>
-      </div>
-    </section>
-
+{cuerpo}
     <nav id="pager" aria-label="Paginación"></nav>
   </main>
 </div>

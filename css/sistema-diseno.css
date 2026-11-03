@@ -51,4 +51,89 @@
 .hdr.is-open .hdr__panel nav a:nth-child(9){transition-delay:320ms}.hdr.is-open .hdr__panel nav a:nth-child(10){transition-delay:360ms}
 .hdr.is-open .hdr__panel nav a:nth-child(11){transition-delay:400ms}.hdr.is-open .hdr__panel nav a:nth-child(12){transition-delay:440ms}
 @media(max-width:1179px){.hdr__panel nav.is-cols{gap:14px 16px}}
-@media(max-width:480px){.hdr__panel nav.is-cols{grid-template-columns:repeat(3,auto);justify-content:space-between;column-gap:12px}.hdr__panel nav.is-cols a{font-size:14px}}
+/* Móvil: los módulos vuelven a una lista hacia abajo */
+@media(max-width:760px){.hdr__panel nav.is-cols{display:flex;flex-direction:column}}
+
+/* ═══ Capítulo 01 · Principios compartidos: principios, ejemplos estáticos y comprobación ═══ */
+.ed__label .sd-st{margin-top:var(--s2)}
+.sdx-n{display:block;font-size:13px;color:var(--color-text-3);font-variant-numeric:tabular-nums}
+.sdx-t{font-size:17px;font-weight:600;line-height:1.35;color:var(--k-noche)}
+/* Claridad: filas con líneas finas */
+.sdx-rows{margin-top:var(--s12)}
+.sdx-row{display:grid;grid-template-columns:48px minmax(0,4fr) minmax(0,7fr);gap:var(--s2) var(--s6);padding:var(--s6) 0;box-shadow:inset 0 1px 0 var(--k-cielo-100)}
+.sdx-row:last-child{box-shadow:inset 0 1px 0 var(--k-cielo-100),inset 0 -1px 0 var(--k-cielo-100)}
+.sdx-d p,.sdx-cols p:not(.sdx-t){max-width:58ch;font-size:15px;line-height:1.6;color:var(--color-text-2)}
+.sdx-d p + p,.sdx-cols p:not(.sdx-t) + p{margin-top:var(--s2)}
+@media(max-width:900px){.sdx-row{grid-template-columns:40px minmax(0,1fr)}.sdx-d{grid-column:2}}
+/* Consistencia: tres columnas con separador */
+.sdx-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:var(--s12)}
+.sdx-cols > div{padding:var(--s2) var(--s6) var(--s2) 0}
+.sdx-cols > div + div{padding-left:var(--s6);box-shadow:inset 4px 0 0 var(--k-cielo-200)}
+.sdx-cols .sdx-t{margin:var(--s3) 0 var(--s3);min-height:2.7em}
+@media(max-width:900px){.sdx-cols{grid-template-columns:minmax(0,1fr);gap:var(--s6)}.sdx-cols > div + div{padding-left:0;padding-top:var(--s6);box-shadow:inset 0 1px 0 var(--k-cielo-100)}.sdx-cols .sdx-t{min-height:0}}
+/* Ejemplo y comprobación */
+.sdx-ex{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:var(--s10);align-items:center;margin-top:var(--s12)}
+@media(max-width:900px){.sdx-ex{grid-template-columns:minmax(0,1fr)}}
+.sdx-ex__txt .paren,.sdx-check .paren{display:block;margin-bottom:var(--s2);font-size:13px;color:var(--color-text-3)}
+.sdx-ex__txt p{max-width:46ch;font-size:15px;line-height:1.6;color:var(--color-text-2)}
+.sdx-ex__txt p + p{margin-top:var(--s2)}
+.sdx-ex__txt--wide{margin-top:var(--s6)}
+.sdx-ex__txt--wide p{max-width:64ch}
+.sdx-check{margin-top:var(--s10);padding-left:var(--s6);box-shadow:inset 4px 0 0 var(--k-cielo-200)}
+.sdx-check p{max-width:62ch;font-size:17px;font-weight:500;line-height:1.5;color:var(--k-noche);text-wrap:pretty}
+.sdx-fig{margin:0;padding:var(--s6);background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border);border-radius:0 var(--r-card) var(--r-card) 0}
+.sdx-btn{display:inline-block;padding:7px 14px;border-radius:var(--r-pill);font-size:12px;font-weight:600;color:#fff;background:var(--k-noche)}
+.sdx-btn--2{color:var(--k-noche);background:transparent;box-shadow:inset 0 0 0 1px var(--color-border-strong)}
+/* Pantalla operativa simulada */
+.sdx-app{padding:var(--s5);border-radius:8px;background:var(--k-blanco);box-shadow:inset 0 0 0 1px var(--color-border)}
+.sdx-app__crumb{font-size:12px;color:var(--color-text-3)}
+.sdx-app__head{display:flex;align-items:baseline;justify-content:space-between;gap:var(--s3);margin:var(--s2) 0 var(--s4)}
+.sdx-app__t{font-size:18px;font-weight:600;color:var(--k-noche)}
+.sdx-app__step{font-size:12px;color:var(--color-text-2)}
+.sdx-field{display:grid;gap:4px;margin-top:var(--s3)}
+.sdx-field span{font-size:12px;color:var(--color-text-2)}
+.sdx-field i{display:block;height:30px;border-radius:6px;background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border-strong)}
+.sdx-field.is-missing i{box-shadow:inset 0 0 0 1.5px var(--k-noche)}
+.sdx-field em{font-style:normal;font-size:12px;color:var(--k-noche)}
+.sdx-app__act{display:flex;justify-content:flex-end;gap:var(--s2);margin-top:var(--s5)}
+.sdx-notes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s4);margin:var(--s5) 0 0;padding:0;list-style:none;counter-reset:n}
+.sdx-notes li{font-size:12px;line-height:1.45;color:var(--color-text-2);counter-increment:n}
+.sdx-notes b{display:block;margin-bottom:2px;font-weight:600;color:var(--k-noche)}
+.sdx-notes b::before{content:counter(n,decimal-leading-zero) " ";color:var(--color-text-3);font-weight:500}
+/* Dos productos, el mismo comportamiento: usan las variables de contexto de la portada */
+.sdx-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s2);margin-top:var(--s12)}
+.sdx-pair figure{margin:0;padding:var(--s6);background:var(--ui-bg)}
+.sdx-pair figure:first-child{border-radius:0 var(--r-card) var(--r-card) 0}
+.sdx-pair figure:last-child{border-radius:var(--r-card) 0 0 var(--r-card)}
+.sdx-pair__l{margin-bottom:var(--s3);font-size:12px;color:var(--ui-text-2)}
+.sdx-ui{padding:var(--ui-pad);border-radius:var(--ui-radius);background:var(--ui-surface);box-shadow:var(--ui-shadow);color:var(--ui-text)}
+.sdx-ui__t{font-size:15px;font-weight:600}
+.sdx-ui__f{display:block;height:26px;margin-top:10px;border-radius:var(--ui-radius);background:var(--ui-field);box-shadow:inset 0 0 0 1px var(--ui-border)}
+.sdx-ui__f.s{width:60%}
+.sdx-ui__b{display:inline-block;margin-top:14px;padding:7px 14px;border-radius:var(--ui-radius);font-size:12px;font-weight:600;color:var(--ui-on-accent);background:var(--ui-accent)}
+.sdx-ui__ok{display:flex;align-items:center;gap:8px;margin-top:12px;font-size:12px;color:var(--ui-text)}
+.sdx-ui__ok i{width:14px;height:14px;border-radius:50%;background:var(--ui-accent);position:relative}
+.sdx-ui__ok i::after{content:"";position:absolute;left:4px;top:3px;width:5px;height:3px;border-left:1.5px solid var(--ui-on-accent);border-bottom:1.5px solid var(--ui-on-accent);transform:rotate(-45deg)}
+@media(max-width:700px){.sdx-pair{grid-template-columns:minmax(0,1fr)}.sdx-pair figure{border-radius:0!important}}
+/* Propuesta de IA frente a acción aprobada y ejecutada */
+.sdx-ai{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:var(--s4);align-items:center;margin-top:var(--s12)}
+.sdx-ai__c{margin:0;padding:var(--s5);border-radius:8px;background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border-strong)}
+.sdx-ai__c:not(.sdx-ai__c--done){box-shadow:none;outline:1.5px dashed var(--k-cielo);outline-offset:-1.5px}
+.sdx-ai__tag{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--color-text-2)}
+.sdx-ai__dot{width:8px;height:8px;border-radius:50%;box-shadow:inset 0 0 0 1.5px var(--k-cielo)}
+.sdx-ai__c--done .sdx-ai__dot{background:var(--k-noche);box-shadow:none}
+.sdx-ai__t{margin:var(--s2) 0 var(--s3);font-size:16px;font-weight:600;color:var(--k-noche)}
+.sdx-ai__diff{display:grid;gap:6px;margin:0}
+.sdx-ai__diff div{display:grid;grid-template-columns:72px minmax(0,1fr);gap:8px;font-size:12px}
+.sdx-ai__diff dt{color:var(--color-text-3)}
+.sdx-ai__diff dd{display:grid;margin:0;overflow-wrap:anywhere}
+.sdx-ai__diff s{color:var(--color-text-3)}
+.sdx-ai__diff span{color:var(--k-noche);font-weight:500}
+.sdx-ai__act{display:flex;justify-content:flex-end;gap:var(--s2);margin-top:var(--s4)}
+.sdx-ai__note{font-size:13px;line-height:1.5;color:var(--color-text-2)}
+.sdx-ai__arrow{width:22px;height:1.5px;background:var(--k-noche);position:relative}
+.sdx-ai__arrow::after{content:"";position:absolute;right:0;top:-3px;width:7px;height:7px;border-top:1.5px solid var(--k-noche);border-right:1.5px solid var(--k-noche);transform:rotate(45deg)}
+@media(max-width:760px){.sdx-ai{grid-template-columns:minmax(0,1fr)}.sdx-ai__arrow{justify-self:center;transform:rotate(90deg)}.sdx-notes{grid-template-columns:minmax(0,1fr)}}
+/* Antecedentes del Manual de Producto */
+.sd-ref{grid-template-columns:160px minmax(0,1fr)!important}
+.sd-ref b{font-size:13px;font-weight:500;color:var(--color-text-2);font-variant-numeric:tabular-nums}

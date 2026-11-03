@@ -23,10 +23,10 @@ window.KEYONS_NAV = [
     cd: 'Criterios de calidad comunes a herramientas internas y productos.',
     d: 'Define los principios de calidad de experiencia compartidos por las herramientas internas y los productos para clientes.',
     ch: [
-      { n: '01', k: '01-01', t: 'Principios comunes', full: 'Principios compartidos', d: 'Claridad, consistencia y control: lo que toda experiencia Keyons debe asegurar.', s: 'p', items: [
-          { t: 'Claridad y orientación', st: 'Claridad y orientación', s: 'p', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-01' },
-          { t: 'Consistencia y previsibilidad', st: 'Consistencia', s: 'p', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-02' },
-          { t: 'Control y confianza', st: 'Control y confianza', s: 'p', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-03' } ] },
+      { n: '01', k: '01-01', t: 'Principios comunes', full: 'Principios compartidos', d: 'Claridad, consistencia y control: lo que toda experiencia Keyons debe asegurar.', s: 'b', items: [
+          { t: 'Claridad y orientación', st: 'Claridad y orientación', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-01' },
+          { t: 'Consistencia y previsibilidad', st: 'Consistencia', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-02' },
+          { t: 'Control y confianza', st: 'Control y confianza', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-03' } ] },
       { n: '02', k: '01-02', t: 'Personas y contextos', full: 'Personas y contextos de uso', d: 'Quién usa cada producto, para qué tarea, con qué frecuencia y con cuánta carga.', s: 'p', items: [
           { t: 'Roles y capacidades de los usuarios', st: 'Roles y capacidades', s: 'p', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-01' },
           { t: 'Objetivos, tareas y frecuencia de uso', st: 'Objetivos y tareas', s: 'p', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-02' },
