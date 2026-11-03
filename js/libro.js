@@ -410,16 +410,53 @@
       title: ['tsx--title', 'Jakarta 500 · 30–44 px · espaciado −3 % · Gris titular'],
       lead: ['tsx--lead', 'Jakarta 400 · 18–20 px · interlineado 1.55'],
       body: ['tsx--body', 'Jakarta 400 · 16–17 px · interlineado 1.65'],
-      kicker: ['kicker tsx--kicker', 'TASA Orbiter 500 · 13 px · mayúsculas · espaciado +8 %'],
+      kicker: ['kicker tsx--kicker', 'Etiqueta de contexto · 13 px · mayúsculas · espaciado +8 %'],
+    };
+    /* Configuraciones de referencia V1 (propuesta): el texto escrito hace de protagonista */
+    const CFG = {
+      trad: [['Display · 52 px', 52, 'd'], ['Título de sección · 36 px', 36, 't', 'Un mismo cielo, ningún horizonte igual'], ['Entrada · 20 px', 20, 'l', 'Los retos se repiten en cualquier industria, pero ninguna empresa los enfrenta desde el mismo horizonte.'], ['Cuerpo · 16 px', 16, 'b', 'Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.']],
+      inv: [['Título contextual · 20 px', 20, 'c', 'Quiénes somos'], ['Declaración protagonista · 44 px', 44, 'x'], ['Apoyo · 18 px', 18, 'l', 'Los retos se repiten en cualquier industria, pero ninguna empresa los enfrenta desde el mismo horizonte.'], ['Cuerpo · 16 px', 16, 'b', 'Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.']],
+      exp: [['Display · 80 px', 80, 'd'], ['Título de sección · 44 px', 44, 't', 'Un mismo cielo, ningún horizonte igual'], ['Subtítulo · 27 px', 27, 's', 'Cómo trabajamos'], ['Entrada · 20 px', 20, 'l', 'Los retos se repiten en cualquier industria, pero ninguna empresa los enfrenta desde el mismo horizonte.'], ['Cuerpo · 16 px', 16, 'b', 'Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.']],
+    };
+    const comp = tb.querySelector('.tester__comp');
+    let cfg = null;
+    const drawCfg = () => {
+      if (!comp) return;
+      comp.hidden = !cfg;
+      if (!cfg) return;
+      comp.innerHTML = CFG[cfg].map(([lab, px, k, txt]) => `<div class="tcfg tcfg--${k}"><span class="tcfg__l">${lab}</span><p style="font-size:${px}px">${esc(txt || inp.value || ' ')}</p></div>`).join('');
     };
     const inp = tb.querySelector('.tester__in'), out = tb.querySelector('.tester__out'), meta = tb.querySelector('.tester__meta');
     let lv = 'display';
     const draw = () => { out.textContent = inp.value || ' '; out.className = 'tester__out ' + LV[lv][0]; meta.textContent = LV[lv][1]; };
-    inp.addEventListener('input', draw);
+    inp.addEventListener('input', () => { draw(); drawCfg(); });
     tb.querySelectorAll('[data-lv]').forEach((b) => b.addEventListener('click', () => {
       lv = b.dataset.lv; tb.querySelectorAll('[data-lv]').forEach((o) => o.setAttribute('aria-pressed', o === b)); draw();
     }));
+    tb.querySelectorAll('[data-cfg]').forEach((b) => {
+      b.setAttribute('aria-pressed', 'false');
+      b.addEventListener('click', () => {
+        cfg = cfg === b.dataset.cfg ? null : b.dataset.cfg;
+        tb.querySelectorAll('[data-cfg]').forEach((o) => o.setAttribute('aria-pressed', String(o.dataset.cfg === cfg))); drawCfg();
+      });
+    });
     draw();
+  });
+
+  /* 8.8 · Tracking: si una muestra no cabe completa, se ve una variante a la vez */
+  document.querySelectorAll('.trk').forEach((trk) => {
+    const tabs = trk.parentElement.querySelector('.trk__tabs');
+    if (!tabs) return;
+    trk.dataset.v = '1';
+    const fit = () => {
+      trk.classList.remove('is-one');
+      const over = [...trk.querySelectorAll('.trk__s')].some((s) => s.scrollWidth > s.parentElement.clientWidth + 1);
+      trk.classList.toggle('is-one', over); tabs.hidden = !over;
+    };
+    tabs.querySelectorAll('[data-trk]').forEach((b) => b.addEventListener('click', () => {
+      trk.dataset.v = b.dataset.trk; tabs.querySelectorAll('[data-trk]').forEach((o) => o.setAttribute('aria-pressed', String(o === b)));
+    }));
+    fit(); addEventListener('load', fit); let ft; addEventListener('resize', () => { clearTimeout(ft); ft = setTimeout(fit, 150); });
   });
 
   /* Escalas tonales: flechas que avanzan de a varias fichas */
