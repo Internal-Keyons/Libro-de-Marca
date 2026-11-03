@@ -56,9 +56,6 @@
 .sd-caps + .ed__more{margin:var(--s8) 0 0;max-width:640px}
 .sd-sub{grid-template-columns:120px minmax(0,1fr) auto}
 @media(max-width:760px){
-  .sd-caps .chap__head{grid-template-columns:minmax(0,1fr);gap:var(--s3)}
-  .sd-caps .chap__meta{align-items:flex-start}
-  .sd-caps .chap__cols{margin-left:0}
   .sd-sub{grid-template-columns:96px minmax(0,1fr);row-gap:var(--s1)}
   .sd-sub .sd-st{grid-column:2}
 }
@@ -74,3 +71,10 @@
 @media(max-width:760px){#subcapitulos .kidx__r.sd-sub{grid-template-columns:76px minmax(0,1fr);row-gap:var(--s1)}#subcapitulos .sd-sub .sd-st{grid-column:2}}
 /* Tarjetas de módulo: la cifra documental (01.01) es más ancha que la de Marca */
 #sd-modulos .area__list a{grid-template-columns:44px minmax(0,1fr) auto}
+/* Hasta 900 px: número, título y estado del capítulo uno debajo del otro */
+@media(max-width:900px){
+  .sd-caps .chap__head{grid-template-columns:minmax(0,1fr);gap:var(--s3)}
+  .sd-caps .chap__meta{grid-column:1;flex-direction:row;align-items:center;gap:var(--s4)}
+  .sd-caps .chap__n{font-size:32px}
+  .sd-caps .chap__cols{margin-left:0}
+}
