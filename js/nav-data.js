@@ -109,7 +109,14 @@ window.KEYONS_NAV = [
         { t: 'Originalidad a costa de orientación', st: 'Orientación', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-015' },
         { t: 'Composición no intercambiable', st: 'No intercambiable', s: 'v', href: 'fundamentos/criterio/antipatrones.html#vis-016' } ] },
       { n: '12', k: 'elementos', was: '09', t: 'Elementos gráficos', s: 'b', d: 'Viñetas, alternancia de formas, cristal y fotografía.', items: [
-        { t: 'Viñetas de marca', s: 'b', href: 'fundamentos/elementos/graficos.html#vinetas' }, { t: 'Elementos de énfasis', s: 'b', href: 'fundamentos/elementos/graficos.html#enfasis' }, { t: 'Líneas y cotas', s: 'b', href: 'fundamentos/elementos/graficos.html#lineas' }, { t: 'Cristal', s: 'b', href: 'fundamentos/elementos/graficos.html#cristal' }, { t: 'Profundidad atmosférica', st: 'Profundidad', s: 'v', href: 'fundamentos/elementos/graficos.html#profundidad' }, { t: 'Ventanas de cielo', s: 'b', href: 'fundamentos/elementos/graficos.html#ventana' }, { t: 'Ráfagas', s: 'b', href: 'fundamentos/elementos/graficos.html#rafagas' }, { t: 'Patrones y texturas', s: 'b', href: 'fundamentos/elementos/graficos.html#patrones' }, { t: 'Fotografía', s: 'b', href: 'fundamentos/elementos/graficos.html#fotografia' } ] },
+        { sub: 'Señales y estructura' },
+        { t: 'Viñetas de marca', s: 'b', href: 'fundamentos/elementos/graficos.html#vinetas' }, { t: 'Elementos de énfasis', s: 'b', href: 'fundamentos/elementos/graficos.html#enfasis' }, { t: 'Líneas y cotas', s: 'b', href: 'fundamentos/elementos/graficos.html#lineas' },
+        { sub: 'Profundidad atmosférica' },
+        { t: 'Cristal', s: 'b', href: 'fundamentos/elementos/graficos.html#cristal' }, { t: 'Profundidad atmosférica', st: 'Profundidad', s: 'v', href: 'fundamentos/elementos/graficos.html#profundidad' }, { t: 'Ventanas de cielo', s: 'b', href: 'fundamentos/elementos/graficos.html#ventana' }, { t: 'Ráfagas', s: 'b', href: 'fundamentos/elementos/graficos.html#rafagas' },
+        { sub: 'Tramas y texturas' },
+        { t: 'Patrones y texturas', s: 'b', href: 'fundamentos/elementos/graficos.html#patrones' },
+        { sub: 'Fotografía y procedencia' },
+        { t: 'Fotografía', s: 'b', href: 'fundamentos/elementos/graficos.html#fotografia' } ] },
       { n: '13', k: 'iconografia', was: '10', t: 'Iconografía', s: 'b', d: 'Estilo de trazo, tamaños según contexto y catálogo.', items: [
         { t: 'Retícula', s: 'b', href: 'fundamentos/iconografia/iconos.html#reticula' }, { t: 'Familias y variantes', s: 'b', href: 'fundamentos/iconografia/iconos.html#familias' }, { t: 'Uso', s: 'b', href: 'fundamentos/iconografia/iconos.html#uso' }, { t: 'Animación', s: 'b', href: 'fundamentos/iconografia/iconos.html#animacion' }, { t: 'Catálogo', s: 'b', href: 'fundamentos/iconografia/iconos.html#catalogo' }, { t: 'Entrega técnica', s: 'b', href: 'fundamentos/iconografia/iconos.html#entrega' } ] },
       { n: '14', k: 'datos', was: '11', t: 'Datos', s: 'b', d: 'Gráficos que comunican con rigor: principios, color, tipografía y estructura.', items: [

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "09"
 titulo: "Forma y espacio"
@@ -40,41 +40,46 @@ Número: 9.1 · ID: `KYN-MRK-ESP-001` · Estado: vigente · Fuente: `/fundamento
 
 ### Exterior recto, interior curvo
 
-La regla que da forma a todo el sistema: **la esquina que toca el borde del grupo es recta; la que mira a otro elemento, curva.** Así un conjunto se lee como una sola pieza.
+La geometría de Keyons distingue entre **contenedores independientes y conjuntos visuales**.
+
+Un contenedor aislado utiliza esquinas rectas como tratamiento base. Cuando varios elementos forman un conjunto reconocible, pueden combinarse esquinas exteriores rectas e interiores curvas para expresar su relación.
 
 **(Fila)**
-Las esquinas de los extremos van rectas; las que se miran, curvas.
+En un conjunto horizontal, las esquinas exteriores son rectas y las interiores pueden curvarse cuando refuerzan la agrupación.
 
 > Recurso visual: Gráfico SVG en línea · «Fila de tres recuadros»
 
 **(Pila)**
-Igual, en vertical: arriba y abajo rectas, adentro curvas.
+Se aplica el mismo principio en vertical, respetando los límites exteriores del conjunto.
 
 > Recurso visual: Gráfico SVG en línea · «Pila de tres recuadros»
 
 **(Cuadrícula)**
-Cada recuadro solo curva la esquina que mira al centro del grupo.
+La combinación de esquinas responde a la organización visual. No todas las cuadrículas requieren curvas interiores.
 
 > Recurso visual: Gráfico SVG en línea · «Cuadrícula de cuatro recuadros»
 
-**(Un recuadro solo)**
-Sus cuatro esquinas son exteriores: van rectas.
+**(Un contenedor)**
+Las cuatro esquinas permanecen rectas cuando el elemento se presenta de forma independiente.
 
 **(Botones y badges)**
-Son la excepción: forma de píldora completa, porque no forman grupo con el contenedor.
+Los botones mantienen una geometría curva, diferenciada de los contenedores. Las variantes, estados y transiciones funcionales se especifican en el Sistema de Diseño.
+Los badges se rigen por su función y variante documentada, sin asumir automáticamente una geometría universal para todas las etiquetas.
 
 ## KYN-MRK-ESP-002 · 9.2 Radios
 
 Número: 9.2 · ID: `KYN-MRK-ESP-002` · Estado: vigente · Fuente: `/fundamentos/forma/espacio.html#radios`
 
-### El radio depende del tamaño
+### El radio responde a la función
 
-Se elige mirando **el lado más corto del recuadro**: entre más grande, más radio. Cada ejemplo está en pareja porque, por la regla de esquinas, solo curvan las esquinas que se miran.
+Los radios se seleccionan según **la función del elemento, su tamaño y su relación** con otros componentes.
+
+El tamaño puede orientar la elección, pero no determina automáticamente que una superficie grande deba tener esquinas más redondeadas.
 
 **r-micro**
 3 px
 
-**(Lado corto)**
+**(Tamaño de referencia)**
 Menos de 24 px
 **(Se usa en)**
 Barras de datos, chips internos, marcas pequeñas
@@ -82,7 +87,7 @@ Barras de datos, chips internos, marcas pequeñas
 **r-control**
 12 px
 
-**(Lado corto)**
+**(Tamaño de referencia)**
 24 a 64 px
 **(Se usa en)**
 Campos, fichas de color, segmentos
@@ -90,7 +95,7 @@ Campos, fichas de color, segmentos
 **r-component**
 18 px
 
-**(Lado corto)**
+**(Tamaño de referencia)**
 64 a 200 px
 **(Se usa en)**
 Tarjetas y recuadros de contenido
@@ -98,7 +103,7 @@ Tarjetas y recuadros de contenido
 **r-card**
 30 px
 
-**(Lado corto)**
+**(Tamaño de referencia)**
 200 a 400 px
 **(Se usa en)**
 Paneles y tarjetas grandes
@@ -106,13 +111,14 @@ Paneles y tarjetas grandes
 **r-block**
 50 px
 
-**(Lado corto)**
+**(Tamaño de referencia)**
 Más de 400 px
 **(Se usa en)**
 Secciones y bloques de página
 
 **(Anidados)**
-Un recuadro dentro de otro usa el radio exterior menos el relleno. Si el resultado es menor que 3 px, va recto.
+Cuando un contenedor curvo contiene otro elemento, los radios y el espacio interior deben mantener una relación visual coherente, evitando encuentros irregulares.
+La fórmula del radio exterior menos el relleno puede utilizarse como referencia geométrica, pero debe comprobarse visualmente y no aplicarse de manera automática en todos los casos.
 
 **(En código)**
 Siempre con su variable: `var(--r-card)`, nunca con un número suelto.
@@ -123,11 +129,13 @@ Número: 9.3 · ID: `KYN-MRK-ESP-003` · Estado: vigente · Fuente: `/fundamento
 
 ### Todo se mide en múltiplos de 4
 
-Una sola escala para márgenes, separaciones y rellenos. **Si una distancia no está en la escala, no se usa.**
+La escala de espaciado utiliza **incrementos de 4 px** para organizar márgenes, separaciones y rellenos de forma consistente.
+
+Sus valores son referencias para construir relaciones espaciales claras. La escala no sustituye las necesidades específicas de tipografía, bordes, adaptación responsive o representación gráfica.
 
 s1 · 4 px · Entre ícono y su borde
 s2 · 8 px · Ícono y texto
-s3 · 12 px · Entre líneas de una lista
+s3 · 12 px · Entre elementos de una lista
 s4 · 16 px · Dentro de controles
 s5 · 20 px
 s6 · 24 px · Dentro de tarjetas
@@ -139,28 +147,34 @@ s20 · 80 px
 s24 · 96 px · Entre secciones
 s32 · 128 px · Aire de sección
 
+**(Criterio de uso)**
+Las separaciones se eligen según la relación entre los elementos y la densidad necesaria. No es obligatorio utilizar grandes espacios en todos los contextos ni comprimir una composición para mostrar más información.
+Cuando la escala no resuelva una necesidad técnica justificada, la excepción debe documentarse en el sistema correspondiente.
+
 ## KYN-MRK-ESP-004 · 9.4 Retícula y responsive
 
 Número: 9.4 · ID: `KYN-MRK-ESP-004` · Estado: vigente · Fuente: `/fundamentos/forma/espacio.html#reticula`
 
 ### Un piso, no un techo
 
-Doce columnas son **la base cuando no hay dirección creativa**. Entre más libre la pieza, más se puede romper.
+La retícula organiza relaciones, proporciones y alineaciones. Las doce columnas constituyen **una referencia versátil**, pero la estructura debe adaptarse al contenido y a las necesidades de cada experiencia.
+
+La claridad y la coherencia son obligatorias; una distribución específica de columnas no lo es en todos los formatos.
 
 01
-Obligatoria
-Se cumple siempre.
-**(Aplica a)** · Interfaz de producto, tableros, formularios, plantillas, este libro y propuestas comerciales.
+Estructura funcional
+Para interfaces operativas, formularios, dashboards y documentación.
+**(Criterio)** · La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes. La cantidad de columnas se adapta a la tarea y al espacio disponible.
 
 02
-Recomendada
-Es el punto de partida: márgenes y anchos se ajustan con criterio.
-**(Aplica a)** · Landing pages, páginas de nicho y correos.
+Estructura adaptable
+Para sitios web, páginas informativas y experiencias comerciales.
+**(Criterio)** · Las columnas, los márgenes y las proporciones se ajustan al contenido sin perder coherencia.
 
 03
-De referencia
-Ayuda a componer o se rompe con intención.
-**(Aplica a)** · Redes, campañas, piezas editoriales, pitch decks únicos y materiales culturales.
+Estructura editorial
+Para campañas, presentaciones, piezas culturales y composiciones expresivas.
+**(Criterio)** · Se permite una mayor experimentación mediante simetría, asimetría y cambios de escala, siempre que el contenido mantenga una lectura clara.
 
 #### Cómo se adapta
 
@@ -173,7 +187,9 @@ Ayuda a componer o se rompe con intención.
 
 El responsive no es un modo: es cómo esta retícula se adapta al ancho. El medianil es de 16 px en móvil y de 24 px en el resto.
 
-En los tres niveles nunca se rompen la proporción, el aire y la legibilidad.
+Estos rangos documentan la retícula editorial de referencia. Los productos pueden necesitar ajustes según el ancho disponible, el contenido y las necesidades de sus usuarios. Sus puntos de adaptación se definen en el Sistema de Diseño.
+
+La retícula proporciona orden sin imponer composiciones idénticas.
 
 ## KYN-MRK-ESP-005 · 9.5 Densidad
 
@@ -181,41 +197,35 @@ Número: 9.5 · ID: `KYN-MRK-ESP-005` · Estado: vigente · Fuente: `/fundamento
 
 ### Cuánta información cabe en un espacio
 
-Aire y minimalismo en lo corporativo; intensidad ordenada en lo expresivo. **La densidad no decora: anuncia el tipo de contenido que viene.**
+La densidad visual responde al **contenido, la frecuencia de uso y la atención** que requiere cada tarea.
 
-#### Corporativo · densidad baja
-
-Pocos elementos por bloque, mucho espacio negativo y una idea protagonista por página. Respeta el tiempo del lector.
-
-**(Cuándo)**
-
-Propuestas, documentos institucionales, landing principal, hero web, comunicados y este libro.
-
-**(Regla)**
-
-Máximo tres bloques por pantalla en escritorio. Alrededor del elemento principal, un aire igual a su tamaño. Un solo CTA por sección.
+Una composición limpia no necesita ser siempre poco densa. Una composición informativa no debe convertirse en una acumulación de elementos.
 
 **(Ejemplo)**
 Propuesta comercial: una idea, mucho aire
 
-#### Expresivo · densidad ordenada
+#### Corporativo · densidad contenida
 
-Más elementos e intensidad informativa, siempre sobre la retícula. Nunca cae en desorden.
+Prioriza una jerarquía clara, espacio negativo y una lectura cómoda.
 
-**(Cuándo)**
+- La cantidad de bloques, llamadas a la acción y espacios depende de la información y de las decisiones que debe tomar el lector.
 
-Campañas, blog, contenido educativo, redes, piezas culturales y talleres.
-
-**(Regla)**
-
-Las 12 columnas sostienen la composición: seis elementos ocupan dos columnas cada uno, con su medianil. La intensidad viene de la cantidad coherente, no del amontonamiento.
+**(Cuándo se usa)** Se aplica a comunicaciones institucionales, documentos, propuestas y secciones editoriales donde conviene destacar las ideas principales.
 
 **(Ejemplo)**
 Post de campaña: varios elementos sobre la retícula
 
+#### Expresivo · intensidad organizada
+
+Permite una mayor presencia de recursos gráficos, información y variaciones compositivas cuando el contenido lo justifica.
+
+- La retícula proporciona estructura, pero no obliga a distribuir todos los elementos en columnas idénticas.
+
+**(Cuándo se usa)** Campañas, blog, contenido educativo, redes, piezas culturales y talleres.
+
 #### Interfaz · según la tarea
 
-No hay una densidad única, hay una adecuada para lo que el usuario necesita hacer en cada pantalla.
+La densidad debe facilitar la tarea, no dificultarla. Las vistas de uso frecuente pueden presentar información compacta cuando mantienen legibilidad, orientación y controles accesibles.
 
 **(Ejemplo)**
 Pantalla de bienvenida
@@ -248,7 +258,7 @@ Densidad alta
 - Vistas de monitoreo
 - Pantallas para escanear rápido
 
-Aire o intensidad, siempre sobre la retícula: la densidad nunca se traduce en desorden.
+La densidad adecuada permite comprender y actuar sin añadir ruido visual.
 
 ## KYN-MRK-ESP-006 · 9.6 Patrones de contenido
 
@@ -256,9 +266,11 @@ Número: 9.6 · ID: `KYN-MRK-ESP-006` · Estado: vigente · Fuente: `/fundamento
 
 ### La forma sale del contenido
 
-Antes de diagramar, la pregunta es **qué tipo de contenido es**. La respuesta decide el patrón; nunca al revés.
+La elección de una composición comienza por **comprender el contenido** y cómo necesita recorrerlo el lector.
 
-| (El contenido es) | Se diagrama como | Ejemplo |
+Los patrones son alternativas de diseño, no plantillas obligatorias.
+
+| (El contenido es) | Patrón posible | Ejemplo |
 |---|---|---|
 | Reglas o principios cortos, de tres a seis | Cuadrícula de reglas | KYN-MRK-CON-006 · Reglas de composición |
 | Puntos que se leen uno a uno y pueden crecer | Acordeón | KYN-MRK-COL-004 · Reglas del color |
@@ -271,7 +283,13 @@ Antes de diagramar, la pregunta es **qué tipo de contenido es**. La respuesta d
 | Datos y cifras | Número grande con su lectura | 14 · Datos |
 | Una nota que señala algo | Flecha orgánica | KYN-MRK-COL-002 · Colores principales |
 
-Dos patrones iguales no van seguidos: el ritmo también comunica.
+**(Uso)**
+Las asociaciones de cuadrículas, acordeones, listas, matrices, carruseles, retículas, indicadores y flechas deben interpretarse como ejemplos. Un patrón debe elegirse por su utilidad, no por la cantidad de elementos o porque aparezca en el catálogo.
+
+**(Relación con otros capítulos)**
+Este capítulo establece criterios para seleccionar composiciones. El capítulo 10, Composiciones, desarrolla cómo utilizar simetría, asimetría, retículas y ritmo editorial. El Sistema de Diseño define los patrones funcionales de interacción.
+
+La repetición aporta consistencia cuando facilita la comprensión. La variación se utiliza cuando el contenido necesita otro ritmo o una jerarquía diferente.
 
 ## KYN-MRK-ESP-007 · 9.7 Diagramas de información
 
@@ -279,7 +297,9 @@ Número: 9.7 · ID: `KYN-MRK-ESP-007` · Estado: vigente · Fuente: `/fundamento
 
 ### Ordenar ideas, no medirlas
 
-Cuando no hay cifras sino relaciones (fases, zonas, niveles o áreas), la información se diagrama. **Mismo trazo fino, etiquetas grises y una estrella para lo que importa.**
+Los diagramas permiten explicar **relaciones entre ideas, etapas, áreas o componentes**. Su geometría debe corresponder a la relación representada: secuencia, agrupación, jerarquía, inclusión o conexión.
+
+Los círculos, arcos y anillos son recursos disponibles, no soluciones obligatorias para cualquier contenido.
 
 (Proceso)
 
@@ -333,8 +353,12 @@ Un tema dentro de los anillos que lo rodean, del más cercano al más amplio, co
 
 > Recurso visual: Gráfico SVG en línea · «Anillos de contexto: la IA dentro de los anillos de la operación» · Textos: Cultura / Gobierno de datos / Procesos / Personas / Herramientas / La IA no opera aislada: / es parte de toda la operación, / no una pieza aparte. · Al pasar el cursor: Cultura: Anillo 1 / Gobierno de datos: Anillo 1 / Procesos: Anillo 2 / Personas: Anillo 2 / Herramientas: Anillo 3
 
-**(Cuándo)**
-Para explicar un método, un proceso o un contexto en una propuesta, una capacitación o una pieza de marca. Si hay datos medidos, va un gráfico del capítulo 14.
+**(Uso)**
+Se utilizan cuando una representación visual permite comprender relaciones que resultarían difíciles de comunicar únicamente mediante texto. Cuando el contenido contiene valores medidos, se elige una visualización cuantitativa adecuada, conforme al capítulo 14, Datos.
 
-**(Cómo)**
-Trazo de 1 px en Azul Noche, etiquetas en gris de 11 a 13 px y una estrella en el punto que se señala. Sin degradados ni sombras.
+**(Construcción)**
+Utilizar trazos precisos, continuos y uniformes, con contraste y etiquetas legibles. Los recursos de énfasis se incorporan cuando ayudan a interpretar el contenido. No es obligatorio utilizar estrellas, círculos o indicadores decorativos.
+Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso.
+
+**(Ejemplos)**
+Los diagramas que presentan etapas o duraciones no deben interpretarse automáticamente como fases oficiales de la metodología Prisma o compromisos de ejecución. Si un ejemplo representa una metodología oficial, debe coincidir con su documentación vigente.

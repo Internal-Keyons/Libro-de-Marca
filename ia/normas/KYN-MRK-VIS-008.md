@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-008"
 titulo: "Iconografía de relleno"
@@ -20,22 +20,22 @@ Número: 11.8 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: 
 
 ##### Un ícono tiene que ayudar a entender
 
-**(Problema que evita)**
+**(Problema)**
 Íconos que decoran títulos o textos sin orientar ni explicar nada.
 
-**(Regla)**
+**(Criterio)**
+No introducir íconos únicamente para decorar textos o títulos.
+Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada.
 
-- No introducir íconos únicamente para decorar textos o títulos.
-- Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada.
+> Recurso visual: Ejemplo dibujado: Nuestra visión · Crecimiento · Procesos
 
-(Uso incorrecto)
-(Alternativa correcta)
+**(Uso incorrecto)**
+**Un ícono genérico junto a cada titular** Una bombilla, un cohete o un engranaje que no dicen nada del contenido.
 
-**Un ícono genérico junto a cada titular** · Una bombilla, un cohete o un engranaje que no dicen nada del contenido.
-Un ícono que identifica una acción, un estado o un tipo de archivo.
+> Recurso visual: Ejemplo dibujado: Descargar PDF · Acción · Vigente · Estado · Plantilla de propuesta · Categoría
 
-**(Excepciones)**
-Íconos ilustrativos en estados vacíos y piezas de marca, según su familia.
+**(Alternativa mejor)**
+El ícono identifica una acción, un estado o una categoría.
 
-**(Relación)**
-KYN-MRK-ICO-002 (Familias y variantes) y KYN-MRK-ICO-003 (Uso).
+- **Excepciones**: Íconos ilustrativos en estados vacíos y piezas de marca, según su familia.
+- **Relación**: KYN-MRK-ICO-002 (Familias y variantes) y KYN-MRK-ICO-003 (Uso).

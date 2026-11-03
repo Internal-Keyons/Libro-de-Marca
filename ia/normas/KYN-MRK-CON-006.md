@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-CON-006"
 titulo: "Reglas de composición"
@@ -11,7 +11,7 @@ capitulo: "02 Concepto"
 area: "Marca"
 fuente: "/marca/composicion.html#reglas"
 referencias: []
-citada_por: ["KYN-MRK-ESP-006", "KYN-MRK-VIS-016"]
+citada_por: ["KYN-MRK-ESP-006", "KYN-MRK-ILU-007", "KYN-MRK-VIS-009", "KYN-MRK-VIS-016"]
 ---
 
 # KYN-MRK-CON-006 · Reglas de composición
@@ -24,19 +24,19 @@ Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicac
 
 01
 Presencia humana
-La intención y las decisiones creativas sostienen cada pieza. Puede expresarse con fotografía, ilustración o recursos abstractos. No requiere mostrar personas ni imperfecciones artificiales.
+Cada pieza refleja intención y criterio creativo, expresado en fotografía, ilustración o recursos abstractos, sin necesidad de mostrar personas ni imperfecciones.
 
 02
 Dirección humana, creación sin límites
-La creación integra fotografía, ilustración, diseño digital o IA. Cada resultado responde a una dirección artística definida. Siempre revisado por una persona responsable y alineado con la marca.
+La creación puede integrar fotografía, ilustración, diseño digital o IA, siempre bajo dirección artística definida y revisada por una persona responsable.
 
 03
 Cielo propio
-Las fotografías del cielo deben tener procedencia verificable. Cumplen las reglas del Diario de Cielos o usan degradados oficiales. Se evitan imágenes sintéticas presentadas como auténticas.
+Las fotografías del cielo deben tener procedencia verificable y cumplir las reglas del Diario de Cielos, evitando presentar imágenes sintéticas como auténticas.
 
 04
 Singularidad verificable
-Cada pieza se contrasta con lo que no representa a la marca. Si puede confundirse con otra identidad, regresa a diseño. Se asegura carácter único y diferenciado antes de publicarse.
+Cada pieza se contrasta con lo que no representa a la marca; si puede confundirse con otra identidad, regresa a diseño para asegurar carácter único.
 
 La creatividad nace del criterio. La tecnología amplía sus posibilidades.
 

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-013"
 titulo: "Lenguaje genérico"
@@ -20,22 +20,22 @@ Número: 11.13 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente:
 
 ##### Específico, comprensible y con sentido
 
-**(Problema que evita)**
+**(Problema)**
 Titulares intercambiables, descripciones vacías y expresiones tecnológicas exageradas.
 
-**(Regla)**
+**(Criterio)**
+El contenido debe ser específico, comprensible y significativo.
+No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta.
 
-- Evitar titulares empresariales intercambiables, descripciones vacías y expresiones tecnológicas exageradas.
-- El contenido debe ser específico, comprensible y significativo.
+> Recurso visual: Ejemplo dibujado: «Innovación que transforma el futuro de su negocio»
 
-(Uso incorrecto)
-(Alternativa correcta)
+**(Uso incorrecto)**
+**Una promesa intercambiable** Lo podría firmar cualquier empresa.
 
-**«Innovación que transforma el futuro de su negocio»** · Lo podría firmar cualquier empresa.
-«Su equipo deja de copiar datos a mano entre tres sistemas.»
+> Recurso visual: Ejemplo dibujado: «Su equipo deja de copiar datos a mano entre tres sistemas.»
 
-**(Excepciones)**
-Ninguna.
+**(Alternativa mejor)**
+Una explicación concreta de lo que cambia para el cliente.
 
-**(Relación)**
-KYN-MRK-VOZ-002 (Reglas de escritura) y KYN-MRK-VOZ-004 (Vocabulario que evitamos).
+- **Excepciones**: Ninguna.
+- **Relación**: KYN-MRK-VOZ-002 (Reglas de escritura) y KYN-MRK-VOZ-004 (Vocabulario que evitamos).

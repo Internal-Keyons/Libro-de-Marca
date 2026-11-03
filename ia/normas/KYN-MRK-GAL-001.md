@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-GAL-001"
 titulo: "Galería"
@@ -30,12 +30,6 @@ Galería
 
 001 · **KY-001 · Degradado Keyons · Amanecer** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Uso libre · Vertical
 
-> Recurso visual: Imagen de fondo: /assets/img/cielo-mediodia.webp
-
-> Recurso visual: Imagen KY-002: Equipo Keyons, Estudio Keyons, 2026. Keyons.
-
-002 · **KY-002 · Degradado Keyons · Mediodía** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Portada · Vertical
-
 > Recurso visual: Imagen de fondo: /assets/img/cielo-atardecer.webp
 
 > Recurso visual: Imagen KY-003: Equipo Keyons, Estudio Keyons, 2026. Keyons.
@@ -54,24 +48,6 @@ Galería
 
 005 · **KY-005 · Degradado Keyons · Galaxia** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Portada · Vertical
 
-> Recurso visual: Imagen de fondo: /assets/img/degradado-mediodia.jpg
-
-> Recurso visual: Imagen KY-006: Equipo Keyons, Estudio Keyons, 2026. Keyons.
-
-006 · **KY-006 · Degradado Keyons · Mediodía** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Fondo con texto · Horizontal
-
-> Recurso visual: Imagen de fondo: /assets/img/degradado-atardecer.jpg
-
-> Recurso visual: Imagen KY-007: Equipo Keyons, Estudio Keyons, 2026. Keyons.
-
-007 · **KY-007 · Degradado Keyons · Atardecer** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Uso libre · Horizontal
-
-> Recurso visual: Imagen de fondo: /assets/img/degradado-noche.jpg
-
-> Recurso visual: Imagen KY-008: Equipo Keyons, Estudio Keyons, 2026. Keyons.
-
-008 · **KY-008 · Degradado Keyons · Noche** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Redes · Horizontal
-
 > Recurso visual: Imagen de fondo: /assets/texturas/textura-amanecer-durazno.webp
 
 > Recurso visual: Imagen KY-009: Equipo Keyons, Estudio Keyons, 2026. Keyons.
@@ -89,24 +65,6 @@ Galería
 > Recurso visual: Imagen KY-011: Equipo Keyons, Estudio Keyons, 2026. Keyons.
 
 011 · **KY-011 · Degradado Keyons · Galaxia** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Redes · Cuadrada
-
-> Recurso visual: Imagen de fondo: /assets/texturas/textura-noche-rosada.webp
-
-> Recurso visual: Imagen KY-012: Equipo Keyons, Estudio Keyons, 2026. Keyons.
-
-012 · **KY-012 · Degradado Keyons · Noche** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Uso libre · Vertical
-
-> Recurso visual: Imagen de fondo: /assets/img/ventanas/ventana-galaxia.webp
-
-> Recurso visual: Imagen KY-013: Equipo Keyons, Estudio Keyons, 2026. Keyons.
-
-013 · **KY-013 · Degradado Keyons · Galaxia** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Uso libre · Cuadrada
-
-> Recurso visual: Imagen de fondo: /assets/img/cielo-foto.jpg
-
-> Recurso visual: Imagen KY-014: Nombre Apellido, Escazú, 2026. Keyons.
-
-014 · **KY-014 · Cielo real · Mediodía** · Nombre Apellido · Escazú · 2026 · Nubes altas · Uso libre · Horizontal
 
 > Recurso visual: 
 

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-001"
 titulo: "Kicker decorativo"
@@ -20,14 +20,22 @@ Número: 11.1 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: 
 
 ##### Ningún texto sobre el título solo para completar
 
-**(Problema que evita)**
+**(Problema)**
 Etiquetas sobre el título que llenan la composición y repiten lo que el título ya dice.
 
-**(Regla)**
+**(Criterio)**
+Los kickers solo se utilizan cuando aportan información relevante que el título o el contexto no comunican.
+No deben añadirse para llenar espacios ni reemplazarse por otros adornos.
 
-- Ningún texto debe aparecer sobre un título únicamente para completar una composición visual.
-- Los kickers se permiten cuando proporcionan información adicional relevante, como categoría, ubicación, versión, estado o clasificación.
-- No reemplazar automáticamente los kickers por otra forma de decoración.
+> Recurso visual: Ejemplo dibujado: NUESTRA ESENCIA · Quiénes somos
+
+**(Uso incorrecto)**
+**«NUESTRA ESENCIA» sobre «Quiénes somos»** La etiqueta no agrega información: solo ocupa el lugar de un kicker.
+
+> Recurso visual: Ejemplo dibujado: Capítulo 01 · ADN · Quiénes somos · Una empresa de ingeniería operativa que integra IA a su equipo.
+
+**(Alternativa mejor)**
+El titular directo. Si hay un metadato, orienta: el número de capítulo o el estado de una norma.
 
 Orden preferente de jerarquización
 
@@ -36,18 +44,5 @@ Orden preferente de jerarquización
 3. 3 · Acento tipográfico ocasional y justificado
 4. 4 · Metadato funcional, cuando orienta
 
-> Recurso visual: Ejemplo dibujado: NUESTRA ESENCIA · Quiénes somos
-
-**(Uso incorrecto)**
-**«NUESTRA ESENCIA» sobre «Quiénes somos»** La etiqueta no agrega información: solo ocupa el lugar de un kicker.
-
-> Recurso visual: Ejemplo dibujado: Quiénes somos · Una empresa de ingeniería operativa que integra IA a su equipo.
-
-**(Alternativa correcta)**
-El titular directo «Quiénes somos», o «Capítulo 04 · Voz» cuando ubica al lector dentro del manual.
-
-**(Excepciones)**
-Kickers de ubicación en las páginas del manual y metadatos de estado o versión.
-
-**(Relación)**
-Ajusta KYN-MRK-TYP-005 (Kickers): esa norma define cómo se ve un kicker; esta, cuándo se usa. El principio previo KYS-UI-001 no está en el registro; esta norma queda como referencia principal, pendiente de confirmar.
+- **Excepciones**: Kickers de ubicación en las páginas del manual y metadatos de estado o versión.
+- **Relación**: Ajusta KYN-MRK-TYP-005 (Kickers): esa norma define cómo se ve un kicker; esta, cuándo se usa. El principio previo KYS-UI-001 no está en el registro; esta norma queda como referencia principal, pendiente de confirmar.

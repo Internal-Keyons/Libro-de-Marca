@@ -48,8 +48,8 @@ SPECS = {
     62: ('lista-cuadros', 'edi', 'list-sq', 'Medía 25,4 px de ancho y quedó en 22. Las líneas tenían terminación redonda y pasaron a recta; los cuadros perdieron su contorno de 0,96 px.'),
     121: ('capas-agregar', 'edi', None, None),
     70: ('dividir-solido', 'dat', 'solid', None),
-    14: ('nube', 'obj', ('fit', 26, 20), 'Venía en lienzo ancho de 43 px; se llevó al rectángulo de 26 × 20 px.'),
-    18: ('fuego', 'obj', None, 'La llama interior tenía un contorno de 0,48 px; quedó solo el relleno. Las puntas llevan corte recto (unión biselada), como en el original.'),
+    14: ('nube', 'obj', ('fit', 25.3, 20), 'Venía en lienzo ancho de 43 px; se llevó al rectángulo de 26 × 20 px.'),
+    #18: ('fuego', 'obj', None, 'La llama interior tenía un contorno de 0,48 px; quedó solo el relleno. Las puntas llevan corte recto (unión biselada), como en el original.'),
     27: ('calendario', 'obj', 'calendar', 'Medía 25,2 px de ancho y quedó en 22. Conserva el 31, convertido en trazado.'),
     29: ('estrella', 'obj', 'star', 'Tamaño original. Su grosor real era 2,8; el hueco se recalculó para dar 2,5 exactos.'),
     34: ('edificio', 'obj', 'building', 'Medía 26,8 px de ancho y quedó en 23. Trazo de 2,56; pasó a 2,5. La puerta es la misma de inicio: 5,2 px de ancho y esquinas de 0,75.'),
@@ -86,7 +86,7 @@ ORDEN = {
            'portapapeles-descarga documento documento-texto documento-agregar documento-check documento-buscar documento-descarga documento-favorito clip',
     'edi': 'formas seleccion capas capas-agregar lista lista-cuadros',
     'dat': 'tendencia porcentaje igual diferente dividir dividir-solido',
-    'obj': 'favorito-circulo estrella fuego asterisco brujula globo nube calendario camara movil edificio cono',
+    'obj': 'favorito-circulo estrella asterisco brujula globo nube calendario camara movil edificio cono',
 }
 
 
@@ -401,7 +401,7 @@ def build_cloud_down(page, doc):
         x0, y0, x1, y1 = bbox(ds, T0)
         (ax0, ay0), (ax1, ay1) = A0((ar.x0, ar.y0)), A0((ar.x1, ar.y1))
         X0, Y0, X1, Y1 = min(x0, ax0), min(y0, ay0), max(x1, ax1), max(y1, ay1)
-        if X1 - X0 <= 26 and Y1 - Y0 <= 20:
+        if X1 - X0 <= 25.3 and Y1 - Y0 <= 20:
             break
     ox, oy = 16 - (X0 + X1) / 2, 16 - (Y0 + Y1) / 2
     T = lambda p: (T0(p)[0] + ox, T0(p)[1] + oy)
@@ -411,7 +411,7 @@ def build_cloud_down(page, doc):
     return out
 
 
-def build_list(page, squares, ancho=22):
+def build_list(page, squares, ancho=25.3):
     ds = page.get_drawings()
     rows = sorted({round(d['rect'].y0, 1) for d in ds if d['type'] in ('s', 'fs') and d['rect'].height < .05})
     b = 2.42 + .96                                      # punto o cuadro, con su antiguo contorno incluido
@@ -531,7 +531,7 @@ def build(doc, num):
     elif op in ('list', 'list-sq'):
         els = build_list(page, op == 'list-sq')
     elif op == 'calendar':
-        T, _ = fit_T(ds, 22, 28)
+        T, _ = fit_T(ds, 22, 28)          # el catálogo lo ensancha a 25,3 px (mismo ancho que cámara)
         els = build_generic(ds, T) + [fill(glyphs(page, T))]
     elif op == 'building':
         els = build_building(page)

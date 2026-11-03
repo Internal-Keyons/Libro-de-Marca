@@ -65,6 +65,8 @@
     /* Nubes: anchos 200–420 px, opacidad 20–45 %, desenfoque 12–24 px, recorrido 44–82 s */
     const clouds = [[200, .32, 12, 44, 8], [420, .2, 24, 82, -6], [280, .45, 16, 58, 30], [340, .26, 20, 70, -18], [240, .38, 14, 52, 46], [380, .22, 22, 76, 14]]
       .map(([w, o, b, d, y], i) => `<span class="haze" style="width:${w}px;height:${Math.round(w * .38)}px;top:${y}px;opacity:${o};filter:blur(${b + 10}px);animation-duration:${d}s;animation-delay:-${(i * 13.7 + d * .37).toFixed(1)}s"></span>`).join('');
+    /* Ícono «salir» del catálogo: en la cabecera y, en móvil, como botón dentro del menú */
+    const EXIT = '<svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,22.8503,17.865)" d="M0 0-4.5-4.83-6.31-3.13-2.82 .62-10.37 .63V3.12L-2.84 3.11-6.31 6.87-4.48 8.56 0 3.69C.96 2.66 .96 1.04 0 0" fill="currentColor"/><path transform="matrix(1,0,0,-1,13.4557,27.2317)" stroke-width="2.5" fill="none" stroke="currentColor" d="M0 22.381L-5.118 22.381L-5.118 0L0 0"/></svg>';
     top.className = 'hdr' + (IS_HOME ? ' hdr--home' : '');
     top.innerHTML = `
       <div class="hdr__bg">${IS_HOME ? `<div class="hdr__clouds" aria-hidden="true">${clouds}</div>` : ''}</div>
@@ -77,11 +79,12 @@
         <button class="hdr__burger" type="button" aria-label="Abrir menú" aria-expanded="false">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path class="b1" d="M4 7h16"/><path class="b2" d="M4 12h16"/><path class="b3" d="M4 17h16"/><path class="x x1" pathLength="1" d="M7.5 7.5l9 9"/><path class="x x2" pathLength="1" d="M16.5 7.5l-9 9"/></svg>
         </button>
-        <a class="hdr__exit" href="${url('index.html')}" title="Salir a la Biblioteca Keyons" aria-label="Salir a la Biblioteca Keyons"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,22.8503,17.865)" d="M0 0-4.5-4.83-6.31-3.13-2.82 .62-10.37 .63V3.12L-2.84 3.11-6.31 6.87-4.48 8.56 0 3.69C.96 2.66 .96 1.04 0 0" fill="currentColor"/><path transform="matrix(1,0,0,-1,13.4557,27.2317)" stroke-width="2.5" fill="none" stroke="currentColor" d="M0 22.381L-5.118 22.381L-5.118 0L0 0"/></svg><span>Biblioteca</span></a>
+        <a class="hdr__exit" href="${url('index.html')}" title="Salir a la Biblioteca Keyons" aria-label="Salir a la Biblioteca Keyons">${EXIT}<span>Biblioteca</span></a>
       </div>
       <div class="hdr__panel">
         <nav aria-label="Áreas del manual">${linkHtml('')}</nav>
         <div class="hdr__panel-foot"><button class="hdr__panel-search" type="button" data-search>${ic(I.search)}Buscar en el manual</button>
+          <a class="hdr__panel-exit" href="${url('index.html')}">${EXIT}Salir a la Biblioteca</a>
           <span class="hdr__panel-alt">${alt.map(([t, h, d, dl]) => `<a href="${url(h)}"${dl ? ' download' : ''}>${ic(d)}${t}</a>`).join('')}</span></div>
       </div>`;
     const burger = top.querySelector('.hdr__burger');

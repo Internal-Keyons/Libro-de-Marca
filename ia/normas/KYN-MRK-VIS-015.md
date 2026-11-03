@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-015"
 titulo: "Originalidad a costa de orientación"
@@ -20,22 +20,22 @@ Número: 11.15 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente:
 
 ##### Original, pero siempre comprensible
 
-**(Problema que evita)**
+**(Problema)**
 Funciones, navegación, estados o acciones escondidos para lograr una apariencia diferente.
 
-**(Regla)**
+**(Criterio)**
+La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia.
+La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
 
-- No ocultar funciones, navegación, estados o acciones necesarias únicamente para conseguir una apariencia diferente.
-- La originalidad visual debe coexistir con patrones de interacción comprensibles.
+> Recurso visual: Ejemplo dibujado: Cielo propio
 
-(Uso incorrecto)
-(Alternativa correcta)
+**(Uso incorrecto)**
+**Un menú que solo aparece al pasar por una zona sin señal** La persona no sabe que existe.
 
-**Un menú que solo aparece al pasar por una zona sin señal** · La persona no sabe que existe.
+> Recurso visual: Ejemplo dibujado: Keyons · ADN · Concepto · Principios · Voz · Cielo propio
+
+**(Alternativa mejor)**
 Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.
 
-**(Excepciones)**
-Ninguna en herramientas operativas.
-
-**(Relación)**
-KYN-MRK-DIS-005 (Comprensión antes que complejidad).
+- **Excepciones**: Ninguna en herramientas operativas.
+- **Relación**: KYN-MRK-DIS-005 (Comprensión antes que complejidad). Las especificaciones funcionales completas de navegación pertenecen al Sistema de Diseño.

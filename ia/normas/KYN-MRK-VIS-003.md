@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-003"
 titulo: "Jerarquía visual repetitiva"
@@ -20,23 +20,22 @@ Número: 11.3 · Estado: vigente · Capítulo: 11 Criterios visuales · Fuente: 
 
 ##### La jerarquía se construye para cada contenido
 
-**(Problema que evita)**
+**(Problema)**
 Todas las secciones armadas con la misma fórmula: kicker, titular grande, párrafo y tarjetas.
 
-**(Regla)**
+**(Criterio)**
+La composición debe responder a las relaciones y prioridades del contenido.
+Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.
 
-- No todas las secciones deben organizarse con la secuencia kicker + titular grande + párrafo + tarjetas.
-- La jerarquía puede construirse con escala, contraste, ubicación, espacio negativo, retícula, relación con imágenes y ritmo.
-- Cada composición debe justificarse según el contenido.
+**(Uso incorrecto)**
+**Tres secciones con la misma fórmula** Kicker, titular, párrafo y tarjetas, una y otra vez.
 
-(Uso incorrecto)
-(Alternativa correcta)
+**(Alternativa mejor)**
+Un dato, una explicación y una imagen, cada uno con la composición que su función necesita.
 
-**Seis secciones con la misma fórmula** · Kicker, titular, párrafo y tres tarjetas, una y otra vez.
-Una cifra grande para un dato, texto a dos columnas para una explicación, una imagen a sangre para un momento.
+**45**
 
-**(Excepciones)**
-Listados de consulta que se recorren buscando lo mismo en cada bloque, como un catálogo.
+> Recurso visual: Imagen: /assets/img/cielo-mediodia.webp
 
-**(Relación)**
-KYN-MRK-ESP-006 (Patrones de contenido) y el capítulo 10.
+- **Excepciones**: Listados de consulta que se recorren buscando lo mismo en cada bloque, como un catálogo.
+- **Relación**: KYN-MRK-ESP-006 (Patrones de contenido) y el capítulo 10.

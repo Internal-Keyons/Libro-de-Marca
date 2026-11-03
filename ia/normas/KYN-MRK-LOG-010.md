@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-LOG-010"
 titulo: "Criterio de transición"
@@ -29,7 +29,6 @@ La exposición sostenida y la presencia en distintos canales contribuyen a const
 Condición necesaria
 Reconocimiento espontáneo
 Comprobar que personas del público objetivo identifican el símbolo como Keyons sin mostrarles el logotipo completo.
-La prueba debe documentar el público evaluado, la metodología, los resultados y sus limitaciones.
 
 **02**
 
@@ -42,6 +41,9 @@ Registrar durante cuánto tiempo y en qué canales se ha presentado el isotipo a
 Evidencia complementaria
 Aplicaciones reconocibles
 Documentar sus usos contextualizados, como favicons, avatares oficiales y marcas de agua en materiales identificados.
+
+**(Prueba de reconocimiento)**
+La prueba debe documentar el público evaluado, la metodología, los resultados y sus limitaciones.
 
 **(Autorización)**
 La dirección de marca evaluará la evidencia y aprobará, cuando corresponda, una introducción gradual del isotipo autónomo, con revisión trimestral durante los primeros seis meses después de la autorización.

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-02"
+fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-004"
 titulo: "Retícula y responsive"
@@ -20,22 +20,24 @@ Número: 9.4 · Estado: vigente · Capítulo: 09 Forma y espacio · Fuente: `/fu
 
 ##### Un piso, no un techo
 
-Doce columnas son **la base cuando no hay dirección creativa**. Entre más libre la pieza, más se puede romper.
+La retícula organiza relaciones, proporciones y alineaciones. Las doce columnas constituyen **una referencia versátil**, pero la estructura debe adaptarse al contenido y a las necesidades de cada experiencia.
+
+La claridad y la coherencia son obligatorias; una distribución específica de columnas no lo es en todos los formatos.
 
 01
-Obligatoria
-Se cumple siempre.
-**(Aplica a)** · Interfaz de producto, tableros, formularios, plantillas, este libro y propuestas comerciales.
+Estructura funcional
+Para interfaces operativas, formularios, dashboards y documentación.
+**(Criterio)** · La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes. La cantidad de columnas se adapta a la tarea y al espacio disponible.
 
 02
-Recomendada
-Es el punto de partida: márgenes y anchos se ajustan con criterio.
-**(Aplica a)** · Landing pages, páginas de nicho y correos.
+Estructura adaptable
+Para sitios web, páginas informativas y experiencias comerciales.
+**(Criterio)** · Las columnas, los márgenes y las proporciones se ajustan al contenido sin perder coherencia.
 
 03
-De referencia
-Ayuda a componer o se rompe con intención.
-**(Aplica a)** · Redes, campañas, piezas editoriales, pitch decks únicos y materiales culturales.
+Estructura editorial
+Para campañas, presentaciones, piezas culturales y composiciones expresivas.
+**(Criterio)** · Se permite una mayor experimentación mediante simetría, asimetría y cambios de escala, siempre que el contenido mantenga una lectura clara.
 
 ###### Cómo se adapta
 
@@ -48,4 +50,6 @@ Ayuda a componer o se rompe con intención.
 
 El responsive no es un modo: es cómo esta retícula se adapta al ancho. El medianil es de 16 px en móvil y de 24 px en el resto.
 
-En los tres niveles nunca se rompen la proporción, el aire y la legibilidad.
+Estos rangos documentan la retícula editorial de referencia. Los productos pueden necesitar ajustes según el ancho disponible, el contenido y las necesidades de sus usuarios. Sus puntos de adaptación se definen en el Sistema de Diseño.
+
+La retícula proporciona orden sin imponer composiciones idénticas.
