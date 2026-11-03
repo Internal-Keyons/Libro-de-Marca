@@ -1473,7 +1473,7 @@
   "marca/adn.html#principios": {
    "estado": "vigente",
    "id": "KYN-MRK-ADN-007",
-   "texto": "Principios de marca Siete principios 01Escucha EstratégicaComprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde con causa. 02Diseño a MedidaAdaptamos la tecnología a las necesidades reales de cada organización. Los productos se configuran dentro de límites definidos y los desarrollos personalizados amplían la adaptación según los objetivos del cliente. 03Acompañamiento AdaptativoGuiamos cada transición construyendo certezas. Nadie se queda solo frente al sistema. 04Gobernanza como CimientoLa protección de datos es fundamento, no promesa. Ley 8968 y sus equivalentes, desde el diseño. 05Evolución ContinuaSi el negocio evoluciona, la solución evoluciona con él, en cada etapa de crecimiento. 06Transparencia CorporativaHablamos claro, sin tecnicismos innecesarios ni promesas falsas. 07Simbiosis HumanaEl talento sigue siendo el criterio central. La automatización libera capacidad para pensar, nunca la reemplaza.",
+   "texto": "Principios de marca Siete principios 01Escucha EstratégicaComprendemos el negocio de raíz antes de proponer. Ningún síntoma se confunde con causa. 02Diseño a MedidaAdaptamos la tecnología a cada organización: productos configurables dentro de límites definidos y desarrollos personalizados según objetivos del cliente. 03Acompañamiento AdaptativoGuiamos cada transición construyendo certezas. Nadie se queda solo frente al sistema. 04Gobernanza como CimientoLa protección de datos es fundamento, no promesa. Ley 8968 y sus equivalentes, desde el diseño. 05Evolución ContinuaSi el negocio evoluciona, la solución evoluciona con él, en cada etapa de crecimiento. 06Transparencia CorporativaHablamos claro, sin tecnicismos innecesarios ni promesas falsas. 07Simbiosis HumanaEl talento es central; la automatización libera, no reemplaza.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1499,6 +1499,11 @@
      "aprobada": "2026-11-02",
      "huella": "5a113687f46fd221",
      "nota": "RV4 2026-11-02: ADN-007, CON-003, CON-004, VOZ-004, VOZ-006"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "4f60a7a09b4820e8",
+     "nota": "RV5 2026-11-02: ADN-007, CON-003, CON-008"
     }
    ]
   },
@@ -1544,7 +1549,7 @@
   "marca/cielo.html#diario": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-003",
-   "texto": "Diario de Cielos Cada cielo tiene lugar, fecha y autor Ningún cielo es genérico. Cada fotografía se toma en un lugar y un momento específicos, por alguien del equipo, y esa procedencia se comparte como parte de la narrativa de la marca. Nosara, Costa Rica · marzo 2026 · Keylin (Ubicación)Nosara, Guanacaste, Costa Rica (Fecha y hora)Marzo 2026 · 17:42 (Autor)Keylin (Cielo)Atardecer (Composición)Cielo 70 % · contexto 30 % (Composición)El cielo ocupa el 70 % o más. El resto es solo un ancla mínima al lugar: una montaña, el horizonte, un techo. Si la pieza no lo necesita, puede ser 100 % cielo. (Origen tico)Los cielos se fotografían en Costa Rica: San José, Guanacaste, el Chirripó, el Caribe, el volcán en su neblina. Cada rincón del país es un cielo Keyons posible. (Firma humana)Cada cielo lleva el nombre de quien lo capturó, junto al lugar y la fecha. No se trata de propiedad, sino de recordar que detrás de cada imagen hubo una persona que se detuvo a mirar el cielo: un gesto pequeño que pone rostro a lo compartido y acerca la marca.Los datos de autoría y procedencia deben conservarse en el catálogo. Su visibilidad en cada pieza dependerá del contexto de publicación y de los créditos correspondientes. (Expansión con propósito)Solo entran cielos de lugares donde Keyons tiene presencia o un vínculo real. Un cielo de Tokio entra si la marca está en Japón. Nunca se publica un cielo sin procedencia documentada.",
+   "texto": "Diario de Cielos Cada cielo tiene lugar, fecha y autor Ningún cielo es genérico. Cada fotografía se toma en un lugar y un momento específicos, por alguien del equipo, y esa procedencia se comparte como parte de la narrativa de la marca. Nosara, Costa Rica · marzo 2026 · Keylin (Ubicación)Nosara, Guanacaste, Costa Rica (Fecha y hora)Marzo 2026 · 17:42 (Autor)Keylin (Cielo)Atardecer (Composición)Cielo 70 % · contexto 30 % (Composición)El cielo ocupa el 70 % o más. El resto es solo un ancla mínima al lugar: una montaña, el horizonte, un techo. Si la pieza no lo necesita, puede ser 100 % cielo. (Origen tico)Los cielos se fotografían en Costa Rica: San José, Guanacaste, el Chirripó, el Caribe, el volcán en su neblina. Cada rincón del país es un cielo Keyons posible. (Firma humana)Cada cielo lleva el nombre, lugar y fecha de quien lo capturó. No es propiedad, sino un gesto que pone rostro a lo compartido y acerca la marca.Los datos de autoría y procedencia se conservan en el catálogo, con visibilidad según contexto y créditos. (Expansión con propósito)Solo entran cielos de lugares donde Keyons tiene presencia o un vínculo real. Un cielo de Tokio entra si la marca está en Japón. Nunca se publica un cielo sin procedencia documentada.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1560,6 +1565,11 @@
      "aprobada": "2026-11-02",
      "huella": "c0ddeaaa753154d1",
      "nota": "RV4 2026-11-02: ADN-007, CON-003, CON-004, VOZ-004, VOZ-006"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "f91d08373a40137c",
+     "nota": "RV5 2026-11-02: ADN-007, CON-003, CON-008"
     }
    ]
   },
@@ -1610,7 +1620,7 @@
   "marca/composicion.html#anti": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-008",
-   "texto": "Anti-referentes Lo que evitamos y qué hacemos en su lugar Saber qué no somos protege la singularidad tanto como saber qué somos. (Lo que evitamos)(En Keyons) La IA como espectáculoCircuitos, cerebros digitales, robots, wireframes azules.La vida real que la tecnología toca. El degradado violeta-cyanEl lenguaje genérico de \"empresa de IA\", sin fotografía ni personas.Cielos propios y presencia humana. La consultora tradicionalAzul marino, ejecutivos de banco de imágenes, ilustración isométrica.Calidez, textura y arraigo local. El caos indieValores fuertes expresados con desorden y gritos visuales.Valores fuertes, expresados con serenidad. La startup genéricaColores flúor, personajes exagerados, degradados saturados.Sobriedad deliberada. Producción visual sin criterioImágenes o composiciones sin intención reconocible, que podrían pertenecer a cualquier marca.Dirección artística propiaIdeas visuales justificadas por el contenido, con autoría y criterio claros en su concepción y ejecución. La originalidad no depende de añadir textura, desgaste o imperfecciones.",
+   "texto": "Anti-referentes Lo que evitamos y qué hacemos en su lugar Saber qué no somos protege la singularidad tanto como saber qué somos. (Lo que evitamos)(En Keyons) La IA como espectáculoCircuitos, cerebros digitales, robots, wireframes azules.La vida real que la tecnología toca. El degradado violeta-cyanEl lenguaje genérico de \"empresa de IA\", sin fotografía ni personas.Cielos propios y presencia humana. La consultora tradicionalAzul marino, ejecutivos de banco de imágenes, ilustración isométrica.Calidez, textura y arraigo local. El caos indieValores fuertes expresados con desorden y gritos visuales.Valores fuertes, expresados con serenidad. La startup genéricaColores flúor, personajes exagerados, degradados saturados.Sobriedad deliberada. Producción visual sin criterioImágenes sin intención reconocible, que podrían pertenecer a cualquier marca.Dirección artística propiaIdeas visuales justificadas por el contenido, con autoría y criterio claros. La originalidad no depende de añadir textura, desgaste o imperfecciones.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1631,6 +1641,11 @@
      "aprobada": "2026-11-02",
      "huella": "9821d478b5e52daf",
      "nota": "RV3 2026-11-02: ADN-006, ADN-007, CON-004, CON-006, CON-008, REF-001"
+    },
+    {
+     "aprobada": "2026-11-02",
+     "huella": "79ce6f3a8199dcd9",
+     "nota": "RV5 2026-11-02: ADN-007, CON-003, CON-008"
     }
    ]
   },
