@@ -14,12 +14,12 @@ El Sistema de Diseño usa el mismo código que el Libro de Marca (`js/libro.js`)
 | --- | --- |
 | `js/nav-sistema-diseno.js` | Índice del libro: un área, doce módulos. Reemplaza a `js/nav-data.js` en sus páginas. Declara `KEYONS_BOOK`: portada, menú por módulos y enlaces secundarios |
 | `js/libro.js` | Lee `KEYONS_BOOK`. Sin esa declaración, el Libro de Marca funciona igual que antes |
-| `js/sistema-diseno.js` | Índice de la portada, códigos de módulo y ejemplo interactivo |
-| `css/sistema-diseno.css` | Solo lo que Marca no tiene (índice de doce módulos y ejemplo interactivo), con prefijo `sd-` |
+| `js/sistema-diseno.js` | Tarjetas de módulo de la portada (mismo marcado que las áreas de Marca), códigos de módulo y ejemplo interactivo |
+| `css/sistema-diseno.css` | Solo lo que Marca no tiene (ejemplo interactivo), con prefijo `sd-` |
 | `sistema-diseno/*.html` | Portada, página de área (`modulos.html`), doce módulos y plantilla de norma |
 
 - **Diseño:** es el mismo del Libro de Marca.
-  - Portada con cielo y vidrio; portal de capítulo en cada módulo; página de área generada.
+  - Portada con cielo y vidrio; índice de módulos en tarjetas, como el de Marca; portal de capítulo en cada módulo; página de área generada.
   - Rejillas `.cols`, secciones `.ed` y lista de normas `.kidx`.
   - Los nombres de los módulos se ven completos en el lateral.
 

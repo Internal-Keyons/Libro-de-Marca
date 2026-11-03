@@ -61,7 +61,7 @@
     /* El logotipo lleva al inicio: el menú solo nombra las áreas */
     /* Un libro de un solo nivel (Sistema de Diseño) nombra sus módulos en el menú */
     const links = BOOK.menu === 'chapters'
-      ? NAV[0].ch.map((c) => { const h = (c.items.find((it) => it.href) || {}).href || NAV[0].href; return { t: c.t, h, cur: base(h) === PAGE }; })
+      ? NAV[0].ch.map((c) => { const h = base((c.items.find((it) => it.href) || {}).href || NAV[0].href); return { t: c.t, h, cur: h === PAGE }; })
       : NAV.map((a) => ({ t: a.t, h: a.href, cur: a.id === AREA }));
     /* Enlaces secundarios del menú: [texto, ruta, ícono, descarga] */
     const alt = BOOK.alt || [['Descargar PDF', 'documental/libro-de-marca-keyons.pdf', I.down, true], ['Normas para IA', 'ia/index.html', I.code]];

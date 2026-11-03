@@ -8,15 +8,27 @@
   const mods = NAV[0] ? NAV[0].ch : [];
   const ROOT = (document.body.dataset.root || '.').replace(/\/$/, '');
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  const href = (c) => ROOT + '/' + ((c.items.find((it) => it.href) || {}).href || NAV[0].href);
+  const href = (c) => ROOT + '/' + ((c.items.find((it) => it.href) || {}).href || NAV[0].href).split('#')[0];
   const ST = { v: ['vigente', 'Vigente'], b: ['borrador', 'Borrador'], p: ['pendiente', 'Por definir'] };
 
-  /* Índice de la portada: la rejilla numerada de Marca, desde el mismo mapa que el lateral */
-  document.querySelectorAll('[data-sd-index]').forEach((box) => {
-    box.innerHTML = mods.map((c) => {
-      const [k, t] = ST[c.s || 'p'];
-      return `<div><a href="${href(c)}"><div class="cols__n">${c.n}</div><p class="t-h4">${esc(c.t)}</p><p class="t-sm">${esc(c.d)}</p></a>`
-        + `<p class="sd-st"><span class="dot dot--${k}" aria-hidden="true"></span>${t}</p></div>`;
+  /* Índice de la portada: una tarjeta por módulo, con el mismo marcado que las áreas del Libro de Marca */
+  const COLORS = ['noche', 'cielo', 'salmon', 'atardecer'];
+  const GO = '<svg viewBox="0 0 16 16" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg>';
+  const dot = (s) => `<span class="dot dot--${ST[s || 'p'][0]}" title="${ST[s || 'p'][1]}" aria-label="${ST[s || 'p'][1]}"></span>`;
+  document.querySelectorAll('[data-sd-cards]').forEach((box) => {
+    box.innerHTML = mods.map((c, i) => {
+      const n = parseInt(c.n, 10), normas = c.items.filter((it) => it.s === 'v').length;
+      return `
+      <article class="area">
+        <div class="area__color grad grad--${COLORS[i % COLORS.length]}" aria-hidden="true"></div>
+        <div class="area__body">
+          <h3 class="t-h3">${esc(c.t)}</h3>
+          <p class="t-sm">${esc(c.d)}</p>
+          <ul class="area__list">${c.items.map((it, k) => `<li><a href="${ROOT}/${it.href}"><span>${n}.${k + 1}</span>${esc(it.st || it.t)}${dot(it.s)}</a></li>`).join('')}</ul>
+          <div class="area__foot"><span class="paren">(${normas} ${normas === 1 ? 'norma' : 'normas'})</span>
+            <a class="btn-icon" href="${href(c)}" aria-label="Abrir ${esc(c.t)}">${GO}</a></div>
+        </div>
+      </article>`;
     }).join('');
   });
 
