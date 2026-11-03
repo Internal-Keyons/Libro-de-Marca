@@ -20,10 +20,6 @@ Número: 28.3.1 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/fund
 
 ##### El movimiento orienta, no distrae
 
-**(Problema)**
-Animaciones que distraen, cansan o dificultan la operación.
-
-**(Criterio)**
 El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite.
 En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas.
 En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.

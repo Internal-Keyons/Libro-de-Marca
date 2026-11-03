@@ -20,10 +20,6 @@ Número: 12.3.1 · Estado: vigente · Capítulo: 12 Iconografía · Fuente: `/fu
 
 ##### Un ícono tiene que ayudar a entender
 
-**(Problema)**
-Íconos que decoran títulos o textos sin orientar ni explicar nada.
-
-**(Criterio)**
 No introducir íconos únicamente para decorar textos o títulos.
 Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada.
 

@@ -11,7 +11,7 @@ capitulo: "08 Tipografía"
 area: "Fundamentos"
 fuente: "/fundamentos/tipografia/sistema.html#escala"
 referencias: []
-citada_por: []
+citada_por: ["KYN-MRK-TYP-004"]
 ---
 
 # KYN-MRK-TYP-002 · Escala y jerarquía
@@ -20,69 +20,81 @@ Número: 8.2 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundam
 
 ##### Nueve niveles, una jerarquía flexible
 
-La escala tipográfica organiza las relaciones entre **títulos, declaraciones, subtítulos y textos de lectura**.
-
-Cada composición parte de una combinación coherente de tamaños, pesos y espacios. Keyons utiliza jerarquías tradicionales e invertidas, junto con modelos de lectura que se adaptan al contenido y al medio.
+Los nueve niveles tipográficos permiten construir **jerarquías coherentes**. Su combinación responde al contenido, al medio y a la intención editorial de cada pieza.
 
 Display
 52 a 128 · px
-TASA 500 Interlineado 0.93 · Espaciado −4 %
+TASA Orbiter
 
 Título de sección
 30 a 44 · px
-Jakarta 500 Interlineado 1.1 · Espaciado −3 %
+Plus Jakarta Sans
 
 Subtítulo
 22 a 27 · px
-Jakarta 500 Interlineado 1.2 · Espaciado −2 %
+Plus Jakarta Sans
 
 Título menor
 17 a 18 · px
-Jakarta 600 Interlineado 1.3 · Espaciado −1.5 %
+Plus Jakarta Sans
 
 Entrada
 18 a 20 · px
-Jakarta 400 Interlineado 1.55 · Espaciado 0
+Plus Jakarta Sans
 
 Cuerpo
 16 a 17 · px
-Jakarta 400 Interlineado 1.65 · Espaciado 0
+Plus Jakarta Sans
 
 Pequeño
 14 a 15 · px
-Jakarta 400 Interlineado 1.6 · Espaciado 0
+Plus Jakarta Sans
 
 Rótulo
 13 · px
-Jakarta 500 Interlineado 1.4 · Espaciado 0
+Plus Jakarta Sans
 
 Kicker
 13 · px
-TASA 500 · mayúsculas Interlineado 1 · Espaciado +8 %
+TASA Orbiter
 
-###### Dos jerarquías
+Quiénes somos
+Una empresa de ingeniería operativa que integra inteligencia artificial a los equipos
+Primero entendemos su operación; después construimos con su equipo
 
-> Recurso visual: Ejemplo dibujado: Quiénes somos · Una empresa de ingeniería operativa que integra inteligencia artificial a los equipos. Primero entendemos su operación; después construimos con su equipo.
+El titular guía la lectura mediante su tamaño y posición.
 
-**(Jerarquía tradicional)**
-El título principal adquiere protagonismo mediante tamaño, posición o peso. Los niveles siguientes acompañan esa jerarquía de forma progresiva.
-
-> Recurso visual: Ejemplo dibujado: Quiénes somos · Una empresa de ingeniería operativa que integra inteligencia artificial a los equipos. Primero entendemos su operación; después construimos con su equipo.
-
-**(Jerarquía editorial invertida)**
-Un título contextual de menor tamaño introduce la composición. Una declaración de mayor escala desarrolla la idea protagonista, con una tonalidad secundaria de contraste adecuado cuando corresponde. La estructura semántica conserva un recorrido de lectura lógico y accesible.
-
-###### Dos modelos de lectura
+> Recurso visual: Demostración visual (clase `tmod__s`)
 
 **(Lectura prolongada)**
-Modelo para documentos, informes, artículos y contenidos extensos. Organizar las secciones mediante títulos, párrafos, notas y recursos complementarios con una jerarquía estable.
-Referencias digitales iniciales V1: cuerpo de 16 a 18 px, interlineado de 1,5 a 1,65, longitud de línea de aproximadamente 55 a 75 caracteres y alineación inicial a la izquierda.
+Organiza contenido extenso mediante párrafos, títulos y una columna de lectura estable.
+
+> Recurso visual: Demostración visual (clase `tmod__s`)
 
 **(Síntesis modular)**
-Modelo para propuestas, presentaciones, brochures e informes ejecutivos. Utilizar retículas, agrupaciones y títulos equivalentes para comparar información relacionada, y distribuir el contenido según su significado y volumen.
-Los modelos de lectura prolongada y síntesis modular pueden combinarse con las jerarquías tradicional e invertida.
+Agrupa información relacionada para facilitar su recorrido y comparación.
 
-###### Configuraciones de referencia V1
+Selecciona una configuración coherente como punto de partida y adapta sus proporciones a la función de cada texto.
+
+**Ficha técnica`KYN-MRK-TYP-002`**
+
+**Parámetros de los nueve niveles**
+
+| (Nivel) | Peso | Interlineado | Tracking |
+|---|---|---|---|
+| Display | 500 | 0.93 | −4 % · Tracking en evaluación |
+| Título de sección | 500 | 1.1 | −3 % · Tracking en evaluación |
+| Subtítulo | 500 | 1.2 | −2 % · Tracking en evaluación |
+| Título menor | 600 | 1.3 | −1.5 % · Tracking en evaluación |
+| Entrada | 400 | 1.55 | 0 · Vigente |
+| Cuerpo | 400 | 1.65 | 0 · Vigente |
+| Pequeño | 400 | 1.6 | 0 · Vigente |
+| Rótulo | 500 | 1.4 | 0 · Vigente |
+| Kicker | 500 · mayúsculas | 1 | +8 % · Vigente |
+
+Los valores de tracking negativo de los titulares son referencias pendientes de validación, no ajustes globales obligatorios.
+
+**Configuraciones de referencia V1 · propuesta**
 
 | (Nivel) | Institucional tradicional | Editorial invertida | Expresiva |
 |---|---|---|---|
@@ -94,9 +106,16 @@ Los modelos de lectura prolongada y síntesis modular pueden combinarse con las 
 | Entrada o apoyo | 20 px | 18 px | 20 px |
 | Cuerpo | 16 px | 16 px | 16 px |
 
-Propuesta V1. Estas configuraciones se presentan como referencias para explorar y validar con las fuentes reales.
+**Lectura prolongada · referencias V1**
 
-###### Reglas de aplicación
+- Cuerpo de 16 a 18 px.
+- Interlineado de 1,5 a 1,65.
+- Longitud de línea de aproximadamente 55 a 75 caracteres.
+- Alineación inicial a la izquierda.
+
+Las reglas de longitud de línea, columnas, paginación y espaciado se documentan en el capítulo 10, Composición.
+
+**Reglas de aplicación**
 
 - Seleccionar una configuración coherente como punto de partida.
 - Ajustar los niveles según su función.
@@ -104,9 +123,4 @@ Propuesta V1. Estas configuraciones se presentan como referencias para explorar 
 - Conservar tamaños de lectura adecuados al contenido extenso.
 - Evaluar variaciones expresivas según el contexto.
 - Verificar la composición en el formato final.
-
-**(Espaciado)**
-Los valores de tracking negativo incluidos en los niveles de titulares son referencias pendientes de validación, no ajustes globales obligatorios. Los cuerpos de lectura conservan el espaciado de letras necesario para facilitar la comprensión.
-
-**(Criterio de aplicación)**
-No aumentar automáticamente el tamaño de un texto por su importancia normativa. El tamaño debe corresponder a su función dentro de la composición. Los párrafos de apoyo deben mantenerse visualmente subordinados a las declaraciones principales.
+- No aumentar automáticamente el tamaño de un texto por su importancia normativa.

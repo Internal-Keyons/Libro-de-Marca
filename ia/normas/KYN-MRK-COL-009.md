@@ -11,7 +11,7 @@ capitulo: "07 Color"
 area: "Fundamentos"
 fuente: "/fundamentos/color/cielos.html#gradientes"
 referencias: []
-citada_por: ["KYN-MRK-VIS-005"]
+citada_por: []
 ---
 
 # KYN-MRK-COL-009 · Gradientes
@@ -21,6 +21,8 @@ Número: 7.9 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos/
 ##### Que se sienta cielo, no fondo
 
 Cuando la fotografía no aplica, el gradiente traduce el cielo. **De tres a seis colores** del cielo dominante, que debe reconocerse sin dudas.
+
+Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.
 
 **(Orgánico)** · Punto focal, asimetría y zonas de calma.
 
@@ -44,8 +46,5 @@ Una zona densa y una tranquila. En los orgánicos, además, la asimetría es int
 
 **(Orgánico o lineal)**
 Los dos se permiten si están bien hechos. El lineal funciona como fondo sutil o para emular un cielo visto en vertical; el orgánico, cuando el cielo es protagonista.
-
-**(Herramientas)**
-Mallas de Illustrator, blur sobre formas en Photoshop, plugins de Figma para mallas o generadores dedicados.
 
 Un gradiente que no cumple estas reglas no es un gradiente Keyons.

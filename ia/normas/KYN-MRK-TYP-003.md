@@ -22,4 +22,7 @@ Número: 8.3 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundam
 
 El mismo cielo, nadie lo ve igual
 TASA Orbiter 500 · 52 a 128 px
-**(Comparar configuraciones V1 · propuesta)**
+**(Peso)** · **(Interlineado)** · **(Tracking)**
+**(Configuraciones V1 · propuesta)**
+
+[Ficha técnica de la escala y las configuraciones](/fundamentos/tipografia/sistema.html#ficha-typ-002)

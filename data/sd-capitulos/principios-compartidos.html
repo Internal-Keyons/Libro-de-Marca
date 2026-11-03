@@ -3,8 +3,7 @@
       <div class="ed__label"><span>01</span><span>Propósito</span></div>
       <div>
         <h2 class="ed__title">Diseñar para comprender y actuar</h2>
-        <p class="ed__lead">Una buena experiencia permite que las personas <strong>comprendan su entorno, realicen sus tareas y mantengan el control</strong> sobre sus decisiones.</p>
-        <p class="ed__lead">En Keyons compartimos los mismos principios de experiencia entre herramientas internas, productos SaaS y soluciones personalizadas.</p>
+        <p class="ed__lead">Una buena experiencia permite que las personas <strong>comprendan su entorno, realicen sus tareas y mantengan el control</strong>. Estos principios son comunes a herramientas internas, productos SaaS y soluciones personalizadas.</p>
         <p class="ed__close">La identidad visual puede cambiar. <span class="hl">La claridad, la consistencia y el respeto por las personas deben permanecer.</span></p>
       </div>
     </section>
@@ -13,14 +12,13 @@
       <div class="ed__label"><span>01</span><span>Claridad y orientación</span><span class="sd-st"><span class="dot dot--borrador" title="Borrador" aria-label="Borrador"></span>Borrador</span></div>
       <div>
         <h2 class="ed__title">Entender antes de actuar</h2>
-        <p class="ed__lead">Cada interfaz debe facilitar la comprensión de la información y ayudar a reconocer las acciones disponibles.</p>
         <p class="ed__lead">La claridad depende de presentar <strong>lo necesario, con la jerarquía adecuada y en el momento oportuno</strong>.</p>
-        <div class="sdx-rows">
-          <div class="sdx-row"><span class="sdx-n">01</span><p class="sdx-t">Ubicación comprensible</p><div class="sdx-d"><p>La persona debe poder reconocer dónde se encuentra dentro de la aplicación y cuál es el contexto de la tarea que está realizando.</p><p>La navegación, los títulos y las referencias de ubicación deben proporcionar orientación sin introducir elementos redundantes.</p></div></div>
-          <div class="sdx-row"><span class="sdx-n">02</span><p class="sdx-t">Prioridad de la información</p><div class="sdx-d"><p>La información principal debe distinguirse del contenido complementario.</p><p>La jerarquía responde a la importancia de la tarea, sus riesgos y las decisiones que requiere; no únicamente al tamaño visual de un elemento.</p></div></div>
-          <div class="sdx-row"><span class="sdx-n">03</span><p class="sdx-t">Complejidad proporcionada</p><div class="sdx-d"><p>Mostramos primero la información necesaria para avanzar y ofrecemos acceso a los detalles cuando aportan valor.</p><p>La revelación progresiva no debe ocultar riesgos, condiciones relevantes ni información imprescindible para decidir.</p></div></div>
+        <div class="sdx-slots sdx-slots--on">
+          <div><span class="paren">(01)</span><p class="sdx-t">Ubicación comprensible</p><p>La persona reconoce dónde se encuentra y en qué tarea está.</p></div>
+          <div><span class="paren">(02)</span><p class="sdx-t">Prioridad de la información</p><p>La jerarquía responde a la importancia de la tarea, sus riesgos y sus decisiones.</p></div>
+          <div><span class="paren">(03)</span><p class="sdx-t">Complejidad proporcionada</p><p>Primero lo necesario para avanzar; el detalle, cuando aporta valor y sin ocultar riesgos.</p></div>
         </div>
-        <div class="sdx-ex">
+        <div class="sdx-vis">
           <figure class="sdx-fig" aria-label="Ejemplo estático: formulario de registro donde se reconocen ubicación, tarea y acción siguiente">
             <div class="sdx-app">
               <p class="sdx-app__crumb">Clientes <span aria-hidden="true">›</span> Registro nuevo</p>
@@ -32,9 +30,11 @@
             </div>
             <ol class="sdx-notes"><li><b>Ubicación</b>La ruta y el título dicen dónde está la persona.</li><li><b>Tarea</b>El paso indica cuánto falta y qué se completa.</li><li><b>Acción siguiente</b>Una acción principal, distinta de la secundaria.</li></ol>
           </figure>
-          <div class="sdx-ex__txt"><span class="paren">(Ejemplo de aplicación)</span><p>En un formulario de registro, la persona identifica qué está completando, cuáles campos necesita, qué información falta y cómo guardar o continuar.</p><p>No necesita interpretar una pantalla llena de instrucciones ni buscar una acción principal entre opciones visualmente equivalentes.</p></div>
         </div>
-        <div class="sdx-check"><span class="paren">(Comprobación)</span><p>Una interfaz cumple estos principios cuando las personas del perfil previsto pueden identificar su ubicación, comprender la tarea y encontrar la acción siguiente sin depender de explicaciones externas.</p></div>
+        <div class="sdx-slots sdx-slots--on sdx-slots--2">
+          <div><span class="paren">(Ejemplo de aplicación)</span><p>En un formulario de registro, la persona ve qué completa, qué falta y cómo continuar.</p></div>
+          <div><span class="paren">(Comprobación)</span><p class="sdx-slots__k">Las personas identifican su ubicación, la tarea y la acción siguiente sin explicaciones externas.</p></div>
+        </div>
       </div>
     </section>
 
@@ -42,19 +42,20 @@
       <div class="ed__label"><span>02</span><span>Consistencia y previsibilidad</span><span class="sd-st"><span class="dot dot--borrador" title="Borrador" aria-label="Borrador"></span>Borrador</span></div>
       <div>
         <h2 class="ed__title">Una lógica que se aprende y permanece</h2>
-        <p class="ed__lead">Los elementos que cumplen una misma función deben mantener <strong>comportamientos reconocibles</strong>.</p>
-        <p class="ed__lead">La consistencia reduce el aprendizaje repetido y permite que cada persona concentre su atención en el trabajo, no en descifrar la interfaz.</p>
-        <div class="sdx-cols">
-          <div><span class="sdx-n">01</span><p class="sdx-t">Comportamientos coherentes</p><p>Acciones equivalentes deben ofrecer respuestas equivalentes.</p><p>Guardar, editar, cancelar, eliminar, buscar y confirmar no deben cambiar arbitrariamente de significado entre módulos o productos.</p></div>
-          <div><span class="sdx-n">02</span><p class="sdx-t">Respuestas previsibles</p><p>Cada acción debe producir una respuesta comprensible y acorde con sus consecuencias.</p><p>La persona debe poder reconocer si una operación está pendiente, en proceso, completada o fallida.</p><p>No se debe comunicar éxito antes de que exista confirmación real de la operación.</p></div>
-          <div><span class="sdx-n">03</span><p class="sdx-t">Adaptación sin pérdida de coherencia</p><p>Las interfaces pueden adaptarse a diferentes roles, tareas, dispositivos y niveles de experiencia.</p><p>Estas adaptaciones no deben alterar innecesariamente las convenciones funcionales compartidas.</p><p>Una herramienta interna Keyons y un SaaS de cliente pueden utilizar diferentes colores y composiciones, conservando la misma lógica de guardado, confirmación y recuperación.</p></div>
+        <p class="ed__lead">Los elementos que cumplen una misma función mantienen <strong>comportamientos reconocibles</strong>, para que la atención esté en el trabajo y no en la interfaz.</p>
+        <div class="sdx-slots sdx-slots--on">
+          <div><span class="paren">(01)</span><p class="sdx-t">Comportamientos coherentes</p><p>Guardar, editar, cancelar o eliminar significan lo mismo en cada módulo y producto.</p></div>
+          <div><span class="paren">(02)</span><p class="sdx-t">Respuestas previsibles</p><p>Cada acción muestra si está pendiente, en proceso, completada o fallida. El éxito se comunica cuando es real.</p></div>
+          <div><span class="paren">(03)</span><p class="sdx-t">Adaptación sin pérdida de coherencia</p><p>Roles, dispositivos e identidades cambian la apariencia, no las convenciones funcionales.</p></div>
         </div>
         <div class="sdx-pair" aria-label="Ejemplo estático: dos productos con identidades distintas y el mismo comportamiento de guardado">
           <figure data-ctx="interna"><p class="sdx-pair__l">Herramienta interna Keyons</p><div class="sdx-ui"><p class="sdx-ui__t">Ficha del proveedor</p><span class="sdx-ui__f"></span><span class="sdx-ui__f s"></span><span class="sdx-ui__b">Guardar</span><p class="sdx-ui__ok"><i aria-hidden="true"></i>Cambios guardados</p></div></figure>
           <figure data-ctx="cliente"><p class="sdx-pair__l">SaaS con la identidad del cliente</p><div class="sdx-ui"><p class="sdx-ui__t">Ficha del proveedor</p><span class="sdx-ui__f"></span><span class="sdx-ui__f s"></span><span class="sdx-ui__b">Guardar</span><p class="sdx-ui__ok"><i aria-hidden="true"></i>Cambios guardados</p></div></figure>
         </div>
-        <div class="sdx-ex__txt sdx-ex__txt--wide"><span class="paren">(Ejemplo de aplicación)</span><p>Si una aplicación confirma el guardado de un registro mediante un estado visible, otras aplicaciones que utilicen el mismo patrón deben ofrecer una respuesta funcional equivalente.</p><p>La apariencia puede variar según el tema visual del producto.</p></div>
-        <div class="sdx-check"><span class="paren">(Comprobación)</span><p>Los usuarios que conocen un patrón deben poder reconocer su comportamiento en otro contexto, sin encontrar diferencias arbitrarias en las acciones y sus resultados.</p></div>
+        <div class="sdx-slots sdx-slots--on sdx-slots--2">
+          <div><span class="paren">(Ejemplo de aplicación)</span><p>Una herramienta interna y un SaaS de cliente cambian de color y composición, y conservan la misma lógica de guardado.</p></div>
+          <div><span class="paren">(Comprobación)</span><p class="sdx-slots__k">Quien conoce un patrón lo reconoce en otro producto, sin diferencias arbitrarias.</p></div>
+        </div>
       </div>
     </section>
 
@@ -62,12 +63,11 @@
       <div class="ed__label"><span>03</span><span>Control y confianza</span><span class="sd-st"><span class="dot dot--borrador" title="Borrador" aria-label="Borrador"></span>Borrador</span></div>
       <div>
         <h2 class="ed__title">La tecnología acompaña; la persona conserva el criterio</h2>
-        <p class="ed__lead">Una experiencia confiable comunica <strong>qué está ocurriendo, qué consecuencias tienen las acciones</strong> y cuáles decisiones permanecen bajo responsabilidad humana.</p>
-        <p class="ed__lead">La automatización debe ampliar las capacidades de las personas, no quitarles control ni presentar resultados inciertos como hechos confirmados.</p>
-        <div class="ed__stack">
-          <div><span class="paren">(01 · Decisiones informadas)</span><p>Antes de ejecutar una acción significativa, la persona debe comprender sus consecuencias relevantes.</p><p>Las operaciones de alto impacto requieren los controles y autorizaciones adecuados a sus riesgos.</p><p>No se utilizan patrones manipulativos ni mecanismos que dificulten deliberadamente rechazar, cancelar o cambiar una decisión.</p></div>
-          <div><span class="paren">(02 · Transparencia del sistema)</span><p>La interfaz debe comunicar con precisión lo que el sistema hizo, está haciendo o no pudo completar.</p><p>Las acciones ejecutadas por inteligencia artificial, los resultados pendientes de verificación y las decisiones aprobadas por personas deben distinguirse cuando esa diferencia sea relevante.</p><p>Nunca debe afirmarse que una persona revisó o autorizó algo cuando no ocurrió.</p></div>
-          <div><span class="paren">(03 · Recuperación y continuidad)</span><p>Los errores forman parte de la operación.</p><p>Cuando una acción falla, la interfaz debe explicar la situación y facilitar una alternativa de recuperación cuando sea viable y segura.</p><p>Las acciones reversibles deben permitir corregir errores de manera comprensible. Las irreversibles requieren medidas de prevención y confirmación proporcionadas al riesgo.</p><p>No se debe prometer reversibilidad cuando existen restricciones técnicas, legales u operativas.</p></div>
+        <p class="ed__lead">Una experiencia confiable comunica <strong>qué ocurre, qué consecuencias tienen las acciones</strong> y qué decisiones permanecen bajo responsabilidad humana.</p>
+        <div class="sdx-slots sdx-slots--on">
+          <div><span class="paren">(01)</span><p class="sdx-t">Decisiones informadas</p><p>Antes de una acción significativa, la persona comprende sus consecuencias. Sin patrones manipulativos.</p></div>
+          <div><span class="paren">(02)</span><p class="sdx-t">Transparencia del sistema</p><p>Lo que propone la IA, lo pendiente de verificación y lo aprobado por personas se distinguen.</p></div>
+          <div><span class="paren">(03)</span><p class="sdx-t">Recuperación y continuidad</p><p>Ante un fallo, la interfaz informa el estado real y ofrece cómo recuperarse, sin prometer lo que no puede deshacer.</p></div>
         </div>
         <div class="sdx-ai" aria-label="Ejemplo estático: una propuesta de IA se distingue de una acción aprobada y ejecutada">
           <figure class="sdx-ai__c"><p class="sdx-ai__tag"><i class="sdx-ai__dot" aria-hidden="true"></i>Propuesta generada por IA · Pendiente de aprobación</p>
@@ -79,17 +79,21 @@
             <p class="sdx-ai__t">Datos del cliente actualizados</p>
             <p class="sdx-ai__note">El resultado ejecutado se distingue de la propuesta.</p></figure>
         </div>
-        <div class="sdx-ex__txt sdx-ex__txt--wide"><span class="paren">(Ejemplo de aplicación)</span><p>Un agente de IA propone actualizar los datos de un cliente.</p><p>La interfaz muestra qué información cambiará, identifica la propuesta como generada por IA y solicita aprobación humana cuando corresponde.</p><p>Si la operación falla, informa el estado real y ofrece una acción de recuperación adecuada.</p></div>
-        <div class="sdx-check"><span class="paren">(Comprobación)</span><p>La persona puede distinguir una propuesta de una acción ejecutada, comprender sus consecuencias y reconocer cómo continuar o recuperar el control cuando ocurre un problema.</p></div>
+        <div class="sdx-slots sdx-slots--on sdx-slots--2">
+          <div><span class="paren">(Ejemplo de aplicación)</span><p>Un agente de IA propone actualizar los datos de un cliente; la interfaz muestra qué cambia y pide aprobación cuando corresponde.</p></div>
+          <div><span class="paren">(Comprobación)</span><p class="sdx-slots__k">La persona distingue una propuesta de una acción ejecutada y sabe cómo recuperar el control.</p></div>
+        </div>
       </div>
     </section>
 
     <section class="ed" id="relacion">
-      <div class="ed__label"><span>01</span><span>Relación con normas existentes</span></div>
+      <div class="ed__label"><span>01</span><span>Relación</span></div>
       <div>
-        <h2 class="ed__title">Antecedentes en el Manual de Producto</h2>
-        <p class="ed__lead">Estas referencias sirven para identificar <strong>antecedentes y correspondencias</strong>. No se copian sus textos ni se declaran migradas.</p>
+        <h2 class="ed__title">Normas relacionadas</h2>
         <div class="kidx__list sd-refs">
+          <a class="kidx__r sd-ref" href="../../marca/principios.html#criterio"><b>KYN-MRK-DIS-001</b><span class="kidx__t">Diseñar con identidad, construir con criterio</span></a>
+          <a class="kidx__r sd-ref" href="../../marca/principios.html#capas"><b>KYN-MRK-DIS-002</b><span class="kidx__t">Identidad, experiencia y sistema: roles definidos</span></a>
+          <a class="kidx__r sd-ref" href="../../marca/principios.html#comprension"><b>KYN-MRK-DIS-005</b><span class="kidx__t">Claridad antes que complejidad</span></a>
           <div class="kidx__r sd-ref"><b>KYN-PRD-UIX-001</b><span class="kidx__t">Arquitectura biocognitiva</span></div>
           <div class="kidx__r sd-ref"><b>KYN-PRD-UIX-005</b><span class="kidx__t">Decisiones de diseño en conflicto</span></div>
           <div class="kidx__r sd-ref"><b>KYN-PRD-UIX-006</b><span class="kidx__t">Patrones oscuros</span></div>
@@ -101,6 +105,5 @@
           <div class="kidx__r sd-ref"><b>KYN-PRD-UIX-024</b><span class="kidx__t">Mensajes de error</span></div>
           <div class="kidx__r sd-ref"><b>KYN-PRD-UIX-025</b><span class="kidx__t">Reversibilidad</span></div>
         </div>
-        <p class="ed__more">Este capítulo establece los principios generales. Los protocolos detallados se documentarán en los módulos correspondientes del Sistema de Diseño.</p>
       </div>
     </section>

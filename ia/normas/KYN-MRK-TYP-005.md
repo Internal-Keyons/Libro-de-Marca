@@ -20,19 +20,28 @@ Número: 8.5 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundam
 
 ##### Etiquetas que aportan contexto
 
-Las etiquetas editoriales identifican **categorías, ubicaciones, versiones, estados o clasificaciones** que complementan un título.
-
-Su uso aporta información adicional y facilita la orientación del lector.
+Las etiquetas sitúan al lector mediante información de **categoría, ubicación, versión o estado** que complementa el título.
 
 Capítulo 01 · ADN
 Quiénes somos
-Una empresa de ingeniería operativa que integra inteligencia artificial a los equipos.
-La etiqueta ubica el contenido dentro de la estructura del manual.
+La etiqueta ubica el contenido dentro del manual.
 
-**(Criterios)**
+**Ficha técnica`KYN-MRK-TYP-005`**
+
+**Criterios**
 
 - Utilizar una etiqueta cuando aporta contexto.
 - Seleccionar la tipografía según la función y el tratamiento editorial.
 - Ajustar el espaciado de acuerdo con las reglas tipográficas correspondientes.
 - Incorporar símbolos cuando contribuyan al significado.
 - Utilizar separadores para organizar metadatos relacionados.
+
+**Especificación vigente en este manual**
+
+| (Elemento) | Especificación |
+|---|---|
+| Fuente | TASA Orbiter 500, en mayúsculas |
+| Tamaño | 13 px |
+| Espaciado | +8 % |
+| Símbolo | Estrella de marca a la izquierda, sin repetirse a la derecha |
+| Separador | Punto medio entre niveles, sin punto final |

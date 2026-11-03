@@ -7,7 +7,7 @@ id: "KYN-MRK-ESP-006"
 titulo: "Patrones de composición"
 numero: "10.6"
 estado: "vigente"
-capitulo: "10 Composición y diagramación"
+capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#patrones"
 referencias: ["KYN-MRK-ADN-001", "KYN-MRK-ADN-003", "KYN-MRK-COL-002", "KYN-MRK-COL-004", "KYN-MRK-CON-006", "KYN-MRK-DAT-001", "KYN-MRK-LOG-001", "KYN-MRK-LOG-006", "KYN-MRK-VOZ-003"]
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-CMP-001", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004"]
 
 # KYN-MRK-ESP-006 · Patrones de composición
 
-Número: 10.6 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#patrones`
+Número: 10.6 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#patrones`
 
 ##### La forma sale del contenido
 

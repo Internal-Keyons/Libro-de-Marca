@@ -21,7 +21,7 @@ Escrito una vez en el libro (HTML) y publicado en tres formas: lectura visual, d
 - [07 Color](/ia/capitulos/07-color.md): Un sistema en capas: paleta base, escalas, cielos y color por modo.
 - [08 Tipografía](/ia/capitulos/08-tipografia.md): Plus Jakarta Sans y TASA Orbiter: escala, jerarquía y reglas.
 - [09 Geometría y espacio](/ia/capitulos/09-forma.md): El lenguaje geométrico de Keyons: esquinas, radios y espacio.
-- [10 Composición y diagramación](/ia/capitulos/10-composicion.md): Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, densidad, patrones y diagramas.
+- [10 Composición](/ia/capitulos/10-composicion.md): Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, densidad, patrones y diagramas.
 - [11 Elementos gráficos](/ia/capitulos/11-elementos.md): Viñetas, énfasis, transparencia, luz, cielos, tramas y fotografía.
 - [12 Iconografía](/ia/capitulos/12-iconografia.md): Estilo de trazo, tamaños según contexto y catálogo.
 - [13 Datos y visualización](/ia/capitulos/13-datos.md): Gráficos que comunican con rigor: principios, color, tipografía y estructura.

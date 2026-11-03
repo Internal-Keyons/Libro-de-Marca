@@ -7,7 +7,7 @@ id: "KYN-MRK-CMP-002"
 titulo: "Simetría y asimetría"
 numero: "10.2"
 estado: "vigente"
-capitulo: "10 Composición y diagramación"
+capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#simetria"
 referencias: ["KYN-MRK-VIS-010"]
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-CMP-002 · Simetría y asimetría
 
-Número: 10.2 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#simetria`
+Número: 10.2 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#simetria`
 
 ##### Orden y experimentación
 

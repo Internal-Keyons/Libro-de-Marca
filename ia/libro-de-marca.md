@@ -813,22 +813,20 @@ Número: 4.4.1 · ID: `KYN-MRK-VIS-013` · Estado: vigente · Fuente: `/marca/vo
 
 ##### Específico, comprensible y con sentido
 
-**(Problema)**
-Titulares intercambiables, descripciones vacías y expresiones tecnológicas exageradas.
-
-**(Criterio)**
 El contenido debe ser específico, comprensible y significativo.
 No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta.
 
-> Recurso visual: Ejemplo dibujado: «Innovación que transforma el futuro de su negocio»
+> Recurso visual: Muestra visual: Quién podría firmarlo · Qué comunica
 
-**(Uso incorrecto)**
-**Una promesa intercambiable** Lo podría firmar cualquier empresa.
+Promesa intercambiable
 
-> Recurso visual: Ejemplo dibujado: «Su equipo deja de copiar datos a mano entre tres sistemas.»
+Cualquier empresa
+Una promesa
 
-**(Alternativa mejor)**
-Una explicación concreta de lo que cambia para el cliente.
+Explicación concreta
+
+Solo Keyons
+Lo que cambia para el cliente
 
 - **Excepciones**: Ninguna.
 - **Relación**: KYN-MRK-VOZ-002 (Reglas de escritura) y KYN-MRK-VOZ-004 (Vocabulario que evitamos).
@@ -878,7 +876,7 @@ El tono profesional y cercano debe trasladarse de manera natural al inglés, res
 
 Número: 4.6 · ID: `KYN-MRK-VOZ-006` · Estado: vigente · Fuente: `/marca/trato.html#persona`
 
-##### Una voz coherente, en primera o tercera persona
+##### Una voz coherente
 
 Utilizamos la **tercera persona** cuando conviene presentar formalmente a Keyons. La **primera persona plural** expresa nuestros compromisos, decisiones y acciones.
 
@@ -1602,22 +1600,26 @@ Número: 7.5.1 · ID: `KYN-MRK-VIS-012` · Estado: vigente · Fuente: `/fundamen
 
 ##### Delicado, pero siempre legible
 
-**(Problema)**
-Textos, controles o datos delicados que no se pueden leer.
-
-**(Criterio)**
 La delicadeza visual no justifica textos, controles ni datos ilegibles.
 El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.
 
-> Recurso visual: Ejemplo dibujado: Actualizado hace 5 minutos#C7C8CB · 1,5 : 1
+> Recurso visual: Muestra visual: Color · Contraste sobre Blanco Keyons · Resultado
 
-**(Uso incorrecto)**
-**Texto gris claro sobre Blanco Keyons** Elegido para «verse elegante», sin medir su contraste.
+Uso incorrecto
 
-> Recurso visual: Ejemplo dibujado: Actualizado hace 5 minutos#6B6D7E · 4,6 : 1
+Actualizado hace 5 minutos
 
-**(Alternativa mejor)**
-Los grises tipográficos oficiales, con su contraste verificado.
+#C7C8CB
+1,5 : 1
+No se puede leer
+
+Alternativa mejor
+
+Actualizado hace 5 minutos
+
+#6B6D7E
+4,6 : 1
+Legible · AA
 
 - **Excepciones**: Los controles inactivos tienen las excepciones previstas por WCAG. Esa excepción no autoriza a presentar información necesaria con contraste insuficiente. Distinguir los separadores decorativos de los bordes e indicadores necesarios para comprender una interfaz.
 - **Relación**: KYN-MRK-COL-005 (Combinaciones) y KYN-MRK-COL-013 (Grises tipográficos).
@@ -1748,6 +1750,8 @@ Número: 7.9 · ID: `KYN-MRK-COL-009` · Estado: vigente · Fuente: `/fundamento
 
 Cuando la fotografía no aplica, el gradiente traduce el cielo. **De tres a seis colores** del cielo dominante, que debe reconocerse sin dudas.
 
+Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.
+
 **(Orgánico)** · Punto focal, asimetría y zonas de calma.
 
 **(Lineal bien hecho)** · Un cielo visto desde tierra: varias paradas, sin bandas.
@@ -1771,36 +1775,7 @@ Una zona densa y una tranquila. En los orgánicos, además, la asimetría es int
 **(Orgánico o lineal)**
 Los dos se permiten si están bien hechos. El lineal funciona como fondo sutil o para emular un cielo visto en vertical; el orgánico, cuando el cielo es protagonista.
 
-**(Herramientas)**
-Mallas de Illustrator, blur sobre formas en Photoshop, plugins de Figma para mallas o generadores dedicados.
-
 Un gradiente que no cumple estas reglas no es un gradiente Keyons.
-
-#### KYN-MRK-VIS-005 · 7.9.1 Degradados
-
-Número: 7.9.1 · ID: `KYN-MRK-VIS-005` · Estado: vigente · Fuente: `/fundamentos/color/cielos.html#vis-005`
-
-##### Un degradado necesita un concepto
-
-**(Problema)**
-Degradados agregados para que una sección parezca tecnológica o moderna.
-
-**(Criterio)**
-Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.
-No agregarlos solamente para que una sección parezca tecnológica o moderna.
-
-> Recurso visual: Ejemplo dibujado: Primero entendemos su operación; después construimos.
-
-**(Uso incorrecto)**
-**Un degradado violeta a cian detrás de un texto** Sin relación con el contenido ni con los cielos de Keyons.
-
-> Recurso visual: Ejemplo dibujado: Primero entendemos su operación; después construimos.
-
-**(Alternativa mejor)**
-Un cielo oficial como atmósfera, con el texto en su zona de calma. El degradado no es obligatorio en cada pieza.
-
-- **Excepciones**: Los degradados oficiales de cielo, usados según su norma.
-- **Relación**: KYN-MRK-COL-009 (Gradientes) y KYN-MRK-CON-008 (Anti-referentes).
 
 #### Color por modo
 
@@ -1893,7 +1868,7 @@ Los colores que hacen funcionar la interfaz: texto, estados, acciones y superfic
 
 Número: 7.14 · ID: `KYN-MRK-COL-013` · Estado: vigente · Fuente: `/fundamentos/color/funcionales.html#grises`
 
-##### Cinco grises con nombre propio
+##### Cuatro grises y un divisor
 
 Una escala independiente: **códigos propios, no opacidades** del Azul Noche. Así el contraste es exacto en cualquier pantalla.
 
@@ -1905,7 +1880,7 @@ Keyons diseña la IA alrededor de cómo ya trabaja su equipo.
 
 Nivel 2 · texto secundario
 El sistema cambia con su operación.
-9.9:1 · AAA
+7.5:1 · AAA
 
 Nivel 3 · texto terciario
 Actualizado hace 5 minutos
@@ -1915,8 +1890,8 @@ Nivel 4 · deshabilitado
 Acción no disponible
 2.1:1 · Sin requisito
 
-Nivel 5 · divisor
-1.2:1 · Sin requisito
+Divisor · Azul Cielo 100
+Líneas y separadores · Sin requisito
 
 El deshabilitado no necesita contraste mínimo; nunca se usa para texto que hay que leer.
 
@@ -2028,9 +2003,18 @@ Titulares protagonistas, números editoriales y momentos expresivos.
 
 > Recurso visual: Muestra visual: ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz0123456789 ¿?¡!«»&@
 
-**(Alcance)**
-Tipografía regula el lenguaje tipográfico de Keyons en presentaciones, documentos, informes, brochures, publicaciones editoriales, redes sociales, campañas y web corporativa.
-El Sistema de Diseño desarrolla los tokens tipográficos de interfaces, componentes, dashboards y formularios. Los productos con identidad visual de cliente aplican las fuentes y escalas correspondientes a su marca.
+**Ficha técnica`KYN-MRK-TYP-001`**
+
+**Pesos y variantes**
+
+| (Familia) | Pesos | Variantes |
+|---|---|---|
+| Plus Jakarta Sans | 400, 500, 600 y 700 | Itálica 400 |
+| TASA Orbiter | 400, 500, 600 y 700 | Sin itálica |
+
+**Alcance**
+
+Tipografía regula el lenguaje tipográfico de Keyons en presentaciones, documentos, informes, brochures, publicaciones editoriales, redes sociales, campañas y web corporativa. El Sistema de Diseño desarrolla los tokens tipográficos de interfaces, componentes, dashboards y formularios. Los productos con identidad visual de cliente aplican las fuentes y escalas correspondientes a su marca.
 
 #### KYN-MRK-TYP-002 · 8.2 Escala y jerarquía
 
@@ -2038,69 +2022,81 @@ Número: 8.2 · ID: `KYN-MRK-TYP-002` · Estado: vigente · Fuente: `/fundamento
 
 ##### Nueve niveles, una jerarquía flexible
 
-La escala tipográfica organiza las relaciones entre **títulos, declaraciones, subtítulos y textos de lectura**.
-
-Cada composición parte de una combinación coherente de tamaños, pesos y espacios. Keyons utiliza jerarquías tradicionales e invertidas, junto con modelos de lectura que se adaptan al contenido y al medio.
+Los nueve niveles tipográficos permiten construir **jerarquías coherentes**. Su combinación responde al contenido, al medio y a la intención editorial de cada pieza.
 
 Display
 52 a 128 · px
-TASA 500 Interlineado 0.93 · Espaciado −4 %
+TASA Orbiter
 
 Título de sección
 30 a 44 · px
-Jakarta 500 Interlineado 1.1 · Espaciado −3 %
+Plus Jakarta Sans
 
 Subtítulo
 22 a 27 · px
-Jakarta 500 Interlineado 1.2 · Espaciado −2 %
+Plus Jakarta Sans
 
 Título menor
 17 a 18 · px
-Jakarta 600 Interlineado 1.3 · Espaciado −1.5 %
+Plus Jakarta Sans
 
 Entrada
 18 a 20 · px
-Jakarta 400 Interlineado 1.55 · Espaciado 0
+Plus Jakarta Sans
 
 Cuerpo
 16 a 17 · px
-Jakarta 400 Interlineado 1.65 · Espaciado 0
+Plus Jakarta Sans
 
 Pequeño
 14 a 15 · px
-Jakarta 400 Interlineado 1.6 · Espaciado 0
+Plus Jakarta Sans
 
 Rótulo
 13 · px
-Jakarta 500 Interlineado 1.4 · Espaciado 0
+Plus Jakarta Sans
 
 Kicker
 13 · px
-TASA 500 · mayúsculas Interlineado 1 · Espaciado +8 %
+TASA Orbiter
 
-###### Dos jerarquías
+Quiénes somos
+Una empresa de ingeniería operativa que integra inteligencia artificial a los equipos
+Primero entendemos su operación; después construimos con su equipo
 
-> Recurso visual: Ejemplo dibujado: Quiénes somos · Una empresa de ingeniería operativa que integra inteligencia artificial a los equipos. Primero entendemos su operación; después construimos con su equipo.
+El titular guía la lectura mediante su tamaño y posición.
 
-**(Jerarquía tradicional)**
-El título principal adquiere protagonismo mediante tamaño, posición o peso. Los niveles siguientes acompañan esa jerarquía de forma progresiva.
-
-> Recurso visual: Ejemplo dibujado: Quiénes somos · Una empresa de ingeniería operativa que integra inteligencia artificial a los equipos. Primero entendemos su operación; después construimos con su equipo.
-
-**(Jerarquía editorial invertida)**
-Un título contextual de menor tamaño introduce la composición. Una declaración de mayor escala desarrolla la idea protagonista, con una tonalidad secundaria de contraste adecuado cuando corresponde. La estructura semántica conserva un recorrido de lectura lógico y accesible.
-
-###### Dos modelos de lectura
+> Recurso visual: Demostración visual (clase `tmod__s`)
 
 **(Lectura prolongada)**
-Modelo para documentos, informes, artículos y contenidos extensos. Organizar las secciones mediante títulos, párrafos, notas y recursos complementarios con una jerarquía estable.
-Referencias digitales iniciales V1: cuerpo de 16 a 18 px, interlineado de 1,5 a 1,65, longitud de línea de aproximadamente 55 a 75 caracteres y alineación inicial a la izquierda.
+Organiza contenido extenso mediante párrafos, títulos y una columna de lectura estable.
+
+> Recurso visual: Demostración visual (clase `tmod__s`)
 
 **(Síntesis modular)**
-Modelo para propuestas, presentaciones, brochures e informes ejecutivos. Utilizar retículas, agrupaciones y títulos equivalentes para comparar información relacionada, y distribuir el contenido según su significado y volumen.
-Los modelos de lectura prolongada y síntesis modular pueden combinarse con las jerarquías tradicional e invertida.
+Agrupa información relacionada para facilitar su recorrido y comparación.
 
-###### Configuraciones de referencia V1
+Selecciona una configuración coherente como punto de partida y adapta sus proporciones a la función de cada texto.
+
+**Ficha técnica`KYN-MRK-TYP-002`**
+
+**Parámetros de los nueve niveles**
+
+| (Nivel) | Peso | Interlineado | Tracking |
+|---|---|---|---|
+| Display | 500 | 0.93 | −4 % · Tracking en evaluación |
+| Título de sección | 500 | 1.1 | −3 % · Tracking en evaluación |
+| Subtítulo | 500 | 1.2 | −2 % · Tracking en evaluación |
+| Título menor | 600 | 1.3 | −1.5 % · Tracking en evaluación |
+| Entrada | 400 | 1.55 | 0 · Vigente |
+| Cuerpo | 400 | 1.65 | 0 · Vigente |
+| Pequeño | 400 | 1.6 | 0 · Vigente |
+| Rótulo | 500 | 1.4 | 0 · Vigente |
+| Kicker | 500 · mayúsculas | 1 | +8 % · Vigente |
+
+Los valores de tracking negativo de los titulares son referencias pendientes de validación, no ajustes globales obligatorios.
+
+**Configuraciones de referencia V1 · propuesta**
 
 | (Nivel) | Institucional tradicional | Editorial invertida | Expresiva |
 |---|---|---|---|
@@ -2112,9 +2108,16 @@ Los modelos de lectura prolongada y síntesis modular pueden combinarse con las 
 | Entrada o apoyo | 20 px | 18 px | 20 px |
 | Cuerpo | 16 px | 16 px | 16 px |
 
-Propuesta V1. Estas configuraciones se presentan como referencias para explorar y validar con las fuentes reales.
+**Lectura prolongada · referencias V1**
 
-###### Reglas de aplicación
+- Cuerpo de 16 a 18 px.
+- Interlineado de 1,5 a 1,65.
+- Longitud de línea de aproximadamente 55 a 75 caracteres.
+- Alineación inicial a la izquierda.
+
+Las reglas de longitud de línea, columnas, paginación y espaciado se documentan en el capítulo 10, Composición.
+
+**Reglas de aplicación**
 
 - Seleccionar una configuración coherente como punto de partida.
 - Ajustar los niveles según su función.
@@ -2122,12 +2125,7 @@ Propuesta V1. Estas configuraciones se presentan como referencias para explorar 
 - Conservar tamaños de lectura adecuados al contenido extenso.
 - Evaluar variaciones expresivas según el contexto.
 - Verificar la composición en el formato final.
-
-**(Espaciado)**
-Los valores de tracking negativo incluidos en los niveles de titulares son referencias pendientes de validación, no ajustes globales obligatorios. Los cuerpos de lectura conservan el espaciado de letras necesario para facilitar la comprensión.
-
-**(Criterio de aplicación)**
-No aumentar automáticamente el tamaño de un texto por su importancia normativa. El tamaño debe corresponder a su función dentro de la composición. Los párrafos de apoyo deben mantenerse visualmente subordinados a las declaraciones principales.
+- No aumentar automáticamente el tamaño de un texto por su importancia normativa.
 
 #### KYN-MRK-TYP-003 · 8.3 Probador tipográfico
 
@@ -2137,7 +2135,10 @@ Número: 8.3 · ID: `KYN-MRK-TYP-003` · Estado: vigente · Fuente: `/fundamento
 
 El mismo cielo, nadie lo ve igual
 TASA Orbiter 500 · 52 a 128 px
-**(Comparar configuraciones V1 · propuesta)**
+**(Peso)** · **(Interlineado)** · **(Tracking)**
+**(Configuraciones V1 · propuesta)**
+
+[Ficha técnica de la escala y las configuraciones](/fundamentos/tipografia/sistema.html#ficha-typ-002)
 
 #### KYN-MRK-TYP-004 · 8.4 Composición editorial
 
@@ -2145,9 +2146,7 @@ Número: 8.4 · ID: `KYN-MRK-TYP-004` · Estado: vigente · Fuente: `/fundamento
 
 ##### Título, entrada y cierre
 
-Una composición editorial presenta **una idea principal**, desarrolla su contexto y ofrece una conclusión cuando corresponde.
-
-La jerarquía tradicional o invertida permite adaptar el protagonismo de cada elemento al propósito de la pieza.
+El título, la entrada y el cierre organizan una idea cuando el contenido necesita **presentación, desarrollo y conclusión**.
 
 Un mismo cielo, ningún horizonte igual
 
@@ -2164,28 +2163,39 @@ El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons.
 **(Cierre)**
 Remata la sección. El resaltado celeste cubre la palabra completa.
 
+Los modelos de jerarquía tradicional e invertida están en KYN-MRK-TYP-002.
+
 #### KYN-MRK-TYP-005 · 8.5 Etiquetas de contexto
 
 Número: 8.5 · ID: `KYN-MRK-TYP-005` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#kickers`
 
 ##### Etiquetas que aportan contexto
 
-Las etiquetas editoriales identifican **categorías, ubicaciones, versiones, estados o clasificaciones** que complementan un título.
-
-Su uso aporta información adicional y facilita la orientación del lector.
+Las etiquetas sitúan al lector mediante información de **categoría, ubicación, versión o estado** que complementa el título.
 
 Capítulo 01 · ADN
 Quiénes somos
-Una empresa de ingeniería operativa que integra inteligencia artificial a los equipos.
-La etiqueta ubica el contenido dentro de la estructura del manual.
+La etiqueta ubica el contenido dentro del manual.
 
-**(Criterios)**
+**Ficha técnica`KYN-MRK-TYP-005`**
+
+**Criterios**
 
 - Utilizar una etiqueta cuando aporta contexto.
 - Seleccionar la tipografía según la función y el tratamiento editorial.
 - Ajustar el espaciado de acuerdo con las reglas tipográficas correspondientes.
 - Incorporar símbolos cuando contribuyan al significado.
 - Utilizar separadores para organizar metadatos relacionados.
+
+**Especificación vigente en este manual**
+
+| (Elemento) | Especificación |
+|---|---|
+| Fuente | TASA Orbiter 500, en mayúsculas |
+| Tamaño | 13 px |
+| Espaciado | +8 % |
+| Símbolo | Estrella de marca a la izquierda, sin repetirse a la derecha |
+| Separador | Punto medio entre niveles, sin punto final |
 
 #### KYN-MRK-TYP-006 · 8.6 Criterios de aplicación
 
@@ -2205,8 +2215,6 @@ Invertida
 Quiénes somos
 Ingeniería operativa con inteligencia artificial.
 
-El mismo contenido con dos jerarquías: cambia qué elemento es protagonista.
-
 Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio.
 
 La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.
@@ -2219,8 +2227,6 @@ Primero entendemos su operación; después construimos con su equipo y medimos c
 
 1,9 · amplio
 Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.
-
-El mismo párrafo con tres interlineados: el equilibrado es el de lectura.
 
 Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.
 
@@ -2235,8 +2241,6 @@ Cielo propio
 −5 % · en evaluación
 Cielo propio
 
-TASA Orbiter a 32 px con tres ajustes: se elige al ver la palabra completa.
-
 El tracking se ajusta según la fuente, el tamaño y la función del texto.
 
 No se aplican valores negativos o positivos de forma indiscriminada.
@@ -2246,8 +2250,6 @@ Primero **entendemos** su **operación**; **después** construimos **con su equi
 
 Énfasis puntual
 Primero entendemos su operación; **después construimos** con su equipo.
-
-Un solo acento guía la lectura; varios se anulan entre sí.
 
 El peso semibold permite destacar información relevante.
 
@@ -2263,8 +2265,6 @@ Valores operativos · Plus Jakarta Sans
 | Febrero | 98.40 |
 | Marzo | 12 004.10 |
 
-La cifra que cuenta una historia y las cifras que se comparan en columna.
-
 Las cifras operativas utilizan Plus Jakarta Sans.
 
 En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.
@@ -2274,8 +2274,6 @@ Un mismo cielo, ningún horizonte igual
 
 Documento informativo
 **Alcance del servicio**
-
-La expresión en la portada; la lectura en el documento.
 
 TASA Orbiter se reserva para titulares, portadas y cifras con intención editorial.
 
@@ -2295,15 +2293,13 @@ Registro de cliente
 Nombre
 Correo
 
-Al ampliar el texto, las columnas se apilan y nada se corta.
-
 Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.
 
 El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
 
-###### Contenido extenso y agentes de IA
+**Ficha técnica`KYN-MRK-TYP-006`**
 
-**(Antes de componer, identificar)**
+**Contenido extenso y agentes de IA · antes de componer, identificar**
 
 - Medio y formato.
 - Volumen de información.
@@ -2313,7 +2309,7 @@ El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redis
 - Fuentes y escalas aplicables.
 - Elementos especiales: tablas, citas, notas, cifras o etiquetas.
 
-**(Aplicar)**
+**Aplicar**
 
 - Anchura de lectura apropiada.
 - Interlineado estable.
@@ -2336,7 +2332,7 @@ Se conservan las dos familias oficiales. **TASA Orbiter** da presencia; **Plus J
 
 Titular
 
-Titulares protagonistas
+Titulares editoriales
 TASA Orbiter.
 
 Lectura
@@ -2352,7 +2348,11 @@ TASA Orbiter.
 1.240,50
 
 Cifras operativas
-Plus Jakarta Sans. En valores comparables, utilizar cifras tabulares cuando la fuente las admita y la alineación se beneficie de ello.
+Plus Jakarta Sans, con cifras tabulares.
+
+**Ficha técnica`KYN-MRK-TYP-007`**
+
+En valores comparables, utilizar cifras tabulares cuando la fuente las admita y la alineación se beneficie de ello.
 
 #### 8.8 Tracking y espaciado
 
@@ -2360,14 +2360,9 @@ Número: 8.8 · Fuente: `/fundamentos/tipografia/sistema.html#tracking`
 
 ##### Comparar antes de aplicar
 
-Referencia técnica para ajustar el espaciado de letras **según familia, tamaño, longitud y soporte**.
+El espaciado entre letras se ajusta según **la fuente, el tamaño y el propósito** del texto.
 
-- El texto de lectura utiliza el espaciado natural de Plus Jakarta Sans como punto de partida.
-- Los titulares editoriales de TASA Orbiter pueden incorporar ajustes validados para tamaños específicos.
-- Las etiquetas en mayúsculas pueden incorporar espaciado adicional cuando mejora su lectura.
-- Los ajustes expresivos se evalúan según familia, tamaño, longitud y soporte.
-
-**(Pruebas experimentales)**
+**(Explorar)**
 
 Escala
 0 %
@@ -2389,7 +2384,16 @@ El mismo cielo
 El mismo cielo
 El mismo cielo
 
-###### Ajustes registrados
+**Ficha técnica`8.8 · Tracking`**
+
+**Criterios**
+
+- El texto de lectura utiliza el espaciado natural de Plus Jakarta Sans como punto de partida.
+- Los titulares editoriales de TASA Orbiter pueden incorporar ajustes validados para tamaños específicos.
+- Las etiquetas en mayúsculas pueden incorporar espaciado adicional cuando mejora su lectura.
+- Los ajustes expresivos se evalúan según familia, tamaño, longitud y soporte.
+
+**Ajustes registrados**
 
 | (Fuente y contexto) | Tamaño | Ajuste | Estado |
 |---|---|---|---|
@@ -2397,13 +2401,16 @@ El mismo cielo
 | Etiquetas en mayúsculas | 11 a 13 px | +8 % | Vigente |
 | TASA Orbiter · titulares editoriales | 52 px o más | −3 % y −5 % | En evaluación |
 
-**(Mientras se valida)**
+**Mientras se valida**
+
 Rige la escala de KYN-MRK-TYP-002. El texto de cuerpo conserva el espaciado que favorece la lectura.
 
-**(Validación)**
+**Validación**
+
 Comprobar los ajustes con TASA Orbiter y Plus Jakarta Sans, según corresponda; titulares cortos y largos; caracteres con acentos y signos del español; diferentes anchos de pantalla, y ampliación de texto y modificaciones de espaciado.
 
-**(Estado)**
+**Estado**
+
 Propuesta pendiente de validación. No utilizar estos valores para modificar todas las clases de titulares del proyecto ni convertirlos en tokens oficiales hasta que se haya aprobado su aplicación.
 
 #### 8.9 Tipografía para impresión
@@ -2412,7 +2419,29 @@ Número: 8.9 · Fuente: `/fundamentos/tipografia/sistema.html#impreso`
 
 ##### El tamaño depende del soporte
 
-Referencias V1 para piezas impresas y proyectadas. **Los tamaños definitivos se validan en cada soporte.**
+Cada soporte tiene su escala: **documentos, presentaciones y brochures** se leen a distancias distintas.
+
+Alcance del servicio
+Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.
+
+**(Documentos)**
+Cuerpo de 11 a 12 pt
+
+Primero entendemos su operación
+
+**(Presentaciones)**
+Cuerpo de 20 a 28 pt
+
+Diagnóstico
+
+Construcción
+
+Medición
+
+**(Brochures)**
+Según el formato y la distancia
+
+**Ficha técnica`8.9 · Impresión`**
 
 | (Soporte) | Referencia V1 | Verificación |
 |---|---|---|
@@ -2535,10 +2564,6 @@ Número: 9.2.1 · ID: `KYN-MRK-VIS-006` · Estado: vigente · Fuente: `/fundamen
 
 ##### La geometría Keyons, no un radio para todo
 
-**(Problema)**
-Todo redondeado por igual, como en cualquier plantilla.
-
-**(Criterio)**
 La geometría de los elementos debe responder a su función y relación compositiva.
 No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad.
 En las composiciones de Keyons se aplica el principio de contenedores individuales rectos y agrupaciones con combinaciones justificadas de esquinas rectas y curvas.
@@ -2584,7 +2609,7 @@ s32 · 128 px · Aire de sección
 Las separaciones se eligen según la relación entre los elementos y la densidad necesaria. No es obligatorio utilizar grandes espacios en todos los contextos ni comprimir una composición para mostrar más información.
 Cuando la escala no resuelva una necesidad técnica justificada, la excepción debe documentarse en el sistema correspondiente.
 
-### Capítulo 10 · Composición y diagramación
+### Capítulo 10 · Composición
 
 Estado: vigente · Clave: composicion · Ruta: `/fundamentos/composicion/editorial.html`
 
@@ -2601,7 +2626,7 @@ Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, dens
 - Diagramas de información · vigente · `/fundamentos/composicion/editorial.html#diagramas`
 - Ejemplos de aplicación · borrador · `/fundamentos/composicion/editorial.html#ejemplos`
 
-#### Composición y diagramación
+#### Composición
 
 Rótulo: Capítulo 10 · Fundamentos · Fuente: `/fundamentos/composicion/editorial.html`
 
@@ -2657,10 +2682,6 @@ Número: 10.2.1 · ID: `KYN-MRK-VIS-010` · Estado: vigente · Fuente: `/fundame
 
 ##### Ni todo centrado ni todo descompensado
 
-**(Problema)**
-Todo centrado y en columnas idénticas; o lo contrario, asimetrías constantes que desordenan.
-
-**(Criterio)**
 La simetría comunica estabilidad y equivalencia. La asimetría controlada permite establecer diferencias de protagonismo.
 Ninguna debe utilizarse automáticamente.
 
@@ -2709,17 +2730,17 @@ La claridad y la coherencia son obligatorias; una distribución específica de c
 01
 Estructura funcional
 Para interfaces operativas, formularios, dashboards y documentación.
-**(Criterio)** · La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes. La cantidad de columnas se adapta a la tarea y al espacio disponible.
+La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes. La cantidad de columnas se adapta a la tarea y al espacio disponible.
 
 02
 Estructura adaptable
 Para sitios web, páginas informativas y experiencias comerciales.
-**(Criterio)** · Las columnas, los márgenes y las proporciones se ajustan al contenido sin perder coherencia.
+Las columnas, los márgenes y las proporciones se ajustan al contenido sin perder coherencia.
 
 03
 Estructura editorial
 Para campañas, presentaciones, piezas culturales y composiciones expresivas.
-**(Criterio)** · Se permite una mayor experimentación mediante simetría, asimetría y cambios de escala, siempre que el contenido mantenga una lectura clara.
+Se permite una mayor experimentación mediante simetría, asimetría y cambios de escala, siempre que el contenido mantenga una lectura clara.
 
 ###### Cómo se adapta
 
@@ -2768,10 +2789,6 @@ Número: 10.4.1 · ID: `KYN-MRK-VIS-014` · Estado: vigente · Fuente: `/fundame
 
 ##### Intensidad con momentos de reposo
 
-**(Problema)**
-La misma intensidad gráfica en cada sección y en cada elemento, sin pausas.
-
-**(Criterio)**
 La expresión gráfica necesita contraste entre momentos intensos y momentos de reposo.
 El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura.
 
@@ -2869,10 +2886,6 @@ Número: 10.5.1 · ID: `KYN-MRK-VIS-003` · Estado: vigente · Fuente: `/fundame
 
 ##### La jerarquía se construye para cada contenido
 
-**(Problema)**
-Todas las secciones armadas con la misma fórmula: kicker, titular grande, párrafo y tarjetas.
-
-**(Criterio)**
 La composición debe responder a las relaciones y prioridades del contenido.
 Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.
 
@@ -2895,10 +2908,6 @@ Número: 10.5.2 · ID: `KYN-MRK-VIS-009` · Estado: vigente · Fuente: `/fundame
 
 ##### La jerarquía no se hace con adornos
 
-**(Problema)**
-Píldoras, puntos, líneas, estrellas, etiquetas y miniíconos acumulados hasta que nada destaca.
-
-**(Criterio)**
 Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia.
 La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
 
@@ -2952,10 +2961,6 @@ Número: 10.6.1 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundame
 
 ##### Una tarjeta solo cuando agrupa algo
 
-**(Problema)**
-Todo encerrado en tarjetas por costumbre: la página se llena de cajas y pierde jerarquía.
-
-**(Criterio)**
 Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas.
 Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
 
@@ -3086,10 +3091,6 @@ Número: 10.8.1 · ID: `KYN-MRK-VIS-016` · Estado: vigente · Fuente: `/fundame
 
 ##### Una composición con identidad propia
 
-**(Problema)**
-Composiciones aprobadas solo porque se ven modernas, estéticas o siguen una tendencia.
-
-**(Criterio)**
 Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia.
 Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña.
 En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología.
@@ -3732,10 +3733,6 @@ Número: 12.3.1 · ID: `KYN-MRK-VIS-008` · Estado: vigente · Fuente: `/fundame
 
 ##### Un ícono tiene que ayudar a entender
 
-**(Problema)**
-Íconos que decoran títulos o textos sin orientar ni explicar nada.
-
-**(Criterio)**
 No introducir íconos únicamente para decorar textos o títulos.
 Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada.
 
@@ -4656,7 +4653,7 @@ Un proyector lava el color. **4,5:1 para texto de cuerpo y 3:1 para texto grande
 | (Color) | (Sobre Blanco Keyons) | (Sobre Azul Noche) | (Uso) |
 |---|---|---|---|
 | Azul Noche · *#10122A · Gris 1* | **16,7:1** · Texto | es el fondo | Titulares, cuerpo y cifras sobre claro. |
-| Gris 2 · *#3A3C4E* | **9,9:1** · Texto | **1,7:1** · No va en texto | Texto de cuerpo sobre claro. |
+| Gris 2 · *#4B4D60* | **7,5:1** · Texto | **2,2:1** · No va en texto | Texto de cuerpo sobre claro. |
 | Gris 3 · *#6B6D7E* | **4,6:1** · Texto | **3,6:1** · Solo grande | Subtítulos, pie, etiquetas y fuentes. |
 | Gris titular · *#8B8C92* | **3,0:1** · Solo grande | **5,5:1** · Texto | Titulares atenuados desde 24 px. |
 | Blanco Keyons · *#F4F4F4* | es el fondo | **16,7:1** · Texto | Texto sobre Azul Noche. |
@@ -5617,7 +5614,7 @@ El capítulo Criterios visuales se integró en las materias que regulan cada tem
 | KYN-MRK-VIS-002 · Tracking indiscriminado | Tipografía · Tracking (8.8) | Integrada |
 | KYN-MRK-VIS-003 · Jerarquía visual repetitiva | Composición · Jerarquía y densidad | Trasladada |
 | KYN-MRK-VIS-004 · Tarjetas innecesarias | Composición · Patrones de composición | Trasladada |
-| KYN-MRK-VIS-005 · Gradientes ornamentales | Color · Gradientes | Trasladada |
+| KYN-MRK-VIS-005 · Gradientes ornamentales | KYN-MRK-COL-009 · Gradientes | Integrada |
 | KYN-MRK-VIS-006 · Geometría genérica | Geometría y espacio · Radios y curvaturas | Trasladada |
 | KYN-MRK-VIS-007 · Acentos tipográficos repetidos | KYN-MRK-TYP-006 · Énfasis con moderación | Integrada |
 | KYN-MRK-VIS-008 · Iconografía de relleno | Iconografía · Uso | Trasladada |
@@ -5638,10 +5635,6 @@ Número: 28.3.1 · ID: `KYN-MRK-VIS-011` · Estado: vigente · Fuente: `/fundame
 
 ##### El movimiento orienta, no distrae
 
-**(Problema)**
-Animaciones que distraen, cansan o dificultan la operación.
-
-**(Criterio)**
 El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite.
 En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas.
 En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.
@@ -5661,10 +5654,6 @@ Número: 28.3.2 · ID: `KYN-MRK-VIS-015` · Estado: vigente · Fuente: `/fundame
 
 ##### Original, pero siempre comprensible
 
-**(Problema)**
-Funciones, navegación, estados o acciones escondidos para lograr una apariencia diferente.
-
-**(Criterio)**
 La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia.
 La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
 

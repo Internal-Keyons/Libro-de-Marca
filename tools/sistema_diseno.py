@@ -150,10 +150,9 @@ def modulo(i, m, reg):
 
     <!-- Relación con el Libro de Marca: se cita, no se duplica -->
     <section class="ed" id="marca">
-      <div class="ed__label"><span>Módulo {m['n']}</span><span>Libro de Marca</span></div>
+      <div class="ed__label"><span>Módulo {m['n']}</span><span>Relación</span></div>
       <div>
-        <h2 class="ed__title">Normas de marca que aplica</h2>
-        <p class="ed__lead">La fuente oficial de cada una es el <strong>Libro de Marca</strong>. Este módulo las aplica en la interfaz sin duplicarlas.</p>{nota}
+        <h2 class="ed__title">Normas relacionadas</h2>
         <div class="kidx__list sd-refs">
 {chr(10).join(refs)}
         </div>

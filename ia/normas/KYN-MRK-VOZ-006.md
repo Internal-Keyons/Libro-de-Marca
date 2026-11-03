@@ -18,7 +18,7 @@ citada_por: ["KYN-MRK-PRE-005"]
 
 Número: 4.6 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/trato.html#persona`
 
-##### Una voz coherente, en primera o tercera persona
+##### Una voz coherente
 
 Utilizamos la **tercera persona** cuando conviene presentar formalmente a Keyons. La **primera persona plural** expresa nuestros compromisos, decisiones y acciones.
 

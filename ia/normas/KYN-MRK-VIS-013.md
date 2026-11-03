@@ -20,22 +20,20 @@ Número: 4.4.1 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/vocabu
 
 ##### Específico, comprensible y con sentido
 
-**(Problema)**
-Titulares intercambiables, descripciones vacías y expresiones tecnológicas exageradas.
-
-**(Criterio)**
 El contenido debe ser específico, comprensible y significativo.
 No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta.
 
-> Recurso visual: Ejemplo dibujado: «Innovación que transforma el futuro de su negocio»
+> Recurso visual: Muestra visual: Quién podría firmarlo · Qué comunica
 
-**(Uso incorrecto)**
-**Una promesa intercambiable** Lo podría firmar cualquier empresa.
+Promesa intercambiable
 
-> Recurso visual: Ejemplo dibujado: «Su equipo deja de copiar datos a mano entre tres sistemas.»
+Cualquier empresa
+Una promesa
 
-**(Alternativa mejor)**
-Una explicación concreta de lo que cambia para el cliente.
+Explicación concreta
+
+Solo Keyons
+Lo que cambia para el cliente
 
 - **Excepciones**: Ninguna.
 - **Relación**: KYN-MRK-VOZ-002 (Reglas de escritura) y KYN-MRK-VOZ-004 (Vocabulario que evitamos).

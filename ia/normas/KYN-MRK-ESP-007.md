@@ -7,7 +7,7 @@ id: "KYN-MRK-ESP-007"
 titulo: "Diagramas de información"
 numero: "10.7"
 estado: "vigente"
-capitulo: "10 Composición y diagramación"
+capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#diagramas"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-ESP-007 · Diagramas de información
 
-Número: 10.7 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
+Número: 10.7 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
 
 ##### Ordenar ideas, no medirlas
 

@@ -7,7 +7,7 @@ id: "KYN-MRK-ESP-005"
 titulo: "Jerarquía y densidad de información"
 numero: "10.5"
 estado: "vigente"
-capitulo: "10 Composición y diagramación"
+capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#densidad"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-CMP-001", "KYN-MRK-VIS-009", "KYN-MRK-VIS-014"]
 
 # KYN-MRK-ESP-005 · Jerarquía y densidad
 
-Número: 10.5 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#densidad`
+Número: 10.5 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#densidad`
 
 ##### Cuánta información cabe en un espacio
 

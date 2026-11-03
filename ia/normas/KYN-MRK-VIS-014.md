@@ -7,7 +7,7 @@ id: "KYN-MRK-VIS-014"
 titulo: "Maximalismo uniforme"
 numero: "10.4.1"
 estado: "vigente"
-capitulo: "10 Composición y diagramación"
+capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#vis-014"
 referencias: ["KYN-MRK-COL-011", "KYN-MRK-ESP-005"]
@@ -16,14 +16,10 @@ citada_por: []
 
 # KYN-MRK-VIS-014 · Maximalismo uniforme
 
-Número: 10.4.1 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#vis-014`
+Número: 10.4.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-014`
 
 ##### Intensidad con momentos de reposo
 
-**(Problema)**
-La misma intensidad gráfica en cada sección y en cada elemento, sin pausas.
-
-**(Criterio)**
 La expresión gráfica necesita contraste entre momentos intensos y momentos de reposo.
 El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura.
 

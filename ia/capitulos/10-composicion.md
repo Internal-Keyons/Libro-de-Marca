@@ -4,7 +4,7 @@ version: "0.1"
 fecha: "2026-11-03"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "10"
-titulo: "Composición y diagramación"
+titulo: "Composición"
 area: "Fundamentos"
 estado: "vigente"
 rutas: ["/fundamentos/composicion/editorial.html"]
@@ -12,7 +12,7 @@ normas: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-VIS-010", "KYN-MRK-CMP-0
 referencias: ["KYN-MRK-ADN-001", "KYN-MRK-ADN-003", "KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-CMP-003", "KYN-MRK-CMP-004", "KYN-MRK-COL-002", "KYN-MRK-COL-004", "KYN-MRK-COL-011", "KYN-MRK-CON-006", "KYN-MRK-CON-008", "KYN-MRK-DAT-001", "KYN-MRK-DIS-001", "KYN-MRK-ESP-001", "KYN-MRK-ESP-004", "KYN-MRK-ESP-005", "KYN-MRK-ESP-006", "KYN-MRK-ESP-007", "KYN-MRK-ILU-001", "KYN-MRK-LOG-001", "KYN-MRK-LOG-006", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-014", "KYN-MRK-VIS-016", "KYN-MRK-VOZ-003"]
 ---
 
-# Capítulo 10 · Composición y diagramación
+# Capítulo 10 · Composición
 
 Estado: vigente · Clave: composicion · Ruta: `/fundamentos/composicion/editorial.html`
 
@@ -29,7 +29,7 @@ Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, dens
 - Diagramas de información · vigente · `/fundamentos/composicion/editorial.html#diagramas`
 - Ejemplos de aplicación · borrador · `/fundamentos/composicion/editorial.html#ejemplos`
 
-## Composición y diagramación
+## Composición
 
 Rótulo: Capítulo 10 · Fundamentos · Fuente: `/fundamentos/composicion/editorial.html`
 
@@ -85,10 +85,6 @@ Número: 10.2.1 · ID: `KYN-MRK-VIS-010` · Estado: vigente · Fuente: `/fundame
 
 ### Ni todo centrado ni todo descompensado
 
-**(Problema)**
-Todo centrado y en columnas idénticas; o lo contrario, asimetrías constantes que desordenan.
-
-**(Criterio)**
 La simetría comunica estabilidad y equivalencia. La asimetría controlada permite establecer diferencias de protagonismo.
 Ninguna debe utilizarse automáticamente.
 
@@ -137,17 +133,17 @@ La claridad y la coherencia son obligatorias; una distribución específica de c
 01
 Estructura funcional
 Para interfaces operativas, formularios, dashboards y documentación.
-**(Criterio)** · La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes. La cantidad de columnas se adapta a la tarea y al espacio disponible.
+La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes. La cantidad de columnas se adapta a la tarea y al espacio disponible.
 
 02
 Estructura adaptable
 Para sitios web, páginas informativas y experiencias comerciales.
-**(Criterio)** · Las columnas, los márgenes y las proporciones se ajustan al contenido sin perder coherencia.
+Las columnas, los márgenes y las proporciones se ajustan al contenido sin perder coherencia.
 
 03
 Estructura editorial
 Para campañas, presentaciones, piezas culturales y composiciones expresivas.
-**(Criterio)** · Se permite una mayor experimentación mediante simetría, asimetría y cambios de escala, siempre que el contenido mantenga una lectura clara.
+Se permite una mayor experimentación mediante simetría, asimetría y cambios de escala, siempre que el contenido mantenga una lectura clara.
 
 #### Cómo se adapta
 
@@ -196,10 +192,6 @@ Número: 10.4.1 · ID: `KYN-MRK-VIS-014` · Estado: vigente · Fuente: `/fundame
 
 ### Intensidad con momentos de reposo
 
-**(Problema)**
-La misma intensidad gráfica en cada sección y en cada elemento, sin pausas.
-
-**(Criterio)**
 La expresión gráfica necesita contraste entre momentos intensos y momentos de reposo.
 El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura.
 
@@ -297,10 +289,6 @@ Número: 10.5.1 · ID: `KYN-MRK-VIS-003` · Estado: vigente · Fuente: `/fundame
 
 ### La jerarquía se construye para cada contenido
 
-**(Problema)**
-Todas las secciones armadas con la misma fórmula: kicker, titular grande, párrafo y tarjetas.
-
-**(Criterio)**
 La composición debe responder a las relaciones y prioridades del contenido.
 Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.
 
@@ -323,10 +311,6 @@ Número: 10.5.2 · ID: `KYN-MRK-VIS-009` · Estado: vigente · Fuente: `/fundame
 
 ### La jerarquía no se hace con adornos
 
-**(Problema)**
-Píldoras, puntos, líneas, estrellas, etiquetas y miniíconos acumulados hasta que nada destaca.
-
-**(Criterio)**
 Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia.
 La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
 
@@ -380,10 +364,6 @@ Número: 10.6.1 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundame
 
 ### Una tarjeta solo cuando agrupa algo
 
-**(Problema)**
-Todo encerrado en tarjetas por costumbre: la página se llena de cajas y pierde jerarquía.
-
-**(Criterio)**
 Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas.
 Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
 
@@ -514,10 +494,6 @@ Número: 10.8.1 · ID: `KYN-MRK-VIS-016` · Estado: vigente · Fuente: `/fundame
 
 ### Una composición con identidad propia
 
-**(Problema)**
-Composiciones aprobadas solo porque se ven modernas, estéticas o siguen una tendencia.
-
-**(Criterio)**
 Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia.
 Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña.
 En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología.

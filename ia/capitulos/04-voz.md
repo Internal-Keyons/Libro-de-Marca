@@ -188,22 +188,20 @@ Número: 4.4.1 · ID: `KYN-MRK-VIS-013` · Estado: vigente · Fuente: `/marca/vo
 
 ### Específico, comprensible y con sentido
 
-**(Problema)**
-Titulares intercambiables, descripciones vacías y expresiones tecnológicas exageradas.
-
-**(Criterio)**
 El contenido debe ser específico, comprensible y significativo.
 No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta.
 
-> Recurso visual: Ejemplo dibujado: «Innovación que transforma el futuro de su negocio»
+> Recurso visual: Muestra visual: Quién podría firmarlo · Qué comunica
 
-**(Uso incorrecto)**
-**Una promesa intercambiable** Lo podría firmar cualquier empresa.
+Promesa intercambiable
 
-> Recurso visual: Ejemplo dibujado: «Su equipo deja de copiar datos a mano entre tres sistemas.»
+Cualquier empresa
+Una promesa
 
-**(Alternativa mejor)**
-Una explicación concreta de lo que cambia para el cliente.
+Explicación concreta
+
+Solo Keyons
+Lo que cambia para el cliente
 
 - **Excepciones**: Ninguna.
 - **Relación**: KYN-MRK-VOZ-002 (Reglas de escritura) y KYN-MRK-VOZ-004 (Vocabulario que evitamos).
@@ -253,7 +251,7 @@ El tono profesional y cercano debe trasladarse de manera natural al inglés, res
 
 Número: 4.6 · ID: `KYN-MRK-VOZ-006` · Estado: vigente · Fuente: `/marca/trato.html#persona`
 
-### Una voz coherente, en primera o tercera persona
+### Una voz coherente
 
 Utilizamos la **tercera persona** cuando conviene presentar formalmente a Keyons. La **primera persona plural** expresa nuestros compromisos, decisiones y acciones.
 

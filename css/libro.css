@@ -4674,3 +4674,93 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 .cats__how{padding:var(--s5) var(--s6);background:var(--k-cielo-100);border-radius:0 var(--r-component) var(--r-component) 0;font-size:16px;line-height:1.55;color:var(--k-noche)}
 .cats__how .paren{font-size:12px;font-weight:600;letter-spacing:.02em;color:var(--k-noche)}
 .cats__how + .gloss{margin-top:var(--s6)}
+
+/* ═══ Tipografía · tres niveles: lectura, exploración y ficha técnica ═══ */
+.spec{margin-top:var(--s10);box-shadow:inset 0 1px 0 var(--k-cielo-100),inset 0 -1px 0 var(--k-cielo-100)}
+.spec summary{display:flex;align-items:center;gap:var(--s3);padding:var(--s4) 0;cursor:pointer;list-style:none;font-size:13px;color:var(--color-text-3)}
+.spec summary::-webkit-details-marker{display:none}
+.spec summary::after{content:"+";margin-left:auto;font-size:16px;color:var(--color-text-3)}
+.spec[open] summary::after{content:"−"}
+.spec summary span{font-weight:600;color:var(--k-noche)}
+.spec summary code{font-family:inherit;font-size:12px}
+.spec summary:hover span,.spec summary:focus-visible span{text-decoration:underline;text-decoration-color:var(--k-cielo);text-underline-offset:4px}
+.spec__body{padding:var(--s2) 0 var(--s8)}
+.spec__body > p{max-width:72ch;margin-top:var(--s3);font-size:15px;line-height:1.6;color:var(--color-text-2)}
+.spec__h{margin-top:var(--s8);font-size:14px;font-weight:600;color:var(--k-noche)}
+.spec__h:first-child{margin-top:var(--s4)}
+.spec__n{font-size:13px!important;color:var(--color-text-3)!important}
+.spec .matrix{margin-top:var(--s4)}
+.vlist--1{grid-template-columns:minmax(0,1fr)}
+.spec-link{display:inline-block;margin-top:var(--s5);font-size:13px;color:var(--color-text-3);text-decoration:underline;text-decoration-color:var(--k-cielo);text-underline-offset:4px}
+.spec-link:hover{color:var(--k-noche)}
+/* 8.2 · nueve niveles: nombre, rango y familia */
+.szc__m{color:var(--color-text-3)}
+/* 8.2 · selector de jerarquía */
+.tjx{margin-top:var(--s12)}
+.tjx__bar{display:flex;gap:var(--s2)}
+.tjx__bar button,.tester__ex button{padding:5px 14px;border-radius:var(--r-pill);font-size:12px;font-weight:500;color:var(--color-text-2);box-shadow:inset 0 0 0 1px var(--color-border-strong)}
+.tjx__bar button[aria-pressed="true"],.tester__ex button[aria-pressed="true"]{background:var(--k-noche);color:var(--k-blanco);box-shadow:none}
+.tjx__stage{margin-top:var(--s6);padding:var(--s10) 0;box-shadow:inset 0 1px 0 var(--k-cielo-100),inset 0 -1px 0 var(--k-cielo-100)}
+.tjx__stage p{margin:0;max-width:30ch;transition:font-size .45s var(--e-out),color .45s var(--e-out)}
+.tjx__ctx{font-weight:500;line-height:1.05;letter-spacing:-.02em;color:var(--k-noche)}
+.tjx__dec{margin-top:var(--s4)!important;font-weight:500;line-height:1.2;letter-spacing:-.015em}
+.tjx__sec{max-width:56ch!important;margin-top:var(--s5)!important;font-size:16px;line-height:1.6;color:var(--color-text-2)}
+.tjx__stage.is-trad .tjx__ctx{font-family:var(--font-display);font-size:clamp(40px,4.8vw,64px)}
+.tjx__stage.is-trad .tjx__dec{font-size:clamp(18px,1.6vw,21px);color:var(--color-text-2)}
+.tjx__stage.is-inv .tjx__ctx{font-size:16px;font-weight:600}
+.tjx__stage.is-inv .tjx__dec{max-width:24ch;font-size:clamp(28px,3vw,42px);color:var(--k-gris-3)}
+.tjx__note{margin-top:var(--s4);font-size:14px;color:var(--color-text-3)}
+@media(prefers-reduced-motion:reduce){.tjx__stage p{transition:none}}
+/* 8.2 · modelos de lectura */
+.tmod{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s10);margin-top:var(--s12)}
+.tmod figure{margin:0}
+.tmod__s{height:140px;padding:var(--s5);background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border)}
+.tmod figure:first-child .tmod__s{border-radius:0 var(--r-component) var(--r-component) 0}
+.tmod figure:last-child .tmod__s{border-radius:var(--r-component) 0 0 var(--r-component)}
+.tmod__s b{display:block;width:40%;height:7px;border-radius:3px;background:var(--k-noche)}
+.tmod__s b.m{margin-top:14px;width:28%}
+.tmod__s i{display:block;width:72%;height:4px;margin-top:7px;border-radius:2px;background:var(--k-gris-300)}
+.tmod__s i.s{width:48%}
+.tmod__s--mod{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.tmod__s--mod span{padding-top:10px;box-shadow:inset 0 2px 0 var(--k-cielo)}
+.tmod__s--mod b{width:70%}
+.tmod__s--mod i{width:100%}
+.tmod figcaption{margin-top:var(--s4)}
+.tmod figcaption .paren{display:block;font-size:13px;color:var(--color-text-3)}
+.tmod figcaption p{max-width:44ch;margin-top:var(--s1);font-size:16px;line-height:1.55;color:var(--color-text-2)}
+@media(max-width:760px){.tmod{grid-template-columns:minmax(0,1fr)}.tmod__s{border-radius:0!important}}
+/* 8.3 · explorar parámetros */
+.tester__ex{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s2);padding:var(--s4) 0;border-top:1px solid var(--color-border)}
+.tester__ex .paren{margin:0 var(--s1) 0 var(--s3);font-size:12px;color:var(--color-text-3)}
+.tester__ex .paren:first-child{margin-left:0}
+/* 8.5 · etiqueta de contexto, presentación abierta */
+.tlab2{margin-top:var(--s10)}
+.tlab2__t{margin-top:var(--s3);font-size:clamp(30px,3.2vw,44px);font-weight:500;line-height:1.05;letter-spacing:-.025em;color:var(--k-noche)}
+.tlab2__n{margin-top:var(--s5);font-size:14px;color:var(--color-text-3)}
+/* 8.9 · guía visual de impresión */
+.tprint{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s3);margin-top:var(--s10)}
+.tprint figure{margin:0}
+.tprint__s{height:180px;padding:var(--s5);overflow:hidden;background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border)}
+.tprint figure:first-child .tprint__s{border-radius:0 var(--r-component) var(--r-component) 0}
+.tprint figure:nth-child(2) .tprint__s{border-radius:var(--r-component)}
+.tprint figure:last-child .tprint__s{border-radius:var(--r-component) 0 0 var(--r-component)}
+.tprint__h{font-size:12px;font-weight:600;color:var(--k-noche)}
+.tprint__s--doc .tprint__p{margin-top:6px;font-size:11px;line-height:1.5;color:var(--color-text-2)}
+.tprint__s--deck{display:flex;align-items:flex-end;aspect-ratio:16/9;height:auto}
+.tprint__s--deck .tprint__p{font-size:22px;font-weight:500;line-height:1.15;color:var(--k-noche)}
+.tprint__s--bro{display:grid;grid-template-columns:repeat(3,1fr);gap:0;padding:0}
+.tprint__s--bro span{padding:var(--s4) var(--s3)}
+.tprint__s--bro span + span{box-shadow:inset 1px 0 0 var(--k-cielo-100)}
+.tprint__s--bro .tprint__p{margin-top:6px;font-size:13px;line-height:1.4;color:var(--color-text-2)}
+.tprint figcaption{margin-top:var(--s3)}
+.tprint figcaption .paren{display:block;font-size:13px;color:var(--color-text-3)}
+.tprint figcaption p{margin-top:2px;font-size:15px;color:var(--k-noche)}
+@media(max-width:760px){.tprint{grid-template-columns:minmax(0,1fr)}.tprint__s{border-radius:0!important}}
+
+/* 8.9 · las tres muestras con la misma altura; el brochure se lee en tres paneles */
+.tprint__s--deck{aspect-ratio:auto;height:180px}
+.tprint__s--bro i{display:block;width:100%;height:4px;margin-top:8px;border-radius:2px;background:var(--k-gris-300)}
+.tprint__s--bro i.s{width:60%}
+.tprint__s--bro .tprint__h{margin-bottom:6px}
+.tprint__s--bro span{min-width:0;padding:var(--s4) var(--s2) var(--s4) var(--s3)}
+.tprint__s--bro .tprint__h{font-size:11px;overflow-wrap:anywhere;hyphens:auto}

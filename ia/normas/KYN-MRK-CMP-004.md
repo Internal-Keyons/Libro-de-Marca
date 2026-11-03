@@ -7,7 +7,7 @@ id: "KYN-MRK-CMP-004"
 titulo: "Ritmo y equilibrio visual"
 numero: "10.4"
 estado: "vigente"
-capitulo: "10 Composición y diagramación"
+capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#ritmo"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-CMP-004 · Ritmo y equilibrio
 
-Número: 10.4 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#ritmo`
+Número: 10.4 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#ritmo`
 
 ##### Pausas y cambios
 

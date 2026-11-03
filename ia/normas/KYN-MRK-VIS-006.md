@@ -20,10 +20,6 @@ Número: 9.2.1 · Estado: vigente · Capítulo: 09 Geometría y espacio · Fuent
 
 ##### La geometría Keyons, no un radio para todo
 
-**(Problema)**
-Todo redondeado por igual, como en cualquier plantilla.
-
-**(Criterio)**
 La geometría de los elementos debe responder a su función y relación compositiva.
 No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad.
 En las composiciones de Keyons se aplica el principio de contenedores individuales rectos y agrupaciones con combinaciones justificadas de esquinas rectas y curvas.

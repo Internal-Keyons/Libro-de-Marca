@@ -7,7 +7,7 @@ id: "KYN-MRK-VIS-010"
 titulo: "Simetría automática"
 numero: "10.2.1"
 estado: "vigente"
-capitulo: "10 Composición y diagramación"
+capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#vis-010"
 referencias: ["KYN-MRK-ESP-004"]
@@ -16,14 +16,10 @@ citada_por: ["KYN-MRK-CMP-002"]
 
 # KYN-MRK-VIS-010 · Simetría automática
 
-Número: 10.2.1 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#vis-010`
+Número: 10.2.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-010`
 
 ##### Ni todo centrado ni todo descompensado
 
-**(Problema)**
-Todo centrado y en columnas idénticas; o lo contrario, asimetrías constantes que desordenan.
-
-**(Criterio)**
 La simetría comunica estabilidad y equivalencia. La asimetría controlada permite establecer diferencias de protagonismo.
 Ninguna debe utilizarse automáticamente.
 

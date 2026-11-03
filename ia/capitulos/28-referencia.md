@@ -9,7 +9,7 @@ area: "Recursos"
 estado: "borrador"
 rutas: ["/recursos/referencia.html", "/fundamentos/criterio/antipatrones.html"]
 normas: ["KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-VIS-011", "KYN-MRK-VIS-015"]
-referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-012", "KYN-MRK-DIS-005", "KYN-MRK-ICO-004", "KYN-MRK-ILU-006", "KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-VIS-001", "KYN-MRK-VIS-002", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-005", "KYN-MRK-VIS-006", "KYN-MRK-VIS-007", "KYN-MRK-VIS-008", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-011", "KYN-MRK-VIS-012", "KYN-MRK-VIS-013", "KYN-MRK-VIS-014", "KYN-MRK-VIS-015", "KYN-MRK-VIS-016"]
+referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-009", "KYN-MRK-COL-012", "KYN-MRK-DIS-005", "KYN-MRK-ICO-004", "KYN-MRK-ILU-006", "KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-VIS-001", "KYN-MRK-VIS-002", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-005", "KYN-MRK-VIS-006", "KYN-MRK-VIS-007", "KYN-MRK-VIS-008", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-011", "KYN-MRK-VIS-012", "KYN-MRK-VIS-013", "KYN-MRK-VIS-014", "KYN-MRK-VIS-015", "KYN-MRK-VIS-016"]
 ---
 
 # Capítulo 28 · Referencia
@@ -140,7 +140,7 @@ El capítulo Criterios visuales se integró en las materias que regulan cada tem
 | KYN-MRK-VIS-002 · Tracking indiscriminado | Tipografía · Tracking (8.8) | Integrada |
 | KYN-MRK-VIS-003 · Jerarquía visual repetitiva | Composición · Jerarquía y densidad | Trasladada |
 | KYN-MRK-VIS-004 · Tarjetas innecesarias | Composición · Patrones de composición | Trasladada |
-| KYN-MRK-VIS-005 · Gradientes ornamentales | Color · Gradientes | Trasladada |
+| KYN-MRK-VIS-005 · Gradientes ornamentales | KYN-MRK-COL-009 · Gradientes | Integrada |
 | KYN-MRK-VIS-006 · Geometría genérica | Geometría y espacio · Radios y curvaturas | Trasladada |
 | KYN-MRK-VIS-007 · Acentos tipográficos repetidos | KYN-MRK-TYP-006 · Énfasis con moderación | Integrada |
 | KYN-MRK-VIS-008 · Iconografía de relleno | Iconografía · Uso | Trasladada |
@@ -161,10 +161,6 @@ Número: 28.3.1 · ID: `KYN-MRK-VIS-011` · Estado: vigente · Fuente: `/fundame
 
 ### El movimiento orienta, no distrae
 
-**(Problema)**
-Animaciones que distraen, cansan o dificultan la operación.
-
-**(Criterio)**
 El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite.
 En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas.
 En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.
@@ -184,10 +180,6 @@ Número: 28.3.2 · ID: `KYN-MRK-VIS-015` · Estado: vigente · Fuente: `/fundame
 
 ### Original, pero siempre comprensible
 
-**(Problema)**
-Funciones, navegación, estados o acciones escondidos para lograr una apariencia diferente.
-
-**(Criterio)**
 La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia.
 La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
 

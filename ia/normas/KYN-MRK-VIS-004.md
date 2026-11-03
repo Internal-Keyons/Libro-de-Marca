@@ -7,7 +7,7 @@ id: "KYN-MRK-VIS-004"
 titulo: "Tarjetas innecesarias"
 numero: "10.6.1"
 estado: "vigente"
-capitulo: "10 Composición y diagramación"
+capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#vis-004"
 referencias: ["KYN-MRK-ESP-001", "KYN-MRK-ESP-006"]
@@ -16,14 +16,10 @@ citada_por: []
 
 # KYN-MRK-VIS-004 · Tarjetas innecesarias
 
-Número: 10.6.1 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#vis-004`
+Número: 10.6.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-004`
 
 ##### Una tarjeta solo cuando agrupa algo
 
-**(Problema)**
-Todo encerrado en tarjetas por costumbre: la página se llena de cajas y pierde jerarquía.
-
-**(Criterio)**
 Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas.
 Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
 

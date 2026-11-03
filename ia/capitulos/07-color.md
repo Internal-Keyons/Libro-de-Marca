@@ -8,8 +8,8 @@ titulo: "Color"
 area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/color/paleta-base.html", "/fundamentos/color/escalas.html", "/fundamentos/color/cielos.html", "/fundamentos/color/por-modo.html", "/fundamentos/color/funcionales.html"]
-normas: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-VIS-012", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-VIS-005", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015"]
-referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015", "KYN-MRK-CON-002", "KYN-MRK-CON-008", "KYN-MRK-VIS-005", "KYN-MRK-VIS-012"]
+normas: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-VIS-012", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015"]
+referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015", "KYN-MRK-CON-002", "KYN-MRK-VIS-012"]
 ---
 
 # Capítulo 07 · Color
@@ -167,22 +167,26 @@ Número: 7.5.1 · ID: `KYN-MRK-VIS-012` · Estado: vigente · Fuente: `/fundamen
 
 ### Delicado, pero siempre legible
 
-**(Problema)**
-Textos, controles o datos delicados que no se pueden leer.
-
-**(Criterio)**
 La delicadeza visual no justifica textos, controles ni datos ilegibles.
 El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.
 
-> Recurso visual: Ejemplo dibujado: Actualizado hace 5 minutos#C7C8CB · 1,5 : 1
+> Recurso visual: Muestra visual: Color · Contraste sobre Blanco Keyons · Resultado
 
-**(Uso incorrecto)**
-**Texto gris claro sobre Blanco Keyons** Elegido para «verse elegante», sin medir su contraste.
+Uso incorrecto
 
-> Recurso visual: Ejemplo dibujado: Actualizado hace 5 minutos#6B6D7E · 4,6 : 1
+Actualizado hace 5 minutos
 
-**(Alternativa mejor)**
-Los grises tipográficos oficiales, con su contraste verificado.
+#C7C8CB
+1,5 : 1
+No se puede leer
+
+Alternativa mejor
+
+Actualizado hace 5 minutos
+
+#6B6D7E
+4,6 : 1
+Legible · AA
 
 - **Excepciones**: Los controles inactivos tienen las excepciones previstas por WCAG. Esa excepción no autoriza a presentar información necesaria con contraste insuficiente. Distinguir los separadores decorativos de los bordes e indicadores necesarios para comprender una interfaz.
 - **Relación**: KYN-MRK-COL-005 (Combinaciones) y KYN-MRK-COL-013 (Grises tipográficos).
@@ -313,6 +317,8 @@ Número: 7.9 · ID: `KYN-MRK-COL-009` · Estado: vigente · Fuente: `/fundamento
 
 Cuando la fotografía no aplica, el gradiente traduce el cielo. **De tres a seis colores** del cielo dominante, que debe reconocerse sin dudas.
 
+Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.
+
 **(Orgánico)** · Punto focal, asimetría y zonas de calma.
 
 **(Lineal bien hecho)** · Un cielo visto desde tierra: varias paradas, sin bandas.
@@ -336,36 +342,7 @@ Una zona densa y una tranquila. En los orgánicos, además, la asimetría es int
 **(Orgánico o lineal)**
 Los dos se permiten si están bien hechos. El lineal funciona como fondo sutil o para emular un cielo visto en vertical; el orgánico, cuando el cielo es protagonista.
 
-**(Herramientas)**
-Mallas de Illustrator, blur sobre formas en Photoshop, plugins de Figma para mallas o generadores dedicados.
-
 Un gradiente que no cumple estas reglas no es un gradiente Keyons.
-
-## KYN-MRK-VIS-005 · 7.9.1 Degradados
-
-Número: 7.9.1 · ID: `KYN-MRK-VIS-005` · Estado: vigente · Fuente: `/fundamentos/color/cielos.html#vis-005`
-
-### Un degradado necesita un concepto
-
-**(Problema)**
-Degradados agregados para que una sección parezca tecnológica o moderna.
-
-**(Criterio)**
-Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.
-No agregarlos solamente para que una sección parezca tecnológica o moderna.
-
-> Recurso visual: Ejemplo dibujado: Primero entendemos su operación; después construimos.
-
-**(Uso incorrecto)**
-**Un degradado violeta a cian detrás de un texto** Sin relación con el contenido ni con los cielos de Keyons.
-
-> Recurso visual: Ejemplo dibujado: Primero entendemos su operación; después construimos.
-
-**(Alternativa mejor)**
-Un cielo oficial como atmósfera, con el texto en su zona de calma. El degradado no es obligatorio en cada pieza.
-
-- **Excepciones**: Los degradados oficiales de cielo, usados según su norma.
-- **Relación**: KYN-MRK-COL-009 (Gradientes) y KYN-MRK-CON-008 (Anti-referentes).
 
 ## Color por modo
 
@@ -458,7 +435,7 @@ Los colores que hacen funcionar la interfaz: texto, estados, acciones y superfic
 
 Número: 7.14 · ID: `KYN-MRK-COL-013` · Estado: vigente · Fuente: `/fundamentos/color/funcionales.html#grises`
 
-### Cinco grises con nombre propio
+### Cuatro grises y un divisor
 
 Una escala independiente: **códigos propios, no opacidades** del Azul Noche. Así el contraste es exacto en cualquier pantalla.
 
@@ -470,7 +447,7 @@ Keyons diseña la IA alrededor de cómo ya trabaja su equipo.
 
 Nivel 2 · texto secundario
 El sistema cambia con su operación.
-9.9:1 · AAA
+7.5:1 · AAA
 
 Nivel 3 · texto terciario
 Actualizado hace 5 minutos
@@ -480,8 +457,8 @@ Nivel 4 · deshabilitado
 Acción no disponible
 2.1:1 · Sin requisito
 
-Nivel 5 · divisor
-1.2:1 · Sin requisito
+Divisor · Azul Cielo 100
+Líneas y separadores · Sin requisito
 
 El deshabilitado no necesita contraste mínimo; nunca se usa para texto que hay que leer.
 

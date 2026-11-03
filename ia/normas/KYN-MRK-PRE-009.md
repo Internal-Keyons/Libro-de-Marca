@@ -25,7 +25,7 @@ Un proyector lava el color. **4,5:1 para texto de cuerpo y 3:1 para texto grande
 | (Color) | (Sobre Blanco Keyons) | (Sobre Azul Noche) | (Uso) |
 |---|---|---|---|
 | Azul Noche · *#10122A · Gris 1* | **16,7:1** · Texto | es el fondo | Titulares, cuerpo y cifras sobre claro. |
-| Gris 2 · *#3A3C4E* | **9,9:1** · Texto | **1,7:1** · No va en texto | Texto de cuerpo sobre claro. |
+| Gris 2 · *#4B4D60* | **7,5:1** · Texto | **2,2:1** · No va en texto | Texto de cuerpo sobre claro. |
 | Gris 3 · *#6B6D7E* | **4,6:1** · Texto | **3,6:1** · Solo grande | Subtítulos, pie, etiquetas y fuentes. |
 | Gris titular · *#8B8C92* | **3,0:1** · Solo grande | **5,5:1** · Texto | Titulares atenuados desde 24 px. |
 | Blanco Keyons · *#F4F4F4* | es el fondo | **16,7:1** · Texto | Texto sobre Azul Noche. |

@@ -164,7 +164,6 @@
       "KYN-MRK-COL-007",
       "KYN-MRK-COL-008",
       "KYN-MRK-COL-009",
-      "KYN-MRK-VIS-005",
       "KYN-MRK-COL-010",
       "KYN-MRK-COL-011",
       "KYN-MRK-COL-012",
@@ -213,7 +212,7 @@
     {
      "n": "10",
      "clave": "composicion",
-     "titulo": "Composición y diagramación",
+     "titulo": "Composición",
      "estado": "vigente",
      "descripcion": "Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, densidad, patrones y diagramas.",
      "rutas": [
@@ -806,9 +805,7 @@
    "fuente": "/fundamentos/color/cielos.html#gradientes",
    "markdown": "/ia/normas/KYN-MRK-COL-009.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-005"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-COL-010",
@@ -1011,7 +1008,6 @@
    "markdown": "/ia/normas/KYN-MRK-CON-008.md",
    "referencias": [],
    "citada_por": [
-    "KYN-MRK-VIS-005",
     "KYN-MRK-VIS-016"
    ]
   },
@@ -2039,7 +2035,9 @@
    "fuente": "/fundamentos/tipografia/sistema.html#escala",
    "markdown": "/ia/normas/KYN-MRK-TYP-002.md",
    "referencias": [],
-   "citada_por": []
+   "citada_por": [
+    "KYN-MRK-TYP-004"
+   ]
   },
   {
    "id": "KYN-MRK-TYP-003",
@@ -2064,7 +2062,9 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/tipografia/sistema.html#titular",
    "markdown": "/ia/normas/KYN-MRK-TYP-004.md",
-   "referencias": [],
+   "referencias": [
+    "KYN-MRK-TYP-002"
+   ],
    "citada_por": []
   },
   {
@@ -2158,17 +2158,10 @@
   {
    "id": "KYN-MRK-VIS-005",
    "titulo": "Gradientes ornamentales",
-   "numero": "7.9.1",
-   "rotulo": "Degradados",
-   "estado": "vigente",
-   "capitulo": "07",
-   "area": "fundamentos",
+   "numero": "7.9",
+   "estado": "integrada",
    "fuente": "/fundamentos/color/cielos.html#vis-005",
-   "markdown": "/ia/normas/KYN-MRK-VIS-005.md",
-   "referencias": [
-    "KYN-MRK-COL-009",
-    "KYN-MRK-CON-008"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {

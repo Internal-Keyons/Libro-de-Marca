@@ -18,7 +18,7 @@ citada_por: ["KYN-MRK-PRE-009", "KYN-MRK-VIS-012"]
 
 Número: 7.14 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos/color/funcionales.html#grises`
 
-##### Cinco grises con nombre propio
+##### Cuatro grises y un divisor
 
 Una escala independiente: **códigos propios, no opacidades** del Azul Noche. Así el contraste es exacto en cualquier pantalla.
 
@@ -30,7 +30,7 @@ Keyons diseña la IA alrededor de cómo ya trabaja su equipo.
 
 Nivel 2 · texto secundario
 El sistema cambia con su operación.
-9.9:1 · AAA
+7.5:1 · AAA
 
 Nivel 3 · texto terciario
 Actualizado hace 5 minutos
@@ -40,7 +40,7 @@ Nivel 4 · deshabilitado
 Acción no disponible
 2.1:1 · Sin requisito
 
-Nivel 5 · divisor
-1.2:1 · Sin requisito
+Divisor · Azul Cielo 100
+Líneas y separadores · Sin requisito
 
 El deshabilitado no necesita contraste mínimo; nunca se usa para texto que hay que leer.

@@ -20,22 +20,26 @@ Número: 7.5.1 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamento
 
 ##### Delicado, pero siempre legible
 
-**(Problema)**
-Textos, controles o datos delicados que no se pueden leer.
-
-**(Criterio)**
 La delicadeza visual no justifica textos, controles ni datos ilegibles.
 El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.
 
-> Recurso visual: Ejemplo dibujado: Actualizado hace 5 minutos#C7C8CB · 1,5 : 1
+> Recurso visual: Muestra visual: Color · Contraste sobre Blanco Keyons · Resultado
 
-**(Uso incorrecto)**
-**Texto gris claro sobre Blanco Keyons** Elegido para «verse elegante», sin medir su contraste.
+Uso incorrecto
 
-> Recurso visual: Ejemplo dibujado: Actualizado hace 5 minutos#6B6D7E · 4,6 : 1
+Actualizado hace 5 minutos
 
-**(Alternativa mejor)**
-Los grises tipográficos oficiales, con su contraste verificado.
+#C7C8CB
+1,5 : 1
+No se puede leer
+
+Alternativa mejor
+
+Actualizado hace 5 minutos
+
+#6B6D7E
+4,6 : 1
+Legible · AA
 
 - **Excepciones**: Los controles inactivos tienen las excepciones previstas por WCAG. Esa excepción no autoriza a presentar información necesaria con contraste insuficiente. Distinguir los separadores decorativos de los bordes e indicadores necesarios para comprender una interfaz.
 - **Relación**: KYN-MRK-COL-005 (Combinaciones) y KYN-MRK-COL-013 (Grises tipográficos).

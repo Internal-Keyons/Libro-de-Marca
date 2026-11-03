@@ -428,7 +428,20 @@
     };
     const inp = tb.querySelector('.tester__in'), out = tb.querySelector('.tester__out'), meta = tb.querySelector('.tester__meta');
     let lv = 'display';
-    const draw = () => { out.textContent = inp.value || ' '; out.className = 'tester__out ' + LV[lv][0]; meta.textContent = LV[lv][1]; };
+    const EX = { w: '500', lh: '1.3', ls: '0' };
+    const draw = () => {
+      out.textContent = inp.value || ' '; out.className = 'tester__out ' + LV[lv][0];
+      if (tb.querySelector('.tester__ex')) {
+        out.style.fontWeight = EX.w; out.style.lineHeight = EX.lh; out.style.letterSpacing = EX.ls + 'em';
+        const tr = EX.ls === '0' ? '0 % · aprobado' : `${Math.round(EX.ls * -100) * -1} % · experimental`.replace('-', '−');
+        meta.textContent = `${LV[lv][1].split(' · ').filter((x) => !/^(espaciado|interlineado)/.test(x)).join(' · ')} · peso ${EX.w} · interlineado ${EX.lh.replace('.', ',')} · tracking ${tr}`;
+      } else meta.textContent = LV[lv][1];
+    };
+    tb.querySelectorAll('.tester__ex [data-w], .tester__ex [data-lh], .tester__ex [data-ls]').forEach((b) => b.addEventListener('click', () => {
+      const k = b.dataset.w ? 'w' : b.dataset.lh ? 'lh' : 'ls';
+      EX[k] = b.dataset[k];
+      tb.querySelectorAll(`.tester__ex [data-${k}]`).forEach((o) => o.setAttribute('aria-pressed', String(o === b))); draw();
+    }));
     inp.addEventListener('input', () => { draw(); drawCfg(); });
     tb.querySelectorAll('[data-lv]').forEach((b) => b.addEventListener('click', () => {
       lv = b.dataset.lv; tb.querySelectorAll('[data-lv]').forEach((o) => o.setAttribute('aria-pressed', o === b)); draw();
@@ -449,6 +462,7 @@
     if (!tabs) return;
     trk.dataset.v = '1';
     const fit = () => {
+      if (tabs.hasAttribute('data-always')) { trk.classList.add('is-one'); tabs.hidden = false; return; }
       trk.classList.remove('is-one');
       const over = [...trk.querySelectorAll('.trk__s')].some((s) => s.scrollWidth > s.parentElement.clientWidth + 1);
       trk.classList.toggle('is-one', over); tabs.hidden = !over;
@@ -458,6 +472,19 @@
     }));
     fit(); addEventListener('load', fit); let ft; addEventListener('resize', () => { clearTimeout(ft); ft = setTimeout(fit, 150); });
   });
+
+  /* 8.2 · Jerarquía: la misma composición, tradicional o invertida */
+  document.querySelectorAll('[data-tjx]').forEach((tj) => {
+    const st = tj.querySelector('.tjx__stage'), note = tj.querySelector('.tjx__note');
+    tj.querySelectorAll('[data-j]').forEach((b) => b.addEventListener('click', () => {
+      st.classList.toggle('is-trad', b.dataset.j === 'trad'); st.classList.toggle('is-inv', b.dataset.j === 'inv');
+      note.textContent = note.dataset[b.dataset.j];
+      tj.querySelectorAll('[data-j]').forEach((o) => o.setAttribute('aria-pressed', String(o === b)));
+    }));
+  });
+  /* Fichas técnicas: se abren desde su enlace permanente (#ficha-…) */
+  const openSpec = () => { const d = location.hash && document.getElementById(location.hash.slice(1)); if (d && d.matches('details.spec')) { d.open = true; requestAnimationFrame(() => d.scrollIntoView({ block: 'start' })); } };
+  addEventListener('hashchange', openSpec); openSpec();
 
   /* Escalas tonales: flechas que avanzan de a varias fichas */
   document.addEventListener('click', (e) => {

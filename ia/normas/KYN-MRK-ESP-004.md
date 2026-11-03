@@ -7,7 +7,7 @@ id: "KYN-MRK-ESP-004"
 titulo: "Retícula y responsive"
 numero: "10.3.1"
 estado: "vigente"
-capitulo: "10 Composición y diagramación"
+capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#reticula"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: ["KYN-MRK-CMP-003", "KYN-MRK-VIS-010"]
 
 # KYN-MRK-ESP-004 · Retícula y responsive
 
-Número: 10.3.1 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#reticula`
+Número: 10.3.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#reticula`
 
 ##### Un piso, no un techo
 
@@ -27,17 +27,17 @@ La claridad y la coherencia son obligatorias; una distribución específica de c
 01
 Estructura funcional
 Para interfaces operativas, formularios, dashboards y documentación.
-**(Criterio)** · La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes. La cantidad de columnas se adapta a la tarea y al espacio disponible.
+La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes. La cantidad de columnas se adapta a la tarea y al espacio disponible.
 
 02
 Estructura adaptable
 Para sitios web, páginas informativas y experiencias comerciales.
-**(Criterio)** · Las columnas, los márgenes y las proporciones se ajustan al contenido sin perder coherencia.
+Las columnas, los márgenes y las proporciones se ajustan al contenido sin perder coherencia.
 
 03
 Estructura editorial
 Para campañas, presentaciones, piezas culturales y composiciones expresivas.
-**(Criterio)** · Se permite una mayor experimentación mediante simetría, asimetría y cambios de escala, siempre que el contenido mantenga una lectura clara.
+Se permite una mayor experimentación mediante simetría, asimetría y cambios de escala, siempre que el contenido mantenga una lectura clara.
 
 ###### Cómo se adapta
 

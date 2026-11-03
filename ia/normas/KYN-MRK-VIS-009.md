@@ -7,7 +7,7 @@ id: "KYN-MRK-VIS-009"
 titulo: "Saturación de microelementos"
 numero: "10.5.2"
 estado: "vigente"
-capitulo: "10 Composición y diagramación"
+capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#vis-009"
 referencias: ["KYN-MRK-CON-006", "KYN-MRK-ESP-005", "KYN-MRK-ILU-001"]
@@ -16,14 +16,10 @@ citada_por: []
 
 # KYN-MRK-VIS-009 · Microelementos
 
-Número: 10.5.2 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#vis-009`
+Número: 10.5.2 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-009`
 
 ##### La jerarquía no se hace con adornos
 
-**(Problema)**
-Píldoras, puntos, líneas, estrellas, etiquetas y miniíconos acumulados hasta que nada destaca.
-
-**(Criterio)**
 Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia.
 La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
 

@@ -7,7 +7,7 @@ id: "KYN-MRK-VIS-003"
 titulo: "Jerarquía visual repetitiva"
 numero: "10.5.1"
 estado: "vigente"
-capitulo: "10 Composición y diagramación"
+capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#vis-003"
 referencias: ["KYN-MRK-ESP-006"]
@@ -16,14 +16,10 @@ citada_por: []
 
 # KYN-MRK-VIS-003 · Jerarquía repetida
 
-Número: 10.5.1 · Estado: vigente · Capítulo: 10 Composición y diagramación · Fuente: `/fundamentos/composicion/editorial.html#vis-003`
+Número: 10.5.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-003`
 
 ##### La jerarquía se construye para cada contenido
 
-**(Problema)**
-Todas las secciones armadas con la misma fórmula: kicker, titular grande, párrafo y tarjetas.
-
-**(Criterio)**
 La composición debe responder a las relaciones y prioridades del contenido.
 Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.
 

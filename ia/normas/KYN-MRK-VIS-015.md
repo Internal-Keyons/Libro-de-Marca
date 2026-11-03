@@ -20,10 +20,6 @@ Número: 28.3.2 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/fund
 
 ##### Original, pero siempre comprensible
 
-**(Problema)**
-Funciones, navegación, estados o acciones escondidos para lograr una apariencia diferente.
-
-**(Criterio)**
 La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia.
 La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
 

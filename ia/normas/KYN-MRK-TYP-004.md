@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "08 Tipografía"
 area: "Fundamentos"
 fuente: "/fundamentos/tipografia/sistema.html#titular"
-referencias: []
+referencias: ["KYN-MRK-TYP-002"]
 citada_por: []
 ---
 
@@ -20,9 +20,7 @@ Número: 8.4 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundam
 
 ##### Título, entrada y cierre
 
-Una composición editorial presenta **una idea principal**, desarrolla su contexto y ofrece una conclusión cuando corresponde.
-
-La jerarquía tradicional o invertida permite adaptar el protagonismo de cada elemento al propósito de la pieza.
+El título, la entrada y el cierre organizan una idea cuando el contenido necesita **presentación, desarrollo y conclusión**.
 
 Un mismo cielo, ningún horizonte igual
 
@@ -38,3 +36,5 @@ El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons.
 
 **(Cierre)**
 Remata la sección. El resaltado celeste cubre la palabra completa.
+
+Los modelos de jerarquía tradicional e invertida están en KYN-MRK-TYP-002.
