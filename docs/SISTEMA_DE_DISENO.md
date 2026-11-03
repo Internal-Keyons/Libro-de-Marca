@@ -19,11 +19,16 @@ Documentación de desarrollo. No se publica con el sitio.
 | Subcapítulos | Página de capítulo `sistema-diseno/<módulo>/<capítulo>.html`, con ancla `#s-01-02-03`, y lateral |
 | Normas | Se agregarán dentro de cada subcapítulo con la estructura de `plantilla.html` |
 
-**Estados:** Estructura definida, Contenido pendiente, Borrador, En revisión, Vigente y Descontinuado. Hoy los 45 capítulos están en «Estructura definida» y los 135 subcapítulos en «Contenido pendiente». Nada está vigente.
+**Numeración (2026-11-02):**
+- Los capítulos se numeran del 01 al 45, correlativos en todo el libro, sin reiniciar por módulo. Es la misma convención para los seis libros: cada libro empieza en 01.
+- Los subcapítulos no muestran número.
+- Las claves internas (`n` en el JSON, anclas `#cap-01-01` y `#s-01-01-01`) no cambiaron, así que los enlaces anteriores siguen funcionando.
+
+**Estados:** los mismos tres del Libro de Marca: Vigente, Borrador y Por definir. Hoy todo está en «Por definir».
 
 ## Nombres cortos y trama
 
-- **Nombres cortos (propuesta, 2026-11-02):** el menú, las tarjetas y el lateral usan nombres de una línea, como el Libro de Marca. Están en `data/sistema-diseno.json`:
+- **Nombres cortos y descripciones de capítulo (propuesta, 2026-11-02):** el menú, las tarjetas y el lateral usan nombres de una línea, como el Libro de Marca. Están en `data/sistema-diseno.json`:
   - `st`, nombre corto de módulos, capítulos y subcapítulos;
   - `dc`, descripción corta de la tarjeta del módulo.
 

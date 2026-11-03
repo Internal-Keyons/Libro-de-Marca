@@ -10,7 +10,7 @@ Escribe:
 - sistema-diseno/<módulo>/<cap>.html página de capítulo con sus subcapítulos
 
 La portada (sistema-diseno/index.html) y la plantilla se editan a mano.
-Los números (01.02.03) son ubicación documental; no son códigos de norma.
+Los capítulos se numeran del 01 al 45 en todo el libro; no son códigos de norma.
 """
 import html
 import io
@@ -29,7 +29,7 @@ COLORES = ['noche', 'cielo', 'salmon', 'atardecer']
 PORTAL = {'noche': 'portal', 'cielo': 'portal portal--cielo', 'salmon': 'portal portal--salmon', 'atardecer': 'portal portal--salmon portal--atardecer'}
 NOMBRE_COLOR = {'noche': 'Azul Noche', 'cielo': 'Azul Cielo', 'salmon': 'Salmón Tierra', 'atardecer': 'Salmón Atardecer'}
 ESTADO = {'vigente': 'v', 'borrador': 'b', 'pendiente': 'p', 'estructura': 'e', 'revision': 'r', 'descontinuado': 'd'}
-TEXTO = {'v': 'Vigente', 'b': 'Borrador', 'p': 'Contenido pendiente', 'e': 'Estructura definida', 'r': 'En revisión', 'd': 'Descontinuado'}
+TEXTO = {'v': 'Vigente', 'b': 'Borrador', 'p': 'Por definir', 'e': 'Por definir', 'r': 'Borrador', 'd': 'Descontinuado'}
 CLASE = {'v': 'vigente', 'b': 'borrador', 'p': 'pendiente', 'e': 'estructura', 'r': 'revision', 'd': 'descontinuado'}
 
 CHEV = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg>'
@@ -87,9 +87,9 @@ def nav(d):
         caps = []
         for c in m['capitulos']:
             items = ',\n          '.join(
-                f"{{ n: '{s['n']}', t: '{js(s['t'])}', st: '{js(s['st'])}', s: '{ESTADO[s['estado']]}', href: 'sistema-diseno/{m['slug']}/{c['slug']}.html#{ancla(s['n'])}' }}"
+                f"{{ t: '{js(s['t'])}', st: '{js(s['st'])}', s: '{ESTADO[s['estado']]}', href: 'sistema-diseno/{m['slug']}/{c['slug']}.html#{ancla(s['n'])}' }}"
                 for s in c['subcapitulos'])
-            caps.append(f"      {{ n: '{c['n']}', k: '{c['n'].replace('.', '-')}', t: '{js(c['st'])}', full: '{js(c['t'])}', s: '{ESTADO[c['estado']]}', items: [\n          {items} ] }}")
+            caps.append(f"      {{ n: '{c['num']}', k: '{c['n'].replace('.', '-')}', t: '{js(c['st'])}', full: '{js(c['t'])}', d: '{js(c['dc'])}', s: '{ESTADO[c['estado']]}', items: [\n          {items} ] }}")
         areas.append(f'''  {{
     id: '{m['k'].lower()}', k: '{m['k']}', t: '{js(m['st'])}', full: '{js(m['t'])}', href: 'sistema-diseno/{m['slug']}.html', color: '{color}', colorName: '{NOMBRE_COLOR[color]}',
     cd: '{js(m['dc'])}',
@@ -104,15 +104,14 @@ def nav(d):
    No se edita a mano: se cambia el JSON y se vuelve a generar.
    Cada módulo es un área, como en el Libro de Marca: t es el nombre corto
    (menú, tarjeta, lateral) y full el título completo (página de área).
-   Los números son ubicación documental; los códigos de norma van aparte.
+   Capítulos numerados del 01 al 45 en todo el libro; k conserva la clave
+   interna (anclas #cap-01-01). Los códigos de norma van aparte.
    ═══════════════════════════════════════════════════════════════ */
 window.KEYONS_BOOK = {
   id: 'sistema-diseno',
   home: 'sistema-diseno/index.html',
   menuLabel: 'Módulos del Sistema de Diseño',
   alt: [['Libro de Marca', 'inicio.html', 'right'], ['Plantilla de norma', 'sistema-diseno/plantilla.html', 'code']],
-  status: { p: 'Contenido pendiente' },
-  legend: ['e', 'p', 'b', 'r', 'v', 'd'],
   words: { ch: 'Capítulos', pg: 'Subcapítulos', pgs: 'subcapítulos' },
   cardShort: true,
   areaFull: true
@@ -149,7 +148,7 @@ def modulo(i, m, reg):
 
     <!-- Relación con el Libro de Marca: se cita, no se duplica -->
     <section class="ed" id="marca">
-      <div class="ed__label"><span>{m['n']}</span><span>Libro de Marca</span></div>
+      <div class="ed__label"><span>Módulo {m['n']}</span><span>Libro de Marca</span></div>
       <div>
         <h2 class="ed__title">Normas de marca que aplica</h2>
         <p class="ed__lead">La fuente oficial de cada una es el <strong>Libro de Marca</strong>. Este módulo las aplica en la interfaz sin duplicarlas.</p>{nota}
@@ -169,7 +168,7 @@ def modulo(i, m, reg):
 def capitulo(i, m, c):
     color = COLORES[i % 4]
     k = ESTADO[c['estado']]
-    filas = '\n'.join(f'          <div class="kidx__r sd-sub" id="{ancla(s["n"])}"><b>{s["n"]}</b><span class="kidx__t">{e(s["t"])}</span>'
+    filas = '\n'.join(f'          <div class="kidx__r sd-sub" id="{ancla(s["n"])}"><span class="kidx__t">{e(s["t"])}</span>'
                       f'<span class="sd-st">{dot(ESTADO[s["estado"]])}{TEXTO[ESTADO[s["estado"]]]}</span></div>' for s in c['subcapitulos'])
     return head(c['t'], '../..') + f'''<body class="is-area" data-root="../.." data-area="{m['k'].lower()}" data-page="sistema-diseno/{m['slug']}/{c['slug']}.html">
 
@@ -184,24 +183,24 @@ def capitulo(i, m, c):
       {CHEV}
       <a href="../{m['slug']}.html">{e(m['st'])}</a>
       {CHEV}
-      <span>{c['n']} {e(c['st'])}</span>
+      <span>{c['num']} {e(c['st'])}</span>
     </nav>
 
-    <section class="{PORTAL[color]}" aria-label="Capítulo {c['n']} · {e(c['t'])}">
+    <section class="{PORTAL[color]} portal--plano" aria-label="Capítulo {c['num']} · {e(c['t'])}">
       <div class="portal__arcs" aria-hidden="true"></div>
       <div class="portal__txt">
-        <span class="kicker">Capítulo {c['n']} · {e(m['st'])}</span>
+        <span class="kicker">Capítulo {c['num']} · {e(m['st'])}</span>
         <h1 class="t-display">{e(c['t'])}</h1>
-        <p>{TEXTO[k]}. Sus {len(c['subcapitulos'])} subcapítulos todavía no tienen normas aprobadas.</p>
+        <p>{e(c['dc'])}</p>
       </div>
     </section>
 
     <!-- Subcapítulos: cada uno reunirá sus normas. Generado por tools/sistema_diseno.py -->
     <section class="ed" id="subcapitulos">
-      <div class="ed__label"><span>{c['n']}</span><span>Subcapítulos</span></div>
+      <div class="ed__label"><span>{c['num']}</span><span>Subcapítulos</span></div>
       <div>
         <h2 class="ed__title">Subcapítulos</h2>
-        <p class="ed__lead">Cada subcapítulo reunirá sus <strong>reglas, ejemplos y especificaciones</strong>. Cada norma llevará un código permanente, independiente de esta numeración.</p>
+        <p class="ed__lead">Cada subcapítulo reunirá sus <strong>reglas, ejemplos y especificaciones</strong>. Sus {len(c['subcapitulos'])} subcapítulos todavía no tienen normas aprobadas.</p>
         <div class="kidx__list sd-refs">
 {filas}
         </div>

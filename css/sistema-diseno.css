@@ -5,34 +5,18 @@
    Aquí solo vive lo que Marca no tiene. Prefijo sd- o [data-libro].
    ═══════════════════════════════════════════════════════════════ */
 
-/* Estados documentales que Marca no usa: estructura definida, en revisión y descontinuado */
-.dot--estructura{box-shadow:inset 0 0 0 1.5px var(--k-cielo-500);background:radial-gradient(circle,var(--k-cielo-500) 0 1.5px,transparent 2px)}
-.dot--revision{box-shadow:inset 0 0 0 1.5px var(--k-noche);background:radial-gradient(circle,var(--k-noche) 0 1.5px,transparent 2px)}
-.dot--descontinuado{background:linear-gradient(135deg,transparent 45%,var(--k-gris-4) 45% 55%,transparent 55%);box-shadow:inset 0 0 0 1.5px var(--k-gris-4)}
-.badge--estructura{background:var(--k-cielo-100)}
-.badge--revision{background:var(--color-status-info)}
-.badge--descontinuado{background:var(--color-status-neutral)}
-.sd-st{display:inline-flex;align-items:center;gap:var(--s2);font-size:13px;color:var(--color-text-3);white-space:nowrap}
-
-/* La numeración documental (01.02) es más ancha que la de Marca: columna de cifra en tarjetas y páginas de área */
-[data-libro="sistema-diseno"] .area__list a{grid-template-columns:44px minmax(0,1fr) auto}
-[data-libro="sistema-diseno"] .nav-ch__btn{grid-template-columns:44px minmax(0,1fr) 16px}
-[data-libro="sistema-diseno"] .chap__head{grid-template-columns:150px minmax(0,1fr) auto}
-[data-libro="sistema-diseno"] .chap__n{font-size:clamp(34px,3.6vw,52px)}
-[data-libro="sistema-diseno"] .chap__cols{margin-left:calc(150px + var(--s8))}
-@media(max-width:900px){
-  [data-libro="sistema-diseno"] .chap__head{grid-template-columns:minmax(0,1fr);gap:var(--s3)}
-  [data-libro="sistema-diseno"] .chap__meta{grid-column:1;flex-direction:row;align-items:center;gap:var(--s4)}
-  [data-libro="sistema-diseno"] .chap__n{font-size:32px}
-  [data-libro="sistema-diseno"] .chap__cols{margin-left:0}
-}
+/* Normas de Marca que aplica cada módulo: una sola columna a todo el ancho */
 .sd-refs{margin-top:var(--s10)}
+.sd-refs.kidx__list{display:block}
+.sd-refs .kidx__r{grid-template-columns:200px 80px minmax(0,1fr)}
+@media(max-width:760px){.sd-refs .kidx__r{grid-template-columns:150px minmax(0,1fr)}.sd-refs .kidx__n{display:none}}
+.sd-st{display:inline-flex;align-items:center;gap:var(--s2);font-size:13px;color:var(--color-text-3);white-space:nowrap}
 
 /* Subcapítulos de un capítulo: una sola columna, número · título · estado */
 #subcapitulos .kidx__list{display:block}
-#subcapitulos .kidx__r.sd-sub{display:grid;grid-template-columns:96px minmax(0,1fr) auto;gap:var(--s5);padding:var(--s4) 0}
+#subcapitulos .kidx__r.sd-sub{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:var(--s5);padding:var(--s4) 0}
 #subcapitulos .sd-sub .kidx__t{font-size:16px;color:var(--color-text)}
-@media(max-width:760px){#subcapitulos .kidx__r.sd-sub{grid-template-columns:76px minmax(0,1fr);row-gap:var(--s1)}#subcapitulos .sd-sub .sd-st{grid-column:2}}
+
 
 /* Ejemplo interactivo: un mismo componente en los cuatro contextos */
 .sd-demo{margin-top:var(--s10);box-shadow:inset 0 0 0 1px var(--color-border);background:var(--k-puro)}
