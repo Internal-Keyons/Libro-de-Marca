@@ -14,9 +14,14 @@ El Sistema de Diseño usa el mismo código que el Libro de Marca (`js/libro.js`)
 | --- | --- |
 | `js/nav-sistema-diseno.js` | Índice del libro: un área, doce módulos. Reemplaza a `js/nav-data.js` en sus páginas. Declara `KEYONS_BOOK`: portada, menú por módulos y enlaces secundarios |
 | `js/libro.js` | Lee `KEYONS_BOOK`. Sin esa declaración, el Libro de Marca funciona igual que antes |
-| `js/sistema-diseno.js` | Retícula de doce columnas, índice de módulos, códigos y ejemplo interactivo |
-| `css/sistema-diseno.css` | Estilos propios con prefijo `sd-`; no modifica `libro.css` |
-| `sistema-diseno/*.html` | Portada, doce módulos y la plantilla de norma |
+| `js/sistema-diseno.js` | Índice de la portada, códigos de módulo y ejemplo interactivo |
+| `css/sistema-diseno.css` | Solo lo que Marca no tiene (índice de doce módulos y ejemplo interactivo), con prefijo `sd-` |
+| `sistema-diseno/*.html` | Portada, página de área (`modulos.html`), doce módulos y plantilla de norma |
+
+- **Diseño:** es el mismo del Libro de Marca.
+  - Portada con cielo y vidrio; portal de capítulo en cada módulo; página de área generada.
+  - Rejillas `.cols`, secciones `.ed` y lista de normas `.kidx`.
+  - Los nombres de los módulos se ven completos en el lateral.
 
 - **Referencias a Marca:** un ID `KYN-MRK-…` escrito en el texto se enlaza a su norma del Libro de Marca. En este libro no se enlazan los números de capítulo.
 - **Fuera del registro de Marca:** `tools/normas.py`, `tools/verificar.py` y `tools/exportar.py` siguen trabajando solo con el Libro de Marca.

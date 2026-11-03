@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="../css/libro.css">
 <link rel="stylesheet" href="../css/sistema-diseno.css">
 </head>
-<body class="is-area sd-book" data-root=".." data-area="sd" data-page="sistema-diseno/plantilla.html">
+<body class="is-area" data-root=".." data-area="sd" data-page="sistema-diseno/plantilla.html">
 
 <header id="topbar"></header>
 
@@ -28,48 +28,45 @@
       <span>Cómo se documenta una norma</span>
     </nav>
 
-    <header class="sd-mhead grad grad--noche">
-      <nav class="sd-cols" data-sd-cols aria-label="Módulos del Sistema de Diseño"></nav>
-      <div class="sd-mhead__in">
-        <span class="sd-mhead__n">Plantilla</span>
-        <h1 class="sd-mhead__t">Cómo se documenta una norma</h1>
-        <p class="sd-mhead__d">La estructura común de cada norma del Sistema de Diseño.</p>
+    <section class="portal" aria-label="Plantilla de norma">
+      <div class="portal__arcs" aria-hidden="true"></div>
+      <div class="portal__txt">
+        <span class="kicker">Plantilla · Sistema de Diseño</span>
+        <h1 class="t-display">Plantilla de norma</h1>
+        <p>La estructura común de cada norma del Sistema de Diseño.</p>
       </div>
-    </header>
-
-    <div class="sd-meta">
-      <span>Estado <b>Borrador</b></span>
-      <span>Aplica a <b>los doce módulos</b></span>
-    </div>
+    </section>
 
     <!-- Estructura: las partes de una norma, en orden de lectura -->
     <section class="ed" id="estructura">
-      <div class="ed__label"><span>Plantilla</span><span>Estructura de una norma</span></div>
+      <div class="ed__label"><span>1</span><span>Estructura</span></div>
       <div>
         <h2 class="ed__title">Nueve partes, en este orden</h2>
-        <dl class="sd-anat">
-          <div><dt>Código</dt><dd>Identificador permanente con el formato <span class="sd-code">KYN-SDI-módulo-número</span>. No cambia aunque cambien el título o el orden.</dd></div>
-          <div><dt>Título</dt><dd>Una declaración breve de lo que la norma resuelve.</dd></div>
-          <div><dt>Estado</dt><dd>Vigente, Borrador o Por definir, con la fecha de su última aprobación.</dd></div>
-          <div><dt>Contextos</dt><dd>Dónde aplica: web corporativa, herramientas internas, SaaS predeterminado o soluciones personalizadas.</dd></div>
-          <div><dt>Propósito</dt><dd>Qué problema de experiencia resuelve y para quién.</dd></div>
-          <div><dt>Regla</dt><dd>Lo que se debe hacer, escrito como un criterio que se pueda verificar.</dd></div>
-          <div><dt>Ejemplo</dt><dd>Una muestra interactiva o una imagen con la regla aplicada.</dd></div>
-          <div><dt>Invariantes</dt><dd>Lo que no cambia en ningún contexto ni personalización.</dd></div>
-          <div><dt>Referencias</dt><dd>Las normas del Libro de Marca y de este libro con las que se relaciona, citadas por su código.</dd></div>
-        </dl>
+        <p class="ed__lead">Todas las normas se escriben con la <strong>misma estructura</strong>, para que se lean y se comparen igual en los doce módulos.</p>
+        <div class="ed__stack">
+          <div><span class="paren">(Código)</span><p>Identificador permanente con el formato KYN-SDI-módulo-número. No cambia aunque cambien el título o el orden.</p></div>
+          <div><span class="paren">(Título)</span><p>Una declaración breve de lo que la norma resuelve.</p></div>
+          <div><span class="paren">(Estado)</span><p>Vigente, Borrador o Por definir, con la fecha de su última aprobación.</p></div>
+          <div><span class="paren">(Contextos)</span><p>Dónde aplica: web corporativa, herramientas internas, SaaS predeterminado o soluciones personalizadas.</p></div>
+          <div><span class="paren">(Propósito)</span><p>Qué problema de experiencia resuelve y para quién.</p></div>
+          <div><span class="paren">(Regla)</span><p>Lo que se debe hacer, escrito como un criterio que se pueda verificar.</p></div>
+          <div><span class="paren">(Ejemplo)</span><p>Una muestra interactiva o una imagen con la regla aplicada.</p></div>
+          <div><span class="paren">(Invariantes)</span><p>Lo que no cambia en ningún contexto ni personalización.</p></div>
+          <div><span class="paren">(Referencias)</span><p>Las normas del Libro de Marca y de este libro con las que se relaciona, citadas por su código.</p></div>
+        </div>
       </div>
     </section>
 
     <!-- Ejemplo interactivo: el mismo componente con los valores de cada contexto -->
     <section class="ed" id="ejemplo">
-      <div class="ed__label"><span>Ejemplo</span><span>Ejemplo interactivo</span></div>
+      <div class="ed__label"><span>2</span><span>Ejemplo</span></div>
       <div>
         <h2 class="ed__title">Un componente, cuatro contextos</h2>
-        <p class="ed__more">Muestra técnica: el formulario es el mismo y solo cambian sus valores de identidad. Los valores son de muestra y no representan las identidades definitivas.</p>
+        <p class="ed__lead">El formulario es el mismo; solo cambian sus <strong>valores de identidad</strong>.</p>
+        <p class="ed__more">Los valores son de muestra y no representan las identidades definitivas.</p>
         <div class="sd-demo" data-sd-demo>
           <div class="sd-demo__bar">
-            <span class="sd-demo__lbl">Contexto</span>
+            <span class="paren">(Contexto)</span>
             <div class="sd-demo__opts" role="group" aria-label="Contexto de interfaz">
               <button type="button" data-ctx-set="web" aria-pressed="true">Web corporativa</button>
               <button type="button" data-ctx-set="interna" aria-pressed="false">Herramienta interna</button>
@@ -85,18 +82,17 @@
               <button class="sd-ui__b" type="button">Continuar</button>
             </form>
           </div>
-          <p class="sd-demo__note">Valores de muestra, no definitivos.</p>
         </div>
       </div>
     </section>
 
     <!-- Códigos provisionales de los módulos -->
     <section class="ed" id="codigos">
-      <div class="ed__label"><span>Códigos</span><span>Códigos provisionales</span></div>
+      <div class="ed__label"><span>3</span><span>Códigos</span></div>
       <div>
         <h2 class="ed__title">Un código por módulo</h2>
-        <p class="ed__more">El prefijo <span class="sd-code">KYN-SDI</span> y los códigos de módulo esperan aprobación. Una vez aprobados no se reutilizan.</p>
-        <div class="sd-refs" data-sd-codes></div>
+        <p class="ed__lead">El prefijo <strong>KYN-SDI</strong> y los códigos de módulo esperan aprobación. Una vez aprobados, no se reutilizan.</p>
+        <div class="kidx__list sd-refs" data-sd-codes></div>
       </div>
     </section>
 

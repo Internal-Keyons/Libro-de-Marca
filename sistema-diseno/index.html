@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Sistema de Diseño · Keyons</title>
-<meta name="description" content="Sistema de Diseño de Keyons: UX, UI, componentes, patrones, accesibilidad e interfaces de producto.">
 <meta name="keyons:libro" content="sistema-diseno">
 <meta name="keyons:version" content="0.1">
+<meta name="description" content="Sistema de Diseño de Keyons: UX, UI, componentes, patrones, accesibilidad e interfaces de producto.">
 <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,91 +15,76 @@
 <link rel="stylesheet" href="../css/libro.css">
 <link rel="stylesheet" href="../css/sistema-diseno.css">
 </head>
-<body class="sd-book" data-root=".." data-area="sd" data-page="sistema-diseno/index.html">
+<body class="is-home" data-root=".." data-area="" data-page="sistema-diseno/index.html">
 
 <header id="topbar"></header>
 
 <main>
-  <!-- ══ PORTADA · la retícula de doce columnas: cada columna abre un módulo ══ -->
-  <section class="sd-hero grad grad--noche">
-    <nav class="sd-cols" data-sd-cols aria-label="Módulos del Sistema de Diseño"></nav>
-    <div class="sd-hero__in">
-      <h1 class="sd-hero__t">Sistema<br>de Diseño</h1>
-      <p class="sd-hero__d">La fuente oficial de experiencia e interfaz de Keyons: UX, UI, componentes, patrones, accesibilidad e interfaces de producto.</p>
-      <dl class="sd-facts">
-        <div><dt>Módulos</dt><dd>12</dd></div>
-        <div><dt>Normas vigentes</dt><dd>0</dd></div>
-        <div><dt>Versión</dt><dd>0.1 · en construcción</dd></div>
-      </dl>
-    </div>
-    <p class="sd-hero__cap" data-sd-cap aria-hidden="true">Cada columna de la retícula es un módulo.</p>
-  </section>
-
-  <!-- ══ RELACIÓN ENTRE LIBROS ══ -->
-  <section class="section">
-    <div class="wrap">
-      <div class="sec-head">
-        <h2 class="t-h2">Cada libro, <span class="ink">una responsabilidad</span></h2>
-      </div>
-      <div class="sd-rel">
-        <div>
-          <p class="sd-rel__t">Libro de Marca</p>
-          <p>La fuente oficial de identidad y expresión visual.</p>
-          <a class="btn-text" href="../inicio.html">Abrir el Libro de Marca <svg class="go-r" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
-        </div>
-        <div>
-          <p class="sd-rel__t">Sistema de Diseño<small>Este libro</small></p>
-          <p>La fuente oficial de UX, UI, componentes, patrones, accesibilidad e interfaces de producto.</p>
-        </div>
-        <div>
-          <p class="sd-rel__t">Manual de Producto</p>
-          <p>Conserva la metodología de desarrollo, los requisitos y las especificaciones propias de cada solución.</p>
-        </div>
-      </div>
+  <!-- ══ PORTADA · la misma del Libro de Marca: cielo detrás de vidrio acanalado ══ -->
+  <section class="hero">
+    <div class="hero__clouds" aria-hidden="true"></div>
+    <div class="hero__glass" aria-hidden="true"></div>
+    <div class="hero__in">
+      <h1 class="t-display">Sistema<br>de Diseño</h1>
+      <p class="t-lead">Este es el <strong>Sistema de Diseño de Keyons</strong>. Aquí vive la fuente oficial de <strong>UX, UI, componentes, patrones, accesibilidad</strong> e interfaces de producto.</p>
     </div>
   </section>
 
   <!-- ══ ÍNDICE · doce módulos con su estado ══ -->
-  <section class="section" id="indice" style="padding-top:0">
+  <section class="section" id="indice">
     <div class="wrap">
       <div class="sec-head">
+        <span class="kicker">Índice del libro</span>
         <h2 class="t-h2">Doce módulos, <span class="ink">un solo sistema</span></h2>
       </div>
-      <nav class="sd-idx" data-sd-index aria-label="Índice de módulos"></nav>
+      <div class="cols sd-mods" data-sd-index></div>
+      <p class="sd-more"><a class="btn-text" href="modulos.html">Ver los módulos en detalle <svg class="go-r" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a></p>
     </div>
   </section>
 
   <!-- ══ CONTEXTOS · cuatro identidades de interfaz sobre una base común ══ -->
-  <section class="section" id="contextos" style="padding-top:0">
+  <section class="section" style="padding-top:0">
     <div class="wrap">
       <div class="sec-head">
-        <h2 class="t-h2">Cuatro contextos <span class="ink">de interfaz</span></h2>
-        <p class="t-lead">El sistema documenta una base funcional común y la aplica en cuatro contextos. Sus identidades definitivas todavía no están diseñadas.</p>
+        <h2 class="t-h2"><span class="mute">Cuatro contextos</span> de interfaz</h2>
+        <p class="t-lead">El sistema documenta una <strong>base funcional común</strong> y la aplica en cuatro contextos. Sus identidades definitivas todavía no están diseñadas.</p>
       </div>
-      <div class="sd-ctx">
-        <div class="sd-ctx__axis" aria-hidden="true"><span>Identidad Keyons</span><span>Identidad del cliente</span></div>
-        <div class="sd-ctx__i"><p class="sd-ctx__t">Web corporativa Keyons</p><p class="sd-ctx__d">Experiencia editorial y expresiva que aplica la identidad de la marca.</p></div>
-        <div class="sd-ctx__i"><p class="sd-ctx__t">Herramientas internas Keyons</p><p class="sd-ctx__d">Identidad corporativa adaptada al trabajo diario, con mayor contención visual y eficiencia operativa.</p></div>
-        <div class="sd-ctx__i"><p class="sd-ctx__t">SaaS predeterminado</p><p class="sd-ctx__d">Estética neutral premium, reutilizable y personalizable dentro de límites definidos.</p></div>
-        <div class="sd-ctx__i"><p class="sd-ctx__t">Soluciones personalizadas y white-label</p><p class="sd-ctx__d">Identidad visual propia del cliente o desarrollada para él, con los mismos compromisos de calidad UX.</p></div>
-        <p class="sd-ctx__base"><b>Base funcional común</b>Componentes, patrones, accesibilidad y calidad de experiencia son los mismos en los cuatro contextos. Cambian los valores de identidad.</p>
+      <div class="cols">
+        <div><div class="cols__n">01</div><p class="t-h4">Web corporativa<br>Keyons</p><p class="t-sm">Experiencia editorial y expresiva que aplica la identidad de la marca.</p></div>
+        <div><div class="cols__n">02</div><p class="t-h4">Herramientas<br>internas Keyons</p><p class="t-sm">Identidad corporativa adaptada al trabajo diario, con mayor contención visual y eficiencia operativa.</p></div>
+        <div><div class="cols__n">03</div><p class="t-h4">SaaS<br>predeterminado</p><p class="t-sm">Estética neutral premium, reutilizable y personalizable dentro de límites definidos.</p></div>
+        <div><div class="cols__n">04</div><p class="t-h4">Personalizadas<br>y white-label</p><p class="t-sm">Identidad visual propia del cliente o desarrollada para él, con los mismos compromisos de calidad UX.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ RELACIÓN ENTRE LIBROS ══ -->
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="t-h2"><span class="mute">Cada libro,</span> una responsabilidad</h2>
+      </div>
+      <div class="cols cols--3">
+        <div><div class="cols__n">01</div><p class="t-h4">Libro<br>de Marca</p><p class="t-sm">La fuente oficial de identidad y expresión visual. <a class="xref" href="../inicio.html">Abrir el Libro de Marca</a></p></div>
+        <div><div class="cols__n">02</div><p class="t-h4">Sistema<br>de Diseño</p><p class="t-sm">La fuente oficial de UX, UI, componentes, patrones, accesibilidad e interfaces de producto.</p></div>
+        <div><div class="cols__n">03</div><p class="t-h4">Manual<br>de Producto</p><p class="t-sm">Conserva la metodología de desarrollo, los requisitos y las especificaciones propias de cada solución.</p></div>
       </div>
     </div>
   </section>
 
   <!-- ══ CÓMO SE LEE · estados y códigos ══ -->
-  <section class="section" id="lectura" style="padding-top:0">
+  <section class="section" style="padding-top:0">
     <div class="wrap">
       <div class="sec-head">
-        <h2 class="t-h2">Estados <span class="ink">y códigos</span></h2>
-        <p class="t-lead">Cada norma tendrá un código permanente con el formato <span class="sd-code">KYN-SDI-módulo-número</span>. El prefijo es provisional hasta su aprobación.</p>
+        <h2 class="t-h2"><span class="mute">Estados</span> y códigos</h2>
+        <p class="t-lead">Cada norma tendrá un <strong>código permanente</strong> con el formato KYN-SDI-módulo-número. El prefijo es provisional hasta su aprobación.</p>
       </div>
-      <div class="sd-legend">
-        <div><p class="sd-legend__t"><span class="dot dot--vigente" aria-hidden="true"></span>Vigente</p><p>Norma aprobada. Se aplica tal como está escrita.</p></div>
-        <div><p class="sd-legend__t"><span class="dot dot--borrador" aria-hidden="true"></span>Borrador</p><p>Contenido en desarrollo. Puede cambiar antes de su aprobación.</p></div>
-        <div><p class="sd-legend__t"><span class="dot dot--pendiente" aria-hidden="true"></span>Por definir</p><p>Espacio reservado, todavía sin contenido aprobado.</p></div>
+      <div class="cols cols--3">
+        <div><div class="cols__n">01</div><p class="t-h4">Vigente</p><p class="t-sm">Norma aprobada. Se aplica tal como está escrita.</p></div>
+        <div><div class="cols__n">02</div><p class="t-h4">Borrador</p><p class="t-sm">Contenido en desarrollo. Puede cambiar antes de su aprobación.</p></div>
+        <div><div class="cols__n">03</div><p class="t-h4">Por definir</p><p class="t-sm">Espacio reservado, todavía sin contenido aprobado.</p></div>
       </div>
-      <p style="margin-top:var(--s12)"><a class="btn-text" href="plantilla.html">Cómo se documenta una norma <svg class="go-r" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a></p>
+      <p class="sd-more"><a class="btn-text" href="plantilla.html">Cómo se documenta una norma <svg class="go-r" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a></p>
     </div>
   </section>
 </main>

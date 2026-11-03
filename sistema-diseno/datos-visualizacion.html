@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="../css/libro.css">
 <link rel="stylesheet" href="../css/sistema-diseno.css">
 </head>
-<body class="is-area sd-book" data-root=".." data-area="sd" data-page="sistema-diseno/datos-visualizacion.html">
+<body class="is-area" data-root=".." data-area="sd" data-page="sistema-diseno/datos-visualizacion.html">
 
 <header id="topbar"></header>
 
@@ -25,48 +25,42 @@
     <nav class="crumbs" aria-label="Ruta">
       <a href="index.html">Sistema de Diseño</a>
       <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg>
+      <a href="modulos.html">Módulos</a>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg>
       <span>08 Datos y visualización</span>
     </nav>
 
-    <header class="sd-mhead grad grad--noche">
-      <nav class="sd-cols" data-sd-cols aria-label="Módulos del Sistema de Diseño"></nav>
-      <div class="sd-mhead__in">
-        <span class="sd-mhead__n">Módulo 08</span>
-        <h1 class="sd-mhead__t">Datos y visualización</h1>
-        <p class="sd-mhead__d">Tablas, tableros y gráficos dentro de los productos.</p>
+    <section class="portal" aria-label="Módulo 08 · Datos y visualización">
+      <div class="portal__arcs" aria-hidden="true"></div>
+      <div class="portal__txt">
+        <span class="kicker">Módulo 08 · Sistema de Diseño</span>
+        <h1 class="t-display">Datos y visualización</h1>
+        <p>Tablas, tableros y gráficos dentro de los productos.</p>
       </div>
-    </header>
+    </section>
 
-    <div class="sd-meta">
-      <span>Estado <b>Por definir</b></span>
-      <span>Normas vigentes <b>0</b></span>
-      <span>Código provisional <b class="sd-code">KYN-SDI-DAV</b></span>
-    </div>
-
-    <!-- Índice de normas: una fila por norma, con código, título y estado -->
+    <!-- Normas del módulo: cada norma será una sección con su código, título y estado -->
     <section class="ed" id="normas">
-      <div class="ed__label"><span>DAV</span><span>Índice</span></div>
+      <div class="ed__label"><span>08</span><span>Normas</span></div>
       <div>
         <h2 class="ed__title">Normas del módulo</h2>
-        <div class="sd-norms" role="table" aria-label="Normas de Datos y visualización">
-          <div class="sd-norms__h" role="row"><span role="columnheader">Código</span><span role="columnheader">Norma</span><span role="columnheader">Estado</span></div>
-          <p class="sd-norms__empty">Este módulo todavía no tiene normas aprobadas. Cada norma se incorpora con la estructura de la <a class="xref" href="plantilla.html">plantilla de norma</a>.</p>
-        </div>
+        <p class="ed__lead">Este módulo todavía <strong>no tiene normas aprobadas</strong>. Su código provisional es <strong>KYN-SDI-DAV</strong>.</p>
+        <p class="ed__more">Cada norma se incorpora con la estructura de la <a href="plantilla.html">plantilla de norma</a>.</p>
       </div>
     </section>
 
     <!-- Relación con el Libro de Marca: se cita, no se duplica -->
     <section class="ed" id="marca">
-      <div class="ed__label"><span>Marca</span><span>Libro de Marca</span></div>
+      <div class="ed__label"><span>08</span><span>Libro de Marca</span></div>
       <div>
         <h2 class="ed__title">Normas de marca que aplica</h2>
-        <p class="ed__more">La fuente oficial de cada una es el Libro de Marca. Este módulo las aplica en la interfaz sin duplicarlas.</p>
-        <div class="sd-refs">
-          <a href="../fundamentos/datos/graficos.html#principios"><span class="sd-refs__id">KYN-MRK-DAT-001</span><span class="sd-refs__t">Principios</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
-          <a href="../fundamentos/datos/graficos.html#paleta"><span class="sd-refs__id">KYN-MRK-DAT-002</span><span class="sd-refs__t">Sistema cromático</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
-          <a href="../fundamentos/datos/graficos.html#tipografia"><span class="sd-refs__id">KYN-MRK-DAT-003</span><span class="sd-refs__t">Tipografía en gráficos</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
-          <a href="../fundamentos/datos/graficos.html#tipos"><span class="sd-refs__id">KYN-MRK-DAT-004</span><span class="sd-refs__t">Tipos de gráfico</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
-          <a href="../fundamentos/datos/graficos.html#estructura"><span class="sd-refs__id">KYN-MRK-DAT-005</span><span class="sd-refs__t">Estructura</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
+        <p class="ed__lead">La fuente oficial de cada una es el <strong>Libro de Marca</strong>. Este módulo las aplica en la interfaz sin duplicarlas.</p>
+        <div class="kidx__list sd-refs">
+          <a class="kidx__r" href="../fundamentos/datos/graficos.html#principios"><b>KYN-MRK-DAT-001</b><span class="kidx__n">14.1</span><span class="kidx__t">Principios</span></a>
+          <a class="kidx__r" href="../fundamentos/datos/graficos.html#paleta"><b>KYN-MRK-DAT-002</b><span class="kidx__n">14.2</span><span class="kidx__t">Sistema cromático</span></a>
+          <a class="kidx__r" href="../fundamentos/datos/graficos.html#tipografia"><b>KYN-MRK-DAT-003</b><span class="kidx__n">14.3</span><span class="kidx__t">Tipografía en gráficos</span></a>
+          <a class="kidx__r" href="../fundamentos/datos/graficos.html#tipos"><b>KYN-MRK-DAT-004</b><span class="kidx__n">14.4</span><span class="kidx__t">Tipos de gráfico</span></a>
+          <a class="kidx__r" href="../fundamentos/datos/graficos.html#estructura"><b>KYN-MRK-DAT-005</b><span class="kidx__n">14.5</span><span class="kidx__t">Estructura</span></a>
         </div>
       </div>
     </section>
@@ -77,6 +71,5 @@
 
 <script src="../js/nav-sistema-diseno.js"></script>
 <script src="../js/libro.js"></script>
-<script src="../js/sistema-diseno.js"></script>
 </body>
 </html>

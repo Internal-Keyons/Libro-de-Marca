@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="../css/libro.css">
 <link rel="stylesheet" href="../css/sistema-diseno.css">
 </head>
-<body class="is-area sd-book" data-root=".." data-area="sd" data-page="sistema-diseno/fundamentos-interfaz.html">
+<body class="is-area" data-root=".." data-area="sd" data-page="sistema-diseno/fundamentos-interfaz.html">
 
 <header id="topbar"></header>
 
@@ -25,50 +25,44 @@
     <nav class="crumbs" aria-label="Ruta">
       <a href="index.html">Sistema de Diseño</a>
       <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg>
+      <a href="modulos.html">Módulos</a>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg>
       <span>03 Fundamentos de interfaz</span>
     </nav>
 
-    <header class="sd-mhead grad grad--noche">
-      <nav class="sd-cols" data-sd-cols aria-label="Módulos del Sistema de Diseño"></nav>
-      <div class="sd-mhead__in">
-        <span class="sd-mhead__n">Módulo 03</span>
-        <h1 class="sd-mhead__t">Fundamentos de interfaz</h1>
-        <p class="sd-mhead__d">Color, tipografía, espacio, forma e iconografía aplicados a la interfaz mediante tokens.</p>
+    <section class="portal" aria-label="Módulo 03 · Fundamentos de interfaz">
+      <div class="portal__arcs" aria-hidden="true"></div>
+      <div class="portal__txt">
+        <span class="kicker">Módulo 03 · Sistema de Diseño</span>
+        <h1 class="t-display">Fundamentos de interfaz</h1>
+        <p>Color, tipografía, espacio, forma e iconografía aplicados a la interfaz mediante tokens.</p>
       </div>
-    </header>
+    </section>
 
-    <div class="sd-meta">
-      <span>Estado <b>Por definir</b></span>
-      <span>Normas vigentes <b>0</b></span>
-      <span>Código provisional <b class="sd-code">KYN-SDI-FUI</b></span>
-    </div>
-
-    <!-- Índice de normas: una fila por norma, con código, título y estado -->
+    <!-- Normas del módulo: cada norma será una sección con su código, título y estado -->
     <section class="ed" id="normas">
-      <div class="ed__label"><span>FUI</span><span>Índice</span></div>
+      <div class="ed__label"><span>03</span><span>Normas</span></div>
       <div>
         <h2 class="ed__title">Normas del módulo</h2>
-        <div class="sd-norms" role="table" aria-label="Normas de Fundamentos de interfaz">
-          <div class="sd-norms__h" role="row"><span role="columnheader">Código</span><span role="columnheader">Norma</span><span role="columnheader">Estado</span></div>
-          <p class="sd-norms__empty">Este módulo todavía no tiene normas aprobadas. Cada norma se incorpora con la estructura de la <a class="xref" href="plantilla.html">plantilla de norma</a>.</p>
-        </div>
+        <p class="ed__lead">Este módulo todavía <strong>no tiene normas aprobadas</strong>. Su código provisional es <strong>KYN-SDI-FUI</strong>.</p>
+        <p class="ed__more">Cada norma se incorpora con la estructura de la <a href="plantilla.html">plantilla de norma</a>.</p>
       </div>
     </section>
 
     <!-- Relación con el Libro de Marca: se cita, no se duplica -->
     <section class="ed" id="marca">
-      <div class="ed__label"><span>Marca</span><span>Libro de Marca</span></div>
+      <div class="ed__label"><span>03</span><span>Libro de Marca</span></div>
       <div>
         <h2 class="ed__title">Normas de marca que aplica</h2>
-        <p class="ed__more">La fuente oficial de cada una es el Libro de Marca. Este módulo las aplica en la interfaz sin duplicarlas.</p>
-        <div class="sd-refs">
-          <a href="../fundamentos/color/por-modo.html#interfaz"><span class="sd-refs__id">KYN-MRK-COL-012</span><span class="sd-refs__t">Modo interfaz</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
-          <a href="../fundamentos/color/funcionales.html#grises"><span class="sd-refs__id">KYN-MRK-COL-013</span><span class="sd-refs__t">Grises tipográficos</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
-          <a href="../fundamentos/tipografia/sistema.html#funcion"><span class="sd-refs__id">KYN-MRK-TYP-007</span><span class="sd-refs__t">Uso por función</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
-          <a href="../fundamentos/forma/espacio.html#esquinas"><span class="sd-refs__id">KYN-MRK-ESP-001</span><span class="sd-refs__t">Regla de esquinas</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
-          <a href="../fundamentos/forma/espacio.html#radios"><span class="sd-refs__id">KYN-MRK-ESP-002</span><span class="sd-refs__t">Radios</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
-          <a href="../fundamentos/forma/espacio.html#espaciado"><span class="sd-refs__id">KYN-MRK-ESP-003</span><span class="sd-refs__t">Espaciado</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
-          <a href="../fundamentos/iconografia/iconos.html#uso"><span class="sd-refs__id">KYN-MRK-ICO-003</span><span class="sd-refs__t">Uso</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></a>
+        <p class="ed__lead">La fuente oficial de cada una es el <strong>Libro de Marca</strong>. Este módulo las aplica en la interfaz sin duplicarlas.</p>
+        <div class="kidx__list sd-refs">
+          <a class="kidx__r" href="../fundamentos/color/por-modo.html#interfaz"><b>KYN-MRK-COL-012</b><span class="kidx__n">7.12</span><span class="kidx__t">Modo interfaz</span></a>
+          <a class="kidx__r" href="../fundamentos/color/funcionales.html#grises"><b>KYN-MRK-COL-013</b><span class="kidx__n">7.14</span><span class="kidx__t">Grises tipográficos</span></a>
+          <a class="kidx__r" href="../fundamentos/tipografia/sistema.html#funcion"><b>KYN-MRK-TYP-007</b><span class="kidx__n">8.7</span><span class="kidx__t">Uso por función</span></a>
+          <a class="kidx__r" href="../fundamentos/forma/espacio.html#esquinas"><b>KYN-MRK-ESP-001</b><span class="kidx__n">9.1</span><span class="kidx__t">Regla de esquinas</span></a>
+          <a class="kidx__r" href="../fundamentos/forma/espacio.html#radios"><b>KYN-MRK-ESP-002</b><span class="kidx__n">9.2</span><span class="kidx__t">Radios</span></a>
+          <a class="kidx__r" href="../fundamentos/forma/espacio.html#espaciado"><b>KYN-MRK-ESP-003</b><span class="kidx__n">9.3</span><span class="kidx__t">Espaciado</span></a>
+          <a class="kidx__r" href="../fundamentos/iconografia/iconos.html#uso"><b>KYN-MRK-ICO-003</b><span class="kidx__n">13.3</span><span class="kidx__t">Uso</span></a>
         </div>
       </div>
     </section>
@@ -79,6 +73,5 @@
 
 <script src="../js/nav-sistema-diseno.js"></script>
 <script src="../js/libro.js"></script>
-<script src="../js/sistema-diseno.js"></script>
 </body>
 </html>

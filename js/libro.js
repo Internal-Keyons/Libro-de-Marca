@@ -615,7 +615,7 @@
         : `<span class="${cls}" title="${esc(it.t)} · página aún no construida"><span class="nav-item__n">${num}</span><span class="nav-item__t">${esc(it.st || it.t)}</span>${dot(it.s)}</span>`;
     }).join('');
     return `<div class="nav-ch" aria-expanded="${open}">
-      <button class="nav-ch__btn" type="button" title="${esc(c.n + ' ' + c.t)}"><span class="nav-ch__num">${c.n}</span><span>${esc(BOOK.menu === 'chapters' && c.st ? c.st : c.t)}</span>${ic(I.chev)}</button>
+      <button class="nav-ch__btn" type="button" title="${esc(c.n + ' ' + c.t)}"><span class="nav-ch__num">${c.n}</span><span>${esc(c.t)}</span>${ic(I.chev)}</button>
       <div class="nav-list">${items}</div></div>`;
   }).join('');
   const area = NAV.find((x) => x.id === AREA);
