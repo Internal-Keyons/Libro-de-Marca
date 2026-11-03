@@ -4574,3 +4574,6 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 .trk.is-one[data-v="1"] .trk__r > :nth-child(2),.trk.is-one[data-v="2"] .trk__r > :nth-child(3),.trk.is-one[data-v="3"] .trk__r > :nth-child(4){display:block}
 .trk.is-one .trk__c{overflow:visible}
 .trk.is-one .trk__s{white-space:normal}
+
+/* 11.2 · flecha oficial del catálogo en «Flecha de cambio» */
+.emph__arrow{display:inline-block;width:1.1em;height:1.1em;margin:0 .15em;vertical-align:-.18em;color:var(--k-noche)}
