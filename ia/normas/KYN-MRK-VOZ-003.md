@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VOZ-003"
 titulo: "Vocabulario propio"
@@ -11,7 +11,7 @@ capitulo: "04 Voz"
 area: "Marca"
 fuente: "/marca/vocabulario.html#propio"
 referencias: []
-citada_por: ["KYN-MRK-ESP-006"]
+citada_por: []
 ---
 
 # KYN-MRK-VOZ-003 · Vocabulario propio

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "11"
 titulo: "Elementos gráficos"
@@ -20,11 +20,11 @@ Viñetas, énfasis, transparencia, luz, cielos, tramas y fotografía.
 
 **Contenido del capítulo**
 
-- **Señales y estructura**
+- **Estructura**
 - Viñetas y marcadores gráficos · borrador · `/fundamentos/elementos/graficos.html#vinetas`
 - Recursos de énfasis visual · borrador · `/fundamentos/elementos/graficos.html#enfasis`
 - Líneas, guías y medidas · borrador · `/fundamentos/elementos/graficos.html#lineas`
-- **Profundidad atmosférica**
+- **Atmósfera visual**
 - Transparencia y superposición · borrador · `/fundamentos/elementos/graficos.html#cristal`
 - Luz y profundidad · vigente · `/fundamentos/elementos/graficos.html#profundidad`
 - Ventanas de cielo · borrador · `/fundamentos/elementos/graficos.html#ventana`

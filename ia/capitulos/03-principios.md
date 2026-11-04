@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "03"
 titulo: "Principios"
@@ -75,6 +75,8 @@ Organiza la información, orienta la atención y aporta claridad mediante una co
 #### Maximalismo gráfico
 
 Aporta personalidad y expresión mediante recursos visuales utilizados con intención.
+
+#### Equilibrio
 
 Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.
 

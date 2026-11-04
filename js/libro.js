@@ -419,18 +419,17 @@
 
   /* Menú desplegable de la casa (el mismo del formulario): reemplaza visualmente a un select, que conserva el estado */
   const CHEV = '<svg viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,13.4475,25.0231)" d="M0 0-1.987 1.846 4.184 8.489C4.454 8.779 4.454 9.234 4.185 9.525L-1.989 16.206 .002 18.046 6.177 11.366C7.402 10.04 7.399 7.966 6.171 6.643Z" fill="currentColor"/></svg>';
-  const OK = '<svg viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,8.8129,16.8326)" stroke-width="2.5" stroke-linecap="square" fill="none" stroke="currentColor" d="M0 0L4.637 -4.637L13.714 5.796"/></svg>';
   function kdd(sel) {
     const lab = sel.closest('label'), name = lab ? lab.querySelector('.paren').textContent.replace(/[()]/g, '') : '';
     const d = document.createElement('div');
     d.className = 'kdd';
-    d.innerHTML = `<button class="kdd__btn" type="button" aria-haspopup="listbox" aria-expanded="false"><span class="kdd__l">${esc(name)}</span><span class="kdd__v"></span><span class="kdd__ch">${CHEV}</span></button><ul class="kdd__list" role="listbox" aria-label="${esc(name)}"></ul>`;
+    d.innerHTML = `${name ? `<span class="kdd__t">${esc(name)}</span>` : ''}<button class="kdd__btn" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="${esc(name)}"><span class="kdd__v"></span><span class="kdd__ch">${CHEV}</span></button><ul class="kdd__list" role="listbox" aria-label="${esc(name)}"></ul>`;
     (lab || sel).after(d);
     if (lab) lab.hidden = true;
     const btn = d.querySelector('.kdd__btn'), list = d.querySelector('.kdd__list'), val = d.querySelector('.kdd__v');
     const paint = () => {
       val.textContent = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text : '';
-      list.innerHTML = [...sel.options].map((o, i) => `<li class="kdd__o" role="option" data-i="${i}" aria-selected="${i === sel.selectedIndex}"><span>${esc(o.text)}</span>${OK}</li>`).join('');
+      list.innerHTML = [...sel.options].map((o, i) => `<li class="kdd__o" role="option" data-i="${i}" aria-selected="${i === sel.selectedIndex}">${esc(o.text)}</li>`).join('');
     };
     const open = (on) => {
       if (on) document.querySelectorAll('.kdd.is-open').forEach((x) => { if (x !== d) { x.classList.remove('is-open'); x.querySelector('.kdd__btn').setAttribute('aria-expanded', 'false'); } });
@@ -1530,6 +1529,23 @@
     const c = e.target.closest('[data-copy-code]');
     if (c) copy(c.closest('.code').querySelector('pre').innerText, 'Código copiado');
   });
+  /* Acordeones: el primer ítem se abre cuando el acordeón entra en pantalla, para que se entienda la interacción */
+  document.querySelectorAll('.promises').forEach((acc) => {
+    const first = acc.querySelector('details');
+    if (!first) return;
+    acc.querySelectorAll('details[open]').forEach((d) => d.removeAttribute('open'));
+    if (!('IntersectionObserver' in window)) { first.open = true; return; }
+    const io = new IntersectionObserver((es) => {
+      if (es.some((e) => e.isIntersecting)) { setTimeout(() => { first.open = true; }, 450); io.disconnect(); }
+    }, { rootMargin: '0px 0px -35% 0px' });
+    io.observe(acc);
+  });
+
+  document.querySelectorAll('.portal').forEach((p) => {
+    if (p.querySelector('.portal__clouds')) return;
+    p.insertAdjacentHTML('afterbegin', '<div class="portal__clouds" aria-hidden="true"></div>');
+  });
+
   /* Carrusel horizontal: varias piezas a la vista, con el pie de los demás carruseles */
   document.querySelectorAll('[data-hcar]').forEach((c) => {
     const items = [...c.children];
@@ -1567,7 +1583,7 @@
     card.append(back);
     cap.remove();
     if (lab) { const t = document.createElement('span'); t.className = 'flip__tag'; t.textContent = lab.textContent.replace(/[()]/g, ''); card.append(t); }
-    card.insertAdjacentHTML('beforeend', '<button class="flip__btn" type="button" aria-expanded="false"><span>Leer más</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9.3 16h13.4M16 9.3v13.4" stroke="currentColor" stroke-width="2.5" fill="none"/></svg></button>');
+    card.insertAdjacentHTML('beforeend', '<button class="flip__btn" type="button" aria-expanded="false"><svg viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,9.2835,16)" stroke-width="2.5" stroke-linecap="butt" fill="none" stroke="currentColor" d="M0 0L13.433 0"/><path transform="matrix(1,0,0,-1,16,9.283501)" stroke-width="2.5" stroke-linecap="butt" fill="none" stroke="currentColor" d="M0 0L0 -13.433"/></svg><span>Leer más</span></button>');
     const btn = card.querySelector('.flip__btn');
     btn.addEventListener('click', () => {
       const on = !f.classList.contains('is-flip');

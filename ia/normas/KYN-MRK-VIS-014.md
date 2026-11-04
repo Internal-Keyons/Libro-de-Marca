@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-014"
 titulo: "Maximalismo uniforme"
@@ -20,7 +20,9 @@ Número: 10.4.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fu
 
 ##### Intensidad con momentos de reposo
 
-La expresión gráfica necesita contraste entre momentos intensos y momentos de reposo. El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura.
+La expresión gráfica necesita **contraste entre momentos intensos y momentos de reposo**.
+
+El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura.
 
 **(Uso incorrecto)**
 **La misma intensidad en cada bloque** Fotografía, color y textura en todas partes: nada destaca.

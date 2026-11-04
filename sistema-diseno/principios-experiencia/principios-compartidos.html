@@ -40,7 +40,7 @@
     </section>
 
     <!-- Capítulo 01 · Principios compartidos. Contenido en revisión editorial (estado Borrador). Fuente: data/sd-capitulos/principios-compartidos.html -->
-    <section class="ed" id="proposito">
+    <section class="ed sdl-hero" id="proposito">
       <div class="ed__label"><span>01</span><span>Propósito</span></div>
       <div>
         <h2 class="ed__title">Diseñar para comprender y actuar</h2>
@@ -54,11 +54,8 @@
       <div>
         <h2 class="ed__title">Entender antes de actuar</h2>
         <p class="ed__lead">La claridad depende de presentar <strong>lo necesario, con la jerarquía adecuada y en el momento oportuno</strong>.</p>
-        <div class="sdx-slots sdx-slots--on">
-          <div><span class="paren">(01)</span><p class="sdx-t">Ubicación comprensible</p><p>La persona reconoce dónde se encuentra y en qué tarea está.</p></div>
-          <div><span class="paren">(02)</span><p class="sdx-t">Prioridad de la información</p><p>La jerarquía responde a la importancia de la tarea, sus riesgos y sus decisiones.</p></div>
-          <div><span class="paren">(03)</span><p class="sdx-t">Complejidad proporcionada</p><p>Primero lo necesario para avanzar; el detalle, cuando aporta valor y sin ocultar riesgos.</p></div>
-        </div>
+        <div class="sdl-split">
+          <div class="sdl-panel">
         <div class="sdx-vis">
           <figure class="sdx-fig" aria-label="Ejemplo estático: formulario de registro donde se reconocen ubicación, tarea y acción siguiente">
             <div class="sdx-app">
@@ -72,9 +69,16 @@
             <ol class="sdx-notes"><li><b>Ubicación</b>La ruta y el título dicen dónde está la persona.</li><li><b>Tarea</b>El paso indica cuánto falta y qué se completa.</li><li><b>Acción siguiente</b>Una acción principal, distinta de la secundaria.</li></ol>
           </figure>
         </div>
-        <div class="sdx-slots sdx-slots--on sdx-slots--2">
-          <div><span class="paren">(Ejemplo de aplicación)</span><p>En un formulario de registro, la persona ve qué completa, qué falta y cómo continuar.</p></div>
-          <div><span class="paren">(Comprobación)</span><p class="sdx-slots__k">Las personas identifican su ubicación, la tarea y la acción siguiente sin explicaciones externas.</p></div>
+          </div>
+          <ol class="sdl-steps">
+            <li><span class="sdl-n">01</span><div><h3 class="sdl-t">Ubicación comprensible</h3><p class="sdl-d">La persona reconoce dónde se encuentra y en qué tarea está.</p></div></li>
+            <li><span class="sdl-n">02</span><div><h3 class="sdl-t">Prioridad de la información</h3><p class="sdl-d">La jerarquía responde a la importancia de la tarea, sus riesgos y sus decisiones.</p></div></li>
+            <li><span class="sdl-n">03</span><div><h3 class="sdl-t">Complejidad proporcionada</h3><p class="sdl-d">Primero lo necesario para avanzar; el detalle, cuando aporta valor y sin ocultar riesgos.</p></div></li>
+          </ol>
+        </div>
+        <div class="sdl-pair">
+          <div><h4 class="sdl-h">Ejemplo de aplicación</h4><p>En un formulario de registro, la persona ve qué completa, qué falta y cómo continuar.</p></div>
+          <div><h4 class="sdl-h">Comprobación</h4><p>Las personas identifican su ubicación, la tarea y la acción siguiente sin explicaciones externas.</p></div>
         </div>
       </div>
     </section>
@@ -84,18 +88,22 @@
       <div>
         <h2 class="ed__title">Una lógica que se aprende y permanece</h2>
         <p class="ed__lead">Los elementos que cumplen una misma función mantienen <strong>comportamientos reconocibles</strong>, para que la atención esté en el trabajo y no en la interfaz.</p>
-        <div class="sdx-slots sdx-slots--on">
-          <div><span class="paren">(01)</span><p class="sdx-t">Comportamientos coherentes</p><p>Guardar, editar, cancelar o eliminar significan lo mismo en cada módulo y producto.</p></div>
-          <div><span class="paren">(02)</span><p class="sdx-t">Respuestas previsibles</p><p>Cada acción muestra si está pendiente, en proceso, completada o fallida. El éxito se comunica cuando es real.</p></div>
-          <div><span class="paren">(03)</span><p class="sdx-t">Adaptación sin pérdida de coherencia</p><p>Roles, dispositivos e identidades cambian la apariencia, no las convenciones funcionales.</p></div>
-        </div>
+        <div class="sdl-split sdl-split--rev">
+          <div class="sdl-panel">
         <div class="sdx-pair" aria-label="Ejemplo estático: dos productos con identidades distintas y el mismo comportamiento de guardado">
           <figure data-ctx="interna"><p class="sdx-pair__l">Herramienta interna Keyons</p><div class="sdx-ui"><p class="sdx-ui__t">Ficha del proveedor</p><span class="sdx-ui__f"></span><span class="sdx-ui__f s"></span><span class="sdx-ui__b">Guardar</span><p class="sdx-ui__ok"><i aria-hidden="true"></i>Cambios guardados</p></div></figure>
           <figure data-ctx="cliente"><p class="sdx-pair__l">SaaS con la identidad del cliente</p><div class="sdx-ui"><p class="sdx-ui__t">Ficha del proveedor</p><span class="sdx-ui__f"></span><span class="sdx-ui__f s"></span><span class="sdx-ui__b">Guardar</span><p class="sdx-ui__ok"><i aria-hidden="true"></i>Cambios guardados</p></div></figure>
         </div>
-        <div class="sdx-slots sdx-slots--on sdx-slots--2">
-          <div><span class="paren">(Ejemplo de aplicación)</span><p>Una herramienta interna y un SaaS de cliente cambian de color y composición, y conservan la misma lógica de guardado.</p></div>
-          <div><span class="paren">(Comprobación)</span><p class="sdx-slots__k">Quien conoce un patrón lo reconoce en otro producto, sin diferencias arbitrarias.</p></div>
+          </div>
+          <ol class="sdl-steps">
+            <li><span class="sdl-n">01</span><div><h3 class="sdl-t">Comportamientos coherentes</h3><p class="sdl-d">Guardar, editar, cancelar o eliminar significan lo mismo en cada módulo y producto.</p></div></li>
+            <li><span class="sdl-n">02</span><div><h3 class="sdl-t">Respuestas previsibles</h3><p class="sdl-d">Cada acción muestra si está pendiente, en proceso, completada o fallida. El éxito se comunica cuando es real.</p></div></li>
+            <li><span class="sdl-n">03</span><div><h3 class="sdl-t">Adaptación sin pérdida de coherencia</h3><p class="sdl-d">Roles, dispositivos e identidades cambian la apariencia, no las convenciones funcionales.</p></div></li>
+          </ol>
+        </div>
+        <div class="sdl-pair">
+          <div><h4 class="sdl-h">Ejemplo de aplicación</h4><p>Una herramienta interna y un SaaS de cliente cambian de color y composición, y conservan la misma lógica de guardado.</p></div>
+          <div><h4 class="sdl-h">Comprobación</h4><p>Quien conoce un patrón lo reconoce en otro producto, sin diferencias arbitrarias.</p></div>
         </div>
       </div>
     </section>
@@ -105,11 +113,8 @@
       <div>
         <h2 class="ed__title">La tecnología acompaña; la persona conserva el criterio</h2>
         <p class="ed__lead">Una experiencia confiable comunica <strong>qué ocurre, qué consecuencias tienen las acciones</strong> y qué decisiones permanecen bajo responsabilidad humana.</p>
-        <div class="sdx-slots sdx-slots--on">
-          <div><span class="paren">(01)</span><p class="sdx-t">Decisiones informadas</p><p>Antes de una acción significativa, la persona comprende sus consecuencias. Sin patrones manipulativos.</p></div>
-          <div><span class="paren">(02)</span><p class="sdx-t">Transparencia del sistema</p><p>Lo que propone la IA, lo pendiente de verificación y lo aprobado por personas se distinguen.</p></div>
-          <div><span class="paren">(03)</span><p class="sdx-t">Recuperación y continuidad</p><p>Ante un fallo, la interfaz informa el estado real y ofrece cómo recuperarse, sin prometer lo que no puede deshacer.</p></div>
-        </div>
+        <div class="sdl-split sdl-split--wide">
+          <div class="sdl-panel">
         <div class="sdx-ai" aria-label="Ejemplo estático: una propuesta de IA se distingue de una acción aprobada y ejecutada">
           <figure class="sdx-ai__c"><p class="sdx-ai__tag"><i class="sdx-ai__dot" aria-hidden="true"></i>Propuesta generada por IA · Pendiente de aprobación</p>
             <p class="sdx-ai__t">Actualizar datos del cliente</p>
@@ -120,9 +125,16 @@
             <p class="sdx-ai__t">Datos del cliente actualizados</p>
             <p class="sdx-ai__note">El resultado ejecutado se distingue de la propuesta.</p></figure>
         </div>
-        <div class="sdx-slots sdx-slots--on sdx-slots--2">
-          <div><span class="paren">(Ejemplo de aplicación)</span><p>Un agente de IA propone actualizar los datos de un cliente; la interfaz muestra qué cambia y pide aprobación cuando corresponde.</p></div>
-          <div><span class="paren">(Comprobación)</span><p class="sdx-slots__k">La persona distingue una propuesta de una acción ejecutada y sabe cómo recuperar el control.</p></div>
+          </div>
+          <ol class="sdl-steps">
+            <li><span class="sdl-n">01</span><div><h3 class="sdl-t">Decisiones informadas</h3><p class="sdl-d">Antes de una acción significativa, la persona comprende sus consecuencias. Sin patrones manipulativos.</p></div></li>
+            <li><span class="sdl-n">02</span><div><h3 class="sdl-t">Transparencia del sistema</h3><p class="sdl-d">Lo que propone la IA, lo pendiente de verificación y lo aprobado por personas se distinguen.</p></div></li>
+            <li><span class="sdl-n">03</span><div><h3 class="sdl-t">Recuperación y continuidad</h3><p class="sdl-d">Ante un fallo, la interfaz informa el estado real y ofrece cómo recuperarse, sin prometer lo que no puede deshacer.</p></div></li>
+          </ol>
+        </div>
+        <div class="sdl-pair">
+          <div><h4 class="sdl-h">Ejemplo de aplicación</h4><p>Un agente de IA propone actualizar los datos de un cliente; la interfaz muestra qué cambia y pide aprobación cuando corresponde.</p></div>
+          <div><h4 class="sdl-h">Comprobación</h4><p>La persona distingue una propuesta de una acción ejecutada y sabe cómo recuperar el control.</p></div>
         </div>
       </div>
     </section>

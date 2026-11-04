@@ -607,12 +607,17 @@
   "fundamentos/composicion/editorial.html#patrones": {
    "estado": "vigente",
    "id": "KYN-MRK-ESP-006",
-   "texto": "Patrones de composición La forma sale del contenido La elección de una composición comienza por comprender el contenido y cómo necesita recorrerlo el lector. Los patrones son alternativas de diseño, no plantillas obligatorias. (El contenido es)Patrón posibleEjemploReglas o principios cortos, de tres a seisCuadrícula de reglasKYN-MRK-CON-006 · Reglas de composiciónPuntos que se leen uno a uno y pueden crecerAcordeónKYN-MRK-COL-004 · Reglas del colorPares o tríos de explicacionesRótulo arriba, texto debajoKYN-MRK-ADN-001 · EsenciaÍtems sin jerarquíaLista con viñetas de marcaKYN-MRK-LOG-006 · Usos incorrectosComparación entre opcionesMatrizKYN-MRK-ADN-003 · EspectroAlgo que se ve: color, logo, letraMuestra en recuadro, con la regla de esquinasKYN-MRK-LOG-001 · VersionesMuchos ítems del mismo tipoSelector o carruselKYN-MRK-VOZ-003 · VocabularioIdeas de distinto peso, que se recorren librementeRetícula dinámica de líneasKYN-MRK-DAT-001 · PrincipiosDatos y cifrasNúmero grande con su lectura14 · DatosUna nota que señala algoFlecha orgánicaKYN-MRK-COL-002 · Colores principales (Uso)Las asociaciones de cuadrículas, acordeones, listas, matrices, carruseles, retículas, indicadores y flechas deben interpretarse como ejemplos. Un patrón debe elegirse por su utilidad, no por la cantidad de elementos o porque aparezca en el catálogo. (Relación con otros capítulos)Este capítulo establece criterios para seleccionar composiciones. El capítulo 10, Composiciones, desarrolla cómo utilizar simetría, asimetría, retículas y ritmo editorial. El Sistema de Diseño define los patrones funcionales de interacción. La repetición aporta consistencia cuando facilita la comprensión. La variación se utiliza cuando el contenido necesita otro ritmo o una jerarquía diferente.",
+   "texto": "Patrones de composición Patrones de composición La estructura de una pieza responde a lo que necesita comunicar. Keyons utiliza diferentes composiciones para explicar, comparar, presentar secuencias, relacionar elementos y destacar información. 01ExplicarLos contenidos que desarrollan una idea utilizan títulos, párrafos y una estructura de lectura continua.EjemploUna página de informe con título, introducción, dos secciones y una conclusión.ComposiciónColumna de lectura con títulos y espacios proporcionados. 02CompararLas alternativas se organizan mediante una distribución que permite reconocer sus características y diferencias.EjemploSituación actual y propuesta de mejora en un proyecto Keyons.ComposiciónComparación horizontal cuando ambas alternativas dispongan de espacio suficiente; vertical cuando cada una requiera mayor ancho. 03Mostrar una secuenciaLas etapas de un proceso utilizan numeración, alineación y continuidad visual para comunicar su orden.EjemploLas cinco fases oficiales de Prisma: Amanecer, Mediodía, Atardecer, Anochecer y Galaxia.ComposiciónSecuencia numerada o recorrido visual, adaptado al formato. 04Presentar elementos equivalentesLos elementos que cumplen funciones equivalentes mantienen una estructura consistente que facilita recorrerlos y compararlos.EjemploCapacidades de Keyons.ComposiciónLista estructurada, columnas o retícula editorial, según el volumen y la extensión del contenido. 05Destacar una ideaLa información protagonista adquiere mayor presencia mediante escala, posición, proporción y espacio. El contenido complementario aporta contexto.EjemploPortada de una propuesta comercial Keyons.ComposiciónTitular o declaración protagonista con información secundaria subordinada. (Uso)Las asociaciones de cuadrículas, acordeones, listas, matrices, carruseles, retículas, indicadores y flechas deben interpretarse como ejemplos. Un patrón debe elegirse por su utilidad, no por la cantidad de elementos o porque aparezca en el catálogo. (Relación con otros capítulos)Este capítulo establece criterios para seleccionar composiciones. El capítulo 10, Composiciones, desarrolla cómo utilizar simetría, asimetría, retículas y ritmo editorial. El Sistema de Diseño define los patrones funcionales de interacción. La repetición aporta consistencia cuando facilita la comprensión. La variación se utiliza cuando el contenido necesita otro ritmo o una jerarquía diferente.",
    "versiones": [
     {
      "aprobada": "2026-11-03",
      "huella": "2876ac48ab94109f",
      "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "d2999895c8f8dd33",
+     "nota": "Ronda 15: enunciados en párrafos con lo esencial destacado, sin ejemplos en VIS-003/004/009/016, guía de patrones (ESP-006), menús y Leer más limpios, nubes en encabezados, prueba de diagramación en el Sistema de Diseño"
     }
    ]
   },
@@ -717,7 +722,7 @@
   "fundamentos/composicion/editorial.html#vis-003": {
    "estado": "vigente",
    "id": "KYN-MRK-VIS-003",
-   "texto": "Jerarquía repetida La jerarquía se construye para cada contenido La composición debe responder a las relaciones y prioridades del contenido. Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución. (Uso incorrecto)Tres secciones con la misma fórmula Kicker, titular, párrafo y tarjetas, una y otra vez. (Alternativa mejor)Un dato, una explicación y una imagen, cada uno con la composición que su función necesita.45",
+   "texto": "Jerarquía repetida La jerarquía se construye para cada contenido La composición debe responder a las relaciones y prioridades del contenido. Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.",
    "versiones": [
     {
      "aprobada": "2026-11-03",
@@ -733,13 +738,18 @@
      "aprobada": "2026-11-03",
      "huella": "633b32218d819159",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "f7b5a554145fe769",
+     "nota": "Ronda 15: enunciados en párrafos con lo esencial destacado, sin ejemplos en VIS-003/004/009/016, guía de patrones (ESP-006), menús y Leer más limpios, nubes en encabezados, prueba de diagramación en el Sistema de Diseño"
     }
    ]
   },
   "fundamentos/composicion/editorial.html#vis-004": {
    "estado": "vigente",
    "id": "KYN-MRK-VIS-004",
-   "texto": "Tarjetas innecesarias Una tarjeta solo cuando agrupa algo Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas. Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente. Entender la operaciónConstruir con su equipoMedir y mejorar(Uso incorrecto)Cada párrafo en su propia tarjeta Sombras y bordes que no agrupan nada y quitan espacio. Entender la operaciónConstruir con su equipoMedir y mejorar(Alternativa mejor)El mismo contenido con jerarquía, alineación y separadores discretos. Recupera espacio negativo sin perder claridad.",
+   "texto": "Tarjetas innecesarias Una tarjeta solo cuando agrupa algo Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas. Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.",
    "versiones": [
     {
      "aprobada": "2026-11-03",
@@ -755,13 +765,18 @@
      "aprobada": "2026-11-03",
      "huella": "4b3a8acb60157b8d",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "6bbbba4476f735d4",
+     "nota": "Ronda 15: enunciados en párrafos con lo esencial destacado, sin ejemplos en VIS-003/004/009/016, guía de patrones (ESP-006), menús y Leer más limpios, nubes en encabezados, prueba de diagramación en el Sistema de Diseño"
     }
    ]
   },
   "fundamentos/composicion/editorial.html#vis-009": {
    "estado": "vigente",
    "id": "KYN-MRK-VIS-009",
-   "texto": "Microelementos La jerarquía no se hace con adornos Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia. La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa. NuevoIAv2Reglas de composiciónDestacado(Uso incorrecto)Un titular con todo alrededor Estrellas, etiquetas, puntos, líneas y miniíconos sin función. Norma CON-006VigenteReglas de composiciónCuatro criterios para la composición expresiva(Alternativa mejor)El titular y los datos que orientan, como el código y el estado de la norma.",
+   "texto": "Microelementos La jerarquía no se hace con adornos Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia. La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.",
    "versiones": [
     {
      "aprobada": "2026-11-03",
@@ -777,6 +792,11 @@
      "aprobada": "2026-11-03",
      "huella": "bb08deda39e3923e",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "67fcc5b82de4f48b",
+     "nota": "Ronda 15: enunciados en párrafos con lo esencial destacado, sin ejemplos en VIS-003/004/009/016, guía de patrones (ESP-006), menús y Leer más limpios, nubes en encabezados, prueba de diagramación en el Sistema de Diseño"
     }
    ]
   },
@@ -827,7 +847,7 @@
   "fundamentos/composicion/editorial.html#vis-016": {
    "estado": "vigente",
    "id": "KYN-MRK-VIS-016",
-   "texto": "Identidad visual aplicada Una composición con identidad propia Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia. Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña. En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología. Innovación para tu negocioComenzar(Uso incorrecto)Una portada que con otro logo serviría igual Podría ser de cualquier empresa de tecnología. Ordenar ideas, no medirlas(Alternativa mejor)Tipografía, retícula y una ventana de cielo elegidas para Keyons. Cada pieza usa los recursos que le corresponden.",
+   "texto": "Identidad visual aplicada Una composición con identidad propia Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia. Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña. En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología.",
    "versiones": [
     {
      "aprobada": "2026-11-03",
@@ -843,6 +863,11 @@
      "aprobada": "2026-11-03",
      "huella": "0e1c6f8066406273",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "b4ed9e61c370f597",
+     "nota": "Ronda 15: enunciados en párrafos con lo esencial destacado, sin ejemplos en VIS-003/004/009/016, guía de patrones (ESP-006), menús y Leer más limpios, nubes en encabezados, prueba de diagramación en el Sistema de Diseño"
     }
    ]
   },
@@ -1184,7 +1209,7 @@
   "fundamentos/criterio/antipatrones.html#vis-015": {
    "estado": "vigente",
    "id": "KYN-MRK-VIS-015",
-   "texto": "Orientación Original, pero siempre comprensible La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia. La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas. Cielo propio(Uso incorrecto)Un menú que solo aparece al pasar por una zona sin señal La persona no sabe que existe. KeyonsADNConceptoPrincipiosVozCielo propio(Alternativa mejor)Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.",
+   "texto": "Orientación Original, pero siempre comprensible La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia. La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas. Cielo propio(Uso incorrecto)Un menú que solo aparece al pasar por una zona sin señal La persona no sabe que existe. KeyonsADNConceptoPrincipiosVozCielo propio(Alternativa mejor)Navegación a la vista Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1210,6 +1235,11 @@
      "aprobada": "2026-11-03",
      "huella": "dccf42fef0d1f8c7",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "cd8b15a3635a25ef",
+     "nota": "Ronda 15: enunciados en párrafos con lo esencial destacado, sin ejemplos en VIS-003/004/009/016, guía de patrones (ESP-006), menús y Leer más limpios, nubes en encabezados, prueba de diagramación en el Sistema de Diseño"
     }
    ]
   },
@@ -1655,7 +1685,7 @@
   "fundamentos/forma/espacio.html#vis-006": {
    "estado": "vigente",
    "id": "KYN-MRK-VIS-006",
-   "texto": "Geometría genérica La geometría Keyons, no un radio para todo La geometría de los elementos debe responder a su función y relación compositiva. No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad. En las composiciones de Keyons se aplica el principio de contenedores individuales rectos y agrupaciones con combinaciones justificadas de esquinas rectas y curvas. Cielo propioVer capítulo(Uso incorrecto)El mismo radio en todo Imagen, contenedor y botón con idéntico redondeo. Cielo propioVer capítulo(Alternativa mejor)La imagen y el texto forman un conjunto: exterior recto, interior curvo. El botón conserva su geometría curva.",
+   "texto": "Geometría genérica La geometría Keyons, no un radio para todo La geometría de los elementos debe responder a su función y relación compositiva. No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad. En las composiciones de Keyons se aplica el principio de contenedores individuales rectos y agrupaciones con combinaciones justificadas de esquinas rectas y curvas. Cielo propioVer capítulo(Uso incorrecto)El mismo radio en todo Imagen, contenedor y botón con idéntico redondeo. Cielo propioVer capítulo(Alternativa mejor)Radios según la función La imagen y el texto forman un conjunto: exterior recto, interior curvo. El botón conserva su geometría curva.",
    "versiones": [
     {
      "aprobada": "2026-11-03",
@@ -1671,6 +1701,11 @@
      "aprobada": "2026-11-03",
      "huella": "129eb6045371faba",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "b96c3872bbe1bc3e",
+     "nota": "Ronda 15: enunciados en párrafos con lo esencial destacado, sin ejemplos en VIS-003/004/009/016, guía de patrones (ESP-006), menús y Leer más limpios, nubes en encabezados, prueba de diagramación en el Sistema de Diseño"
     }
    ]
   },
@@ -1759,7 +1794,7 @@
   "fundamentos/iconografia/iconos.html#vis-008": {
    "estado": "vigente",
    "id": "KYN-MRK-VIS-008",
-   "texto": "Iconografía de relleno Un ícono tiene que ayudar a entender No introducir íconos únicamente para decorar textos o títulos. Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada. Nuestra visiónCrecimientoProcesos(Uso incorrecto)Un ícono genérico junto a cada titular Una bombilla, un cohete o un engranaje que no dicen nada del contenido. Descargar PDFAcciónVigenteEstadoPlantilla de propuestaCategoría(Alternativa mejor)El ícono identifica una acción, un estado o una categoría.",
+   "texto": "Iconografía de relleno Un ícono tiene que ayudar a entender No introducir íconos únicamente para decorar textos o títulos. Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada. Nuestra visiónCrecimientoProcesos(Uso incorrecto)Un ícono genérico junto a cada titular Una bombilla, un cohete o un engranaje que no dicen nada del contenido. Descargar PDFAcciónVigenteEstadoPlantilla de propuestaCategoría(Alternativa mejor)Un ícono con función El ícono identifica una acción, un estado o una categoría.",
    "versiones": [
     {
      "aprobada": "2026-11-03",
@@ -1775,6 +1810,11 @@
      "aprobada": "2026-11-03",
      "huella": "68519a700c651c87",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "cb47e5b250d99842",
+     "nota": "Ronda 15: enunciados en párrafos con lo esencial destacado, sin ejemplos en VIS-003/004/009/016, guía de patrones (ESP-006), menús y Leer más limpios, nubes en encabezados, prueba de diagramación en el Sistema de Diseño"
     }
    ]
   },
@@ -2620,7 +2660,7 @@
   "marca/principios.html#calma": {
    "estado": "vigente",
    "id": "KYN-MRK-DIS-003",
-   "texto": "Calma y expresión Diseño: calma y expresión El lenguaje visual de Keyons utiliza claridad, tipografía, retículas y espacio negativo para generar calma; fotografía, color, textura y movimiento para generar carácter. Minimalismo estructuralOrganiza la información, orienta la atención y aporta claridad mediante una composición precisa. Maximalismo gráficoAporta personalidad y expresión mediante recursos visuales utilizados con intención. Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.",
+   "texto": "Calma y expresión Diseño: calma y expresión El lenguaje visual de Keyons utiliza claridad, tipografía, retículas y espacio negativo para generar calma; fotografía, color, textura y movimiento para generar carácter. Minimalismo estructuralOrganiza la información, orienta la atención y aporta claridad mediante una composición precisa. Maximalismo gráficoAporta personalidad y expresión mediante recursos visuales utilizados con intención. Equilibrio Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2646,6 +2686,11 @@
      "aprobada": "2026-11-02",
      "huella": "1772e60e279b7e29",
      "nota": "Revisión 2026-11-02: CON-006, VOZ-002, VOZ-004; diagramación DIS-003 y VOZ-006"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "8452dc22a85c5451",
+     "nota": "Ronda 15: enunciados en párrafos con lo esencial destacado, sin ejemplos en VIS-003/004/009/016, guía de patrones (ESP-006), menús y Leer más limpios, nubes en encabezados, prueba de diagramación en el Sistema de Diseño"
     }
    ]
   },

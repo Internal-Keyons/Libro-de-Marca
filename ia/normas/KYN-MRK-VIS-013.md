@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-013"
 titulo: "Lenguaje genérico"
@@ -20,7 +20,9 @@ Número: 4.4.1 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/vocabu
 
 ##### Específico, comprensible y con sentido
 
-El contenido debe ser específico, comprensible y significativo. No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta.
+El contenido debe ser **específico, comprensible y significativo**.
+
+No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta.
 
 > Recurso visual: Muestra visual: Quién podría firmarlo · Qué comunica
 

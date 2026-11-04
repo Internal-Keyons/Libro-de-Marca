@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "09"
 titulo: "Geometría y espacio"
@@ -125,7 +125,11 @@ Número: 9.2.1 · ID: `KYN-MRK-VIS-006` · Estado: vigente · Fuente: `/fundamen
 
 ### La geometría Keyons, no un radio para todo
 
-La geometría de los elementos debe responder a su función y relación compositiva. No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad. En las composiciones de Keyons se aplica el principio de contenedores individuales rectos y agrupaciones con combinaciones justificadas de esquinas rectas y curvas.
+La geometría de los elementos debe responder a **su función y relación compositiva**.
+
+No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad.
+
+En las composiciones de Keyons se aplica el principio de contenedores individuales rectos y agrupaciones con combinaciones justificadas de esquinas rectas y curvas.
 
 > Recurso visual: Ejemplo dibujado: Cielo propio · Ver capítulo
 
@@ -135,7 +139,7 @@ La geometría de los elementos debe responder a su función y relación composit
 > Recurso visual: Ejemplo dibujado: Cielo propio · Ver capítulo
 
 **(Alternativa mejor)**
-La imagen y el texto forman un conjunto: exterior recto, interior curvo. El botón conserva su geometría curva.
+**Radios según la función** La imagen y el texto forman un conjunto: exterior recto, interior curvo. El botón conserva su geometría curva.
 
 ## KYN-MRK-ESP-003 · 9.3 Sistema de espaciado
 

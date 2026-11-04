@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-011"
 titulo: "Movimiento ornamental"
@@ -20,7 +20,11 @@ Número: 28.3.1 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/fund
 
 ##### El movimiento orienta, no distrae
 
-El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite. En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas. En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.
+El movimiento debe **facilitar la orientación**, comunicar cambios o aportar expresión visual cuando el contexto lo permite.
+
+En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas.
+
+En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.
 
 **(Uso incorrecto)**
 **Animación constante durante una tarea** Elementos que flotan en bucle mientras se trabaja.

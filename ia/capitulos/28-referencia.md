@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "28"
 titulo: "Referencia"
@@ -161,7 +161,11 @@ Número: 28.3.1 · ID: `KYN-MRK-VIS-011` · Estado: vigente · Fuente: `/fundame
 
 ### El movimiento orienta, no distrae
 
-El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite. En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas. En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.
+El movimiento debe **facilitar la orientación**, comunicar cambios o aportar expresión visual cuando el contexto lo permite.
+
+En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas.
+
+En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.
 
 **(Uso incorrecto)**
 **Animación constante durante una tarea** Elementos que flotan en bucle mientras se trabaja.
@@ -175,7 +179,9 @@ Número: 28.3.2 · ID: `KYN-MRK-VIS-015` · Estado: vigente · Fuente: `/fundame
 
 ### Original, pero siempre comprensible
 
-La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia. La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
+La originalidad visual **no debe ocultar funciones**, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia.
+
+La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
 
 > Recurso visual: Ejemplo dibujado: Cielo propio
 
@@ -185,4 +191,4 @@ La originalidad visual no debe ocultar funciones, navegación, estados ni accion
 > Recurso visual: Ejemplo dibujado: Keyons · ADN · Concepto · Principios · Voz · Cielo propio
 
 **(Alternativa mejor)**
-Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.
+**Navegación a la vista** Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.

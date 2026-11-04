@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-LOG-006"
 titulo: "Usos incorrectos"
@@ -11,7 +11,7 @@ capitulo: "06 Identidad"
 area: "Fundamentos"
 fuente: "/fundamentos/identidad/logotipo.html#incorrectos"
 referencias: []
-citada_por: ["KYN-MRK-ESP-006"]
+citada_por: []
 ---
 
 # KYN-MRK-LOG-006 · Usos incorrectos

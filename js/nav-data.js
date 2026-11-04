@@ -94,9 +94,9 @@ window.KEYONS_NAV = [
         { t: 'Diagramas de información', st: 'Diagramas', s: 'v', href: 'fundamentos/composicion/editorial.html#diagramas' },
         { t: 'Ejemplos de aplicación', st: 'Ejemplos', s: 'b', href: 'fundamentos/composicion/editorial.html#ejemplos' } ] },
       { n: '11', k: 'elementos', was: ['09', '12'], t: 'Elementos gráficos', s: 'b', d: 'Viñetas, énfasis, transparencia, luz, cielos, tramas y fotografía.', items: [
-        { sub: 'Señales y estructura' },
+        { sub: 'Estructura' },
         { t: 'Viñetas y marcadores gráficos', st: 'Viñetas y marcadores', s: 'b', href: 'fundamentos/elementos/graficos.html#vinetas' }, { t: 'Recursos de énfasis visual', st: 'Énfasis visual', s: 'b', href: 'fundamentos/elementos/graficos.html#enfasis' }, { t: 'Líneas, guías y medidas', st: 'Líneas y medidas', s: 'b', href: 'fundamentos/elementos/graficos.html#lineas' },
-        { sub: 'Profundidad atmosférica' },
+        { sub: 'Atmósfera visual' },
         { t: 'Transparencia y superposición', st: 'Transparencia', s: 'b', href: 'fundamentos/elementos/graficos.html#cristal' }, { t: 'Luz y profundidad', s: 'v', href: 'fundamentos/elementos/graficos.html#profundidad' }, { t: 'Ventanas de cielo', s: 'b', href: 'fundamentos/elementos/graficos.html#ventana' }, { t: 'Ráfagas de color', st: 'Ráfagas', s: 'b', href: 'fundamentos/elementos/graficos.html#rafagas' },
         { sub: 'Tramas y texturas' },
         { t: 'Tramas y texturas', s: 'b', href: 'fundamentos/elementos/graficos.html#patrones' },

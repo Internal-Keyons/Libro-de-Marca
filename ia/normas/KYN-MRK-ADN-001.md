@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ADN-001"
 titulo: "Esencia de marca"
@@ -11,7 +11,7 @@ capitulo: "01 ADN"
 area: "Marca"
 fuente: "/marca/adn.html#esencia"
 referencias: []
-citada_por: ["KYN-MRK-ESP-006"]
+citada_por: []
 ---
 
 # KYN-MRK-ADN-001 · Esencia de marca

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "10"
 titulo: "Composición"
@@ -9,7 +9,7 @@ area: "Fundamentos"
 estado: "vigente"
 rutas: ["/fundamentos/composicion/editorial.html"]
 normas: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-VIS-010", "KYN-MRK-CMP-003", "KYN-MRK-ESP-004", "KYN-MRK-CMP-004", "KYN-MRK-VIS-014", "KYN-MRK-ESP-005", "KYN-MRK-VIS-003", "KYN-MRK-VIS-009", "KYN-MRK-ESP-006", "KYN-MRK-VIS-004", "KYN-MRK-ESP-007", "KYN-MRK-VIS-016"]
-referencias: ["KYN-MRK-ADN-001", "KYN-MRK-ADN-003", "KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-CMP-003", "KYN-MRK-CMP-004", "KYN-MRK-COL-002", "KYN-MRK-COL-004", "KYN-MRK-CON-006", "KYN-MRK-DAT-001", "KYN-MRK-ESP-004", "KYN-MRK-ESP-005", "KYN-MRK-ESP-006", "KYN-MRK-ESP-007", "KYN-MRK-LOG-001", "KYN-MRK-LOG-006", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-014", "KYN-MRK-VIS-016", "KYN-MRK-VOZ-003"]
+referencias: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-CMP-003", "KYN-MRK-CMP-004", "KYN-MRK-ESP-004", "KYN-MRK-ESP-005", "KYN-MRK-ESP-006", "KYN-MRK-ESP-007", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-014", "KYN-MRK-VIS-016"]
 ---
 
 # Capítulo 10 · Composición
@@ -85,7 +85,9 @@ Número: 10.2.1 · ID: `KYN-MRK-VIS-010` · Estado: vigente · Fuente: `/fundame
 
 ### Ni todo centrado ni todo descompensado
 
-La simetría comunica estabilidad y equivalencia. La asimetría controlada permite establecer diferencias de protagonismo. Ninguna debe utilizarse automáticamente.
+La simetría comunica **estabilidad y equivalencia**. La asimetría controlada permite establecer diferencias de protagonismo.
+
+Ninguna debe utilizarse automáticamente.
 
 > Recurso visual: Ejemplo dibujado: Herramientasinternas · ProductosSaaS · Productospersonalizados
 
@@ -190,7 +192,9 @@ Número: 10.4.1 · ID: `KYN-MRK-VIS-014` · Estado: vigente · Fuente: `/fundame
 
 ### Intensidad con momentos de reposo
 
-La expresión gráfica necesita contraste entre momentos intensos y momentos de reposo. El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura.
+La expresión gráfica necesita **contraste entre momentos intensos y momentos de reposo**.
+
+El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura.
 
 **(Uso incorrecto)**
 **La misma intensidad en cada bloque** Fotografía, color y textura en todas partes: nada destaca.
@@ -283,17 +287,9 @@ Número: 10.5.1 · ID: `KYN-MRK-VIS-003` · Estado: vigente · Fuente: `/fundame
 
 ### La jerarquía se construye para cada contenido
 
-La composición debe responder a las relaciones y prioridades del contenido. Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.
+La composición debe responder a **las relaciones y prioridades del contenido**.
 
-**(Uso incorrecto)**
-**Tres secciones con la misma fórmula** Kicker, titular, párrafo y tarjetas, una y otra vez.
-
-**(Alternativa mejor)**
-Un dato, una explicación y una imagen, cada uno con la composición que su función necesita.
-
-**45**
-
-> Recurso visual: Imagen: /assets/img/cielo-mediodia.webp
+Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.
 
 ## KYN-MRK-VIS-009 · 10.5.2 Microelementos
 
@@ -301,40 +297,62 @@ Número: 10.5.2 · ID: `KYN-MRK-VIS-009` · Estado: vigente · Fuente: `/fundame
 
 ### La jerarquía no se hace con adornos
 
-Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia. La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
+Evitar **acumulaciones** de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia.
 
-> Recurso visual: Ejemplo dibujado: Nuevo · IA · v2 · Reglas de composición · Destacado
-
-**(Uso incorrecto)**
-**Un titular con todo alrededor** Estrellas, etiquetas, puntos, líneas y miniíconos sin función.
-
-> Recurso visual: Ejemplo dibujado: Norma CON-006 · Vigente · Reglas de composición · Cuatro criterios para la composición expresiva
-
-**(Alternativa mejor)**
-El titular y los datos que orientan, como el código y el estado de la norma.
+La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
 
 ## KYN-MRK-ESP-006 · 10.6 Patrones de composición
 
 Número: 10.6 · ID: `KYN-MRK-ESP-006` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#patrones`
 
-### La forma sale del contenido
+### Patrones de composición
 
-La elección de una composición comienza por **comprender el contenido** y cómo necesita recorrerlo el lector.
+La estructura de una pieza responde a lo que necesita comunicar. Keyons utiliza diferentes composiciones para **explicar, comparar, presentar secuencias, relacionar elementos y destacar información**.
 
-Los patrones son alternativas de diseño, no plantillas obligatorias.
+01
 
-| (El contenido es) | Patrón posible | Ejemplo |
-|---|---|---|
-| Reglas o principios cortos, de tres a seis | Cuadrícula de reglas | KYN-MRK-CON-006 · Reglas de composición |
-| Puntos que se leen uno a uno y pueden crecer | Acordeón | KYN-MRK-COL-004 · Reglas del color |
-| Pares o tríos de explicaciones | Rótulo arriba, texto debajo | KYN-MRK-ADN-001 · Esencia |
-| Ítems sin jerarquía | Lista con viñetas de marca | KYN-MRK-LOG-006 · Usos incorrectos |
-| Comparación entre opciones | Matriz | KYN-MRK-ADN-003 · Espectro |
-| Algo que se ve: color, logo, letra | Muestra en recuadro, con la regla de esquinas | KYN-MRK-LOG-001 · Versiones |
-| Muchos ítems del mismo tipo | Selector o carrusel | KYN-MRK-VOZ-003 · Vocabulario |
-| Ideas de distinto peso, que se recorren libremente | Retícula dinámica de líneas | KYN-MRK-DAT-001 · Principios |
-| Datos y cifras | Número grande con su lectura | 14 · Datos |
-| Una nota que señala algo | Flecha orgánica | KYN-MRK-COL-002 · Colores principales |
+#### Explicar
+
+Los contenidos que desarrollan una idea utilizan títulos, párrafos y una estructura de lectura continua.
+
+- **Ejemplo**: Una página de informe con título, introducción, dos secciones y una conclusión.
+- **Composición**: Columna de lectura con títulos y espacios proporcionados.
+
+02
+
+#### Comparar
+
+Las alternativas se organizan mediante una distribución que permite reconocer sus características y diferencias.
+
+- **Ejemplo**: Situación actual y propuesta de mejora en un proyecto Keyons.
+- **Composición**: Comparación horizontal cuando ambas alternativas dispongan de espacio suficiente; vertical cuando cada una requiera mayor ancho.
+
+03
+
+#### Mostrar una secuencia
+
+Las etapas de un proceso utilizan numeración, alineación y continuidad visual para comunicar su orden.
+
+- **Ejemplo**: Las cinco fases oficiales de Prisma: Amanecer, Mediodía, Atardecer, Anochecer y Galaxia.
+- **Composición**: Secuencia numerada o recorrido visual, adaptado al formato.
+
+04
+
+#### Presentar elementos equivalentes
+
+Los elementos que cumplen funciones equivalentes mantienen una estructura consistente que facilita recorrerlos y compararlos.
+
+- **Ejemplo**: Capacidades de Keyons.
+- **Composición**: Lista estructurada, columnas o retícula editorial, según el volumen y la extensión del contenido.
+
+05
+
+#### Destacar una idea
+
+La información protagonista adquiere mayor presencia mediante escala, posición, proporción y espacio. El contenido complementario aporta contexto.
+
+- **Ejemplo**: Portada de una propuesta comercial Keyons.
+- **Composición**: Titular o declaración protagonista con información secundaria subordinada.
 
 **(Uso)**
 Las asociaciones de cuadrículas, acordeones, listas, matrices, carruseles, retículas, indicadores y flechas deben interpretarse como ejemplos. Un patrón debe elegirse por su utilidad, no por la cantidad de elementos o porque aparezca en el catálogo.
@@ -350,17 +368,9 @@ Número: 10.6.1 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundame
 
 ### Una tarjeta solo cuando agrupa algo
 
-Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas. Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
+Las tarjetas deben representar **agrupaciones funcionales** o visualmente justificadas.
 
-> Recurso visual: Ejemplo dibujado: Entender la operación · Construir con su equipo · Medir y mejorar
-
-**(Uso incorrecto)**
-**Cada párrafo en su propia tarjeta** Sombras y bordes que no agrupan nada y quitan espacio.
-
-> Recurso visual: Ejemplo dibujado: Entender la operación · Construir con su equipo · Medir y mejorar
-
-**(Alternativa mejor)**
-El mismo contenido con jerarquía, alineación y separadores discretos. Recupera espacio negativo sin perder claridad.
+Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
 
 ## KYN-MRK-ESP-007 · 10.7 Diagramas de información
 
@@ -446,14 +456,8 @@ Número: 10.8.1 · ID: `KYN-MRK-VIS-016` · Estado: vigente · Fuente: `/fundame
 
 ### Una composición con identidad propia
 
-Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia. Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña. En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología.
+Una composición no debe aprobarse **únicamente porque parezca moderna** o siga una tendencia.
 
-> Recurso visual: Ejemplo dibujado: Innovación para tu negocio · Comenzar
+Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña.
 
-**(Uso incorrecto)**
-**Una portada que con otro logo serviría igual** Podría ser de cualquier empresa de tecnología.
-
-> Recurso visual: Ejemplo dibujado: Ordenar ideas,no medirlas
-
-**(Alternativa mejor)**
-Tipografía, retícula y una ventana de cielo elegidas para Keyons. Cada pieza usa los recursos que le corresponden.
+En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología.

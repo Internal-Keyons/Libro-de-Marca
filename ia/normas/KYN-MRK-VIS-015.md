@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-015"
 titulo: "Originalidad a costa de orientación"
@@ -20,7 +20,9 @@ Número: 28.3.2 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/fund
 
 ##### Original, pero siempre comprensible
 
-La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia. La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
+La originalidad visual **no debe ocultar funciones**, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia.
+
+La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
 
 > Recurso visual: Ejemplo dibujado: Cielo propio
 
@@ -30,4 +32,4 @@ La originalidad visual no debe ocultar funciones, navegación, estados ni accion
 > Recurso visual: Ejemplo dibujado: Keyons · ADN · Concepto · Principios · Voz · Cielo propio
 
 **(Alternativa mejor)**
-Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.
+**Navegación a la vista** Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.

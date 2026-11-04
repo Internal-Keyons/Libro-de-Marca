@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-DAT-001"
 titulo: "Principios"
@@ -11,7 +11,7 @@ capitulo: "13 Datos y visualización"
 area: "Fundamentos"
 fuente: "/fundamentos/datos/graficos.html#principios"
 referencias: []
-citada_por: ["KYN-MRK-ESP-006"]
+citada_por: []
 ---
 
 # KYN-MRK-DAT-001 · Principios

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-012"
 titulo: "Contraste insuficiente"
@@ -20,7 +20,9 @@ Número: 7.5.1 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamento
 
 ##### Delicado, pero siempre legible
 
-La delicadeza visual no justifica textos, controles ni datos ilegibles. El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.
+La delicadeza visual no justifica **textos, controles ni datos ilegibles**.
+
+El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.
 
 > Recurso visual: Muestra visual: Color · Contraste sobre Blanco Keyons · Resultado
 

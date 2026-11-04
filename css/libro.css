@@ -4985,3 +4985,84 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 .flip__card > .gl{flex:1;width:100%}
 .glass2 > figure{margin:0}
 @media(max-width:600px){.states,.states--7{grid-template-columns:repeat(2,minmax(0,1fr))!important}.stfig{min-width:0}.stfig .state{min-width:0;overflow-wrap:anywhere}}
+
+/* ═══ Ronda 15 ═══ */
+/* Cabecera: logotipo un poco más grande */
+.hdr__logo{width:92px;height:92px}
+@media(max-width:1179px){.hdr__logo{width:72px;height:72px}}
+/* Encabezados de capítulo de todos los libros: nubes sutiles que ganan presencia al pasar el cursor */
+.portal__clouds{position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.32;transform-origin:50% 70%;transition:opacity 1.2s var(--e-out),transform 1.8s var(--e-out);
+  background:
+    radial-gradient(36% 24% at 16% 74%,rgba(255,255,255,.85),rgba(255,255,255,0) 70%),
+    radial-gradient(28% 20% at 44% 66%,rgba(255,255,255,.7),rgba(255,255,255,0) 70%),
+    radial-gradient(34% 22% at 80% 78%,rgba(255,255,255,.8),rgba(255,255,255,0) 70%),
+    radial-gradient(24% 16% at 64% 28%,rgba(255,255,255,.45),rgba(255,255,255,0) 70%)}
+.portal--plano .portal__clouds,.portal--noche .portal__clouds{opacity:.14}
+@media(hover:hover){.portal:hover .portal__clouds{opacity:.62;transform:scale(1.04) translateY(-1%)}.portal--plano:hover .portal__clouds,.portal--noche:hover .portal__clouds{opacity:.3}}
+.portal__txt{z-index:2}
+@media(prefers-reduced-motion:reduce){.portal__clouds{transition:none}.portal:hover .portal__clouds{transform:none}}
+
+/* «Leer más»: botón limpio, sin contenedor */
+.flip__btn{padding:4px 0;gap:6px;border-radius:0;background:none;box-shadow:none;font-size:13px;color:var(--k-noche)}
+.flip__btn:hover{background:none;color:var(--k-noche)}
+.flip__btn:hover span{text-decoration:underline;text-decoration-color:var(--k-cielo);text-underline-offset:4px}
+.flip__btn svg{width:18px;height:18px}
+/* Rótulo de la tarjeta («Uso incorrecto», «Alternativa mejor»): siempre Azul Cielo claro */
+.flip__tag,.vdemo__i--yes .flip__tag{background:var(--k-cielo-100)}
+
+/* VIS-014 · esquinas: rectas por fuera, curvas por dentro */
+.crv-row:first-child .crv-row__s{border-radius:0 0 var(--r-card) var(--r-card)}
+.crv-row:last-child .crv-row__s{border-radius:var(--r-card) var(--r-card) 0 0}
+
+/* VIS-013 · sin vacío bajo el comparativo */
+.cmpx__lab{grid-template-rows:none;grid-row:auto}
+
+/* TYP-003 · menús: título arriba, seis del mismo ancho, sin anillo grueso */
+.tester__ex{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:var(--s3)}
+.tester__ex .kdd{min-width:0}
+.kdd__t{display:block;margin-bottom:6px;font-size:12px;color:var(--color-text-3)}
+.tester__ex .kdd__btn{display:flex;justify-content:space-between;width:100%;min-height:40px;padding:8px 12px;font-size:13px}
+.tester__ex .kdd__v{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px}
+.tester__ex .kdd__ch{width:14px;height:14px;flex:none}
+.kdd__btn:focus-visible,.kdd.is-open .kdd__btn{box-shadow:inset 0 0 0 1px var(--k-cielo)}
+.kdd__o{display:block}
+@media(max-width:900px){.tester__ex{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:520px){.tester__ex{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* 8.9 · una muestra a la vez, esquinas rectas */
+.tprint.hcar > *{flex-basis:100%}
+.tprint.hcar .tprint__s{height:clamp(240px,26vw,340px);border-radius:0!important}
+.tprint__s--deck .tprint__p{font-size:clamp(26px,3vw,40px)}
+.tprint__s--doc .tprint__h{font-size:15px}
+.tprint__s--doc .tprint__p{max-width:52ch;font-size:13px}
+
+/* DIS-003 · texto con título */
+.ed__sub + .tsub__d{margin-top:var(--s3)}
+
+/* ESP-006 · guía de patrones de composición */
+.pcx{margin-top:var(--s12);box-shadow:inset 0 -1px 0 var(--k-cielo-100)}
+.pcx__i{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:var(--s4) var(--s10);padding:var(--s8) 0;box-shadow:inset 0 1px 0 var(--k-cielo-100)}
+.pcx__h{display:flex;gap:var(--s4);align-items:baseline}
+.pcx__n{font-size:13px;color:var(--color-text-3);font-variant-numeric:tabular-nums}
+.pcx__t{font-size:20px;font-weight:500;line-height:1.25;letter-spacing:-.01em;color:var(--k-noche)}
+.pcx__d{max-width:52ch;font-size:17px;line-height:1.6;color:var(--color-text-2)}
+.pcx__m{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s3) var(--s8);margin:var(--s5) 0 0}
+.pcx__m dt{font-size:13px;color:var(--color-text-3)}
+.pcx__m dd{margin:var(--s1) 0 0;font-size:15px;line-height:1.55;color:var(--color-text-2)}
+@media(max-width:760px){.pcx__i,.pcx__m{grid-template-columns:minmax(0,1fr)}}
+
+/* ILU-001 · selección: anillo grueso del tono claro del color, sin aire entre anillo y muestra */
+.vtool__colors button,.vtool__colors button:hover,.vtool__colors button[aria-pressed="true"]{padding:6px 0;background:none}
+.vtool__colors button i{transition:box-shadow var(--m-fast) var(--e-out)}
+.vtool__colors button[aria-pressed="true"] i{box-shadow:0 0 0 5px var(--sel,var(--k-cielo-200))}
+.vtool__colors{row-gap:var(--s2)}
+
+/* ILU-007 · tramas en Azul Noche y trazo hecho a mano */
+.tram__s{color:var(--k-noche)}
+.tram__s svg{filter:url(#kmano)}
+.kmano-def{position:absolute;width:0;height:0;overflow:hidden}
+.tprint.hcar .tprint__s--doc{padding:var(--s10)}
+.tprint.hcar .tprint__s--doc .tprint__h{font-size:20px}
+.tprint.hcar .tprint__s--doc .tprint__p{margin-top:var(--s3);font-size:16px}
+.tprint.hcar .tprint__s--bro span{padding:var(--s8) var(--s6)}
+.tprint.hcar .tprint__s--bro .tprint__h{font-size:15px}

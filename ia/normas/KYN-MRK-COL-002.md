@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-COL-002"
 titulo: "Colores principales"
@@ -11,7 +11,7 @@ capitulo: "07 Color"
 area: "Fundamentos"
 fuente: "/fundamentos/color/paleta-base.html#principales"
 referencias: []
-citada_por: ["KYN-MRK-ESP-006"]
+citada_por: []
 ---
 
 # KYN-MRK-COL-002 · Colores principales

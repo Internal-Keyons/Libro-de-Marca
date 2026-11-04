@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-03"
+fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-004"
 titulo: "Tarjetas innecesarias"
@@ -20,14 +20,6 @@ Número: 10.6.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fu
 
 ##### Una tarjeta solo cuando agrupa algo
 
-Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas. Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
+Las tarjetas deben representar **agrupaciones funcionales** o visualmente justificadas.
 
-> Recurso visual: Ejemplo dibujado: Entender la operación · Construir con su equipo · Medir y mejorar
-
-**(Uso incorrecto)**
-**Cada párrafo en su propia tarjeta** Sombras y bordes que no agrupan nada y quitan espacio.
-
-> Recurso visual: Ejemplo dibujado: Entender la operación · Construir con su equipo · Medir y mejorar
-
-**(Alternativa mejor)**
-El mismo contenido con jerarquía, alineación y separadores discretos. Recupera espacio negativo sin perder claridad.
+Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
