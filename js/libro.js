@@ -128,7 +128,7 @@
     sx.onload = () => {
       const S = window.KEYONS_SECS || {}, C = window.KEYONS_CAPS || {}, root = (document.body.dataset.root || '.') + '/';
       const N = window.KEYONS_NORMAS || [], byH = {}, byId = {};
-      N.forEach((o) => { byH[o.h] = o; byId[o.id] = o; });
+      N.forEach((o) => { if (!byH[o.h] || o.e === 'vigente') byH[o.h] = o; byId[o.id] = o; });
       const base = decodeURI(new URL(root, location.href).pathname), here = decodeURI(location.pathname).slice(base.length);
       const moved = (window.KEYONS_ALIAS || {})[here + location.hash];
       if (moved) { location.replace(root + moved); return; }
@@ -407,15 +407,61 @@
   const TIPO = window.KEYONS_TIPO;
   const tNum = (v) => String(v).replace('.', ',');
   const tPct = (v) => (v > 0 ? '+' : v < 0 ? '−' : '') + tNum(Math.abs(v)) + ' %';
-  const tLv = (k) => TIPO && (TIPO.niveles.find((n) => n.k === k) || TIPO.niveles.find((n) => n.k === TIPO.roles[k].base));
+  const tLv = (k) => {
+    if (!TIPO) return null;
+    const n = TIPO.niveles.find((x) => x.k === k);
+    if (n) return n;
+    const r = TIPO.roles[k];
+    return { ...TIPO.niveles.find((x) => x.k === r.base), ...(r.peso ? { peso: r.peso } : {}) };
+  };
   const tName = (k) => { const n = TIPO.niveles.find((x) => x.k === k); return n ? n.n : TIPO.roles[k].n; };
   const tRango = (n) => (n.min === n.max ? `${n.min} px` : `${n.min} a ${n.max} px`);
 
+  /* Menú desplegable de la casa (el mismo del formulario): reemplaza visualmente a un select, que conserva el estado */
+  const CHEV = '<svg viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,13.4475,25.0231)" d="M0 0-1.987 1.846 4.184 8.489C4.454 8.779 4.454 9.234 4.185 9.525L-1.989 16.206 .002 18.046 6.177 11.366C7.402 10.04 7.399 7.966 6.171 6.643Z" fill="currentColor"/></svg>';
+  const OK = '<svg viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,8.8129,16.8326)" stroke-width="2.5" stroke-linecap="square" fill="none" stroke="currentColor" d="M0 0L4.637 -4.637L13.714 5.796"/></svg>';
+  function kdd(sel) {
+    const lab = sel.closest('label'), name = lab ? lab.querySelector('.paren').textContent.replace(/[()]/g, '') : '';
+    const d = document.createElement('div');
+    d.className = 'kdd';
+    d.innerHTML = `<button class="kdd__btn" type="button" aria-haspopup="listbox" aria-expanded="false"><span class="kdd__l">${esc(name)}</span><span class="kdd__v"></span><span class="kdd__ch">${CHEV}</span></button><ul class="kdd__list" role="listbox" aria-label="${esc(name)}"></ul>`;
+    (lab || sel).after(d);
+    if (lab) lab.hidden = true;
+    const btn = d.querySelector('.kdd__btn'), list = d.querySelector('.kdd__list'), val = d.querySelector('.kdd__v');
+    const paint = () => {
+      val.textContent = sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text : '';
+      list.innerHTML = [...sel.options].map((o, i) => `<li class="kdd__o" role="option" data-i="${i}" aria-selected="${i === sel.selectedIndex}"><span>${esc(o.text)}</span>${OK}</li>`).join('');
+    };
+    const open = (on) => {
+      if (on) document.querySelectorAll('.kdd.is-open').forEach((x) => { if (x !== d) { x.classList.remove('is-open'); x.querySelector('.kdd__btn').setAttribute('aria-expanded', 'false'); } });
+      d.classList.toggle('is-open', on); btn.setAttribute('aria-expanded', String(on));
+      if (on) d.classList.toggle('is-up', btn.getBoundingClientRect().bottom + 300 > innerHeight && btn.getBoundingClientRect().top > 320);
+    };
+    btn.addEventListener('click', () => open(!d.classList.contains('is-open')));
+    list.addEventListener('click', (e) => {
+      const o = e.target.closest('.kdd__o');
+      if (!o) return;
+      sel.selectedIndex = Number(o.dataset.i); sel.dispatchEvent(new Event('change')); paint(); open(false); btn.focus();
+    });
+    d.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') { open(false); btn.focus(); }
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        sel.selectedIndex = Math.min(sel.options.length - 1, Math.max(0, sel.selectedIndex + (e.key === 'ArrowDown' ? 1 : -1)));
+        sel.dispatchEvent(new Event('change')); paint();
+      }
+    });
+    document.addEventListener('click', (e) => { if (!d.contains(e.target) && d.classList.contains('is-open')) open(false); });
+    sel.addEventListener('kdd:sync', paint);
+    paint();
+  }
+
   /* 8.2 · Escriba un tamaño en cualquier nivel: los demás toman la misma posición dentro de su rango */
+  const PEN = '<svg class="szc__pen" viewBox="0 0 32 32" aria-hidden="true"><path d="M20.5 6.5l5 5L12 25H7v-5z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="miter"/><path d="M17.5 9.5l5 5" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>';
   document.querySelectorAll('[data-escala]').forEach((g) => {
     if (!TIPO) return;
     g.innerHTML = TIPO.niveles.map((n) => `<div class="szc" data-k="${n.k}"><span class="szc__k">${n.n}</span><p class="szc__v">${n.min === n.max ? n.min
-      : `<input type="text" inputmode="numeric" maxlength="3" value="${n.min}" aria-label="${n.n}, tamaño en px">`}<sup>px</sup></p><p class="szc__m">${TIPO.familias[n.f]} · <span>${tRango(n)}</span></p></div>`).join('');
+      : `<input type="text" inputmode="numeric" maxlength="3" value="${n.min}" aria-label="${n.n}, tamaño en px">`}<sup>px</sup>${n.min === n.max ? '' : PEN}</p><p class="szc__m">${TIPO.familias[n.f]} · <span>${tRango(n)}</span></p></div>`).join('');
     const reset = document.createElement('button');
     reset.type = 'button'; reset.className = 'szc-reset'; reset.textContent = 'Restablecer'; reset.hidden = true;
     g.after(reset);
@@ -442,6 +488,7 @@
         const v = parseInt(i.value, 10);
         if (v > 0) apply(c, v);
       });
+      c.querySelector('.szc__pen').addEventListener('click', () => i.focus());
       i.addEventListener('blur', () => { if (!i.value) { i.value = tLv(c.dataset.k).min; fit(i); } });
     });
     reset.addEventListener('click', () => {
@@ -466,10 +513,10 @@
     if (!TIPO) return;
     const row = (k, vals) => `<div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">${tName(k)}</span>${vals.map((v) => `<span class="matrix__v" role="cell">${v} px</span>`).join('')}</div>`;
     const head = (cols) => `<div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader">(Nivel)</span>${cols.map((c) => `<span class="matrix__lvl" role="columnheader">${c}</span>`).join('')}</div>`;
-    const c = TIPO.v1['trad-contenida'], e = TIPO.v1['trad-expresiva'], inv = TIPO.v1['inv-contenida'];
+    const c = TIPO.v1['trad-contenida'], e = TIPO.v1['trad-expresiva'], inv = TIPO.v1['inv-contenida'], ie = TIPO.v1['inv-expresiva'];
     const [t1, t2] = box.querySelectorAll('.tv1__t');
     t1.insertAdjacentHTML('afterend', `<div class="matrix" role="table" aria-label="Jerarquía tradicional">${head(['Contenida', 'Expresiva'])}${c.map(([k, px]) => row(k, [px, e.find((x) => x[0] === k)[1]])).join('')}</div>`);
-    t2.insertAdjacentHTML('afterend', `<div class="matrix matrix--1" role="table" aria-label="Jerarquía editorial invertida">${head(['Contenida'])}${inv.map(([k, px]) => row(k, [px])).join('')}</div>`);
+    t2.insertAdjacentHTML('afterend', `<div class="matrix" role="table" aria-label="Jerarquía editorial invertida">${head(['Contenida', 'Expresiva'])}${inv.map(([k, px]) => row(k, [px, ie.find((x) => x[0] === k)[1]])).join('')}</div>`);
   });
 
   /* 8.3 · Probador: nivel, peso, interlineado y tracking; jerarquía, intensidad y organización */
@@ -486,15 +533,14 @@
     const EX = {};
     const setLv = () => {
       const n = tLv(LVK[lv]);
-      EX.w = n.peso; EX.lh = n.lh; EX.ls = n.est === 'aprobado' ? n.tr : 0;
-      ['w', 'lh', 'ls'].forEach((k) => { const s = q(`[data-ex="${k}"]`); if (s) s.value = String(EX[k]); });
+      EX.w = n.peso; EX.lh = n.lh; EX.ls = n.tr;
+      ['w', 'lh', 'ls'].forEach((k) => { const s = q(`[data-ex="${k}"]`); if (s) { s.value = String(EX[k]); s.dispatchEvent(new Event('kdd:sync')); } });
     };
     const draw = () => {
       const n = tLv(LVK[lv]);
       out.textContent = inp.value || ' '; out.className = 'tester__out ' + CLS[lv];
       out.style.fontWeight = EX.w; out.style.lineHeight = EX.lh; out.style.letterSpacing = `${EX.ls / 100}em`;
-      const est = EX.ls < 0 ? 'experimental' : EX.ls === 0 || EX.ls === n.tr ? 'aprobado' : 'fuera de la referencia';
-      meta.textContent = `${TIPO.familias[n.f]} ${EX.w}${n.mayus ? ' · mayúsculas' : ''} · ${tRango(n).replace(' a ', '–')} · interlineado ${tNum(EX.lh)} · tracking ${tPct(EX.ls)} · ${est}`;
+      meta.textContent = `${TIPO.familias[n.f]} ${EX.w}${n.mayus ? ' · mayúsculas' : ''} · ${tRango(n).replace(' a ', '–')} · interlineado ${tNum(EX.lh)} · tracking ${tPct(EX.ls)}`;
     };
     /* Composición de muestra: cada combinación con las fuentes oficiales */
     const CF = { j: 'trad', i: 'contenida', o: 'breve' };
@@ -504,23 +550,15 @@
       cuerpo: 'Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.',
       cierre: 'El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons.',
     };
-    TX.apoyo = TX.entrada;
     const MOD = [['Diagnóstico', 'Primero entendemos su operación.'], ['Construcción', 'Después construimos con su equipo.'], ['Medición', 'Medimos cada mejora.']];
-    const sizesFor = (j, i) => {
-      const key = `${j}-${i}`;
-      if (TIPO.v1[key]) return [TIPO.v1[key], 'Referencia V1 · en revisión'];
-      /* Sin referencia V1: cada función crece en la misma proporción que su equivalente tradicional */
-      const g = (arr, k) => arr.find((x) => x[0] === k)[1], c = TIPO.v1['trad-contenida'], e = TIPO.v1['trad-expresiva'];
-      const EQ = { contexto: 'subtitulo', declaracion: 'display', apoyo: 'entrada', cuerpo: 'cuerpo' };
-      return [TIPO.v1[`${j}-contenida`].map(([k, px]) => [k, Math.round((px * g(e, EQ[k])) / g(c, EQ[k]))]), 'Combinación por validar'];
-    };
+    const sizesFor = (j, i) => TIPO.v1[`${j}-${i}`];
     const el = (k, px, txt, cls = '') => {
-      const n = tLv(k), tr = n.est === 'aprobado' ? n.tr : 0;
+      const n = tLv(k), tr = n.trDesde && px >= n.trDesde ? n.trMax : n.tr;
       return `<p class="tcx tcx--${k}${cls}" style="font-size:${px}px;font-weight:${n.peso};line-height:${n.lh};letter-spacing:${tr / 100}em">${esc(txt)}</p>`;
     };
     const drawComp = () => {
       if (!comp) return;
-      const [set, estado] = sizesFor(CF.j, CF.i), px = Object.fromEntries(set), pro = inp.value || ' ';
+      const px = Object.fromEntries(sizesFor(CF.j, CF.i)), pro = inp.value || ' ';
       const used = [];
       const put = (k, txt, cls) => { if (!used.includes(k)) used.push(k); return el(k, px[k], txt, cls); };
       let h = '';
@@ -531,12 +569,12 @@
         if (CF.o === 'modular') h += `<div class="tcx__mods">${MOD.map(([t, d]) => `<div>${put('subtitulo', t)}${put('cuerpo', d)}</div>`).join('')}</div>`;
       } else {
         h += put('contexto', TX.contexto) + put('declaracion', pro);
-        if (CF.o === 'lectura') h += put('apoyo', TX.apoyo) + `<div class="tcx__col">${put('cuerpo', TX.cuerpo)}${put('cuerpo', TX.cierre)}</div>`;
+        if (CF.o === 'lectura') h += put('entrada', TX.entrada) + `<div class="tcx__col">${put('cuerpo', TX.cuerpo)}${put('cuerpo', TX.cierre)}</div>`;
         if (CF.o === 'modular') h += `<div class="tcx__mods">${MOD.map(([t, d]) => `<div>${put('contexto', t)}${put('cuerpo', d)}</div>`).join('')}</div>`;
       }
       comp.className = `tester__comp tcx-${CF.j} tcx-${CF.o}`;
       comp.innerHTML = h;
-      if (sizes) sizes.innerHTML = used.map((k) => `<span>${tName(k)} <b>${px[k]} px</b></span>`).join('') + `<span class="tester__st">${estado}</span>`;
+      if (sizes) sizes.innerHTML = used.map((k) => `<span>${tName(k)} <b>${px[k]} px</b></span>`).join('');
     };
     tb.querySelectorAll('[data-ex]').forEach((s) => s.addEventListener('change', () => { EX[s.dataset.ex] = Number(s.value); draw(); }));
     tb.querySelectorAll('[data-cf]').forEach((s) => s.addEventListener('change', () => { CF[s.dataset.cf] = s.value; drawComp(); }));
@@ -545,6 +583,7 @@
       lv = b.dataset.lv; tb.querySelectorAll('[data-lv]').forEach((o) => o.setAttribute('aria-pressed', o === b)); setLv(); draw();
     }));
     setLv(); draw(); drawComp();
+    tb.querySelectorAll('select.tsel').forEach(kdd);
   });
 
   /* 8.8 · Tracking: si una muestra no cabe completa, se ve una variante a la vez */
@@ -1491,6 +1530,52 @@
     const c = e.target.closest('[data-copy-code]');
     if (c) copy(c.closest('.code').querySelector('pre').innerText, 'Código copiado');
   });
+  /* Carrusel horizontal: varias piezas a la vista, con el pie de los demás carruseles */
+  document.querySelectorAll('[data-hcar]').forEach((c) => {
+    const items = [...c.children];
+    const wrap = document.createElement('div');
+    wrap.className = 'hcar__wrap';
+    c.before(wrap); wrap.append(c);
+    wrap.insertAdjacentHTML('beforeend', `<div class="mslide__foot hcar__foot"><span class="mslide__count">(01 / ${String(items.length).padStart(2, '0')})</span><span class="mslide__bar" aria-hidden="true"><i></i></span><div class="mslide__nav"><button class="btn-text" type="button" data-hs="-1" aria-label="Anterior"><svg class="go-l" viewBox="0 0 16 16" aria-hidden="true"><path d="M13 8H3M6.8 4.2 3 8l3.8 3.8"/></svg>Anterior</button><button class="btn-text" type="button" data-hs="1" aria-label="Siguiente">Siguiente<svg class="go-r" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></button></div></div>`);
+    const count = wrap.querySelector('.mslide__count'), bar = wrap.querySelector('.mslide__bar i');
+    const step = () => (items[1] ? items[1].offsetLeft - items[0].offsetLeft : c.clientWidth);
+    const upd = () => {
+      const i = Math.round(c.scrollLeft / step()), max = c.scrollWidth - c.clientWidth;
+      count.textContent = `(${String(Math.min(items.length, i + 1)).padStart(2, '0')} / ${String(items.length).padStart(2, '0')})`;
+      bar.style.transform = `scaleX(${max > 0 ? Math.max(0.08, c.scrollLeft / max) : 1})`;
+      wrap.querySelector('[data-hs="-1"]').disabled = c.scrollLeft < 4;
+      wrap.querySelector('[data-hs="1"]').disabled = c.scrollLeft > max - 4;
+    };
+    wrap.querySelectorAll('[data-hs]').forEach((b) => b.addEventListener('click', () => c.scrollBy({ left: step() * Number(b.dataset.hs), behavior: 'smooth' })));
+    c.addEventListener('scroll', upd, { passive: true });
+    addEventListener('resize', upd);
+    upd();
+  });
+
+  /* Comparativos: la explicación vive detrás de la tarjeta y se consulta con «Leer más» */
+  document.querySelectorAll('.vdemo__i, .glass2 > figure').forEach((f) => {
+    const cap = f.querySelector('figcaption'), face = f.querySelector('.vdemo__s, .gl');
+    if (!cap || !face || f.querySelector('.flip__btn')) return;
+    const lab = cap.querySelector('.paren, b');
+    f.classList.add('flip');
+    const card = document.createElement('div');
+    card.className = 'flip__card';
+    face.before(card); card.append(face);
+    const back = document.createElement('div');
+    back.className = 'flip__back';
+    back.append(...cap.childNodes);
+    card.append(back);
+    cap.remove();
+    if (lab) { const t = document.createElement('span'); t.className = 'flip__tag'; t.textContent = lab.textContent.replace(/[()]/g, ''); card.append(t); }
+    card.insertAdjacentHTML('beforeend', '<button class="flip__btn" type="button" aria-expanded="false"><span>Leer más</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9.3 16h13.4M16 9.3v13.4" stroke="currentColor" stroke-width="2.5" fill="none"/></svg></button>');
+    const btn = card.querySelector('.flip__btn');
+    btn.addEventListener('click', () => {
+      const on = !f.classList.contains('is-flip');
+      f.classList.toggle('is-flip', on); btn.setAttribute('aria-expanded', String(on));
+      btn.querySelector('span').textContent = on ? 'Volver' : 'Leer más';
+    });
+  });
+
   /* Titulares largos en dos renglones: el corte va después de la coma o el punto y coma */
   document.querySelectorAll('.ed__title').forEach((t) => {
     if (t.children.length || t.textContent.length < 34) return;

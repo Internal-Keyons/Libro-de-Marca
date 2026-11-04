@@ -188,8 +188,7 @@ Número: 4.4.1 · ID: `KYN-MRK-VIS-013` · Estado: vigente · Fuente: `/marca/vo
 
 ### Específico, comprensible y con sentido
 
-El contenido debe ser específico, comprensible y significativo.
-No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta.
+El contenido debe ser específico, comprensible y significativo. No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta.
 
 > Recurso visual: Muestra visual: Quién podría firmarlo · Qué comunica
 
@@ -202,9 +201,6 @@ Explicación concreta
 
 Solo Keyons
 Lo que cambia para el cliente
-
-- **Excepciones**: Ninguna.
-- **Relación**: KYN-MRK-VOZ-002 (Reglas de escritura) y KYN-MRK-VOZ-004 (Vocabulario que evitamos).
 
 ## Trato
 

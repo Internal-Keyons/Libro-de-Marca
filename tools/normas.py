@@ -78,6 +78,7 @@ INTEGRADAS = {
     'KYN-MRK-VIS-002': 'KYN-MRK-TYP-002',   # apartado 8.8, Tracking (sin ID propio), dentro del capítulo de TYP-002
     'KYN-MRK-VIS-007': 'KYN-MRK-TYP-006',
     'KYN-MRK-VIS-005': 'KYN-MRK-COL-009',   # 2026-11: su premisa pasa a Gradientes
+    'KYN-MRK-TYP-004': 'KYN-MRK-TYP-002',   # 2026-11: sus reglas de composición pasan a Escala y jerarquía
 }
 # Ancla real donde vive el contenido integrado
 ANCLA_INTEGRADA = {
@@ -85,6 +86,7 @@ ANCLA_INTEGRADA = {
     'KYN-MRK-VIS-002': 'fundamentos/tipografia/sistema.html#tracking',
     'KYN-MRK-VIS-007': 'fundamentos/tipografia/sistema.html#reglas',
     'KYN-MRK-VIS-005': 'fundamentos/color/cielos.html#gradientes',
+    'KYN-MRK-TYP-004': 'fundamentos/tipografia/sistema.html#escala',
 }
 
 # Cambios de título o estado de normas ya emitidas (el ID nunca cambia)

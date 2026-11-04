@@ -11,7 +11,7 @@ capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#patrones"
 referencias: ["KYN-MRK-ADN-001", "KYN-MRK-ADN-003", "KYN-MRK-COL-002", "KYN-MRK-COL-004", "KYN-MRK-CON-006", "KYN-MRK-DAT-001", "KYN-MRK-LOG-001", "KYN-MRK-LOG-006", "KYN-MRK-VOZ-003"]
-citada_por: ["KYN-MRK-CMP-001", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004"]
+citada_por: ["KYN-MRK-CMP-001"]
 ---
 
 # KYN-MRK-ESP-006 · Patrones de composición

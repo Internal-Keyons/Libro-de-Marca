@@ -186,7 +186,6 @@
       "KYN-MRK-TYP-001",
       "KYN-MRK-TYP-002",
       "KYN-MRK-TYP-003",
-      "KYN-MRK-TYP-004",
       "KYN-MRK-TYP-005",
       "KYN-MRK-TYP-006",
       "KYN-MRK-TYP-007"
@@ -749,9 +748,7 @@
    "fuente": "/fundamentos/color/paleta-base.html#contraste",
    "markdown": "/ia/normas/KYN-MRK-COL-005.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-012"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-COL-006",
@@ -831,9 +828,7 @@
    "fuente": "/fundamentos/color/por-modo.html#expresivo",
    "markdown": "/ia/normas/KYN-MRK-COL-011.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-014"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-COL-012",
@@ -846,9 +841,7 @@
    "fuente": "/fundamentos/color/por-modo.html#interfaz",
    "markdown": "/ia/normas/KYN-MRK-COL-012.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-011"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-COL-013",
@@ -862,8 +855,7 @@
    "markdown": "/ia/normas/KYN-MRK-COL-013.md",
    "referencias": [],
    "citada_por": [
-    "KYN-MRK-PRE-009",
-    "KYN-MRK-VIS-012"
+    "KYN-MRK-PRE-009"
    ]
   },
   {
@@ -978,9 +970,7 @@
    "referencias": [],
    "citada_por": [
     "KYN-MRK-ESP-006",
-    "KYN-MRK-ILU-007",
-    "KYN-MRK-VIS-009",
-    "KYN-MRK-VIS-016"
+    "KYN-MRK-ILU-007"
    ]
   },
   {
@@ -1007,9 +997,7 @@
    "fuente": "/marca/composicion.html#anti",
    "markdown": "/ia/normas/KYN-MRK-CON-008.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-016"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-CON-009",
@@ -1104,9 +1092,7 @@
    "fuente": "/marca/principios.html#criterio",
    "markdown": "/ia/normas/KYN-MRK-DIS-001.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-016"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-DIS-002",
@@ -1162,9 +1148,7 @@
    "fuente": "/marca/principios.html#comprension",
    "markdown": "/ia/normas/KYN-MRK-DIS-005.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-015"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-DIS-006",
@@ -1186,10 +1170,7 @@
    "fuente": "/fundamentos/forma/espacio.html#esquinas",
    "markdown": "/ia/normas/KYN-MRK-ESP-001.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-004",
-    "KYN-MRK-VIS-006"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-ESP-002",
@@ -1202,9 +1183,7 @@
    "fuente": "/fundamentos/forma/espacio.html#radios",
    "markdown": "/ia/normas/KYN-MRK-ESP-002.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-006"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-ESP-003",
@@ -1231,8 +1210,7 @@
    "markdown": "/ia/normas/KYN-MRK-ESP-004.md",
    "referencias": [],
    "citada_por": [
-    "KYN-MRK-CMP-003",
-    "KYN-MRK-VIS-010"
+    "KYN-MRK-CMP-003"
    ]
   },
   {
@@ -1247,9 +1225,7 @@
    "markdown": "/ia/normas/KYN-MRK-ESP-005.md",
    "referencias": [],
    "citada_por": [
-    "KYN-MRK-CMP-001",
-    "KYN-MRK-VIS-009",
-    "KYN-MRK-VIS-014"
+    "KYN-MRK-CMP-001"
    ]
   },
   {
@@ -1274,9 +1250,7 @@
     "KYN-MRK-VOZ-003"
    ],
    "citada_por": [
-    "KYN-MRK-CMP-001",
-    "KYN-MRK-VIS-003",
-    "KYN-MRK-VIS-004"
+    "KYN-MRK-CMP-001"
    ]
   },
   {
@@ -1342,9 +1316,7 @@
    "fuente": "/fundamentos/iconografia/iconos.html#familias",
    "markdown": "/ia/normas/KYN-MRK-ICO-002.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-008"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-ICO-003",
@@ -1359,9 +1331,7 @@
    "referencias": [
     "KYN-MRK-COL-014"
    ],
-   "citada_por": [
-    "KYN-MRK-VIS-008"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-ICO-004",
@@ -1374,9 +1344,7 @@
    "fuente": "/fundamentos/iconografia/iconos.html#animacion",
    "markdown": "/ia/normas/KYN-MRK-ICO-004.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-011"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-ICO-005",
@@ -1419,9 +1387,7 @@
    "fuente": "/fundamentos/elementos/graficos.html#vinetas",
    "markdown": "/ia/normas/KYN-MRK-ILU-001.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-009"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-ILU-002",
@@ -1490,9 +1456,7 @@
    "fuente": "/fundamentos/elementos/graficos.html#rafagas",
    "markdown": "/ia/normas/KYN-MRK-ILU-006.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-VIS-011"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-ILU-007",
@@ -2048,23 +2012,15 @@
    "fuente": "/fundamentos/tipografia/sistema.html#probador",
    "markdown": "/ia/normas/KYN-MRK-TYP-003.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-TYP-004"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-TYP-004",
    "titulo": "Composición editorial",
-   "numero": "8.4",
-   "rotulo": "Composición editorial",
-   "estado": "vigente",
-   "capitulo": "08",
-   "area": "fundamentos",
+   "numero": "8.2",
+   "estado": "integrada",
    "fuente": "/fundamentos/tipografia/sistema.html#titular",
-   "markdown": "/ia/normas/KYN-MRK-TYP-004.md",
-   "referencias": [
-    "KYN-MRK-TYP-003"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2134,9 +2090,7 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/composicion/editorial.html#vis-003",
    "markdown": "/ia/normas/KYN-MRK-VIS-003.md",
-   "referencias": [
-    "KYN-MRK-ESP-006"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2149,10 +2103,7 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/composicion/editorial.html#vis-004",
    "markdown": "/ia/normas/KYN-MRK-VIS-004.md",
-   "referencias": [
-    "KYN-MRK-ESP-001",
-    "KYN-MRK-ESP-006"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2174,10 +2125,7 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/forma/espacio.html#vis-006",
    "markdown": "/ia/normas/KYN-MRK-VIS-006.md",
-   "referencias": [
-    "KYN-MRK-ESP-001",
-    "KYN-MRK-ESP-002"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2199,10 +2147,7 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/iconografia/iconos.html#vis-008",
    "markdown": "/ia/normas/KYN-MRK-VIS-008.md",
-   "referencias": [
-    "KYN-MRK-ICO-002",
-    "KYN-MRK-ICO-003"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2215,11 +2160,7 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/composicion/editorial.html#vis-009",
    "markdown": "/ia/normas/KYN-MRK-VIS-009.md",
-   "referencias": [
-    "KYN-MRK-CON-006",
-    "KYN-MRK-ESP-005",
-    "KYN-MRK-ILU-001"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2232,9 +2173,7 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/composicion/editorial.html#vis-010",
    "markdown": "/ia/normas/KYN-MRK-VIS-010.md",
-   "referencias": [
-    "KYN-MRK-ESP-004"
-   ],
+   "referencias": [],
    "citada_por": [
     "KYN-MRK-CMP-002"
    ]
@@ -2249,11 +2188,7 @@
    "area": "recursos",
    "fuente": "/fundamentos/criterio/antipatrones.html#vis-011",
    "markdown": "/ia/normas/KYN-MRK-VIS-011.md",
-   "referencias": [
-    "KYN-MRK-COL-012",
-    "KYN-MRK-ICO-004",
-    "KYN-MRK-ILU-006"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2266,10 +2201,7 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/color/paleta-base.html#vis-012",
    "markdown": "/ia/normas/KYN-MRK-VIS-012.md",
-   "referencias": [
-    "KYN-MRK-COL-005",
-    "KYN-MRK-COL-013"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2282,10 +2214,7 @@
    "area": "marca",
    "fuente": "/marca/vocabulario.html#vis-013",
    "markdown": "/ia/normas/KYN-MRK-VIS-013.md",
-   "referencias": [
-    "KYN-MRK-VOZ-002",
-    "KYN-MRK-VOZ-004"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2298,10 +2227,7 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/composicion/editorial.html#vis-014",
    "markdown": "/ia/normas/KYN-MRK-VIS-014.md",
-   "referencias": [
-    "KYN-MRK-COL-011",
-    "KYN-MRK-ESP-005"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2314,9 +2240,7 @@
    "area": "recursos",
    "fuente": "/fundamentos/criterio/antipatrones.html#vis-015",
    "markdown": "/ia/normas/KYN-MRK-VIS-015.md",
-   "referencias": [
-    "KYN-MRK-DIS-005"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2329,11 +2253,7 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/composicion/editorial.html#vis-016",
    "markdown": "/ia/normas/KYN-MRK-VIS-016.md",
-   "referencias": [
-    "KYN-MRK-CON-006",
-    "KYN-MRK-CON-008",
-    "KYN-MRK-DIS-001"
-   ],
+   "referencias": [],
    "citada_por": []
   },
   {
@@ -2361,8 +2281,7 @@
    "markdown": "/ia/normas/KYN-MRK-VOZ-002.md",
    "referencias": [],
    "citada_por": [
-    "KYN-MRK-PRE-005",
-    "KYN-MRK-VIS-013"
+    "KYN-MRK-PRE-005"
    ]
   },
   {
@@ -2392,8 +2311,7 @@
    "markdown": "/ia/normas/KYN-MRK-VOZ-004.md",
    "referencias": [],
    "citada_por": [
-    "KYN-MRK-PRE-005",
-    "KYN-MRK-VIS-013"
+    "KYN-MRK-PRE-005"
    ]
   },
   {

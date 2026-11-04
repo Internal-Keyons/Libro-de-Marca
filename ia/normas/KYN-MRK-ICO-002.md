@@ -11,7 +11,7 @@ capitulo: "12 Iconografía"
 area: "Fundamentos"
 fuente: "/fundamentos/iconografia/iconos.html#familias"
 referencias: []
-citada_por: ["KYN-MRK-VIS-008"]
+citada_por: []
 ---
 
 # KYN-MRK-ICO-002 · Familias y variantes

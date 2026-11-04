@@ -11,7 +11,7 @@ capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#reticula"
 referencias: []
-citada_por: ["KYN-MRK-CMP-003", "KYN-MRK-VIS-010"]
+citada_por: ["KYN-MRK-CMP-003"]
 ---
 
 # KYN-MRK-ESP-004 · Retícula y responsive
@@ -48,8 +48,10 @@ Se permite una mayor experimentación mediante simetría, asimetría y cambios d
 | Escritorio | 1100 a 1439 px | 12 | 64 px |
 | Amplio | Desde 1440 px | 12 | Contenido hasta 1520 px |
 
+**(Responsive)**
 El responsive no es un modo: es cómo esta retícula se adapta al ancho. El medianil es de 16 px en móvil y de 24 px en el resto.
 
+**(Productos)**
 Estos rangos documentan la retícula editorial de referencia. Los productos pueden necesitar ajustes según el ancho disponible, el contenido y las necesidades de sus usuarios. Sus puntos de adaptación se definen en el Sistema de Diseño.
 
 La retícula proporciona orden sin imponer composiciones idénticas.

@@ -11,7 +11,7 @@ capitulo: "03 Principios"
 area: "Marca"
 fuente: "/marca/principios.html#criterio"
 referencias: []
-citada_por: ["KYN-MRK-VIS-016"]
+citada_por: []
 ---
 
 # KYN-MRK-DIS-001 · Identidad y criterio

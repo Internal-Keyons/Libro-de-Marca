@@ -11,7 +11,7 @@ capitulo: "11 Elementos gráficos"
 area: "Fundamentos"
 fuente: "/fundamentos/elementos/graficos.html#vinetas"
 referencias: []
-citada_por: ["KYN-MRK-VIS-009"]
+citada_por: []
 ---
 
 # KYN-MRK-ILU-001 · Viñetas y marcadores

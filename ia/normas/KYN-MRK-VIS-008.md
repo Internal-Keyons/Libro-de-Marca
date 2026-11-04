@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "12 Iconografía"
 area: "Fundamentos"
 fuente: "/fundamentos/iconografia/iconos.html#vis-008"
-referencias: ["KYN-MRK-ICO-002", "KYN-MRK-ICO-003"]
+referencias: []
 citada_por: []
 ---
 
@@ -20,8 +20,7 @@ Número: 12.3.1 · Estado: vigente · Capítulo: 12 Iconografía · Fuente: `/fu
 
 ##### Un ícono tiene que ayudar a entender
 
-No introducir íconos únicamente para decorar textos o títulos.
-Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada.
+No introducir íconos únicamente para decorar textos o títulos. Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada.
 
 > Recurso visual: Ejemplo dibujado: Nuestra visión · Crecimiento · Procesos
 
@@ -32,6 +31,3 @@ Los íconos deben favorecer orientación, comprensión, identificación o expres
 
 **(Alternativa mejor)**
 El ícono identifica una acción, un estado o una categoría.
-
-- **Excepciones**: Íconos ilustrativos en estados vacíos y piezas de marca, según su familia.
-- **Relación**: KYN-MRK-ICO-002 (Familias y variantes) y KYN-MRK-ICO-003 (Uso).

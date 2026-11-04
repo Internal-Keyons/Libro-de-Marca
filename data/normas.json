@@ -658,9 +658,10 @@
   "alias": [
    "Titular editorial"
   ],
-  "estado": "vigente",
+  "en": "KYN-MRK-TYP-002",
+  "estado": "integrada",
   "id": "KYN-MRK-TYP-004",
-  "n": "8.4",
+  "n": "8.2",
   "t": "Composición editorial"
  },
  "fundamentos/tipografia/sistema.html#vis-001": {

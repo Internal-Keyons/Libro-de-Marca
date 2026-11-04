@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "28 Referencia"
 area: "Recursos"
 fuente: "/fundamentos/criterio/antipatrones.html#vis-015"
-referencias: ["KYN-MRK-DIS-005"]
+referencias: []
 citada_por: []
 ---
 
@@ -20,8 +20,7 @@ Número: 28.3.2 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/fund
 
 ##### Original, pero siempre comprensible
 
-La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia.
-La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
+La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia. La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
 
 > Recurso visual: Ejemplo dibujado: Cielo propio
 
@@ -32,6 +31,3 @@ La experimentación es válida cuando la persona mantiene orientación y control
 
 **(Alternativa mejor)**
 Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.
-
-- **Excepciones**: Ninguna en herramientas operativas.
-- **Relación**: KYN-MRK-DIS-005 (Comprensión antes que complejidad). Las especificaciones funcionales completas de navegación pertenecen al Sistema de Diseño.

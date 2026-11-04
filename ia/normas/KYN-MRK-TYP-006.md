@@ -22,106 +22,30 @@ Número: 8.6 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundam
 
 La tipografía debe **organizar la lectura, transmitir identidad** y adaptarse a las necesidades del contenido.
 
-
-
-Tradicional
-Quiénes somos
-Ingeniería operativa con inteligencia artificial.
-
-Invertida
-Quiénes somos
-Ingeniería operativa con inteligencia artificial.
-
+**(01 · Jerarquía con criterio)**
 Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio.
-
 La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.
 
-1,2 · compacto
-Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.
-
-1,55 · equilibrado
-Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.
-
-1,9 · amplio
-Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.
-
+**(02 · Interlineado adecuado)**
 Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.
-
 Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.
 
-0 %
-Cielo propio
-
-−3 % · en evaluación
-Cielo propio
-
-−5 % · en evaluación
-Cielo propio
-
+**(03 · Espaciado selectivo)**
 El tracking se ajusta según la fuente, el tamaño y la función del texto.
-
 No se aplican valores negativos o positivos de forma indiscriminada.
 
-Énfasis disperso
-Primero **entendemos** su **operación**; **después** construimos **con su equipo**.
-
-Énfasis puntual
-Primero entendemos su operación; **después construimos** con su equipo.
-
+**(04 · Énfasis con moderación)**
 El peso semibold permite destacar información relevante.
-
 No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.
 
-Cifra editorial · TASA Orbiter
-38 %
-
-Valores operativos · Plus Jakarta Sans
-
-| Enero | 1 250.00 |
-|---|---|
-| Febrero | 98.40 |
-| Marzo | 12 004.10 |
-
+**(05 · Números que se leen)**
 Las cifras operativas utilizan Plus Jakarta Sans.
-
 En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.
 
-Portada editorial
-Un mismo cielo, ningún horizonte igual
-
-Documento informativo
-**Alcance del servicio**
-
+**(06 · Expresión tipográfica)**
 TASA Orbiter se reserva para titulares, portadas y cifras con intención editorial.
-
 Los textos prolongados y controles funcionales priorizan la legibilidad.
 
-100 %
-
-Registro de cliente
-
-Nombre
-Correo
-
-200 %
-
-Registro de cliente
-
-Nombre
-Correo
-
+**(07 · Adaptación y accesibilidad)**
 Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.
-
 El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
-
-**(Contenido extenso y agentes de IA · antes de componer, identificar)**
-
-- Medio y formato.
-- Volumen de información.
-- Distancia de lectura.
-- Jerarquía elegida.
-- Modelo de lectura.
-- Fuentes y escalas aplicables.
-- Elementos especiales: tablas, citas, notas, cifras o etiquetas.
-
-Las técnicas de composición compartidas se desarrollan en el capítulo 10, con referencias a estas normas tipográficas.

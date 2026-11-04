@@ -11,7 +11,7 @@ capitulo: "12 Iconografía"
 area: "Fundamentos"
 fuente: "/fundamentos/iconografia/iconos.html#uso"
 referencias: ["KYN-MRK-COL-014"]
-citada_por: ["KYN-MRK-VIS-008"]
+citada_por: []
 ---
 
 # KYN-MRK-ICO-003 · Uso

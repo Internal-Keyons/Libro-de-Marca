@@ -11,7 +11,7 @@ capitulo: "09 Geometría y espacio"
 area: "Fundamentos"
 fuente: "/fundamentos/forma/espacio.html#esquinas"
 referencias: []
-citada_por: ["KYN-MRK-VIS-004", "KYN-MRK-VIS-006"]
+citada_por: []
 ---
 
 # KYN-MRK-ESP-001 · Lenguaje geométrico

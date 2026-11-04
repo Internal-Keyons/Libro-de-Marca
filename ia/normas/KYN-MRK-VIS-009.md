@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#vis-009"
-referencias: ["KYN-MRK-CON-006", "KYN-MRK-ESP-005", "KYN-MRK-ILU-001"]
+referencias: []
 citada_por: []
 ---
 
@@ -20,18 +20,14 @@ Número: 10.5.2 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fu
 
 ##### La jerarquía no se hace con adornos
 
-Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia.
-La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
+Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia. La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
 
 > Recurso visual: Ejemplo dibujado: Nuevo · IA · v2 · Reglas de composición · Destacado
 
 **(Uso incorrecto)**
 **Un titular con todo alrededor** Estrellas, etiquetas, puntos, líneas y miniíconos sin función.
 
-> Recurso visual: Ejemplo dibujado: KYN-MRK-CON-006 · Vigente · Reglas de composición
+> Recurso visual: Ejemplo dibujado: Norma CON-006 · Vigente · Reglas de composición · Cuatro criterios para la composición expresiva
 
 **(Alternativa mejor)**
 El titular y los datos que orientan, como el código y el estado de la norma.
-
-- **Excepciones**: Interfaces de datos densas, donde cada marca comunica un valor.
-- **Relación**: KYN-MRK-ILU-001 (Viñetas de marca) y KYN-MRK-ESP-005 (Densidad).

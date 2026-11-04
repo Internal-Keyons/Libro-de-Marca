@@ -9,7 +9,7 @@ area: "Recursos"
 estado: "borrador"
 rutas: ["/recursos/referencia.html", "/fundamentos/criterio/antipatrones.html"]
 normas: ["KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-VIS-011", "KYN-MRK-VIS-015"]
-referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-009", "KYN-MRK-COL-012", "KYN-MRK-DIS-005", "KYN-MRK-ICO-004", "KYN-MRK-ILU-006", "KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-VIS-001", "KYN-MRK-VIS-002", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-005", "KYN-MRK-VIS-006", "KYN-MRK-VIS-007", "KYN-MRK-VIS-008", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-011", "KYN-MRK-VIS-012", "KYN-MRK-VIS-013", "KYN-MRK-VIS-014", "KYN-MRK-VIS-015", "KYN-MRK-VIS-016"]
+referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-009", "KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-VIS-001", "KYN-MRK-VIS-002", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-005", "KYN-MRK-VIS-006", "KYN-MRK-VIS-007", "KYN-MRK-VIS-008", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-011", "KYN-MRK-VIS-012", "KYN-MRK-VIS-013", "KYN-MRK-VIS-014", "KYN-MRK-VIS-015", "KYN-MRK-VIS-016"]
 ---
 
 # Capítulo 28 · Referencia
@@ -161,9 +161,7 @@ Número: 28.3.1 · ID: `KYN-MRK-VIS-011` · Estado: vigente · Fuente: `/fundame
 
 ### El movimiento orienta, no distrae
 
-El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite.
-En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas.
-En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.
+El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite. En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas. En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.
 
 **(Uso incorrecto)**
 **Animación constante durante una tarea** Elementos que flotan en bucle mientras se trabaja.
@@ -171,17 +169,13 @@ En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene
 **(Alternativa mejor)**
 Una transición breve muestra de dónde viene el panel. Se presenta como secuencia, sin animación automática.
 
-- **Excepciones**: Los momentos vivos designados, como bienvenida o celebración: KYN-MRK-COL-012.
-- **Relación**: KYN-MRK-ICO-004 (Animación), KYN-MRK-ILU-006 (Ráfagas) y KYN-MRK-COL-012 (Modo interfaz).
-
 ## KYN-MRK-VIS-015 · 28.3.2 Orientación
 
 Número: 28.3.2 · ID: `KYN-MRK-VIS-015` · Estado: vigente · Fuente: `/fundamentos/criterio/antipatrones.html#vis-015`
 
 ### Original, pero siempre comprensible
 
-La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia.
-La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
+La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia. La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
 
 > Recurso visual: Ejemplo dibujado: Cielo propio
 
@@ -192,6 +186,3 @@ La experimentación es válida cuando la persona mantiene orientación y control
 
 **(Alternativa mejor)**
 Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.
-
-- **Excepciones**: Ninguna en herramientas operativas.
-- **Relación**: KYN-MRK-DIS-005 (Comprensión antes que complejidad). Las especificaciones funcionales completas de navegación pertenecen al Sistema de Diseño.

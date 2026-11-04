@@ -4855,3 +4855,133 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 /* Presentaciones en móvil: el panel de tipos de presentación va en una columna y la fórmula puede partir sus piezas */
 @media(max-width:900px){.ed__wide .ptype__panel{grid-template-columns:minmax(0,1fr);gap:var(--s6)}}
 @media(max-width:600px){.fml{padding:var(--s5)}.fml__chip{white-space:normal}}
+
+/* ═══ Ronda 14 ═══ */
+/* Un solo orden de textos dentro de las normas: rótulo 13 · subtítulo 18 · texto 16 a 17 · medida de lectura 600 a 640 px */
+.ed__sub{font-size:18px;font-weight:500;line-height:1.35}
+.tram__lead,.tram__note,.patx__d,.tsub__d{max-width:600px;font-size:16px;line-height:1.65;color:var(--color-text-2)}
+.tram__note{margin-top:var(--s6)}
+.tsub__d{margin-top:var(--s3)}
+.promise__t{font-size:18px;font-weight:500;letter-spacing:-.01em}
+.ed__stack > div > p + p{margin-top:var(--s2)}
+.ed__stack > div > .vlist{margin-top:var(--s2)!important}
+/* Renglones de muestra con puntas rectas */
+.vdemo__s i,.crv-ms i,.crv-cards i,.crv-eq i,.crv-prot i,.crv-geo__box i,.crv-b i,.tmod__s i,.tmod__s b,.tprint__s i,.phbox i{border-radius:0!important}
+
+/* Comparativos: tarjeta con el texto detrás */
+.flip__card{position:relative;overflow:hidden}
+.vdemo__i--no .flip__card{border-radius:0 var(--r-card) var(--r-card) 0}
+.vdemo__i--yes .flip__card{border-radius:var(--r-card) 0 0 var(--r-card)}
+.glass2 > figure:first-child .flip__card{border-radius:0 var(--r-card) var(--r-card) 0}
+.glass2 > figure:last-child .flip__card{border-radius:var(--r-card) 0 0 var(--r-card)}
+.flip__card > .vdemo__s,.flip__card > .gl{transition:opacity .35s var(--e-out),filter .35s var(--e-out)}
+.flip__back{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:var(--s2);padding:var(--s10) var(--s10) var(--s16);background:var(--k-puro);opacity:0;visibility:hidden;transition:opacity .35s var(--e-out),visibility .35s}
+.flip.is-flip .flip__back{opacity:1;visibility:visible}
+.flip__back .paren{display:block;font-size:13px;color:var(--color-text-3)}
+.flip__back p,.glass2 .flip__back{max-width:44ch;font-size:16px;line-height:1.6;color:var(--color-text-2)}
+.flip__back b{display:block;margin-bottom:var(--s1);font-size:16px;font-weight:600;color:var(--k-noche)}
+.flip__tag{position:absolute;top:var(--s4);left:var(--s5);padding:4px 10px;border-radius:var(--r-pill);font-size:12px;color:var(--k-noche);background:var(--k-blanco)}
+.vdemo__i--yes .flip__tag{background:var(--k-cielo-100)}
+.flip.is-flip .flip__tag{opacity:0}
+.flip__btn{position:absolute;right:var(--s4);bottom:var(--s4);display:inline-flex;align-items:center;gap:var(--s2);padding:6px 8px 6px 14px;border-radius:var(--r-pill);font-size:12px;font-weight:500;color:var(--k-noche);background:var(--k-blanco);box-shadow:inset 0 0 0 1px var(--color-border-strong);transition:background-color var(--m-fast) var(--e-out),color var(--m-fast) var(--e-out)}
+.flip__btn svg{width:16px;height:16px;transition:transform .35s var(--e-out)}
+.flip__btn:hover{background:var(--k-noche);color:var(--k-blanco)}
+.flip.is-flip .flip__btn svg{transform:rotate(45deg)}
+.vdemo .vdemo__s{aspect-ratio:16/10}
+.crv-demo--57{grid-template-columns:repeat(2,minmax(0,1fr))}
+.glass2 > figure .gl{display:block}
+@media(max-width:760px){.flip__card{border-radius:0!important}.flip__back{padding:var(--s8) var(--s6) var(--s16)}}
+
+/* Carrusel horizontal */
+.hcar__wrap{margin-top:var(--s10)}
+.hcar{display:flex!important;gap:var(--s3)!important;margin-top:0!important;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
+.hcar::-webkit-scrollbar{display:none}
+.hcar > *{flex:0 0 calc((100% - var(--s3)) / 2);min-width:0;scroll-snap-align:start}
+.tram.hcar > *{flex-basis:calc((100% - 2 * var(--s3)) / 3)}
+.tram.hcar .tram__s,.lvx.hcar .lvx__fig,.tprint.hcar .tprint__s{border-radius:var(--r-card)!important}
+.hcar__foot{margin-top:var(--s6)}
+.hcar__foot .mslide__bar i{transform-origin:left;transition:transform .3s var(--e-out)}
+.hcar__foot button:disabled{opacity:.35;cursor:default}
+@media(max-width:760px){.hcar > *,.tram.hcar > *{flex-basis:84%}}
+
+/* Menú desplegable de la casa (formulario) */
+.kdd{position:relative}
+.kdd__btn{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:10px 14px 10px 16px;border-radius:var(--r-control);background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border);font-size:14px;line-height:1.3;color:var(--k-noche);cursor:pointer;transition:box-shadow .25s var(--e-out),background-color .25s var(--e-out)}
+.kdd__btn:hover{background:var(--k-cielo-100)}
+.kdd__btn:focus-visible,.kdd.is-open .kdd__btn{outline:none;background:var(--k-puro);box-shadow:inset 0 0 0 1.5px var(--k-cielo),0 0 0 4px rgba(114,155,221,.18)}
+.kdd__l{color:var(--color-text-3)}
+.kdd__v{font-weight:500}
+.kdd__ch{display:inline-flex;width:14px;height:14px;color:var(--color-text-2);transform:rotate(90deg);transition:transform .3s var(--e-out)}
+.kdd__ch svg{width:100%;height:100%}
+.kdd.is-open .kdd__ch{transform:rotate(-90deg)}
+.kdd__list{position:absolute;z-index:30;top:calc(100% + 8px);left:0;display:grid;gap:2px;min-width:100%;width:max-content;max-height:320px;overflow:auto;margin:0;padding:6px;list-style:none;border-radius:var(--r-control);background:var(--k-puro);box-shadow:0 0 0 1px rgba(16,18,42,.06),0 2px 6px rgba(16,18,42,.05),0 24px 48px -16px rgba(16,18,42,.28);opacity:0;transform:translateY(-6px) scale(.985);transform-origin:top center;pointer-events:none;transition:opacity .18s var(--e-out),transform .24s var(--e-out)}
+.kdd.is-open .kdd__list{opacity:1;transform:none;pointer-events:auto}
+.kdd.is-up .kdd__list{top:auto;bottom:calc(100% + 8px);transform-origin:bottom center}
+.kdd__o{display:grid;grid-template-columns:minmax(0,1fr) 16px;column-gap:12px;align-items:center;padding:9px 12px;border-radius:8px;font-size:14px;color:var(--k-noche);cursor:pointer;transition:background-color .15s var(--e-out)}
+.kdd__o:hover{background:var(--k-blanco)}
+.kdd__o[aria-selected="true"]{background:var(--k-cielo-100);font-weight:600}
+.kdd__o svg{width:16px;height:16px;opacity:0;transform:scale(.6);transition:opacity .2s,transform .25s}
+.kdd__o[aria-selected="true"] svg{opacity:1;transform:none}
+.tester__ex{gap:var(--s2)}
+.tester__ex label[hidden]{display:none}
+
+/* 8.2 · el número se puede escribir */
+.szc__v{align-items:center}
+.szc__pen{width:18px;height:18px;margin-left:var(--s3);color:var(--k-cielo);cursor:text;opacity:.8;transition:opacity var(--m-fast)}
+.szc:hover .szc__pen,.szc:focus-within .szc__pen{opacity:1}
+.szc__v sup{align-self:flex-start}
+/* 8.5 · etiqueta a su tamaño */
+.tlab2{margin-top:var(--s8)}
+.tlab2 .kicker{font-size:14px}
+/* 8.8 */
+.ed__stack > div:not(:has(.paren)) p{margin-top:0}
+
+/* DIS-003 · línea como las demás: Azul Cielo 200, 4 px */
+.cye__i,.cye__i + .cye__i{border-top:4px solid var(--k-cielo-200)}
+/* VOZ-007 · la instrucción se distingue con cursiva, sin recuadro */
+.cats__how{padding:0;background:none;border-radius:0;font-size:17px;font-style:italic;line-height:1.55;color:var(--k-noche)}
+.cats__how .paren{display:block;margin-bottom:var(--s1);font-size:13px;font-weight:600;font-style:normal;letter-spacing:0;color:var(--color-text-3)}
+/* LOG-010 · línea superior de 4 px */
+.mslide--stats .mslide__view{border-top-width:4px}
+/* VIS-012 y VIS-013 · las filas de ambas columnas en el gris de la muestra */
+.cmpx__rows p,.cmpx__col--yes .cmpx__rows p{font-weight:400;color:var(--color-text-3)}
+/* ESP-005 · más aire entre bloques */
+#densidad .patx{margin-top:var(--s24)}
+#densidad .patx + .patx{margin-top:var(--s20)}
+#densidad .ed__sub{margin-top:var(--s24)}
+#densidad .dui{margin-top:var(--s12)}
+/* ILU-001 · selección como recuadro sólido del tono claro de cada color */
+.vtool__colors button{padding:8px 12px;border-radius:var(--r-control);transition:background-color var(--m-fast) var(--e-out)}
+.vtool__colors button:hover{background:var(--k-gris-200)}
+.vtool__colors button[aria-pressed="true"]{background:var(--sel,var(--k-cielo-200))}
+.vtool__colors button[aria-pressed="true"] i{box-shadow:0 0 0 1px var(--color-border-strong)}
+.tester__ex .kdd__btn{min-height:40px;padding:8px 12px 8px 14px;gap:8px;font-size:13px}
+.tester__ex{gap:6px}
+.tester__ex .kdd__btn{min-height:36px;padding:6px 10px 6px 12px;gap:6px;font-size:12.5px}
+.tester__ex .kdd__ch{width:12px;height:12px}
+.tester__ex{gap:4px}
+.tester__ex .kdd__btn{padding:6px 8px 6px 11px;gap:5px;font-size:12px}
+/* Etiqueta y valor apilados dentro del botón: los seis menús caben en una línea */
+.tester__ex{flex-wrap:wrap;gap:6px}
+.tester__ex .kdd__btn{display:grid;grid-template-columns:auto 12px;grid-template-rows:auto auto;column-gap:10px;row-gap:1px;min-height:46px;padding:6px 10px 6px 12px;text-align:left}
+.tester__ex .kdd__l{grid-column:1;font-size:11px;line-height:1.2}
+.tester__ex .kdd__v{grid-column:1;font-size:13px;line-height:1.25}
+.tester__ex .kdd__ch{grid-column:2;grid-row:1 / span 2;align-self:center}
+.flip .vdemo__s{padding-top:var(--s16);padding-bottom:var(--s16)}
+.flip.is-flip .flip__card > .vdemo__s,.flip.is-flip .flip__card > .gl{opacity:0}
+.flip__back{z-index:2}
+.flip__tag,.flip__btn{z-index:3}
+/* VIS-009 · la alternativa, limpia: un dato que orienta, el titular y una línea de apoyo */
+.crv-mic--ok{max-width:300px;padding:var(--s6) 0 0;box-shadow:inset 0 4px 0 var(--k-cielo-200)}
+.crv-mic--ok .crv-mic__m{display:flex;align-items:center;justify-content:space-between;margin:0 0 var(--s3);font-size:12px;color:var(--color-text-3)}
+.crv-mic__st{padding:2px 10px;border-radius:var(--r-pill);font-size:11px;color:var(--k-noche);background:var(--k-cielo-100)}
+.crv-mic--ok .crv-mic__t{display:block;font-size:24px;line-height:1.2;letter-spacing:-.015em}
+.crv-mic__d{margin-top:var(--s2);font-size:14px;line-height:1.5;color:var(--color-text-3)}
+/* Comparativos: las dos tarjetas con la misma altura */
+.vdemo{align-items:stretch}
+.flip{display:flex;flex-direction:column}
+.flip__card{flex:1;display:flex}
+.flip__card > .vdemo__s{flex:1;aspect-ratio:auto;min-height:clamp(240px,22vw,300px);width:100%}
+.flip__card > .gl{flex:1;width:100%}
+.glass2 > figure{margin:0}
+@media(max-width:600px){.states,.states--7{grid-template-columns:repeat(2,minmax(0,1fr))!important}.stfig{min-width:0}.stfig .state{min-width:0;overflow-wrap:anywhere}}

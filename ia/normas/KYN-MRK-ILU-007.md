@@ -61,8 +61,10 @@ Las tramas identifican libros principalmente en sus portadas y en el selector de
 
 > Recurso visual: Gráfico SVG en línea · «Formas con rellenos de trama»
 
+**(Tres usos)**
 Se distinguen tres usos: **tramas de identidad visual**, tramas utilizadas como relleno gráfico y líneas que representan datos medidos. Este capítulo documenta las familias y su construcción; el capítulo Datos establece la selección cromática y las condiciones de lectura de los gráficos cuantitativos.
 
+**(Alcance)**
 Estas muestras ilustran el recurso. Las reglas para representar categorías, series y datos medidos se desarrollarán en el capítulo 13, Datos, y en el Sistema de Diseño, sin duplicar aquí sus especificaciones. No utilizar una trama como único indicador de información sin el contexto o la identificación correspondiente.
 
 ###### Tratamientos atmosféricos

@@ -58,6 +58,41 @@ Kicker
 13 · px
 TASA Orbiter
 
+###### Reglas de composición
+
+**(01 · Título contextual)**
+Utilizar Plus Jakarta Sans, 20 px, peso 500 y Azul Noche.
+Su función es presentar el tema.
+
+**(02 · Declaración protagonista)**
+Utilizar Plus Jakarta Sans, 44 px, peso 400 y un gris con contraste validado.
+Su función es desarrollar la idea principal con mayor protagonismo visual.
+
+**(03 · Texto de entrada)**
+Cuando exista una introducción que necesite destacarse del desarrollo, utilizar 20 px, peso 400 y Azul Noche.
+Su función es sintetizar o contextualizar el contenido antes de la lectura principal.
+
+**(04 · Cuerpo)**
+Utilizar Plus Jakarta Sans, 16 px, peso 400 y Azul Noche como referencia digital inicial.
+Su función es desarrollar la información.
+
+###### Criterio de selección
+
+**(Niveles)**
+Cada composición utilizará los niveles que aporten una función reconocible.
+
+**(Composiciones breves)**
+Las composiciones breves podrán utilizar título contextual, declaración protagonista y cuerpo.
+
+**(Contenidos extensos)**
+Los contenidos extensos podrán incorporar texto de entrada cuando ayude a organizar la lectura.
+
+**(Entrada y cuerpo)**
+El texto de entrada y el cuerpo compartirán la misma familia y tono cromático. Su diferenciación se construirá mediante una relación de tamaños suficientemente perceptible, el espacio y la función editorial.
+
+**(Variaciones expresivas)**
+Las variaciones expresivas conservarán relaciones coherentes de tamaño, peso, interlineado, tracking y contraste, tomando como referencia los valores documentados.
+
 **(Lectura prolongada · Referencia digital V1)**
 
 ###### Una base estable para leer con comodidad

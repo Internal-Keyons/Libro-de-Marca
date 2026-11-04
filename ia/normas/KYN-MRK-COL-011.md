@@ -11,7 +11,7 @@ capitulo: "07 Color"
 area: "Fundamentos"
 fuente: "/fundamentos/color/por-modo.html#expresivo"
 referencias: []
-citada_por: ["KYN-MRK-VIS-014"]
+citada_por: []
 ---
 
 # KYN-MRK-COL-011 · Modo expresivo

@@ -11,7 +11,7 @@ capitulo: "07 Color"
 area: "Fundamentos"
 fuente: "/fundamentos/color/funcionales.html#grises"
 referencias: []
-citada_por: ["KYN-MRK-PRE-009", "KYN-MRK-VIS-012"]
+citada_por: ["KYN-MRK-PRE-009"]
 ---
 
 # KYN-MRK-COL-013 · Grises tipográficos

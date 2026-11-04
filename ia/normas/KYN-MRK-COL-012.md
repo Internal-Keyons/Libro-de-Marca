@@ -11,7 +11,7 @@ capitulo: "07 Color"
 area: "Fundamentos"
 fuente: "/fundamentos/color/por-modo.html#interfaz"
 referencias: []
-citada_por: ["KYN-MRK-VIS-011"]
+citada_por: []
 ---
 
 # KYN-MRK-COL-012 · Modo interfaz

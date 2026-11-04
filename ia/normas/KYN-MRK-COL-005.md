@@ -11,7 +11,7 @@ capitulo: "07 Color"
 area: "Fundamentos"
 fuente: "/fundamentos/color/paleta-base.html#contraste"
 referencias: []
-citada_por: ["KYN-MRK-VIS-012"]
+citada_por: []
 ---
 
 # KYN-MRK-COL-005 · Combinaciones

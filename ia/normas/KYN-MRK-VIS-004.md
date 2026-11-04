@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#vis-004"
-referencias: ["KYN-MRK-ESP-001", "KYN-MRK-ESP-006"]
+referencias: []
 citada_por: []
 ---
 
@@ -20,8 +20,7 @@ Número: 10.6.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fu
 
 ##### Una tarjeta solo cuando agrupa algo
 
-Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas.
-Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
+Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas. Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
 
 > Recurso visual: Ejemplo dibujado: Entender la operación · Construir con su equipo · Medir y mejorar
 
@@ -32,6 +31,3 @@ Cuando el contenido puede organizarse mediante alineación, tipografía, espacio
 
 **(Alternativa mejor)**
 El mismo contenido con jerarquía, alineación y separadores discretos. Recupera espacio negativo sin perder claridad.
-
-- **Excepciones**: Las tarjetas son apropiadas cuando representan objetos, opciones o unidades que se seleccionan, abren, trasladan o consultan como conjunto.
-- **Relación**: KYN-MRK-ESP-001 (Regla de esquinas) y KYN-MRK-ESP-006 (Patrones de contenido).

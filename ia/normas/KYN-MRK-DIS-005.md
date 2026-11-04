@@ -11,7 +11,7 @@ capitulo: "03 Principios"
 area: "Marca"
 fuente: "/marca/principios.html#comprension"
 referencias: []
-citada_por: ["KYN-MRK-VIS-015"]
+citada_por: []
 ---
 
 # KYN-MRK-DIS-005 · Claridad primero

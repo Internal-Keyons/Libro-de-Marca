@@ -71,9 +71,6 @@ Nosara, Costa Rica · marzo 2026 · Keylin
 **(La regla 70/30)**
 El cielo, o el elemento protagonista, ocupa **cerca del 70 %** de la composición; el contexto, el 30 % restante. Si se reparte a mitades, el cielo deja de ser protagonista y se vuelve fondo.
 
-**(Excepciones)**
-Retratos corporativos, fotografía documental de un proyecto y las pocas piezas que exigen no tener cielo, **siempre con aprobación**.
-
 **(Diario de cielos)**
 El archivo oficial de fotografías de cielo. Cada entrada registra **ubicación, fecha y hora, autor y fase del cielo**, como en la ficha de arriba.
 

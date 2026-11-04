@@ -11,7 +11,7 @@ capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#densidad"
 referencias: []
-citada_por: ["KYN-MRK-CMP-001", "KYN-MRK-VIS-009", "KYN-MRK-VIS-014"]
+citada_por: ["KYN-MRK-CMP-001"]
 ---
 
 # KYN-MRK-ESP-005 · Jerarquía y densidad

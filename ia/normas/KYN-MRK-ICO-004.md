@@ -11,7 +11,7 @@ capitulo: "12 Iconografía"
 area: "Fundamentos"
 fuente: "/fundamentos/iconografia/iconos.html#animacion"
 referencias: []
-citada_por: ["KYN-MRK-VIS-011"]
+citada_por: []
 ---
 
 # KYN-MRK-ICO-004 · Animación

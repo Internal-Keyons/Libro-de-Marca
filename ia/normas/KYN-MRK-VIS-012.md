@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "07 Color"
 area: "Fundamentos"
 fuente: "/fundamentos/color/paleta-base.html#vis-012"
-referencias: ["KYN-MRK-COL-005", "KYN-MRK-COL-013"]
+referencias: []
 citada_por: []
 ---
 
@@ -20,8 +20,7 @@ Número: 7.5.1 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamento
 
 ##### Delicado, pero siempre legible
 
-La delicadeza visual no justifica textos, controles ni datos ilegibles.
-El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.
+La delicadeza visual no justifica textos, controles ni datos ilegibles. El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.
 
 > Recurso visual: Muestra visual: Color · Contraste sobre Blanco Keyons · Resultado
 
@@ -40,6 +39,3 @@ Actualizado hace 5 minutos
 #6B6D7E
 4,6 : 1
 Legible · AA
-
-- **Excepciones**: Los controles inactivos tienen las excepciones previstas por WCAG. Esa excepción no autoriza a presentar información necesaria con contraste insuficiente. Distinguir los separadores decorativos de los bordes e indicadores necesarios para comprender una interfaz.
-- **Relación**: KYN-MRK-COL-005 (Combinaciones) y KYN-MRK-COL-013 (Grises tipográficos).

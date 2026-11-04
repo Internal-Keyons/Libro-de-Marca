@@ -11,7 +11,7 @@ capitulo: "02 Concepto"
 area: "Marca"
 fuente: "/marca/composicion.html#anti"
 referencias: []
-citada_por: ["KYN-MRK-VIS-016"]
+citada_por: []
 ---
 
 # KYN-MRK-CON-008 · Anti-referentes

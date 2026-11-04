@@ -361,8 +361,10 @@ Las tramas identifican libros principalmente en sus portadas y en el selector de
 
 > Recurso visual: Gráfico SVG en línea · «Formas con rellenos de trama»
 
+**(Tres usos)**
 Se distinguen tres usos: **tramas de identidad visual**, tramas utilizadas como relleno gráfico y líneas que representan datos medidos. Este capítulo documenta las familias y su construcción; el capítulo Datos establece la selección cromática y las condiciones de lectura de los gráficos cuantitativos.
 
+**(Alcance)**
 Estas muestras ilustran el recurso. Las reglas para representar categorías, series y datos medidos se desarrollarán en el capítulo 13, Datos, y en el Sistema de Diseño, sin duplicar aquí sus especificaciones. No utilizar una trama como único indicador de información sin el contexto o la identificación correspondiente.
 
 #### Tratamientos atmosféricos
@@ -530,9 +532,6 @@ Nosara, Costa Rica · marzo 2026 · Keylin
 
 **(La regla 70/30)**
 El cielo, o el elemento protagonista, ocupa **cerca del 70 %** de la composición; el contexto, el 30 % restante. Si se reparte a mitades, el cielo deja de ser protagonista y se vuelve fondo.
-
-**(Excepciones)**
-Retratos corporativos, fotografía documental de un proyecto y las pocas piezas que exigen no tener cielo, **siempre con aprobación**.
 
 **(Diario de cielos)**
 El archivo oficial de fotografías de cielo. Cada entrada registra **ubicación, fecha y hora, autor y fase del cielo**, como en la ficha de arriba.

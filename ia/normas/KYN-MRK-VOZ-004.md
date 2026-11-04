@@ -11,7 +11,7 @@ capitulo: "04 Voz"
 area: "Marca"
 fuente: "/marca/vocabulario.html#evita"
 referencias: []
-citada_por: ["KYN-MRK-PRE-005", "KYN-MRK-VIS-013"]
+citada_por: ["KYN-MRK-PRE-005"]
 ---
 
 # KYN-MRK-VOZ-004 · Vocabulario que evitamos

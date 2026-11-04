@@ -11,7 +11,7 @@ capitulo: "09 Geometría y espacio"
 area: "Fundamentos"
 fuente: "/fundamentos/forma/espacio.html#radios"
 referencias: []
-citada_por: ["KYN-MRK-VIS-006"]
+citada_por: []
 ---
 
 # KYN-MRK-ESP-002 · Radios y curvaturas

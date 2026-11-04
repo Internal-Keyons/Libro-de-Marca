@@ -11,7 +11,7 @@ capitulo: "08 Tipografía"
 area: "Fundamentos"
 fuente: "/fundamentos/tipografia/sistema.html#probador"
 referencias: []
-citada_por: ["KYN-MRK-TYP-004"]
+citada_por: []
 ---
 
 # KYN-MRK-TYP-003 · Probador tipográfico
@@ -22,15 +22,10 @@ Número: 8.3 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundam
 
 El mismo cielo, nadie lo ve igual
 TASA Orbiter 500 · 52–128 px
-**(Peso)(Interlineado)(Tracking)**
-**(Jerarquía)(Intensidad)(Organización)**
+**(Peso)(Interlineado)(Tracking)(Jerarquía)(Intensidad)(Organización)**
 
 ###### Jerarquía tradicional
 
-**(Referencias V1 · en revisión)**
-
 ###### Jerarquía editorial invertida
-
-**(Referencias V1 · en revisión)**
 
 Las combinaciones adicionales requerirán validación antes de formar parte de los valores oficiales.

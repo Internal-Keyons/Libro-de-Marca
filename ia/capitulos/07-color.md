@@ -167,8 +167,7 @@ Número: 7.5.1 · ID: `KYN-MRK-VIS-012` · Estado: vigente · Fuente: `/fundamen
 
 ### Delicado, pero siempre legible
 
-La delicadeza visual no justifica textos, controles ni datos ilegibles.
-El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.
+La delicadeza visual no justifica textos, controles ni datos ilegibles. El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.
 
 > Recurso visual: Muestra visual: Color · Contraste sobre Blanco Keyons · Resultado
 
@@ -187,9 +186,6 @@ Actualizado hace 5 minutos
 #6B6D7E
 4,6 : 1
 Legible · AA
-
-- **Excepciones**: Los controles inactivos tienen las excepciones previstas por WCAG. Esa excepción no autoriza a presentar información necesaria con contraste insuficiente. Distinguir los separadores decorativos de los bordes e indicadores necesarios para comprender una interfaz.
-- **Relación**: KYN-MRK-COL-005 (Combinaciones) y KYN-MRK-COL-013 (Grises tipográficos).
 
 ## Escalas
 
@@ -496,7 +492,10 @@ Bloqueado
 Archivado
 
 **(Aplicación)**
-Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado. Los fondos y textos deben conservar el contraste correspondiente. Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.
+
+- Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.
+- Los fondos y textos deben conservar el contraste correspondiente.
+- Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.
 
 ## KYN-MRK-COL-015 · 7.16 Acción y superficies
 

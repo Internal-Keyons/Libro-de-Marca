@@ -8,8 +8,8 @@ titulo: "Tipografía"
 area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/tipografia/sistema.html"]
-normas: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-004", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-TYP-007"]
-referencias: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-004", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-TYP-007"]
+normas: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-TYP-007"]
+referencias: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-TYP-007"]
 ---
 
 # Capítulo 08 · Tipografía
@@ -23,7 +23,6 @@ Plus Jakarta Sans y TASA Orbiter: escala, jerarquía y reglas.
 - Familias tipográficas · borrador · `/fundamentos/tipografia/sistema.html#familias`
 - Escala y jerarquía · borrador · `/fundamentos/tipografia/sistema.html#escala`
 - Probador tipográfico · borrador · `/fundamentos/tipografia/sistema.html#probador`
-- Composición editorial · vigente · `/fundamentos/tipografia/sistema.html#titular`
 - Etiquetas de contexto · borrador · `/fundamentos/tipografia/sistema.html#kickers`
 - Criterios de aplicación · borrador · `/fundamentos/tipografia/sistema.html#reglas`
 - Uso por función · vigente · `/fundamentos/tipografia/sistema.html#funcion`
@@ -112,6 +111,41 @@ Kicker
 13 · px
 TASA Orbiter
 
+#### Reglas de composición
+
+**(01 · Título contextual)**
+Utilizar Plus Jakarta Sans, 20 px, peso 500 y Azul Noche.
+Su función es presentar el tema.
+
+**(02 · Declaración protagonista)**
+Utilizar Plus Jakarta Sans, 44 px, peso 400 y un gris con contraste validado.
+Su función es desarrollar la idea principal con mayor protagonismo visual.
+
+**(03 · Texto de entrada)**
+Cuando exista una introducción que necesite destacarse del desarrollo, utilizar 20 px, peso 400 y Azul Noche.
+Su función es sintetizar o contextualizar el contenido antes de la lectura principal.
+
+**(04 · Cuerpo)**
+Utilizar Plus Jakarta Sans, 16 px, peso 400 y Azul Noche como referencia digital inicial.
+Su función es desarrollar la información.
+
+#### Criterio de selección
+
+**(Niveles)**
+Cada composición utilizará los niveles que aporten una función reconocible.
+
+**(Composiciones breves)**
+Las composiciones breves podrán utilizar título contextual, declaración protagonista y cuerpo.
+
+**(Contenidos extensos)**
+Los contenidos extensos podrán incorporar texto de entrada cuando ayude a organizar la lectura.
+
+**(Entrada y cuerpo)**
+El texto de entrada y el cuerpo compartirán la misma familia y tono cromático. Su diferenciación se construirá mediante una relación de tamaños suficientemente perceptible, el espacio y la función editorial.
+
+**(Variaciones expresivas)**
+Las variaciones expresivas conservarán relaciones coherentes de tamaño, peso, interlineado, tracking y contraste, tomando como referencia los valores documentados.
+
 **(Lectura prolongada · Referencia digital V1)**
 
 #### Una base estable para leer con comodidad
@@ -142,43 +176,13 @@ Número: 8.3 · ID: `KYN-MRK-TYP-003` · Estado: vigente · Fuente: `/fundamento
 
 El mismo cielo, nadie lo ve igual
 TASA Orbiter 500 · 52–128 px
-**(Peso)(Interlineado)(Tracking)**
-**(Jerarquía)(Intensidad)(Organización)**
+**(Peso)(Interlineado)(Tracking)(Jerarquía)(Intensidad)(Organización)**
 
 #### Jerarquía tradicional
 
-**(Referencias V1 · en revisión)**
-
 #### Jerarquía editorial invertida
 
-**(Referencias V1 · en revisión)**
-
 Las combinaciones adicionales requerirán validación antes de formar parte de los valores oficiales.
-
-## KYN-MRK-TYP-004 · 8.4 Composición editorial
-
-Número: 8.4 · ID: `KYN-MRK-TYP-004` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#titular`
-
-### Título, entrada y cierre
-
-El título, la entrada y el cierre organizan una idea cuando el contenido necesita **presentación, desarrollo y conclusión**.
-
-Un mismo cielo, ningún horizonte igual
-
-**(Título)**
-Corto, una sola idea, entero en Gris titular.
-
-Los retos se repiten en cualquier industria, pero **ninguna empresa los enfrenta desde el mismo horizonte**.
-
-**(Entrada)**
-Debajo del título. Semibold solo en las palabras clave.
-
-El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons.
-
-**(Cierre)**
-Remata la sección. El resaltado celeste cubre la palabra completa.
-
-Los modelos de jerarquía tradicional e invertida se exploran en KYN-MRK-TYP-003.
 
 ## KYN-MRK-TYP-005 · 8.5 Etiquetas de contexto
 
@@ -189,11 +193,9 @@ Número: 8.5 · ID: `KYN-MRK-TYP-005` · Estado: vigente · Fuente: `/fundamento
 Las etiquetas sitúan al lector mediante información de **categoría, ubicación, versión o estado** que complementa el título.
 
 Capítulo 01 · ADN
-Quiénes somos
-La etiqueta ubica el contenido dentro del manual.
 
 - **Fuente**: TASA Orbiter 500, en mayúsculas
-- **Tamaño**: 13 px
+- **Tamaño**: 14 px
 - **Espaciado**: +8 %
 - **Símbolo**: Estrella de marca a la izquierda, sin repetirse a la derecha
 - **Separador**: Punto medio entre niveles, sin punto final
@@ -206,109 +208,33 @@ Número: 8.6 · ID: `KYN-MRK-TYP-006` · Estado: vigente · Fuente: `/fundamento
 
 La tipografía debe **organizar la lectura, transmitir identidad** y adaptarse a las necesidades del contenido.
 
-
-
-Tradicional
-Quiénes somos
-Ingeniería operativa con inteligencia artificial.
-
-Invertida
-Quiénes somos
-Ingeniería operativa con inteligencia artificial.
-
+**(01 · Jerarquía con criterio)**
 Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio.
-
 La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.
 
-1,2 · compacto
-Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.
-
-1,55 · equilibrado
-Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.
-
-1,9 · amplio
-Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.
-
+**(02 · Interlineado adecuado)**
 Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.
-
 Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.
 
-0 %
-Cielo propio
-
-−3 % · en evaluación
-Cielo propio
-
-−5 % · en evaluación
-Cielo propio
-
+**(03 · Espaciado selectivo)**
 El tracking se ajusta según la fuente, el tamaño y la función del texto.
-
 No se aplican valores negativos o positivos de forma indiscriminada.
 
-Énfasis disperso
-Primero **entendemos** su **operación**; **después** construimos **con su equipo**.
-
-Énfasis puntual
-Primero entendemos su operación; **después construimos** con su equipo.
-
+**(04 · Énfasis con moderación)**
 El peso semibold permite destacar información relevante.
-
 No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.
 
-Cifra editorial · TASA Orbiter
-38 %
-
-Valores operativos · Plus Jakarta Sans
-
-| Enero | 1 250.00 |
-|---|---|
-| Febrero | 98.40 |
-| Marzo | 12 004.10 |
-
+**(05 · Números que se leen)**
 Las cifras operativas utilizan Plus Jakarta Sans.
-
 En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.
 
-Portada editorial
-Un mismo cielo, ningún horizonte igual
-
-Documento informativo
-**Alcance del servicio**
-
+**(06 · Expresión tipográfica)**
 TASA Orbiter se reserva para titulares, portadas y cifras con intención editorial.
-
 Los textos prolongados y controles funcionales priorizan la legibilidad.
 
-100 %
-
-Registro de cliente
-
-Nombre
-Correo
-
-200 %
-
-Registro de cliente
-
-Nombre
-Correo
-
+**(07 · Adaptación y accesibilidad)**
 Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.
-
 El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
-
-**(Contenido extenso y agentes de IA · antes de componer, identificar)**
-
-- Medio y formato.
-- Volumen de información.
-- Distancia de lectura.
-- Jerarquía elegida.
-- Modelo de lectura.
-- Fuentes y escalas aplicables.
-- Elementos especiales: tablas, citas, notas, cifras o etiquetas.
-
-Las técnicas de composición compartidas se desarrollan en el capítulo 10, con referencias a estas normas tipográficas.
 
 ## KYN-MRK-TYP-007 · 8.7 Uso por función
 
@@ -344,9 +270,9 @@ En valores comparables, utilizar cifras tabulares cuando la fuente las admita y 
 
 Número: 8.8 · Fuente: `/fundamentos/tipografia/sistema.html#tracking`
 
-### Comparar antes de aplicar
+### El espaciado construye carácter y legibilidad
 
-El espaciado entre letras se ajusta según **la fuente, el tamaño y el propósito** del texto.
+Keyons utiliza el espaciado natural para la lectura y ajustes controlados para los titulares expresivos. Cada tratamiento responde a la familia tipográfica, el tamaño y la función del texto.
 
 **(Explorar)**
 
@@ -370,22 +296,41 @@ El mismo cielo
 El mismo cielo
 El mismo cielo
 
-#### Ajustes registrados
+#### Estándar de tracking
 
-| (Fuente y contexto) | Tamaño | Ajuste | Estado |
-|---|---|---|---|
-| Plus Jakarta Sans · lectura | 14 a 20 px | 0 %, espaciado natural | Vigente |
-| Etiquetas en mayúsculas | 11 a 13 px | +8 % | Vigente |
-| TASA Orbiter · titulares editoriales | 52 px o más | −3 % y −5 % | En evaluación |
+Adoptar estas configuraciones como base de trabajo:
 
-**(Mientras se valida)**
-Rige la escala de KYN-MRK-TYP-002. El texto de cuerpo conserva el espaciado que favorece la lectura.
+**(Plus Jakarta Sans · Lectura y datos)**
+Tracking predeterminado: 0em.
+Aplicación: párrafos, información funcional, tablas, indicadores y datos comparables.
 
-**(Validación)**
-Comprobar los ajustes con TASA Orbiter y Plus Jakarta Sans, según corresponda; titulares cortos y largos; caracteres con acentos y signos del español; diferentes anchos de pantalla, y ampliación de texto y modificaciones de espaciado.
+**(Plus Jakarta Sans · Títulos)**
+Tracking predeterminado: 0em.
+La jerarquía se construye mediante tamaño, peso, posición y espacio. Los ajustes especiales se registran por composición.
 
-**(Estado)**
-Propuesta pendiente de validación. No utilizar estos valores para modificar todas las clases de titulares del proyecto ni convertirlos en tokens oficiales hasta que se haya aprobado su aplicación.
+**(TASA Orbiter · Titulares editoriales de 52 a 79 px)**
+Tracking de referencia: -0.03em.
+Aplicación: portadas, presentaciones, campañas y declaraciones protagonistas.
+
+**(TASA Orbiter · Titulares editoriales desde 80 px)**
+Tracking de referencia: -0.05em.
+Aplicación: composiciones expresivas de gran escala.
+El diseñador puede utilizar 0em o -0.03em cuando la longitud del texto, la forma de los caracteres o el formato favorezcan una composición más abierta.
+
+**(Etiquetas editoriales en mayúsculas)**
+Tracking expresivo de referencia: 0.08em.
+Aplicación: etiquetas breves que aportan contexto y cuyo tratamiento tipográfico justifica mayor separación.
+Las etiquetas funcionales utilizan 0em como valor predeterminado.
+
+#### Libertad expresiva
+
+Las composiciones expresivas permiten ajustar el tracking según el mensaje y la dirección artística, conservando relaciones tipográficas coherentes y una lectura clara.
+
+La variación parte de las configuraciones registradas.
+
+Los cambios locales se evalúan con las fuentes oficiales y quedan vinculados a la composición en la que se aplican.
+
+Los ajustes que demuestren utilidad recurrente pueden incorporarse al sistema mediante una actualización normativa.
 
 ## 8.9 Tipografía para impresión
 
@@ -417,5 +362,3 @@ Medición
 **(Brochures)**
 Según el formato y la distancia
 Según la distancia de lectura
-
-Propuesta V1, pendiente de validación por soporte.

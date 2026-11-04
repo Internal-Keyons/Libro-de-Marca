@@ -11,7 +11,7 @@ capitulo: "02 Concepto"
 area: "Marca"
 fuente: "/marca/composicion.html#reglas"
 referencias: []
-citada_por: ["KYN-MRK-ESP-006", "KYN-MRK-ILU-007", "KYN-MRK-VIS-009", "KYN-MRK-VIS-016"]
+citada_por: ["KYN-MRK-ESP-006", "KYN-MRK-ILU-007"]
 ---
 
 # KYN-MRK-CON-006 · Reglas de composición
@@ -40,11 +40,22 @@ Cada pieza se contrasta con lo que no representa a la marca; si puede confundirs
 
 La creatividad nace del criterio. La tecnología amplía sus posibilidades.
 
-**Condiciones de aplicación**
+###### Condiciones de aplicación
 
-- No es obligatorio utilizar IA en las piezas gráficas.
-- La generación de imágenes desde cero está permitida.
-- Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana.
-- Las imágenes documentales deben distinguirse de las representaciones artísticas.
-- Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas.
-- Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.
+**(01)**
+No es obligatorio utilizar IA en las piezas gráficas.
+
+**(02)**
+La generación de imágenes desde cero está permitida.
+
+**(03)**
+Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana.
+
+**(04)**
+Las imágenes documentales deben distinguirse de las representaciones artísticas.
+
+**(05)**
+Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas.
+
+**(06)**
+Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.

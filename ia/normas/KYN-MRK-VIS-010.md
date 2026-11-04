@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#vis-010"
-referencias: ["KYN-MRK-ESP-004"]
+referencias: []
 citada_por: ["KYN-MRK-CMP-002"]
 ---
 
@@ -20,18 +20,14 @@ Número: 10.2.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fu
 
 ##### Ni todo centrado ni todo descompensado
 
-La simetría comunica estabilidad y equivalencia. La asimetría controlada permite establecer diferencias de protagonismo.
-Ninguna debe utilizarse automáticamente.
+La simetría comunica estabilidad y equivalencia. La asimetría controlada permite establecer diferencias de protagonismo. Ninguna debe utilizarse automáticamente.
 
-> Recurso visual: Ejemplo dibujado: Herramientas internas · Producto SaaS · A la medida
+> Recurso visual: Ejemplo dibujado: Herramientasinternas · ProductosSaaS · Productospersonalizados
 
 **(Opciones equivalentes)**
 Tres opciones del mismo nivel: la simetría comunica su equivalencia.
 
-> Recurso visual: Ejemplo dibujado: Primero entendemos su operación · 03
+> Recurso visual: Ejemplo dibujado: Primero entendemossu operación · 03
 
 **(Una idea protagonista)**
 Una idea pesa más que su apoyo: la asimetría marca el protagonismo.
-
-- **Excepciones**: Comparaciones de opciones equivalentes, donde la igualdad de columnas comunica equivalencia.
-- **Relación**: El capítulo 10 y KYN-MRK-ESP-004 (Retícula y responsive).

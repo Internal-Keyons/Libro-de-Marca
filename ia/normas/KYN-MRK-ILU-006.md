@@ -11,7 +11,7 @@ capitulo: "11 Elementos gráficos"
 area: "Fundamentos"
 fuente: "/fundamentos/elementos/graficos.html#rafagas"
 referencias: []
-citada_por: ["KYN-MRK-VIS-011"]
+citada_por: []
 ---
 
 # KYN-MRK-ILU-006 · Ráfagas de color

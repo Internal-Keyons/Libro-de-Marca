@@ -81,6 +81,21 @@
         <h2 class="ed__title">Nueve niveles, una jerarquía flexible</h2>
         <p class="ed__lead">Los nueve niveles tipográficos permiten construir <strong>jerarquías coherentes</strong>. Su combinación responde al contenido, al medio y a la intención editorial de cada pieza.</p>
         <div class="szcs" data-escala><div class="szc"><span class="szc__k">Display</span><p class="szc__v">52 a 128<sup>px</sup></p><p class="szc__m">TASA Orbiter</p></div><div class="szc"><span class="szc__k">Título de sección</span><p class="szc__v">30 a 44<sup>px</sup></p><p class="szc__m">Plus Jakarta Sans</p></div><div class="szc"><span class="szc__k">Subtítulo</span><p class="szc__v">22 a 27<sup>px</sup></p><p class="szc__m">Plus Jakarta Sans</p></div><div class="szc"><span class="szc__k">Título menor</span><p class="szc__v">17 a 18<sup>px</sup></p><p class="szc__m">Plus Jakarta Sans</p></div><div class="szc"><span class="szc__k">Entrada</span><p class="szc__v">18 a 20<sup>px</sup></p><p class="szc__m">Plus Jakarta Sans</p></div><div class="szc"><span class="szc__k">Cuerpo</span><p class="szc__v">16 a 17<sup>px</sup></p><p class="szc__m">Plus Jakarta Sans</p></div><div class="szc"><span class="szc__k">Pequeño</span><p class="szc__v">14 a 15<sup>px</sup></p><p class="szc__m">Plus Jakarta Sans</p></div><div class="szc"><span class="szc__k">Rótulo</span><p class="szc__v">13<sup>px</sup></p><p class="szc__m">Plus Jakarta Sans</p></div><div class="szc"><span class="szc__k">Kicker</span><p class="szc__v">13<sup>px</sup></p><p class="szc__m">TASA Orbiter</p></div></div>
+        <h3 class="ed__sub">Reglas de composición</h3>
+        <div class="ed__stack">
+          <div><span class="paren">(01 · Título contextual)</span><p>Utilizar Plus Jakarta Sans, 20 px, peso 500 y Azul Noche.</p><p>Su función es presentar el tema.</p></div>
+          <div><span class="paren">(02 · Declaración protagonista)</span><p>Utilizar Plus Jakarta Sans, 44 px, peso 400 y un gris con contraste validado.</p><p>Su función es desarrollar la idea principal con mayor protagonismo visual.</p></div>
+          <div><span class="paren">(03 · Texto de entrada)</span><p>Cuando exista una introducción que necesite destacarse del desarrollo, utilizar 20 px, peso 400 y Azul Noche.</p><p>Su función es sintetizar o contextualizar el contenido antes de la lectura principal.</p></div>
+          <div><span class="paren">(04 · Cuerpo)</span><p>Utilizar Plus Jakarta Sans, 16 px, peso 400 y Azul Noche como referencia digital inicial.</p><p>Su función es desarrollar la información.</p></div>
+        </div>
+        <h3 class="ed__sub">Criterio de selección</h3>
+        <div class="ed__stack">
+          <div><span class="paren">(Niveles)</span><p>Cada composición utilizará los niveles que aporten una función reconocible.</p></div>
+          <div><span class="paren">(Composiciones breves)</span><p>Las composiciones breves podrán utilizar título contextual, declaración protagonista y cuerpo.</p></div>
+          <div><span class="paren">(Contenidos extensos)</span><p>Los contenidos extensos podrán incorporar texto de entrada cuando ayude a organizar la lectura.</p></div>
+          <div><span class="paren">(Entrada y cuerpo)</span><p>El texto de entrada y el cuerpo compartirán la misma familia y tono cromático. Su diferenciación se construirá mediante una relación de tamaños suficientemente perceptible, el espacio y la función editorial.</p></div>
+          <div><span class="paren">(Variaciones expresivas)</span><p>Las variaciones expresivas conservarán relaciones coherentes de tamaño, peso, interlineado, tracking y contraste, tomando como referencia los valores documentados.</p></div>
+        </div>
         <div class="tread">
           <span class="paren">(Lectura prolongada · Referencia digital V1)</span>
           <h3 class="tread__t">Una base estable para leer con comodidad</h3>
@@ -122,8 +137,6 @@
             <label><span class="paren">(Peso)</span><select class="tsel" data-ex="w"></select></label>
             <label><span class="paren">(Interlineado)</span><select class="tsel" data-ex="lh"></select></label>
             <label><span class="paren">(Tracking)</span><select class="tsel" data-ex="ls"></select></label>
-          </div>
-          <div class="tester__cfg" role="group" aria-label="Configuración">
             <label><span class="paren">(Jerarquía)</span><select class="tsel" data-cf="j"><option value="trad">Tradicional</option><option value="inv">Editorial invertida</option></select></label>
             <label><span class="paren">(Intensidad)</span><select class="tsel" data-cf="i"><option value="contenida">Contenida</option><option value="expresiva">Expresiva</option></select></label>
             <label><span class="paren">(Organización)</span><select class="tsel" data-cf="o"><option value="breve">Breve</option><option value="lectura">Lectura prolongada</option><option value="modular">Síntesis modular</option></select></label>
@@ -132,43 +145,25 @@
           <p class="tester__sizes"></p>
         </div>
         <div class="tv1" data-tipo-v1>
-          <div class="tv1__t"><h3>Jerarquía tradicional</h3><span class="paren">(Referencias V1 · en revisión)</span></div>
-          <div class="tv1__t"><h3>Jerarquía editorial invertida</h3><span class="paren">(Referencias V1 · en revisión)</span></div>
+          <div class="tv1__t"><h3>Jerarquía tradicional</h3></div>
+          <div class="tv1__t"><h3>Jerarquía editorial invertida</h3></div>
         </div>
         <p class="ed__more">Las combinaciones adicionales requerirán validación antes de formar parte de los valores oficiales.</p>
       </div>
     </section>
 
-    <section class="ed" id="titular">
-      <div class="ed__label"><span>8.4</span><span>Composición editorial</span></div>
-      <div>
-        <h2 class="ed__title">Título, entrada y cierre</h2>
-        <p class="ed__lead">El título, la entrada y el cierre organizan una idea cuando el contenido necesita <strong>presentación, desarrollo y conclusión</strong>.</p>
-        <div class="annot anat">
-          <p class="anat__s anat--t">Un mismo cielo, ningún horizonte igual</p>
-          <div class="annot__note"><span class="paren">(Título)</span><p>Corto, una sola idea, entero en Gris titular.</p></div>
-          <p class="anat__s anat--l">Los retos se repiten en cualquier industria, pero <strong>ninguna empresa los enfrenta desde el mismo horizonte</strong>.</p>
-          <div class="annot__note"><span class="paren">(Entrada)</span><p>Debajo del título. Semibold solo en las palabras clave.</p></div>
-          <p class="anat__s anat--c">El cielo siempre está presente: <span class="hl">una pieza sin cielo no es una pieza Keyons.</span></p>
-          <div class="annot__note"><span class="paren">(Cierre)</span><p>Remata la sección. El resaltado celeste cubre la palabra completa.</p></div>
-        </div>
-        <p class="ed__more">Los modelos de jerarquía tradicional e invertida se exploran en KYN-MRK-TYP-003.</p>
-      </div>
-    </section>
 
     <section class="ed" id="kickers">
       <div class="ed__label"><span>8.5</span><span>Etiquetas de contexto</span></div>
       <div>
         <h2 class="ed__title">Etiquetas que aportan contexto</h2>
         <p class="ed__lead">Las etiquetas sitúan al lector mediante información de <strong>categoría, ubicación, versión o estado</strong> que complementa el título.</p>
-        <div class="kzoom tlab2">
-          <p class="kzoom__big"><span class="kicker">Capítulo 01 · ADN</span></p>
-          <p class="tlab2__t">Quiénes somos</p>
-          <p class="tlab2__n">La etiqueta ubica el contenido dentro del manual.</p>
+        <div class="tlab2">
+          <span class="kicker">Capítulo 01 · ADN</span>
         </div>
         <dl class="tspec">
           <div><dt>Fuente</dt><dd>TASA Orbiter 500, en mayúsculas</dd></div>
-          <div><dt>Tamaño</dt><dd>13 px</dd></div>
+          <div><dt>Tamaño</dt><dd>14 px</dd></div>
           <div><dt>Espaciado</dt><dd>+8 %</dd></div>
           <div><dt>Símbolo</dt><dd>Estrella de marca a la izquierda, sin repetirse a la derecha</dd></div>
           <div><dt>Separador</dt><dd>Punto medio entre niveles, sin punto final</dd></div>
@@ -181,9 +176,15 @@
       <div>
         <h2 class="ed__title">Siete criterios de aplicación</h2>
         <p class="ed__lead">La tipografía debe <strong>organizar la lectura, transmitir identidad</strong> y adaptarse a las necesidades del contenido.</p>
-        <div class="rview rview--wide" data-rview><ol class="rview__list"><li><button type="button" data-rv="0" aria-pressed="true"><span>01</span>Jerarquía con criterio</button></li><li><button type="button" data-rv="1" aria-pressed="false"><span>02</span>Interlineado adecuado</button></li><li><button type="button" data-rv="2" aria-pressed="false"><span>03</span>Espaciado selectivo</button></li><li><button type="button" data-rv="3" aria-pressed="false"><span>04</span>Énfasis con moderación</button></li><li><button type="button" data-rv="4" aria-pressed="false"><span>05</span>Números que se leen</button></li><li><button type="button" data-rv="5" aria-pressed="false"><span>06</span>Expresión tipográfica</button></li><li><button type="button" data-rv="6" aria-pressed="false"><span>07</span>Adaptación y accesibilidad</button></li></ol><div class="rview__stage"><div class="rview__it"><div class="rview__demo"><div class="tdm tdm--2"><div><span class="tdm__l">Tradicional</span><p class="tdm__big">Quiénes somos</p><p class="tdm__sm">Ingeniería operativa con inteligencia artificial.</p></div><div><span class="tdm__l">Invertida</span><p class="tdm__ctx">Quiénes somos</p><p class="tdm__dec">Ingeniería operativa con inteligencia artificial.</p></div></div></div><p class="rview__d">Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio.</p><p class="rview__s">La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.</p></div><div class="rview__it" hidden><div class="rview__demo"><div class="tdm tdm--3"><div><span class="tdm__l">1,2 · compacto</span><p class="tdm__p" style="line-height:1.2">Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.</p></div><div><span class="tdm__l">1,55 · equilibrado</span><p class="tdm__p" style="line-height:1.55">Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.</p></div><div><span class="tdm__l">1,9 · amplio</span><p class="tdm__p" style="line-height:1.9">Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.</p></div></div></div><p class="rview__d">Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.</p><p class="rview__s">Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.</p></div><div class="rview__it" hidden><div class="rview__demo"><div class="tdm tdm--3"><div><span class="tdm__l">0 %</span><p class="tdm__trk" style="letter-spacing:0">Cielo propio</p></div><div><span class="tdm__l">−3 % · en evaluación</span><p class="tdm__trk" style="letter-spacing:-0.03em">Cielo propio</p></div><div><span class="tdm__l">−5 % · en evaluación</span><p class="tdm__trk" style="letter-spacing:-0.05em">Cielo propio</p></div></div></div><p class="rview__d">El tracking se ajusta según la fuente, el tamaño y la función del texto.</p><p class="rview__s">No se aplican valores negativos o positivos de forma indiscriminada.</p></div><div class="rview__it" hidden><div class="rview__demo"><div class="tdm tdm--2"><div><span class="tdm__l">Énfasis disperso</span><p class="tdm__p">Primero <b>entendemos</b> su <b>operación</b>; <b>después</b> construimos <b>con su equipo</b>.</p></div><div><span class="tdm__l">Énfasis puntual</span><p class="tdm__p">Primero entendemos su operación; <b>después construimos</b> con su equipo.</p></div></div></div><p class="rview__d">El peso semibold permite destacar información relevante.</p><p class="rview__s">No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.</p></div><div class="rview__it" hidden><div class="rview__demo"><div class="tdm tdm--2"><div><span class="tdm__l">Cifra editorial · TASA Orbiter</span><p class="tdm__fig">38&nbsp;%</p></div><div><span class="tdm__l">Valores operativos · Plus Jakarta Sans</span><table class="tdm__tab"><tr><td>Enero</td><td>1 250.00</td></tr><tr><td>Febrero</td><td>98.40</td></tr><tr><td>Marzo</td><td>12 004.10</td></tr></table></div></div></div><p class="rview__d">Las cifras operativas utilizan Plus Jakarta Sans.</p><p class="rview__s">En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.</p></div><div class="rview__it" hidden><div class="rview__demo"><div class="tdm tdm--2"><div><span class="tdm__l">Portada editorial</span><div class="tdm__cover"><span>Un mismo cielo,<br>ningún horizonte igual</span></div></div><div><span class="tdm__l">Documento informativo</span><div class="tdm__docp"><b>Alcance del servicio</b><i></i><i></i><i></i><i class="s"></i><i></i><i class="s"></i></div></div></div></div><p class="rview__d">TASA Orbiter se reserva para titulares, portadas y cifras con intención editorial.</p><p class="rview__s">Los textos prolongados y controles funcionales priorizan la legibilidad.</p></div><div class="rview__it" hidden><div class="rview__demo"><div class="tdm tdm--2"><div><span class="tdm__l">100 %</span><div class="tdm__frame"><p class="tdm__ft">Registro de cliente</p><div class="tdm__cols"><p>Nombre</p><p>Correo</p></div></div></div><div><span class="tdm__l">200 %</span><div class="tdm__frame tdm__frame--x2"><p class="tdm__ft">Registro de cliente</p><div class="tdm__cols"><p>Nombre</p><p>Correo</p></div></div></div></div></div><p class="rview__d">Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.</p><p class="rview__s">El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.</p></div></div></div>
-        <div class="tlong"><span class="paren">(Contenido extenso y agentes de IA · antes de componer, identificar)</span><ul class="vlist"><li><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z"/></svg>Medio y formato.</li><li><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z"/></svg>Volumen de información.</li><li><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z"/></svg>Distancia de lectura.</li><li><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z"/></svg>Jerarquía elegida.</li><li><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z"/></svg>Modelo de lectura.</li><li><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z"/></svg>Fuentes y escalas aplicables.</li><li><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z"/></svg>Elementos especiales: tablas, citas, notas, cifras o etiquetas.</li></ul></div>
-        <p class="ed__more">Las técnicas de composición compartidas se desarrollan en el capítulo 10, con referencias a estas normas tipográficas.</p>
+        <div class="ed__stack">
+          <div><span class="paren">(01 · Jerarquía con criterio)</span><p>Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio.</p><p>La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.</p></div>
+          <div><span class="paren">(02 · Interlineado adecuado)</span><p>Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.</p><p>Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.</p></div>
+          <div><span class="paren">(03 · Espaciado selectivo)</span><p>El tracking se ajusta según la fuente, el tamaño y la función del texto.</p><p>No se aplican valores negativos o positivos de forma indiscriminada.</p></div>
+          <div><span class="paren">(04 · Énfasis con moderación)</span><p>El peso semibold permite destacar información relevante.</p><p>No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.</p></div>
+          <div><span class="paren">(05 · Números que se leen)</span><p>Las cifras operativas utilizan Plus Jakarta Sans.</p><p>En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.</p></div>
+          <div><span class="paren">(06 · Expresión tipográfica)</span><p>TASA Orbiter se reserva para titulares, portadas y cifras con intención editorial.</p><p>Los textos prolongados y controles funcionales priorizan la legibilidad.</p></div>
+          <div><span class="paren">(07 · Adaptación y accesibilidad)</span><p>Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.</p><p>El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.</p></div>
+        </div>
       </div>
     </section>
 
@@ -207,19 +208,28 @@
     <section class="ed ed--full" id="tracking">
       <div class="ed__label"><span>8.8</span><span>Tracking y espaciado</span></div>
       <div>
-        <h2 class="ed__title">Comparar antes de aplicar</h2>
-        <p class="ed__lead">El espaciado entre letras se ajusta según <strong>la fuente, el tamaño y el propósito</strong> del texto.</p>
-        <div class="trk__tabs" role="group" aria-label="Valor visible" data-always><span class="paren">(Explorar)</span><button type="button" data-trk="1" aria-pressed="true">0 % · aprobado</button><button type="button" data-trk="2" aria-pressed="false">−3 % · experimental</button><button type="button" data-trk="3" aria-pressed="false">−5 % · experimental</button></div>
+        <h2 class="ed__title">El espaciado construye carácter y legibilidad</h2>
+        <p class="ed__lead">Keyons utiliza el espaciado natural para la lectura y ajustes controlados para los titulares expresivos. Cada tratamiento responde a la familia tipográfica, el tamaño y la función del texto.</p>
+        <div class="trk__tabs" role="group" aria-label="Valor visible" data-always><span class="paren">(Explorar)</span><button type="button" data-trk="1" aria-pressed="true">0 %</button><button type="button" data-trk="2" aria-pressed="false">−3 %</button><button type="button" data-trk="3" aria-pressed="false">−5 %</button></div>
         <div class="trk">
           <div class="trk__r trk__h"><span class="trk__k">Escala</span><span>0 %</span><span>−3 %</span><span>−5 %</span></div>
           <div class="trk__r"><span class="trk__k">96 px</span><div class="trk__c"><span class="trk__s" style="font-size:96px;letter-spacing:0">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:96px;letter-spacing:-0.03em">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:96px;letter-spacing:-0.05em">El mismo cielo</span></div></div><div class="trk__r"><span class="trk__k">56 px</span><div class="trk__c"><span class="trk__s" style="font-size:56px;letter-spacing:0">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:56px;letter-spacing:-0.03em">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:56px;letter-spacing:-0.05em">El mismo cielo</span></div></div><div class="trk__r"><span class="trk__k">32 px</span><div class="trk__c"><span class="trk__s" style="font-size:32px;letter-spacing:0">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:32px;letter-spacing:-0.03em">El mismo cielo</span></div><div class="trk__c"><span class="trk__s" style="font-size:32px;letter-spacing:-0.05em">El mismo cielo</span></div></div>
         </div>
-        <h3 class="tsub">Ajustes registrados</h3>
-        <div class="matrix matrix--3" role="table" aria-label="Ajustes de tracking por fuente, tamaño y contexto"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader">(Fuente y contexto)</span><span class="matrix__lvl" role="columnheader">Tamaño</span><span class="matrix__lvl" role="columnheader">Ajuste</span><span class="matrix__lvl" role="columnheader">Estado</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Plus Jakarta Sans · lectura</span><span class="matrix__v" role="cell">14 a 20 px</span><span class="matrix__v" role="cell">0 %, espaciado natural</span><span class="matrix__v" role="cell">Vigente</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Etiquetas en mayúsculas</span><span class="matrix__v" role="cell">11 a 13 px</span><span class="matrix__v" role="cell">+8 %</span><span class="matrix__v" role="cell">Vigente</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">TASA Orbiter · titulares editoriales</span><span class="matrix__v" role="cell">52 px o más</span><span class="matrix__v" role="cell">−3 % y −5 %</span><span class="matrix__v" role="cell">En evaluación</span></div></div>
-        <div class="tslots">
-          <div><span class="paren">(Mientras se valida)</span><p>Rige la escala de KYN-MRK-TYP-002. El texto de cuerpo conserva el espaciado que favorece la lectura.</p></div>
-          <div><span class="paren">(Validación)</span><p>Comprobar los ajustes con TASA Orbiter y Plus Jakarta Sans, según corresponda; titulares cortos y largos; caracteres con acentos y signos del español; diferentes anchos de pantalla, y ampliación de texto y modificaciones de espaciado.</p></div>
-          <div><span class="paren">(Estado)</span><p>Propuesta pendiente de validación. No utilizar estos valores para modificar todas las clases de titulares del proyecto ni convertirlos en tokens oficiales hasta que se haya aprobado su aplicación.</p></div>
+        <h3 class="ed__sub">Estándar de tracking</h3>
+        <p class="tsub__d">Adoptar estas configuraciones como base de trabajo:</p>
+        <div class="ed__stack">
+          <div><span class="paren">(Plus Jakarta Sans · Lectura y datos)</span><p>Tracking predeterminado: 0em.</p><p>Aplicación: párrafos, información funcional, tablas, indicadores y datos comparables.</p></div>
+          <div><span class="paren">(Plus Jakarta Sans · Títulos)</span><p>Tracking predeterminado: 0em.</p><p>La jerarquía se construye mediante tamaño, peso, posición y espacio. Los ajustes especiales se registran por composición.</p></div>
+          <div><span class="paren">(TASA Orbiter · Titulares editoriales de 52 a 79 px)</span><p>Tracking de referencia: -0.03em.</p><p>Aplicación: portadas, presentaciones, campañas y declaraciones protagonistas.</p></div>
+          <div><span class="paren">(TASA Orbiter · Titulares editoriales desde 80 px)</span><p>Tracking de referencia: -0.05em.</p><p>Aplicación: composiciones expresivas de gran escala.</p><p>El diseñador puede utilizar 0em o -0.03em cuando la longitud del texto, la forma de los caracteres o el formato favorezcan una composición más abierta.</p></div>
+          <div><span class="paren">(Etiquetas editoriales en mayúsculas)</span><p>Tracking expresivo de referencia: 0.08em.</p><p>Aplicación: etiquetas breves que aportan contexto y cuyo tratamiento tipográfico justifica mayor separación.</p><p>Las etiquetas funcionales utilizan 0em como valor predeterminado.</p></div>
+        </div>
+        <h3 class="ed__sub">Libertad expresiva</h3>
+        <p class="ed__close">Las composiciones expresivas permiten ajustar el tracking según el mensaje y la dirección artística, <span class="hl">conservando relaciones tipográficas coherentes y una lectura clara.</span></p>
+        <div class="ed__stack">
+          <div><p>La variación parte de las configuraciones registradas.</p></div>
+          <div><p>Los cambios locales se evalúan con las fuentes oficiales y quedan vinculados a la composición en la que se aplican.</p></div>
+          <div><p>Los ajustes que demuestren utilidad recurrente pueden incorporarse al sistema mediante una actualización normativa.</p></div>
         </div>
       </div>
     </section>
@@ -229,12 +239,11 @@
       <div>
         <h2 class="ed__title">El tamaño depende del soporte</h2>
         <p class="ed__lead">Cada soporte tiene su escala: <strong>documentos, presentaciones y brochures</strong> se leen a distancias distintas.</p>
-        <div class="tprint">
+        <div class="tprint hcar" data-hcar>
           <figure><div class="tprint__s tprint__s--doc"><p class="tprint__h">Alcance del servicio</p><p class="tprint__p">Primero entendemos su operación; después construimos con su equipo y medimos cada mejora.</p></div><figcaption><span class="paren">(Documentos)</span><p>Cuerpo de 11 a 12 pt</p><p class="tprint__v">Prueba impresa a tamaño real</p></figcaption></figure>
           <figure><div class="tprint__s tprint__s--deck"><p class="tprint__p">Primero entendemos su operación</p></div><figcaption><span class="paren">(Presentaciones)</span><p>Cuerpo de 20 a 28 pt</p><p class="tprint__v">Verificación específica de los tamaños cercanos a 18 pt</p></figcaption></figure>
           <figure><div class="tprint__s tprint__s--bro"><span><p class="tprint__h">Diagnóstico</p><i></i><i></i><i class="s"></i></span><span><p class="tprint__h">Construcción</p><i></i><i></i><i class="s"></i></span><span><p class="tprint__h">Medición</p><i></i><i></i><i class="s"></i></span></div><figcaption><span class="paren">(Brochures)</span><p>Según el formato y la distancia</p><p class="tprint__v">Según la distancia de lectura</p></figcaption></figure>
         </div>
-        <p class="ed__more">Propuesta V1, pendiente de validación por soporte.</p>
       </div>
     </section>
 

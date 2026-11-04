@@ -23,11 +23,9 @@ Número: 8.5 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundam
 Las etiquetas sitúan al lector mediante información de **categoría, ubicación, versión o estado** que complementa el título.
 
 Capítulo 01 · ADN
-Quiénes somos
-La etiqueta ubica el contenido dentro del manual.
 
 - **Fuente**: TASA Orbiter 500, en mayúsculas
-- **Tamaño**: 13 px
+- **Tamaño**: 14 px
 - **Espaciado**: +8 %
 - **Símbolo**: Estrella de marca a la izquierda, sin repetirse a la derecha
 - **Separador**: Punto medio entre niveles, sin punto final

@@ -9,7 +9,7 @@ area: "Fundamentos"
 estado: "vigente"
 rutas: ["/fundamentos/composicion/editorial.html"]
 normas: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-VIS-010", "KYN-MRK-CMP-003", "KYN-MRK-ESP-004", "KYN-MRK-CMP-004", "KYN-MRK-VIS-014", "KYN-MRK-ESP-005", "KYN-MRK-VIS-003", "KYN-MRK-VIS-009", "KYN-MRK-ESP-006", "KYN-MRK-VIS-004", "KYN-MRK-ESP-007", "KYN-MRK-VIS-016"]
-referencias: ["KYN-MRK-ADN-001", "KYN-MRK-ADN-003", "KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-CMP-003", "KYN-MRK-CMP-004", "KYN-MRK-COL-002", "KYN-MRK-COL-004", "KYN-MRK-COL-011", "KYN-MRK-CON-006", "KYN-MRK-CON-008", "KYN-MRK-DAT-001", "KYN-MRK-DIS-001", "KYN-MRK-ESP-001", "KYN-MRK-ESP-004", "KYN-MRK-ESP-005", "KYN-MRK-ESP-006", "KYN-MRK-ESP-007", "KYN-MRK-ILU-001", "KYN-MRK-LOG-001", "KYN-MRK-LOG-006", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-014", "KYN-MRK-VIS-016", "KYN-MRK-VOZ-003"]
+referencias: ["KYN-MRK-ADN-001", "KYN-MRK-ADN-003", "KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-CMP-003", "KYN-MRK-CMP-004", "KYN-MRK-COL-002", "KYN-MRK-COL-004", "KYN-MRK-CON-006", "KYN-MRK-DAT-001", "KYN-MRK-ESP-004", "KYN-MRK-ESP-005", "KYN-MRK-ESP-006", "KYN-MRK-ESP-007", "KYN-MRK-LOG-001", "KYN-MRK-LOG-006", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-014", "KYN-MRK-VIS-016", "KYN-MRK-VOZ-003"]
 ---
 
 # Capítulo 10 · Composición
@@ -85,21 +85,17 @@ Número: 10.2.1 · ID: `KYN-MRK-VIS-010` · Estado: vigente · Fuente: `/fundame
 
 ### Ni todo centrado ni todo descompensado
 
-La simetría comunica estabilidad y equivalencia. La asimetría controlada permite establecer diferencias de protagonismo.
-Ninguna debe utilizarse automáticamente.
+La simetría comunica estabilidad y equivalencia. La asimetría controlada permite establecer diferencias de protagonismo. Ninguna debe utilizarse automáticamente.
 
-> Recurso visual: Ejemplo dibujado: Herramientas internas · Producto SaaS · A la medida
+> Recurso visual: Ejemplo dibujado: Herramientasinternas · ProductosSaaS · Productospersonalizados
 
 **(Opciones equivalentes)**
 Tres opciones del mismo nivel: la simetría comunica su equivalencia.
 
-> Recurso visual: Ejemplo dibujado: Primero entendemos su operación · 03
+> Recurso visual: Ejemplo dibujado: Primero entendemossu operación · 03
 
 **(Una idea protagonista)**
 Una idea pesa más que su apoyo: la asimetría marca el protagonismo.
-
-- **Excepciones**: Comparaciones de opciones equivalentes, donde la igualdad de columnas comunica equivalencia.
-- **Relación**: El capítulo 10 y KYN-MRK-ESP-004 (Retícula y responsive).
 
 ## KYN-MRK-CMP-003 · 10.3 Retículas editoriales
 
@@ -154,8 +150,10 @@ Se permite una mayor experimentación mediante simetría, asimetría y cambios d
 | Escritorio | 1100 a 1439 px | 12 | 64 px |
 | Amplio | Desde 1440 px | 12 | Contenido hasta 1520 px |
 
+**(Responsive)**
 El responsive no es un modo: es cómo esta retícula se adapta al ancho. El medianil es de 16 px en móvil y de 24 px en el resto.
 
+**(Productos)**
 Estos rangos documentan la retícula editorial de referencia. Los productos pueden necesitar ajustes según el ancho disponible, el contenido y las necesidades de sus usuarios. Sus puntos de adaptación se definen en el Sistema de Diseño.
 
 La retícula proporciona orden sin imponer composiciones idénticas.
@@ -192,8 +190,7 @@ Número: 10.4.1 · ID: `KYN-MRK-VIS-014` · Estado: vigente · Fuente: `/fundame
 
 ### Intensidad con momentos de reposo
 
-La expresión gráfica necesita contraste entre momentos intensos y momentos de reposo.
-El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura.
+La expresión gráfica necesita contraste entre momentos intensos y momentos de reposo. El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura.
 
 **(Uso incorrecto)**
 **La misma intensidad en cada bloque** Fotografía, color y textura en todas partes: nada destaca.
@@ -210,9 +207,6 @@ El uso continuo de fotografía, color, textura y movimiento con la misma intensi
 Un momento expresivo entre secciones contenidas, ubicado donde el contenido lo pide. Conserva el carácter sin saturar.
 
 > Recurso visual: Imagen: /assets/img/cielo-atardecer.webp
-
-- **Excepciones**: Piezas de una sola pantalla, como una publicación de campaña.
-- **Relación**: KYN-MRK-COL-011 (Modo expresivo), KYN-MRK-ESP-005 (Densidad) y el capítulo 10.
 
 ## KYN-MRK-ESP-005 · 10.5 Jerarquía y densidad
 
@@ -289,8 +283,7 @@ Número: 10.5.1 · ID: `KYN-MRK-VIS-003` · Estado: vigente · Fuente: `/fundame
 
 ### La jerarquía se construye para cada contenido
 
-La composición debe responder a las relaciones y prioridades del contenido.
-Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.
+La composición debe responder a las relaciones y prioridades del contenido. Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.
 
 **(Uso incorrecto)**
 **Tres secciones con la misma fórmula** Kicker, titular, párrafo y tarjetas, una y otra vez.
@@ -302,30 +295,23 @@ Un dato, una explicación y una imagen, cada uno con la composición que su func
 
 > Recurso visual: Imagen: /assets/img/cielo-mediodia.webp
 
-- **Excepciones**: Listados de consulta que se recorren buscando lo mismo en cada bloque, como un catálogo.
-- **Relación**: KYN-MRK-ESP-006 (Patrones de contenido) y el capítulo 10.
-
 ## KYN-MRK-VIS-009 · 10.5.2 Microelementos
 
 Número: 10.5.2 · ID: `KYN-MRK-VIS-009` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-009`
 
 ### La jerarquía no se hace con adornos
 
-Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia.
-La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
+Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia. La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
 
 > Recurso visual: Ejemplo dibujado: Nuevo · IA · v2 · Reglas de composición · Destacado
 
 **(Uso incorrecto)**
 **Un titular con todo alrededor** Estrellas, etiquetas, puntos, líneas y miniíconos sin función.
 
-> Recurso visual: Ejemplo dibujado: KYN-MRK-CON-006 · Vigente · Reglas de composición
+> Recurso visual: Ejemplo dibujado: Norma CON-006 · Vigente · Reglas de composición · Cuatro criterios para la composición expresiva
 
 **(Alternativa mejor)**
 El titular y los datos que orientan, como el código y el estado de la norma.
-
-- **Excepciones**: Interfaces de datos densas, donde cada marca comunica un valor.
-- **Relación**: KYN-MRK-ILU-001 (Viñetas de marca) y KYN-MRK-ESP-005 (Densidad).
 
 ## KYN-MRK-ESP-006 · 10.6 Patrones de composición
 
@@ -364,8 +350,7 @@ Número: 10.6.1 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundame
 
 ### Una tarjeta solo cuando agrupa algo
 
-Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas.
-Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
+Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas. Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
 
 > Recurso visual: Ejemplo dibujado: Entender la operación · Construir con su equipo · Medir y mejorar
 
@@ -376,9 +361,6 @@ Cuando el contenido puede organizarse mediante alineación, tipografía, espacio
 
 **(Alternativa mejor)**
 El mismo contenido con jerarquía, alineación y separadores discretos. Recupera espacio negativo sin perder claridad.
-
-- **Excepciones**: Las tarjetas son apropiadas cuando representan objetos, opciones o unidades que se seleccionan, abren, trasladan o consultan como conjunto.
-- **Relación**: KYN-MRK-ESP-001 (Regla de esquinas) y KYN-MRK-ESP-006 (Patrones de contenido).
 
 ## KYN-MRK-ESP-007 · 10.7 Diagramas de información
 
@@ -458,45 +440,13 @@ Número: 10.8 · Fuente: `/fundamentos/composicion/editorial.html#ejemplos`
 
 ### Cuatro piezas, cuatro estructuras
 
-Cada ejemplo muestra cómo **el contenido decide la retícula**: un documento de lectura, una presentación, un brochure y una pieza editorial.
-
-> Recurso visual: Muestra visual: Propuesta de automatización · Nota Cifra · 38 %
-
-**(Documento)**
-Lectura prolongada
-Una columna de lectura de siete columnas y notas al margen en cinco. El orden se repite página a página para que la lectura no se interrumpa.
-Retícula 7 + 5 · KYN-MRK-CMP-003
-
-> Recurso visual: Muestra visual: Primero entendemos su operación · 3
-
-**(Presentación)**
-Una idea protagonista
-La declaración ocupa el lado ancho y el dato que la sostiene, el angosto. Una sola idea por diapositiva, con aire alrededor.
-Asimetría controlada · KYN-MRK-CMP-002
-
-> Recurso visual: Imágenes de ejemplo: /assets/img/cielo-mediodia.webp
-
-**(Brochure)**
-Síntesis modular
-Tres paneles con títulos equivalentes para comparar etapas. La imagen abre el recorrido y los módulos lo ordenan.
-Ritmo y patrones · KYN-MRK-CMP-004 y KYN-MRK-ESP-006
-
-> Recurso visual: Imágenes de ejemplo: /assets/img/cielo-atardecer.webp
-
-**(Pieza editorial)**
-Momento expresivo y reposo
-Una portada con el cielo como protagonista y un índice sobrio a continuación: la intensidad tiene su pausa.
-Ritmo y equilibrio · KYN-MRK-CMP-004
-
 ## KYN-MRK-VIS-016 · 10.8.1 Identidad visual aplicada
 
 Número: 10.8.1 · ID: `KYN-MRK-VIS-016` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-016`
 
 ### Una composición con identidad propia
 
-Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia.
-Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña.
-En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología.
+Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia. Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña. En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología.
 
 > Recurso visual: Ejemplo dibujado: Innovación para tu negocio · Comenzar
 
@@ -507,6 +457,3 @@ En las piezas corporativas Keyons, el conjunto debe expresar su dirección artí
 
 **(Alternativa mejor)**
 Tipografía, retícula y una ventana de cielo elegidas para Keyons. Cada pieza usa los recursos que le corresponden.
-
-- **Productos de clientes**: Los productos con identidad exclusiva del cliente deben expresar esa identidad, sin introducir una firma visual destinada a revelar a Keyons como proveedor. La calidad de experiencia, accesibilidad y consistencia funcional permanecen como estándares compartidos.
-- **Relación**: KYN-MRK-CON-006 (Reglas de composición), KYN-MRK-CON-008 (Anti-referentes) y KYN-MRK-DIS-001 (Diseñar con identidad, construir con criterio).
