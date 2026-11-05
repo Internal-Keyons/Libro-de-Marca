@@ -1,6 +1,6 @@
 {
  "gobierno": {
-  "nota": "Fuente normativa común de la Biblioteca Keyons. La leen la web (recursos/gobierno.html, generada por tools/gobierno.py) y la representación para IA (ia/gobierno.json). Se edita aquí y se vuelve a generar.",
+  "nota": "Fuente normativa común de la Biblioteca Keyons. La leen la Guía de la Biblioteca (guia/index.html, generada por tools/gobierno.py) y la representación para IA (ia/gobierno.json). Se edita aquí y se vuelve a generar.",
   "version": "0.1",
   "estado": "En revisión",
   "estado_nota": "Propuesta preparada por un agente de IA. Requiere aprobación humana antes de adquirir vigencia.",
@@ -120,15 +120,16 @@
   ],
   "autoridad": {
    "estado": "Pendiente de designar",
-   "texto": "Cada libro tiene un responsable de aprobación. Ninguna norma, excepción o clasificación adquiere vigencia sin su aprobación registrada.",
-   "propuesta": "Los Co-Editores Generales, citados en KYN-MRK-ILU-005 como autoridad para sumar figuras, aprueban las normas de la Biblioteca. Pendiente de confirmar por la dirección."
+   "texto": "Cada libro debe tener un responsable de aprobación. Ninguna norma, excepción o clasificación adquiere vigencia sin su aprobación registrada.",
+   "propuesta": "Los Co-Editores Generales, citados en KYN-MRK-ILU-005 como autoridad para sumar figuras, aprueban las normas de la Biblioteca. Pendiente de confirmar por la dirección.",
+   "actual": "Hoy no hay responsables designados ni registro de fechas de aprobación. Las aprobaciones de contenido quedan registradas en el control de versiones del proyecto, sin nombre del aprobador."
   },
   "identificadores": {
    "formato": "KYN-<LIBRO>-<ÁREA>-<número de tres cifras>",
    "reglas": [
     "Los identificadores son permanentes: no se reutilizan ni se renumeran.",
     "Una norma integrada o descontinuada conserva su ID y remite a su destino.",
-    "Las referencias entre libros se resuelven mediante el ID permanente."
+    "Las referencias entre libros se resuelven mediante el ID permanente. Estado actual: los ID enlazan dentro del Libro de Marca; el Sistema de Diseño aún no emite códigos propios."
    ],
    "prefijos": [
     {
@@ -200,7 +201,7 @@
      ],
      [
       "Convenciones normativas",
-      "recursos/gobierno.html#autoridad"
+      "guia/index.html#normas"
      ],
      [
       "Contenidos según la función: Fundamentos para diseño",
@@ -285,7 +286,7 @@
      ],
      [
       "Excepciones y aprobación",
-      "recursos/gobierno.html#aprobacion"
+      "guia/index.html#gobierno"
      ],
      [
       "Trazabilidad de criterios",
@@ -304,7 +305,7 @@
      ],
      [
       "Convenciones de citación",
-      "recursos/gobierno.html#citacion"
+      "guia/index.html#referencias"
      ]
     ],
     "reglas": [
@@ -315,7 +316,7 @@
   ],
   "rutas_criterio": [
    "Cada ruta tiene un propósito identificable, un orden de consulta y enlaces directos a los contenidos correspondientes.",
-   "La navegación y los resultados de búsqueda respetan los permisos efectivos del lector.",
+   "La navegación y los resultados de búsqueda deberán respetar los permisos efectivos del lector. Estado actual: la Biblioteca no tiene control de acceso y todo lo publicado es de consulta abierta.",
    "Las rutas se construyen a partir del contenido disponible y se actualizan conforme evolucionan los libros."
   ]
  },
@@ -407,8 +408,9 @@
    "fecha_aprobacion": null,
    "excepciones": [],
    "relacionadas": [
+    "KYN-MRK-ESP-004",
     "KYN-MRK-ESP-005",
-    "KYN-MRK-ESP-006"
+    "KYN-MRK-TYP-002"
    ]
   },
   "KYN-MRK-CMP-002": {
@@ -736,7 +738,9 @@
    "responsable": null,
    "fecha_aprobacion": null,
    "excepciones": [],
-   "relacionadas": []
+   "relacionadas": [
+    "KYN-MRK-COL-014"
+   ]
   },
   "KYN-MRK-DAT-003": {
    "titulo": "Tipografía en gráficos",
@@ -894,8 +898,8 @@
   },
   "KYN-MRK-ESP-006": {
    "titulo": "Patrones de composición",
-   "estado": "vigente",
-   "estado_documental": "vigente",
+   "estado": "descontinuada",
+   "estado_documental": "integrada",
    "version": "1.0",
    "ambito": [],
    "responsable": null,

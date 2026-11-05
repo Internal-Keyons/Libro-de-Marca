@@ -4,7 +4,7 @@ version: "0.1"
 fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "27"
-titulo: "Plantillas y documentos"
+titulo: "Plantillas"
 area: "Recursos"
 estado: "borrador"
 rutas: ["/recursos/plantillas.html"]
@@ -12,7 +12,7 @@ normas: ["KYN-MRK-PLA-001", "KYN-MRK-PLA-002"]
 referencias: ["KYN-MRK-PLA-001", "KYN-MRK-PLA-002"]
 ---
 
-# Capítulo 27 · Plantillas y documentos
+# Capítulo 27 · Plantillas
 
 Estado: borrador · Clave: plantillas · Ruta: `/recursos/plantillas.html` · Número anterior: 26, 28
 

@@ -9,7 +9,8 @@ sección (data/referencia-contenido.json) y genera, desde esa misma fuente:
                                   No modifica ningún texto. Queda pendiente de aprobación humana.
 - docs/CLASIFICACION_NORMATIVA.md    reporte de la clasificación, ambigüedades, duplicaciones y contradicciones.
 - js/autoridad.js                 estado y versión para la web (rótulo discreto de cada norma).
-- recursos/gobierno.html          convenciones, vigencia, ámbitos, aprobación, citación y rutas de lectura.
+- guia/index.html                Guía de la Biblioteca: cómo leer las normas, rutas, referencias y aprobaciones.
+- recursos/gobierno.html         redirección de compatibilidad hacia la Guía.
 - ia/gobierno.json                la misma información para agentes de IA.
 
 Uso:  python tools/gobierno.py
@@ -173,48 +174,50 @@ def link(t, h):
     return f'<a class="xref" href="../{h}">{e(t)}</a>'
 
 S = ''
-S += sec('autoridad', '28.4', 'Autoridad normativa', 'Cuatro niveles de obligación',
-         f'        <p class="ed__lead">Las normas de los seis libros distinguen <strong>requisitos, recomendaciones y opciones</strong> con los mismos términos.</p>\n'
+S += sec('normas', '01', 'Cómo leer las normas', 'Autoridad, vigencia y ámbito',
+         '        <p class="ed__lead">Las normas de los seis libros distinguen <strong>requisitos, recomendaciones y opciones</strong> con los mismos términos.</p>\n'
          + '        <dl class="gov__lv">' + ''.join(f'<div><dt>{e(n["k"])}</dt><dd>{e(n["d"])}</dd></div>' for n in G['niveles']) + '</dl>\n'
-         + lis(G['niveles_uso']))
-S += sec('vigencia', '28.5', 'Vigencia', 'Tres estados de vigencia',
-         '        <p class="ed__lead">Cada norma indica si se aplica, si está en evaluación o si quedó como referencia histórica.</p>\n'
-         + stack([(x['t'], e(x['d'])) for x in G['estados']])
+         + lis(G['niveles_uso'])
+         + '        <h3 class="ed__sub">Vigencia</h3>\n' + stack([(x['t'], e(x['d'])) for x in G['estados']])
          + '        <h3 class="ed__sub">Estados del proceso que se conservan</h3>\n'
          + stack([(x['t'], e(x['d']) + f' Equivale a {e(x["equivale"])}.') for x in G['estados_adicionales']])
-         + f'        <p class="ed__close">{e(G["regla_ia"])}</p>\n')
-S += sec('ambitos', '28.6', 'Ámbitos', 'Dónde se aplica cada norma',
-         '        <p class="ed__lead">Cada norma declara los contextos en los que corresponde aplicarla.</p>\n'
+         + f'        <p class="ed__more">{e(G["regla_ia"])}</p>\n'
+         + '        <h3 class="ed__sub">Ámbitos de aplicación</h3>\n'
          + '        <ul class="gov__chips">' + ''.join(f'<li>{e(a["t"])}</li>' for a in G['ambitos']) + '</ul>\n' + lis(G['ambitos_criterio'])
          + '        <h3 class="ed__sub">Dimensiones de cada norma</h3>\n' + lis(G['dimensiones']))
-S += sec('aprobacion', '28.7', 'Aprobación y excepciones', 'Quién aprueba y cómo se exceptúa',
-         f'        <p class="ed__lead">{e(G["autoridad"]["texto"])}</p>\n'
-         + stack([('Estado', e(G['autoridad']['estado'])), ('Propuesta', e(G['autoridad']['propuesta']))])
-         + '        <h3 class="ed__sub">Procedimiento de excepción</h3>\n'
-         + '        <ol class="gov__steps">' + ''.join(f'<li>{e(x)}</li>' for x in G['excepciones']['pasos']) + '</ol>\n'
-         + f'        <p class="ed__more">{e(G["excepciones"]["nota"])}</p>\n'
-         + '        <h3 class="ed__sub">Versionado y trazabilidad</h3>\n' + lis(G['versionado']))
-S += sec('citacion', '28.8', 'Identificadores y citación', 'Un ID permanente para citar',
+ROUTES = ''
+for r in G['rutas']:
+    steps = ''.join(f'<li>{link(t, h)}</li>' for t, h in r['pasos'])
+    notes = ''.join(f'<p class="gov__route-n">{e(x)}</p>' for x in r.get('reglas', []))
+    ROUTES += (f'        <div class="gov__route"><div class="gov__route-h"><span class="gov__route-k">{r["k"]}</span><h3 class="gov__route-t">{e(r["t"])}</h3><p class="gov__route-p">{e(r["para"])}</p></div>\n'
+               f'          <ol class="gov__route-s">{steps}</ol>{notes}</div>\n')
+S += sec('rutas', '02', 'Rutas de lectura', 'Cinco rutas, según quién consulta',
+         '        <p class="ed__lead">Cada ruta tiene <strong>un propósito, un orden de consulta</strong> y enlaces directos al contenido que existe hoy.</p>\n'
+         + ROUTES + lis(G['rutas_criterio']))
+S += sec('referencias', '03', 'Referencias y versiones', 'Un ID permanente para citar',
          f'        <p class="ed__lead">Formato común: <strong>{e(G["identificadores"]["formato"])}</strong>.</p>\n'
          + lis(G['identificadores']['reglas'])
          + '        <div class="matrix" role="table" aria-label="Prefijos por libro"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader">(Prefijo)</span><span class="matrix__lvl" role="columnheader">Libro</span><span class="matrix__lvl" role="columnheader">Estado</span></div>'
          + ''.join(f'<div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">{e(p["k"])}</span><span class="matrix__v" role="cell">{e(p["t"])}</span><span class="matrix__v" role="cell">{e(p["estado"])}</span></div>' for p in G['identificadores']['prefijos']) + '</div>\n'
-         + stack([(c['k'], e(c['d'])) for c in G['citacion']])
+         + '        <h3 class="ed__sub">Citación</h3>\n' + stack([(c['k'], e(c['d'])) for c in G['citacion']])
          + f'        <p class="ed__more">{e(G["citacion_nota"])}</p>\n'
+         + '        <h3 class="ed__sub">Versionado y trazabilidad</h3>\n' + lis(G['versionado']))
+S += sec('gobierno', '04', 'Gobierno y aprobaciones', 'Quién aprueba y cómo se exceptúa',
+         f'        <p class="ed__lead">{e(G["autoridad"]["texto"])}</p>\n'
+         + stack([('Estado actual', e(G['autoridad'].get('actual', G['autoridad']['estado']))), ('Propuesta', e(G['autoridad']['propuesta']))])
+         + '        <h3 class="ed__sub">Procedimiento de excepción</h3>\n'
+         + '        <ol class="gov__steps">' + ''.join(f'<li>{e(x)}</li>' for x in G['excepciones']['pasos']) + '</ol>\n'
+         + f'        <p class="ed__more">{e(G["excepciones"]["nota"])}</p>\n'
          + '        <h3 class="ed__sub">Permisos de consulta</h3>\n' + stack([('Estado', e(G['permisos']['estado'])), ('Hoy', e(G['permisos']['texto']))]))
-S += sec('rutas', '28.9', 'Rutas de lectura', 'Cinco rutas, según quién consulta',
-         '        <p class="ed__lead">Cada ruta tiene <strong>un propósito, un orden de consulta</strong> y enlaces directos al contenido que existe hoy.</p>\n'
-         + ''.join(f'''        <div class="gov__route"><div class="gov__route-h"><span class="gov__route-k">{r["k"]}</span><h3 class="gov__route-t">{e(r["t"])}</h3><p class="gov__route-p">{e(r["para"])}</p></div>
-          <ol class="gov__route-s">{"".join(f"<li>{link(t, h)}</li>" for t, h in r["pasos"])}</ol>{"".join(f'<p class="gov__route-n">{e(x)}</p>' for x in r.get("reglas", []))}</div>
-''' for r in G['rutas'])
-         + lis(G['rutas_criterio']))
 
-PAGE = f'''<!DOCTYPE html>
+STATE = f'{e(G["estado"])} · versión {e(G["version"])}. {e(G["estado_nota"])}'
+PAGE = '''<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Gobierno normativo · Recursos · Keyons</title>
+<title>Guía de la Biblioteca · Keyons</title>
+<meta name="description" content="Cómo leer las normas de la Biblioteca Keyons: autoridad, vigencia, ámbitos, rutas de lectura, referencias y aprobaciones.">
 <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -222,44 +225,51 @@ PAGE = f'''<!DOCTYPE html>
 <link rel="stylesheet" href="../css/tokens.css">
 <link rel="stylesheet" href="../css/libro.css">
 </head>
-<body class="is-area" data-root=".." data-area="recursos" data-page="recursos/gobierno.html">
-<!-- Generado por tools/gobierno.py desde data/gobierno.json. No se edita a mano. -->
+<body class="is-guia" data-root=".." data-page="guia/index.html">
+<!-- Generado por tools/gobierno.py desde data/gobierno.json. No se edita a mano.
+     Guía y gobierno: recurso común de la Biblioteca, no un séptimo libro. -->
 
 <header id="topbar"></header>
 
-<div class="doc">
-  <aside class="side" id="side" aria-label="Recursos"></aside>
+<div class="doc doc--solo">
+  <main class="content chapter">
+    <nav class="crumbs" aria-label="Ruta"><a href="../index.html">Biblioteca Keyons</a>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg><span>Guía de la Biblioteca</span></nav>
 
-  <main class="content chapter chapter--pres">
-    <nav class="crumbs" aria-label="Ruta">
-      <a href="../inicio.html">Inicio</a>
-      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg>
-      <a href="index.html">Recursos</a>
-      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg>
-      <a href="referencia.html">28 Referencia</a>
-      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg>
-      <span>Gobierno normativo</span>
-    </nav>
+    <header class="guia__h">
+      <span class="kicker">Biblioteca Keyons · Guía y gobierno</span>
+      <h1 class="guia__t">Guía de la Biblioteca</h1>
+      <p class="guia__l">Las convenciones comunes a los seis libros: cómo leer cada norma, por dónde empezar, cómo citarla y quién la aprueba.</p>
+      <p class="gov__state"><span class="dot dot--borrador"></span>@STATE@</p>
+    </header>
 
-    <section class="portal" aria-label="28 · Gobierno normativo">
-      <div class="portal__arcs" aria-hidden="true"></div>
-      <div class="portal__txt">
-        <span class="kicker">Capítulo 28 · Recursos</span>
-        <h1 class="t-display">Gobierno<br>normativo</h1>
-        <p>Las mismas convenciones para los seis libros:<br>autoridad, vigencia, ámbito y citación.</p>
-      </div>
-    </section>
-
-    <p class="gov__state"><span class="dot dot--borrador"></span>{e(G["estado"])} · versión {e(G["version"])}. {e(G["estado_nota"])}</p>
-
-{S}    <nav id="pager" aria-label="Paginación"></nav>
-  </main>
+@S@  </main>
 </div>
 
-<script src="../js/nav-data.js"></script>
+<script>window.KEYONS_BOOK = { id: 'biblioteca', home: 'guia/index.html', menuLabel: 'Guía de la Biblioteca' }; window.KEYONS_NAV = [];</script>
 <script src="../js/libro.js"></script>
 </body>
 </html>
-'''
-W('recursos/gobierno.html', PAGE)
+'''.replace('@STATE@', STATE).replace('@S@', S)
+W('guia/index.html', PAGE)
+
+# Compatibilidad: la ubicación anterior en Recursos lleva a la Guía, con su apartado
+W('recursos/gobierno.html', '''<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guía de la Biblioteca · Keyons</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="../guia/index.html">
+<script>
+  /* El gobierno normativo pasó a la Guía de la Biblioteca. Se conservan los enlaces anteriores. */
+  var m = { autoridad: 'normas', vigencia: 'normas', ambitos: 'normas', rutas: 'rutas', citacion: 'referencias', aprobacion: 'gobierno' };
+  var h = location.hash.slice(1);
+  location.replace('../guia/index.html' + (m[h] ? '#' + m[h] : ''));
+</script>
+<meta http-equiv="refresh" content="0; url=../guia/index.html">
+</head>
+<body><p>El gobierno normativo está en la <a href="../guia/index.html">Guía de la Biblioteca</a>.</p></body>
+</html>
+''')
 print(f'{len(inv)} normas · {sum(cnt.values())} requisitos ({dict(cnt)}) · {len(ambig)} ambigüedades · {len(dups)} duplicaciones · {len(CONTRA)} contradicciones')

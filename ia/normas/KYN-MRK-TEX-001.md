@@ -7,7 +7,7 @@ id: "KYN-MRK-TEX-001"
 titulo: "Catálogo"
 numero: "25.1"
 estado: "vigente"
-capitulo: "25 Texturas y degradados"
+capitulo: "25 Texturas"
 area: "Recursos"
 fuente: "/recursos/texturas.html#texturas"
 referencias: ["KYN-MRK-ILU-007"]
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-TEX-001 · Catálogo
 
-Número: 25.1 · Estado: vigente · Capítulo: 25 Texturas y degradados · Fuente: `/recursos/texturas.html#texturas`
+Número: 25.1 · Estado: vigente · Capítulo: 25 Texturas · Fuente: `/recursos/texturas.html#texturas`
 
 ##### Del amanecer a la galaxia
 

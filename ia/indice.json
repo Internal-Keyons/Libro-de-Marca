@@ -229,7 +229,6 @@
       "KYN-MRK-ESP-005",
       "KYN-MRK-VIS-003",
       "KYN-MRK-VIS-009",
-      "KYN-MRK-ESP-006",
       "KYN-MRK-VIS-004",
       "KYN-MRK-ESP-007",
       "KYN-MRK-VIS-016"
@@ -463,7 +462,7 @@
     {
      "n": "25",
      "clave": "texturas",
-     "titulo": "Texturas y degradados",
+     "titulo": "Texturas",
      "estado": "borrador",
      "descripcion": "Cielos hechos con código, con ID.",
      "rutas": [
@@ -491,7 +490,7 @@
     {
      "n": "27",
      "clave": "plantillas",
-     "titulo": "Plantillas y documentos",
+     "titulo": "Plantillas",
      "estado": "borrador",
      "descripcion": "Plantillas de presentación y manuales.",
      "rutas": [
@@ -511,8 +510,7 @@
      "descripcion": "La memoria de las decisiones.",
      "rutas": [
       "/recursos/referencia.html",
-      "/fundamentos/criterio/antipatrones.html",
-      "/recursos/gobierno.html"
+      "/fundamentos/criterio/antipatrones.html"
      ],
      "markdown": "/ia/capitulos/28-referencia.md",
      "normas": [
@@ -628,8 +626,9 @@
    "fuente": "/fundamentos/composicion/editorial.html#decidir",
    "markdown": "/ia/normas/KYN-MRK-CMP-001.md",
    "referencias": [
+    "KYN-MRK-ESP-004",
     "KYN-MRK-ESP-005",
-    "KYN-MRK-ESP-006"
+    "KYN-MRK-TYP-002"
    ],
    "citada_por": []
   },
@@ -863,6 +862,7 @@
    "markdown": "/ia/normas/KYN-MRK-COL-014.md",
    "referencias": [],
    "citada_por": [
+    "KYN-MRK-DAT-002",
     "KYN-MRK-ICO-003",
     "KYN-MRK-ICO-005",
     "KYN-MRK-PRE-011"
@@ -1027,7 +1027,9 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/datos/graficos.html#paleta",
    "markdown": "/ia/normas/KYN-MRK-DAT-002.md",
-   "referencias": [],
+   "referencias": [
+    "KYN-MRK-COL-014"
+   ],
    "citada_por": []
   },
   {
@@ -1200,6 +1202,7 @@
    "markdown": "/ia/normas/KYN-MRK-ESP-004.md",
    "referencias": [],
    "citada_por": [
+    "KYN-MRK-CMP-001",
     "KYN-MRK-CMP-003"
    ]
   },
@@ -1221,22 +1224,16 @@
   {
    "id": "KYN-MRK-ESP-006",
    "titulo": "Patrones de composición",
-   "numero": "10.6",
-   "rotulo": "Patrones de composición",
-   "estado": "vigente",
-   "capitulo": "10",
-   "area": "fundamentos",
+   "numero": "10.1",
+   "estado": "integrada",
    "fuente": "/fundamentos/composicion/editorial.html#patrones",
-   "markdown": "/ia/normas/KYN-MRK-ESP-006.md",
    "referencias": [],
-   "citada_por": [
-    "KYN-MRK-CMP-001"
-   ]
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-ESP-007",
    "titulo": "Diagramas de información",
-   "numero": "10.7",
+   "numero": "10.6",
    "rotulo": "Diagramas de información",
    "estado": "vigente",
    "capitulo": "10",
@@ -1975,7 +1972,9 @@
    "fuente": "/fundamentos/tipografia/sistema.html#escala",
    "markdown": "/ia/normas/KYN-MRK-TYP-002.md",
    "referencias": [],
-   "citada_por": []
+   "citada_por": [
+    "KYN-MRK-CMP-001"
+   ]
   },
   {
    "id": "KYN-MRK-TYP-003",
@@ -2072,7 +2071,7 @@
   {
    "id": "KYN-MRK-VIS-004",
    "titulo": "Tarjetas innecesarias",
-   "numero": "10.6.1",
+   "numero": "10.5.3",
    "rotulo": "Tarjetas innecesarias",
    "estado": "vigente",
    "capitulo": "10",
@@ -2222,7 +2221,7 @@
   {
    "id": "KYN-MRK-VIS-016",
    "titulo": "Composición no intercambiable",
-   "numero": "10.8.1",
+   "numero": "10.7.1",
    "rotulo": "Identidad visual aplicada",
    "estado": "vigente",
    "capitulo": "10",

@@ -29,7 +29,7 @@ Los íconos deben favorecer orientación, comprensión, identificación o expres
 **(Uso incorrecto)**
 **Un ícono genérico junto a cada titular** Una bombilla, un cohete o un engranaje que no dicen nada del contenido.
 
-> Recurso visual: Ejemplo dibujado: Descargar PDF · Acción · Vigente · Estado · Plantilla de propuesta · Categoría
+> Recurso visual: Ejemplo dibujado: Descargar diagnóstico · Acción · Norma vigente · Estado · Propuesta comercial · Categoría
 
 **(Alternativa mejor)**
 **Un ícono con función** El ícono identifica una acción, un estado o una categoría.

@@ -665,7 +665,7 @@ def main():
         f'Permisos: {PERMISOS}.', '',
         '## Antes de consultar', '',
         '- [Convenciones de autoridad normativa](/ia/gobierno.json): niveles DEBE, NO DEBE, DEBERÍA y PUEDE; estados de vigencia; ámbitos; aprobación, excepciones y citación. Una clasificación propuesta por IA no tiene vigencia sin aprobación humana.',
-        '- [Rutas de lectura y convenciones en la web](/recursos/gobierno.html)', '',
+        '- [Guía de la Biblioteca: convenciones y rutas de lectura](/guia/index.html)', '',
         '## Libro completo', '',
         '- [Libro completo en Markdown](/ia/libro-de-marca.md)',
         '- [Índice de áreas, capítulos y normas](/ia/indice.json): estado, versión, rutas y referencias cruzadas',

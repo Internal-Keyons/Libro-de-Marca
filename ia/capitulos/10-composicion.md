@@ -8,8 +8,8 @@ titulo: "Composición"
 area: "Fundamentos"
 estado: "vigente"
 rutas: ["/fundamentos/composicion/editorial.html"]
-normas: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-VIS-010", "KYN-MRK-CMP-003", "KYN-MRK-ESP-004", "KYN-MRK-CMP-004", "KYN-MRK-VIS-014", "KYN-MRK-ESP-005", "KYN-MRK-VIS-003", "KYN-MRK-VIS-009", "KYN-MRK-ESP-006", "KYN-MRK-VIS-004", "KYN-MRK-ESP-007", "KYN-MRK-VIS-016"]
-referencias: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-CMP-003", "KYN-MRK-CMP-004", "KYN-MRK-ESP-004", "KYN-MRK-ESP-005", "KYN-MRK-ESP-006", "KYN-MRK-ESP-007", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-014", "KYN-MRK-VIS-016"]
+normas: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-VIS-010", "KYN-MRK-CMP-003", "KYN-MRK-ESP-004", "KYN-MRK-CMP-004", "KYN-MRK-VIS-014", "KYN-MRK-ESP-005", "KYN-MRK-VIS-003", "KYN-MRK-VIS-009", "KYN-MRK-VIS-004", "KYN-MRK-ESP-007", "KYN-MRK-VIS-016"]
+referencias: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-CMP-003", "KYN-MRK-CMP-004", "KYN-MRK-ESP-004", "KYN-MRK-ESP-005", "KYN-MRK-ESP-007", "KYN-MRK-TYP-002", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-014", "KYN-MRK-VIS-016"]
 ---
 
 # Capítulo 10 · Composición
@@ -25,7 +25,6 @@ Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, dens
 - Retículas editoriales · vigente · `/fundamentos/composicion/editorial.html#reticulas`
 - Ritmo y equilibrio visual · vigente · `/fundamentos/composicion/editorial.html#ritmo`
 - Jerarquía y densidad de información · vigente · `/fundamentos/composicion/editorial.html#densidad`
-- Patrones de composición · vigente · `/fundamentos/composicion/editorial.html#patrones`
 - Diagramas de información · vigente · `/fundamentos/composicion/editorial.html#diagramas`
 - Ejemplos de aplicación · borrador · `/fundamentos/composicion/editorial.html#ejemplos`
 
@@ -41,16 +40,26 @@ Número: 10.1 · ID: `KYN-MRK-CMP-001` · Estado: vigente · Fuente: `/fundament
 
 ### Primero el contenido
 
-La composición se decide por **lo que el contenido necesita comunicar**, no por un repertorio de diseños para copiar.
+La composición se elige según **el propósito, las relaciones entre los contenidos, su densidad y el formato de publicación**.
+
+La retícula, la jerarquía y el espacio se ajustan a esas condiciones para construir una lectura clara.
 
 **(Propósito)**
-Elegir la estructura que mejor comunica cada contenido.
+Resultado comunicativo esperado.
 
-**(Composición)**
-Se parte del tipo de contenido (KYN-MRK-ESP-006) y de la densidad que pide la pieza (KYN-MRK-ESP-005). Desde ahí se eligen retícula, escala y ritmo.
+**(Relación)**
+Continuidad, secuencia, comparación o equivalencia entre elementos.
+
+**(Densidad)**
+Cantidad, extensión y prioridad de la información.
+
+**(Formato)**
+Dimensiones, proporciones y condiciones de publicación.
 
 **(Invariantes)**
 No todas las páginas tienen que verse diferentes, pero ninguna composición se repite automáticamente cuando existe una solución más apropiada para el contenido.
+
+Normas específicas: retículas en KYN-MRK-ESP-004, jerarquía y densidad en KYN-MRK-ESP-005 y tipografía en KYN-MRK-TYP-002. Los ejemplos completos están en 10.7.
 
 ## KYN-MRK-CMP-002 · 10.2 Simetría y asimetría
 
@@ -301,70 +310,9 @@ Evitar **acumulaciones** de píldoras, puntos, líneas, estrellas, etiquetas, mi
 
 La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
 
-## KYN-MRK-ESP-006 · 10.6 Patrones de composición
+## KYN-MRK-VIS-004 · 10.5.3 Tarjetas innecesarias
 
-Número: 10.6 · ID: `KYN-MRK-ESP-006` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#patrones`
-
-### Patrones de composición
-
-La estructura de una pieza responde a lo que necesita comunicar. Keyons utiliza diferentes composiciones para **explicar, comparar, presentar secuencias, relacionar elementos y destacar información**.
-
-01
-
-#### Explicar
-
-Los contenidos que desarrollan una idea utilizan títulos, párrafos y una estructura de lectura continua.
-
-- **Ejemplo**: Una página de informe con título, introducción, dos secciones y una conclusión.
-- **Composición**: Columna de lectura con títulos y espacios proporcionados.
-
-02
-
-#### Comparar
-
-Las alternativas se organizan mediante una distribución que permite reconocer sus características y diferencias.
-
-- **Ejemplo**: Situación actual y propuesta de mejora en un proyecto Keyons.
-- **Composición**: Comparación horizontal cuando ambas alternativas dispongan de espacio suficiente; vertical cuando cada una requiera mayor ancho.
-
-03
-
-#### Mostrar una secuencia
-
-Las etapas de un proceso utilizan numeración, alineación y continuidad visual para comunicar su orden.
-
-- **Ejemplo**: Las cinco fases oficiales de Prisma: Amanecer, Mediodía, Atardecer, Anochecer y Galaxia.
-- **Composición**: Secuencia numerada o recorrido visual, adaptado al formato.
-
-04
-
-#### Presentar elementos equivalentes
-
-Los elementos que cumplen funciones equivalentes mantienen una estructura consistente que facilita recorrerlos y compararlos.
-
-- **Ejemplo**: Capacidades de Keyons.
-- **Composición**: Lista estructurada, columnas o retícula editorial, según el volumen y la extensión del contenido.
-
-05
-
-#### Destacar una idea
-
-La información protagonista adquiere mayor presencia mediante escala, posición, proporción y espacio. El contenido complementario aporta contexto.
-
-- **Ejemplo**: Portada de una propuesta comercial Keyons.
-- **Composición**: Titular o declaración protagonista con información secundaria subordinada.
-
-**(Uso)**
-Las asociaciones de cuadrículas, acordeones, listas, matrices, carruseles, retículas, indicadores y flechas deben interpretarse como ejemplos. Un patrón debe elegirse por su utilidad, no por la cantidad de elementos o porque aparezca en el catálogo.
-
-**(Relación con otros capítulos)**
-Este capítulo establece criterios para seleccionar composiciones. El capítulo 10, Composiciones, desarrolla cómo utilizar simetría, asimetría, retículas y ritmo editorial. El Sistema de Diseño define los patrones funcionales de interacción.
-
-La repetición aporta consistencia cuando facilita la comprensión. La variación se utiliza cuando el contenido necesita otro ritmo o una jerarquía diferente.
-
-## KYN-MRK-VIS-004 · 10.6.1 Tarjetas innecesarias
-
-Número: 10.6.1 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-004`
+Número: 10.5.3 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-004`
 
 ### Una tarjeta solo cuando agrupa algo
 
@@ -372,9 +320,9 @@ Las tarjetas deben representar **agrupaciones funcionales** o visualmente justif
 
 Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
 
-## KYN-MRK-ESP-007 · 10.7 Diagramas de información
+## KYN-MRK-ESP-007 · 10.6 Diagramas de información
 
-Número: 10.7 · ID: `KYN-MRK-ESP-007` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
+Número: 10.6 · ID: `KYN-MRK-ESP-007` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
 
 ### Ordenar ideas, no medirlas
 
@@ -441,18 +389,75 @@ Se utilizan cuando una representación visual permite comprender relaciones que 
 Utilizar trazos precisos, continuos y uniformes, con contraste y etiquetas legibles. Los recursos de énfasis se incorporan cuando ayudan a interpretar el contenido. No es obligatorio utilizar estrellas, círculos o indicadores decorativos.
 Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso.
 
-**(Ejemplos)**
-Los diagramas que presentan etapas o duraciones no deben interpretarse automáticamente como fases oficiales de la metodología Prisma o compromisos de ejecución. Si un ejemplo representa una metodología oficial, debe coincidir con su documentación vigente.
+## 10.7 Ejemplos de aplicación
 
-## 10.8 Ejemplos de aplicación
+Número: 10.7 · Fuente: `/fundamentos/composicion/editorial.html#ejemplos`
 
-Número: 10.8 · Fuente: `/fundamentos/composicion/editorial.html#ejemplos`
+### Tres casos, tres estructuras
 
-### Cuatro piezas, cuatro estructuras
+Tres casos completos muestran cómo **el contenido decide la retícula**, el espacio y la jerarquía.
 
-## KYN-MRK-VIS-016 · 10.8.1 Identidad visual aplicada
+Diagnóstico · Cierre contable mensual
 
-Número: 10.8.1 · ID: `KYN-MRK-VIS-016` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-016`
+El cierre pasa de nueve días a tres
+
+Situación actual
+
+- **Duración del cierre**: 9 días
+- **Sistemas involucrados**: 4
+- **Conciliación**: Manual
+- **Revisión final**: Al terminar
+
+Propuesta
+
+- **Duración del cierre**: 3 días
+- **Sistemas involucrados**: 1 flujo
+- **Conciliación**: Asistida
+- **Revisión final**: Continua
+
+Ejemplo ilustrativo. Fuente: diagnóstico operativo, cifras de muestra.
+
+- **Retícula**: 12 columnas: dos bloques de 6 con medianil de 24 px (`--gap`).
+- **Separaciones**: 16 px entre filas (`--s4`), 32 px entre título y bloques (`--s8`), 48 px antes de la fuente (`--s12`).
+- **Jerarquía**: Titular Plus Jakarta Sans 30 a 44 px, 500; criterio 13 px en gris 3; valor 20 px, 500, Azul Noche.
+- **Alineación**: Los mismos criterios, en el mismo orden y a la misma altura en ambas columnas.
+- **Adaptación**: Menos de 760 px: la propuesta pasa debajo de la situación actual y conserva el orden de los criterios.
+- **Comprobación**: Cada diferencia se lee en una sola fila; unidades y escalas equivalentes; la propuesta se distingue sin depender solo del color.
+
+1. 01 · Amanecer
+2. 02 · Mediodía
+3. 03 · Atardecer
+4. 04 · Anochecer
+5. 05 · Galaxia
+
+Las descripciones de cada fase se toman de la documentación oficial de Prisma.
+
+- **Retícula**: Cinco columnas iguales sobre el ancho del contenido; medianil de 12 px (`--gap-list`).
+- **Separaciones**: 16 px entre muestra y número, 4 px entre número y nombre, 8 px entre nombre y descripción.
+- **Continuidad**: Una línea de 1 px en Azul Cielo 200 une las fases a la altura de los números.
+- **Jerarquía**: Número 13 px en gris 3; nombre 18 px, 500, Azul Noche; descripción 15 px en gris 2.
+- **Adaptación**: Menos de 760 px: la secuencia se vuelve vertical y la línea de continuidad pasa al costado izquierdo.
+- **Comprobación**: El orden se lee sin numeración adicional; las cinco fases tienen la misma proporción; los nombres coinciden con la documentación vigente.
+
+Informe de investigación · 2026
+Cómo trabajan los equipos de operaciones
+Quince entrevistas muestran dónde se pierde el tiempo y qué tareas pueden cambiar primero.
+01 · Hallazgos
+Las tareas que más tiempo consumen no son las más complejas, sino las que se repiten entre sistemas. El equipo copia datos, valida cifras y corrige formatos antes de poder analizar.
+Cuando la información llega ordenada, la revisión se concentra en las excepciones y el cierre se adelanta.
+02 · Recomendaciones
+Empezar por los flujos de mayor repetición y medir cada cambio con el mismo indicador.
+
+- **Retícula**: 12 columnas: 8 para la lectura y 4 para notas; columna de lectura de hasta 600 px.
+- **Separaciones**: 16 px entre párrafos (`--s4`), 48 px antes de cada sección (`--s12`), 32 px entre titular y entrada (`--s8`).
+- **Jerarquía**: Titular 30 a 44 px, 500; entrada 18 a 20 px; sección 18 px, 500; cuerpo 16 a 17 px con interlineado 1,65; notas 13 px en gris 3.
+- **Lectura**: Entre 55 y 75 caracteres por línea; alineación a la izquierda; sin cortes de palabra.
+- **Adaptación**: Menos de 760 px: las notas pasan debajo del párrafo que acompañan y la columna ocupa todo el ancho.
+- **Comprobación**: Cada sección se identifica de un vistazo; la línea no supera 75 caracteres; las notas no interrumpen la lectura principal.
+
+## KYN-MRK-VIS-016 · 10.7.1 Identidad visual aplicada
+
+Número: 10.7.1 · ID: `KYN-MRK-VIS-016` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-016`
 
 ### Una composición con identidad propia
 

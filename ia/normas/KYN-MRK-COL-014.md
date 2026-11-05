@@ -11,7 +11,7 @@ capitulo: "07 Color"
 area: "Fundamentos"
 fuente: "/fundamentos/color/funcionales.html#estados"
 referencias: []
-citada_por: ["KYN-MRK-ICO-003", "KYN-MRK-ICO-005", "KYN-MRK-PRE-011"]
+citada_por: ["KYN-MRK-DAT-002", "KYN-MRK-ICO-003", "KYN-MRK-ICO-005", "KYN-MRK-PRE-011"]
 ---
 
 # KYN-MRK-COL-014 · Estados del sistema
@@ -47,8 +47,10 @@ Deshabilitado
 Bloqueado
 Archivado
 
-**(Aplicación)**
+###### Aplicación
 
-- Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.
-- Los fondos y textos deben conservar el contraste correspondiente.
-- Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.
+Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.
+
+Los fondos y textos deben conservar el contraste correspondiente.
+
+Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.

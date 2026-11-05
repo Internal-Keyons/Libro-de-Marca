@@ -5,7 +5,7 @@ fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-004"
 titulo: "Tarjetas innecesarias"
-numero: "10.6.1"
+numero: "10.5.3"
 estado: "vigente"
 capitulo: "10 Composición"
 area: "Fundamentos"
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-VIS-004 · Tarjetas innecesarias
 
-Número: 10.6.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-004`
+Número: 10.5.3 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-004`
 
 ##### Una tarjeta solo cuando agrupa algo
 

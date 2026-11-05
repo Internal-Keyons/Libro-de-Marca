@@ -7,7 +7,7 @@ Escrito una vez en el libro (HTML) y publicado en tres formas: lectura visual, d
 ## Antes de consultar
 
 - [Convenciones de autoridad normativa](/ia/gobierno.json): niveles DEBE, NO DEBE, DEBERÍA y PUEDE; estados de vigencia; ámbitos; aprobación, excepciones y citación. Una clasificación propuesta por IA no tiene vigencia sin aprobación humana.
-- [Rutas de lectura y convenciones en la web](/recursos/gobierno.html)
+- [Guía de la Biblioteca: convenciones y rutas de lectura](/guia/index.html)
 
 ## Libro completo
 
@@ -41,9 +41,9 @@ Escrito una vez en el libro (HTML) y publicado en tres formas: lectura visual, d
 - [22 Eventos y merch](/ia/capitulos/22-eventos.md): Eventos, talleres presenciales y artículos de marca.
 - [23 Personalización](/ia/capitulos/23-personalizacion.md): Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca blanca.
 - [24 Galería de imágenes](/ia/capitulos/24-galeria.md): Degradados, cielos, naturaleza y personas, con ID y crédito.
-- [25 Texturas y degradados](/ia/capitulos/25-texturas.md): Cielos hechos con código, con ID.
+- [25 Texturas](/ia/capitulos/25-texturas.md): Cielos hechos con código, con ID.
 - [26 Íconos](/ia/capitulos/26-iconos.md): El catálogo completo de la familia.
-- [27 Plantillas y documentos](/ia/capitulos/27-plantillas.md): Plantillas de presentación y manuales.
+- [27 Plantillas](/ia/capitulos/27-plantillas.md): Plantillas de presentación y manuales.
 - [28 Referencia](/ia/capitulos/28-referencia.md): La memoria de las decisiones.
 
 ## Normas

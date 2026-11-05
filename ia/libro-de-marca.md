@@ -30,8 +30,8 @@ Encuentra lo esencial
 Utiliza el índice y la búsqueda para localizar las normas relacionadas con tu tarea.
 
 02
-Interpreta las normas
-DEBE y NO DEBE establecen requisitos; DEBERÍA orienta decisiones y PUEDE ofrece alternativas.
+Interpretar las normas
+Cada regla señala si es obligatoria, si orienta la mejor práctica o si ofrece alternativas según el contexto.
 
 03
 Vigencia y alcance
@@ -40,6 +40,8 @@ Consulta el estado de cada norma y los contextos donde corresponde aplicarla.
 04
 Reglas en conjunto
 Las referencias por código conectan las normas relacionadas entre capítulos y libros.
+
+Las convenciones comunes a los seis libros están en la [Guía de la Biblioteca](/guia/index.html).
 
 ## Área 01 · Marca
 
@@ -1938,11 +1940,13 @@ Deshabilitado
 Bloqueado
 Archivado
 
-**(Aplicación)**
+###### Aplicación
 
-- Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.
-- Los fondos y textos deben conservar el contraste correspondiente.
-- Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.
+Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.
+
+Los fondos y textos deben conservar el contraste correspondiente.
+
+Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.
 
 #### KYN-MRK-COL-015 · 7.16 Acción y superficies
 
@@ -2317,9 +2321,14 @@ El lenguaje geométrico de Keyons: esquinas, radios y espacio.
 
 **Contenido del capítulo**
 
+- **Geometría**
 - Lenguaje geométrico Keyons · vigente · `/fundamentos/forma/espacio.html#esquinas`
 - Sistema de radios y curvaturas · vigente · `/fundamentos/forma/espacio.html#radios`
+- Proporciones · por definir
+- **Espacio y ritmo**
 - Sistema de espaciado · vigente · `/fundamentos/forma/espacio.html#espaciado`
+- Contenedores · por definir
+- Elevación · por definir
 
 #### Geometría y espacio
 
@@ -2479,7 +2488,6 @@ Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, dens
 - Retículas editoriales · vigente · `/fundamentos/composicion/editorial.html#reticulas`
 - Ritmo y equilibrio visual · vigente · `/fundamentos/composicion/editorial.html#ritmo`
 - Jerarquía y densidad de información · vigente · `/fundamentos/composicion/editorial.html#densidad`
-- Patrones de composición · vigente · `/fundamentos/composicion/editorial.html#patrones`
 - Diagramas de información · vigente · `/fundamentos/composicion/editorial.html#diagramas`
 - Ejemplos de aplicación · borrador · `/fundamentos/composicion/editorial.html#ejemplos`
 
@@ -2495,16 +2503,26 @@ Número: 10.1 · ID: `KYN-MRK-CMP-001` · Estado: vigente · Fuente: `/fundament
 
 ##### Primero el contenido
 
-La composición se decide por **lo que el contenido necesita comunicar**, no por un repertorio de diseños para copiar.
+La composición se elige según **el propósito, las relaciones entre los contenidos, su densidad y el formato de publicación**.
+
+La retícula, la jerarquía y el espacio se ajustan a esas condiciones para construir una lectura clara.
 
 **(Propósito)**
-Elegir la estructura que mejor comunica cada contenido.
+Resultado comunicativo esperado.
 
-**(Composición)**
-Se parte del tipo de contenido (KYN-MRK-ESP-006) y de la densidad que pide la pieza (KYN-MRK-ESP-005). Desde ahí se eligen retícula, escala y ritmo.
+**(Relación)**
+Continuidad, secuencia, comparación o equivalencia entre elementos.
+
+**(Densidad)**
+Cantidad, extensión y prioridad de la información.
+
+**(Formato)**
+Dimensiones, proporciones y condiciones de publicación.
 
 **(Invariantes)**
 No todas las páginas tienen que verse diferentes, pero ninguna composición se repite automáticamente cuando existe una solución más apropiada para el contenido.
+
+Normas específicas: retículas en KYN-MRK-ESP-004, jerarquía y densidad en KYN-MRK-ESP-005 y tipografía en KYN-MRK-TYP-002. Los ejemplos completos están en 10.7.
 
 #### KYN-MRK-CMP-002 · 10.2 Simetría y asimetría
 
@@ -2755,70 +2773,9 @@ Evitar **acumulaciones** de píldoras, puntos, líneas, estrellas, etiquetas, mi
 
 La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
 
-#### KYN-MRK-ESP-006 · 10.6 Patrones de composición
+#### KYN-MRK-VIS-004 · 10.5.3 Tarjetas innecesarias
 
-Número: 10.6 · ID: `KYN-MRK-ESP-006` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#patrones`
-
-##### Patrones de composición
-
-La estructura de una pieza responde a lo que necesita comunicar. Keyons utiliza diferentes composiciones para **explicar, comparar, presentar secuencias, relacionar elementos y destacar información**.
-
-01
-
-###### Explicar
-
-Los contenidos que desarrollan una idea utilizan títulos, párrafos y una estructura de lectura continua.
-
-- **Ejemplo**: Una página de informe con título, introducción, dos secciones y una conclusión.
-- **Composición**: Columna de lectura con títulos y espacios proporcionados.
-
-02
-
-###### Comparar
-
-Las alternativas se organizan mediante una distribución que permite reconocer sus características y diferencias.
-
-- **Ejemplo**: Situación actual y propuesta de mejora en un proyecto Keyons.
-- **Composición**: Comparación horizontal cuando ambas alternativas dispongan de espacio suficiente; vertical cuando cada una requiera mayor ancho.
-
-03
-
-###### Mostrar una secuencia
-
-Las etapas de un proceso utilizan numeración, alineación y continuidad visual para comunicar su orden.
-
-- **Ejemplo**: Las cinco fases oficiales de Prisma: Amanecer, Mediodía, Atardecer, Anochecer y Galaxia.
-- **Composición**: Secuencia numerada o recorrido visual, adaptado al formato.
-
-04
-
-###### Presentar elementos equivalentes
-
-Los elementos que cumplen funciones equivalentes mantienen una estructura consistente que facilita recorrerlos y compararlos.
-
-- **Ejemplo**: Capacidades de Keyons.
-- **Composición**: Lista estructurada, columnas o retícula editorial, según el volumen y la extensión del contenido.
-
-05
-
-###### Destacar una idea
-
-La información protagonista adquiere mayor presencia mediante escala, posición, proporción y espacio. El contenido complementario aporta contexto.
-
-- **Ejemplo**: Portada de una propuesta comercial Keyons.
-- **Composición**: Titular o declaración protagonista con información secundaria subordinada.
-
-**(Uso)**
-Las asociaciones de cuadrículas, acordeones, listas, matrices, carruseles, retículas, indicadores y flechas deben interpretarse como ejemplos. Un patrón debe elegirse por su utilidad, no por la cantidad de elementos o porque aparezca en el catálogo.
-
-**(Relación con otros capítulos)**
-Este capítulo establece criterios para seleccionar composiciones. El capítulo 10, Composiciones, desarrolla cómo utilizar simetría, asimetría, retículas y ritmo editorial. El Sistema de Diseño define los patrones funcionales de interacción.
-
-La repetición aporta consistencia cuando facilita la comprensión. La variación se utiliza cuando el contenido necesita otro ritmo o una jerarquía diferente.
-
-#### KYN-MRK-VIS-004 · 10.6.1 Tarjetas innecesarias
-
-Número: 10.6.1 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-004`
+Número: 10.5.3 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-004`
 
 ##### Una tarjeta solo cuando agrupa algo
 
@@ -2826,9 +2783,9 @@ Las tarjetas deben representar **agrupaciones funcionales** o visualmente justif
 
 Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
 
-#### KYN-MRK-ESP-007 · 10.7 Diagramas de información
+#### KYN-MRK-ESP-007 · 10.6 Diagramas de información
 
-Número: 10.7 · ID: `KYN-MRK-ESP-007` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
+Número: 10.6 · ID: `KYN-MRK-ESP-007` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
 
 ##### Ordenar ideas, no medirlas
 
@@ -2895,18 +2852,75 @@ Se utilizan cuando una representación visual permite comprender relaciones que 
 Utilizar trazos precisos, continuos y uniformes, con contraste y etiquetas legibles. Los recursos de énfasis se incorporan cuando ayudan a interpretar el contenido. No es obligatorio utilizar estrellas, círculos o indicadores decorativos.
 Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso.
 
-**(Ejemplos)**
-Los diagramas que presentan etapas o duraciones no deben interpretarse automáticamente como fases oficiales de la metodología Prisma o compromisos de ejecución. Si un ejemplo representa una metodología oficial, debe coincidir con su documentación vigente.
+#### 10.7 Ejemplos de aplicación
 
-#### 10.8 Ejemplos de aplicación
+Número: 10.7 · Fuente: `/fundamentos/composicion/editorial.html#ejemplos`
 
-Número: 10.8 · Fuente: `/fundamentos/composicion/editorial.html#ejemplos`
+##### Tres casos, tres estructuras
 
-##### Cuatro piezas, cuatro estructuras
+Tres casos completos muestran cómo **el contenido decide la retícula**, el espacio y la jerarquía.
 
-#### KYN-MRK-VIS-016 · 10.8.1 Identidad visual aplicada
+Diagnóstico · Cierre contable mensual
 
-Número: 10.8.1 · ID: `KYN-MRK-VIS-016` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-016`
+El cierre pasa de nueve días a tres
+
+Situación actual
+
+- **Duración del cierre**: 9 días
+- **Sistemas involucrados**: 4
+- **Conciliación**: Manual
+- **Revisión final**: Al terminar
+
+Propuesta
+
+- **Duración del cierre**: 3 días
+- **Sistemas involucrados**: 1 flujo
+- **Conciliación**: Asistida
+- **Revisión final**: Continua
+
+Ejemplo ilustrativo. Fuente: diagnóstico operativo, cifras de muestra.
+
+- **Retícula**: 12 columnas: dos bloques de 6 con medianil de 24 px (`--gap`).
+- **Separaciones**: 16 px entre filas (`--s4`), 32 px entre título y bloques (`--s8`), 48 px antes de la fuente (`--s12`).
+- **Jerarquía**: Titular Plus Jakarta Sans 30 a 44 px, 500; criterio 13 px en gris 3; valor 20 px, 500, Azul Noche.
+- **Alineación**: Los mismos criterios, en el mismo orden y a la misma altura en ambas columnas.
+- **Adaptación**: Menos de 760 px: la propuesta pasa debajo de la situación actual y conserva el orden de los criterios.
+- **Comprobación**: Cada diferencia se lee en una sola fila; unidades y escalas equivalentes; la propuesta se distingue sin depender solo del color.
+
+1. 01 · Amanecer
+2. 02 · Mediodía
+3. 03 · Atardecer
+4. 04 · Anochecer
+5. 05 · Galaxia
+
+Las descripciones de cada fase se toman de la documentación oficial de Prisma.
+
+- **Retícula**: Cinco columnas iguales sobre el ancho del contenido; medianil de 12 px (`--gap-list`).
+- **Separaciones**: 16 px entre muestra y número, 4 px entre número y nombre, 8 px entre nombre y descripción.
+- **Continuidad**: Una línea de 1 px en Azul Cielo 200 une las fases a la altura de los números.
+- **Jerarquía**: Número 13 px en gris 3; nombre 18 px, 500, Azul Noche; descripción 15 px en gris 2.
+- **Adaptación**: Menos de 760 px: la secuencia se vuelve vertical y la línea de continuidad pasa al costado izquierdo.
+- **Comprobación**: El orden se lee sin numeración adicional; las cinco fases tienen la misma proporción; los nombres coinciden con la documentación vigente.
+
+Informe de investigación · 2026
+Cómo trabajan los equipos de operaciones
+Quince entrevistas muestran dónde se pierde el tiempo y qué tareas pueden cambiar primero.
+01 · Hallazgos
+Las tareas que más tiempo consumen no son las más complejas, sino las que se repiten entre sistemas. El equipo copia datos, valida cifras y corrige formatos antes de poder analizar.
+Cuando la información llega ordenada, la revisión se concentra en las excepciones y el cierre se adelanta.
+02 · Recomendaciones
+Empezar por los flujos de mayor repetición y medir cada cambio con el mismo indicador.
+
+- **Retícula**: 12 columnas: 8 para la lectura y 4 para notas; columna de lectura de hasta 600 px.
+- **Separaciones**: 16 px entre párrafos (`--s4`), 48 px antes de cada sección (`--s12`), 32 px entre titular y entrada (`--s8`).
+- **Jerarquía**: Titular 30 a 44 px, 500; entrada 18 a 20 px; sección 18 px, 500; cuerpo 16 a 17 px con interlineado 1,65; notas 13 px en gris 3.
+- **Lectura**: Entre 55 y 75 caracteres por línea; alineación a la izquierda; sin cortes de palabra.
+- **Adaptación**: Menos de 760 px: las notas pasan debajo del párrafo que acompañan y la columna ocupa todo el ancho.
+- **Comprobación**: Cada sección se identifica de un vistazo; la línea no supera 75 caracteres; las notas no interrumpen la lectura principal.
+
+#### KYN-MRK-VIS-016 · 10.7.1 Identidad visual aplicada
+
+Número: 10.7.1 · ID: `KYN-MRK-VIS-016` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-016`
 
 ##### Una composición con identidad propia
 
@@ -3549,7 +3563,7 @@ Los íconos deben favorecer orientación, comprensión, identificación o expres
 **(Uso incorrecto)**
 **Un ícono genérico junto a cada titular** Una bombilla, un cohete o un engranaje que no dicen nada del contenido.
 
-> Recurso visual: Ejemplo dibujado: Descargar PDF · Acción · Vigente · Estado · Plantilla de propuesta · Categoría
+> Recurso visual: Ejemplo dibujado: Descargar diagnóstico · Acción · Norma vigente · Estado · Propuesta comercial · Categoría
 
 **(Alternativa mejor)**
 **Un ícono con función** El ícono identifica una acción, un estado o una categoría.
@@ -3642,37 +3656,42 @@ Hacer visible lo que importa, sin decorarlo.
 
 Número: 13.1 · ID: `KYN-MRK-DAT-001` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#principios`
 
-##### Siete reglas sin excepción
+##### Exactitud, claridad y utilidad
 
-Los datos son evidencia, no adorno. Las reglas vienen de **Edward Tufte, Dona Wong, Alberto Cairo y Giorgia Lupi**, adaptadas a Keyons.
+Los gráficos Keyons convierten información en **conocimiento comprensible**.
 
-01
-El dato manda sobre el diseño
-Todo lo que no comunica un dato se elimina. Si al borrarlo el gráfico dice lo mismo, sobraba.
+###### Cada decisión visual tiene una función
 
-02
-Nunca 3D
-Siempre planos: sin perspectiva, sin brillos ni sombras.
+- Facilitar comparaciones.
+- Mostrar cambios.
+- Comunicar proporciones.
+- Explicar relaciones.
+- Identificar patrones.
+- Destacar resultados.
+- Mostrar avances.
+- Hacer visibles las diferencias entre una situación actual y otra propuesta.
 
-03
-Un gráfico, un mensaje
-Un dato protagonista con el mayor peso visual. Tres mensajes son tres gráficos.
+La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual.
 
-04
-Honestidad geométrica
-Escalas sin truncar, círculos escalados por área y una misma escala al comparar.
+###### Reglas fundamentales
 
-05
-El gráfico correcto
-Cada tipo de dato tiene su forma. Donut y radar no se usan.
+**(DEBE · Integridad de los datos)**
+La representación visual conserva las proporciones y relaciones reales de la información.
 
-06
-Color con propósito
-Distinguir, ordenar, destacar o indicar estado. Rara vez más de cinco colores.
+**(DEBE · Escalas adecuadas)**
+Las barras de magnitud parten de cero. Las líneas y otras representaciones utilizan escalas que permiten interpretar correctamente las variaciones, con límites visibles y contexto suficiente.
 
-07
-Contexto obligatorio
-Título que afirma, unidad, período y fuente; referencia y nota cuando aplican.
+**(DEBE · Contexto verificable)**
+Cada visualización identifica qué representa, sus unidades, su período y su fuente cuando corresponda.
+
+**(DEBE · Comparabilidad)**
+Los gráficos utilizados para comparar alternativas mantienen criterios, unidades y escalas equivalentes.
+
+**(DEBERÍA · Prioridad informativa)**
+Cada gráfico comunica una conclusión principal o facilita responder una pregunta concreta.
+
+**(PUEDE · Expresión visual)**
+La identidad Keyons puede expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conserve la precisión de los datos.
 
 Detrás de cada número hay personas: el gráfico lo recuerda, no lo decora.
 
@@ -3680,26 +3699,93 @@ Detrás de cada número hay personas: el gráfico lo recuerda, no lo decora.
 
 Número: 13.2 · ID: `KYN-MRK-DAT-002` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#paleta`
 
-##### Tres paletas, nunca mezcladas
+##### Tres paletas, según el significado
 
-Cada gráfico usa **una sola de tres paletas**: la base, una monocromática o la suave. Al tocar un color se copia su código.
+Las paletas se organizan según el significado de los datos: **categórica, secuencial y divergente**. Estas tres familias responden a funciones estadísticas diferentes.
 
-**(Paleta base)**
+Las fuentes cromáticas proceden de la paleta corporativa y sus escalas, complementadas por colores funcionales autorizados cuando corresponda. Esta organización amplía la clasificación histórica «paleta base, monocromática y suave»: la clasificación histórica describe familias de colores; la nueva describe para qué se utiliza cada familia.
 
-Los cuatro colores de la marca, para distinguir hasta cuatro series. Salmón nunca va sobre Azul Cielo.
+###### Colores corporativos disponibles
 
-**(Monocromáticas)**
+| (Color) | Referencia | Función |
+|---|---|---|
+| Azul Noche | #10122A | Texto, estructura, fondos profundos y contrastes |
+| Blanco Keyons | #F4F4F4 | Fondo, espacio negativo y superficies claras |
+| Azul Cielo | #729BDD | Acento principal y color protagonista |
+| Salmón Tierra | #CE635D | Contraste cálido y categorías destacadas |
+| Salmón Atardecer | #E99D9E | Acento claro sobre Azul Noche |
 
-Un solo tono de la paleta base, del claro al profundo en pasos parejos. Lo más claro es lo más bajo o lo más antiguo. La de Azul Cielo es la de uso diario.
+###### Condiciones cromáticas
 
-**(Paleta suave)**
+**(Azul Cielo)**
+Es el color principal de referencia para gráficos corporativos.
+Su escala funcional se organiza del 100 al 900, con base 500 en #729BDD. Utilizar la escala oficial existente en el proyecto.
+Los tonos claros y oscuros permiten representar magnitudes, relaciones y jerarquías según el contexto.
 
-Los tonos de los badges, para categorías sin orden y para estados. Siempre con texto y bordes en Azul Noche; con más de cinco categorías se agrupan en «Otros».
+**(Azul Noche)**
+Proporciona estructura, legibilidad y contraste.
+Se utiliza para texto principal, títulos, cifras, ejes, contornos y superficies oscuras cuando corresponde.
 
-**(Destacar)**
-En cualquiera de las tres, el dato clave va en el tono más intenso y el resto en gris suave. Sobre Azul Noche, el protagonista es Salmón Atardecer.
+**(Salmón Tierra)**
+Es el salmón oscuro. Puede destacar una categoría o establecer un contraste cálido entre series.
+Su significado cromático debe conservarse independiente de los estados desfavorables. NO DEBE utilizarse para comunicar por sí mismo errores, pérdidas, resultados negativos o alertas críticas.
 
-Nunca arcoíris, neón ni el verde y rojo de semáforo.
+**(Salmón Atardecer)**
+Es el salmón claro. Su aplicación característica es sobre Azul Noche, donde consigue una relación de contraste adecuada.
+Es una opción para destacar cifras protagonistas y elementos expresivos en composiciones oscuras.
+
+###### Paleta categórica
+
+Para distinguir series sin orden entre sí. Parte de la paleta base corporativa.
+
+###### Paleta secuencial
+
+Para magnitudes ordenadas, del claro al profundo en pasos parejos. La de Azul Cielo es la de uso diario.
+
+###### Paleta divergente
+
+Azul Cielo, Azul Noche, Lavanda, Blanco Keyons, Amarillo claro de los cielos, Ámbar de los cielos, Salmón Tierra y Salmón Atardecer.
+
+> Recurso visual: Figura: «Orden de representación de la paleta divergente»
+
+Orden de representación: #729BDD → #B2BFE5 → #F4F4F4 → #FFEBB1 → #FFCE86
+
+Esta combinación conserva la relación entre los azules de la identidad y los tonos cálidos de los cielos. Los dos extremos representan direcciones diferentes respecto al centro. Su significado depende de los datos y se comunica mediante etiquetas y unidades.
+
+**(DEBE · Referencia central)**
+Cada gráfico divergente identifica el valor que separa las dos direcciones de variación.
+
+**(DEBE · Orden cromático)**
+La progresión respeta el orden de la escala y mantiene una correspondencia consistente con los intervalos numéricos representados.
+
+**(DEBE · Contraste)**
+Los textos, cifras y elementos funcionales se presentan con el contraste requerido para su lectura. Azul Noche es la referencia tipográfica sobre los tonos complementarios claros.
+
+**(PUEDE · Expresión editorial)**
+Las ilustraciones e infografías pueden utilizar estos colores con mayor libertad compositiva, conservando los significados estadísticos cuando representan datos.
+
+###### Aplicaciones
+
+**(Gráficos corporativos)**
+Utilizar la paleta divergente para desviaciones, diferencias respecto a referencias y variaciones bidireccionales.
+
+**(Informes y presentaciones)**
+La composición puede destacar los extremos y la referencia central mediante tipografía, espacio, posición y valores numéricos.
+
+**(Infografías)**
+La paleta puede expresar relaciones entre dos condiciones, manteniendo información suficiente para comprender las diferencias.
+
+**(Ilustraciones)**
+Los colores complementarios de los cielos pueden utilizarse en composiciones expresivas, de acuerdo con las normas de identidad visual Keyons.
+
+**(Dashboards)**
+El Sistema de Diseño establecerá su implementación técnica, adaptación responsive, tokens, leyendas, estados y accesibilidad.
+
+###### Colores semánticos
+
+Los colores semánticos pertenecen a estados como éxito, advertencia, error, información y estado crítico. La paleta semántica se utiliza para comunicar estados, mientras que las paletas estadísticas representan categorías, magnitudes y diferencias.
+
+Para pérdidas, errores y resultados desfavorables se utiliza el color semántico correspondiente, acompañándolo de texto, símbolo o indicador explícito. La definición técnica de esos colores procede del catálogo semántico oficial del proyecto (KYN-MRK-COL-014).
 
 #### KYN-MRK-DAT-003 · 13.3 Tipografía en gráficos
 
@@ -3875,6 +3961,20 @@ Fuente: Diagnóstico Keyons, 15 entrevistas, 2026
 5. 05 · **Nota humana** · Las personas detrás del número.
 6. 06 · **Referencia** · Meta, promedio o año anterior.
 7. 07 · **Firma** · El isotipo, en la esquina inferior derecha.
+
+###### Gráficos en presentaciones
+
+Cada diapositiva de datos debe tener una conclusión o una pregunta reconocible. El gráfico dispone del espacio suficiente para mantener la lectura de ejes, categorías y valores.
+
+**(Retícula)**
+Organiza titular, gráfico, dato destacado, fuente y contexto complementario.
+
+**(Aplicaciones)**
+Comparaciones entre alternativas, indicadores de negocio, evolución, resultados de investigación, diagnósticos y proyecciones claramente identificadas.
+
+**(Expresión)**
+Una diapositiva expresiva puede dar gran protagonismo a una cifra mediante TASA Orbiter, color y espacio. Las representaciones estadísticas conservan sus proporciones y escalas.
+La identidad Keyons se construye con jerarquía, retícula, tipografía, color y recursos gráficos aplicados con criterio.
 
 Keyons vende diagnóstico y rigor: sus gráficos también.
 
@@ -4942,7 +5042,7 @@ Galería
 **(Tratamiento de marca)**
 **(Descargar)**
 
-### Capítulo 25 · Texturas y degradados
+### Capítulo 25 · Texturas
 
 Estado: borrador · Clave: texturas · Ruta: `/recursos/texturas.html` · Número anterior: 24, 26
 
@@ -5204,7 +5304,7 @@ Objetos y conceptos · 11
 - Ícono `edificio` · ajustado a la retícula, pendiente de revisión
 - Ícono `cono`
 
-### Capítulo 27 · Plantillas y documentos
+### Capítulo 27 · Plantillas
 
 Estado: borrador · Clave: plantillas · Ruta: `/recursos/plantillas.html` · Número anterior: 26, 28
 
@@ -5293,7 +5393,7 @@ Por enlazar
 
 ### Capítulo 28 · Referencia
 
-Estado: borrador · Clave: referencia · Ruta: `/recursos/referencia.html` · Ruta: `/fundamentos/criterio/antipatrones.html` · Ruta: `/recursos/gobierno.html` · Número anterior: 27, 29
+Estado: borrador · Clave: referencia · Ruta: `/recursos/referencia.html` · Ruta: `/fundamentos/criterio/antipatrones.html` · Número anterior: 27, 29
 
 La memoria de las decisiones.
 
@@ -5302,13 +5402,6 @@ La memoria de las decisiones.
 - Nomenclatura de reglas · borrador · `/recursos/referencia.html#nomenclatura`
 - Índice de reglas · borrador · `/recursos/referencia.html#indice`
 - Trazabilidad de Criterios visuales · vigente · `/fundamentos/criterio/antipatrones.html#trazabilidad`
-- **Gobierno normativo**
-- Autoridad normativa · borrador · `/recursos/gobierno.html#autoridad`
-- Vigencia · borrador · `/recursos/gobierno.html#vigencia`
-- Ámbitos de aplicación · borrador · `/recursos/gobierno.html#ambitos`
-- Aprobación y excepciones · borrador · `/recursos/gobierno.html#aprobacion`
-- Identificadores y citación · borrador · `/recursos/gobierno.html#citacion`
-- Rutas de lectura · borrador · `/recursos/gobierno.html#rutas`
 - Registro de decisiones · por definir
 - Glosario · por definir
 - Cambios · por definir
@@ -5478,227 +5571,3 @@ La experimentación es válida cuando la persona mantiene orientación y control
 
 **(Alternativa mejor)**
 **Navegación a la vista** Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.
-
-#### Gobierno normativo
-
-Rótulo: Capítulo 28 · Recursos · Fuente: `/recursos/gobierno.html`
-
-Las mismas convenciones para los seis libros: autoridad, vigencia, ámbito y citación.
-
-En revisión · versión 0.1. Propuesta preparada por un agente de IA. Requiere aprobación humana antes de adquirir vigencia.
-
-#### 28.4 Autoridad normativa
-
-Número: 28.4 · Fuente: `/recursos/gobierno.html#autoridad`
-
-##### Cuatro niveles de obligación
-
-Las normas de los seis libros distinguen **requisitos, recomendaciones y opciones** con los mismos términos.
-
-- **DEBE**: Requisito obligatorio dentro de su ámbito de aplicación.
-- **NO DEBE**: Prohibición expresa dentro de su ámbito de aplicación.
-- **DEBERÍA**: Criterio preferente; otra solución requiere una justificación documentada.
-- **PUEDE**: Alternativa permitida según el contexto.
-- Los términos normativos se utilizan en mayúsculas para distinguirlos de las expresiones habituales del texto editorial.
-- La redacción se mantiene profesional, sencilla y predominantemente afirmativa.
-- Una norma puede contener requisitos con diferentes niveles de obligación. Cada requisito se identifica dentro de la norma mediante una referencia interna, conservando su ID principal: KYN-MRK-COL-004.2.
-
-#### 28.5 Vigencia
-
-Número: 28.5 · Fuente: `/recursos/gobierno.html#vigencia`
-
-##### Tres estados de vigencia
-
-Cada norma indica si se aplica, si está en evaluación o si quedó como referencia histórica.
-
-**(Vigente)**
-Norma aprobada y aplicable.
-
-**(En revisión)**
-Contenido sujeto a evaluación o aprobación.
-
-**(Descontinuada)**
-Norma histórica reemplazada o retirada, con identificador reservado y referencia a su destino cuando corresponda.
-
-###### Estados del proceso que se conservan
-
-**(Borrador)**
-Redacción en curso dentro del libro; se publica con su marca de estado. Equivale a En revisión.
-
-**(Por definir)**
-Estructura reservada sin texto normativo. Equivale a En revisión.
-
-**(Estructura definida)**
-Sistema de Diseño: capítulo con estructura aprobada y contenido pendiente. Equivale a En revisión.
-
-**(Integrada)**
-Su contenido pasó a otra norma; el ID queda reservado y redirige a su destino. Equivale a Descontinuada.
-
-La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.
-
-#### 28.6 Ámbitos
-
-Número: 28.6 · Fuente: `/recursos/gobierno.html#ambitos`
-
-##### Dónde se aplica cada norma
-
-Cada norma declara los contextos en los que corresponde aplicarla.
-
-- Las reglas comunes de calidad y experiencia pueden aplicarse a varios ámbitos.
-- Las reglas visuales de identidad se aplican a los productos y comunicaciones que adoptan esa identidad.
-
-###### Dimensiones de cada norma
-
-- Identificador permanente
-- Título
-- Texto normativo
-- Nivel de obligación de cada requisito
-- Estado de vigencia
-- Ámbito de aplicación
-- Versión
-- Responsable de aprobación
-- Fecha de aprobación
-- Excepciones autorizadas
-- Normas relacionadas
-
-#### 28.7 Aprobación y excepciones
-
-Número: 28.7 · Fuente: `/recursos/gobierno.html#aprobacion`
-
-##### Quién aprueba y cómo se exceptúa
-
-Cada libro tiene un responsable de aprobación. Ninguna norma, excepción o clasificación adquiere vigencia sin su aprobación registrada.
-
-**(Estado)**
-Pendiente de designar
-
-**(Propuesta)**
-Los Co-Editores Generales, citados en KYN-MRK-ILU-005 como autoridad para sumar figuras, aprueban las normas de la Biblioteca. Pendiente de confirmar por la dirección.
-
-###### Procedimiento de excepción
-
-1. Solicitar la excepción por escrito.
-2. Identificar la norma afectada por su ID y, cuando corresponda, su requisito interno.
-3. Documentar la justificación.
-4. Registrar quién autoriza.
-5. Determinar el alcance y la vigencia temporal.
-6. Conservar la evidencia.
-7. Actualizar el registro cuando se modifique la norma.
-
-Los requisitos legales, de seguridad o contractuales conservan las restricciones propias de su materia.
-
-###### Versionado y trazabilidad
-
-- Cada norma lleva una versión. Un cambio de redacción que altera su alcance incrementa la versión; una corrección menor la conserva.
-- El historial de cambios se conserva en el control de versiones del proyecto y en el registro de aprobaciones de contenido (data/referencia-contenido.json).
-
-#### 28.8 Identificadores y citación
-
-Número: 28.8 · Fuente: `/recursos/gobierno.html#citacion`
-
-##### Un ID permanente para citar
-
-Formato común: **KYN-<LIBRO>-<ÁREA>-<número de tres cifras>**.
-
-- Los identificadores son permanentes: no se reutilizan ni se renumeran.
-- Una norma integrada o descontinuada conserva su ID y remite a su destino.
-- Las referencias entre libros se resuelven mediante el ID permanente.
-
-| (Prefijo) | Libro | Estado |
-|---|---|---|
-| KYN-MRK | Marca y Experiencia | En uso |
-| KYN-SDI | Sistema de Diseño | Propuesto, sin emitir |
-| KYN-PRD | Producto e Ingeniería | Identificadores históricos del Manual de Producto |
-| Por asignar | Ventas y Crecimiento · Experiencia y Servicio al Cliente · Cultura y Operaciones | En preparación |
-
-**(Uso interno)**
-Citar mediante el identificador normativo permanente y consultar la versión vigente.
-
-**(Uso externo)**
-Incluir expresamente el contenido contractual que deba formar parte de un acuerdo, con su alcance y versión. El código interno puede utilizarse como referencia complementaria.
-
-Se conservan los mecanismos de autorización, confidencialidad y revisión correspondientes.
-
-###### Permisos de consulta
-
-**(Estado)**
-Por definir
-
-**(Hoy)**
-Hoy la Biblioteca se publica como sitio estático sin control de acceso: todo lo publicado es de consulta abierta. Los niveles de permiso y la búsqueda filtrada por permisos requieren un servicio de autenticación que aún no existe.
-
-#### 28.9 Rutas de lectura
-
-Número: 28.9 · Fuente: `/recursos/gobierno.html#rutas`
-
-##### Cinco rutas, según quién consulta
-
-Cada ruta tiene **un propósito, un orden de consulta** y enlaces directos al contenido que existe hoy.
-
-A
-
-###### Incorporación al equipo
-
-Nuevos integrantes de Keyons.
-
-1. [La identidad](/marca/index.html)
-2. [Los principios](/marca/principios.html)
-3. [Convenciones normativas](/recursos/gobierno.html#autoridad)
-4. [Contenidos según la función: Fundamentos para diseño](/fundamentos/index.html)
-5. [Sistema de Diseño para producto y desarrollo](/sistema-diseno/index.html)
-6. [Aplicaciones para comunicación y ventas](/aplicaciones/index.html)
-
-B
-
-###### Consulta especializada
-
-Diseñadores, desarrolladores, responsables comerciales, personal operativo y otros especialistas.
-
-1. [Buscar la tarea en el buscador (Ctrl K)](/inicio.html)
-2. [Índice de normas vigentes](/recursos/referencia.html#indice)
-3. [Especificaciones y ejemplos de cada norma](/recursos/referencia.html#nomenclatura)
-4. [Criterios de comprobación](/fundamentos/criterio/antipatrones.html)
-
-C
-
-###### Agentes de inteligencia artificial
-
-Herramientas de IA que consultan la Biblioteca.
-
-1. [Convenciones de autoridad normativa](/ia/gobierno.json)
-2. [Catálogo de libros y normas](/ia/indice.json)
-3. [Estados de vigencia y ámbitos](/ia/gobierno.json)
-4. [Restricciones de seguridad, confidencialidad y permisos](/llms.txt)
-5. [Normas específicas de la tarea](/ia/normas)
-
-Las referencias entre libros se resuelven mediante identificadores normativos permanentes.
-
-Los agentes utilizan la versión vigente de cada norma y distinguen entre requisitos obligatorios, recomendaciones y opciones permitidas.
-
-D
-
-###### Responsables y aprobadores
-
-Quienes aprueban normas, excepciones y cambios.
-
-1. [Normas vigentes y en revisión](/recursos/referencia.html#indice)
-2. [Clasificación normativa pendiente de aprobación](/docs/CLASIFICACION_NORMATIVA.md)
-3. [Excepciones y aprobación](/recursos/gobierno.html#aprobacion)
-4. [Trazabilidad de criterios](/fundamentos/criterio/antipatrones.html#trazabilidad)
-
-E
-
-###### Terceros autorizados
-
-Clientes, auditores, proveedores y colaboradores externos con acceso autorizado.
-
-1. [Versión documental del libro](/documental/index.html)
-2. [Convenciones de citación](/recursos/gobierno.html#citacion)
-
-Cada ruta presenta exclusivamente los contenidos aprobados para el propósito de la consulta.
-
-Los documentos compartidos conservan sus referencias, versiones y condiciones de confidencialidad aplicables.
-
-- Cada ruta tiene un propósito identificable, un orden de consulta y enlaces directos a los contenidos correspondientes.
-- La navegación y los resultados de búsqueda respetan los permisos efectivos del lector.
-- Las rutas se construyen a partir del contenido disponible y se actualizan conforme evolucionan los libros.

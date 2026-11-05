@@ -11,7 +11,7 @@ capitulo: "08 Tipografía"
 area: "Fundamentos"
 fuente: "/fundamentos/tipografia/sistema.html#escala"
 referencias: []
-citada_por: []
+citada_por: ["KYN-MRK-CMP-001"]
 ---
 
 # KYN-MRK-TYP-002 · Escala y jerarquía

@@ -18,36 +18,41 @@ citada_por: []
 
 Número: 13.1 · Estado: vigente · Capítulo: 13 Datos y visualización · Fuente: `/fundamentos/datos/graficos.html#principios`
 
-##### Siete reglas sin excepción
+##### Exactitud, claridad y utilidad
 
-Los datos son evidencia, no adorno. Las reglas vienen de **Edward Tufte, Dona Wong, Alberto Cairo y Giorgia Lupi**, adaptadas a Keyons.
+Los gráficos Keyons convierten información en **conocimiento comprensible**.
 
-01
-El dato manda sobre el diseño
-Todo lo que no comunica un dato se elimina. Si al borrarlo el gráfico dice lo mismo, sobraba.
+###### Cada decisión visual tiene una función
 
-02
-Nunca 3D
-Siempre planos: sin perspectiva, sin brillos ni sombras.
+- Facilitar comparaciones.
+- Mostrar cambios.
+- Comunicar proporciones.
+- Explicar relaciones.
+- Identificar patrones.
+- Destacar resultados.
+- Mostrar avances.
+- Hacer visibles las diferencias entre una situación actual y otra propuesta.
 
-03
-Un gráfico, un mensaje
-Un dato protagonista con el mayor peso visual. Tres mensajes son tres gráficos.
+La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual.
 
-04
-Honestidad geométrica
-Escalas sin truncar, círculos escalados por área y una misma escala al comparar.
+###### Reglas fundamentales
 
-05
-El gráfico correcto
-Cada tipo de dato tiene su forma. Donut y radar no se usan.
+**(DEBE · Integridad de los datos)**
+La representación visual conserva las proporciones y relaciones reales de la información.
 
-06
-Color con propósito
-Distinguir, ordenar, destacar o indicar estado. Rara vez más de cinco colores.
+**(DEBE · Escalas adecuadas)**
+Las barras de magnitud parten de cero. Las líneas y otras representaciones utilizan escalas que permiten interpretar correctamente las variaciones, con límites visibles y contexto suficiente.
 
-07
-Contexto obligatorio
-Título que afirma, unidad, período y fuente; referencia y nota cuando aplican.
+**(DEBE · Contexto verificable)**
+Cada visualización identifica qué representa, sus unidades, su período y su fuente cuando corresponda.
+
+**(DEBE · Comparabilidad)**
+Los gráficos utilizados para comparar alternativas mantienen criterios, unidades y escalas equivalentes.
+
+**(DEBERÍA · Prioridad informativa)**
+Cada gráfico comunica una conclusión principal o facilita responder una pregunta concreta.
+
+**(PUEDE · Expresión visual)**
+La identidad Keyons puede expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conserve la precisión de los datos.
 
 Detrás de cada número hay personas: el gráfico lo recuerda, no lo decora.

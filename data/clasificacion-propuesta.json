@@ -3,14 +3,14 @@
  "regla": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
  "resumen": {
   "normas": 133,
-  "requisitos": 221,
+  "requisitos": 233,
   "por_nivel": {
-   "DEBE": 84,
-   "NO DEBE": 87,
-   "PUEDE": 42,
-   "DEBERÍA": 8
+   "DEBE": 94,
+   "NO DEBE": 83,
+   "PUEDE": 47,
+   "DEBERÍA": 9
   },
-  "ambiguedades": 39,
+  "ambiguedades": 41,
   "duplicaciones": 0
  },
  "normas": [
@@ -527,7 +527,12 @@
     {
      "ref": "KYN-MRK-COL-014.3",
      "nivel": "DEBE",
-     "texto": "ÉxitoVerde tierra suave#D5E0D2AdvertenciaMostaza suave#F4E8C1ErrorTerracota suave#F0D0CBInformaciónCielo suave#C6D5ECRevisiónLila suave#D9D6EDNeutroGris suave#E0E1E5BloqueoNaranja suave#F5D8B8 EsencialesÉxitoAdvertenciaErrorInformaciónOperacionalesPendienteEn procesoBorradorProgramadoRevisiónEn revisiónAprobadoRechazadoEspecialesNuevoDeshabilitadoBloqueadoArchivado (Aplicación)Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.Los fondos y textos deben conservar el contraste correspondiente.Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño."
+     "texto": "ÉxitoVerde tierra suave#D5E0D2AdvertenciaMostaza suave#F4E8C1ErrorTerracota suave#F0D0CBInformaciónCielo suave#C6D5ECRevisiónLila suave#D9D6EDNeutroGris suave#E0E1E5BloqueoNaranja suave#F5D8B8 EsencialesÉxitoAdvertenciaErrorInformaciónOperacionalesPendienteEn procesoBorradorProgramadoRevisiónEn revisiónAprobadoRechazadoEspecialesNuevoDeshabilitadoBloqueadoArchivado Aplicación Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado."
+    },
+    {
+     "ref": "KYN-MRK-COL-014.4",
+     "nivel": "DEBE",
+     "texto": "Los fondos y textos deben conservar el contraste correspondiente."
     }
    ]
   },
@@ -787,8 +792,37 @@
    "requisitos": [
     {
      "ref": "KYN-MRK-DAT-001.1",
-     "nivel": "NO DEBE",
-     "texto": "Donut y radar no se usan. 06Color con propósitoDistinguir, ordenar, destacar o indicar estado."
+     "nivel": "DEBE",
+     "texto": "Reglas fundamentales (DEBE · Integridad de los datos)La representación visual conserva las proporciones y relaciones reales de la información."
+    },
+    {
+     "ref": "KYN-MRK-DAT-001.2",
+     "nivel": "DEBE",
+     "texto": "(DEBE · Escalas adecuadas)Las barras de magnitud parten de cero."
+    },
+    {
+     "ref": "KYN-MRK-DAT-001.3",
+     "nivel": "DEBE",
+     "texto": "(DEBE · Contexto verificable)Cada visualización identifica qué representa, sus unidades, su período y su fuente cuando corresponda."
+    },
+    {
+     "ref": "KYN-MRK-DAT-001.4",
+     "nivel": "DEBE",
+     "texto": "(DEBE · Comparabilidad)Los gráficos utilizados para comparar alternativas mantienen criterios, unidades y escalas equivalentes."
+    },
+    {
+     "ref": "KYN-MRK-DAT-001.5",
+     "nivel": "DEBERÍA",
+     "texto": "(DEBERÍA · Prioridad informativa)Cada gráfico comunica una conclusión principal o facilita responder una pregunta concreta."
+    },
+    {
+     "ref": "KYN-MRK-DAT-001.6",
+     "nivel": "DEBE",
+     "texto": "(PUEDE · Expresión visual)La identidad Keyons puede expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conserve la precisión de los datos.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase",
+      "«siempre» sin verbo normativo"
+     ]
     }
    ]
   },
@@ -806,26 +840,59 @@
    "requisitos": [
     {
      "ref": "KYN-MRK-DAT-002.1",
-     "nivel": "NO DEBE",
-     "texto": "Sistema cromático Tres paletas, nunca mezcladas Cada gráfico usa una sola de tres paletas: la base, una monocromática o la suave."
-    },
-    {
-     "ref": "KYN-MRK-DAT-002.2",
-     "nivel": "NO DEBE",
-     "texto": "Salmón nunca va sobre Azul Cielo.#729BDD#10122A#CE635D#E99D9E (Monocromáticas)Un solo tono de la paleta base, del claro al profundo en pasos parejos."
-    },
-    {
-     "ref": "KYN-MRK-DAT-002.3",
      "nivel": "DEBE",
-     "texto": "Siempre con texto y bordes en Azul Noche; con más de cinco categorías se agrupan en «Otros».#C6D5EC#D5E0D2#F4E8C1#F0D0CB#D9D6ED#F5D8B8#E0E1E5 (Destacar)En cualquiera de las tres, el dato clave va en el tono más intenso y el resto en gris suave.",
+     "texto": "Utilizar la escala oficial existente en el proyecto.Los tonos claros y oscuros permiten representar magnitudes, relaciones y jerarquías según el contexto.",
      "revisar": [
-      "«siempre» sin verbo normativo"
+      "imperativo en infinitivo: se interpreta como DEBE"
      ]
     },
     {
-     "ref": "KYN-MRK-DAT-002.4",
+     "ref": "KYN-MRK-DAT-002.2",
+     "nivel": "DEBE",
+     "texto": "Puede destacar una categoría o establecer un contraste cálido entre series.Su significado cromático debe conservarse independiente de los estados desfavorables.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-DAT-002.3",
      "nivel": "NO DEBE",
-     "texto": "Nunca arcoíris, neón ni el verde y rojo de semáforo."
+     "texto": "NO DEBE utilizarse para comunicar por sí mismo errores, pérdidas, resultados negativos o alertas críticas."
+    },
+    {
+     "ref": "KYN-MRK-DAT-002.4",
+     "nivel": "DEBE",
+     "texto": "(DEBE · Referencia central)Cada gráfico divergente identifica el valor que separa las dos direcciones de variación."
+    },
+    {
+     "ref": "KYN-MRK-DAT-002.5",
+     "nivel": "DEBE",
+     "texto": "(DEBE · Orden cromático)La progresión respeta el orden de la escala y mantiene una correspondencia consistente con los intervalos numéricos representados."
+    },
+    {
+     "ref": "KYN-MRK-DAT-002.6",
+     "nivel": "DEBE",
+     "texto": "(DEBE · Contraste)Los textos, cifras y elementos funcionales se presentan con el contraste requerido para su lectura."
+    },
+    {
+     "ref": "KYN-MRK-DAT-002.7",
+     "nivel": "PUEDE",
+     "texto": "(PUEDE · Expresión editorial)Las ilustraciones e infografías pueden utilizar estos colores con mayor libertad compositiva, conservando los significados estadísticos cuando representan datos."
+    },
+    {
+     "ref": "KYN-MRK-DAT-002.8",
+     "nivel": "PUEDE",
+     "texto": "(Informes y presentaciones)La composición puede destacar los extremos y la referencia central mediante tipografía, espacio, posición y valores numéricos."
+    },
+    {
+     "ref": "KYN-MRK-DAT-002.9",
+     "nivel": "PUEDE",
+     "texto": "(Infografías)La paleta puede expresar relaciones entre dos condiciones, manteniendo información suficiente para comprender las diferencias."
+    },
+    {
+     "ref": "KYN-MRK-DAT-002.10",
+     "nivel": "PUEDE",
+     "texto": "(Ilustraciones)Los colores complementarios de los cielos pueden utilizarse en composiciones expresivas, de acuerdo con las normas de identidad visual Keyons."
     }
    ]
   },
@@ -872,7 +939,18 @@
     "internas",
     "saas"
    ],
-   "requisitos": []
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-DAT-005.1",
+     "nivel": "DEBE",
+     "texto": "Gráficos en presentaciones Cada diapositiva de datos debe tener una conclusión o una pregunta reconocible."
+    },
+    {
+     "ref": "KYN-MRK-DAT-005.2",
+     "nivel": "PUEDE",
+     "texto": "(Expresión)Una diapositiva expresiva puede dar gran protagonismo a una cifra mediante TASA Orbiter, color y espacio."
+    }
+   ]
   },
   {
    "id": "KYN-MRK-DIS-001",
@@ -1191,7 +1269,7 @@
   {
    "id": "KYN-MRK-ESP-006",
    "titulo": "Patrones de composición",
-   "estado": "vigente",
+   "estado": "integrada",
    "fuente": "fundamentos/composicion/editorial.html#patrones",
    "ambito_propuesto": [
     "identidad",
@@ -1237,17 +1315,7 @@
     {
      "ref": "KYN-MRK-ESP-007.3",
      "nivel": "DEBE",
-     "texto": "No es obligatorio utilizar estrellas, círculos o indicadores decorativos.Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso."
-    },
-    {
-     "ref": "KYN-MRK-ESP-007.4",
-     "nivel": "NO DEBE",
-     "texto": "(Ejemplos)Los diagramas que presentan etapas o duraciones no deben interpretarse automáticamente como fases oficiales de la metodología Prisma o compromisos de ejecución."
-    },
-    {
-     "ref": "KYN-MRK-ESP-007.5",
-     "nivel": "DEBE",
-     "texto": "Si un ejemplo representa una metodología oficial, debe coincidir con su documentación vigente. 01 · Diagnóstico · 2 a 4 semanas|Entender la operación 02 · Diseño · 4 a 8 semanas|Construir con su equipo 03 · Evolución · continua|Medir y mejorar Zona 1|Uso básico Zona 2|Primeras pruebas Zona 3|IA integrada Zona 4|Operación transformada Nivel 1 · Inicial|Tareas manuales y dispersas Nivel 2 · Explora|Primeras pruebas con IA Nivel 3 · Define|Procesos documentados Nivel 4 · Integra|IA en el trabajo diario Nivel 5 · Optimiza|Mejora continua medida Inmersión|Diagnóstico y comprensión Estrategia|Comprensión y planeación Proyecto|De la planeación al acompañamiento Soporte|Acompañamiento y evolución Cultura|Anillo 1 Gobierno de datos|Anillo 1 Procesos|Anillo 2 Personas|Anillo 2 Herramientas|Anillo 3"
+     "texto": "No es obligatorio utilizar estrellas, círculos o indicadores decorativos.Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso. 01 · Diagnóstico · 2 a 4 semanas|Entender la operación 02 · Diseño · 4 a 8 semanas|Construir con su equipo 03 · Evolución · continua|Medir y mejorar Zona 1|Uso básico Zona 2|Primeras pruebas Zona 3|IA integrada Zona 4|Operación transformada Nivel 1 · Inicial|Tareas manuales y dispersas Nivel 2 · Explora|Primeras pruebas con IA Nivel 3 · Define|Procesos documentados Nivel 4 · Integra|IA en el trabajo diario Nivel 5 · Optimiza|Mejora continua medida Inmersión|Diagnóstico y comprensión Estrategia|Comprensión y planeación Proyecto|De la planeación al acompañamiento Soporte|Acompañamiento y evolución Cultura|Anillo 1 Gobierno de datos|Anillo 1 Procesos|Anillo 2 Personas|Anillo 2 Herramientas|Anillo 3"
     }
    ]
   },

@@ -20,9 +20,14 @@ El lenguaje geométrico de Keyons: esquinas, radios y espacio.
 
 **Contenido del capítulo**
 
+- **Geometría**
 - Lenguaje geométrico Keyons · vigente · `/fundamentos/forma/espacio.html#esquinas`
 - Sistema de radios y curvaturas · vigente · `/fundamentos/forma/espacio.html#radios`
+- Proporciones · por definir
+- **Espacio y ritmo**
 - Sistema de espaciado · vigente · `/fundamentos/forma/espacio.html#espaciado`
+- Contenedores · por definir
+- Elevación · por definir
 
 ## Geometría y espacio
 

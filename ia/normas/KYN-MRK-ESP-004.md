@@ -11,7 +11,7 @@ capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#reticula"
 referencias: []
-citada_por: ["KYN-MRK-CMP-003"]
+citada_por: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-003"]
 ---
 
 # KYN-MRK-ESP-004 · Retícula y responsive

@@ -88,8 +88,9 @@
    "fecha_aprobacion": null,
    "excepciones": [],
    "relacionadas": [
+    "KYN-MRK-ESP-004",
     "KYN-MRK-ESP-005",
-    "KYN-MRK-ESP-006"
+    "KYN-MRK-TYP-002"
    ]
   },
   "KYN-MRK-CMP-002": {
@@ -417,7 +418,9 @@
    "responsable": null,
    "fecha_aprobacion": null,
    "excepciones": [],
-   "relacionadas": []
+   "relacionadas": [
+    "KYN-MRK-COL-014"
+   ]
   },
   "KYN-MRK-DAT-003": {
    "titulo": "Tipografía en gráficos",
@@ -575,8 +578,8 @@
   },
   "KYN-MRK-ESP-006": {
    "titulo": "Patrones de composición",
-   "estado": "vigente",
-   "estado_documental": "vigente",
+   "estado": "descontinuada",
+   "estado_documental": "integrada",
    "version": "1.0",
    "ambito": [],
    "responsable": null,

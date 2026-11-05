@@ -493,11 +493,13 @@ Deshabilitado
 Bloqueado
 Archivado
 
-**(Aplicación)**
+#### Aplicación
 
-- Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.
-- Los fondos y textos deben conservar el contraste correspondiente.
-- Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.
+Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.
+
+Los fondos y textos deben conservar el contraste correspondiente.
+
+Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.
 
 ## KYN-MRK-COL-015 · 7.16 Acción y superficies
 

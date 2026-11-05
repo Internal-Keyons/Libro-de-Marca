@@ -41,4 +41,18 @@ Fuente: Diagnóstico Keyons, 15 entrevistas, 2026
 6. 06 · **Referencia** · Meta, promedio o año anterior.
 7. 07 · **Firma** · El isotipo, en la esquina inferior derecha.
 
+###### Gráficos en presentaciones
+
+Cada diapositiva de datos debe tener una conclusión o una pregunta reconocible. El gráfico dispone del espacio suficiente para mantener la lectura de ejes, categorías y valores.
+
+**(Retícula)**
+Organiza titular, gráfico, dato destacado, fuente y contexto complementario.
+
+**(Aplicaciones)**
+Comparaciones entre alternativas, indicadores de negocio, evolución, resultados de investigación, diagnósticos y proyecciones claramente identificadas.
+
+**(Expresión)**
+Una diapositiva expresiva puede dar gran protagonismo a una cifra mediante TASA Orbiter, color y espacio. Las representaciones estadísticas conservan sus proporciones y escalas.
+La identidad Keyons se construye con jerarquía, retícula, tipografía, color y recursos gráficos aplicados con criterio.
+
 Keyons vende diagnóstico y rigor: sus gráficos también.

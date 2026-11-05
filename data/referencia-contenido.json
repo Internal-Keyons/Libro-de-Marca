@@ -367,7 +367,7 @@
   "fundamentos/color/funcionales.html#estados": {
    "estado": "vigente",
    "id": "KYN-MRK-COL-014",
-   "texto": "Estados del sistema Estados con significado propio Los colores de estado comunican significado y deben ser comprensibles, consistentes y accesibles. No es necesario que todos pertenezcan a la paleta cromática corporativa. Los errores y resultados negativos utilizan rojo semántico, nunca Salmón Tierra. ÉxitoVerde tierra suave#D5E0D2AdvertenciaMostaza suave#F4E8C1ErrorTerracota suave#F0D0CBInformaciónCielo suave#C6D5ECRevisiónLila suave#D9D6EDNeutroGris suave#E0E1E5BloqueoNaranja suave#F5D8B8 EsencialesÉxitoAdvertenciaErrorInformaciónOperacionalesPendienteEn procesoBorradorProgramadoRevisiónEn revisiónAprobadoRechazadoEspecialesNuevoDeshabilitadoBloqueadoArchivado (Aplicación)Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.Los fondos y textos deben conservar el contraste correspondiente.Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.",
+   "texto": "Estados del sistema Estados con significado propio Los colores de estado comunican significado y deben ser comprensibles, consistentes y accesibles. No es necesario que todos pertenezcan a la paleta cromática corporativa. Los errores y resultados negativos utilizan rojo semántico, nunca Salmón Tierra. ÉxitoVerde tierra suave#D5E0D2AdvertenciaMostaza suave#F4E8C1ErrorTerracota suave#F0D0CBInformaciónCielo suave#C6D5ECRevisiónLila suave#D9D6EDNeutroGris suave#E0E1E5BloqueoNaranja suave#F5D8B8 EsencialesÉxitoAdvertenciaErrorInformaciónOperacionalesPendienteEn procesoBorradorProgramadoRevisiónEn revisiónAprobadoRechazadoEspecialesNuevoDeshabilitadoBloqueadoArchivado Aplicación Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado. Los fondos y textos deben conservar el contraste correspondiente. Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -383,6 +383,11 @@
      "aprobada": "2026-11-03",
      "huella": "1a7ecaf5700d982a",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "2497f839d7c53417",
+     "nota": "Ronda 17: selector global de libros, cabecera sin hamburguesa, Guía de la Biblioteca, ESP-006 integrada en 10.1 y 10.7, DAT-001, DAT-002 y ajustes visuales"
     }
    ]
   },
@@ -549,7 +554,7 @@
   "fundamentos/composicion/editorial.html#decidir": {
    "estado": "vigente",
    "id": "KYN-MRK-CMP-001",
-   "texto": "Decidir Primero el contenido La composición se decide por lo que el contenido necesita comunicar, no por un repertorio de diseños para copiar. (Propósito)Elegir la estructura que mejor comunica cada contenido. (Composición)Se parte del tipo de contenido (KYN-MRK-ESP-006) y de la densidad que pide la pieza (KYN-MRK-ESP-005). Desde ahí se eligen retícula, escala y ritmo. (Invariantes)No todas las páginas tienen que verse diferentes, pero ninguna composición se repite automáticamente cuando existe una solución más apropiada para el contenido.",
+   "texto": "Decidir Primero el contenido La composición se elige según el propósito, las relaciones entre los contenidos, su densidad y el formato de publicación. La retícula, la jerarquía y el espacio se ajustan a esas condiciones para construir una lectura clara. (Propósito)Resultado comunicativo esperado. (Relación)Continuidad, secuencia, comparación o equivalencia entre elementos. (Densidad)Cantidad, extensión y prioridad de la información. (Formato)Dimensiones, proporciones y condiciones de publicación. (Invariantes)No todas las páginas tienen que verse diferentes, pero ninguna composición se repite automáticamente cuando existe una solución más apropiada para el contenido. Normas específicas: retículas en KYN-MRK-ESP-004, jerarquía y densidad en KYN-MRK-ESP-005 y tipografía en KYN-MRK-TYP-002. Los ejemplos completos están en 10.7.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -560,6 +565,11 @@
      "aprobada": "2026-10-30",
      "huella": "aef0c224fe12c542",
      "nota": "commit 8747573"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "029e54be28853c74",
+     "nota": "Ronda 17: selector global de libros, cabecera sin hamburguesa, Guía de la Biblioteca, ESP-006 integrada en 10.1 y 10.7, DAT-001, DAT-002 y ajustes visuales"
     }
    ]
   },
@@ -578,19 +588,24 @@
   "fundamentos/composicion/editorial.html#diagramas": {
    "estado": "vigente",
    "id": "KYN-MRK-ESP-007",
-   "texto": "Diagramas de información Ordenar ideas, no medirlas Los diagramas permiten explicar relaciones entre ideas, etapas, áreas o componentes. Su geometría debe corresponder a la relación representada: secuencia, agrupación, jerarquía, inclusión o conexión. Los círculos, arcos y anillos son recursos disponibles, no soluciones obligatorias para cualquier contenido. (Proceso)Círculos que crecenFases que nacen del mismo punto: cada una contiene a la anterior. La línea baja desde el nombre de la fase y una estrella marca dónde toca su círculo.Entenderla operación01Construircon su equipo02Mediry mejorar03(Avance)Zonas que crecenCírculos que nacen del mismo borde; cada zona contiene a la anterior. Las etiquetas salen arriba y abajo, nunca a los lados.Uso básicoPrimeras pruebasIA integradaOperación transformada(Niveles)Esferas de madurezDel nivel difuso al nítido: la claridad crece con la madurez. Una estrella marca dónde está hoy.1Inicial2Explora3Define4Integra5OptimizaSu empresa hoy(Relaciones)Arcos de métodoFases que se superponen sobre una misma línea de trabajo.RelaciónDiagnósticoComprensiónPlaneaciónConstrucciónAcompañamientoEvoluciónInmersiónEstrategiaProyectoSoporte(Alcance)Círculos de alcanceCírculos apoyados en un mismo punto, del más cercano al más amplio, con su nombre al costado.Su sectorSu empresaSu equipo(Contexto)Anillos de contextoUn tema dentro de los anillos que lo rodean, del más cercano al más amplio, con una idea al centro.CulturaGobierno de datosProcesosPersonasHerramientasLa IA no opera aislada:es parte de toda la operación,no una pieza aparte. (Uso)Se utilizan cuando una representación visual permite comprender relaciones que resultarían difíciles de comunicar únicamente mediante texto. Cuando el contenido contiene valores medidos, se elige una visualización cuantitativa adecuada, conforme al capítulo 13, Datos. (Construcción)Utilizar trazos precisos, continuos y uniformes, con contraste y etiquetas legibles. Los recursos de énfasis se incorporan cuando ayudan a interpretar el contenido. No es obligatorio utilizar estrellas, círculos o indicadores decorativos.Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso. (Ejemplos)Los diagramas que presentan etapas o duraciones no deben interpretarse automáticamente como fases oficiales de la metodología Prisma o compromisos de ejecución. Si un ejemplo representa una metodología oficial, debe coincidir con su documentación vigente. 01 · Diagnóstico · 2 a 4 semanas|Entender la operación 02 · Diseño · 4 a 8 semanas|Construir con su equipo 03 · Evolución · continua|Medir y mejorar Zona 1|Uso básico Zona 2|Primeras pruebas Zona 3|IA integrada Zona 4|Operación transformada Nivel 1 · Inicial|Tareas manuales y dispersas Nivel 2 · Explora|Primeras pruebas con IA Nivel 3 · Define|Procesos documentados Nivel 4 · Integra|IA en el trabajo diario Nivel 5 · Optimiza|Mejora continua medida Inmersión|Diagnóstico y comprensión Estrategia|Comprensión y planeación Proyecto|De la planeación al acompañamiento Soporte|Acompañamiento y evolución Cultura|Anillo 1 Gobierno de datos|Anillo 1 Procesos|Anillo 2 Personas|Anillo 2 Herramientas|Anillo 3",
+   "texto": "Diagramas de información Ordenar ideas, no medirlas Los diagramas permiten explicar relaciones entre ideas, etapas, áreas o componentes. Su geometría debe corresponder a la relación representada: secuencia, agrupación, jerarquía, inclusión o conexión. Los círculos, arcos y anillos son recursos disponibles, no soluciones obligatorias para cualquier contenido. (Proceso)Círculos que crecenFases que nacen del mismo punto: cada una contiene a la anterior. La línea baja desde el nombre de la fase y una estrella marca dónde toca su círculo.Entenderla operación01Construircon su equipo02Mediry mejorar03(Avance)Zonas que crecenCírculos que nacen del mismo borde; cada zona contiene a la anterior. Las etiquetas salen arriba y abajo, nunca a los lados.Uso básicoPrimeras pruebasIA integradaOperación transformada(Niveles)Esferas de madurezDel nivel difuso al nítido: la claridad crece con la madurez. Una estrella marca dónde está hoy.1Inicial2Explora3Define4Integra5OptimizaSu empresa hoy(Relaciones)Arcos de métodoFases que se superponen sobre una misma línea de trabajo.RelaciónDiagnósticoComprensiónPlaneaciónConstrucciónAcompañamientoEvoluciónInmersiónEstrategiaProyectoSoporte(Alcance)Círculos de alcanceCírculos apoyados en un mismo punto, del más cercano al más amplio, con su nombre al costado.Su sectorSu empresaSu equipo(Contexto)Anillos de contextoUn tema dentro de los anillos que lo rodean, del más cercano al más amplio, con una idea al centro.CulturaGobierno de datosProcesosPersonasHerramientasLa IA no opera aislada:es parte de toda la operación,no una pieza aparte. (Uso)Se utilizan cuando una representación visual permite comprender relaciones que resultarían difíciles de comunicar únicamente mediante texto. Cuando el contenido contiene valores medidos, se elige una visualización cuantitativa adecuada, conforme al capítulo 13, Datos. (Construcción)Utilizar trazos precisos, continuos y uniformes, con contraste y etiquetas legibles. Los recursos de énfasis se incorporan cuando ayudan a interpretar el contenido. No es obligatorio utilizar estrellas, círculos o indicadores decorativos.Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso. 01 · Diagnóstico · 2 a 4 semanas|Entender la operación 02 · Diseño · 4 a 8 semanas|Construir con su equipo 03 · Evolución · continua|Medir y mejorar Zona 1|Uso básico Zona 2|Primeras pruebas Zona 3|IA integrada Zona 4|Operación transformada Nivel 1 · Inicial|Tareas manuales y dispersas Nivel 2 · Explora|Primeras pruebas con IA Nivel 3 · Define|Procesos documentados Nivel 4 · Integra|IA en el trabajo diario Nivel 5 · Optimiza|Mejora continua medida Inmersión|Diagnóstico y comprensión Estrategia|Comprensión y planeación Proyecto|De la planeación al acompañamiento Soporte|Acompañamiento y evolución Cultura|Anillo 1 Gobierno de datos|Anillo 1 Procesos|Anillo 2 Personas|Anillo 2 Herramientas|Anillo 3",
    "versiones": [
     {
      "aprobada": "2026-11-03",
      "huella": "3abd69ab81ffb282",
      "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "39f2ead73bef3828",
+     "nota": "Ronda 17: selector global de libros, cabecera sin hamburguesa, Guía de la Biblioteca, ESP-006 integrada en 10.1 y 10.7, DAT-001, DAT-002 y ajustes visuales"
     }
    ]
   },
   "fundamentos/composicion/editorial.html#ejemplos": {
    "estado": "sin ID",
    "id": null,
-   "texto": "Ejemplos de aplicación Cuatro piezas, cuatro estructuras",
+   "texto": "Ejemplos de aplicación Tres casos, tres estructuras Tres casos completos muestran cómo el contenido decide la retícula, el espacio y la jerarquía. AComparación de alternativasCaso: situación actual frente a propuesta. Diagnóstico · Cierre contable mensual El cierre pasa de nueve días a tres Situación actual Duración del cierre9 díasSistemas involucrados4ConciliaciónManualRevisión finalAl terminar Propuesta Duración del cierre3 díasSistemas involucrados1 flujoConciliaciónAsistidaRevisión finalContinua Ejemplo ilustrativo. Fuente: diagnóstico operativo, cifras de muestra. Retícula12 columnas: dos bloques de 6 con medianil de 24 px (--gap).Separaciones16 px entre filas (--s4), 32 px entre título y bloques (--s8), 48 px antes de la fuente (--s12).JerarquíaTitular Plus Jakarta Sans 30 a 44 px, 500; criterio 13 px en gris 3; valor 20 px, 500, Azul Noche.AlineaciónLos mismos criterios, en el mismo orden y a la misma altura en ambas columnas.AdaptaciónMenos de 760 px: la propuesta pasa debajo de la situación actual y conserva el orden de los criterios.ComprobaciónCada diferencia se lee en una sola fila; unidades y escalas equivalentes; la propuesta se distingue sin depender solo del color. BSecuencia PrismaCaso: Amanecer, Mediodía, Atardecer, Anochecer y Galaxia. 01Amanecer02Mediodía03Atardecer04Anochecer05Galaxia Las descripciones de cada fase se toman de la documentación oficial de Prisma. RetículaCinco columnas iguales sobre el ancho del contenido; medianil de 12 px (--gap-list).Separaciones16 px entre muestra y número, 4 px entre número y nombre, 8 px entre nombre y descripción.ContinuidadUna línea de 1 px en Azul Cielo 200 une las fases a la altura de los números.JerarquíaNúmero 13 px en gris 3; nombre 18 px, 500, Azul Noche; descripción 15 px en gris 2.AdaptaciónMenos de 760 px: la secuencia se vuelve vertical y la línea de continuidad pasa al costado izquierdo.ComprobaciónEl orden se lee sin numeración adicional; las cinco fases tienen la misma proporción; los nombres coinciden con la documentación vigente. CDocumento de lectura extensaCaso: informe de investigación de Keyons. Informe de investigación · 2026 Cómo trabajan los equipos de operaciones Quince entrevistas muestran dónde se pierde el tiempo y qué tareas pueden cambiar primero. 01 · Hallazgos Las tareas que más tiempo consumen no son las más complejas, sino las que se repiten entre sistemas. El equipo copia datos, valida cifras y corrige formatos antes de poder analizar. Cuando la información llega ordenada, la revisión se concentra en las excepciones y el cierre se adelanta. 02 · Recomendaciones Empezar por los flujos de mayor repetición y medir cada cambio con el mismo indicador. NotaEntrevistas realizadas entre marzo y mayo.MétodoObservación de tareas y registro de tiempos. Retícula12 columnas: 8 para la lectura y 4 para notas; columna de lectura de hasta 600 px.Separaciones16 px entre párrafos (--s4), 48 px antes de cada sección (--s12), 32 px entre titular y entrada (--s8).JerarquíaTitular 30 a 44 px, 500; entrada 18 a 20 px; sección 18 px, 500; cuerpo 16 a 17 px con interlineado 1,65; notas 13 px en gris 3.LecturaEntre 55 y 75 caracteres por línea; alineación a la izquierda; sin cortes de palabra.AdaptaciónMenos de 760 px: las notas pasan debajo del párrafo que acompañan y la columna ocupa todo el ancho.ComprobaciónCada sección se identifica de un vistazo; la línea no supera 75 caracteres; las notas no interrumpen la lectura principal.",
    "versiones": [
     {
      "aprobada": "2026-11-03",
@@ -601,6 +616,11 @@
      "aprobada": "2026-11-03",
      "huella": "acbe93e7823cd961",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "0d19a9849edc7803",
+     "nota": "Ronda 17: selector global de libros, cabecera sin hamburguesa, Guía de la Biblioteca, ESP-006 integrada en 10.1 y 10.7, DAT-001, DAT-002 y ajustes visuales"
     }
    ]
   },
@@ -1268,36 +1288,51 @@
   "fundamentos/datos/graficos.html#estructura": {
    "estado": "vigente",
    "id": "KYN-MRK-DAT-005",
-   "texto": "Estructura Siete partes antes de publicar Un número sin contexto es un dato suelto. Cada gráfico lleva estas siete partes; toque un número para ver la suya. 1Las tareas repetitivas bajaron un 38 % en seis meses 2(Horas por persona · Enero a junio 2026) 3−38 % EneFebMarAbrMayJunMeta: 27 hMeta cumplida6 4Fuente: Diagnóstico Keyons, 15 entrevistas, 2026 562 personas: todo el equipo de operaciones 7 01Título que afirmaLa conclusión, no el tema.02Unidad y períodoQué se mide y cuándo.03CifraEl dato protagonista, uno solo.04FuenteQuién lo midió y con qué alcance.05Nota humanaLas personas detrás del número.06ReferenciaMeta, promedio o año anterior.07FirmaEl isotipo, en la esquina inferior derecha. Keyons vende diagnóstico y rigor: sus gráficos también. Enero|39 h Febrero|36 h Marzo|33 h Abril|30 h Mayo|28 h Junio|24 h · meta cumplida",
+   "texto": "Estructura Siete partes antes de publicar Un número sin contexto es un dato suelto. Cada gráfico lleva estas siete partes; toque un número para ver la suya. 1Las tareas repetitivas bajaron un 38 % en seis meses 2(Horas por persona · Enero a junio 2026) 3−38 % EneFebMarAbrMayJunMeta: 27 hMeta cumplida6 4Fuente: Diagnóstico Keyons, 15 entrevistas, 2026 562 personas: todo el equipo de operaciones 7 01Título que afirmaLa conclusión, no el tema.02Unidad y períodoQué se mide y cuándo.03CifraEl dato protagonista, uno solo.04FuenteQuién lo midió y con qué alcance.05Nota humanaLas personas detrás del número.06ReferenciaMeta, promedio o año anterior.07FirmaEl isotipo, en la esquina inferior derecha. Gráficos en presentaciones Cada diapositiva de datos debe tener una conclusión o una pregunta reconocible. El gráfico dispone del espacio suficiente para mantener la lectura de ejes, categorías y valores. (Retícula)Organiza titular, gráfico, dato destacado, fuente y contexto complementario. (Aplicaciones)Comparaciones entre alternativas, indicadores de negocio, evolución, resultados de investigación, diagnósticos y proyecciones claramente identificadas. (Expresión)Una diapositiva expresiva puede dar gran protagonismo a una cifra mediante TASA Orbiter, color y espacio. Las representaciones estadísticas conservan sus proporciones y escalas.La identidad Keyons se construye con jerarquía, retícula, tipografía, color y recursos gráficos aplicados con criterio. Keyons vende diagnóstico y rigor: sus gráficos también. Enero|39 h Febrero|36 h Marzo|33 h Abril|30 h Mayo|28 h Junio|24 h · meta cumplida",
    "versiones": [
     {
      "aprobada": "2026-10-29",
      "huella": "c0971e82522e6190",
      "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "f2900c662ce80ec6",
+     "nota": "Ronda 17: selector global de libros, cabecera sin hamburguesa, Guía de la Biblioteca, ESP-006 integrada en 10.1 y 10.7, DAT-001, DAT-002 y ajustes visuales"
     }
    ]
   },
   "fundamentos/datos/graficos.html#paleta": {
    "estado": "vigente",
    "id": "KYN-MRK-DAT-002",
-   "texto": "Sistema cromático Tres paletas, nunca mezcladas Cada gráfico usa una sola de tres paletas: la base, una monocromática o la suave. Al tocar un color se copia su código. (Paleta base)Los cuatro colores de la marca, para distinguir hasta cuatro series. Salmón nunca va sobre Azul Cielo.#729BDD#10122A#CE635D#E99D9E (Monocromáticas)Un solo tono de la paleta base, del claro al profundo en pasos parejos. Lo más claro es lo más bajo o lo más antiguo. La de Azul Cielo es la de uso diario.#CDD9ED#A6BFE6#729BDD#506B9E#324269#ECD7D6#E99D9E#CE635D#8C474B#532E33#DDDDE0#BBBCC1#82838F#494A5D#10122A (Paleta suave)Los tonos de los badges, para categorías sin orden y para estados. Siempre con texto y bordes en Azul Noche; con más de cinco categorías se agrupan en «Otros».#C6D5EC#D5E0D2#F4E8C1#F0D0CB#D9D6ED#F5D8B8#E0E1E5 (Destacar)En cualquiera de las tres, el dato clave va en el tono más intenso y el resto en gris suave. Sobre Azul Noche, el protagonista es Salmón Atardecer. Nunca arcoíris, neón ni el verde y rojo de semáforo.",
+   "texto": "Sistema cromático Tres paletas, según el significado Las paletas se organizan según el significado de los datos: categórica, secuencial y divergente. Estas tres familias responden a funciones estadísticas diferentes. Las fuentes cromáticas proceden de la paleta corporativa y sus escalas, complementadas por colores funcionales autorizados cuando corresponda. Esta organización amplía la clasificación histórica «paleta base, monocromática y suave»: la clasificación histórica describe familias de colores; la nueva describe para qué se utiliza cada familia. Colores corporativos disponibles (Color)ReferenciaFunciónAzul Noche#10122ATexto, estructura, fondos profundos y contrastesBlanco Keyons#F4F4F4Fondo, espacio negativo y superficies clarasAzul Cielo#729BDDAcento principal y color protagonistaSalmón Tierra#CE635DContraste cálido y categorías destacadasSalmón Atardecer#E99D9EAcento claro sobre Azul Noche Condiciones cromáticas (Azul Cielo)Es el color principal de referencia para gráficos corporativos.Su escala funcional se organiza del 100 al 900, con base 500 en #729BDD. Utilizar la escala oficial existente en el proyecto.Los tonos claros y oscuros permiten representar magnitudes, relaciones y jerarquías según el contexto. (Azul Noche)Proporciona estructura, legibilidad y contraste.Se utiliza para texto principal, títulos, cifras, ejes, contornos y superficies oscuras cuando corresponde. (Salmón Tierra)Es el salmón oscuro. Puede destacar una categoría o establecer un contraste cálido entre series.Su significado cromático debe conservarse independiente de los estados desfavorables. NO DEBE utilizarse para comunicar por sí mismo errores, pérdidas, resultados negativos o alertas críticas. (Salmón Atardecer)Es el salmón claro. Su aplicación característica es sobre Azul Noche, donde consigue una relación de contraste adecuada.Es una opción para destacar cifras protagonistas y elementos expresivos en composiciones oscuras. Paleta categórica Para distinguir series sin orden entre sí. Parte de la paleta base corporativa. #729BDD#10122A#CE635D#E99D9E Paleta secuencial Para magnitudes ordenadas, del claro al profundo en pasos parejos. La de Azul Cielo es la de uso diario. #CDD9ED#A6BFE6#729BDD#506B9E#324269#ECD7D6#E99D9E#CE635D#8C474B#532E33#DDDDE0#BBBCC1#82838F#494A5D#10122A Paleta divergente Azul Cielo, Azul Noche, Lavanda, Blanco Keyons, Amarillo claro de los cielos, Ámbar de los cielos, Salmón Tierra y Salmón Atardecer. #729BDD#10122A#B2BFE5#F4F4F4#FFEBB1#FFCE86#CE635D#E99D9E Orden de representación: #729BDD → #B2BFE5 → #F4F4F4 → #FFEBB1 → #FFCE86 Esta combinación conserva la relación entre los azules de la identidad y los tonos cálidos de los cielos. Los dos extremos representan direcciones diferentes respecto al centro. Su significado depende de los datos y se comunica mediante etiquetas y unidades. (DEBE · Referencia central)Cada gráfico divergente identifica el valor que separa las dos direcciones de variación. (DEBE · Orden cromático)La progresión respeta el orden de la escala y mantiene una correspondencia consistente con los intervalos numéricos representados. (DEBE · Contraste)Los textos, cifras y elementos funcionales se presentan con el contraste requerido para su lectura. Azul Noche es la referencia tipográfica sobre los tonos complementarios claros. (PUEDE · Expresión editorial)Las ilustraciones e infografías pueden utilizar estos colores con mayor libertad compositiva, conservando los significados estadísticos cuando representan datos. Aplicaciones (Gráficos corporativos)Utilizar la paleta divergente para desviaciones, diferencias respecto a referencias y variaciones bidireccionales. (Informes y presentaciones)La composición puede destacar los extremos y la referencia central mediante tipografía, espacio, posición y valores numéricos. (Infografías)La paleta puede expresar relaciones entre dos condiciones, manteniendo información suficiente para comprender las diferencias. (Ilustraciones)Los colores complementarios de los cielos pueden utilizarse en composiciones expresivas, de acuerdo con las normas de identidad visual Keyons. (Dashboards)El Sistema de Diseño establecerá su implementación técnica, adaptación responsive, tokens, leyendas, estados y accesibilidad. Colores semánticos Los colores semánticos pertenecen a estados como éxito, advertencia, error, información y estado crítico. La paleta semántica se utiliza para comunicar estados, mientras que las paletas estadísticas representan categorías, magnitudes y diferencias. Para pérdidas, errores y resultados desfavorables se utiliza el color semántico correspondiente, acompañándolo de texto, símbolo o indicador explícito. La definición técnica de esos colores procede del catálogo semántico oficial del proyecto (KYN-MRK-COL-014). #C6D5EC#D5E0D2#F4E8C1#F0D0CB#D9D6ED#F5D8B8#E0E1E5",
    "versiones": [
     {
      "aprobada": "2026-10-29",
      "huella": "f6d9c331faa4fb52",
      "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "ae4fdf02292b5225",
+     "nota": "Ronda 17: selector global de libros, cabecera sin hamburguesa, Guía de la Biblioteca, ESP-006 integrada en 10.1 y 10.7, DAT-001, DAT-002 y ajustes visuales"
     }
    ]
   },
   "fundamentos/datos/graficos.html#principios": {
    "estado": "vigente",
    "id": "KYN-MRK-DAT-001",
-   "texto": "Principios Siete reglas sin excepción Los datos son evidencia, no adorno. Las reglas vienen de Edward Tufte, Dona Wong, Alberto Cairo y Giorgia Lupi, adaptadas a Keyons. 01El dato manda sobre el diseñoTodo lo que no comunica un dato se elimina. Si al borrarlo el gráfico dice lo mismo, sobraba. 02Nunca 3DSiempre planos: sin perspectiva, sin brillos ni sombras. 03Un gráfico, un mensajeUn dato protagonista con el mayor peso visual. Tres mensajes son tres gráficos. 04Honestidad geométricaEscalas sin truncar, círculos escalados por área y una misma escala al comparar. 05El gráfico correctoCada tipo de dato tiene su forma. Donut y radar no se usan. 06Color con propósitoDistinguir, ordenar, destacar o indicar estado. Rara vez más de cinco colores. 07Contexto obligatorioTítulo que afirma, unidad, período y fuente; referencia y nota cuando aplican. Detrás de cada número hay personas: el gráfico lo recuerda, no lo decora.",
+   "texto": "Principios Exactitud, claridad y utilidad Los gráficos Keyons convierten información en conocimiento comprensible. Cada decisión visual tiene una función Facilitar comparaciones.Mostrar cambios.Comunicar proporciones.Explicar relaciones.Identificar patrones.Destacar resultados.Mostrar avances.Hacer visibles las diferencias entre una situación actual y otra propuesta. La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual. Reglas fundamentales (DEBE · Integridad de los datos)La representación visual conserva las proporciones y relaciones reales de la información. (DEBE · Escalas adecuadas)Las barras de magnitud parten de cero. Las líneas y otras representaciones utilizan escalas que permiten interpretar correctamente las variaciones, con límites visibles y contexto suficiente. (DEBE · Contexto verificable)Cada visualización identifica qué representa, sus unidades, su período y su fuente cuando corresponda. (DEBE · Comparabilidad)Los gráficos utilizados para comparar alternativas mantienen criterios, unidades y escalas equivalentes. (DEBERÍA · Prioridad informativa)Cada gráfico comunica una conclusión principal o facilita responder una pregunta concreta. (PUEDE · Expresión visual)La identidad Keyons puede expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conserve la precisión de los datos. Detrás de cada número hay personas: el gráfico lo recuerda, no lo decora.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
      "huella": "d35a19a9be906ff7",
      "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "f748ba5df55424a8",
+     "nota": "Ronda 17: selector global de libros, cabecera sin hamburguesa, Guía de la Biblioteca, ESP-006 integrada en 10.1 y 10.7, DAT-001, DAT-002 y ajustes visuales"
     }
    ]
   },
@@ -1794,7 +1829,7 @@
   "fundamentos/iconografia/iconos.html#vis-008": {
    "estado": "vigente",
    "id": "KYN-MRK-VIS-008",
-   "texto": "Iconografía de relleno Un ícono tiene que ayudar a entender No introducir íconos únicamente para decorar textos o títulos. Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada. Nuestra visiónCrecimientoProcesos(Uso incorrecto)Un ícono genérico junto a cada titular Una bombilla, un cohete o un engranaje que no dicen nada del contenido. Descargar PDFAcciónVigenteEstadoPlantilla de propuestaCategoría(Alternativa mejor)Un ícono con función El ícono identifica una acción, un estado o una categoría.",
+   "texto": "Iconografía de relleno Un ícono tiene que ayudar a entender No introducir íconos únicamente para decorar textos o títulos. Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada. Nuestra visiónCrecimientoProcesos(Uso incorrecto)Un ícono genérico junto a cada titular Una bombilla, un cohete o un engranaje que no dicen nada del contenido. Descargar diagnósticoAcciónNorma vigenteEstadoPropuesta comercialCategoría(Alternativa mejor)Un ícono con función El ícono identifica una acción, un estado o una categoría.",
    "versiones": [
     {
      "aprobada": "2026-11-03",
@@ -1815,6 +1850,11 @@
      "aprobada": "2026-11-04",
      "huella": "cb47e5b250d99842",
      "nota": "Ronda 15: enunciados en párrafos con lo esencial destacado, sin ejemplos en VIS-003/004/009/016, guía de patrones (ESP-006), menús y Leer más limpios, nubes en encabezados, prueba de diagramación en el Sistema de Diseño"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "7bceacdd8f6e576e",
+     "nota": "Ronda 17: selector global de libros, cabecera sin hamburguesa, Guía de la Biblioteca, ESP-006 integrada en 10.1 y 10.7, DAT-001, DAT-002 y ajustes visuales"
     }
    ]
   },

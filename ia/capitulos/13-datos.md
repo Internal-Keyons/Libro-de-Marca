@@ -9,7 +9,7 @@ area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/datos/graficos.html"]
 normas: ["KYN-MRK-DAT-001", "KYN-MRK-DAT-002", "KYN-MRK-DAT-003", "KYN-MRK-DAT-004", "KYN-MRK-DAT-005"]
-referencias: ["KYN-MRK-DAT-001", "KYN-MRK-DAT-002", "KYN-MRK-DAT-003", "KYN-MRK-DAT-004", "KYN-MRK-DAT-005"]
+referencias: ["KYN-MRK-COL-014", "KYN-MRK-DAT-001", "KYN-MRK-DAT-002", "KYN-MRK-DAT-003", "KYN-MRK-DAT-004", "KYN-MRK-DAT-005"]
 ---
 
 # Capítulo 13 · Datos y visualización
@@ -36,37 +36,42 @@ Hacer visible lo que importa, sin decorarlo.
 
 Número: 13.1 · ID: `KYN-MRK-DAT-001` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#principios`
 
-### Siete reglas sin excepción
+### Exactitud, claridad y utilidad
 
-Los datos son evidencia, no adorno. Las reglas vienen de **Edward Tufte, Dona Wong, Alberto Cairo y Giorgia Lupi**, adaptadas a Keyons.
+Los gráficos Keyons convierten información en **conocimiento comprensible**.
 
-01
-El dato manda sobre el diseño
-Todo lo que no comunica un dato se elimina. Si al borrarlo el gráfico dice lo mismo, sobraba.
+#### Cada decisión visual tiene una función
 
-02
-Nunca 3D
-Siempre planos: sin perspectiva, sin brillos ni sombras.
+- Facilitar comparaciones.
+- Mostrar cambios.
+- Comunicar proporciones.
+- Explicar relaciones.
+- Identificar patrones.
+- Destacar resultados.
+- Mostrar avances.
+- Hacer visibles las diferencias entre una situación actual y otra propuesta.
 
-03
-Un gráfico, un mensaje
-Un dato protagonista con el mayor peso visual. Tres mensajes son tres gráficos.
+La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual.
 
-04
-Honestidad geométrica
-Escalas sin truncar, círculos escalados por área y una misma escala al comparar.
+#### Reglas fundamentales
 
-05
-El gráfico correcto
-Cada tipo de dato tiene su forma. Donut y radar no se usan.
+**(DEBE · Integridad de los datos)**
+La representación visual conserva las proporciones y relaciones reales de la información.
 
-06
-Color con propósito
-Distinguir, ordenar, destacar o indicar estado. Rara vez más de cinco colores.
+**(DEBE · Escalas adecuadas)**
+Las barras de magnitud parten de cero. Las líneas y otras representaciones utilizan escalas que permiten interpretar correctamente las variaciones, con límites visibles y contexto suficiente.
 
-07
-Contexto obligatorio
-Título que afirma, unidad, período y fuente; referencia y nota cuando aplican.
+**(DEBE · Contexto verificable)**
+Cada visualización identifica qué representa, sus unidades, su período y su fuente cuando corresponda.
+
+**(DEBE · Comparabilidad)**
+Los gráficos utilizados para comparar alternativas mantienen criterios, unidades y escalas equivalentes.
+
+**(DEBERÍA · Prioridad informativa)**
+Cada gráfico comunica una conclusión principal o facilita responder una pregunta concreta.
+
+**(PUEDE · Expresión visual)**
+La identidad Keyons puede expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conserve la precisión de los datos.
 
 Detrás de cada número hay personas: el gráfico lo recuerda, no lo decora.
 
@@ -74,26 +79,93 @@ Detrás de cada número hay personas: el gráfico lo recuerda, no lo decora.
 
 Número: 13.2 · ID: `KYN-MRK-DAT-002` · Estado: vigente · Fuente: `/fundamentos/datos/graficos.html#paleta`
 
-### Tres paletas, nunca mezcladas
+### Tres paletas, según el significado
 
-Cada gráfico usa **una sola de tres paletas**: la base, una monocromática o la suave. Al tocar un color se copia su código.
+Las paletas se organizan según el significado de los datos: **categórica, secuencial y divergente**. Estas tres familias responden a funciones estadísticas diferentes.
 
-**(Paleta base)**
+Las fuentes cromáticas proceden de la paleta corporativa y sus escalas, complementadas por colores funcionales autorizados cuando corresponda. Esta organización amplía la clasificación histórica «paleta base, monocromática y suave»: la clasificación histórica describe familias de colores; la nueva describe para qué se utiliza cada familia.
 
-Los cuatro colores de la marca, para distinguir hasta cuatro series. Salmón nunca va sobre Azul Cielo.
+#### Colores corporativos disponibles
 
-**(Monocromáticas)**
+| (Color) | Referencia | Función |
+|---|---|---|
+| Azul Noche | #10122A | Texto, estructura, fondos profundos y contrastes |
+| Blanco Keyons | #F4F4F4 | Fondo, espacio negativo y superficies claras |
+| Azul Cielo | #729BDD | Acento principal y color protagonista |
+| Salmón Tierra | #CE635D | Contraste cálido y categorías destacadas |
+| Salmón Atardecer | #E99D9E | Acento claro sobre Azul Noche |
 
-Un solo tono de la paleta base, del claro al profundo en pasos parejos. Lo más claro es lo más bajo o lo más antiguo. La de Azul Cielo es la de uso diario.
+#### Condiciones cromáticas
 
-**(Paleta suave)**
+**(Azul Cielo)**
+Es el color principal de referencia para gráficos corporativos.
+Su escala funcional se organiza del 100 al 900, con base 500 en #729BDD. Utilizar la escala oficial existente en el proyecto.
+Los tonos claros y oscuros permiten representar magnitudes, relaciones y jerarquías según el contexto.
 
-Los tonos de los badges, para categorías sin orden y para estados. Siempre con texto y bordes en Azul Noche; con más de cinco categorías se agrupan en «Otros».
+**(Azul Noche)**
+Proporciona estructura, legibilidad y contraste.
+Se utiliza para texto principal, títulos, cifras, ejes, contornos y superficies oscuras cuando corresponde.
 
-**(Destacar)**
-En cualquiera de las tres, el dato clave va en el tono más intenso y el resto en gris suave. Sobre Azul Noche, el protagonista es Salmón Atardecer.
+**(Salmón Tierra)**
+Es el salmón oscuro. Puede destacar una categoría o establecer un contraste cálido entre series.
+Su significado cromático debe conservarse independiente de los estados desfavorables. NO DEBE utilizarse para comunicar por sí mismo errores, pérdidas, resultados negativos o alertas críticas.
 
-Nunca arcoíris, neón ni el verde y rojo de semáforo.
+**(Salmón Atardecer)**
+Es el salmón claro. Su aplicación característica es sobre Azul Noche, donde consigue una relación de contraste adecuada.
+Es una opción para destacar cifras protagonistas y elementos expresivos en composiciones oscuras.
+
+#### Paleta categórica
+
+Para distinguir series sin orden entre sí. Parte de la paleta base corporativa.
+
+#### Paleta secuencial
+
+Para magnitudes ordenadas, del claro al profundo en pasos parejos. La de Azul Cielo es la de uso diario.
+
+#### Paleta divergente
+
+Azul Cielo, Azul Noche, Lavanda, Blanco Keyons, Amarillo claro de los cielos, Ámbar de los cielos, Salmón Tierra y Salmón Atardecer.
+
+> Recurso visual: Figura: «Orden de representación de la paleta divergente»
+
+Orden de representación: #729BDD → #B2BFE5 → #F4F4F4 → #FFEBB1 → #FFCE86
+
+Esta combinación conserva la relación entre los azules de la identidad y los tonos cálidos de los cielos. Los dos extremos representan direcciones diferentes respecto al centro. Su significado depende de los datos y se comunica mediante etiquetas y unidades.
+
+**(DEBE · Referencia central)**
+Cada gráfico divergente identifica el valor que separa las dos direcciones de variación.
+
+**(DEBE · Orden cromático)**
+La progresión respeta el orden de la escala y mantiene una correspondencia consistente con los intervalos numéricos representados.
+
+**(DEBE · Contraste)**
+Los textos, cifras y elementos funcionales se presentan con el contraste requerido para su lectura. Azul Noche es la referencia tipográfica sobre los tonos complementarios claros.
+
+**(PUEDE · Expresión editorial)**
+Las ilustraciones e infografías pueden utilizar estos colores con mayor libertad compositiva, conservando los significados estadísticos cuando representan datos.
+
+#### Aplicaciones
+
+**(Gráficos corporativos)**
+Utilizar la paleta divergente para desviaciones, diferencias respecto a referencias y variaciones bidireccionales.
+
+**(Informes y presentaciones)**
+La composición puede destacar los extremos y la referencia central mediante tipografía, espacio, posición y valores numéricos.
+
+**(Infografías)**
+La paleta puede expresar relaciones entre dos condiciones, manteniendo información suficiente para comprender las diferencias.
+
+**(Ilustraciones)**
+Los colores complementarios de los cielos pueden utilizarse en composiciones expresivas, de acuerdo con las normas de identidad visual Keyons.
+
+**(Dashboards)**
+El Sistema de Diseño establecerá su implementación técnica, adaptación responsive, tokens, leyendas, estados y accesibilidad.
+
+#### Colores semánticos
+
+Los colores semánticos pertenecen a estados como éxito, advertencia, error, información y estado crítico. La paleta semántica se utiliza para comunicar estados, mientras que las paletas estadísticas representan categorías, magnitudes y diferencias.
+
+Para pérdidas, errores y resultados desfavorables se utiliza el color semántico correspondiente, acompañándolo de texto, símbolo o indicador explícito. La definición técnica de esos colores procede del catálogo semántico oficial del proyecto (KYN-MRK-COL-014).
 
 ## KYN-MRK-DAT-003 · 13.3 Tipografía en gráficos
 
@@ -269,5 +341,19 @@ Fuente: Diagnóstico Keyons, 15 entrevistas, 2026
 5. 05 · **Nota humana** · Las personas detrás del número.
 6. 06 · **Referencia** · Meta, promedio o año anterior.
 7. 07 · **Firma** · El isotipo, en la esquina inferior derecha.
+
+#### Gráficos en presentaciones
+
+Cada diapositiva de datos debe tener una conclusión o una pregunta reconocible. El gráfico dispone del espacio suficiente para mantener la lectura de ejes, categorías y valores.
+
+**(Retícula)**
+Organiza titular, gráfico, dato destacado, fuente y contexto complementario.
+
+**(Aplicaciones)**
+Comparaciones entre alternativas, indicadores de negocio, evolución, resultados de investigación, diagnósticos y proyecciones claramente identificadas.
+
+**(Expresión)**
+Una diapositiva expresiva puede dar gran protagonismo a una cifra mediante TASA Orbiter, color y espacio. Las representaciones estadísticas conservan sus proporciones y escalas.
+La identidad Keyons se construye con jerarquía, retícula, tipografía, color y recursos gráficos aplicados con criterio.
 
 Keyons vende diagnóstico y rigor: sus gráficos también.

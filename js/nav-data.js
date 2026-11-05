@@ -81,16 +81,20 @@ window.KEYONS_NAV = [
         { t: 'Etiquetas de contexto', st: 'Etiquetas', s: 'b', href: 'fundamentos/tipografia/sistema.html#kickers' },
         { t: 'Criterios de aplicación', st: 'Criterios', s: 'b', href: 'fundamentos/tipografia/sistema.html#reglas' }, { t: 'Uso por función', s: 'v', href: 'fundamentos/tipografia/sistema.html#funcion' }, { t: 'Tracking y espaciado de letras', st: 'Tracking', s: 'b', href: 'fundamentos/tipografia/sistema.html#tracking' }, { t: 'Tipografía para impresión', st: 'Impresión', s: 'b', href: 'fundamentos/tipografia/sistema.html#impreso' } ] },
       { n: '09', k: 'forma', was: '08', t: 'Geometría y espacio', st: 'Geometría y espacio', s: 'v', d: 'El lenguaje geométrico de Keyons: esquinas, radios y espacio.', items: [
-        { t: 'Lenguaje geométrico Keyons', st: 'Lenguaje geométrico', s: 'v', href: 'fundamentos/forma/espacio.html#esquinas' },
+        { sub: 'Geometría' },
+        { t: 'Lenguaje geométrico Keyons', st: 'Lenguaje', s: 'v', href: 'fundamentos/forma/espacio.html#esquinas' },
         { t: 'Sistema de radios y curvaturas', st: 'Radios y curvaturas', s: 'v', href: 'fundamentos/forma/espacio.html#radios' },
-        { t: 'Sistema de espaciado', st: 'Espaciado', s: 'v', href: 'fundamentos/forma/espacio.html#espaciado' } ] },
+        { t: 'Proporciones', s: 'p' },
+        { sub: 'Espacio y ritmo' },
+        { t: 'Sistema de espaciado', st: 'Espaciado', s: 'v', href: 'fundamentos/forma/espacio.html#espaciado' },
+        { t: 'Contenedores', s: 'p' },
+        { t: 'Elevación', s: 'p' } ] },
       { n: '10', k: 'composicion', t: 'Composición', s: 'v', d: 'Cómo elegir la estructura que conviene a cada contenido: retícula, ritmo, densidad, patrones y diagramas.', items: [
         { t: 'Componer según el contenido', st: 'Componer', s: 'v', href: 'fundamentos/composicion/editorial.html#decidir' },
         { t: 'Simetría y asimetría', s: 'v', href: 'fundamentos/composicion/editorial.html#simetria' },
         { t: 'Retículas editoriales', s: 'v', href: 'fundamentos/composicion/editorial.html#reticulas' },
         { t: 'Ritmo y equilibrio visual', st: 'Ritmo y equilibrio', s: 'v', href: 'fundamentos/composicion/editorial.html#ritmo' },
         { t: 'Jerarquía y densidad de información', st: 'Jerarquía y densidad', s: 'v', href: 'fundamentos/composicion/editorial.html#densidad' },
-        { t: 'Patrones de composición', st: 'Patrones', s: 'v', href: 'fundamentos/composicion/editorial.html#patrones' },
         { t: 'Diagramas de información', st: 'Diagramas', s: 'v', href: 'fundamentos/composicion/editorial.html#diagramas' },
         { t: 'Ejemplos de aplicación', st: 'Ejemplos', s: 'b', href: 'fundamentos/composicion/editorial.html#ejemplos' } ] },
       { n: '11', k: 'elementos', was: ['09', '12'], t: 'Elementos gráficos', s: 'b', d: 'Viñetas, énfasis, transparencia, luz, cielos, tramas y fotografía.', items: [
@@ -166,15 +170,15 @@ window.KEYONS_NAV = [
     ch: [
       { n: '24', k: 'galeria', was: ['23', '25'], t: 'Galería de imágenes', st: 'Galería', s: 'b', d: 'Degradados, cielos, naturaleza y personas, con ID y crédito.', items: [
         { t: 'Galería', s: 'b', href: 'recursos/galeria.html#galeria' } ] },
-      { n: '25', k: 'texturas', was: ['24', '26'], t: 'Texturas y degradados', st: 'Texturas', s: 'b', d: 'Cielos hechos con código, con ID.', items: [
+      { n: '25', k: 'texturas', was: ['24', '26'], t: 'Texturas', s: 'b', d: 'Cielos hechos con código, con ID.', items: [
         { t: 'Catálogo', s: 'b', href: 'recursos/texturas.html#texturas' } ] },
       { n: '26', k: 'iconos', was: ['25', '27'], t: 'Íconos', s: 'b', d: 'El catálogo completo de la familia.', items: [
         { t: 'Catálogo', s: 'b', href: 'recursos/iconos.html#catalogo' } ] },
-      { n: '27', k: 'plantillas', was: ['26', '28'], t: 'Plantillas y documentos', st: 'Plantillas', s: 'b', d: 'Plantillas de presentación y manuales.', items: [
+      { n: '27', k: 'plantillas', was: ['26', '28'], t: 'Plantillas', s: 'b', d: 'Plantillas de presentación y manuales.', items: [
         { t: 'Plantillas', s: 'b', href: 'recursos/plantillas.html#plantillas' }, { t: 'Documentos', s: 'b', href: 'recursos/plantillas.html#documentos' } ] },
       { n: '28', k: 'referencia', was: ['27', '29'], t: 'Referencia', s: 'b', d: 'La memoria de las decisiones.', items: [
         { t: 'Nomenclatura de reglas', st: 'Nomenclatura', s: 'b', href: 'recursos/referencia.html#nomenclatura' }, { t: 'Índice de reglas', st: 'Índice', s: 'b', href: 'recursos/referencia.html#indice' },
-        { t: 'Trazabilidad de Criterios visuales', st: 'Trazabilidad', s: 'v', href: 'fundamentos/criterio/antipatrones.html#trazabilidad' }, { grp: 'Gobierno normativo' }, { t: 'Autoridad normativa', st: 'Autoridad', s: 'b', href: 'recursos/gobierno.html#autoridad' }, { t: 'Vigencia', st: 'Vigencia', s: 'b', href: 'recursos/gobierno.html#vigencia' }, { t: 'Ámbitos de aplicación', st: 'Ámbitos', s: 'b', href: 'recursos/gobierno.html#ambitos' }, { t: 'Aprobación y excepciones', st: 'Aprobación', s: 'b', href: 'recursos/gobierno.html#aprobacion' }, { t: 'Identificadores y citación', st: 'Citación', s: 'b', href: 'recursos/gobierno.html#citacion' }, { t: 'Rutas de lectura', st: 'Rutas', s: 'b', href: 'recursos/gobierno.html#rutas' }, { t: 'Registro de decisiones', st: 'Decisiones' }, { t: 'Glosario' }, { t: 'Cambios' } ] }
+        { t: 'Trazabilidad de Criterios visuales', st: 'Trazabilidad', s: 'v', href: 'fundamentos/criterio/antipatrones.html#trazabilidad' }, { t: 'Registro de decisiones', st: 'Decisiones' }, { t: 'Glosario' }, { t: 'Cambios' } ] }
     ]
   }
 ];

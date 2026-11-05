@@ -7,7 +7,7 @@ id: "KYN-MRK-PLA-002"
 titulo: "Documentos"
 numero: "27.2"
 estado: "vigente"
-capitulo: "27 Plantillas y documentos"
+capitulo: "27 Plantillas"
 area: "Recursos"
 fuente: "/recursos/plantillas.html#documentos"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PLA-002 · Documentos
 
-Número: 27.2 · Estado: vigente · Capítulo: 27 Plantillas y documentos · Fuente: `/recursos/plantillas.html#documentos`
+Número: 27.2 · Estado: vigente · Capítulo: 27 Plantillas · Fuente: `/recursos/plantillas.html#documentos`
 
 ##### Manuales y documentos
 

@@ -7,7 +7,7 @@ id: "KYN-MRK-PLA-001"
 titulo: "Plantillas"
 numero: "27.1"
 estado: "vigente"
-capitulo: "27 Plantillas y documentos"
+capitulo: "27 Plantillas"
 area: "Recursos"
 fuente: "/recursos/plantillas.html#plantillas"
 referencias: []
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-PLA-001 · Plantillas
 
-Número: 27.1 · Estado: vigente · Capítulo: 27 Plantillas y documentos · Fuente: `/recursos/plantillas.html#plantillas`
+Número: 27.1 · Estado: vigente · Capítulo: 27 Plantillas · Fuente: `/recursos/plantillas.html#plantillas`
 
 ##### Plantillas de presentación
 

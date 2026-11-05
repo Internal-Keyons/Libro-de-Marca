@@ -4,7 +4,7 @@ version: "0.1"
 fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "25"
-titulo: "Texturas y degradados"
+titulo: "Texturas"
 area: "Recursos"
 estado: "borrador"
 rutas: ["/recursos/texturas.html"]
@@ -12,7 +12,7 @@ normas: ["KYN-MRK-TEX-001"]
 referencias: ["KYN-MRK-ILU-007", "KYN-MRK-TEX-001"]
 ---
 
-# Capítulo 25 · Texturas y degradados
+# Capítulo 25 · Texturas
 
 Estado: borrador · Clave: texturas · Ruta: `/recursos/texturas.html` · Número anterior: 24, 26
 

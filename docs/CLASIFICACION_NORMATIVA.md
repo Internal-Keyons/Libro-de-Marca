@@ -9,12 +9,12 @@
 | Dato | Valor |
 |---|---|
 | Normas inventariadas | 133 |
-| Requisitos detectados | 221 |
-| DEBE | 84 |
-| NO DEBE | 87 |
-| DEBERÍA | 8 |
-| PUEDE | 42 |
-| Requisitos con ambigüedad | 39 |
+| Requisitos detectados | 233 |
+| DEBE | 94 |
+| NO DEBE | 83 |
+| DEBERÍA | 9 |
+| PUEDE | 47 |
+| Requisitos con ambigüedad | 41 |
 | Frases duplicadas entre normas | 0 |
 | Contradicciones con el código | 7 |
 
@@ -73,7 +73,9 @@ Las normas de calidad y experiencia KYN-MRK-VIS-011, KYN-MRK-VIS-012, KYN-MRK-VI
 | KYN-MRK-CON-006.1 | DEBE | varias expresiones normativas en la misma frase | Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor. 01Presencia h… |
 | KYN-MRK-CON-006.3 | DEBE | varias expresiones normativas en la misma frase; «siempre» sin verbo normativo | (Intervención con IA)La inteligencia artificial puede participar para potenciar o extender la pieza, siempre que respete la dirección creativa y el concepto ini… |
 | KYN-MRK-CON-007.1 | DEBE | «siempre» sin verbo normativo | (Lo disruptivo)Un elemento inesperado que muestra que ya no hay límites, siempre con sobriedad. |
-| KYN-MRK-DAT-002.3 | DEBE | «siempre» sin verbo normativo | Siempre con texto y bordes en Azul Noche; con más de cinco categorías se agrupan en «Otros».#C6D5EC#D5E0D2#F4E8C1#F0D0CB#D9D6ED#F5D8B8#E0E1E5 (Destacar)En cualq… |
+| KYN-MRK-DAT-001.6 | DEBE | varias expresiones normativas en la misma frase; «siempre» sin verbo normativo | (PUEDE · Expresión visual)La identidad Keyons puede expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conser… |
+| KYN-MRK-DAT-002.1 | DEBE | imperativo en infinitivo: se interpreta como DEBE | Utilizar la escala oficial existente en el proyecto.Los tonos claros y oscuros permiten representar magnitudes, relaciones y jerarquías según el contexto. |
+| KYN-MRK-DAT-002.2 | DEBE | varias expresiones normativas en la misma frase | Puede destacar una categoría o establecer un contraste cálido entre series.Su significado cromático debe conservarse independiente de los estados desfavorables. |
 | KYN-MRK-DIS-005.2 | DEBE | varias expresiones normativas en la misma frase | Una experiencia clara 01Dónde se está 02Qué se puede hacer 03Qué está ocurriendo 04Cómo continuar (La complejidad)Keyons debe resolver la complejidad durante el… |
 | KYN-MRK-ESP-002.1 | DEBE | varias expresiones normativas en la misma frase | El tamaño puede orientar la elección, pero no determina automáticamente que una superficie grande deba tener esquinas más redondeadas. r-micro3 px (Tamaño de re… |
 | KYN-MRK-ESP-004.3 | DEBE | varias expresiones normativas en la misma frase; «siempre» sin verbo normativo | La cantidad de columnas se adapta a la tarea y al espacio disponible.02Estructura adaptablePara sitios web, páginas informativas y experiencias comerciales.Las … |
@@ -135,7 +137,7 @@ Ninguna.
 | KYN-MRK-COL-011 | 2 | 0 | 0 | 1 |
 | KYN-MRK-COL-012 | 0 | 0 | 0 | 0 |
 | KYN-MRK-COL-013 | 0 | 1 | 0 | 0 |
-| KYN-MRK-COL-014 | 2 | 1 | 0 | 0 |
+| KYN-MRK-COL-014 | 3 | 1 | 0 | 0 |
 | KYN-MRK-COL-015 | 0 | 0 | 0 | 1 |
 | KYN-MRK-CON-001 | 1 | 0 | 0 | 0 |
 | KYN-MRK-CON-002 | 0 | 1 | 0 | 0 |
@@ -146,11 +148,11 @@ Ninguna.
 | KYN-MRK-CON-007 | 1 | 0 | 0 | 0 |
 | KYN-MRK-CON-008 | 0 | 0 | 0 | 0 |
 | KYN-MRK-CON-009 | 0 | 0 | 0 | 1 |
-| KYN-MRK-DAT-001 | 0 | 1 | 0 | 0 |
-| KYN-MRK-DAT-002 | 1 | 3 | 0 | 0 |
+| KYN-MRK-DAT-001 | 5 | 0 | 1 | 0 |
+| KYN-MRK-DAT-002 | 5 | 1 | 0 | 4 |
 | KYN-MRK-DAT-003 | 0 | 0 | 0 | 0 |
 | KYN-MRK-DAT-004 | 0 | 1 | 0 | 0 |
-| KYN-MRK-DAT-005 | 0 | 0 | 0 | 0 |
+| KYN-MRK-DAT-005 | 1 | 0 | 0 | 1 |
 | KYN-MRK-DIS-001 | 1 | 0 | 0 | 0 |
 | KYN-MRK-DIS-002 | 0 | 0 | 0 | 2 |
 | KYN-MRK-DIS-003 | 0 | 0 | 0 | 0 |
@@ -163,7 +165,7 @@ Ninguna.
 | KYN-MRK-ESP-004 | 3 | 0 | 0 | 1 |
 | KYN-MRK-ESP-005 | 3 | 1 | 1 | 1 |
 | KYN-MRK-ESP-006 | 2 | 0 | 0 | 0 |
-| KYN-MRK-ESP-007 | 3 | 2 | 0 | 0 |
+| KYN-MRK-ESP-007 | 2 | 1 | 0 | 0 |
 | KYN-MRK-GAL-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-ICN-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-ICO-001 | 0 | 0 | 0 | 0 |

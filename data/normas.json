@@ -243,7 +243,7 @@
   ],
   "estado": "vigente",
   "id": "KYN-MRK-ESP-007",
-  "n": "10.7",
+  "n": "10.6",
   "t": "Diagramas de información"
  },
  "fundamentos/composicion/editorial.html#patrones": {
@@ -253,9 +253,10 @@
   "antes": [
    "fundamentos/forma/espacio.html#patrones"
   ],
-  "estado": "vigente",
+  "en": "KYN-MRK-CMP-001",
+  "estado": "integrada",
   "id": "KYN-MRK-ESP-006",
-  "n": "10.6",
+  "n": "10.1",
   "t": "Patrones de composición"
  },
  "fundamentos/composicion/editorial.html#reticula": {
@@ -306,7 +307,7 @@
   ],
   "estado": "vigente",
   "id": "KYN-MRK-VIS-004",
-  "n": "10.6.1",
+  "n": "10.5.3",
   "t": "Tarjetas innecesarias"
  },
  "fundamentos/composicion/editorial.html#vis-009": {
@@ -342,7 +343,7 @@
   ],
   "estado": "vigente",
   "id": "KYN-MRK-VIS-016",
-  "n": "10.8.1",
+  "n": "10.7.1",
   "t": "Composición no intercambiable"
  },
  "fundamentos/criterio/antipatrones.html#vis-011": {

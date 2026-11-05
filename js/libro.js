@@ -44,15 +44,26 @@
 
   /* Los seis libros de la Biblioteca. on: disponible para consulta; los demás se muestran sin enlace */
   const LIBROS = [
-    { id: 'marca', t: 'Marca y Experiencia', h: 'inicio.html', on: true },
-    { id: 'sistema-diseno', t: 'Sistema de Diseño', h: 'sistema-diseno/index.html', on: true },
-    { id: 'producto', t: 'Producto e Ingeniería' },
-    { id: 'ventas', t: 'Ventas y Crecimiento' },
-    { id: 'servicio', t: 'Experiencia y Servicio al Cliente' },
-    { id: 'cultura', t: 'Cultura y Operaciones' },
+    { id: 'marca', t: 'Marca y Experiencia', c: 'Marca', tr: 'v', h: 'inicio.html', on: true },
+    { id: 'sistema-diseno', t: 'Sistema de Diseño', c: 'Diseño', tr: 'g', h: 'sistema-diseno/index.html', on: true },
+    { id: 'producto', t: 'Producto e Ingeniería', c: 'Producto', tr: 'x' },
+    { id: 'ventas', t: 'Ventas y Crecimiento', c: 'Ventas', tr: 'd' },
+    { id: 'servicio', t: 'Experiencia y Servicio al Cliente', c: 'Servicio', tr: 'c' },
+    { id: 'cultura', t: 'Cultura y Operaciones', c: 'Cultura', tr: 'h' },
   ];
+  /* Trama oficial de cada libro, dibujada en línea fina: v verticales, h horizontales, d diagonales,
+     x diagonales cruzadas, g retícula, c curvas concéntricas */
+  const trama = (k) => {
+    const L = [];
+    if (k === 'v' || k === 'g') for (let x = 6; x < 160; x += 9) L.push(`M${x} 0V100`);
+    if (k === 'h' || k === 'g') for (let y = 6; y < 100; y += 9) L.push(`M0 ${y}H160`);
+    if (k === 'd' || k === 'x') for (let x = -100; x < 160; x += 11) L.push(`M${x} 100L${x + 100} 0`);
+    if (k === 'x') for (let x = 0; x < 260; x += 11) L.push(`M${x} 100L${x - 100} 0`);
+    if (k === 'c') for (let r = 10; r < 190; r += 11) L.push(`M${80 - r} 100A${r} ${r} 0 0 1 ${80 + r} 100`);
+    return `<svg viewBox="0 0 160 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="${L.join('')}" fill="none" stroke="currentColor" stroke-width=".9" vector-effect="non-scaling-stroke"/></svg>`;
+  };
   const BOOK_ID = BOOK.id || 'marca';
-  const LIBRO = LIBROS.find((b) => b.id === BOOK_ID) || LIBROS[0];
+  const LIBRO = LIBROS.find((b) => b.id === BOOK_ID) || (BOOK_ID === 'biblioteca' ? { id: 'biblioteca', t: 'Biblioteca Keyons', c: 'Biblioteca', tr: 'g', h: 'index.html', on: true } : LIBROS[0]);
   const booksHtml = (cls) => LIBROS.map((b) => (b.on
     ? `<li><a class="${cls}" href="${url(b.h)}"${b.id === BOOK_ID ? ' aria-current="true"' : ''}>${esc(b.t)}</a></li>`
     : `<li><span class="${cls} is-off" aria-disabled="true">${esc(b.t)}<small>En preparación</small></span></li>`)).join('');
@@ -100,25 +111,62 @@
       <div class="hdr__bg">${IS_HOME ? `<div class="hdr__clouds" aria-hidden="true">${clouds}</div>` : ''}</div>
       <div class="hdr__in">
         <div class="hdr__left">
-          <button class="hdr__burger hdr__index" type="button" aria-controls="side" aria-expanded="false" aria-label="Abrir índice">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path class="b1" d="M4 7h16"/><path class="b2" d="M4 12h16"/><path class="b3" d="M4 17h16"/><path class="x x1" pathLength="1" d="M7.5 7.5l9 9"/><path class="x x2" pathLength="1" d="M16.5 7.5l-9 9"/></svg><span class="hdr__index-l">Índice</span>
-          </button>
-          <div class="hdr__books">
-            <button class="hdr__book" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="hdr-books"><span>${esc(LIBRO.t)}</span>${ic(I.chev)}</button>
-            <ul class="hdr__booklist" id="hdr-books" hidden>${booksHtml('hdr__bk')}</ul>
-          </div>
+          <button class="hdr__book" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="bks"><span class="hdr__book-t">${esc(LIBRO.t)}</span><span class="hdr__book-c">${esc(LIBRO.c)}</span>${ic(I.chev)}</button>
         </div>
         <a class="hdr__logo" href="${url('index.html')}" aria-label="Keyons · Biblioteca">${LOGO}</a>
         <div class="hdr__right">
           <button class="hdr__search" type="button" data-search aria-label="Buscar en la Biblioteca (Ctrl K)">${ic(I.search)}<span>Buscar</span><kbd>Ctrl K</kbd></button>
         </div>
       </div>`;
-    /* Selector de libro: lista discreta de los seis manuales */
-    const bk = top.querySelector('.hdr__book'), bl = top.querySelector('.hdr__booklist');
-    const setBooks = (o, focus) => { bl.hidden = !o; bk.setAttribute('aria-expanded', String(o)); if (!o && focus) bk.focus(); };
-    bk.addEventListener('click', () => setBooks(bl.hidden));
-    document.addEventListener('click', (e) => { if (!bl.hidden && !e.target.closest('.hdr__books')) setBooks(false); });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !bl.hidden) setBooks(false, true); });
+    /* Selector global de libros: vista completa, como el cambio de perfiles.
+       En móvil sube desde abajo; en escritorio aparece con una transición editorial discreta. */
+    const X = '<svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,11.863,11.053801)" stroke-width="2.5" stroke-linecap="square" fill="none" stroke="currentColor" d="M0 0L8.274 -9.901"/><path transform="matrix(1,0,0,-1,20.137,11.053801)" stroke-width="2.5" stroke-linecap="square" fill="none" stroke="currentColor" d="M-8.274 -9.901L0 0"/></svg>';
+    const CH = '<svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,13.4475,25.0231)" d="M0 0-1.987 1.846 4.184 8.489C4.454 8.779 4.454 9.234 4.185 9.525L-1.989 16.206 .002 18.046 6.177 11.366C7.402 10.04 7.399 7.966 6.171 6.643Z" fill="currentColor"/></svg>';
+    const tile = (b, cls) => {
+      const inner = `<span class="bks__art">${trama(b.tr)}</span><span class="bks__n">${esc(b.t)}</span>${b.on ? '' : '<span class="bks__s">En preparación</span>'}`;
+      return b.on ? `<a class="${cls}" href="${url(b.h)}"${b.id === BOOK_ID ? ' aria-current="true"' : ''}>${inner}</a>` : `<span class="${cls} is-off" aria-disabled="true">${inner}</span>`;
+    };
+    const bks = document.createElement('div');
+    bks.className = 'bks'; bks.id = 'bks'; bks.hidden = true;
+    bks.setAttribute('role', 'dialog'); bks.setAttribute('aria-modal', 'true'); bks.setAttribute('aria-labelledby', 'bks-t');
+    bks.innerHTML = `<div class="bks__panel">
+      <div class="bks__top"><h2 class="bks__h" id="bks-t">Biblioteca Keyons</h2><button class="bks__x" type="button" aria-label="Cerrar">${X}</button></div>
+      <div class="bks__cur">${tile(LIBRO, 'bks__card')}<span class="bks__k">Libro actual</span></div>
+      <ul class="bks__list">${LIBROS.filter((b) => b !== LIBRO).map((b) => `<li>${tile(b, 'bks__it')}</li>`).join('')}</ul>
+      <a class="bks__guide" href="${url('guia/index.html')}">Guía de la Biblioteca</a>
+      <nav class="bks__rows" aria-label="Biblioteca">
+        <a href="${url('index.html')}"><span>Portada de la Biblioteca</span>${CH}</a>
+        <button type="button" data-search><span>Buscar en la Biblioteca</span>${CH}</button>
+      </nav>
+    </div>`;
+    body.appendChild(bks);
+    const bk = top.querySelector('.hdr__book');
+    let bkT = 0;
+    const setBooks = (o) => {
+      clearTimeout(bkT);
+      bk.setAttribute('aria-expanded', String(o));
+      if (o) {
+        bks.hidden = false; body.classList.add('bks-open');
+        requestAnimationFrame(() => requestAnimationFrame(() => bks.classList.add('is-in')));
+        setTimeout(() => (bks.querySelector('.bks__card') || bks.querySelector('.bks__x')).focus({ preventScroll: true }), 60);
+      } else {
+        bks.classList.remove('is-in'); body.classList.remove('bks-open');
+        bkT = setTimeout(() => { bks.hidden = true; }, 420);
+        bk.focus({ preventScroll: true });
+      }
+    };
+    bk.addEventListener('click', () => setBooks(true));
+    bks.querySelector('.bks__x').addEventListener('click', () => setBooks(false));
+    bks.addEventListener('click', (e) => { if (e.target === bks) setBooks(false); if (e.target.closest('[data-search]')) setBooks(false); });
+    document.addEventListener('keydown', (e) => {
+      if (bks.hidden) return;
+      if (e.key === 'Escape') setBooks(false);
+      if (e.key === 'Tab') {
+        const f = [...bks.querySelectorAll('a, button')];
+        if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
+        else if (!e.shiftKey && document.activeElement === f[f.length - 1]) { e.preventDefault(); f[0].focus(); }
+      }
+    });
     if (IS_HOME) {
       const hero = document.querySelector('.hero');
       const check = () => top.classList.toggle('is-solid', !hero || hero.getBoundingClientRect().bottom <= top.offsetHeight);
@@ -449,7 +497,6 @@
     const open = (on) => {
       if (on) document.querySelectorAll('.kdd.is-open').forEach((x) => { if (x !== d) { x.classList.remove('is-open'); x.querySelector('.kdd__btn').setAttribute('aria-expanded', 'false'); } });
       d.classList.toggle('is-open', on); btn.setAttribute('aria-expanded', String(on));
-      if (on) d.classList.toggle('is-up', btn.getBoundingClientRect().bottom + 300 > innerHeight && btn.getBoundingClientRect().top > 320);
     };
     btn.addEventListener('click', () => open(!d.classList.contains('is-open')));
     list.addEventListener('click', (e) => {
@@ -867,13 +914,8 @@
   /* ─── Índice lateral del libro ───
      Áreas o módulos → capítulos → grupos → páginas y normas. En escritorio vive junto al contenido y el control
      «Índice» lo muestra u oculta; en móvil y en las portadas es un panel que se abre sobre la página. */
-  let side = $('side');
-  const drawerOnly = !side;
-  if (!side) {
-    side = document.createElement('aside');
-    side.id = 'side'; side.className = 'side side--drawer'; side.setAttribute('aria-label', 'Índice del libro');
-    body.appendChild(side);
-  }
+  const side = $('side');
+  if (side) {
   const alt = BOOK.alt || [['Descargar PDF', 'documental/libro-de-marca-keyons.pdf', 'down', true], ['Normas para IA', 'ia/index.html', 'code']];
   const areaHtml = (a, i) => {
     const on = a === area;
@@ -882,68 +924,55 @@
       + `<button class="nav-area__btn" type="button" aria-expanded="${on}" aria-controls="nav-area-${i}" aria-label="${esc(a.t)}: ${on ? 'contraer' : 'desplegar'} capítulos">${ic(I.chev)}</button></div>`
       + `<div class="nav-area__body" id="nav-area-${i}"${on ? '' : ' hidden'}>${chapters(a)}</div></div>`;
   };
-  side.innerHTML = `<div class="side__book"><span class="side__book-k">Libro actual</span><a class="side__book-t" href="${url(LIBRO.h)}">${esc(LIBRO.t)}</a>`
-    + `<button class="side__book-btn" type="button" aria-expanded="false" aria-controls="side-books">Cambiar libro ${ic(I.chev)}</button>`
-    + `<ul class="side__books" id="side-books" hidden>${booksHtml('side__bk')}</ul></div>`
+  side.innerHTML = `<div class="side__head"><button class="side__toggle" type="button" aria-label="Contraer el menú lateral" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3.5 5.5 8l4.5 4.5"/></svg></button></div>`
     + `<nav class="side__tree" aria-label="Índice de ${esc(LIBRO.t)}">${NAV.map(areaHtml).join('')}</nav>`
     + `<div class="side__legend">${LEGEND.map((k) => `<span>${dot(k)} ${STATUS[k]}</span>`).join('')}</div>`
     + `<div class="side__alt">${alt.map(([t, h, d, dl]) => `<a href="${url(h)}"${dl ? ' download' : ''}>${d ? ic(I[d] || d) : ''}${esc(t)}</a>`).join('')}</div>`;
-  body.classList.remove('side-min');
-  const idx = top && top.querySelector('.hdr__index');
-  const inline = () => !drawerOnly && matchMedia('(min-width: 901px)').matches;
-  const sync = () => {
-    if (!idx) return;
-    const open = inline() ? !body.classList.contains('side-off') : body.classList.contains('nav-open');
-    idx.setAttribute('aria-expanded', String(open));
-    idx.setAttribute('aria-label', open ? (inline() ? 'Ocultar índice' : 'Cerrar índice') : 'Abrir índice');
-    top.classList.toggle('is-open', !inline() && open);
+  const setMin = (on) => {
+    body.classList.toggle('side-min', on);
+    const t = side.querySelector('.side__toggle');
+    t.setAttribute('aria-pressed', String(on));
+    t.setAttribute('aria-label', on ? 'Expandir el menú lateral' : 'Contraer el menú lateral');
+    try { localStorage.setItem('k-side', on ? 'min' : 'full'); } catch (_) {}
   };
+  try { if (localStorage.getItem('k-side') === 'min') setMin(true); } catch (_) {}
+  body.classList.remove('side-off');
   const setDrawer = (o, back) => {
-    body.classList.toggle('nav-open', o); sync();
+    body.classList.toggle('nav-open', o);
     if (o) (side.querySelector('[aria-current="page"]') || side.querySelector('a, button')).focus({ preventScroll: true });
-    else if (back && idx) idx.focus();
+    else if (back) { const b = document.querySelector('.chapbar'); if (b) b.focus(); }
   };
-  try { if (localStorage.getItem('k-side') === 'off') body.classList.add('side-off'); } catch (_) {}
-  if (idx) idx.addEventListener('click', () => {
-    if (inline()) {
-      const off = !body.classList.contains('side-off');
-      body.classList.toggle('side-off', off);
-      try { localStorage.setItem('k-side', off ? 'off' : 'on'); } catch (_) {}
-      sync();
-    } else setDrawer(!body.classList.contains('nav-open'));
-  });
-  addEventListener('resize', sync);
   const scrim = document.createElement('div');
   scrim.className = 'scrim';
   scrim.addEventListener('click', () => setDrawer(false, true));
   body.appendChild(scrim);
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && body.classList.contains('nav-open')) setDrawer(false, true); });
+  /* Abrir un área o un capítulo pliega los demás: solo queda a la vista lo que se está consultando */
+  const setArea = (ab, o) => { ab.setAttribute('aria-expanded', String(o)); $(ab.getAttribute('aria-controls')).hidden = !o; };
+  const setCh = (cb, o) => { cb.setAttribute('aria-expanded', String(o)); cb.parentElement.setAttribute('aria-expanded', String(o)); };
   side.addEventListener('click', (e) => {
+    if (e.target.closest('.side__toggle')) return setMin(!body.classList.contains('side-min'));
     const ab = e.target.closest('.nav-area__btn');
     if (ab) {
       const o = ab.getAttribute('aria-expanded') !== 'true';
-      ab.setAttribute('aria-expanded', String(o)); $(ab.getAttribute('aria-controls')).hidden = !o;
+      if (o) side.querySelectorAll('.nav-area__btn[aria-expanded="true"]').forEach((x) => { if (x !== ab) setArea(x, false); });
+      setArea(ab, o);
       return;
     }
     const cb = e.target.closest('.nav-ch__btn');
     if (cb) {
+      if (body.classList.contains('side-min')) setMin(false);
       const o = cb.getAttribute('aria-expanded') !== 'true';
-      cb.setAttribute('aria-expanded', String(o)); cb.parentElement.setAttribute('aria-expanded', String(o));
-      return;
-    }
-    const sb = e.target.closest('.side__book-btn');
-    if (sb) {
-      const o = sb.getAttribute('aria-expanded') !== 'true';
-      sb.setAttribute('aria-expanded', String(o)); $('side-books').hidden = !o;
+      if (o) side.querySelectorAll('.nav-ch__btn[aria-expanded="true"]').forEach((x) => { if (x !== cb) setCh(x, false); });
+      setCh(cb, o);
       return;
     }
     /* Al elegir un destino en el panel, el panel se cierra y la ruta activa se conserva */
     if (e.target.closest('a') && body.classList.contains('nav-open')) setDrawer(false);
   });
-  sync();
-  /* Enlace directo al índice abierto: …#indice */
-  if (location.hash === '#indice') { if (inline()) body.classList.remove('side-off'); else setDrawer(true); sync(); }
-  if (area && !drawerOnly) {
+  /* Enlace directo al índice abierto en móvil: …#indice */
+  if (location.hash === '#indice' && !matchMedia('(min-width: 901px)').matches) setDrawer(true);
+  if (area) {
     /* Barra de capítulo para móvil: abre el índice como panel */
     let cur = null;
     area.ch.forEach((c) => c.items.forEach((it) => { if (!cur && base(it.href) === PAGE) cur = [c, hash(it.href) ? { t: 'Secciones' } : it]; }));
@@ -962,6 +991,8 @@
       }), { rootMargin: '-35% 0px -60% 0px' });
       secLinks.forEach((l) => { const t = document.getElementById(l.dataset.sec); if (t) so.observe(t); });
     }
+  }
+
   }
 
   /* ─── Portada: índice del manual ─── */
@@ -1433,25 +1464,7 @@
 
   /* ─── Ráfagas (9.6): el cursor las empuja como el viento y vuelven solas a su lugar ───
      Mismo gesto que el hover de los encabezados: lo que se mueve es la forma, con fricción. */
-  document.querySelectorAll('[data-rfp][data-flow]').forEach((p) => {
-    const sv = p.querySelector('svg');
-    let boost = 0, lx = null, ly = null, lt = 0, raf = 0;
-    const tick = (t) => {
-      const dt = Math.min((t - lt) / 1000, .05); lt = t;
-      boost *= Math.exp(-dt / 1.4);
-      if (sv.setCurrentTime && sv.getCurrentTime) sv.setCurrentTime(sv.getCurrentTime() + boost * dt);
-      raf = boost > .02 ? requestAnimationFrame(tick) : 0;
-    };
-    p.addEventListener('pointermove', (e) => {
-      if (lx !== null) boost = Math.min(4, boost + Math.hypot(e.clientX - lx, e.clientY - ly) * .02);
-      lx = e.clientX; ly = e.clientY;
-      if (!raf) { lt = performance.now(); raf = requestAnimationFrame(tick); }
-    });
-    p.addEventListener('pointerleave', () => { lx = ly = null; });
-    if (still && sv.pauseAnimations) sv.pauseAnimations();
-    else if ('IntersectionObserver' in window) new IntersectionObserver(([en]) => { if (sv.pauseAnimations) en.isIntersecting ? sv.unpauseAnimations() : sv.pauseAnimations(); }).observe(p);
-  });
-  document.querySelectorAll('[data-rfp][data-push]').forEach((p) => {
+  document.querySelectorAll('[data-rfp]').forEach((p) => {
     const g = p.querySelector('.rfp__push'), sv = p.querySelector('svg');
     let ox = 0, oy = 0, lx = null, ly = null, lt = 0, raf = 0;
     const tick = (t) => {
@@ -1613,10 +1626,6 @@
     io.observe(acc);
   });
 
-  document.querySelectorAll('.portal').forEach((p) => {
-    if (p.querySelector('.portal__clouds')) return;
-    p.insertAdjacentHTML('afterbegin', '<div class="portal__clouds" aria-hidden="true"></div>');
-  });
 
   /* Carrusel horizontal: varias piezas a la vista, con el pie de los demás carruseles */
   document.querySelectorAll('[data-hcar]').forEach((c) => {
@@ -1641,10 +1650,10 @@
   });
 
   /* Comparativos: la explicación vive detrás de la tarjeta y se consulta con «Leer más» */
-  document.querySelectorAll('.vdemo__i, .glass2 > figure').forEach((f) => {
-    const cap = f.querySelector('figcaption'), face = f.querySelector('.vdemo__s, .gl');
+  document.querySelectorAll('.vdemo__i, .glass2 > figure, .lvx__i').forEach((f) => {
+    const cap = f.querySelector('figcaption'), face = f.querySelector('.vdemo__s, .gl, .lvx__fig');
     if (!cap || !face || f.querySelector('.flip__btn')) return;
-    const lab = cap.querySelector('.paren, b');
+    const lab = cap.querySelector('.paren, b, .lvx__t');
     f.classList.add('flip');
     const card = document.createElement('div');
     card.className = 'flip__card';

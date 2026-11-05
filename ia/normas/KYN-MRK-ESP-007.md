@@ -5,7 +5,7 @@ fecha: "2026-11-04"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-007"
 titulo: "Diagramas de información"
-numero: "10.7"
+numero: "10.6"
 estado: "vigente"
 capitulo: "10 Composición"
 area: "Fundamentos"
@@ -16,7 +16,7 @@ citada_por: []
 
 # KYN-MRK-ESP-007 · Diagramas de información
 
-Número: 10.7 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
+Número: 10.6 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
 
 ##### Ordenar ideas, no medirlas
 
@@ -82,6 +82,3 @@ Se utilizan cuando una representación visual permite comprender relaciones que 
 **(Construcción)**
 Utilizar trazos precisos, continuos y uniformes, con contraste y etiquetas legibles. Los recursos de énfasis se incorporan cuando ayudan a interpretar el contenido. No es obligatorio utilizar estrellas, círculos o indicadores decorativos.
 Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso.
-
-**(Ejemplos)**
-Los diagramas que presentan etapas o duraciones no deben interpretarse automáticamente como fases oficiales de la metodología Prisma o compromisos de ejecución. Si un ejemplo representa una metodología oficial, debe coincidir con su documentación vigente.
