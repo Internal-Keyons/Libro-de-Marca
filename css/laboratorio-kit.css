@@ -1,0 +1,235 @@
+/* ═══════════════════════════════════════════════════════════════
+   KEYONS · LABORATORIO DE INTERFACES · KIT DEL ESCENARIO
+   Solo se carga dentro del escenario aislado (iframe) del Laboratorio.
+   Cada valor sale de una variable --lab-*; sus valores por defecto son los
+   tokens de Keyons (la base). Explorar cambia las variables, nunca la base,
+   y nada de esto llega a las páginas de los libros.
+   Prefijo lx- para los componentes.
+   ═══════════════════════════════════════════════════════════════ */
+:root{
+  /* Paleta */
+  --lab-bg:var(--k-blanco);
+  --lab-surface:var(--k-puro);
+  --lab-surface-2:var(--k-cielo-100,#E0E7F1);
+  --lab-text:var(--k-noche);
+  --lab-text-2:var(--k-gris-2,#494A5D);
+  --lab-text-3:var(--k-gris-3,#6C6D7B);
+  --lab-border:rgba(16,18,42,.1);
+  --lab-accent:var(--k-cielo);
+  --lab-accent-ink:var(--k-noche);
+  --lab-cta:var(--k-salmon);
+  --lab-cta-ink:var(--k-noche);
+  --lab-ok:var(--k-est-verde);
+  --lab-warn:var(--k-est-mostaza);
+  --lab-err:var(--k-est-terracota);
+  --lab-info:var(--k-est-cielo);
+  /* Tipografía */
+  --lab-font:var(--font-sans);
+  --lab-font-display:var(--font-display);
+  --lab-fs:1;                 /* multiplicador de la escala */
+  --lab-ratio:1.25;           /* contraste entre niveles de la jerarquía */
+  --lab-track:0em;
+  --lab-track-title:-.02em;
+  --lab-lh:1.6;
+  --lab-w:400; --lab-w-strong:600; --lab-w-title:500;
+  --lab-t-sm:calc(12px * var(--lab-fs));
+  --lab-t-s:calc(14px * var(--lab-fs));
+  --lab-t:calc(16px * var(--lab-fs));
+  /* Con la jerarquía base (1,25) los niveles caen exactos en la escala Keyons: 20 · 24 · 32 · 40 */
+  --lab-rk:calc(var(--lab-ratio) / 1.25);
+  --lab-t-h3:calc(20px * var(--lab-fs) * var(--lab-rk));
+  --lab-t-h2:calc(24px * var(--lab-fs) * var(--lab-rk) * var(--lab-rk));
+  --lab-t-h1:calc(32px * var(--lab-fs) * var(--lab-rk) * var(--lab-rk) * var(--lab-rk));
+  --lab-t-num:calc(40px * var(--lab-fs) * var(--lab-rk) * var(--lab-rk) * var(--lab-rk) * var(--lab-rk));
+  /* Espacio y diagramación */
+  --lab-sp:1;                 /* densidad: 0,75 compacta · 1 normal · 1,3 amplia */
+  --lab-1:calc(4px * var(--lab-sp)); --lab-2:calc(8px * var(--lab-sp)); --lab-3:calc(12px * var(--lab-sp));
+  --lab-4:calc(16px * var(--lab-sp)); --lab-6:calc(24px * var(--lab-sp)); --lab-8:calc(32px * var(--lab-sp));
+  --lab-12:calc(48px * var(--lab-sp));
+  --lab-cols:12;
+  --lab-gap:calc(24px * var(--lab-sp));
+  --lab-maxw:1200px;
+  /* Forma */
+  --lab-r:18px;               /* componente */
+  --lab-r-control:12px;
+  --lab-r-pill:9999px;
+  --lab-line:1px;
+  --lab-shadow:none;
+  --lab-blur:0px;
+  --lab-glass:0;
+  /* Iconografía */
+  --lab-icon:20px;
+  --lab-icon-stroke:1.6;
+  --lab-icon-fill:none;
+  /* Movimiento */
+  --lab-dur:320ms;
+  --lab-ease:cubic-bezier(.22,.61,.36,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0}
+body{min-height:100vh;font-family:var(--lab-font);font-size:var(--lab-t);font-weight:var(--lab-w);line-height:var(--lab-lh);letter-spacing:var(--lab-track);color:var(--lab-text);background:var(--lab-bg);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body.lx-cielo{background:transparent}
+img,svg{display:block;max-width:100%}
+button,input,select,textarea{font:inherit;color:inherit;letter-spacing:inherit}
+a{color:inherit}
+h1,h2,h3,h4,p{margin:0}
+:focus-visible{outline:2px solid var(--lab-text);outline-offset:3px}
+
+/* Tipografía */
+.lx-h1{font-family:var(--lab-font-display);font-size:var(--lab-t-h1);font-weight:var(--lab-w-title);line-height:1.08;letter-spacing:var(--lab-track-title)}
+.lx-h2{font-size:var(--lab-t-h2);font-weight:var(--lab-w-title);line-height:1.15;letter-spacing:var(--lab-track-title)}
+.lx-h3{font-size:var(--lab-t-h3);font-weight:var(--lab-w-title);line-height:1.25}
+.lx-lead{font-size:var(--lab-t-h3);line-height:1.5;color:var(--lab-text-2)}
+.lx-p{color:var(--lab-text-2);max-width:62ch}
+.lx-small{font-size:var(--lab-t-s);color:var(--lab-text-2)}
+.lx-meta{font-size:var(--lab-t-sm);font-weight:500;color:var(--lab-text-3)}
+.lx-kicker{font-family:var(--lab-font-display);font-size:var(--lab-t-sm);font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--lab-text-3)}
+.lx-num{font-family:var(--lab-font-display);font-size:var(--lab-t-num);font-weight:400;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+
+/* Íconos: trazo y tamaño por variable */
+.lx-i{width:var(--lab-icon);height:var(--lab-icon);flex:none;fill:var(--lab-icon-fill);stroke:currentColor;stroke-width:var(--lab-icon-stroke);stroke-linecap:round;stroke-linejoin:round}
+
+/* Estructura: aplicación con navegación lateral, superior o sin navegación */
+.lx-app{display:grid;grid-template-columns:240px minmax(0,1fr);min-height:100vh}
+.lx-app[data-nav="top"],body[data-nav="top"] .lx-app{grid-template-columns:minmax(0,1fr);grid-template-rows:auto 1fr}
+.lx-app[data-nav="none"],body[data-nav="none"] .lx-app{grid-template-columns:minmax(0,1fr)}
+body[data-nav="none"] .lx-nav{display:none}
+.lx-nav{display:flex;flex-direction:column;gap:var(--lab-1);padding:var(--lab-6) var(--lab-4);background:var(--lab-surface);border-right:var(--lab-line) solid var(--lab-border)}
+body[data-nav="top"] .lx-nav{flex-direction:row;align-items:center;flex-wrap:wrap;padding:var(--lab-3) var(--lab-6);border-right:0;border-bottom:var(--lab-line) solid var(--lab-border)}
+.lx-brand{display:flex;align-items:center;gap:var(--lab-2);margin-bottom:var(--lab-6);font-family:var(--lab-font-display);font-weight:600;letter-spacing:.02em}
+body[data-nav="top"] .lx-brand{margin:0 var(--lab-6) 0 0}
+.lx-nav a{display:flex;align-items:center;gap:var(--lab-3);min-height:44px;padding:0 var(--lab-3);border-radius:var(--lab-r-control);font-size:var(--lab-t-s);font-weight:500;color:var(--lab-text-2);text-decoration:none;transition:background-color var(--lab-dur) var(--lab-ease),color var(--lab-dur) var(--lab-ease)}
+.lx-nav a:hover{background:var(--lab-surface-2);color:var(--lab-text)}
+.lx-nav a[aria-current]{background:var(--lab-surface-2);color:var(--lab-text)}
+.lx-main{min-width:0;width:100%;max-width:var(--lab-maxw);margin:0 auto;padding:var(--lab-8) var(--lab-6) var(--lab-12)}
+.lx-top{display:flex;align-items:flex-end;justify-content:space-between;gap:var(--lab-4);flex-wrap:wrap;margin-bottom:var(--lab-8)}
+.lx-top > div{display:grid;gap:var(--lab-2)}
+.lx-row{display:flex;align-items:center;gap:var(--lab-3);flex-wrap:wrap}
+.lx-stack{display:grid;gap:var(--lab-4)}
+.lx-section{margin-top:var(--lab-12)}
+.lx-section > .lx-h3{margin-bottom:var(--lab-4)}
+
+/* Retícula: columnas por variable; cada pieza ocupa un número de columnas */
+.lx-grid{display:grid;grid-template-columns:repeat(var(--lab-cols),minmax(0,1fr));gap:var(--lab-gap)}
+.lx-grid > *{grid-column:span var(--span,var(--lab-cols));min-width:0}
+.lx-s3{--span:3}.lx-s4{--span:4}.lx-s5{--span:5}.lx-s6{--span:6}.lx-s7{--span:7}.lx-s8{--span:8}.lx-s12{--span:12}
+body[data-cols="8"] .lx-grid > *{grid-column:span min(var(--span,8),8)}
+body[data-cols="4"] .lx-grid > *{grid-column:span 4}
+
+/* Superficies: una tarjeta aislada lleva sus cuatro esquinas rectas; dentro de un grupo, exterior recta e interior curva */
+.lx-card{position:relative;padding:var(--lab-6);background:var(--lab-surface);border-radius:0;box-shadow:var(--lab-shadow);border:var(--lab-line) solid transparent}
+body[data-glass="1"] .lx-card{background:rgba(255,255,255,.55);-webkit-backdrop-filter:blur(var(--lab-blur));backdrop-filter:blur(var(--lab-blur));border-color:rgba(255,255,255,.6)}
+.lx-group{display:grid;gap:2px}
+.lx-group > .lx-card{border-radius:var(--lab-r)}
+.lx-group.lx-cols{grid-auto-flow:column;grid-auto-columns:minmax(0,1fr)}
+.lx-group.lx-cols > .lx-card:first-child{border-radius:0 var(--lab-r) var(--lab-r) 0}
+.lx-group.lx-cols > .lx-card:last-child{border-radius:var(--lab-r) 0 0 var(--lab-r)}
+.lx-group:not(.lx-cols) > .lx-card:first-child{border-radius:0 0 var(--lab-r) var(--lab-r)}
+.lx-group:not(.lx-cols) > .lx-card:last-child{border-radius:var(--lab-r) var(--lab-r) 0 0}
+.lx-card__h{display:flex;align-items:center;justify-content:space-between;gap:var(--lab-3);margin-bottom:var(--lab-4)}
+
+/* Botones */
+.lx-btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--lab-2);min-height:44px;padding:0 var(--lab-6);border:1.5px solid transparent;border-radius:var(--lab-r-pill);font-size:var(--lab-t-s);font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background-color var(--lab-dur) var(--lab-ease),color var(--lab-dur) var(--lab-ease),border-color var(--lab-dur) var(--lab-ease),transform var(--lab-dur) var(--lab-ease)}
+.lx-btn--primary{background:var(--lab-cta);color:var(--lab-cta-ink)}
+.lx-btn--primary:hover{background:var(--lab-text);color:var(--lab-surface)}
+.lx-btn--outline{background:transparent;border-color:var(--lab-accent);color:var(--lab-text)}
+.lx-btn--outline:hover{background:var(--lab-accent);color:var(--lab-accent-ink)}
+.lx-btn--ghost{background:transparent;color:var(--lab-text);padding:0 var(--lab-3)}
+.lx-btn--ghost:hover{background:var(--lab-surface-2)}
+.lx-btn:active{transform:scale(.97)}
+.lx-btn[disabled]{opacity:.45;pointer-events:none}
+
+/* Campos */
+.lx-field{display:grid;gap:var(--lab-2)}
+.lx-field label,.lx-label{font-size:var(--lab-t-s);font-weight:500;color:var(--lab-text)}
+.lx-input,.lx-select,.lx-textarea{width:100%;min-height:48px;padding:0 var(--lab-4);background:var(--lab-surface);border:1.5px solid var(--lab-border);border-radius:var(--lab-r-control);transition:border-color var(--lab-dur) var(--lab-ease),box-shadow var(--lab-dur) var(--lab-ease)}
+.lx-textarea{min-height:112px;padding:var(--lab-3) var(--lab-4);resize:vertical}
+.lx-input:focus,.lx-select:focus,.lx-textarea:focus{outline:none;border-color:var(--lab-accent);box-shadow:0 0 0 5px rgba(198,213,236,.7)}
+.lx-field.is-error .lx-input{border-color:var(--k-salmon);box-shadow:0 0 0 5px var(--lab-err)}
+.lx-help{font-size:var(--lab-t-sm);color:var(--lab-text-3)}
+.lx-field.is-error .lx-help{color:var(--k-salmon-700,#8C474B)}
+.lx-check{display:flex;align-items:center;gap:var(--lab-3);min-height:44px;font-size:var(--lab-t-s);cursor:pointer}
+.lx-check input{width:20px;height:20px;accent-color:var(--lab-text)}
+.lx-switch{position:relative;width:44px;height:26px;flex:none;appearance:none;-webkit-appearance:none;margin:0;border-radius:var(--lab-r-pill);background:var(--lab-surface-2);cursor:pointer;transition:background-color var(--lab-dur) var(--lab-ease)}
+.lx-switch::after{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:var(--lab-surface);box-shadow:0 1px 3px rgba(16,18,42,.25);transition:transform var(--lab-dur) var(--lab-ease)}
+.lx-switch:checked{background:var(--lab-text)}
+.lx-switch:checked::after{transform:translateX(18px)}
+
+/* Etiquetas de estado */
+.lx-badge{display:inline-flex;align-items:center;gap:6px;min-height:26px;padding:0 10px;border-radius:var(--lab-r-pill);font-size:var(--lab-t-sm);font-weight:600;color:var(--lab-text);background:var(--lab-surface-2);white-space:nowrap}
+.lx-badge--ok{background:var(--lab-ok)}.lx-badge--warn{background:var(--lab-warn)}.lx-badge--err{background:var(--lab-err)}.lx-badge--info{background:var(--lab-info)}
+
+/* Indicadores */
+.lx-kpi{display:grid;gap:var(--lab-2)}
+.lx-kpi .lx-num{margin-top:var(--lab-2)}
+.lx-delta{font-size:var(--lab-t-s);font-weight:600;color:var(--lab-text-2)}
+
+/* Tabla */
+.lx-table{width:100%;border-collapse:collapse;font-size:var(--lab-t-s)}
+.lx-table th{padding:var(--lab-3);text-align:left;font-size:var(--lab-t-sm);font-weight:600;color:var(--lab-text-3);border-bottom:var(--lab-line) solid var(--lab-border)}
+.lx-table td{padding:var(--lab-3);border-bottom:var(--lab-line) solid var(--lab-border);vertical-align:middle}
+.lx-table tr:hover td{background:var(--lab-surface-2)}
+.lx-scroll{overflow-x:auto}
+
+/* Gráfico de barras mínimo: alturas por estilo en línea */
+.lx-bars{display:flex;align-items:flex-end;gap:var(--lab-2);height:160px;padding-top:var(--lab-4);border-bottom:var(--lab-line) solid var(--lab-border)}
+.lx-bars span{flex:1;min-width:6px;height:var(--h);background:var(--lab-surface-2);border-radius:var(--lab-r-control) var(--lab-r-control) 0 0;transition:height var(--lab-dur) var(--lab-ease),background-color var(--lab-dur) var(--lab-ease)}
+.lx-bars span.is-on,.lx-bars span:hover{background:var(--lab-accent)}
+.lx-axis{display:flex;justify-content:space-between;margin-top:var(--lab-2);font-size:var(--lab-t-sm);color:var(--lab-text-3)}
+
+/* Pasos */
+.lx-steps{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:var(--lab-2);margin:0;padding:0;list-style:none}
+.lx-steps li{display:grid;gap:var(--lab-2);font-size:var(--lab-t-sm);font-weight:500;color:var(--lab-text-3)}
+.lx-steps li::before{content:"";height:4px;border-radius:var(--lab-r-pill);background:var(--lab-surface-2)}
+.lx-steps li.is-done::before,.lx-steps li[aria-current]::before{background:var(--lab-accent)}
+.lx-steps li[aria-current]{color:var(--lab-text)}
+
+/* Mensajes y estados */
+.lx-alert{display:grid;grid-template-columns:auto minmax(0,1fr);gap:var(--lab-3);padding:var(--lab-4) var(--lab-6);background:var(--lab-info)}
+.lx-alert--err{background:var(--lab-err)}.lx-alert--ok{background:var(--lab-ok)}.lx-alert--warn{background:var(--lab-warn)}
+.lx-alert b{display:block;margin-bottom:2px}
+.lx-empty{display:grid;justify-items:center;gap:var(--lab-3);padding:var(--lab-12) var(--lab-6);text-align:center}
+.lx-empty .lx-p{max-width:44ch}
+.lx-skel{height:14px;border-radius:var(--lab-r-pill);background:linear-gradient(90deg,var(--lab-surface-2) 0%,var(--lab-surface) 50%,var(--lab-surface-2) 100%);background-size:200% 100%;animation:lxSkel 1.4s linear infinite}
+@keyframes lxSkel{to{background-position:-200% 0}}
+
+/* Pestañas */
+.lx-tabs{display:flex;gap:var(--lab-1);padding:4px;border-radius:var(--lab-r-pill);background:var(--lab-surface-2);width:max-content;max-width:100%;overflow-x:auto}
+.lx-tabs button{min-height:44px;padding:0 var(--lab-4);border:0;border-radius:var(--lab-r-pill);background:none;font-size:var(--lab-t-s);font-weight:500;color:var(--lab-text-2);cursor:pointer}
+.lx-tabs button[aria-selected="true"]{background:var(--lab-surface);color:var(--lab-text)}
+
+/* Movimiento: se activa desde Explorar (data-anim en body) */
+body[data-anim~="entrada"] .lx-main > *,body[data-anim~="entrada"] .lx-grid > *{animation:lxIn calc(var(--lab-dur) * 2) var(--lab-ease) both}
+body[data-anim~="entrada"] .lx-grid > :nth-child(2){animation-delay:calc(var(--lab-dur) * .25)}
+body[data-anim~="entrada"] .lx-grid > :nth-child(3){animation-delay:calc(var(--lab-dur) * .5)}
+body[data-anim~="entrada"] .lx-grid > :nth-child(4){animation-delay:calc(var(--lab-dur) * .75)}
+body[data-anim~="entrada"] .lx-grid > :nth-child(n+5){animation-delay:var(--lab-dur)}
+@keyframes lxIn{from{opacity:0;transform:translateY(12px)}}
+body[data-anim~="hover"] .lx-card{transition:transform var(--lab-dur) var(--lab-ease),box-shadow var(--lab-dur) var(--lab-ease)}
+body[data-anim~="hover"] .lx-card:hover{transform:translateY(-3px);box-shadow:0 18px 40px -24px rgba(16,18,42,.35)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* Adaptación: el escenario cambia de ancho con Escritorio, Tableta y Móvil */
+@media(max-width:1024px){
+  .lx-app{grid-template-columns:minmax(0,1fr)}
+  .lx-nav{flex-direction:row;align-items:center;overflow-x:auto;padding:var(--lab-3) var(--lab-4);border-right:0;border-bottom:var(--lab-line) solid var(--lab-border)}
+  .lx-brand{margin:0 var(--lab-4) 0 0}
+  .lx-grid{--lab-cols:8}
+  .lx-grid > *{grid-column:span min(var(--span,8),8)}
+  .lx-s3{--span:4}.lx-s5,.lx-s7{--span:8}
+}
+@media(max-width:600px){
+  .lx-grid{--lab-cols:4}
+  .lx-grid > *{grid-column:span 4}
+  .lx-main{padding:var(--lab-6) var(--lab-4) var(--lab-8)}
+  .lx-group.lx-cols{grid-auto-flow:row}
+  .lx-group.lx-cols > .lx-card:first-child{border-radius:0 0 var(--lab-r) var(--lab-r)}
+  .lx-group.lx-cols > .lx-card:last-child{border-radius:var(--lab-r) var(--lab-r) 0 0}
+  .lx-steps{grid-auto-flow:row}
+  .lx-nav a span{display:none}
+}
+
+/* Vista técnica: cajas medidas sobre el mismo componente */
+.lx-ov{position:absolute;z-index:99;pointer-events:none;outline:1px dashed rgba(206,99,93,.9);background:rgba(114,155,221,.08)}
+.lx-ov b{position:absolute;left:-1px;top:-18px;padding:1px 5px;font:600 10px/14px ui-monospace,Consolas,monospace;color:#fff;background:#10122A;white-space:nowrap}
+.lx-ov--pad{outline:0;background:rgba(206,99,93,.14)}

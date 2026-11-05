@@ -169,6 +169,9 @@ def sec(sid, num, lab, title, body):
 
 '''
 def lis(xs, v=False):
+    # Viñetas solo para elementos breves (ESP-005): si alguno pasa de dos líneas, la lista se presenta en filas
+    if max(len(x) for x in xs) > 160:
+        return '        <ul class="gov__rows">' + ''.join(f'<li>{e(x)}</li>' for x in xs) + '</ul>\n'
     return f'        <ul class="gov__list{" gov__list--v" if v else ""}">' + ''.join(f'<li>{e(x)}</li>' for x in xs) + '</ul>\n'
 def link(t, h):
     return f'<a class="xref" href="../{h}">{e(t)}</a>'
@@ -183,11 +186,11 @@ S += sec('normas', '01', 'Cómo leer las normas', 'Autoridad, vigencia y ámbito
          + stack([(x['t'], e(x['d']) + f' Equivale a {e(x["equivale"])}.') for x in G['estados_adicionales']], v=True)
          + f'        <p class="ed__more">{e(G["regla_ia"])}</p>\n'
          + '        <h3 class="ed__sub">Ámbitos de aplicación</h3>\n'
-         + '        <ul class="gov__chips">' + ''.join(f'<li>{e(a["t"])}</li>' for a in G['ambitos']) + '</ul>\n' + lis(G['ambitos_criterio'])
+         + '        <ul class="gov__amb">' + ''.join(f'<li>{e(a["t"])}</li>' for a in G['ambitos']) + '</ul>\n' + lis(G['ambitos_criterio'])
          + '        <h3 class="ed__sub">Dimensiones de cada norma</h3>\n' + lis(G['dimensiones']))
 ROUTES = ''
 for r in G['rutas']:
-    steps = ''.join(f'<li>{link(t, h)}</li>' for t, h in r['pasos'])
+    steps = ''.join(f'<li><span class="gov__route-i">{i:02d}</span>{link(t, h)}</li>' for i, (t, h) in enumerate(r['pasos'], 1))
     notes = ''.join(f'<p class="gov__route-n">{e(x)}</p>' for x in r.get('reglas', []))
     ROUTES += (f'        <div class="gov__route"><div class="gov__route-h"><span class="gov__route-k">{r["k"]}</span><h3 class="gov__route-t">{e(r["t"])}</h3><p class="gov__route-p">{e(r["para"])}</p></div>\n'
                f'          <ol class="gov__route-s">{steps}</ol>{notes}</div>\n')

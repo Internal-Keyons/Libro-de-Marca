@@ -12,3 +12,6 @@ __pycache__/
 Thumbs.db
 desktop.ini
 .DS_Store
+# Laboratorio de Interfaces: experimentos locales y clave de la API (nunca se versionan)
+_lab/
+.env.local

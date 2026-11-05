@@ -89,6 +89,10 @@
   --font-display:'TASA Orbiter','Plus Jakarta Sans',system-ui,sans-serif;
   --font-sans:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
   --font-mono:ui-monospace,'SFMono-Regular','Cascadia Mono',Consolas,monospace;
+  /* Escala de lectura (TYP-002): solo seis tamaños para el texto. Los titulares de exhibición empiezan en 32 px.
+     Los pasos responsivos saltan de un tamaño de la escala al siguiente, nunca quedan entre dos. */
+  --fs-12:12px; --fs-14:14px; --fs-16:16px; --fs-20:20px; --fs-24:24px; --fs-32:32px;
+  --fs-20-24:20px; --fs-24-32:24px;
 
   /* Espacio · base 4 */
   --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:20px; --s6:24px;
@@ -174,3 +178,6 @@
   --field-focus-ring:0 0 0 5px rgba(198,213,236,.7);
   --field-error-ring:0 0 0 5px var(--k-est-terracota);
 }
+
+/* Pasos responsivos de la escala de lectura */
+@media(min-width:1200px){:root{--fs-20-24:24px;--fs-24-32:32px}}

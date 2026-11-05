@@ -31,7 +31,7 @@ Los gráficos Keyons convierten información en **conocimiento comprensible**.
 - Identificar patrones.
 - Destacar resultados.
 - Mostrar avances.
-- Hacer visibles las diferencias entre una situación actual y otra propuesta.
+- Comparar lo actual con lo propuesto.
 
 La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual.
 

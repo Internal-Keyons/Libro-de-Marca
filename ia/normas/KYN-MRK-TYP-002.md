@@ -27,35 +27,35 @@ Display
 TASA Orbiter
 
 Título de sección
-30 a 44 · px
+32 a 44 · px
 Plus Jakarta Sans
 
 Subtítulo
-22 a 27 · px
+24 · px
 Plus Jakarta Sans
 
 Título menor
-17 a 18 · px
+20 · px
 Plus Jakarta Sans
 
 Entrada
-18 a 20 · px
+20 · px
 Plus Jakarta Sans
 
 Cuerpo
-16 a 17 · px
+16 · px
 Plus Jakarta Sans
 
 Pequeño
-14 a 15 · px
+14 · px
 Plus Jakarta Sans
 
 Rótulo
-13 · px
+12 · px
 Plus Jakarta Sans
 
 Kicker
-13 · px
+12 · px
 TASA Orbiter
 
 ###### Reglas de composición
@@ -97,7 +97,7 @@ Las variaciones expresivas conservarán relaciones coherentes de tamaño, peso, 
 
 Plus Jakarta Sans para artículos, informes digitales y documentos extensos.
 
-- **Tamaño de cuerpo**: 16–18 px
+- **Tamaño de cuerpo**: 16 px
 - **Interlineado**: 1,5–1,65
 - **Caracteres por línea**: 55–75
 - **Alineación inicial**: Izquierda

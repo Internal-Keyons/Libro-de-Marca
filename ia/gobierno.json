@@ -191,27 +191,27 @@
     "para": "Nuevos integrantes de Keyons.",
     "pasos": [
      [
-      "La identidad",
+      "Conocer la identidad de Keyons",
       "marca/index.html"
      ],
      [
-      "Los principios",
+      "Leer los principios de la marca",
       "marca/principios.html"
      ],
      [
-      "Convenciones normativas",
+      "Entender cómo se leen las normas",
       "guia/index.html#normas"
      ],
      [
-      "Contenidos según la función: Fundamentos para diseño",
+      "Diseñar con los Fundamentos",
       "fundamentos/index.html"
      ],
      [
-      "Sistema de Diseño para producto y desarrollo",
+      "Construir con el Sistema de Diseño",
       "sistema-diseno/index.html"
      ],
      [
-      "Aplicaciones para comunicación y ventas",
+      "Comunicar con las Aplicaciones",
       "aplicaciones/index.html"
      ]
     ]
@@ -219,22 +219,22 @@
    {
     "k": "B",
     "t": "Consulta especializada",
-    "para": "Diseñadores, desarrolladores, responsables comerciales, personal operativo y otros especialistas.",
+    "para": "Especialistas de diseño, desarrollo, ventas y operaciones.",
     "pasos": [
      [
-      "Buscar la tarea en el buscador (Ctrl K)",
+      "Buscar la tarea (Ctrl K)",
       "inicio.html"
      ],
      [
-      "Índice de normas vigentes",
+      "Revisar el índice de normas vigentes",
       "recursos/referencia.html#indice"
      ],
      [
-      "Especificaciones y ejemplos de cada norma",
+      "Leer especificaciones y ejemplos",
       "recursos/referencia.html#nomenclatura"
      ],
      [
-      "Criterios de comprobación",
+      "Comprobar con los criterios de calidad",
       "fundamentos/criterio/antipatrones.html"
      ]
     ]
@@ -245,23 +245,23 @@
     "para": "Herramientas de IA que consultan la Biblioteca.",
     "pasos": [
      [
-      "Convenciones de autoridad normativa",
+      "Leer las convenciones de autoridad",
       "ia/gobierno.json"
      ],
      [
-      "Catálogo de libros y normas",
+      "Cargar el catálogo de libros y normas",
       "ia/indice.json"
      ],
      [
-      "Estados de vigencia y ámbitos",
+      "Consultar vigencia y ámbitos",
       "ia/gobierno.json"
      ],
      [
-      "Restricciones de seguridad, confidencialidad y permisos",
+      "Respetar seguridad y permisos",
       "llms.txt"
      ],
      [
-      "Normas específicas de la tarea",
+      "Aplicar las normas de la tarea",
       "ia/normas/"
      ]
     ],
@@ -276,19 +276,19 @@
     "para": "Quienes aprueban normas, excepciones y cambios.",
     "pasos": [
      [
-      "Normas vigentes y en revisión",
+      "Revisar normas vigentes y en revisión",
       "recursos/referencia.html#indice"
      ],
      [
-      "Clasificación normativa pendiente de aprobación",
+      "Aprobar la clasificación pendiente",
       "docs/CLASIFICACION_NORMATIVA.md"
      ],
      [
-      "Excepciones y aprobación",
+      "Resolver excepciones y aprobaciones",
       "guia/index.html#gobierno"
      ],
      [
-      "Trazabilidad de criterios",
+      "Verificar la trazabilidad de criterios",
       "fundamentos/criterio/antipatrones.html#trazabilidad"
      ]
     ]
@@ -296,14 +296,14 @@
    {
     "k": "E",
     "t": "Terceros autorizados",
-    "para": "Clientes, auditores, proveedores y colaboradores externos con acceso autorizado.",
+    "para": "Clientes, auditores y proveedores con acceso autorizado.",
     "pasos": [
      [
-      "Versión documental del libro",
+      "Consultar la versión documental",
       "documental/index.html"
      ],
      [
-      "Convenciones de citación",
+      "Citar con las convenciones de la Biblioteca",
       "guia/index.html#referencias"
      ]
     ],

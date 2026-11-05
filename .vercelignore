@@ -1,2 +1,5 @@
 # Documentación de desarrollo: no se publica con el sitio
 docs/
+
+_lab/
+.env.local

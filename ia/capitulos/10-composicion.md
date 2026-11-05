@@ -288,6 +288,20 @@ Densidad alta
 - Vistas de monitoreo
 - Pantallas para escanear rápido
 
+#### Texto · bloques breves
+
+**(Párrafos breves)**
+Un párrafo desarrolla una sola idea y ocupa como máximo cuatro líneas en la columna de lectura de 600 px. Si necesita más, se divide por ideas o se convierte en lista.
+
+**(Listas parejas)**
+Los elementos de una misma lista tienen el mismo largo: todos en una línea o todos en dos. La redacción se ajusta hasta que calcen.
+
+**(Viñetas)**
+Las viñetas acompañan elementos breves. Los elementos de más de dos líneas se presentan en filas con rótulo.
+
+**(Notas de cierre)**
+Un texto al final de una sección lleva rótulo y la línea de su bloque. Nunca queda suelto.
+
 La densidad adecuada permite comprender y actuar sin añadir ruido visual.
 
 ## KYN-MRK-VIS-003 · 10.5.1 Jerarquía repetida
@@ -419,7 +433,7 @@ Ejemplo ilustrativo. Fuente: diagnóstico operativo, cifras de muestra.
 
 - **Retícula**: 12 columnas: dos bloques de 6 con medianil de 24 px (`--gap`).
 - **Separaciones**: 16 px entre filas (`--s4`), 32 px entre título y bloques (`--s8`), 48 px antes de la fuente (`--s12`).
-- **Jerarquía**: Titular Plus Jakarta Sans 30 a 44 px, 500; criterio 13 px en gris 3; valor 20 px, 500, Azul Noche.
+- **Jerarquía**: Titular Plus Jakarta Sans 24 a 32 px, 500; criterio 12 px en gris 3; valor 20 px, 500, Azul Noche.
 - **Alineación**: Los mismos criterios, en el mismo orden y a la misma altura en ambas columnas.
 - **Adaptación**: Menos de 760 px: la propuesta pasa debajo de la situación actual y conserva el orden de los criterios.
 - **Comprobación**: Cada diferencia se lee en una sola fila; unidades y escalas equivalentes; la propuesta se distingue sin depender solo del color.
@@ -435,7 +449,7 @@ Las descripciones de cada fase se toman de la documentación oficial de Prisma.
 - **Retícula**: Cinco columnas iguales sobre el ancho del contenido; medianil de 12 px (`--gap-list`).
 - **Separaciones**: 16 px entre muestra y número, 4 px entre número y nombre, 8 px entre nombre y descripción.
 - **Continuidad**: Una línea de 1 px en Azul Cielo 200 une las fases a la altura de los números.
-- **Jerarquía**: Número 13 px en gris 3; nombre 18 px, 500, Azul Noche; descripción 15 px en gris 2.
+- **Jerarquía**: Número 12 px en gris 3; nombre 20 px, 500, Azul Noche; descripción 14 px en gris 2.
 - **Adaptación**: Menos de 760 px: la secuencia se vuelve vertical y la línea de continuidad pasa al costado izquierdo.
 - **Comprobación**: El orden se lee sin numeración adicional; las cinco fases tienen la misma proporción; los nombres coinciden con la documentación vigente.
 
@@ -450,7 +464,7 @@ Empezar por los flujos de mayor repetición y medir cada cambio con el mismo ind
 
 - **Retícula**: 12 columnas: 8 para la lectura y 4 para notas; columna de lectura de hasta 600 px.
 - **Separaciones**: 16 px entre párrafos (`--s4`), 48 px antes de cada sección (`--s12`), 32 px entre titular y entrada (`--s8`).
-- **Jerarquía**: Titular 30 a 44 px, 500; entrada 18 a 20 px; sección 18 px, 500; cuerpo 16 a 17 px con interlineado 1,65; notas 13 px en gris 3.
+- **Jerarquía**: Titular 24 a 32 px, 500; entrada 20 px; sección 20 px, 500; cuerpo 16 px con interlineado 1,65; notas 12 px en gris 3.
 - **Lectura**: Entre 55 y 75 caracteres por línea; alineación a la izquierda; sin cortes de palabra.
 - **Adaptación**: Menos de 760 px: las notas pasan debajo del párrafo que acompañan y la columna ocupa todo el ancho.
 - **Comprobación**: Cada sección se identifica de un vistazo; la línea no supera 75 caracteres; las notas no interrumpen la lectura principal.

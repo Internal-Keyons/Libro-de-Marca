@@ -25,10 +25,10 @@ Este es el **manual de marca de Keyons**. Aquí vive todo lo que hace **reconoci
 
 Este libro reúne la identidad de Keyons y los criterios para aplicarla. Cada norma establece su autoridad, vigencia y ámbito de aplicación.
 
-1. 01 · Encuentra lo esencial · Utiliza el índice y la búsqueda para localizar las normas relacionadas con tu tarea.
-2. 02 · Interpretar las normas · Indican si son obligatorias, si orientan la práctica o si ofrecen alternativas.
-3. 03 · Vigencia y alcance · Consulta el estado de cada norma y los contextos donde corresponde aplicarla.
-4. 04 · Reglas en conjunto · Las referencias por código conectan las normas relacionadas entre capítulos y libros.
+1. Encuentra lo esencial · Utiliza el índice y la búsqueda para localizar las normas relacionadas con tu tarea.
+2. Interpretar las normas · Indican si son obligatorias, si orientan la práctica o si ofrecen alternativas.
+3. Vigencia y alcance · Consulta el estado de cada norma y los contextos donde corresponde aplicarla.
+4. Reglas en conjunto · Las referencias por código conectan las normas relacionadas entre capítulos y libros.
 
 ## Área 01 · Marca
 
@@ -390,7 +390,8 @@ El cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz
 **(Criterio)**
 Nace desde el boceto inicial, nunca como un filtro o adhesivo final.
 
-En composiciones editoriales puede convertirse en protagonista. En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.
+En composiciones editoriales puede convertirse en protagonista.
+En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.
 
 #### KYN-MRK-CON-005 · 2.2.1 Formalidad según canal
 
@@ -595,9 +596,7 @@ Organiza la información, orienta la atención y aporta claridad mediante una co
 
 Aporta personalidad y expresión mediante recursos visuales utilizados con intención.
 
-###### Equilibrio
-
-Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.
+Equilibrio · Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.
 
 #### KYN-MRK-DIS-004 · 3.4 Según contexto
 
@@ -1170,7 +1169,16 @@ Cada versión vive en **tres combinaciones** y en ninguna otra. Nunca en Salmón
 ###### Logotipo principal
 
 La primera opción siempre que el espacio lo permita. Un bloque sólido y compacto: el nombre en dos niveles, KEY y ONS, guía la pronunciación, expresa la naturaleza modular de nuestras soluciones y dibuja una llave entre la K, la E, la O y la N.
-**(Usos recomendados)** · El logotipo principal es la opción prioritaria y debe aplicarse de forma preferente. Especialmente en portadas de documentos, presentaciones corporativas, aplicaciones textiles como uniformes, rotulación principal y en cualquier soporte que requiera máxima presencia de marca con una composición equilibrada. Solo cuando otra versión resulte más adecuada para el formato o contexto específico puede utilizarse esa alternativa; en cualquier otro escenario, el logotipo principal sigue siendo la elección.
+
+**(Usos recomendados)** El logotipo principal es la opción prioritaria y debe aplicarse de forma preferente, especialmente en:
+
+- Portadas de documentos.
+- Presentaciones corporativas.
+- Aplicaciones textiles, como uniformes.
+- Rotulación principal.
+- Soportes que requieran máxima presencia de marca con una composición equilibrada.
+
+Solo cuando otra versión resulte más adecuada para el formato o contexto específico puede utilizarse esa alternativa. En cualquier otro escenario, el logotipo principal sigue siendo la elección.
 
 **(Logotipo principal)**
 
@@ -2019,35 +2027,35 @@ Display
 TASA Orbiter
 
 Título de sección
-30 a 44 · px
+32 a 44 · px
 Plus Jakarta Sans
 
 Subtítulo
-22 a 27 · px
+24 · px
 Plus Jakarta Sans
 
 Título menor
-17 a 18 · px
+20 · px
 Plus Jakarta Sans
 
 Entrada
-18 a 20 · px
+20 · px
 Plus Jakarta Sans
 
 Cuerpo
-16 a 17 · px
+16 · px
 Plus Jakarta Sans
 
 Pequeño
-14 a 15 · px
+14 · px
 Plus Jakarta Sans
 
 Rótulo
-13 · px
+12 · px
 Plus Jakarta Sans
 
 Kicker
-13 · px
+12 · px
 TASA Orbiter
 
 ###### Reglas de composición
@@ -2089,7 +2097,7 @@ Las variaciones expresivas conservarán relaciones coherentes de tamaño, peso, 
 
 Plus Jakarta Sans para artículos, informes digitales y documentos extensos.
 
-- **Tamaño de cuerpo**: 16–18 px
+- **Tamaño de cuerpo**: 16 px
 - **Interlineado**: 1,5–1,65
 - **Caracteres por línea**: 55–75
 - **Alineación inicial**: Izquierda
@@ -2738,6 +2746,20 @@ Densidad alta
 - Vistas de monitoreo
 - Pantallas para escanear rápido
 
+###### Texto · bloques breves
+
+**(Párrafos breves)**
+Un párrafo desarrolla una sola idea y ocupa como máximo cuatro líneas en la columna de lectura de 600 px. Si necesita más, se divide por ideas o se convierte en lista.
+
+**(Listas parejas)**
+Los elementos de una misma lista tienen el mismo largo: todos en una línea o todos en dos. La redacción se ajusta hasta que calcen.
+
+**(Viñetas)**
+Las viñetas acompañan elementos breves. Los elementos de más de dos líneas se presentan en filas con rótulo.
+
+**(Notas de cierre)**
+Un texto al final de una sección lleva rótulo y la línea de su bloque. Nunca queda suelto.
+
 La densidad adecuada permite comprender y actuar sin añadir ruido visual.
 
 #### KYN-MRK-VIS-003 · 10.5.1 Jerarquía repetida
@@ -2869,7 +2891,7 @@ Ejemplo ilustrativo. Fuente: diagnóstico operativo, cifras de muestra.
 
 - **Retícula**: 12 columnas: dos bloques de 6 con medianil de 24 px (`--gap`).
 - **Separaciones**: 16 px entre filas (`--s4`), 32 px entre título y bloques (`--s8`), 48 px antes de la fuente (`--s12`).
-- **Jerarquía**: Titular Plus Jakarta Sans 30 a 44 px, 500; criterio 13 px en gris 3; valor 20 px, 500, Azul Noche.
+- **Jerarquía**: Titular Plus Jakarta Sans 24 a 32 px, 500; criterio 12 px en gris 3; valor 20 px, 500, Azul Noche.
 - **Alineación**: Los mismos criterios, en el mismo orden y a la misma altura en ambas columnas.
 - **Adaptación**: Menos de 760 px: la propuesta pasa debajo de la situación actual y conserva el orden de los criterios.
 - **Comprobación**: Cada diferencia se lee en una sola fila; unidades y escalas equivalentes; la propuesta se distingue sin depender solo del color.
@@ -2885,7 +2907,7 @@ Las descripciones de cada fase se toman de la documentación oficial de Prisma.
 - **Retícula**: Cinco columnas iguales sobre el ancho del contenido; medianil de 12 px (`--gap-list`).
 - **Separaciones**: 16 px entre muestra y número, 4 px entre número y nombre, 8 px entre nombre y descripción.
 - **Continuidad**: Una línea de 1 px en Azul Cielo 200 une las fases a la altura de los números.
-- **Jerarquía**: Número 13 px en gris 3; nombre 18 px, 500, Azul Noche; descripción 15 px en gris 2.
+- **Jerarquía**: Número 12 px en gris 3; nombre 20 px, 500, Azul Noche; descripción 14 px en gris 2.
 - **Adaptación**: Menos de 760 px: la secuencia se vuelve vertical y la línea de continuidad pasa al costado izquierdo.
 - **Comprobación**: El orden se lee sin numeración adicional; las cinco fases tienen la misma proporción; los nombres coinciden con la documentación vigente.
 
@@ -2900,7 +2922,7 @@ Empezar por los flujos de mayor repetición y medir cada cambio con el mismo ind
 
 - **Retícula**: 12 columnas: 8 para la lectura y 4 para notas; columna de lectura de hasta 600 px.
 - **Separaciones**: 16 px entre párrafos (`--s4`), 48 px antes de cada sección (`--s12`), 32 px entre titular y entrada (`--s8`).
-- **Jerarquía**: Titular 30 a 44 px, 500; entrada 18 a 20 px; sección 18 px, 500; cuerpo 16 a 17 px con interlineado 1,65; notas 13 px en gris 3.
+- **Jerarquía**: Titular 24 a 32 px, 500; entrada 20 px; sección 20 px, 500; cuerpo 16 px con interlineado 1,65; notas 12 px en gris 3.
 - **Lectura**: Entre 55 y 75 caracteres por línea; alineación a la izquierda; sin cortes de palabra.
 - **Adaptación**: Menos de 760 px: las notas pasan debajo del párrafo que acompañan y la columna ocupa todo el ancho.
 - **Comprobación**: Cada sección se identifica de un vistazo; la línea no supera 75 caracteres; las notas no interrumpen la lectura principal.
@@ -2951,7 +2973,9 @@ Número: 11.1 · ID: `KYN-MRK-ILU-001` · Estado: vigente · Fuente: `/fundament
 
 ##### Pequeños módulos, firma constante
 
-Las viñetas son las figuras que acompañan listas y enumeraciones: pequeñas pero constantes, aparecen en cada sección, cada tarjeta y cada vertical de servicio. **Funcionan con dos ritmos independientes**: la forma alterna siempre y el color varía según el modo.
+Las viñetas son las figuras que acompañan listas y enumeraciones: pequeñas pero constantes, aparecen en cada sección, cada tarjeta y cada vertical de servicio.
+
+**Funcionan con dos ritmos independientes**: la forma alterna siempre y el color varía según el modo.
 
 > Recurso visual: Viñeta A · Círculo: SVG en línea que se copia con el color elegido
 
@@ -3162,7 +3186,9 @@ El borde entre lo esmerilado y lo nítido lleva una línea de luz sutil de 1 a 2
 
 El margen entre la figura y el borde cambia con el formato: 24 a 48 px en documentos, 16 a 32 px en móvil y hasta 120 px en portadas de alto impacto. Nunca menos del doble del grosor del canto.
 
-**Regla transversal 70/30.** En cualquier pieza con ventana, el cielo ocupa cerca del 70 % de la composición y el contexto (texto, elementos de marca, otros gráficos) el 30 % restante. Así el cielo sigue siendo el protagonista; la regla completa está en KYN-MRK-ILU-008.
+Regla transversal 70/30
+En cualquier pieza con ventana, el cielo ocupa cerca del 70 % de la composición y el contexto (texto, elementos de marca, otros gráficos) el 30 % restante.
+Así el cielo sigue siendo el protagonista; la regla completa está en KYN-MRK-ILU-008.
 
 Una ventana sin cielo no es una ventana Keyons.
 
@@ -3656,7 +3682,7 @@ Los gráficos Keyons convierten información en **conocimiento comprensible**.
 - Identificar patrones.
 - Destacar resultados.
 - Mostrar avances.
-- Hacer visibles las diferencias entre una situación actual y otra propuesta.
+- Comparar lo actual con lo propuesto.
 
 La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual.
 
@@ -3690,7 +3716,9 @@ Número: 13.2 · ID: `KYN-MRK-DAT-002` · Estado: vigente · Fuente: `/fundament
 
 Las paletas se organizan según el significado de los datos: **categórica, secuencial y divergente**. Estas tres familias responden a funciones estadísticas diferentes.
 
-Las fuentes cromáticas proceden de la paleta corporativa y sus escalas, complementadas por colores funcionales autorizados cuando corresponda. Esta organización amplía la clasificación histórica «paleta base, monocromática y suave»: la clasificación histórica describe familias de colores; la nueva describe para qué se utiliza cada familia.
+Las fuentes cromáticas proceden de la paleta corporativa y sus escalas, complementadas por colores funcionales autorizados cuando corresponda.
+
+Esta organización amplía la clasificación histórica «paleta base, monocromática y suave»: la clasificación histórica describe familias de colores; la nueva describe para qué se utiliza cada familia.
 
 ###### Colores corporativos disponibles
 
@@ -3733,8 +3761,7 @@ Para magnitudes ordenadas, del claro al profundo en pasos parejos. La de Azul Ci
 
 Azul Cielo, Azul Noche, Lavanda, Blanco Keyons, Amarillo claro de los cielos, Ámbar de los cielos, Salmón Tierra y Salmón Atardecer.
 
-Orden de representación: #729BDD → #B2BFE5 → #F4F4F4 → #FFEBB1 → #FFCE86
-
+Orden de representación
 Esta combinación conserva la relación entre los azules de la identidad y los tonos cálidos de los cielos. Los dos extremos representan direcciones diferentes respecto al centro. Su significado depende de los datos y se comunica mediante etiquetas y unidades.
 
 **(DEBE · Referencia central)**
@@ -3768,8 +3795,9 @@ El Sistema de Diseño establecerá su implementación técnica, adaptación resp
 
 ###### Colores semánticos
 
-Los colores semánticos pertenecen a estados como éxito, advertencia, error, información y estado crítico. La paleta semántica se utiliza para comunicar estados, mientras que las paletas estadísticas representan categorías, magnitudes y diferencias.
+Los colores semánticos pertenecen a estados como éxito, advertencia, error, información y estado crítico.
 
+La paleta semántica se utiliza para comunicar estados, mientras que las paletas estadísticas representan categorías, magnitudes y diferencias.
 Para pérdidas, errores y resultados desfavorables se utiliza el color semántico correspondiente, acompañándolo de texto, símbolo o indicador explícito. La definición técnica de esos colores procede del catálogo semántico oficial del proyecto (KYN-MRK-COL-014).
 
 #### KYN-MRK-DAT-003 · 13.3 Tipografía en gráficos
@@ -3782,7 +3810,7 @@ Cada texto del gráfico tiene su nivel. **Toda cifra usa números tabulares.**
 
 **(Etiqueta)**
 (Horas recuperadas · Enero a junio 2026)
-Jakarta 500 · 13 px, gris. Dice qué se mide y cuándo.
+Jakarta 500 · 12 px, gris. Dice qué se mide y cuándo.
 
 **(Cifra protagonista)**
 +38 %
@@ -3790,15 +3818,15 @@ TASA Orbiter 400 · 40 a 96 px. Una por gráfico.
 
 **(Lectura)**
 Menos trabajo repetitivo en seis meses, por persona.
-Jakarta 400 · 13 a 15 px. Explica la cifra en una frase.
+Jakarta 400 · 14 px. Explica la cifra en una frase.
 
 **(Ejes y valores)**
 Ene Feb Mar Abr May Jun
-Jakarta 500 · 11 px, números tabulares.
+Jakarta 500 · 12 px, números tabulares.
 
 **(Fuente)**
 Fuente: Diagnóstico Keyons, 15 entrevistas, 2026
-Jakarta 400 · 11 px, gris nivel 3.
+Jakarta 400 · 12 px, gris nivel 3.
 
 | (Formato) | Español | Inglés |
 |---|---|---|

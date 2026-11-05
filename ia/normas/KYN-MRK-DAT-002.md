@@ -22,7 +22,9 @@ Número: 13.2 · Estado: vigente · Capítulo: 13 Datos y visualización · Fuen
 
 Las paletas se organizan según el significado de los datos: **categórica, secuencial y divergente**. Estas tres familias responden a funciones estadísticas diferentes.
 
-Las fuentes cromáticas proceden de la paleta corporativa y sus escalas, complementadas por colores funcionales autorizados cuando corresponda. Esta organización amplía la clasificación histórica «paleta base, monocromática y suave»: la clasificación histórica describe familias de colores; la nueva describe para qué se utiliza cada familia.
+Las fuentes cromáticas proceden de la paleta corporativa y sus escalas, complementadas por colores funcionales autorizados cuando corresponda.
+
+Esta organización amplía la clasificación histórica «paleta base, monocromática y suave»: la clasificación histórica describe familias de colores; la nueva describe para qué se utiliza cada familia.
 
 ###### Colores corporativos disponibles
 
@@ -65,8 +67,7 @@ Para magnitudes ordenadas, del claro al profundo en pasos parejos. La de Azul Ci
 
 Azul Cielo, Azul Noche, Lavanda, Blanco Keyons, Amarillo claro de los cielos, Ámbar de los cielos, Salmón Tierra y Salmón Atardecer.
 
-Orden de representación: #729BDD → #B2BFE5 → #F4F4F4 → #FFEBB1 → #FFCE86
-
+Orden de representación
 Esta combinación conserva la relación entre los azules de la identidad y los tonos cálidos de los cielos. Los dos extremos representan direcciones diferentes respecto al centro. Su significado depende de los datos y se comunica mediante etiquetas y unidades.
 
 **(DEBE · Referencia central)**
@@ -100,6 +101,7 @@ El Sistema de Diseño establecerá su implementación técnica, adaptación resp
 
 ###### Colores semánticos
 
-Los colores semánticos pertenecen a estados como éxito, advertencia, error, información y estado crítico. La paleta semántica se utiliza para comunicar estados, mientras que las paletas estadísticas representan categorías, magnitudes y diferencias.
+Los colores semánticos pertenecen a estados como éxito, advertencia, error, información y estado crítico.
 
+La paleta semántica se utiliza para comunicar estados, mientras que las paletas estadísticas representan categorías, magnitudes y diferencias.
 Para pérdidas, errores y resultados desfavorables se utiliza el color semántico correspondiente, acompañándolo de texto, símbolo o indicador explícito. La definición técnica de esos colores procede del catálogo semántico oficial del proyecto (KYN-MRK-COL-014).

@@ -46,7 +46,9 @@ Número: 11.1 · ID: `KYN-MRK-ILU-001` · Estado: vigente · Fuente: `/fundament
 
 ### Pequeños módulos, firma constante
 
-Las viñetas son las figuras que acompañan listas y enumeraciones: pequeñas pero constantes, aparecen en cada sección, cada tarjeta y cada vertical de servicio. **Funcionan con dos ritmos independientes**: la forma alterna siempre y el color varía según el modo.
+Las viñetas son las figuras que acompañan listas y enumeraciones: pequeñas pero constantes, aparecen en cada sección, cada tarjeta y cada vertical de servicio.
+
+**Funcionan con dos ritmos independientes**: la forma alterna siempre y el color varía según el modo.
 
 > Recurso visual: Viñeta A · Círculo: SVG en línea que se copia con el color elegido
 
@@ -257,7 +259,9 @@ El borde entre lo esmerilado y lo nítido lleva una línea de luz sutil de 1 a 2
 
 El margen entre la figura y el borde cambia con el formato: 24 a 48 px en documentos, 16 a 32 px en móvil y hasta 120 px en portadas de alto impacto. Nunca menos del doble del grosor del canto.
 
-**Regla transversal 70/30.** En cualquier pieza con ventana, el cielo ocupa cerca del 70 % de la composición y el contexto (texto, elementos de marca, otros gráficos) el 30 % restante. Así el cielo sigue siendo el protagonista; la regla completa está en KYN-MRK-ILU-008.
+Regla transversal 70/30
+En cualquier pieza con ventana, el cielo ocupa cerca del 70 % de la composición y el contexto (texto, elementos de marca, otros gráficos) el 30 % restante.
+Así el cielo sigue siendo el protagonista; la regla completa está en KYN-MRK-ILU-008.
 
 Una ventana sin cielo no es una ventana Keyons.
 

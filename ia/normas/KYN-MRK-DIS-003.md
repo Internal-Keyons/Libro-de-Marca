@@ -30,6 +30,4 @@ Organiza la información, orienta la atención y aporta claridad mediante una co
 
 Aporta personalidad y expresión mediante recursos visuales utilizados con intención.
 
-###### Equilibrio
-
-Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.
+Equilibrio · Ambos enfoques se complementan. Su equilibrio responde al contenido y al contexto, sin comprometer la comprensión ni la experiencia.

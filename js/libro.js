@@ -114,14 +114,13 @@
         <div class="hdr__left">
           <button class="hdr__book" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="bks" aria-label="${esc(LIBRO.t)} · Cambiar de libro"><span class="hdr__book-art bks__art">${trama(LIBRO.tr)}</span><span class="hdr__book-t">${esc(LIBRO.t)}</span><span class="hdr__book-c">${esc(LIBRO.c)}</span>${ic(I.chev)}</button>
         </div>
-        <a class="hdr__logo" href="${url('index.html')}" aria-label="Keyons · Biblioteca">${LOGO}</a>
+        <a class="hdr__logo" href="${url(LIBRO.h || 'index.html')}" aria-label="${esc(LIBRO.t)} · Portada">${LOGO}</a>
         <div class="hdr__right">
           <button class="hdr__search" type="button" data-search aria-label="Buscar en la Biblioteca (Ctrl K)">${ic(I.search)}<span>Buscar</span><kbd>Ctrl K</kbd></button>
         </div>
       </div>`;
     /* Selector global de libros: vista completa, como el cambio de perfiles.
        En móvil sube desde abajo; en escritorio aparece con una transición editorial discreta. */
-    const X = '<svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,11.863,11.053801)" stroke-width="2.5" stroke-linecap="square" fill="none" stroke="currentColor" d="M0 0L8.274 -9.901"/><path transform="matrix(1,0,0,-1,20.137,11.053801)" stroke-width="2.5" stroke-linecap="square" fill="none" stroke="currentColor" d="M-8.274 -9.901L0 0"/></svg>';
     const CH = '<svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,13.4475,25.0231)" d="M0 0-1.987 1.846 4.184 8.489C4.454 8.779 4.454 9.234 4.185 9.525L-1.989 16.206 .002 18.046 6.177 11.366C7.402 10.04 7.399 7.966 6.171 6.643Z" fill="currentColor"/></svg>';
     const tile = (b, cls) => {
       const inner = `<span class="bks__art">${trama(b.tr)}</span><span class="bks__n">${esc(b.t)}</span>${b.on ? '' : '<span class="bks__s">En preparación</span>'}`;
@@ -131,7 +130,7 @@
     bks.className = 'bks'; bks.id = 'bks'; bks.hidden = true;
     bks.setAttribute('role', 'dialog'); bks.setAttribute('aria-modal', 'true'); bks.setAttribute('aria-labelledby', 'bks-t');
     bks.innerHTML = `<div class="bks__panel">
-      <div class="bks__top"><h2 class="bks__h" id="bks-t">Biblioteca Keyons</h2><button class="bks__x" type="button" aria-label="Cerrar">${X}</button></div>
+      <div class="bks__top"><h2 class="bks__h" id="bks-t">Biblioteca Keyons</h2><button class="bks__x" type="button" aria-label="Cerrar">${ic('<path d="M4 4l8 8M12 4l-8 8"/>')}</button></div>
       <div class="bks__cur">${tile(LIBRO, 'bks__card')}<span class="bks__k">Libro actual</span></div>
       <ul class="bks__list">${LIBROS.filter((b) => b !== LIBRO).map((b) => `<li>${tile(b, 'bks__it')}</li>`).join('')}</ul>
       <a class="bks__guide" href="${url('guia/index.html')}">Guía de la Biblioteca</a>
@@ -265,6 +264,8 @@
     const sky = p.matches('.portal--cielo') ? 'mediodia' : p.matches('.portal--salmon') ? 'atardecer' : 'noche';
     cielos.push([p, sky, document.body.dataset.page || location.pathname, true]);
   });
+  /* Muestras de cielo dentro del contenido (ESP-007, Secuencia Prisma): el mismo cielo en código, una fase por muestra */
+  document.querySelectorAll('[data-cielo]').forEach((el) => cielos.push([el, el.dataset.cielo, 'muestra-' + el.dataset.cielo]));
   if (cielos.length) {
     const s = document.createElement('script');
     s.src = (document.body.dataset.root || '.') + '/js/keyons-cielo.js';
@@ -570,7 +571,7 @@
   document.querySelectorAll('[data-lectura] [data-l]').forEach((d) => {
     const v = TIPO && TIPO.lectura[d.dataset.l];
     if (!v) return;
-    d.textContent = d.dataset.l === 'cuerpo' ? `${v[0]}–${v[1]} px` : `${tNum(v[0])}–${tNum(v[1])}`;
+    d.textContent = d.dataset.l === 'cuerpo' ? (v[0] === v[1] ? `${v[0]} px` : `${v[0]}–${v[1]} px`) : `${tNum(v[0])}–${tNum(v[1])}`;
   });
 
   /* 8.3 · Referencias V1 a la vista: una tabla por jerarquía */
@@ -1477,6 +1478,25 @@
     const go = () => rfps.forEach((p) => window.KeyonsRafaga.mount(p));
     if (window.KeyonsRafaga) go();
     else { const sc = document.createElement('script'); sc.src = (document.body.dataset.root || '.') + '/js/keyons-rafaga.js'; sc.onload = go; document.head.appendChild(sc); }
+    /* Clic o Enter: copia el SVG de la ráfaga, limpio (sin el polvo animado), para usarlo en Figma, Illustrator o código */
+    const svgOf = (p) => {
+      const sv = p.querySelector('svg'); if (!sv) return '';
+      const c = sv.cloneNode(true);
+      c.querySelectorAll('.rfp__dust,animate,animateMotion,animateTransform').forEach((n) => n.remove());
+      ['aria-hidden', 'style', 'class'].forEach((a) => c.removeAttribute(a));
+      c.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+      const vb = (c.getAttribute('viewBox') || '0 0 300 400').split(/\s+/);
+      c.setAttribute('width', vb[2]); c.setAttribute('height', vb[3]);
+      return new XMLSerializer().serializeToString(c).replace(/ xmlns:xlink="[^"]*"/, '');
+    };
+    rfps.forEach((p) => {
+      const n = (p.querySelector('.rfp__t') || {}).firstChild;
+      p.classList.add('is-copy'); p.tabIndex = 0; p.setAttribute('role', 'button');
+      p.setAttribute('aria-label', 'Copiar el SVG de la ráfaga' + (n ? ' ' + n.textContent.trim() : ''));
+      const run = () => copy(svgOf(p), 'SVG copiado');
+      p.addEventListener('click', run);
+      p.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); run(); } });
+    });
   }
 
   /* ─── Rótulos sin paréntesis: «(Ilustrativa)» se lee «Ilustrativa» ─── */

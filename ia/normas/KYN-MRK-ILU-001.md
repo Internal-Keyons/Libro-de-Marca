@@ -20,7 +20,9 @@ Número: 11.1 · Estado: vigente · Capítulo: 11 Elementos gráficos · Fuente:
 
 ##### Pequeños módulos, firma constante
 
-Las viñetas son las figuras que acompañan listas y enumeraciones: pequeñas pero constantes, aparecen en cada sección, cada tarjeta y cada vertical de servicio. **Funcionan con dos ritmos independientes**: la forma alterna siempre y el color varía según el modo.
+Las viñetas son las figuras que acompañan listas y enumeraciones: pequeñas pero constantes, aparecen en cada sección, cada tarjeta y cada vertical de servicio.
+
+**Funcionan con dos ritmos independientes**: la forma alterna siempre y el color varía según el modo.
 
 > Recurso visual: Viñeta A · Círculo: SVG en línea que se copia con el color elegido
 

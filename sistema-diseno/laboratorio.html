@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Laboratorio de Interfaces · Sistema de Diseño · Keyons</title>
-<meta name="description" content="Entorno de prueba del Sistema de Diseño de Keyons: componentes reales en vista final y vista técnica, comprobados en escritorio, tableta y móvil.">
+<meta name="description" content="Espacio seguro para construir y explorar interfaces de Keyons: parte de una plantilla o de un pedido, explora paleta, tipografía, diagramación y movimiento sin tocar los libros, y guarda lo que funcione.">
 <meta name="keyons:libro" content="sistema-diseno">
-<meta name="keyons:version" content="0.1">
+<meta name="keyons:version" content="0.2">
 <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,13 +14,14 @@
 <link rel="stylesheet" href="../css/tokens.css">
 <link rel="stylesheet" href="../css/libro.css">
 <link rel="stylesheet" href="../css/sistema-diseno.css">
-<link rel="stylesheet" href="../css/laboratorio.css">
+<link rel="stylesheet" href="../css/laboratorio-app.css">
 </head>
-<body class="is-lab" data-root=".." data-page="sistema-diseno/laboratorio.html">
-<!-- Laboratorio de Interfaces: entorno de prueba independiente dentro del Sistema de Diseño.
-     Cada prueba usa los componentes, la tipografía y los tokens reales del libro.
-     La vista técnica y las comprobaciones se calculan sobre el mismo componente (js/laboratorio.js).
-     Identidad Keyons únicamente; la personalización por cliente vendrá después. -->
+<body class="is-lab is-labx" data-root=".." data-page="sistema-diseno/laboratorio.html">
+<!-- Laboratorio de Interfaces: espacio seguro de exploración.
+     El escenario es un iframe aislado (sandbox sin mismo origen) que carga solo tokens.css y el kit
+     css/laboratorio-kit.css. Explorar aplica variables sobre la base; nunca la modifica ni toca los libros.
+     La generación con la API de Claude y el guardado funcionan con el servidor local (python tools/laboratorio.py).
+     Sin servidor, el Laboratorio sigue sirviendo para explorar las plantillas y ver las propuestas guardadas. -->
 
 <header id="topbar"></header>
 
@@ -32,179 +33,101 @@
       <span>Laboratorio de Interfaces</span>
     </nav>
 
-    <header class="ilab__hero">
-      <span class="kicker">Sistema de Diseño · Entorno de prueba</span>
-      <h1 class="ilab__h1">Laboratorio de Interfaces</h1>
-      <p class="ilab__lead">Componentes reales con la identidad Keyons.<br>Cada prueba se consulta en vista final y en vista técnica, en escritorio, tableta y móvil.</p>
-      <ul class="ilab__toc" aria-label="Pruebas">
-        <li><a href="#lab-botones">01 · Botones</a></li>
-        <li><a href="#lab-campo">02 · Campo de texto</a></li>
-        <li><a href="#lab-selector">03 · Selector de opciones</a></li>
-        <li><a href="#lab-contenedor">04 · Contenedor aislado</a></li>
-        <li><a href="#lab-grupo">05 · Grupo de contenedores</a></li>
-        <li><a href="#lab-badges">06 · Badges de estado</a></li>
-        <li><a href="#lab-tabla">07 · Tabla de información</a></li>
-        <li><a href="#lab-reticula">08 · Espaciado y retícula</a></li>
-      </ul>
+    <header class="lbx__hero">
+      <span class="kicker">Sistema de Diseño · Espacio seguro</span>
+      <h1 class="lbx__h1">Laboratorio de Interfaces</h1>
+      <p class="lbx__lead">Construya una interfaz con las reglas de Keyons y explore sin miedo. <br>Nada de lo que cambie aquí toca los libros ni el resto del proyecto.</p>
     </header>
 
-    <!-- 01 · Botones -->
-    <section class="ilab" id="lab-botones" data-lab>
-      <div class="ilab__head"><span class="ilab__n">01</span><h2 class="ilab__t">Botones</h2><p class="ilab__d">Primario y secundario, con sus estados.</p></div>
-      <div class="ilab__stage" data-stage>
-        <div class="lb-states" data-spec-group>
-          <p class="lb-k">Primario</p>
-          <div class="lb-row">
-            <figure><button class="btn btn--primary" type="button" data-spec>Solicitar diagnóstico</button><figcaption>Reposo</figcaption></figure>
-            <figure><button class="btn btn--primary is-hover" type="button" data-spec>Solicitar diagnóstico</button><figcaption>Hover</figcaption></figure>
-            <figure><button class="btn btn--primary is-focus" type="button" data-spec>Solicitar diagnóstico</button><figcaption>Foco</figcaption></figure>
-            <figure><button class="btn btn--primary is-press" type="button" data-spec>Solicitar diagnóstico</button><figcaption>Presionado</figcaption></figure>
-            <figure><button class="btn btn--primary" type="button" disabled data-spec>Solicitar diagnóstico</button><figcaption>Deshabilitado</figcaption></figure>
+    <div class="lbx" data-labx>
+      <aside class="lbx__panel" aria-label="Controles del laboratorio">
+        <div class="lbx__tabs" role="tablist" aria-label="Paneles">
+          <button type="button" role="tab" aria-selected="true" aria-controls="lbx-pedido" id="lbx-t-pedido">Pedido</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="lbx-explorar" id="lbx-t-explorar">Explorar</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="lbx-guardados" id="lbx-t-guardados">Guardados</button>
+        </div>
+
+        <section class="lbx__pane" id="lbx-pedido" role="tabpanel" aria-labelledby="lbx-t-pedido">
+          <div class="lbx__f">
+            <label for="lbx-q">Qué quiere construir</label>
+            <textarea id="lbx-q" rows="4" placeholder="Por ejemplo: un dashboard para una aplicación médica que muestre citas del día, pacientes en espera y alertas."></textarea>
           </div>
-          <p class="lb-k">Secundario</p>
-          <div class="lb-row">
-            <figure><button class="btn btn--outline" type="button" data-spec>Ver ejemplos</button><figcaption>Reposo</figcaption></figure>
-            <figure><button class="btn btn--outline is-hover" type="button" data-spec>Ver ejemplos</button><figcaption>Hover</figcaption></figure>
-            <figure><button class="btn btn--outline is-focus" type="button" data-spec>Ver ejemplos</button><figcaption>Foco</figcaption></figure>
-            <figure><button class="btn btn--outline is-press" type="button" data-spec>Ver ejemplos</button><figcaption>Presionado</figcaption></figure>
-            <figure><button class="btn btn--outline" type="button" disabled data-spec>Ver ejemplos</button><figcaption>Deshabilitado</figcaption></figure>
+          <div class="lbx__f">
+            <label for="lbx-d">Datos para usar <span>Opcional</span></label>
+            <textarea id="lbx-d" rows="3" placeholder="Pegue aquí textos, cifras o una tabla. Si lo deja vacío, se usan datos de muestra."></textarea>
           </div>
-          <p class="lb-k">En contexto</p>
-          <div class="lb-pair"><button class="btn btn--primary" type="button" data-spec>Solicitar diagnóstico</button><button class="btn btn--outline" type="button" data-spec>Ver ejemplos</button></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 02 · Campo de texto -->
-    <section class="ilab" id="lab-campo" data-lab>
-      <div class="ilab__head"><span class="ilab__n">02</span><h2 class="ilab__t">Campo de texto</h2><p class="ilab__d">Etiqueta, ayuda y error.</p></div>
-      <div class="ilab__stage" data-stage>
-        <div class="lb-fields">
-          <div class="lb-field" data-spec>
-            <label class="lb-field__l" for="lb-f1">Correo de trabajo</label>
-            <input class="lb-field__i" id="lb-f1" type="email" placeholder="nombre@empresa.com" aria-describedby="lb-f1h" data-spec>
-            <p class="lb-field__h" id="lb-f1h">Le enviaremos el acceso a este correo.</p>
+          <button class="btn btn--primary lbx__go" type="button" data-gen>Construir</button>
+          <div class="lbx__f lbx__f--chg" hidden data-chg>
+            <label for="lbx-c">Pedir un cambio</label>
+            <textarea id="lbx-c" rows="3" placeholder="Por ejemplo: agrega un filtro por médico y vuelve la tabla más compacta."></textarea>
+            <button class="btn btn--outline" type="button" data-chg-go>Aplicar el cambio</button>
           </div>
-          <div class="lb-field is-focus" data-spec>
-            <label class="lb-field__l" for="lb-f2">Correo de trabajo</label>
-            <input class="lb-field__i" id="lb-f2" type="email" value="ana@" aria-describedby="lb-f2h" data-spec>
-            <p class="lb-field__h" id="lb-f2h">Foco: el anillo marca dónde se escribe.</p>
+          <p class="lbx__msg" data-msg role="status"></p>
+          <div class="lbx__tpl">
+            <p class="lbx__k">Plantillas base</p>
+            <div class="lbx__tpls" data-tpls></div>
           </div>
-          <div class="lb-field is-error" data-spec>
-            <label class="lb-field__l" for="lb-f3">Correo de trabajo</label>
-            <input class="lb-field__i" id="lb-f3" type="email" value="ana@empresa" aria-invalid="true" aria-describedby="lb-f3e" data-spec>
-            <p class="lb-field__e" id="lb-f3e"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.25"/><path d="M8 4.8v3.8M8 10.9v.1"/></svg>Escriba el correo completo, por ejemplo ana@empresa.com.</p>
+        </section>
+
+        <section class="lbx__pane" id="lbx-explorar" role="tabpanel" aria-labelledby="lbx-t-explorar" hidden>
+          <p class="lbx__note">Cada cambio se aplica sobre la base sin modificarla. Lo que se aparta de las normas queda marcado como «Fuera de norma» en las comprobaciones.</p>
+          <div data-ex></div>
+        </section>
+
+        <section class="lbx__pane" id="lbx-guardados" role="tabpanel" aria-labelledby="lbx-t-guardados" hidden>
+          <div data-saved></div>
+        </section>
+      </aside>
+
+      <div class="lbx__work">
+        <div class="lbx__bar">
+          <input class="lbx__title" type="text" value="Sin título" aria-label="Nombre del experimento" data-title>
+          <div class="lbx__seg" role="group" aria-label="Vista">
+            <button type="button" aria-pressed="true" data-view="final">Vista final</button>
+            <button type="button" aria-pressed="false" data-view="tecnica">Vista técnica</button>
           </div>
-          <div class="lb-field" data-spec>
-            <label class="lb-field__l" for="lb-f4">Empresa</label>
-            <input class="lb-field__i" id="lb-f4" type="text" value="Keyons" disabled aria-describedby="lb-f4h" data-spec>
-            <p class="lb-field__h" id="lb-f4h">Deshabilitado: el dato viene de su cuenta.</p>
+          <div class="lbx__seg" role="group" aria-label="Ancho">
+            <button type="button" aria-pressed="true" data-dev="1280">Escritorio</button>
+            <button type="button" aria-pressed="false" data-dev="768">Tableta</button>
+            <button type="button" aria-pressed="false" data-dev="375">Móvil</button>
+          </div>
+          <span class="lbx__w" data-w>1280 px</span>
+        </div>
+        <div class="lbx__stage" data-stage>
+          <div class="lbx__frame" data-frame><iframe sandbox="allow-scripts" title="Escenario del laboratorio" data-ifr></iframe></div>
+          <div class="lbx__start" data-start>
+            <p class="lbx__k">Empezar</p>
+            <div class="lbx__start-g">
+              <div><h2 class="lbx__start-t">Con una plantilla</h2><p>Un punto de partida frecuente, hecho con los componentes reales.</p><div class="lbx__tpls" data-tpls></div></div>
+              <div><h2 class="lbx__start-t">Desde cero</h2><p>Describa lo que necesita y el laboratorio lo construye con las reglas de Keyons.</p><button class="btn btn--outline" type="button" data-scratch>Escribir un pedido</button></div>
+            </div>
+          </div>
+          <div class="lbx__busy" data-busy hidden><span></span><p>Construyendo con las reglas de Keyons…</p></div>
+        </div>
+        <div class="lbx__foot">
+          <div class="lbx__acts">
+            <button class="btn btn--outline" type="button" data-undo disabled>Deshacer</button>
+            <button class="btn btn--outline" type="button" data-reset disabled>Restablecer a la base</button>
+            <button class="btn btn--outline" type="button" data-new>Empezar de nuevo</button>
+          </div>
+          <div class="lbx__acts">
+            <select class="lbx__estado" aria-label="Estado del experimento" data-estado>
+              <option>En exploración</option><option>Candidato para la marca</option><option>Descartado</option>
+            </select>
+            <button class="btn btn--primary" type="button" data-save disabled>Guardar</button>
           </div>
         </div>
+        <ul class="lbx__checks" data-checks aria-live="polite"></ul>
       </div>
-    </section>
+    </div>
 
-    <!-- 03 · Selector de opciones -->
-    <section class="ilab" id="lab-selector" data-lab>
-      <div class="ilab__head"><span class="ilab__n">03</span><h2 class="ilab__t">Selector de opciones</h2><p class="ilab__d">Una opción entre varias: menú desplegable y opciones a la vista.</p></div>
-      <div class="ilab__stage" data-stage>
-        <div class="lb-select">
-          <div class="lb-select__dd" data-spec>
-            <label class="lb-sel"><span class="paren">(Tipo de solicitud)</span>
-              <select data-kdd><option>Soporte técnico</option><option>Nueva funcionalidad</option><option>Facturación</option><option>Otra consulta</option></select></label>
-          </div>
-          <fieldset class="lb-radio" data-spec>
-            <legend>Prioridad</legend>
-            <label><input type="radio" name="lb-pri" value="baja"><span>Baja</span></label>
-            <label><input type="radio" name="lb-pri" value="media" checked><span>Media</span></label>
-            <label><input type="radio" name="lb-pri" value="alta"><span>Alta</span></label>
-          </fieldset>
-        </div>
-      </div>
-    </section>
-
-    <!-- 04 · Contenedor aislado -->
-    <section class="ilab" id="lab-contenedor" data-lab>
-      <div class="ilab__head"><span class="ilab__n">04</span><h2 class="ilab__t">Contenedor aislado</h2><p class="ilab__d">Un elemento independiente: sus cuatro esquinas son rectas.</p></div>
-      <div class="ilab__stage" data-stage>
-        <article class="lb-card lb-card--solo" data-spec data-geo="solo">
-          <span class="lb-card__k">Informe mensual</span>
-          <h3 class="lb-card__t">Operación de octubre</h3>
-          <p class="lb-card__p">Los procesos automatizados ahorraron 126 horas de trabajo manual este mes.</p>
-          <button class="btn btn--outline" type="button" data-spec>Abrir informe</button>
-        </article>
-      </div>
-    </section>
-
-    <!-- 05 · Grupo de contenedores -->
-    <section class="ilab" id="lab-grupo" data-lab>
-      <div class="ilab__head"><span class="ilab__n">05</span><h2 class="ilab__t">Grupo de contenedores</h2><p class="ilab__d">Un conjunto: exteriores rectos, interiores curvos. En móvil pasa de fila a pila.</p></div>
-      <div class="ilab__stage" data-stage>
-        <div class="lb-group" data-geo="group" data-spec>
-          <article class="lb-card" data-spec><span class="lb-card__k">01</span><h3 class="lb-card__t">Diagnóstico</h3><p class="lb-card__p">Entender cómo trabaja hoy su equipo.</p></article>
-          <article class="lb-card" data-spec><span class="lb-card__k">02</span><h3 class="lb-card__t">Diseño</h3><p class="lb-card__p">Definir la solución a la medida de su operación.</p></article>
-          <article class="lb-card" data-spec><span class="lb-card__k">03</span><h3 class="lb-card__t">Implementación</h3><p class="lb-card__p">Ponerla en marcha y acompañar a su equipo.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <!-- 06 · Badges de estado -->
-    <section class="ilab" id="lab-badges" data-lab>
-      <div class="ilab__head"><span class="ilab__n">06</span><h2 class="ilab__t">Badges de estado</h2><p class="ilab__d">Cada estado con su color, su ícono y su palabra.</p></div>
-      <div class="ilab__stage" data-stage>
-        <div class="lb-badges">
-          <span class="badge badge--vigente" data-spec><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5 6.2 12 13 4.5"/></svg>Completado</span>
-          <span class="badge badge--info" data-spec><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6"/><path d="M8 7.2v4M8 4.8v.1"/></svg>En curso</span>
-          <span class="badge badge--borrador" data-spec><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6"/><path d="M8 4.8V8l2.2 1.4"/></svg>Pendiente de revisión</span>
-          <span class="badge badge--pendiente" data-spec><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 8h8"/></svg>Sin iniciar</span>
-          <span class="badge badge--error" data-spec><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6"/><path d="M8 4.8v3.6M8 10.9v.1"/></svg>Requiere atención</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- 07 · Tabla de información -->
-    <section class="ilab" id="lab-tabla" data-lab>
-      <div class="ilab__head"><span class="ilab__n">07</span><h2 class="ilab__t">Tabla de información</h2><p class="ilab__d">Encabezados explícitos. En móvil, cada fila se lee como una ficha.</p></div>
-      <div class="ilab__stage" data-stage>
-        <div class="lb-table" role="table" aria-label="Solicitudes del equipo" data-spec>
-          <div class="lb-table__r lb-table__head" role="row"><span role="columnheader">Solicitud</span><span role="columnheader">Responsable</span><span role="columnheader">Fecha</span><span role="columnheader">Estado</span></div>
-          <div class="lb-table__r" role="row"><span role="cell" data-l="Solicitud">Conciliación bancaria</span><span role="cell" data-l="Responsable">Ana Mora</span><span role="cell" data-l="Fecha">04/11/2026</span><span role="cell" data-l="Estado"><span class="badge badge--vigente"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5 6.2 12 13 4.5"/></svg>Completado</span></span></div>
-          <div class="lb-table__r" role="row"><span role="cell" data-l="Solicitud">Reporte de inventario</span><span role="cell" data-l="Responsable">Luis Vargas</span><span role="cell" data-l="Fecha">05/11/2026</span><span role="cell" data-l="Estado"><span class="badge badge--info"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6"/><path d="M8 7.2v4M8 4.8v.1"/></svg>En curso</span></span></div>
-          <div class="lb-table__r" role="row"><span role="cell" data-l="Solicitud">Alta de proveedores</span><span role="cell" data-l="Responsable">Sofía Rojas</span><span role="cell" data-l="Fecha">06/11/2026</span><span role="cell" data-l="Estado"><span class="badge badge--pendiente"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 8h8"/></svg>Sin iniciar</span></span></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 08 · Espaciado y retícula -->
-    <section class="ilab" id="lab-reticula" data-lab>
-      <div class="ilab__head"><span class="ilab__n">08</span><h2 class="ilab__t">Espaciado y retícula</h2><p class="ilab__d">Múltiplos de 4 y una retícula de 12 columnas que se reduce a 8 y a 4.</p></div>
-      <div class="ilab__stage" data-stage>
-        <div class="lb-space" data-spec>
-          <div><i style="width:var(--s1)"></i><span>s1 · 4</span></div>
-          <div><i style="width:var(--s2)"></i><span>s2 · 8</span></div>
-          <div><i style="width:var(--s3)"></i><span>s3 · 12</span></div>
-          <div><i style="width:var(--s4)"></i><span>s4 · 16</span></div>
-          <div><i style="width:var(--s6)"></i><span>s6 · 24</span></div>
-          <div><i style="width:var(--s8)"></i><span>s8 · 32</span></div>
-          <div><i style="width:var(--s12)"></i><span>s12 · 48</span></div>
-          <div><i style="width:var(--s16)"></i><span>s16 · 64</span></div>
-        </div>
-        <div class="lb-grid" data-spec data-grid>
-          <div class="lb-grid__a">Titular · 8 columnas</div>
-          <div class="lb-grid__b">Apoyo · 4 columnas</div>
-          <div class="lb-grid__c">Dato · 4</div>
-          <div class="lb-grid__c">Dato · 4</div>
-          <div class="lb-grid__c">Dato · 4</div>
-        </div>
-      </div>
-    </section>
-
-    <nav id="pager" aria-label="Paginación"></nav>
+    <p class="lbx__more">Las pruebas de cada componente por separado están en <a class="xref" href="laboratorio-componentes.html">Componentes base</a>.</p>
   </main>
 </div>
 
 <script src="../js/nav-sistema-diseno.js"></script>
 <script src="../js/libro.js"></script>
-<script src="../js/laboratorio.js"></script>
+<script src="../js/laboratorio-plantillas.js"></script>
+<script src="../js/laboratorio-app.js"></script>
 </body>
 </html>

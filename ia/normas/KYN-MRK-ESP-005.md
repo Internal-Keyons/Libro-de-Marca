@@ -81,4 +81,18 @@ Densidad alta
 - Vistas de monitoreo
 - Pantallas para escanear rápido
 
+###### Texto · bloques breves
+
+**(Párrafos breves)**
+Un párrafo desarrolla una sola idea y ocupa como máximo cuatro líneas en la columna de lectura de 600 px. Si necesita más, se divide por ideas o se convierte en lista.
+
+**(Listas parejas)**
+Los elementos de una misma lista tienen el mismo largo: todos en una línea o todos en dos. La redacción se ajusta hasta que calcen.
+
+**(Viñetas)**
+Las viñetas acompañan elementos breves. Los elementos de más de dos líneas se presentan en filas con rótulo.
+
+**(Notas de cierre)**
+Un texto al final de una sección lleva rótulo y la línea de su bloque. Nunca queda suelto.
+
 La densidad adecuada permite comprender y actuar sin añadir ruido visual.

@@ -49,7 +49,7 @@ Los gráficos Keyons convierten información en **conocimiento comprensible**.
 - Identificar patrones.
 - Destacar resultados.
 - Mostrar avances.
-- Hacer visibles las diferencias entre una situación actual y otra propuesta.
+- Comparar lo actual con lo propuesto.
 
 La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual.
 
@@ -83,7 +83,9 @@ Número: 13.2 · ID: `KYN-MRK-DAT-002` · Estado: vigente · Fuente: `/fundament
 
 Las paletas se organizan según el significado de los datos: **categórica, secuencial y divergente**. Estas tres familias responden a funciones estadísticas diferentes.
 
-Las fuentes cromáticas proceden de la paleta corporativa y sus escalas, complementadas por colores funcionales autorizados cuando corresponda. Esta organización amplía la clasificación histórica «paleta base, monocromática y suave»: la clasificación histórica describe familias de colores; la nueva describe para qué se utiliza cada familia.
+Las fuentes cromáticas proceden de la paleta corporativa y sus escalas, complementadas por colores funcionales autorizados cuando corresponda.
+
+Esta organización amplía la clasificación histórica «paleta base, monocromática y suave»: la clasificación histórica describe familias de colores; la nueva describe para qué se utiliza cada familia.
 
 #### Colores corporativos disponibles
 
@@ -126,8 +128,7 @@ Para magnitudes ordenadas, del claro al profundo en pasos parejos. La de Azul Ci
 
 Azul Cielo, Azul Noche, Lavanda, Blanco Keyons, Amarillo claro de los cielos, Ámbar de los cielos, Salmón Tierra y Salmón Atardecer.
 
-Orden de representación: #729BDD → #B2BFE5 → #F4F4F4 → #FFEBB1 → #FFCE86
-
+Orden de representación
 Esta combinación conserva la relación entre los azules de la identidad y los tonos cálidos de los cielos. Los dos extremos representan direcciones diferentes respecto al centro. Su significado depende de los datos y se comunica mediante etiquetas y unidades.
 
 **(DEBE · Referencia central)**
@@ -161,8 +162,9 @@ El Sistema de Diseño establecerá su implementación técnica, adaptación resp
 
 #### Colores semánticos
 
-Los colores semánticos pertenecen a estados como éxito, advertencia, error, información y estado crítico. La paleta semántica se utiliza para comunicar estados, mientras que las paletas estadísticas representan categorías, magnitudes y diferencias.
+Los colores semánticos pertenecen a estados como éxito, advertencia, error, información y estado crítico.
 
+La paleta semántica se utiliza para comunicar estados, mientras que las paletas estadísticas representan categorías, magnitudes y diferencias.
 Para pérdidas, errores y resultados desfavorables se utiliza el color semántico correspondiente, acompañándolo de texto, símbolo o indicador explícito. La definición técnica de esos colores procede del catálogo semántico oficial del proyecto (KYN-MRK-COL-014).
 
 ## KYN-MRK-DAT-003 · 13.3 Tipografía en gráficos
@@ -175,7 +177,7 @@ Cada texto del gráfico tiene su nivel. **Toda cifra usa números tabulares.**
 
 **(Etiqueta)**
 (Horas recuperadas · Enero a junio 2026)
-Jakarta 500 · 13 px, gris. Dice qué se mide y cuándo.
+Jakarta 500 · 12 px, gris. Dice qué se mide y cuándo.
 
 **(Cifra protagonista)**
 +38 %
@@ -183,15 +185,15 @@ TASA Orbiter 400 · 40 a 96 px. Una por gráfico.
 
 **(Lectura)**
 Menos trabajo repetitivo en seis meses, por persona.
-Jakarta 400 · 13 a 15 px. Explica la cifra en una frase.
+Jakarta 400 · 14 px. Explica la cifra en una frase.
 
 **(Ejes y valores)**
 Ene Feb Mar Abr May Jun
-Jakarta 500 · 11 px, números tabulares.
+Jakarta 500 · 12 px, números tabulares.
 
 **(Fuente)**
 Fuente: Diagnóstico Keyons, 15 entrevistas, 2026
-Jakarta 400 · 11 px, gris nivel 3.
+Jakarta 400 · 12 px, gris nivel 3.
 
 | (Formato) | Español | Inglés |
 |---|---|---|
