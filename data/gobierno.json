@@ -2,7 +2,6 @@
   "nota": "Fuente normativa común de la Biblioteca Keyons. La leen la Guía de la Biblioteca (guia/index.html, generada por tools/gobierno.py) y la representación para IA (ia/gobierno.json). Se edita aquí y se vuelve a generar.",
   "version": "0.1",
   "estado": "En revisión",
-  "estado_nota": "Propuesta preparada por un agente de IA. Requiere aprobación humana antes de adquirir vigencia.",
   "niveles": [
     {
       "k": "DEBE",
@@ -148,7 +147,7 @@
       },
       {
         "k": "Por asignar",
-        "t": "Ventas y Crecimiento · Experiencia y Servicio al Cliente · Cultura y Operaciones",
+        "t": "Ventas y Crecimiento · Servicio al Cliente · Cultura y Operaciones",
         "estado": "En preparación"
       }
     ]

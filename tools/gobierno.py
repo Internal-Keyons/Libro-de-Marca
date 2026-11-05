@@ -157,8 +157,8 @@ W('ia/gobierno.json', json.dumps({'gobierno': G, 'normas': out,
 
 # ── Página: recursos/gobierno.html ──
 e = html.escape
-def stack(rows):
-    return '        <div class="ed__stack">\n' + ''.join(f'          <div><span class="paren">({e(k)})</span><p>{d}</p></div>\n' for k, d in rows) + '        </div>\n'
+def stack(rows, v=False):
+    return f'        <div class="ed__stack{" ed__stack--v" if v else ""}">\n' + ''.join(f'          <div><span class="paren">({e(k)})</span><p>{d}</p></div>\n' for k, d in rows) + '        </div>\n'
 def sec(sid, num, lab, title, body):
     return f'''    <section class="ed" id="{sid}">
       <div class="ed__label"><span>{num}</span><span>{lab}</span></div>
@@ -168,8 +168,8 @@ def sec(sid, num, lab, title, body):
     </section>
 
 '''
-def lis(xs):
-    return '        <ul class="gov__list">' + ''.join(f'<li>{e(x)}</li>' for x in xs) + '</ul>\n'
+def lis(xs, v=False):
+    return f'        <ul class="gov__list{" gov__list--v" if v else ""}">' + ''.join(f'<li>{e(x)}</li>' for x in xs) + '</ul>\n'
 def link(t, h):
     return f'<a class="xref" href="../{h}">{e(t)}</a>'
 
@@ -178,9 +178,9 @@ S += sec('normas', '01', 'Cómo leer las normas', 'Autoridad, vigencia y ámbito
          '        <p class="ed__lead">Las normas de los seis libros distinguen <strong>requisitos, recomendaciones y opciones</strong> con los mismos términos.</p>\n'
          + '        <dl class="gov__lv">' + ''.join(f'<div><dt>{e(n["k"])}</dt><dd>{e(n["d"])}</dd></div>' for n in G['niveles']) + '</dl>\n'
          + lis(G['niveles_uso'])
-         + '        <h3 class="ed__sub">Vigencia</h3>\n' + stack([(x['t'], e(x['d'])) for x in G['estados']])
+         + '        <h3 class="ed__sub">Vigencia</h3>\n' + stack([(x['t'], e(x['d'])) for x in G['estados']], v=True)
          + '        <h3 class="ed__sub">Estados del proceso que se conservan</h3>\n'
-         + stack([(x['t'], e(x['d']) + f' Equivale a {e(x["equivale"])}.') for x in G['estados_adicionales']])
+         + stack([(x['t'], e(x['d']) + f' Equivale a {e(x["equivale"])}.') for x in G['estados_adicionales']], v=True)
          + f'        <p class="ed__more">{e(G["regla_ia"])}</p>\n'
          + '        <h3 class="ed__sub">Ámbitos de aplicación</h3>\n'
          + '        <ul class="gov__chips">' + ''.join(f'<li>{e(a["t"])}</li>' for a in G['ambitos']) + '</ul>\n' + lis(G['ambitos_criterio'])
@@ -199,18 +199,19 @@ S += sec('referencias', '03', 'Referencias y versiones', 'Un ID permanente para 
          + lis(G['identificadores']['reglas'])
          + '        <div class="matrix" role="table" aria-label="Prefijos por libro"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader">(Prefijo)</span><span class="matrix__lvl" role="columnheader">Libro</span><span class="matrix__lvl" role="columnheader">Estado</span></div>'
          + ''.join(f'<div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">{e(p["k"])}</span><span class="matrix__v" role="cell">{e(p["t"])}</span><span class="matrix__v" role="cell">{e(p["estado"])}</span></div>' for p in G['identificadores']['prefijos']) + '</div>\n'
-         + '        <h3 class="ed__sub">Citación</h3>\n' + stack([(c['k'], e(c['d'])) for c in G['citacion']])
+         + '        <h3 class="ed__sub">Citación</h3>\n' + stack([(c['k'], e(c['d'])) for c in G['citacion']], v=True)
          + f'        <p class="ed__more">{e(G["citacion_nota"])}</p>\n'
-         + '        <h3 class="ed__sub">Versionado y trazabilidad</h3>\n' + lis(G['versionado']))
+         + '        <h3 class="ed__sub">Versionado y trazabilidad</h3>\n' + lis(G['versionado'], v=True))
 S += sec('gobierno', '04', 'Gobierno y aprobaciones', 'Quién aprueba y cómo se exceptúa',
          f'        <p class="ed__lead">{e(G["autoridad"]["texto"])}</p>\n'
          + stack([('Estado actual', e(G['autoridad'].get('actual', G['autoridad']['estado']))), ('Propuesta', e(G['autoridad']['propuesta']))])
          + '        <h3 class="ed__sub">Procedimiento de excepción</h3>\n'
          + '        <ol class="gov__steps">' + ''.join(f'<li>{e(x)}</li>' for x in G['excepciones']['pasos']) + '</ol>\n'
          + f'        <p class="ed__more">{e(G["excepciones"]["nota"])}</p>\n'
-         + '        <h3 class="ed__sub">Permisos de consulta</h3>\n' + stack([('Estado', e(G['permisos']['estado'])), ('Hoy', e(G['permisos']['texto']))]))
+         + '        <h3 class="ed__sub">Permisos de consulta</h3>\n'
+         + f'        <div class="gov__perm"><div class="gov__perm-k"><span class="gov__perm-l">Estado</span><span class="gov__perm-v"><span class="dot dot--borrador"></span>{e(G["permisos"]["estado"])}</span></div><p class="gov__perm-t">{e(G["permisos"]["texto"])}</p></div>\n')
 
-STATE = f'{e(G["estado"])} · versión {e(G["version"])}. {e(G["estado_nota"])}'
+STATE = f'{e(G["estado"])} · versión {e(G["version"])}'
 PAGE = '''<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -237,7 +238,7 @@ PAGE = '''<!DOCTYPE html>
       <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3.5 4.5 4.5L6 12.5"/></svg><span>Guía de la Biblioteca</span></nav>
 
     <header class="guia__h">
-      <span class="kicker">Biblioteca Keyons · Guía y gobierno</span>
+      <span class="kicker">Biblioteca Keyons · Guía de Gobernanza</span>
       <h1 class="guia__t">Guía de la Biblioteca</h1>
       <p class="guia__l">Las convenciones comunes a los seis libros: cómo leer cada norma, por dónde empezar, cómo citarla y quién la aprueba.</p>
       <p class="gov__state"><span class="dot dot--borrador"></span>@STATE@</p>

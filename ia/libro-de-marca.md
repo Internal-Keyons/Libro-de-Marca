@@ -1,13 +1,13 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-04"
+fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 ---
 
 # Libro de Marca Keyons
 
-Versión: 0.1 · Fecha de exportación: 2026-11-04 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
+Versión: 0.1 · Fecha de exportación: 2026-11-05 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
 
 Exportación íntegra generada desde las páginas del libro con tools/exportar.py. Conserva la redacción y el orden del índice. Cada sección indica su ruta de origen; los recursos visuales se citan con su ruta o su descripción.
 
@@ -23,25 +23,12 @@ Este es el **manual de marca de Keyons**. Aquí vive todo lo que hace **reconoci
 
 ### Cómo utilizar este manual
 
-Este libro reúne **la identidad de Keyons** y los criterios para aplicarla. Cada norma establece su autoridad, vigencia y ámbito de aplicación.
+Este libro reúne la identidad de Keyons y los criterios para aplicarla. Cada norma establece su autoridad, vigencia y ámbito de aplicación.
 
-01
-Encuentra lo esencial
-Utiliza el índice y la búsqueda para localizar las normas relacionadas con tu tarea.
-
-02
-Interpretar las normas
-Cada regla señala si es obligatoria, si orienta la mejor práctica o si ofrece alternativas según el contexto.
-
-03
-Vigencia y alcance
-Consulta el estado de cada norma y los contextos donde corresponde aplicarla.
-
-04
-Reglas en conjunto
-Las referencias por código conectan las normas relacionadas entre capítulos y libros.
-
-Las convenciones comunes a los seis libros están en la [Guía de la Biblioteca](/guia/index.html).
+1. 01 · Encuentra lo esencial · Utiliza el índice y la búsqueda para localizar las normas relacionadas con tu tarea.
+2. 02 · Interpretar las normas · Indican si son obligatorias, si orientan la práctica o si ofrecen alternativas.
+3. 03 · Vigencia y alcance · Consulta el estado de cada norma y los contextos donde corresponde aplicarla.
+4. 04 · Reglas en conjunto · Las referencias por código conectan las normas relacionadas entre capítulos y libros.
 
 ## Área 01 · Marca
 
@@ -3268,7 +3255,7 @@ Trazos delgados, nítidos, continuos y uniformes. Las tramas lineales no llevan 
 | Sistema de Diseño | Retícula | Propuesta pendiente de validación |
 | Producto e Ingeniería | Diagonales cruzadas | Propuesta pendiente de validación |
 | Ventas y Crecimiento | Diagonales en una dirección | Propuesta pendiente de validación |
-| Experiencia y Servicio al Cliente | Curvas concéntricas | Propuesta pendiente de validación |
+| Servicio al Cliente | Curvas concéntricas | Propuesta pendiente de validación |
 | Cultura y Operaciones | Horizontales | Confirmada |
 
 Las tramas identifican libros principalmente en sus portadas y en el selector de Biblioteca. No se utilizan como fondos permanentes de los capítulos ni establecen nuevos colores principales para cada libro.
@@ -3745,8 +3732,6 @@ Para magnitudes ordenadas, del claro al profundo en pasos parejos. La de Azul Ci
 ###### Paleta divergente
 
 Azul Cielo, Azul Noche, Lavanda, Blanco Keyons, Amarillo claro de los cielos, Ámbar de los cielos, Salmón Tierra y Salmón Atardecer.
-
-> Recurso visual: Figura: «Orden de representación de la paleta divergente»
 
 Orden de representación: #729BDD → #B2BFE5 → #F4F4F4 → #FFEBB1 → #FFCE86
 

@@ -1,6 +1,6 @@
 # Libro de Marca Keyons
 
-> Manual de identidad y expresión visual de Keyons. Versión 0.1, exportada el 2026-11-04. Cada norma tiene un ID permanente KYN-MRK-XXX-### y un estado: vigente, borrador o descontinuada.
+> Manual de identidad y expresión visual de Keyons. Versión 0.1, exportada el 2026-11-05. Cada norma tiene un ID permanente KYN-MRK-XXX-### y un estado: vigente, borrador o descontinuada.
 
 Escrito una vez en el libro (HTML) y publicado en tres formas: lectura visual, documental y estructurada. Permisos: por definir; se asignarán con la Biblioteca Keyons.
 

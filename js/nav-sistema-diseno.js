@@ -11,7 +11,7 @@ window.KEYONS_BOOK = {
   id: 'sistema-diseno',
   home: 'sistema-diseno/index.html',
   menuLabel: 'Módulos del Sistema de Diseño',
-  alt: [['Libro de Marca', 'inicio.html', 'right'], ['Plantilla de norma', 'sistema-diseno/plantilla.html', 'code']],
+  alt: [['Libro de Marca', 'inicio.html', 'right'], ['Plantilla de norma', 'sistema-diseno/plantilla.html', 'code'], ['Laboratorio de Interfaces', 'sistema-diseno/laboratorio.html', 'code']],
   words: { ch: 'Capítulos', pg: 'Subcapítulos', pgs: 'subcapítulos' },
   cardShort: true,
   areaFull: true

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-04"
+fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ILU-007"
 titulo: "Tramas y texturas"
@@ -50,7 +50,7 @@ Trazos delgados, nítidos, continuos y uniformes. Las tramas lineales no llevan 
 | Sistema de Diseño | Retícula | Propuesta pendiente de validación |
 | Producto e Ingeniería | Diagonales cruzadas | Propuesta pendiente de validación |
 | Ventas y Crecimiento | Diagonales en una dirección | Propuesta pendiente de validación |
-| Experiencia y Servicio al Cliente | Curvas concéntricas | Propuesta pendiente de validación |
+| Servicio al Cliente | Curvas concéntricas | Propuesta pendiente de validación |
 | Cultura y Operaciones | Horizontales | Confirmada |
 
 Las tramas identifican libros principalmente en sus portadas y en el selector de Biblioteca. No se utilizan como fondos permanentes de los capítulos ni establecen nuevos colores principales para cada libro.

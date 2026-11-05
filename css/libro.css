@@ -5059,8 +5059,6 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 
 /* ILU-007 · tramas en Azul Noche y trazo hecho a mano */
 .tram__s{color:var(--k-noche)}
-.tram__s svg{filter:url(#kmano)}
-.kmano-def{position:absolute;width:0;height:0;overflow:hidden}
 .tprint.hcar .tprint__s--doc{padding:var(--s10)}
 .tprint.hcar .tprint__s--doc .tprint__h{font-size:20px}
 .tprint.hcar .tprint__s--doc .tprint__p{margin-top:var(--s3);font-size:16px}
@@ -5072,11 +5070,11 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
    Alternan círculo y cuadrado; el color sigue la secuencia Azul Cielo, Salmón Tierra. */
 .ed__stack--v > div{grid-template-columns:20px minmax(0,1fr);column-gap:var(--s4)}
 .ed__stack--v > div::before{content:"";grid-row:1;grid-column:1;align-self:center;width:16px;height:16px;background:var(--k-cielo);
-  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 24 24'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E") center/contain no-repeat;
-          mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 24 24'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E") center/contain no-repeat}
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E") center/contain no-repeat;
+          mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E") center/contain no-repeat}
 .ed__stack--v > div:nth-child(even)::before{background:var(--k-salmon);
-  -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 24 24'%3E%3Cpath fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/svg%3E");
-          mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 24 24'%3E%3Cpath fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/svg%3E")}
+  -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/svg%3E");
+          mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/svg%3E")}
 .ed__stack--v > div > *{grid-column:2}
 .ed__stack--v > div > .paren{grid-row:1}
 
@@ -5177,9 +5175,9 @@ body.nav-open .scrim{opacity:1;pointer-events:auto}
 .gov__list{list-style:none;margin:var(--s8) 0 0;padding:0;max-width:640px}
 .gov__list li{position:relative;padding:var(--s3) 0 var(--s3) var(--s8);font-size:16px;line-height:1.6;color:var(--color-text-2);box-shadow:inset 0 1px 0 var(--k-cielo-100)}
 .gov__list li::before{content:"";position:absolute;left:0;top:calc(var(--s3) + 5px);width:14px;height:14px;background:var(--k-cielo);
-  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 24 24'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E") center/contain no-repeat;
-          mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 24 24'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E") center/contain no-repeat}
-.gov__list li:nth-child(even)::before{background:var(--k-salmon);-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 24 24'%3E%3Cpath fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-2 -2 24 24'%3E%3Cpath fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/svg%3E")}
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E") center/contain no-repeat;
+          mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E") center/contain no-repeat}
+.gov__list li:nth-child(even)::before{background:var(--k-salmon);-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/svg%3E")}
 .gov__chips{display:flex;flex-wrap:wrap;gap:var(--s2);margin:var(--s8) 0 0;padding:0;list-style:none}
 .gov__chips li{padding:6px 14px;border-radius:var(--r-pill);font-size:13px;color:var(--k-noche);background:var(--k-cielo-100)}
 .gov__steps{counter-reset:g;list-style:none;margin:var(--s6) 0 0;padding:0;max-width:640px}
@@ -5406,3 +5404,110 @@ body.bks-open{overflow:hidden}
 .guia__l{margin-top:var(--s6);max-width:600px;font-size:clamp(18px,1.5vw,20px);line-height:1.55;color:var(--color-text-2)}
 .guia__h .gov__state{margin:var(--s8) 0 0}
 .lvx__i .lvx__fig{display:grid;place-items:center}.lvx__i .lvx__fig svg{width:100%;max-width:560px;max-height:240px}
+
+/* ════════ Ronda 18 ════════ */
+/* Buscar: contenedor blanco con texto Azul Noche; el hover se conserva (relleno Azul Noche, texto blanco) */
+.hdr__search{background:var(--k-puro);color:var(--k-noche);border-color:var(--k-puro)}
+.hdr--home:not(.is-solid) .hdr__search{background:var(--k-puro);color:var(--k-noche);border-color:var(--k-puro)}
+@media(hover:hover){.hdr__search:hover,.hdr--home:not(.is-solid) .hdr__search:hover{color:#fff}}
+
+/* Portadas de los libros: cielo Azul Cielo con la trama del libro en líneas blancas, como el cristal (ILU-004) */
+.bks__art{position:relative;color:rgba(255,255,255,.5);background:radial-gradient(120% 80% at 50% 108%,rgba(224,231,241,.75) 0%,rgba(224,231,241,0) 60%),linear-gradient(180deg,#4F78C2 0%,#729BDD 55%,#9DBBE4 100%);box-shadow:none}
+.bks__art svg{position:absolute;inset:0}
+a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{background:radial-gradient(120% 80% at 50% 108%,rgba(224,231,241,.75) 0%,rgba(224,231,241,0) 60%),linear-gradient(180deg,#4F78C2 0%,#729BDD 55%,#9DBBE4 100%)}
+.bks__art{transition:transform var(--m-base) var(--e-out),color var(--m-base)}
+a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)}
+.bks__it.is-off .bks__art{filter:saturate(.7)}
+
+/* Botón del libro: el chevrón se alinea con la altura de las minúsculas */
+.hdr__book > svg{transform:translateY(2.5px) rotate(90deg)}
+.hdr__book[aria-expanded="true"] > svg{transform:translateY(2.5px) rotate(-90deg)}
+.hdr__book .hdr__book-art{display:none}
+.hdr__book .hdr__book-art svg{width:100%;height:100%;transform:none}
+/* Móvil y tableta: solo la portada cuadrada del libro y la flecha */
+@media(max-width:1024px){
+  .hdr__book{gap:6px;margin-left:0}
+  .hdr__book-t,.hdr__book-c{display:none!important}
+  .hdr__book .hdr__book-art{display:block;width:30px;height:30px;flex:none}
+  .hdr__book > svg{transform:rotate(90deg)}
+  .hdr__book[aria-expanded="true"] > svg{transform:rotate(-90deg)}
+}
+
+/* Selector en escritorio: ventana centrada sobre la interfaz desenfocada */
+@media(min-width:901px){
+  .bks{align-items:center;justify-content:center;padding:32px;background:rgba(16,18,42,0);opacity:1;-webkit-backdrop-filter:blur(0);backdrop-filter:blur(0);transition:background-color .42s var(--e-out),backdrop-filter .42s var(--e-out),-webkit-backdrop-filter .42s var(--e-out)}
+  .bks.is-in{background:rgba(16,18,42,.22);-webkit-backdrop-filter:blur(14px) saturate(1.1);backdrop-filter:blur(14px) saturate(1.1)}
+  .bks__panel{width:min(840px,100%);max-width:none;max-height:calc(100vh - 64px);margin:0;padding:var(--s8) var(--s10) var(--s10);background:var(--k-puro);border-radius:0;
+    box-shadow:0 0 0 1px rgba(16,18,42,.06),0 32px 80px -24px rgba(16,18,42,.45);opacity:0;transform:translateY(14px) scale(.98);transition:opacity .38s var(--e-out),transform .5s var(--e-out)}
+  .bks.is-in .bks__panel{opacity:1;transform:none}
+  .bks__panel > *{opacity:1;transform:none;transition:none}
+  .bks__top{min-height:44px}
+  .bks__h{font-size:15px;font-weight:500;color:var(--color-text-3)}
+  .bks__x{background:var(--k-blanco);box-shadow:none}
+  .bks__cur{margin-top:var(--s6);padding:0;background:none;box-shadow:none;gap:var(--s2)}
+  .bks__card{gap:var(--s3)}
+  .bks__card .bks__art{width:132px;height:132px}
+  .bks__card .bks__n{font-size:28px;font-weight:500;letter-spacing:-.025em}
+  .bks__list{margin-top:var(--s10);gap:var(--s4)}
+  .bks__it .bks__art{max-width:104px}
+  .bks__n{font-size:13px}
+  .bks__guide{margin-top:var(--s10)}
+  .bks__rows{grid-template-columns:1fr 1fr;gap:2px;max-width:none;margin-top:var(--s6)}
+  .bks__rows a,.bks__rows button{min-height:52px;font-size:15px;background:var(--k-blanco)}
+  .bks__rows a{border-radius:0 var(--r-component) var(--r-component) 0}
+  .bks__rows button{border-radius:var(--r-component) 0 0 var(--r-component)}
+}
+
+/* «Leer más»: el ícono a la derecha y cerca de la palabra; el subrayado aparece solo al pasar el cursor, grueso y próximo al texto.
+   Más aire interior en las tarjetas curvas para el rótulo y el botón */
+.flip__btn{gap:4px;right:var(--s6);bottom:var(--s5)}
+.flip__tag,.vdemo__i--yes .flip__tag{top:var(--s5);left:var(--s6)}
+.flip__btn span{text-decoration:underline;text-decoration-thickness:2px;text-decoration-color:transparent;text-underline-offset:3px;transition:text-decoration-color var(--m-fast) var(--e-out)}
+.flip__btn:hover,.flip__btn:hover span{color:var(--k-noche)}
+.flip__btn:hover span,.flip__btn:focus-visible span{text-decoration-color:var(--k-noche)}
+
+/* Contraer el menú lateral: pie fijo, ícono de panel y etiqueta discreta */
+.side .side__head{display:none}
+@media(min-width:901px){.side{display:flex;flex-direction:column;padding-bottom:0}.side > *{flex-shrink:0}}
+.side__foot{position:sticky;bottom:0;z-index:2;margin-top:auto;padding:var(--s3) var(--s4) var(--s4);background:var(--color-bg);box-shadow:0 -1px 0 var(--color-border)}
+.side__toggle{display:flex;align-items:center;justify-content:flex-start;gap:10px;width:100%;height:40px;padding:0 var(--s3);border-radius:0;font-size:13px;font-weight:500;color:var(--color-text-3);background:none;transition:color var(--m-fast) var(--e-out),background-color var(--m-fast) var(--e-out)}
+.side__toggle:hover{color:var(--k-noche);background:none}
+.side__toggle svg{flex:none;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;transform:none!important}
+.side__toggle-l{transition:transform var(--m-base) var(--e-out)}
+.side__toggle:hover .side__toggle-l{transform:translateX(-1.5px)}
+.side-min .side__toggle:hover .side__toggle-l{transform:translateX(1.5px)}
+.side-min .side__foot{padding:var(--s3) 0 var(--s4)}
+.side-min .side__toggle{justify-content:center;padding:0}
+.side-min .side__toggle span{display:none}
+@media(max-width:900px){.side__foot{display:none}}
+.side__alt,.side-min .side__tree{margin-bottom:var(--s8)}
+
+/* Viñetas de la Guía: tamaño de CON-005 (20 px). En color solo en las listas marcadas --v; las demás en Azul Noche */
+.gov__list li{padding-left:36px}
+.gov__list li::before{top:calc(var(--s3) + 3px);width:20px;height:20px}
+.gov__list:not(.gov__list--v) li::before,.gov__list:not(.gov__list--v) li:nth-child(even)::before{background:var(--k-noche);-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E")}
+
+/* Portada · Cómo utilizar: título pequeño oscuro, subtítulo grande en gris y pasos apilados */
+.howto{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--s6);row-gap:var(--s12);padding-top:var(--s12);border-top:1px solid var(--color-border)}
+.howto__h{grid-column:1 / span 5}
+.howto__t{font-size:15px;font-weight:600;letter-spacing:-.005em;line-height:1.4;color:var(--k-noche)}
+.howto__s{margin-top:var(--s4);max-width:22ch;font-size:clamp(24px,2.3vw,32px);font-weight:500;letter-spacing:-.022em;line-height:1.22;color:var(--color-text-title-muted,#8B8C92)}
+.howto__list{grid-column:7 / span 6;display:grid;margin:0;padding:0;list-style:none}
+.howto__list li{padding:var(--s6) 0;border-top:1px solid var(--color-border)}
+.howto__list li:first-child{padding-top:0;border-top:0}
+.howto__i{font-size:17px;font-weight:600;letter-spacing:-.01em;line-height:1.35;color:var(--k-noche)}
+.howto__list p{margin-top:var(--s2);max-width:46ch;font-size:15px;line-height:1.6;color:var(--color-text-2)}
+@media(max-width:900px){.howto__h,.howto__list{grid-column:1 / -1}.howto__s{max-width:26ch}}
+
+/* Tarjetas de módulos: la flecha sin contenedor, distinta de las flechas del carrusel */
+.area__go{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;margin-right:-8px;color:var(--k-noche)}
+.area__go svg{width:22px;height:22px;stroke:currentColor;stroke-width:1.6;fill:none;transition:transform var(--m-base) var(--e-out)}
+.area__go:hover svg,.area:hover .area__go svg{transform:translateX(4px)}
+
+/* Guía · Permisos de consulta: el estado y la explicación en una sola línea de lectura */
+.gov__perm{display:grid;grid-template-columns:200px minmax(0,1fr);column-gap:var(--s8);max-width:760px;margin-top:var(--s6);padding-top:var(--s6);border-top:1px solid var(--k-cielo-100)}
+.gov__perm-k{display:grid;align-content:start;gap:var(--s2)}
+.gov__perm-l{font-size:12px;font-weight:500;letter-spacing:.02em;color:var(--color-text-3)}
+.gov__perm-v{display:inline-flex;align-items:center;gap:var(--s2);font-size:15px;font-weight:600;color:var(--k-noche)}
+.gov__perm-t{max-width:52ch;font-size:16px;line-height:1.65;color:var(--color-text-2)}
+@media(max-width:640px){.gov__perm{grid-template-columns:1fr;row-gap:var(--s4)}}

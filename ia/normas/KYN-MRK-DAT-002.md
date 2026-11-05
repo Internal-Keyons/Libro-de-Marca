@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-04"
+fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-DAT-002"
 titulo: "Sistema cromático"
@@ -64,8 +64,6 @@ Para magnitudes ordenadas, del claro al profundo en pasos parejos. La de Azul Ci
 ###### Paleta divergente
 
 Azul Cielo, Azul Noche, Lavanda, Blanco Keyons, Amarillo claro de los cielos, Ámbar de los cielos, Salmón Tierra y Salmón Atardecer.
-
-> Recurso visual: Figura: «Orden de representación de la paleta divergente»
 
 Orden de representación: #729BDD → #B2BFE5 → #F4F4F4 → #FFEBB1 → #FFCE86
 

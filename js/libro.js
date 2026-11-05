@@ -48,19 +48,20 @@
     { id: 'sistema-diseno', t: 'Sistema de Diseño', c: 'Diseño', tr: 'g', h: 'sistema-diseno/index.html', on: true },
     { id: 'producto', t: 'Producto e Ingeniería', c: 'Producto', tr: 'x' },
     { id: 'ventas', t: 'Ventas y Crecimiento', c: 'Ventas', tr: 'd' },
-    { id: 'servicio', t: 'Experiencia y Servicio al Cliente', c: 'Servicio', tr: 'c' },
+    { id: 'servicio', t: 'Servicio al Cliente', c: 'Servicio', tr: 'c' },
     { id: 'cultura', t: 'Cultura y Operaciones', c: 'Cultura', tr: 'h' },
   ];
   /* Trama oficial de cada libro, dibujada en línea fina: v verticales, h horizontales, d diagonales,
      x diagonales cruzadas, g retícula, c curvas concéntricas */
   const trama = (k) => {
-    const L = [];
-    if (k === 'v' || k === 'g') for (let x = 6; x < 160; x += 9) L.push(`M${x} 0V100`);
-    if (k === 'h' || k === 'g') for (let y = 6; y < 100; y += 9) L.push(`M0 ${y}H160`);
-    if (k === 'd' || k === 'x') for (let x = -100; x < 160; x += 11) L.push(`M${x} 100L${x + 100} 0`);
-    if (k === 'x') for (let x = 0; x < 260; x += 11) L.push(`M${x} 100L${x - 100} 0`);
-    if (k === 'c') for (let r = 10; r < 190; r += 11) L.push(`M${80 - r} 100A${r} ${r} 0 0 1 ${80 + r} 100`);
-    return `<svg viewBox="0 0 160 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="${L.join('')}" fill="none" stroke="currentColor" stroke-width=".9" vector-effect="non-scaling-stroke"/></svg>`;
+    /* Centradas en el lienzo: la línea central pasa por el medio, sin desplazarse hacia un lado */
+    const L = [], S = 10, D = 14;
+    if (k === 'v' || k === 'g') for (let i = -8; i <= 8; i++) L.push(`M${80 + i * S} 0V100`);
+    if (k === 'h' || k === 'g') for (let i = -5; i <= 5; i++) L.push(`M0 ${50 + i * S}H160`);
+    if (k === 'd' || k === 'x') for (let i = -9; i <= 9; i++) { const x = 80 + i * D; L.push(`M${x - 50} 100L${x + 50} 0`); }
+    if (k === 'x') for (let i = -9; i <= 9; i++) { const x = 80 + i * D; L.push(`M${x - 50} 0L${x + 50} 100`); }
+    if (k === 'c') for (let r = 10; r < 190; r += S) L.push(`M${80 - r} 100A${r} ${r} 0 0 1 ${80 + r} 100`);
+    return `<svg viewBox="0 0 160 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="${L.join('')}" fill="none" stroke="currentColor" stroke-width="1" vector-effect="non-scaling-stroke"/></svg>`;
   };
   const BOOK_ID = BOOK.id || 'marca';
   const LIBRO = LIBROS.find((b) => b.id === BOOK_ID) || (BOOK_ID === 'biblioteca' ? { id: 'biblioteca', t: 'Biblioteca Keyons', c: 'Biblioteca', tr: 'g', h: 'index.html', on: true } : LIBROS[0]);
@@ -111,7 +112,7 @@
       <div class="hdr__bg">${IS_HOME ? `<div class="hdr__clouds" aria-hidden="true">${clouds}</div>` : ''}</div>
       <div class="hdr__in">
         <div class="hdr__left">
-          <button class="hdr__book" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="bks"><span class="hdr__book-t">${esc(LIBRO.t)}</span><span class="hdr__book-c">${esc(LIBRO.c)}</span>${ic(I.chev)}</button>
+          <button class="hdr__book" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="bks" aria-label="${esc(LIBRO.t)} · Cambiar de libro"><span class="hdr__book-art bks__art">${trama(LIBRO.tr)}</span><span class="hdr__book-t">${esc(LIBRO.t)}</span><span class="hdr__book-c">${esc(LIBRO.c)}</span>${ic(I.chev)}</button>
         </div>
         <a class="hdr__logo" href="${url('index.html')}" aria-label="Keyons · Biblioteca">${LOGO}</a>
         <div class="hdr__right">
@@ -516,6 +517,9 @@
     sel.addEventListener('kdd:sync', paint);
     paint();
   }
+  /* Cualquier select marcado data-kdd toma el desplegable de la casa (Laboratorio de Interfaces) */
+  document.querySelectorAll('select[data-kdd]').forEach(kdd);
+
 
   /* 8.2 · Escriba un tamaño en cualquier nivel: los demás toman la misma posición dentro de su rango */
   const PEN = '<svg class="szc__pen" viewBox="0 0 32 32" aria-hidden="true"><path d="M20.5 6.5l5 5L12 25H7v-5z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="miter"/><path d="M17.5 9.5l5 5" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>';
@@ -924,15 +928,18 @@
       + `<button class="nav-area__btn" type="button" aria-expanded="${on}" aria-controls="nav-area-${i}" aria-label="${esc(a.t)}: ${on ? 'contraer' : 'desplegar'} capítulos">${ic(I.chev)}</button></div>`
       + `<div class="nav-area__body" id="nav-area-${i}"${on ? '' : ' hidden'}>${chapters(a)}</div></div>`;
   };
-  side.innerHTML = `<div class="side__head"><button class="side__toggle" type="button" aria-label="Contraer el menú lateral" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3.5 5.5 8l4.5 4.5"/></svg></button></div>`
-    + `<nav class="side__tree" aria-label="Índice de ${esc(LIBRO.t)}">${NAV.map(areaHtml).join('')}</nav>`
+  side.innerHTML = `<nav class="side__tree" aria-label="Índice de ${esc(LIBRO.t)}">${NAV.map(areaHtml).join('')}</nav>`
     + `<div class="side__legend">${LEGEND.map((k) => `<span>${dot(k)} ${STATUS[k]}</span>`).join('')}</div>`
-    + `<div class="side__alt">${alt.map(([t, h, d, dl]) => `<a href="${url(h)}"${dl ? ' download' : ''}>${d ? ic(I[d] || d) : ''}${esc(t)}</a>`).join('')}</div>`;
+    + `<div class="side__alt">${alt.map(([t, h, d, dl]) => `<a href="${url(h)}"${dl ? ' download' : ''}>${d ? ic(I[d] || d) : ''}${esc(t)}</a>`).join('')}</div>`
+    /* Contraer: un control de panel al pie del menú, distinto de los chevrones de áreas y capítulos */
+    + `<div class="side__foot"><button class="side__toggle" type="button" aria-pressed="false" aria-label="Contraer el menú lateral" title="Contraer el menú"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2.75" y="3.75" width="14.5" height="12.5" rx="2.5"/><path class="side__toggle-l" d="M7.75 4.5v11"/></svg><span>Contraer menú</span></button></div>`;
   const setMin = (on) => {
     body.classList.toggle('side-min', on);
     const t = side.querySelector('.side__toggle');
     t.setAttribute('aria-pressed', String(on));
     t.setAttribute('aria-label', on ? 'Expandir el menú lateral' : 'Contraer el menú lateral');
+    t.title = on ? 'Expandir el menú' : 'Contraer el menú';
+    t.querySelector('span').textContent = on ? 'Expandir menú' : 'Contraer menú';
     try { localStorage.setItem('k-side', on ? 'min' : 'full'); } catch (_) {}
   };
   try { if (localStorage.getItem('k-side') === 'min') setMin(true); } catch (_) {}
@@ -1006,7 +1013,7 @@
           <p class="t-sm">${esc(a.cd || a.d)}</p>
           <ul class="area__list">${a.ch.map((c) => `<li><a href="${url(a.href)}#${slug(c)}"><span>${c.n}</span>${esc(c.t)}${dot(c.s)}</a></li>`).join('')}</ul>
           <div class="area__foot"><span class="paren">(${a.ch.length} ${a.ch.length === 1 ? 'capítulo' : 'capítulos'})</span>
-            <a class="btn-icon" href="${url(a.href)}" aria-label="Abrir ${esc(a.t)}">${ic(I.right)}</a></div>
+            <a class="area__go" href="${url(a.href)}" aria-label="Abrir ${esc(a.t)}">${ic(I.right)}</a></div>
         </div>
       </article>`).join('');
   }
@@ -1462,27 +1469,15 @@
     }));
   });
 
-  /* ─── Ráfagas (9.6): el cursor las empuja como el viento y vuelven solas a su lugar ───
-     Mismo gesto que el hover de los encabezados: lo que se mueve es la forma, con fricción. */
-  document.querySelectorAll('[data-rfp]').forEach((p) => {
-    const g = p.querySelector('.rfp__push'), sv = p.querySelector('svg');
-    let ox = 0, oy = 0, lx = null, ly = null, lt = 0, raf = 0;
-    const tick = (t) => {
-      const dt = Math.min((t - lt) / 1000, .05); lt = t;
-      const k = Math.exp(-dt / 1.3); ox *= k; oy *= k;
-      g.setAttribute('transform', `translate(${ox.toFixed(2)} ${oy.toFixed(2)}) skewX(${(-ox * .25).toFixed(2)})`);
-      raf = Math.abs(ox) + Math.abs(oy) > .05 ? requestAnimationFrame(tick) : 0;
-    };
-    p.addEventListener('pointermove', (e) => {
-      const r = p.getBoundingClientRect(), x = (e.clientX - r.left) / r.width * 300, y = (e.clientY - r.top) / r.height * 400;
-      if (lx !== null) { ox = Math.max(-28, Math.min(28, ox + (x - lx) * .22)); oy = Math.max(-28, Math.min(28, oy + (y - ly) * .22)); }
-      lx = x; ly = y;
-      if (!raf) { lt = performance.now(); raf = requestAnimationFrame(tick); }
-    });
-    p.addEventListener('pointerleave', () => { lx = ly = null; });
-    if (still && sv.pauseAnimations) sv.pauseAnimations();
-    else if ('IntersectionObserver' in window) new IntersectionObserver(([en]) => { if (sv.pauseAnimations) en.isIntersecting ? sv.unpauseAnimations() : sv.pauseAnimations(); }).observe(p);
-  });
+  /* ─── Ráfagas (ILU-006): el viento del encabezado sobre la forma y los colores de cada ráfaga ───
+     js/keyons-rafaga.js reproduce el campo de ráfaga del cielo: el cursor dispersa la materia
+     y el viento la recompone. Sin WebGL queda el SVG original. */
+  const rfps = document.querySelectorAll('[data-rfp]');
+  if (rfps.length) {
+    const go = () => rfps.forEach((p) => window.KeyonsRafaga.mount(p));
+    if (window.KeyonsRafaga) go();
+    else { const sc = document.createElement('script'); sc.src = (document.body.dataset.root || '.') + '/js/keyons-rafaga.js'; sc.onload = go; document.head.appendChild(sc); }
+  }
 
   /* ─── Rótulos sin paréntesis: «(Ilustrativa)» se lee «Ilustrativa» ─── */
   document.querySelectorAll('.content .paren').forEach((p) => {
@@ -1664,7 +1659,7 @@
     card.append(back);
     cap.remove();
     if (lab) { const t = document.createElement('span'); t.className = 'flip__tag'; t.textContent = lab.textContent.replace(/[()]/g, ''); card.append(t); }
-    card.insertAdjacentHTML('beforeend', '<button class="flip__btn" type="button" aria-expanded="false"><svg viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,9.2835,16)" stroke-width="2.5" stroke-linecap="butt" fill="none" stroke="currentColor" d="M0 0L13.433 0"/><path transform="matrix(1,0,0,-1,16,9.283501)" stroke-width="2.5" stroke-linecap="butt" fill="none" stroke="currentColor" d="M0 0L0 -13.433"/></svg><span>Leer más</span></button>');
+    card.insertAdjacentHTML('beforeend', '<button class="flip__btn" type="button" aria-expanded="false"><span>Leer más</span><svg viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,9.2835,16)" stroke-width="2.5" stroke-linecap="butt" fill="none" stroke="currentColor" d="M0 0L13.433 0"/><path transform="matrix(1,0,0,-1,16,9.283501)" stroke-width="2.5" stroke-linecap="butt" fill="none" stroke="currentColor" d="M0 0L0 -13.433"/></svg></button>');
     const btn = card.querySelector('.flip__btn');
     btn.addEventListener('click', () => {
       const on = !f.classList.contains('is-flip');
