@@ -1,0 +1,109 @@
+{
+  "nota": "Fuente normativa común de la Biblioteca Keyons. La leen la web (recursos/gobierno.html, generada por tools/gobierno.py) y la representación para IA (ia/gobierno.json). Se edita aquí y se vuelve a generar.",
+  "version": "0.1",
+  "estado": "En revisión",
+  "estado_nota": "Propuesta preparada por un agente de IA. Requiere aprobación humana antes de adquirir vigencia.",
+  "niveles": [
+    { "k": "DEBE", "d": "Requisito obligatorio dentro de su ámbito de aplicación." },
+    { "k": "NO DEBE", "d": "Prohibición expresa dentro de su ámbito de aplicación." },
+    { "k": "DEBERÍA", "d": "Criterio preferente; otra solución requiere una justificación documentada." },
+    { "k": "PUEDE", "d": "Alternativa permitida según el contexto." }
+  ],
+  "niveles_uso": [
+    "Los términos normativos se utilizan en mayúsculas para distinguirlos de las expresiones habituales del texto editorial.",
+    "La redacción se mantiene profesional, sencilla y predominantemente afirmativa.",
+    "Una norma puede contener requisitos con diferentes niveles de obligación. Cada requisito se identifica dentro de la norma mediante una referencia interna, conservando su ID principal: KYN-MRK-COL-004.2."
+  ],
+  "estados": [
+    { "k": "vigente", "t": "Vigente", "d": "Norma aprobada y aplicable." },
+    { "k": "en-revision", "t": "En revisión", "d": "Contenido sujeto a evaluación o aprobación." },
+    { "k": "descontinuada", "t": "Descontinuada", "d": "Norma histórica reemplazada o retirada, con identificador reservado y referencia a su destino cuando corresponda." }
+  ],
+  "estados_adicionales": [
+    { "k": "borrador", "t": "Borrador", "equivale": "En revisión", "d": "Redacción en curso dentro del libro; se publica con su marca de estado." },
+    { "k": "por-definir", "t": "Por definir", "equivale": "En revisión", "d": "Estructura reservada sin texto normativo." },
+    { "k": "estructura", "t": "Estructura definida", "equivale": "En revisión", "d": "Sistema de Diseño: capítulo con estructura aprobada y contenido pendiente." },
+    { "k": "integrada", "t": "Integrada", "equivale": "Descontinuada", "d": "Su contenido pasó a otra norma; el ID queda reservado y redirige a su destino." }
+  ],
+  "regla_ia": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
+  "ambitos": [
+    { "k": "identidad", "t": "Identidad corporativa Keyons" },
+    { "k": "web", "t": "Web corporativa y Biblioteca" },
+    { "k": "internas", "t": "Herramientas internas" },
+    { "k": "saas", "t": "SaaS con identidad Keyons" },
+    { "k": "personalizados", "t": "Productos personalizados" },
+    { "k": "cliente", "t": "Productos con identidad del cliente" },
+    { "k": "servicios", "t": "Servicios y procesos operativos" }
+  ],
+  "ambitos_criterio": [
+    "Las reglas comunes de calidad y experiencia pueden aplicarse a varios ámbitos.",
+    "Las reglas visuales de identidad se aplican a los productos y comunicaciones que adoptan esa identidad."
+  ],
+  "dimensiones": [
+    "Identificador permanente", "Título", "Texto normativo", "Nivel de obligación de cada requisito", "Estado de vigencia",
+    "Ámbito de aplicación", "Versión", "Responsable de aprobación", "Fecha de aprobación", "Excepciones autorizadas", "Normas relacionadas"
+  ],
+  "autoridad": {
+    "estado": "Pendiente de designar",
+    "texto": "Cada libro tiene un responsable de aprobación. Ninguna norma, excepción o clasificación adquiere vigencia sin su aprobación registrada.",
+    "propuesta": "Los Co-Editores Generales, citados en KYN-MRK-ILU-005 como autoridad para sumar figuras, aprueban las normas de la Biblioteca. Pendiente de confirmar por la dirección."
+  },
+  "identificadores": {
+    "formato": "KYN-<LIBRO>-<ÁREA>-<número de tres cifras>",
+    "reglas": [
+      "Los identificadores son permanentes: no se reutilizan ni se renumeran.",
+      "Una norma integrada o descontinuada conserva su ID y remite a su destino.",
+      "Las referencias entre libros se resuelven mediante el ID permanente."
+    ],
+    "prefijos": [
+      { "k": "KYN-MRK", "t": "Marca y Experiencia", "estado": "En uso" },
+      { "k": "KYN-SDI", "t": "Sistema de Diseño", "estado": "Propuesto, sin emitir" },
+      { "k": "KYN-PRD", "t": "Producto e Ingeniería", "estado": "Identificadores históricos del Manual de Producto" },
+      { "k": "Por asignar", "t": "Ventas y Crecimiento · Experiencia y Servicio al Cliente · Cultura y Operaciones", "estado": "En preparación" }
+    ]
+  },
+  "versionado": [
+    "Cada norma lleva una versión. Un cambio de redacción que altera su alcance incrementa la versión; una corrección menor la conserva.",
+    "El historial de cambios se conserva en el control de versiones del proyecto y en el registro de aprobaciones de contenido (data/referencia-contenido.json)."
+  ],
+  "excepciones": {
+    "pasos": [
+      "Solicitar la excepción por escrito.",
+      "Identificar la norma afectada por su ID y, cuando corresponda, su requisito interno.",
+      "Documentar la justificación.",
+      "Registrar quién autoriza.",
+      "Determinar el alcance y la vigencia temporal.",
+      "Conservar la evidencia.",
+      "Actualizar el registro cuando se modifique la norma."
+    ],
+    "nota": "Los requisitos legales, de seguridad o contractuales conservan las restricciones propias de su materia."
+  },
+  "citacion": [
+    { "k": "Uso interno", "d": "Citar mediante el identificador normativo permanente y consultar la versión vigente." },
+    { "k": "Uso externo", "d": "Incluir expresamente el contenido contractual que deba formar parte de un acuerdo, con su alcance y versión. El código interno puede utilizarse como referencia complementaria." }
+  ],
+  "citacion_nota": "Se conservan los mecanismos de autorización, confidencialidad y revisión correspondientes.",
+  "permisos": {
+    "estado": "Por definir",
+    "texto": "Hoy la Biblioteca se publica como sitio estático sin control de acceso: todo lo publicado es de consulta abierta. Los niveles de permiso y la búsqueda filtrada por permisos requieren un servicio de autenticación que aún no existe."
+  },
+  "rutas": [
+    { "k": "A", "t": "Incorporación al equipo", "para": "Nuevos integrantes de Keyons.",
+      "pasos": [["La identidad", "marca/index.html"], ["Los principios", "marca/principios.html"], ["Convenciones normativas", "recursos/gobierno.html#autoridad"], ["Contenidos según la función: Fundamentos para diseño", "fundamentos/index.html"], ["Sistema de Diseño para producto y desarrollo", "sistema-diseno/index.html"], ["Aplicaciones para comunicación y ventas", "aplicaciones/index.html"]] },
+    { "k": "B", "t": "Consulta especializada", "para": "Diseñadores, desarrolladores, responsables comerciales, personal operativo y otros especialistas.",
+      "pasos": [["Buscar la tarea en el buscador (Ctrl K)", "inicio.html"], ["Índice de normas vigentes", "recursos/referencia.html#indice"], ["Especificaciones y ejemplos de cada norma", "recursos/referencia.html#nomenclatura"], ["Criterios de comprobación", "fundamentos/criterio/antipatrones.html"]] },
+    { "k": "C", "t": "Agentes de inteligencia artificial", "para": "Herramientas de IA que consultan la Biblioteca.",
+      "pasos": [["Convenciones de autoridad normativa", "ia/gobierno.json"], ["Catálogo de libros y normas", "ia/indice.json"], ["Estados de vigencia y ámbitos", "ia/gobierno.json"], ["Restricciones de seguridad, confidencialidad y permisos", "llms.txt"], ["Normas específicas de la tarea", "ia/normas/"]],
+      "reglas": ["Las referencias entre libros se resuelven mediante identificadores normativos permanentes.", "Los agentes utilizan la versión vigente de cada norma y distinguen entre requisitos obligatorios, recomendaciones y opciones permitidas."] },
+    { "k": "D", "t": "Responsables y aprobadores", "para": "Quienes aprueban normas, excepciones y cambios.",
+      "pasos": [["Normas vigentes y en revisión", "recursos/referencia.html#indice"], ["Clasificación normativa pendiente de aprobación", "docs/CLASIFICACION_NORMATIVA.md"], ["Excepciones y aprobación", "recursos/gobierno.html#aprobacion"], ["Trazabilidad de criterios", "fundamentos/criterio/antipatrones.html#trazabilidad"]] },
+    { "k": "E", "t": "Terceros autorizados", "para": "Clientes, auditores, proveedores y colaboradores externos con acceso autorizado.",
+      "pasos": [["Versión documental del libro", "documental/index.html"], ["Convenciones de citación", "recursos/gobierno.html#citacion"]],
+      "reglas": ["Cada ruta presenta exclusivamente los contenidos aprobados para el propósito de la consulta.", "Los documentos compartidos conservan sus referencias, versiones y condiciones de confidencialidad aplicables."] }
+  ],
+  "rutas_criterio": [
+    "Cada ruta tiene un propósito identificable, un orden de consulta y enlaces directos a los contenidos correspondientes.",
+    "La navegación y los resultados de búsqueda respetan los permisos efectivos del lector.",
+    "Las rutas se construyen a partir del contenido disponible y se actualizan conforme evolucionan los libros."
+  ]
+}

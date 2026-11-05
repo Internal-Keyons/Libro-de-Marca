@@ -61,3 +61,5 @@ El cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz
 
 **(Criterio)**
 Nace desde el boceto inicial, nunca como un filtro o adhesivo final.
+
+En composiciones editoriales puede convertirse en protagonista. En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.

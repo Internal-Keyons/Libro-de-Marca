@@ -113,19 +113,19 @@ TASA Orbiter
 
 #### Reglas de composición
 
-**(01 · Título contextual)**
+**(Título contextual)**
 Utilizar Plus Jakarta Sans, 20 px, peso 500 y Azul Noche.
 Su función es presentar el tema.
 
-**(02 · Declaración protagonista)**
+**(Declaración protagonista)**
 Utilizar Plus Jakarta Sans, 44 px, peso 400 y un gris con contraste validado.
 Su función es desarrollar la idea principal con mayor protagonismo visual.
 
-**(03 · Texto de entrada)**
+**(Texto de entrada)**
 Cuando exista una introducción que necesite destacarse del desarrollo, utilizar 20 px, peso 400 y Azul Noche.
 Su función es sintetizar o contextualizar el contenido antes de la lectura principal.
 
-**(04 · Cuerpo)**
+**(Cuerpo)**
 Utilizar Plus Jakarta Sans, 16 px, peso 400 y Azul Noche como referencia digital inicial.
 Su función es desarrollar la información.
 
@@ -146,8 +146,6 @@ El texto de entrada y el cuerpo compartirán la misma familia y tono cromático.
 **(Variaciones expresivas)**
 Las variaciones expresivas conservarán relaciones coherentes de tamaño, peso, interlineado, tracking y contraste, tomando como referencia los valores documentados.
 
-**(Lectura prolongada · Referencia digital V1)**
-
 #### Una base estable para leer con comodidad
 
 Plus Jakarta Sans para artículos, informes digitales y documentos extensos.
@@ -157,13 +155,13 @@ Plus Jakarta Sans para artículos, informes digitales y documentos extensos.
 - **Caracteres por línea**: 55–75
 - **Alineación inicial**: Izquierda
 
-**(01 · Coherencia)**
+**(Coherencia)**
 Los niveles tipográficos parten de una configuración común y mantienen relaciones reconocibles.
 
-**(02 · Expresión)**
+**(Expresión)**
 Los títulos y las declaraciones pueden variar su escala, proporción y tratamiento visual según la intención editorial. La lectura mantiene sus parámetros de legibilidad.
 
-**(03 · Comprobación)**
+**(Comprobación)**
 Cada composición se evalúa con las fuentes oficiales, el contenido real y el tamaño final de publicación.
 
 Selecciona una configuración coherente como punto de partida y adapta sus proporciones a la función de cada texto.

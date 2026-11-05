@@ -30,4 +30,6 @@ Cuando el contexto permite calidez abierta: redes sociales, campañas, blog, con
 
 Cuando hay duda sobre qué modo aplicar, gana lo humano bajo las reglas de lo corporativo.
 
+###### Alcance
+
 Estos modos definen la comunicación de Keyons. Las interfaces digitales aplican sus principios mediante las reglas de contenido del Sistema de Diseño; los productos con identidad exclusiva del cliente utilizan la voz de esa marca.

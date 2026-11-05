@@ -1949,19 +1949,24 @@
   "fundamentos/identidad/logotipo.html#versiones": {
    "estado": "vigente",
    "id": "KYN-MRK-LOG-001",
-   "texto": "Versiones Tres versiones, una sola firma El logotipo de Keyons es tipográfico: la palabra completa carga la identidad. El isotipo nace desde dentro de la palabra, no desde afuera, y la insignia los une en un sello. Cada versión vive en tres combinaciones y en ninguna otra. Nunca en Salmón. 01Logotipo principal La primera opción siempre que el espacio lo permita. Un bloque sólido y compacto: el nombre en dos niveles, KEY y ONS, guía la pronunciación, expresa la naturaleza modular de nuestras soluciones y dibuja una llave entre la K, la E, la O y la N. (Logotipo principal)Clic para copiar el SVG 01 / 03 SVGPNGJPG 02Isotipo Los corchetes del código, nacidos de la anatomía de la K y la E. Su vacío central forma una estrella de cuatro puntas, como una brújula: la orientación estratégica que ofrecemos.(En esta etapa)Trabaja acompañado del logotipo o donde el receptor ya conoce a Keyons: el favicon del sitio propio o el avatar de cuentas oficiales. (Isotipo)Clic para copiar el SVG 01 / 03 SVGPNGJPG 03Logotipo insignia Un sello monolítico: el nombre en horizontal dentro de la contraforma del isotipo a gran escala. Una insignia sólida, cerrada y compacta para situaciones que piden una mancha gráfica contundente, como un escudo o una medalla.(Usos recomendados)Pines, parches y stickers; merchandising como pulseras o gorras; impresiones a una tinta, como sellos de goma o grabados. (Logotipo insignia)Clic para copiar el SVG 01 / 03 SVGPNGJPG Sobre fotografía, la marca se apoya en la zona más limpia del cielo y toma el tono que más contraste.",
+   "texto": "Versiones Tres versiones, una sola firma El logotipo de Keyons es tipográfico: la palabra completa carga la identidad. El isotipo nace desde dentro de la palabra, no desde afuera, y la insignia los une en un sello. Cada versión vive en tres combinaciones y en ninguna otra. Nunca en Salmón. 01Logotipo principal La primera opción siempre que el espacio lo permita. Un bloque sólido y compacto: el nombre en dos niveles, KEY y ONS, guía la pronunciación, expresa la naturaleza modular de nuestras soluciones y dibuja una llave entre la K, la E, la O y la N.(Usos recomendados)El logotipo principal es la opción prioritaria y debe aplicarse de forma preferente. Especialmente en portadas de documentos, presentaciones corporativas, aplicaciones textiles como uniformes, rotulación principal y en cualquier soporte que requiera máxima presencia de marca con una composición equilibrada. Solo cuando otra versión resulte más adecuada para el formato o contexto específico puede utilizarse esa alternativa; en cualquier otro escenario, el logotipo principal sigue siendo la elección. (Logotipo principal)Clic para copiar el SVG 01 / 03 SVGPNGJPG 02Isotipo Los corchetes del código, nacidos de la anatomía de la K y la E. Su vacío central forma una estrella de cuatro puntas, como una brújula: la orientación estratégica que ofrecemos.(En esta etapa)Trabaja acompañado del logotipo o donde el receptor ya conoce a Keyons: el favicon del sitio propio o el avatar de cuentas oficiales.(Usos recomendados)Favicons, íconos de apps y avatares en redes sociales, donde el nombre de la cuenta aporta el contexto. También como elemento gráfico de soporte, siguiendo el mismo estilo. (Isotipo)Clic para copiar el SVG 01 / 03 SVGPNGJPG 03Logotipo insignia Un sello monolítico: el nombre en horizontal dentro de la contraforma del isotipo a gran escala. Una insignia sólida, cerrada y compacta para situaciones que piden una mancha gráfica contundente, como un escudo o una medalla.(Usos recomendados)Pines, parches y stickers; merchandising como pulseras o gorras; impresiones a una tinta, como sellos de goma o grabados. (Logotipo insignia)Clic para copiar el SVG 01 / 03 SVGPNGJPG Sobre fotografía, la marca se apoya en la zona más limpia del cielo y toma el tono que más contraste.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
      "huella": "82ae2c45349706a0",
      "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "cecff0956a88b648",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
     }
    ]
   },
   "fundamentos/tipografia/sistema.html#escala": {
    "estado": "vigente",
    "id": "KYN-MRK-TYP-002",
-   "texto": "Escala y jerarquía Nueve niveles, una jerarquía flexible Los nueve niveles tipográficos permiten construir jerarquías coherentes. Su combinación responde al contenido, al medio y a la intención editorial de cada pieza. Display52 a 128pxTASA OrbiterTítulo de sección30 a 44pxPlus Jakarta SansSubtítulo22 a 27pxPlus Jakarta SansTítulo menor17 a 18pxPlus Jakarta SansEntrada18 a 20pxPlus Jakarta SansCuerpo16 a 17pxPlus Jakarta SansPequeño14 a 15pxPlus Jakarta SansRótulo13pxPlus Jakarta SansKicker13pxTASA Orbiter Reglas de composición (01 · Título contextual)Utilizar Plus Jakarta Sans, 20 px, peso 500 y Azul Noche.Su función es presentar el tema. (02 · Declaración protagonista)Utilizar Plus Jakarta Sans, 44 px, peso 400 y un gris con contraste validado.Su función es desarrollar la idea principal con mayor protagonismo visual. (03 · Texto de entrada)Cuando exista una introducción que necesite destacarse del desarrollo, utilizar 20 px, peso 400 y Azul Noche.Su función es sintetizar o contextualizar el contenido antes de la lectura principal. (04 · Cuerpo)Utilizar Plus Jakarta Sans, 16 px, peso 400 y Azul Noche como referencia digital inicial.Su función es desarrollar la información. Criterio de selección (Niveles)Cada composición utilizará los niveles que aporten una función reconocible. (Composiciones breves)Las composiciones breves podrán utilizar título contextual, declaración protagonista y cuerpo. (Contenidos extensos)Los contenidos extensos podrán incorporar texto de entrada cuando ayude a organizar la lectura. (Entrada y cuerpo)El texto de entrada y el cuerpo compartirán la misma familia y tono cromático. Su diferenciación se construirá mediante una relación de tamaños suficientemente perceptible, el espacio y la función editorial. (Variaciones expresivas)Las variaciones expresivas conservarán relaciones coherentes de tamaño, peso, interlineado, tracking y contraste, tomando como referencia los valores documentados. (Lectura prolongada · Referencia digital V1) Una base estable para leer con comodidad Plus Jakarta Sans para artículos, informes digitales y documentos extensos. Tamaño de cuerpo16–18 px Interlineado1,5–1,65 Caracteres por línea55–75 Alineación inicialIzquierda (01 · Coherencia)Los niveles tipográficos parten de una configuración común y mantienen relaciones reconocibles. (02 · Expresión)Los títulos y las declaraciones pueden variar su escala, proporción y tratamiento visual según la intención editorial. La lectura mantiene sus parámetros de legibilidad. (03 · Comprobación)Cada composición se evalúa con las fuentes oficiales, el contenido real y el tamaño final de publicación. Selecciona una configuración coherente como punto de partida y adapta sus proporciones a la función de cada texto.",
+   "texto": "Escala y jerarquía Nueve niveles, una jerarquía flexible Los nueve niveles tipográficos permiten construir jerarquías coherentes. Su combinación responde al contenido, al medio y a la intención editorial de cada pieza. Display52 a 128pxTASA OrbiterTítulo de sección30 a 44pxPlus Jakarta SansSubtítulo22 a 27pxPlus Jakarta SansTítulo menor17 a 18pxPlus Jakarta SansEntrada18 a 20pxPlus Jakarta SansCuerpo16 a 17pxPlus Jakarta SansPequeño14 a 15pxPlus Jakarta SansRótulo13pxPlus Jakarta SansKicker13pxTASA Orbiter Reglas de composición (Título contextual)Utilizar Plus Jakarta Sans, 20 px, peso 500 y Azul Noche.Su función es presentar el tema. (Declaración protagonista)Utilizar Plus Jakarta Sans, 44 px, peso 400 y un gris con contraste validado.Su función es desarrollar la idea principal con mayor protagonismo visual. (Texto de entrada)Cuando exista una introducción que necesite destacarse del desarrollo, utilizar 20 px, peso 400 y Azul Noche.Su función es sintetizar o contextualizar el contenido antes de la lectura principal. (Cuerpo)Utilizar Plus Jakarta Sans, 16 px, peso 400 y Azul Noche como referencia digital inicial.Su función es desarrollar la información. Criterio de selección (Niveles)Cada composición utilizará los niveles que aporten una función reconocible. (Composiciones breves)Las composiciones breves podrán utilizar título contextual, declaración protagonista y cuerpo. (Contenidos extensos)Los contenidos extensos podrán incorporar texto de entrada cuando ayude a organizar la lectura. (Entrada y cuerpo)El texto de entrada y el cuerpo compartirán la misma familia y tono cromático. Su diferenciación se construirá mediante una relación de tamaños suficientemente perceptible, el espacio y la función editorial. (Variaciones expresivas)Las variaciones expresivas conservarán relaciones coherentes de tamaño, peso, interlineado, tracking y contraste, tomando como referencia los valores documentados. Una base estable para leer con comodidad Plus Jakarta Sans para artículos, informes digitales y documentos extensos. Tamaño de cuerpo16–18 px Interlineado1,5–1,65 Caracteres por línea55–75 Alineación inicialIzquierda (Coherencia)Los niveles tipográficos parten de una configuración común y mantienen relaciones reconocibles. (Expresión)Los títulos y las declaraciones pueden variar su escala, proporción y tratamiento visual según la intención editorial. La lectura mantiene sus parámetros de legibilidad. (Comprobación)Cada composición se evalúa con las fuentes oficiales, el contenido real y el tamaño final de publicación. Selecciona una configuración coherente como punto de partida y adapta sus proporciones a la función de cada texto.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1992,6 +1997,11 @@
      "aprobada": "2026-11-03",
      "huella": "e1e10be4697b4c68",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "e0fe413e08dd78dd",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
     }
    ]
   },
@@ -2435,7 +2445,7 @@
   "marca/cielo.html#jerarquia": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-002",
-   "texto": "Jerarquía de cielos Cinco cielos, tres funciones No aparecen en la misma proporción. Repetir el cielo dominante construye reconocimiento; variarlo con intención da rango expresivo. Las proporciones indicadas orientan el uso de los cielos en las piezas donde corresponde aplicar este lenguaje visual. No son cuotas obligatorias para cada documento, campaña o producto. 01 · PrimarioMediodía40 a 50 % de las piezas El cielo por defecto. Aparece cuando no hay una razón narrativa para otro. Es el más reconocible en cualquier cultura y la firma cromática constante de la marca. 02 · MetodologíaAmanecerComparte 40 a 50 % con Atardecer y Noche Inicio, diagnóstico, primeras conversaciones con el cliente, momentos de descubrimiento. 03 · MetodologíaAtardecerComparte 40 a 50 % con Amanecer y Noche Transiciones, entregas de fase, evolución del cliente, momentos de reflexión. 04 · MetodologíaNocheComparte 40 a 50 % con Amanecer y Atardecer Pensamiento estratégico, arquitectura invisible de los sistemas, sobriedad institucional profunda. 05 · AspiracionalGalaxia5 a 10 % de las piezas Innovación, visión de futuro, lanzamientos importantes y piezas manifiesto. Su escasez es lo que le da fuerza. (¿Hay propósito narrativo?)No: Mediodía. Sí: el cielo que corresponde a ese propósito. (¿Hay duda entre dos?)Gana Mediodía. Nunca se fuerza un cielo solo por cambiar.",
+   "texto": "Jerarquía de cielos Cinco cielos, tres funciones Repetir el cielo dominante construye reconocimiento; variarlo con intención da rango expresivo. Las proporciones indicadas orientan el uso de los cielos en las piezas donde corresponde aplicar este lenguaje visual. No son cuotas obligatorias para cada documento, campaña o producto. 01 · PrimarioMediodía40 a 50 % de las piezas El cielo por defecto. Aparece cuando no hay una razón narrativa para otro. Es el más reconocible en cualquier cultura y la firma cromática constante de la marca. 02 · MetodologíaAmanecerComparte 40 a 50 % con Atardecer y Noche Inicio, diagnóstico, primeras conversaciones con el cliente, momentos de descubrimiento. 03 · MetodologíaAtardecerComparte 40 a 50 % con Amanecer y Noche Transiciones, entregas de fase, evolución del cliente, momentos de reflexión. 04 · MetodologíaNocheComparte 40 a 50 % con Amanecer y Atardecer Pensamiento estratégico, arquitectura invisible de los sistemas, sobriedad institucional profunda. 05 · AspiracionalGalaxia5 a 10 % de las piezas Innovación, visión de futuro, lanzamientos importantes y piezas manifiesto. Su escasez es lo que le da fuerza. (¿Hay propósito narrativo?)No: Mediodía. Sí: el cielo que corresponde a ese propósito. (¿Hay duda entre dos?)Gana Mediodía. Nunca se fuerza un cielo solo por cambiar.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2451,13 +2461,18 @@
      "aprobada": "2026-11-02",
      "huella": "393039f8e29a989c",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "e552870097c2f315",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
     }
    ]
   },
   "marca/cielo.html#simbolo": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-001",
-   "texto": "El concepto central Un mismo cielo, ningún horizonte igual Los retos de eficiencia, orden y crecimiento son comunes, pero cada organización los enfrenta desde su realidad. Nuestras soluciones se adaptan a distintos niveles según las necesidades de uso. (Universal)El cielo es el único lenguaje visual que no necesita traducción. Cualquiera lo entiende, en cualquier idioma y cultura. Eso permite que Keyons hable con cualquier organización, en cualquier país, sin perder identidad. (Nace tico)Keyons nace en Costa Rica, así que sus primeros cielos son costarricenses: el amanecer del Valle Central, el atardecer de Guanacaste, la noche del Chirripó. Son su firma de origen. Cuando la marca llega a un nuevo país, suma los cielos de ese lugar, siempre con fotografías reales. (Excepción cósmica)La Galaxia es el único cielo que no se fotografía en un lugar: representa la evolución ilimitada hacia lo que aún no existe. El cielo es el origen conceptual y cromático de Keyons. Su representación visual depende del propósito de cada pieza. En composiciones editoriales puede convertirse en protagonista. En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.",
+   "texto": "El concepto central Un mismo cielo, ningún horizonte igual Los retos de eficiencia, orden y crecimiento son comunes, pero cada organización los enfrenta desde su realidad. Nuestras soluciones se adaptan a distintos niveles según las necesidades de uso. (Universal)El cielo es el único lenguaje visual que no necesita traducción. Cualquiera lo entiende, en cualquier idioma y cultura. Eso permite que Keyons hable con cualquier organización, en cualquier país, sin perder identidad. (Nace tico)Keyons nace en Costa Rica, así que sus primeros cielos son costarricenses: el amanecer del Valle Central, el atardecer de Guanacaste, la noche del Chirripó. Son su firma de origen. Cuando la marca llega a un nuevo país, suma los cielos de ese lugar, siempre con fotografías reales. (Excepción cósmica)La Galaxia es el único cielo que no se fotografía en un lugar: representa la evolución ilimitada hacia lo que aún no existe. El cielo es el origen conceptual y cromático de Keyons. Su representación visual depende del propósito de cada pieza.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2478,6 +2493,11 @@
      "aprobada": "2026-11-02",
      "huella": "cfb6c987f5844f73",
      "nota": "RV6 2026-11-02: CON-001, CON-004, CON-006, CON-008"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "a12816b39e309fd4",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
     }
    ]
   },
@@ -2545,7 +2565,7 @@
   "marca/composicion.html#reglas": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-006",
-   "texto": "Reglas de composición Cuatro criterios para la composición expresiva Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor. 01Presencia humanaCada pieza refleja intención y criterio creativo, expresado en fotografía, ilustración o recursos abstractos, sin necesidad de mostrar personas ni imperfecciones. 02Dirección humana, creación sin límitesLa creación puede integrar fotografía, ilustración, diseño digital o IA, siempre bajo dirección artística definida y revisada por una persona responsable. 03Cielo propioLas fotografías del cielo deben tener procedencia verificable y cumplir las reglas del Diario de Cielos, evitando presentar imágenes sintéticas como auténticas. 04Singularidad verificableCada pieza se contrasta con lo que no representa a la marca; si puede confundirse con otra identidad, regresa a diseño para asegurar carácter único. La creatividad nace del criterio. La tecnología amplía sus posibilidades. Condiciones de aplicación (01)No es obligatorio utilizar IA en las piezas gráficas. (02)La generación de imágenes desde cero está permitida. (03)Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana. (04)Las imágenes documentales deben distinguirse de las representaciones artísticas. (05)Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas. (06)Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.",
+   "texto": "Reglas de composición Cuatro criterios para la composición expresiva Estos criterios orientan las piezas gráficas y narrativas de Keyons. Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor. 01Presencia humanaCada pieza refleja intención y criterio creativo, expresado en fotografía, ilustración o recursos abstractos, sin necesidad de mostrar personas ni imperfecciones. 02Dirección humana, creación sin límitesLa creación puede integrar fotografía, ilustración, diseño digital o IA, siempre bajo dirección artística definida y revisada por una persona responsable. 03Cielo propioLas fotografías del cielo deben tener procedencia verificable y cumplir las reglas del Diario de Cielos, evitando presentar imágenes sintéticas como auténticas. 04Singularidad verificableCada pieza se contrasta con lo que no representa a la marca; si puede confundirse con otra identidad, regresa a diseño para asegurar carácter único. La creatividad nace del criterio. La tecnología amplía sus posibilidades. Condiciones de aplicación (Creación desde cero)Las piezas gráficas nacen de una idea y concepto humano. La base debe ser siempre creada por una persona. (Intervención con IA)La inteligencia artificial puede participar para potenciar o extender la pieza, siempre que respete la dirección creativa y el concepto inicial humano. (Imágenes documentales)Deben distinguirse claramente de las representaciones artísticas. (Derechos y licencias)Se respetan derechos de autor, licencias y autorizaciones al usar materiales o representaciones de personas. (Normas visuales Keyons)Todos los resultados deben cumplir las reglas visuales de la marca, sin importar la herramienta empleada.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2591,6 +2611,11 @@
      "aprobada": "2026-11-03",
      "huella": "d541fbe00a843249",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "6b0ad04879e03c5d",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
     }
    ]
   },
@@ -2614,7 +2639,7 @@
   "marca/metaforas.html#condiciones": {
    "estado": "vigente",
    "id": "KYN-MRK-CON-004",
-   "texto": "Sistema de metáforas Cinco condiciones Una sola metáfora no alcanza para expresar todo lo que es Keyons. Una metáfora es Keyons cuando cumple las cinco. 01 Anclaje realNace de un elemento cotidiano e hiperreconocible. (Criterio)La primera lectura debe ser clara y comprensible, con significados adicionales al observarla en detalle. 02 Composición en capasElementos ordenados para un descubrimiento progresivo. (Criterio)Revela un significado nuevo al observarla por segunda vez. 03 Propósito directoLa creatividad responde estrictamente al objetivo del mensaje. (Criterio)El objetivo (entender, sentir, actuar) se sintetiza en una sola línea. 04 Presencia humanaLa autoría se reconoce en la elección de recursos y en la construcción de la idea. (Criterio)No requiere imperfecciones artificiales: un diseño limpio también expresa sensibilidad humana. 05 Integración atmosféricaEl cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz o como reflejo. (Criterio)Nace desde el boceto inicial, nunca como un filtro o adhesivo final.",
+   "texto": "Sistema de metáforas Cinco condiciones Una sola metáfora no alcanza para expresar todo lo que es Keyons. Una metáfora es Keyons cuando cumple las cinco. 01 Anclaje realNace de un elemento cotidiano e hiperreconocible. (Criterio)La primera lectura debe ser clara y comprensible, con significados adicionales al observarla en detalle. 02 Composición en capasElementos ordenados para un descubrimiento progresivo. (Criterio)Revela un significado nuevo al observarla por segunda vez. 03 Propósito directoLa creatividad responde estrictamente al objetivo del mensaje. (Criterio)El objetivo (entender, sentir, actuar) se sintetiza en una sola línea. 04 Presencia humanaLa autoría se reconoce en la elección de recursos y en la construcción de la idea. (Criterio)No requiere imperfecciones artificiales: un diseño limpio también expresa sensibilidad humana. 05 Integración atmosféricaEl cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz o como reflejo. (Criterio)Nace desde el boceto inicial, nunca como un filtro o adhesivo final. En composiciones editoriales puede convertirse en protagonista. En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2645,6 +2670,11 @@
      "aprobada": "2026-11-02",
      "huella": "55f235894672e333",
      "nota": "RV6 2026-11-02: CON-001, CON-004, CON-006, CON-008"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "8f0fa96fb2c4f0ab",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
     }
    ]
   },
@@ -2842,7 +2872,7 @@
   "marca/trato.html#traduccion": {
    "estado": "vigente",
    "id": "KYN-MRK-VOZ-007",
-   "texto": "De lo técnico a lo humano Lo que hace, no cómo se llama Explicamos la tecnología desde su función y su utilidad para las personas. Utilizamos términos técnicos cuando aportan precisión y los acompañamos de una explicación comprensible cuando el lector la necesita. Simplificar no significa alterar el significado ni prometer capacidades que el sistema no tiene. 01Explicar qué hacePresentamos primero la función o el resultado que el lector necesita comprender. 02Utilizar analogías que aclarenLas comparaciones ayudan a explicar conceptos complejos, siempre que no creen equivalencias incorrectas. 03Conservar los términos necesariosUtilizamos y explicamos las denominaciones técnicas, comerciales o legales cuando son relevantes. 04Priorizar acciones comprensiblesPreferimos descripciones concretas antes que acumular siglas innecesarias. Así lo decimos Los términos se agrupan por temática para encontrarlos rápido. Los principios son los mismos; el matiz cambia según el dominio. 01Inteligencia artificial02Operaciones y procesos03Datos y gobernanza04Software y arquitectura05Legal y cumplimiento (Cómo se traduce)Desacralizando la tecnología: se explica qué hace la IA, sin misterio ni promesas. (RAG)Técnica que permite a la IA recuperar información de fuentes disponibles y utilizarla como contexto para elaborar una respuesta. (Fine-tuning)Ajuste adicional de un modelo mediante ejemplos de entrenamiento para mejorar su desempeño en determinadas tareas. (Agentes autónomos)Sistemas de IA capaces de ejecutar tareas y utilizar herramientas dentro de permisos y límites definidos. Algunas acciones requieren aprobación humana. (LLM)Modelo de inteligencia artificial entrenado para trabajar con lenguaje y generar o analizar texto. (Prompt engineering)Diseño de instrucciones para la IA. (Vector database)Base de datos que permite recuperar información mediante búsquedas por similitud entre representaciones numéricas. (Hallucination)Respuesta de IA que presenta información inventada o incorrecta como si fuera un hecho. (Guardrails)Reglas que delimitan qué puede hacer la IA. (Context window)Cantidad de información que un modelo puede considerar dentro de una interacción, según sus límites técnicos. (Cómo se traduce)Priorizando la acción: qué se hace y qué cambia en el día a día del equipo. (RCA · Root Cause Analysis)Análisis de la causa raíz del problema. (Cuellos de botella)Puntos donde la operación se traba. (SOP · Standard Operating Procedure)Guía escrita de cómo se hace una tarea. (KPI)Indicador que mide si algo está funcionando. (Workflow)La secuencia de pasos de un proceso. (Automatización)Tareas que el sistema hace sin intervención humana. (Lean)Eliminar lo que no aporta valor en un proceso. (Mapeo de procesos)Dibujar cómo funciona realmente un proceso hoy. (Blueprint)Plano detallado de cómo se construirá la solución. (Lead time)Tiempo que toma una tarea de principio a fin. (Cómo se traduce)Haciendo visible el cuidado: dónde está la información y quién la protege. (ETL · Pipeline de datos)Proceso para extraer datos, transformarlos y cargarlos en otro sistema. (Data warehouse)Lugar centralizado donde se guardan los datos de la empresa. (Data lake)Repositorio donde los datos se guardan tal como llegan. (Encriptación)Utilizar preferentemente «cifrado»: transformación de información para impedir su lectura sin los medios autorizados. (Anonimización)Tratamiento de datos destinado a impedir la identificación de personas, considerando también el riesgo de reidentificación. (Compliance)Cumplimiento de las normativas aplicables. (Observabilidad)Monitoreo de cómo se comporta el sistema. (Data lineage)El rastro de dónde viene cada dato y por dónde pasó. (Data governance)Reglas de quién puede ver, usar y modificar los datos. (Backup)Copia de seguridad de la información. (Cómo se traduce)Desde lo que vive el usuario, no desde cómo está construido el sistema. (API)La forma en que dos sistemas se comunican entre sí. (Deployment)Instalación en el entorno real de su empresa. (Integración)Conexión entre dos sistemas que antes no se hablaban. (Backend)La parte del sistema que opera por detrás, invisible al usuario. (Frontend)La parte del sistema que el usuario ve y usa. (Infraestructura cloud)Servidores en la nube que sostienen la operación. (Escalabilidad)Capacidad del sistema de crecer sin romperse. (MVP)Versión mínima que ya resuelve el problema central. (SaaS)Software que se usa a través de internet, por suscripción. (Sandbox)Entorno de prueba separado del sistema real. (Cómo se traduce)Con cuidado: cada término tiene implicancia regulatoria. La traducción aclara, nunca reemplaza el nombre oficial. (Ley 8968)Ley costarricense de protección de datos personales. (GDPR)Regulación europea de protección de datos personales. (PRODHAB)Autoridad costarricense que vigila el uso de datos personales. (NDA)Acuerdo de confidencialidad firmado entre dos partes. (Consentimiento informado)Autorización explícita del usuario tras entender qué pasará con sus datos. (Due diligence)Revisión detallada antes de tomar una decisión importante. (Auditoría)Revisión independiente del cumplimiento. (Términos y condiciones)Reglas que gobiernan el uso de un servicio. (Política de privacidad)Documento que explica qué se hace con los datos del usuario. (SLA)Acuerdo escrito sobre los niveles de servicio garantizados. Relación con la comunicación de productos (Consumo de IA)La comunicación comercial de consumo de IA debe expresar unidades comprensibles para el cliente. Cuando corresponda, se utilizarán créditos de IA o unidades vinculadas a tareas del negocio, conforme a las reglas del Manual de Producto. (Términos internos)No se deben introducir términos internos de ingeniería en interfaces comerciales cuando no aportan valor al usuario. (Sistema de Diseño)Las especificaciones de mensajes, etiquetas, errores, confirmaciones y componentes conversacionales se desarrollarán en el Sistema de Diseño, sin duplicar estas reglas generales de voz. Cada término nuevo se traduce con estos cuatro principios y entra en su temática.",
+   "texto": "De lo técnico a lo humano Función antes del nombre Explicamos la tecnología desde su función y su utilidad para las personas. Utilizamos términos técnicos cuando aportan precisión y los acompañamos de una explicación comprensible cuando el lector la necesita. Simplificar no significa alterar el significado ni prometer capacidades que el sistema no tiene. 01Explicar qué hacePresentamos primero la función o el resultado que el lector necesita comprender. 02Utilizar analogías que aclarenLas comparaciones ayudan a explicar conceptos complejos, siempre que no creen equivalencias incorrectas. 03Conservar los términos necesariosUtilizamos y explicamos las denominaciones técnicas, comerciales o legales cuando son relevantes. 04Priorizar acciones comprensiblesPreferimos descripciones concretas antes que acumular siglas innecesarias. Así lo decimos Los términos se agrupan por temática para encontrarlos rápido. Los principios son los mismos; el matiz cambia según el dominio. 01Inteligencia artificial02Operaciones y procesos03Datos y gobernanza04Software y arquitectura05Legal y cumplimiento (Cómo se traduce)Desacralizando la tecnología: se explica qué hace la IA, sin misterio ni promesas. (RAG)Técnica que permite a la IA recuperar información de fuentes disponibles y utilizarla como contexto para elaborar una respuesta. (Fine-tuning)Ajuste adicional de un modelo mediante ejemplos de entrenamiento para mejorar su desempeño en determinadas tareas. (Agentes autónomos)Sistemas de IA capaces de ejecutar tareas y utilizar herramientas dentro de permisos y límites definidos. Algunas acciones requieren aprobación humana. (LLM)Modelo de inteligencia artificial entrenado para trabajar con lenguaje y generar o analizar texto. (Prompt engineering)Diseño de instrucciones para la IA. (Vector database)Base de datos que permite recuperar información mediante búsquedas por similitud entre representaciones numéricas. (Hallucination)Respuesta de IA que presenta información inventada o incorrecta como si fuera un hecho. (Guardrails)Reglas que delimitan qué puede hacer la IA. (Context window)Cantidad de información que un modelo puede considerar dentro de una interacción, según sus límites técnicos. (Cómo se traduce)Priorizando la acción: qué se hace y qué cambia en el día a día del equipo. (RCA · Root Cause Analysis)Análisis de la causa raíz del problema. (Cuellos de botella)Puntos donde la operación se traba. (SOP · Standard Operating Procedure)Guía escrita de cómo se hace una tarea. (KPI)Indicador que mide si algo está funcionando. (Workflow)La secuencia de pasos de un proceso. (Automatización)Tareas que el sistema hace sin intervención humana. (Lean)Eliminar lo que no aporta valor en un proceso. (Mapeo de procesos)Dibujar cómo funciona realmente un proceso hoy. (Blueprint)Plano detallado de cómo se construirá la solución. (Lead time)Tiempo que toma una tarea de principio a fin. (Cómo se traduce)Haciendo visible el cuidado: dónde está la información y quién la protege. (ETL · Pipeline de datos)Proceso para extraer datos, transformarlos y cargarlos en otro sistema. (Data warehouse)Lugar centralizado donde se guardan los datos de la empresa. (Data lake)Repositorio donde los datos se guardan tal como llegan. (Encriptación)Utilizar preferentemente «cifrado»: transformación de información para impedir su lectura sin los medios autorizados. (Anonimización)Tratamiento de datos destinado a impedir la identificación de personas, considerando también el riesgo de reidentificación. (Compliance)Cumplimiento de las normativas aplicables. (Observabilidad)Monitoreo de cómo se comporta el sistema. (Data lineage)El rastro de dónde viene cada dato y por dónde pasó. (Data governance)Reglas de quién puede ver, usar y modificar los datos. (Backup)Copia de seguridad de la información. (Cómo se traduce)Desde lo que vive el usuario, no desde cómo está construido el sistema. (API)La forma en que dos sistemas se comunican entre sí. (Deployment)Instalación en el entorno real de su empresa. (Integración)Conexión entre dos sistemas que antes no se hablaban. (Backend)La parte del sistema que opera por detrás, invisible al usuario. (Frontend)La parte del sistema que el usuario ve y usa. (Infraestructura cloud)Servidores en la nube que sostienen la operación. (Escalabilidad)Capacidad del sistema de crecer sin romperse. (MVP)Versión mínima que ya resuelve el problema central. (SaaS)Software que se usa a través de internet, por suscripción. (Sandbox)Entorno de prueba separado del sistema real. (Cómo se traduce)Con cuidado: cada término tiene implicancia regulatoria. La traducción aclara, nunca reemplaza el nombre oficial. (Ley 8968)Ley costarricense de protección de datos personales. (GDPR)Regulación europea de protección de datos personales. (PRODHAB)Autoridad costarricense que vigila el uso de datos personales. (NDA)Acuerdo de confidencialidad firmado entre dos partes. (Consentimiento informado)Autorización explícita del usuario tras entender qué pasará con sus datos. (Due diligence)Revisión detallada antes de tomar una decisión importante. (Auditoría)Revisión independiente del cumplimiento. (Términos y condiciones)Reglas que gobiernan el uso de un servicio. (Política de privacidad)Documento que explica qué se hace con los datos del usuario. (SLA)Acuerdo escrito sobre los niveles de servicio garantizados. Relación con la comunicación de productos (Consumo de IA)La comunicación comercial de consumo de IA debe expresar unidades comprensibles para el cliente. Cuando corresponda, se utilizarán créditos de IA o unidades vinculadas a tareas del negocio, conforme a las reglas del Manual de Producto. (Términos internos)No se deben introducir términos internos de ingeniería en interfaces comerciales cuando no aportan valor al usuario. (Sistema de Diseño)Las especificaciones de mensajes, etiquetas, errores, confirmaciones y componentes conversacionales se desarrollarán en el Sistema de Diseño, sin duplicar estas reglas generales de voz. Cada término nuevo se traduce con estos cuatro principios y entra en su temática.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2858,13 +2888,18 @@
      "aprobada": "2026-11-02",
      "huella": "786ee76571a64840",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "cdacd519d005872b",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
     }
    ]
   },
   "marca/trato.html#usted": {
    "estado": "vigente",
    "id": "KYN-MRK-VOZ-005",
-   "texto": "El trato Keyons usa usted En todo contexto escrito de marca, en toda geografía y en los dos modos. No es formalidad acartonada: es respeto natural. Mercados en inglés Latinoamérica Costa Rica (Costa Rica)El usted culto convive con el voseo cotidiano. Se percibe respetuoso, no distante: cálido sin suponer confianza previa. (Latinoamérica)El voseo marcaría a Keyons como marca local pequeña. El usted es universal y la sostiene como aliado regional. (Mercados en inglés)El «you» neutraliza el pronombre y conserva el tono profesional. (Estela y los agentes de IA)Estela tendrá una personalidad y unas reglas de trato propias. Hasta que se aprueben, no se establece el tuteo ni el voseo como tratamiento predeterminado. (Excepción · Campañas culturales costarricenses)Fiestas patrias, humor local y celebraciones internas. Se aprueban campaña por campaña; no son regla general. (Productos bajo marcas de clientes)Los productos desarrollados bajo la identidad exclusiva de un cliente utilizan las reglas de trato y tono de esa marca, conservando los principios compartidos de claridad y respeto. (Aplicación en inglés)El tono profesional y cercano debe trasladarse de manera natural al inglés, respetando las convenciones del idioma. No se deben reproducir literalmente las construcciones del español cuando produzcan expresiones poco naturales.",
+   "texto": "El trato Keyons usa usted En todo contexto escrito de marca, en toda geografía y en los dos modos. No es formalidad acartonada: es respeto natural. Mercados en inglés Latinoamérica Costa Rica (Costa Rica)El usted culto convive con el voseo cotidiano. Se percibe respetuoso, no distante: cálido sin suponer confianza previa. (Latinoamérica)El voseo marcaría a Keyons como marca local pequeña. El usted es universal y la sostiene como aliado regional. (Mercados en inglés)El «you» neutraliza el pronombre y conserva el tono profesional. (Estela)Estela cuenta con una personalidad propia y reglas claras de trato. El tratamiento predeterminado se establece según estas normas, sin recurrir al tuteo ni al voseo. (Excepción · Campañas culturales costarricenses)Fiestas patrias, humor local y celebraciones internas. Se aprueban campaña por campaña; no son regla general. (Productos bajo marcas de clientes)Los productos desarrollados bajo la identidad exclusiva de un cliente utilizan las reglas de trato y tono de esa marca, conservando los principios compartidos de claridad y respeto. (Aplicación en inglés)El tono profesional y cercano debe trasladarse de manera natural al inglés, respetando las convenciones del idioma. No se deben reproducir literalmente las construcciones del español cuando produzcan expresiones poco naturales.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2880,6 +2915,11 @@
      "aprobada": "2026-11-02",
      "huella": "8ced509791919f86",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "6f8359d91f2351ec",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
     }
    ]
   },
@@ -2945,7 +2985,7 @@
   "marca/vocabulario.html#vis-013": {
    "estado": "vigente",
    "id": "KYN-MRK-VIS-013",
-   "texto": "Lenguaje genérico Específico, comprensible y con sentido El contenido debe ser específico, comprensible y significativo. No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta. Quién podría firmarloQué comunica Promesa intercambiable«Innovación que transforma el futuro de su negocio»Cualquier empresaUna promesa Explicación concreta«Su equipo deja de copiar datos a mano entre tres sistemas.»Solo KeyonsLo que cambia para el cliente",
+   "texto": "Lenguaje genérico Específico, comprensible y con sentido El contenido debe ser específico, comprensible y significativo. No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta. Quién podría firmarloQué comunica Promesa intercambiable«Innovación que transforma el futuro de su negocio»Cualquier empresaUna promesa Explicación concreta«Los procesos de su equipo se liberan de la carga de copiar datos entre sistemas.»Solo KeyonsLo que cambia para el cliente",
    "versiones": [
     {
      "aprobada": "2026-11-03",
@@ -2961,13 +3001,18 @@
      "aprobada": "2026-11-03",
      "huella": "0e0dd29bf50c8872",
      "nota": "Ronda 14: comparativos con texto detrás, sin Excepciones ni Relación, reglas en formato base, Tipografía (8.4 integrada en 8.2, tracking, menús)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "b1f3c2748c42ba7e",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
     }
    ]
   },
   "marca/voz.html#modos": {
    "estado": "vigente",
    "id": "KYN-MRK-VOZ-001",
-   "texto": "Esencia de la voz Dos modos, una misma voz Keyons habla en modo corporativo y en modo expresivo. Comparten criterio, vocabulario y reglas de escritura: cambia la energía, no el ADN. (Modo corporativo)Cuando el contexto exige respeto institucional: reuniones con clientes, propuestas, contratos, comunicados oficiales, web institucional y documentos legales. Pocas palabras, cada una con peso. La emoción se expresa en elegancia, no en entusiasmo. (Modo expresivo)Cuando el contexto permite calidez abierta: redes sociales, campañas, blog, contenido educativo, capacitaciones y posts culturales. El mismo rigor, con más aire: humor discreto e ingenioso, entusiasmo contenido y metáfora viva. Cuando hay duda sobre qué modo aplicar, gana lo humano bajo las reglas de lo corporativo. Estos modos definen la comunicación de Keyons. Las interfaces digitales aplican sus principios mediante las reglas de contenido del Sistema de Diseño; los productos con identidad exclusiva del cliente utilizan la voz de esa marca.",
+   "texto": "Esencia de la voz Dos modos, una misma voz Keyons habla en modo corporativo y en modo expresivo. Comparten criterio, vocabulario y reglas de escritura: cambia la energía, no el ADN. (Modo corporativo)Cuando el contexto exige respeto institucional: reuniones con clientes, propuestas, contratos, comunicados oficiales, web institucional y documentos legales. Pocas palabras, cada una con peso. La emoción se expresa en elegancia, no en entusiasmo. (Modo expresivo)Cuando el contexto permite calidez abierta: redes sociales, campañas, blog, contenido educativo, capacitaciones y posts culturales. El mismo rigor, con más aire: humor discreto e ingenioso, entusiasmo contenido y metáfora viva. Cuando hay duda sobre qué modo aplicar, gana lo humano bajo las reglas de lo corporativo. Alcance Estos modos definen la comunicación de Keyons. Las interfaces digitales aplican sus principios mediante las reglas de contenido del Sistema de Diseño; los productos con identidad exclusiva del cliente utilizan la voz de esa marca.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -2983,6 +3028,11 @@
      "aprobada": "2026-11-02",
      "huella": "cc0afa227ec7f83c",
      "nota": "Revisión editorial consolidada — Marca, capítulos 01–04 (RC 2026-11-02)"
+    },
+    {
+     "aprobada": "2026-11-04",
+     "huella": "357268bbd2f549df",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
     }
    ]
   },
@@ -3052,6 +3102,78 @@
      "aprobada": "2026-11-03",
      "huella": "4572a137b4954d85",
      "nota": "Consolidación 2026-11 (etapas B a F): traslados de ESP y VIS, Tipografía, Elementos gráficos y capítulos del Sistema de Diseño; textos nuevos pendientes de aprobación editorial del usuario"
+    }
+   ]
+  },
+  "recursos/gobierno.html#ambitos": {
+   "estado": "sin ID",
+   "id": null,
+   "texto": "Ámbitos Dónde se aplica cada norma Cada norma declara los contextos en los que corresponde aplicarla. Identidad corporativa KeyonsWeb corporativa y BibliotecaHerramientas internasSaaS con identidad KeyonsProductos personalizadosProductos con identidad del clienteServicios y procesos operativos Las reglas comunes de calidad y experiencia pueden aplicarse a varios ámbitos.Las reglas visuales de identidad se aplican a los productos y comunicaciones que adoptan esa identidad. Dimensiones de cada norma Identificador permanenteTítuloTexto normativoNivel de obligación de cada requisitoEstado de vigenciaÁmbito de aplicaciónVersiónResponsable de aprobaciónFecha de aprobaciónExcepciones autorizadasNormas relacionadas",
+   "versiones": [
+    {
+     "aprobada": "2026-11-04",
+     "huella": "2d935b361aace3bb",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
+    }
+   ]
+  },
+  "recursos/gobierno.html#aprobacion": {
+   "estado": "sin ID",
+   "id": null,
+   "texto": "Aprobación y excepciones Quién aprueba y cómo se exceptúa Cada libro tiene un responsable de aprobación. Ninguna norma, excepción o clasificación adquiere vigencia sin su aprobación registrada. (Estado)Pendiente de designar (Propuesta)Los Co-Editores Generales, citados en KYN-MRK-ILU-005 como autoridad para sumar figuras, aprueban las normas de la Biblioteca. Pendiente de confirmar por la dirección. Procedimiento de excepción Solicitar la excepción por escrito.Identificar la norma afectada por su ID y, cuando corresponda, su requisito interno.Documentar la justificación.Registrar quién autoriza.Determinar el alcance y la vigencia temporal.Conservar la evidencia.Actualizar el registro cuando se modifique la norma. Los requisitos legales, de seguridad o contractuales conservan las restricciones propias de su materia. Versionado y trazabilidad Cada norma lleva una versión. Un cambio de redacción que altera su alcance incrementa la versión; una corrección menor la conserva.El historial de cambios se conserva en el control de versiones del proyecto y en el registro de aprobaciones de contenido (data/referencia-contenido.json).",
+   "versiones": [
+    {
+     "aprobada": "2026-11-04",
+     "huella": "74e4667ae1ccf062",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
+    }
+   ]
+  },
+  "recursos/gobierno.html#autoridad": {
+   "estado": "sin ID",
+   "id": null,
+   "texto": "Autoridad normativa Cuatro niveles de obligación Las normas de los seis libros distinguen requisitos, recomendaciones y opciones con los mismos términos. DEBERequisito obligatorio dentro de su ámbito de aplicación.NO DEBEProhibición expresa dentro de su ámbito de aplicación.DEBERÍACriterio preferente; otra solución requiere una justificación documentada.PUEDEAlternativa permitida según el contexto. Los términos normativos se utilizan en mayúsculas para distinguirlos de las expresiones habituales del texto editorial.La redacción se mantiene profesional, sencilla y predominantemente afirmativa.Una norma puede contener requisitos con diferentes niveles de obligación. Cada requisito se identifica dentro de la norma mediante una referencia interna, conservando su ID principal: KYN-MRK-COL-004.2.",
+   "versiones": [
+    {
+     "aprobada": "2026-11-04",
+     "huella": "13f68d88dd474ff9",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
+    }
+   ]
+  },
+  "recursos/gobierno.html#citacion": {
+   "estado": "sin ID",
+   "id": null,
+   "texto": "Identificadores y citación Un ID permanente para citar Formato común: KYN-<LIBRO>-<ÁREA>-<número de tres cifras>. Los identificadores son permanentes: no se reutilizan ni se renumeran.Una norma integrada o descontinuada conserva su ID y remite a su destino.Las referencias entre libros se resuelven mediante el ID permanente. (Prefijo)LibroEstadoKYN-MRKMarca y ExperienciaEn usoKYN-SDISistema de DiseñoPropuesto, sin emitirKYN-PRDProducto e IngenieríaIdentificadores históricos del Manual de ProductoPor asignarVentas y Crecimiento · Experiencia y Servicio al Cliente · Cultura y OperacionesEn preparación (Uso interno)Citar mediante el identificador normativo permanente y consultar la versión vigente. (Uso externo)Incluir expresamente el contenido contractual que deba formar parte de un acuerdo, con su alcance y versión. El código interno puede utilizarse como referencia complementaria. Se conservan los mecanismos de autorización, confidencialidad y revisión correspondientes. Permisos de consulta (Estado)Por definir (Hoy)Hoy la Biblioteca se publica como sitio estático sin control de acceso: todo lo publicado es de consulta abierta. Los niveles de permiso y la búsqueda filtrada por permisos requieren un servicio de autenticación que aún no existe.",
+   "versiones": [
+    {
+     "aprobada": "2026-11-04",
+     "huella": "8c84a66ad7e75cb6",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
+    }
+   ]
+  },
+  "recursos/gobierno.html#rutas": {
+   "estado": "sin ID",
+   "id": null,
+   "texto": "Rutas de lectura Cinco rutas, según quién consulta Cada ruta tiene un propósito, un orden de consulta y enlaces directos al contenido que existe hoy. AIncorporación al equipoNuevos integrantes de Keyons. La identidadLos principiosConvenciones normativasContenidos según la función: Fundamentos para diseñoSistema de Diseño para producto y desarrolloAplicaciones para comunicación y ventas BConsulta especializadaDiseñadores, desarrolladores, responsables comerciales, personal operativo y otros especialistas. Buscar la tarea en el buscador (Ctrl K)Índice de normas vigentesEspecificaciones y ejemplos de cada normaCriterios de comprobación CAgentes de inteligencia artificialHerramientas de IA que consultan la Biblioteca. Convenciones de autoridad normativaCatálogo de libros y normasEstados de vigencia y ámbitosRestricciones de seguridad, confidencialidad y permisosNormas específicas de la tareaLas referencias entre libros se resuelven mediante identificadores normativos permanentes.Los agentes utilizan la versión vigente de cada norma y distinguen entre requisitos obligatorios, recomendaciones y opciones permitidas. DResponsables y aprobadoresQuienes aprueban normas, excepciones y cambios. Normas vigentes y en revisiónClasificación normativa pendiente de aprobaciónExcepciones y aprobaciónTrazabilidad de criterios ETerceros autorizadosClientes, auditores, proveedores y colaboradores externos con acceso autorizado. Versión documental del libroConvenciones de citaciónCada ruta presenta exclusivamente los contenidos aprobados para el propósito de la consulta.Los documentos compartidos conservan sus referencias, versiones y condiciones de confidencialidad aplicables. Cada ruta tiene un propósito identificable, un orden de consulta y enlaces directos a los contenidos correspondientes.La navegación y los resultados de búsqueda respetan los permisos efectivos del lector.Las rutas se construyen a partir del contenido disponible y se actualizan conforme evolucionan los libros.",
+   "versiones": [
+    {
+     "aprobada": "2026-11-04",
+     "huella": "6b5d3b857d0073c1",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
+    }
+   ]
+  },
+  "recursos/gobierno.html#vigencia": {
+   "estado": "sin ID",
+   "id": null,
+   "texto": "Vigencia Tres estados de vigencia Cada norma indica si se aplica, si está en evaluación o si quedó como referencia histórica. (Vigente)Norma aprobada y aplicable. (En revisión)Contenido sujeto a evaluación o aprobación. (Descontinuada)Norma histórica reemplazada o retirada, con identificador reservado y referencia a su destino cuando corresponda. Estados del proceso que se conservan (Borrador)Redacción en curso dentro del libro; se publica con su marca de estado. Equivale a En revisión. (Por definir)Estructura reservada sin texto normativo. Equivale a En revisión. (Estructura definida)Sistema de Diseño: capítulo con estructura aprobada y contenido pendiente. Equivale a En revisión. (Integrada)Su contenido pasó a otra norma; el ID queda reservado y redirige a su destino. Equivale a Descontinuada. La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
+   "versiones": [
+    {
+     "aprobada": "2026-11-04",
+     "huella": "b0926e25589c4bdd",
+     "nota": "Ronda 16: gobierno normativo común, navegación de la Biblioteca y textos (CON, VOZ, LOG-001, TYP-002, VIS-013)"
     }
    ]
   },

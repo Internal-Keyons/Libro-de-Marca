@@ -23,23 +23,23 @@ Este es el **manual de marca de Keyons**. Aquí vive todo lo que hace **reconoci
 
 ### Cómo utilizar este manual
 
-Este libro reúne los criterios que hacen **reconocible la identidad de Keyons** y orientan su aplicación en diferentes medios.
+Este libro reúne **la identidad de Keyons** y los criterios para aplicarla. Cada norma establece su autoridad, vigencia y ámbito de aplicación.
 
 01
 Encuentra lo esencial
-El índice organiza identidad, fundamentos, modos, aplicaciones y recursos para facilitar la consulta.
+Utiliza el índice y la búsqueda para localizar las normas relacionadas con tu tarea.
 
 02
-Normas y ejemplos
-Las normas establecen criterios de aplicación. Los ejemplos muestran distintas formas de interpretarlos según el contexto.
+Interpreta las normas
+DEBE y NO DEBE establecen requisitos; DEBERÍA orienta decisiones y PUEDE ofrece alternativas.
 
 03
-Vigencia
-Cada contenido indica su estado: aprobado, en desarrollo o pendiente de validación.
+Vigencia y alcance
+Consulta el estado de cada norma y los contextos donde corresponde aplicarla.
 
 04
 Reglas en conjunto
-Cuando una aplicación involucra varios capítulos, consulta sus referencias relacionadas para construir una solución coherente.
+Las referencias por código conectan las normas relacionadas entre capítulos y libros.
 
 ## Área 01 · Marca
 
@@ -248,15 +248,13 @@ La Galaxia es el único cielo que no se fotografía en un lugar: representa la e
 
 El cielo es el origen conceptual y cromático de Keyons. Su representación visual depende del propósito de cada pieza.
 
-En composiciones editoriales puede convertirse en protagonista. En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.
-
 #### KYN-MRK-CON-002 · 2.1.1 Jerarquía de cielos
 
 Número: 2.1.1 · ID: `KYN-MRK-CON-002` · Estado: vigente · Fuente: `/marca/cielo.html#jerarquia`
 
 ##### Cinco cielos, tres funciones
 
-No aparecen en la misma proporción. Repetir el cielo dominante construye **reconocimiento**; variarlo con intención da **rango expresivo**.
+Repetir el cielo dominante construye **reconocimiento**; variarlo con intención da **rango expresivo**.
 
 Las proporciones indicadas orientan el uso de los cielos en las piezas donde corresponde aplicar este lenguaje visual. No son cuotas obligatorias para cada documento, campaña o producto.
 
@@ -403,6 +401,8 @@ El cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz
 **(Criterio)**
 Nace desde el boceto inicial, nunca como un filtro o adhesivo final.
 
+En composiciones editoriales puede convertirse en protagonista. En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.
+
 #### KYN-MRK-CON-005 · 2.2.1 Formalidad según canal
 
 Número: 2.2.1 · ID: `KYN-MRK-CON-005` · Estado: vigente · Fuente: `/marca/metaforas.html#canal`
@@ -464,23 +464,20 @@ La creatividad nace del criterio. La tecnología amplía sus posibilidades.
 
 ###### Condiciones de aplicación
 
-**(01)**
-No es obligatorio utilizar IA en las piezas gráficas.
+**(Creación desde cero)**
+Las piezas gráficas nacen de una idea y concepto humano. La base debe ser siempre creada por una persona.
 
-**(02)**
-La generación de imágenes desde cero está permitida.
+**(Intervención con IA)**
+La inteligencia artificial puede participar para potenciar o extender la pieza, siempre que respete la dirección creativa y el concepto inicial humano.
 
-**(03)**
-Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana.
+**(Imágenes documentales)**
+Deben distinguirse claramente de las representaciones artísticas.
 
-**(04)**
-Las imágenes documentales deben distinguirse de las representaciones artísticas.
+**(Derechos y licencias)**
+Se respetan derechos de autor, licencias y autorizaciones al usar materiales o representaciones de personas.
 
-**(05)**
-Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas.
-
-**(06)**
-Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.
+**(Normas visuales Keyons)**
+Todos los resultados deben cumplir las reglas visuales de la marca, sin importar la herramienta empleada.
 
 #### KYN-MRK-CON-007 · 2.4 Regla del contraste
 
@@ -691,6 +688,8 @@ Cuando el contexto permite calidez abierta: redes sociales, campañas, blog, con
 
 Cuando hay duda sobre qué modo aplicar, gana lo humano bajo las reglas de lo corporativo.
 
+###### Alcance
+
 Estos modos definen la comunicación de Keyons. Las interfaces digitales aplican sus principios mediante las reglas de contenido del Sistema de Diseño; los productos con identidad exclusiva del cliente utilizan la voz de esa marca.
 
 #### KYN-MRK-VOZ-002 · 4.2 Reglas de escritura
@@ -871,8 +870,8 @@ El voseo marcaría a Keyons como marca local pequeña. El usted es universal y l
 **(Mercados en inglés)**
 El «you» neutraliza el pronombre y conserva el tono profesional.
 
-**(Estela y los agentes de IA)**
-Estela tendrá una personalidad y unas reglas de trato propias. Hasta que se aprueben, no se establece el tuteo ni el voseo como tratamiento predeterminado.
+**(Estela)**
+Estela cuenta con una personalidad propia y reglas claras de trato. El tratamiento predeterminado se establece según estas normas, sin recurrir al tuteo ni al voseo.
 
 **(Excepción · Campañas culturales costarricenses)**
 Fiestas patrias, humor local y celebraciones internas. Se aprueban campaña por campaña; no son regla general.
@@ -911,7 +910,7 @@ Dentro de una misma serie de promesas, beneficios o instrucciones, mantenemos un
 
 Número: 4.7 · ID: `KYN-MRK-VOZ-007` · Estado: vigente · Fuente: `/marca/trato.html#traduccion`
 
-##### Lo que hace, no cómo se llama
+##### Función antes del nombre
 
 Explicamos la tecnología desde **su función y su utilidad** para las personas. Utilizamos términos técnicos cuando aportan precisión y los acompañamos de una explicación comprensible cuando el lector la necesita.
 
@@ -1182,6 +1181,7 @@ Cada versión vive en **tres combinaciones** y en ninguna otra. Nunca en Salmón
 ###### Logotipo principal
 
 La primera opción siempre que el espacio lo permita. Un bloque sólido y compacto: el nombre en dos niveles, KEY y ONS, guía la pronunciación, expresa la naturaleza modular de nuestras soluciones y dibuja una llave entre la K, la E, la O y la N.
+**(Usos recomendados)** · El logotipo principal es la opción prioritaria y debe aplicarse de forma preferente. Especialmente en portadas de documentos, presentaciones corporativas, aplicaciones textiles como uniformes, rotulación principal y en cualquier soporte que requiera máxima presencia de marca con una composición equilibrada. Solo cuando otra versión resulte más adecuada para el formato o contexto específico puede utilizarse esa alternativa; en cualquier otro escenario, el logotipo principal sigue siendo la elección.
 
 **(Logotipo principal)**
 
@@ -1193,6 +1193,7 @@ La primera opción siempre que el espacio lo permita. Un bloque sólido y compac
 
 Los corchetes del código, nacidos de la anatomía de la K y la E. Su vacío central forma una estrella de cuatro puntas, como una brújula: la orientación estratégica que ofrecemos.
 **(En esta etapa)** · Trabaja acompañado del logotipo o donde el receptor ya conoce a Keyons: el favicon del sitio propio o el avatar de cuentas oficiales.
+**(Usos recomendados)** · Favicons, íconos de apps y avatares en redes sociales, donde el nombre de la cuenta aporta el contexto. También como elemento gráfico de soporte, siguiendo el mismo estilo.
 
 **(Isotipo)**
 
@@ -2060,19 +2061,19 @@ TASA Orbiter
 
 ###### Reglas de composición
 
-**(01 · Título contextual)**
+**(Título contextual)**
 Utilizar Plus Jakarta Sans, 20 px, peso 500 y Azul Noche.
 Su función es presentar el tema.
 
-**(02 · Declaración protagonista)**
+**(Declaración protagonista)**
 Utilizar Plus Jakarta Sans, 44 px, peso 400 y un gris con contraste validado.
 Su función es desarrollar la idea principal con mayor protagonismo visual.
 
-**(03 · Texto de entrada)**
+**(Texto de entrada)**
 Cuando exista una introducción que necesite destacarse del desarrollo, utilizar 20 px, peso 400 y Azul Noche.
 Su función es sintetizar o contextualizar el contenido antes de la lectura principal.
 
-**(04 · Cuerpo)**
+**(Cuerpo)**
 Utilizar Plus Jakarta Sans, 16 px, peso 400 y Azul Noche como referencia digital inicial.
 Su función es desarrollar la información.
 
@@ -2093,8 +2094,6 @@ El texto de entrada y el cuerpo compartirán la misma familia y tono cromático.
 **(Variaciones expresivas)**
 Las variaciones expresivas conservarán relaciones coherentes de tamaño, peso, interlineado, tracking y contraste, tomando como referencia los valores documentados.
 
-**(Lectura prolongada · Referencia digital V1)**
-
 ###### Una base estable para leer con comodidad
 
 Plus Jakarta Sans para artículos, informes digitales y documentos extensos.
@@ -2104,13 +2103,13 @@ Plus Jakarta Sans para artículos, informes digitales y documentos extensos.
 - **Caracteres por línea**: 55–75
 - **Alineación inicial**: Izquierda
 
-**(01 · Coherencia)**
+**(Coherencia)**
 Los niveles tipográficos parten de una configuración común y mantienen relaciones reconocibles.
 
-**(02 · Expresión)**
+**(Expresión)**
 Los títulos y las declaraciones pueden variar su escala, proporción y tratamiento visual según la intención editorial. La lectura mantiene sus parámetros de legibilidad.
 
-**(03 · Comprobación)**
+**(Comprobación)**
 Cada composición se evalúa con las fuentes oficiales, el contenido real y el tamaño final de publicación.
 
 Selecciona una configuración coherente como punto de partida y adapta sus proporciones a la función de cada texto.
@@ -5294,7 +5293,7 @@ Por enlazar
 
 ### Capítulo 28 · Referencia
 
-Estado: borrador · Clave: referencia · Ruta: `/recursos/referencia.html` · Ruta: `/fundamentos/criterio/antipatrones.html` · Número anterior: 27, 29
+Estado: borrador · Clave: referencia · Ruta: `/recursos/referencia.html` · Ruta: `/fundamentos/criterio/antipatrones.html` · Ruta: `/recursos/gobierno.html` · Número anterior: 27, 29
 
 La memoria de las decisiones.
 
@@ -5303,6 +5302,13 @@ La memoria de las decisiones.
 - Nomenclatura de reglas · borrador · `/recursos/referencia.html#nomenclatura`
 - Índice de reglas · borrador · `/recursos/referencia.html#indice`
 - Trazabilidad de Criterios visuales · vigente · `/fundamentos/criterio/antipatrones.html#trazabilidad`
+- **Gobierno normativo**
+- Autoridad normativa · borrador · `/recursos/gobierno.html#autoridad`
+- Vigencia · borrador · `/recursos/gobierno.html#vigencia`
+- Ámbitos de aplicación · borrador · `/recursos/gobierno.html#ambitos`
+- Aprobación y excepciones · borrador · `/recursos/gobierno.html#aprobacion`
+- Identificadores y citación · borrador · `/recursos/gobierno.html#citacion`
+- Rutas de lectura · borrador · `/recursos/gobierno.html#rutas`
 - Registro de decisiones · por definir
 - Glosario · por definir
 - Cambios · por definir
@@ -5472,3 +5478,227 @@ La experimentación es válida cuando la persona mantiene orientación y control
 
 **(Alternativa mejor)**
 **Navegación a la vista** Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.
+
+#### Gobierno normativo
+
+Rótulo: Capítulo 28 · Recursos · Fuente: `/recursos/gobierno.html`
+
+Las mismas convenciones para los seis libros: autoridad, vigencia, ámbito y citación.
+
+En revisión · versión 0.1. Propuesta preparada por un agente de IA. Requiere aprobación humana antes de adquirir vigencia.
+
+#### 28.4 Autoridad normativa
+
+Número: 28.4 · Fuente: `/recursos/gobierno.html#autoridad`
+
+##### Cuatro niveles de obligación
+
+Las normas de los seis libros distinguen **requisitos, recomendaciones y opciones** con los mismos términos.
+
+- **DEBE**: Requisito obligatorio dentro de su ámbito de aplicación.
+- **NO DEBE**: Prohibición expresa dentro de su ámbito de aplicación.
+- **DEBERÍA**: Criterio preferente; otra solución requiere una justificación documentada.
+- **PUEDE**: Alternativa permitida según el contexto.
+- Los términos normativos se utilizan en mayúsculas para distinguirlos de las expresiones habituales del texto editorial.
+- La redacción se mantiene profesional, sencilla y predominantemente afirmativa.
+- Una norma puede contener requisitos con diferentes niveles de obligación. Cada requisito se identifica dentro de la norma mediante una referencia interna, conservando su ID principal: KYN-MRK-COL-004.2.
+
+#### 28.5 Vigencia
+
+Número: 28.5 · Fuente: `/recursos/gobierno.html#vigencia`
+
+##### Tres estados de vigencia
+
+Cada norma indica si se aplica, si está en evaluación o si quedó como referencia histórica.
+
+**(Vigente)**
+Norma aprobada y aplicable.
+
+**(En revisión)**
+Contenido sujeto a evaluación o aprobación.
+
+**(Descontinuada)**
+Norma histórica reemplazada o retirada, con identificador reservado y referencia a su destino cuando corresponda.
+
+###### Estados del proceso que se conservan
+
+**(Borrador)**
+Redacción en curso dentro del libro; se publica con su marca de estado. Equivale a En revisión.
+
+**(Por definir)**
+Estructura reservada sin texto normativo. Equivale a En revisión.
+
+**(Estructura definida)**
+Sistema de Diseño: capítulo con estructura aprobada y contenido pendiente. Equivale a En revisión.
+
+**(Integrada)**
+Su contenido pasó a otra norma; el ID queda reservado y redirige a su destino. Equivale a Descontinuada.
+
+La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.
+
+#### 28.6 Ámbitos
+
+Número: 28.6 · Fuente: `/recursos/gobierno.html#ambitos`
+
+##### Dónde se aplica cada norma
+
+Cada norma declara los contextos en los que corresponde aplicarla.
+
+- Las reglas comunes de calidad y experiencia pueden aplicarse a varios ámbitos.
+- Las reglas visuales de identidad se aplican a los productos y comunicaciones que adoptan esa identidad.
+
+###### Dimensiones de cada norma
+
+- Identificador permanente
+- Título
+- Texto normativo
+- Nivel de obligación de cada requisito
+- Estado de vigencia
+- Ámbito de aplicación
+- Versión
+- Responsable de aprobación
+- Fecha de aprobación
+- Excepciones autorizadas
+- Normas relacionadas
+
+#### 28.7 Aprobación y excepciones
+
+Número: 28.7 · Fuente: `/recursos/gobierno.html#aprobacion`
+
+##### Quién aprueba y cómo se exceptúa
+
+Cada libro tiene un responsable de aprobación. Ninguna norma, excepción o clasificación adquiere vigencia sin su aprobación registrada.
+
+**(Estado)**
+Pendiente de designar
+
+**(Propuesta)**
+Los Co-Editores Generales, citados en KYN-MRK-ILU-005 como autoridad para sumar figuras, aprueban las normas de la Biblioteca. Pendiente de confirmar por la dirección.
+
+###### Procedimiento de excepción
+
+1. Solicitar la excepción por escrito.
+2. Identificar la norma afectada por su ID y, cuando corresponda, su requisito interno.
+3. Documentar la justificación.
+4. Registrar quién autoriza.
+5. Determinar el alcance y la vigencia temporal.
+6. Conservar la evidencia.
+7. Actualizar el registro cuando se modifique la norma.
+
+Los requisitos legales, de seguridad o contractuales conservan las restricciones propias de su materia.
+
+###### Versionado y trazabilidad
+
+- Cada norma lleva una versión. Un cambio de redacción que altera su alcance incrementa la versión; una corrección menor la conserva.
+- El historial de cambios se conserva en el control de versiones del proyecto y en el registro de aprobaciones de contenido (data/referencia-contenido.json).
+
+#### 28.8 Identificadores y citación
+
+Número: 28.8 · Fuente: `/recursos/gobierno.html#citacion`
+
+##### Un ID permanente para citar
+
+Formato común: **KYN-<LIBRO>-<ÁREA>-<número de tres cifras>**.
+
+- Los identificadores son permanentes: no se reutilizan ni se renumeran.
+- Una norma integrada o descontinuada conserva su ID y remite a su destino.
+- Las referencias entre libros se resuelven mediante el ID permanente.
+
+| (Prefijo) | Libro | Estado |
+|---|---|---|
+| KYN-MRK | Marca y Experiencia | En uso |
+| KYN-SDI | Sistema de Diseño | Propuesto, sin emitir |
+| KYN-PRD | Producto e Ingeniería | Identificadores históricos del Manual de Producto |
+| Por asignar | Ventas y Crecimiento · Experiencia y Servicio al Cliente · Cultura y Operaciones | En preparación |
+
+**(Uso interno)**
+Citar mediante el identificador normativo permanente y consultar la versión vigente.
+
+**(Uso externo)**
+Incluir expresamente el contenido contractual que deba formar parte de un acuerdo, con su alcance y versión. El código interno puede utilizarse como referencia complementaria.
+
+Se conservan los mecanismos de autorización, confidencialidad y revisión correspondientes.
+
+###### Permisos de consulta
+
+**(Estado)**
+Por definir
+
+**(Hoy)**
+Hoy la Biblioteca se publica como sitio estático sin control de acceso: todo lo publicado es de consulta abierta. Los niveles de permiso y la búsqueda filtrada por permisos requieren un servicio de autenticación que aún no existe.
+
+#### 28.9 Rutas de lectura
+
+Número: 28.9 · Fuente: `/recursos/gobierno.html#rutas`
+
+##### Cinco rutas, según quién consulta
+
+Cada ruta tiene **un propósito, un orden de consulta** y enlaces directos al contenido que existe hoy.
+
+A
+
+###### Incorporación al equipo
+
+Nuevos integrantes de Keyons.
+
+1. [La identidad](/marca/index.html)
+2. [Los principios](/marca/principios.html)
+3. [Convenciones normativas](/recursos/gobierno.html#autoridad)
+4. [Contenidos según la función: Fundamentos para diseño](/fundamentos/index.html)
+5. [Sistema de Diseño para producto y desarrollo](/sistema-diseno/index.html)
+6. [Aplicaciones para comunicación y ventas](/aplicaciones/index.html)
+
+B
+
+###### Consulta especializada
+
+Diseñadores, desarrolladores, responsables comerciales, personal operativo y otros especialistas.
+
+1. [Buscar la tarea en el buscador (Ctrl K)](/inicio.html)
+2. [Índice de normas vigentes](/recursos/referencia.html#indice)
+3. [Especificaciones y ejemplos de cada norma](/recursos/referencia.html#nomenclatura)
+4. [Criterios de comprobación](/fundamentos/criterio/antipatrones.html)
+
+C
+
+###### Agentes de inteligencia artificial
+
+Herramientas de IA que consultan la Biblioteca.
+
+1. [Convenciones de autoridad normativa](/ia/gobierno.json)
+2. [Catálogo de libros y normas](/ia/indice.json)
+3. [Estados de vigencia y ámbitos](/ia/gobierno.json)
+4. [Restricciones de seguridad, confidencialidad y permisos](/llms.txt)
+5. [Normas específicas de la tarea](/ia/normas)
+
+Las referencias entre libros se resuelven mediante identificadores normativos permanentes.
+
+Los agentes utilizan la versión vigente de cada norma y distinguen entre requisitos obligatorios, recomendaciones y opciones permitidas.
+
+D
+
+###### Responsables y aprobadores
+
+Quienes aprueban normas, excepciones y cambios.
+
+1. [Normas vigentes y en revisión](/recursos/referencia.html#indice)
+2. [Clasificación normativa pendiente de aprobación](/docs/CLASIFICACION_NORMATIVA.md)
+3. [Excepciones y aprobación](/recursos/gobierno.html#aprobacion)
+4. [Trazabilidad de criterios](/fundamentos/criterio/antipatrones.html#trazabilidad)
+
+E
+
+###### Terceros autorizados
+
+Clientes, auditores, proveedores y colaboradores externos con acceso autorizado.
+
+1. [Versión documental del libro](/documental/index.html)
+2. [Convenciones de citación](/recursos/gobierno.html#citacion)
+
+Cada ruta presenta exclusivamente los contenidos aprobados para el propósito de la consulta.
+
+Los documentos compartidos conservan sus referencias, versiones y condiciones de confidencialidad aplicables.
+
+- Cada ruta tiene un propósito identificable, un orden de consulta y enlaces directos a los contenidos correspondientes.
+- La navegación y los resultados de búsqueda respetan los permisos efectivos del lector.
+- Las rutas se construyen a partir del contenido disponible y se actualizan conforme evolucionan los libros.

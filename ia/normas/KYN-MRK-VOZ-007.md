@@ -18,7 +18,7 @@ citada_por: ["KYN-MRK-PRE-005"]
 
 Número: 4.7 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/trato.html#traduccion`
 
-##### Lo que hace, no cómo se llama
+##### Función antes del nombre
 
 Explicamos la tecnología desde **su función y su utilidad** para las personas. Utilizamos términos técnicos cuando aportan precisión y los acompañamos de una explicación comprensible cuando el lector la necesita.
 

@@ -37,8 +37,8 @@ El voseo marcaría a Keyons como marca local pequeña. El usted es universal y l
 **(Mercados en inglés)**
 El «you» neutraliza el pronombre y conserva el tono profesional.
 
-**(Estela y los agentes de IA)**
-Estela tendrá una personalidad y unas reglas de trato propias. Hasta que se aprueben, no se establece el tuteo ni el voseo como tratamiento predeterminado.
+**(Estela)**
+Estela cuenta con una personalidad propia y reglas claras de trato. El tratamiento predeterminado se establece según estas normas, sin recurrir al tuteo ni al voseo.
 
 **(Excepción · Campañas culturales costarricenses)**
 Fiestas patrias, humor local y celebraciones internas. Se aprueban campaña por campaña; no son regla general.

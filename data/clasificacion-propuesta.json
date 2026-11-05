@@ -1,0 +1,3071 @@
+{
+ "estado": "Propuesta pendiente de aprobación humana",
+ "regla": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
+ "resumen": {
+  "normas": 133,
+  "requisitos": 221,
+  "por_nivel": {
+   "DEBE": 84,
+   "NO DEBE": 87,
+   "PUEDE": 42,
+   "DEBERÍA": 8
+  },
+  "ambiguedades": 39,
+  "duplicaciones": 0
+ },
+ "normas": [
+  {
+   "id": "KYN-MRK-ADN-001",
+   "titulo": "Esencia de marca",
+   "estado": "vigente",
+   "fuente": "marca/adn.html#esencia",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ADN-001.1",
+     "nivel": "DEBE",
+     "texto": "Cada modalidad ofrece distintos niveles de adaptación y acompañamiento, siempre a partir de las necesidades reales de la operación.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ADN-001.2",
+     "nivel": "DEBE",
+     "texto": "(Por qué lo hacemos)Creemos que la tecnología debe potenciar el criterio humano, no imponer nuevas complejidades.Buscamos reducir las tareas repetitivas y facilitar el trabajo de los equipos, para devolverles tiempo y capacidad de concentrarse en lo que realmente importa."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ADN-002",
+   "titulo": "Propósito de marca",
+   "estado": "vigente",
+   "fuente": "marca/adn.html#proposito",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-ADN-003",
+   "titulo": "Espectro de personalización",
+   "estado": "vigente",
+   "fuente": "marca/adn.html#espectro",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ADN-003.1",
+     "nivel": "NO DEBE",
+     "texto": "Entre niveles cambia la profundidad; lo que abarca ambas columnas no cambia nunca."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ADN-004",
+   "titulo": "Origen y visión global",
+   "estado": "vigente",
+   "fuente": "marca/adn.html#origen",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-ADN-005",
+   "titulo": "Filosofía operativa",
+   "estado": "vigente",
+   "fuente": "marca/adn.html#filosofia",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ADN-005.1",
+     "nivel": "DEBE",
+     "texto": "Filosofía operativa La tecnología, al servicio de la operación Integramos inteligencia artificial al trabajo de las organizaciones para ampliar las capacidades de sus equipos, facilitar las tareas cotidianas y permitir que las personas mantengan el criterio sobre las decisiones que requieren su intervención."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ADN-006",
+   "titulo": "Propuesta de valor",
+   "estado": "vigente",
+   "fuente": "marca/adn.html#propuesta",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ADN-006.1",
+     "nivel": "NO DEBE",
+     "texto": "Propuesta de valor Cinco promesas concretas Ayudamos a las organizaciones a trabajar con mayor claridad, eficiencia y confianza, mediante soluciones que responden a sus necesidades y acompañan su evolución. 01Resolvemos lo que realmente importa Convertimos necesidades operativas en soluciones que simplifican el trabajo y permiten concentrar tiempo y recursos en lo que aporta valor. 02Damos claridad para decidir Facilitamos información comprensible sobre el alcance, los avances y las decisiones relevantes, con el seguimiento que corresponde a cada servicio. 03Protegemos la información desde el diseño Incorporamos la protección de datos y los controles de seguridad adecuados a las características, riesgos y obligaciones aplicables de cada solución. 04Simplificamos la coordinación Organizamos las responsabilidades incluidas en cada servicio para facilitar la comunicación, reducir fricciones y evitar trasladar complejidades innecesarias al cliente. 05Diseñamos para evolucionar Construimos soluciones que incorporan mejoras y nuevas capacidades conforme cambian las necesidades del negocio, dentro de las posibilidades de cada producto o servicio."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ADN-007",
+   "titulo": "Principios de marca",
+   "estado": "vigente",
+   "fuente": "marca/adn.html#principios",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-CMP-001",
+   "titulo": "Componer según el contenido",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#decidir",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-CMP-002",
+   "titulo": "Simetría y asimetría",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#simetria",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-CMP-003",
+   "titulo": "Retículas editoriales",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#reticulas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-CMP-003.1",
+     "nivel": "NO DEBE",
+     "texto": "La proporción, el aire y la legibilidad no se rompen nunca."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-CMP-004",
+   "titulo": "Ritmo y equilibrio visual",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#ritmo",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-CMP-004.1",
+     "nivel": "PUEDE",
+     "texto": "Combina pausas, diferencias de escala, continuidad y momentos expresivos según las necesidades de lectura. 01Pausas visualesEl espacio negativo permite distinguir y asimilar las ideas. 02Cambios de escalaUna diferencia de tamaño puede señalar información protagonista. 03Continuidad y variaciónRepetir una composición aporta coherencia cuando facilita la lectura; cambiarla puede comunicar una nueva intención. 04Momentos expresivosFotografías, color, textura o movimiento adquieren protagonismo cuando el contenido lo justifica."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-001",
+   "titulo": "Sistema de color",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/paleta-base.html#capas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-001.1",
+     "nivel": "DEBE",
+     "texto": "La paleta base está siempre; las demás se suman, de mayor a menor presencia, según el contexto real de cada pieza. 01Paleta base 02Cielos expresivos 03Colores funcionales 04Firma en productos (Paleta base)Cuatro colores que aparecen en toda comunicación.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-COL-001.2",
+     "nivel": "NO DEBE",
+     "texto": "Cambia su proporción según la pieza, nunca su presencia."
+    },
+    {
+     "ref": "KYN-MRK-COL-001.3",
+     "nivel": "DEBE",
+     "texto": "La marca siempre se reconoce y aun así respira distinto según el mensaje.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-002",
+   "titulo": "Colores principales",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/paleta-base.html#principales",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-002.1",
+     "nivel": "PUEDE",
+     "texto": "Va del acento puntual a superficies amplias, y es el único que puede tomar protagonismo en una pieza institucional."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-003",
+   "titulo": "Colores de apoyo",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/paleta-base.html#apoyo",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-003.1",
+     "nivel": "NO DEBE",
+     "texto": "Nunca reemplazan a la paleta principal."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-004",
+   "titulo": "Reglas de uso",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/paleta-base.html#reglas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-004.1",
+     "nivel": "DEBERÍA",
+     "texto": "Se suman nuevas a medida que el sistema crece. 01El color señala, no sustituye la legibilidad Sobre fondos claros, utilizamos preferentemente Azul Noche para los textos."
+    },
+    {
+     "ref": "KYN-MRK-COL-004.2",
+     "nivel": "PUEDE",
+     "texto": "Azul Cielo y los salmones pueden aportar acentos, superficies y señales gráficas."
+    },
+    {
+     "ref": "KYN-MRK-COL-004.3",
+     "nivel": "NO DEBE",
+     "texto": "Su utilización en textos o elementos funcionales requiere comprobar el contraste correspondiente. 02Cielo y Salmón no se apoyan uno sobre otro Nunca un elemento Salmón encima de un fondo Cielo, ni al revés. 03Azul Cielo gana en superficie Cuando conviven, Cielo ocupa más área que Salmón."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-005",
+   "titulo": "Combinaciones",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/paleta-base.html#contraste",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-COL-006",
+   "titulo": "Escalas tonales",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/escalas.html#escalas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-COL-007",
+   "titulo": "Paleta de cielos",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/cielos.html#cielos",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-007.1",
+     "nivel": "NO DEBE",
+     "texto": "Azules profundos reales, nunca violetas saturados. #10122A#17234F#2D4775#2C3C78#3E4A7C#3E547F 05 Cielo Galaxia Innovación, visión de futuro y lanzamientos."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-008",
+   "titulo": "Cielos especiales",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/cielos.html#especiales",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-008.1",
+     "nivel": "NO DEBE",
+     "texto": "Cielos especiales Un sistema que crece Auroras, tormentas de arena, monzones o cielos volcánicos pueden sumarse como excepción, nunca como reemplazo de los cinco cielos oficiales. 01Fenómeno realUn cielo atmosférico verificable, no una invención estética. 02Vínculo justificadoLa marca tiene una relación real con la región o el tema. 03Autoría documentadaLo fotografía el equipo o un autor identificado, con lugar y fecha. 04Ficha completaSe estructura como los cielos oficiales: sentido e ingredientes. 05Uso escasoSu frecuencia siempre es baja: por eso se nota.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-009",
+   "titulo": "Gradientes",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/cielos.html#gradientes",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-009.1",
+     "nivel": "DEBE",
+     "texto": "De tres a seis colores del cielo dominante, que debe reconocerse sin dudas."
+    },
+    {
+     "ref": "KYN-MRK-COL-009.2",
+     "nivel": "DEBE",
+     "texto": "Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa."
+    },
+    {
+     "ref": "KYN-MRK-COL-009.3",
+     "nivel": "NO DEBE",
+     "texto": "Nunca gradientes, imágenes ni ilustraciones de galería. 02Punto focalEl color más luminoso va donde estaría el sol o la fuente de luz. 03Transiciones suavesNunca abruptas ni bandeadas: varias paradas, blur, formas superpuestas o mallas. 04RespiraciónUna zona densa y una tranquila."
+    },
+    {
+     "ref": "KYN-MRK-COL-009.4",
+     "nivel": "PUEDE",
+     "texto": "(Orgánico o lineal)Los dos se permiten si están bien hechos."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-010",
+   "titulo": "Modo institucional",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/por-modo.html#institucional",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-010.1",
+     "nivel": "PUEDE",
+     "texto": "(Distribución orientativa)70 %20 %10 %Blanco Keyons o Azul NocheAzul CieloSalmón Tierra (Azul Cielo, primera opción)Puede ir en portadas, encabezados, secciones destacadas e incluso como fondo dominante cuando el mensaje lo justifica."
+    },
+    {
+     "ref": "KYN-MRK-COL-010.2",
+     "nivel": "DEBE",
+     "texto": "Cuando conviven, Cielo siempre ocupa más.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-011",
+   "titulo": "Modo expresivo",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/por-modo.html#expresivo",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-011.1",
+     "nivel": "PUEDE",
+     "texto": "Modo expresivo El cielo toma la escena En campañas, contenidos narrativos y piezas editoriales, los cielos pueden convertirse en protagonistas."
+    },
+    {
+     "ref": "KYN-MRK-COL-011.2",
+     "nivel": "DEBE",
+     "texto": "(La regla)Cuando una pieza utiliza el cielo como recurso expresivo principal, su presencia debe estar justificada por la intención narrativa y conservar zonas de lectura clara."
+    },
+    {
+     "ref": "KYN-MRK-COL-011.3",
+     "nivel": "DEBE",
+     "texto": "No es obligatorio que supere siempre la superficie de la paleta base.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-012",
+   "titulo": "Modo interfaz",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/por-modo.html#interfaz",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-COL-013",
+   "titulo": "Grises tipográficos",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/funcionales.html#grises",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-013.1",
+     "nivel": "NO DEBE",
+     "texto": "(Copiar en)HEXRGBCMYK Nivel 1 · texto principalKeyons diseña la IA alrededor de cómo ya trabaja su equipo.#10122A16.7:1 · AAA Nivel 2 · texto secundarioEl sistema cambia con su operación.#4B4D607.5:1 · AAA Nivel 3 · texto terciarioActualizado hace 5 minutos#6B6D7E4.6:1 · AA Nivel 4 · deshabilitadoAcción no disponible#A8AAB52.1:1 · Sin requisito Divisor · Azul Cielo 100#E0E7F1Líneas y separadores · Sin requisito El deshabilitado no necesita contraste mínimo; nunca se usa para texto que hay que leer."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-014",
+   "titulo": "Estados del sistema",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/funcionales.html#estados",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-014.1",
+     "nivel": "DEBE",
+     "texto": "Estados del sistema Estados con significado propio Los colores de estado comunican significado y deben ser comprensibles, consistentes y accesibles."
+    },
+    {
+     "ref": "KYN-MRK-COL-014.2",
+     "nivel": "NO DEBE",
+     "texto": "Los errores y resultados negativos utilizan rojo semántico, nunca Salmón Tierra."
+    },
+    {
+     "ref": "KYN-MRK-COL-014.3",
+     "nivel": "DEBE",
+     "texto": "ÉxitoVerde tierra suave#D5E0D2AdvertenciaMostaza suave#F4E8C1ErrorTerracota suave#F0D0CBInformaciónCielo suave#C6D5ECRevisiónLila suave#D9D6EDNeutroGris suave#E0E1E5BloqueoNaranja suave#F5D8B8 EsencialesÉxitoAdvertenciaErrorInformaciónOperacionalesPendienteEn procesoBorradorProgramadoRevisiónEn revisiónAprobadoRechazadoEspecialesNuevoDeshabilitadoBloqueadoArchivado (Aplicación)Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.Los fondos y textos deben conservar el contraste correspondiente.Las asignaciones técnicas y variantes de componentes se definirán en el Sistema de Diseño."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-COL-015",
+   "titulo": "Acción y superficies",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/funcionales.html#accion",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-COL-015.1",
+     "nivel": "PUEDE",
+     "texto": "(Acción primaria)Los tonos de Azul Cielo pueden utilizarse para acciones, seleccionando variantes que mantengan la legibilidad y visibilidad de los estados correspondientes."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-CON-001",
+   "titulo": "El concepto central",
+   "estado": "vigente",
+   "fuente": "marca/cielo.html#simbolo",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-CON-001.1",
+     "nivel": "DEBE",
+     "texto": "Cuando la marca llega a un nuevo país, suma los cielos de ese lugar, siempre con fotografías reales.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-CON-002",
+   "titulo": "Jerarquía de cielos",
+   "estado": "vigente",
+   "fuente": "marca/cielo.html#jerarquia",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-CON-002.1",
+     "nivel": "NO DEBE",
+     "texto": "Nunca se fuerza un cielo solo por cambiar."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-CON-003",
+   "titulo": "Diario de Cielos",
+   "estado": "vigente",
+   "fuente": "marca/cielo.html#diario",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-CON-003.1",
+     "nivel": "PUEDE",
+     "texto": "Si la pieza no lo necesita, puede ser 100 % cielo."
+    },
+    {
+     "ref": "KYN-MRK-CON-003.2",
+     "nivel": "NO DEBE",
+     "texto": "Nunca se publica un cielo sin procedencia documentada."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-CON-004",
+   "titulo": "Sistema de metáforas",
+   "estado": "vigente",
+   "fuente": "marca/metaforas.html#condiciones",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-CON-004.1",
+     "nivel": "DEBE",
+     "texto": "(Criterio)La primera lectura debe ser clara y comprensible, con significados adicionales al observarla en detalle. 02 Composición en capasElementos ordenados para un descubrimiento progresivo."
+    },
+    {
+     "ref": "KYN-MRK-CON-004.2",
+     "nivel": "DEBE",
+     "texto": "(Criterio)No requiere imperfecciones artificiales: un diseño limpio también expresa sensibilidad humana. 05 Integración atmosféricaEl cielo Keyons interactúa de forma orgánica con la escena, como fuente de luz o como reflejo."
+    },
+    {
+     "ref": "KYN-MRK-CON-004.3",
+     "nivel": "NO DEBE",
+     "texto": "(Criterio)Nace desde el boceto inicial, nunca como un filtro o adhesivo final."
+    },
+    {
+     "ref": "KYN-MRK-CON-004.4",
+     "nivel": "PUEDE",
+     "texto": "En composiciones editoriales puede convertirse en protagonista."
+    },
+    {
+     "ref": "KYN-MRK-CON-004.5",
+     "nivel": "PUEDE",
+     "texto": "En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-CON-005",
+   "titulo": "Formalidad según canal",
+   "estado": "vigente",
+   "fuente": "marca/metaforas.html#canal",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-CON-005.1",
+     "nivel": "NO DEBE",
+     "texto": "Sitio web(Receptor)Buscando información concreta.(Metáforas)Solo en secciones clave, nunca en la navegación."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-CON-006",
+   "titulo": "Reglas de composición",
+   "estado": "vigente",
+   "fuente": "marca/composicion.html#reglas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-CON-006.1",
+     "nivel": "DEBE",
+     "texto": "Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor. 01Presencia humanaCada pieza refleja intención y criterio creativo, expresado en fotografía, ilustración o recursos abstractos, sin necesidad de mostrar personas ni imperfecciones. 02Dirección humana, creación sin límitesLa creación puede integrar fotografía, ilustración, diseño digital o IA, siempre bajo dirección artística definida y revisada por una persona responsable. 03Cielo propioLas fotografías del cielo deben tener procedencia verificable y cumplir las reglas del Diario de Cielos, evitando presentar imágenes sintéticas como auténticas. 04Singularidad verificableCada pieza se contrasta con lo que no representa a la marca; si puede confundirse con otra identidad, regresa a diseño para asegurar carácter único.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-CON-006.2",
+     "nivel": "DEBE",
+     "texto": "La base debe ser siempre creada por una persona."
+    },
+    {
+     "ref": "KYN-MRK-CON-006.3",
+     "nivel": "DEBE",
+     "texto": "(Intervención con IA)La inteligencia artificial puede participar para potenciar o extender la pieza, siempre que respete la dirección creativa y el concepto inicial humano.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase",
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-CON-006.4",
+     "nivel": "DEBE",
+     "texto": "(Imágenes documentales)Deben distinguirse claramente de las representaciones artísticas."
+    },
+    {
+     "ref": "KYN-MRK-CON-006.5",
+     "nivel": "DEBE",
+     "texto": "(Normas visuales Keyons)Todos los resultados deben cumplir las reglas visuales de la marca, sin importar la herramienta empleada."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-CON-007",
+   "titulo": "Regla del contraste",
+   "estado": "vigente",
+   "fuente": "marca/composicion.html#contraste",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-CON-007.1",
+     "nivel": "DEBE",
+     "texto": "(Lo disruptivo)Un elemento inesperado que muestra que ya no hay límites, siempre con sobriedad.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-CON-008",
+   "titulo": "Anti-referentes",
+   "estado": "vigente",
+   "fuente": "marca/composicion.html#anti",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-CON-009",
+   "titulo": "Herencia estética",
+   "estado": "vigente",
+   "fuente": "marca/composicion.html#herencia",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-CON-009.1",
+     "nivel": "PUEDE",
+     "texto": "(Del Art Déco, la respuesta)Afirmar que la belleza, la precisión geométrica y la calidez humana pueden convivir con la máquina."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-DAT-001",
+   "titulo": "Principios",
+   "estado": "vigente",
+   "fuente": "fundamentos/datos/graficos.html#principios",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-DAT-001.1",
+     "nivel": "NO DEBE",
+     "texto": "Donut y radar no se usan. 06Color con propósitoDistinguir, ordenar, destacar o indicar estado."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-DAT-002",
+   "titulo": "Sistema cromático",
+   "estado": "vigente",
+   "fuente": "fundamentos/datos/graficos.html#paleta",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-DAT-002.1",
+     "nivel": "NO DEBE",
+     "texto": "Sistema cromático Tres paletas, nunca mezcladas Cada gráfico usa una sola de tres paletas: la base, una monocromática o la suave."
+    },
+    {
+     "ref": "KYN-MRK-DAT-002.2",
+     "nivel": "NO DEBE",
+     "texto": "Salmón nunca va sobre Azul Cielo.#729BDD#10122A#CE635D#E99D9E (Monocromáticas)Un solo tono de la paleta base, del claro al profundo en pasos parejos."
+    },
+    {
+     "ref": "KYN-MRK-DAT-002.3",
+     "nivel": "DEBE",
+     "texto": "Siempre con texto y bordes en Azul Noche; con más de cinco categorías se agrupan en «Otros».#C6D5EC#D5E0D2#F4E8C1#F0D0CB#D9D6ED#F5D8B8#E0E1E5 (Destacar)En cualquiera de las tres, el dato clave va en el tono más intenso y el resto en gris suave.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-DAT-002.4",
+     "nivel": "NO DEBE",
+     "texto": "Nunca arcoíris, neón ni el verde y rojo de semáforo."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-DAT-003",
+   "titulo": "Tipografía en gráficos",
+   "estado": "vigente",
+   "fuente": "fundamentos/datos/graficos.html#tipografia",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-DAT-004",
+   "titulo": "Tipos de gráfico",
+   "estado": "vigente",
+   "fuente": "fundamentos/datos/graficos.html#tipos",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-DAT-004.1",
+     "nivel": "NO DEBE",
+     "texto": "Lo que no se usa 01Pastel con muchas porcionesMás de cuatro ya no se comparan a simple vista.02Donut y radarDistorsionan las proporciones.033D, brillos y sombrasNunca, en ningún formato.04PictogramasÍconos repetidos para contar cantidades."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-DAT-005",
+   "titulo": "Estructura",
+   "estado": "vigente",
+   "fuente": "fundamentos/datos/graficos.html#estructura",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-DIS-001",
+   "titulo": "Diseñar con identidad, construir con criterio",
+   "estado": "vigente",
+   "fuente": "marca/principios.html#criterio",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-DIS-001.1",
+     "nivel": "DEBE",
+     "texto": "Identidad y criterio Diseñar con identidad, construir con criterio Keyons debe diferenciarse por diseñar experiencias reconocibles, inteligibles y cuidadosamente resueltas, utilizando la libertad gráfica donde aporta valor y la disciplina funcional donde el usuario necesita certeza."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-DIS-002",
+   "titulo": "Identidad, experiencia y sistema: roles definidos",
+   "estado": "vigente",
+   "fuente": "marca/principios.html#capas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-DIS-002.1",
+     "nivel": "PUEDE",
+     "texto": "(Productos para clientes)Los productos desarrollados para clientes pueden tener identidades visuales diferentes sin perder los estándares de calidad, claridad, accesibilidad y experiencia que caracterizan el trabajo de Keyons."
+    },
+    {
+     "ref": "KYN-MRK-DIS-002.2",
+     "nivel": "PUEDE",
+     "texto": "(Estética predeterminada)Los productos sin identidad visual propia pueden utilizar una estética desarrollada por Keyons, adaptable según los límites de cada modalidad de servicio."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-DIS-003",
+   "titulo": "Diseño: calma y expresión",
+   "estado": "vigente",
+   "fuente": "marca/principios.html#calma",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-DIS-004",
+   "titulo": "Intensidad según contexto",
+   "estado": "vigente",
+   "fuente": "marca/principios.html#contexto",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-DIS-004.1",
+     "nivel": "PUEDE",
+     "texto": "(Una portada editorial)Puede utilizar grandes fotografías, composiciones experimentales y movimiento atmosférico."
+    },
+    {
+     "ref": "KYN-MRK-DIS-004.2",
+     "nivel": "DEBE",
+     "texto": "(Una herramienta operativa)Utilizada repetidamente durante el día, debe priorizar legibilidad, navegación sencilla, claridad y estabilidad visual."
+    },
+    {
+     "ref": "KYN-MRK-DIS-004.3",
+     "nivel": "PUEDE",
+     "texto": "(Dentro de una misma experiencia)La intensidad también puede variar dentro de un mismo producto: una bienvenida admite mayor expresión gráfica que un formulario o una tabla utilizada diariamente."
+    },
+    {
+     "ref": "KYN-MRK-DIS-004.4",
+     "nivel": "NO DEBE",
+     "texto": "La creatividad nunca debe obstaculizar una decisión funcional."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-DIS-005",
+   "titulo": "Claridad antes que complejidad",
+   "estado": "vigente",
+   "fuente": "marca/principios.html#comprension",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-DIS-005.1",
+     "nivel": "PUEDE",
+     "texto": "Claridad primero Claridad antes que complejidad Una buena experiencia permite comprender dónde se está, qué se puede hacer, qué está ocurriendo y cómo continuar."
+    },
+    {
+     "ref": "KYN-MRK-DIS-005.2",
+     "nivel": "DEBE",
+     "texto": "Una experiencia clara 01Dónde se está 02Qué se puede hacer 03Qué está ocurriendo 04Cómo continuar (La complejidad)Keyons debe resolver la complejidad durante el proceso de diseño, en lugar de trasladarla innecesariamente al usuario.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-DIS-005.3",
+     "nivel": "DEBE",
+     "texto": "(Para todas las personas)Las soluciones deben ser comprensibles incluso para personas con baja familiaridad tecnológica."
+    },
+    {
+     "ref": "KYN-MRK-DIS-005.4",
+     "nivel": "DEBE",
+     "texto": "Cuando algo falla, la interfaz también debe ayudar a comprender qué ocurrió y cómo resolverlo o continuar."
+    },
+    {
+     "ref": "KYN-MRK-DIS-005.5",
+     "nivel": "PUEDE",
+     "texto": "Orientación|Dónde se está Posibilidades|Qué se puede hacer Estado|Qué está ocurriendo Continuidad|Cómo continuar"
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-DIS-006",
+   "titulo": "Calidad sin firma visible",
+   "estado": "descontinuada",
+   "fuente": "marca/principios.html#calidad",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-ESP-001",
+   "titulo": "Lenguaje geométrico Keyons",
+   "estado": "vigente",
+   "fuente": "fundamentos/forma/espacio.html#esquinas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ESP-001.1",
+     "nivel": "PUEDE",
+     "texto": "Cuando varios elementos forman un conjunto reconocible, pueden combinarse esquinas exteriores rectas e interiores curvas para expresar su relación."
+    },
+    {
+     "ref": "KYN-MRK-ESP-001.2",
+     "nivel": "PUEDE",
+     "texto": "(Fila)En un conjunto horizontal, las esquinas exteriores son rectas y las interiores pueden curvarse cuando refuerzan la agrupación.(Pila)Se aplica el mismo principio en vertical, respetando los límites exteriores del conjunto.(Cuadrícula)La combinación de esquinas responde a la organización visual."
+    },
+    {
+     "ref": "KYN-MRK-ESP-001.3",
+     "nivel": "DEBE",
+     "texto": "No todas las cuadrículas requieren curvas interiores."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ESP-002",
+   "titulo": "Sistema de radios y curvaturas",
+   "estado": "vigente",
+   "fuente": "fundamentos/forma/espacio.html#radios",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ESP-002.1",
+     "nivel": "DEBE",
+     "texto": "El tamaño puede orientar la elección, pero no determina automáticamente que una superficie grande deba tener esquinas más redondeadas. r-micro3 px (Tamaño de referencia)Menos de 24 px(Se usa en)Barras de datos, chips internos, marcas pequeñas r-control12 px (Tamaño de referencia)24 a 64 px(Se usa en)Campos, fichas de color, segmentos r-component18 px (Tamaño de referencia)64 a 200 px(Se usa en)Tarjetas y recuadros de contenido r-card30 px (Tamaño de referencia)200 a 400 px(Se usa en)Paneles y tarjetas grandes r-block50 px (Tamaño de referencia)Más de 400 px(Se usa en)Secciones y bloques de página (Anidados)Cuando un contenedor curvo contiene otro elemento, los radios y el espacio interior deben mantener una relación visual coherente, evitando encuentros irregulares.La fórmula del radio exterior menos el relleno puede utilizarse como referencia geométrica, pero debe comprobarse visualmente y no aplicarse de manera automática en todos los casos.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ESP-002.2",
+     "nivel": "NO DEBE",
+     "texto": "(En código)Siempre con su variable: var(--r-card), nunca con un número suelto."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ESP-003",
+   "titulo": "Sistema de espaciado",
+   "estado": "vigente",
+   "fuente": "fundamentos/forma/espacio.html#espaciado",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ESP-003.1",
+     "nivel": "DEBE",
+     "texto": "No es obligatorio utilizar grandes espacios en todos los contextos ni comprimir una composición para mostrar más información.Cuando la escala no resuelva una necesidad técnica justificada, la excepción debe documentarse en el sistema correspondiente."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ESP-004",
+   "titulo": "Retícula y responsive",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#reticula",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ESP-004.1",
+     "nivel": "DEBE",
+     "texto": "Las doce columnas constituyen una referencia versátil, pero la estructura debe adaptarse al contenido y a las necesidades de cada experiencia."
+    },
+    {
+     "ref": "KYN-MRK-ESP-004.2",
+     "nivel": "DEBE",
+     "texto": "La claridad y la coherencia son obligatorias; una distribución específica de columnas no lo es en todos los formatos. 01Estructura funcionalPara interfaces operativas, formularios, dashboards y documentación.La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes."
+    },
+    {
+     "ref": "KYN-MRK-ESP-004.3",
+     "nivel": "DEBE",
+     "texto": "La cantidad de columnas se adapta a la tarea y al espacio disponible.02Estructura adaptablePara sitios web, páginas informativas y experiencias comerciales.Las columnas, los márgenes y las proporciones se ajustan al contenido sin perder coherencia.03Estructura editorialPara campañas, presentaciones, piezas culturales y composiciones expresivas.Se permite una mayor experimentación mediante simetría, asimetría y cambios de escala, siempre que el contenido mantenga una lectura clara.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase",
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ESP-004.4",
+     "nivel": "PUEDE",
+     "texto": "Los productos pueden necesitar ajustes según el ancho disponible, el contenido y las necesidades de sus usuarios."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ESP-005",
+   "titulo": "Jerarquía y densidad de información",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#densidad",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ESP-005.1",
+     "nivel": "DEBE",
+     "texto": "Jerarquía y densidad Cuánta información cabe en un espacio La densidad visual responde al contenido, la frecuencia de uso y la atención que requiere cada tarea."
+    },
+    {
+     "ref": "KYN-MRK-ESP-005.2",
+     "nivel": "DEBE",
+     "texto": "Una composición limpia no necesita ser siempre poco densa.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ESP-005.3",
+     "nivel": "NO DEBE",
+     "texto": "Una composición informativa no debe convertirse en una acumulación de elementos."
+    },
+    {
+     "ref": "KYN-MRK-ESP-005.4",
+     "nivel": "DEBERÍA",
+     "texto": "(Ejemplo)Propuesta comercial: una idea, mucho aireCorporativo · densidad contenidaPrioriza una jerarquía clara, espacio negativo y una lectura cómoda.La cantidad de bloques, llamadas a la acción y espacios depende de la información y de las decisiones que debe tomar el lector.(Cuándo se usa)Se aplica a comunicaciones institucionales, documentos, propuestas y secciones editoriales donde conviene destacar las ideas principales.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ESP-005.5",
+     "nivel": "DEBE",
+     "texto": "Interfaz · según la tarea La densidad debe facilitar la tarea, no dificultarla."
+    },
+    {
+     "ref": "KYN-MRK-ESP-005.6",
+     "nivel": "PUEDE",
+     "texto": "Las vistas de uso frecuente pueden presentar información compacta cuando mantienen legibilidad, orientación y controles accesibles."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ESP-006",
+   "titulo": "Patrones de composición",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#patrones",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ESP-006.1",
+     "nivel": "DEBE",
+     "texto": "(Uso)Las asociaciones de cuadrículas, acordeones, listas, matrices, carruseles, retículas, indicadores y flechas deben interpretarse como ejemplos."
+    },
+    {
+     "ref": "KYN-MRK-ESP-006.2",
+     "nivel": "DEBE",
+     "texto": "Un patrón debe elegirse por su utilidad, no por la cantidad de elementos o porque aparezca en el catálogo."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ESP-007",
+   "titulo": "Diagramas de información",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#diagramas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ESP-007.1",
+     "nivel": "DEBE",
+     "texto": "Su geometría debe corresponder a la relación representada: secuencia, agrupación, jerarquía, inclusión o conexión."
+    },
+    {
+     "ref": "KYN-MRK-ESP-007.2",
+     "nivel": "NO DEBE",
+     "texto": "Las etiquetas salen arriba y abajo, nunca a los lados.Uso básicoPrimeras pruebasIA integradaOperación transformada(Niveles)Esferas de madurezDel nivel difuso al nítido: la claridad crece con la madurez."
+    },
+    {
+     "ref": "KYN-MRK-ESP-007.3",
+     "nivel": "DEBE",
+     "texto": "No es obligatorio utilizar estrellas, círculos o indicadores decorativos.Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso."
+    },
+    {
+     "ref": "KYN-MRK-ESP-007.4",
+     "nivel": "NO DEBE",
+     "texto": "(Ejemplos)Los diagramas que presentan etapas o duraciones no deben interpretarse automáticamente como fases oficiales de la metodología Prisma o compromisos de ejecución."
+    },
+    {
+     "ref": "KYN-MRK-ESP-007.5",
+     "nivel": "DEBE",
+     "texto": "Si un ejemplo representa una metodología oficial, debe coincidir con su documentación vigente. 01 · Diagnóstico · 2 a 4 semanas|Entender la operación 02 · Diseño · 4 a 8 semanas|Construir con su equipo 03 · Evolución · continua|Medir y mejorar Zona 1|Uso básico Zona 2|Primeras pruebas Zona 3|IA integrada Zona 4|Operación transformada Nivel 1 · Inicial|Tareas manuales y dispersas Nivel 2 · Explora|Primeras pruebas con IA Nivel 3 · Define|Procesos documentados Nivel 4 · Integra|IA en el trabajo diario Nivel 5 · Optimiza|Mejora continua medida Inmersión|Diagnóstico y comprensión Estrategia|Comprensión y planeación Proyecto|De la planeación al acompañamiento Soporte|Acompañamiento y evolución Cultura|Anillo 1 Gobierno de datos|Anillo 1 Procesos|Anillo 2 Personas|Anillo 2 Herramientas|Anillo 3"
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-GAL-001",
+   "titulo": "Galería",
+   "estado": "vigente",
+   "fuente": "recursos/galeria.html#galeria",
+   "ambito_propuesto": [
+    "identidad",
+    "web"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-ICN-001",
+   "titulo": "Catálogo",
+   "estado": "vigente",
+   "fuente": "recursos/iconos.html#catalogo",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-ICO-001",
+   "titulo": "Retícula",
+   "estado": "vigente",
+   "fuente": "fundamentos/iconografia/iconos.html#reticula",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-ICO-002",
+   "titulo": "Familias y variantes",
+   "estado": "vigente",
+   "fuente": "fundamentos/iconografia/iconos.html#familias",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ICO-002.1",
+     "nivel": "DEBE",
+     "texto": "(Interfaz · sólida)Solo para el estado activo o seleccionado, y siempre como pareja de un ícono de contorno.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ICO-003",
+   "titulo": "Uso",
+   "estado": "vigente",
+   "fuente": "fundamentos/iconografia/iconos.html#uso",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ICO-003.1",
+     "nivel": "DEBE",
+     "texto": "Solo, debe ser inequívoco."
+    },
+    {
+     "ref": "KYN-MRK-ICO-003.2",
+     "nivel": "DEBE",
+     "texto": "Debajo de 16 se pierde el trazo.Con textoÍcono y etiqueta a 8 px de distancia, alineados al centro.Sin textoSolo para acciones universales; siempre con nombre accesible.EstadosÉxito, error, advertencia, información, carga y bloqueo usan los colores de KYN-MRK-COL-014 y van con texto cuando son críticos.Agentes de IAEstela y los demás agentes usan su avatar en la conversación y un ícono solo en espacios mínimos.Redes y servicios externosVersión original del servicio, monocroma en Azul Noche o Blanco y al mismo tamaño óptico.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ICO-003.3",
+     "nivel": "NO DEBE",
+     "texto": "Nunca se redibujan."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ICO-004",
+   "titulo": "Animación",
+   "estado": "vigente",
+   "fuente": "fundamentos/iconografia/iconos.html#animacion",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ICO-004.1",
+     "nivel": "DEBE",
+     "texto": "Animación Siempre en la misma dirección Todos los íconos usan la misma animación: aparecen desde el centro y se asientan en 550 ms, para que la familia se mueva como una sola.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ICO-004.2",
+     "nivel": "NO DEBE",
+     "texto": "Se anima al aparecer o al confirmar una acción, nunca en bucle."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ICO-005",
+   "titulo": "Cómo se usan",
+   "estado": "vigente",
+   "fuente": "fundamentos/iconografia/iconos.html#catalogo",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ICO-005.1",
+     "nivel": "NO DEBE",
+     "texto": "Cómo se usan Tres colores, un solo trazo Los íconos de la marca se usan en tres colores y nunca en otros."
+    },
+    {
+     "ref": "KYN-MRK-ICO-005.2",
+     "nivel": "DEBE",
+     "texto": "El trazo es siempre el mismo; lo que cambia es el fondo sobre el que viven.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ICO-005.3",
+     "nivel": "NO DEBE",
+     "texto": "Se escala en proporción; el trazo no se engrosa.EstadosÉxito, error o advertencia usan los colores de estado de KYN-MRK-COL-014, nunca un color nuevo."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ICO-006",
+   "titulo": "Entrega técnica",
+   "estado": "vigente",
+   "fuente": "fundamentos/iconografia/iconos.html#entrega",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-ILU-001",
+   "titulo": "Viñetas y marcadores gráficos",
+   "estado": "vigente",
+   "fuente": "fundamentos/elementos/graficos.html#vinetas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ILU-001.1",
+     "nivel": "DEBE",
+     "texto": "Funcionan con dos ritmos independientes: la forma alterna siempre y el color varía según el modo.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ILU-001.2",
+     "nivel": "DEBE",
+     "texto": "(Por defecto)La secuencia alterna círculo y cuadrado y siempre abre con el círculo.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ILU-001.3",
+     "nivel": "NO DEBE",
+     "texto": "La forma alterna por su cuenta, así que nunca se repite la misma combinación seguida."
+    },
+    {
+     "ref": "KYN-MRK-ILU-001.4",
+     "nivel": "DEBE",
+     "texto": "(Color o Azul Noche)Viñetas de colorPiezas que deben destacar: presentaciones, web, redes y volantes.Azul NocheDocumentación larga: manuales, informes, guías y propuestas extensas."
+    },
+    {
+     "ref": "KYN-MRK-ILU-001.5",
+     "nivel": "DEBE",
+     "texto": "Abre siempre la secuencia Segunda en la secuencia Por defecto en lo expresivo y en modo nocturno Documentos largos y manuales, con el vacío en Blanco Keyons En modo nocturno, el mismo criterio invertido",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ILU-002",
+   "titulo": "Recursos de énfasis visual",
+   "estado": "vigente",
+   "fuente": "fundamentos/elementos/graficos.html#enfasis",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ILU-002.1",
+     "nivel": "NO DEBE",
+     "texto": "Lo anterior va en gris, nunca tachado."
+    },
+    {
+     "ref": "KYN-MRK-ILU-002.2",
+     "nivel": "NO DEBE",
+     "texto": "Nunca en recuadros ni acordeones."
+    },
+    {
+     "ref": "KYN-MRK-ILU-002.3",
+     "nivel": "DEBE",
+     "texto": "(Itálica)Lo llamamos human in the loop: la persona siempre decide.Para palabras en otro idioma, títulos de obras, citas y voces de otros.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ILU-002.4",
+     "nivel": "NO DEBE",
+     "texto": "Nunca para frases completas ni como énfasis general."
+    },
+    {
+     "ref": "KYN-MRK-ILU-002.5",
+     "nivel": "PUEDE",
+     "texto": "KYN-MRK-ICO-005.Las flechas integradas en diagramas de información pueden seguir las convenciones del diagrama y la materia que representan."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ILU-003",
+   "titulo": "Líneas, guías y medidas",
+   "estado": "vigente",
+   "fuente": "fundamentos/elementos/graficos.html#lineas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ILU-003.1",
+     "nivel": "NO DEBE",
+     "texto": "Líneas y medidas Líneas que ordenan, nunca decoran Todas las líneas del sistema son finas."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ILU-004",
+   "titulo": "Transparencia y superposición",
+   "estado": "vigente",
+   "fuente": "fundamentos/elementos/graficos.html#cristal",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ILU-004.1",
+     "nivel": "NO DEBE",
+     "texto": "Nunca sobre un fondo oscuro al 100 %, porque se pierde la lectura del cielo."
+    },
+    {
+     "ref": "KYN-MRK-ILU-004.2",
+     "nivel": "NO DEBE",
+     "texto": "Siempre con cielo real debajo, nunca con un degradado puro."
+    },
+    {
+     "ref": "KYN-MRK-ILU-004.3",
+     "nivel": "NO DEBE",
+     "texto": "El cristal filtra, nunca oculta."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ILU-005",
+   "titulo": "Ventanas de cielo",
+   "estado": "vigente",
+   "fuente": "fundamentos/elementos/graficos.html#ventana",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ILU-005.1",
+     "nivel": "PUEDE",
+     "texto": "El fondo exterior puede ser cielo esmerilado o cielo pleno."
+    },
+    {
+     "ref": "KYN-MRK-ILU-005.2",
+     "nivel": "NO DEBE",
+     "texto": "No se suman figuras nuevas sin la aprobación de ambos Co-Editores Generales."
+    },
+    {
+     "ref": "KYN-MRK-ILU-005.3",
+     "nivel": "DEBE",
+     "texto": "No se combinan entre sí dentro de una misma ventana, no se deforman y solo se rotan en ángulos cardinales.03Siempre con cieloDentro de la figura siempre hay cielo real fotografiado por el equipo Keyons.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ILU-005.4",
+     "nivel": "NO DEBE",
+     "texto": "Nunca un degradado digital puro, nunca stock, nunca una imagen generada por IA.04Canto de vidrioEl borde entre lo esmerilado y lo nítido lleva una línea de luz sutil de 1 a 2 px, como el canto de un vidrio real."
+    },
+    {
+     "ref": "KYN-MRK-ILU-005.5",
+     "nivel": "NO DEBE",
+     "texto": "Nunca menos del doble del grosor del canto.Regla transversal 70/30."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ILU-006",
+   "titulo": "Ráfagas de color",
+   "estado": "vigente",
+   "fuente": "fundamentos/elementos/graficos.html#rafagas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ILU-006.1",
+     "nivel": "DEBE",
+     "texto": "Tampoco sobre fondos de color: siempre sobre Blanco Keyons o Crema.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-ILU-006.2",
+     "nivel": "NO DEBE",
+     "texto": "Nunca una mezcla de fases.TexturaGrano fino al 15 a 20 % de opacidad, siempre.FormaSerpenteante y orgánica."
+    },
+    {
+     "ref": "KYN-MRK-ILU-006.3",
+     "nivel": "NO DEBE",
+     "texto": "Nunca geométrica ni un círculo perfecto.DirecciónClara y legible: diagonal, vertical o curva."
+    },
+    {
+     "ref": "KYN-MRK-ILU-006.4",
+     "nivel": "NO DEBE",
+     "texto": "Nunca estática ni centrada.DifuminadoLos bordes se disuelven en el Blanco Keyons sin un corte visible.AnimaciónMovimiento lento y continuo en la dirección del viento, en ciclos de 20 a 30 s."
+    },
+    {
+     "ref": "KYN-MRK-ILU-006.5",
+     "nivel": "NO DEBE",
+     "texto": "Orgánico, nunca mecánico.Con tipografíaPuede acompañarse de texto vertical en los bordes, al estilo revista."
+    },
+    {
+     "ref": "KYN-MRK-ILU-006.6",
+     "nivel": "NO DEBE",
+     "texto": "Se ubica en el blanco que rodea, nunca sobre la zona densa."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "titulo": "Tramas y texturas",
+   "estado": "vigente",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ILU-007.1",
+     "nivel": "NO DEBE",
+     "texto": "Tramas y texturas La repetición que construye atmósfera Patrones y texturas son recursos de fondo o de superficie, nunca protagonistas."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.2",
+     "nivel": "NO DEBE",
+     "texto": "Construyen atmósfera, nunca ruido."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.3",
+     "nivel": "PUEDE",
+     "texto": "Los recursos de un contexto específico pueden aplicar las variantes cromáticas documentadas para ese contexto."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.4",
+     "nivel": "NO DEBE",
+     "texto": "No se utilizan como fondos permanentes de los capítulos ni establecen nuevos colores principales para cada libro."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.5",
+     "nivel": "NO DEBE",
+     "texto": "No utilizar una trama como único indicador de información sin el contexto o la identificación correspondiente."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.6",
+     "nivel": "NO DEBE",
+     "texto": "Imitan un fenómeno natural, no un gráfico técnico.Siempre nacen de la base y se abren hacia arriba.De 5 a 9 arcos, bien difuminados: menos no comunica movimiento; más satura.Colores de una sola fase del cielo, sin contornos: la transición es solo de tono.Sobre fondo oscuro o degradado de cielo, nunca sobre Blanco Keyons.(Cuándo se usa)Portadas aspiracionales, lanzamientos, encabezados de campañas emocionales y piezas manifiesto.Líneas de vientoPor validarEl paisaje visto a través del viento: trazos difusos que se estiran en una sola dirección."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.7",
+     "nivel": "NO DEBE",
+     "texto": "Nunca una trama rígida.En pantalla se mueven en ciclos de 15 a 30 s: apenas perceptible en corporativo, visible y continuo en expresivo.(Cuándo se usa)Fondos de sección web, encabezados de capítulo, portadas de blog y piezas donde el viento es protagonista.Franjas de cieloPor validarUn mismo cielo partido en franjas verticales, cada una desplazada a otra altura."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.8",
+     "nivel": "NO DEBE",
+     "texto": "El cielo se lee como ventanas que se abren una junto a otra.De 4 a 8 franjas del mismo ancho.Un solo cielo por pieza: cada franja lo desplaza, no lo cambia.Sin líneas ni separaciones: el corte lo marca el propio desplazamiento.En fondos amplios; nunca detrás de texto largo.(Cuándo se usa)Portadas, fondos de sección, separadores de presentación y piezas de redes.Formas de cieloPor validarColumnas de color con formas geométricas que se cortan en su borde: el cielo y la paleta convertidos en composición.Columnas del mismo ancho, cada una con un color de la paleta o un cielo.Tres formas: círculo, medio círculo y arco."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.9",
+     "nivel": "NO DEBE",
+     "texto": "Cada una ocupa todo el ancho de su columna, o más, y se corta en su borde.La forma contrasta con su columna: claro sobre oscuro u oscuro sobre claro, nunca dos tonos vecinos.Los degradados van dentro de las formas, son lineales y salen de una sola fase del cielo: sin brillos ni volumen.Las formas blancas son planas, en Blanco Keyons.Grano fino en toda la pieza; sin contornos ni sombras.(Cuándo se usa)Portadas de campaña, redes, separadores de presentación y papelería expresiva.EclipsePor validarUn plano liso y uno difuminado, divididos por una línea vertical; un círculo la cruza, mitad nítido y mitad disuelto."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.10",
+     "nivel": "NO DEBE",
+     "texto": "Es textura y patrón a la vez.Un solo color de la paleta con Blanco Keyons; nunca dos colores.El círculo siempre cruza la división: de un lado nítido, del otro disuelto en el difuminado.El difuminado se abre hacia afuera, como la luz que sale de una ventana.Grano de papel en toda la pieza.(Cuándo se usa)Portadas sobrias, aperturas de capítulo, invitaciones y piezas de una sola idea.Texturas de cieloRequiere revisión: su regla sobre IA contradice KYN-MRK-CON-006Cielos hechos con código, con grano, nubes y la transición de cada fase."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.11",
+     "nivel": "NO DEBE",
+     "texto": "Son el fondo por defecto de las piezas editoriales.Cubren cerca del 70 % de los usos de fondo.Se piden por su ID del catálogo de Recursos, por ejemplo KT-03.Una sola fase del cielo por pieza.Se producen con código a partir de foto propia; nunca generadas por IA desde cero.(Cuándo se usa)Fondos de documentos, portadas, presentaciones e interfaces.GranoPor validarRuido monocromático fino sobre fondos planos o degradados: le da alma editorial a la pieza."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.12",
+     "nivel": "NO DEBE",
+     "texto": "Es terminación, nunca protagonista.Opacidad de 15 a 20 %, nunca más.Siempre del color del fondo, nunca de colores.Grano fino, de 0,5 a 1,5 px según la resolución de salida.(Cuándo se usa)Sobre degradados, cielos lisos y fondos planos, en piezas impresas o digitales."
+    },
+    {
+     "ref": "KYN-MRK-ILU-007.13",
+     "nivel": "NO DEBE",
+     "texto": "Los patrones construyen atmósfera; nunca compiten con el contenido."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ILU-008",
+   "titulo": "Fotografía e imágenes",
+   "estado": "vigente",
+   "fuente": "fundamentos/elementos/graficos.html#fotografia",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ILU-008.1",
+     "nivel": "NO DEBE",
+     "texto": "El cielo ocupa el 70 % de la imagen o más.3 imágenes · Ver en la galeríaNaturalezaMontaña, bosque y paisaje: el lugar desde donde se mira el cielo, siempre como ancla y nunca como protagonista.2 imágenes · Ver en la galeríaPersonasRetratos y equipo en sesión, siempre con permiso y con luz natural.2 imágenes · Ver en la galeríaStock propioEscenas de trabajo propias para cuando hace falta contexto: manos, pantallas y espacios reales.2 imágenes · Ver en la galeríaLa regla 70/30 y el Diario de cielosCielo · 70 %Contexto · 30 %Nosara, Costa Rica · marzo 2026 · Keylin(Ubicación)Nosara, Guanacaste, Costa Rica(Fecha y hora)Marzo 2026 · 17:42(Autor)Keylin(Cielo)Atardecer(Composición)Cielo 70 % · contexto 30 % (La regla 70/30)El cielo, o el elemento protagonista, ocupa cerca del 70 % de la composición; el contexto, el 30 % restante."
+    },
+    {
+     "ref": "KYN-MRK-ILU-008.2",
+     "nivel": "DEBE",
+     "texto": "Contexto humanoLuz y fondoFondos limpios e iluminación natural o de estudio, siempre consistente.Retratos corporativosFondo Azul Cielo #729BDD o un degradado de cielo, cuadrado o vertical, de pecho a cabeza.Fotografía documentalSiempre hay un elemento real, de preferencia humano.FormatoImágenes de píxeles: a su tamaño o menor.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-ILU-009",
+   "titulo": "Luz y profundidad",
+   "estado": "vigente",
+   "fuente": "fundamentos/elementos/graficos.html#profundidad",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-ILU-009.1",
+     "nivel": "PUEDE",
+     "texto": "Luz y profundidad Sombras que dan aire Sobre cielos u otras superficies expresivas se puede crear profundidad atmosférica con sombras difusas."
+    },
+    {
+     "ref": "KYN-MRK-ILU-009.2",
+     "nivel": "NO DEBE",
+     "texto": "(Invariantes)Las sombras no se usan de forma indiscriminada en cada contenedor."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-LOG-001",
+   "titulo": "Versiones",
+   "estado": "vigente",
+   "fuente": "fundamentos/identidad/logotipo.html#versiones",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-LOG-001.1",
+     "nivel": "NO DEBE",
+     "texto": "Nunca en Salmón. 01Logotipo principal La primera opción siempre que el espacio lo permita."
+    },
+    {
+     "ref": "KYN-MRK-LOG-001.2",
+     "nivel": "DEBERÍA",
+     "texto": "Un bloque sólido y compacto: el nombre en dos niveles, KEY y ONS, guía la pronunciación, expresa la naturaleza modular de nuestras soluciones y dibuja una llave entre la K, la E, la O y la N.(Usos recomendados)El logotipo principal es la opción prioritaria y debe aplicarse de forma preferente.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-LOG-001.3",
+     "nivel": "PUEDE",
+     "texto": "Solo cuando otra versión resulte más adecuada para el formato o contexto específico puede utilizarse esa alternativa; en cualquier otro escenario, el logotipo principal sigue siendo la elección."
+    },
+    {
+     "ref": "KYN-MRK-LOG-001.4",
+     "nivel": "DEBERÍA",
+     "texto": "Su vacío central forma una estrella de cuatro puntas, como una brújula: la orientación estratégica que ofrecemos.(En esta etapa)Trabaja acompañado del logotipo o donde el receptor ya conoce a Keyons: el favicon del sitio propio o el avatar de cuentas oficiales.(Usos recomendados)Favicons, íconos de apps y avatares en redes sociales, donde el nombre de la cuenta aporta el contexto."
+    },
+    {
+     "ref": "KYN-MRK-LOG-001.5",
+     "nivel": "DEBERÍA",
+     "texto": "Una insignia sólida, cerrada y compacta para situaciones que piden una mancha gráfica contundente, como un escudo o una medalla.(Usos recomendados)Pines, parches y stickers; merchandising como pulseras o gorras; impresiones a una tinta, como sellos de goma o grabados."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-LOG-002",
+   "titulo": "Construcción",
+   "estado": "vigente",
+   "fuente": "fundamentos/identidad/logotipo.html#construccion",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-LOG-003",
+   "titulo": "Geometría",
+   "estado": "vigente",
+   "fuente": "fundamentos/identidad/logotipo.html#geometria",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-LOG-004",
+   "titulo": "Área de protección",
+   "estado": "vigente",
+   "fuente": "fundamentos/identidad/logotipo.html#proteccion",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-LOG-005",
+   "titulo": "Tamaño mínimo",
+   "estado": "vigente",
+   "fuente": "fundamentos/identidad/logotipo.html#minimo",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-LOG-006",
+   "titulo": "Usos incorrectos",
+   "estado": "vigente",
+   "fuente": "fundamentos/identidad/logotipo.html#incorrectos",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-LOG-006.1",
+     "nivel": "NO DEBE",
+     "texto": "Usos incorrectos Lo que nunca se hace La marca se usa tal como está en los archivos oficiales."
+    },
+    {
+     "ref": "KYN-MRK-LOG-006.2",
+     "nivel": "NO DEBE",
+     "texto": "No aplicar efectosSin sombras, brillos, relieves, degradados ni texturas."
+    },
+    {
+     "ref": "KYN-MRK-LOG-006.3",
+     "nivel": "DEBE",
+     "texto": "No reorganizarKEY y ONS van siempre en dos niveles.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-LOG-006.4",
+     "nivel": "DEBE",
+     "texto": "No recortarLa palabra se muestra completa, siempre.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-LOG-007",
+   "titulo": "El corchete",
+   "estado": "vigente",
+   "fuente": "fundamentos/identidad/isotipo.html#corchete",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-LOG-008",
+   "titulo": "Estado y evolución",
+   "estado": "vigente",
+   "fuente": "fundamentos/identidad/isotipo.html#evolucion",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-LOG-008.1",
+     "nivel": "PUEDE",
+     "texto": "(Hoy · Uso contextual)El isotipo puede acompañar al logotipo o utilizarse individualmente cuando el entorno identifica claramente a Keyons, como el favicon de su sitio o los avatares de sus cuentas oficiales."
+    },
+    {
+     "ref": "KYN-MRK-LOG-008.2",
+     "nivel": "NO DEBE",
+     "texto": "(Todavía no · Audiencias que no conocen la marca)El isotipo no debe sustituir automáticamente al nombre completo cuando el público todavía no puede reconocerlo como Keyons.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-LOG-008.3",
+     "nivel": "PUEDE",
+     "texto": "(Después · Identidad autónoma)El isotipo podrá representar a Keyons sin el nombre cuando se autorice su autonomía conforme a los criterios establecidos en KYN-MRK-LOG-010."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-LOG-009",
+   "titulo": "Destello central",
+   "estado": "vigente",
+   "fuente": "fundamentos/identidad/isotipo.html#destello",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-LOG-010",
+   "titulo": "Criterio de transición",
+   "estado": "vigente",
+   "fuente": "fundamentos/identidad/isotipo.html#transicion",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-LOG-010.1",
+     "nivel": "PUEDE",
+     "texto": "Criterio de transición La autonomía se comprueba El isotipo podrá utilizarse como identificador independiente cuando exista reconocimiento comprobado entre las audiencias correspondientes y aprobación expresa de la dirección de marca."
+    },
+    {
+     "ref": "KYN-MRK-LOG-010.2",
+     "nivel": "DEBE",
+     "texto": "(01 / 03) Anterior Siguiente (Prueba de reconocimiento)La prueba debe documentar el público evaluado, la metodología, los resultados y sus limitaciones."
+    },
+    {
+     "ref": "KYN-MRK-LOG-010.3",
+     "nivel": "DEBE",
+     "texto": "(Mientras tanto)Mientras no exista esa autorización, cualquier uso autónomo frente a audiencias que no conocen Keyons requiere aprobación expresa."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-PER-001",
+   "titulo": "Tres modelos",
+   "estado": "vigente",
+   "fuente": "aplicaciones/personalizacion.html#modelos",
+   "ambito_propuesto": [
+    "saas",
+    "personalizados",
+    "cliente"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-PER-001.1",
+     "nivel": "NO DEBE",
+     "texto": "Tres modelos Cuánta firma se queda La firma visual cambia según el modelo comercial; la calidad técnica, nunca."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-PER-002",
+   "titulo": "Modelo A · SaaS",
+   "estado": "vigente",
+   "fuente": "aplicaciones/personalizacion.html#saas",
+   "ambito_propuesto": [
+    "saas",
+    "personalizados",
+    "cliente"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-PER-003",
+   "titulo": "Modelo B · Boutique",
+   "estado": "vigente",
+   "fuente": "aplicaciones/personalizacion.html#boutique",
+   "ambito_propuesto": [
+    "saas",
+    "personalizados",
+    "cliente"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-PER-004",
+   "titulo": "Modelo C · Marca blanca",
+   "estado": "vigente",
+   "fuente": "aplicaciones/personalizacion.html#blanca",
+   "ambito_propuesto": [
+    "saas",
+    "personalizados",
+    "cliente"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-PLA-001",
+   "titulo": "Plantillas",
+   "estado": "vigente",
+   "fuente": "recursos/plantillas.html#plantillas",
+   "ambito_propuesto": [
+    "identidad",
+    "web"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-PLA-002",
+   "titulo": "Documentos",
+   "estado": "vigente",
+   "fuente": "recursos/plantillas.html#documentos",
+   "ambito_propuesto": [
+    "identidad",
+    "web"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-PRE-001",
+   "titulo": "Tipos",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#tipos",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-PRE-001.1",
+     "nivel": "PUEDE",
+     "texto": "ClienteCapacitaciónInternoTaller libreCorporativoExpresivoParaPropuestas, diagnósticos e informes.ModoCorporativo, sin excepciones.RitmoUna idea por diapositiva; de 30 a 45 minutos.PlantillaPropuesta a clienteParaCursos para los equipos de los clientes.ModoCorporativo; las prácticas pueden ser expresivas.RitmoLa sala hace algo cada 8 a 10 minutos.PlantillaCapacitaciónParaRevisiones, planes y decisiones del equipo.ModoCorporativo, más directo.RitmoLa conclusión en la segunda diapositiva; de 20 a 30 minutos.PlantillaRevisión internaParaTalleres creativos y charlas abiertas.ModoExpresivo (18).RitmoPoca teoría y mucha práctica: momentos en lugar de módulos.PlantillaTaller libre Si hay duda entre dos salas, gana la más formal."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-PRE-002",
+   "titulo": "Método",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#metodo",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-PRE-002.1",
+     "nivel": "DEBE",
+     "texto": "(Historia)Primero funciona sin diseño1Brief en cinco preguntas¿Quién está en la sala y qué sabe ya?¿Qué debe pensar, sentir y hacer al salir?¿Qué modo domina?¿Cuánto tiempo hay y en qué formato?¿Qué material se entrega aparte?2Idea central en una fraseCon la fórmula de KYN-MRK-PRE-003."
+    },
+    {
+     "ref": "KYN-MRK-PRE-002.2",
+     "nivel": "NO DEBE",
+     "texto": "Nunca se copian diapositivas viejas.7Revisión cruzadaLa hace otra persona del equipo, con la lista de KYN-MRK-PRE-014.8Ensayo cronometradoSi no cabe en el tiempo, se quitan diapositivas."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-PRE-003",
+   "titulo": "Storytelling",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#historia",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-PRE-003.1",
+     "nivel": "NO DEBE",
+     "texto": "Keyons ocupa como máximo una diapositiva, y nunca la primera.Donald MillerStoryBrand002Entre lo que es y lo que podría serLa historia alterna el hoy y el mañana; ese vaivén sostiene la atención.Nancy DuarteResonate003La respuesta primeroCuando la sala decide, la conclusión va en la segunda diapositiva y después los argumentos.Barbara MintoPrincipio de la pirámide004Lo concreto se recuerdaUna persona con nombre, una cifra exacta, una escena que se pueda ver.Chip y Dan HeathMade to Stick005Una idea, una fraseSi la idea no cabe en una frase, la presentación todavía no tiene idea.Nancy DuarteResonate(La idea central, en una frase)GeniaSesiones[Audiencia]puede[cambio concreto]si[acción], porque[razón]Los profesionales de Ingenya pueden usar IA todos los días sin exponer a sus clientes, si trabajan solo en el entorno corporativo y firman lo que validan.Cada participante sale con un asistente que resuelve una tarea real de su semana, si lo construye sobre un problema bien definido.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-PRE-004",
+   "titulo": "El arco Keyons",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#arco",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-PRE-005",
+   "titulo": "Escribir para la pantalla",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#escribir",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-PRE-005.1",
+     "nivel": "PUEDE",
+     "texto": "El experto de Ingenya dispone y firma.Genia, diapositivas 13 y 4201Usted y ustedesKYN-MRK-VOZ-005 · Las instrucciones a la sala, en ustedes o en primera persona plural.(Antes)TU TURNO · CONSTRUYE EL PRIMER BLOQUE DEL ASISTENTE(En Keyons)Su turno: construyan el primer bloque del asistente.Sesión 01, diapositiva 902Hecho a la medidaKYN-MRK-VOZ-004 · La firma del pie y de la portada usa el vocabulario propio.(Antes)KEYONS | IA ADAPTADA A VOS(En Keyons)Keyons · IA hecha a la medida de su operaciónSesión 02, portada y cierre03Español primeroKYN-MRK-VOZ-007 · El titular dice qué hace; el término del mercado va una vez, entre paréntesis.(Antes)CONTEXT ENGINEERING(En Keyons)Diseñar lo que la IA sabe (context engineering)Sesión 02, portada04Afirmar antes que negarKYN-MRK-VOZ-002 · En modo expresivo se permite una negación, cuando es el giro.(Antes)PROMPTING NO ES ESCRIBIR BONITO(En Keyons)Escribir para la IA es diseñar instrucciones precisas.Sesión 01, diapositiva 305Primero Keyons, después nosotrosKYN-MRK-VOZ-006 · Portada en tercera persona; desde el giro, primera persona plural.(Antes)Nosotros diseñamos la IA alrededor de su equipo."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-PRE-006",
+   "titulo": "Límites y notas",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#limites",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-PRE-006.1",
+     "nivel": "NO DEBE",
+     "texto": "Lo que no cabe va a las notas, nunca a una letra más chica. 12palabras · 2 líneasTitularSi necesita tres líneas, la idea es demasiado grande.20palabrasSubtítuloCompleta el titular; no lo repite.30palabras · 15 en expresivoCuerpoSin contar titular ni pie.3por bloque · 2 líneas cada unaViñetasLa cuarta pide otra diapositiva.6por diapositivaCajas o tarjetasUn formulario largo se reparte en pasos.1protagonista · 4 en tableroCifrasSiempre con su fuente en el pie.(Notas del presentador · cinco líneas fijas)(Así se ve · diapositiva 6)TiempoCuánto dura la diapositiva o el bloque.12 a 16 minObjetivoLo que la sala entiende al salir de esta diapositiva.Que vean que tres de los cuatro riesgos de datos son críticos.Se diceTres ideas, una por línea.La cuenta personal no tiene los controles de la empresa."
+    },
+    {
+     "ref": "KYN-MRK-PRE-006.2",
+     "nivel": "NO DEBE",
+     "texto": "Una cita externa necesita fuente y nunca cierra la presentación."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-PRE-007",
+   "titulo": "Lienzo y retícula",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#lienzo",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-PRE-008",
+   "titulo": "Tipografía",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#tipografia",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-PRE-009",
+   "titulo": "Contraste",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#contraste",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-PRE-010",
+   "titulo": "Ritmo",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#ritmo",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-PRE-011",
+   "titulo": "Riesgo y estado",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#riesgo",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-PRE-011.1",
+     "nivel": "DEBE",
+     "texto": "Riesgo y estado Cuatro niveles, siempre con la palabra Salen de la paleta de estados (KYN-MRK-COL-014): fondo pastel, texto en Azul Noche y el ícono en su tono fuerte.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-PRE-011.2",
+     "nivel": "NO DEBE",
+     "texto": "El color nunca va solo."
+    },
+    {
+     "ref": "KYN-MRK-PRE-011.3",
+     "nivel": "DEBE",
+     "texto": "CríticoTerracota · #F0D0CBSe atiende antes de seguir.AltoNaranja · #F5D8B8Tiene responsable y fecha.MedioMostaza · #F4E8C1Se vigila en el documento de apoyo.BajoVerde · #D5E0D2Se registra; rara vez va a pantalla.(Estado de un indicador)En metaEn riesgoFuera de metaSin datoTres de los cuatro riesgos de datos son críticosFuga de datos en herramientas abiertasCríticoCuentas personales en equipos de la empresaCríticoDatos de clientes en servidores externosCríticoRespuestas de la IA usadas sin revisiónAltoInstrucciones sin plantilla ni registroMedioHerramientas sin licencia corporativaBajoEn una diapositiva: la palabra siempre acompaña al color.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-PRE-012",
+   "titulo": "Imagen y gráficos",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#imagen",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-PRE-012.1",
+     "nivel": "NO DEBE",
+     "texto": "Imagen y gráficos Una protagonista por diapositiva Una ventana, una fotografía o una cifra; nunca las tres."
+    },
+    {
+     "ref": "KYN-MRK-PRE-012.2",
+     "nivel": "NO DEBE",
+     "texto": "Aquí va el ejemploVentana en la diapositiva claveCorporativo: una sola vez, donde la idea lo pide.Aquí va el ejemploTextura de fondoTaller: separadores sobre las texturas de KYN-MRK-ILU-007.Aquí va el ejemploFotografía con veloDe la galería de KYN-MRK-ILU-008, con velo para que el texto se lea.Aquí va el ejemploGráfico de una sola ideaDe KYN-MRK-DAT-004, con el titular que afirma la conclusión.(Gráficos en pantalla)Titular que afirmaLa conclusión arriba, como titular.Una cifra protagonistaEn TASA, de 120 a 160 px, con su lectura debajo.Etiquetas legiblesEjes y valores desde 18 px.Fuente en el pieQuién midió y cuándo.Aparecen al avanzarPor partes al hacer clic; nunca en bucle."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-PRE-013",
+   "titulo": "Plantillas",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#plantillas",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-PRE-014",
+   "titulo": "Antes de presentar",
+   "estado": "vigente",
+   "fuente": "aplicaciones/presentaciones.html#antes",
+   "ambito_propuesto": [
+    "identidad",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-PRE-014.1",
+     "nivel": "NO DEBE",
+     "texto": "La hace una segunda persona, con la presentación abierta. 0 de 10ReiniciarUna idea por diapositivaSi hay dos titulares, son dos diapositivas.Titulares que afirmanLeídos en orden, cuentan la historia.Dentro de los límites12 palabras de titular y 3 viñetas por bloque.Nada por debajo de 18 pxNi el pie ni las fuentes.Contraste medidoSolo grises oficiales; fotos siempre con velo.Salmón solo para el dato claveY nunca sobre Azul Cielo.Cada cifra con su fuenteQuién midió y cuándo.Notas en cinco líneasTiempo, objetivo, se dice, interacción y transición.Revisó otra personaAlguien que no armó la presentación.Ensayo cronometradoSi no cabe, se quitan diapositivas."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-REF-001",
+   "titulo": "Nomenclatura",
+   "estado": "vigente",
+   "fuente": "recursos/referencia.html#nomenclatura",
+   "ambito_propuesto": [
+    "identidad",
+    "web"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-REF-001.1",
+     "nivel": "NO DEBE",
+     "texto": "Cinco reglas innegociables 01Inmutabilidad de los IDUn identificador emitido nunca se renombra, se elimina ni se reutiliza."
+    },
+    {
+     "ref": "KYN-MRK-REF-001.2",
+     "nivel": "NO DEBE",
+     "texto": "El texto de la norma nunca se copia en otro documento, para que no se desactualice. 05Contratos externosCuando una regla de marca debe figurar en un contrato con terceros, como agencias o diseñadores externos, se redacta la cláusula completa y el ID va al final, solo como referencia administrativa."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-REF-002",
+   "titulo": "Índice",
+   "estado": "vigente",
+   "fuente": "recursos/referencia.html#indice",
+   "ambito_propuesto": [
+    "identidad",
+    "web"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-TEX-001",
+   "titulo": "Catálogo",
+   "estado": "vigente",
+   "fuente": "recursos/texturas.html#texturas",
+   "ambito_propuesto": [
+    "identidad",
+    "web"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-TYP-001",
+   "titulo": "Familias tipográficas",
+   "estado": "vigente",
+   "fuente": "fundamentos/tipografia/sistema.html#familias",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-TYP-002",
+   "titulo": "Escala y jerarquía",
+   "estado": "vigente",
+   "fuente": "fundamentos/tipografia/sistema.html#escala",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-TYP-002.1",
+     "nivel": "PUEDE",
+     "texto": "(Composiciones breves)Las composiciones breves podrán utilizar título contextual, declaración protagonista y cuerpo."
+    },
+    {
+     "ref": "KYN-MRK-TYP-002.2",
+     "nivel": "PUEDE",
+     "texto": "(Contenidos extensos)Los contenidos extensos podrán incorporar texto de entrada cuando ayude a organizar la lectura."
+    },
+    {
+     "ref": "KYN-MRK-TYP-002.3",
+     "nivel": "PUEDE",
+     "texto": "(Expresión)Los títulos y las declaraciones pueden variar su escala, proporción y tratamiento visual según la intención editorial."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-TYP-003",
+   "titulo": "Probador tipográfico",
+   "estado": "vigente",
+   "fuente": "fundamentos/tipografia/sistema.html#probador",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-TYP-004",
+   "titulo": "Composición editorial",
+   "estado": "integrada",
+   "fuente": "fundamentos/tipografia/sistema.html#titular",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-TYP-004.1",
+     "nivel": "DEBE",
+     "texto": "El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-TYP-005",
+   "titulo": "Etiquetas de contexto",
+   "estado": "vigente",
+   "fuente": "fundamentos/tipografia/sistema.html#kickers",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-TYP-006",
+   "titulo": "Criterios de aplicación",
+   "estado": "vigente",
+   "fuente": "fundamentos/tipografia/sistema.html#reglas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-TYP-006.1",
+     "nivel": "DEBE",
+     "texto": "Criterios de aplicación Siete criterios de aplicación La tipografía debe organizar la lectura, transmitir identidad y adaptarse a las necesidades del contenido."
+    },
+    {
+     "ref": "KYN-MRK-TYP-006.2",
+     "nivel": "DEBE",
+     "texto": "(02 · Interlineado adecuado)Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.",
+     "revisar": [
+      "varias expresiones normativas en la misma frase"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-TYP-006.3",
+     "nivel": "NO DEBE",
+     "texto": "(04 · Énfasis con moderación)El peso semibold permite destacar información relevante.No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida."
+    },
+    {
+     "ref": "KYN-MRK-TYP-006.4",
+     "nivel": "DEBERÍA",
+     "texto": "(05 · Números que se leen)Las cifras operativas utilizan Plus Jakarta Sans.En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación."
+    },
+    {
+     "ref": "KYN-MRK-TYP-006.5",
+     "nivel": "DEBE",
+     "texto": "(07 · Adaptación y accesibilidad)Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-TYP-007",
+   "titulo": "Uso por función",
+   "estado": "vigente",
+   "fuente": "fundamentos/tipografia/sistema.html#funcion",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-VIS-001",
+   "titulo": "Kicker decorativo",
+   "estado": "integrada",
+   "fuente": "fundamentos/tipografia/sistema.html#vis-001",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-VIS-002",
+   "titulo": "Tracking indiscriminado",
+   "estado": "integrada",
+   "fuente": "fundamentos/tipografia/sistema.html#vis-002",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-VIS-003",
+   "titulo": "Jerarquía visual repetitiva",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#vis-003",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-003.1",
+     "nivel": "DEBE",
+     "texto": "Jerarquía repetida La jerarquía se construye para cada contenido La composición debe responder a las relaciones y prioridades del contenido."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VIS-004",
+   "titulo": "Tarjetas innecesarias",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#vis-004",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-004.1",
+     "nivel": "DEBE",
+     "texto": "Tarjetas innecesarias Una tarjeta solo cuando agrupa algo Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas."
+    },
+    {
+     "ref": "KYN-MRK-VIS-004.2",
+     "nivel": "PUEDE",
+     "texto": "Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VIS-005",
+   "titulo": "Gradientes ornamentales",
+   "estado": "integrada",
+   "fuente": "fundamentos/color/cielos.html#vis-005",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-005.1",
+     "nivel": "DEBE",
+     "texto": "(Criterio)Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.No agregarlos solamente para que una sección parezca tecnológica o moderna."
+    },
+    {
+     "ref": "KYN-MRK-VIS-005.2",
+     "nivel": "DEBE",
+     "texto": "El degradado no es obligatorio en cada pieza."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VIS-006",
+   "titulo": "Geometría genérica",
+   "estado": "vigente",
+   "fuente": "fundamentos/forma/espacio.html#vis-006",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-006.1",
+     "nivel": "DEBE",
+     "texto": "Geometría genérica La geometría Keyons, no un radio para todo La geometría de los elementos debe responder a su función y relación compositiva."
+    },
+    {
+     "ref": "KYN-MRK-VIS-006.2",
+     "nivel": "NO DEBE",
+     "texto": "No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VIS-007",
+   "titulo": "Acentos tipográficos repetidos",
+   "estado": "integrada",
+   "fuente": "fundamentos/tipografia/sistema.html#vis-007",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-VIS-008",
+   "titulo": "Iconografía de relleno",
+   "estado": "vigente",
+   "fuente": "fundamentos/iconografia/iconos.html#vis-008",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-008.1",
+     "nivel": "NO DEBE",
+     "texto": "Iconografía de relleno Un ícono tiene que ayudar a entender No introducir íconos únicamente para decorar textos o títulos."
+    },
+    {
+     "ref": "KYN-MRK-VIS-008.2",
+     "nivel": "DEBE",
+     "texto": "Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada."
+    },
+    {
+     "ref": "KYN-MRK-VIS-008.3",
+     "nivel": "PUEDE",
+     "texto": "Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VIS-009",
+   "titulo": "Saturación de microelementos",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#vis-009",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-009.1",
+     "nivel": "NO DEBE",
+     "texto": "Microelementos La jerarquía no se hace con adornos Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia."
+    },
+    {
+     "ref": "KYN-MRK-VIS-009.2",
+     "nivel": "NO DEBE",
+     "texto": "La jerarquía no debe depender de la cantidad de elementos decorativos."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VIS-010",
+   "titulo": "Simetría automática",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#vis-010",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-010.1",
+     "nivel": "DEBE",
+     "texto": "Ninguna debe utilizarse automáticamente."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VIS-011",
+   "titulo": "Movimiento ornamental",
+   "estado": "vigente",
+   "fuente": "fundamentos/criterio/antipatrones.html#vis-011",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "personalizados",
+    "cliente"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-011.1",
+     "nivel": "DEBE",
+     "texto": "Movimiento El movimiento orienta, no distrae El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite."
+    },
+    {
+     "ref": "KYN-MRK-VIS-011.2",
+     "nivel": "PUEDE",
+     "texto": "En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VIS-012",
+   "titulo": "Contraste insuficiente",
+   "estado": "vigente",
+   "fuente": "fundamentos/color/paleta-base.html#vis-012",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "personalizados",
+    "cliente"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-012.1",
+     "nivel": "DEBE",
+     "texto": "Contraste insuficiente Delicado, pero siempre legible La delicadeza visual no justifica textos, controles ni datos ilegibles.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-VIS-012.2",
+     "nivel": "DEBE",
+     "texto": "El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables."
+    },
+    {
+     "ref": "KYN-MRK-VIS-012.3",
+     "nivel": "PUEDE",
+     "texto": "ColorContraste sobre Blanco KeyonsResultado Uso incorrectoActualizado hace 5 minutos#C7C8CB1,5 : 1No se puede leer Alternativa mejorActualizado hace 5 minutos#6B6D7E4,6 : 1Legible · AA"
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VIS-013",
+   "titulo": "Lenguaje genérico",
+   "estado": "vigente",
+   "fuente": "marca/vocabulario.html#vis-013",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-013.1",
+     "nivel": "DEBE",
+     "texto": "Lenguaje genérico Específico, comprensible y con sentido El contenido debe ser específico, comprensible y significativo."
+    },
+    {
+     "ref": "KYN-MRK-VIS-013.2",
+     "nivel": "NO DEBE",
+     "texto": "No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VIS-014",
+   "titulo": "Maximalismo uniforme",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#vis-014",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-VIS-015",
+   "titulo": "Originalidad a costa de orientación",
+   "estado": "vigente",
+   "fuente": "fundamentos/criterio/antipatrones.html#vis-015",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "personalizados",
+    "cliente"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-015.1",
+     "nivel": "NO DEBE",
+     "texto": "Orientación Original, pero siempre comprensible La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VIS-016",
+   "titulo": "Composición no intercambiable",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#vis-016",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-016.1",
+     "nivel": "NO DEBE",
+     "texto": "Identidad visual aplicada Una composición con identidad propia Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia."
+    },
+    {
+     "ref": "KYN-MRK-VIS-016.2",
+     "nivel": "DEBE",
+     "texto": "Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña."
+    },
+    {
+     "ref": "KYN-MRK-VIS-016.3",
+     "nivel": "NO DEBE",
+     "texto": "En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VOZ-001",
+   "titulo": "Esencia de la voz",
+   "estado": "vigente",
+   "fuente": "marca/voz.html#modos",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-VOZ-002",
+   "titulo": "Reglas de escritura",
+   "estado": "vigente",
+   "fuente": "marca/voz.html#reglas",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VOZ-002.1",
+     "nivel": "DEBE",
+     "texto": "(Antes)No somos una consultora tradicional.(En Keyons)Keyons diseña la IA en torno al trabajo de su equipo. 02Una idea principal por fraseCada oración debe tener una intención clara."
+    },
+    {
+     "ref": "KYN-MRK-VOZ-002.2",
+     "nivel": "NO DEBE",
+     "texto": "Los adjetivos deben aportar información, nunca sustituirla."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VOZ-003",
+   "titulo": "Vocabulario propio",
+   "estado": "vigente",
+   "fuente": "marca/vocabulario.html#propio",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-VOZ-004",
+   "titulo": "Vocabulario que evitamos",
+   "estado": "vigente",
+   "fuente": "marca/vocabulario.html#evita",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VOZ-004.1",
+     "nivel": "PUEDE",
+     "texto": "Soluciones a medidaIndicar qué puede adaptarse, con qué alcance y bajo qué condiciones."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VOZ-005",
+   "titulo": "El trato",
+   "estado": "vigente",
+   "fuente": "marca/trato.html#usted",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VOZ-005.1",
+     "nivel": "DEBE",
+     "texto": "(Aplicación en inglés)El tono profesional y cercano debe trasladarse de manera natural al inglés, respetando las convenciones del idioma."
+    },
+    {
+     "ref": "KYN-MRK-VOZ-005.2",
+     "nivel": "NO DEBE",
+     "texto": "No se deben reproducir literalmente las construcciones del español cuando produzcan expresiones poco naturales."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VOZ-006",
+   "titulo": "Primera o tercera persona",
+   "estado": "vigente",
+   "fuente": "marca/trato.html#persona",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VOZ-006.1",
+     "nivel": "DEBERÍA",
+     "texto": "Primera o tercera persona Una voz coherente Utilizamos la tercera persona cuando conviene presentar formalmente a Keyons."
+    },
+    {
+     "ref": "KYN-MRK-VOZ-006.2",
+     "nivel": "DEBE",
+     "texto": "No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-VOZ-006.3",
+     "nivel": "DEBE",
+     "texto": "Los cambios de persona deben cumplir una función comunicativa clara."
+    }
+   ]
+  },
+  {
+   "id": "KYN-MRK-VOZ-007",
+   "titulo": "De lo técnico a lo humano",
+   "estado": "vigente",
+   "fuente": "marca/trato.html#traduccion",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas",
+    "servicios"
+   ],
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VOZ-007.1",
+     "nivel": "DEBE",
+     "texto": "Simplificar no significa alterar el significado ni prometer capacidades que el sistema no tiene. 01Explicar qué hacePresentamos primero la función o el resultado que el lector necesita comprender. 02Utilizar analogías que aclarenLas comparaciones ayudan a explicar conceptos complejos, siempre que no creen equivalencias incorrectas. 03Conservar los términos necesariosUtilizamos y explicamos las denominaciones técnicas, comerciales o legales cuando son relevantes. 04Priorizar acciones comprensiblesPreferimos descripciones concretas antes que acumular siglas innecesarias.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-VOZ-007.2",
+     "nivel": "DEBE",
+     "texto": "Algunas acciones requieren aprobación humana."
+    },
+    {
+     "ref": "KYN-MRK-VOZ-007.3",
+     "nivel": "PUEDE",
+     "texto": "(Guardrails)Reglas que delimitan qué puede hacer la IA."
+    },
+    {
+     "ref": "KYN-MRK-VOZ-007.4",
+     "nivel": "PUEDE",
+     "texto": "(Context window)Cantidad de información que un modelo puede considerar dentro de una interacción, según sus límites técnicos."
+    },
+    {
+     "ref": "KYN-MRK-VOZ-007.5",
+     "nivel": "DEBERÍA",
+     "texto": "(Encriptación)Utilizar preferentemente «cifrado»: transformación de información para impedir su lectura sin los medios autorizados."
+    },
+    {
+     "ref": "KYN-MRK-VOZ-007.6",
+     "nivel": "PUEDE",
+     "texto": "(Data governance)Reglas de quién puede ver, usar y modificar los datos."
+    },
+    {
+     "ref": "KYN-MRK-VOZ-007.7",
+     "nivel": "NO DEBE",
+     "texto": "La traducción aclara, nunca reemplaza el nombre oficial."
+    },
+    {
+     "ref": "KYN-MRK-VOZ-007.8",
+     "nivel": "DEBE",
+     "texto": "Relación con la comunicación de productos (Consumo de IA)La comunicación comercial de consumo de IA debe expresar unidades comprensibles para el cliente."
+    },
+    {
+     "ref": "KYN-MRK-VOZ-007.9",
+     "nivel": "NO DEBE",
+     "texto": "(Términos internos)No se deben introducir términos internos de ingeniería en interfaces comerciales cuando no aportan valor al usuario."
+    }
+   ]
+  }
+ ],
+ "duplicaciones": [],
+ "contradicciones": [
+  {
+   "norma": "KYN-MRK-TYP-005",
+   "detalle": "El kicker se especifica en TASA Orbiter 500, 14 px, +8 %; el código lo aplica en Plus Jakarta Sans 700, 12 a 13 px, +2 %."
+  },
+  {
+   "norma": "KYN-MRK-TYP-002",
+   "detalle": "El estándar de tracking (8.8) fija 0em para títulos en Plus Jakarta Sans; los títulos de sección del libro usan −3 %."
+  },
+  {
+   "norma": "KYN-MRK-TYP-002",
+   "detalle": "El estándar fija −3 % de 52 a 79 px y −5 % desde 80 px para TASA Orbiter; el display del libro usa −4 %."
+  },
+  {
+   "norma": "KYN-MRK-ILU-003",
+   "detalle": "Divisor de 1 px en Gris Bruma y divisor fuerte en Azul Noche al 16 %; el libro usa Azul Cielo 100 y 200, y barras de 4 px en tablas."
+  },
+  {
+   "norma": "KYN-MRK-ILU-007",
+   "detalle": "El texto fija Azul Cielo y trazos uniformes para las tramas; desde la ronda 15 se muestran en Azul Noche con trazo a mano."
+  },
+  {
+   "norma": "KYN-MRK-ICO-005",
+   "detalle": "Los íconos de la marca salen del catálogo; las flechas de navegación del libro son íconos de 1,6 px fuera del catálogo."
+  },
+  {
+   "norma": "KYN-MRK-ESP-004",
+   "detalle": "La retícula fija contenido hasta 1520 px; el libro usa un documento de 1600 px."
+  }
+ ]
+}

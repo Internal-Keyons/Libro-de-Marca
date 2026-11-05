@@ -42,20 +42,17 @@ La creatividad nace del criterio. La tecnología amplía sus posibilidades.
 
 ###### Condiciones de aplicación
 
-**(01)**
-No es obligatorio utilizar IA en las piezas gráficas.
+**(Creación desde cero)**
+Las piezas gráficas nacen de una idea y concepto humano. La base debe ser siempre creada por una persona.
 
-**(02)**
-La generación de imágenes desde cero está permitida.
+**(Intervención con IA)**
+La inteligencia artificial puede participar para potenciar o extender la pieza, siempre que respete la dirección creativa y el concepto inicial humano.
 
-**(03)**
-Ninguna pieza debe incluir texturas, manchas o imperfecciones artificiales para aparentar autoría humana.
+**(Imágenes documentales)**
+Deben distinguirse claramente de las representaciones artísticas.
 
-**(04)**
-Las imágenes documentales deben distinguirse de las representaciones artísticas.
+**(Derechos y licencias)**
+Se respetan derechos de autor, licencias y autorizaciones al usar materiales o representaciones de personas.
 
-**(05)**
-Deben respetarse los derechos de autor, las licencias y las autorizaciones correspondientes cuando se utilicen materiales o representaciones de personas.
-
-**(06)**
-Los resultados deben cumplir las normas visuales de Keyons, independientemente de la herramienta empleada.
+**(Normas visuales Keyons)**
+Todos los resultados deben cumplir las reglas visuales de la marca, sin importar la herramienta empleada.

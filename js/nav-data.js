@@ -174,7 +174,7 @@ window.KEYONS_NAV = [
         { t: 'Plantillas', s: 'b', href: 'recursos/plantillas.html#plantillas' }, { t: 'Documentos', s: 'b', href: 'recursos/plantillas.html#documentos' } ] },
       { n: '28', k: 'referencia', was: ['27', '29'], t: 'Referencia', s: 'b', d: 'La memoria de las decisiones.', items: [
         { t: 'Nomenclatura de reglas', st: 'Nomenclatura', s: 'b', href: 'recursos/referencia.html#nomenclatura' }, { t: 'Índice de reglas', st: 'Índice', s: 'b', href: 'recursos/referencia.html#indice' },
-        { t: 'Trazabilidad de Criterios visuales', st: 'Trazabilidad', s: 'v', href: 'fundamentos/criterio/antipatrones.html#trazabilidad' }, { t: 'Registro de decisiones', st: 'Decisiones' }, { t: 'Glosario' }, { t: 'Cambios' } ] }
+        { t: 'Trazabilidad de Criterios visuales', st: 'Trazabilidad', s: 'v', href: 'fundamentos/criterio/antipatrones.html#trazabilidad' }, { grp: 'Gobierno normativo' }, { t: 'Autoridad normativa', st: 'Autoridad', s: 'b', href: 'recursos/gobierno.html#autoridad' }, { t: 'Vigencia', st: 'Vigencia', s: 'b', href: 'recursos/gobierno.html#vigencia' }, { t: 'Ámbitos de aplicación', st: 'Ámbitos', s: 'b', href: 'recursos/gobierno.html#ambitos' }, { t: 'Aprobación y excepciones', st: 'Aprobación', s: 'b', href: 'recursos/gobierno.html#aprobacion' }, { t: 'Identificadores y citación', st: 'Citación', s: 'b', href: 'recursos/gobierno.html#citacion' }, { t: 'Rutas de lectura', st: 'Rutas', s: 'b', href: 'recursos/gobierno.html#rutas' }, { t: 'Registro de decisiones', st: 'Decisiones' }, { t: 'Glosario' }, { t: 'Cambios' } ] }
     ]
   }
 ];

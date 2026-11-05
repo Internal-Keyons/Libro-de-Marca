@@ -42,6 +42,21 @@
   const base = (h) => (h || '').split('#')[0];
   const hash = (h) => (h || '').split('#')[1] || '';
 
+  /* Los seis libros de la Biblioteca. on: disponible para consulta; los demás se muestran sin enlace */
+  const LIBROS = [
+    { id: 'marca', t: 'Marca y Experiencia', h: 'inicio.html', on: true },
+    { id: 'sistema-diseno', t: 'Sistema de Diseño', h: 'sistema-diseno/index.html', on: true },
+    { id: 'producto', t: 'Producto e Ingeniería' },
+    { id: 'ventas', t: 'Ventas y Crecimiento' },
+    { id: 'servicio', t: 'Experiencia y Servicio al Cliente' },
+    { id: 'cultura', t: 'Cultura y Operaciones' },
+  ];
+  const BOOK_ID = BOOK.id || 'marca';
+  const LIBRO = LIBROS.find((b) => b.id === BOOK_ID) || LIBROS[0];
+  const booksHtml = (cls) => LIBROS.map((b) => (b.on
+    ? `<li><a class="${cls}" href="${url(b.h)}"${b.id === BOOK_ID ? ' aria-current="true"' : ''}>${esc(b.t)}</a></li>`
+    : `<li><span class="${cls} is-off" aria-disabled="true">${esc(b.t)}<small>En preparación</small></span></li>`)).join('');
+
   /* Índice plano: buscador y paginador */
   const flat = [];
   const seq = [];
@@ -59,6 +74,7 @@
     });
   });
   flat.unshift(...NAV.map((a) => ({ t: a.t, href: a.href, s: 'b', path: 'Área del manual' })));
+  flat.unshift(...LIBROS.filter((b) => b.on).map((b) => ({ t: b.t, href: b.h, s: 'v', path: 'Libro de la Biblioteca Keyons' })));
 
   /* Cada libro de la Biblioteca lleva su trama en encabezados y subencabezados (css: --trama) */
   document.documentElement.dataset.libro = (window.KEYONS_BOOK || {}).id || 'marca';
@@ -83,35 +99,26 @@
     top.innerHTML = `
       <div class="hdr__bg">${IS_HOME ? `<div class="hdr__clouds" aria-hidden="true">${clouds}</div>` : ''}</div>
       <div class="hdr__in">
-        <nav class="hdr__links" aria-label="${BOOK.menuLabel || 'Áreas del manual'}">${linkHtml('hdr__link')}</nav>
-        <a class="hdr__logo" href="${url(HOME)}" aria-label="Keyons · volver a la portada">${LOGO}</a>
-        <div class="hdr__right">
-          <button class="hdr__search" type="button" data-search aria-label="Buscar en el manual (Ctrl K)">${ic(I.search)}<span>Buscar</span><kbd>Ctrl K</kbd></button>
+        <div class="hdr__left">
+          <button class="hdr__burger hdr__index" type="button" aria-controls="side" aria-expanded="false" aria-label="Abrir índice">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path class="b1" d="M4 7h16"/><path class="b2" d="M4 12h16"/><path class="b3" d="M4 17h16"/><path class="x x1" pathLength="1" d="M7.5 7.5l9 9"/><path class="x x2" pathLength="1" d="M16.5 7.5l-9 9"/></svg><span class="hdr__index-l">Índice</span>
+          </button>
+          <div class="hdr__books">
+            <button class="hdr__book" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="hdr-books"><span>${esc(LIBRO.t)}</span>${ic(I.chev)}</button>
+            <ul class="hdr__booklist" id="hdr-books" hidden>${booksHtml('hdr__bk')}</ul>
+          </div>
         </div>
-        <button class="hdr__burger" type="button" aria-label="Abrir menú" aria-expanded="false">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path class="b1" d="M4 7h16"/><path class="b2" d="M4 12h16"/><path class="b3" d="M4 17h16"/><path class="x x1" pathLength="1" d="M7.5 7.5l9 9"/><path class="x x2" pathLength="1" d="M16.5 7.5l-9 9"/></svg>
-        </button>
-        <a class="hdr__exit" href="${url('index.html')}" title="Salir a la Biblioteca Keyons" aria-label="Salir a la Biblioteca Keyons">${EXIT}<span>Biblioteca</span></a>
-      </div>
-      <div class="hdr__panel">
-        <nav aria-label="${BOOK.menuLabel || 'Áreas del manual'}"${links.length > 5 ? ' class="is-cols"' : ''}>${linkHtml('')}</nav>
-        <div class="hdr__panel-foot"><button class="hdr__panel-search" type="button" data-search>${ic(I.search)}Buscar en el manual</button>
-          <a class="hdr__panel-exit" href="${url('index.html')}">${EXIT}Salir a la Biblioteca</a>
-          <span class="hdr__panel-alt">${alt.map(([t, h, d, dl]) => `<a href="${url(h)}"${dl ? ' download' : ''}>${d ? ic(I[d] || d) : ''}${t}</a>`).join('')}</span></div>
+        <a class="hdr__logo" href="${url('index.html')}" aria-label="Keyons · Biblioteca">${LOGO}</a>
+        <div class="hdr__right">
+          <button class="hdr__search" type="button" data-search aria-label="Buscar en la Biblioteca (Ctrl K)">${ic(I.search)}<span>Buscar</span><kbd>Ctrl K</kbd></button>
+        </div>
       </div>`;
-    const burger = top.querySelector('.hdr__burger');
-    let openY = 0;
-    const setOpen = (o) => { if (o) openY = scrollY; top.classList.toggle('is-open', o); burger.setAttribute('aria-expanded', o); burger.setAttribute('aria-label', o ? 'Cerrar menú' : 'Abrir menú'); };
-    burger.addEventListener('click', () => setOpen(!top.classList.contains('is-open')));
-    top.querySelector('.hdr__panel').addEventListener('click', (e) => { if (e.target.closest('a,button')) setOpen(false); });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setOpen(false); });
-    /* Al desplazar la página hacia arriba o hacia abajo, el menú abierto se cierra solo */
-    const isOpen = () => top.classList.contains('is-open');
-    let touchY = 0;
-    addEventListener('scroll', () => { if (isOpen() && Math.abs(scrollY - openY) > 24) setOpen(false); }, { passive: true });
-    addEventListener('wheel', (e) => { if (isOpen() && Math.abs(e.deltaY) > 4) setOpen(false); }, { passive: true });
-    addEventListener('touchstart', (e) => { touchY = e.touches[0].clientY; }, { passive: true });
-    addEventListener('touchmove', (e) => { if (isOpen() && Math.abs(e.touches[0].clientY - touchY) > 24) setOpen(false); }, { passive: true });
+    /* Selector de libro: lista discreta de los seis manuales */
+    const bk = top.querySelector('.hdr__book'), bl = top.querySelector('.hdr__booklist');
+    const setBooks = (o, focus) => { bl.hidden = !o; bk.setAttribute('aria-expanded', String(o)); if (!o && focus) bk.focus(); };
+    bk.addEventListener('click', () => setBooks(bl.hidden));
+    document.addEventListener('click', (e) => { if (!bl.hidden && !e.target.closest('.hdr__books')) setBooks(false); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !bl.hidden) setBooks(false, true); });
     if (IS_HOME) {
       const hero = document.querySelector('.hero');
       const check = () => top.classList.toggle('is-solid', !hero || hero.getBoundingClientRect().bottom <= top.offsetHeight);
@@ -147,6 +154,14 @@
         num.dataset.n = num.textContent; num.textContent = o.id; num.classList.add('ed__code');
         num.dataset.copy = o.id; num.dataset.copyMsg = 'ID copiado · ' + o.id; num.title = 'Copiar el ID de esta norma';
       });
+      /* Autoridad normativa: estado y versión de cada norma, discretos, desde data/autoridad.json */
+      const sa = document.createElement('script');
+      sa.src = root + 'js/autoridad.js';
+      sa.onload = () => document.querySelectorAll('.ed__label .ed__code').forEach((c) => {
+        const a = (window.KEYONS_AUT || {})[c.dataset.copy];
+        if (a && !c.parentElement.querySelector('.ed__auth')) c.parentElement.insertAdjacentHTML('beforeend', `<span class="ed__auth">${esc(a[0])} · v${esc(a[1])}</span>`);
+      });
+      document.head.appendChild(sa);
       document.querySelectorAll('[data-normas]').forEach((box) => {
         const list = box.querySelector('.kidx__list'), q = box.querySelector('.kidx__q');
         const draw = (key) => {
@@ -843,48 +858,105 @@
         ? `<a class="${cls}" href="${url(it.href)}"${hash(it.href) ? ` data-sec="${hash(it.href)}"` : ''}${cur ? ' aria-current="page"' : ''} title="${esc(it.t)}"><span class="nav-item__n">${num}</span><span class="nav-item__t">${esc(it.st || it.t)}</span>${dot(it.s)}</a>`
         : `<span class="${cls}" title="${esc(it.t)} · página aún no construida"><span class="nav-item__n">${num}</span><span class="nav-item__t">${esc(it.st || it.t)}</span>${dot(it.s)}</span>`;
     }).join('');
+    const lid = `nav-ch-${area.id}-${c.k || c.n}`;
     return `<div class="nav-ch" aria-expanded="${open}">
-      <button class="nav-ch__btn" type="button" title="${esc(c.n + ' ' + c.t)}"><span class="nav-ch__num">${c.n}</span><span>${esc(c.t)}</span>${ic(I.chev)}</button>
-      <div class="nav-list">${items}</div></div>`;
+      <button class="nav-ch__btn" type="button" aria-expanded="${open}" aria-controls="${lid}" title="${esc(c.n + ' ' + c.t)}"><span class="nav-ch__num">${c.n}</span><span>${esc(c.t)}</span>${ic(I.chev)}</button>
+      <div class="nav-list" id="${lid}">${items}</div></div>`;
   }).join('');
   const area = NAV.find((x) => x.id === AREA);
-  const side = $('side');
-  if (side && area) {
-    side.innerHTML = `<div class="side__head"><a class="side__area" href="${url(area.href)}"${PAGE === area.href ? ' aria-current="page"' : ''} title="${esc(area.t)}"><span class="kicker">${esc(area.t)}</span></a>`
-      + `<button class="side__toggle" type="button" aria-label="Contraer el menú lateral" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3.5 5.5 8l4.5 4.5"/></svg></button></div>`
-      + chapters(area)
-      + `<div class="side__legend">${LEGEND.map((k) => `<span>${dot(k)} ${STATUS[k]}</span>`).join('')}</div>`;
-    const setMin = (on) => {
-      body.classList.toggle('side-min', on);
-      const t = side.querySelector('.side__toggle');
-      t.setAttribute('aria-pressed', on);
-      t.setAttribute('aria-label', on ? 'Expandir el menú lateral' : 'Contraer el menú lateral');
-      try { localStorage.setItem('k-side', on ? 'min' : 'full'); } catch (_) {}
-    };
-    try { if (localStorage.getItem('k-side') === 'min') setMin(true); } catch (_) {}
-    side.addEventListener('click', (e) => {
-      if (e.target.closest('.side__toggle')) return setMin(!body.classList.contains('side-min'));
-      const b = e.target.closest('.nav-ch__btn');
-      if (b) b.parentElement.setAttribute('aria-expanded', b.parentElement.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
-    });
-    /* Barra de capítulo para móvil: abre el lateral como cajón */
+  /* ─── Índice lateral del libro ───
+     Áreas o módulos → capítulos → grupos → páginas y normas. En escritorio vive junto al contenido y el control
+     «Índice» lo muestra u oculta; en móvil y en las portadas es un panel que se abre sobre la página. */
+  let side = $('side');
+  const drawerOnly = !side;
+  if (!side) {
+    side = document.createElement('aside');
+    side.id = 'side'; side.className = 'side side--drawer'; side.setAttribute('aria-label', 'Índice del libro');
+    body.appendChild(side);
+  }
+  const alt = BOOK.alt || [['Descargar PDF', 'documental/libro-de-marca-keyons.pdf', 'down', true], ['Normas para IA', 'ia/index.html', 'code']];
+  const areaHtml = (a, i) => {
+    const on = a === area;
+    return `<div class="nav-area${on ? ' is-current' : ''}"><div class="nav-area__head">`
+      + `<a class="nav-area__link" href="${url(a.href)}"${PAGE === a.href ? ' aria-current="page"' : ''}>${esc(a.t)}</a>`
+      + `<button class="nav-area__btn" type="button" aria-expanded="${on}" aria-controls="nav-area-${i}" aria-label="${esc(a.t)}: ${on ? 'contraer' : 'desplegar'} capítulos">${ic(I.chev)}</button></div>`
+      + `<div class="nav-area__body" id="nav-area-${i}"${on ? '' : ' hidden'}>${chapters(a)}</div></div>`;
+  };
+  side.innerHTML = `<div class="side__book"><span class="side__book-k">Libro actual</span><a class="side__book-t" href="${url(LIBRO.h)}">${esc(LIBRO.t)}</a>`
+    + `<button class="side__book-btn" type="button" aria-expanded="false" aria-controls="side-books">Cambiar libro ${ic(I.chev)}</button>`
+    + `<ul class="side__books" id="side-books" hidden>${booksHtml('side__bk')}</ul></div>`
+    + `<nav class="side__tree" aria-label="Índice de ${esc(LIBRO.t)}">${NAV.map(areaHtml).join('')}</nav>`
+    + `<div class="side__legend">${LEGEND.map((k) => `<span>${dot(k)} ${STATUS[k]}</span>`).join('')}</div>`
+    + `<div class="side__alt">${alt.map(([t, h, d, dl]) => `<a href="${url(h)}"${dl ? ' download' : ''}>${d ? ic(I[d] || d) : ''}${esc(t)}</a>`).join('')}</div>`;
+  body.classList.remove('side-min');
+  const idx = top && top.querySelector('.hdr__index');
+  const inline = () => !drawerOnly && matchMedia('(min-width: 901px)').matches;
+  const sync = () => {
+    if (!idx) return;
+    const open = inline() ? !body.classList.contains('side-off') : body.classList.contains('nav-open');
+    idx.setAttribute('aria-expanded', String(open));
+    idx.setAttribute('aria-label', open ? (inline() ? 'Ocultar índice' : 'Cerrar índice') : 'Abrir índice');
+    top.classList.toggle('is-open', !inline() && open);
+  };
+  const setDrawer = (o, back) => {
+    body.classList.toggle('nav-open', o); sync();
+    if (o) (side.querySelector('[aria-current="page"]') || side.querySelector('a, button')).focus({ preventScroll: true });
+    else if (back && idx) idx.focus();
+  };
+  try { if (localStorage.getItem('k-side') === 'off') body.classList.add('side-off'); } catch (_) {}
+  if (idx) idx.addEventListener('click', () => {
+    if (inline()) {
+      const off = !body.classList.contains('side-off');
+      body.classList.toggle('side-off', off);
+      try { localStorage.setItem('k-side', off ? 'off' : 'on'); } catch (_) {}
+      sync();
+    } else setDrawer(!body.classList.contains('nav-open'));
+  });
+  addEventListener('resize', sync);
+  const scrim = document.createElement('div');
+  scrim.className = 'scrim';
+  scrim.addEventListener('click', () => setDrawer(false, true));
+  body.appendChild(scrim);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && body.classList.contains('nav-open')) setDrawer(false, true); });
+  side.addEventListener('click', (e) => {
+    const ab = e.target.closest('.nav-area__btn');
+    if (ab) {
+      const o = ab.getAttribute('aria-expanded') !== 'true';
+      ab.setAttribute('aria-expanded', String(o)); $(ab.getAttribute('aria-controls')).hidden = !o;
+      return;
+    }
+    const cb = e.target.closest('.nav-ch__btn');
+    if (cb) {
+      const o = cb.getAttribute('aria-expanded') !== 'true';
+      cb.setAttribute('aria-expanded', String(o)); cb.parentElement.setAttribute('aria-expanded', String(o));
+      return;
+    }
+    const sb = e.target.closest('.side__book-btn');
+    if (sb) {
+      const o = sb.getAttribute('aria-expanded') !== 'true';
+      sb.setAttribute('aria-expanded', String(o)); $('side-books').hidden = !o;
+      return;
+    }
+    /* Al elegir un destino en el panel, el panel se cierra y la ruta activa se conserva */
+    if (e.target.closest('a') && body.classList.contains('nav-open')) setDrawer(false);
+  });
+  sync();
+  /* Enlace directo al índice abierto: …#indice */
+  if (location.hash === '#indice') { if (inline()) body.classList.remove('side-off'); else setDrawer(true); sync(); }
+  if (area && !drawerOnly) {
+    /* Barra de capítulo para móvil: abre el índice como panel */
     let cur = null;
     area.ch.forEach((c) => c.items.forEach((it) => { if (!cur && base(it.href) === PAGE) cur = [c, hash(it.href) ? { t: 'Secciones' } : it]; }));
     const bar = document.createElement('button');
     bar.type = 'button';
     bar.className = 'chapbar';
+    bar.setAttribute('aria-controls', 'side');
     bar.innerHTML = ic('<path d="M2.5 4.5h11M2.5 8h11M2.5 11.5h7"/>') + (cur ? `${cur[0].n} ${esc(cur[0].t)}${cur[1].t === cur[0].t ? '' : ` <span>· ${esc(cur[1].t)}</span>`}` : `${esc(area.t)} <span>· capítulos</span>`);
-    bar.addEventListener('click', () => body.classList.add('nav-open'));
+    bar.addEventListener('click', () => setDrawer(true));
     document.querySelector('.doc').before(bar);
-    const scrim = document.createElement('div');
-    scrim.className = 'scrim';
-    scrim.addEventListener('click', () => body.classList.remove('nav-open'));
-    body.appendChild(scrim);
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') body.classList.remove('nav-open'); });
     /* Secciones de un capítulo: el lateral sigue la lectura */
     const secLinks = [...side.querySelectorAll('[data-sec]')].filter((l) => base(l.getAttribute('href').replace(ROOT + '/', '')) === PAGE);
     if (secLinks.length) {
-      side.addEventListener('click', (e) => { if (e.target.closest('[data-sec]')) body.classList.remove('nav-open'); });
       const so = new IntersectionObserver((ents) => ents.forEach((en) => {
         if (en.isIntersecting) secLinks.forEach((l) => (l.dataset.sec === en.target.id ? l.setAttribute('aria-current', 'page') : l.removeAttribute('aria-current')));
       }), { rootMargin: '-35% 0px -60% 0px' });

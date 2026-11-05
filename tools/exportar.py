@@ -663,6 +663,9 @@ def main():
         'Cada norma tiene un ID permanente KYN-MRK-XXX-### y un estado: vigente, borrador o descontinuada.', '',
         'Escrito una vez en el libro (HTML) y publicado en tres formas: lectura visual, documental y estructurada. '
         f'Permisos: {PERMISOS}.', '',
+        '## Antes de consultar', '',
+        '- [Convenciones de autoridad normativa](/ia/gobierno.json): niveles DEBE, NO DEBE, DEBERÍA y PUEDE; estados de vigencia; ámbitos; aprobación, excepciones y citación. Una clasificación propuesta por IA no tiene vigencia sin aprobación humana.',
+        '- [Rutas de lectura y convenciones en la web](/recursos/gobierno.html)', '',
         '## Libro completo', '',
         '- [Libro completo en Markdown](/ia/libro-de-marca.md)',
         '- [Índice de áreas, capítulos y normas](/ia/indice.json): estado, versión, rutas y referencias cruzadas',

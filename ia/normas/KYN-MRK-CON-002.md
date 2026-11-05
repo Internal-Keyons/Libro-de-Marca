@@ -20,7 +20,7 @@ Número: 2.1.1 · Estado: vigente · Capítulo: 02 Concepto · Fuente: `/marca/c
 
 ##### Cinco cielos, tres funciones
 
-No aparecen en la misma proporción. Repetir el cielo dominante construye **reconocimiento**; variarlo con intención da **rango expresivo**.
+Repetir el cielo dominante construye **reconocimiento**; variarlo con intención da **rango expresivo**.
 
 Las proporciones indicadas orientan el uso de los cielos en las piezas donde corresponde aplicar este lenguaje visual. No son cuotas obligatorias para cada documento, campaña o producto.
 

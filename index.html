@@ -69,6 +69,12 @@ a.row:focus-visible,.row--off:focus-visible{outline:2px solid var(--color-focus)
   .foot .wrap{flex-direction:column}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+/* Enlace al gobierno normativo común */
+.gov-link{padding-bottom:var(--s20)}
+.gov-link a{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:var(--s2) var(--s6);padding:var(--s6) 0;border-top:1px solid var(--color-border-strong);text-decoration:none}
+.gov-link a span:first-child{font-size:18px;font-weight:500;color:var(--k-noche)}
+.gov-link a span:last-child{font-size:14px;color:var(--color-text-3)}
+.gov-link a:hover span:first-child{text-decoration:underline;text-decoration-color:var(--k-cielo);text-underline-offset:4px}
 </style>
 </head>
 <body>
@@ -108,6 +114,8 @@ a.row:focus-visible,.row--off:focus-visible{outline:2px solid var(--color-focus)
     </ol>
   </div>
 </main>
+
+<section class="gov-link"><div class="wrap"><a href="recursos/gobierno.html"><span>Gobierno normativo común</span><span>Autoridad, vigencia, ámbitos, citación y rutas de lectura para los seis libros</span></a></div></section>
 
 <footer class="foot">
   <div class="wrap"><span>Keyons · Costa Rica, 2026</span></div>

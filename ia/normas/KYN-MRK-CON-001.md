@@ -32,5 +32,3 @@ Keyons nace en Costa Rica, así que sus primeros cielos son costarricenses: el a
 La Galaxia es el único cielo que no se fotografía en un lugar: representa la evolución ilimitada hacia lo que aún no existe.
 
 El cielo es el origen conceptual y cromático de Keyons. Su representación visual depende del propósito de cada pieza.
-
-En composiciones editoriales puede convertirse en protagonista. En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.

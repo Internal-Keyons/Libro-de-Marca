@@ -511,7 +511,8 @@
      "descripcion": "La memoria de las decisiones.",
      "rutas": [
       "/recursos/referencia.html",
-      "/fundamentos/criterio/antipatrones.html"
+      "/fundamentos/criterio/antipatrones.html",
+      "/recursos/gobierno.html"
      ],
      "markdown": "/ia/capitulos/28-referencia.md",
      "normas": [
