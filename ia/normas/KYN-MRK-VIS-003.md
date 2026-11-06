@@ -4,22 +4,34 @@ version: "0.1"
 fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-003"
-titulo: "Jerarquía visual repetitiva"
-numero: "10.5.1"
+titulo: "Geometría genérica"
+numero: "9.2.1"
 estado: "vigente"
-capitulo: "10 Composición"
+capitulo: "09 Geometría y espacio"
 area: "Fundamentos"
-fuente: "/fundamentos/composicion/editorial.html#vis-003"
+fuente: "/fundamentos/forma/espacio.html#vis-003"
 referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-VIS-003 · Jerarquía repetida
+# KYN-MRK-VIS-003 · Geometría genérica
 
-Número: 10.5.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-003`
+Número: 9.2.1 · Estado: vigente · Capítulo: 09 Geometría y espacio · Fuente: `/fundamentos/forma/espacio.html#vis-003`
 
-##### La jerarquía se construye para cada contenido
+##### La geometría Keyons, no un radio para todo
 
-La composición debe responder a **las relaciones y prioridades del contenido**.
+La geometría de los elementos debe responder a **su función y relación compositiva**.
 
-Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.
+No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad.
+
+En las composiciones de Keyons se aplica el principio de contenedores individuales rectos y agrupaciones con combinaciones justificadas de esquinas rectas y curvas.
+
+> Recurso visual: Ejemplo dibujado: Cielo propio · Ver capítulo
+
+**(Uso incorrecto)**
+**El mismo radio en todo** Imagen, contenedor y botón con idéntico redondeo.
+
+> Recurso visual: Ejemplo dibujado: Cielo propio · Ver capítulo
+
+**(Alternativa mejor)**
+**Radios según la función** La imagen y el texto forman un conjunto: exterior recto, interior curvo. El botón conserva su geometría curva.

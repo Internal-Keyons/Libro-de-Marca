@@ -132,7 +132,7 @@ Desviaciones cerradas: VOZ-006 (las notas del ejemplo ahora son las definiciones
   - tablas `.matrix` con filetes celestes, borde superior e inferior y barras de 4 px;
   - DIS-003 con barras de 4 px;
   - botones con borde gris y relleno Azul Noche.
-- **Contradicción abierta:** KYN-MRK-TYP-005 todavía dice «TASA Orbiter 500, en mayúsculas, con espaciado de +8 %».
+- **Contradicción abierta:** KYN-MRK-TYP-004 todavía dice «TASA Orbiter 500, en mayúsculas, con espaciado de +8 %».
 
 ## Revisión del 2026-11-02 · 4 (RV4)
 
@@ -171,7 +171,7 @@ Desviaciones cerradas: VOZ-006 (las notas del ejemplo ahora son las definiciones
   - COL-015 cambia la introducción y los dos apartados, sin los HEX de hover, foco y presionado.
 - **Tipografía:**
   - TYP-002 cambia el título y la introducción y suma «(Espaciado)» y «(Criterio de aplicación)»;
-  - TYP-006 se reorganiza en siete criterios; las demostraciones de presencia humana y términos técnicos se sustituyen por textos del propio libro, y se retira el cierre, que contradecía el criterio 01.
+  - TYP-005 se reorganiza en siete criterios; las demostraciones de presencia humana y términos técnicos se sustituyen por textos del propio libro, y se retira el cierre, que contradecía el criterio 01.
 - **Diseño:**
   - COL-009 pasa de una tabla con columna vacía a la rejilla de dos columnas;
   - CMP-002 y CMP-003 usan el gris de la regla de esquinas (#C7C8CB) en todos los recuadros.
@@ -184,11 +184,11 @@ Desviaciones cerradas: VOZ-006 (las notas del ejemplo ahora son las definiciones
 - **CON-006:** los cuatro criterios con los textos nuevos, como párrafo.
 - **8.8 Tracking en pantalla:** título «Comparar antes de aplicar», introducción, validación y estado; sigue sin ID.
 - **Capítulo 09 · Forma y espacio:**
-  - ESP-001 a ESP-007 con los textos enviados;
+  - ESP-001 a ESP-006 con los textos enviados;
   - no cambiaron radios, espaciados, tokens, retícula ni SVG;
   - en ESP-002, el rótulo «(Lado corto)» pasó a «(Tamaño de referencia)»;
   - en ESP-004, «(Aplica a)» pasó a «(Criterio)»;
-  - en ESP-006, la columna «Se diagrama como» pasó a «Patrón posible».
+  - en CMP-001, la columna «Se diagrama como» pasó a «Patrón posible».
 - **Capítulo 10 · Composiciones:**
   - CMP-003 tiene la cota en Azul Cielo de 4 px y más aire hasta las etiquetas;
   - CMP-004 tiene la explicación y los cuatro criterios nuevos («Pausas visuales» en dos renglones);
@@ -211,7 +211,7 @@ Desviaciones cerradas: VOZ-006 (las notas del ejemplo ahora son las definiciones
 - **Contradicciones abiertas:**
   - ILU-007 dice que las tramas no son fondos permanentes de capítulos, pero hoy aparecen en encabezados y subencabezados;
   - COL-014 mantiene el Error en «Terracota suave»;
-  - en ESP-007, los «Arcos de método» nombran etapas sin documentación oficial de Prisma con la cual contrastarlas.
+  - en ESP-006, los «Arcos de método» nombran etapas sin documentación oficial de Prisma con la cual contrastarlas.
 
 ## Revisión del 2026-11-03 · 2 (RV11)
 
@@ -219,8 +219,8 @@ Desviaciones cerradas: VOZ-006 (las notas del ejemplo ahora son las definiciones
   - el calendario tiene ahora el ancho y el alto visibles de cámara;
   - la galería quedó sin KY-012, así que conserva 15 imágenes.
 - **LOG-010:** el carrusel muestra el número, la condición, el título y una frase. El texto sobre la prueba pasó abajo, con el rótulo «(Prueba de reconocimiento)».
-- **TYP-004:** las líneas son como las de las tablas, con la vertical de 4 px en Azul Cielo.
-- **TYP-006:** cada criterio tiene una frase principal y otra de apoyo más pequeña. Los ejemplos 01 y 02 son más cortos.
+- **TYP-002:** las líneas son como las de las tablas, con la vertical de 4 px en Azul Cielo.
+- **TYP-005:** cada criterio tiene una frase principal y otra de apoyo más pequeña. Los ejemplos 01 y 02 son más cortos.
 - **Capítulo 12:**
   - el grupo «Luz, profundidad y atmósfera» se llama «Profundidad atmosférica»;
   - ILU-006 tiene la frase nueva sobre el texto vertical;

@@ -8,8 +8,8 @@ titulo: "Referencia"
 area: "Recursos"
 estado: "borrador"
 rutas: ["/recursos/referencia.html", "/fundamentos/criterio/antipatrones.html"]
-normas: ["KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-VIS-011", "KYN-MRK-VIS-015"]
-referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-009", "KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-VIS-001", "KYN-MRK-VIS-002", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-005", "KYN-MRK-VIS-006", "KYN-MRK-VIS-007", "KYN-MRK-VIS-008", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-011", "KYN-MRK-VIS-012", "KYN-MRK-VIS-013", "KYN-MRK-VIS-014", "KYN-MRK-VIS-015", "KYN-MRK-VIS-016"]
+normas: ["KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-VIS-007", "KYN-MRK-VIS-011"]
+referencias: ["KYN-MRK-COL-001", "KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-VIS-001", "KYN-MRK-VIS-002", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-005", "KYN-MRK-VIS-006", "KYN-MRK-VIS-007", "KYN-MRK-VIS-008", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-011", "KYN-MRK-VIS-012"]
 ---
 
 # Capítulo 28 · Referencia
@@ -118,46 +118,42 @@ Número: 28.2 · ID: `KYN-MRK-REF-002` · Estado: vigente · Fuente: `/recursos/
 
 ### Todas las normas, por ID
 
-Cada ID lleva a su sección. Las normas descontinuadas conservan su número y se muestran al final.
+Cada ID lleva a su sección.
 
 ## Criterios visuales
 
 Rótulo: Referencia · Trazabilidad · Fuente: `/fundamentos/criterio/antipatrones.html`
 
-Dónde vive hoy cada una de las dieciséis normas que formaron este capítulo.
+Dónde vive cada una de las doce normas de criterio visual.
 
 ## 28.3 Trazabilidad
 
 Número: 28.3 · Fuente: `/fundamentos/criterio/antipatrones.html#trazabilidad`
 
-### Dieciséis normas, una fuente cada una
+### Doce normas, una fuente cada una
 
-El capítulo Criterios visuales se integró en las materias que regulan cada tema. **Los dieciséis ID se conservan**: cada uno lleva a su ubicación vigente.
+Cada criterio visual vive en la materia que regula su tema. **Cada ID lleva a su ubicación** dentro del libro.
 
 | (Norma) | Destino | Estado |
 |---|---|---|
-| KYN-MRK-VIS-001 · Kicker decorativo | KYN-MRK-TYP-005 · Etiquetas de contexto | Integrada |
-| KYN-MRK-VIS-002 · Tracking indiscriminado | Tipografía · Tracking (8.8) | Integrada |
-| KYN-MRK-VIS-003 · Jerarquía visual repetitiva | Composición · Jerarquía y densidad | Trasladada |
-| KYN-MRK-VIS-004 · Tarjetas innecesarias | Composición · Patrones de composición | Trasladada |
-| KYN-MRK-VIS-005 · Gradientes ornamentales | KYN-MRK-COL-009 · Gradientes | Integrada |
-| KYN-MRK-VIS-006 · Geometría genérica | Geometría y espacio · Radios y curvaturas | Trasladada |
-| KYN-MRK-VIS-007 · Acentos tipográficos repetidos | KYN-MRK-TYP-006 · Énfasis con moderación | Integrada |
-| KYN-MRK-VIS-008 · Iconografía de relleno | Iconografía · Uso | Trasladada |
-| KYN-MRK-VIS-009 · Saturación de microelementos | Composición · Jerarquía y densidad | Trasladada |
-| KYN-MRK-VIS-010 · Simetría automática | Composición · Simetría y asimetría | Trasladada |
-| KYN-MRK-VIS-011 · Movimiento ornamental | Movimiento | En integración |
-| KYN-MRK-VIS-012 · Contraste insuficiente | Color · Combinaciones, con referencia a Accesibilidad | Trasladada |
-| KYN-MRK-VIS-013 · Lenguaje genérico | Voz · Vocabulario que evitamos | Trasladada |
-| KYN-MRK-VIS-014 · Maximalismo uniforme | Composición · Ritmo y equilibrio | Trasladada |
-| KYN-MRK-VIS-015 · Originalidad a costa de orientación | Sistema de Diseño · Principios de experiencia | En integración |
-| KYN-MRK-VIS-016 · Composición no intercambiable | Composición · Identidad visual aplicada | Trasladada |
+| KYN-MRK-VIS-001 · Jerarquía visual repetitiva | Composición · Jerarquía y densidad | Vigente |
+| KYN-MRK-VIS-002 · Tarjetas innecesarias | Composición · Patrones de composición | Vigente |
+| KYN-MRK-VIS-003 · Geometría genérica | Geometría y espacio · Radios y curvaturas | Vigente |
+| KYN-MRK-VIS-004 · Iconografía de relleno | Iconografía · Uso | Vigente |
+| KYN-MRK-VIS-005 · Saturación de microelementos | Composición · Jerarquía y densidad | Vigente |
+| KYN-MRK-VIS-006 · Simetría automática | Composición · Simetría y asimetría | Vigente |
+| KYN-MRK-VIS-007 · Movimiento ornamental | Movimiento | En integración |
+| KYN-MRK-VIS-008 · Contraste insuficiente | Color · Combinaciones, con referencia a Accesibilidad | Vigente |
+| KYN-MRK-VIS-009 · Lenguaje genérico | Voz · Vocabulario que evitamos | Vigente |
+| KYN-MRK-VIS-010 · Maximalismo uniforme | Composición · Ritmo y equilibrio | Vigente |
+| KYN-MRK-VIS-011 · Originalidad a costa de orientación | Sistema de Diseño · Principios de experiencia | En integración |
+| KYN-MRK-VIS-012 · Composición no intercambiable | Composición · Identidad visual aplicada | Vigente |
 
 Las dos normas en integración siguen vigentes aquí hasta que su destino tenga página: Movimiento en este libro y Principios de experiencia en el Sistema de Diseño.
 
-## KYN-MRK-VIS-011 · 28.3.1 Movimiento
+## KYN-MRK-VIS-007 · 28.3.1 Movimiento
 
-Número: 28.3.1 · ID: `KYN-MRK-VIS-011` · Estado: vigente · Fuente: `/fundamentos/criterio/antipatrones.html#vis-011`
+Número: 28.3.1 · ID: `KYN-MRK-VIS-007` · Estado: vigente · Fuente: `/fundamentos/criterio/antipatrones.html#vis-007`
 
 ### El movimiento orienta, no distrae
 
@@ -173,9 +169,9 @@ En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene
 **(Alternativa mejor)**
 Una transición breve muestra de dónde viene el panel. Se presenta como secuencia, sin animación automática.
 
-## KYN-MRK-VIS-015 · 28.3.2 Orientación
+## KYN-MRK-VIS-011 · 28.3.2 Orientación
 
-Número: 28.3.2 · ID: `KYN-MRK-VIS-015` · Estado: vigente · Fuente: `/fundamentos/criterio/antipatrones.html#vis-015`
+Número: 28.3.2 · ID: `KYN-MRK-VIS-011` · Estado: vigente · Fuente: `/fundamentos/criterio/antipatrones.html#vis-011`
 
 ### Original, pero siempre comprensible
 

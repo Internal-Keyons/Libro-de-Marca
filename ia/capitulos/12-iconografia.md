@@ -8,8 +8,8 @@ titulo: "Iconografía"
 area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/iconografia/iconos.html"]
-normas: ["KYN-MRK-ICO-001", "KYN-MRK-ICO-002", "KYN-MRK-ICO-003", "KYN-MRK-VIS-008", "KYN-MRK-ICO-004", "KYN-MRK-ICO-005", "KYN-MRK-ICO-006"]
-referencias: ["KYN-MRK-COL-014", "KYN-MRK-ICO-001", "KYN-MRK-ICO-002", "KYN-MRK-ICO-003", "KYN-MRK-ICO-004", "KYN-MRK-ICO-005", "KYN-MRK-ICO-006", "KYN-MRK-VIS-008"]
+normas: ["KYN-MRK-ICO-001", "KYN-MRK-ICO-002", "KYN-MRK-ICO-003", "KYN-MRK-VIS-004", "KYN-MRK-ICO-004", "KYN-MRK-ICO-005", "KYN-MRK-ICO-006"]
+referencias: ["KYN-MRK-COL-014", "KYN-MRK-ICO-001", "KYN-MRK-ICO-002", "KYN-MRK-ICO-003", "KYN-MRK-ICO-004", "KYN-MRK-ICO-005", "KYN-MRK-ICO-006", "KYN-MRK-VIS-004"]
 ---
 
 # Capítulo 12 · Iconografía
@@ -87,9 +87,9 @@ Un ícono comunica mejor acompañado. **Solo, debe ser inequívoco.**
 - Agentes de IA · Estela y los demás agentes usan su avatar en la conversación y un ícono solo en espacios mínimos.
 - Redes y servicios externos · Versión original del servicio, monocroma en Azul Noche o Blanco y al mismo tamaño óptico. Nunca se redibujan.
 
-## KYN-MRK-VIS-008 · 12.3.1 Iconografía de relleno
+## KYN-MRK-VIS-004 · 12.3.1 Iconografía de relleno
 
-Número: 12.3.1 · ID: `KYN-MRK-VIS-008` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#vis-008`
+Número: 12.3.1 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#vis-004`
 
 ### Un ícono tiene que ayudar a entender
 
@@ -102,7 +102,7 @@ Los íconos deben favorecer orientación, comprensión, identificación o expres
 **(Uso incorrecto)**
 **Un ícono genérico junto a cada titular** Una bombilla, un cohete o un engranaje que no dicen nada del contenido.
 
-> Recurso visual: Ejemplo dibujado: Descargar diagnóstico · Acción · Norma vigente · Estado · Propuesta comercial · Categoría
+> Recurso visual: Ejemplo dibujado: Enviar solicitud · Acción · Norma vigente · Estado · Propuesta comercial · Categoría
 
 **(Alternativa mejor)**
 **Un ícono con función** El ícono identifica una acción, un estado o una categoría.

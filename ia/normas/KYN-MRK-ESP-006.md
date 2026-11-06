@@ -3,7 +3,7 @@ manual: "Libro de Marca Keyons"
 version: "0.1"
 fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
-id: "KYN-MRK-ESP-007"
+id: "KYN-MRK-ESP-006"
 titulo: "Diagramas de información"
 numero: "10.6"
 estado: "vigente"
@@ -14,7 +14,7 @@ referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-ESP-007 · Diagramas de información
+# KYN-MRK-ESP-006 · Diagramas de información
 
 Número: 10.6 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
 

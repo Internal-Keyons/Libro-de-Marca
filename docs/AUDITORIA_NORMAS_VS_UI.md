@@ -46,7 +46,7 @@ Las diferencias que más se notan a la vista:
 | Salmón Atardecer | Solo sobre Azul Noche | Solo en viñetas y piezas sobre fondo oscuro | **Coincide** |
 | Salmón y Cielo no se apoyan | Sin botones Salmón sobre Cielo ni al revés | No hay casos | **Coincide** |
 | Color de foco | Token `--color-focus: Azul Cielo` | Contorno de foco de 2 px en **Azul Noche** (`:focus-visible`); los campos sí usan Cielo | **Difiere** |
-| VIS-012 Contraste | Comprobar el contraste según la función | Títulos de sección en `#8B8C92` sobre `#F4F4F4`: unos 3,2:1. Cumple AA para texto grande (44 px), no para texto normal | **Parcial** |
+| VIS-008 Contraste | Comprobar el contraste según la función | Títulos de sección en `#8B8C92` sobre `#F4F4F4`: unos 3,2:1. Cumple AA para texto grande (44 px), no para texto normal | **Parcial** |
 
 ## 2. Tipografía
 
@@ -59,16 +59,16 @@ Las diferencias que más se notan a la vista:
 | Tracking de los títulos Jakarta (8.8) | 0em; la jerarquía se hace con tamaño, peso, posición y espacio | −3 % en los títulos de sección, −2 % en `.t-h3` y −1 % en los subtítulos | **Difiere** |
 | TYP-002 Entrada | 18 a 20 px, 400, interlineado 1,55 | Igual | **Coincide** |
 | TYP-002 Cuerpo | 16 a 17 px, interlineado 1,65 | 16 px de base con interlineado 1,6; filas de texto a 17 px con 1,65 | **Parcial** |
-| TYP-005 Kicker | TASA Orbiter 500, mayúsculas, 14 px, +8 %, estrella a la izquierda | **Jakarta 700**, mayúsculas, 12 a 13 px, +2 %, estrella a la izquierda | **Difiere** (familia, peso, tamaño y espaciado) |
+| TYP-004 Kicker | TASA Orbiter 500, mayúsculas, 14 px, +8 %, estrella a la izquierda | **Jakarta 700**, mayúsculas, 12 a 13 px, +2 %, estrella a la izquierda | **Difiere** (familia, peso, tamaño y espaciado) |
 | Reglas de composición (8.2) | Título contextual de 20 px 500 Noche; declaración de 44 px 400 en gris; entrada y cuerpo en Azul Noche | En las páginas, la entrada y el cuerpo van en `#4B4D60` (gris 2), no en Noche | **Difiere** |
-| TYP-006 Énfasis | Semibold con moderación | Negrita 600 en Noche dentro de entradas y textos | **Coincide** |
-| TYP-007 Cifras | Cifras tabulares en datos comparables | `tabular-nums` en tablas, contadores y numeraciones | **Coincide** |
+| TYP-005 Énfasis | Semibold con moderación | Negrita 600 en Noche dentro de entradas y textos | **Coincide** |
+| TYP-006 Cifras | Cifras tabulares en datos comparables | `tabular-nums` en tablas, contadores y numeraciones | **Coincide** |
 
 ## 3. Geometría y espacio
 
 | Norma | Lo que dice | Lo que aplica el código | Estado |
 |---|---|---|---|
-| ESP-001 Regla de esquinas | Exterior recto, interior curvo; una pieza sola, recta | Se aplica en comparativos, pares, tríos, pilas (VIS-014 ya corregido), tarjetas de estado y paneles | **Coincide** |
+| ESP-001 Regla de esquinas | Exterior recto, interior curvo; una pieza sola, recta | Se aplica en comparativos, pares, tríos, pilas (VIS-010 ya corregido), tarjetas de estado y paneles | **Coincide** |
 | ESP-002 Radios | 3 / 12 / 18 / 30 / 50 px según el tamaño | Tokens idénticos. Las tarjetas de unos 370 px usan 30 px, como corresponde | **Coincide** |
 | Radios en código | Siempre con variable, nunca con número suelto | Hay radios sueltos en el CSS (8 px en las opciones del menú, 3 px en las barras de muestra, `50%` en los círculos) | **Parcial** |
 | ESP-003 Espaciado | Múltiplos de 4 px | Escala de 4 a 128 px. Hay excepciones sueltas: 6, 10 y 14 px en rellenos de píldoras y menús | **Coincide** (con excepciones menores) |
@@ -105,8 +105,8 @@ Las diferencias que más se notan a la vista:
 |---|---|---|---|
 | Firma de movimiento | Curva `e-io (.65,.05,.36,1)`; duraciones de 180, 300 y 520 ms | Tokens idénticos y en uso en botones y menús | **Coincide** |
 | Hover «Ráfaga» (memoria de proyecto) | Viento para el hover, sin ondas | Encabezados con viento y nubes; los botones usan enderezado de radio y desplazamiento de flecha | **Parcial** |
-| VIS-011 Movimiento | Breve en herramientas, expresivo con intención; respetar el movimiento reducido | Todas las animaciones se desactivan con `prefers-reduced-motion` | **Coincide** |
-| Ampliación de texto (TYP-006, criterio 07) | Ampliar texto y espaciado sin perder contenido | Unidades `clamp` y textos sin altura fija; sin desbordes en móvil en las páginas revisadas | **Coincide** |
+| VIS-007 Movimiento | Breve en herramientas, expresivo con intención; respetar el movimiento reducido | Todas las animaciones se desactivan con `prefers-reduced-motion` | **Coincide** |
+| Ampliación de texto (TYP-005, criterio 07) | Ampliar texto y espaciado sin perder contenido | Unidades `clamp` y textos sin altura fija; sin desbordes en móvil en las páginas revisadas | **Coincide** |
 | Foco visible | (ver Color) | Contorno de 2 px Noche en todo elemento enfocable | **Difiere** del token (Cielo) |
 
 ---
@@ -115,7 +115,7 @@ Las diferencias que más se notan a la vista:
 
 | # | Tema | Opción A | Opción B |
 |---|---|---|---|
-| 1 | Kicker | Cambiar el código a TASA 500, 14 px, +8 % | Ajustar la norma TYP-005 a Jakarta 700, 13 px, +2 % |
+| 1 | Kicker | Cambiar el código a TASA 500, 14 px, +8 % | Ajustar la norma TYP-004 a Jakarta 700, 13 px, +2 % |
 | 2 | Tracking de títulos | Poner los títulos de sección y subtítulos a 0em (8.8) | Registrar −3 % como ajuste aprobado de esos títulos |
 | 3 | Tracking del display | `.t-display` a −3 % hasta 79 px y −5 % desde 80 px | Mantener −4 % y registrarlo |
 | 4 | Divisores | Actualizar ILU-003 a Azul Cielo 100 y 200 | Devolver el código a Gris Bruma y Noche al 16 % |

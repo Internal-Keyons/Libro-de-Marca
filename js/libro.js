@@ -264,7 +264,7 @@
     const sky = p.matches('.portal--cielo') ? 'mediodia' : p.matches('.portal--salmon') ? 'atardecer' : 'noche';
     cielos.push([p, sky, document.body.dataset.page || location.pathname, true]);
   });
-  /* Muestras de cielo dentro del contenido (ESP-007, Secuencia Prisma): el mismo cielo en código, una fase por muestra */
+  /* Muestras de cielo dentro del contenido (ESP-006, Secuencia Prisma): el mismo cielo en código, una fase por muestra */
   document.querySelectorAll('[data-cielo]').forEach((el) => cielos.push([el, el.dataset.cielo, 'muestra-' + el.dataset.cielo]));
   if (cielos.length) {
     const s = document.createElement('script');
@@ -522,32 +522,36 @@
   document.querySelectorAll('select[data-kdd]').forEach(kdd);
 
 
-  /* 8.2 · Escriba un tamaño en cualquier nivel: los demás toman la misma posición dentro de su rango */
+  /* 8.2 · Escriba un tamaño en cualquier nivel: todos los demás se escalan en la misma proporción.
+     Lo que cae fuera de la escala de lectura (12 · 14 · 16 · 20 · 24 · 32) o del rango de exhibición queda marcado. */
   const PEN = '<svg class="szc__pen" viewBox="0 0 32 32" aria-hidden="true"><path d="M20.5 6.5l5 5L12 25H7v-5z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="miter"/><path d="M17.5 9.5l5 5" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>';
+  const ESCALA = [12, 14, 16, 20, 24, 32];
+  const enEscala = (n, v) => (n.min === n.max ? ESCALA.includes(v) : v >= n.min && v <= n.max);
   document.querySelectorAll('[data-escala]').forEach((g) => {
     if (!TIPO) return;
-    g.innerHTML = TIPO.niveles.map((n) => `<div class="szc" data-k="${n.k}"><span class="szc__k">${n.n}</span><p class="szc__v">${n.min === n.max ? n.min
-      : `<input type="text" inputmode="numeric" maxlength="3" value="${n.min}" aria-label="${n.n}, tamaño en px">`}<sup>px</sup>${n.min === n.max ? '' : PEN}</p><p class="szc__m">${TIPO.familias[n.f]} · <span>${tRango(n)}</span></p></div>`).join('');
+    g.innerHTML = TIPO.niveles.map((n) => `<div class="szc" data-k="${n.k}"><span class="szc__k">${n.n}</span><p class="szc__v"><input type="text" inputmode="numeric" maxlength="3" value="${n.min}" aria-label="${n.n}, tamaño en px"><sup>px</sup>${PEN}</p><p class="szc__m">${TIPO.familias[n.f]} · <span>${tRango(n)}</span></p></div>`).join('');
     const reset = document.createElement('button');
     reset.type = 'button'; reset.className = 'szc-reset'; reset.textContent = 'Restablecer'; reset.hidden = true;
     g.after(reset);
     const fit = (i) => { if (!CSS.supports('field-sizing', 'content')) i.style.width = `${Math.max(1, i.value.length) + 0.15}ch`; };
     const cells = [...g.querySelectorAll('.szc')];
+    const mark = (c, n, v) => {
+      const out = !enEscala(n, v);
+      c.classList.toggle('is-out', out);
+      c.querySelector('.szc__m span').textContent = out ? (n.min === n.max ? 'Fuera de la escala' : `Fuera del rango ${tRango(n)}`) : tRango(n);
+    };
     const apply = (src, v) => {
-      const s = tLv(src.dataset.k), t = (v - s.min) / (s.max - s.min), tc = Math.min(1, Math.max(0, t));
+      const k = v / tLv(src.dataset.k).min;
       cells.forEach((c) => {
         const n = tLv(c.dataset.k), i = c.querySelector('input');
-        if (!i) return;
-        const out = c === src && (t < 0 || t > 1);
-        c.classList.toggle('is-out', out);
-        c.querySelector('.szc__m span').textContent = out ? `Fuera del rango ${tRango(n)}` : tRango(n);
-        if (c !== src) { i.value = Math.round(n.min + tc * (n.max - n.min)); fit(i); }
+        const nv = c === src ? v : Math.round(n.min * k);
+        if (c !== src) { i.value = nv; fit(i); }
+        mark(c, n, nv);
       });
-      reset.hidden = false;
+      reset.hidden = k === 1;
     };
     cells.forEach((c) => {
       const i = c.querySelector('input');
-      if (!i) return;
       fit(i);
       i.addEventListener('input', () => {
         i.value = i.value.replace(/\D/g, ''); fit(i);
@@ -555,13 +559,13 @@
         if (v > 0) apply(c, v);
       });
       c.querySelector('.szc__pen').addEventListener('click', () => i.focus());
-      i.addEventListener('blur', () => { if (!i.value) { i.value = tLv(c.dataset.k).min; fit(i); } });
+      i.addEventListener('blur', () => { if (!i.value) { i.value = tLv(c.dataset.k).min; fit(i); apply(c, +i.value); } });
     });
     reset.addEventListener('click', () => {
       cells.forEach((c) => {
         const i = c.querySelector('input'), n = tLv(c.dataset.k);
         c.classList.remove('is-out'); c.querySelector('.szc__m span').textContent = tRango(n);
-        if (i) { i.value = n.min; fit(i); }
+        i.value = n.min; fit(i);
       });
       reset.hidden = true;
     });

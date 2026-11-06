@@ -42,7 +42,7 @@ AMB = {'ADN': IDENT + ['servicios'], 'CON': IDENT, 'DIS': IDENT + ['servicios'],
        'CMP': IDENT, 'GAL': ['identidad', 'web'], 'TEX': ['identidad', 'web'], 'PLA': ['identidad', 'web'], 'REF': ['identidad', 'web'],
        'PRE': ['identidad', 'servicios'], 'PER': ['saas', 'personalizados', 'cliente'],
        'VIS': IDENT}
-CALIDAD = {'KYN-MRK-VIS-011', 'KYN-MRK-VIS-012', 'KYN-MRK-VIS-015'}   # calidad y experiencia: aplican también a productos de clientes
+CALIDAD = {'KYN-MRK-VIS-007', 'KYN-MRK-VIS-008', 'KYN-MRK-VIS-011'}   # calidad y experiencia: aplican también a productos de clientes
 
 # ── Clasificación de requisitos por expresión ──
 R = [
@@ -94,7 +94,7 @@ for h, v in sorted(REG.items(), key=lambda x: x[1]['id']):
 
 dups = {k: sorted(set(v)) for k, v in sent_idx.items() if len(set(v)) > 1}
 CONTRA = [
-    ('KYN-MRK-TYP-005', 'El kicker se especifica en TASA Orbiter 500, 14 px, +8 %; el código lo aplica en Plus Jakarta Sans 700, 12 a 13 px, +2 %.'),
+    ('KYN-MRK-TYP-004', 'El kicker se especifica en TASA Orbiter 500, 14 px, +8 %; el código lo aplica en Plus Jakarta Sans 700, 12 a 13 px, +2 %.'),
     ('KYN-MRK-TYP-002', 'El estándar de tracking (8.8) fija 0em para títulos en Plus Jakarta Sans; los títulos de sección del libro usan −3 %.'),
     ('KYN-MRK-TYP-002', 'El estándar fija −3 % de 52 a 79 px y −5 % desde 80 px para TASA Orbiter; el display del libro usa −4 %.'),
     ('KYN-MRK-ILU-003', 'Divisor de 1 px en Gris Bruma y divisor fuerte en Azul Noche al 16 %; el libro usa Azul Cielo 100 y 200, y barras de 4 px en tablas.'),

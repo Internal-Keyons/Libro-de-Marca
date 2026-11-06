@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#simetria"
-referencias: ["KYN-MRK-VIS-010"]
+referencias: ["KYN-MRK-VIS-006"]
 citada_por: []
 ---
 
@@ -39,4 +39,4 @@ Equilibrar estabilidad y tensión según lo que se cuenta.
 Simetría para lo que se compara o se lee como un conjunto. Asimetría controlada cuando una idea pesa más que otra: una columna ancha junto a una angosta, o un titular que ocupa más que su texto.
 
 **(Invariantes)**
-Ni simetría automática ni asimetría constante: KYN-MRK-VIS-010.
+Ni simetría automática ni asimetría constante: KYN-MRK-VIS-006.

@@ -158,6 +158,9 @@ body[data-glass="1"] .lx-card{background:rgba(255,255,255,.55);-webkit-backdrop-
 /* Etiquetas de estado */
 .lx-badge{display:inline-flex;align-items:center;gap:6px;min-height:26px;padding:0 10px;border-radius:var(--lab-r-pill);font-size:var(--lab-t-sm);font-weight:600;color:var(--lab-text);background:var(--lab-surface-2);white-space:nowrap}
 .lx-badge--ok{background:var(--lab-ok)}.lx-badge--warn{background:var(--lab-warn)}.lx-badge--err{background:var(--lab-err)}.lx-badge--info{background:var(--lab-info)}
+/* Los colores de estado son claros: su texto es siempre Azul Noche, también en fondos oscuros */
+.lx-badge--ok,.lx-badge--warn,.lx-badge--err,.lx-badge--info,.lx-alert{color:#10122A}
+.lx-alert .lx-small{color:#3E3F53}
 
 /* Indicadores */
 .lx-kpi{display:grid;gap:var(--lab-2)}
@@ -233,3 +236,10 @@ body[data-anim~="hover"] .lx-card:hover{transform:translateY(-3px);box-shadow:0 
 .lx-ov{position:absolute;z-index:99;pointer-events:none;outline:1px dashed rgba(206,99,93,.9);background:rgba(114,155,221,.08)}
 .lx-ov b{position:absolute;left:-1px;top:-18px;padding:1px 5px;font:600 10px/14px ui-monospace,Consolas,monospace;color:#fff;background:#10122A;white-space:nowrap}
 .lx-ov--pad{outline:0;background:rgba(206,99,93,.14)}
+
+/* Edición directa: bloque elegido y movimiento libre (solo visibles al editar) */
+body.lx-editing [data-lx-sel]{outline:2px solid #10122A;outline-offset:2px;cursor:pointer}
+body.lx-editing :is(.lx-main > *,.lx-grid > *,.lx-group > *,.lx-stack > *,.lx-top > *,.lx-row > *):hover{outline:1px dashed rgba(16,18,42,.35);outline-offset:2px}
+body.lx-editing [contenteditable="true"]{outline:2px solid #729BDD;outline-offset:2px;cursor:text}
+body.lx-free.lx-editing :is(.lx-main > *,.lx-grid > *,.lx-group > *,.lx-stack > *,.lx-top > *,.lx-row > *){cursor:move;user-select:none}
+[data-lx-free]{position:relative;z-index:2}

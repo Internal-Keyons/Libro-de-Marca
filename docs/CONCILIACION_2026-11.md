@@ -21,7 +21,7 @@ Registro interno del encargo «Conciliación definitiva de instrucciones y conso
 
 - El estado Error de COL-014 sigue en «Terracota suave».
 - Los tratamientos atmosféricos de ILU-007 siguen marcados como «Por validar».
-- Las etapas de los «Arcos de método» (ESP-007) no se han contrastado con la documentación de Prisma.
+- Las etapas de los «Arcos de método» (ESP-006) no se han contrastado con la documentación de Prisma.
 - Los valores de tracking −3 % y −5 % siguen pendientes de validación.
 
 ## A.2 · Cómo se resolvió cada discrepancia
@@ -29,8 +29,8 @@ Registro interno del encargo «Conciliación definitiva de instrucciones y conso
 1. **Tramas en los capítulos.** La instrucción F.1 resuelve la duda de ILU-007: la trama identifica al libro en su portada y en sus encabezados de nivel libro. Los portales de capítulo y los subencabezados dejan de llevarla.
 2. **Normas VIS.** Se aplicaron tres casos:
    - **Trasladadas:** la sección completa pasa junto a su norma de destino. Conserva su ID y su texto aprobado.
-   - **Integradas:** el destino ya incorpora su contenido por mandato de este encargo (VIS-001 en TYP-005, VIS-002 en 8.8 y VIS-007 en TYP-006). El ID queda en el registro con estado «integrada» y apunta a la norma que lo contiene.
-   - **En integración:** el destino todavía no existe (VIS-011 en Movimiento, VIS-015 en el Sistema de Diseño). Quedan visibles y verificables en la página de trazabilidad, fuera de Fundamentos.
+   - **Integradas:** el destino ya incorpora su contenido por mandato de este encargo (TYP-004 en TYP-004, TYP-002 en 8.8 y TYP-005 en TYP-005). El ID queda en el registro con estado «integrada» y apunta a la norma que lo contiene.
+   - **En integración:** el destino todavía no existe (VIS-007 en Movimiento, VIS-011 en el Sistema de Diseño). Quedan visibles y verificables en la página de trazabilidad, fuera de Fundamentos.
 3. **Estado «En revisión»** en el Sistema de Diseño: el usuario lo retiró del libro, así que se usa Borrador.
 4. **Textos que este encargo no trae.** Por ejemplo, los capítulos 02 y 03 del Sistema de Diseño. Se construye la estructura y se marca «Pendiente de redacción». No se inventan normas.
 5. **Numeración visible.** Al salir el capítulo 11, del 12 al 29 bajan un número. Los ID no cambian. Los enlaces antiguos `#cap-NN` siguen funcionando porque `was` admite varios números anteriores.
@@ -39,22 +39,22 @@ Registro interno del encargo «Conciliación definitiva de instrucciones y conso
 
 | Norma | Destino | Tratamiento |
 |---|---|---|
-| VIS-001 | TYP-005 · Etiquetas de contexto | Integrada |
-| VIS-002 | 8.8 · Tracking | Integrada |
-| VIS-003 | 10.5 · Jerarquía y densidad | Trasladada (10.5.1) |
-| VIS-004 | 10.6 · Patrones de composición | Trasladada (10.6.1) |
-| VIS-005 | COL-009 · Gradientes | Trasladada (7.9.1) |
-| VIS-006 | 9.2 · Sistema de radios y curvaturas | Trasladada (9.2.1) |
-| VIS-007 | TYP-006 · criterio 04, Énfasis | Integrada |
-| VIS-008 | ICO-003 · Uso | Trasladada (12.3.1) |
-| VIS-009 | 10.5 · Jerarquía y densidad | Trasladada (10.5.2) |
-| VIS-010 | 10.2 · Simetría y asimetría | Trasladada (10.2.1) |
-| VIS-011 | Movimiento | En integración |
-| VIS-012 | COL-005 · Combinaciones y contraste | Trasladada (7.5.1) |
-| VIS-013 | VOZ-004 · Vocabulario que evitamos | Trasladada (4.4.1) |
-| VIS-014 | 10.4 · Ritmo y equilibrio | Trasladada (10.4.1) |
-| VIS-015 | Sistema de Diseño · Principios de experiencia | En integración |
-| VIS-016 | 10.8 · Identidad visual aplicada | Trasladada (10.8.1) |
+| TYP-004 | TYP-004 · Etiquetas de contexto | Integrada |
+| TYP-002 | 8.8 · Tracking | Integrada |
+| VIS-001 | 10.5 · Jerarquía y densidad | Trasladada (10.5.1) |
+| VIS-002 | 10.6 · Patrones de composición | Trasladada (10.6.1) |
+| COL-009 | COL-009 · Gradientes | Trasladada (7.9.1) |
+| VIS-003 | 9.2 · Sistema de radios y curvaturas | Trasladada (9.2.1) |
+| TYP-005 | TYP-005 · criterio 04, Énfasis | Integrada |
+| VIS-004 | ICO-003 · Uso | Trasladada (12.3.1) |
+| VIS-005 | 10.5 · Jerarquía y densidad | Trasladada (10.5.2) |
+| VIS-006 | 10.2 · Simetría y asimetría | Trasladada (10.2.1) |
+| VIS-007 | Movimiento | En integración |
+| VIS-008 | COL-005 · Combinaciones y contraste | Trasladada (7.5.1) |
+| VIS-009 | VOZ-004 · Vocabulario que evitamos | Trasladada (4.4.1) |
+| VIS-010 | 10.4 · Ritmo y equilibrio | Trasladada (10.4.1) |
+| VIS-011 | Sistema de Diseño · Principios de experiencia | En integración |
+| VIS-012 | 10.8 · Identidad visual aplicada | Trasladada (10.8.1) |
 
 ## Resultados por etapa
 
@@ -75,7 +75,7 @@ Registro interno del encargo «Conciliación definitiva de instrucciones y conso
 | 06 Identidad | 06 Identidad |
 | 07 Color | 07 Color |
 | 08 Tipografía | 08 Tipografía |
-| 09 Forma y espacio (7 normas) | 09 Geometría y espacio (ESP-001 a 003 y VIS-006) |
+| 09 Forma y espacio (7 normas) | 09 Geometría y espacio (ESP-001 a 003 y VIS-003) |
 | 10 Composiciones (4 normas) | 10 Composición (CMP, ESP-004 a 007, cinco VIS y 10.8 Ejemplos) |
 | 11 Criterios visuales (16 normas) | Sale de Fundamentos. La trazabilidad queda en 28 Referencia |
 | 12 Elementos gráficos | 11 Elementos gráficos |
@@ -92,14 +92,14 @@ Los enlaces antiguos `#cap-NN` y las rutas anteriores de las normas trasladadas 
 - **Conservadas en su lugar, con título de materia actualizado:** ESP-001 a 003, CMP-001 a 004, TYP-001 a 007 e ILU-001 a 009.
 - **Trasladadas sin cambiar su ID:**
   - ESP-004 a 007;
-  - VIS-003, 004, 005, 006, 008, 009, 010, 012, 013, 014 y 016.
+  - VIS-001, 004, 005, 006, 008, 009, 010, 012, 013, 014 y 016.
 - **Integradas:**
-  - VIS-001 en TYP-005;
-  - VIS-002 en Tracking (8.8);
-  - VIS-007 en TYP-006.
+  - TYP-004 en TYP-004;
+  - TYP-002 en Tracking (8.8);
+  - TYP-005 en TYP-005.
 - **En integración:**
-  - VIS-011, porque Movimiento aún no tiene página;
-  - VIS-015, porque su destino está en el Sistema de Diseño.
+  - VIS-007, porque Movimiento aún no tiene página;
+  - VIS-011, porque su destino está en el Sistema de Diseño.
 
 ## Valores V1 pendientes de aprobación
 
@@ -122,7 +122,7 @@ Los enlaces antiguos `#cap-NN` y las rutas anteriores de las normas trasladadas 
   - los cuatro pasos de la portada.
 - **Textos redactados al implementar, por revisar:**
   - leyendas de 10.8 Ejemplos de aplicación;
-  - leyendas de las demostraciones de TYP-006;
+  - leyendas de las demostraciones de TYP-005;
   - leyenda «Alcance» de TYP-001;
   - textos breves de la página de trazabilidad;
   - descripciones de capítulo de 09, 10 y 11;

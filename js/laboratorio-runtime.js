@@ -128,9 +128,86 @@
     var solo = [].filter.call(document.querySelectorAll('.lx-card'), function (c) { return !c.parentElement.classList.contains('lx-group'); });
     var round = solo.filter(function (c) { return parseFloat(getComputedStyle(c).borderTopLeftRadius) > 0; }).length;
     items.push({ k: 'Geometría', ok: !round, warn: !!round, d: round ? round + ' tarjetas aisladas con esquinas curvas: la regla pide cuatro rectas.' : 'Tarjetas aisladas rectas; en grupo, exterior recta e interior curva.' });
+    var libres = document.querySelectorAll('[data-lx-free]').length;
+    if (libres) items.push({ k: 'Retícula', ok: false, warn: true, d: libres + (libres === 1 ? ' bloque movido' : ' bloques movidos') + ' fuera de la retícula.' });
     ovs.forEach(function (o) { o.style.display = ''; });
     post({ type: 'checks', items: items, w: W });
   }
+
+  /* ── Edición directa (sin costo): seleccionar bloques, reescribir textos, duplicar, borrar, mover ──
+     Con «Ajustar a la retícula» encendido, mover cambia el orden y el ancho en columnas;
+     apagado, el bloque se arrastra libre y queda marcado como fuera de norma. */
+  var editar = false, snap = true, sel = null, drag = null;
+  var BLOCK = '.lx-main > *, .lx-grid > *, .lx-group > *, .lx-stack > *, .lx-top > *, .lx-row > *, .lx-nav > a';
+  var TEXT = 'h1,h2,h3,h4,p,b,li,td,th,label,.lx-btn,.lx-badge,.lx-small,.lx-meta,.lx-kicker,.lx-num';
+  function blockOf(el) { while (el && el !== body) { if (el.matches && el.matches(BLOCK)) return el; el = el.parentElement; } return null; }
+  function info(el) {
+    if (!el) return null;
+    var cs = getComputedStyle(el), p = el.parentElement, grid = p && p.classList.contains('lx-grid');
+    var span = grid ? (parseInt((el.style.getPropertyValue('--span') || cs.getPropertyValue('--span')), 10) || null) : null;
+    var kind = el.classList.contains('lx-btn') ? 'btn' : el.classList.contains('lx-card') ? 'card' : el.classList.contains('lx-badge') ? 'badge' : 'block';
+    var variant = kind === 'btn' ? (el.classList.contains('lx-btn--primary') ? 'primary' : el.classList.contains('lx-btn--outline') ? 'outline' : 'ghost')
+      : kind === 'badge' ? (['ok', 'warn', 'err', 'info'].filter(function (v) { return el.classList.contains('lx-badge--' + v); })[0] || 'neutral') : '';
+    var r = el.getBoundingClientRect();
+    return { tag: el.tagName.toLowerCase(), cls: (el.className || '').toString().split(' ').filter(function (c) { return c.indexOf('lx-') === 0; }).slice(0, 3).join(' '),
+      w: Math.round(r.width), h: Math.round(r.height), grid: grid, span: span, kind: kind, variant: variant, free: !!el.dataset.lxFree };
+  }
+  function select(el) {
+    if (sel) sel.removeAttribute('data-lx-sel');
+    sel = el; if (sel) sel.setAttribute('data-lx-sel', '');
+    post({ type: 'sel', info: info(sel) });
+  }
+  function serialize() {
+    var c = body.cloneNode(true);
+    c.querySelectorAll('script,#lx-sky,.lx-ov').forEach(function (n) { n.remove(); });
+    c.querySelectorAll('[data-lx-sel]').forEach(function (n) { n.removeAttribute('data-lx-sel'); });
+    c.querySelectorAll('[contenteditable]').forEach(function (n) { n.removeAttribute('contenteditable'); });
+    return c.innerHTML.trim();
+  }
+  function changed() { post({ type: 'html', html: serialize(), libres: document.querySelectorAll('[data-lx-free]').length }); refresh(); }
+  function cmd(c, v) {
+    if (!sel) return;
+    var p = sel.parentElement;
+    if (c === 'dup') { var d = sel.cloneNode(true); d.removeAttribute('data-lx-sel'); sel.after(d); select(d); }
+    if (c === 'del') { var n = sel.nextElementSibling || sel.previousElementSibling; sel.remove(); select(n && blockOf(n)); }
+    if (c === 'up' && sel.previousElementSibling) p.insertBefore(sel, sel.previousElementSibling);
+    if (c === 'down' && sel.nextElementSibling) p.insertBefore(sel.nextElementSibling, sel);
+    if (c === 'span' && p.classList.contains('lx-grid')) {
+      var cols = parseInt(getComputedStyle(p).gridTemplateColumns.split(' ').length, 10) || 12;
+      var cur = parseInt(sel.style.getPropertyValue('--span') || getComputedStyle(sel).getPropertyValue('--span'), 10) || cols;
+      sel.style.setProperty('--span', Math.max(1, Math.min(cols, cur + v)));
+    }
+    if (c === 'variant') {
+      if (sel.classList.contains('lx-btn')) { ['primary', 'outline', 'ghost'].forEach(function (k) { sel.classList.remove('lx-btn--' + k); }); sel.classList.add('lx-btn--' + v); }
+      if (sel.classList.contains('lx-badge')) { ['ok', 'warn', 'err', 'info'].forEach(function (k) { sel.classList.remove('lx-badge--' + k); }); if (v !== 'neutral') sel.classList.add('lx-badge--' + v); }
+    }
+    if (c === 'snapback') { sel.style.removeProperty('translate'); sel.removeAttribute('data-lx-free'); }
+    post({ type: 'sel', info: info(sel) }); changed();
+  }
+  document.addEventListener('click', function (e) {
+    if (!editar) return;
+    if (!e.target.closest('[contenteditable="true"]')) e.preventDefault();
+    var b = blockOf(e.target); if (b) select(b);
+  }, true);
+  document.addEventListener('dblclick', function (e) {
+    if (!editar) return;
+    var t = e.target.closest(TEXT); if (!t) return;
+    t.setAttribute('contenteditable', 'true'); t.focus();
+    t.addEventListener('blur', function done() { t.removeAttribute('contenteditable'); t.removeEventListener('blur', done); changed(); });
+  });
+  document.addEventListener('pointerdown', function (e) {
+    if (!editar || snap || e.target.closest('[contenteditable="true"]')) return;
+    var bk = blockOf(e.target); if (!bk) return;
+    if (bk !== sel) select(bk);
+    var t = (sel.style.translate || '0px 0px').split(' ').map(parseFloat);
+    drag = { x: e.clientX - (t[0] || 0), y: e.clientY - (t[1] || 0) }; e.preventDefault();
+  });
+  document.addEventListener('pointermove', function (e) {
+    if (!drag || !sel) return;
+    sel.style.translate = Math.round(e.clientX - drag.x) + 'px ' + Math.round(e.clientY - drag.y) + 'px';
+    sel.setAttribute('data-lx-free', '');
+  });
+  document.addEventListener('pointerup', function () { if (drag) { drag = null; post({ type: 'sel', info: info(sel) }); changed(); } });
 
   var tm = 0;
   function refresh() { clearTimeout(tm); tm = setTimeout(function () { overlay(); checks(); }, 120); }
@@ -138,6 +215,9 @@
     var m = e.data || {};
     if (m.type === 'vars') { applyVars(m.vars, m.attrs); refresh(); }
     if (m.type === 'tecnica') { tecnica = !!m.on; overlay(); }
+    if (m.type === 'editar') { editar = !!m.on; body.classList.toggle('lx-editing', editar); if (!editar) select(null); }
+    if (m.type === 'snap') { snap = !!m.on; body.classList.toggle('lx-free', !snap); }
+    if (m.type === 'cmd') cmd(m.c, m.v);
   });
   window.addEventListener('resize', refresh);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(refresh);

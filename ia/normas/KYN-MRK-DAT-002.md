@@ -65,9 +65,9 @@ Para magnitudes ordenadas, del claro al profundo en pasos parejos. La de Azul Ci
 
 ###### Paleta divergente
 
-Azul Cielo, Azul Noche, Lavanda, Blanco Keyons, Amarillo claro de los cielos, Ámbar de los cielos, Salmón Tierra y Salmón Atardecer.
+Azul Noche, Azul Cielo, Lavanda, Salmón Tierra, Salmón Atardecer, Blanco Keyons, Amarillo claro de los cielos y Ámbar de los cielos.
 
-Orden de representación
+Nota
 Esta combinación conserva la relación entre los azules de la identidad y los tonos cálidos de los cielos. Los dos extremos representan direcciones diferentes respecto al centro. Su significado depende de los datos y se comunica mediante etiquetas y unidades.
 
 **(DEBE · Referencia central)**
@@ -103,5 +103,8 @@ El Sistema de Diseño establecerá su implementación técnica, adaptación resp
 
 Los colores semánticos pertenecen a estados como éxito, advertencia, error, información y estado crítico.
 
+Nota
 La paleta semántica se utiliza para comunicar estados, mientras que las paletas estadísticas representan categorías, magnitudes y diferencias.
+
+Nota
 Para pérdidas, errores y resultados desfavorables se utiliza el color semántico correspondiente, acompañándolo de texto, símbolo o indicador explícito. La definición técnica de esos colores procede del catálogo semántico oficial del proyecto (KYN-MRK-COL-014).

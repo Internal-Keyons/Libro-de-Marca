@@ -2,15 +2,15 @@
  "estado": "Propuesta pendiente de aprobación humana",
  "regla": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
  "resumen": {
-  "normas": 133,
-  "requisitos": 233,
+  "normas": 126,
+  "requisitos": 227,
   "por_nivel": {
-   "DEBE": 94,
-   "NO DEBE": 83,
-   "PUEDE": 47,
+   "DEBE": 89,
+   "NO DEBE": 84,
+   "PUEDE": 45,
    "DEBERÍA": 9
   },
-  "ambiguedades": 41,
+  "ambiguedades": 40,
   "duplicaciones": 0
  },
  "normas": [
@@ -650,12 +650,7 @@
     {
      "ref": "KYN-MRK-CON-004.4",
      "nivel": "PUEDE",
-     "texto": "En composiciones editoriales puede convertirse en protagonista."
-    },
-    {
-     "ref": "KYN-MRK-CON-004.5",
-     "nivel": "PUEDE",
-     "texto": "En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo."
+     "texto": "En composiciones editoriales puede convertirse en protagonista.En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo."
     }
    ]
   },
@@ -1090,20 +1085,6 @@
    ]
   },
   {
-   "id": "KYN-MRK-DIS-006",
-   "titulo": "Calidad sin firma visible",
-   "estado": "descontinuada",
-   "fuente": "marca/principios.html#calidad",
-   "ambito_propuesto": [
-    "identidad",
-    "web",
-    "internas",
-    "saas",
-    "servicios"
-   ],
-   "requisitos": []
-  },
-  {
    "id": "KYN-MRK-ESP-001",
    "titulo": "Lenguaje geométrico Keyons",
    "estado": "vigente",
@@ -1263,35 +1244,16 @@
      "ref": "KYN-MRK-ESP-005.6",
      "nivel": "PUEDE",
      "texto": "Las vistas de uso frecuente pueden presentar información compacta cuando mantienen legibilidad, orientación y controles accesibles."
+    },
+    {
+     "ref": "KYN-MRK-ESP-005.7",
+     "nivel": "NO DEBE",
+     "texto": "Nunca queda suelto."
     }
    ]
   },
   {
    "id": "KYN-MRK-ESP-006",
-   "titulo": "Patrones de composición",
-   "estado": "integrada",
-   "fuente": "fundamentos/composicion/editorial.html#patrones",
-   "ambito_propuesto": [
-    "identidad",
-    "web",
-    "internas",
-    "saas"
-   ],
-   "requisitos": [
-    {
-     "ref": "KYN-MRK-ESP-006.1",
-     "nivel": "DEBE",
-     "texto": "(Uso)Las asociaciones de cuadrículas, acordeones, listas, matrices, carruseles, retículas, indicadores y flechas deben interpretarse como ejemplos."
-    },
-    {
-     "ref": "KYN-MRK-ESP-006.2",
-     "nivel": "DEBE",
-     "texto": "Un patrón debe elegirse por su utilidad, no por la cantidad de elementos o porque aparezca en el catálogo."
-    }
-   ]
-  },
-  {
-   "id": "KYN-MRK-ESP-007",
    "titulo": "Diagramas de información",
    "estado": "vigente",
    "fuente": "fundamentos/composicion/editorial.html#diagramas",
@@ -1303,17 +1265,17 @@
    ],
    "requisitos": [
     {
-     "ref": "KYN-MRK-ESP-007.1",
+     "ref": "KYN-MRK-ESP-006.1",
      "nivel": "DEBE",
      "texto": "Su geometría debe corresponder a la relación representada: secuencia, agrupación, jerarquía, inclusión o conexión."
     },
     {
-     "ref": "KYN-MRK-ESP-007.2",
+     "ref": "KYN-MRK-ESP-006.2",
      "nivel": "NO DEBE",
      "texto": "Las etiquetas salen arriba y abajo, nunca a los lados.Uso básicoPrimeras pruebasIA integradaOperación transformada(Niveles)Esferas de madurezDel nivel difuso al nítido: la claridad crece con la madurez."
     },
     {
-     "ref": "KYN-MRK-ESP-007.3",
+     "ref": "KYN-MRK-ESP-006.3",
      "nivel": "DEBE",
      "texto": "No es obligatorio utilizar estrellas, círculos o indicadores decorativos.Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso. 01 · Diagnóstico · 2 a 4 semanas|Entender la operación 02 · Diseño · 4 a 8 semanas|Construir con su equipo 03 · Evolución · continua|Medir y mejorar Zona 1|Uso básico Zona 2|Primeras pruebas Zona 3|IA integrada Zona 4|Operación transformada Nivel 1 · Inicial|Tareas manuales y dispersas Nivel 2 · Explora|Primeras pruebas con IA Nivel 3 · Define|Procesos documentados Nivel 4 · Integra|IA en el trabajo diario Nivel 5 · Optimiza|Mejora continua medida Inmersión|Diagnóstico y comprensión Estrategia|Comprensión y planeación Proyecto|De la planeación al acompañamiento Soporte|Acompañamiento y evolución Cultura|Anillo 1 Gobierno de datos|Anillo 1 Procesos|Anillo 2 Personas|Anillo 2 Herramientas|Anillo 3"
     }
@@ -1658,7 +1620,7 @@
     {
      "ref": "KYN-MRK-ILU-005.5",
      "nivel": "NO DEBE",
-     "texto": "Nunca menos del doble del grosor del canto.Regla transversal 70/30."
+     "texto": "Nunca menos del doble del grosor del canto.Regla transversal 70/30En cualquier pieza con ventana, el cielo ocupa cerca del 70 % de la composición y el contexto (texto, elementos de marca, otros gráficos) el 30 % restante.Así el cielo sigue siendo el protagonista; la regla completa está en KYN-MRK-ILU-008."
     }
    ]
   },
@@ -1859,23 +1821,18 @@
     {
      "ref": "KYN-MRK-LOG-001.2",
      "nivel": "DEBERÍA",
-     "texto": "Un bloque sólido y compacto: el nombre en dos niveles, KEY y ONS, guía la pronunciación, expresa la naturaleza modular de nuestras soluciones y dibuja una llave entre la K, la E, la O y la N.(Usos recomendados)El logotipo principal es la opción prioritaria y debe aplicarse de forma preferente.",
+     "texto": "Un bloque sólido y compacto: el nombre en dos niveles, KEY y ONS, guía la pronunciación, expresa la naturaleza modular de nuestras soluciones y dibuja una llave entre la K, la E, la O y la N.(Usos recomendados)El logotipo principal es la opción prioritaria y debe aplicarse de forma preferente, especialmente en:Portadas de documentos.Presentaciones corporativas.Aplicaciones textiles, como uniformes.Rotulación principal.Soportes que requieran máxima presencia de marca con una composición equilibrada.Solo cuando otra versión resulte más adecuada para el formato o contexto específico puede utilizarse esa alternativa.",
      "revisar": [
       "varias expresiones normativas en la misma frase"
      ]
     },
     {
      "ref": "KYN-MRK-LOG-001.3",
-     "nivel": "PUEDE",
-     "texto": "Solo cuando otra versión resulte más adecuada para el formato o contexto específico puede utilizarse esa alternativa; en cualquier otro escenario, el logotipo principal sigue siendo la elección."
-    },
-    {
-     "ref": "KYN-MRK-LOG-001.4",
      "nivel": "DEBERÍA",
      "texto": "Su vacío central forma una estrella de cuatro puntas, como una brújula: la orientación estratégica que ofrecemos.(En esta etapa)Trabaja acompañado del logotipo o donde el receptor ya conoce a Keyons: el favicon del sitio propio o el avatar de cuentas oficiales.(Usos recomendados)Favicons, íconos de apps y avatares en redes sociales, donde el nombre de la cuenta aporta el contexto."
     },
     {
-     "ref": "KYN-MRK-LOG-001.5",
+     "ref": "KYN-MRK-LOG-001.4",
      "nivel": "DEBERÍA",
      "texto": "Una insignia sólida, cerrada y compacta para situaciones que piden una mancha gráfica contundente, como un escudo o una medalla.(Usos recomendados)Pines, parches y stickers; merchandising como pulseras o gorras; impresiones a una tinta, como sellos de goma o grabados."
     }
@@ -2473,28 +2430,6 @@
   },
   {
    "id": "KYN-MRK-TYP-004",
-   "titulo": "Composición editorial",
-   "estado": "integrada",
-   "fuente": "fundamentos/tipografia/sistema.html#titular",
-   "ambito_propuesto": [
-    "identidad",
-    "web",
-    "internas",
-    "saas"
-   ],
-   "requisitos": [
-    {
-     "ref": "KYN-MRK-TYP-004.1",
-     "nivel": "DEBE",
-     "texto": "El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons.",
-     "revisar": [
-      "«siempre» sin verbo normativo"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "KYN-MRK-TYP-005",
    "titulo": "Etiquetas de contexto",
    "estado": "vigente",
    "fuente": "fundamentos/tipografia/sistema.html#kickers",
@@ -2507,7 +2442,7 @@
    "requisitos": []
   },
   {
-   "id": "KYN-MRK-TYP-006",
+   "id": "KYN-MRK-TYP-005",
    "titulo": "Criterios de aplicación",
    "estado": "vigente",
    "fuente": "fundamentos/tipografia/sistema.html#reglas",
@@ -2519,12 +2454,12 @@
    ],
    "requisitos": [
     {
-     "ref": "KYN-MRK-TYP-006.1",
+     "ref": "KYN-MRK-TYP-005.1",
      "nivel": "DEBE",
      "texto": "Criterios de aplicación Siete criterios de aplicación La tipografía debe organizar la lectura, transmitir identidad y adaptarse a las necesidades del contenido."
     },
     {
-     "ref": "KYN-MRK-TYP-006.2",
+     "ref": "KYN-MRK-TYP-005.2",
      "nivel": "DEBE",
      "texto": "(02 · Interlineado adecuado)Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.",
      "revisar": [
@@ -2532,24 +2467,24 @@
      ]
     },
     {
-     "ref": "KYN-MRK-TYP-006.3",
+     "ref": "KYN-MRK-TYP-005.3",
      "nivel": "NO DEBE",
      "texto": "(04 · Énfasis con moderación)El peso semibold permite destacar información relevante.No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida."
     },
     {
-     "ref": "KYN-MRK-TYP-006.4",
+     "ref": "KYN-MRK-TYP-005.4",
      "nivel": "DEBERÍA",
      "texto": "(05 · Números que se leen)Las cifras operativas utilizan Plus Jakarta Sans.En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación."
     },
     {
-     "ref": "KYN-MRK-TYP-006.5",
+     "ref": "KYN-MRK-TYP-005.5",
      "nivel": "DEBE",
      "texto": "(07 · Adaptación y accesibilidad)Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto."
     }
    ]
   },
   {
-   "id": "KYN-MRK-TYP-007",
+   "id": "KYN-MRK-TYP-006",
    "titulo": "Uso por función",
    "estado": "vigente",
    "fuente": "fundamentos/tipografia/sistema.html#funcion",
@@ -2563,35 +2498,52 @@
   },
   {
    "id": "KYN-MRK-VIS-001",
-   "titulo": "Kicker decorativo",
-   "estado": "integrada",
-   "fuente": "fundamentos/tipografia/sistema.html#vis-001",
+   "titulo": "Jerarquía visual repetitiva",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#vis-001",
    "ambito_propuesto": [
     "identidad",
     "web",
     "internas",
     "saas"
    ],
-   "requisitos": []
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-001.1",
+     "nivel": "DEBE",
+     "texto": "Jerarquía repetida La jerarquía se construye para cada contenido La composición debe responder a las relaciones y prioridades del contenido."
+    }
+   ]
   },
   {
    "id": "KYN-MRK-VIS-002",
-   "titulo": "Tracking indiscriminado",
-   "estado": "integrada",
-   "fuente": "fundamentos/tipografia/sistema.html#vis-002",
+   "titulo": "Tarjetas innecesarias",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#vis-002",
    "ambito_propuesto": [
     "identidad",
     "web",
     "internas",
     "saas"
    ],
-   "requisitos": []
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-002.1",
+     "nivel": "DEBE",
+     "texto": "Tarjetas innecesarias Una tarjeta solo cuando agrupa algo Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas."
+    },
+    {
+     "ref": "KYN-MRK-VIS-002.2",
+     "nivel": "PUEDE",
+     "texto": "Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente."
+    }
+   ]
   },
   {
    "id": "KYN-MRK-VIS-003",
-   "titulo": "Jerarquía visual repetitiva",
+   "titulo": "Geometría genérica",
    "estado": "vigente",
-   "fuente": "fundamentos/composicion/editorial.html#vis-003",
+   "fuente": "fundamentos/forma/espacio.html#vis-003",
    "ambito_propuesto": [
     "identidad",
     "web",
@@ -2602,15 +2554,20 @@
     {
      "ref": "KYN-MRK-VIS-003.1",
      "nivel": "DEBE",
-     "texto": "Jerarquía repetida La jerarquía se construye para cada contenido La composición debe responder a las relaciones y prioridades del contenido."
+     "texto": "Geometría genérica La geometría Keyons, no un radio para todo La geometría de los elementos debe responder a su función y relación compositiva."
+    },
+    {
+     "ref": "KYN-MRK-VIS-003.2",
+     "nivel": "NO DEBE",
+     "texto": "No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad."
     }
    ]
   },
   {
    "id": "KYN-MRK-VIS-004",
-   "titulo": "Tarjetas innecesarias",
+   "titulo": "Iconografía de relleno",
    "estado": "vigente",
-   "fuente": "fundamentos/composicion/editorial.html#vis-004",
+   "fuente": "fundamentos/iconografia/iconos.html#vis-004",
    "ambito_propuesto": [
     "identidad",
     "web",
@@ -2620,21 +2577,26 @@
    "requisitos": [
     {
      "ref": "KYN-MRK-VIS-004.1",
-     "nivel": "DEBE",
-     "texto": "Tarjetas innecesarias Una tarjeta solo cuando agrupa algo Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas."
+     "nivel": "NO DEBE",
+     "texto": "Iconografía de relleno Un ícono tiene que ayudar a entender No introducir íconos únicamente para decorar textos o títulos."
     },
     {
      "ref": "KYN-MRK-VIS-004.2",
+     "nivel": "DEBE",
+     "texto": "Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada."
+    },
+    {
+     "ref": "KYN-MRK-VIS-004.3",
      "nivel": "PUEDE",
-     "texto": "Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente."
+     "texto": "Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada."
     }
    ]
   },
   {
    "id": "KYN-MRK-VIS-005",
-   "titulo": "Gradientes ornamentales",
-   "estado": "integrada",
-   "fuente": "fundamentos/color/cielos.html#vis-005",
+   "titulo": "Saturación de microelementos",
+   "estado": "vigente",
+   "fuente": "fundamentos/composicion/editorial.html#vis-005",
    "ambito_propuesto": [
     "identidad",
     "web",
@@ -2644,21 +2606,21 @@
    "requisitos": [
     {
      "ref": "KYN-MRK-VIS-005.1",
-     "nivel": "DEBE",
-     "texto": "(Criterio)Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.No agregarlos solamente para que una sección parezca tecnológica o moderna."
+     "nivel": "NO DEBE",
+     "texto": "Microelementos La jerarquía no se hace con adornos Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia."
     },
     {
      "ref": "KYN-MRK-VIS-005.2",
-     "nivel": "DEBE",
-     "texto": "El degradado no es obligatorio en cada pieza."
+     "nivel": "NO DEBE",
+     "texto": "La jerarquía no debe depender de la cantidad de elementos decorativos."
     }
    ]
   },
   {
    "id": "KYN-MRK-VIS-006",
-   "titulo": "Geometría genérica",
+   "titulo": "Simetría automática",
    "estado": "vigente",
-   "fuente": "fundamentos/forma/espacio.html#vis-006",
+   "fuente": "fundamentos/composicion/editorial.html#vis-006",
    "ambito_propuesto": [
     "identidad",
     "web",
@@ -2669,62 +2631,75 @@
     {
      "ref": "KYN-MRK-VIS-006.1",
      "nivel": "DEBE",
-     "texto": "Geometría genérica La geometría Keyons, no un radio para todo La geometría de los elementos debe responder a su función y relación compositiva."
-    },
-    {
-     "ref": "KYN-MRK-VIS-006.2",
-     "nivel": "NO DEBE",
-     "texto": "No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad."
+     "texto": "Ninguna debe utilizarse automáticamente."
     }
    ]
   },
   {
    "id": "KYN-MRK-VIS-007",
-   "titulo": "Acentos tipográficos repetidos",
-   "estado": "integrada",
-   "fuente": "fundamentos/tipografia/sistema.html#vis-007",
+   "titulo": "Movimiento ornamental",
+   "estado": "vigente",
+   "fuente": "fundamentos/criterio/antipatrones.html#vis-007",
    "ambito_propuesto": [
     "identidad",
     "web",
     "internas",
-    "saas"
+    "saas",
+    "personalizados",
+    "cliente"
    ],
-   "requisitos": []
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-VIS-007.1",
+     "nivel": "DEBE",
+     "texto": "Movimiento El movimiento orienta, no distrae El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite."
+    },
+    {
+     "ref": "KYN-MRK-VIS-007.2",
+     "nivel": "PUEDE",
+     "texto": "En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido."
+    }
+   ]
   },
   {
    "id": "KYN-MRK-VIS-008",
-   "titulo": "Iconografía de relleno",
+   "titulo": "Contraste insuficiente",
    "estado": "vigente",
-   "fuente": "fundamentos/iconografia/iconos.html#vis-008",
+   "fuente": "fundamentos/color/paleta-base.html#vis-008",
    "ambito_propuesto": [
     "identidad",
     "web",
     "internas",
-    "saas"
+    "saas",
+    "personalizados",
+    "cliente"
    ],
    "requisitos": [
     {
      "ref": "KYN-MRK-VIS-008.1",
-     "nivel": "NO DEBE",
-     "texto": "Iconografía de relleno Un ícono tiene que ayudar a entender No introducir íconos únicamente para decorar textos o títulos."
+     "nivel": "DEBE",
+     "texto": "Contraste insuficiente Delicado, pero siempre legible La delicadeza visual no justifica textos, controles ni datos ilegibles.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
     },
     {
      "ref": "KYN-MRK-VIS-008.2",
      "nivel": "DEBE",
-     "texto": "Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada."
+     "texto": "El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables."
     },
     {
      "ref": "KYN-MRK-VIS-008.3",
      "nivel": "PUEDE",
-     "texto": "Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada."
+     "texto": "ColorContraste sobre Blanco KeyonsResultado Uso incorrectoActualizado hace 5 minutos#C7C8CB1,5 : 1No se puede leer Alternativa mejorActualizado hace 5 minutos#6B6D7E4,6 : 1Legible · AA"
     }
    ]
   },
   {
    "id": "KYN-MRK-VIS-009",
-   "titulo": "Saturación de microelementos",
+   "titulo": "Lenguaje genérico",
    "estado": "vigente",
-   "fuente": "fundamentos/composicion/editorial.html#vis-009",
+   "fuente": "marca/vocabulario.html#vis-009",
    "ambito_propuesto": [
     "identidad",
     "web",
@@ -2734,19 +2709,19 @@
    "requisitos": [
     {
      "ref": "KYN-MRK-VIS-009.1",
-     "nivel": "NO DEBE",
-     "texto": "Microelementos La jerarquía no se hace con adornos Evitar acumulaciones de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia."
+     "nivel": "DEBE",
+     "texto": "Lenguaje genérico Específico, comprensible y con sentido El contenido debe ser específico, comprensible y significativo."
     },
     {
      "ref": "KYN-MRK-VIS-009.2",
      "nivel": "NO DEBE",
-     "texto": "La jerarquía no debe depender de la cantidad de elementos decorativos."
+     "texto": "No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta."
     }
    ]
   },
   {
    "id": "KYN-MRK-VIS-010",
-   "titulo": "Simetría automática",
+   "titulo": "Maximalismo uniforme",
    "estado": "vigente",
    "fuente": "fundamentos/composicion/editorial.html#vis-010",
    "ambito_propuesto": [
@@ -2755,17 +2730,11 @@
     "internas",
     "saas"
    ],
-   "requisitos": [
-    {
-     "ref": "KYN-MRK-VIS-010.1",
-     "nivel": "DEBE",
-     "texto": "Ninguna debe utilizarse automáticamente."
-    }
-   ]
+   "requisitos": []
   },
   {
    "id": "KYN-MRK-VIS-011",
-   "titulo": "Movimiento ornamental",
+   "titulo": "Originalidad a costa de orientación",
    "estado": "vigente",
    "fuente": "fundamentos/criterio/antipatrones.html#vis-011",
    "ambito_propuesto": [
@@ -2779,113 +2748,16 @@
    "requisitos": [
     {
      "ref": "KYN-MRK-VIS-011.1",
-     "nivel": "DEBE",
-     "texto": "Movimiento El movimiento orienta, no distrae El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite."
-    },
-    {
-     "ref": "KYN-MRK-VIS-011.2",
-     "nivel": "PUEDE",
-     "texto": "En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido."
-    }
-   ]
-  },
-  {
-   "id": "KYN-MRK-VIS-012",
-   "titulo": "Contraste insuficiente",
-   "estado": "vigente",
-   "fuente": "fundamentos/color/paleta-base.html#vis-012",
-   "ambito_propuesto": [
-    "identidad",
-    "web",
-    "internas",
-    "saas",
-    "personalizados",
-    "cliente"
-   ],
-   "requisitos": [
-    {
-     "ref": "KYN-MRK-VIS-012.1",
-     "nivel": "DEBE",
-     "texto": "Contraste insuficiente Delicado, pero siempre legible La delicadeza visual no justifica textos, controles ni datos ilegibles.",
-     "revisar": [
-      "«siempre» sin verbo normativo"
-     ]
-    },
-    {
-     "ref": "KYN-MRK-VIS-012.2",
-     "nivel": "DEBE",
-     "texto": "El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables."
-    },
-    {
-     "ref": "KYN-MRK-VIS-012.3",
-     "nivel": "PUEDE",
-     "texto": "ColorContraste sobre Blanco KeyonsResultado Uso incorrectoActualizado hace 5 minutos#C7C8CB1,5 : 1No se puede leer Alternativa mejorActualizado hace 5 minutos#6B6D7E4,6 : 1Legible · AA"
-    }
-   ]
-  },
-  {
-   "id": "KYN-MRK-VIS-013",
-   "titulo": "Lenguaje genérico",
-   "estado": "vigente",
-   "fuente": "marca/vocabulario.html#vis-013",
-   "ambito_propuesto": [
-    "identidad",
-    "web",
-    "internas",
-    "saas"
-   ],
-   "requisitos": [
-    {
-     "ref": "KYN-MRK-VIS-013.1",
-     "nivel": "DEBE",
-     "texto": "Lenguaje genérico Específico, comprensible y con sentido El contenido debe ser específico, comprensible y significativo."
-    },
-    {
-     "ref": "KYN-MRK-VIS-013.2",
-     "nivel": "NO DEBE",
-     "texto": "No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta."
-    }
-   ]
-  },
-  {
-   "id": "KYN-MRK-VIS-014",
-   "titulo": "Maximalismo uniforme",
-   "estado": "vigente",
-   "fuente": "fundamentos/composicion/editorial.html#vis-014",
-   "ambito_propuesto": [
-    "identidad",
-    "web",
-    "internas",
-    "saas"
-   ],
-   "requisitos": []
-  },
-  {
-   "id": "KYN-MRK-VIS-015",
-   "titulo": "Originalidad a costa de orientación",
-   "estado": "vigente",
-   "fuente": "fundamentos/criterio/antipatrones.html#vis-015",
-   "ambito_propuesto": [
-    "identidad",
-    "web",
-    "internas",
-    "saas",
-    "personalizados",
-    "cliente"
-   ],
-   "requisitos": [
-    {
-     "ref": "KYN-MRK-VIS-015.1",
      "nivel": "NO DEBE",
      "texto": "Orientación Original, pero siempre comprensible La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia."
     }
    ]
   },
   {
-   "id": "KYN-MRK-VIS-016",
+   "id": "KYN-MRK-VIS-012",
    "titulo": "Composición no intercambiable",
    "estado": "vigente",
-   "fuente": "fundamentos/composicion/editorial.html#vis-016",
+   "fuente": "fundamentos/composicion/editorial.html#vis-012",
    "ambito_propuesto": [
     "identidad",
     "web",
@@ -2894,17 +2766,17 @@
    ],
    "requisitos": [
     {
-     "ref": "KYN-MRK-VIS-016.1",
+     "ref": "KYN-MRK-VIS-012.1",
      "nivel": "NO DEBE",
      "texto": "Identidad visual aplicada Una composición con identidad propia Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia."
     },
     {
-     "ref": "KYN-MRK-VIS-016.2",
+     "ref": "KYN-MRK-VIS-012.2",
      "nivel": "DEBE",
      "texto": "Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña."
     },
     {
-     "ref": "KYN-MRK-VIS-016.3",
+     "ref": "KYN-MRK-VIS-012.3",
      "nivel": "NO DEBE",
      "texto": "En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología."
     }
@@ -3108,7 +2980,7 @@
  "duplicaciones": [],
  "contradicciones": [
   {
-   "norma": "KYN-MRK-TYP-005",
+   "norma": "KYN-MRK-TYP-004",
    "detalle": "El kicker se especifica en TASA Orbiter 500, 14 px, +8 %; el código lo aplica en Plus Jakarta Sans 700, 12 a 13 px, +2 %."
   },
   {

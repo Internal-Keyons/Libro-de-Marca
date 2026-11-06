@@ -660,7 +660,7 @@ def main():
     write(os.path.join(ROOT, 'llms.txt'), '\n'.join([
         '# Libro de Marca Keyons', '',
         f'> Manual de identidad y expresión visual de Keyons. Versión {version}, exportada el {today}. '
-        'Cada norma tiene un ID permanente KYN-MRK-XXX-### y un estado: vigente, borrador o descontinuada.', '',
+        'Cada norma tiene un ID permanente KYN-MRK-XXX-### y un estado: vigente o borrador.', '',
         'Escrito una vez en el libro (HTML) y publicado en tres formas: lectura visual, documental y estructurada. '
         f'Permisos: {PERMISOS}.', '',
         '## Antes de consultar', '',

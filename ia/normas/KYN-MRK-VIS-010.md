@@ -4,32 +4,38 @@ version: "0.1"
 fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-010"
-titulo: "Simetría automática"
-numero: "10.2.1"
+titulo: "Maximalismo uniforme"
+numero: "10.4.1"
 estado: "vigente"
 capitulo: "10 Composición"
 area: "Fundamentos"
 fuente: "/fundamentos/composicion/editorial.html#vis-010"
 referencias: []
-citada_por: ["KYN-MRK-CMP-002"]
+citada_por: []
 ---
 
-# KYN-MRK-VIS-010 · Simetría automática
+# KYN-MRK-VIS-010 · Maximalismo uniforme
 
-Número: 10.2.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-010`
+Número: 10.4.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-010`
 
-##### Ni todo centrado ni todo descompensado
+##### Intensidad con momentos de reposo
 
-La simetría comunica **estabilidad y equivalencia**. La asimetría controlada permite establecer diferencias de protagonismo.
+La expresión gráfica necesita **contraste entre momentos intensos y momentos de reposo**.
 
-Ninguna debe utilizarse automáticamente.
+El uso continuo de fotografía, color, textura y movimiento con la misma intensidad reduce la jerarquía y dificulta la lectura.
 
-> Recurso visual: Ejemplo dibujado: Herramientasinternas · ProductosSaaS · Productospersonalizados
+**(Uso incorrecto)**
+**La misma intensidad en cada bloque** Fotografía, color y textura en todas partes: nada destaca.
 
-**(Opciones equivalentes)**
-Tres opciones del mismo nivel: la simetría comunica su equivalencia.
+> Recurso visual: Imagen: /assets/img/cielo-atardecer.webp
 
-> Recurso visual: Ejemplo dibujado: Primero entendemossu operación · 03
+> Recurso visual: Imagen: /assets/img/cielo-atardecer.webp
 
-**(Una idea protagonista)**
-Una idea pesa más que su apoyo: la asimetría marca el protagonismo.
+> Recurso visual: Imagen: /assets/img/cielo-atardecer.webp
+
+> Recurso visual: Imagen: /assets/img/cielo-atardecer.webp
+
+**(Alternativa mejor)**
+Un momento expresivo entre secciones contenidas, ubicado donde el contenido lo pide. Conserva el carácter sin saturar.
+
+> Recurso visual: Imagen: /assets/img/cielo-atardecer.webp

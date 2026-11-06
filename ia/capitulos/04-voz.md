@@ -8,8 +8,8 @@ titulo: "Voz"
 area: "Marca"
 estado: "borrador"
 rutas: ["/marca/voz.html", "/marca/vocabulario.html", "/marca/trato.html"]
-normas: ["KYN-MRK-VOZ-001", "KYN-MRK-VOZ-002", "KYN-MRK-VOZ-003", "KYN-MRK-VOZ-004", "KYN-MRK-VIS-013", "KYN-MRK-VOZ-005", "KYN-MRK-VOZ-006", "KYN-MRK-VOZ-007"]
-referencias: ["KYN-MRK-VIS-013", "KYN-MRK-VOZ-001", "KYN-MRK-VOZ-002", "KYN-MRK-VOZ-003", "KYN-MRK-VOZ-004", "KYN-MRK-VOZ-005", "KYN-MRK-VOZ-006", "KYN-MRK-VOZ-007"]
+normas: ["KYN-MRK-VOZ-001", "KYN-MRK-VOZ-002", "KYN-MRK-VOZ-003", "KYN-MRK-VOZ-004", "KYN-MRK-VIS-009", "KYN-MRK-VOZ-005", "KYN-MRK-VOZ-006", "KYN-MRK-VOZ-007"]
+referencias: ["KYN-MRK-VIS-009", "KYN-MRK-VOZ-001", "KYN-MRK-VOZ-002", "KYN-MRK-VOZ-003", "KYN-MRK-VOZ-004", "KYN-MRK-VOZ-005", "KYN-MRK-VOZ-006", "KYN-MRK-VOZ-007"]
 ---
 
 # Capítulo 04 · Voz
@@ -184,9 +184,9 @@ Aliados, acompañantes, colaboradores.
 
 Describir la idea es más largo, pero más distintivo y más honesto.
 
-## KYN-MRK-VIS-013 · 4.4.1 Lenguaje genérico
+## KYN-MRK-VIS-009 · 4.4.1 Lenguaje genérico
 
-Número: 4.4.1 · ID: `KYN-MRK-VIS-013` · Estado: vigente · Fuente: `/marca/vocabulario.html#vis-013`
+Número: 4.4.1 · ID: `KYN-MRK-VIS-009` · Estado: vigente · Fuente: `/marca/vocabulario.html#vis-009`
 
 ### Específico, comprensible y con sentido
 

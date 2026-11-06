@@ -20,4 +20,4 @@ Número: 28.2 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/recurs
 
 ##### Todas las normas, por ID
 
-Cada ID lleva a su sección. Las normas descontinuadas conservan su número y se muestran al final.
+Cada ID lleva a su sección.

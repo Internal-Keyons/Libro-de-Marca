@@ -7,6 +7,7 @@ Sirve el sitio como el servidor de siempre y agrega la API del Laboratorio:
   GET  /api/lab/lista              experimentos guardados y propuestas para la marca
   GET  /api/lab/experimento?id=…   un experimento
   POST /api/lab/proponer           copia un experimento a sistema-diseno/laboratorio/propuestas/
+  POST /api/lab/normas             sugiere normas a partir de un experimento y las guarda como notas en _lab/notas/
 
 Uso:
   python tools/laboratorio.py            http://127.0.0.1:4330/sistema-diseno/laboratorio.html
@@ -31,6 +32,7 @@ import urllib.parse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EXP = os.path.join(ROOT, '_lab', 'experimentos')
 PROP = os.path.join(ROOT, 'sistema-diseno', 'laboratorio', 'propuestas')
+NOTAS = os.path.join(ROOT, '_lab', 'notas')
 PORT = int(os.environ.get('LAB_PORT', '4330'))
 DEMO = '--demo' in sys.argv
 MODEL = 'claude-opus-5-5'
@@ -143,40 +145,84 @@ def generar(body):
         raise ValueError('Falta el pedido.')
     if DEMO:
         return demo(pedido, cambio)
-    import anthropic
-    client = anthropic.Anthropic()
-    system = [{'type': 'text', 'text': '\n\n'.join(x for x in contexto() if x)}]
-    system[-1]['cache_control'] = {'type': 'ephemeral', 'ttl': '1h'}
     partes = ['Pedido: ' + pedido]
     if datos:
-        partes.append('Datos para usar:\n' + datos)
+        partes.append('Datos de ejemplo para usar:\n' + datos)
     if cambio and actual:
         partes.append('Versión actual:\n<html>\n' + (actual.get('html') or '') + '\n</html>\n<css>\n'
                       + (actual.get('css') or '') + '\n</css>\n<js>\n' + (actual.get('js') or '') + '\n</js>')
         partes.append('Cambio pedido: ' + cambio)
+    out, costo = llamar('\n\n'.join(partes), SCHEMA)
+    out['costo'] = costo
+    return out
+
+
+# Precios por millón de tokens de Claude Opus 5.5 (USD). Escribir en la caché de 1 hora cuesta el doble de la entrada.
+PRECIO = {'entrada': 4.0, 'salida': 20.0, 'cache_lee': 0.20, 'cache_escribe': 8.0}
+
+
+def llamar(texto, schema):
+    """Una llamada a la API con las reglas de Keyons en caché de 1 hora. Devuelve (json, costo)."""
+    import anthropic
+    client = anthropic.Anthropic()
+    system = [{'type': 'text', 'text': '\n\n'.join(x for x in contexto() if x),
+               'cache_control': {'type': 'ephemeral', 'ttl': '1h'}}]
     kw = dict(
         model=MODEL,
         max_tokens=64000,
         system=system,
-        output_config={'effort': 'high', 'format': {'type': 'json_schema', 'schema': SCHEMA}},
-        messages=[{'role': 'user', 'content': '\n\n'.join(partes)}],
+        output_config={'effort': 'high', 'format': {'type': 'json_schema', 'schema': schema}},
+        messages=[{'role': 'user', 'content': texto}],
         betas=['server-side-fallback-2026-07-01'],
     )
     try:
         stream = client.beta.messages.stream(fallbacks='default', **kw)
     except TypeError:   # SDK anterior al parámetro: se envía igual en el cuerpo
         stream = client.beta.messages.stream(extra_body={'fallbacks': 'default'}, **kw)
-    with stream as s:
-        msg = s.get_final_message()
+    with stream as st:
+        msg = st.get_final_message()
     if msg.stop_reason == 'refusal':
         raise ValueError('La API declinó el pedido. Reformúlelo e inténtelo de nuevo.')
     if msg.stop_reason == 'max_tokens':
         raise ValueError('La respuesta quedó incompleta. Pida algo más acotado.')
     text = next((b.text for b in msg.content if b.type == 'text'), '')
-    out = json.loads(text)
     u = msg.usage
-    print(f'  generado · entrada {u.input_tokens} · caché leída {getattr(u, "cache_read_input_tokens", 0)} · salida {u.output_tokens}')
-    return out
+    lee = getattr(u, 'cache_read_input_tokens', 0) or 0
+    esc = getattr(u, 'cache_creation_input_tokens', 0) or 0
+    usd = (u.input_tokens * PRECIO['entrada'] + u.output_tokens * PRECIO['salida']
+           + lee * PRECIO['cache_lee'] + esc * PRECIO['cache_escribe']) / 1e6
+    costo = {'usd': round(usd, 3), 'enviados': u.input_tokens + lee + esc, 'en_memoria': lee, 'recibidos': u.output_tokens}
+    print(f"  llamada · {costo['enviados']} enviados ({lee} en memoria) · {costo['recibidos']} recibidos · ≈ USD {costo['usd']}")
+    return json.loads(text), costo
+
+
+NORMAS_SCHEMA = {'type': 'object', 'properties': {'markdown': {'type': 'string'}},
+                 'required': ['markdown'], 'additionalProperties': False}
+
+
+def sugerir_normas(b):
+    """Propone normas a partir de lo que el experimento hace distinto. Nunca cambia el libro: escribe notas en _lab/notas/."""
+    titulo = b.get('titulo') or 'Experimento'
+    fuera = b.get('fuera') or []
+    if DEMO:
+        md = (f'# Notas para el libro · {titulo}\n\n> Modo de demostración: estas notas no vienen de la API.\n\n'
+              '## Lo que se aparta de las normas\n\n'
+              + ('\n'.join('- ' + x for x in fuera) or '- Nada: la exploración está dentro de norma.') + '\n')
+    else:
+        texto = ('Revise este experimento del Laboratorio y proponga, solo si hacen falta, normas nuevas o ajustes a normas '
+                 'existentes del Libro de Marca de Keyons. No cambie nada: escriba notas para que la diseñadora decida. '
+                 'Markdown en español, trato de «usted». Para cada propuesta: título, norma relacionada (código KYN-MRK-…) '
+                 'o «nueva», propósito, composición, invariantes y el ejemplo del experimento que la motiva. '
+                 'Termine con lo que NO conviene volver norma.\n\n'
+                 f'Título: {titulo}\nLo que se aparta de las normas: {"; ".join(fuera) or "nada"}\n\n'
+                 f'<html>\n{b.get("html", "")}\n</html>\n<css>\n{b.get("css", "")}\n</css>')
+        out, costo = llamar(texto, NORMAS_SCHEMA)
+        md = out['markdown'] + f"\n\n---\nCosto aproximado de esta sugerencia: USD {costo['usd']}.\n"
+    os.makedirs(NOTAS, exist_ok=True)
+    nombre = slug(titulo) + '-' + datetime.datetime.now().strftime('%Y%m%d-%H%M') + '.md'
+    with io.open(os.path.join(NOTAS, nombre), 'w', encoding='utf-8', newline='\n') as fh:
+        fh.write(md)
+    return {'markdown': md, 'archivo': '_lab/notas/' + nombre}
 
 
 def demo(pedido, cambio):
@@ -266,6 +312,8 @@ class H(http.server.SimpleHTTPRequestHandler):
             b = self.body()
             if u.path == '/api/lab/generar':
                 return self.j(200, generar(b))
+            if u.path == '/api/lab/normas':
+                return self.j(200, sugerir_normas(b))
             if u.path == '/api/lab/guardar':
                 os.makedirs(EXP, exist_ok=True)
                 i = slug(b.get('id') or b.get('titulo'))
@@ -275,7 +323,7 @@ class H(http.server.SimpleHTTPRequestHandler):
                         i, n = f'{base}-{n}', n + 1
                 p = os.path.join(EXP, i + '.json')
                 prev = json.load(io.open(p, encoding='utf-8')) if os.path.exists(p) else {}
-                keep = ('titulo', 'estado', 'pedido', 'datos', 'origen', 'html', 'css', 'js', 'ex')
+                keep = ('titulo', 'estado', 'decision', 'kit', 'pedido', 'datos', 'origen', 'html', 'css', 'js', 'ex')
                 x = {'id': i, 'creado': prev.get('creado') or now(), 'actualizado': now(), **{k: b.get(k, '') for k in keep}}
                 with io.open(p, 'w', encoding='utf-8', newline='\n') as fh:
                     json.dump(x, fh, ensure_ascii=False, indent=2)
@@ -283,7 +331,7 @@ class H(http.server.SimpleHTTPRequestHandler):
             if u.path == '/api/lab/proponer':
                 i = slug(b.get('id'))
                 x = json.load(io.open(os.path.join(EXP, i + '.json'), encoding='utf-8'))
-                x['estado'] = 'Propuesta para la marca'
+                x['estado'] = x.get('estado') or 'Enviado a revisión'
                 x.pop('datos', None)   # los datos propios no se publican
                 os.makedirs(PROP, exist_ok=True)
                 with io.open(os.path.join(PROP, i + '.json'), 'w', encoding='utf-8', newline='\n') as fh:

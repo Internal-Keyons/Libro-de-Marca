@@ -8,13 +8,13 @@
 
 | Dato | Valor |
 |---|---|
-| Normas inventariadas | 133 |
-| Requisitos detectados | 233 |
-| DEBE | 94 |
-| NO DEBE | 83 |
+| Normas inventariadas | 126 |
+| Requisitos detectados | 227 |
+| DEBE | 89 |
+| NO DEBE | 84 |
 | DEBERÍA | 9 |
-| PUEDE | 47 |
-| Requisitos con ambigüedad | 41 |
+| PUEDE | 45 |
+| Requisitos con ambigüedad | 40 |
 | Frases duplicadas entre normas | 0 |
 | Contradicciones con el código | 7 |
 
@@ -45,13 +45,13 @@ Se asignaron por área de la norma. Ninguno está aprobado; `data/autoridad.json
 | VIS | Identidad corporativa Keyons, Web corporativa y Biblioteca, Herramientas internas, SaaS con identidad Keyons |
 | VOZ | Identidad corporativa Keyons, Web corporativa y Biblioteca, Herramientas internas, SaaS con identidad Keyons, Servicios y procesos operativos |
 
-Las normas de calidad y experiencia KYN-MRK-VIS-011, KYN-MRK-VIS-012, KYN-MRK-VIS-015 suman Productos personalizados y Productos con identidad del cliente.
+Las normas de calidad y experiencia KYN-MRK-VIS-007, KYN-MRK-VIS-008, KYN-MRK-VIS-011 suman Productos personalizados y Productos con identidad del cliente.
 
 ## Contradicciones entre normas y código
 
 | Norma | Detalle |
 |---|---|
-| KYN-MRK-TYP-005 | El kicker se especifica en TASA Orbiter 500, 14 px, +8 %; el código lo aplica en Plus Jakarta Sans 700, 12 a 13 px, +2 %. |
+| KYN-MRK-TYP-004 | El kicker se especifica en TASA Orbiter 500, 14 px, +8 %; el código lo aplica en Plus Jakarta Sans 700, 12 a 13 px, +2 %. |
 | KYN-MRK-TYP-002 | El estándar de tracking (8.8) fija 0em para títulos en Plus Jakarta Sans; los títulos de sección del libro usan −3 %. |
 | KYN-MRK-TYP-002 | El estándar fija −3 % de 52 a 79 px y −5 % desde 80 px para TASA Orbiter; el display del libro usa −4 %. |
 | KYN-MRK-ILU-003 | Divisor de 1 px en Gris Bruma y divisor fuerte en Azul Noche al 16 %; el libro usa Azul Cielo 100 y 200, y barras de 4 px en tablas. |
@@ -99,9 +99,8 @@ Las normas de calidad y experiencia KYN-MRK-VIS-011, KYN-MRK-VIS-012, KYN-MRK-VI
 | KYN-MRK-PRE-003.1 | NO DEBE | varias expresiones normativas en la misma frase | Keyons ocupa como máximo una diapositiva, y nunca la primera.Donald MillerStoryBrand002Entre lo que es y lo que podría serLa historia alterna el hoy y el mañana… |
 | KYN-MRK-PRE-011.1 | DEBE | «siempre» sin verbo normativo | Riesgo y estado Cuatro niveles, siempre con la palabra Salen de la paleta de estados (KYN-MRK-COL-014): fondo pastel, texto en Azul Noche y el ícono en su tono … |
 | KYN-MRK-PRE-011.3 | DEBE | «siempre» sin verbo normativo | CríticoTerracota · #F0D0CBSe atiende antes de seguir.AltoNaranja · #F5D8B8Tiene responsable y fecha.MedioMostaza · #F4E8C1Se vigila en el documento de apoyo.Baj… |
-| KYN-MRK-TYP-004.1 | DEBE | «siempre» sin verbo normativo | El cielo siempre está presente: una pieza sin cielo no es una pieza Keyons. |
-| KYN-MRK-TYP-006.2 | DEBE | varias expresiones normativas en la misma frase | (02 · Interlineado adecuado)Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.Los textos de lectura requieren espacio sufic… |
-| KYN-MRK-VIS-012.1 | DEBE | «siempre» sin verbo normativo | Contraste insuficiente Delicado, pero siempre legible La delicadeza visual no justifica textos, controles ni datos ilegibles. |
+| KYN-MRK-TYP-005.2 | DEBE | varias expresiones normativas en la misma frase | (02 · Interlineado adecuado)Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.Los textos de lectura requieren espacio sufic… |
+| KYN-MRK-VIS-008.1 | DEBE | «siempre» sin verbo normativo | Contraste insuficiente Delicado, pero siempre legible La delicadeza visual no justifica textos, controles ni datos ilegibles. |
 | KYN-MRK-VOZ-006.2 | DEBE | «siempre» sin verbo normativo | No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo. |
 | KYN-MRK-VOZ-007.1 | DEBE | «siempre» sin verbo normativo | Simplificar no significa alterar el significado ni prometer capacidades que el sistema no tiene. 01Explicar qué hacePresentamos primero la función o el resultad… |
 
@@ -142,7 +141,7 @@ Ninguna.
 | KYN-MRK-CON-001 | 1 | 0 | 0 | 0 |
 | KYN-MRK-CON-002 | 0 | 1 | 0 | 0 |
 | KYN-MRK-CON-003 | 0 | 1 | 0 | 1 |
-| KYN-MRK-CON-004 | 2 | 1 | 0 | 2 |
+| KYN-MRK-CON-004 | 2 | 1 | 0 | 1 |
 | KYN-MRK-CON-005 | 0 | 1 | 0 | 0 |
 | KYN-MRK-CON-006 | 5 | 0 | 0 | 0 |
 | KYN-MRK-CON-007 | 1 | 0 | 0 | 0 |
@@ -158,14 +157,12 @@ Ninguna.
 | KYN-MRK-DIS-003 | 0 | 0 | 0 | 0 |
 | KYN-MRK-DIS-004 | 1 | 1 | 0 | 2 |
 | KYN-MRK-DIS-005 | 3 | 0 | 0 | 2 |
-| KYN-MRK-DIS-006 | 0 | 0 | 0 | 0 |
 | KYN-MRK-ESP-001 | 1 | 0 | 0 | 2 |
 | KYN-MRK-ESP-002 | 1 | 1 | 0 | 0 |
 | KYN-MRK-ESP-003 | 1 | 0 | 0 | 0 |
 | KYN-MRK-ESP-004 | 3 | 0 | 0 | 1 |
-| KYN-MRK-ESP-005 | 3 | 1 | 1 | 1 |
-| KYN-MRK-ESP-006 | 2 | 0 | 0 | 0 |
-| KYN-MRK-ESP-007 | 2 | 1 | 0 | 0 |
+| KYN-MRK-ESP-005 | 3 | 2 | 1 | 1 |
+| KYN-MRK-ESP-006 | 2 | 1 | 0 | 0 |
 | KYN-MRK-GAL-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-ICN-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-ICO-001 | 0 | 0 | 0 | 0 |
@@ -183,7 +180,7 @@ Ninguna.
 | KYN-MRK-ILU-007 | 0 | 12 | 0 | 1 |
 | KYN-MRK-ILU-008 | 1 | 1 | 0 | 0 |
 | KYN-MRK-ILU-009 | 0 | 1 | 0 | 1 |
-| KYN-MRK-LOG-001 | 0 | 1 | 3 | 1 |
+| KYN-MRK-LOG-001 | 0 | 1 | 3 | 0 |
 | KYN-MRK-LOG-002 | 0 | 0 | 0 | 0 |
 | KYN-MRK-LOG-003 | 0 | 0 | 0 | 0 |
 | KYN-MRK-LOG-004 | 0 | 0 | 0 | 0 |
@@ -219,26 +216,21 @@ Ninguna.
 | KYN-MRK-TYP-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-TYP-002 | 0 | 0 | 0 | 3 |
 | KYN-MRK-TYP-003 | 0 | 0 | 0 | 0 |
-| KYN-MRK-TYP-004 | 1 | 0 | 0 | 0 |
-| KYN-MRK-TYP-005 | 0 | 0 | 0 | 0 |
-| KYN-MRK-TYP-006 | 3 | 1 | 1 | 0 |
-| KYN-MRK-TYP-007 | 0 | 0 | 0 | 0 |
-| KYN-MRK-VIS-001 | 0 | 0 | 0 | 0 |
-| KYN-MRK-VIS-002 | 0 | 0 | 0 | 0 |
-| KYN-MRK-VIS-003 | 1 | 0 | 0 | 0 |
-| KYN-MRK-VIS-004 | 1 | 0 | 0 | 1 |
-| KYN-MRK-VIS-005 | 2 | 0 | 0 | 0 |
-| KYN-MRK-VIS-006 | 1 | 1 | 0 | 0 |
-| KYN-MRK-VIS-007 | 0 | 0 | 0 | 0 |
-| KYN-MRK-VIS-008 | 1 | 1 | 0 | 1 |
-| KYN-MRK-VIS-009 | 0 | 2 | 0 | 0 |
-| KYN-MRK-VIS-010 | 1 | 0 | 0 | 0 |
-| KYN-MRK-VIS-011 | 1 | 0 | 0 | 1 |
-| KYN-MRK-VIS-012 | 2 | 0 | 0 | 1 |
-| KYN-MRK-VIS-013 | 1 | 1 | 0 | 0 |
-| KYN-MRK-VIS-014 | 0 | 0 | 0 | 0 |
-| KYN-MRK-VIS-015 | 0 | 1 | 0 | 0 |
-| KYN-MRK-VIS-016 | 1 | 2 | 0 | 0 |
+| KYN-MRK-TYP-004 | 0 | 0 | 0 | 0 |
+| KYN-MRK-TYP-005 | 3 | 1 | 1 | 0 |
+| KYN-MRK-TYP-006 | 0 | 0 | 0 | 0 |
+| KYN-MRK-VIS-001 | 1 | 0 | 0 | 0 |
+| KYN-MRK-VIS-002 | 1 | 0 | 0 | 1 |
+| KYN-MRK-VIS-003 | 1 | 1 | 0 | 0 |
+| KYN-MRK-VIS-004 | 1 | 1 | 0 | 1 |
+| KYN-MRK-VIS-005 | 0 | 2 | 0 | 0 |
+| KYN-MRK-VIS-006 | 1 | 0 | 0 | 0 |
+| KYN-MRK-VIS-007 | 1 | 0 | 0 | 1 |
+| KYN-MRK-VIS-008 | 2 | 0 | 0 | 1 |
+| KYN-MRK-VIS-009 | 1 | 1 | 0 | 0 |
+| KYN-MRK-VIS-010 | 0 | 0 | 0 | 0 |
+| KYN-MRK-VIS-011 | 0 | 1 | 0 | 0 |
+| KYN-MRK-VIS-012 | 1 | 2 | 0 | 0 |
 | KYN-MRK-VOZ-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-VOZ-002 | 1 | 1 | 0 | 0 |
 | KYN-MRK-VOZ-003 | 0 | 0 | 0 | 0 |

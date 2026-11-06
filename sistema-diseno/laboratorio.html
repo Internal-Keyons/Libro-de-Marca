@@ -4,9 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Laboratorio de Interfaces · Sistema de Diseño · Keyons</title>
-<meta name="description" content="Espacio seguro para construir y explorar interfaces de Keyons: parte de una plantilla o de un pedido, explora paleta, tipografía, diagramación y movimiento sin tocar los libros, y guarda lo que funcione.">
+<meta name="description" content="Espacio de exploración del Sistema de Diseño de Keyons para diseñadores y desarrolladores: construir, explorar y comprobar interfaces con las reglas de la marca. Lo que se crea aquí es una dirección visual para revisar, no un producto final.">
 <meta name="keyons:libro" content="sistema-diseno">
-<meta name="keyons:version" content="0.2">
+<meta name="keyons:version" content="0.3">
+<!-- Dirección del servicio que construye. Hoy, el servidor local (python tools/laboratorio.py).
+     Mañana puede ser Polaris: se cambia solo este valor. -->
+<meta name="keyons:lab-api" content="/api/lab/">
 <link rel="icon" href="../assets/logos/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,11 +20,10 @@
 <link rel="stylesheet" href="../css/laboratorio-app.css">
 </head>
 <body class="is-lab is-labx" data-root=".." data-page="sistema-diseno/laboratorio.html">
-<!-- Laboratorio de Interfaces: espacio seguro de exploración.
-     El escenario es un iframe aislado (sandbox sin mismo origen) que carga solo tokens.css y el kit
-     css/laboratorio-kit.css. Explorar aplica variables sobre la base; nunca la modifica ni toca los libros.
-     La generación con la API de Claude y el guardado funcionan con el servidor local (python tools/laboratorio.py).
-     Sin servidor, el Laboratorio sigue sirviendo para explorar las plantillas y ver las propuestas guardadas. -->
+<!-- Laboratorio de Interfaces: espacio de exploración para diseñadores y desarrolladores.
+     El escenario es un iframe aislado (sandbox sin mismo origen) con tokens.css, el kit css/laboratorio-kit.css
+     y js/laboratorio-runtime.js. Explorar y editar aplican cambios sobre la base sin modificarla ni tocar los libros.
+     Construir, corregir y sugerir normas usan la API de Claude a través del servicio de keyons:lab-api. -->
 
 <header id="topbar"></header>
 
@@ -33,44 +35,59 @@
       <span>Laboratorio de Interfaces</span>
     </nav>
 
-    <header class="lbx__hero">
-      <span class="kicker">Sistema de Diseño · Espacio seguro</span>
-      <h1 class="lbx__h1">Laboratorio de Interfaces</h1>
-      <p class="lbx__lead">Construya una interfaz con las reglas de Keyons y explore sin miedo. <br>Nada de lo que cambie aquí toca los libros ni el resto del proyecto.</p>
+    <!-- Bienvenida: la trama del Sistema de Diseño y los cuatro pasos -->
+    <header class="lbw">
+      <p class="lbw__k">Sistema de Diseño · Espacio de exploración</p>
+      <h1 class="lbw__t">Explore una interfaz <span>con las reglas de Keyons, sin empezar de cero.</span></h1>
+      <p class="lbw__d">Para diseñadores y desarrolladores. Lo que se crea aquí es una dirección visual para revisar, <b>no un producto final</b>: todo pasa por revisión antes de aplicarse.</p>
+      <ol class="lbw__steps" data-steps>
+        <li data-step="1"><span class="lbw__n">01</span><span class="lbw__l">Elegir la base</span></li>
+        <li data-step="2"><span class="lbw__n">02</span><span class="lbw__l">Explorar</span></li>
+        <li data-step="3"><span class="lbw__n">03</span><span class="lbw__l">Comprobar</span></li>
+        <li data-step="4"><span class="lbw__n">04</span><span class="lbw__l">Enviar a revisión</span></li>
+      </ol>
     </header>
 
-    <div class="lbx" data-labx>
-      <aside class="lbx__panel" aria-label="Controles del laboratorio">
-        <div class="lbx__tabs" role="tablist" aria-label="Paneles">
-          <button type="button" role="tab" aria-selected="true" aria-controls="lbx-pedido" id="lbx-t-pedido">Pedido</button>
-          <button type="button" role="tab" aria-selected="false" aria-controls="lbx-explorar" id="lbx-t-explorar">Explorar</button>
-          <button type="button" role="tab" aria-selected="false" aria-controls="lbx-guardados" id="lbx-t-guardados">Guardados</button>
-        </div>
+    <p class="lbx__mob">Para construir y explorar, abra el laboratorio en una tableta o un computador. Aquí puede consultar lo que ya se guardó.</p>
 
-        <section class="lbx__pane" id="lbx-pedido" role="tabpanel" aria-labelledby="lbx-t-pedido">
-          <div class="lbx__f">
-            <label for="lbx-q">Qué quiere construir</label>
-            <textarea id="lbx-q" rows="4" placeholder="Por ejemplo: un dashboard para una aplicación médica que muestre citas del día, pacientes en espera y alertas."></textarea>
+    <div class="lbx" data-labx>
+      <!-- Columna izquierda: el paso actual y sus controles -->
+      <aside class="lbx__l" aria-label="Pasos del laboratorio">
+        <nav class="lbx__tabs" role="tablist" aria-label="Pasos">
+          <button type="button" role="tab" aria-selected="true" aria-controls="lbx-construir" id="lbx-t-construir"><span>01</span>Construir</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="lbx-explorar" id="lbx-t-explorar"><span>02</span>Explorar</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="lbx-guardados" id="lbx-t-guardados"><span>03</span>Guardados</button>
+        </nav>
+
+        <section class="lbx__pane" id="lbx-construir" role="tabpanel" aria-labelledby="lbx-t-construir">
+          <div class="lbx__cell">
+            <h2 class="lbx__h">Desde una plantilla</h2>
+            <p class="lbx__p">Una base frecuente, hecha con los componentes reales.</p>
+            <button class="lbx__link" type="button" data-pick>Ver plantillas →</button>
           </div>
-          <div class="lbx__f">
-            <label for="lbx-d">Datos para usar <span>Opcional</span></label>
-            <textarea id="lbx-d" rows="3" placeholder="Pegue aquí textos, cifras o una tabla. Si lo deja vacío, se usan datos de muestra."></textarea>
+          <div class="lbx__cell">
+            <h2 class="lbx__h">Desde cero</h2>
+            <p class="lbx__p">Describa lo que necesita y el laboratorio lo construye con las reglas de Keyons.</p>
+            <label class="lbx__lab" for="lbx-q">Qué quiere construir</label>
+            <textarea id="lbx-q" rows="4" placeholder="Por ejemplo: un dashboard para una aplicación médica con citas del día, pacientes en espera y alertas."></textarea>
+            <label class="lbx__lab" for="lbx-d">Datos de ejemplo <span>Opcional</span></label>
+            <textarea id="lbx-d" rows="3" placeholder="Textos o cifras de muestra. Si lo deja vacío, se inventan datos creíbles."></textarea>
+            <p class="lbx__warn">Siempre datos de ejemplo, nunca datos reales de clientes o pacientes: lo que escriba aquí viaja al servicio de IA.</p>
+            <div class="lbx__row">
+              <button class="btn btn--primary" type="button" data-gen>Construir</button>
+              <button class="lbx__link" type="button" data-cc>Copiar pedido para Claude Code</button>
+            </div>
           </div>
-          <button class="btn btn--primary lbx__go" type="button" data-gen>Construir</button>
-          <div class="lbx__f lbx__f--chg" hidden data-chg>
-            <label for="lbx-c">Pedir un cambio</label>
-            <textarea id="lbx-c" rows="3" placeholder="Por ejemplo: agrega un filtro por médico y vuelve la tabla más compacta."></textarea>
+          <div class="lbx__cell" data-chg hidden>
+            <h2 class="lbx__h">Pedir un cambio</h2>
+            <textarea id="lbx-c" rows="3" aria-label="Cambio que necesita" placeholder="Por ejemplo: agregue un filtro por médico y vuelva la tabla más compacta."></textarea>
             <button class="btn btn--outline" type="button" data-chg-go>Aplicar el cambio</button>
           </div>
           <p class="lbx__msg" data-msg role="status"></p>
-          <div class="lbx__tpl">
-            <p class="lbx__k">Plantillas base</p>
-            <div class="lbx__tpls" data-tpls></div>
-          </div>
         </section>
 
         <section class="lbx__pane" id="lbx-explorar" role="tabpanel" aria-labelledby="lbx-t-explorar" hidden>
-          <p class="lbx__note">Cada cambio se aplica sobre la base sin modificarla. Lo que se aparta de las normas queda marcado como «Fuera de norma» en las comprobaciones.</p>
+          <p class="lbx__p">Cada cambio se aplica sobre la base sin modificarla. Lo que sale de las normas se marca en Comprobar.</p>
           <div data-ex></div>
         </section>
 
@@ -79,12 +96,13 @@
         </section>
       </aside>
 
-      <div class="lbx__work">
+      <!-- Centro: el lienzo sobre la cuadrícula -->
+      <div class="lbx__c">
         <div class="lbx__bar">
           <input class="lbx__title" type="text" value="Sin título" aria-label="Nombre del experimento" data-title>
           <div class="lbx__seg" role="group" aria-label="Vista">
-            <button type="button" aria-pressed="true" data-view="final">Vista final</button>
-            <button type="button" aria-pressed="false" data-view="tecnica">Vista técnica</button>
+            <button type="button" aria-pressed="true" data-view="final">Final</button>
+            <button type="button" aria-pressed="false" data-view="tecnica">Técnica</button>
           </div>
           <div class="lbx__seg" role="group" aria-label="Ancho">
             <button type="button" aria-pressed="true" data-dev="1280">Escritorio</button>
@@ -94,32 +112,91 @@
           <span class="lbx__w" data-w>1280 px</span>
         </div>
         <div class="lbx__stage" data-stage>
-          <div class="lbx__frame" data-frame><iframe sandbox="allow-scripts" title="Escenario del laboratorio" data-ifr></iframe></div>
-          <div class="lbx__start" data-start>
-            <p class="lbx__k">Empezar</p>
-            <div class="lbx__start-g">
-              <div><h2 class="lbx__start-t">Con una plantilla</h2><p>Un punto de partida frecuente, hecho con los componentes reales.</p><div class="lbx__tpls" data-tpls></div></div>
-              <div><h2 class="lbx__start-t">Desde cero</h2><p>Describa lo que necesita y el laboratorio lo construye con las reglas de Keyons.</p><button class="btn btn--outline" type="button" data-scratch>Escribir un pedido</button></div>
+          <div class="lbx__frames" data-frames>
+            <figure class="lbx__fr lbx__fr--base" data-base hidden><figcaption>Base</figcaption><div class="lbx__clip"><div class="lbx__frame"><iframe sandbox="allow-scripts" title="Base sin exploración" data-ifr-base></iframe></div></div></figure>
+            <figure class="lbx__fr" data-main><figcaption hidden data-cap-main>Exploración</figcaption><div class="lbx__clip"><div class="lbx__frame" data-frame><iframe sandbox="allow-scripts" title="Escenario del laboratorio" data-ifr></iframe></div></div></figure>
+          </div>
+          <p class="lbx__mark">Exploración · no es un producto final</p>
+
+          <!-- Elegir plantilla: vista previa a la izquierda, lista a la derecha -->
+          <div class="lbx__pick" data-picker>
+            <div class="lbx__pick-v"><div class="lbx__frame" data-pframe><iframe sandbox="allow-scripts" title="Vista previa de la plantilla" data-pifr tabindex="-1"></iframe></div></div>
+            <div class="lbx__pick-l">
+              <p class="lbx__k">Plantillas</p>
+              <ul class="lbx__tpls" data-tpls role="listbox" aria-label="Plantillas"></ul>
+              <button class="btn btn--primary" type="button" data-use>Usar esta plantilla</button>
+              <button class="lbx__link" type="button" data-scratch>O empezar desde cero →</button>
             </div>
           </div>
           <div class="lbx__busy" data-busy hidden><span></span><p>Construyendo con las reglas de Keyons…</p></div>
+          <div class="lbx__float">
+            <button type="button" data-split aria-pressed="false" title="Comparar la base con la exploración">Antes y después</button>
+            <button type="button" data-full aria-pressed="false" title="Pantalla completa">Pantalla completa</button>
+          </div>
         </div>
         <div class="lbx__foot">
-          <div class="lbx__acts">
-            <button class="btn btn--outline" type="button" data-undo disabled>Deshacer</button>
-            <button class="btn btn--outline" type="button" data-reset disabled>Restablecer a la base</button>
-            <button class="btn btn--outline" type="button" data-new>Empezar de nuevo</button>
-          </div>
-          <div class="lbx__acts">
-            <select class="lbx__estado" aria-label="Estado del experimento" data-estado>
-              <option>En exploración</option><option>Candidato para la marca</option><option>Descartado</option>
-            </select>
-            <button class="btn btn--primary" type="button" data-save disabled>Guardar</button>
-          </div>
+          <button class="lbx__link" type="button" data-undo disabled>Deshacer</button>
+          <button class="lbx__link" type="button" data-reset disabled>Restablecer a la base</button>
+          <button class="lbx__link" type="button" data-new>Empezar de nuevo</button>
+          <span class="lbx__sp"></span>
+          <button class="lbx__link" type="button" data-export disabled>Exportar</button>
+          <button class="lbx__link" type="button" data-normas disabled>Sugerir normas</button>
         </div>
-        <ul class="lbx__checks" data-checks aria-live="polite"></ul>
       </div>
+
+      <!-- Derecha: contexto breve del momento -->
+      <aside class="lbx__r" aria-label="Contexto">
+        <section class="lbx__cell">
+          <div class="lbx__hrow"><h2 class="lbx__h">Editar en el lienzo</h2><label class="lbx__tog"><input type="checkbox" data-edit><span>Activo</span></label></div>
+          <p class="lbx__p">Clic para elegir un bloque, doble clic para reescribir un texto.</p>
+          <label class="lbx__tog lbx__tog--line"><input type="checkbox" data-snap checked><span>Ajustar a la retícula</span></label>
+          <div class="lbx__props" data-props hidden>
+            <p class="lbx__k" data-pinfo></p>
+            <div class="lbx__acts">
+              <button type="button" data-cmd="up" title="Subir">↑</button>
+              <button type="button" data-cmd="down" title="Bajar">↓</button>
+              <button type="button" data-cmd="span" data-v="-1" title="Una columna menos" data-gridonly>− col</button>
+              <button type="button" data-cmd="span" data-v="1" title="Una columna más" data-gridonly>+ col</button>
+              <button type="button" data-cmd="dup">Duplicar</button>
+              <button type="button" data-cmd="del">Borrar</button>
+              <button type="button" data-cmd="snapback" data-freeonly>Volver a la retícula</button>
+            </div>
+            <label class="lbx__lab" for="lbx-var" data-varwrap hidden>Variante</label>
+            <select id="lbx-var" data-var hidden></select>
+          </div>
+        </section>
+        <section class="lbx__cell">
+          <h2 class="lbx__h">Comprobar</h2>
+          <ul class="lbx__checks" data-checks aria-live="polite"><li class="is-idle"><span>Las comprobaciones aparecen al cargar una base.</span></li></ul>
+          <button class="lbx__link" type="button" data-fix hidden>Corregir lo que falla →</button>
+        </section>
+        <section class="lbx__cell">
+          <h2 class="lbx__h">Combinaciones</h2>
+          <p class="lbx__p">Puntos de partida dentro de norma.</p>
+          <div class="lbx__combos" data-combos></div>
+        </section>
+        <section class="lbx__cell">
+          <h2 class="lbx__h">Revisión</h2>
+          <label class="lbx__lab" for="lbx-estado">Estado</label>
+          <select id="lbx-estado" data-estado>
+            <option>En exploración</option><option>Enviado a revisión</option><option>Dirección aprobada</option><option>Descartada</option><option>En desarrollo detallado</option>
+          </select>
+          <div data-decide hidden>
+            <label class="lbx__lab" for="lbx-quien">Decidido por</label>
+            <input id="lbx-quien" type="text" autocomplete="name" data-quien>
+          </div>
+          <button class="btn btn--primary" type="button" data-save disabled>Guardar</button>
+          <p class="lbx__cost" data-cost></p>
+        </section>
+      </aside>
     </div>
+
+    <!-- Notas para el libro: lo que devuelve «Sugerir normas» -->
+    <section class="lbx__notes" data-notes hidden>
+      <div class="lbx__hrow"><h2 class="lbx__h">Notas para el libro</h2><span class="lbx__k" data-notes-file></span></div>
+      <pre data-notes-md></pre>
+      <div class="lbx__row"><button class="lbx__link" type="button" data-notes-copy>Copiar</button><button class="lbx__link" type="button" data-notes-dl>Descargar .md</button><button class="lbx__link" type="button" data-notes-close>Cerrar</button></div>
+    </section>
 
     <p class="lbx__more">Las pruebas de cada componente por separado están en <a class="xref" href="laboratorio-componentes.html">Componentes base</a>.</p>
   </main>

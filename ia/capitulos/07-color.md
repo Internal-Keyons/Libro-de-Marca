@@ -8,8 +8,8 @@ titulo: "Color"
 area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/color/paleta-base.html", "/fundamentos/color/escalas.html", "/fundamentos/color/cielos.html", "/fundamentos/color/por-modo.html", "/fundamentos/color/funcionales.html"]
-normas: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-VIS-012", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015"]
-referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015", "KYN-MRK-CON-002", "KYN-MRK-VIS-012"]
+normas: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-VIS-008", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015"]
+referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-COL-003", "KYN-MRK-COL-004", "KYN-MRK-COL-005", "KYN-MRK-COL-006", "KYN-MRK-COL-007", "KYN-MRK-COL-008", "KYN-MRK-COL-009", "KYN-MRK-COL-010", "KYN-MRK-COL-011", "KYN-MRK-COL-012", "KYN-MRK-COL-013", "KYN-MRK-COL-014", "KYN-MRK-COL-015", "KYN-MRK-CON-002", "KYN-MRK-VIS-008"]
 ---
 
 # Capítulo 07 · Color
@@ -161,9 +161,9 @@ Mínimo 4.5:1 para texto normal y 3:1 para texto grande y elementos gráficos.
 | Blanco sobre Salmón | 3.8 : 1 | Solo texto grande y logotipo |
 | Cielo sobre Blanco | 2.6 : 1 | Nunca texto; solo superficies |
 
-## KYN-MRK-VIS-012 · 7.5.1 Contraste insuficiente
+## KYN-MRK-VIS-008 · 7.5.1 Contraste insuficiente
 
-Número: 7.5.1 · ID: `KYN-MRK-VIS-012` · Estado: vigente · Fuente: `/fundamentos/color/paleta-base.html#vis-012`
+Número: 7.5.1 · ID: `KYN-MRK-VIS-008` · Estado: vigente · Fuente: `/fundamentos/color/paleta-base.html#vis-008`
 
 ### Delicado, pero siempre legible
 

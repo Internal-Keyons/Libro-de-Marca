@@ -36,11 +36,6 @@
     "k": "en-revision",
     "t": "En revisión",
     "d": "Contenido sujeto a evaluación o aprobación."
-   },
-   {
-    "k": "descontinuada",
-    "t": "Descontinuada",
-    "d": "Norma histórica reemplazada o retirada, con identificador reservado y referencia a su destino cuando corresponda."
    }
   ],
   "estados_adicionales": [
@@ -61,12 +56,6 @@
     "t": "Estructura definida",
     "equivale": "En revisión",
     "d": "Sistema de Diseño: capítulo con estructura aprobada y contenido pendiente."
-   },
-   {
-    "k": "integrada",
-    "t": "Integrada",
-    "equivale": "Descontinuada",
-    "d": "Su contenido pasó a otra norma; el ID queda reservado y redirige a su destino."
    }
   ],
   "regla_ia": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
@@ -126,8 +115,7 @@
   "identificadores": {
    "formato": "KYN-<LIBRO>-<ÁREA>-<número de tres cifras>",
    "reglas": [
-    "Los identificadores son permanentes: no se reutilizan ni se renumeran.",
-    "Una norma integrada o descontinuada conserva su ID y remite a su destino.",
+    "Los identificadores son permanentes desde la versión 1: no se reutilizan ni se renumeran.",
     "Las referencias entre libros se resuelven mediante el ID permanente. Estado actual: los ID enlazan dentro del Libro de Marca; el Sistema de Diseño aún no emite códigos propios."
    ],
    "prefijos": [
@@ -160,7 +148,7 @@
   "excepciones": {
    "pasos": [
     "Solicitar la excepción por escrito.",
-    "Identificar la norma afectada por su ID y, cuando corresponda, su requisito interno.",
+    "Citar la norma por su ID y su requisito.",
     "Documentar la justificación.",
     "Registrar quién autoriza.",
     "Determinar el alcance y la vigencia temporal.",
@@ -422,7 +410,7 @@
    "fecha_aprobacion": null,
    "excepciones": [],
    "relacionadas": [
-    "KYN-MRK-VIS-010"
+    "KYN-MRK-VIS-006"
    ]
   },
   "KYN-MRK-CMP-003": {
@@ -829,17 +817,6 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-DIS-006": {
-   "titulo": "Calidad sin firma visible",
-   "estado": "descontinuada",
-   "estado_documental": "descontinuada",
-   "version": "0.1",
-   "ambito": [],
-   "responsable": null,
-   "fecha_aprobacion": null,
-   "excepciones": [],
-   "relacionadas": []
-  },
   "KYN-MRK-ESP-001": {
    "titulo": "Lenguaje geométrico Keyons",
    "estado": "vigente",
@@ -896,17 +873,6 @@
    "relacionadas": []
   },
   "KYN-MRK-ESP-006": {
-   "titulo": "Patrones de composición",
-   "estado": "descontinuada",
-   "estado_documental": "integrada",
-   "version": "1.0",
-   "ambito": [],
-   "responsable": null,
-   "fecha_aprobacion": null,
-   "excepciones": [],
-   "relacionadas": []
-  },
-  "KYN-MRK-ESP-007": {
    "titulo": "Diagramas de información",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1540,19 +1506,6 @@
    "relacionadas": []
   },
   "KYN-MRK-TYP-004": {
-   "titulo": "Composición editorial",
-   "estado": "descontinuada",
-   "estado_documental": "integrada",
-   "version": "0.1",
-   "ambito": [],
-   "responsable": null,
-   "fecha_aprobacion": null,
-   "excepciones": [],
-   "relacionadas": [
-    "KYN-MRK-TYP-003"
-   ]
-  },
-  "KYN-MRK-TYP-005": {
    "titulo": "Etiquetas de contexto",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1563,7 +1516,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-TYP-006": {
+  "KYN-MRK-TYP-005": {
    "titulo": "Criterios de aplicación",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1574,7 +1527,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-TYP-007": {
+  "KYN-MRK-TYP-006": {
    "titulo": "Uso por función",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1586,28 +1539,6 @@
    "relacionadas": []
   },
   "KYN-MRK-VIS-001": {
-   "titulo": "Kicker decorativo",
-   "estado": "descontinuada",
-   "estado_documental": "integrada",
-   "version": "0.1",
-   "ambito": [],
-   "responsable": null,
-   "fecha_aprobacion": null,
-   "excepciones": [],
-   "relacionadas": []
-  },
-  "KYN-MRK-VIS-002": {
-   "titulo": "Tracking indiscriminado",
-   "estado": "descontinuada",
-   "estado_documental": "integrada",
-   "version": "0.1",
-   "ambito": [],
-   "responsable": null,
-   "fecha_aprobacion": null,
-   "excepciones": [],
-   "relacionadas": []
-  },
-  "KYN-MRK-VIS-003": {
    "titulo": "Jerarquía visual repetitiva",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1618,7 +1549,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-VIS-004": {
+  "KYN-MRK-VIS-002": {
    "titulo": "Tarjetas innecesarias",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1629,21 +1560,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-VIS-005": {
-   "titulo": "Gradientes ornamentales",
-   "estado": "descontinuada",
-   "estado_documental": "integrada",
-   "version": "0.1",
-   "ambito": [],
-   "responsable": null,
-   "fecha_aprobacion": null,
-   "excepciones": [],
-   "relacionadas": [
-    "KYN-MRK-COL-009",
-    "KYN-MRK-CON-008"
-   ]
-  },
-  "KYN-MRK-VIS-006": {
+  "KYN-MRK-VIS-003": {
    "titulo": "Geometría genérica",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1654,18 +1571,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-VIS-007": {
-   "titulo": "Acentos tipográficos repetidos",
-   "estado": "descontinuada",
-   "estado_documental": "integrada",
-   "version": "0.1",
-   "ambito": [],
-   "responsable": null,
-   "fecha_aprobacion": null,
-   "excepciones": [],
-   "relacionadas": []
-  },
-  "KYN-MRK-VIS-008": {
+  "KYN-MRK-VIS-004": {
    "titulo": "Iconografía de relleno",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1676,7 +1582,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-VIS-009": {
+  "KYN-MRK-VIS-005": {
    "titulo": "Saturación de microelementos",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1687,7 +1593,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-VIS-010": {
+  "KYN-MRK-VIS-006": {
    "titulo": "Simetría automática",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1698,7 +1604,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-VIS-011": {
+  "KYN-MRK-VIS-007": {
    "titulo": "Movimiento ornamental",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1709,7 +1615,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-VIS-012": {
+  "KYN-MRK-VIS-008": {
    "titulo": "Contraste insuficiente",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1720,7 +1626,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-VIS-013": {
+  "KYN-MRK-VIS-009": {
    "titulo": "Lenguaje genérico",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1731,7 +1637,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-VIS-014": {
+  "KYN-MRK-VIS-010": {
    "titulo": "Maximalismo uniforme",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1742,7 +1648,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-VIS-015": {
+  "KYN-MRK-VIS-011": {
    "titulo": "Originalidad a costa de orientación",
    "estado": "vigente",
    "estado_documental": "vigente",
@@ -1753,7 +1659,7 @@
    "excepciones": [],
    "relacionadas": []
   },
-  "KYN-MRK-VIS-016": {
+  "KYN-MRK-VIS-012": {
    "titulo": "Composición no intercambiable",
    "estado": "vigente",
    "estado_documental": "vigente",

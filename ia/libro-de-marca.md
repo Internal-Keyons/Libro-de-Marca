@@ -807,9 +807,9 @@ Aliados, acompañantes, colaboradores.
 
 Describir la idea es más largo, pero más distintivo y más honesto.
 
-#### KYN-MRK-VIS-013 · 4.4.1 Lenguaje genérico
+#### KYN-MRK-VIS-009 · 4.4.1 Lenguaje genérico
 
-Número: 4.4.1 · ID: `KYN-MRK-VIS-013` · Estado: vigente · Fuente: `/marca/vocabulario.html#vis-013`
+Número: 4.4.1 · ID: `KYN-MRK-VIS-009` · Estado: vigente · Fuente: `/marca/vocabulario.html#vis-009`
 
 ##### Específico, comprensible y con sentido
 
@@ -1169,16 +1169,8 @@ Cada versión vive en **tres combinaciones** y en ninguna otra. Nunca en Salmón
 ###### Logotipo principal
 
 La primera opción siempre que el espacio lo permita. Un bloque sólido y compacto: el nombre en dos niveles, KEY y ONS, guía la pronunciación, expresa la naturaleza modular de nuestras soluciones y dibuja una llave entre la K, la E, la O y la N.
-
-**(Usos recomendados)** El logotipo principal es la opción prioritaria y debe aplicarse de forma preferente, especialmente en:
-
-- Portadas de documentos.
-- Presentaciones corporativas.
-- Aplicaciones textiles, como uniformes.
-- Rotulación principal.
-- Soportes que requieran máxima presencia de marca con una composición equilibrada.
-
-Solo cuando otra versión resulte más adecuada para el formato o contexto específico puede utilizarse esa alternativa. En cualquier otro escenario, el logotipo principal sigue siendo la elección.
+**(Usos recomendados)** · El logotipo principal es la opción prioritaria y se aplica de forma preferente en portadas de documentos, presentaciones corporativas, uniformes, rotulación principal y todo soporte que requiera máxima presencia de marca.
+Solo cuando otra versión resulte más adecuada para el formato o el contexto puede utilizarse esa alternativa. En cualquier otro escenario, el logotipo principal sigue siendo la elección.
 
 **(Logotipo principal)**
 
@@ -1603,9 +1595,9 @@ Mínimo 4.5:1 para texto normal y 3:1 para texto grande y elementos gráficos.
 | Blanco sobre Salmón | 3.8 : 1 | Solo texto grande y logotipo |
 | Cielo sobre Blanco | 2.6 : 1 | Nunca texto; solo superficies |
 
-#### KYN-MRK-VIS-012 · 7.5.1 Contraste insuficiente
+#### KYN-MRK-VIS-008 · 7.5.1 Contraste insuficiente
 
-Número: 7.5.1 · ID: `KYN-MRK-VIS-012` · Estado: vigente · Fuente: `/fundamentos/color/paleta-base.html#vis-012`
+Número: 7.5.1 · ID: `KYN-MRK-VIS-008` · Estado: vigente · Fuente: `/fundamentos/color/paleta-base.html#vis-008`
 
 ##### Delicado, pero siempre legible
 
@@ -2129,9 +2121,9 @@ TASA Orbiter 500 · 52–128 px
 
 Las combinaciones adicionales requerirán validación antes de formar parte de los valores oficiales.
 
-#### KYN-MRK-TYP-005 · 8.5 Etiquetas de contexto
+#### KYN-MRK-TYP-004 · 8.5 Etiquetas de contexto
 
-Número: 8.5 · ID: `KYN-MRK-TYP-005` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#kickers`
+Número: 8.5 · ID: `KYN-MRK-TYP-004` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#kickers`
 
 ##### Etiquetas que aportan contexto
 
@@ -2145,9 +2137,9 @@ Capítulo 01 · ADN
 - **Símbolo**: Estrella de marca a la izquierda, sin repetirse a la derecha
 - **Separador**: Punto medio entre niveles, sin punto final
 
-#### KYN-MRK-TYP-006 · 8.6 Criterios de aplicación
+#### KYN-MRK-TYP-005 · 8.6 Criterios de aplicación
 
-Número: 8.6 · ID: `KYN-MRK-TYP-006` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#reglas`
+Número: 8.6 · ID: `KYN-MRK-TYP-005` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#reglas`
 
 ##### Siete criterios de aplicación
 
@@ -2181,9 +2173,9 @@ Los textos prolongados y controles funcionales priorizan la legibilidad.
 Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.
 El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
 
-#### KYN-MRK-TYP-007 · 8.7 Uso por función
+#### KYN-MRK-TYP-006 · 8.7 Uso por función
 
-Número: 8.7 · ID: `KYN-MRK-TYP-007` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#funcion`
+Número: 8.7 · ID: `KYN-MRK-TYP-006` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#funcion`
 
 ##### Cada familia, su función
 
@@ -2420,9 +2412,9 @@ La fórmula del radio exterior menos el relleno puede utilizarse como referencia
 **(En código)**
 Siempre con su variable: `var(--r-card)`, nunca con un número suelto.
 
-#### KYN-MRK-VIS-006 · 9.2.1 Geometría genérica
+#### KYN-MRK-VIS-003 · 9.2.1 Geometría genérica
 
-Número: 9.2.1 · ID: `KYN-MRK-VIS-006` · Estado: vigente · Fuente: `/fundamentos/forma/espacio.html#vis-006`
+Número: 9.2.1 · ID: `KYN-MRK-VIS-003` · Estado: vigente · Fuente: `/fundamentos/forma/espacio.html#vis-003`
 
 ##### La geometría Keyons, no un radio para todo
 
@@ -2544,11 +2536,11 @@ Equilibrar estabilidad y tensión según lo que se cuenta.
 Simetría para lo que se compara o se lee como un conjunto. Asimetría controlada cuando una idea pesa más que otra: una columna ancha junto a una angosta, o un titular que ocupa más que su texto.
 
 **(Invariantes)**
-Ni simetría automática ni asimetría constante: KYN-MRK-VIS-010.
+Ni simetría automática ni asimetría constante: KYN-MRK-VIS-006.
 
-#### KYN-MRK-VIS-010 · 10.2.1 Simetría automática
+#### KYN-MRK-VIS-006 · 10.2.1 Simetría automática
 
-Número: 10.2.1 · ID: `KYN-MRK-VIS-010` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-010`
+Número: 10.2.1 · ID: `KYN-MRK-VIS-006` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-006`
 
 ##### Ni todo centrado ni todo descompensado
 
@@ -2653,9 +2645,9 @@ Fotografías, color, textura o movimiento adquieren protagonismo cuando el conte
 
 Una secuencia sin pausas no tiene ritmo.
 
-#### KYN-MRK-VIS-014 · 10.4.1 Maximalismo uniforme
+#### KYN-MRK-VIS-010 · 10.4.1 Maximalismo uniforme
 
-Número: 10.4.1 · ID: `KYN-MRK-VIS-014` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-014`
+Número: 10.4.1 · ID: `KYN-MRK-VIS-010` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-010`
 
 ##### Intensidad con momentos de reposo
 
@@ -2762,9 +2754,9 @@ Un texto al final de una sección lleva rótulo y la línea de su bloque. Nunca 
 
 La densidad adecuada permite comprender y actuar sin añadir ruido visual.
 
-#### KYN-MRK-VIS-003 · 10.5.1 Jerarquía repetida
+#### KYN-MRK-VIS-001 · 10.5.1 Jerarquía repetida
 
-Número: 10.5.1 · ID: `KYN-MRK-VIS-003` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-003`
+Número: 10.5.1 · ID: `KYN-MRK-VIS-001` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-001`
 
 ##### La jerarquía se construye para cada contenido
 
@@ -2772,9 +2764,9 @@ La composición debe responder a **las relaciones y prioridades del contenido**.
 
 Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.
 
-#### KYN-MRK-VIS-009 · 10.5.2 Microelementos
+#### KYN-MRK-VIS-005 · 10.5.2 Microelementos
 
-Número: 10.5.2 · ID: `KYN-MRK-VIS-009` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-009`
+Número: 10.5.2 · ID: `KYN-MRK-VIS-005` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-005`
 
 ##### La jerarquía no se hace con adornos
 
@@ -2782,9 +2774,9 @@ Evitar **acumulaciones** de píldoras, puntos, líneas, estrellas, etiquetas, mi
 
 La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
 
-#### KYN-MRK-VIS-004 · 10.5.3 Tarjetas innecesarias
+#### KYN-MRK-VIS-002 · 10.5.3 Tarjetas innecesarias
 
-Número: 10.5.3 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-004`
+Número: 10.5.3 · ID: `KYN-MRK-VIS-002` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-002`
 
 ##### Una tarjeta solo cuando agrupa algo
 
@@ -2792,9 +2784,9 @@ Las tarjetas deben representar **agrupaciones funcionales** o visualmente justif
 
 Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
 
-#### KYN-MRK-ESP-007 · 10.6 Diagramas de información
+#### KYN-MRK-ESP-006 · 10.6 Diagramas de información
 
-Número: 10.6 · ID: `KYN-MRK-ESP-007` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
+Número: 10.6 · ID: `KYN-MRK-ESP-006` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
 
 ##### Ordenar ideas, no medirlas
 
@@ -2865,9 +2857,9 @@ Las medidas de trazo y texto deben comprobarse según el tamaño final y el cont
 
 Número: 10.7 · Fuente: `/fundamentos/composicion/editorial.html#ejemplos`
 
-##### Tres casos, tres estructuras
+##### Un caso, su estructura
 
-Tres casos completos muestran cómo **el contenido decide la retícula**, el espacio y la jerarquía.
+Un caso completo muestra cómo **el contenido decide la retícula**, el espacio y la jerarquía.
 
 Diagnóstico · Cierre contable mensual
 
@@ -2896,40 +2888,9 @@ Ejemplo ilustrativo. Fuente: diagnóstico operativo, cifras de muestra.
 - **Adaptación**: Menos de 760 px: la propuesta pasa debajo de la situación actual y conserva el orden de los criterios.
 - **Comprobación**: Cada diferencia se lee en una sola fila; unidades y escalas equivalentes; la propuesta se distingue sin depender solo del color.
 
-1. 01 · Amanecer
-2. 02 · Mediodía
-3. 03 · Atardecer
-4. 04 · Anochecer
-5. 05 · Galaxia
+#### KYN-MRK-VIS-012 · 10.7.1 Identidad visual aplicada
 
-Las descripciones de cada fase se toman de la documentación oficial de Prisma.
-
-- **Retícula**: Cinco columnas iguales sobre el ancho del contenido; medianil de 12 px (`--gap-list`).
-- **Separaciones**: 16 px entre muestra y número, 4 px entre número y nombre, 8 px entre nombre y descripción.
-- **Continuidad**: Una línea de 1 px en Azul Cielo 200 une las fases a la altura de los números.
-- **Jerarquía**: Número 12 px en gris 3; nombre 20 px, 500, Azul Noche; descripción 14 px en gris 2.
-- **Adaptación**: Menos de 760 px: la secuencia se vuelve vertical y la línea de continuidad pasa al costado izquierdo.
-- **Comprobación**: El orden se lee sin numeración adicional; las cinco fases tienen la misma proporción; los nombres coinciden con la documentación vigente.
-
-Informe de investigación · 2026
-Cómo trabajan los equipos de operaciones
-Quince entrevistas muestran dónde se pierde el tiempo y qué tareas pueden cambiar primero.
-01 · Hallazgos
-Las tareas que más tiempo consumen no son las más complejas, sino las que se repiten entre sistemas. El equipo copia datos, valida cifras y corrige formatos antes de poder analizar.
-Cuando la información llega ordenada, la revisión se concentra en las excepciones y el cierre se adelanta.
-02 · Recomendaciones
-Empezar por los flujos de mayor repetición y medir cada cambio con el mismo indicador.
-
-- **Retícula**: 12 columnas: 8 para la lectura y 4 para notas; columna de lectura de hasta 600 px.
-- **Separaciones**: 16 px entre párrafos (`--s4`), 48 px antes de cada sección (`--s12`), 32 px entre titular y entrada (`--s8`).
-- **Jerarquía**: Titular 24 a 32 px, 500; entrada 20 px; sección 20 px, 500; cuerpo 16 px con interlineado 1,65; notas 12 px en gris 3.
-- **Lectura**: Entre 55 y 75 caracteres por línea; alineación a la izquierda; sin cortes de palabra.
-- **Adaptación**: Menos de 760 px: las notas pasan debajo del párrafo que acompañan y la columna ocupa todo el ancho.
-- **Comprobación**: Cada sección se identifica de un vistazo; la línea no supera 75 caracteres; las notas no interrumpen la lectura principal.
-
-#### KYN-MRK-VIS-016 · 10.7.1 Identidad visual aplicada
-
-Número: 10.7.1 · ID: `KYN-MRK-VIS-016` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-016`
+Número: 10.7.1 · ID: `KYN-MRK-VIS-012` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-012`
 
 ##### Una composición con identidad propia
 
@@ -3005,7 +2966,7 @@ La secuencia alterna círculo y cuadrado y **siempre abre con el círculo**. El 
 Los colores rotan en **secuencia fija**: Azul Cielo, Salmón Tierra y Salmón Atardecer. La forma alterna por su cuenta, así que **nunca se repite la misma combinación seguida**.
 
 **(Color o Azul Noche)**
-**Viñetas de color** · Piezas que deben destacar: presentaciones, web, redes y volantes. **Azul Noche** · Documentación larga: manuales, informes, guías y propuestas extensas. Este manual las usa así. **Blanco Keyons** · En modo nocturno, el mismo criterio invertido.
+**Viñetas de color** · Piezas que deben destacar: presentaciones, web, redes y volantes. **Azul Noche** · Documentación larga: manuales, informes, guías y propuestas extensas. Este manual las usa así. **Blanco Keyons** · En modo nocturno se aplica el mismo criterio, invertido para asegurar contraste y legibilidad.
 
 **(Un solo color)**
 Para **listas cortas**, de hasta cuatro ítems. Sobre claro, Azul Cielo o Salmón Tierra; en modo nocturno, Azul Cielo o Salmón Atardecer. **La forma alterna igual**: da ritmo sin romper la unidad del color.
@@ -3561,9 +3522,9 @@ Un ícono comunica mejor acompañado. **Solo, debe ser inequívoco.**
 - Agentes de IA · Estela y los demás agentes usan su avatar en la conversación y un ícono solo en espacios mínimos.
 - Redes y servicios externos · Versión original del servicio, monocroma en Azul Noche o Blanco y al mismo tamaño óptico. Nunca se redibujan.
 
-#### KYN-MRK-VIS-008 · 12.3.1 Iconografía de relleno
+#### KYN-MRK-VIS-004 · 12.3.1 Iconografía de relleno
 
-Número: 12.3.1 · ID: `KYN-MRK-VIS-008` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#vis-008`
+Número: 12.3.1 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundamentos/iconografia/iconos.html#vis-004`
 
 ##### Un ícono tiene que ayudar a entender
 
@@ -3576,7 +3537,7 @@ Los íconos deben favorecer orientación, comprensión, identificación o expres
 **(Uso incorrecto)**
 **Un ícono genérico junto a cada titular** Una bombilla, un cohete o un engranaje que no dicen nada del contenido.
 
-> Recurso visual: Ejemplo dibujado: Descargar diagnóstico · Acción · Norma vigente · Estado · Propuesta comercial · Categoría
+> Recurso visual: Ejemplo dibujado: Enviar solicitud · Acción · Norma vigente · Estado · Propuesta comercial · Categoría
 
 **(Alternativa mejor)**
 **Un ícono con función** El ícono identifica una acción, un estado o una categoría.
@@ -3684,9 +3645,10 @@ Los gráficos Keyons convierten información en **conocimiento comprensible**.
 - Mostrar avances.
 - Comparar lo actual con lo propuesto.
 
-La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual.
-
 ###### Reglas fundamentales
+
+**(DEBE · Calidad)**
+La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual.
 
 **(DEBE · Integridad de los datos)**
 La representación visual conserva las proporciones y relaciones reales de la información.
@@ -3759,9 +3721,9 @@ Para magnitudes ordenadas, del claro al profundo en pasos parejos. La de Azul Ci
 
 ###### Paleta divergente
 
-Azul Cielo, Azul Noche, Lavanda, Blanco Keyons, Amarillo claro de los cielos, Ámbar de los cielos, Salmón Tierra y Salmón Atardecer.
+Azul Noche, Azul Cielo, Lavanda, Salmón Tierra, Salmón Atardecer, Blanco Keyons, Amarillo claro de los cielos y Ámbar de los cielos.
 
-Orden de representación
+Nota
 Esta combinación conserva la relación entre los azules de la identidad y los tonos cálidos de los cielos. Los dos extremos representan direcciones diferentes respecto al centro. Su significado depende de los datos y se comunica mediante etiquetas y unidades.
 
 **(DEBE · Referencia central)**
@@ -3797,7 +3759,10 @@ El Sistema de Diseño establecerá su implementación técnica, adaptación resp
 
 Los colores semánticos pertenecen a estados como éxito, advertencia, error, información y estado crítico.
 
+Nota
 La paleta semántica se utiliza para comunicar estados, mientras que las paletas estadísticas representan categorías, magnitudes y diferencias.
+
+Nota
 Para pérdidas, errores y resultados desfavorables se utiliza el color semántico correspondiente, acompañándolo de texto, símbolo o indicador explícito. La definición técnica de esos colores procede del catálogo semántico oficial del proyecto (KYN-MRK-COL-014).
 
 #### KYN-MRK-DAT-003 · 13.3 Tipografía en gráficos
@@ -5510,46 +5475,42 @@ Número: 28.2 · ID: `KYN-MRK-REF-002` · Estado: vigente · Fuente: `/recursos/
 
 ##### Todas las normas, por ID
 
-Cada ID lleva a su sección. Las normas descontinuadas conservan su número y se muestran al final.
+Cada ID lleva a su sección.
 
 #### Criterios visuales
 
 Rótulo: Referencia · Trazabilidad · Fuente: `/fundamentos/criterio/antipatrones.html`
 
-Dónde vive hoy cada una de las dieciséis normas que formaron este capítulo.
+Dónde vive cada una de las doce normas de criterio visual.
 
 #### 28.3 Trazabilidad
 
 Número: 28.3 · Fuente: `/fundamentos/criterio/antipatrones.html#trazabilidad`
 
-##### Dieciséis normas, una fuente cada una
+##### Doce normas, una fuente cada una
 
-El capítulo Criterios visuales se integró en las materias que regulan cada tema. **Los dieciséis ID se conservan**: cada uno lleva a su ubicación vigente.
+Cada criterio visual vive en la materia que regula su tema. **Cada ID lleva a su ubicación** dentro del libro.
 
 | (Norma) | Destino | Estado |
 |---|---|---|
-| KYN-MRK-VIS-001 · Kicker decorativo | KYN-MRK-TYP-005 · Etiquetas de contexto | Integrada |
-| KYN-MRK-VIS-002 · Tracking indiscriminado | Tipografía · Tracking (8.8) | Integrada |
-| KYN-MRK-VIS-003 · Jerarquía visual repetitiva | Composición · Jerarquía y densidad | Trasladada |
-| KYN-MRK-VIS-004 · Tarjetas innecesarias | Composición · Patrones de composición | Trasladada |
-| KYN-MRK-VIS-005 · Gradientes ornamentales | KYN-MRK-COL-009 · Gradientes | Integrada |
-| KYN-MRK-VIS-006 · Geometría genérica | Geometría y espacio · Radios y curvaturas | Trasladada |
-| KYN-MRK-VIS-007 · Acentos tipográficos repetidos | KYN-MRK-TYP-006 · Énfasis con moderación | Integrada |
-| KYN-MRK-VIS-008 · Iconografía de relleno | Iconografía · Uso | Trasladada |
-| KYN-MRK-VIS-009 · Saturación de microelementos | Composición · Jerarquía y densidad | Trasladada |
-| KYN-MRK-VIS-010 · Simetría automática | Composición · Simetría y asimetría | Trasladada |
-| KYN-MRK-VIS-011 · Movimiento ornamental | Movimiento | En integración |
-| KYN-MRK-VIS-012 · Contraste insuficiente | Color · Combinaciones, con referencia a Accesibilidad | Trasladada |
-| KYN-MRK-VIS-013 · Lenguaje genérico | Voz · Vocabulario que evitamos | Trasladada |
-| KYN-MRK-VIS-014 · Maximalismo uniforme | Composición · Ritmo y equilibrio | Trasladada |
-| KYN-MRK-VIS-015 · Originalidad a costa de orientación | Sistema de Diseño · Principios de experiencia | En integración |
-| KYN-MRK-VIS-016 · Composición no intercambiable | Composición · Identidad visual aplicada | Trasladada |
+| KYN-MRK-VIS-001 · Jerarquía visual repetitiva | Composición · Jerarquía y densidad | Vigente |
+| KYN-MRK-VIS-002 · Tarjetas innecesarias | Composición · Patrones de composición | Vigente |
+| KYN-MRK-VIS-003 · Geometría genérica | Geometría y espacio · Radios y curvaturas | Vigente |
+| KYN-MRK-VIS-004 · Iconografía de relleno | Iconografía · Uso | Vigente |
+| KYN-MRK-VIS-005 · Saturación de microelementos | Composición · Jerarquía y densidad | Vigente |
+| KYN-MRK-VIS-006 · Simetría automática | Composición · Simetría y asimetría | Vigente |
+| KYN-MRK-VIS-007 · Movimiento ornamental | Movimiento | En integración |
+| KYN-MRK-VIS-008 · Contraste insuficiente | Color · Combinaciones, con referencia a Accesibilidad | Vigente |
+| KYN-MRK-VIS-009 · Lenguaje genérico | Voz · Vocabulario que evitamos | Vigente |
+| KYN-MRK-VIS-010 · Maximalismo uniforme | Composición · Ritmo y equilibrio | Vigente |
+| KYN-MRK-VIS-011 · Originalidad a costa de orientación | Sistema de Diseño · Principios de experiencia | En integración |
+| KYN-MRK-VIS-012 · Composición no intercambiable | Composición · Identidad visual aplicada | Vigente |
 
 Las dos normas en integración siguen vigentes aquí hasta que su destino tenga página: Movimiento en este libro y Principios de experiencia en el Sistema de Diseño.
 
-#### KYN-MRK-VIS-011 · 28.3.1 Movimiento
+#### KYN-MRK-VIS-007 · 28.3.1 Movimiento
 
-Número: 28.3.1 · ID: `KYN-MRK-VIS-011` · Estado: vigente · Fuente: `/fundamentos/criterio/antipatrones.html#vis-011`
+Número: 28.3.1 · ID: `KYN-MRK-VIS-007` · Estado: vigente · Fuente: `/fundamentos/criterio/antipatrones.html#vis-007`
 
 ##### El movimiento orienta, no distrae
 
@@ -5565,9 +5526,9 @@ En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene
 **(Alternativa mejor)**
 Una transición breve muestra de dónde viene el panel. Se presenta como secuencia, sin animación automática.
 
-#### KYN-MRK-VIS-015 · 28.3.2 Orientación
+#### KYN-MRK-VIS-011 · 28.3.2 Orientación
 
-Número: 28.3.2 · ID: `KYN-MRK-VIS-015` · Estado: vigente · Fuente: `/fundamentos/criterio/antipatrones.html#vis-015`
+Número: 28.3.2 · ID: `KYN-MRK-VIS-011` · Estado: vigente · Fuente: `/fundamentos/criterio/antipatrones.html#vis-011`
 
 ##### Original, pero siempre comprensible
 

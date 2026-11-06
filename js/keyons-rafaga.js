@@ -28,7 +28,8 @@
     ' vec2 uv=gl_FragCoord.xy/R;',
     ' vec2 o=(texture2D(OFF,uv).xy-.5)*.5;',                         // desplazamiento de ráfaga (igual que el cielo)
     ' vec2 q=vec2(uv.x*ASP,uv.y)*2.2;',
-    ' vec2 w=vec2(fbm(q+vec2(TD*.06,TD*.11)),fbm(q+vec2(5.2-TD*.05,1.3+TD*.09)))-.5;', // viento: la materia respira
+    ' q-=vec2(TD*.05,TD*.006);',                                    // deriva lenta, como las nubes del encabezado
+    ' vec2 w=vec2(fbm(q+vec2(TD*.03,TD*.05)),fbm(q+vec2(5.2-TD*.025,1.3+TD*.04)))-.5;', // viento: la materia fluye
     ' vec2 p=uv-o-w*WIND;',
     ' gl_FragColor=texture2D(IMG,p);',
     '}'
@@ -139,7 +140,7 @@
         }
         energy = en; gl.activeTexture(gl.TEXTURE1); gl.bindTexture(gl.TEXTURE_2D, tex); gl.texSubImage2D(gl.TEXTURE_2D, 0, 0, 0, GW, GH, gl.RGBA, gl.UNSIGNED_BYTE, px);
       }
-      gl.uniform2f(U.R, cv.width, cv.height); gl.uniform1f(U.TD, td); gl.uniform1f(U.ASP, asp); gl.uniform1f(U.WIND, reduce.matches ? 0 : .022);
+      gl.uniform2f(U.R, cv.width, cv.height); gl.uniform1f(U.TD, td); gl.uniform1f(U.ASP, asp); gl.uniform1f(U.WIND, reduce.matches ? 0 : .07);   // en reposo la forma fluye; el cursor la dispersa encima
       gl.clearColor(0, 0, 0, 0); gl.clear(gl.COLOR_BUFFER_BIT);
       gl.drawArrays(gl.TRIANGLES, 0, 3);
     }

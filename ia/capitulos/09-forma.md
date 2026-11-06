@@ -8,8 +8,8 @@ titulo: "Geometría y espacio"
 area: "Fundamentos"
 estado: "vigente"
 rutas: ["/fundamentos/forma/espacio.html"]
-normas: ["KYN-MRK-ESP-001", "KYN-MRK-ESP-002", "KYN-MRK-VIS-006", "KYN-MRK-ESP-003"]
-referencias: ["KYN-MRK-ESP-001", "KYN-MRK-ESP-002", "KYN-MRK-ESP-003", "KYN-MRK-VIS-006"]
+normas: ["KYN-MRK-ESP-001", "KYN-MRK-ESP-002", "KYN-MRK-VIS-003", "KYN-MRK-ESP-003"]
+referencias: ["KYN-MRK-ESP-001", "KYN-MRK-ESP-002", "KYN-MRK-ESP-003", "KYN-MRK-VIS-003"]
 ---
 
 # Capítulo 09 · Geometría y espacio
@@ -124,9 +124,9 @@ La fórmula del radio exterior menos el relleno puede utilizarse como referencia
 **(En código)**
 Siempre con su variable: `var(--r-card)`, nunca con un número suelto.
 
-## KYN-MRK-VIS-006 · 9.2.1 Geometría genérica
+## KYN-MRK-VIS-003 · 9.2.1 Geometría genérica
 
-Número: 9.2.1 · ID: `KYN-MRK-VIS-006` · Estado: vigente · Fuente: `/fundamentos/forma/espacio.html#vis-006`
+Número: 9.2.1 · ID: `KYN-MRK-VIS-003` · Estado: vigente · Fuente: `/fundamentos/forma/espacio.html#vis-003`
 
 ### La geometría Keyons, no un radio para todo
 

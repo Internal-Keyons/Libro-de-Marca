@@ -52,7 +52,7 @@ La secuencia alterna círculo y cuadrado y **siempre abre con el círculo**. El 
 Los colores rotan en **secuencia fija**: Azul Cielo, Salmón Tierra y Salmón Atardecer. La forma alterna por su cuenta, así que **nunca se repite la misma combinación seguida**.
 
 **(Color o Azul Noche)**
-**Viñetas de color** · Piezas que deben destacar: presentaciones, web, redes y volantes. **Azul Noche** · Documentación larga: manuales, informes, guías y propuestas extensas. Este manual las usa así. **Blanco Keyons** · En modo nocturno, el mismo criterio invertido.
+**Viñetas de color** · Piezas que deben destacar: presentaciones, web, redes y volantes. **Azul Noche** · Documentación larga: manuales, informes, guías y propuestas extensas. Este manual las usa así. **Blanco Keyons** · En modo nocturno se aplica el mismo criterio, invertido para asegurar contraste y legibilidad.
 
 **(Un solo color)**
 Para **listas cortas**, de hasta cuatro ítems. Sobre claro, Azul Cielo o Salmón Tierra; en modo nocturno, Azul Cielo o Salmón Atardecer. **La forma alterna igual**: da ritmo sin romper la unidad del color.

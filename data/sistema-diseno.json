@@ -117,8 +117,8 @@
    "estado": "estructura",
    "marca": [
     "ESP-004",
-    "ESP-006",
-    "ESP-007"
+    "CMP-001",
+    "ESP-006"
    ],
    "capitulos": [
     {
@@ -222,7 +222,7 @@
    "marca": [
     "COL-012",
     "COL-013",
-    "TYP-007",
+    "TYP-006",
     "ESP-001",
     "ESP-002",
     "ESP-003",
@@ -522,8 +522,8 @@
    "marca": [
     "DIS-004",
     "DIS-005",
-    "ESP-006",
-    "VIS-015"
+    "CMP-001",
+    "VIS-011"
    ],
    "capitulos": [
     {
@@ -655,7 +655,7 @@
    "estado": "estructura",
    "marca": [
     "COL-005",
-    "VIS-012",
+    "VIS-008",
     [
      "fundamentos/index.html#cap-accesibilidad",
      "16",
@@ -1306,7 +1306,7 @@
    "marca": [
     "ICO-004",
     "ILU-006",
-    "VIS-011",
+    "VIS-007",
     [
      "fundamentos/index.html#cap-movimiento",
      "15",
@@ -1416,9 +1416,9 @@
    "marca": [
     "REF-001",
     "REF-002",
-    "VIS-003",
-    "VIS-013",
-    "VIS-016"
+    "VIS-001",
+    "VIS-009",
+    "VIS-012"
    ],
    "capitulos": [
     {

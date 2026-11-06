@@ -33,9 +33,10 @@ Los gráficos Keyons convierten información en **conocimiento comprensible**.
 - Mostrar avances.
 - Comparar lo actual con lo propuesto.
 
-La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual.
-
 ###### Reglas fundamentales
+
+**(DEBE · Calidad)**
+La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual.
 
 **(DEBE · Integridad de los datos)**
 La representación visual conserva las proporciones y relaciones reales de la información.

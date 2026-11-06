@@ -3745,7 +3745,7 @@ body .portal .portal__arcs{animation:none!important;--ripple:0px;will-change:tra
 .redline__yes::before{background:var(--k-noche)}
 /* ESP-005 · más aire entre viñetas */
 .dui ul{row-gap:12px}
-/* ESP-007 · etiquetas del mismo gris que los demás diagramas */
+/* ESP-006 · etiquetas del mismo gris que los demás diagramas */
 #diagramas .reachviz__t{font-size:clamp(12px,1.1vw,14px);font-weight:500;color:#6B6D7E}
 /* ILU-002 · lo anterior en gris, sin tachar */
 .emph__old{color:var(--color-text-3)}
@@ -4943,7 +4943,7 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 .cats__how .paren{display:block;margin-bottom:var(--s1);font-size:12px;font-weight:600;font-style:normal;letter-spacing:0;color:var(--color-text-3)}
 /* LOG-010 · línea superior de 4 px */
 .mslide--stats .mslide__view{border-top-width:4px}
-/* VIS-012 y VIS-013 · las filas de ambas columnas en el gris de la muestra */
+/* VIS-008 y VIS-009 · las filas de ambas columnas en el gris de la muestra */
 .cmpx__rows p,.cmpx__col--yes .cmpx__rows p{font-weight:400;color:var(--color-text-3)}
 /* ESP-005 · más aire entre bloques */
 #densidad .patx{margin-top:var(--s24)}
@@ -4971,7 +4971,7 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 .flip.is-flip .flip__card > .vdemo__s,.flip.is-flip .flip__card > .gl{opacity:0}
 .flip__back{z-index:2}
 .flip__tag,.flip__btn{z-index:3}
-/* VIS-009 · la alternativa, limpia: un dato que orienta, el titular y una línea de apoyo */
+/* VIS-005 · la alternativa, limpia: un dato que orienta, el titular y una línea de apoyo */
 .crv-mic--ok{max-width:300px;padding:var(--s6) 0 0;box-shadow:inset 0 4px 0 var(--k-cielo-200)}
 .crv-mic--ok .crv-mic__m{display:flex;align-items:center;justify-content:space-between;margin:0 0 var(--s3);font-size:12px;color:var(--color-text-3)}
 .crv-mic__st{padding:2px 10px;border-radius:var(--r-pill);font-size:11px;color:var(--k-noche);background:var(--k-cielo-100)}
@@ -5009,11 +5009,11 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 /* Rótulo de la tarjeta («Uso incorrecto», «Alternativa mejor»): siempre Azul Cielo claro */
 .flip__tag,.vdemo__i--yes .flip__tag{background:var(--k-cielo-100)}
 
-/* VIS-014 · esquinas: rectas por fuera, curvas por dentro */
+/* VIS-010 · esquinas: rectas por fuera, curvas por dentro */
 .crv-row:first-child .crv-row__s{border-radius:0 0 var(--r-card) var(--r-card)}
 .crv-row:last-child .crv-row__s{border-radius:var(--r-card) var(--r-card) 0 0}
 
-/* VIS-013 · sin vacío bajo el comparativo */
+/* VIS-009 · sin vacío bajo el comparativo */
 .cmpx__lab{grid-template-rows:none;grid-row:auto}
 
 /* TYP-003 · menús: título arriba, seis del mismo ancho, sin anillo grueso */
@@ -5038,7 +5038,7 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 /* DIS-003 · texto con título */
 .ed__sub + .tsub__d{margin-top:var(--s3)}
 
-/* ESP-006 · guía de patrones de composición */
+/* CMP-001 · guía de patrones de composición */
 .pcx{margin-top:var(--s12);box-shadow:inset 0 -1px 0 var(--k-cielo-100)}
 .pcx__i{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:var(--s4) var(--s10);padding:var(--s8) 0;box-shadow:inset 0 1px 0 var(--k-cielo-100)}
 .pcx__h{display:flex;gap:var(--s4);align-items:baseline}
@@ -5084,7 +5084,7 @@ i.crv-dot{display:inline-block;width:8px;height:8px;margin:0 5px;border-radius:5
 /* DIS-005 · el título del gráfico, como los títulos grandes de los demás gráficos */
 .tag--t{font-size:20px!important;font-weight:500!important;letter-spacing:-.015em;fill:var(--k-noche)!important}
 
-/* VIS-013 · ambas citas en el mismo gris */
+/* VIS-009 · ambas citas en el mismo gris */
 .cmpx__col--yes .cmpx__q{color:var(--color-text-3)}
 
 /* Portada: minimalismo con escala máxima. Titular enorme, aire amplio y bajada pequeña desplazada a la derecha */
@@ -5322,7 +5322,7 @@ body.bks-open{overflow:hidden}
 .hero .t-lead{grid-column:1 / -1;max-width:none;margin-top:var(--s8);font-size:20px;line-height:1.5}
 @media(max-width:760px){.hero .t-lead br{display:none}}
 
-/* VIS-013 · la cita Keyons en Azul Noche */
+/* VIS-009 · la cita Keyons en Azul Noche */
 .cmpx__col--yes .cmpx__q{color:var(--k-noche)}
 /* Acceso secundario a la Guía de la Biblioteca */
 .guia-link{margin-top:var(--s8)}
@@ -5550,7 +5550,7 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)
 .rfp.is-copy{cursor:copy}
 .rfp.is-copy:focus-visible{outline:2px solid var(--k-noche);outline-offset:3px}
 
-/* ── ESP-007 · 10.7: Prisma con el cielo en código; las especificaciones de cada caso, debajo y en dos columnas ── */
+/* ── ESP-006 · 10.7: Prisma con el cielo en código; las especificaciones de cada caso, debajo y en dos columnas ── */
 .xb__sky{position:relative;overflow:hidden;isolation:isolate}
 .xmp__spec{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:var(--s10)}
 @media(max-width:760px){.xmp__spec{grid-template-columns:minmax(0,1fr)}}
@@ -5595,9 +5595,6 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)
 .ed__sub + .ed__stack,.ed__sub + .tsub__d + .ed__stack{margin-top:var(--s4)}
 .ed__sub + .ed__stack > div:first-child,.ed__sub + .tsub__d + .ed__stack > div:first-child{border-top:0;padding-top:var(--s5)}
 
-/* ── LOG-001: los usos recomendados en filas breves, no en un bloque ── */
-.lspec__uses{margin:var(--s3) 0 var(--s4);padding:0;list-style:none;border-bottom:1px solid var(--color-border)}
-.lspec__uses li{padding:var(--s2) 0;border-top:1px solid var(--color-border);font-size:16px;line-height:1.5;color:var(--color-text)}
 .ed__more > p + p{margin-top:var(--s3)}
 
 /* ── Guía · ámbitos: una lista en dos columnas, sin forma de botón ── */
@@ -5616,3 +5613,32 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)
 .gov__route-s .xref{text-decoration-color:transparent}
 .gov__route-s .xref:hover{text-decoration-color:currentColor}
 .gov__route-n{margin-top:var(--s2)}
+
+/* ════════ Ronda 20 ════════ */
+/* ── Buscar: sin anillo oscuro en el hover. El borde es transparente y el relleno blanco lo cubre ── */
+.hdr__search,.hdr--home:not(.is-solid) .hdr__search{border-color:transparent}
+.hdr__search::before{inset:-2px;border-radius:inherit}
+@media(hover:hover){.hdr__search:hover,.hdr--home:not(.is-solid) .hdr__search:hover{border-color:transparent}}
+/* Móvil y tableta: botón circular, solo el ícono */
+@media(max-width:1179px){.hdr__search{width:40px;height:40px;padding:0;border-radius:50%}}
+
+/* ── Portada · «Este libro reúne…» al tamaño del subtítulo de la portada ── */
+.howto__s{font-size:20px;line-height:1.5;max-width:30ch}
+
+/* ── Títulos de grupo: el divisor que abre un grupo es Azul Noche, distinto de las líneas de las filas ── */
+.ed__sub:has(+ .ed__stack),.ed__sub:has(+ .tsub__d + .ed__stack){border-top-color:var(--k-noche)}
+
+/* ── ILU-001 · Color o Azul Noche: título arriba, texto debajo, sin líneas entre filas ── */
+.mrow{grid-template-columns:minmax(0,1fr);row-gap:var(--s1);padding:var(--s4) 0 0;border-top:0}
+.mrow:first-child{padding-top:0}
+@media(max-width:640px){.mrow br{display:none}}
+
+/* ── DAT-002: las paletas en círculos, como en el capítulo de color; los textos de cada paleta como notas ── */
+.dpal__ramp,.dpal__ramp:has(.dsw:nth-child(6)){display:flex;flex-wrap:wrap;gap:var(--s5) var(--s6);margin:0}
+.dpal__ramp + .dpal__ramp{margin-top:0}
+.dpal__ramp .dsw{display:grid;justify-items:start;row-gap:var(--s2);width:auto}
+.dpal__ramp .dsw i,.dpal__ramp .dsw:first-child i,.dpal__ramp .dsw:last-child i,.dpal__ramp:has(.dsw:nth-child(6)) .dsw i{width:52px;height:52px;border-radius:50%!important}
+.dpal__ramp--sem .dsw{max-width:72px}
+.dpal__n{max-width:600px;padding-top:var(--s5);border-top:1px solid var(--color-border)}
+.dpal__n p{font-size:14px;line-height:1.6;color:var(--color-text-2)}
+.dpal__n + .dpal__n{margin-top:calc(var(--s2) * -1)}

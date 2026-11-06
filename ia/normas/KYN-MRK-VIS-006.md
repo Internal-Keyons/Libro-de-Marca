@@ -4,34 +4,32 @@ version: "0.1"
 fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-006"
-titulo: "Geometría genérica"
-numero: "9.2.1"
+titulo: "Simetría automática"
+numero: "10.2.1"
 estado: "vigente"
-capitulo: "09 Geometría y espacio"
+capitulo: "10 Composición"
 area: "Fundamentos"
-fuente: "/fundamentos/forma/espacio.html#vis-006"
+fuente: "/fundamentos/composicion/editorial.html#vis-006"
 referencias: []
-citada_por: []
+citada_por: ["KYN-MRK-CMP-002"]
 ---
 
-# KYN-MRK-VIS-006 · Geometría genérica
+# KYN-MRK-VIS-006 · Simetría automática
 
-Número: 9.2.1 · Estado: vigente · Capítulo: 09 Geometría y espacio · Fuente: `/fundamentos/forma/espacio.html#vis-006`
+Número: 10.2.1 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-006`
 
-##### La geometría Keyons, no un radio para todo
+##### Ni todo centrado ni todo descompensado
 
-La geometría de los elementos debe responder a **su función y relación compositiva**.
+La simetría comunica **estabilidad y equivalencia**. La asimetría controlada permite establecer diferencias de protagonismo.
 
-No aplicar el mismo radio a botones, campos, imágenes y contenedores únicamente por uniformidad.
+Ninguna debe utilizarse automáticamente.
 
-En las composiciones de Keyons se aplica el principio de contenedores individuales rectos y agrupaciones con combinaciones justificadas de esquinas rectas y curvas.
+> Recurso visual: Ejemplo dibujado: Herramientasinternas · ProductosSaaS · Productospersonalizados
 
-> Recurso visual: Ejemplo dibujado: Cielo propio · Ver capítulo
+**(Opciones equivalentes)**
+Tres opciones del mismo nivel: la simetría comunica su equivalencia.
 
-**(Uso incorrecto)**
-**El mismo radio en todo** Imagen, contenedor y botón con idéntico redondeo.
+> Recurso visual: Ejemplo dibujado: Primero entendemossu operación · 03
 
-> Recurso visual: Ejemplo dibujado: Cielo propio · Ver capítulo
-
-**(Alternativa mejor)**
-**Radios según la función** La imagen y el texto forman un conjunto: exterior recto, interior curvo. El botón conserva su geometría curva.
+**(Una idea protagonista)**
+Una idea pesa más que su apoyo: la asimetría marca el protagonismo.

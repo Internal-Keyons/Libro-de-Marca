@@ -4,22 +4,32 @@ version: "0.1"
 fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-004"
-titulo: "Tarjetas innecesarias"
-numero: "10.5.3"
+titulo: "Iconografía de relleno"
+numero: "12.3.1"
 estado: "vigente"
-capitulo: "10 Composición"
+capitulo: "12 Iconografía"
 area: "Fundamentos"
-fuente: "/fundamentos/composicion/editorial.html#vis-004"
+fuente: "/fundamentos/iconografia/iconos.html#vis-004"
 referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-VIS-004 · Tarjetas innecesarias
+# KYN-MRK-VIS-004 · Iconografía de relleno
 
-Número: 10.5.3 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-004`
+Número: 12.3.1 · Estado: vigente · Capítulo: 12 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#vis-004`
 
-##### Una tarjeta solo cuando agrupa algo
+##### Un ícono tiene que ayudar a entender
 
-Las tarjetas deben representar **agrupaciones funcionales** o visualmente justificadas.
+No introducir íconos **únicamente para decorar** textos o títulos.
 
-Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
+Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada.
+
+> Recurso visual: Ejemplo dibujado: Nuestra visión · Crecimiento · Procesos
+
+**(Uso incorrecto)**
+**Un ícono genérico junto a cada titular** Una bombilla, un cohete o un engranaje que no dicen nada del contenido.
+
+> Recurso visual: Ejemplo dibujado: Enviar solicitud · Acción · Norma vigente · Estado · Propuesta comercial · Categoría
+
+**(Alternativa mejor)**
+**Un ícono con función** El ícono identifica una acción, un estado o una categoría.

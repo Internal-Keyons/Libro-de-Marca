@@ -4,8 +4,8 @@ version: "0.1"
 fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-011"
-titulo: "Movimiento ornamental"
-numero: "28.3.1"
+titulo: "Originalidad a costa de orientación"
+numero: "28.3.2"
 estado: "vigente"
 capitulo: "28 Referencia"
 area: "Recursos"
@@ -14,20 +14,22 @@ referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-VIS-011 · Movimiento
+# KYN-MRK-VIS-011 · Orientación
 
-Número: 28.3.1 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/fundamentos/criterio/antipatrones.html#vis-011`
+Número: 28.3.2 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/fundamentos/criterio/antipatrones.html#vis-011`
 
-##### El movimiento orienta, no distrae
+##### Original, pero siempre comprensible
 
-El movimiento debe **facilitar la orientación**, comunicar cambios o aportar expresión visual cuando el contexto lo permite.
+La originalidad visual **no debe ocultar funciones**, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia.
 
-En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas.
+La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
 
-En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.
+> Recurso visual: Ejemplo dibujado: Cielo propio
 
 **(Uso incorrecto)**
-**Animación constante durante una tarea** Elementos que flotan en bucle mientras se trabaja.
+**Un menú que solo aparece al pasar por una zona sin señal** La persona no sabe que existe.
+
+> Recurso visual: Ejemplo dibujado: Keyons · ADN · Concepto · Principios · Voz · Cielo propio
 
 **(Alternativa mejor)**
-Una transición breve muestra de dónde viene el panel. Se presenta como secuencia, sin animación automática.
+**Navegación a la vista** Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.

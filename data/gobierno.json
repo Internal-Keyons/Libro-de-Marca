@@ -35,11 +35,6 @@
       "k": "en-revision",
       "t": "En revisión",
       "d": "Contenido sujeto a evaluación o aprobación."
-    },
-    {
-      "k": "descontinuada",
-      "t": "Descontinuada",
-      "d": "Norma histórica reemplazada o retirada, con identificador reservado y referencia a su destino cuando corresponda."
     }
   ],
   "estados_adicionales": [
@@ -60,12 +55,6 @@
       "t": "Estructura definida",
       "equivale": "En revisión",
       "d": "Sistema de Diseño: capítulo con estructura aprobada y contenido pendiente."
-    },
-    {
-      "k": "integrada",
-      "t": "Integrada",
-      "equivale": "Descontinuada",
-      "d": "Su contenido pasó a otra norma; el ID queda reservado y redirige a su destino."
     }
   ],
   "regla_ia": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
@@ -125,8 +114,7 @@
   "identificadores": {
     "formato": "KYN-<LIBRO>-<ÁREA>-<número de tres cifras>",
     "reglas": [
-      "Los identificadores son permanentes: no se reutilizan ni se renumeran.",
-      "Una norma integrada o descontinuada conserva su ID y remite a su destino.",
+      "Los identificadores son permanentes desde la versión 1: no se reutilizan ni se renumeran.",
       "Las referencias entre libros se resuelven mediante el ID permanente. Estado actual: los ID enlazan dentro del Libro de Marca; el Sistema de Diseño aún no emite códigos propios."
     ],
     "prefijos": [
@@ -159,7 +147,7 @@
   "excepciones": {
     "pasos": [
       "Solicitar la excepción por escrito.",
-      "Identificar la norma afectada por su ID y, cuando corresponda, su requisito interno.",
+      "Citar la norma por su ID y su requisito.",
       "Documentar la justificación.",
       "Registrar quién autoriza.",
       "Determinar el alcance y la vigencia temporal.",

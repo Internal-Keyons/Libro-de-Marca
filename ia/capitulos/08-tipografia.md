@@ -8,8 +8,8 @@ titulo: "Tipografía"
 area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/tipografia/sistema.html"]
-normas: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-TYP-007"]
-referencias: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-TYP-007"]
+normas: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-004", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006"]
+referencias: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-004", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006"]
 ---
 
 # Capítulo 08 · Tipografía
@@ -182,9 +182,9 @@ TASA Orbiter 500 · 52–128 px
 
 Las combinaciones adicionales requerirán validación antes de formar parte de los valores oficiales.
 
-## KYN-MRK-TYP-005 · 8.5 Etiquetas de contexto
+## KYN-MRK-TYP-004 · 8.5 Etiquetas de contexto
 
-Número: 8.5 · ID: `KYN-MRK-TYP-005` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#kickers`
+Número: 8.5 · ID: `KYN-MRK-TYP-004` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#kickers`
 
 ### Etiquetas que aportan contexto
 
@@ -198,9 +198,9 @@ Capítulo 01 · ADN
 - **Símbolo**: Estrella de marca a la izquierda, sin repetirse a la derecha
 - **Separador**: Punto medio entre niveles, sin punto final
 
-## KYN-MRK-TYP-006 · 8.6 Criterios de aplicación
+## KYN-MRK-TYP-005 · 8.6 Criterios de aplicación
 
-Número: 8.6 · ID: `KYN-MRK-TYP-006` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#reglas`
+Número: 8.6 · ID: `KYN-MRK-TYP-005` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#reglas`
 
 ### Siete criterios de aplicación
 
@@ -234,9 +234,9 @@ Los textos prolongados y controles funcionales priorizan la legibilidad.
 Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.
 El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
 
-## KYN-MRK-TYP-007 · 8.7 Uso por función
+## KYN-MRK-TYP-006 · 8.7 Uso por función
 
-Número: 8.7 · ID: `KYN-MRK-TYP-007` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#funcion`
+Número: 8.7 · ID: `KYN-MRK-TYP-006` · Estado: vigente · Fuente: `/fundamentos/tipografia/sistema.html#funcion`
 
 ### Cada familia, su función
 

@@ -4,32 +4,40 @@ version: "0.1"
 fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-008"
-titulo: "Iconografía de relleno"
-numero: "12.3.1"
+titulo: "Contraste insuficiente"
+numero: "7.5.1"
 estado: "vigente"
-capitulo: "12 Iconografía"
+capitulo: "07 Color"
 area: "Fundamentos"
-fuente: "/fundamentos/iconografia/iconos.html#vis-008"
+fuente: "/fundamentos/color/paleta-base.html#vis-008"
 referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-VIS-008 · Iconografía de relleno
+# KYN-MRK-VIS-008 · Contraste insuficiente
 
-Número: 12.3.1 · Estado: vigente · Capítulo: 12 Iconografía · Fuente: `/fundamentos/iconografia/iconos.html#vis-008`
+Número: 7.5.1 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos/color/paleta-base.html#vis-008`
 
-##### Un ícono tiene que ayudar a entender
+##### Delicado, pero siempre legible
 
-No introducir íconos **únicamente para decorar** textos o títulos.
+La delicadeza visual no justifica **textos, controles ni datos ilegibles**.
 
-Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada. Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada.
+El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.
 
-> Recurso visual: Ejemplo dibujado: Nuestra visión · Crecimiento · Procesos
+> Recurso visual: Muestra visual: Color · Contraste sobre Blanco Keyons · Resultado
 
-**(Uso incorrecto)**
-**Un ícono genérico junto a cada titular** Una bombilla, un cohete o un engranaje que no dicen nada del contenido.
+Uso incorrecto
 
-> Recurso visual: Ejemplo dibujado: Descargar diagnóstico · Acción · Norma vigente · Estado · Propuesta comercial · Categoría
+Actualizado hace 5 minutos
 
-**(Alternativa mejor)**
-**Un ícono con función** El ícono identifica una acción, un estado o una categoría.
+#C7C8CB
+1,5 : 1
+No se puede leer
+
+Alternativa mejor
+
+Actualizado hace 5 minutos
+
+#6B6D7E
+4,6 : 1
+Legible · AA

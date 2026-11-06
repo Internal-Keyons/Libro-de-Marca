@@ -4,22 +4,34 @@ version: "0.1"
 fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-VIS-009"
-titulo: "Saturación de microelementos"
-numero: "10.5.2"
+titulo: "Lenguaje genérico"
+numero: "4.4.1"
 estado: "vigente"
-capitulo: "10 Composición"
-area: "Fundamentos"
-fuente: "/fundamentos/composicion/editorial.html#vis-009"
+capitulo: "04 Voz"
+area: "Marca"
+fuente: "/marca/vocabulario.html#vis-009"
 referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-VIS-009 · Microelementos
+# KYN-MRK-VIS-009 · Lenguaje genérico
 
-Número: 10.5.2 · Estado: vigente · Capítulo: 10 Composición · Fuente: `/fundamentos/composicion/editorial.html#vis-009`
+Número: 4.4.1 · Estado: vigente · Capítulo: 04 Voz · Fuente: `/marca/vocabulario.html#vis-009`
 
-##### La jerarquía no se hace con adornos
+##### Específico, comprensible y con sentido
 
-Evitar **acumulaciones** de píldoras, puntos, líneas, estrellas, etiquetas, miniíconos y adornos de poca relevancia.
+El contenido debe ser **específico, comprensible y significativo**.
 
-La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
+No utilizar promesas empresariales intercambiables ni expresiones tecnológicas exageradas para sustituir una explicación concreta.
+
+> Recurso visual: Muestra visual: Quién podría firmarlo · Qué comunica
+
+Promesa intercambiable
+
+Cualquier empresa
+Una promesa
+
+Explicación concreta
+
+Solo Keyons
+Lo que cambia para el cliente

@@ -8,8 +8,8 @@ titulo: "Composición"
 area: "Fundamentos"
 estado: "vigente"
 rutas: ["/fundamentos/composicion/editorial.html"]
-normas: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-VIS-010", "KYN-MRK-CMP-003", "KYN-MRK-ESP-004", "KYN-MRK-CMP-004", "KYN-MRK-VIS-014", "KYN-MRK-ESP-005", "KYN-MRK-VIS-003", "KYN-MRK-VIS-009", "KYN-MRK-VIS-004", "KYN-MRK-ESP-007", "KYN-MRK-VIS-016"]
-referencias: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-CMP-003", "KYN-MRK-CMP-004", "KYN-MRK-ESP-004", "KYN-MRK-ESP-005", "KYN-MRK-ESP-007", "KYN-MRK-TYP-002", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-014", "KYN-MRK-VIS-016"]
+normas: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-VIS-006", "KYN-MRK-CMP-003", "KYN-MRK-ESP-004", "KYN-MRK-CMP-004", "KYN-MRK-VIS-010", "KYN-MRK-ESP-005", "KYN-MRK-VIS-001", "KYN-MRK-VIS-005", "KYN-MRK-VIS-002", "KYN-MRK-ESP-006", "KYN-MRK-VIS-012"]
+referencias: ["KYN-MRK-CMP-001", "KYN-MRK-CMP-002", "KYN-MRK-CMP-003", "KYN-MRK-CMP-004", "KYN-MRK-ESP-004", "KYN-MRK-ESP-005", "KYN-MRK-ESP-006", "KYN-MRK-TYP-002", "KYN-MRK-VIS-001", "KYN-MRK-VIS-002", "KYN-MRK-VIS-005", "KYN-MRK-VIS-006", "KYN-MRK-VIS-010", "KYN-MRK-VIS-012"]
 ---
 
 # Capítulo 10 · Composición
@@ -86,11 +86,11 @@ Equilibrar estabilidad y tensión según lo que se cuenta.
 Simetría para lo que se compara o se lee como un conjunto. Asimetría controlada cuando una idea pesa más que otra: una columna ancha junto a una angosta, o un titular que ocupa más que su texto.
 
 **(Invariantes)**
-Ni simetría automática ni asimetría constante: KYN-MRK-VIS-010.
+Ni simetría automática ni asimetría constante: KYN-MRK-VIS-006.
 
-## KYN-MRK-VIS-010 · 10.2.1 Simetría automática
+## KYN-MRK-VIS-006 · 10.2.1 Simetría automática
 
-Número: 10.2.1 · ID: `KYN-MRK-VIS-010` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-010`
+Número: 10.2.1 · ID: `KYN-MRK-VIS-006` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-006`
 
 ### Ni todo centrado ni todo descompensado
 
@@ -195,9 +195,9 @@ Fotografías, color, textura o movimiento adquieren protagonismo cuando el conte
 
 Una secuencia sin pausas no tiene ritmo.
 
-## KYN-MRK-VIS-014 · 10.4.1 Maximalismo uniforme
+## KYN-MRK-VIS-010 · 10.4.1 Maximalismo uniforme
 
-Número: 10.4.1 · ID: `KYN-MRK-VIS-014` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-014`
+Número: 10.4.1 · ID: `KYN-MRK-VIS-010` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-010`
 
 ### Intensidad con momentos de reposo
 
@@ -304,9 +304,9 @@ Un texto al final de una sección lleva rótulo y la línea de su bloque. Nunca 
 
 La densidad adecuada permite comprender y actuar sin añadir ruido visual.
 
-## KYN-MRK-VIS-003 · 10.5.1 Jerarquía repetida
+## KYN-MRK-VIS-001 · 10.5.1 Jerarquía repetida
 
-Número: 10.5.1 · ID: `KYN-MRK-VIS-003` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-003`
+Número: 10.5.1 · ID: `KYN-MRK-VIS-001` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-001`
 
 ### La jerarquía se construye para cada contenido
 
@@ -314,9 +314,9 @@ La composición debe responder a **las relaciones y prioridades del contenido**.
 
 Repetir una estructura aporta coherencia cuando facilita la lectura. Se convierte en un problema cuando se utiliza automáticamente aunque el contenido necesite otra solución.
 
-## KYN-MRK-VIS-009 · 10.5.2 Microelementos
+## KYN-MRK-VIS-005 · 10.5.2 Microelementos
 
-Número: 10.5.2 · ID: `KYN-MRK-VIS-009` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-009`
+Número: 10.5.2 · ID: `KYN-MRK-VIS-005` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-005`
 
 ### La jerarquía no se hace con adornos
 
@@ -324,9 +324,9 @@ Evitar **acumulaciones** de píldoras, puntos, líneas, estrellas, etiquetas, mi
 
 La jerarquía no debe depender de la cantidad de elementos decorativos. La cantidad apropiada depende de la función informativa.
 
-## KYN-MRK-VIS-004 · 10.5.3 Tarjetas innecesarias
+## KYN-MRK-VIS-002 · 10.5.3 Tarjetas innecesarias
 
-Número: 10.5.3 · ID: `KYN-MRK-VIS-004` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-004`
+Número: 10.5.3 · ID: `KYN-MRK-VIS-002` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-002`
 
 ### Una tarjeta solo cuando agrupa algo
 
@@ -334,9 +334,9 @@ Las tarjetas deben representar **agrupaciones funcionales** o visualmente justif
 
 Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.
 
-## KYN-MRK-ESP-007 · 10.6 Diagramas de información
+## KYN-MRK-ESP-006 · 10.6 Diagramas de información
 
-Número: 10.6 · ID: `KYN-MRK-ESP-007` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
+Número: 10.6 · ID: `KYN-MRK-ESP-006` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#diagramas`
 
 ### Ordenar ideas, no medirlas
 
@@ -407,9 +407,9 @@ Las medidas de trazo y texto deben comprobarse según el tamaño final y el cont
 
 Número: 10.7 · Fuente: `/fundamentos/composicion/editorial.html#ejemplos`
 
-### Tres casos, tres estructuras
+### Un caso, su estructura
 
-Tres casos completos muestran cómo **el contenido decide la retícula**, el espacio y la jerarquía.
+Un caso completo muestra cómo **el contenido decide la retícula**, el espacio y la jerarquía.
 
 Diagnóstico · Cierre contable mensual
 
@@ -438,40 +438,9 @@ Ejemplo ilustrativo. Fuente: diagnóstico operativo, cifras de muestra.
 - **Adaptación**: Menos de 760 px: la propuesta pasa debajo de la situación actual y conserva el orden de los criterios.
 - **Comprobación**: Cada diferencia se lee en una sola fila; unidades y escalas equivalentes; la propuesta se distingue sin depender solo del color.
 
-1. 01 · Amanecer
-2. 02 · Mediodía
-3. 03 · Atardecer
-4. 04 · Anochecer
-5. 05 · Galaxia
+## KYN-MRK-VIS-012 · 10.7.1 Identidad visual aplicada
 
-Las descripciones de cada fase se toman de la documentación oficial de Prisma.
-
-- **Retícula**: Cinco columnas iguales sobre el ancho del contenido; medianil de 12 px (`--gap-list`).
-- **Separaciones**: 16 px entre muestra y número, 4 px entre número y nombre, 8 px entre nombre y descripción.
-- **Continuidad**: Una línea de 1 px en Azul Cielo 200 une las fases a la altura de los números.
-- **Jerarquía**: Número 12 px en gris 3; nombre 20 px, 500, Azul Noche; descripción 14 px en gris 2.
-- **Adaptación**: Menos de 760 px: la secuencia se vuelve vertical y la línea de continuidad pasa al costado izquierdo.
-- **Comprobación**: El orden se lee sin numeración adicional; las cinco fases tienen la misma proporción; los nombres coinciden con la documentación vigente.
-
-Informe de investigación · 2026
-Cómo trabajan los equipos de operaciones
-Quince entrevistas muestran dónde se pierde el tiempo y qué tareas pueden cambiar primero.
-01 · Hallazgos
-Las tareas que más tiempo consumen no son las más complejas, sino las que se repiten entre sistemas. El equipo copia datos, valida cifras y corrige formatos antes de poder analizar.
-Cuando la información llega ordenada, la revisión se concentra en las excepciones y el cierre se adelanta.
-02 · Recomendaciones
-Empezar por los flujos de mayor repetición y medir cada cambio con el mismo indicador.
-
-- **Retícula**: 12 columnas: 8 para la lectura y 4 para notas; columna de lectura de hasta 600 px.
-- **Separaciones**: 16 px entre párrafos (`--s4`), 48 px antes de cada sección (`--s12`), 32 px entre titular y entrada (`--s8`).
-- **Jerarquía**: Titular 24 a 32 px, 500; entrada 20 px; sección 20 px, 500; cuerpo 16 px con interlineado 1,65; notas 12 px en gris 3.
-- **Lectura**: Entre 55 y 75 caracteres por línea; alineación a la izquierda; sin cortes de palabra.
-- **Adaptación**: Menos de 760 px: las notas pasan debajo del párrafo que acompañan y la columna ocupa todo el ancho.
-- **Comprobación**: Cada sección se identifica de un vistazo; la línea no supera 75 caracteres; las notas no interrumpen la lectura principal.
-
-## KYN-MRK-VIS-016 · 10.7.1 Identidad visual aplicada
-
-Número: 10.7.1 · ID: `KYN-MRK-VIS-016` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-016`
+Número: 10.7.1 · ID: `KYN-MRK-VIS-012` · Estado: vigente · Fuente: `/fundamentos/composicion/editorial.html#vis-012`
 
 ### Una composición con identidad propia
 

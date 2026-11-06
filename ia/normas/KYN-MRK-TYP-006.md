@@ -4,48 +4,42 @@ version: "0.1"
 fecha: "2026-11-05"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-TYP-006"
-titulo: "Criterios de aplicación"
-numero: "8.6"
+titulo: "Uso por función"
+numero: "8.7"
 estado: "vigente"
 capitulo: "08 Tipografía"
 area: "Fundamentos"
-fuente: "/fundamentos/tipografia/sistema.html#reglas"
+fuente: "/fundamentos/tipografia/sistema.html#funcion"
 referencias: []
 citada_por: []
 ---
 
-# KYN-MRK-TYP-006 · Criterios de aplicación
+# KYN-MRK-TYP-006 · Uso por función
 
-Número: 8.6 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundamentos/tipografia/sistema.html#reglas`
+Número: 8.7 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundamentos/tipografia/sistema.html#funcion`
 
-##### Siete criterios de aplicación
+##### Cada familia, su función
 
-La tipografía debe **organizar la lectura, transmitir identidad** y adaptarse a las necesidades del contenido.
+Se conservan las dos familias oficiales. **TASA Orbiter** da presencia; **Plus Jakarta Sans** sostiene la lectura y la operación.
 
-**(01 · Jerarquía con criterio)**
-Diferenciamos los niveles de información mediante tamaño, peso, contraste, posición y espacio.
-La cantidad de niveles depende del contenido, no de un máximo universal de tamaños.
+Titular
 
-**(02 · Interlineado adecuado)**
-Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.
-Los textos de lectura requieren espacio suficiente para seguir las líneas con comodidad.
+Titulares editoriales
+TASA Orbiter.
 
-**(03 · Espaciado selectivo)**
-El tracking se ajusta según la fuente, el tamaño y la función del texto.
-No se aplican valores negativos o positivos de forma indiscriminada.
+Lectura
 
-**(04 · Énfasis con moderación)**
-El peso semibold permite destacar información relevante.
-No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.
+Lectura
+Plus Jakarta Sans.
 
-**(05 · Números que se leen)**
-Las cifras operativas utilizan Plus Jakarta Sans.
-En tablas, indicadores y datos comparables se prefieren cifras tabulares cuando facilitan la alineación.
+39
 
-**(06 · Expresión tipográfica)**
-TASA Orbiter se reserva para titulares, portadas y cifras con intención editorial.
-Los textos prolongados y controles funcionales priorizan la legibilidad.
+Cifras editoriales
+TASA Orbiter.
 
-**(07 · Adaptación y accesibilidad)**
-Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.
-El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.
+1.240,50
+
+Cifras operativas
+Plus Jakarta Sans, con cifras tabulares.
+
+En valores comparables, utilizar cifras tabulares cuando la fuente las admita y la alineación se beneficie de ello.
