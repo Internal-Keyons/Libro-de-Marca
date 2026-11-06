@@ -2,10 +2,10 @@
  "estado": "Propuesta pendiente de aprobación humana",
  "regla": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
  "resumen": {
-  "normas": 126,
-  "requisitos": 227,
+  "normas": 127,
+  "requisitos": 228,
   "por_nivel": {
-   "DEBE": 89,
+   "DEBE": 90,
    "NO DEBE": 84,
    "PUEDE": 45,
    "DEBERÍA": 9
@@ -223,7 +223,7 @@
     {
      "ref": "KYN-MRK-COL-001.1",
      "nivel": "DEBE",
-     "texto": "La paleta base está siempre; las demás se suman, de mayor a menor presencia, según el contexto real de cada pieza. 01Paleta base 02Cielos expresivos 03Colores funcionales 04Firma en productos (Paleta base)Cuatro colores que aparecen en toda comunicación.",
+     "texto": "La paleta base está siempre; las demás se suman, de mayor a menor presencia, según el contexto real de cada pieza. 01Paleta base 02Cielos expresivos 03Colores funcionales 04Firma en productos (Paleta base)Cinco colores que aparecen en toda comunicación.",
      "revisar": [
       "«siempre» sin verbo normativo"
      ]
@@ -788,30 +788,35 @@
     {
      "ref": "KYN-MRK-DAT-001.1",
      "nivel": "DEBE",
-     "texto": "Reglas fundamentales (DEBE · Integridad de los datos)La representación visual conserva las proporciones y relaciones reales de la información."
+     "texto": "Reglas fundamentales (DEBE · Calidad)La calidad del gráfico se determina por su exactitud, claridad, utilidad y coherencia visual."
     },
     {
      "ref": "KYN-MRK-DAT-001.2",
      "nivel": "DEBE",
-     "texto": "(DEBE · Escalas adecuadas)Las barras de magnitud parten de cero."
+     "texto": "(DEBE · Integridad de los datos)La representación visual conserva las proporciones y relaciones reales de la información."
     },
     {
      "ref": "KYN-MRK-DAT-001.3",
      "nivel": "DEBE",
-     "texto": "(DEBE · Contexto verificable)Cada visualización identifica qué representa, sus unidades, su período y su fuente cuando corresponda."
+     "texto": "(DEBE · Escalas adecuadas)Las barras de magnitud parten de cero."
     },
     {
      "ref": "KYN-MRK-DAT-001.4",
      "nivel": "DEBE",
-     "texto": "(DEBE · Comparabilidad)Los gráficos utilizados para comparar alternativas mantienen criterios, unidades y escalas equivalentes."
+     "texto": "(DEBE · Contexto verificable)Cada visualización identifica qué representa, sus unidades, su período y su fuente cuando corresponda."
     },
     {
      "ref": "KYN-MRK-DAT-001.5",
+     "nivel": "DEBE",
+     "texto": "(DEBE · Comparabilidad)Los gráficos utilizados para comparar alternativas mantienen criterios, unidades y escalas equivalentes."
+    },
+    {
+     "ref": "KYN-MRK-DAT-001.6",
      "nivel": "DEBERÍA",
      "texto": "(DEBERÍA · Prioridad informativa)Cada gráfico comunica una conclusión principal o facilita responder una pregunta concreta."
     },
     {
-     "ref": "KYN-MRK-DAT-001.6",
+     "ref": "KYN-MRK-DAT-001.7",
      "nivel": "DEBE",
      "texto": "(PUEDE · Expresión visual)La identidad Keyons puede expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conserve la precisión de los datos.",
      "revisar": [
@@ -1821,7 +1826,7 @@
     {
      "ref": "KYN-MRK-LOG-001.2",
      "nivel": "DEBERÍA",
-     "texto": "Un bloque sólido y compacto: el nombre en dos niveles, KEY y ONS, guía la pronunciación, expresa la naturaleza modular de nuestras soluciones y dibuja una llave entre la K, la E, la O y la N.(Usos recomendados)El logotipo principal es la opción prioritaria y debe aplicarse de forma preferente, especialmente en:Portadas de documentos.Presentaciones corporativas.Aplicaciones textiles, como uniformes.Rotulación principal.Soportes que requieran máxima presencia de marca con una composición equilibrada.Solo cuando otra versión resulte más adecuada para el formato o contexto específico puede utilizarse esa alternativa.",
+     "texto": "Un bloque sólido y compacto: el nombre en dos niveles, KEY y ONS, guía la pronunciación, expresa la naturaleza modular de nuestras soluciones y dibuja una llave entre la K, la E, la O y la N.(Usos recomendados)El logotipo principal es la opción prioritaria y se aplica de forma preferente en portadas de documentos, presentaciones corporativas, uniformes, rotulación principal y todo soporte que requiera máxima presencia de marca.Solo cuando otra versión resulte más adecuada para el formato o el contexto puede utilizarse esa alternativa.",
      "revisar": [
       "varias expresiones normativas en la misma frase"
      ]
@@ -2359,6 +2364,19 @@
    "ambito_propuesto": [
     "identidad",
     "web"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-TEC-001",
+   "titulo": "Recursos técnicos",
+   "estado": "vigente",
+   "fuente": "recursos/tecnicos.html#tecnicos",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
    ],
    "requisitos": []
   },

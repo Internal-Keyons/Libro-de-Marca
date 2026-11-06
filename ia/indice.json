@@ -1,7 +1,7 @@
 {
  "manual": "Libro de Marca Keyons",
  "version": "0.1",
- "fecha": "2026-11-05",
+ "fecha": "2026-11-06",
  "permisos": "por definir; se asignarán con la Biblioteca Keyons",
  "areas": [
   {
@@ -519,6 +519,20 @@
       "KYN-MRK-VIS-007",
       "KYN-MRK-VIS-011"
      ]
+    },
+    {
+     "n": "29",
+     "clave": "tecnicos",
+     "titulo": "Recursos técnicos",
+     "estado": "borrador",
+     "descripcion": "La expresión visual en HTML, CSS y JS, lista para copiar.",
+     "rutas": [
+      "/recursos/tecnicos.html"
+     ],
+     "markdown": "/ia/capitulos/29-tecnicos.md",
+     "normas": [
+      "KYN-MRK-TEC-001"
+     ]
     }
    ]
   }
@@ -701,7 +715,9 @@
    "fuente": "/fundamentos/color/paleta-base.html#principales",
    "markdown": "/ia/normas/KYN-MRK-COL-002.md",
    "referencias": [],
-   "citada_por": []
+   "citada_por": [
+    "KYN-MRK-REF-002"
+   ]
   },
   {
    "id": "KYN-MRK-COL-003",
@@ -1912,6 +1928,21 @@
    "area": "recursos",
    "fuente": "/recursos/referencia.html#indice",
    "markdown": "/ia/normas/KYN-MRK-REF-002.md",
+   "referencias": [
+    "KYN-MRK-COL-002"
+   ],
+   "citada_por": []
+  },
+  {
+   "id": "KYN-MRK-TEC-001",
+   "titulo": "Recursos técnicos",
+   "numero": "29.1",
+   "rotulo": "Catálogo",
+   "estado": "vigente",
+   "capitulo": "29",
+   "area": "recursos",
+   "fuente": "/recursos/tecnicos.html#tecnicos",
+   "markdown": "/ia/normas/KYN-MRK-TEC-001.md",
    "referencias": [],
    "citada_por": []
   },

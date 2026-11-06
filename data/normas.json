@@ -788,6 +788,12 @@
   "n": "28.1",
   "t": "Nomenclatura"
  },
+ "recursos/tecnicos.html#tecnicos": {
+  "estado": "vigente",
+  "id": "KYN-MRK-TEC-001",
+  "n": "29.1",
+  "t": "Recursos técnicos"
+ },
  "recursos/texturas.html#texturas": {
   "estado": "vigente",
   "id": "KYN-MRK-TEX-001",

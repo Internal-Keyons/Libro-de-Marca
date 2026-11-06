@@ -63,6 +63,9 @@
     if (k === 'c') for (let r = 10; r < 190; r += S) L.push(`M${80 - r} 100A${r} ${r} 0 0 1 ${80 + r} 100`);
     return `<svg viewBox="0 0 160 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path d="${L.join('')}" fill="none" stroke="currentColor" stroke-width="1" vector-effect="non-scaling-stroke"/></svg>`;
   };
+  /* Nubes: anchos 200–420 px, opacidad 20–45 %, desenfoque 12–24 px, recorrido 44–82 s */
+  const nubes = () => [[200, .32, 12, 44, 8], [420, .2, 24, 82, -6], [280, .45, 16, 58, 30], [340, .26, 20, 70, -18], [240, .38, 14, 52, 46], [380, .22, 22, 76, 14]]
+    .map(([w, o, b, d, y], i) => `<span class="haze" style="width:${w}px;height:${Math.round(w * .38)}px;top:${y}px;opacity:${o};filter:blur(${b + 10}px);animation-duration:${d}s;animation-delay:-${(i * 13.7 + d * .37).toFixed(1)}s"></span>`).join('');
   const BOOK_ID = BOOK.id || 'marca';
   const LIBRO = LIBROS.find((b) => b.id === BOOK_ID) || (BOOK_ID === 'biblioteca' ? { id: 'biblioteca', t: 'Biblioteca Keyons', c: 'Biblioteca', tr: 'g', h: 'index.html', on: true } : LIBROS[0]);
   const booksHtml = (cls) => LIBROS.map((b) => (b.on
@@ -102,9 +105,7 @@
     /* Enlaces secundarios del menú: [texto, ruta, ícono, descarga] */
     const alt = BOOK.alt || [['Descargar PDF', 'documental/libro-de-marca-keyons.pdf', I.down, true], ['Normas para IA', 'ia/index.html', I.code]];
     const linkHtml = (cls) => links.map((l) => `<a class="${cls}" href="${url(l.h)}"${l.cur ? ' aria-current="true"' : ''}>${l.t}</a>`).join('');
-    /* Nubes: anchos 200–420 px, opacidad 20–45 %, desenfoque 12–24 px, recorrido 44–82 s */
-    const clouds = [[200, .32, 12, 44, 8], [420, .2, 24, 82, -6], [280, .45, 16, 58, 30], [340, .26, 20, 70, -18], [240, .38, 14, 52, 46], [380, .22, 22, 76, 14]]
-      .map(([w, o, b, d, y], i) => `<span class="haze" style="width:${w}px;height:${Math.round(w * .38)}px;top:${y}px;opacity:${o};filter:blur(${b + 10}px);animation-duration:${d}s;animation-delay:-${(i * 13.7 + d * .37).toFixed(1)}s"></span>`).join('');
+    const clouds = nubes();
     /* Ícono «salir» del catálogo: en la cabecera y, en móvil, como botón dentro del menú */
     const EXIT = '<svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,22.8503,17.865)" d="M0 0-4.5-4.83-6.31-3.13-2.82 .62-10.37 .63V3.12L-2.84 3.11-6.31 6.87-4.48 8.56 0 3.69C.96 2.66 .96 1.04 0 0" fill="currentColor"/><path transform="matrix(1,0,0,-1,13.4557,27.2317)" stroke-width="2.5" fill="none" stroke="currentColor" d="M0 22.381L-5.118 22.381L-5.118 0L0 0"/></svg>';
     top.className = 'hdr' + (IS_HOME ? ' hdr--home' : '');
@@ -1558,13 +1559,14 @@
 
   /* ─── Aparición al desplazar ───
      Los bloques entran suavemente a medida que llegan a la pantalla. */
-  if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    const targets = [...document.querySelectorAll('.ed, .chap, .dsec, .area, .acar, .sec-head, .cols, .band, .rings, .matrix, .pgrid, .promises, .cstack, .tbl-wrap, .zig__item, .step, .chan, .pairs, .entry')].filter((t) => !t.parentElement.closest('.acar'));
+  const aparecer = (targets) => {
+    if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const ro = new IntersectionObserver((ents) => ents.forEach((en) => {
       if (en.isIntersecting) { en.target.classList.add('is-in'); ro.unobserve(en.target); }
     }), { rootMargin: '0px 0px -8% 0px', threshold: .08 });
     targets.forEach((t) => { if (t.getBoundingClientRect().top > innerHeight) { t.classList.add('reveal'); ro.observe(t); } });
-  }
+  };
+  aparecer([...document.querySelectorAll('.ed, .chap, .dsec, .area, .acar, .sec-head, .cols, .band, .rings, .matrix, .pgrid, .promises, .cstack, .tbl-wrap, .zig__item, .step, .chan, .pairs, .entry')].filter((t) => !t.parentElement.closest('.acar')));
 
   /* ─── Buscador ─── */
   const sb = document.createElement('div');
@@ -1669,7 +1671,7 @@
   });
 
   /* Comparativos: la explicación vive detrás de la tarjeta y se consulta con «Leer más» */
-  document.querySelectorAll('.vdemo__i, .glass2 > figure, .lvx__i').forEach((f) => {
+  const girar = (f) => {
     const cap = f.querySelector('figcaption'), face = f.querySelector('.vdemo__s, .gl, .lvx__fig');
     if (!cap || !face || f.querySelector('.flip__btn')) return;
     const lab = cap.querySelector('.paren, b, .lvx__t');
@@ -1694,7 +1696,10 @@
     if ('IntersectionObserver' in window) new IntersectionObserver((es) => es.forEach((e) => {
       if (!e.isIntersecting && f.classList.contains('is-flip')) { f.classList.remove('is-flip'); btn.setAttribute('aria-expanded', 'false'); btn.querySelector('span').textContent = 'Leer más'; }
     })).observe(f);
-  });
+  };
+  document.querySelectorAll('.vdemo__i, .glass2 > figure, .lvx__i').forEach((f) => girar(f));
+  /* Recursos técnicos (29) copia estas funciones tal cual: el código del catálogo es el del libro */
+  window.KeyonsEfectos = { trama, nubes, aparecer, girar };
 
   /* Titulares largos en dos renglones: el corte va después de la coma o el punto y coma */
   document.querySelectorAll('.ed__title').forEach((t) => {

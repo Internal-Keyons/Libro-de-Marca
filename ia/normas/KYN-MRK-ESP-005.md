@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-05"
+fecha: "2026-11-06"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-ESP-005"
 titulo: "Jerarquía y densidad de información"
@@ -94,5 +94,8 @@ Las viñetas acompañan elementos breves. Los elementos de más de dos líneas s
 
 **(Notas de cierre)**
 Un texto al final de una sección lleva rótulo y la línea de su bloque. Nunca queda suelto.
+
+**(Una sola línea)**
+Entre dos bloques hay una sola línea divisoria: si el siguiente abre con la suya, el anterior cierra sin línea.
 
 La densidad adecuada permite comprender y actuar sin añadir ruido visual.

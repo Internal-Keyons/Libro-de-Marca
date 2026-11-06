@@ -1,0 +1,883 @@
+{
+  "version": "1.0",
+  "fecha": "2026-11-06",
+  "categorias": [
+    {
+      "k": "animaciones",
+      "t": "Animaciones"
+    },
+    {
+      "k": "interacciones",
+      "t": "Interacciones visuales"
+    },
+    {
+      "k": "cielos",
+      "t": "Cielos y degradados"
+    },
+    {
+      "k": "tramas",
+      "t": "Tramas y texturas"
+    }
+  ],
+  "recursos": [
+    {
+      "id": "cielo",
+      "cat": "animaciones",
+      "t": "Cielo animado",
+      "d": "El cielo del encabezado: nubes que avanzan con el viento y se dispersan al pasar el cursor.",
+      "normas": [
+        "KYN-MRK-COL-007",
+        "KYN-MRK-ILU-006"
+      ],
+      "v": "1.1",
+      "js": {
+        "file": "js/keyons-cielo.js"
+      },
+      "init": "KeyonsCielo.mount(document.querySelector('.hero'), { sky: '{{v}}' });",
+      "html": "<header class=\"hero\">\n  <div class=\"hero__txt\">\n    <p>Keyons</p>\n    <h1>Cielo animado</h1>\n  </div>\n</header>",
+      "demo": "body{margin:0;font-family:var(--font-sans)}\n.hero{position:relative;min-height:100vh;display:grid;place-items:center;overflow:hidden}\n.hero__txt{position:relative;z-index:1;text-align:center;color:var(--k-puro)}\n.hero__txt p{margin:0;font-size:14px;letter-spacing:.12em;text-transform:uppercase}\n.hero__txt h1{margin:8px 0 0;font-size:32px;font-weight:500}",
+      "variantes": {
+        "t": "Cielo",
+        "def": "mediodia",
+        "op": [
+          [
+            "amanecer",
+            "Amanecer"
+          ],
+          [
+            "mediodia",
+            "Mediodía"
+          ],
+          [
+            "atardecer",
+            "Atardecer"
+          ],
+          [
+            "noche",
+            "Noche"
+          ],
+          [
+            "galaxia",
+            "Galaxia"
+          ]
+        ]
+      },
+      "config": "defaults",
+      "impl": [
+        "Copie js/keyons-cielo.js en la carpeta de scripts del proyecto y cárguelo antes de cerrar el body.",
+        "El contenedor necesita alto propio. El contenido que va encima lleva position:relative y z-index:1.",
+        "Llame a KeyonsCielo.mount(contenedor, opciones). Devuelve setSky(nombre) para cambiar de cielo y destroy() para retirarlo."
+      ],
+      "compat": [
+        [
+          "Responsive",
+          "El lienzo ocupa el contenedor y se redibuja al cambiar de tamaño. La resolución se limita a 1,5 veces la del dispositivo."
+        ],
+        [
+          "Teclado",
+          "Es decorativo: el lienzo lleva aria-hidden y no recibe foco. El cursor solo agrega la ráfaga."
+        ],
+        [
+          "Movimiento reducido",
+          "Con prefers-reduced-motion el viento se detiene y el cielo queda quieto."
+        ],
+        [
+          "Sin WebGL",
+          "Se aplica el degradado del cielo en CSS, con los mismos colores."
+        ]
+      ],
+      "configNotas": {
+        "sky": "cielo: 'amanecer' | 'mediodia' | 'atardecer' | 'noche' | 'galaxia'"
+      }
+    },
+    {
+      "id": "nubes",
+      "cat": "animaciones",
+      "t": "Nubes del encabezado",
+      "d": "Seis manchas de luz que cruzan el encabezado de inicio a distintas velocidades.",
+      "normas": [
+        "KYN-MRK-COL-007"
+      ],
+      "v": "1.0",
+      "js": {
+        "fn": "nubes"
+      },
+      "init": "document.querySelector('.nubes').innerHTML = nubes();",
+      "css": {
+        "sel": [
+          ".haze"
+        ],
+        "kf": [
+          "cloud"
+        ]
+      },
+      "html": "<div class=\"cielo\">\n  <div class=\"nubes\" aria-hidden=\"true\"></div>\n</div>",
+      "demo": "body{margin:0}\n.cielo{position:relative;height:100vh;overflow:hidden;background:var(--sky-{{v}})}\n.nubes{position:absolute;inset:0}",
+      "variantes": {
+        "t": "Cielo de fondo",
+        "def": "mediodia",
+        "op": [
+          [
+            "amanecer",
+            "Amanecer"
+          ],
+          [
+            "mediodia",
+            "Mediodía"
+          ],
+          [
+            "atardecer",
+            "Atardecer"
+          ]
+        ]
+      },
+      "config": [
+        [
+          "Ancho",
+          "200 a 420 px",
+          "Cada nube tiene un ancho propio; el alto es el 38 % del ancho."
+        ],
+        [
+          "Opacidad",
+          "20 a 45 %",
+          "Las más grandes son las más tenues."
+        ],
+        [
+          "Desenfoque",
+          "22 a 34 px",
+          "El valor de la lista más 10 px."
+        ],
+        [
+          "Recorrido",
+          "44 a 82 s",
+          "Tiempo que tarda en cruzar la pantalla."
+        ],
+        [
+          "Desfase",
+          "Negativo",
+          "Cada nube empieza a mitad de camino: no aparecen todas juntas."
+        ]
+      ],
+      "impl": [
+        "Copie la regla .haze y la animación cloud en su hoja de estilos.",
+        "Pegue la función nubes() en su script y escriba su resultado dentro de un contenedor con position:absolute y overflow oculto.",
+        "La animación recorre el ancho de la ventana (100vw): el contenedor debe ocupar todo el ancho."
+      ],
+      "compat": [
+        [
+          "Responsive",
+          "El recorrido se calcula sobre el ancho de la ventana, en cualquier pantalla."
+        ],
+        [
+          "Teclado",
+          "Decorativo: el contenedor lleva aria-hidden y no recibe foco."
+        ],
+        [
+          "Movimiento reducido",
+          "Con prefers-reduced-motion las nubes quedan quietas."
+        ]
+      ]
+    },
+    {
+      "id": "aparecer",
+      "cat": "animaciones",
+      "t": "Aparición al desplazar",
+      "d": "Los bloques entran suaves, de abajo hacia arriba, cuando llegan a la pantalla.",
+      "normas": [],
+      "v": "1.0",
+      "js": {
+        "fn": "aparecer"
+      },
+      "init": "aparecer(document.querySelectorAll('.bloque'));",
+      "css": {
+        "sel": [
+          ".reveal",
+          ".reveal.is-in"
+        ]
+      },
+      "html": "<p class=\"aviso\">Desplácese hacia abajo</p>\n<div class=\"bloque\">Bloque 1</div>\n<div class=\"bloque\">Bloque 2</div>\n<div class=\"bloque\">Bloque 3</div>\n<div class=\"bloque\">Bloque 4</div>\n<div class=\"bloque\">Bloque 5</div>",
+      "demo": "body{margin:0;padding:24px;font-family:var(--font-sans);background:var(--k-blanco);color:var(--k-noche)}\n.aviso{height:calc(100vh - 48px);margin:0;display:grid;place-items:center;font-size:16px}\n.bloque{display:grid;place-items:center;height:160px;margin-bottom:24px;background:var(--k-puro);font-size:16px}",
+      "config": [
+        [
+          "Distancia",
+          "18 px",
+          "El bloque sube desde 18 px más abajo."
+        ],
+        [
+          "Duración",
+          "0,8 s",
+          "Con la curva de salida de la casa (--e-out)."
+        ],
+        [
+          "Umbral",
+          "8 %",
+          "Entra cuando el 8 % del bloque es visible."
+        ],
+        [
+          "Margen inferior",
+          "−8 %",
+          "Espera a que el bloque suba un poco sobre el borde."
+        ],
+        [
+          "Primer pantallazo",
+          "Sin animación",
+          "Lo que ya se ve al cargar no se anima."
+        ]
+      ],
+      "impl": [
+        "Copie las reglas .reveal y .reveal.is-in.",
+        "Pegue la función aparecer() y llámela con los bloques que deben entrar.",
+        "Use la aparición en bloques completos, no en cada línea de texto."
+      ],
+      "compat": [
+        [
+          "Responsive",
+          "Funciona igual en cualquier ancho."
+        ],
+        [
+          "Teclado",
+          "El contenido existe desde el inicio: el foco y los lectores de pantalla lo alcanzan aunque no se haya animado."
+        ],
+        [
+          "Movimiento reducido",
+          "Con prefers-reduced-motion la función no actúa y todo queda visible."
+        ]
+      ],
+      "nota": "Sin norma propia todavía: corresponde al capítulo 14, Movimiento, en preparación."
+    },
+    {
+      "id": "rafaga",
+      "cat": "interacciones",
+      "t": "Ráfaga al pasar el cursor",
+      "d": "La ráfaga dibujada se dispersa con el cursor, con la misma física del cielo, y vuelve sola a su forma.",
+      "normas": [
+        "KYN-MRK-ILU-006"
+      ],
+      "v": "1.0",
+      "js": {
+        "file": "js/keyons-rafaga.js"
+      },
+      "init": "KeyonsRafaga.mount(document.querySelector('.rfp'));",
+      "css": {
+        "sel": [
+          ".rfp",
+          ".rfp svg",
+          ".rfp__k",
+          ".rfp__n",
+          ".rfp__f",
+          ".rfp__t",
+          ".rfp__t small",
+          ".rfp__dots",
+          ".rfp__dots i",
+          ".rfp__dust",
+          ".rfp__push > path",
+          ".rfp__push > path:nth-of-type(2)",
+          ".rfp__push > path:nth-of-type(3)"
+        ],
+        "kf": [
+          "rfpDrift"
+        ]
+      },
+      "htmlFrom": {
+        "page": "fundamentos/elementos/graficos.html",
+        "sel": ".rfps figure.rfp",
+        "name": ".rfp__t"
+      },
+      "demo": "body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--k-blanco);font-family:var(--font-sans)}\n.rfp{width:min(300px,80vw)}",
+      "variantes": {
+        "t": "Ráfaga",
+        "from": "html"
+      },
+      "config": [
+        [
+          "sigma2",
+          "0,012",
+          "Alcance del cursor: una campana de cerca del 11 % del alto."
+        ],
+        [
+          "gain",
+          "0,55",
+          "Fuerza: parte de la velocidad del gesto que se transfiere."
+        ],
+        [
+          "max",
+          "0,24",
+          "Desplazamiento máximo, como fracción del alto."
+        ],
+        [
+          "friction",
+          "4,2 s",
+          "Constante de fricción: la forma se calma en 3 a 5 segundos."
+        ],
+        [
+          "Viento en reposo",
+          "0,07",
+          "La materia fluye sola aunque no haya cursor."
+        ]
+      ],
+      "impl": [
+        "Copie js/keyons-rafaga.js y cárguelo en la página.",
+        "Cada ráfaga es una figura con su SVG adentro. El módulo lee la forma y los colores de ese SVG.",
+        "Llame a KeyonsRafaga.mount(figura). Devuelve destroy() para retirarla."
+      ],
+      "compat": [
+        [
+          "Responsive",
+          "El lienzo toma el tamaño de la figura y se redibuja al cambiar."
+        ],
+        [
+          "Teclado",
+          "Decorativo: el lienzo lleva aria-hidden. Sin cursor, la ráfaga fluye en reposo."
+        ],
+        [
+          "Movimiento reducido",
+          "Con prefers-reduced-motion se detienen el viento y la deriva."
+        ],
+        [
+          "Sin WebGL",
+          "Queda a la vista el SVG original, sin cambios."
+        ]
+      ]
+    },
+    {
+      "id": "barrido",
+      "cat": "interacciones",
+      "t": "Barrido del botón",
+      "d": "El botón Buscar de la cabecera: el color barre de izquierda a derecha y la lupa gira con resorte.",
+      "normas": [],
+      "v": "1.0",
+      "css": {
+        "sel": [
+          ".hdr__search",
+          ".hdr__search::before",
+          ".hdr__search svg",
+          ".hdr__search kbd",
+          ".hdr__search span",
+          ".hdr__search:hover",
+          ".hdr__search:hover::before",
+          ".hdr__search:hover svg",
+          ".hdr__search:hover kbd"
+        ]
+      },
+      "html": "<button class=\"hdr__search\" type=\"button\" aria-label=\"Buscar (Ctrl K)\">\n  <svg viewBox=\"0 0 16 16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"7\" cy=\"7\" r=\"4.6\"/><path d=\"m10.4 10.4 3.2 3.2\"/></svg>\n  <span>Buscar</span><kbd>Ctrl K</kbd>\n</button>",
+      "demo": "body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--k-blanco);font-family:var(--font-sans)}",
+      "config": [
+        [
+          "Barrido",
+          "420 ms",
+          "De izquierda a derecha, con la curva firma (--e-io)."
+        ],
+        [
+          "Lupa",
+          "515 ms",
+          "Gira −14° y crece al 108 %, con el resorte --spring-lift."
+        ],
+        [
+          "Atajo",
+          "420 ms",
+          "El texto Ctrl K se abre junto al barrido."
+        ]
+      ],
+      "impl": [
+        "Copie las reglas y el marcado del botón.",
+        "El barrido es un ::before detrás del texto: el botón necesita overflow oculto e isolation.",
+        "Solo se activa con hover real (hover:hover); en pantallas táctiles el botón queda fijo."
+      ],
+      "compat": [
+        [
+          "Responsive",
+          "Bajo 1180 px de ancho el botón queda solo con la lupa, en un círculo de 40 px. La demostración se dibuja a 1280 px para mostrarlo completo."
+        ],
+        [
+          "Teclado",
+          "Es un botón nativo: recibe foco con Tab y conserva el anillo de foco del sitio."
+        ],
+        [
+          "Movimiento reducido",
+          "El barrido es un cambio de color corto, sin desplazamiento de contenido."
+        ]
+      ],
+      "nota": "Sin norma propia todavía: corresponde al capítulo 14, Movimiento, en preparación.",
+      "ancho": 1280
+    },
+    {
+      "id": "girar",
+      "cat": "interacciones",
+      "t": "Tarjeta que gira",
+      "d": "La explicación vive detrás de la tarjeta y se consulta con «Leer más». Al salir de pantalla, vuelve a su cara.",
+      "normas": [
+        "KYN-MRK-ILU-004"
+      ],
+      "v": "1.0",
+      "js": {
+        "fn": "girar"
+      },
+      "init": "document.querySelectorAll('.tarjeta').forEach((f) => girar(f));",
+      "css": {
+        "sel": [
+          ".flip",
+          ".flip__card",
+          ".flip__card > .gl",
+          ".flip.is-flip .flip__card > .gl",
+          ".flip__back",
+          ".flip.is-flip .flip__back",
+          ".flip__back .paren",
+          ".flip__back p",
+          ".flip__back b",
+          ".flip__tag",
+          ".flip.is-flip .flip__tag",
+          ".flip__btn",
+          ".flip__btn span",
+          ".flip__btn svg",
+          ".flip__btn:hover",
+          ".flip__btn:hover span",
+          ".flip__btn:focus-visible span",
+          ".flip.is-flip .flip__btn svg",
+          ".gl",
+          ".gl--flute"
+        ]
+      },
+      "html": "<figure class=\"tarjeta\">\n  <div class=\"gl gl--flute\"></div>\n  <figcaption><b>Acanalado</b>Canales verticales cada 50 px, con 22 px de desenfoque entre canales. Para portadas verticales: transmite estructura.</figcaption>\n</figure>",
+      "demo": "body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;box-sizing:border-box;background:var(--k-blanco);font-family:var(--font-sans)}\n.tarjeta{margin:0;width:min(480px,100%)}",
+      "config": [
+        [
+          "Cara",
+          "Primer bloque",
+          "La figura muestra su imagen o muestra; el texto pasa al reverso."
+        ],
+        [
+          "Reverso",
+          "figcaption",
+          "El contenido del pie se mueve tal cual al reverso."
+        ],
+        [
+          "Rótulo",
+          "b o .paren",
+          "El primer rótulo del pie se muestra como etiqueta sobre la cara."
+        ],
+        [
+          "Transición",
+          "0,35 s",
+          "Fundido con la curva de salida (--e-out)."
+        ],
+        [
+          "Regreso",
+          "Al salir de pantalla",
+          "La tarjeta vuelve sola a su cara principal."
+        ]
+      ],
+      "impl": [
+        "Escriba la figura con su cara y su figcaption, como en el ejemplo.",
+        "Copie las reglas .flip y pegue la función girar().",
+        "Llame a girar(figura) en cada tarjeta. La función agrega el botón «Leer más»."
+      ],
+      "compat": [
+        [
+          "Responsive",
+          "Bajo 760 px la tarjeta pierde las esquinas curvas y el reverso reduce su margen."
+        ],
+        [
+          "Teclado",
+          "«Leer más» es un botón con aria-expanded: se abre con Enter o Espacio."
+        ],
+        [
+          "Movimiento reducido",
+          "Es un fundido de opacidad, sin giro en 3D."
+        ]
+      ]
+    },
+    {
+      "id": "degradados",
+      "cat": "cielos",
+      "t": "Degradados de fase",
+      "d": "Los cinco cielos oficiales en CSS: orgánicos, asimétricos y con punto focal.",
+      "normas": [
+        "KYN-MRK-COL-007"
+      ],
+      "v": "1.0",
+      "html": "<div class=\"cielo\"></div>",
+      "demo": "body{margin:0}\n.cielo{height:100vh;background:var(--sky-{{v}})}",
+      "variantes": {
+        "t": "Fase",
+        "def": "amanecer",
+        "op": [
+          [
+            "amanecer",
+            "Amanecer"
+          ],
+          [
+            "mediodia",
+            "Mediodía"
+          ],
+          [
+            "atardecer",
+            "Atardecer"
+          ],
+          [
+            "noche",
+            "Noche"
+          ],
+          [
+            "galaxia",
+            "Galaxia"
+          ]
+        ]
+      },
+      "config": [
+        [
+          "Fondo",
+          "linear-gradient",
+          "Una base vertical con los colores de la fase."
+        ],
+        [
+          "Luz",
+          "radial-gradient",
+          "Dos o tres focos de luz en lugares distintos: el cielo nunca es simétrico."
+        ],
+        [
+          "Estrellas",
+          "Solo Galaxia",
+          "Cuatro puntos de 1 a 1,4 px."
+        ]
+      ],
+      "impl": [
+        "Copie las variables --sky-* en el :root de su hoja.",
+        "Aplique background:var(--sky-amanecer) (u otra fase) en el contenedor.",
+        "Para un cielo con movimiento, use Cielo animado."
+      ],
+      "compat": [
+        [
+          "Responsive",
+          "Los focos están en porcentajes: se adaptan a cualquier proporción."
+        ],
+        [
+          "Teclado",
+          "Es un fondo: no interviene en el foco."
+        ],
+        [
+          "Movimiento reducido",
+          "No tiene movimiento."
+        ]
+      ],
+      "vars": [
+        "--sky-amanecer",
+        "--sky-mediodia",
+        "--sky-atardecer",
+        "--sky-noche",
+        "--sky-galaxia"
+      ]
+    },
+    {
+      "id": "cristal",
+      "cat": "cielos",
+      "t": "Cristal de cielo",
+      "d": "El cielo visto a través de un vidrio: Acanalado y Arcos.",
+      "normas": [
+        "KYN-MRK-ILU-004"
+      ],
+      "v": "1.0",
+      "css": {
+        "sel": [
+          ".gl",
+          ".gl--flute",
+          ".gl--arcs"
+        ]
+      },
+      "html": "<div class=\"gl gl--{{v}}\"></div>",
+      "demo": "body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;box-sizing:border-box;background:var(--k-blanco)}\n.gl{width:min(480px,100%)}",
+      "variantes": {
+        "t": "Tratamiento",
+        "def": "flute",
+        "op": [
+          [
+            "flute",
+            "Acanalado"
+          ],
+          [
+            "arcs",
+            "Arcos"
+          ]
+        ]
+      },
+      "config": [
+        [
+          "Acanalado",
+          "50 px",
+          "Canales verticales; la luz se difumina entre canal y canal."
+        ],
+        [
+          "Arcos",
+          "60 px",
+          "Canales curvos que nacen de la esquina inferior izquierda."
+        ],
+        [
+          "Base",
+          "Azul Cielo",
+          "El cristal siempre va sobre cielo real."
+        ]
+      ],
+      "impl": [
+        "Copie las reglas .gl, .gl--flute y .gl--arcs.",
+        "Aplique gl gl--flute o gl gl--arcs al contenedor.",
+        "No lo use sobre texto de cuerpo ni junto a una ventana de cielo en la misma pieza."
+      ],
+      "compat": [
+        [
+          "Responsive",
+          "Mantiene la proporción 4:3 y los canales a su medida en cualquier ancho."
+        ],
+        [
+          "Teclado",
+          "Es un fondo: no interviene en el foco."
+        ],
+        [
+          "Movimiento reducido",
+          "No tiene movimiento."
+        ]
+      ]
+    },
+    {
+      "id": "tramas",
+      "cat": "tramas",
+      "t": "Tramas de los libros",
+      "d": "Las seis tramas de línea fina que identifican cada libro de la Biblioteca.",
+      "normas": [
+        "KYN-MRK-ILU-007"
+      ],
+      "v": "1.0",
+      "js": {
+        "fn": "trama"
+      },
+      "init": "document.querySelector('.trama').innerHTML = trama('{{v}}');",
+      "html": "<div class=\"trama\"></div>",
+      "demo": "body{margin:0;background:var(--k-blanco)}\n.trama{height:100vh;color:var(--k-cielo)}\n.trama svg{display:block;width:100%;height:100%}",
+      "variantes": {
+        "t": "Trama",
+        "def": "v",
+        "op": [
+          [
+            "v",
+            "Verticales"
+          ],
+          [
+            "h",
+            "Horizontales"
+          ],
+          [
+            "d",
+            "Diagonales"
+          ],
+          [
+            "x",
+            "Cruzadas"
+          ],
+          [
+            "g",
+            "Retícula"
+          ],
+          [
+            "c",
+            "Curvas"
+          ]
+        ]
+      },
+      "config": [
+        [
+          "v · h",
+          "10 px",
+          "Líneas verticales u horizontales cada 10 unidades."
+        ],
+        [
+          "d · x",
+          "14 px",
+          "Diagonales, simples o cruzadas."
+        ],
+        [
+          "g",
+          "10 px",
+          "Verticales y horizontales juntas."
+        ],
+        [
+          "c",
+          "10 px",
+          "Arcos concéntricos desde el borde inferior."
+        ],
+        [
+          "Trazo",
+          "1 px",
+          "Fino a cualquier tamaño (vector-effect)."
+        ]
+      ],
+      "impl": [
+        "Pegue la función trama() en su script.",
+        "Escriba trama('v') (u otra letra) dentro del contenedor. El color sale de color en CSS.",
+        "La trama queda centrada: la línea central pasa por el medio del lienzo."
+      ],
+      "compat": [
+        [
+          "Responsive",
+          "El SVG cubre el contenedor y el trazo se mantiene en 1 px."
+        ],
+        [
+          "Teclado",
+          "Decorativo: el SVG lleva aria-hidden."
+        ],
+        [
+          "Movimiento reducido",
+          "No tiene movimiento."
+        ]
+      ]
+    },
+    {
+      "id": "grano",
+      "cat": "tramas",
+      "t": "Grano",
+      "d": "La textura fina que acompaña a los degradados y les quita el aspecto digital.",
+      "normas": [
+        "KYN-MRK-ILU-007"
+      ],
+      "v": "1.0",
+      "css": {
+        "sel": [
+          ".grad",
+          ".grad::after"
+        ]
+      },
+      "html": "<div class=\"grad\"></div>",
+      "demo": "body{margin:0}\n.grad{height:100vh;background-image:var(--sky-{{v}})}",
+      "variantes": {
+        "t": "Cielo de fondo",
+        "def": "atardecer",
+        "op": [
+          [
+            "amanecer",
+            "Amanecer"
+          ],
+          [
+            "mediodia",
+            "Mediodía"
+          ],
+          [
+            "atardecer",
+            "Atardecer"
+          ],
+          [
+            "noche",
+            "Noche"
+          ]
+        ]
+      },
+      "config": [
+        [
+          "Textura",
+          "feTurbulence",
+          "Ruido fractal en SVG, sin imágenes externas."
+        ],
+        [
+          "Tamaño",
+          "160 px",
+          "El módulo se repite cada 160 px."
+        ],
+        [
+          "Opacidad",
+          "45 %",
+          "En modo overlay: aclara y oscurece sin cambiar el color."
+        ]
+      ],
+      "impl": [
+        "Copie la variable --grain en su :root.",
+        "Copie .grad y .grad::after: el grano es una capa encima del fondo.",
+        "Úselo sobre degradados y cielos; nunca sobre texto ni tramas lineales."
+      ],
+      "compat": [
+        [
+          "Responsive",
+          "Se repite en mosaico a cualquier tamaño."
+        ],
+        [
+          "Teclado",
+          "La capa no recibe eventos (pointer-events:none)."
+        ],
+        [
+          "Movimiento reducido",
+          "El grano es fijo, no se anima."
+        ]
+      ]
+    },
+    {
+      "id": "vinetas",
+      "cat": "tramas",
+      "t": "Viñetas con máscara",
+      "d": "Las viñetas A y B dibujadas con una máscara: el color sale de una sola propiedad.",
+      "normas": [
+        "KYN-MRK-ILU-001"
+      ],
+      "v": "1.0",
+      "css": {
+        "sel": [
+          ".dui ul",
+          ".dui li",
+          ".dui li::before",
+          ".dui li:nth-child(even)::before"
+        ]
+      },
+      "html": "<div class=\"dui\" data-c=\"{{v}}\">\n  <ul>\n    <li>Abre siempre con el círculo</li>\n    <li>Sigue el cuadrado</li>\n    <li>La forma alterna en cada ítem</li>\n    <li>El color cambia con background</li>\n  </ul>\n</div>",
+      "demo": "body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--k-blanco);font-family:var(--font-sans)}\n.dui[data-c=\"color\"] li::before{background:var(--k-cielo)}\n.dui[data-c=\"color\"] li:nth-child(even)::before{background:var(--k-salmon)}",
+      "config": [
+        [
+          "Viñeta A",
+          "Círculo",
+          "Círculo con un vacío cuadrado. Abre siempre la secuencia."
+        ],
+        [
+          "Viñeta B",
+          "Cuadrado",
+          "Cuadrado con un vacío circular. Va en los ítems pares."
+        ],
+        [
+          "Tamaño",
+          "16 px",
+          "Alineada a la primera línea del texto."
+        ],
+        [
+          "Color",
+          "background",
+          "Azul Noche en documentación larga, como este libro. Azul Cielo y Salmón Tierra en piezas que deben destacar."
+        ]
+      ],
+      "impl": [
+        "Copie las reglas de la lista y de li::before.",
+        "Para otro color, cambie solo el background del ::before: la forma la pone la máscara.",
+        "Use viñetas de color solo en listas que deben destacar."
+      ],
+      "compat": [
+        [
+          "Responsive",
+          "La viñeta se alinea al texto en cualquier ancho."
+        ],
+        [
+          "Teclado",
+          "Es decoración de la lista: los lectores de pantalla leen la lista como tal."
+        ],
+        [
+          "Movimiento reducido",
+          "No tiene movimiento."
+        ]
+      ],
+      "variantes": {
+        "t": "Color",
+        "def": "noche",
+        "op": [
+          [
+            "noche",
+            "Azul Noche"
+          ],
+          [
+            "color",
+            "Azul Cielo y Salmón Tierra"
+          ]
+        ]
+      }
+    }
+  ]
+}

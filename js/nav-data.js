@@ -178,7 +178,9 @@ window.KEYONS_NAV = [
         { t: 'Plantillas', s: 'b', href: 'recursos/plantillas.html#plantillas' }, { t: 'Documentos', s: 'b', href: 'recursos/plantillas.html#documentos' } ] },
       { n: '28', k: 'referencia', was: ['27', '29'], t: 'Referencia', s: 'b', d: 'La memoria de las decisiones.', items: [
         { t: 'Nomenclatura de reglas', st: 'Nomenclatura', s: 'b', href: 'recursos/referencia.html#nomenclatura' }, { t: 'Índice de reglas', st: 'Índice', s: 'b', href: 'recursos/referencia.html#indice' },
-        { t: 'Trazabilidad de Criterios visuales', st: 'Trazabilidad', s: 'v', href: 'fundamentos/criterio/antipatrones.html#trazabilidad' }, { t: 'Registro de decisiones', st: 'Decisiones' }, { t: 'Glosario' }, { t: 'Cambios' } ] }
+        { t: 'Trazabilidad de Criterios visuales', st: 'Trazabilidad', s: 'v', href: 'fundamentos/criterio/antipatrones.html#trazabilidad' }, { t: 'Registro de decisiones', st: 'Decisiones' }, { t: 'Glosario' }, { t: 'Cambios' } ] },
+      { n: '29', k: 'tecnicos', t: 'Recursos técnicos', st: 'Técnicos', s: 'b', d: 'La expresión visual en HTML, CSS y JS, lista para copiar.', items: [
+        { t: 'Catálogo', s: 'b', href: 'recursos/tecnicos.html#tecnicos' } ] }
     ]
   }
 ];

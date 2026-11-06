@@ -45,6 +45,8 @@ NUEVAS = {
     # 08 · Tipografía y 12 · Elementos gráficos (2026-10-30)
     'fundamentos/tipografia/sistema.html#funcion': ('KYN-MRK-TYP-006', 'Uso por función'),
     'fundamentos/elementos/graficos.html#profundidad': ('KYN-MRK-ILU-009', 'Profundidad atmosférica'),
+    # 29 · Recursos técnicos (2026-11-06)
+    'recursos/tecnicos.html#tecnicos': ('KYN-MRK-TEC-001', 'Recursos técnicos'),
 }
 
 # Traslados (2026-11, consolidación de Fundamentos): ruta anterior → ruta vigente

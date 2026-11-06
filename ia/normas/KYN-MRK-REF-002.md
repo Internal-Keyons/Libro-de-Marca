@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-05"
+fecha: "2026-11-06"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-REF-002"
 titulo: "Índice"
@@ -10,7 +10,7 @@ estado: "vigente"
 capitulo: "28 Referencia"
 area: "Recursos"
 fuente: "/recursos/referencia.html#indice"
-referencias: []
+referencias: ["KYN-MRK-COL-002"]
 citada_por: []
 ---
 
@@ -20,4 +20,6 @@ Número: 28.2 · Estado: vigente · Capítulo: 28 Referencia · Fuente: `/recurs
 
 ##### Todas las normas, por ID
 
-Cada ID lleva a su sección.
+Cada norma del libro tiene un ID permanente, por ejemplo **KYN-MRK-COL-002**: el libro (MRK), el capítulo (COL, Color) y su número dentro del capítulo. El ID se usa para citar una norma sin depender del número de página o de sección.
+
+Escriba en el buscador un ID, un número de sección o una palabra del tema, y ordene la lista por número o en orden alfabético. Cada fila lleva directo a su sección.

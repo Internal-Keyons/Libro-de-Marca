@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-05"
+fecha: "2026-11-06"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-COL-001"
 titulo: "Sistema de color"
@@ -30,7 +30,7 @@ El color de Keyons no es una paleta plana: **es un sistema en capas**. La paleta
 04 · Firma en productos
 
 **(Paleta base)**
-Cuatro colores que aparecen en toda comunicación. Cambia su proporción según la pieza, nunca su presencia.
+Cinco colores que aparecen en toda comunicación. Cambia su proporción según la pieza, nunca su presencia.
 
 **(Cielos expresivos)**
 Se suman en piezas narrativas y emocionales: redes, campañas, eventos y momentos designados del producto.

@@ -1,13 +1,13 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-05"
+fecha: "2026-11-06"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 ---
 
 # Libro de Marca Keyons
 
-Versión: 0.1 · Fecha de exportación: 2026-11-05 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
+Versión: 0.1 · Fecha de exportación: 2026-11-06 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
 
 Exportación íntegra generada desde las páginas del libro con tools/exportar.py. Conserva la redacción y el orden del índice. Cada sección indica su ruta de origen; los recursos visuales se citan con su ruta o su descripción.
 
@@ -1496,7 +1496,7 @@ El color de Keyons no es una paleta plana: **es un sistema en capas**. La paleta
 04 · Firma en productos
 
 **(Paleta base)**
-Cuatro colores que aparecen en toda comunicación. Cambia su proporción según la pieza, nunca su presencia.
+Cinco colores que aparecen en toda comunicación. Cambia su proporción según la pieza, nunca su presencia.
 
 **(Cielos expresivos)**
 Se suman en piezas narrativas y emocionales: redes, campañas, eventos y momentos designados del producto.
@@ -1513,17 +1513,18 @@ La marca siempre se reconoce y aun así respira distinto según el mensaje.
 
 Número: 7.2 · ID: `KYN-MRK-COL-002` · Estado: vigente · Fuente: `/fundamentos/color/paleta-base.html#principales`
 
-##### Cuatro colores, una jerarquía
+##### Cinco colores, una jerarquía
 
-Azul Noche y Blanco Keyons son la base neutra. Azul Cielo es el primer color con carga cromática. Salmón Tierra aporta la temperatura humana.
-La cantidad de cada color responde al contenido y la composición. **No es necesario utilizar los cuatro colores en todas las piezas.**
+Azul Noche y Blanco Keyons son la base neutra. Azul Cielo es el primer color con carga cromática. Salmón Tierra aporta la temperatura humana y Salmón Atardecer, su versión clara, el acento sobre Azul Noche.
+La cantidad de cada color responde al contenido y la composición. **No es necesario utilizar los cinco colores en todas las piezas.**
 Proporción de una pieza institucional típica. Al tocar un color se copia su código.
 **(Copiar en)**
 
 **50 %** · **Blanco Keyons** · Fondo y espacios negativos
 **20 %** · **Azul Noche** · Texto y autoridad
 **20 %** · **Azul Cielo** · Superficies y señales
-**10 %** · **Salmón Tierra** · Acción y acento
+**5 %** · **Salmón Tierra** · Acción y acento
+**5 %** · **Salmón Atardecer** · Acento claro sobre Azul Noche
 
 **(Blanco Keyons)**
 Fondo principal y superficie neutra. No es blanco puro: un blanco cálido que evita la esterilidad clínica.
@@ -2751,6 +2752,9 @@ Las viñetas acompañan elementos breves. Los elementos de más de dos líneas s
 
 **(Notas de cierre)**
 Un texto al final de una sección lleva rótulo y la línea de su bloque. Nunca queda suelto.
+
+**(Una sola línea)**
+Entre dos bloques hay una sola línea divisoria: si el siguiente abre con la suya, el anterior cierra sin línea.
 
 La densidad adecuada permite comprender y actuar sin añadir ruido visual.
 
@@ -5475,7 +5479,9 @@ Número: 28.2 · ID: `KYN-MRK-REF-002` · Estado: vigente · Fuente: `/recursos/
 
 ##### Todas las normas, por ID
 
-Cada ID lleva a su sección.
+Cada norma del libro tiene un ID permanente, por ejemplo **KYN-MRK-COL-002**: el libro (MRK), el capítulo (COL, Color) y su número dentro del capítulo. El ID se usa para citar una norma sin depender del número de página o de sección.
+
+Escriba en el buscador un ID, un número de sección o una palabra del tema, y ordene la lista por número o en orden alfabético. Cada fila lleva directo a su sección.
 
 #### Criterios visuales
 
@@ -5545,3 +5551,31 @@ La experimentación es válida cuando la persona mantiene orientación y control
 
 **(Alternativa mejor)**
 **Navegación a la vista** Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.
+
+### Capítulo 29 · Recursos técnicos
+
+Estado: borrador · Clave: tecnicos · Ruta: `/recursos/tecnicos.html`
+
+La expresión visual en HTML, CSS y JS, lista para copiar.
+
+**Contenido del capítulo**
+
+- Catálogo · borrador · `/recursos/tecnicos.html#tecnicos`
+
+#### Recursos técnicos
+
+Rótulo: Capítulo 29 · Recursos · Fuente: `/recursos/tecnicos.html`
+
+La expresión visual de Keyons, lista para copiar en HTML, CSS y JS.
+
+#### KYN-MRK-TEC-001 · 29.1 Catálogo
+
+Número: 29.1 · ID: `KYN-MRK-TEC-001` · Estado: vigente · Fuente: `/recursos/tecnicos.html#tecnicos`
+
+##### El mismo código del libro
+
+Cada recurso se prueba aquí y se copia tal como lo usa este libro: **el ejemplo, el código y las descargas salen de los mismos archivos**, así nunca se separan.
+
+Abra una fila para ver la demostración, el código, la configuración y cómo implementarlo. Los componentes de interfaz están en el [Sistema de Diseño](/sistema-diseno/index.html).
+
+Cargando el catálogo…

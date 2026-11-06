@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-05"
+fecha: "2026-11-06"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-COL-002"
 titulo: "Colores principales"
@@ -11,24 +11,25 @@ capitulo: "07 Color"
 area: "Fundamentos"
 fuente: "/fundamentos/color/paleta-base.html#principales"
 referencias: []
-citada_por: []
+citada_por: ["KYN-MRK-REF-002"]
 ---
 
 # KYN-MRK-COL-002 · Colores principales
 
 Número: 7.2 · Estado: vigente · Capítulo: 07 Color · Fuente: `/fundamentos/color/paleta-base.html#principales`
 
-##### Cuatro colores, una jerarquía
+##### Cinco colores, una jerarquía
 
-Azul Noche y Blanco Keyons son la base neutra. Azul Cielo es el primer color con carga cromática. Salmón Tierra aporta la temperatura humana.
-La cantidad de cada color responde al contenido y la composición. **No es necesario utilizar los cuatro colores en todas las piezas.**
+Azul Noche y Blanco Keyons son la base neutra. Azul Cielo es el primer color con carga cromática. Salmón Tierra aporta la temperatura humana y Salmón Atardecer, su versión clara, el acento sobre Azul Noche.
+La cantidad de cada color responde al contenido y la composición. **No es necesario utilizar los cinco colores en todas las piezas.**
 Proporción de una pieza institucional típica. Al tocar un color se copia su código.
 **(Copiar en)**
 
 **50 %** · **Blanco Keyons** · Fondo y espacios negativos
 **20 %** · **Azul Noche** · Texto y autoridad
 **20 %** · **Azul Cielo** · Superficies y señales
-**10 %** · **Salmón Tierra** · Acción y acento
+**5 %** · **Salmón Tierra** · Acción y acento
+**5 %** · **Salmón Atardecer** · Acento claro sobre Azul Noche
 
 **(Blanco Keyons)**
 Fondo principal y superficie neutra. No es blanco puro: un blanco cálido que evita la esterilidad clínica.

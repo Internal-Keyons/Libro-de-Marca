@@ -1150,6 +1150,19 @@
    "responsable": null,
    "fecha_aprobacion": null,
    "excepciones": [],
+   "relacionadas": [
+    "KYN-MRK-COL-002"
+   ]
+  },
+  "KYN-MRK-TEC-001": {
+   "titulo": "Recursos técnicos",
+   "estado": "vigente",
+   "estado_documental": "vigente",
+   "version": "1.0",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
    "relacionadas": []
   },
   "KYN-MRK-TEX-001": {

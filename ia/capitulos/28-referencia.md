@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-05"
+fecha: "2026-11-06"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "28"
 titulo: "Referencia"
@@ -9,7 +9,7 @@ area: "Recursos"
 estado: "borrador"
 rutas: ["/recursos/referencia.html", "/fundamentos/criterio/antipatrones.html"]
 normas: ["KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-VIS-007", "KYN-MRK-VIS-011"]
-referencias: ["KYN-MRK-COL-001", "KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-VIS-001", "KYN-MRK-VIS-002", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-005", "KYN-MRK-VIS-006", "KYN-MRK-VIS-007", "KYN-MRK-VIS-008", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-011", "KYN-MRK-VIS-012"]
+referencias: ["KYN-MRK-COL-001", "KYN-MRK-COL-002", "KYN-MRK-REF-001", "KYN-MRK-REF-002", "KYN-MRK-VIS-001", "KYN-MRK-VIS-002", "KYN-MRK-VIS-003", "KYN-MRK-VIS-004", "KYN-MRK-VIS-005", "KYN-MRK-VIS-006", "KYN-MRK-VIS-007", "KYN-MRK-VIS-008", "KYN-MRK-VIS-009", "KYN-MRK-VIS-010", "KYN-MRK-VIS-011", "KYN-MRK-VIS-012"]
 ---
 
 # Capítulo 28 · Referencia
@@ -118,7 +118,9 @@ Número: 28.2 · ID: `KYN-MRK-REF-002` · Estado: vigente · Fuente: `/recursos/
 
 ### Todas las normas, por ID
 
-Cada ID lleva a su sección.
+Cada norma del libro tiene un ID permanente, por ejemplo **KYN-MRK-COL-002**: el libro (MRK), el capítulo (COL, Color) y su número dentro del capítulo. El ID se usa para citar una norma sin depender del número de página o de sección.
+
+Escriba en el buscador un ID, un número de sección o una palabra del tema, y ordene la lista por número o en orden alfabético. Cada fila lleva directo a su sección.
 
 ## Criterios visuales
 

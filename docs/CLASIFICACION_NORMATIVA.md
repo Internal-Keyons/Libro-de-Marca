@@ -8,9 +8,9 @@
 
 | Dato | Valor |
 |---|---|
-| Normas inventariadas | 126 |
-| Requisitos detectados | 227 |
-| DEBE | 89 |
+| Normas inventariadas | 127 |
+| Requisitos detectados | 228 |
+| DEBE | 90 |
 | NO DEBE | 84 |
 | DEBERÍA | 9 |
 | PUEDE | 45 |
@@ -73,7 +73,7 @@ Las normas de calidad y experiencia KYN-MRK-VIS-007, KYN-MRK-VIS-008, KYN-MRK-VI
 | KYN-MRK-CON-006.1 | DEBE | varias expresiones normativas en la misma frase | Su aplicación responde al propósito de cada composición y no exige incorporar elementos figurativos o recursos expresivos cuando no aportan valor. 01Presencia h… |
 | KYN-MRK-CON-006.3 | DEBE | varias expresiones normativas en la misma frase; «siempre» sin verbo normativo | (Intervención con IA)La inteligencia artificial puede participar para potenciar o extender la pieza, siempre que respete la dirección creativa y el concepto ini… |
 | KYN-MRK-CON-007.1 | DEBE | «siempre» sin verbo normativo | (Lo disruptivo)Un elemento inesperado que muestra que ya no hay límites, siempre con sobriedad. |
-| KYN-MRK-DAT-001.6 | DEBE | varias expresiones normativas en la misma frase; «siempre» sin verbo normativo | (PUEDE · Expresión visual)La identidad Keyons puede expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conser… |
+| KYN-MRK-DAT-001.7 | DEBE | varias expresiones normativas en la misma frase; «siempre» sin verbo normativo | (PUEDE · Expresión visual)La identidad Keyons puede expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conser… |
 | KYN-MRK-DAT-002.1 | DEBE | imperativo en infinitivo: se interpreta como DEBE | Utilizar la escala oficial existente en el proyecto.Los tonos claros y oscuros permiten representar magnitudes, relaciones y jerarquías según el contexto. |
 | KYN-MRK-DAT-002.2 | DEBE | varias expresiones normativas en la misma frase | Puede destacar una categoría o establecer un contraste cálido entre series.Su significado cromático debe conservarse independiente de los estados desfavorables. |
 | KYN-MRK-DIS-005.2 | DEBE | varias expresiones normativas en la misma frase | Una experiencia clara 01Dónde se está 02Qué se puede hacer 03Qué está ocurriendo 04Cómo continuar (La complejidad)Keyons debe resolver la complejidad durante el… |
@@ -147,7 +147,7 @@ Ninguna.
 | KYN-MRK-CON-007 | 1 | 0 | 0 | 0 |
 | KYN-MRK-CON-008 | 0 | 0 | 0 | 0 |
 | KYN-MRK-CON-009 | 0 | 0 | 0 | 1 |
-| KYN-MRK-DAT-001 | 5 | 0 | 1 | 0 |
+| KYN-MRK-DAT-001 | 6 | 0 | 1 | 0 |
 | KYN-MRK-DAT-002 | 5 | 1 | 0 | 4 |
 | KYN-MRK-DAT-003 | 0 | 0 | 0 | 0 |
 | KYN-MRK-DAT-004 | 0 | 1 | 0 | 0 |
@@ -212,6 +212,7 @@ Ninguna.
 | KYN-MRK-PRE-014 | 0 | 1 | 0 | 0 |
 | KYN-MRK-REF-001 | 0 | 2 | 0 | 0 |
 | KYN-MRK-REF-002 | 0 | 0 | 0 | 0 |
+| KYN-MRK-TEC-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-TEX-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-TYP-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-TYP-002 | 0 | 0 | 0 | 3 |
