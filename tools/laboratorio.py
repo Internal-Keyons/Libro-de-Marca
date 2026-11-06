@@ -323,7 +323,7 @@ class H(http.server.SimpleHTTPRequestHandler):
                         i, n = f'{base}-{n}', n + 1
                 p = os.path.join(EXP, i + '.json')
                 prev = json.load(io.open(p, encoding='utf-8')) if os.path.exists(p) else {}
-                keep = ('titulo', 'estado', 'decision', 'kit', 'pedido', 'datos', 'origen', 'html', 'css', 'js', 'ex')
+                keep = ('titulo', 'estado', 'decision', 'revision', 'kit', 'pedido', 'datos', 'origen', 'html', 'css', 'js', 'ex')
                 x = {'id': i, 'creado': prev.get('creado') or now(), 'actualizado': now(), **{k: b.get(k, '') for k in keep}}
                 with io.open(p, 'w', encoding='utf-8', newline='\n') as fh:
                     json.dump(x, fh, ensure_ascii=False, indent=2)
