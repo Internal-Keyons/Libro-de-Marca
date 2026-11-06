@@ -116,6 +116,7 @@
         </div>
         <a class="hdr__logo" href="${url(LIBRO.h || 'index.html')}" aria-label="${esc(LIBRO.t)} · Portada">${LOGO}</a>
         <div class="hdr__right">
+          ${BOOK_ID === 'sistema-diseno' ? `<a class="hdr__lab" href="${url('sistema-diseno/laboratorio.html')}" aria-label="Laboratorio de Interfaces"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3.5h6M10 3.5v6L4.8 18.3A1.9 1.9 0 0 0 6.4 21h11.2a1.9 1.9 0 0 0 1.6-2.7L14 9.5v-6"/><path d="M7.4 15.5h9.2"/></svg><span>Lab</span></a>` : ''}
           <button class="hdr__search" type="button" data-search aria-label="Buscar en la Biblioteca (Ctrl K)">${ic(I.search)}<span>Buscar</span><kbd>Ctrl K</kbd></button>
         </div>
       </div>`;
@@ -217,9 +218,8 @@
         list.innerHTML = rows.map((o) => `<a class="kidx__r${o.e === 'vigente' ? '' : ' is-off'}" href="${root}${o.h}" data-q="${(o.id + ' ' + o.n + ' ' + o.t).toLowerCase()}"><b>${o.id}</b><span class="kidx__n">${o.n}</span><span class="kidx__t">${o.t}</span>${o.e === 'vigente' ? '' : '<span class="kidx__e">[DESCONTINUADA]</span>'}</a>`).join('');
         q.dispatchEvent(new Event('input'));
         };
-        box.querySelectorAll('[data-ks]').forEach((b) => b.addEventListener('click', () => {
-          box.querySelectorAll('[data-ks]').forEach((o) => o.setAttribute('aria-pressed', String(o === b))); draw(b.dataset.ks);
-        }));
+        const ks = box.querySelector('[data-ksel]');
+        if (ks) ks.addEventListener('change', () => draw(ks.value));
         q.addEventListener('input', () => { const v = q.value.trim().toLowerCase(); list.querySelectorAll('.kidx__r').forEach((r) => { r.hidden = !!v && !r.dataset.q.includes(v); }); });
         draw('id');
       });
@@ -1690,6 +1690,10 @@
       f.classList.toggle('is-flip', on); btn.setAttribute('aria-expanded', String(on));
       btn.querySelector('span').textContent = on ? 'Volver' : 'Leer más';
     });
+    /* Cuando la tarjeta sale de la pantalla, el lector ya terminó con ella: vuelve sola a su cara principal */
+    if ('IntersectionObserver' in window) new IntersectionObserver((es) => es.forEach((e) => {
+      if (!e.isIntersecting && f.classList.contains('is-flip')) { f.classList.remove('is-flip'); btn.setAttribute('aria-expanded', 'false'); btn.querySelector('span').textContent = 'Leer más'; }
+    })).observe(f);
   });
 
   /* Titulares largos en dos renglones: el corte va después de la coma o el punto y coma */

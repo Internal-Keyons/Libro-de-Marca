@@ -411,12 +411,17 @@
   "fundamentos/color/paleta-base.html#capas": {
    "estado": "vigente",
    "id": "KYN-MRK-COL-001",
-   "texto": "Sistema de color Base fija, expresión modulada El color de Keyons no es una paleta plana: es un sistema en capas. La paleta base está siempre; las demás se suman, de mayor a menor presencia, según el contexto real de cada pieza. 01Paleta base 02Cielos expresivos 03Colores funcionales 04Firma en productos (Paleta base)Cuatro colores que aparecen en toda comunicación. Cambia su proporción según la pieza, nunca su presencia. (Cielos expresivos)Se suman en piezas narrativas y emocionales: redes, campañas, eventos y momentos designados del producto. (Colores funcionales)Aparecen en interfaces: grises de texto, estados del sistema, acciones y superficies. (Firma en productos)Lo que se mantiene cuando un producto se personaliza para un cliente o una vertical. La marca siempre se reconoce y aun así respira distinto según el mensaje.",
+   "texto": "Sistema de color Base fija, expresión modulada El color de Keyons no es una paleta plana: es un sistema en capas. La paleta base está siempre; las demás se suman, de mayor a menor presencia, según el contexto real de cada pieza. 01Paleta base 02Cielos expresivos 03Colores funcionales 04Firma en productos (Paleta base)Cinco colores que aparecen en toda comunicación. Cambia su proporción según la pieza, nunca su presencia. (Cielos expresivos)Se suman en piezas narrativas y emocionales: redes, campañas, eventos y momentos designados del producto. (Colores funcionales)Aparecen en interfaces: grises de texto, estados del sistema, acciones y superficies. (Firma en productos)Lo que se mantiene cuando un producto se personaliza para un cliente o una vertical. La marca siempre se reconoce y aun así respira distinto según el mensaje.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
      "huella": "d5a2c112356f8833",
      "nota": "commit c3e33d7"
+    },
+    {
+     "aprobada": "2026-11-05",
+     "huella": "186c7b23b6c72dd3",
+     "nota": "Ronda 21 A: una sola línea entre bloques (ESP-005), Salmón Atardecer en la paleta corporativa con 5 % y 5 % (COL-001/002), ficha de 10.7 en una columna, Estela con forma de estela, índice explicado y ordenado con un desplegable (REF-002)"
     }
    ]
   },
@@ -435,7 +440,7 @@
   "fundamentos/color/paleta-base.html#principales": {
    "estado": "vigente",
    "id": "KYN-MRK-COL-002",
-   "texto": "Colores principales Cuatro colores, una jerarquía Azul Noche y Blanco Keyons son la base neutra. Azul Cielo es el primer color con carga cromática. Salmón Tierra aporta la temperatura humana. La cantidad de cada color responde al contenido y la composición. No es necesario utilizar los cuatro colores en todas las piezas. Proporción de una pieza institucional típica. Al tocar un color se copia su código. (Copiar en)HEXRGBCMYK Blanco Keyons#F4F4F4Azul Noche#10122AAzul Cielo#729BDDSalmón Tierra#CE635D 50 %Blanco KeyonsFondo y espacios negativos 20 %Azul NocheTexto y autoridad 20 %Azul CieloSuperficies y señales 10 %Salmón TierraAcción y acento (Blanco Keyons)Fondo principal y superficie neutra. No es blanco puro: un blanco cálido que evita la esterilidad clínica. (Azul Noche)Texto principal, fondo de piezas oscuras y firma de autoridad. No es negro puro: un azul profundísimo que conecta con los cielos. (Azul Cielo)Color primario. Va del acento puntual a superficies amplias, y es el único que puede tomar protagonismo en una pieza institucional. Es el guiño al Cielo Mediodía. (Salmón Tierra)Color secundario: temperatura humana y contrapeso al celeste. En piezas institucionales es acento; como fondo, solo cuando la calidez es el mensaje.",
+   "texto": "Colores principales Cinco colores, una jerarquía Azul Noche y Blanco Keyons son la base neutra. Azul Cielo es el primer color con carga cromática. Salmón Tierra aporta la temperatura humana y Salmón Atardecer, su versión clara, el acento sobre Azul Noche. La cantidad de cada color responde al contenido y la composición. No es necesario utilizar los cinco colores en todas las piezas. Proporción de una pieza institucional típica. Al tocar un color se copia su código. (Copiar en)HEXRGBCMYK Blanco Keyons#F4F4F4Azul Noche#10122AAzul Cielo#729BDDSalmón Tierra#CE635DSalmón Atardecer#E99D9E 50 %Blanco KeyonsFondo y espacios negativos 20 %Azul NocheTexto y autoridad 20 %Azul CieloSuperficies y señales 5 %Salmón TierraAcción y acento 5 %Salmón AtardecerAcento claro sobre Azul Noche (Blanco Keyons)Fondo principal y superficie neutra. No es blanco puro: un blanco cálido que evita la esterilidad clínica. (Azul Noche)Texto principal, fondo de piezas oscuras y firma de autoridad. No es negro puro: un azul profundísimo que conecta con los cielos. (Azul Cielo)Color primario. Va del acento puntual a superficies amplias, y es el único que puede tomar protagonismo en una pieza institucional. Es el guiño al Cielo Mediodía. (Salmón Tierra)Color secundario: temperatura humana y contrapeso al celeste. En piezas institucionales es acento; como fondo, solo cuando la calidez es el mensaje.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -446,6 +451,11 @@
      "aprobada": "2026-11-02",
      "huella": "c65ee959c1746e48",
      "nota": "RV9: CON-006 en párrafo, COL-002/004/006/010/011/012/014/015, LOG-007/008/010, TYP-002/006 con los textos enviados por el usuario"
+    },
+    {
+     "aprobada": "2026-11-05",
+     "huella": "c59f260586f19c63",
+     "nota": "Ronda 21 A: una sola línea entre bloques (ESP-005), Salmón Atardecer en la paleta corporativa con 5 % y 5 % (COL-001/002), ficha de 10.7 en una columna, Estela con forma de estela, índice explicado y ordenado con un desplegable (REF-002)"
     }
    ]
   },
@@ -564,7 +574,7 @@
   "fundamentos/composicion/editorial.html#densidad": {
    "estado": "vigente",
    "id": "KYN-MRK-ESP-005",
-   "texto": "Jerarquía y densidad Cuánta información cabe en un espacio La densidad visual responde al contenido, la frecuencia de uso y la atención que requiere cada tarea. Una composición limpia no necesita ser siempre poco densa. Una composición informativa no debe convertirse en una acumulación de elementos. (Ejemplo)Propuesta comercial: una idea, mucho aireCorporativo · densidad contenidaPrioriza una jerarquía clara, espacio negativo y una lectura cómoda.La cantidad de bloques, llamadas a la acción y espacios depende de la información y de las decisiones que debe tomar el lector.(Cuándo se usa)Se aplica a comunicaciones institucionales, documentos, propuestas y secciones editoriales donde conviene destacar las ideas principales. (Ejemplo)Post de campaña: varios elementos sobre la retículaExpresivo · intensidad organizadaPermite una mayor presencia de recursos gráficos, información y variaciones compositivas cuando el contenido lo justifica.La retícula proporciona estructura, pero no obliga a distribuir todos los elementos en columnas idénticas.(Cuándo se usa)Campañas, blog, contenido educativo, redes, piezas culturales y talleres. Interfaz · según la tarea La densidad debe facilitar la tarea, no dificultarla. Las vistas de uso frecuente pueden presentar información compacta cuando mantienen legibilidad, orientación y controles accesibles. (Ejemplo)Pantalla de bienvenidaDensidad bajaBienvenida y onboardingErrores y estados sensiblesPausas en flujos largosConfirmaciones importantesPrimera vez y educación(Ejemplo)Formulario estándarDensidad mediaFormularios estándarInformación estructuradaFlujos transaccionales de rutina(Ejemplo)Tablero operativoDensidad altaTableros de uso diarioTablas de datosListados largos con filtrosVistas de monitoreoPantallas para escanear rápido Texto · bloques breves (Párrafos breves)Un párrafo desarrolla una sola idea y ocupa como máximo cuatro líneas en la columna de lectura de 600 px. Si necesita más, se divide por ideas o se convierte en lista. (Listas parejas)Los elementos de una misma lista tienen el mismo largo: todos en una línea o todos en dos. La redacción se ajusta hasta que calcen. (Viñetas)Las viñetas acompañan elementos breves. Los elementos de más de dos líneas se presentan en filas con rótulo. (Notas de cierre)Un texto al final de una sección lleva rótulo y la línea de su bloque. Nunca queda suelto. La densidad adecuada permite comprender y actuar sin añadir ruido visual.",
+   "texto": "Jerarquía y densidad Cuánta información cabe en un espacio La densidad visual responde al contenido, la frecuencia de uso y la atención que requiere cada tarea. Una composición limpia no necesita ser siempre poco densa. Una composición informativa no debe convertirse en una acumulación de elementos. (Ejemplo)Propuesta comercial: una idea, mucho aireCorporativo · densidad contenidaPrioriza una jerarquía clara, espacio negativo y una lectura cómoda.La cantidad de bloques, llamadas a la acción y espacios depende de la información y de las decisiones que debe tomar el lector.(Cuándo se usa)Se aplica a comunicaciones institucionales, documentos, propuestas y secciones editoriales donde conviene destacar las ideas principales. (Ejemplo)Post de campaña: varios elementos sobre la retículaExpresivo · intensidad organizadaPermite una mayor presencia de recursos gráficos, información y variaciones compositivas cuando el contenido lo justifica.La retícula proporciona estructura, pero no obliga a distribuir todos los elementos en columnas idénticas.(Cuándo se usa)Campañas, blog, contenido educativo, redes, piezas culturales y talleres. Interfaz · según la tarea La densidad debe facilitar la tarea, no dificultarla. Las vistas de uso frecuente pueden presentar información compacta cuando mantienen legibilidad, orientación y controles accesibles. (Ejemplo)Pantalla de bienvenidaDensidad bajaBienvenida y onboardingErrores y estados sensiblesPausas en flujos largosConfirmaciones importantesPrimera vez y educación(Ejemplo)Formulario estándarDensidad mediaFormularios estándarInformación estructuradaFlujos transaccionales de rutina(Ejemplo)Tablero operativoDensidad altaTableros de uso diarioTablas de datosListados largos con filtrosVistas de monitoreoPantallas para escanear rápido Texto · bloques breves (Párrafos breves)Un párrafo desarrolla una sola idea y ocupa como máximo cuatro líneas en la columna de lectura de 600 px. Si necesita más, se divide por ideas o se convierte en lista. (Listas parejas)Los elementos de una misma lista tienen el mismo largo: todos en una línea o todos en dos. La redacción se ajusta hasta que calcen. (Viñetas)Las viñetas acompañan elementos breves. Los elementos de más de dos líneas se presentan en filas con rótulo. (Notas de cierre)Un texto al final de una sección lleva rótulo y la línea de su bloque. Nunca queda suelto. (Una sola línea)Entre dos bloques hay una sola línea divisoria: si el siguiente abre con la suya, el anterior cierra sin línea. La densidad adecuada permite comprender y actuar sin añadir ruido visual.",
    "versiones": [
     {
      "aprobada": "2026-11-03",
@@ -575,6 +585,11 @@
      "aprobada": "2026-11-05",
      "huella": "f1437abf1d6720de",
      "nota": "Ronda 19: escala tipográfica 12·14·16·20·24·32 (TYP-002, DAT-003, ejemplos de 10.7), notas de cierre con rótulo (CON-004, DIS-003, DIS-005, ILU-005), criterios de texto breve en ESP-005, usos de LOG-001 en lista, DAT-001 abreviado, DAT-002 en franjas, pista de ILU-006"
+    },
+    {
+     "aprobada": "2026-11-05",
+     "huella": "200d220afc4e49d2",
+     "nota": "Ronda 21 A: una sola línea entre bloques (ESP-005), Salmón Atardecer en la paleta corporativa con 5 % y 5 % (COL-001/002), ficha de 10.7 en una columna, Estela con forma de estela, índice explicado y ordenado con un desplegable (REF-002)"
     }
    ]
   },
@@ -3233,7 +3248,7 @@
   "recursos/referencia.html#indice": {
    "estado": "vigente",
    "id": "KYN-MRK-REF-002",
-   "texto": "Índice Todas las normas, por ID Cada ID lleva a su sección. Por númeroAlfabético",
+   "texto": "Índice Todas las normas, por ID Cada norma del libro tiene un ID permanente, por ejemplo KYN-MRK-COL-002: el libro (MRK), el capítulo (COL, Color) y su número dentro del capítulo. El ID se usa para citar una norma sin depender del número de página o de sección. Escriba en el buscador un ID, un número de sección o una palabra del tema, y ordene la lista por número o en orden alfabético. Cada fila lleva directo a su sección. (Ordenar)Por númeroAlfabético",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -3244,6 +3259,11 @@
      "aprobada": "2026-11-05",
      "huella": "9e409b7208696843",
      "nota": "Ronda 20: nomenclaturas integradas y descontinuadas eliminadas y familias renumeradas sin huecos (VIS, TYP, ESP), LOG-001 en dos párrafos, 10.7 con un solo caso, ILU-001 con Blanco Keyons en dos renglones, VIS-004 con el ejemplo Enviar solicitud, calidad como regla de DAT-001, DAT-002 en círculos con notas, índice de criterios visuales y Guía sin estados descontinuados"
+    },
+    {
+     "aprobada": "2026-11-05",
+     "huella": "0478d9812879c331",
+     "nota": "Ronda 21 A: una sola línea entre bloques (ESP-005), Salmón Atardecer en la paleta corporativa con 5 % y 5 % (COL-001/002), ficha de 10.7 en una columna, Estela con forma de estela, índice explicado y ordenado con un desplegable (REF-002)"
     }
    ]
   },

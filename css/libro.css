@@ -5642,3 +5642,52 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)
 .dpal__n{max-width:600px;padding-top:var(--s5);border-top:1px solid var(--color-border)}
 .dpal__n p{font-size:14px;line-height:1.6;color:var(--color-text-2)}
 .dpal__n + .dpal__n{margin-top:calc(var(--s2) * -1)}
+
+/* ════════ Ronda 21 ════════ */
+/* ── Entre dos bloques, una sola línea: si el siguiente abre con su propia línea, el anterior cierra sin ella ── */
+.ed__stack:has(+ .ed__sub),.ed__stack:has(+ .dpal),.ed__stack:has(+ .ed__more),.ed__stack:has(+ .tsub__d + .ed__stack),
+.dpal:has(+ .ed__sub),.gov__rows:has(+ .ed__sub),.gov__list:has(+ .ed__sub){border-bottom:0}
+.ed__stack:has(+ .ed__sub) > div:last-child,.dpal:has(+ .ed__sub) > .dpal__row:last-child{border-bottom:0}
+
+/* ── ESP-006 · 10.7: título y caso uno debajo del otro; la ficha técnica en una columna, separada del ejemplo ── */
+.xmp__h{grid-template-columns:minmax(0,1fr);row-gap:var(--s1)}
+.xmp__spec{grid-template-columns:minmax(0,1fr);max-width:760px;margin-top:var(--s4)}
+.xmp__spec > div{display:grid;grid-template-columns:180px minmax(0,1fr);column-gap:var(--s6);padding:var(--s3) 0}
+.xmp__spec dd{margin:0}
+@media(max-width:640px){.xmp__spec > div{grid-template-columns:minmax(0,1fr);row-gap:var(--s1)}}
+.xa__c--new .xa__h{box-shadow:inset 0 -2px 0 var(--k-cielo-200)}
+
+/* ── DAT-002: círculos del tamaño de la Paleta de cielos (COL-007) ── */
+.dpal__ramp,.dpal__ramp:has(.dsw:nth-child(6)){gap:var(--s3) var(--s4)}
+.dpal__ramp .dsw{row-gap:6px}
+.dpal__ramp .dsw i,.dpal__ramp .dsw:first-child i,.dpal__ramp .dsw:last-child i,.dpal__ramp:has(.dsw:nth-child(6)) .dsw i{width:40px;height:40px}
+.kidx__bar .kidx__sort{flex:none;min-width:220px}
+
+/* ── Presentación del Laboratorio (inicio del Sistema de Diseño): la cuadrícula del libro, titular en dos tonos y cuatro etapas con arcos ── */
+.lbw{--grid:rgba(16,18,42,.06);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:32px 32px}
+.lbw,.lbx__stage{--grid:rgba(16,18,42,.06);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:32px 32px}
+.lbw{margin:var(--s6) 0 var(--s12);padding:var(--s12) var(--s10) 0;border-top:1px solid var(--color-border);border-bottom:1px solid var(--color-border)}
+.lbw__k{font-size:12px;font-weight:500;color:var(--color-text-3)}
+.lbw__t{max-width:22ch;margin-top:var(--s4);font-family:var(--font-display);font-size:clamp(40px,4.4vw,64px);font-weight:500;line-height:.98;letter-spacing:-.03em;color:var(--k-noche)}
+.lbw__t span{color:var(--color-text-title-muted,#8B8C92)}
+.lbw__d{max-width:600px;margin-top:var(--s6);font-size:20px;line-height:1.5;color:var(--color-text-2)}
+.lbw__d b{font-weight:600;color:var(--k-noche)}
+.lbw__steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:var(--s12) 0 0;padding:0;list-style:none}
+.lbw__steps li{position:relative;display:flex;gap:var(--s2);align-items:baseline;min-height:150px;padding:var(--s4) var(--s4) 0;border-left:1px solid var(--color-border);font-size:14px;color:var(--color-text-3)}
+.lbw__steps li:first-child{border-left:0;padding-left:0}
+.lbw__steps li::after{content:"";position:absolute;left:0;right:0;bottom:0;height:96px;border:1px dashed var(--k-noche-250);border-bottom:0;border-radius:50% 50% 0 0/100% 100% 0 0}
+.lbw__steps li.is-on{color:var(--k-noche)}
+.lbw__steps li.is-on::after{border:1.5px solid var(--k-cielo);border-bottom:0;background:linear-gradient(180deg,rgba(114,155,221,.16),rgba(114,155,221,0))}
+.lbw__steps li.is-done::after{border-style:solid;border-color:var(--k-cielo-300)}
+.lbw__n{font-variant-numeric:tabular-nums}
+.lbw__steps li.is-on .lbw__l{font-weight:600;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
+@media(max-width:760px){.lbw{padding:var(--s8) 0 0}.lbw__steps{grid-template-columns:repeat(2,minmax(0,1fr))}.lbw__steps li{min-height:110px}.lbw__steps li:nth-child(3){border-left:0;padding-left:0}.lbw__steps li::after{height:64px}}
+.lbw__go{margin-top:var(--s8);min-height:44px}
+
+/* ── Acceso «Lab» en la cabecera del Sistema de Diseño: escritorio y tableta, junto a Buscar ── */
+.hdr__right{gap:var(--s2)}
+.hdr__lab{display:inline-flex;align-items:center;gap:8px;height:37px;padding:0 16px;border:1.5px solid var(--k-noche);border-radius:var(--r-pill);font-size:14px;font-weight:600;color:var(--k-noche);text-decoration:none;background:transparent;transition:background-color var(--m-fast) var(--e-out),color var(--m-fast) var(--e-out)}
+.hdr__lab svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.hdr__lab:hover,.hdr__lab:focus-visible{background:var(--k-noche);color:#fff}
+@media(max-width:1179px){.hdr__lab{height:40px}}
+@media(max-width:767px){.hdr__lab{display:none}}
