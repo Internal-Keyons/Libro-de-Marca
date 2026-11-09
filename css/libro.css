@@ -5758,3 +5758,28 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)
   .rtec__spec > div{grid-template-columns:1fr;gap:var(--s2)}
   .rtec__cfg p,.rtec__kv p{grid-template-columns:1fr;gap:2px;padding:8px 0}
 }
+
+/* ════════ Ronda 22 ════════ */
+/* Acceso Lab: contenedor blanco */
+.hdr__lab{background:var(--k-puro)}
+@media(hover:hover){.hdr__lab:hover{background:var(--k-noche)}}
+.hdr__lab:focus-visible{background:var(--k-noche)}
+/* 10.7 · la ficha técnica es otro material, separada del ejemplo */
+.xmp__ficha{margin-top:var(--s8);padding:var(--s8) var(--s10) var(--s10);background:var(--k-noche);color:var(--k-blanco)}
+.xmp__ficha-t{font-size:12px;font-weight:600;color:var(--k-cielo-200)}
+.xmp__spec,.xmp__ficha .xmp__spec{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s6) var(--s8);max-width:none;margin:var(--s6) 0 0}
+.xmp__ficha .xmp__spec > div{display:block;padding:0;box-shadow:none}
+.xmp__ficha .xmp__spec dt{font-size:14px;font-weight:600;color:var(--k-puro)}
+.xmp__ficha .xmp__spec dd{margin:var(--s1) 0 0;font-size:14px;line-height:1.55;color:rgba(244,244,244,.78)}
+.xmp__ficha .xmp__spec code{color:var(--k-cielo-200)}
+@media(max-width:1100px){.xmp__ficha .xmp__spec{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.xmp__ficha{padding:var(--s6) var(--s5) var(--s8)}.xmp__ficha .xmp__spec{grid-template-columns:minmax(0,1fr)}}
+/* DAT-002 · paleta divergente: cinco círculos por fila */
+.dpal__ramp.dpal__ramp--5,.dpal__ramp--5:has(.dsw:nth-child(6)){display:grid;grid-auto-flow:row;grid-template-columns:repeat(5,max-content)}
+@media(max-width:480px){.dpal__ramp.dpal__ramp--5,.dpal__ramp--5:has(.dsw:nth-child(6)){grid-template-columns:repeat(4,max-content)}}
+/* Presentación del Laboratorio: cuadrícula cerrada, cuatro pasos iguales */
+.lbw{border:1px solid var(--color-border);padding-left:var(--s10);padding-right:var(--s10)}
+.lbw__t{margin-top:0}
+.lbw__go.btn--primary{background:var(--k-noche);color:var(--k-puro);border-color:var(--k-noche)}
+@media(hover:hover){.lbw__go.btn--primary:hover{background:var(--color-bg);color:var(--k-noche);border-color:var(--k-noche)}}
+@media(max-width:760px){.lbw{padding-left:var(--s5);padding-right:var(--s5)}}

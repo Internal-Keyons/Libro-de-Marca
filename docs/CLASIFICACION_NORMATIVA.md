@@ -9,9 +9,9 @@
 | Dato | Valor |
 |---|---|
 | Normas inventariadas | 127 |
-| Requisitos detectados | 228 |
+| Requisitos detectados | 229 |
 | DEBE | 90 |
-| NO DEBE | 84 |
+| NO DEBE | 85 |
 | DEBERÍA | 9 |
 | PUEDE | 45 |
 | Requisitos con ambigüedad | 40 |
@@ -212,7 +212,7 @@ Ninguna.
 | KYN-MRK-PRE-014 | 0 | 1 | 0 | 0 |
 | KYN-MRK-REF-001 | 0 | 2 | 0 | 0 |
 | KYN-MRK-REF-002 | 0 | 0 | 0 | 0 |
-| KYN-MRK-TEC-001 | 0 | 0 | 0 | 0 |
+| KYN-MRK-TEC-001 | 0 | 1 | 0 | 0 |
 | KYN-MRK-TEX-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-TYP-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-TYP-002 | 0 | 0 | 0 | 3 |

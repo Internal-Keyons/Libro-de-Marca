@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-06"
+fecha: "2026-11-09"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-LOG-008"
 titulo: "Estado y evolución"

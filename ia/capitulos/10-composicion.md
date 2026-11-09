@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-06"
+fecha: "2026-11-09"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "10"
 titulo: "Composición"
@@ -433,6 +433,8 @@ Propuesta
 - **Revisión final**: Continua
 
 Ejemplo ilustrativo. Fuente: diagnóstico operativo, cifras de muestra.
+
+Cómo está construido
 
 - **Retícula**: 12 columnas: dos bloques de 6 con medianil de 24 px (`--gap`).
 - **Separaciones**: 16 px entre filas (`--s4`), 32 px entre título y bloques (`--s8`), 48 px antes de la fuente (`--s12`).

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-06"
+fecha: "2026-11-09"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "07"
 titulo: "Color"
@@ -103,6 +103,9 @@ Color primario. Va del acento puntual a superficies amplias, y es el único que 
 
 **(Salmón Tierra)**
 Color secundario: temperatura humana y contrapeso al celeste. En piezas institucionales es acento; como fondo, solo cuando la calidez es el mensaje.
+
+**(Una acción por pantalla)**
+En interfaz, Salmón Tierra marca **una sola acción por pantalla**: la principal. Las demás acciones usan Azul Noche o contorno; si todo destaca, nada destaca.
 
 ## KYN-MRK-COL-003 · 7.3 Colores de apoyo
 

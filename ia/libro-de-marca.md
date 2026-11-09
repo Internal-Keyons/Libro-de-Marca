@@ -1,13 +1,13 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-06"
+fecha: "2026-11-09"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 ---
 
 # Libro de Marca Keyons
 
-Versión: 0.1 · Fecha de exportación: 2026-11-06 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
+Versión: 0.1 · Fecha de exportación: 2026-11-09 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
 
 Exportación íntegra generada desde las páginas del libro con tools/exportar.py. Conserva la redacción y el orden del índice. Cada sección indica su ruta de origen; los recursos visuales se citan con su ruta o su descripción.
 
@@ -1538,6 +1538,9 @@ Color primario. Va del acento puntual a superficies amplias, y es el único que 
 **(Salmón Tierra)**
 Color secundario: temperatura humana y contrapeso al celeste. En piezas institucionales es acento; como fondo, solo cuando la calidez es el mensaje.
 
+**(Una acción por pantalla)**
+En interfaz, Salmón Tierra marca **una sola acción por pantalla**: la principal. Las demás acciones usan Azul Noche o contorno; si todo destaca, nada destaca.
+
 #### KYN-MRK-COL-003 · 7.3 Colores de apoyo
 
 Número: 7.3 · ID: `KYN-MRK-COL-003` · Estado: vigente · Fuente: `/fundamentos/color/paleta-base.html#apoyo`
@@ -2885,6 +2888,8 @@ Propuesta
 
 Ejemplo ilustrativo. Fuente: diagnóstico operativo, cifras de muestra.
 
+Cómo está construido
+
 - **Retícula**: 12 columnas: dos bloques de 6 con medianil de 24 px (`--gap`).
 - **Separaciones**: 16 px entre filas (`--s4`), 32 px entre título y bloques (`--s8`), 48 px antes de la fuente (`--s12`).
 - **Jerarquía**: Titular Plus Jakarta Sans 24 a 32 px, 500; criterio 12 px en gris 3; valor 20 px, 500, Azul Noche.
@@ -2923,7 +2928,7 @@ Viñetas, énfasis, transparencia, luz, cielos, tramas y fotografía.
 - Ráfagas de color · borrador · `/fundamentos/elementos/graficos.html#rafagas`
 - **Tramas y texturas**
 - Tramas y texturas · borrador · `/fundamentos/elementos/graficos.html#patrones`
-- **Fotografía y procedencia**
+- **Imágenes**
 - Fotografía e imágenes · borrador · `/fundamentos/elementos/graficos.html#fotografia`
 
 #### Elementos

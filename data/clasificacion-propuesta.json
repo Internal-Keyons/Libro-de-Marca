@@ -3,10 +3,10 @@
  "regla": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
  "resumen": {
   "normas": 127,
-  "requisitos": 228,
+  "requisitos": 229,
   "por_nivel": {
    "DEBE": 90,
-   "NO DEBE": 84,
+   "NO DEBE": 85,
    "PUEDE": 45,
    "DEBERÍA": 9
   },
@@ -2378,7 +2378,13 @@
     "internas",
     "saas"
    ],
-   "requisitos": []
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-TEC-001.1",
+     "nivel": "NO DEBE",
+     "texto": "Catálogo El mismo código del libro Cada recurso se prueba aquí y se copia tal como lo usa este libro: el ejemplo, el código y las descargas salen de los mismos archivos, así nunca se separan."
+    }
+   ]
   },
   {
    "id": "KYN-MRK-TEX-001",

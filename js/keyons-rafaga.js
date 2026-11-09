@@ -20,18 +20,20 @@
   var VS = 'attribute vec2 a;void main(){gl_Position=vec4(a,0.,1.);}';
   var FS = [
     '#ifdef GL_FRAGMENT_PRECISION_HIGH', 'precision highp float;', '#else', 'precision mediump float;', '#endif',
-    'uniform vec2 R;uniform float TD,ASP,WIND;uniform sampler2D IMG,OFF;',
+    'uniform vec2 R;uniform float TD,ASP,WIND,AUR;uniform sampler2D IMG,OFF;',
     'float h(vec2 p){p=fract(p*vec2(123.34,456.21));p+=dot(p,p+45.32);return fract(p.x*p.y);}',
     'float n(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(h(i),h(i+vec2(1,0)),f.x),mix(h(i+vec2(0,1)),h(i+vec2(1,1)),f.x),f.y);}',
     'float fbm(vec2 p){float v=0.,a=.5;mat2 r=mat2(.8,.6,-.6,.8);for(int i=0;i<4;i++){v+=a*n(p);p=r*p*2.03+11.7;a*=.5;}return v;}',
     'void main(){',
     ' vec2 uv=gl_FragCoord.xy/R;',
     ' vec2 o=(texture2D(OFF,uv).xy-.5)*.5;',                         // desplazamiento de ráfaga (igual que el cielo)
-    ' vec2 q=vec2(uv.x*ASP,uv.y)*2.2;',
-    ' q-=vec2(TD*.05,TD*.006);',                                    // deriva lenta, como las nubes del encabezado
-    ' vec2 w=vec2(fbm(q+vec2(TD*.03,TD*.05)),fbm(q+vec2(5.2-TD*.025,1.3+TD*.04)))-.5;', // viento: la materia fluye
+    ' vec2 q=vec2(uv.x*ASP,uv.y);',
+    ' float s=sin(q.x*2.1+q.y*1.2-TD*.42+1.7*n(q*.9+vec2(TD*.03,0.)));',          // onda larga que viaja de izquierda a derecha
+    ' float c=sin(q.y*2.7-q.x*.9-TD*.31+1.4*n(q*1.1+vec2(3.1,-TD*.025)));',       // balanceo lento: sin frecuencias altas, la forma no se retuerce
+    ' vec2 w=vec2(c*.55+s*.2,s*.75);',
     ' vec2 p=uv-o-w*WIND;',
-    ' gl_FragColor=texture2D(IMG,p);',
+    ' float a=fbm(vec2(q.x*2.8+q.y*.7-TD*.14,q.y*.45+TD*.035));',                 // cortina de luz que recorre la forma, como una aurora
+    ' gl_FragColor=texture2D(IMG,p)*clamp(mix(1.,.68+a*.72,AUR),0.,1.12);',
     '}'
   ].join('\n');
 
@@ -53,7 +55,7 @@
     gl.useProgram(pr);
     var buf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, buf); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
     var aLoc = gl.getAttribLocation(pr, 'a'); gl.enableVertexAttribArray(aLoc); gl.vertexAttribPointer(aLoc, 2, gl.FLOAT, false, 0, 0);
-    var U = {}; 'R TD ASP WIND IMG OFF'.split(' ').forEach(function (k) { U[k] = gl.getUniformLocation(pr, k); });
+    var U = {}; 'R TD ASP WIND AUR IMG OFF'.split(' ').forEach(function (k) { U[k] = gl.getUniformLocation(pr, k); });
 
     function texture(unit) {
       var t = gl.createTexture(); gl.activeTexture(gl.TEXTURE0 + unit); gl.bindTexture(gl.TEXTURE_2D, t);
@@ -140,7 +142,7 @@
         }
         energy = en; gl.activeTexture(gl.TEXTURE1); gl.bindTexture(gl.TEXTURE_2D, tex); gl.texSubImage2D(gl.TEXTURE_2D, 0, 0, 0, GW, GH, gl.RGBA, gl.UNSIGNED_BYTE, px);
       }
-      gl.uniform2f(U.R, cv.width, cv.height); gl.uniform1f(U.TD, td); gl.uniform1f(U.ASP, asp); gl.uniform1f(U.WIND, reduce.matches ? 0 : .07);   // en reposo la forma fluye; el cursor la dispersa encima
+      gl.uniform2f(U.R, cv.width, cv.height); gl.uniform1f(U.TD, td); gl.uniform1f(U.ASP, asp); gl.uniform1f(U.WIND, reduce.matches ? 0 : .05); gl.uniform1f(U.AUR, reduce.matches ? 0 : 1);   // en reposo la forma fluye; el cursor la dispersa encima
       gl.clearColor(0, 0, 0, 0); gl.clear(gl.COLOR_BUFFER_BIT);
       gl.drawArrays(gl.TRIANGLES, 0, 3);
     }

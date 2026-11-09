@@ -104,7 +104,7 @@ window.KEYONS_NAV = [
         { t: 'Transparencia y superposición', st: 'Transparencia', s: 'b', href: 'fundamentos/elementos/graficos.html#cristal' }, { t: 'Luz y profundidad', s: 'v', href: 'fundamentos/elementos/graficos.html#profundidad' }, { t: 'Ventanas de cielo', s: 'b', href: 'fundamentos/elementos/graficos.html#ventana' }, { t: 'Ráfagas de color', st: 'Ráfagas', s: 'b', href: 'fundamentos/elementos/graficos.html#rafagas' },
         { sub: 'Tramas y texturas' },
         { t: 'Tramas y texturas', s: 'b', href: 'fundamentos/elementos/graficos.html#patrones' },
-        { sub: 'Fotografía y procedencia' },
+        { sub: 'Imágenes' },
         { t: 'Fotografía e imágenes', st: 'Fotografía', s: 'b', href: 'fundamentos/elementos/graficos.html#fotografia' } ] },
       { n: '12', k: 'iconografia', was: ['10', '13'], t: 'Iconografía', s: 'b', d: 'Estilo de trazo, tamaños según contexto y catálogo.', items: [
         { t: 'Retícula', s: 'b', href: 'fundamentos/iconografia/iconos.html#reticula' }, { t: 'Familias y variantes', s: 'b', href: 'fundamentos/iconografia/iconos.html#familias' }, { t: 'Uso', s: 'b', href: 'fundamentos/iconografia/iconos.html#uso' }, { t: 'Animación', s: 'b', href: 'fundamentos/iconografia/iconos.html#animacion' }, { t: 'Catálogo', s: 'b', href: 'fundamentos/iconografia/iconos.html#catalogo' }, { t: 'Entrega técnica', s: 'b', href: 'fundamentos/iconografia/iconos.html#entrega' } ] },
