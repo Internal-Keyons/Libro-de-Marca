@@ -246,8 +246,13 @@ body.lx-free.lx-editing :is(.lx-main > *,.lx-grid > *,.lx-group > *,.lx-stack > 
 
 /* Guía de retícula (ESP-004 y CMP-003) y resaltado del elemento comprobado */
 .lx-guide{position:absolute;left:0;top:0;width:100%;z-index:97;pointer-events:none}
-.lx-guide i{position:absolute;top:0;bottom:0;background:rgba(206,99,93,.07);box-shadow:inset 1px 0 0 rgba(206,99,93,.3),inset -1px 0 0 rgba(206,99,93,.3)}
-.lx-guide i.is-b{background:rgba(114,155,221,.1);box-shadow:inset 1px 0 0 rgba(114,155,221,.45),inset -1px 0 0 rgba(114,155,221,.45)}
+.lx-guide i{position:absolute;top:0;bottom:0;background:rgba(114,155,221,.1);box-shadow:inset 1px 0 0 rgba(114,155,221,.45),inset -1px 0 0 rgba(114,155,221,.45)}
 .lx-guide b{position:absolute;left:8px;top:8px;padding:2px 6px;font:600 10px/14px ui-monospace,Consolas,monospace;color:#fff;background:#10122A}
 [data-lx-hl]{outline:3px solid #CE635D!important;outline-offset:3px;animation:lxHl 1s ease-in-out 2}
 @keyframes lxHl{50%{outline-color:rgba(206,99,93,.25)}}
+
+/* Señalar: rayas sobre el diseño para indicar qué cambiar */
+body.lx-marking{cursor:crosshair;user-select:none;-webkit-user-select:none;touch-action:none}
+body.lx-marking *{cursor:crosshair!important}
+#lx-marks{position:absolute;left:0;top:0;width:100%;z-index:98;pointer-events:none}
+#lx-marks path{fill:none;stroke:#CE635D;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}

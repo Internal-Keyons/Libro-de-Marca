@@ -105,7 +105,7 @@ Cómo construir
 - Íconos: SVG en línea con class="lx-i", viewBox="0 0 24 24", solo trazos (sin fill), al estilo del catálogo.
 - Datos: use los que le den. Si no hay, invente datos de muestra creíbles y en español, nunca lorem ipsum
   salvo que se lo pidan.
-- titulo: nombre breve del experimento. resumen: una o dos frases sobre lo que construyó.
+- titulo: nombre breve del experimento. resumen: una o dos frases dirigidas a la persona, sobre lo que hizo; se muestra en el chat.
   normas: los códigos KYN-MRK-… que aplicó con más peso (máximo 6).
 
 Reglas que no se negocian
@@ -116,10 +116,14 @@ Reglas que no se negocian
 - Esquinas: una tarjeta aislada lleva sus cuatro esquinas rectas; dentro de un grupo (lx-group),
   exterior recta e interior curva. Botones en forma de píldora; campos con radio de control.
 - Salmón Tierra y Azul Cielo nunca se apoyan uno sobre otro. Estética plana: sin sombras decorativas.
+- Una sola acción principal por pantalla (lx-btn--primary); las demás, Contorno o Texto.
 - Accesibilidad: contraste 4,5:1 en texto, áreas táctiles de 44 px, cada control con nombre, orden natural
   del foco, estados que no dependen solo del color, errores que explican qué pasó y cómo continuar.
 - Responsive: el escenario se prueba a 1280, 768 y 375 px; nada debe salirse del ancho.
 - Si le piden un cambio sobre una versión existente, conserve todo lo demás y cambie solo lo pedido.
+- Si recibe elementos señalados, el cambio se refiere a esos elementos.
+- Si recibe imágenes o documentos de referencia, úselos como dirección visual o como información. Tradúzcalos a las reglas
+  de Keyons: no copie marcas, logotipos ni textos de terceros, y las normas de arriba siguen mandando.
 """
 
 
@@ -143,8 +147,10 @@ def generar(body):
     actual = body.get('actual') or None
     if not pedido and not cambio:
         raise ValueError('Falta el pedido.')
+    adjuntos = body.get('adjuntos') or []
+    senalados = body.get('senalados') or []
     if DEMO:
-        return demo(pedido, cambio)
+        return demo(pedido, cambio, adjuntos, senalados)
     partes = ['Pedido: ' + pedido]
     if datos:
         partes.append('Datos de ejemplo para usar:\n' + datos)
@@ -152,16 +158,42 @@ def generar(body):
         partes.append('Versión actual:\n<html>\n' + (actual.get('html') or '') + '\n</html>\n<css>\n'
                       + (actual.get('css') or '') + '\n</css>\n<js>\n' + (actual.get('js') or '') + '\n</js>')
         partes.append('Cambio pedido: ' + cambio)
-    out, costo = llamar('\n\n'.join(partes), SCHEMA)
+    if senalados:
+        partes.append('Elementos que la persona señaló en el diseño:\n' + '\n'.join(
+            f"- «{x.get('e', '')}» ({x.get('u', '')}), selector: {x.get('s', '')}" for x in senalados[:10]))
+    out, costo = llamar(contenido('\n\n'.join(partes), adjuntos), SCHEMA)
     out['costo'] = costo
     return out
+
+
+MEDIOS = {'image/jpeg', 'image/png', 'image/webp', 'image/gif'}
+
+
+def contenido(texto, adjuntos):
+    """Arma el mensaje: referencias primero y el pedido al final. Cada adjunto viaja una sola vez."""
+    if not adjuntos:
+        return texto
+    if len(adjuntos) > 6:
+        raise ValueError('Máximo seis adjuntos por mensaje.')
+    bloques, notas = [], []
+    for a in adjuntos:
+        tipo, nombre = a.get('tipo'), str(a.get('nombre') or 'adjunto')[:120]
+        if tipo == 'image' and a.get('media') in MEDIOS:
+            bloques.append({'type': 'image', 'source': {'type': 'base64', 'media_type': a['media'], 'data': a.get('data', '')}})
+        elif tipo == 'pdf':
+            bloques.append({'type': 'document', 'source': {'type': 'base64', 'media_type': 'application/pdf', 'data': a.get('data', '')}, 'title': nombre})
+        elif tipo == 'texto':
+            notas.append(f'<documento nombre="{H_.escape(nombre)}">\n{str(a.get("texto", ""))[:80000]}\n</documento>')
+        else:
+            raise ValueError('Tipo de adjunto no admitido: ' + nombre)
+    return bloques + [{'type': 'text', 'text': '\n\n'.join(notas + [texto])}]
 
 
 # Precios por millón de tokens de Claude Opus 5.5 (USD). Escribir en la caché de 1 hora cuesta el doble de la entrada.
 PRECIO = {'entrada': 4.0, 'salida': 20.0, 'cache_lee': 0.20, 'cache_escribe': 8.0}
 
 
-def llamar(texto, schema):
+def llamar(contenido_msg, schema):
     """Una llamada a la API con las reglas de Keyons en caché de 1 hora. Devuelve (json, costo)."""
     import anthropic
     client = anthropic.Anthropic()
@@ -172,7 +204,7 @@ def llamar(texto, schema):
         max_tokens=64000,
         system=system,
         output_config={'effort': 'high', 'format': {'type': 'json_schema', 'schema': schema}},
-        messages=[{'role': 'user', 'content': texto}],
+        messages=[{'role': 'user', 'content': contenido_msg}],
         betas=['server-side-fallback-2026-07-01'],
     )
     try:
@@ -225,7 +257,7 @@ def sugerir_normas(b):
     return {'markdown': md, 'archivo': '_lab/notas/' + nombre}
 
 
-def demo(pedido, cambio):
+def demo(pedido, cambio, adjuntos=(), senalados=()):
     """Un ejemplo fijo para probar el flujo sin clave ni costo."""
     titulo = 'Ejemplo de demostración'
     html = ('<main class="lx-main"><p class="lx-kicker">Demostración</p>'
@@ -236,7 +268,8 @@ def demo(pedido, cambio):
             '<div class="lx-card lx-alert lx-alert--info lx-section"><svg class="lx-i" viewBox="0 0 24 24" aria-hidden="true">'
             '<circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.5v.5"/></svg><div><b>Modo de demostración</b>'
             '<p class="lx-small">Inicie el servidor sin --demo y con su clave para construir de verdad.</p></div></div></main>')
-    return {'titulo': titulo, 'resumen': 'Respuesta fija del modo de demostración.', 'html': html, 'css': '', 'js': '', 'normas': []}
+    resumen = f'Respuesta fija del modo de demostración. Recibí {len(adjuntos)} adjuntos y {len(senalados)} elementos señalados.'
+    return {'titulo': titulo, 'resumen': resumen, 'html': html, 'css': '', 'js': '', 'normas': []}
 
 
 def propuestas_index():
@@ -323,7 +356,7 @@ class H(http.server.SimpleHTTPRequestHandler):
                         i, n = f'{base}-{n}', n + 1
                 p = os.path.join(EXP, i + '.json')
                 prev = json.load(io.open(p, encoding='utf-8')) if os.path.exists(p) else {}
-                keep = ('titulo', 'estado', 'decision', 'revision', 'kit', 'pedido', 'datos', 'origen', 'html', 'css', 'js', 'ex')
+                keep = ('titulo', 'estado', 'decision', 'revision', 'kit', 'pedido', 'datos', 'origen', 'html', 'css', 'js', 'ex', 'chat')
                 x = {'id': i, 'creado': prev.get('creado') or now(), 'actualizado': now(), **{k: b.get(k, '') for k in keep}}
                 with io.open(p, 'w', encoding='utf-8', newline='\n') as fh:
                     json.dump(x, fh, ensure_ascii=False, indent=2)
@@ -333,6 +366,7 @@ class H(http.server.SimpleHTTPRequestHandler):
                 x = json.load(io.open(os.path.join(EXP, i + '.json'), encoding='utf-8'))
                 x['estado'] = x.get('estado') or 'Enviado a revisión'
                 x.pop('datos', None)   # los datos propios no se publican
+                x.pop('chat', None)
                 os.makedirs(PROP, exist_ok=True)
                 with io.open(os.path.join(PROP, i + '.json'), 'w', encoding='utf-8', newline='\n') as fh:
                     json.dump(x, fh, ensure_ascii=False, indent=2)

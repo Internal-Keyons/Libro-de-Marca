@@ -6,7 +6,7 @@
 <title>Laboratorio de Interfaces · Sistema de Diseño · Keyons</title>
 <meta name="description" content="Espacio de exploración del Sistema de Diseño de Keyons para diseñadores y desarrolladores. Lo que se crea aquí es una dirección visual para revisar, no un producto final.">
 <meta name="keyons:libro" content="sistema-diseno">
-<meta name="keyons:version" content="0.4">
+<meta name="keyons:version" content="0.5">
 <!-- Dirección del servicio que construye. Hoy, el servidor local (python tools/laboratorio.py).
      Mañana puede ser Polaris: se cambia solo este valor. -->
 <meta name="keyons:lab-api" content="/api/lab/">
@@ -20,188 +20,232 @@
 <link rel="stylesheet" href="../css/laboratorio-app.css">
 </head>
 <body class="is-lab is-labx" data-root=".." data-page="sistema-diseno/laboratorio.html">
-<!-- Laboratorio de Interfaces: lienzo primero. Una sola navegación de etapas (Elegir, Diseñar, Comprobar, Guardar);
-     los paneles aparecen cuando se necesitan. El escenario es un iframe aislado (sandbox sin mismo origen) con tokens.css,
-     css/laboratorio-kit.css y js/laboratorio-runtime.js. Nada de lo que pasa aquí toca los libros. -->
+<!-- Laboratorio de Interfaces. Primero se elige cómo comenzar; después, una mesa de trabajo:
+     arriba el archivo, debajo los pasos, a la izquierda las herramientas y el chat, en el centro el diseño.
+     El escenario es un iframe aislado (sandbox sin mismo origen) con tokens.css, css/laboratorio-kit.css y
+     js/laboratorio-runtime.js. Nada de lo que pasa aquí toca los libros. -->
 
 <header id="topbar"></header>
 
 <main class="lbx" data-labx>
   <h1 class="lbx__sr">Laboratorio de Interfaces</h1>
-  <div class="lbx__top">
-    <nav class="lbx__stages" aria-label="Etapas">
-      <button type="button" data-stage="elegir" aria-current="step"><span>01</span>Elegir</button>
-      <button type="button" data-stage="disenar"><span>02</span>Diseñar</button>
-      <button type="button" data-stage="comprobar"><span>03</span>Comprobar</button>
-      <button type="button" data-stage="guardar"><span>04</span>Guardar</button>
-    </nav>
-    <input class="lbx__title" type="text" value="Sin título" aria-label="Nombre del diseño" data-title>
-    <div class="lbx__tools">
-      <div class="lbx__seg" role="group" aria-label="Vista">
-        <button type="button" aria-pressed="true" data-view="final">Final</button>
-        <button type="button" aria-pressed="false" data-view="tecnica">Técnica</button>
-      </div>
-      <label class="lbx__mini"><span>Ancho</span><select data-dev aria-label="Ancho de prueba"><option value="375">Móvil · 375</option><option value="768">Tableta · 768</option><option value="1280" selected>Escritorio · 1280</option><option value="1440">Amplio · 1440</option></select></label>
-      <label class="lbx__mini"><span>Zoom</span><select data-zoom aria-label="Zoom"><option value="fit" selected>Ajustar</option><option value="0.5">50 %</option><option value="0.75">75 %</option><option value="1">100 %</option></select></label>
-      <button class="lbx__ico" type="button" data-undo disabled aria-label="Deshacer" title="Deshacer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7 4.5 11.5 9 16"/><path d="M5 11.5h9a5 5 0 0 1 0 10h-2"/></svg></button>
-      <button class="lbx__ico" type="button" data-redo disabled aria-label="Rehacer" title="Rehacer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 7l4.5 4.5L15 16"/><path d="M19 11.5h-9a5 5 0 0 0 0 10h2"/></svg></button>
-      <button class="btn btn--primary lbx__draft" type="button" data-draft disabled>Guardar borrador</button>
+
+  <!-- Inicio: dos caminos y nada más -->
+  <section class="lbi" data-screen="inicio">
+    <h2 class="lbi__t">Selecciona cómo quieres comenzar</h2>
+    <div class="lbi__opts">
+      <button class="lbi__o" type="button" data-go-cero>
+        <svg viewBox="0 0 96 72" aria-hidden="true"><rect x="10" y="8" width="76" height="56"/><path d="M48 28v16M40 36h16"/></svg>
+        <b>Empezar de cero</b>
+        <span>Una mesa de trabajo vacía y un chat para construir con las reglas de Keyons.</span>
+      </button>
+      <button class="lbi__o" type="button" data-go-tpl>
+        <svg viewBox="0 0 96 72" aria-hidden="true"><rect x="10" y="8" width="76" height="56"/><path d="M28 8v56M28 22h58M40 34h16v18H40zM64 34h12M64 43h12M64 52h12"/></svg>
+        <b>Usar plantilla</b>
+        <span>Una base ya resuelta para adaptarla a lo que necesita.</span>
+      </button>
+    </div>
+    <div class="lbi__more">
+      <button class="lbx__link" type="button" data-go-saved>Abrir un diseño guardado</button>
+      <button class="lbx__link" type="button" data-go-resume hidden>Volver al diseño abierto</button>
+      <span data-recover hidden><button class="lbx__link" type="button" data-recover-yes>Recuperar el borrador de <span data-recover-when></span></button> <button class="lbx__ico lbx__ico--s" type="button" data-recover-no aria-label="Descartar el borrador" title="Descartar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></span>
+    </div>
+  </section>
+
+  <!-- Plantillas: portada a la izquierda, contenedores a la derecha -->
+  <section class="lbt" data-screen="plantillas" hidden>
+    <div class="lbt__v" data-tpl-sky aria-hidden="true">
+      <div class="lbt__win" data-pwin><div class="lbx__frame" data-pframe><iframe sandbox="allow-scripts" title="Vista previa de la plantilla" data-pifr tabindex="-1"></iframe></div></div>
+    </div>
+    <div class="lbt__p">
+      <button class="lbx__back" type="button" data-back><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>Volver</button>
+      <h2 class="lbt__t"><span>Plantillas:</span> elige una base</h2>
+      <ul class="lbt__g" role="radiogroup" aria-label="Plantillas" data-tpls></ul>
+      <button class="lbt__cta" type="button" data-use>Usar esta plantilla</button>
+    </div>
+  </section>
+
+  <!-- Guardados -->
+  <section class="lbs" data-screen="guardados" hidden>
+    <button class="lbx__back" type="button" data-back data-back-consulta><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>Volver</button>
+    <h2 class="lbt__t"><span>Guardados:</span> abre un diseño</h2>
+    <div data-saved></div>
+  </section>
+
+  <!-- Mesa de trabajo -->
+  <section class="lbx__work" data-screen="trabajo" hidden>
+    <header class="lbx__bar">
+      <button class="lbx__ico" type="button" data-exit aria-label="Volver al inicio del laboratorio" title="Volver"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <label class="lbx__name"><input type="text" placeholder="Nombre del diseño" aria-label="Nombre del diseño" data-title maxlength="80"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16v4zM13.5 6.5l4 4"/></svg></label>
+      <span class="lbx__state" data-state role="status"></span>
+      <span class="lbx__sp"></span>
+      <button class="lbx__ico" type="button" data-undo hidden aria-label="Deshacer" title="Deshacer (Ctrl Z)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 4.5 10.5 9 15"/><path d="M5 10.5h9.5a5 5 0 0 1 0 10H12"/></svg></button>
+      <button class="lbx__ico" type="button" data-redo hidden aria-label="Rehacer" title="Rehacer (Ctrl Y)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l4.5 4.5L15 15"/><path d="M19 10.5H9.5a5 5 0 0 0 0 10H12"/></svg></button>
+      <button class="lbx__save" type="button" data-draft>Guardar</button>
       <div class="lbx__more">
         <button class="lbx__ico" type="button" data-more aria-haspopup="true" aria-expanded="false" aria-label="Más opciones" title="Más"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="18" cy="12" r="1"/></svg></button>
         <div class="lbx__menu" data-menu hidden>
           <button type="button" data-full>Pantalla completa</button>
-          <button type="button" data-split aria-pressed="false">Antes y después</button>
           <button type="button" data-cc>Copiar pedido para Claude Code</button>
           <button type="button" data-new>Empezar de nuevo</button>
-          <a href="laboratorio-componentes.html">Componentes base</a>
         </div>
       </div>
-    </div>
-  </div>
+    </header>
 
-  <div class="lbx__help">
-    <p data-help>Selecciona cómo quieres comenzar.</p>
-    <a class="lbx__norm" data-norm href="../fundamentos/composicion/editorial.html#reticula">Normas que aplican →</a>
-    <p class="lbx__msg" data-msg role="status"></p>
-  </div>
+    <nav class="lbx__steps" aria-label="Pasos">
+      <ol>
+        <li><button type="button" data-stage="elegir"><i>1</i>Elegir</button></li>
+        <li><button type="button" data-stage="disenar"><i>2</i>Diseñar</button></li>
+        <li><button type="button" data-stage="comprobar"><i>3</i>Comprobar</button></li>
+        <li><button type="button" data-stage="guardar"><i>4</i>Guardar</button></li>
+      </ol>
+      <p data-help></p>
+      <button class="lbx__next" type="button" data-next></button>
+    </nav>
 
-  <div class="lbx__recover" data-recover hidden>
-    <p>Hay un borrador sin guardar de <span data-recover-when></span>.</p>
-    <button class="lbx__link" type="button" data-recover-yes>Recuperar el borrador</button>
-    <button class="lbx__link" type="button" data-recover-no>Descartar</button>
-  </div>
+    <div class="lbx__body">
+      <!-- Herramientas: la barra de siempre, con nombre bajo cada ícono -->
+      <nav class="lbx__rail" aria-label="Herramientas" data-railbox>
+        <button type="button" data-rail="chat" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l1.9 4.6 4.6 1.9-4.6 1.9L12 16.5l-1.9-4.6L5.5 10l4.6-1.9L12 3.5zM18.5 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2z"/></svg><span>Chat</span></button>
+        <button type="button" data-rail="elementos" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM16.5 13v7M13 16.5h7"/></svg><span>Elementos</span></button>
+        <button type="button" data-rail="color" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17M12 12l6-6M12 12l6 6"/></svg><span>Color</span></button>
+        <button type="button" data-rail="texto" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7V5h14v2M12 5v14M9 19h6"/></svg><span>Texto</span></button>
+        <button type="button" data-rail="diagrama" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM4 9.5h16M10 9.5V20"/></svg><span>Diagrama</span></button>
+        <button type="button" data-rail="forma" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10a6 6 0 0 1 6-6h10"/><path d="M4 20h16V9"/></svg><span>Forma</span></button>
+        <button type="button" data-rail="iconos" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.5 6 .8-4.4 4.1 1.1 5.9-5.3-2.9-5.3 2.9 1.1-5.9L3.4 9.8l6-.8L12 3.5z"/></svg><span>Íconos</span></button>
+        <button type="button" data-rail="movimiento" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h11a3 3 0 1 0-3-3M3 15h15a3 3 0 1 1-3 3"/></svg><span>Movimiento</span></button>
+      </nav>
 
-  <div class="lbx__body">
-    <!-- Panel de la etapa: aparece solo cuando se pide -->
-    <aside class="lbx__side" data-side hidden aria-label="Panel de la etapa">
-      <div class="lbx__side-h"><h2 class="lbx__h" data-side-t>Panel</h2><button class="lbx__ico" type="button" data-side-x aria-label="Cerrar el panel" title="Cerrar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+      <aside class="lbx__side" data-side hidden aria-label="Panel">
+        <div class="lbx__side-h"><h2 class="lbx__h" data-side-t></h2><button class="lbx__ico lbx__ico--s" type="button" data-side-x aria-label="Cerrar el panel" title="Cerrar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
 
-      <section data-panel="cero" hidden>
-        <label class="lbx__lab" for="lbx-q">Qué quiere construir</label>
-        <textarea id="lbx-q" rows="5" placeholder="Por ejemplo: un dashboard para una aplicación médica con citas del día, pacientes en espera y alertas."></textarea>
-        <label class="lbx__lab" for="lbx-d">Datos de ejemplo <span>Opcional</span></label>
-        <textarea id="lbx-d" rows="3" placeholder="Textos o cifras de muestra."></textarea>
-        <p class="lbx__warn">Siempre datos de ejemplo, nunca datos reales de clientes o pacientes: lo que escriba aquí viaja al servicio de IA.</p>
-        <button class="btn btn--primary" type="button" data-gen>Construir</button>
-        <p class="lbx__cost" data-cost-gen>Usa la API de Claude: cerca de USD 0,20 a 0,70 por construcción.</p>
-      </section>
+        <section class="lbc" data-panel="chat" hidden>
+          <div class="lbc__log" data-log role="log" aria-live="polite"></div>
+          <form class="lbc__box" data-chat>
+            <div class="lbc__chips" data-chips hidden></div>
+            <textarea rows="3" data-q aria-label="Instrucciones"></textarea>
+            <div class="lbc__row">
+              <button class="lbc__b" type="button" data-attach aria-label="Adjuntar imágenes o documentos" title="Adjuntar imágenes o documentos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+              <button class="lbc__b" type="button" data-mark-go aria-pressed="false" aria-label="Señalar en el diseño" title="Señalar en el diseño"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16v4zM13.5 6.5l4 4"/></svg></button>
+              <span class="lbc__cost" data-cost></span>
+              <button class="lbc__send" type="submit" data-ask aria-label="Enviar" title="Enviar (Enter)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+            </div>
+            <input type="file" hidden multiple accept="image/*,.pdf,.txt,.md,.csv,.json" data-file>
+          </form>
+          <p class="lbc__note">Use solo datos de ejemplo: lo que escriba o adjunte viaja al servicio de IA.</p>
+        </section>
 
-      <section data-panel="abrir" hidden><div data-saved></div></section>
+        <section data-panel="elementos" hidden><p class="lbx__p">Elija una pieza y se agrega al diseño, debajo de lo que tenga seleccionado.</p><div class="lbx__els" data-els></div></section>
 
-      <section data-panel="estilo" hidden>
-        <p class="lbx__p">Cada cambio se aplica sobre la base sin modificarla. Lo que sale de las normas se marca en Comprobar.</p>
-        <p class="lbx__k">Combinaciones dentro de norma</p>
-        <div class="lbx__combos" data-combos></div>
-        <div data-ex></div>
-      </section>
+        <section data-panel="estilo" hidden><div data-ex></div></section>
 
-      <section data-panel="comprobar" hidden>
-        <div class="lbx__sum" data-sum></div>
-        <div data-results></div>
-        <button class="lbx__link" type="button" data-fix hidden>Corregir lo que falla con IA →</button>
-        <p class="lbx__cost" data-cost-fix hidden>Usa la API de Claude, como un cambio pequeño.</p>
-        <h3 class="lbx__h3">Revisión manual</h3>
-        <p class="lbx__p">Aspectos que dependen del significado, el contexto o la experiencia real de una persona. Se registran aparte de los resultados automáticos.</p>
-        <label class="lbx__lab" for="lbx-rev-quien">Quién revisa</label>
-        <input id="lbx-rev-quien" type="text" autocomplete="name" data-rev-quien>
-        <ul class="lbx__manual" data-manual></ul>
-      </section>
+        <section data-panel="comprobar" hidden>
+          <div class="lbx__sum" data-sum></div>
+          <div data-results></div>
+          <button class="lbx__link" type="button" data-fix hidden>Corregir lo que falla con IA →</button>
+          <p class="lbx__cost" data-cost-fix hidden>Usa la API de Claude, como un cambio pequeño.</p>
+          <h3 class="lbx__h3">Revisión manual</h3>
+          <p class="lbx__p">Aspectos que dependen del significado, el contexto o la experiencia real de una persona. Se registran aparte de los resultados automáticos.</p>
+          <label class="lbx__lab" for="lbx-rev-quien">Quién revisa</label>
+          <input id="lbx-rev-quien" type="text" autocomplete="name" data-rev-quien>
+          <ul class="lbx__manual" data-manual></ul>
+        </section>
 
-      <section data-panel="guardar" hidden>
-        <p class="lbx__p">Guarda el diseño o envíalo a revisión.</p>
-        <label class="lbx__lab" for="lbx-estado">Estado</label>
-        <select id="lbx-estado" data-estado>
-          <option>En exploración</option><option>Enviado a revisión</option><option>Descartada</option><option>En desarrollo detallado</option>
-        </select>
-        <div class="lbx__acts">
-          <button class="btn btn--primary" type="button" data-save>Guardar borrador</button>
-          <button class="btn btn--outline" type="button" data-send>Enviar a revisión</button>
-        </div>
-        <button class="lbx__link" type="button" data-export>Exportar como HTML →</button>
-        <button class="lbx__link" type="button" disabled title="Falta definir quién aprueba">Aprobar</button>
-        <p class="lbx__note">Aprobar estará disponible cuando exista un responsable designado y su procedimiento. Hoy la decisión se registra fuera del laboratorio.</p>
-        <h3 class="lbx__h3">Notas para el libro</h3>
-        <p class="lbx__p">Propone normas a partir de lo que este diseño hace distinto. Nunca cambia el libro.</p>
-        <button class="lbx__link" type="button" data-normas>Sugerir normas →</button>
-        <p class="lbx__cost" data-cost-normas>Con la API cuesta como una construcción pequeña; sin ella, solo lista lo que sale de las normas.</p>
-        <div class="lbx__notes" data-notes hidden>
-          <span class="lbx__k" data-notes-file></span>
-          <pre data-notes-md></pre>
-          <div class="lbx__row"><button class="lbx__link" type="button" data-notes-copy>Copiar</button><button class="lbx__link" type="button" data-notes-dl>Descargar .md</button></div>
-        </div>
-      </section>
-    </aside>
+        <section data-panel="guardar" hidden>
+          <label class="lbx__lab" for="lbx-estado">Estado</label>
+          <select id="lbx-estado" data-estado>
+            <option>En exploración</option><option>Enviado a revisión</option><option>Descartada</option><option>En desarrollo detallado</option>
+          </select>
+          <div class="lbx__acts">
+            <button class="lbx__btn" type="button" data-save>Guardar</button>
+            <button class="lbx__btn lbx__btn--line" type="button" data-send>Enviar a revisión</button>
+          </div>
+          <button class="lbx__link" type="button" data-export>Exportar como HTML →</button>
+          <button class="lbx__link" type="button" disabled title="Falta definir quién aprueba">Aprobar</button>
+          <p class="lbx__note">Aprobar estará disponible cuando exista un responsable designado y su procedimiento. Hoy la decisión se registra fuera del laboratorio.</p>
+          <h3 class="lbx__h3">Notas para el libro</h3>
+          <p class="lbx__p">Propone normas a partir de lo que este diseño hace distinto. Nunca cambia el libro.</p>
+          <button class="lbx__link" type="button" data-sug-normas>Sugerir normas →</button>
+          <p class="lbx__cost" data-cost-normas>Con la API cuesta como una construcción pequeña; sin ella, solo lista lo que sale de las normas.</p>
+          <div class="lbx__notes" data-notes hidden>
+            <span class="lbx__k" data-notes-file></span>
+            <pre data-notes-md></pre>
+            <div class="lbx__row"><button class="lbx__link" type="button" data-notes-copy>Copiar</button><button class="lbx__link" type="button" data-notes-dl>Descargar .md</button></div>
+          </div>
+        </section>
+      </aside>
 
-    <!-- Lienzo -->
-    <div class="lbx__canvas" data-canvas>
-      <div class="lbx__ctools" data-ctools hidden>
-        <button type="button" data-open-estilo>Estilo</button>
-        <label class="lbx__tog"><input type="checkbox" data-edit checked>Editar</label>
-        <label class="lbx__tog"><input type="checkbox" data-snap checked>Ajustar a la retícula</label>
-        <label class="lbx__mini"><span>Guía</span><select data-guia aria-label="Guía de retícula"><option value="">Sin guía</option><option value="auto">Automática (ESP-004)</option><option value="12">12 columnas</option><option value="8">8 columnas</option><option value="4">4 columnas</option><option value="7-5">Editorial 7 + 5</option></select></label>
-        <span class="lbx__sp"></span>
-        <button type="button" data-ask>Pedir un cambio</button>
-      </div>
-      <div class="lbx__ttools" data-ttools hidden>
-        <label class="lbx__tog"><input type="checkbox" data-capa="medidas" checked>Medidas</label>
-        <label class="lbx__tog"><input type="checkbox" data-capa="radios">Radios</label>
-        <label class="lbx__tog"><input type="checkbox" data-capa="tokens">Tokens</label>
-        <label class="lbx__tog"><input type="checkbox" data-capa="jerarquia">Jerarquía</label>
-      </div>
-      <div class="lbx__stage" data-lstage>
-        <div class="lbx__frames" data-frames>
-          <figure class="lbx__fr" data-base hidden><figcaption>Base</figcaption><div class="lbx__clip"><div class="lbx__frame"><iframe sandbox="allow-scripts" title="Base sin exploración" data-ifr-base></iframe></div></div></figure>
-          <figure class="lbx__fr" data-main><figcaption hidden data-cap-main>Exploración</figcaption><div class="lbx__clip"><div class="lbx__frame" data-frame><iframe sandbox="allow-scripts" title="Escenario del laboratorio" data-ifr></iframe></div></div></figure>
-        </div>
-        <!-- Elegir: vista previa a la izquierda, lista a la derecha -->
-        <div class="lbx__pick" data-picker>
-          <div class="lbx__pick-v"><div class="lbx__frame" data-pframe><iframe sandbox="allow-scripts" title="Vista previa de la plantilla" data-pifr tabindex="-1"></iframe></div></div>
-          <div class="lbx__pick-l">
-            <p class="lbx__k">Plantillas</p>
-            <ul class="lbx__tpls" data-tpls role="listbox" aria-label="Plantillas"></ul>
-            <button class="btn btn--primary" type="button" data-use>Usar esta plantilla</button>
-            <button class="lbx__link" type="button" data-scratch>Empezar desde cero →</button>
-            <button class="lbx__link" type="button" data-openSaved>Abrir un diseño guardado →</button>
+      <div class="lbx__canvas" data-canvas>
+        <!-- Menú que aparece por lo que se activó: un elemento, la retícula o la vista técnica -->
+        <div class="lbx__ctx" data-ctx hidden>
+          <div class="lbx__ctx-p" data-ctx-p="sel" hidden>
+            <span class="lbx__ctx-i" data-pinfo></span>
+            <select data-var aria-label="Variante" hidden></select>
+            <button type="button" data-cmd="up">Subir</button>
+            <button type="button" data-cmd="down">Bajar</button>
+            <button type="button" data-cmd="span" data-v="-1" data-gridonly>− columna</button>
+            <button type="button" data-cmd="span" data-v="1" data-gridonly>+ columna</button>
+            <button type="button" data-cmd="dup">Duplicar</button>
+            <button type="button" data-cmd="del">Borrar</button>
+            <button type="button" data-cmd="snapback" data-freeonly>Volver a la retícula</button>
+          </div>
+          <div class="lbx__ctx-p" data-ctx-p="grid" hidden>
+            <span class="lbx__ctx-i">Retícula</span>
+            <button type="button" data-guia="" aria-pressed="true">Sin retícula</button>
+            <button type="button" data-guia="12" aria-pressed="false">12</button>
+            <button type="button" data-guia="8" aria-pressed="false">8</button>
+            <button type="button" data-guia="4" aria-pressed="false">4</button>
+            <button type="button" data-guia="7-5" aria-pressed="false">7 + 5</button>
+            <label class="lbx__tog" title="Encendido: mover y ensanchar sigue las columnas. Apagado: arrastre libre; lo que salga queda marcado en Comprobar."><input type="checkbox" data-snap checked>Ajustar a la retícula</label>
+          </div>
+          <div class="lbx__ctx-p" data-ctx-p="tec" hidden>
+            <span class="lbx__ctx-i">Vista técnica</span>
+            <label class="lbx__tog"><input type="checkbox" data-capa="medidas" checked>Medidas</label>
+            <label class="lbx__tog"><input type="checkbox" data-capa="radios">Radios</label>
+            <label class="lbx__tog"><input type="checkbox" data-capa="tokens">Tokens</label>
+            <label class="lbx__tog"><input type="checkbox" data-capa="jerarquia">Jerarquía</label>
           </div>
         </div>
-        <div class="lbx__busy" data-busy hidden><span></span><p>Construyendo con las reglas de Keyons…</p></div>
+
+        <div class="lbx__stage" data-lstage>
+          <div class="lbx__frames" data-frames>
+            <figure class="lbx__fr" data-base hidden><figcaption>Base</figcaption><div class="lbx__clip"><div class="lbx__frame"><iframe sandbox="allow-scripts" title="Base sin exploración" data-ifr-base></iframe></div></div></figure>
+            <figure class="lbx__fr" data-main><figcaption hidden data-cap-main>Exploración</figcaption><div class="lbx__clip"><div class="lbx__frame" data-frame><iframe sandbox="allow-scripts" title="Mesa de trabajo" data-ifr></iframe></div></div></figure>
+          </div>
+          <div class="lbx__busy" data-busy hidden><span></span><p data-busy-t>Construyendo con las reglas de Keyons…</p></div>
+        </div>
+
+        <!-- Menú rápido -->
+        <div class="lbx__quick" role="toolbar" aria-label="Menú rápido" data-quick>
+          <button type="button" data-tool="sel" aria-pressed="true" aria-label="Seleccionar" title="Seleccionar y editar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5l12 8.2-5.3 1.3 3 5.6-2.4 1.3-3-5.6L6 18.2V3.5z"/></svg></button>
+          <button type="button" data-tool="mark" aria-pressed="false" aria-label="Señalar" title="Señalar lo que quiere cambiar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16v4zM13.5 6.5l4 4"/></svg></button>
+          <button type="button" data-tool="test" aria-pressed="false" aria-label="Probar" title="Probar la interfaz como la usaría una persona"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l12-7.5-12-7.5z"/></svg></button>
+          <i></i>
+          <button type="button" data-q-grid aria-pressed="false" aria-label="Retícula" title="Retícula"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM9.3 4v16M14.7 4v16"/></svg></button>
+          <button type="button" data-q-tec aria-pressed="false" aria-label="Vista técnica" title="Vista técnica"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h18v8H3zM7 8v3M11 8v4M15 8v3M19 8v4"/></svg></button>
+          <button type="button" data-split aria-pressed="false" aria-label="Antes y después" title="Antes y después"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM12 3v18"/></svg></button>
+        </div>
+
+        <!-- Ancho y zoom: abajo a la derecha, como en cualquier mesa de trabajo -->
+        <div class="lbx__view">
+          <div class="lbx__devs" role="group" aria-label="Ancho de prueba">
+            <button type="button" data-dev="375" aria-pressed="false" aria-label="Móvil, 375 px" title="Móvil · 375 px"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="3" width="10" height="18"/><path d="M11 18h2"/></svg></button>
+            <button type="button" data-dev="768" aria-pressed="false" aria-label="Tableta, 768 px" title="Tableta · 768 px"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4.5" y="3" width="15" height="18"/><path d="M11 18h2"/></svg></button>
+            <button type="button" data-dev="1280" aria-pressed="true" aria-label="Escritorio, 1280 px" title="Escritorio · 1280 px"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4.5" width="18" height="12"/><path d="M9 20h6M12 16.5V20"/></svg></button>
+            <button type="button" data-dev="1440" aria-pressed="false" aria-label="Amplio, 1440 px" title="Amplio · 1440 px"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="6" width="20" height="11"/><path d="M8 20h8"/></svg></button>
+          </div>
+          <select data-zoom aria-label="Zoom"><option value="fit" selected>Ajustar</option><option value="0.5">50 %</option><option value="0.75">75 %</option><option value="1">100 %</option></select>
+        </div>
+        <p class="lbx__toast" data-msg role="status"></p>
+        <p class="lbx__mark" data-mark>Exploración · no es un producto final</p>
       </div>
-      <p class="lbx__mark" data-mark hidden>Exploración · no es un producto final</p>
     </div>
-
-    <!-- Propiedades: aparecen al elegir un elemento -->
-    <aside class="lbx__props" data-props hidden aria-label="Propiedades del elemento">
-      <div class="lbx__side-h"><h2 class="lbx__h">Propiedades</h2><button class="lbx__ico" type="button" data-props-x aria-label="Cerrar propiedades" title="Cerrar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
-      <p class="lbx__k" data-pinfo></p>
-      <p class="lbx__p">Doble clic en un texto para reescribirlo.</p>
-      <div class="lbx__acts">
-        <button type="button" data-cmd="up">Subir</button>
-        <button type="button" data-cmd="down">Bajar</button>
-        <button type="button" data-cmd="span" data-v="-1" data-gridonly>− columna</button>
-        <button type="button" data-cmd="span" data-v="1" data-gridonly>+ columna</button>
-        <button type="button" data-cmd="dup">Duplicar</button>
-        <button type="button" data-cmd="del">Borrar</button>
-        <button type="button" data-cmd="snapback" data-freeonly>Volver a la retícula</button>
-      </div>
-      <label class="lbx__lab" for="lbx-var" data-varwrap hidden>Variante</label>
-      <select id="lbx-var" data-var hidden></select>
-    </aside>
-  </div>
-
-  <!-- Pedir un cambio -->
-  <dialog class="lbx__dlg" data-dlg aria-labelledby="lbx-dlg-t">
-    <form method="dialog">
-      <h2 class="lbx__h" id="lbx-dlg-t">Pedir un cambio</h2>
-      <p class="lbx__p">Describa qué quiere cambiar; el resto del diseño se conserva. El cambio se puede deshacer.</p>
-      <textarea id="lbx-c" rows="4" aria-label="Cambio que necesita" placeholder="Por ejemplo: agregue un filtro por médico y vuelva la tabla más compacta."></textarea>
-      <p class="lbx__cost">Usa la API de Claude: cerca de USD 0,20 a 0,35 por cambio.</p>
-      <div class="lbx__row"><button class="btn btn--primary" value="ok" data-chg-go>Aplicar el cambio</button><button class="lbx__link" value="cancel">Cancelar</button></div>
-    </form>
-  </dialog>
+  </section>
 </main>
 
 <script src="../js/nav-sistema-diseno.js"></script>
 <script src="../js/libro.js"></script>
+<script src="../js/keyons-cielo.js"></script>
 <script src="../js/laboratorio-plantillas.js"></script>
 <script src="../js/laboratorio-app.js"></script>
 </body>

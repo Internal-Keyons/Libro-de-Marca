@@ -96,7 +96,7 @@
     <section class="lx-card lx-empty lx-s6">${i('lock')}<h2 class="lx-h3">Sin permiso</h2><p class="lx-p">Esta sección es para administradores. Pida acceso a su responsable.</p><button class="lx-btn lx-btn--primary" type="button">Pedir acceso</button></section>
     <section class="lx-card lx-s12 lx-stack" aria-busy="true"><p class="lx-meta">Cargando actividad</p><div class="lx-skel" style="width:70%"></div><div class="lx-skel" style="width:90%"></div><div class="lx-skel" style="width:55%"></div></section>
   </div>
-  <section class="lx-section" style="text-align:center"><p class="lx-num">404</p><h2 class="lx-h2" style="margin-top:var(--lab-4)">Esta página ya no está aquí</h2><p class="lx-p" style="margin:var(--lab-3) auto var(--lab-6)">Puede que el enlace haya cambiado. Vuelva al inicio o busque lo que necesita.</p><div class="lx-row" style="justify-content:center"><button class="lx-btn lx-btn--primary" type="button">${i('home')}Ir al inicio</button><button class="lx-btn lx-btn--outline" type="button">${i('search')}Buscar</button></div></section>
+  <section class="lx-section" style="text-align:center"><p class="lx-num">404</p><h2 class="lx-h2" style="margin-top:var(--lab-4)">Esta página ya no está aquí</h2><p class="lx-p" style="margin:var(--lab-3) auto var(--lab-6)">Puede que el enlace haya cambiado. Vuelva al inicio o busque lo que necesita.</p><div class="lx-row" style="justify-content:center"><button class="lx-btn lx-btn--outline" type="button">${i('home')}Ir al inicio</button><button class="lx-btn lx-btn--outline" type="button">${i('search')}Buscar</button></div></section>
   </main>`;
 
   window.LAB_PLANTILLAS = [

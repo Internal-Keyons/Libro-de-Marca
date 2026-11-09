@@ -78,7 +78,6 @@
     for (var i = 0; i < s.cols; i++) {
       var c = document.createElement('i');
       c.style.cssText = 'left:' + (left + i * (cw + s.g)) + 'px;width:' + cw + 'px';
-      if (guia === '7-5') c.className = i < 7 ? 'is-a' : 'is-b';
       g.appendChild(c);
     }
     var b = document.createElement('b'); b.textContent = (guia === '7-5' ? '7 + 5 de 12' : s.cols + ' columnas') + ' · margen ' + s.m + ' · medianil ' + s.g; g.appendChild(b);
@@ -116,7 +115,7 @@
       put(el, t.join(' · '));
     });
     if (capas.jerarquia) document.querySelectorAll(TXT).forEach(function (el) {
-      if (el.closest('.lx-ov,#lx-guide,script,style,svg')) return;
+      if (el.closest('.lx-ov,#lx-guide,#lx-marks,script,style,svg')) return;
       if (![].some.call(el.childNodes, function (k) { return k.nodeType === 3 && k.textContent.trim(); })) return;
       var cs = getComputedStyle(el); put(el, px(cs.fontSize) + '/' + cs.fontWeight + ' · ' + cs.fontFamily.split(',')[0].replace(/['"]/g, ''));
     });
@@ -161,9 +160,9 @@
   var SCALE = [12, 14, 16, 20, 24];
   function checks() {
     var W = root.clientWidth, R = []; marks = [];
-    var ovs = document.querySelectorAll('.lx-ov,#lx-guide'); ovs.forEach(function (o) { o.style.display = 'none'; });
+    var ovs = document.querySelectorAll('.lx-ov,#lx-guide,#lx-marks'); ovs.forEach(function (o) { o.style.display = 'none'; });
     var texts = [].filter.call(document.querySelectorAll('body *'), function (el) {
-      if (el.closest('.lx-ov,#lx-guide,#lx-sky,script,style,svg')) return false;
+      if (el.closest('.lx-ov,#lx-guide,#lx-marks,#lx-sky,script,style,svg')) return false;
       var r = el.getBoundingClientRect(); if (!r.width || !r.height) return false;
       return [].some.call(el.childNodes, function (n) { return n.nodeType === 3 && n.textContent.trim(); });
     });
@@ -269,6 +268,12 @@
     });
     R.push({ id: 'movimiento', k: 'Movimiento', nivel: 'keyons', ref: 'Keyons', norma: 'KYN-MRK-VIS-007', req: 'El movimiento orienta, es sereno y se detiene con la preferencia de movimiento reducido.', met: 'Animaciones activas y su duración. Si orienta y es cómodo lo decide una persona.', items: it, fix: 'Acorte o quite la animación, o actívela solo al interactuar.', sinMsg: 'No hay animaciones en pantalla.' });
 
+    /* 15 · Una acción principal por pantalla · Keyons COL-002 */
+    it = [];
+    var prims = [].filter.call(document.querySelectorAll('.lx-btn--primary'), function (el) { return el.getBoundingClientRect().width; });
+    if (prims.length) prims.forEach(function (el, n) { it.push({ i: mark(el), e: label(el), u: where(el), v: prims.length + ' acciones principales', x: 'una por pantalla', ok: prims.length === 1 ? true : (n === 0 ? true : 'rec') }); });
+    R.push({ id: 'principal', k: 'Una acción principal', nivel: 'keyons', ref: 'Keyons', norma: 'KYN-MRK-COL-002', req: 'Salmón Tierra marca una sola acción por pantalla: la principal.', met: 'Botones principales visibles en pantalla.', items: it, fix: 'Deje una acción principal y pase las demás a Contorno o Texto.', sinMsg: 'No hay botones principales en pantalla.' });
+
     R.forEach(function (c) {
       var hasRec = c.items.some(function (x) { return x.ok === 'rec'; });
       c.estado = !c.items.length ? 'sin' : c.items.some(function (x) { return x.ok === false; }) ? 'no' : hasRec ? 'rec' : c.items.some(function (x) { return x.ok === null; }) ? 'manual' : 'cumple';
@@ -308,7 +313,7 @@
   }
   function serialize() {
     var c = body.cloneNode(true);
-    c.querySelectorAll('script,#lx-sky,.lx-ov,#lx-guide').forEach(function (n) { n.remove(); });
+    c.querySelectorAll('script,#lx-sky,.lx-ov,#lx-guide,#lx-marks').forEach(function (n) { n.remove(); });
     c.querySelectorAll('[data-lx-sel]').forEach(function (n) { n.removeAttribute('data-lx-sel'); });
     c.querySelectorAll('[contenteditable]').forEach(function (n) { n.removeAttribute('contenteditable'); });
     return c.innerHTML.trim();
@@ -333,6 +338,9 @@
     if (c === 'snapback') { sel.style.removeProperty('translate'); sel.removeAttribute('data-lx-free'); }
     post({ type: 'sel', info: info(sel) }); changed();
   }
+  /* Un enlace o un formulario de la maqueta nunca navegan: sacarían el diseño del escenario */
+  document.addEventListener('click', function (e) { var a = e.target.closest && e.target.closest('a[href]'); if (a) e.preventDefault(); }, true);
+  document.addEventListener('submit', function (e) { e.preventDefault(); }, true);
   document.addEventListener('click', function (e) {
     if (!editar) return;
     if (!e.target.closest('[contenteditable="true"]')) e.preventDefault();
@@ -358,6 +366,55 @@
   });
   document.addEventListener('pointerup', function () { if (drag) { drag = null; post({ type: 'sel', info: info(sel) }); changed(); } });
 
+  /* Agregar una pieza del kit: debajo de lo seleccionado o al final */
+  function insert(html) {
+    var box = document.createElement('div'); box.innerHTML = html;
+    var el = box.firstElementChild; if (!el) return;
+    if (sel && sel.parentElement) sel.after(el);
+    else { var m = document.querySelector('.lx-main'); if (!m) { m = document.createElement('main'); m.className = 'lx-main'; body.prepend(m); } m.appendChild(el); }
+    var b = blockOf(el) || el;
+    if (editar) select(b);
+    b.scrollIntoView({ block: 'center' });
+    changed();
+  }
+
+  /* Señalar: se raya sobre el diseño y se reporta qué elementos quedaron debajo. Solo viaja texto, no una imagen. */
+  var marcar = false, stroke = null, marked = [];
+  function layer() {
+    var v = document.getElementById('lx-marks');
+    if (!v) { v = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); v.id = 'lx-marks'; body.appendChild(v); }
+    v.style.height = Math.max(root.scrollHeight, window.innerHeight) + 'px';
+    return v;
+  }
+  function clearMarks() { var v = document.getElementById('lx-marks'); if (v) v.remove(); marked = []; }
+  function pathOf(el) {
+    var parts = [], e = el;
+    while (e && e !== body && parts.length < 6) { var i = 1, p = e; while ((p = p.previousElementSibling)) i++; parts.unshift(e.tagName.toLowerCase() + ':nth-child(' + i + ')'); e = e.parentElement; }
+    return 'body > ' + parts.join(' > ');
+  }
+  function noteAt(x, y) {
+    var v = document.getElementById('lx-marks'); if (v) v.style.display = 'none';
+    var el = document.elementFromPoint(x, y); if (v) v.style.display = '';
+    if (!el || el === body || el === root) return;
+    var b = el.closest('.lx-btn,.lx-badge,.lx-input,.lx-card,.lx-table,.lx-alert,.lx-nav,h1,h2,h3,h4,p,li') || blockOf(el) || el;
+    if (marked.some(function (m) { return m.el === b; }) || marked.length >= 10) return;
+    marked.push({ el: b, e: label(b), u: where(b), s: pathOf(b) });
+  }
+  function postMarks() { post({ type: 'marks', items: marked.map(function (m) { return { e: m.e, u: m.u, s: m.s }; }) }); }
+  document.addEventListener('pointerdown', function (e) {
+    if (!marcar) return;
+    e.preventDefault();
+    var v = layer(), p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    stroke = { p: p, d: 'M' + e.pageX + ' ' + e.pageY, n: 0 }; p.setAttribute('d', stroke.d); v.appendChild(p); noteAt(e.clientX, e.clientY);
+  }, true);
+  document.addEventListener('pointermove', function (e) {
+    if (!stroke) return;
+    stroke.d += 'L' + e.pageX + ' ' + e.pageY; stroke.p.setAttribute('d', stroke.d);
+    if (++stroke.n % 4 === 0) noteAt(e.clientX, e.clientY);
+  }, true);
+  document.addEventListener('pointerup', function () { if (stroke) { stroke = null; postMarks(); } }, true);
+  document.addEventListener('click', function (e) { if (marcar) { e.preventDefault(); e.stopPropagation(); } }, true);
+
   var tm = 0;
   function refresh() { clearTimeout(tm); tm = setTimeout(function () { overlay(); checks(); }, 120); }
   window.addEventListener('message', function (e) {
@@ -367,7 +424,9 @@
     if (m.type === 'guia') { guia = m.v || ''; overlay(); }
     if (m.type === 'hl') highlight(m.i);
     if (m.type === 'check') checks();
-    if (m.type === 'editar') { editar = !!m.on; body.classList.toggle('lx-editing', editar); if (!editar) select(null); }
+    if (m.type === 'tool') { editar = m.v === 'sel'; marcar = m.v === 'mark'; body.classList.toggle('lx-editing', editar); body.classList.toggle('lx-marking', marcar); if (!editar) select(null); }
+    if (m.type === 'insert') insert(m.html);
+    if (m.type === 'marks-clear') clearMarks();
     if (m.type === 'snap') { snap = !!m.on; body.classList.toggle('lx-free', !snap); }
     if (m.type === 'cmd') cmd(m.c, m.v);
   });
