@@ -8,12 +8,12 @@
 
 | Dato | Valor |
 |---|---|
-| Normas inventariadas | 127 |
-| Requisitos detectados | 229 |
-| DEBE | 90 |
-| NO DEBE | 85 |
+| Normas inventariadas | 125 |
+| Requisitos detectados | 226 |
+| DEBE | 89 |
+| NO DEBE | 84 |
 | DEBERÍA | 9 |
-| PUEDE | 45 |
+| PUEDE | 44 |
 | Requisitos con ambigüedad | 40 |
 | Frases duplicadas entre normas | 0 |
 | Contradicciones con el código | 7 |
@@ -45,7 +45,7 @@ Se asignaron por área de la norma. Ninguno está aprobado; `data/autoridad.json
 | VIS | Identidad corporativa Keyons, Web corporativa y Biblioteca, Herramientas internas, SaaS con identidad Keyons |
 | VOZ | Identidad corporativa Keyons, Web corporativa y Biblioteca, Herramientas internas, SaaS con identidad Keyons, Servicios y procesos operativos |
 
-Las normas de calidad y experiencia KYN-MRK-VIS-007, KYN-MRK-VIS-008, KYN-MRK-VIS-011 suman Productos personalizados y Productos con identidad del cliente.
+Las normas de calidad y experiencia KYN-MRK-VIS-008 suman Productos personalizados y Productos con identidad del cliente.
 
 ## Contradicciones entre normas y código
 
@@ -226,11 +226,9 @@ Ninguna.
 | KYN-MRK-VIS-004 | 1 | 1 | 0 | 1 |
 | KYN-MRK-VIS-005 | 0 | 2 | 0 | 0 |
 | KYN-MRK-VIS-006 | 1 | 0 | 0 | 0 |
-| KYN-MRK-VIS-007 | 1 | 0 | 0 | 1 |
 | KYN-MRK-VIS-008 | 2 | 0 | 0 | 1 |
 | KYN-MRK-VIS-009 | 1 | 1 | 0 | 0 |
 | KYN-MRK-VIS-010 | 0 | 0 | 0 | 0 |
-| KYN-MRK-VIS-011 | 0 | 1 | 0 | 0 |
 | KYN-MRK-VIS-012 | 1 | 2 | 0 | 0 |
 | KYN-MRK-VOZ-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-VOZ-002 | 1 | 1 | 0 | 0 |

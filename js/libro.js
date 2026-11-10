@@ -214,14 +214,32 @@
       document.head.appendChild(sa);
       document.querySelectorAll('[data-normas]').forEach((box) => {
         const list = box.querySelector('.kidx__list'), q = box.querySelector('.kidx__q');
-        const draw = (key) => {
-        const rows = [...N].sort((a, b) => (a.e === b.e ? (key === 't' ? a.t.localeCompare(b.t, 'es') : a.n.split('.').map(Number).reduce((x, y, i) => x || y - (b.n.split('.').map(Number)[i] || 0), 0)) : a.e === 'vigente' ? -1 : 1));
-        list.innerHTML = rows.map((o) => `<a class="kidx__r${o.e === 'vigente' ? '' : ' is-off'}" href="${root}${o.h}" data-q="${(o.id + ' ' + o.n + ' ' + o.t).toLowerCase()}"><b>${o.id}</b><span class="kidx__n">${o.n}</span><span class="kidx__t">${o.t}</span>${o.e === 'vigente' ? '' : '<span class="kidx__e">[DESCONTINUADA]</span>'}</a>`).join('');
-        q.dispatchEvent(new Event('input'));
+        /* El encabezado de cada grupo es la familia (o la letra); la fila solo lleva su número */
+        const fams = {};
+        document.querySelectorAll('.kcodes li, #nomenclatura li').forEach((li) => { const b = li.querySelector('b'), t = li.querySelector('span'); if (b && t) fams[b.textContent.trim()] = t.textContent.trim(); });
+        const num = (x) => x.split('.').map(Number);
+        const cmp = (a, b) => { const p = num(a.n), q = num(b.n); for (let i = 0; i < Math.max(p.length, q.length); i++) { const d = (p[i] || 0) - (q[i] || 0); if (d) return d; } return 0; };
+        const fila = (o, alfa) => {
+          const [, , f, c] = o.id.split('-');
+          const off = o.e === 'descontinuada' || o.e === 'integrada';
+          return `<a class="kidx__r${off ? ' is-off' : ''}" href="${root}${o.h}" title="${o.id}" data-q="${(o.id + ' ' + o.n + ' ' + o.t).toLowerCase()}"><b>${alfa ? f + '-' + c : c}</b><span class="kidx__t">${o.t}</span><span class="kidx__n">${off ? '[DESCONTINUADA]' : o.n}</span></a>`;
         };
-        const ks = box.querySelector('[data-ksel]');
-        if (ks) ks.addEventListener('change', () => draw(ks.value));
-        q.addEventListener('input', () => { const v = q.value.trim().toLowerCase(); list.querySelectorAll('.kidx__r').forEach((r) => { r.hidden = !!v && !r.dataset.q.includes(v); }); });
+        const draw = (key) => {
+          const alfa = key === 't', gr = new Map();
+          [...N].sort(alfa ? (a, b) => a.t.localeCompare(b.t, 'es') : cmp).forEach((o) => {
+            const k = alfa ? o.t.normalize('NFD')[0].toUpperCase() : o.id.split('-')[2];
+            if (!gr.has(k)) gr.set(k, []);
+            gr.get(k).push(o);
+          });
+          list.classList.toggle('kidx__list--a', alfa);
+          list.innerHTML = [...gr].map(([k, os]) => `<div class="kidx__g"><h4 class="kidx__h"><i>/</i>${k}</h4><p class="kidx__f">${alfa ? os.length + (os.length === 1 ? ' norma' : ' normas') : 'KYN-MRK-' + k + (fams[k] ? ' · ' + fams[k] : '')}</p><div class="kidx__rows">${os.map((o) => fila(o, alfa)).join('')}</div></div>`).join('');
+          q.dispatchEvent(new Event('input'));
+        };
+        box.querySelectorAll('[data-ks]').forEach((b) => b.addEventListener('click', () => {
+          box.querySelectorAll('[data-ks]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+          draw(b.dataset.ks);
+        }));
+        q.addEventListener('input', () => { const v = q.value.trim().toLowerCase(); list.querySelectorAll('.kidx__r').forEach((r) => { r.hidden = !!v && !r.dataset.q.includes(v); }); list.querySelectorAll('.kidx__g').forEach((g) => { g.hidden = !g.querySelector('.kidx__r:not([hidden])'); }); const nn = list.querySelectorAll('.kidx__r:not([hidden])').length, ct = box.querySelector('.kidx__count'); if (ct) ct.textContent = nn + (nn === 1 ? ' norma' : ' normas'); list.scrollLeft = 0; list.dispatchEvent(new Event('scroll')); });
         draw('id');
       });
       const area = document.querySelector('.content') || document.body;
@@ -1650,15 +1668,17 @@
 
   /* Carrusel horizontal: varias piezas a la vista, con el pie de los demás carruseles */
   document.querySelectorAll('[data-hcar]').forEach((c) => {
-    const items = [...c.children];
+    const vivos = () => [...c.children].filter((x) => !x.hidden);
+    let items = vivos();
     const wrap = document.createElement('div');
     wrap.className = 'hcar__wrap';
     c.before(wrap); wrap.append(c);
     wrap.insertAdjacentHTML('beforeend', `<div class="mslide__foot hcar__foot"><span class="mslide__count">(01 / ${String(items.length).padStart(2, '0')})</span><span class="mslide__bar" aria-hidden="true"><i></i></span><div class="mslide__nav"><button class="btn-text" type="button" data-hs="-1" aria-label="Anterior"><svg class="go-l" viewBox="0 0 16 16" aria-hidden="true"><path d="M13 8H3M6.8 4.2 3 8l3.8 3.8"/></svg>Anterior</button><button class="btn-text" type="button" data-hs="1" aria-label="Siguiente">Siguiente<svg class="go-r" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.2 4.2 13 8l-3.8 3.8"/></svg></button></div></div>`);
     const count = wrap.querySelector('.mslide__count'), bar = wrap.querySelector('.mslide__bar i');
-    const step = () => (items[1] ? items[1].offsetLeft - items[0].offsetLeft : c.clientWidth);
+    const step = () => { items = vivos(); return items[1] ? items[1].offsetLeft - items[0].offsetLeft : c.clientWidth; };
     const upd = () => {
       const i = Math.round(c.scrollLeft / step()), max = c.scrollWidth - c.clientWidth;
+      items.forEach((x, j) => x.classList.toggle('is-cur', j === i));
       count.textContent = `(${String(Math.min(items.length, i + 1)).padStart(2, '0')} / ${String(items.length).padStart(2, '0')})`;
       bar.style.transform = `scaleX(${max > 0 ? Math.max(0.08, c.scrollLeft / max) : 1})`;
       wrap.querySelector('[data-hs="-1"]').disabled = c.scrollLeft < 4;
@@ -1670,9 +1690,47 @@
     upd();
   });
 
+  /* REF-001: cada parte del ID se resalta por turno y una línea la une con su significado */
+  document.querySelectorAll('[data-kexa]').forEach((st) => {
+    const segs = [...st.querySelectorAll('.kex [data-k]')], ans = [...st.querySelectorAll('[data-a]')], svg = st.querySelector('.kexa__l');
+    svg.innerHTML = segs.map(() => '<path/>').join('');
+    const ps = [...svg.children];
+    const quieto = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const dibujar = () => {
+      const B = st.getBoundingClientRect();
+      svg.setAttribute('viewBox', `0 0 ${B.width} ${B.height}`);
+      const caja = (e) => { const r = e.getBoundingClientRect(), l = r.left - B.left, t = r.top - B.top; return { l, t, r: l + r.width, b: t + r.height, cx: l + r.width / 2, my: t + r.height / 2 }; };
+      ps.forEach((p, i) => {
+        const a = caja(ans[i]), g = caja(segs[i]);
+        p.setAttribute('d', [
+          `M${a.cx} ${a.b + 6}V${g.my}H${g.l - 8}`,
+          `M${g.cx} ${g.b + 6}V${a.my}H${a.r + 10}`,
+          `M${g.cx} ${g.t - 6}V${a.my}H${a.l - 10}`,
+          `M${g.r + 8} ${g.my}H${a.cx}V${a.t - 6}`][i]);
+      });
+    };
+    let k = 0, t = 0, visto = false;
+    const pintar = (n) => { k = n; [segs, ans, ps].forEach((l) => l.forEach((x, i) => x.classList.toggle('is-on', i === n))); };
+    const seguir = () => { clearInterval(t); if (quieto || !visto) return; t = setInterval(() => pintar((k + 1) % segs.length), 2800); };
+    if (quieto) [segs, ans, ps].forEach((l) => l.forEach((x) => x.classList.add('is-on'))); else pintar(0);
+    dibujar(); addEventListener('resize', dibujar); if (document.fonts && document.fonts.ready) document.fonts.ready.then(dibujar);
+    if ('ResizeObserver' in window) new ResizeObserver(dibujar).observe(st);
+    [...segs, ...ans].forEach((x) => x.addEventListener('pointerenter', () => { clearInterval(t); if (!quieto) pintar(+(x.dataset.k ?? x.dataset.a)); }));
+    st.addEventListener('pointerleave', seguir);
+    new IntersectionObserver((e) => { visto = e[0].isIntersecting; seguir(); }, { threshold: .3 }).observe(st);
+  });
+
+  /* Acordeón: una fila abierta a la vez */
+  document.querySelectorAll('[data-acord]').forEach((ac) => {
+    const fs = ac.querySelectorAll('.acord__f');
+    fs.forEach((f) => f.querySelector('.acord__b').addEventListener('click', () => {
+      fs.forEach((x) => { const on = x === f; x.classList.toggle('is-open', on); x.querySelector('.acord__b').setAttribute('aria-expanded', String(on)); });
+    }));
+  });
+
   /* Comparativos: la explicación vive detrás de la tarjeta y se consulta con «Leer más» */
   const girar = (f) => {
-    const cap = f.querySelector('figcaption'), face = f.querySelector('.vdemo__s, .gl, .lvx__fig');
+    const cap = f.querySelector('figcaption'), face = f.querySelector('.vdemo__s, .gl, .lvx__fig, .xmp__stage');
     if (!cap || !face || f.querySelector('.flip__btn')) return;
     const lab = cap.querySelector('.paren, b, .lvx__t');
     f.classList.add('flip');
@@ -1697,7 +1755,7 @@
       if (!e.isIntersecting && f.classList.contains('is-flip')) { f.classList.remove('is-flip'); btn.setAttribute('aria-expanded', 'false'); btn.querySelector('span').textContent = 'Leer más'; }
     })).observe(f);
   };
-  document.querySelectorAll('.vdemo__i, .glass2 > figure, .lvx__i').forEach((f) => girar(f));
+  document.querySelectorAll('.vdemo__i, .glass2 > figure, .lvx__i, .xmp__fig').forEach((f) => girar(f));
   /* Recursos técnicos (29) copia estas funciones tal cual: el código del catálogo es el del libro */
   window.KeyonsEfectos = { trama, nubes, aparecer, girar };
 

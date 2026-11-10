@@ -152,27 +152,41 @@
     });
 
     /* Filtro por categoría y lista */
-    const count = (k) => R.filter((r) => !k || r.cat === k).length;
     box.innerHTML = `
-      <div class="rtec__bar" role="group" aria-label="Filtrar por categoría">
-        <button type="button" data-rcat="" aria-pressed="true">Todas <span>${count('')}</span></button>
-        ${D.categorias.map((c) => `<button type="button" data-rcat="${c.k}" aria-pressed="false">${esc(c.t)} <span>${count(c.k)}</span></button>`).join('')}
-      </div>
+      <div class="icat__bar"><div class="fpop"><button class="fpop__btn" type="button" aria-expanded="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4h12M4.5 8h7M7 12h2"/></svg><span class="fpop__val">Todas</span></button>
+        <div class="fpop__panel" hidden><div class="fpop__row fpop__all"><button type="button" data-rcat="" aria-pressed="true">Todos los recursos</button></div><p class="fpop__h">Categoría</p><div class="fpop__row">${D.categorias.map((c) => `<button type="button" data-rcat="${c.k}" aria-pressed="false">${esc(c.t)}</button>`).join('')}</div></div></div>
+        <input class="icat__q rtec__q" type="search" placeholder="Buscar por nombre" aria-label="Buscar recurso"><span class="icat__count rtec__count"></span></div>
       <ol class="rtec__list">${R.map((r, i) => `
         <li class="rtec__i" data-cat="${r.cat}" id="rtec-${r.id}">
           <button class="rtec__h" type="button" aria-expanded="false" aria-controls="rtec-b-${r.id}">
             <span class="rtec__n">${String(i + 1).padStart(2, '0')}</span>
-            <span class="rtec__tt"><b>${esc(r.t)}</b><small>${esc(r.d)}</small></span>
+            <span class="rtec__tt"><b>${esc(r.t)}</b></span>
             <span class="rtec__c">${esc(CAT[r.cat])}</span>
             <span class="rtec__pl">${ICON.plus}</span>
           </button>
           <div class="rtec__b" id="rtec-b-${r.id}" hidden></div>
         </li>`).join('')}
       </ol>`;
+    const pop = box.querySelector('.fpop'), popBtn = pop.querySelector('.fpop__btn'), popP = pop.querySelector('.fpop__panel'), popV = pop.querySelector('.fpop__val');
+    const cerrar = () => { popP.hidden = true; popBtn.setAttribute('aria-expanded', 'false'); };
+    popBtn.addEventListener('click', (e) => { e.stopPropagation(); const a = popP.hidden; popP.hidden = !a; popBtn.setAttribute('aria-expanded', String(a)); });
+    document.addEventListener('click', (e) => { if (!pop.contains(e.target)) cerrar(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') cerrar(); });
+    let catSel = '';
+    const q = box.querySelector('.rtec__q'), ct = box.querySelector('.rtec__count');
+    const filtrar = () => {
+      const v = q.value.trim().toLowerCase(); let n = 0;
+      box.querySelectorAll('.rtec__i').forEach((li) => {
+        const si = (!catSel || li.dataset.cat === catSel) && (!v || li.querySelector('.rtec__tt').textContent.toLowerCase().includes(v));
+        li.hidden = !si; if (si) n++;
+      });
+      ct.textContent = n + (n === 1 ? ' recurso' : ' recursos');
+    };
     box.querySelectorAll('[data-rcat]').forEach((b) => b.addEventListener('click', () => {
       box.querySelectorAll('[data-rcat]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
-      box.querySelectorAll('.rtec__i').forEach((li) => { li.hidden = !!b.dataset.rcat && li.dataset.cat !== b.dataset.rcat; });
+      catSel = b.dataset.rcat; popV.textContent = catSel ? b.textContent : 'Todas'; cerrar(); filtrar();
     }));
+    q.addEventListener('input', filtrar); filtrar();
 
     /* Partes de un recurso para una variante: HTML, CSS, JS y el ejemplo completo */
     async function parts(r, v, from) {
@@ -237,6 +251,7 @@ ${js ? `<script>\n${js.replace(/<\/script/gi, '<\\/script')}\n</script>\n` : ''}
       const cfg = r.config === 'defaults' ? defaults(P0.src, r.configNotas) : r.config;
       const files = [r.js && r.js.file ? `<a href="${ROOT}${r.js.file}">${r.js.file}</a>` : '', r.js && r.js.fn ? `Función ${r.js.fn}() de js/libro.js` : '', r.css ? 'Reglas de css/libro.css' : '', P0.vars.length ? 'Variables de css/tokens.css y css/libro.css' : ''].filter(Boolean);
       b.innerHTML = `
+        <p class="rtec__d">${esc(r.d)}</p>
         <div class="rtec__demo">
           <div class="rtec__stage"><iframe sandbox="allow-scripts" title="Demostración: ${esc(r.t)}"></iframe></div>
           <div class="rtec__ctl">

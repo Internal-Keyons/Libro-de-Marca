@@ -258,7 +258,7 @@
     if (!it.length) it.push({ i: null, e: 'todos los bloques', u: 'documento', v: 'ningún bloque movido fuera', x: 'alineado a la retícula', ok: true });
     R.push({ id: 'reticula', k: 'Alineación a la retícula', nivel: 'keyons', ref: 'Keyons', norma: 'KYN-MRK-ESP-004', req: 'Los bloques se alinean a la retícula del ancho de prueba.', met: 'Bloques movidos con el ajuste a la retícula apagado.', items: it, fix: 'Elija el bloque y use «Volver a la retícula».' });
 
-    /* 14 · Movimiento · Keyons VIS-007 (y preferencia de movimiento reducido) */
+    /* 14 · Movimiento · Keyons (y preferencia de movimiento reducido) */
     it = [];
     document.querySelectorAll('body *').forEach(function (el) {
       if (el.closest('.lx-ov,#lx-guide,#lx-sky')) return;
@@ -266,7 +266,7 @@
       var d = Math.round(parseFloat(cs.animationDuration) * 1000);
       it.push({ i: mark(el), e: label(el), u: where(el), v: d + ' ms', x: '200 a 520 ms y respeta movimiento reducido', ok: d >= 200 && d <= 1040 ? null : 'rec' });
     });
-    R.push({ id: 'movimiento', k: 'Movimiento', nivel: 'keyons', ref: 'Keyons', norma: 'KYN-MRK-VIS-007', req: 'El movimiento orienta, es sereno y se detiene con la preferencia de movimiento reducido.', met: 'Animaciones activas y su duración. Si orienta y es cómodo lo decide una persona.', items: it, fix: 'Acorte o quite la animación, o actívela solo al interactuar.', sinMsg: 'No hay animaciones en pantalla.' });
+    R.push({ id: 'movimiento', k: 'Movimiento', nivel: 'keyons', ref: 'Keyons', req: 'El movimiento orienta, es sereno y se detiene con la preferencia de movimiento reducido.', met: 'Animaciones activas y su duración. Si orienta y es cómodo lo decide una persona.', items: it, fix: 'Acorte o quite la animación, o actívela solo al interactuar.', sinMsg: 'No hay animaciones en pantalla.' });
 
     /* 15 · Una acción principal por pantalla · Keyons COL-002 */
     it = [];

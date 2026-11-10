@@ -38,35 +38,30 @@ Correlativo de tres dígitos dentro del capítulo, en orden de emisión.
 
 ###### Cinco reglas innegociables
 
-01
-Inmutabilidad de los ID
 Un identificador emitido nunca se renombra, se elimina ni se reutiliza. Si una regla se descontinúa o cambia, se marca como [DESCONTINUADA] y su número queda reservado para conservar la trazabilidad.
 
-02
-Numeración sin subcódigos
 Las normas siguen un orden correlativo simple dentro de su capítulo (COL-001, COL-002). Aunque el capítulo se ordene en secciones, no hay subdivisiones con puntos: COL-001.1 o COL-001.A no existen.
 
-03
-Antiduplicación
 El Manual de Marca es el único dueño de la identidad visual, los colores, la tipografía y la estética (KYN-PRD-GOB-004). Producto y Comercial no copian reglas de diseño: citan el ID de Marca.
 
-04
-Citas por ID
 Entre equipos y entre manuales hermanos se cita solo el ID completo, por ejemplo «conforme a KYN-MRK-COL-001». El texto de la norma nunca se copia en otro documento, para que no se desactualice.
 
-05
-Contratos externos
 Cuando una regla de marca debe figurar en un contrato con terceros, como agencias o diseñadores externos, se redacta la cláusula completa y el ID va al final, solo como referencia administrativa.
 
 ###### Códigos de capítulo
 
 En cada sección, el ID ocupa el lugar del número y se copia con un clic. Recursos usa los mismos códigos, con sus propios capítulos.
 
+***/* · Marca**
+
 - **ADN** · ADN
 - **CON** · Concepto
 - **DIS** · Principios
 - **VOZ** · Voz
 - **EST** · Estela
+
+***/* · Fundamentos**
+
 - **LOG** · Identidad
 - **COL** · Color
 - **TYP** · Tipografía
@@ -78,17 +73,27 @@ En cada sección, el ID ocupa el lugar del número y se copia con un clic. Recur
 - **DAT** · Datos
 - **MOV** · Movimiento
 - **ACC** · Accesibilidad
+
+***/* · Modos**
+
 - **COR** · Corporativo
 - **EXP** · Expresivo
 - **UI** · Digital
+
+***/* · Aplicaciones**
+
 - **DOC** · Documentos
 - **PRE** · Presentaciones
 - **WEB** · Sitio web
 - **RED** · Redes y campañas
 - **EVT** · Eventos y merch
 - **PER** · Personalización
+
+***/* · Recursos**
+
 - **GAL** · Galería de imágenes
 - **TEX** · Texturas y degradados
 - **ICN** · Íconos
 - **PLA** · Plantillas y documentos
 - **REF** · Referencia
+- **TEC** · Recursos técnicos

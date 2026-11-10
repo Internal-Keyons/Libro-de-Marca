@@ -3172,27 +3172,27 @@ Estelas de degradado orgánico que fluyen sobre Blanco Keyons sin estar enmarcad
 
 Ráfaga
 (01/06)
-Ola · Mediodía
+Flujo · Mediodía
 
 Ráfaga
 (02/06)
-Flujo · Atardecer
-
-Ráfaga
-(03/06)
-Giro · Amanecer
-
-Ráfaga
-(04/06)
 Estela · Noche
 
 Ráfaga
+(03/06)
+Pulso · Atardecer
+
+Ráfaga
+(04/06)
+Corriente · Mediodía
+
+Ráfaga
 (05/06)
-Pulso · Galaxia
+Giro · Amanecer
 
 Ráfaga
 (06/06)
-Corriente · Mediodía
+Ola · Mediodía
 
 **(Qué son)**
 Flujos difusos de color con textura granulada, dirección clara y forma serpenteante. No tienen bordes definidos: se disuelven en el blanco. **Hay varios estilos** (ola, flujo, giro, estela, pulso y corriente) y cada uno toma una fase del cielo.
@@ -5423,35 +5423,30 @@ Correlativo de tres dígitos dentro del capítulo, en orden de emisión.
 
 ###### Cinco reglas innegociables
 
-01
-Inmutabilidad de los ID
 Un identificador emitido nunca se renombra, se elimina ni se reutiliza. Si una regla se descontinúa o cambia, se marca como [DESCONTINUADA] y su número queda reservado para conservar la trazabilidad.
 
-02
-Numeración sin subcódigos
 Las normas siguen un orden correlativo simple dentro de su capítulo (COL-001, COL-002). Aunque el capítulo se ordene en secciones, no hay subdivisiones con puntos: COL-001.1 o COL-001.A no existen.
 
-03
-Antiduplicación
 El Manual de Marca es el único dueño de la identidad visual, los colores, la tipografía y la estética (KYN-PRD-GOB-004). Producto y Comercial no copian reglas de diseño: citan el ID de Marca.
 
-04
-Citas por ID
 Entre equipos y entre manuales hermanos se cita solo el ID completo, por ejemplo «conforme a KYN-MRK-COL-001». El texto de la norma nunca se copia en otro documento, para que no se desactualice.
 
-05
-Contratos externos
 Cuando una regla de marca debe figurar en un contrato con terceros, como agencias o diseñadores externos, se redacta la cláusula completa y el ID va al final, solo como referencia administrativa.
 
 ###### Códigos de capítulo
 
 En cada sección, el ID ocupa el lugar del número y se copia con un clic. Recursos usa los mismos códigos, con sus propios capítulos.
 
+***/* · Marca**
+
 - **ADN** · ADN
 - **CON** · Concepto
 - **DIS** · Principios
 - **VOZ** · Voz
 - **EST** · Estela
+
+***/* · Fundamentos**
+
 - **LOG** · Identidad
 - **COL** · Color
 - **TYP** · Tipografía
@@ -5463,20 +5458,30 @@ En cada sección, el ID ocupa el lugar del número y se copia con un clic. Recur
 - **DAT** · Datos
 - **MOV** · Movimiento
 - **ACC** · Accesibilidad
+
+***/* · Modos**
+
 - **COR** · Corporativo
 - **EXP** · Expresivo
 - **UI** · Digital
+
+***/* · Aplicaciones**
+
 - **DOC** · Documentos
 - **PRE** · Presentaciones
 - **WEB** · Sitio web
 - **RED** · Redes y campañas
 - **EVT** · Eventos y merch
 - **PER** · Personalización
+
+***/* · Recursos**
+
 - **GAL** · Galería de imágenes
 - **TEX** · Texturas y degradados
 - **ICN** · Íconos
 - **PLA** · Plantillas y documentos
 - **REF** · Referencia
+- **TEC** · Recursos técnicos
 
 #### KYN-MRK-REF-002 · 28.2 Índice
 
@@ -5492,13 +5497,13 @@ Escriba en el buscador un ID, un número de sección o una palabra del tema, y o
 
 Rótulo: Referencia · Trazabilidad · Fuente: `/fundamentos/criterio/antipatrones.html`
 
-Dónde vive cada una de las doce normas de criterio visual.
+Dónde vive cada una de las diez normas de criterio visual.
 
 #### 28.3 Trazabilidad
 
 Número: 28.3 · Fuente: `/fundamentos/criterio/antipatrones.html#trazabilidad`
 
-##### Doce normas, una fuente cada una
+##### Diez normas, una fuente cada una
 
 Cada criterio visual vive en la materia que regula su tema. **Cada ID lleva a su ubicación** dentro del libro.
 
@@ -5510,52 +5515,10 @@ Cada criterio visual vive en la materia que regula su tema. **Cada ID lleva a su
 | KYN-MRK-VIS-004 · Iconografía de relleno | Iconografía · Uso | Vigente |
 | KYN-MRK-VIS-005 · Saturación de microelementos | Composición · Jerarquía y densidad | Vigente |
 | KYN-MRK-VIS-006 · Simetría automática | Composición · Simetría y asimetría | Vigente |
-| KYN-MRK-VIS-007 · Movimiento ornamental | Movimiento | En integración |
 | KYN-MRK-VIS-008 · Contraste insuficiente | Color · Combinaciones, con referencia a Accesibilidad | Vigente |
 | KYN-MRK-VIS-009 · Lenguaje genérico | Voz · Vocabulario que evitamos | Vigente |
 | KYN-MRK-VIS-010 · Maximalismo uniforme | Composición · Ritmo y equilibrio | Vigente |
-| KYN-MRK-VIS-011 · Originalidad a costa de orientación | Sistema de Diseño · Principios de experiencia | En integración |
 | KYN-MRK-VIS-012 · Composición no intercambiable | Composición · Identidad visual aplicada | Vigente |
-
-Las dos normas en integración siguen vigentes aquí hasta que su destino tenga página: Movimiento en este libro y Principios de experiencia en el Sistema de Diseño.
-
-#### KYN-MRK-VIS-007 · 28.3.1 Movimiento
-
-Número: 28.3.1 · ID: `KYN-MRK-VIS-007` · Estado: vigente · Fuente: `/fundamentos/criterio/antipatrones.html#vis-007`
-
-##### El movimiento orienta, no distrae
-
-El movimiento debe **facilitar la orientación**, comunicar cambios o aportar expresión visual cuando el contexto lo permite.
-
-En las herramientas operativas se priorizan transiciones breves, previsibles y no intrusivas.
-
-En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido.
-
-**(Uso incorrecto)**
-**Animación constante durante una tarea** Elementos que flotan en bucle mientras se trabaja.
-
-**(Alternativa mejor)**
-Una transición breve muestra de dónde viene el panel. Se presenta como secuencia, sin animación automática.
-
-#### KYN-MRK-VIS-011 · 28.3.2 Orientación
-
-Número: 28.3.2 · ID: `KYN-MRK-VIS-011` · Estado: vigente · Fuente: `/fundamentos/criterio/antipatrones.html#vis-011`
-
-##### Original, pero siempre comprensible
-
-La originalidad visual **no debe ocultar funciones**, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia.
-
-La experimentación es válida cuando la persona mantiene orientación y control sobre las tareas.
-
-> Recurso visual: Ejemplo dibujado: Cielo propio
-
-**(Uso incorrecto)**
-**Un menú que solo aparece al pasar por una zona sin señal** La persona no sabe que existe.
-
-> Recurso visual: Ejemplo dibujado: Keyons · ADN · Concepto · Principios · Voz · Cielo propio
-
-**(Alternativa mejor)**
-**Navegación a la vista** Navegación visible y reconocible, con la expresión puesta en la imagen y el ritmo.
 
 ### Capítulo 29 · Recursos técnicos
 

@@ -910,7 +910,7 @@
   "fundamentos/criterio/antipatrones.html#trazabilidad": {
    "estado": "sin ID",
    "id": null,
-   "texto": "Trazabilidad Doce normas, una fuente cada una Cada criterio visual vive en la materia que regula su tema. Cada ID lleva a su ubicación dentro del libro. (Norma)DestinoEstado KYN-MRK-VIS-001 · Jerarquía visual repetitivaComposición · Jerarquía y densidadVigente KYN-MRK-VIS-002 · Tarjetas innecesariasComposición · Patrones de composiciónVigente KYN-MRK-VIS-003 · Geometría genéricaGeometría y espacio · Radios y curvaturasVigente KYN-MRK-VIS-004 · Iconografía de rellenoIconografía · UsoVigente KYN-MRK-VIS-005 · Saturación de microelementosComposición · Jerarquía y densidadVigente KYN-MRK-VIS-006 · Simetría automáticaComposición · Simetría y asimetríaVigente KYN-MRK-VIS-007 · Movimiento ornamentalMovimientoEn integración KYN-MRK-VIS-008 · Contraste insuficienteColor · Combinaciones, con referencia a AccesibilidadVigente KYN-MRK-VIS-009 · Lenguaje genéricoVoz · Vocabulario que evitamosVigente KYN-MRK-VIS-010 · Maximalismo uniformeComposición · Ritmo y equilibrioVigente KYN-MRK-VIS-011 · Originalidad a costa de orientaciónSistema de Diseño · Principios de experienciaEn integración KYN-MRK-VIS-012 · Composición no intercambiableComposición · Identidad visual aplicadaVigente Las dos normas en integración siguen vigentes aquí hasta que su destino tenga página: Movimiento en este libro y Principios de experiencia en el Sistema de Diseño.",
+   "texto": "Trazabilidad Diez normas, una fuente cada una Cada criterio visual vive en la materia que regula su tema. Cada ID lleva a su ubicación dentro del libro. (Norma)DestinoEstado KYN-MRK-VIS-001 · Jerarquía visual repetitivaComposición · Jerarquía y densidadVigente KYN-MRK-VIS-002 · Tarjetas innecesariasComposición · Patrones de composiciónVigente KYN-MRK-VIS-003 · Geometría genéricaGeometría y espacio · Radios y curvaturasVigente KYN-MRK-VIS-004 · Iconografía de rellenoIconografía · UsoVigente KYN-MRK-VIS-005 · Saturación de microelementosComposición · Jerarquía y densidadVigente KYN-MRK-VIS-006 · Simetría automáticaComposición · Simetría y asimetríaVigente KYN-MRK-VIS-008 · Contraste insuficienteColor · Combinaciones, con referencia a AccesibilidadVigente KYN-MRK-VIS-009 · Lenguaje genéricoVoz · Vocabulario que evitamosVigente KYN-MRK-VIS-010 · Maximalismo uniformeComposición · Ritmo y equilibrioVigente KYN-MRK-VIS-012 · Composición no intercambiableComposición · Identidad visual aplicadaVigente",
    "versiones": [
     {
      "aprobada": "2026-11-03",
@@ -926,6 +926,11 @@
      "aprobada": "2026-11-05",
      "huella": "5f2aa56f3ee99930",
      "nota": "Ronda 20: nomenclaturas integradas y descontinuadas eliminadas y familias renumeradas sin huecos (VIS, TYP, ESP), LOG-001 en dos párrafos, 10.7 con un solo caso, ILU-001 con Blanco Keyons en dos renglones, VIS-004 con el ejemplo Enviar solicitud, calidad como regla de DAT-001, DAT-002 en círculos con notas, índice de criterios visuales y Guía sin estados descontinuados"
+    },
+    {
+     "aprobada": "2026-11-09",
+     "huella": "89bafc112cd0556e",
+     "nota": "Ronda 26: VIS-007 y VIS-011 retiradas, capítulo Estela vuelve a por definir, ILU-006 y REF-002 reordenados"
     }
    ]
   },
@@ -1468,7 +1473,7 @@
   "fundamentos/elementos/graficos.html#rafagas": {
    "estado": "vigente",
    "id": "KYN-MRK-ILU-006",
-   "texto": "Ráfagas de color El viento, liberado sobre blanco Estelas de degradado orgánico que fluyen sobre Blanco Keyons sin estar enmarcadas: el movimiento del viento en la fase activa del cielo. Son el recurso más expresivo del sistema. Ráfaga(01/06)OlaMediodíaRáfaga(02/06)FlujoAtardecerRáfaga(03/06)GiroAmanecerRáfaga(04/06)EstelaNocheRáfaga(05/06)PulsoGalaxiaRáfaga(06/06)CorrienteMediodíaPase el cursor por una ráfaga para ver el viento. Haga clic para copiar su SVG. (Qué son)Flujos difusos de color con textura granulada, dirección clara y forma serpenteante. No tienen bordes definidos: se disuelven en el blanco. Hay varios estilos (ola, flujo, giro, estela, pulso y corriente) y cada uno toma una fase del cielo. (Cuándo se usan)Portadas de reporte, historias y portadas de reels, contenido educativo, propuestas enterprise, piezas manifiesto, encabezados animados y piezas de modo expresivo. (Cuándo no)En interfaz de producto, tableros, documentos legales y comunicados corporativos sobrios. Tampoco sobre fondos de color: siempre sobre Blanco Keyons o Crema. ConstrucciónColorUna sola fase del cielo por ráfaga: Amanecer, Atardecer, Noche o Galaxia. Nunca una mezcla de fases.TexturaGrano fino al 15 a 20 % de opacidad, siempre.FormaSerpenteante y orgánica. Nunca geométrica ni un círculo perfecto.DirecciónClara y legible: diagonal, vertical o curva. Nunca estática ni centrada.DifuminadoLos bordes se disuelven en el Blanco Keyons sin un corte visible.AnimaciónMovimiento lento y continuo en la dirección del viento, en ciclos de 20 a 30 s. Orgánico, nunca mecánico.Con tipografíaPuede acompañarse de texto vertical en los bordes, al estilo revista. Se ubica en el blanco que rodea, nunca sobre la zona densa. La ráfaga es el viento visible: libera el cielo del marco.",
+   "texto": "Ráfagas de color El viento, liberado sobre blanco Estelas de degradado orgánico que fluyen sobre Blanco Keyons sin estar enmarcadas: el movimiento del viento en la fase activa del cielo. Son el recurso más expresivo del sistema. Ráfaga(01/06)FlujoMediodíaRáfaga(02/06)EstelaNocheRáfaga(03/06)PulsoAtardecerRáfaga(04/06)CorrienteMediodíaRáfaga(05/06)GiroAmanecerRáfaga(06/06)OlaMediodíaPase el cursor por una ráfaga para ver el viento. Haga clic para copiar su SVG. (Qué son)Flujos difusos de color con textura granulada, dirección clara y forma serpenteante. No tienen bordes definidos: se disuelven en el blanco. Hay varios estilos (ola, flujo, giro, estela, pulso y corriente) y cada uno toma una fase del cielo. (Cuándo se usan)Portadas de reporte, historias y portadas de reels, contenido educativo, propuestas enterprise, piezas manifiesto, encabezados animados y piezas de modo expresivo. (Cuándo no)En interfaz de producto, tableros, documentos legales y comunicados corporativos sobrios. Tampoco sobre fondos de color: siempre sobre Blanco Keyons o Crema. ConstrucciónColorUna sola fase del cielo por ráfaga: Amanecer, Atardecer, Noche o Galaxia. Nunca una mezcla de fases.TexturaGrano fino al 15 a 20 % de opacidad, siempre.FormaSerpenteante y orgánica. Nunca geométrica ni un círculo perfecto.DirecciónClara y legible: diagonal, vertical o curva. Nunca estática ni centrada.DifuminadoLos bordes se disuelven en el Blanco Keyons sin un corte visible.AnimaciónMovimiento lento y continuo en la dirección del viento, en ciclos de 20 a 30 s. Orgánico, nunca mecánico.Con tipografíaPuede acompañarse de texto vertical en los bordes, al estilo revista. Se ubica en el blanco que rodea, nunca sobre la zona densa. La ráfaga es el viento visible: libera el cielo del marco.",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -1489,6 +1494,16 @@
      "aprobada": "2026-11-05",
      "huella": "f149d0f019a64ee7",
      "nota": "Ronda 19: escala tipográfica 12·14·16·20·24·32 (TYP-002, DAT-003, ejemplos de 10.7), notas de cierre con rótulo (CON-004, DIS-003, DIS-005, ILU-005), criterios de texto breve en ESP-005, usos de LOG-001 en lista, DAT-001 abreviado, DAT-002 en franjas, pista de ILU-006"
+    },
+    {
+     "aprobada": "2026-11-09",
+     "huella": "cbfc99b006797b02",
+     "nota": "Ronda 23: ráfagas según referencia, capítulo 05 Estela con texto de la usuaria"
+    },
+    {
+     "aprobada": "2026-11-09",
+     "huella": "d11cf203116bd6c1",
+     "nota": "Ronda 26: VIS-007 y VIS-011 retiradas, capítulo Estela vuelve a por definir, ILU-006 y REF-002 reordenados"
     }
    ]
   },
@@ -3258,7 +3273,7 @@
   "recursos/referencia.html#indice": {
    "estado": "vigente",
    "id": "KYN-MRK-REF-002",
-   "texto": "Índice Todas las normas, por ID Cada norma del libro tiene un ID permanente, por ejemplo KYN-MRK-COL-002: el libro (MRK), el capítulo (COL, Color) y su número dentro del capítulo. El ID se usa para citar una norma sin depender del número de página o de sección. Escriba en el buscador un ID, un número de sección o una palabra del tema, y ordene la lista por número o en orden alfabético. Cada fila lleva directo a su sección. (Ordenar)Por númeroAlfabético",
+   "texto": "Índice Todas las normas, por ID Cada norma del libro tiene un ID permanente, por ejemplo KYN-MRK-COL-002: el libro (MRK), el capítulo (COL, Color) y su número dentro del capítulo. El ID se usa para citar una norma sin depender del número de página o de sección. Escriba en el buscador un ID, un número de sección o una palabra del tema, y ordene la lista por número o en orden alfabético. Cada fila lleva directo a su sección. Por númeroPor númeroAlfabético",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -3274,13 +3289,18 @@
      "aprobada": "2026-11-05",
      "huella": "0478d9812879c331",
      "nota": "Ronda 21 A: una sola línea entre bloques (ESP-005), Salmón Atardecer en la paleta corporativa con 5 % y 5 % (COL-001/002), ficha de 10.7 en una columna, Estela con forma de estela, índice explicado y ordenado con un desplegable (REF-002)"
+    },
+    {
+     "aprobada": "2026-11-09",
+     "huella": "3f8d3581e018d1d0",
+     "nota": "Ronda 26: VIS-007 y VIS-011 retiradas, capítulo Estela vuelve a por definir, ILU-006 y REF-002 reordenados"
     }
    ]
   },
   "recursos/referencia.html#nomenclatura": {
    "estado": "vigente",
    "id": "KYN-MRK-REF-001",
-   "texto": "Nomenclatura Un código por regla Toda directriz de este manual se identifica con la clave KYN-MRK-XXX-###. El código no cambia aunque cambie la numeración de las secciones: es la forma oficial de citar una regla. KYN-MRK-COL-001 (KYN · Empresa)Siglas fijas de Keyons. (MRK · Manual)Declara al Manual de Marca como dueño de la norma. Producto usa PRD y Comercial, COM. (COL · Capítulo)Tres o cuatro letras en mayúsculas con el tema del capítulo. (001 · Número)Correlativo de tres dígitos dentro del capítulo, en orden de emisión. Cinco reglas innegociables 01Inmutabilidad de los IDUn identificador emitido nunca se renombra, se elimina ni se reutiliza. Si una regla se descontinúa o cambia, se marca como [DESCONTINUADA] y su número queda reservado para conservar la trazabilidad. 02Numeración sin subcódigosLas normas siguen un orden correlativo simple dentro de su capítulo (COL-001, COL-002). Aunque el capítulo se ordene en secciones, no hay subdivisiones con puntos: COL-001.1 o COL-001.A no existen. 03AntiduplicaciónEl Manual de Marca es el único dueño de la identidad visual, los colores, la tipografía y la estética (KYN-PRD-GOB-004). Producto y Comercial no copian reglas de diseño: citan el ID de Marca. 04Citas por IDEntre equipos y entre manuales hermanos se cita solo el ID completo, por ejemplo «conforme a KYN-MRK-COL-001». El texto de la norma nunca se copia en otro documento, para que no se desactualice. 05Contratos externosCuando una regla de marca debe figurar en un contrato con terceros, como agencias o diseñadores externos, se redacta la cláusula completa y el ID va al final, solo como referencia administrativa. Códigos de capítuloEn cada sección, el ID ocupa el lugar del número y se copia con un clic. Recursos usa los mismos códigos, con sus propios capítulos.ADNADNCONConceptoDISPrincipiosVOZVozESTEstelaLOGIdentidadCOLColorTYPTipografíaESPForma y espacioCMPComposicionesVISCriterios visualesILUElementos gráficosICOIconografíaDATDatosMOVMovimientoACCAccesibilidadCORCorporativoEXPExpresivoUIDigitalDOCDocumentosPREPresentacionesWEBSitio webREDRedes y campañasEVTEventos y merchPERPersonalizaciónGALGalería de imágenesTEXTexturas y degradadosICNÍconosPLAPlantillas y documentosREFReferencia",
+   "texto": "Nomenclatura Un código por regla Toda directriz de este manual se identifica con la clave KYN-MRK-XXX-###. El código no cambia aunque cambie la numeración de las secciones: es la forma oficial de citar una regla. KYN-MRK-COL-001(KYN · Empresa)Siglas fijas de Keyons.(MRK · Manual)Declara al Manual de Marca como dueño de la norma. Producto usa PRD y Comercial, COM.(COL · Capítulo)Tres o cuatro letras en mayúsculas con el tema del capítulo.(001 · Número)Correlativo de tres dígitos dentro del capítulo, en orden de emisión.Cinco reglas innegociables 01Inmutabilidad de los IDUn identificador emitido nunca se renombra, se elimina ni se reutiliza. Si una regla se descontinúa o cambia, se marca como [DESCONTINUADA] y su número queda reservado para conservar la trazabilidad. 02Numeración sin subcódigosLas normas siguen un orden correlativo simple dentro de su capítulo (COL-001, COL-002). Aunque el capítulo se ordene en secciones, no hay subdivisiones con puntos: COL-001.1 o COL-001.A no existen. 03AntiduplicaciónEl Manual de Marca es el único dueño de la identidad visual, los colores, la tipografía y la estética (KYN-PRD-GOB-004). Producto y Comercial no copian reglas de diseño: citan el ID de Marca. 04Citas por IDEntre equipos y entre manuales hermanos se cita solo el ID completo, por ejemplo «conforme a KYN-MRK-COL-001». El texto de la norma nunca se copia en otro documento, para que no se desactualice. 05Contratos externosCuando una regla de marca debe figurar en un contrato con terceros, como agencias o diseñadores externos, se redacta la cláusula completa y el ID va al final, solo como referencia administrativa. Códigos de capítuloEn cada sección, el ID ocupa el lugar del número y se copia con un clic. Recursos usa los mismos códigos, con sus propios capítulos./MarcaADNADNCONConceptoDISPrincipiosVOZVozESTEstela/FundamentosLOGIdentidadCOLColorTYPTipografíaESPForma y espacioCMPComposicionesVISCriterios visualesILUElementos gráficosICOIconografíaDATDatosMOVMovimientoACCAccesibilidad/ModosCORCorporativoEXPExpresivoUIDigital/AplicacionesDOCDocumentosPREPresentacionesWEBSitio webREDRedes y campañasEVTEventos y merchPERPersonalización/RecursosGALGalería de imágenesTEXTexturas y degradadosICNÍconosPLAPlantillas y documentosREFReferenciaTECRecursos técnicos",
    "versiones": [
     {
      "aprobada": "2026-10-29",
@@ -3301,6 +3321,16 @@
      "aprobada": "2026-11-02",
      "huella": "00f15d8dbf6ac333",
      "nota": "RV3 2026-11-02: ADN-006, ADN-007, CON-004, CON-006, CON-008, REF-001"
+    },
+    {
+     "aprobada": "2026-11-09",
+     "huella": "6fab817ace6af05e",
+     "nota": "Ronda 27: ejemplo del ID animado con sus cuatro significados"
+    },
+    {
+     "aprobada": "2026-11-09",
+     "huella": "6a2e692c044d788f",
+     "nota": "Ronda 28: códigos de capítulo agrupados en carrusel; familia TEC agregada"
     }
    ]
   },

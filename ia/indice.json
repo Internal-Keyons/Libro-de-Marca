@@ -515,9 +515,7 @@
      "markdown": "/ia/capitulos/28-referencia.md",
      "normas": [
       "KYN-MRK-REF-001",
-      "KYN-MRK-REF-002",
-      "KYN-MRK-VIS-007",
-      "KYN-MRK-VIS-011"
+      "KYN-MRK-REF-002"
      ]
     },
     {
@@ -2122,19 +2120,6 @@
    ]
   },
   {
-   "id": "KYN-MRK-VIS-007",
-   "titulo": "Movimiento ornamental",
-   "numero": "28.3.1",
-   "rotulo": "Movimiento",
-   "estado": "vigente",
-   "capitulo": "28",
-   "area": "recursos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-007",
-   "markdown": "/ia/normas/KYN-MRK-VIS-007.md",
-   "referencias": [],
-   "citada_por": []
-  },
-  {
    "id": "KYN-MRK-VIS-008",
    "titulo": "Contraste insuficiente",
    "numero": "7.5.1",
@@ -2170,19 +2155,6 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/composicion/editorial.html#vis-010",
    "markdown": "/ia/normas/KYN-MRK-VIS-010.md",
-   "referencias": [],
-   "citada_por": []
-  },
-  {
-   "id": "KYN-MRK-VIS-011",
-   "titulo": "Originalidad a costa de orientación",
-   "numero": "28.3.2",
-   "rotulo": "Orientación",
-   "estado": "vigente",
-   "capitulo": "28",
-   "area": "recursos",
-   "fuente": "/fundamentos/criterio/antipatrones.html#vis-011",
-   "markdown": "/ia/normas/KYN-MRK-VIS-011.md",
    "referencias": [],
    "citada_por": []
   },

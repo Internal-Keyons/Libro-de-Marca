@@ -42,7 +42,7 @@ body.lbx-work .lbx{min-height:100vh}
 /* ── Plantillas ── */
 .lbt{display:grid;grid-template-columns:minmax(0,1fr) minmax(480px,560px);gap:var(--s2);height:calc(100vh - var(--hdr-h,72px));padding:var(--s4)}
 .lbt__v{position:relative;overflow:hidden;background:var(--sky-mediodia)}
-.lbt__win{position:absolute;left:14%;top:18%;right:0;bottom:0;z-index:1;overflow:hidden;background:var(--k-puro)}
+.lbt__win{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:1;overflow:hidden;background:var(--k-puro)}
 .lbt__win .lbx__frame{transform-origin:0 0}
 .lbt__win iframe{display:block;border:0;pointer-events:none}
 .lbt__p{display:flex;flex-direction:column;min-height:0;padding:var(--s4) var(--s8) var(--s6);background:var(--k-puro);overflow:auto}

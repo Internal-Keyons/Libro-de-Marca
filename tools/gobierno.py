@@ -42,7 +42,7 @@ AMB = {'ADN': IDENT + ['servicios'], 'CON': IDENT, 'DIS': IDENT + ['servicios'],
        'CMP': IDENT, 'GAL': ['identidad', 'web'], 'TEX': ['identidad', 'web'], 'PLA': ['identidad', 'web'], 'REF': ['identidad', 'web'],
        'PRE': ['identidad', 'servicios'], 'PER': ['saas', 'personalizados', 'cliente'],
        'VIS': IDENT}
-CALIDAD = {'KYN-MRK-VIS-007', 'KYN-MRK-VIS-008', 'KYN-MRK-VIS-011'}   # calidad y experiencia: aplican también a productos de clientes
+CALIDAD = {'KYN-MRK-VIS-008'}   # calidad y experiencia: aplican también a productos de clientes
 
 # ── Clasificación de requisitos por expresión ──
 R = [

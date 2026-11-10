@@ -2,12 +2,12 @@
  "estado": "Propuesta pendiente de aprobación humana",
  "regla": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
  "resumen": {
-  "normas": 127,
-  "requisitos": 229,
+  "normas": 125,
+  "requisitos": 226,
   "por_nivel": {
-   "DEBE": 90,
-   "NO DEBE": 85,
-   "PUEDE": 45,
+   "DEBE": 89,
+   "NO DEBE": 84,
+   "PUEDE": 44,
    "DEBERÍA": 9
   },
   "ambiguedades": 40,
@@ -2347,7 +2347,7 @@
     {
      "ref": "KYN-MRK-REF-001.1",
      "nivel": "NO DEBE",
-     "texto": "Cinco reglas innegociables 01Inmutabilidad de los IDUn identificador emitido nunca se renombra, se elimina ni se reutiliza."
+     "texto": "Producto usa PRD y Comercial, COM.(COL · Capítulo)Tres o cuatro letras en mayúsculas con el tema del capítulo.(001 · Número)Correlativo de tres dígitos dentro del capítulo, en orden de emisión.Cinco reglas innegociables 01Inmutabilidad de los IDUn identificador emitido nunca se renombra, se elimina ni se reutiliza."
     },
     {
      "ref": "KYN-MRK-REF-001.2",
@@ -2660,32 +2660,6 @@
    ]
   },
   {
-   "id": "KYN-MRK-VIS-007",
-   "titulo": "Movimiento ornamental",
-   "estado": "vigente",
-   "fuente": "fundamentos/criterio/antipatrones.html#vis-007",
-   "ambito_propuesto": [
-    "identidad",
-    "web",
-    "internas",
-    "saas",
-    "personalizados",
-    "cliente"
-   ],
-   "requisitos": [
-    {
-     "ref": "KYN-MRK-VIS-007.1",
-     "nivel": "DEBE",
-     "texto": "Movimiento El movimiento orienta, no distrae El movimiento debe facilitar la orientación, comunicar cambios o aportar expresión visual cuando el contexto lo permite."
-    },
-    {
-     "ref": "KYN-MRK-VIS-007.2",
-     "nivel": "PUEDE",
-     "texto": "En piezas editoriales puede utilizarse un movimiento más expresivo cuando tiene una intención reconocible y respeta las preferencias de movimiento reducido."
-    }
-   ]
-  },
-  {
    "id": "KYN-MRK-VIS-008",
    "titulo": "Contraste insuficiente",
    "estado": "vigente",
@@ -2755,27 +2729,6 @@
     "saas"
    ],
    "requisitos": []
-  },
-  {
-   "id": "KYN-MRK-VIS-011",
-   "titulo": "Originalidad a costa de orientación",
-   "estado": "vigente",
-   "fuente": "fundamentos/criterio/antipatrones.html#vis-011",
-   "ambito_propuesto": [
-    "identidad",
-    "web",
-    "internas",
-    "saas",
-    "personalizados",
-    "cliente"
-   ],
-   "requisitos": [
-    {
-     "ref": "KYN-MRK-VIS-011.1",
-     "nivel": "NO DEBE",
-     "texto": "Orientación Original, pero siempre comprensible La originalidad visual no debe ocultar funciones, navegación, estados ni acciones necesarias para comprender y utilizar una experiencia."
-    }
-   ]
   },
   {
    "id": "KYN-MRK-VIS-012",

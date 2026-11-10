@@ -24,27 +24,27 @@ Estelas de degradado orgánico que fluyen sobre Blanco Keyons sin estar enmarcad
 
 Ráfaga
 (01/06)
-Ola · Mediodía
+Flujo · Mediodía
 
 Ráfaga
 (02/06)
-Flujo · Atardecer
-
-Ráfaga
-(03/06)
-Giro · Amanecer
-
-Ráfaga
-(04/06)
 Estela · Noche
 
 Ráfaga
+(03/06)
+Pulso · Atardecer
+
+Ráfaga
+(04/06)
+Corriente · Mediodía
+
+Ráfaga
 (05/06)
-Pulso · Galaxia
+Giro · Amanecer
 
 Ráfaga
 (06/06)
-Corriente · Mediodía
+Ola · Mediodía
 
 **(Qué son)**
 Flujos difusos de color con textura granulada, dirección clara y forma serpenteante. No tienen bordes definidos: se disuelven en el blanco. **Hay varios estilos** (ola, flujo, giro, estela, pulso y corriente) y cada uno toma una fase del cielo.

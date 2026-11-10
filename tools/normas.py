@@ -36,7 +36,7 @@ NUEVAS = {
     **{f'fundamentos/criterio/antipatrones.html#vis-{i:03d}': (f'KYN-MRK-VIS-{i:03d}', t) for i, t in enumerate([
         'Jerarquía visual repetitiva', 'Tarjetas innecesarias', 'Geometría genérica', 'Iconografía de relleno',
         'Saturación de microelementos', 'Simetría automática', 'Movimiento ornamental', 'Contraste insuficiente',
-        'Lenguaje genérico', 'Maximalismo uniforme', 'Originalidad a costa de orientación', 'Composición no intercambiable'], 1)},
+        'Lenguaje genérico', 'Maximalismo uniforme', 'Originalidad a costa de orientación', 'Composición no intercambiable'], 1) if i not in (7, 11)},
     # 10 · Composiciones (2026-10-30)
     'fundamentos/composicion/editorial.html#decidir': ('KYN-MRK-CMP-001', 'Decidir la composición'),
     'fundamentos/composicion/editorial.html#simetria': ('KYN-MRK-CMP-002', 'Orden y experimentación'),

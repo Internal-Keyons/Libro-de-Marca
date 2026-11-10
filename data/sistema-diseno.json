@@ -522,8 +522,7 @@
    "marca": [
     "DIS-004",
     "DIS-005",
-    "CMP-001",
-    "VIS-011"
+    "CMP-001"
    ],
    "capitulos": [
     {
@@ -1306,7 +1305,6 @@
    "marca": [
     "ICO-004",
     "ILU-006",
-    "VIS-007",
     [
      "fundamentos/index.html#cap-movimiento",
      "15",

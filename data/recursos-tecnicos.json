@@ -268,15 +268,9 @@
           ".rfp__t",
           ".rfp__t small",
           ".rfp__dots",
-          ".rfp__dots i",
-          ".rfp__dust",
-          ".rfp__push > path",
-          ".rfp__push > path:nth-of-type(2)",
-          ".rfp__push > path:nth-of-type(3)"
+          ".rfp__dots i"
         ],
-        "kf": [
-          "rfpDrift"
-        ]
+        "kf": []
       },
       "htmlFrom": {
         "page": "fundamentos/elementos/graficos.html",
@@ -310,14 +304,14 @@
           "Constante de fricción: la forma se calma en 3 a 5 segundos."
         ],
         [
-          "Viento en reposo",
-          "0,05",
-          "La materia se balancea sola y la luz la recorre como una aurora."
+          "Corriente",
+          "data-cauce",
+          "Mapa pequeño con la dirección y el recorrido de la forma: el color corre por dentro, como agua. Sin él, la ráfaga vuelve a un viento suave."
         ]
       ],
       "impl": [
         "Copie js/keyons-rafaga.js y cárguelo en la página.",
-        "Cada ráfaga es una figura con su SVG adentro. El módulo lee la forma y los colores de ese SVG.",
+        "Cada ráfaga es una figura con su SVG adentro. El módulo lee la forma y los colores de ese SVG, y la corriente del atributo data-cauce.",
         "Llame a KeyonsRafaga.mount(figura). Devuelve destroy() para retirarla."
       ],
       "compat": [
@@ -331,7 +325,7 @@
         ],
         [
           "Movimiento reducido",
-          "Con prefers-reduced-motion se detienen el viento y la deriva."
+          "Con prefers-reduced-motion se detiene la corriente."
         ],
         [
           "Sin WebGL",

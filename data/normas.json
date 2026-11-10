@@ -311,18 +311,6 @@
   "n": "10.7.1",
   "t": "Composición no intercambiable"
  },
- "fundamentos/criterio/antipatrones.html#vis-007": {
-  "estado": "vigente",
-  "id": "KYN-MRK-VIS-007",
-  "n": "28.3.1",
-  "t": "Movimiento ornamental"
- },
- "fundamentos/criterio/antipatrones.html#vis-011": {
-  "estado": "vigente",
-  "id": "KYN-MRK-VIS-011",
-  "n": "28.3.2",
-  "t": "Originalidad a costa de orientación"
- },
  "fundamentos/datos/graficos.html#estructura": {
   "estado": "vigente",
   "id": "KYN-MRK-DAT-005",

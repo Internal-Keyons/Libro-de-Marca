@@ -205,13 +205,10 @@
   addEventListener('resize', fit);
 
   /* ── Pantallas: inicio, plantillas, guardados y mesa de trabajo ── */
-  let skyM = null;
   function show(name) {
     S.screen = name;
     $$('[data-screen]').forEach((s) => { s.hidden = s.dataset.screen !== name; });
     document.body.classList.toggle('lbx-work', name === 'trabajo');
-    if (skyM && name !== 'plantillas') { skyM.destroy(); skyM = null; }
-    if (name === 'plantillas' && !skyM && window.KeyonsCielo) skyM = window.KeyonsCielo.mount($('[data-tpl-sky]'), { sky: 'mediodia', seed: 'laboratorio', hover: 'none' });
     if (name === 'inicio') $('[data-go-resume]').hidden = !S.html;
     if (name === 'guardados') listSaved();
     requestAnimationFrame(fit);
@@ -371,7 +368,9 @@
     S.tool = 'sel'; toolUI();
     try { localStorage.removeItem(DRAFT_KEY); } catch (e) { /* nada */ }
   }
-  const replaceOk = () => !S.html || isBlank() || !S.edited && hist.length < 2 || confirm('Se cerrará el diseño abierto. ¿Continuar?');
+  const hayBorrador = () => { try { return !!localStorage.getItem(DRAFT_KEY); } catch (e) { return false; } };
+  const replaceOk = () => (S.html ? isBlank() || !S.edited && hist.length < 2 || confirm('Se cerrará el diseño abierto. ¿Continuar?')
+    : !hayBorrador() || confirm('Hay un borrador sin recuperar y se perderá. ¿Continuar?'));
   function startBlank() {
     if (!replaceOk()) return;
     reset(); load({ html: BLANK, titulo: '', origen: 'cero' }, true); hist.length = 0; record(); histUI();
@@ -387,14 +386,17 @@
   const TPL = window.LAB_PLANTILLAS || [];
   const META = { dashboard: 'Panel', listado: 'Datos', formulario: 'Captura', ajustes: 'Cuenta', estados: 'Mensajes' };
   /* Qué parte de cada plantilla se muestra en la portada: desplazamiento y zoom */
-  const FOCO = { dashboard: [-221, -24, .92], listado: [-221, -24, .92], formulario: [-221, -24, .92], ajustes: [-221, -24, .92], estados: [-60, -30, .92] };
   $('[data-tpls]').innerHTML = TPL.map((p) => `<li><button type="button" role="radio" aria-checked="false" data-tpl="${p.id}"><i class="lbt__r"></i><span class="lbt__m">${esc(META[p.id] || '')}</span><b>${esc(p.t)}</b><small>${esc(p.d)}</small></button></li>`).join('')
     + '<li><button type="button" data-tpl-cero><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span class="lbt__m">Sin plantilla</span><b>Desde cero</b><small>Una mesa de trabajo vacía.</small></button></li>';
+  /* La plantilla completa, a escala y centrada sobre el cielo */
   function fitTpl() {
-    const f = FOCO[S.tpl] || [0, 0, .9];
-    pifr.style.width = '1280px'; pifr.style.height = '860px';
-    pframe.style.transform = `translate(${f[0]}px,${f[1]}px) scale(${f[2]})`;
+    const b = $('[data-tpl-sky]').getBoundingClientRect(); if (!b.width) return;
+    const k = Math.min(b.width * .86 / 1280, b.height * .82 / 800), win = $('[data-pwin]');
+    pifr.style.width = '1280px'; pifr.style.height = '800px';
+    pframe.style.transform = `scale(${k})`;
+    win.style.width = 1280 * k + 'px'; win.style.height = 800 * k + 'px';
   }
+  new ResizeObserver(fitTpl).observe($('[data-tpl-sky]'));
   function pick(id) {
     S.tpl = id; const p = TPL.find((x) => x.id === id) || TPL[0];
     $$('[data-tpl]').forEach((b) => b.setAttribute('aria-checked', String(b.dataset.tpl === p.id)));

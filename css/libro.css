@@ -5284,7 +5284,7 @@ body.bks-open{overflow:hidden}
 .ed__stack--v > div{grid-template-columns:20px minmax(0,1fr);column-gap:var(--s5)}
 .ed__stack--v > div::before{width:20px;height:20px}
 .ed__stack--v > div:not(:has(.paren)) > p:first-of-type{grid-row:1}
-.vlist svg,.vitem svg{color:var(--k-noche)!important}
+.vlist svg{color:var(--k-noche)!important}
 .gov__list li::before,.gov__list li:nth-child(even)::before{background:var(--k-noche)}
 
 /* ILU-001 · las muestras de color sin borde; «Color o Azul Noche» como filas limpias */
@@ -5783,3 +5783,178 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)
 .lbw__go.btn--primary{background:var(--k-noche);color:var(--k-puro);border-color:var(--k-noche)}
 @media(hover:hover){.lbw__go.btn--primary:hover{background:var(--color-bg);color:var(--k-noche);border-color:var(--k-noche)}}
 @media(max-width:760px){.lbw{padding-left:var(--s5);padding-right:var(--s5)}}
+
+/* ════════ Ronda 23 ════════ */
+/* ILU-006 · el formato de los carteles de referencia */
+.rfp{aspect-ratio:13/25}
+
+/* Buscar y Lab: un mismo botón, sin anillo. Sin borde, y al terminar el barrido el contenedor ya es blanco */
+.hdr__search,.hdr--home:not(.is-solid) .hdr__search{border:0}
+.hdr__search::before{inset:0}
+.hdr__lab{position:relative;overflow:hidden;isolation:isolate;height:37px;gap:8px;padding:8px 20px;border:0;font-weight:500;line-height:20px;background:var(--k-noche);color:#fff;transition:color 300ms ease}
+.hdr__lab::before{content:'';position:absolute;inset:0;z-index:-1;background:var(--k-puro);transform:scaleX(0);transform-origin:left;transition:transform 420ms var(--e-io)}
+.hdr__lab svg{width:16px;height:16px;transition:transform 515ms var(--spring-lift)}
+.hdr__lab:focus-visible{background:var(--k-puro);color:var(--k-noche)}
+.hdr__lab:focus-visible::before{transform:scaleX(1)}
+@media(hover:hover){
+  .hdr__lab:hover{color:var(--k-noche)}
+  .hdr__lab:hover::before{transform:scaleX(1)}
+  .hdr__lab:hover svg{transform:rotate(-14deg) scale(1.08)}
+  .hdr__search:hover,.hdr--home:not(.is-solid) .hdr__search:hover,.hdr__lab:hover{background:var(--k-puro);transition:color 300ms ease,background-color 0s linear 420ms}
+}
+@media(max-width:1179px){.hdr__lab{width:40px;height:40px;padding:0;justify-content:center;border-radius:50%}.hdr__lab span{display:none}}
+
+/* Inicio del Sistema de Diseño · el titular al tamaño de «Doce módulos, un solo sistema» */
+.lbw__t{max-width:none;font-size:clamp(32px,3.4vw,46px);line-height:1.08}
+
+/* ════════ Ronda 26 ════════ */
+/* REF-001 · el ejemplo del ID, centrado */
+.kex{text-align:center}
+
+/* Acordeón con línea vertical: una fila abierta a la vez */
+.acord{margin-top:var(--s6);border-top:1px solid var(--color-border-strong)}
+.acord__f{border-bottom:1px solid var(--color-border-strong)}
+.acord__b{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,9fr);width:100%;padding:0;font:inherit;text-align:left;color:inherit;background:none;border:0;cursor:pointer}
+.acord__k,.acord__t{padding-top:var(--s3);padding-bottom:var(--s3);font-size:16px;line-height:1.35;color:var(--color-text-title-muted);font-variant-numeric:tabular-nums}
+.acord__k{padding-right:var(--s6);text-align:right;font-weight:500;border-right:1px solid var(--color-border-strong)}
+.acord__t{padding-left:var(--s6);font-weight:600;letter-spacing:-.01em;transition:color var(--m-fast) var(--e-out)}
+@media(hover:hover){.acord__b:hover .acord__t{color:var(--color-text)}}
+.acord__b:focus-visible{outline:2px solid var(--k-noche);outline-offset:-2px}
+.acord__f.is-open .acord__k,.acord__f.is-open .acord__t{padding-top:var(--s6);padding-bottom:var(--s2);font-size:24px;font-weight:600;line-height:1.2;letter-spacing:-.02em;color:var(--color-text)}
+.acord__p{display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows 360ms var(--e-out),visibility 0s linear 360ms}
+.acord__f.is-open .acord__p{grid-template-rows:1fr;visibility:visible;transition:grid-template-rows 360ms var(--e-out),visibility 0s}
+.acord__i{min-height:0;overflow:hidden;margin-left:25%;border-left:1px solid var(--color-border-strong)}
+.acord__i p{max-width:600px;padding:0 0 var(--s6) var(--s6);font-size:16px;line-height:1.6;color:var(--color-text-2)}
+@media(prefers-reduced-motion:reduce){.acord__p,.acord__f.is-open .acord__p{transition:none}}
+@media(max-width:760px){
+  .acord__b{grid-template-columns:44px minmax(0,1fr)}
+  .acord__k{padding-right:var(--s3)}
+  .acord__t{padding-left:var(--s3)}
+  .acord__f.is-open .acord__k,.acord__f.is-open .acord__t{font-size:20px}
+  .acord__i{margin-left:44px}
+  .acord__i p{padding-left:var(--s3)}
+}
+
+/* REF-002 · Índice: carrusel de columnas del mismo alto, con scroll propio */
+.kidx[data-normas] .kidx__list{display:flex;columns:auto;border-bottom:0}
+.kidx[data-normas] .icat__bar{margin-bottom:var(--s8)}
+.kidx[data-normas] .hcar{gap:var(--s10)!important}
+.kidx[data-normas] .hcar > .kidx__g{flex:0 0 min(62%,560px);transition:opacity 320ms var(--e-out)}
+.kidx[data-normas] .hcar > .kidx__g:not(.is-cur){opacity:.42}
+.kidx[data-normas] .hcar::after{content:'';flex:0 0 38%}
+.kidx__g[hidden]{display:none}
+.kidx__h{display:flex;align-items:baseline;gap:var(--s1);font-family:var(--font-display);font-size:32px;font-weight:500;line-height:1;letter-spacing:-.02em;color:var(--color-text)}
+.kidx__h i{font-style:normal;font-weight:400;color:var(--color-text-title-muted)}
+.kidx__f{margin:var(--s2) 0 var(--s4);font-size:12px;line-height:1.4;color:var(--color-text-3)}
+.kidx__rows{height:336px;overflow-y:auto;padding-right:var(--s4);border-bottom:1px solid var(--color-border);scrollbar-width:thin;scrollbar-color:var(--k-noche) var(--color-border)}
+.kidx__rows::-webkit-scrollbar{width:4px}
+.kidx__rows::-webkit-scrollbar-track{background:var(--color-border)}
+.kidx__rows::-webkit-scrollbar-thumb{background:var(--k-noche)}
+.kidx[data-normas] .kidx__r{grid-template-columns:32px minmax(0,1fr) auto;gap:var(--s2);padding:8px 0;align-items:baseline;border-top:1px solid var(--color-border);border-bottom:0}
+.kidx[data-normas] .kidx__list--a .kidx__r{grid-template-columns:68px minmax(0,1fr) auto}
+.kidx[data-normas] .kidx__r b{font-size:12px;font-weight:500;color:var(--color-text-3)}
+.kidx[data-normas] .kidx__t{font-size:14px;line-height:1.35}
+.kidx[data-normas] .kidx__n{font-size:12px;color:var(--color-text-3)}
+@media(max-width:760px){.kidx[data-normas] .hcar > .kidx__g{flex-basis:84%}.kidx[data-normas] .hcar::after{flex-basis:16%}.kidx[data-normas] .kidx__t{grid-column:auto}}
+.kidx .icat__bar .kidx__q{margin:0}
+.kidx .fpop__btn::before{content:'Ordenar'}
+
+/* ════════ Ronda 27 ════════ */
+/* REF-001 · el ID se explica solo: cada parte se resalta y una línea la une con su significado */
+.kexa{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-areas:"a c" "m m" "b d";row-gap:var(--s12);margin-top:var(--s10)}
+.kexa .kex{grid-area:m;margin:0;text-align:center;white-space:nowrap}
+.kexa .kex span{padding:0 .06em;transition:background-color 320ms var(--e-out)}
+.kexa .kex span.is-on{background:var(--c)}
+.kexa__a{position:relative;z-index:1;max-width:280px}
+.kexa__a--a{grid-area:a}.kexa__a--b{grid-area:b}.kexa__a--c{grid-area:c;justify-self:end}.kexa__a--d{grid-area:d;justify-self:end}
+.kexa__a .paren{display:inline-block;padding:2px 6px;margin-left:-6px;font-size:12px;color:var(--color-text-3);transition:background-color 320ms var(--e-out),color 320ms var(--e-out)}
+.kexa__a p{margin-top:var(--s1);font-size:14px;line-height:1.5;color:var(--color-text-3);transition:color 320ms var(--e-out)}
+.kexa__a.is-on .paren{background:var(--c);color:var(--k-noche)}
+.kexa__a.is-on p{color:var(--color-text)}
+.kexa__l{position:absolute;inset:0;width:100%;height:100%;fill:none;pointer-events:none}
+.kexa__l path{stroke:var(--k-noche);stroke-width:1;stroke-dasharray:4 4;opacity:0;transition:opacity 320ms var(--e-out)}
+.kexa__l path.is-on{opacity:1;animation:kexaL 900ms linear infinite}
+@keyframes kexaL{to{stroke-dashoffset:-8}}
+@media(prefers-reduced-motion:reduce){.kexa__l path.is-on{animation:none}}
+@media(max-width:760px){
+  .kexa{grid-template-columns:minmax(0,1fr);grid-template-areas:"m" "a" "b" "c" "d";row-gap:var(--s5)}
+  .kexa__a{max-width:none;justify-self:start!important}
+  .kexa__l{display:none}
+}
+
+/* REF-002 · la barra de scroll, sin flechas */
+.kidx__rows{scrollbar-width:auto;scrollbar-color:auto}
+.kidx__rows::-webkit-scrollbar-button{display:none;width:0;height:0}
+@supports not selector(::-webkit-scrollbar){.kidx__rows{scrollbar-width:thin;scrollbar-color:var(--k-noche) var(--color-border)}}
+
+/* ESP-005 · densidad: el mismo espaciado de las filas de COL-012 */
+.dui ul{row-gap:0}
+.dui li{padding:var(--s3) 0 var(--s3) 28px}
+.dui li::before{top:calc(var(--s3) + .12em)}
+
+/* TEC-001 · barra como la de Galería */
+.rtec .icat__bar{margin-bottom:var(--s6)}
+
+/* ════════ Ronda 28 ════════ */
+/* Viñetas parejas en todo el libro.
+   Título con filas debajo: de color (.ed__stack--v, .nolist, .vitem).
+   Listas cortas: Azul Noche (.vlist, .blist, .dui).
+   Todas miden 20 px y dejan 20 px hasta el texto. */
+.vlist svg,.blist svg{color:var(--k-noche)!important}
+.vlist svg{width:20px;height:20px}
+.vlist li{gap:var(--s5)}
+.blist{row-gap:var(--s3)}
+.blist li{grid-template-columns:20px minmax(0,1fr);gap:var(--s5);align-items:center}
+.blist svg{width:20px;height:20px;margin-top:0}
+.dui li{padding-left:40px}
+.dui li::before{width:20px;height:20px;top:var(--s3)}
+
+/* REF-001 · más aire alrededor del ejemplo */
+.kexa{row-gap:var(--s20);margin-top:var(--s16);margin-bottom:var(--s10)}
+.kexa__a p{margin-top:var(--s2)}
+@media(max-width:760px){.kexa{row-gap:var(--s8);margin-top:var(--s10)}}
+
+/* Carruseles de columnas: índice de normas y códigos de capítulo */
+.kcar{gap:var(--s10)!important}
+.kcar > .kidx__g{flex:0 0 min(62%,560px);transition:opacity 320ms var(--e-out)}
+.kcar > .kidx__g:not(.is-cur){opacity:.42}
+.kcar::after{content:'';flex:0 0 38%}
+.kcar .kidx__h{margin-bottom:var(--s4)}
+.kidx__rows{height:350px;border-bottom:0}
+.kidx[data-normas] .kidx__r{grid-template-columns:44px minmax(0,1fr) auto;gap:var(--s3);padding:var(--s3) 0}
+.kidx[data-normas] .kidx__list--a .kidx__r{grid-template-columns:84px minmax(0,1fr) auto}
+.kidx[data-normas] .kidx__r b,.kidx[data-normas] .kidx__n{font-size:14px;line-height:24px}
+.kidx[data-normas] .kidx__t{font-size:16px;line-height:24px}
+.kidx__rows > a:last-of-type{border-bottom:1px solid var(--color-border)}
+.kcodes--f{display:block;margin:0}
+.kcodes--f li{gap:var(--s3);padding:var(--s3) 0;font-size:16px;line-height:24px;border-top:1px solid var(--color-border)}
+.kcodes--f li:last-child{border-bottom:1px solid var(--color-border)}
+.kcodes--f b{min-width:44px}
+@media(max-width:760px){.kcar > .kidx__g{flex-basis:84%}.kcar::after{flex-basis:16%}}
+
+/* ════════ Ronda 29 ════════ */
+/* ESP-006 · cómo está construido el ejemplo: detrás, con «Leer más» */
+.xmp__fig{margin:0}
+.xmp__fig .flip__back{justify-content:flex-start;gap:var(--s6);padding:var(--s10) var(--s10) var(--s16);overflow-y:auto;box-shadow:inset 0 0 0 1px var(--color-border)}
+.xmp__fig .flip__back .xmp__ficha-t{max-width:none;font-size:20px;font-weight:500;line-height:1.3;letter-spacing:-.01em;color:var(--k-noche)}
+.xmp__fig .xmp__spec{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s6) var(--s10);max-width:none;margin:0}
+.xmp__fig .xmp__spec > div{display:block;padding:0;box-shadow:none}
+.xmp__fig .xmp__spec dt{font-size:12px;font-weight:500;color:var(--color-text-3)}
+.xmp__fig .xmp__spec dd{margin-top:var(--s1);font-size:14px;line-height:1.55;color:var(--color-text-2)}
+@media(max-width:760px){.xmp__fig .flip__back{padding:var(--s6) var(--s5) var(--s16)}.xmp__fig .xmp__spec{grid-template-columns:minmax(0,1fr);gap:var(--s4)}}
+
+/* REF-001 · el mismo aire arriba y abajo del ejemplo */
+.kexa{margin-bottom:0}
+.kexa + .ed__sub{margin-top:112px}
+
+/* TEC-001 · título arriba e información debajo, sin columnas sueltas */
+.rtec__d{max-width:600px;margin-bottom:var(--s6);font-size:16px;line-height:1.55;color:var(--color-text-2)}
+.rtec__spec > div{grid-template-columns:minmax(0,1fr);gap:var(--s4);padding:var(--s6) 0}
+.rtec__spec dt{font-size:16px;font-weight:600}
+.rtec__kv{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s5) var(--s10);max-width:none!important}
+.rtec__kv p{display:block;padding:0}
+.rtec__kv b{display:block;margin-bottom:var(--s1);font-size:14px;font-weight:500}
+.rtec__kv span{display:block}
+.rtec__spec dd{max-width:none}
+@media(max-width:760px){.rtec__kv{grid-template-columns:minmax(0,1fr)}}
+.xmp__fig .xmp__stage{width:100%;box-sizing:border-box}
