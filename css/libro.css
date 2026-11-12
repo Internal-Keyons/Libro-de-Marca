@@ -6095,3 +6095,16 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
 .fpop__panel{max-width:calc(100vw - 2 * var(--s4));max-height:70vh;overflow-y:auto}
 /* En pantallas chicas el panel ocupa el ancho de la barra de filtros, con su margen lateral */
 @media(max-width:600px){.icat__bar{position:relative}.icat__bar .fpop{position:static}.icat__bar .fpop__panel{left:0;right:0;min-width:0;max-width:none}}
+
+/* Cabecera: Buscar y Lab, al pasar el cursor, igual que el botón principal («Abrir laboratorio»): esquinas rectas,
+   fondo claro, borde y texto Azul Noche (reglas-visuales 4.2) */
+@media(hover:hover){
+  .hdr__search:hover,.hdr--home:not(.is-solid) .hdr__search:hover,.hdr__lab:hover{border-radius:var(--r-none);background:var(--color-bg);color:var(--k-noche);transition:color var(--m-fast) var(--e-out),background-color var(--m-fast) var(--e-out),border-radius var(--m-fast) var(--e-out)}
+  .hdr__search:hover::before,.hdr--home:not(.is-solid) .hdr__search:hover::before,.hdr__lab:hover::before{transform:scaleX(0)}
+}
+[data-kbd] .hdr__search:focus-visible,[data-kbd] .hdr__lab:focus-visible{border-radius:var(--r-none)}
+/* Reiniciar filtros: ícono pequeño y sutil arriba a la derecha del panel, como el lápiz de TYP-002 (Azul Cielo, 18 px) */
+.fpop__all{align-items:center}
+.fpop__row .fpop__reset{display:grid;place-items:center;width:var(--s8);height:var(--s8);margin-left:auto;padding:0;border-radius:50%;box-shadow:none;background:none;color:var(--k-cielo);opacity:.8;transition:opacity var(--m-fast) var(--e-out)}
+.fpop__row .fpop__reset:hover,[data-kbd] .fpop__row .fpop__reset:focus-visible{background:none;color:var(--k-cielo);opacity:1}
+.fpop__reset svg{width:var(--s5);height:var(--s5)}

@@ -266,6 +266,7 @@ El radio de una esquina curva sale del **lado corto** del elemento:
 - **R12 · Menús desplegables:** ventana recta, hacia abajo y pegada al campo.
 - **R13 · Tablas:** filete Cielo arriba y abajo, columnas separadas por barras continuas de 4 px en Cielo 200.
 - Entre dos bloques hay una sola línea divisoria (10.5). Si un bloque cierra con su línea y el siguiente abre con la suya, el anterior cierra sin línea. El libro lo aplica solo en toda página (`js/libro.js`) y `tools/lineas-dobles.js` lo comprueba.
+- Dos líneas divisorias seguidas, con solo espacio vacío entre ellas (hasta 200 px), NO DEBEN quedar nunca, venga la línea de un borde o de una sombra interior de 1 a 2 px (`box-shadow: inset 0 ±1px 0`). `js/libro.js` deja una sola y `tools/lineas-dobles.js` DEBE devolver `{}` en todo el libro antes de entregar un cambio de maquetación. Las líneas de una misma caja o con contenido entre ellas (retículas, tablas, diagramas) no cuentan como dobles. (2026-11-12, tras el caso de COL-009)
 - **R15 · Subtítulo y lista:** una lista que va bajo un subtítulo DEBE empezar a 32 px de él (`--s8`). NO DEBE quedar pegada al subtítulo.
 - **R16 · Dos capas por norma:** en el libro, cada norma DEBE mostrar solo su capa de lectura: lo importante y lo obligatorio, corto y explicado.
   - Cada norma DEBE seguir este orden (Sistema de Diseño, capítulo 01 Principios comunes):

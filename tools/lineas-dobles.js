@@ -5,7 +5,7 @@
    que quedan una cerca de la otra sin texto ni imagen entre ellas. */
 
 const ANCHO = 1440;
-const DISTANCIA = 96;   // dos líneas a menos de esta distancia, sin nada entre ellas, cuentan como dobles
+const DISTANCIA = 200;  // dos líneas a menos de esta distancia, sin nada entre ellas, cuentan como dobles (2026-11-12: antes 96)
 
 function lineas(doc) {
   const out = [];
@@ -23,6 +23,11 @@ function lineas(doc) {
         out.push({ y: lado === 'Top' ? r.top : r.bottom, x1: r.left, x2: r.right, el: e, lado });
       }
     }
+    /* Las líneas dibujadas con sombra interior de 1 a 2 px (box-shadow inset 0 ±n 0) también cuentan */
+    const m = /(-?[\d.]+)px (-?[\d.]+)px 0px(?: 0px)? inset/.exec(cs.boxShadow || '');   // calculado: «color 0px -1px 0px 0px inset»
+    const n = m && parseFloat(m[1]) === 0 ? parseFloat(m[2]) : 0;
+    if (n > 0 && n <= 2) out.push({ y: r.top, x1: r.left, x2: r.right, el: e, lado: 'sombra arriba' });
+    if (n < 0 && n >= -2) out.push({ y: r.bottom, x1: r.left, x2: r.right, el: e, lado: 'sombra abajo' });
     if (e.tagName === 'HR') out.push({ y: r.top, x1: r.left, x2: r.right, el: e, lado: 'hr' });
   });
   return out.sort((a, b) => a.y - b.y);
@@ -58,7 +63,7 @@ export function revisarDoc(doc) {
   for (let i = 0; i < L.length; i++) {
     for (let j = i + 1; j < L.length && L[j].y - L[i].y < DISTANCIA; j++) {
       const a = L[i], b = L[j];
-      if (b.y - a.y < 1) continue;
+      if (b.y - a.y < 1 || a.el === b.el) continue;   // una misma caja no forma pareja
       const solape = Math.min(a.x2, b.x2) - Math.max(a.x1, b.x1);
       if (solape < 0.6 * Math.min(a.x2 - a.x1, b.x2 - b.x1)) continue;
       if (hayContenido(C, a.y, b.y, Math.max(a.x1, b.x1), Math.min(a.x2, b.x2))) continue;

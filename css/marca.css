@@ -20,8 +20,6 @@
 .tester--min .tester__out{padding:var(--s6) 0 0}
 .tester--min .tester__out.kicker{height:auto;font-family:var(--font-display)}
 .tester--min .tester__out + .tester__spec{margin-top:var(--s16)}
-/* Datos fijos (Familia y Tamaño) y desplegables (Peso, Interlineado y Tracking) en dos grupos */
-.tester__sep{flex:0 0 var(--s4)}
 .tester--min .tester__spec .kdd__btn,.tester--min .tester__spec .kdd__v{font-size:var(--fs-16)}
 /* Composición: el ejemplo, sus tamaños debajo y después los controles que la modifican */
 .tester--min .tester__sizes{margin-top:var(--s16)}
@@ -74,3 +72,11 @@
 .par{margin-top:var(--s16)}
 .par__ej{max-width:var(--measure);color:var(--k-noche)}
 .par .par__spec{margin-top:var(--s6)}
+/* Desplegables del probador: la flecha a la misma distancia del texto en todos (modelo: «Tradicional ⌄», --s2) */
+.tester--min .tester__spec .kdd__btn{width:auto;min-width:0;justify-content:flex-start;gap:var(--s2)}
+
+/* Aplicaciones (local): los encabezados de capítulo usan el degradado de atardecer del carrusel de Prisma (EST-001) */
+body[data-area="aplicaciones"] .portal.portal--atardecer{background:url("../assets/img/ventanas/prisma-atardecer.webp") center / cover no-repeat,var(--k-atardecer)}
+
+/* DAT-002 (local): los colores corporativos disponibles se muestran en círculo */
+.dchip{border-radius:50%}

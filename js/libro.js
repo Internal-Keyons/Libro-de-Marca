@@ -1989,8 +1989,14 @@
       return { t: y, b: y + e.offsetHeight, l: x, r: x + e.offsetWidth };
     };
     const quitadas = [];
+    /* Una línea también puede ser una sombra interior de 1 a 2 px (box-shadow inset 0 ±n 0): arriba si n > 0, abajo si n < 0 */
+    const sombra = (cs) => {
+      const m = /(-?[\d.]+)px (-?[\d.]+)px 0px(?: 0px)? inset/.exec(cs.boxShadow || '');   // calculado: «color 0px -1px 0px 0px inset»
+      const n = m && parseFloat(m[1]) === 0 ? parseFloat(m[2]) : 0;
+      return { top: n > 0 && n <= 2, bottom: n < 0 && n >= -2, sola: !(cs.boxShadow || '').replace(/\([^)]*\)/g, '').includes(',') };   // una sola sombra (las comas de rgb() no cuentan)
+    };
     const unaLinea = () => {
-      quitadas.splice(0).forEach((e) => { e.style.borderBottomColor = ''; });
+      quitadas.splice(0).forEach((e) => { e.style.borderBottomColor = ''; e.style.boxShadow = ''; });
       if (!raiz) return;
       const lineas = [], cont = [];
       raiz.querySelectorAll('*').forEach((e) => {
@@ -2000,8 +2006,10 @@
         const lado = (s) => parseFloat(cs[`border${s}Width`]) > 0 && cs[`border${s}Style`] !== 'none' && cs[`border${s}Color`] !== 'rgba(0, 0, 0, 0)';
         /* Una caja, con borde a ambos lados, no es una línea divisoria */
         if (k.r - k.l >= 120 && !(lado('Left') && lado('Right'))) {
-          if (lado('Top')) lineas.push({ y: k.t, l: k.l, r: k.r, e, abre: true });
+          const sh = sombra(cs);
+          if (lado('Top') || sh.top) lineas.push({ y: k.t, l: k.l, r: k.r, e, abre: true });
           if (lado('Bottom')) lineas.push({ y: k.b, l: k.l, r: k.r, e, abre: false });
+          else if (sh.bottom && sh.sola) lineas.push({ y: k.b, l: k.l, r: k.r, e, abre: false, sombra: true });
         }
         if (/^(IMG|CANVAS|VIDEO|PICTURE)$/.test(e.tagName) || [...e.childNodes].some((n) => n.nodeType === 3 && /\S/.test(n.data))) cont.push(k);
       });
@@ -2014,10 +2022,10 @@
       lineas.forEach((a, i) => {
         if (a.abre) return;
         const b = lineas.slice(i + 1).find((x) => x.abre && x.y - a.y > 1 && Math.min(a.r, x.r) - Math.max(a.l, x.l) > 0.6 * Math.min(a.r - a.l, x.r - x.l));
-        if (!b || b.y - a.y > 140) return;
+        if (!b || b.e === a.e || b.y - a.y > 200) return;   // hasta 200 px de espacio vacío; una misma caja no forma pareja
         const l = Math.max(a.l, b.l), r = Math.min(a.r, b.r);
         if (cont.some((c) => c.b > a.y + 1 && c.t < b.y - 1 && c.r > l && c.l < r)) return;
-        a.e.style.borderBottomColor = 'transparent';
+        if (a.sombra) a.e.style.boxShadow = 'none'; else a.e.style.borderBottomColor = 'transparent';
         quitadas.push(a.e);
       });
     };
