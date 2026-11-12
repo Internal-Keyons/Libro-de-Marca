@@ -486,6 +486,19 @@
     });
   }
 
+  /* 8.4 · Párrafos: cada estilo toma sus medidas de js/tipografia-datos.js, la misma fuente de 8.2 y 8.3 */
+  if (window.KEYONS_TIPO) document.querySelectorAll('[data-par]').forEach((b) => {
+    const T = window.KEYONS_TIPO, n = T.niveles.find((x) => x.k === b.dataset.par);
+    if (!n) return;
+    const ej = b.querySelector('.par__ej'), fam = T.familias[n.f];
+    Object.assign(ej.style, { fontFamily: n.f === 'tasa' ? 'var(--font-display)' : 'var(--font-sans)', fontSize: n.min + 'px', fontWeight: n.peso, lineHeight: n.lh,
+      letterSpacing: (n.tr || 0) / 100 + 'em', textTransform: n.mayus ? 'uppercase' : 'none' });
+    const dato = (k, v) => `<div class="tester__fx"><span class="kdd__t">${k}</span><span>${v}</span></div>`;
+    const tr = n.tr ? `${n.tr > 0 ? '+' : '−'}${Math.abs(n.tr)} %` : '0 %';
+    b.querySelector('.par__spec').innerHTML = dato('Estilo', n.n) + dato('Familia', fam + (n.mayus ? ' · mayúsculas' : '')) + dato('Peso', n.peso)
+      + dato('Tamaño', n.min + ' px') + dato('Interlineado', String(n.lh).replace('.', ',')) + dato('Tracking', tr);
+  });
+
   /* 6.11 · Aplicaciones del isotipo: tres fondos por ícono; descarga del SVG y del PNG al tamaño exacto */
   document.querySelectorAll('[data-appic]').forEach((card) => {
     const vs = [...card.querySelectorAll('.appic__v')], stage = card.querySelector('.appic__stage');

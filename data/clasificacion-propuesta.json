@@ -2,7 +2,7 @@
  "estado": "Propuesta pendiente de aprobación humana",
  "regla": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
  "resumen": {
-  "normas": 128,
+  "normas": 129,
   "requisitos": 230,
   "por_nivel": {
    "DEBE": 90,
@@ -2575,6 +2575,19 @@
    "titulo": "Uso por función",
    "estado": "vigente",
    "fuente": "fundamentos/tipografia/sistema.html#funcion",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-TYP-007",
+   "titulo": "Párrafos",
+   "estado": "borrador",
+   "fuente": "fundamentos/tipografia/sistema.html#parrafos",
    "ambito_propuesto": [
     "identidad",
     "web",

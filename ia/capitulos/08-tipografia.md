@@ -8,8 +8,8 @@ titulo: "Tipografía"
 area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/tipografia/sistema.html"]
-normas: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-004", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006"]
-referencias: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-004", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006"]
+normas: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-007", "KYN-MRK-TYP-004", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006"]
+referencias: ["KYN-MRK-TYP-001", "KYN-MRK-TYP-002", "KYN-MRK-TYP-003", "KYN-MRK-TYP-004", "KYN-MRK-TYP-005", "KYN-MRK-TYP-006", "KYN-MRK-TYP-007"]
 ---
 
 # Capítulo 08 · Tipografía
@@ -23,6 +23,7 @@ Plus Jakarta Sans y TASA Orbiter: escala, jerarquía y reglas.
 - Familias tipográficas · borrador · `/fundamentos/tipografia/sistema.html#familias`
 - Escala y jerarquía · borrador · `/fundamentos/tipografia/sistema.html#escala`
 - Probador tipográfico · borrador · `/fundamentos/tipografia/sistema.html#probador`
+- Párrafos · borrador · `/fundamentos/tipografia/sistema.html#parrafos`
 - Etiquetas de contexto · borrador · `/fundamentos/tipografia/sistema.html#kickers`
 - Criterios de aplicación · borrador · `/fundamentos/tipografia/sistema.html#reglas`
 - Uso por función · vigente · `/fundamentos/tipografia/sistema.html#funcion`
@@ -189,6 +190,24 @@ Tamaño
 #### Jerarquía editorial invertida
 
 Las combinaciones adicionales requerirán validación antes de formar parte de los valores oficiales.
+
+## KYN-MRK-TYP-007 · 8.4 Párrafos
+
+Número: 8.4 · ID: `KYN-MRK-TYP-007` · Estado: borrador · Fuente: `/fundamentos/tipografia/sistema.html#parrafos`
+
+### Cada párrafo, con sus medidas
+
+Los estilos de texto corrido del libro, con un ejemplo real y **los valores para aplicarlos**: familia, peso, tamaño, interlineado y tracking.
+
+El cielo es el único lenguaje visual que no necesita traducción. Cualquiera lo entiende, en cualquier idioma y cultura.
+
+Keyons nace en Costa Rica, así que sus primeros cielos son costarricenses: el amanecer del Valle Central, el atardecer de Guanacaste, la noche del Chirripó.
+
+Son su firma de origen. Cuando la marca llega a un nuevo país, suma los cielos de ese lugar, siempre con fotografías reales.
+
+Excepción cósmica
+
+Capítulo 08 · Fundamentos
 
 ## KYN-MRK-TYP-004 · 8.5 Etiquetas de contexto
 

@@ -1277,6 +1277,17 @@
    "excepciones": [],
    "relacionadas": []
   },
+  "KYN-MRK-TYP-007": {
+   "titulo": "Párrafos",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
   "KYN-MRK-VIS-001": {
    "titulo": "Jerarquía visual repetitiva",
    "estado": "vigente",

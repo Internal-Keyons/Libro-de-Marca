@@ -77,6 +77,7 @@ window.KEYONS_NAV = [
         { t: 'Acción y superficies', s: 'b', href: 'fundamentos/color/funcionales.html#accion' } ] },
       { n: '08', k: 'tipografia', was: '07', t: 'Tipografía', s: 'b', d: 'Plus Jakarta Sans y TASA Orbiter: escala, jerarquía y reglas.', items: [
         { t: 'Familias tipográficas', st: 'Familias', s: 'b', href: 'fundamentos/tipografia/sistema.html#familias' }, { t: 'Escala y jerarquía', s: 'b', href: 'fundamentos/tipografia/sistema.html#escala' }, { t: 'Probador tipográfico', st: 'Probador', s: 'b', href: 'fundamentos/tipografia/sistema.html#probador' },
+        { t: 'Párrafos', s: 'b', href: 'fundamentos/tipografia/sistema.html#parrafos' },
         { t: 'Etiquetas de contexto', st: 'Etiquetas', s: 'b', href: 'fundamentos/tipografia/sistema.html#kickers' },
         { t: 'Criterios de aplicación', st: 'Criterios', s: 'b', href: 'fundamentos/tipografia/sistema.html#reglas' }, { t: 'Uso por función', s: 'v', href: 'fundamentos/tipografia/sistema.html#funcion' }, { t: 'Tracking y espaciado de letras', st: 'Tracking', s: 'b', href: 'fundamentos/tipografia/sistema.html#tracking' }, { t: 'Tipografía para impresión', st: 'Impresión', s: 'b', href: 'fundamentos/tipografia/sistema.html#impreso' } ] },
       { n: '09', k: 'forma', was: '08', t: 'Geometría y espacio', st: 'Geometría y espacio', s: 'v', d: 'El lenguaje geométrico de Keyons: esquinas, radios y espacio.', items: [

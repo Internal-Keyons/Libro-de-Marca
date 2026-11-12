@@ -8,7 +8,7 @@
 
 | Dato | Valor |
 |---|---|
-| Normas inventariadas | 128 |
+| Normas inventariadas | 129 |
 | Requisitos detectados | 230 |
 | DEBE | 90 |
 | NO DEBE | 84 |
@@ -224,6 +224,7 @@ Ninguna.
 | KYN-MRK-TYP-004 | 0 | 0 | 0 | 0 |
 | KYN-MRK-TYP-005 | 3 | 1 | 1 | 0 |
 | KYN-MRK-TYP-006 | 0 | 0 | 0 | 0 |
+| KYN-MRK-TYP-007 | 0 | 0 | 0 | 0 |
 | KYN-MRK-VIS-001 | 1 | 0 | 0 | 0 |
 | KYN-MRK-VIS-002 | 1 | 0 | 0 | 1 |
 | KYN-MRK-VIS-003 | 1 | 1 | 0 | 0 |

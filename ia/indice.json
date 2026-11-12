@@ -191,6 +191,7 @@
       "KYN-MRK-TYP-001",
       "KYN-MRK-TYP-002",
       "KYN-MRK-TYP-003",
+      "KYN-MRK-TYP-007",
       "KYN-MRK-TYP-004",
       "KYN-MRK-TYP-005",
       "KYN-MRK-TYP-006"
@@ -2094,6 +2095,19 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/tipografia/sistema.html#funcion",
    "markdown": "/ia/normas/KYN-MRK-TYP-006.md",
+   "referencias": [],
+   "citada_por": []
+  },
+  {
+   "id": "KYN-MRK-TYP-007",
+   "titulo": "Párrafos",
+   "numero": "8.4",
+   "rotulo": "Párrafos",
+   "estado": "borrador",
+   "capitulo": "08",
+   "area": "fundamentos",
+   "fuente": "/fundamentos/tipografia/sistema.html#parrafos",
+   "markdown": "/ia/normas/KYN-MRK-TYP-007.md",
    "referencias": [],
    "citada_por": []
   },

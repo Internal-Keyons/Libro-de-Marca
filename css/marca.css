@@ -69,3 +69,8 @@
 .camp__mat li{display:flex;justify-content:space-between;gap:var(--s4);padding:var(--s3) 0;border-bottom:1px solid var(--color-border);font-size:var(--fs-16)}
 .camp__mat li span{font-size:var(--fs-14);color:var(--color-text-3)}
 .camp__src .matrix__row{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+
+/* TYP-007 · Párrafos (8.4): el ejemplo en su estilo y debajo sus medidas, con el mismo espacio del probador */
+.par{margin-top:var(--s16)}
+.par__ej{max-width:var(--measure);color:var(--k-noche)}
+.par .par__spec{margin-top:var(--s6)}
