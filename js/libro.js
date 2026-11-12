@@ -1465,9 +1465,9 @@
     const go = (i) => { k = (i + n) % n; onGo(k); };
     const play = () => { clearInterval(t); if (!still && ms) t = setInterval(() => go(k + 1), ms); };   // ms 0: sin avance automático
     el.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); go(k + (e.key === 'ArrowRight' ? 1 : -1)); play(); } });
-    let seen = false, inview = !('IntersectionObserver' in window);
-    const run = () => { clearInterval(t); if (inview) play(); };
-    el.addEventListener('mouseenter', () => clearInterval(t)); el.addEventListener('mouseleave', run);
+    let seen = false, inview = !('IntersectionObserver' in window), encima = false;
+    const run = () => { clearInterval(t); if (inview && !encima) play(); };
+    el.addEventListener('mouseenter', () => { encima = true; clearInterval(t); }); el.addEventListener('mouseleave', () => { encima = false; run(); });
     if (!inview) new IntersectionObserver(([en]) => { inview = en.isIntersecting; if (inview && !seen) { seen = true; go(0); } run(); }, { threshold: .35 }).observe(el);
     go(0); run();
     return { go: (i) => { go(i); run(); }, at: () => k };
@@ -1496,6 +1496,34 @@
       { transform: `translateX(${x(a)}px)`, borderRadius: forma(a), opacity: 0 }
     ], { duration: msVar('--m-base') * 1.4, easing: getComputedStyle(document.documentElement).getPropertyValue('--e-io').trim() || 'ease-in-out' });
   };
+  /* Carruseles de imágenes (reglas-visuales 3.5): dos flechas dentro de la imagen, que aparecen al pasar el cursor
+     o al llegar con el teclado, y los puntos centrados debajo. Se arman aquí para que todo carrusel nuevo las tenga. */
+  const flechas = (host) => host.insertAdjacentHTML('beforeend',
+    `<button class="car__fl car__fl--prev" type="button" data-cs="-1" aria-label="Anterior">${ic(I.left)}</button><button class="car__fl car__fl--next" type="button" data-cs="1" aria-label="Siguiente">${ic(I.right)}</button>`);
+  const conFlechas = (el, c) => el.querySelectorAll('[data-cs]').forEach((b) => b.addEventListener('click', (e) => { e.stopPropagation(); c.go(c.at() + Number(b.dataset.cs)); }));
+  document.querySelectorAll('[data-icar]').forEach((el) => {
+    const st = el.querySelector('.icar__stage'), pts = el.querySelector('.icar__nav');
+    if (st && !st.parentElement.classList.contains('icar__media')) {
+      const m = document.createElement('div');
+      m.className = 'icar__media';
+      st.before(m); m.appendChild(st); if (pts) m.appendChild(pts);
+      /* Un escenario con role="img" escondería las flechas a los lectores de pantalla: el nombre pasa a cada imagen */
+      if (st.getAttribute('role') === 'img') {
+        const nombre = st.getAttribute('aria-label');
+        st.removeAttribute('role'); st.removeAttribute('aria-label');
+        st.querySelectorAll('.icar__s:not([role])').forEach((x) => { x.setAttribute('role', 'img'); x.setAttribute('aria-label', nombre); });
+      }
+      flechas(st);
+    }
+  });
+  document.querySelectorAll('[data-tcar]').forEach((el) => {
+    const tr = el.querySelector('.tcar__track');
+    if (tr && !tr.parentElement.classList.contains('tcar__win')) {
+      const w = document.createElement('div');
+      w.className = 'tcar__win';
+      tr.before(w); w.appendChild(tr); flechas(w);
+    }
+  });
   document.querySelectorAll('[data-icar]').forEach((el) => {
     const ss = el.querySelectorAll('.icar__s'), its = el.querySelectorAll('.icar__it'), bs = el.querySelectorAll('[data-ci]');
     const ms = el.dataset.ms !== undefined ? Number(el.dataset.ms) : 3600, nav = el.querySelector('.icar__nav--pt');
@@ -1509,13 +1537,7 @@
       el.querySelector('.icar__stage').style.background = getComputedStyle(ss[k]).getPropertyValue('--bg');
     });
     bs.forEach((b) => b.addEventListener('click', () => c.go(Number(b.dataset.ci))));
-  });
-  /* ESP-004 · cada retícula muestra primero su estructura y, al entrar en pantalla, la misma composición con texto real */
-  document.querySelectorAll('.lvx__fig').forEach((f) => {
-    if (!f.querySelector('.lvx__tx')) return;
-    if (still || !('IntersectionObserver' in window)) { f.classList.add('is-tx'); return; }
-    const io = new IntersectionObserver(([e]) => { if (e.isIntersecting) { io.disconnect(); setTimeout(() => f.classList.add('is-tx'), msVar('--m-slow') * 2); } }, { threshold: .6 });
-    io.observe(f);
+    conFlechas(el, c);
   });
   /* ILU-007 · tarjetas en fila: el texto del estilo activo a la izquierda; avanza con los puntos, las flechas o un clic en otra tarjeta */
   document.querySelectorAll('[data-tcar]').forEach((el) => {
@@ -1532,6 +1554,7 @@
     });
     bs.forEach((b) => b.addEventListener('click', () => c.go(Number(b.dataset.ci))));
     cs.forEach((x, j) => x.addEventListener('click', () => c.go(j)));
+    conFlechas(el, c);
     addEventListener('resize', () => { tr.style.transform = `translateX(${-cs[c.at()].offsetLeft}px)`; });
   });
 

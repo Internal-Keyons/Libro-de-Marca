@@ -122,6 +122,8 @@
   --lvl-mark:8px;   /* igual que el punto de estado */
   /* Puntos de carrusel: círculo y cuadrado alternados · reglas-visuales 8 (piloto) */
   --mark-car:10px;
+  --car-arrow:36px;              /* flecha de carrusel: círculo del botón Ícono (reglas-visuales 4.2) */
+  --car-arrow-inset:var(--s4);   /* distancia de la flecha al borde de la imagen (reglas-visuales 3.5) */
 
   /* Movimiento */
   --m-fast:180ms; --m-base:300ms; --m-slow:520ms;
@@ -154,6 +156,10 @@
   --glass-bg:rgba(255,255,255,.24);
   --glass-bg-strong:rgba(244,244,244,.62);
   --glass-border:rgba(255,255,255,.5);
+  /* Portadas de los libros (reglas-visuales 1.12): Azul Cielo liso con la trama en línea blanca */
+  --cover-bg:var(--k-cielo);
+  --cover-line:rgba(255,255,255,.5);
+  --cover-line-hover:rgba(255,255,255,.8);
   --glass-blur:24px;
   --glass-shadow:var(--shadow-3);
 

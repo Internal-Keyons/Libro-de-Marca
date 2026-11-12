@@ -139,6 +139,11 @@ Los gráficos usan dos grises de la escala Azul Noche, cada uno con su función:
 - Un gris de dato DEBE ser `--chart-gris`; un fondo sin dato DEBE ser `--chart-vacio`, para que nunca se confundan.
 - NO DEBE usarse Azul Cielo claro como gris.
 
+### 1.12 Portadas de los libros
+
+- La portada de cada libro (selector de la Biblioteca y miniatura de la cabecera) DEBE ser Azul Cielo liso (`--cover-bg`) con su trama en línea blanca (`--cover-line`; al pasar el cursor, `--cover-line-hover`).
+- NO DEBE llevar degradado. Los libros en preparación se atenúan con el mismo color.
+
 ### 1.10 Valores sueltos (C08)
 
 - Todo color DEBE salir de un token.

@@ -1764,7 +1764,7 @@ body.is-area.side-min .doc{grid-template-columns:76px minmax(0,1fr)}
 .tsx--display{font-family:var(--font-display);font-weight:500;font-size:clamp(44px,5.4vw,80px);line-height:1;letter-spacing:-.04em}
 .tsx--title{font-size:clamp(30px,3.2vw,44px);font-weight:500;letter-spacing:-.03em;color:var(--color-text-title-muted)}
 .tsx--lead{font-size:20px;line-height:1.55;color:var(--color-text-2)}
-.tsx--body{font-size:17px;line-height:1.65;color:var(--color-text-2)}
+.tsx--body{font-size:var(--fs-16);line-height:1.65;color:var(--color-text-2)}
 .tester__out.kicker{display:flex;height:150px}
 .tester__meta{padding:var(--s3) 0;font-size:12px;color:var(--color-text-3);border-top:1px solid var(--color-border)}
 
@@ -5385,11 +5385,11 @@ body.bks-open{overflow:hidden}
 @media(hover:hover){.hdr__search:hover,.hdr--home:not(.is-solid) .hdr__search:hover{color:#fff}}
 
 /* Portadas de los libros: cielo Azul Cielo con la trama del libro en líneas blancas, como el cristal (ILU-004) */
-.bks__art{position:relative;color:rgba(255,255,255,.5);background:radial-gradient(120% 80% at 50% 108%,rgba(224,231,241,.75) 0%,rgba(224,231,241,0) 60%),linear-gradient(180deg,#4F78C2 0%,#729BDD 55%,#9DBBE4 100%);box-shadow:none}
+.bks__art{position:relative;color:var(--cover-line);background:var(--cover-bg);box-shadow:none}   /* reglas-visuales 1.12: portada lisa, sin degradado */
 .bks__art svg{position:absolute;inset:0}
-a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{background:radial-gradient(120% 80% at 50% 108%,rgba(224,231,241,.75) 0%,rgba(224,231,241,0) 60%),linear-gradient(180deg,#4F78C2 0%,#729BDD 55%,#9DBBE4 100%)}
+a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{background:var(--cover-bg)}
 .bks__art{transition:transform var(--m-base) var(--e-out),color var(--m-base)}
-a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)}
+a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hover)}
 .bks__it.is-off .bks__art{filter:saturate(.7)}
 
 /* Botón del libro: el chevrón se alinea con la altura de las minúsculas */
@@ -6058,18 +6058,6 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)
 .tester--min .tester__comp{margin-top:var(--s16);padding:var(--s10) 0 0;border-top:1px solid var(--color-border)}
 .tester--min .tester__sizes{margin-top:var(--s6);padding:0;border:0}
 
-/* ESP-004 · la retícula pasa de rectángulos a texto real al entrar en pantalla; al pasar el cursor se vuelve a ver la estructura */
-.lvx__bx,.lvx__tx{transition:opacity var(--m-slow) var(--e-io)}
-.lvx__tx{opacity:0}
-.lvx__tx text{fill:var(--k-noche);font-family:var(--font-sans)}
-.lvx__tx .lvx__h{font-weight:600}
-.lvx__tx .lvx__d{font-family:var(--font-display);font-weight:500;letter-spacing:-.03em}
-.lvx__tx .lvx__p{fill:var(--color-text-2)}
-.lvx__fig.is-tx .lvx__bx{opacity:0}
-.lvx__fig.is-tx .lvx__tx{opacity:1}
-.lvx__fig.is-tx:hover .lvx__bx{opacity:1}
-.lvx__fig.is-tx:hover .lvx__tx{opacity:0}
-@media(prefers-reduced-motion:reduce){.lvx__bx,.lvx__tx{transition:none}}
 
 /* ═══ Biblioteca · P1 y P4 ═══ */
 /* En la Guía ningún libro es el actual: los seis mosaicos van en una fila (en móvil, 3 × 2) */
@@ -6077,3 +6065,19 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)
 @media(max-width:600px){.bks__list--todos{grid-template-columns:repeat(3,minmax(0,1fr))}}
 /* Buscador de la Biblioteca: cada resultado nombra su libro */
 .search__res .r-lib{font-weight:500;color:var(--color-text-2)}
+
+/* ═══ Carruseles de imágenes · reglas-visuales 3.5 ═══ */
+/* La imagen y sus puntos van juntos: los puntos centrados debajo; las flechas dentro de la imagen, a los lados */
+.icar__media{min-width:0}
+.icar__media .icar__nav,.tcar .icar__nav--pt{justify-content:center}
+.icar__media .icar__nav{margin-top:var(--s5)}
+.icar__txt:empty{display:none}
+.tcar__win{position:relative;overflow:hidden}
+.car__fl{position:absolute;top:50%;z-index:3;display:grid;place-items:center;width:var(--car-arrow);height:var(--car-arrow);margin-top:calc(var(--car-arrow) / -2);border-radius:50%;
+  color:var(--k-noche);background:var(--k-puro);box-shadow:0 0 0 1px var(--color-border);opacity:0;transition:opacity var(--m-fast) var(--e-out),background-color var(--m-fast) var(--e-out),color var(--m-fast) var(--e-out)}
+.car__fl--prev{left:var(--car-arrow-inset)}
+.car__fl--next{right:var(--car-arrow-inset)}
+.car__fl svg{width:var(--s5);height:var(--s5);stroke:currentColor;stroke-width:var(--icon-stroke);fill:none}
+.icar__stage:hover .car__fl,.tcar__win:hover .car__fl,[data-kbd] .car__fl:focus-visible,[data-kbd] .icar:focus .car__fl,[data-kbd] .tcar:focus .car__fl{opacity:1}
+.car__fl:hover{background:var(--k-noche);color:var(--k-blanco);box-shadow:none}   /* reglas-visuales 4.2: lleno de Azul Noche, sin borde */
+@media(hover:none){.car__fl{opacity:1}}

@@ -8,3 +8,21 @@
    Solo las páginas del Libro de Marca cargan esta hoja: un cambio aquí no alcanza al Sistema de Diseño.
    tools/verificar.py comprueba que ninguna página de otro libro la cargue.
    ═══════════════════════════════════════════════════════════════ */
+
+/* ILU-007 · Tratamientos atmosféricos (local): una imagen a la vez, a todo el ancho del visor y con su proporción original, sin recorte */
+.tcar{grid-template-columns:minmax(0,4fr) minmax(0,8fr)}
+.tcar__track{gap:0}
+.tcar__c{flex:0 0 100%;aspect-ratio:16/10;cursor:default}
+@media(max-width:900px){.tcar{grid-template-columns:minmax(0,1fr)}}
+
+/* TYP-003 · Probador (local) */
+/* El mismo espacio bajo el ejemplo en los cinco niveles: sin alto fijo para Etiqueta */
+.tester--min .tester__out{padding:var(--s6) 0 0}
+.tester--min .tester__out.kicker{height:auto;font-family:var(--font-display)}
+.tester--min .tester__out + .tester__spec{margin-top:var(--s16)}
+/* Datos fijos (Familia y Tamaño) y desplegables (Peso, Interlineado y Tracking) en dos grupos */
+.tester__sep{flex:0 0 var(--s4)}
+.tester--min .tester__spec .kdd__btn,.tester--min .tester__spec .kdd__v{font-size:var(--fs-16)}
+/* Composición: el ejemplo, sus tamaños debajo y después los controles que la modifican */
+.tester--min .tester__sizes{margin-top:var(--s16)}
+.tester--min .tester__sizes + .tester__spec{margin-top:var(--s6)}
