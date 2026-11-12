@@ -8,7 +8,7 @@
 
 | Dato | Valor |
 |---|---|
-| Normas inventariadas | 126 |
+| Normas inventariadas | 128 |
 | Requisitos detectados | 230 |
 | DEBE | 90 |
 | NO DEBE | 84 |
@@ -192,6 +192,7 @@ Ninguna.
 | KYN-MRK-LOG-008 | 0 | 1 | 0 | 2 |
 | KYN-MRK-LOG-009 | 0 | 0 | 0 | 0 |
 | KYN-MRK-LOG-010 | 2 | 0 | 0 | 1 |
+| KYN-MRK-LOG-011 | 0 | 0 | 0 | 0 |
 | KYN-MRK-PER-001 | 0 | 1 | 0 | 0 |
 | KYN-MRK-PER-002 | 0 | 0 | 0 | 0 |
 | KYN-MRK-PER-003 | 0 | 0 | 0 | 0 |
@@ -212,6 +213,7 @@ Ninguna.
 | KYN-MRK-PRE-012 | 0 | 2 | 0 | 0 |
 | KYN-MRK-PRE-013 | 0 | 0 | 0 | 0 |
 | KYN-MRK-PRE-014 | 0 | 1 | 0 | 0 |
+| KYN-MRK-RED-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-REF-001 | 0 | 2 | 0 | 0 |
 | KYN-MRK-REF-002 | 0 | 0 | 0 | 0 |
 | KYN-MRK-TEC-001 | 0 | 1 | 0 | 0 |

@@ -2,7 +2,7 @@
  "estado": "Propuesta pendiente de aprobación humana",
  "regla": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
  "resumen": {
-  "normas": 126,
+  "normas": 128,
   "requisitos": 230,
   "por_nivel": {
    "DEBE": 90,
@@ -2060,6 +2060,19 @@
    ]
   },
   {
+   "id": "KYN-MRK-LOG-011",
+   "titulo": "Aplicaciones digitales",
+   "estado": "borrador",
+   "fuente": "fundamentos/identidad/isotipo.html#aplicaciones",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
    "id": "KYN-MRK-PER-001",
    "titulo": "Tres modelos",
    "estado": "vigente",
@@ -2370,6 +2383,19 @@
      "texto": "La hace una segunda persona, con la presentación abierta. 0 de 10ReiniciarUna idea por diapositivaSi hay dos titulares, son dos diapositivas.Titulares que afirmanLeídos en orden, cuentan la historia.Dentro de los límites12 palabras de titular y 3 viñetas por bloque.Nada por debajo de 18 pxNi el pie ni las fuentes.Contraste medidoSolo grises oficiales; fotos siempre con velo.Salmón solo para el dato claveY nunca sobre Azul Cielo.Cada cifra con su fuenteQuién midió y cuándo.Notas en cinco líneasTiempo, objetivo, se dice, interacción y transición.Revisó otra personaAlguien que no armó la presentación.Ensayo cronometradoSi no cabe, se quitan diapositivas."
     }
    ]
+  },
+  {
+   "id": "KYN-MRK-RED-001",
+   "titulo": "Archivo de campañas",
+   "estado": "borrador",
+   "fuente": "aplicaciones/campanas.html#archivo",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
   },
   {
    "id": "KYN-MRK-REF-001",

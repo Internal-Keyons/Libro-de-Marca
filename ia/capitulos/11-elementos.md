@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-11"
+fecha: "2026-11-12"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "11"
 titulo: "Elementos gráficos"

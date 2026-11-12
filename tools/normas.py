@@ -49,6 +49,10 @@ NUEVAS = {
     'recursos/tecnicos.html#tecnicos': ('KYN-MRK-TEC-001', 'Recursos técnicos'),
     # 05 · Estela (2026-11-11, en borrador): una norma por sección, desde capitulo-05-estela.md
     'marca/estela.html#quien': ('KYN-MRK-EST-001', 'Quién es Estela', 'borrador'),
+    # 06 · Isotipo (2026-11-12, en borrador): favicon, Apple Touch Icon e íconos PWA
+    'fundamentos/identidad/isotipo.html#aplicaciones': ('KYN-MRK-LOG-011', 'Aplicaciones digitales', 'borrador'),
+    # 21 · Redes y campañas (2026-11-12, en borrador): archivo de campañas aprobadas
+    'aplicaciones/campanas.html#archivo': ('KYN-MRK-RED-001', 'Archivo de campañas', 'borrador'),
 }
 
 # Traslados (2026-11, consolidación de Fundamentos): ruta anterior → ruta vigente

@@ -260,7 +260,8 @@ El radio de una esquina curva sale del **lado corto** del elemento:
 ### 3.5 Composición editorial
 
 - **R01 · Sin cajas por defecto:** la información se ordena con rótulo a la izquierda, contenido a la derecha, líneas finas y espacio negativo. Una tarjeta solo cuando agrupa algo.
-- **R02 · Viñetas:** miden 20 px y dejan 20 px hasta el texto. En listas de color alternan círculo y cuadrado, en secuencia Azul Cielo → Salmón Tierra. Las listas cortas van en Azul Noche.
+- **R02 · Viñetas:** miden 20 px y dejan 20 px hasta el texto. Las viñetas DEBEN alternar círculo y cuadrado en toda lista, también en las listas cortas Azul Noche: círculo, cuadrado, círculo… NO DEBE haber una lista de una sola forma. En listas de color la secuencia es Azul Cielo → Salmón Tierra; las listas cortas van en Azul Noche.
+- **R21 · Carruseles de imágenes:** todo carrusel de imágenes DEBE tener dos flechas dentro de la imagen, a los lados y centradas en vertical, a `--car-arrow-inset` del borde. Son el botón Ícono de 4.2 (`--car-arrow`, 36 px) en Blanco Puro con ícono Azul Noche; al pasar el cursor se llenan de Azul Noche, sin borde. Aparecen al pasar el cursor por la imagen o al llegar con el teclado; en pantallas táctiles se ven siempre. Los puntos DEBEN ir centrados debajo de la imagen. Una imagen de carrusel DEBE mostrarse completa, con su proporción, sin asomar la siguiente. `js/libro.js` arma flechas y puntos en todo `[data-icar]` y `[data-tcar]`.
 - **R03 · Sin tachados:** lo que no se usa va en gris o con la etiqueta «Antes».
 - **R12 · Menús desplegables:** ventana recta, hacia abajo y pegada al campo.
 - **R13 · Tablas:** filete Cielo arriba y abajo, columnas separadas por barras continuas de 4 px en Cielo 200.

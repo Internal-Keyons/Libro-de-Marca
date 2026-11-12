@@ -486,6 +486,41 @@
     });
   }
 
+  /* 6.11 · Aplicaciones del isotipo: tres fondos por ícono; descarga del SVG y del PNG al tamaño exacto */
+  document.querySelectorAll('[data-appic]').forEach((card) => {
+    const vs = [...card.querySelectorAll('.appic__v')], stage = card.querySelector('.appic__stage');
+    const nameEl = card.querySelector('.vbar__name'), dots = card.querySelectorAll('.vbar__dots i'), count = card.querySelector('.vbar__count');
+    const guardar = (blob, nombre) => { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = nombre; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1500); };
+    let i = 0;
+    const set = (n) => {
+      i = (n + vs.length) % vs.length;
+      vs.forEach((v, j) => v.classList.toggle('is-on', j === i));
+      const v = vs[i];
+      dots[0].style.background = v.dataset.fg; dots[1].style.background = v.dataset.bg;
+      nameEl.textContent = v.dataset.name;
+      count.textContent = `0${i + 1} / 0${vs.length}`;
+    };
+    card.addEventListener('click', (e) => {
+      const st = e.target.closest('[data-cstep]');
+      if (st) { e.stopPropagation(); return set(i + Number(st.dataset.cstep)); }
+      const d = e.target.closest('[data-dl]');
+      if (!d) return;
+      const svg = vs[i].querySelector('svg').outerHTML.replace(/ role="img" aria-label="[^"]*"/, '');
+      const nombre = `keyons-${card.dataset.appic}-${vs[i].dataset.slug}`;
+      if (d.dataset.dl === 'svg') return guardar(new Blob([svg], { type: 'image/svg+xml' }), nombre + '.svg');
+      const px = Number(d.dataset.px), img = new Image();
+      const src = URL.createObjectURL(new Blob([svg.replace('<svg ', `<svg width="${px}" height="${px}" `)], { type: 'image/svg+xml' }));
+      img.onload = () => {
+        const cv = document.createElement('canvas'); cv.width = px; cv.height = px;
+        cv.getContext('2d').drawImage(img, 0, 0, px, px);
+        URL.revokeObjectURL(src);
+        cv.toBlob((b) => guardar(b, `${nombre}-${px}.png`), 'image/png');
+      };
+      img.src = src;
+    });
+    set(0);
+  });
+
   /* Tipografía: los pesos se prueban sobre la muestra */
   document.querySelectorAll('[data-weights]').forEach((list) => {
     const plate = list.closest('.plate');
@@ -1073,7 +1108,11 @@
     btn.addEventListener('click', (e) => { e.stopPropagation(); const open = panel.hidden; panel.hidden = !open; btn.setAttribute('aria-expanded', String(open)); });
     panel.addEventListener('click', (e) => {
       const o = e.target.closest('button'); if (!o) return;
-      if (val) val.textContent = o.dataset.label || o.textContent;
+      if (o.classList.contains('fpop__fold')) {   // sección plegable: abre o cierra su grupo
+        const b = document.getElementById(o.getAttribute('aria-controls')), abre = b.hidden;
+        b.hidden = !abre; o.setAttribute('aria-expanded', String(abre)); return;
+      }
+      if (val && !pop.hasAttribute('data-fpop-count')) val.textContent = o.dataset.label || o.textContent;
       if (!pop.hasAttribute('data-fpop-multi')) close();
     });
     document.addEventListener('click', (e) => { if (!pop.contains(e.target)) close(); });
@@ -1083,8 +1122,11 @@
   /* Galería de fotografía: filtros, búsqueda, ficha con descargas y tratamientos de marca */
   document.querySelectorAll('[data-gal]').forEach((gal) => {
     const cards = [...gal.querySelectorAll('.gph')], q = gal.querySelector('.gal__q'), count = gal.querySelector('.gal__count');
+    /* Filtros (24.1): dentro de un grupo, varias opciones son alternativas; entre grupos se combinan para acotar.
+       Una imagen puede tener varios usos y varias composiciones (data-uso, data-comp, separados por espacio). */
     const sel = {};
-    gal.querySelectorAll('[data-gf]').forEach((b) => { sel[b.dataset.gf.split(':')[0]] = ''; });
+    gal.querySelectorAll('[data-gf]').forEach((b) => { sel[b.dataset.gf.split(':')[0]] = new Set(); });
+    const vacio = gal.querySelector('.gal__empty'), gslEl = gal.querySelector('[data-gsl]');
     /* Carrusel de la galería (Recursos): la imagen actual al frente, la siguiente asoma; avanza sola y con las flechas */
     const gsl = gal.querySelector('[data-gsl]');
     const slide = gsl && (() => {
@@ -1118,35 +1160,47 @@
     })();
     const view = (v) => { gal.dataset.view = v; gal.querySelectorAll('[data-gv]').forEach((o) => o.setAttribute('aria-pressed', String(o.dataset.gv === v))); };
     gal.querySelectorAll('[data-gv]').forEach((b) => b.addEventListener('click', () => view(b.dataset.gv)));
-    setTimeout(() => {   // ?tipo=cielo abre la galería ya filtrada
-      new URLSearchParams(location.search).forEach((v, k) => { const b = gal.querySelector(`[data-gf="${k}:${v}"]`); if (b) b.click(); });
+    /* ?tipo=cielo abre la galería ya filtrada; ?q=ky-001 busca. Los enlaces anteriores a la clasificación de 2026-11-12 siguen funcionando:
+       «personas» reúne Personas en contexto y Equipo Keyons; «stock» abre las imágenes de stock propio, hoy en Personas en contexto y Producto en uso */
+    const ALIAS = { 'tipo:personas': ['tipo:personas', 'tipo:equipo'], 'tipo:stock': ['tipo:personas', 'tipo:producto'] };
+    setTimeout(() => {
+      new URLSearchParams(location.search).forEach((v, k) => {
+        if (k === 'q') { q.value = v; filter(); return; }
+        (ALIAS[`${k}:${v}`] || [`${k}:${v}`]).forEach((x) => { const b = gal.querySelector(`[data-gf="${x}"]`); if (b && b.getAttribute('aria-pressed') !== 'true') b.click(); });
+      });
     }, 0);
     const filter = () => {
       const v = (q.value || '').trim().toLowerCase(); let k = 0;
       cards.forEach((c) => {
-        const on = Object.keys(sel).every((g) => !sel[g] || c.dataset[g] === sel[g]) && (!v || c.dataset.q.includes(v));
+        const on = Object.keys(sel).every((g) => !sel[g].size || (c.dataset[g] || '').split(' ').some((x) => sel[g].has(x))) && (!v || c.dataset.q.includes(v));
         c.hidden = !on; if (on) k += 1;
       });
       const [u1, u2] = (gal.dataset.unit || 'imagen|imágenes').split('|');
       count.textContent = `${k} ${k === 1 ? u1 : u2}`;
-      if (v || Object.values(sel).some(Boolean)) view('grid');   // al filtrar, se ven todas en retícula
+      if (v || Object.values(sel).some((x) => x.size)) view('grid');   // al filtrar, se ven todas en retícula
+      if (vacio) { vacio.hidden = k > 0; if (gslEl) gslEl.hidden = !k; }   // estado vacío claro, con el control para limpiar
       if (slide) slide.go(0);
     };
     q.addEventListener('input', filter);
     const allB = gal.querySelector('[data-gall]');
-    const syncAll = () => { const n = Object.values(sel).filter(Boolean).length; if (allB) allB.setAttribute('aria-pressed', String(!n)); return n; };
-    if (allB) allB.addEventListener('click', () => {
-      Object.keys(sel).forEach((g) => { sel[g] = ''; });
+    const syncAll = () => {
+      const n = Object.values(sel).reduce((t, x) => t + x.size, 0);
+      if (allB) allB.setAttribute('aria-pressed', String(!n));
+      gal.querySelector('.fpop__val').textContent = n ? `· ${n}` : '';   // «Filtros · 3»
+      return n;
+    };
+    const limpiar = () => {
+      Object.values(sel).forEach((x) => x.clear()); q.value = '';
       gal.querySelectorAll('[data-gf]').forEach((o) => o.setAttribute('aria-pressed', 'false'));
-      syncAll(); gal.querySelector('.fpop__val').textContent = ''; filter();
-    });
+      syncAll(); filter();
+    };
+    if (allB) allB.addEventListener('click', limpiar);
+    gal.querySelectorAll('[data-gclear]').forEach((b) => b.addEventListener('click', limpiar));
     gal.querySelectorAll('[data-gf]').forEach((b) => b.addEventListener('click', () => {
       const [g, v] = b.dataset.gf.split(':');
-      sel[g] = sel[g] === v ? '' : v;
-      gal.querySelectorAll(`[data-gf^="${g}:"]`).forEach((o) => o.setAttribute('aria-pressed', String(!!sel[g] && o === b)));
-      const n = syncAll();
-      gal.querySelector('.fpop__val').textContent = n ? String(n) : '';
-      filter();
+      if (sel[g].has(v)) sel[g].delete(v); else sel[g].add(v);
+      b.setAttribute('aria-pressed', String(sel[g].has(v)));
+      syncAll(); filter();
     }));
     const dlg = gal.querySelector('.gal__dlg'), img = dlg.querySelector('.gal__big'), meta = dlg.querySelector('.gal__meta'), wshRow = dlg.querySelector('.gal__wsh');
     let cur = null;

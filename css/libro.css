@@ -6081,3 +6081,17 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
 .icar__stage:hover .car__fl,.tcar__win:hover .car__fl,[data-kbd] .car__fl:focus-visible,[data-kbd] .icar:focus .car__fl,[data-kbd] .tcar:focus .car__fl{opacity:1}
 .car__fl:hover{background:var(--k-noche);color:var(--k-blanco);box-shadow:none}   /* reglas-visuales 4.2: lleno de Azul Noche, sin borde */
 @media(hover:none){.car__fl{opacity:1}}
+
+/* ═══ Desplegable de filtros: secciones plegables y pantallas chicas ═══ */
+/* El título del grupo se abre y se cierra; su signo + pasa a − (mismo rótulo que los demás grupos) */
+.fpop__panel > .fpop__fold{display:flex;align-items:center;justify-content:space-between;width:100%;padding:var(--s2) var(--s2) var(--s1);background:none;font-size:var(--fs-12);font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--color-text-3);cursor:pointer}
+.fpop__panel > .fpop__fold:hover{background:none;color:var(--k-noche)}
+.fpop__fold i{position:relative;flex:none;width:var(--s3);height:var(--s3)}
+.fpop__fold i::before,.fpop__fold i::after{content:"";position:absolute;left:0;right:0;top:50%;height:var(--line-w-control);margin-top:calc(var(--line-w-control) / -2);background:currentColor;transition:transform var(--m-fast) var(--e-out)}
+.fpop__fold i::after{transform:rotate(90deg)}
+.fpop__fold[aria-expanded="true"] i::after{transform:rotate(0deg)}
+.fpop__fold-b[hidden]{display:none}
+/* Sin recortes ni controles fuera de pantalla: el panel se ajusta al ancho y se desplaza por dentro */
+.fpop__panel{max-width:calc(100vw - 2 * var(--s4));max-height:70vh;overflow-y:auto}
+/* En pantallas chicas el panel ocupa el ancho de la barra de filtros, con su margen lateral */
+@media(max-width:600px){.icat__bar{position:relative}.icat__bar .fpop{position:static}.icat__bar .fpop__panel{left:0;right:0;min-width:0;max-width:none}}

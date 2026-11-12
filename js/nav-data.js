@@ -60,7 +60,7 @@ window.KEYONS_NAV = [
         { t: 'Usos incorrectos', s: 'b', href: 'fundamentos/identidad/logotipo.html#incorrectos' },
         { sub: 'Isotipo' },
         { t: 'El corchete', s: 'b', href: 'fundamentos/identidad/isotipo.html#corchete' }, { t: 'Estado y evolución', s: 'b', href: 'fundamentos/identidad/isotipo.html#evolucion' },
-        { t: 'Destello central', s: 'b', href: 'fundamentos/identidad/isotipo.html#destello' }, { t: 'Criterio de transición', s: 'b', href: 'fundamentos/identidad/isotipo.html#transicion' } ] },
+        { t: 'Destello central', s: 'b', href: 'fundamentos/identidad/isotipo.html#destello' }, { t: 'Criterio de transición', s: 'b', href: 'fundamentos/identidad/isotipo.html#transicion' }, { t: 'Aplicaciones', s: 'b', href: 'fundamentos/identidad/isotipo.html#aplicaciones' } ] },
       { n: '07', k: 'color', was: '06', t: 'Color', s: 'b', d: 'Un sistema en capas: paleta base, escalas, cielos y color por modo.', items: [
         { sub: 'Paleta base' },
         { t: 'Sistema en capas', s: 'b', href: 'fundamentos/color/paleta-base.html#capas' }, { t: 'Colores principales', s: 'b', href: 'fundamentos/color/paleta-base.html#principales' },
@@ -155,7 +155,7 @@ window.KEYONS_NAV = [
       { n: '20', k: 'presentaciones', was: ['18', '21'], t: 'Presentaciones', s: 'b', d: 'Para clientes, capacitaciones, el equipo y talleres: método, historia, voz y estética.', items: [
         { sub: 'Para qué' }, { t: 'Tipos', s: 'b', href: 'aplicaciones/presentaciones.html#tipos' }, { t: 'Método', s: 'b', href: 'aplicaciones/presentaciones.html#metodo' }, { sub: 'Contenido' }, { t: 'Storytelling', s: 'b', href: 'aplicaciones/presentaciones.html#historia' }, { t: 'El arco Keyons', s: 'b', href: 'aplicaciones/presentaciones.html#arco' }, { t: 'Escribir para la pantalla', st: 'Para la pantalla', s: 'b', href: 'aplicaciones/presentaciones.html#escribir' }, { t: 'Límites y notas', s: 'b', href: 'aplicaciones/presentaciones.html#limites' }, { sub: 'Estética' }, { t: 'Lienzo y retícula', s: 'b', href: 'aplicaciones/presentaciones.html#lienzo' }, { t: 'Tipografía', s: 'b', href: 'aplicaciones/presentaciones.html#tipografia' }, { t: 'Contraste', s: 'b', href: 'aplicaciones/presentaciones.html#contraste' }, { t: 'Ritmo', s: 'b', href: 'aplicaciones/presentaciones.html#ritmo' }, { t: 'Riesgo y estado', s: 'b', href: 'aplicaciones/presentaciones.html#riesgo' }, { t: 'Imagen y gráficos', s: 'b', href: 'aplicaciones/presentaciones.html#imagen' }, { sub: 'Hacerla' }, { t: 'Plantillas', s: 'b', href: 'aplicaciones/presentaciones.html#plantillas' }, { t: 'Antes de presentar', s: 'b', href: 'aplicaciones/presentaciones.html#antes' } ] },
       { n: '21', k: 'redes', was: ['20', '22'], t: 'Redes y campañas', st: 'Redes', s: 'p', d: 'Publicaciones, campañas y contenido para redes sociales.', items: [
-        { t: 'Redes sociales' }, { t: 'Campañas' } ] },
+        { t: 'Criterios de comunicación' }, { t: 'Formatos y aplicaciones' }, { t: 'Archivo de campañas', s: 'b', href: 'aplicaciones/campanas.html#archivo' } ] },
       { n: '22', k: 'eventos', was: ['21', '23'], t: 'Eventos y merch', st: 'Eventos', s: 'p', d: 'Eventos, talleres presenciales y artículos de marca.', items: [
         { t: 'Eventos' }, { t: 'Merch' } ] },
       { n: '23', k: 'personalizacion', was: ['22', '24'], t: 'Personalización', s: 'b', d: 'Productos para clientes: qué cambia y qué se queda en SaaS, Boutique y marca blanca.', items: [
@@ -179,7 +179,9 @@ window.KEYONS_NAV = [
         { t: 'Nomenclatura de reglas', st: 'Nomenclatura', s: 'b', href: 'recursos/referencia.html#nomenclatura' }, { t: 'Índice de reglas', st: 'Índice', s: 'b', href: 'recursos/referencia.html#indice' },
         { t: 'Trazabilidad de Criterios visuales', st: 'Trazabilidad', s: 'v', href: 'fundamentos/criterio/antipatrones.html#trazabilidad' }, { t: 'Registro de decisiones', st: 'Decisiones' }, { t: 'Glosario' }, { t: 'Cambios' } ] },
       { n: '29', k: 'tecnicos', t: 'Recursos técnicos', st: 'Técnicos', s: 'b', d: 'La expresión visual en HTML, CSS y JS, lista para copiar.', items: [
-        { t: 'Catálogo', s: 'b', href: 'recursos/tecnicos.html#tecnicos' } ] }
+        { t: 'Catálogo', s: 'b', href: 'recursos/tecnicos.html#tecnicos' } ] },
+      { n: '30', k: 'universo-estela', t: 'Universo visual de Estela', st: 'Estela', s: 'p', d: 'El catálogo oficial de las piezas visuales de Estela.', items: [
+        { t: 'Catálogo oficial de Estela' } ] }
     ]
   }
 ];

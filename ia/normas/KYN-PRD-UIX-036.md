@@ -1,7 +1,7 @@
 ---
 manual: "Sistema de Diseño Keyons"
 version: "0.1"
-fecha: "2026-11-11"
+fecha: "2026-11-12"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-PRD-UIX-036"
 titulo: "Restricciones del cliente sobre procesamiento con LLMs externos"

@@ -1,4 +1,10 @@
 {
+ "aplicaciones/campanas.html#archivo": {
+  "estado": "borrador",
+  "id": "KYN-MRK-RED-001",
+  "n": "21.3",
+  "t": "Archivo de campañas"
+ },
  "aplicaciones/personalizacion.html#blanca": {
   "estado": "vigente",
   "id": "KYN-MRK-PER-004",
@@ -466,6 +472,12 @@
   "id": "KYN-MRK-VIS-004",
   "n": "12.3.1",
   "t": "Iconografía de relleno"
+ },
+ "fundamentos/identidad/isotipo.html#aplicaciones": {
+  "estado": "borrador",
+  "id": "KYN-MRK-LOG-011",
+  "n": "6.11",
+  "t": "Aplicaciones digitales"
  },
  "fundamentos/identidad/isotipo.html#corchete": {
   "estado": "vigente",

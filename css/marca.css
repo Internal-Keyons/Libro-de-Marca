@@ -26,3 +26,46 @@
 /* Composición: el ejemplo, sus tamaños debajo y después los controles que la modifican */
 .tester--min .tester__sizes{margin-top:var(--s16)}
 .tester--min .tester__sizes + .tester__spec{margin-top:var(--s6)}
+
+/* 6.11 · Aplicaciones del isotipo (LOG-011): el ícono a su proporción, centrado, con las tres versiones de fondo */
+.appic__stage{display:grid;place-items:center}
+.appic__v{grid-area:1 / 1;display:none;width:var(--s32);aspect-ratio:1;box-shadow:0 0 0 1px var(--color-border)}
+.appic__v.is-on{display:block}
+.appic__v svg{display:block;width:100%;height:100%}
+.appic__d{display:grid;gap:var(--s3)}
+.appic__d div{display:grid;grid-template-columns:var(--s32) minmax(0,1fr);gap:var(--s4)}
+.appic__d dt{font-size:var(--fs-14);color:var(--color-text-3)}
+.appic__d dd{margin:0;font-size:var(--fs-16);color:var(--color-text-2)}
+
+/* GAL-001 · Galería (24.1): estado vacío en el lugar del carrusel */
+.gal__empty{padding:var(--s16) 0}
+.gal__empty[hidden]{display:none}
+.gal__empty p{margin-bottom:var(--s3);font-size:var(--fs-16);color:var(--color-text-2)}
+
+/* RED-001 · Archivo de campañas (21.3): tarjetas, estado vacío y ficha */
+.camp__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s8) var(--s6);margin-top:var(--s8)}
+.camp__grid[hidden],.camp__empty[hidden],.camp__none[hidden]{display:none}
+@media(max-width:900px){.camp__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.camp__grid{grid-template-columns:minmax(0,1fr)}}
+.camp__c{display:grid;gap:var(--s1);text-align:left;color:var(--k-noche)}
+.camp__img{display:block;aspect-ratio:4/3;margin-bottom:var(--s3);border-radius:var(--r-component);background:var(--k-cielo) center / cover no-repeat;transition:transform var(--m-base) var(--e-out)}
+.camp__c:hover .camp__img{transform:scale(1.01)}
+.camp__t{font-size:var(--fs-20);font-weight:500}
+.camp__m,.camp__s{font-size:var(--fs-14);color:var(--color-text-3)}
+.camp__none,.camp__empty{padding:var(--s12) 0}
+.camp__none p,.camp__empty p{margin-bottom:var(--s3);font-size:var(--fs-16);color:var(--color-text-2)}
+.camp__nada{font-size:var(--fs-12);color:var(--color-text-3)}
+.camp__dlg{position:fixed;inset:0;z-index:80;display:flex;align-items:center;justify-content:center;padding:var(--s4);background:var(--overlay)}
+.camp__dlg[hidden]{display:none}
+.camp__box{position:relative;width:min(calc(var(--measure) + var(--s32)),100%);max-height:calc(100vh - 2 * var(--s4));overflow-y:auto;padding:var(--s10);background:var(--k-puro)}
+.camp__x{position:absolute;top:var(--s4);right:var(--s4)}
+.camp__k{font-size:var(--fs-12);font-weight:500;letter-spacing:var(--tr-kicker);text-transform:uppercase;color:var(--color-text-3)}
+.camp__h{margin:var(--s2) 0 var(--s6);font-size:var(--fs-32);font-weight:500;color:var(--k-noche)}
+.camp__d{display:grid;gap:var(--s3);margin-bottom:var(--s8)}
+.camp__d div{display:grid;grid-template-columns:var(--s32) minmax(0,1fr);gap:var(--s4)}
+.camp__d dt{font-size:var(--fs-14);color:var(--color-text-3)}
+.camp__d dd{margin:0;font-size:var(--fs-16);color:var(--color-text-2)}
+.camp__mat{margin-top:var(--s3);padding:0;list-style:none;border-top:1px solid var(--color-border)}
+.camp__mat li{display:flex;justify-content:space-between;gap:var(--s4);padding:var(--s3) 0;border-bottom:1px solid var(--color-border);font-size:var(--fs-16)}
+.camp__mat li span{font-size:var(--fs-14);color:var(--color-text-3)}
+.camp__src .matrix__row{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}

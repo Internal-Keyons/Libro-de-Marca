@@ -1,7 +1,7 @@
 {
  "manual": "Libro de Marca Keyons",
  "version": "0.1",
- "fecha": "2026-11-11",
+ "fecha": "2026-11-12",
  "permisos": "por definir; se asignarán con la Biblioteca Keyons",
  "areas": [
   {
@@ -140,7 +140,8 @@
       "KYN-MRK-LOG-007",
       "KYN-MRK-LOG-008",
       "KYN-MRK-LOG-009",
-      "KYN-MRK-LOG-010"
+      "KYN-MRK-LOG-010",
+      "KYN-MRK-LOG-011"
      ]
     },
     {
@@ -409,9 +410,13 @@
      "titulo": "Redes y campañas",
      "estado": "por definir",
      "descripcion": "Publicaciones, campañas y contenido para redes sociales.",
-     "rutas": [],
+     "rutas": [
+      "/aplicaciones/campanas.html"
+     ],
      "markdown": "/ia/capitulos/21-redes.md",
-     "normas": []
+     "normas": [
+      "KYN-MRK-RED-001"
+     ]
     },
     {
      "n": "22",
@@ -535,6 +540,16 @@
      "normas": [
       "KYN-MRK-TEC-001"
      ]
+    },
+    {
+     "n": "30",
+     "clave": "universo-estela",
+     "titulo": "Universo visual de Estela",
+     "estado": "por definir",
+     "descripcion": "El catálogo oficial de las piezas visuales de Estela.",
+     "rutas": [],
+     "markdown": "/ia/capitulos/30-universo-estela.md",
+     "normas": []
     }
    ]
   }
@@ -1633,6 +1648,19 @@
    ]
   },
   {
+   "id": "KYN-MRK-LOG-011",
+   "titulo": "Aplicaciones digitales",
+   "numero": "6.11",
+   "rotulo": "Aplicaciones",
+   "estado": "borrador",
+   "capitulo": "06",
+   "area": "fundamentos",
+   "fuente": "/fundamentos/identidad/isotipo.html#aplicaciones",
+   "markdown": "/ia/normas/KYN-MRK-LOG-011.md",
+   "referencias": [],
+   "citada_por": []
+  },
+  {
    "id": "KYN-MRK-PER-001",
    "titulo": "Tres modelos",
    "numero": "23.1",
@@ -1917,6 +1945,19 @@
    "citada_por": [
     "KYN-MRK-PRE-002"
    ]
+  },
+  {
+   "id": "KYN-MRK-RED-001",
+   "titulo": "Archivo de campañas",
+   "numero": "21.3",
+   "rotulo": "Archivo de campañas",
+   "estado": "borrador",
+   "capitulo": "21",
+   "area": "aplicaciones",
+   "fuente": "/aplicaciones/campanas.html#archivo",
+   "markdown": "/ia/normas/KYN-MRK-RED-001.md",
+   "referencias": [],
+   "citada_por": []
   },
   {
    "id": "KYN-MRK-REF-001",

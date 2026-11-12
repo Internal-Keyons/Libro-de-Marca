@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-11"
+fecha: "2026-11-12"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "05"
 titulo: "Estela"
@@ -55,8 +55,13 @@ Una misma identidad · Las dos dimensiones comparten una sola identidad. En una 
 
 #### Relación con Keyons
 
+**(Representación)**
 Estela representa a Keyons y tiene personalidad suficiente para ganar un reconocimiento propio.
+
+**(Pertenencia)**
 Cuando aparece en público, la asociación con Keyons es clara. Estela es de Keyons: forma parte de la marca corporativa y la complementa.
+
+**(Cercanía)**
 Su presencia hace más cercana la relación de las personas con Keyons.
 
 #### Un personaje, múltiples capacidades
@@ -70,7 +75,6 @@ Estela siempre se presenta como la inteligencia artificial de Keyons, con una pe
 #### Relación con Prisma
 
 Estela puede acompañar la narrativa y las experiencias de la metodología Prisma en sus cinco fases oficiales.
+Su papel en cada fase y las historias que las conectan quedan pendientes de desarrollo narrativo.
 
 01 · Amanecer · 02 · Mediodía · 03 · Atardecer · 04 · Anochecer · 05 · Galaxia
-
-Su papel en cada fase y las historias que las conectan quedan pendientes de desarrollo narrativo.

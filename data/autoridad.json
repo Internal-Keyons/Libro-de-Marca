@@ -898,6 +898,17 @@
    "excepciones": [],
    "relacionadas": []
   },
+  "KYN-MRK-LOG-011": {
+   "titulo": "Aplicaciones digitales",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
   "KYN-MRK-PER-001": {
    "titulo": "Tres modelos",
    "estado": "vigente",
@@ -1132,6 +1143,17 @@
    "estado": "vigente",
    "estado_documental": "vigente",
    "version": "1.0",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-RED-001": {
+   "titulo": "Archivo de campañas",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
    "ambito": [],
    "responsable": null,
    "fecha_aprobacion": null,

@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-11"
+fecha: "2026-11-12"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-TYP-003"
 titulo: "Probador tipográfico"
@@ -20,11 +20,11 @@ Número: 8.3 · Estado: vigente · Capítulo: 08 Tipografía · Fuente: `/fundam
 
 ##### Escriba y compare
 
-El mismo cielo, nadie lo ve igual
+Haga clic sobre mí para editar el texto.
 
 Familia
-**(Peso)**
 Tamaño
+**(Peso)**
 **(Interlineado)**
 **(Tracking)**
 

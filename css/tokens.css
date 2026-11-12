@@ -157,6 +157,8 @@
   --glass-bg-strong:rgba(244,244,244,.62);
   --glass-border:rgba(255,255,255,.5);
   /* Portadas de los libros (reglas-visuales 1.12): Azul Cielo liso con la trama en línea blanca */
+  /* Velo detrás de una ficha abierta (Archivo de campañas) */
+  --overlay:rgba(16,18,42,.32);
   --cover-bg:var(--k-cielo);
   --cover-line:rgba(255,255,255,.5);
   --cover-line-hover:rgba(255,255,255,.8);

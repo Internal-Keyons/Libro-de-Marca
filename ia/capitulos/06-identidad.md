@@ -1,15 +1,15 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-11"
+fecha: "2026-11-12"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "06"
 titulo: "Identidad"
 area: "Fundamentos"
 estado: "borrador"
 rutas: ["/fundamentos/identidad/logotipo.html", "/fundamentos/identidad/isotipo.html"]
-normas: ["KYN-MRK-LOG-001", "KYN-MRK-LOG-002", "KYN-MRK-LOG-003", "KYN-MRK-LOG-004", "KYN-MRK-LOG-005", "KYN-MRK-LOG-006", "KYN-MRK-LOG-007", "KYN-MRK-LOG-008", "KYN-MRK-LOG-009", "KYN-MRK-LOG-010"]
-referencias: ["KYN-MRK-LOG-001", "KYN-MRK-LOG-002", "KYN-MRK-LOG-003", "KYN-MRK-LOG-004", "KYN-MRK-LOG-005", "KYN-MRK-LOG-006", "KYN-MRK-LOG-007", "KYN-MRK-LOG-008", "KYN-MRK-LOG-009", "KYN-MRK-LOG-010"]
+normas: ["KYN-MRK-LOG-001", "KYN-MRK-LOG-002", "KYN-MRK-LOG-003", "KYN-MRK-LOG-004", "KYN-MRK-LOG-005", "KYN-MRK-LOG-006", "KYN-MRK-LOG-007", "KYN-MRK-LOG-008", "KYN-MRK-LOG-009", "KYN-MRK-LOG-010", "KYN-MRK-LOG-011"]
+referencias: ["KYN-MRK-LOG-001", "KYN-MRK-LOG-002", "KYN-MRK-LOG-003", "KYN-MRK-LOG-004", "KYN-MRK-LOG-005", "KYN-MRK-LOG-006", "KYN-MRK-LOG-007", "KYN-MRK-LOG-008", "KYN-MRK-LOG-009", "KYN-MRK-LOG-010", "KYN-MRK-LOG-011"]
 ---
 
 # Capítulo 06 · Identidad
@@ -32,6 +32,7 @@ Logotipo, isotipo e insignia: construcción y uso.
 - Estado y evolución · borrador · `/fundamentos/identidad/isotipo.html#evolucion`
 - Destello central · borrador · `/fundamentos/identidad/isotipo.html#destello`
 - Criterio de transición · borrador · `/fundamentos/identidad/isotipo.html#transicion`
+- Aplicaciones · borrador · `/fundamentos/identidad/isotipo.html#aplicaciones`
 
 ## Logotipo
 
@@ -330,3 +331,69 @@ La dirección de marca evaluará la evidencia y aprobará, cuando corresponda, u
 Mientras no exista esa autorización, cualquier uso autónomo frente a audiencias que no conocen Keyons requiere aprobación expresa.
 
 Esperar el momento correcto es lo que garantiza que, cuando el símbolo se independice, funcione.
+
+## KYN-MRK-LOG-011 · 6.11 Aplicaciones
+
+Número: 6.11 · ID: `KYN-MRK-LOG-011` · Estado: borrador · Fuente: `/fundamentos/identidad/isotipo.html#aplicaciones`
+
+### El isotipo en pantalla
+
+El isotipo de Keyons también representa a la marca en navegadores, accesos directos y aplicaciones instalables. Cada formato tiene **tres versiones de color** y su archivo listo para descargar.
+
+01
+
+#### Favicon
+
+- **Dimensiones**: 16 × 16 y 32 × 32 px
+- **Formato**: SVG y PNG
+- **Usos**: Pestaña del navegador, marcadores e historial.
+
+> Recurso visual: Gráfico SVG en línea · «Favicon · Fondo Blanco Keyons»
+
+> Recurso visual: Gráfico SVG en línea · «Favicon · Fondo Azul Noche»
+
+> Recurso visual: Gráfico SVG en línea · «Favicon · Fondo Azul Cielo»
+
+02
+
+#### Apple Touch Icon
+
+- **Dimensiones**: 180 × 180 px
+- **Formato**: SVG y PNG
+- **Usos**: Acceso directo en la pantalla de inicio de iPhone y iPad.
+
+> Recurso visual: Gráfico SVG en línea · «Apple Touch Icon · Fondo Blanco Keyons»
+
+> Recurso visual: Gráfico SVG en línea · «Apple Touch Icon · Fondo Azul Noche»
+
+> Recurso visual: Gráfico SVG en línea · «Apple Touch Icon · Fondo Azul Cielo»
+
+03
+
+#### PWA
+
+- **Dimensiones**: 192 × 192 px
+- **Formato**: SVG y PNG
+- **Usos**: Ícono de la aplicación instalada en Android y en escritorio.
+
+> Recurso visual: Gráfico SVG en línea · «PWA · Fondo Blanco Keyons»
+
+> Recurso visual: Gráfico SVG en línea · «PWA · Fondo Azul Noche»
+
+> Recurso visual: Gráfico SVG en línea · «PWA · Fondo Azul Cielo»
+
+04
+
+#### PWA grande
+
+- **Dimensiones**: 512 × 512 px
+- **Formato**: SVG y PNG
+- **Usos**: Pantalla de bienvenida e instalación de la aplicación.
+
+> Recurso visual: Gráfico SVG en línea · «PWA grande · Fondo Blanco Keyons»
+
+> Recurso visual: Gráfico SVG en línea · «PWA grande · Fondo Azul Noche»
+
+> Recurso visual: Gráfico SVG en línea · «PWA grande · Fondo Azul Cielo»
+
+Los íconos PWA llevan el fondo completo y el isotipo dentro de la zona segura central, así que también sirven como íconos maskable.

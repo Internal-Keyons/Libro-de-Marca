@@ -1,13 +1,13 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-11"
+fecha: "2026-11-12"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 ---
 
 # Libro de Marca Keyons
 
-Versión: 0.1 · Fecha de exportación: 2026-11-11 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
+Versión: 0.1 · Fecha de exportación: 2026-11-12 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
 
 Exportación íntegra generada desde las páginas del libro con tools/exportar.py. Conserva la redacción y el orden del índice. Cada sección indica su ruta de origen; los recursos visuales se citan con su ruta o su descripción.
 
@@ -1147,8 +1147,13 @@ Una misma identidad · Las dos dimensiones comparten una sola identidad. En una 
 
 ###### Relación con Keyons
 
+**(Representación)**
 Estela representa a Keyons y tiene personalidad suficiente para ganar un reconocimiento propio.
+
+**(Pertenencia)**
 Cuando aparece en público, la asociación con Keyons es clara. Estela es de Keyons: forma parte de la marca corporativa y la complementa.
+
+**(Cercanía)**
 Su presencia hace más cercana la relación de las personas con Keyons.
 
 ###### Un personaje, múltiples capacidades
@@ -1162,10 +1167,9 @@ Estela siempre se presenta como la inteligencia artificial de Keyons, con una pe
 ###### Relación con Prisma
 
 Estela puede acompañar la narrativa y las experiencias de la metodología Prisma en sus cinco fases oficiales.
+Su papel en cada fase y las historias que las conectan quedan pendientes de desarrollo narrativo.
 
 01 · Amanecer · 02 · Mediodía · 03 · Atardecer · 04 · Anochecer · 05 · Galaxia
-
-Su papel en cada fase y las historias que las conectan quedan pendientes de desarrollo narrativo.
 
 ## Área 02 · Fundamentos
 
@@ -1193,6 +1197,7 @@ Logotipo, isotipo e insignia: construcción y uso.
 - Estado y evolución · borrador · `/fundamentos/identidad/isotipo.html#evolucion`
 - Destello central · borrador · `/fundamentos/identidad/isotipo.html#destello`
 - Criterio de transición · borrador · `/fundamentos/identidad/isotipo.html#transicion`
+- Aplicaciones · borrador · `/fundamentos/identidad/isotipo.html#aplicaciones`
 
 #### Logotipo
 
@@ -1491,6 +1496,72 @@ La dirección de marca evaluará la evidencia y aprobará, cuando corresponda, u
 Mientras no exista esa autorización, cualquier uso autónomo frente a audiencias que no conocen Keyons requiere aprobación expresa.
 
 Esperar el momento correcto es lo que garantiza que, cuando el símbolo se independice, funcione.
+
+#### KYN-MRK-LOG-011 · 6.11 Aplicaciones
+
+Número: 6.11 · ID: `KYN-MRK-LOG-011` · Estado: borrador · Fuente: `/fundamentos/identidad/isotipo.html#aplicaciones`
+
+##### El isotipo en pantalla
+
+El isotipo de Keyons también representa a la marca en navegadores, accesos directos y aplicaciones instalables. Cada formato tiene **tres versiones de color** y su archivo listo para descargar.
+
+01
+
+###### Favicon
+
+- **Dimensiones**: 16 × 16 y 32 × 32 px
+- **Formato**: SVG y PNG
+- **Usos**: Pestaña del navegador, marcadores e historial.
+
+> Recurso visual: Gráfico SVG en línea · «Favicon · Fondo Blanco Keyons»
+
+> Recurso visual: Gráfico SVG en línea · «Favicon · Fondo Azul Noche»
+
+> Recurso visual: Gráfico SVG en línea · «Favicon · Fondo Azul Cielo»
+
+02
+
+###### Apple Touch Icon
+
+- **Dimensiones**: 180 × 180 px
+- **Formato**: SVG y PNG
+- **Usos**: Acceso directo en la pantalla de inicio de iPhone y iPad.
+
+> Recurso visual: Gráfico SVG en línea · «Apple Touch Icon · Fondo Blanco Keyons»
+
+> Recurso visual: Gráfico SVG en línea · «Apple Touch Icon · Fondo Azul Noche»
+
+> Recurso visual: Gráfico SVG en línea · «Apple Touch Icon · Fondo Azul Cielo»
+
+03
+
+###### PWA
+
+- **Dimensiones**: 192 × 192 px
+- **Formato**: SVG y PNG
+- **Usos**: Ícono de la aplicación instalada en Android y en escritorio.
+
+> Recurso visual: Gráfico SVG en línea · «PWA · Fondo Blanco Keyons»
+
+> Recurso visual: Gráfico SVG en línea · «PWA · Fondo Azul Noche»
+
+> Recurso visual: Gráfico SVG en línea · «PWA · Fondo Azul Cielo»
+
+04
+
+###### PWA grande
+
+- **Dimensiones**: 512 × 512 px
+- **Formato**: SVG y PNG
+- **Usos**: Pantalla de bienvenida e instalación de la aplicación.
+
+> Recurso visual: Gráfico SVG en línea · «PWA grande · Fondo Blanco Keyons»
+
+> Recurso visual: Gráfico SVG en línea · «PWA grande · Fondo Azul Noche»
+
+> Recurso visual: Gráfico SVG en línea · «PWA grande · Fondo Azul Cielo»
+
+Los íconos PWA llevan el fondo completo y el isotipo dentro de la zona segura central, así que también sirven como íconos maskable.
 
 ### Capítulo 07 · Color
 
@@ -2163,11 +2234,11 @@ Número: 8.3 · ID: `KYN-MRK-TYP-003` · Estado: vigente · Fuente: `/fundamento
 
 ##### Escriba y compare
 
-El mismo cielo, nadie lo ve igual
+Haga clic sobre mí para editar el texto.
 
 Familia
-**(Peso)**
 Tamaño
+**(Peso)**
 **(Interlineado)**
 **(Tracking)**
 
@@ -4866,16 +4937,49 @@ Una buena presentación se recuerda por lo que la sala hizo después.
 
 ### Capítulo 21 · Redes y campañas
 
-Estado: por definir · Clave: redes · Número anterior: 20, 22
+Estado: por definir · Clave: redes · Ruta: `/aplicaciones/campanas.html` · Número anterior: 20, 22
 
 Publicaciones, campañas y contenido para redes sociales.
 
 **Contenido del capítulo**
 
-- Redes sociales · por definir
-- Campañas · por definir
+- Criterios de comunicación · por definir
+- Formatos y aplicaciones · por definir
+- Archivo de campañas · borrador · `/aplicaciones/campanas.html#archivo`
 
-*Capítulo sin página: solo existe su índice en el libro.*
+#### Redes y campañas
+
+Rótulo: Capítulo 21 · Aplicaciones · Fuente: `/aplicaciones/campanas.html`
+
+Cómo se diseñan las campañas y dónde se consultan las aprobadas.
+
+#### KYN-MRK-RED-001 · 21.3 Archivo de campañas
+
+Número: 21.3 · ID: `KYN-MRK-RED-001` · Estado: borrador · Fuente: `/aplicaciones/campanas.html#archivo`
+
+##### Cada campaña, con todos sus materiales
+
+El archivo reúne las campañas aprobadas. Cada ficha registra concepto, objetivo, fechas, canales, responsable, estado y condiciones de uso, y **enlaza cada material a su fuente original**.
+
+Cuando se apruebe la primera campaña, su ficha aparecerá aquí con todos sus materiales.
+
+Sin campañas con esta combinación de filtros.
+
+> Recurso visual: Demostración visual (clase `ed__gap`)
+
+###### Dónde se conserva cada material
+
+Un mismo archivo puede aparecer en varios lugares mediante referencias, pero **tiene una sola fuente original**. Así nunca circulan dos versiones sin control.
+
+| (Material) | Dónde se conserva |
+|---|---|
+| Una fotografía que puede reutilizarse | [Galería de imágenes](/recursos/galeria.html) |
+| Una textura institucional | [Texturas](/recursos/texturas.html) |
+| Un ícono oficial | [Íconos](/recursos/iconos.html) |
+| Una plantilla reutilizable | [Plantillas](/recursos/plantillas.html) |
+| Una publicación final creada para una campaña | Archivo de esa campaña |
+| Una presentación final de campaña | Archivo de la campaña, vinculada a [Presentaciones](/aplicaciones/presentaciones.html) cuando corresponda |
+| Una pieza del universo visual de Estela | Catálogo oficial de Estela (capítulo 30, en preparación) |
 
 ### Capítulo 22 · Eventos y merch
 
@@ -5008,91 +5112,93 @@ Galería
 
 > Recurso visual: Imagen KY-001: Equipo Keyons, Estudio Keyons, 2026. Keyons.
 
-001 · **KY-001 · Degradado Keyons · Amanecer** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Uso libre · Vertical
+001 · **KY-001 · Degradado Keyons · Amanecer** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Uso libre, Presentaciones, Documentos, Sitio web · Vertical · Origen: Producción propia
 
 > Recurso visual: Imagen de fondo: /assets/img/cielo-atardecer.webp
 
 > Recurso visual: Imagen KY-003: Equipo Keyons, Estudio Keyons, 2026. Keyons.
 
-003 · **KY-003 · Degradado Keyons · Atardecer** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Redes · Vertical
+003 · **KY-003 · Degradado Keyons · Atardecer** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Redes, Presentaciones, Documentos, Sitio web · Vertical · Origen: Producción propia
 
 > Recurso visual: Imagen de fondo: /assets/img/cielo-noche.webp
 
 > Recurso visual: Imagen KY-004: Equipo Keyons, Estudio Keyons, 2026. Keyons.
 
-004 · **KY-004 · Degradado Keyons · Noche** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Fondo con texto · Vertical
+004 · **KY-004 · Degradado Keyons · Noche** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Fondo con texto, Presentaciones, Documentos, Sitio web · Vertical · Origen: Producción propia
 
 > Recurso visual: Imagen de fondo: /assets/img/cielo-galaxia.webp
 
 > Recurso visual: Imagen KY-005: Equipo Keyons, Estudio Keyons, 2026. Keyons.
 
-005 · **KY-005 · Degradado Keyons · Galaxia** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Portada · Vertical
+005 · **KY-005 · Degradado Keyons · Galaxia** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Portada, Presentaciones, Documentos, Sitio web · Vertical · Origen: Producción propia
 
 > Recurso visual: Imagen de fondo: /assets/texturas/textura-amanecer-durazno.webp
 
 > Recurso visual: Imagen KY-009: Equipo Keyons, Estudio Keyons, 2026. Keyons.
 
-009 · **KY-009 · Degradado Keyons · Amanecer** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Portada · Vertical
+009 · **KY-009 · Degradado Keyons · Amanecer** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Portada, Presentaciones, Documentos, Sitio web · Vertical · Origen: Producción propia
 
 > Recurso visual: Imagen de fondo: /assets/texturas/textura-crepusculo-gris.webp
 
 > Recurso visual: Imagen KY-010: Equipo Keyons, Estudio Keyons, 2026. Keyons.
 
-010 · **KY-010 · Degradado Keyons · Atardecer** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Fondo con texto · Vertical
+010 · **KY-010 · Degradado Keyons · Atardecer** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Fondo con texto, Presentaciones, Documentos, Sitio web · Vertical · Origen: Producción propia
 
 > Recurso visual: Imagen de fondo: /assets/texturas/textura-galaxia-profunda.webp
 
 > Recurso visual: Imagen KY-011: Equipo Keyons, Estudio Keyons, 2026. Keyons.
 
-011 · **KY-011 · Degradado Keyons · Galaxia** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Redes · Cuadrada
+011 · **KY-011 · Degradado Keyons · Galaxia** · Equipo Keyons · Estudio Keyons · 2026 · Degradado · Redes, Presentaciones, Documentos, Sitio web · Cuadrada · Origen: Producción propia
 
 > Recurso visual: 
 
 *Aquí va la fotografía*
 015
-**KY-015 · Cielo real · Atardecer** · Por asignar · Santa Ana · 2026 · Cielo de verano · Portada · Horizontal
+**KY-015 · Cielo real · Atardecer** · Por asignar · Santa Ana · 2026 · Cielo de verano · Portada · Horizontal · Origen: Por asignar
 
 > Recurso visual: 
 
 *Aquí va la fotografía*
 016
-**KY-016 · Cielo real · Noche** · Por asignar · Guanacaste · 2026 · Cielo despejado · Fondo con texto · Cuadrada
+**KY-016 · Cielo real · Noche** · Por asignar · Guanacaste · 2026 · Cielo despejado · Fondo con texto · Cuadrada · Origen: Por asignar
 
 > Recurso visual: 
 
 *Aquí va la fotografía*
 017
-**KY-017 · Naturaleza · Mediodía** · Por asignar · Cartago · 2026 · Montaña · Uso libre · Horizontal
+**KY-017 · Naturaleza · Mediodía** · Por asignar · Cartago · 2026 · Montaña · Uso libre · Horizontal · Origen: Por asignar
 
 > Recurso visual: 
 
 *Aquí va la fotografía*
 018
-**KY-018 · Naturaleza · Amanecer** · Por asignar · Monteverde · 2026 · Bosque nuboso · Redes · Vertical
+**KY-018 · Naturaleza · Amanecer** · Por asignar · Monteverde · 2026 · Bosque nuboso · Redes · Vertical · Origen: Por asignar
 
 > Recurso visual: 
 
 *Aquí va la fotografía*
 019
-**KY-019 · Personas** · Por asignar · San José · 2026 · Retrato · Portada · Vertical
+**KY-019 · Personas** · Por asignar · San José · 2026 · Retrato · Portada · Vertical · Origen: Por asignar
 
 > Recurso visual: 
 
 *Aquí va la fotografía*
 020
-**KY-020 · Personas** · Por asignar · Heredia · 2026 · Equipo en sesión · Redes · Cuadrada
+**KY-020 · Personas** · Por asignar · Heredia · 2026 · Equipo en sesión · Redes · Cuadrada · Origen: Por asignar
 
 > Recurso visual: 
 
 *Aquí va la fotografía*
 021
-**KY-021 · Stock propio** · Por asignar · Estudio Keyons · 2026 · Escena de trabajo · Fondo con texto · Horizontal
+**KY-021 · Stock propio** · Por asignar · Estudio Keyons · 2026 · Escena de trabajo · Fondo con texto · Horizontal · Origen: Stock propio
 
 > Recurso visual: 
 
 *Aquí va la fotografía*
 022
-**KY-022 · Stock propio** · Por asignar · Estudio Keyons · 2026 · Manos y pantalla · Uso libre · Vertical
+**KY-022 · Stock propio** · Por asignar · Estudio Keyons · 2026 · Manos y pantalla · Uso libre · Vertical · Origen: Stock propio
+
+Sin imágenes con esta combinación de filtros.
 
 *Aquí va la fotografía*
 
@@ -5644,3 +5750,15 @@ Cada recurso se prueba aquí y se copia tal como lo usa este libro: **el ejemplo
 Abra una fila para ver la demostración, el código, la configuración y cómo implementarlo. Los componentes de interfaz están en el [Sistema de Diseño](/sistema-diseno/index.html).
 
 Cargando el catálogo…
+
+### Capítulo 30 · Universo visual de Estela
+
+Estado: por definir · Clave: universo-estela
+
+El catálogo oficial de las piezas visuales de Estela.
+
+**Contenido del capítulo**
+
+- Catálogo oficial de Estela · por definir
+
+*Capítulo sin página: solo existe su índice en el libro.*
