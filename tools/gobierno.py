@@ -186,7 +186,7 @@ S += sec('normas', '01', 'Cómo leer las normas', 'Autoridad, vigencia y ámbito
          + stack([(x['t'], e(x['d']) + f' Equivale a {e(x["equivale"])}.') for x in G['estados_adicionales']], v=True)
          + f'        <p class="ed__more">{e(G["regla_ia"])}</p>\n'
          + '        <h3 class="ed__sub">Ámbitos de aplicación</h3>\n'
-         + '        <ul class="gov__amb">' + ''.join(f'<li>{e(a["t"])}</li>' for a in G['ambitos']) + '</ul>\n' + lis(G['ambitos_criterio'])
+         + '        <ul class="gov__amb">' + ''.join(f'<li>{e(a["t"])}</li>' for a in G['ambitos']) + '</ul>\n' + stack([(x['k'], e(x['t'])) for x in G['ambitos_criterio']])
          + '        <h3 class="ed__sub">Dimensiones de cada norma</h3>\n' + lis(G['dimensiones']))
 ROUTES = ''
 for r in G['rutas']:
@@ -250,7 +250,7 @@ PAGE = '''<!DOCTYPE html>
 @S@  </main>
 </div>
 
-<script>window.KEYONS_BOOK = { id: 'biblioteca', home: 'guia/index.html', menuLabel: 'Guía de la Biblioteca' }; window.KEYONS_NAV = [];</script>
+<script>window.KEYONS_BOOK = { id: 'biblioteca', home: 'guia/index.html' }; window.KEYONS_NAV = [];</script>
 <script src="../js/libro.js"></script>
 </body>
 </html>

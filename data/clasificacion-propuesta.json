@@ -3,14 +3,14 @@
  "regla": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
  "resumen": {
   "normas": 126,
-  "requisitos": 226,
+  "requisitos": 230,
   "por_nivel": {
-   "DEBE": 89,
+   "DEBE": 90,
    "NO DEBE": 84,
-   "PUEDE": 44,
+   "PUEDE": 47,
    "DEBERÍA": 9
   },
-  "ambiguedades": 40,
+  "ambiguedades": 41,
   "duplicaciones": 0
  },
  "normas": [
@@ -1297,7 +1297,31 @@
     "internas",
     "saas"
    ],
-   "requisitos": []
+   "requisitos": [
+    {
+     "ref": "KYN-MRK-EST-001.1",
+     "nivel": "PUEDE",
+     "texto": "Puede participar en historias, publicaciones, campañas, contenidos educativos y experiencias digitales."
+    },
+    {
+     "ref": "KYN-MRK-EST-001.2",
+     "nivel": "PUEDE",
+     "texto": "(Un personaje, múltiples capacidades)Estela es la identidad pública que puede representar diferentes capacidades especializadas.El funcionamiento interno puede involucrar múltiples agentes, herramientas y servicios."
+    },
+    {
+     "ref": "KYN-MRK-EST-001.3",
+     "nivel": "DEBE",
+     "texto": "Para la persona, todo eso se presenta como un solo personaje.La persona reconoce a Estela como su interlocutora, mientras el sistema utiliza las capacidades disponibles para atender cada necesidad.Estela se presenta siempre como inteligencia artificial de Keyons, con una personalidad expresiva.",
+     "revisar": [
+      "«siempre» sin verbo normativo"
+     ]
+    },
+    {
+     "ref": "KYN-MRK-EST-001.4",
+     "nivel": "PUEDE",
+     "texto": "(Relación con Prisma)Estela puede acompañar la narrativa y las experiencias de la metodología Prisma, respetando sus cinco fases oficiales:Amanecer · Mediodía · Atardecer · Anochecer · Galaxia.Su papel específico dentro de cada fase y las historias que las conecten quedan pendientes de desarrollo narrativo."
+    }
+   ]
   },
   {
    "id": "KYN-MRK-GAL-001",

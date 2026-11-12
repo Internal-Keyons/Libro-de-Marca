@@ -42,7 +42,7 @@
   /* Nombres de los niveles en la página de área: Marca cuenta capítulos y páginas; el Sistema de Diseño, módulos y capítulos */
   const W = Object.assign({ ch: 'Capítulos', pg: 'Páginas', pgs: 'páginas' }, BOOK.words || {});
   const counted = (it) => it.t && !it.idx;
-  const dot = (s = 'p') => `<span class="dot dot--${SKEY[s]}" title="${STATUS[s]}" aria-label="${STATUS[s]}"></span>`;
+  const dot = (s = 'p') => `<span class="dot dot--${SKEY[s]}" role="img" title="${STATUS[s]}" aria-label="${STATUS[s]}"></span>`;
   /* Niveles de norma · reglas-visuales R16: tres niveles; «No debe» usa la marca de Debe */
   const LEVEL = { debe: 'Debe', deberia: 'Debería', puede: 'Puede' };
   const LEVEL_TIP = {
@@ -56,15 +56,18 @@
   const base = (h) => (h || '').split('#')[0];
   const hash = (h) => (h || '').split('#')[1] || '';
 
-  /* Los seis libros de la Biblioteca. on: disponible para consulta; los demás se muestran sin enlace */
+  /* Los seis libros de la Biblioteca. Generado por tools/biblioteca.py desde data/libros.json: no se edita a mano.
+     on: se puede abrir (acceso); e: estado editorial de su contenido. Un libro abierto puede estar en construcción. */
+  /* libros:inicio */
   const LIBROS = [
-    { id: 'marca', t: 'Marca y Experiencia', c: 'Marca', tr: 'v', h: 'inicio.html', on: true },
-    { id: 'sistema-diseno', t: 'Sistema de Diseño', c: 'Diseño', tr: 'g', h: 'sistema-diseno/index.html', on: true },
-    { id: 'producto', t: 'Producto e Ingeniería', c: 'Producto', tr: 'x' },
-    { id: 'ventas', t: 'Ventas y Crecimiento', c: 'Ventas', tr: 'd' },
-    { id: 'servicio', t: 'Servicio al Cliente', c: 'Servicio', tr: 'c' },
-    { id: 'cultura', t: 'Cultura y Operaciones', c: 'Cultura', tr: 'h' },
+    { id: 'marca', t: 'Marca y Experiencia', c: 'Marca', tr: 'v', h: 'inicio.html', on: true, e: 'disponible', el: 'Disponible' },
+    { id: 'sistema-diseno', t: 'Sistema de Diseño', c: 'Diseño', tr: 'g', h: 'sistema-diseno/index.html', on: true, e: 'construccion', el: 'En construcción' },
+    { id: 'producto', t: 'Producto e Ingeniería', c: 'Producto', tr: 'x', e: 'preparacion', el: 'En preparación' },
+    { id: 'ventas', t: 'Ventas y Crecimiento', c: 'Ventas', tr: 'd', e: 'preparacion', el: 'En preparación' },
+    { id: 'servicio', t: 'Servicio al Cliente', c: 'Servicio', tr: 'c', e: 'preparacion', el: 'En preparación' },
+    { id: 'cultura', t: 'Cultura y Operaciones', c: 'Cultura', tr: 'h', e: 'preparacion', el: 'En preparación' },
   ];
+  /* libros:fin */
   /* Trama oficial de cada libro, dibujada en línea fina: v verticales, h horizontales, d diagonales,
      x diagonales cruzadas, g retícula, c curvas concéntricas */
   const trama = (k) => {
@@ -81,10 +84,9 @@
   const nubes = () => [[200, .32, 12, 44, 8], [420, .2, 24, 82, -6], [280, .45, 16, 58, 30], [340, .26, 20, 70, -18], [240, .38, 14, 52, 46], [380, .22, 22, 76, 14]]
     .map(([w, o, b, d, y], i) => `<span class="haze" style="width:${w}px;height:${Math.round(w * .38)}px;top:${y}px;opacity:${o};filter:blur(${b + 10}px);animation-duration:${d}s;animation-delay:-${(i * 13.7 + d * .37).toFixed(1)}s"></span>`).join('');
   const BOOK_ID = BOOK.id || 'marca';
-  const LIBRO = LIBROS.find((b) => b.id === BOOK_ID) || (BOOK_ID === 'biblioteca' ? { id: 'biblioteca', t: 'Biblioteca Keyons', c: 'Biblioteca', tr: 'g', h: 'index.html', on: true } : LIBROS[0]);
-  const booksHtml = (cls) => LIBROS.map((b) => (b.on
-    ? `<li><a class="${cls}" href="${url(b.h)}"${b.id === BOOK_ID ? ' aria-current="true"' : ''}>${esc(b.t)}</a></li>`
-    : `<li><span class="${cls} is-off" aria-disabled="true">${esc(b.t)}<small>En preparación</small></span></li>`)).join('');
+  /* La Guía es un recurso común, no un séptimo libro: ningún libro queda como «actual» y la cabecera nombra la Biblioteca sin trama */
+  const EN_GUIA = BOOK_ID === 'biblioteca';
+  const LIBRO = EN_GUIA ? { id: 'biblioteca', t: 'Biblioteca Keyons', c: 'Biblioteca', tr: '', h: 'index.html', on: true } : (LIBROS.find((b) => b.id === BOOK_ID) || LIBROS[0]);
 
   /* Índice plano: buscador y paginador */
   const flat = [];
@@ -103,7 +105,7 @@
     });
   });
   flat.unshift(...NAV.map((a) => ({ t: a.t, href: a.href, s: 'b', path: 'Área del manual' })));
-  flat.unshift(...LIBROS.filter((b) => b.on).map((b) => ({ t: b.t, href: b.h, s: 'v', path: 'Libro de la Biblioteca Keyons' })));
+  flat.unshift(...LIBROS.filter((b) => b.on).map((b) => ({ t: b.t, href: b.h, s: 'v', lib: b.id, path: b.el })));
 
   /* Cada libro de la Biblioteca lleva su trama en encabezados y subencabezados (css: --trama) */
   document.documentElement.dataset.libro = (window.KEYONS_BOOK || {}).id || 'marca';
@@ -111,17 +113,7 @@
   /* ─── Cabecera · misma especificación que el sitio web ─── */
   const top = $('topbar');
   if (top) {
-    /* El logotipo lleva al inicio: el menú solo nombra las áreas */
-    /* Un libro de un solo nivel (Sistema de Diseño) nombra sus módulos en el menú */
-    const links = BOOK.menu === 'chapters'
-      ? NAV[0].ch.map((c) => { const h = base((c.items.find((it) => it.href) || {}).href || NAV[0].href); return { t: c.t, h, cur: h === PAGE }; })
-      : NAV.map((a) => ({ t: a.t, h: a.href, cur: a.id === AREA }));
-    /* Enlaces secundarios del menú: [texto, ruta, ícono, descarga] */
-    const alt = BOOK.alt || [['Descargar PDF', 'documental/libro-de-marca-keyons.pdf', I.down, true], ['Normas para IA', 'ia/index.html', I.code]];
-    const linkHtml = (cls) => links.map((l) => `<a class="${cls}" href="${url(l.h)}"${l.cur ? ' aria-current="true"' : ''}>${l.t}</a>`).join('');
     const clouds = nubes();
-    /* Ícono «salir» del catálogo: en la cabecera y, en móvil, como botón dentro del menú */
-    const EXIT = '<svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,22.8503,17.865)" d="M0 0-4.5-4.83-6.31-3.13-2.82 .62-10.37 .63V3.12L-2.84 3.11-6.31 6.87-4.48 8.56 0 3.69C.96 2.66 .96 1.04 0 0" fill="currentColor"/><path transform="matrix(1,0,0,-1,13.4557,27.2317)" stroke-width="2.5" fill="none" stroke="currentColor" d="M0 22.381L-5.118 22.381L-5.118 0L0 0"/></svg>';
     top.className = 'hdr' + (IS_HOME ? ' hdr--home' : '');
     top.innerHTML = `
       <div class="hdr__bg">${IS_HOME ? `<div class="hdr__clouds" aria-hidden="true">${clouds}</div>` : ''}</div>
@@ -139,7 +131,7 @@
        En móvil sube desde abajo; en escritorio aparece con una transición editorial discreta. */
     const CH = '<svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path transform="matrix(1,0,0,-1,13.4475,25.0231)" d="M0 0-1.987 1.846 4.184 8.489C4.454 8.779 4.454 9.234 4.185 9.525L-1.989 16.206 .002 18.046 6.177 11.366C7.402 10.04 7.399 7.966 6.171 6.643Z" fill="currentColor"/></svg>';
     const tile = (b, cls) => {
-      const inner = `<span class="bks__art">${trama(b.tr)}</span><span class="bks__n">${esc(b.t)}</span>${b.on ? '' : '<span class="bks__s">En preparación</span>'}`;
+      const inner = `<span class="bks__art">${trama(b.tr)}</span><span class="bks__n">${esc(b.t)}</span>${b.on ? (b.e === 'disponible' ? '' : `<span class="bks__s">${esc(b.el)}</span>`) : `<span class="bks__s">${esc(b.el)}</span>`}`;
       return b.on ? `<a class="${cls}" href="${url(b.h)}"${b.id === BOOK_ID ? ' aria-current="true"' : ''}>${inner}</a>` : `<span class="${cls} is-off" aria-disabled="true">${inner}</span>`;
     };
     const bks = document.createElement('div');
@@ -147,8 +139,8 @@
     bks.setAttribute('role', 'dialog'); bks.setAttribute('aria-modal', 'true'); bks.setAttribute('aria-labelledby', 'bks-t');
     bks.innerHTML = `<div class="bks__panel">
       <div class="bks__top"><h2 class="bks__h" id="bks-t">Biblioteca Keyons</h2><button class="bks__x" type="button" aria-label="Cerrar">${ic('<path d="M4 4l8 8M12 4l-8 8"/>')}</button></div>
-      <div class="bks__cur">${tile(LIBRO, 'bks__card')}<span class="bks__k">Libro actual</span></div>
-      <ul class="bks__list">${LIBROS.filter((b) => b !== LIBRO).map((b) => `<li>${tile(b, 'bks__it')}</li>`).join('')}</ul>
+      ${EN_GUIA ? '' : `<div class="bks__cur">${tile(LIBRO, 'bks__card')}<span class="bks__k">Libro actual</span></div>`}
+      <ul class="bks__list${EN_GUIA ? ' bks__list--todos' : ''}">${LIBROS.filter((b) => b !== LIBRO).map((b) => `<li>${tile(b, 'bks__it')}</li>`).join('')}</ul>
       <a class="bks__guide" href="${url('guia/index.html')}">Guía de la Biblioteca</a>
       <nav class="bks__rows" aria-label="Biblioteca">
         <a href="${url('index.html')}"><span>Portada de la Biblioteca</span>${CH}</a>
@@ -158,22 +150,24 @@
     body.appendChild(bks);
     const bk = top.querySelector('.hdr__book');
     let bkT = 0;
-    const setBooks = (o) => {
+    const setBooks = (o, back) => {
       clearTimeout(bkT);
       bk.setAttribute('aria-expanded', String(o));
       if (o) {
         bks.hidden = false; body.classList.add('bks-open');
         requestAnimationFrame(() => requestAnimationFrame(() => bks.classList.add('is-in')));
-        setTimeout(() => (bks.querySelector('.bks__card') || bks.querySelector('.bks__x')).focus({ preventScroll: true }), 60);
+        setTimeout(() => (bks.querySelector('.bks__card') || bks.querySelector('a.bks__it') || bks.querySelector('.bks__x')).focus({ preventScroll: true }), 60);
       } else {
         bks.classList.remove('is-in'); body.classList.remove('bks-open');
         bkT = setTimeout(() => { bks.hidden = true; }, 420);
-        bk.focus({ preventScroll: true });
+        if (back !== false) bk.focus({ preventScroll: true });
       }
     };
+    /* Ctrl+K o «Buscar en la Biblioteca» con el selector abierto: se cierra y la búsqueda queda encima, sin dos ventanas apiladas */
+    window.KEYONS_CERRAR_LIBROS = () => { if (!bks.hidden) setBooks(false, false); };
     bk.addEventListener('click', () => setBooks(true));
     bks.querySelector('.bks__x').addEventListener('click', () => setBooks(false));
-    bks.addEventListener('click', (e) => { if (e.target === bks) setBooks(false); if (e.target.closest('[data-search]')) setBooks(false); });
+    bks.addEventListener('click', (e) => { if (e.target === bks) setBooks(false); if (e.target.closest('[data-search]')) setBooks(false, false); });
     document.addEventListener('keydown', (e) => {
       if (bks.hidden) return;
       if (e.key === 'Escape') setBooks(false);
@@ -1648,36 +1642,75 @@
   };
   aparecer([...document.querySelectorAll('.ed, .chap, .dsec, .area, .acar, .sec-head, .cols, .band, .rings, .matrix, .pgrid, .promises, .cstack, .tbl-wrap, .zig__item, .step, .chan, .pairs, .entry')].filter((t) => !t.parentElement.closest('.acar')));
 
-  /* ─── Buscador ─── */
+  /* ─── Buscador de la Biblioteca ───
+     Busca en todos los libros con acceso abierto: js/busqueda-indice.js, generado por tools/biblioteca.py
+     desde data/libros.json, los mapas de cada libro y los registros de normas. Mientras el índice carga,
+     o si no carga, busca en el libro actual. Cada resultado dice de qué libro viene. */
   const sb = document.createElement('div');
   sb.className = 'search';
   sb.setAttribute('role', 'dialog');
   sb.setAttribute('aria-modal', 'true');
-  sb.setAttribute('aria-label', 'Buscar en el manual');
+  sb.setAttribute('aria-label', 'Buscar en la Biblioteca');
   sb.innerHTML = `<div class="search__box">
-      <div class="search__field"><input type="search" placeholder="Buscar: factura, esquinas, Azul Cielo…" aria-label="Buscar"></div>
-      <div class="search__res" role="listbox"></div>
-      <div class="search__foot"><span><kbd>Flechas</kbd>Moverte</span><span><kbd>Enter</kbd>Abrir</span><span><kbd>Esc</kbd>Cerrar</span></div>
+      <div class="search__field"><input type="search" placeholder="Buscar: factura, esquinas, Azul Cielo…" aria-label="Buscar en la Biblioteca" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-controls="search-res" autocomplete="off"></div>
+      <div class="search__res" id="search-res" role="listbox" aria-label="Resultados"></div>
+      <p class="sr-only" role="status" aria-live="polite"></p>
+      <div class="search__foot"><span><kbd>Flechas</kbd>Moverse</span><span><kbd>Enter</kbd>Abrir</span><span><kbd>Esc</kbd>Cerrar</span></div>
     </div>`;
   body.appendChild(sb);
   const input = sb.querySelector('input');
   const res = sb.querySelector('.search__res');
-  let sel = 0, hits = [];
+  const live = sb.querySelector('[role="status"]');
+  const LIB = Object.fromEntries(LIBROS.map((b) => [b.id, b.t]));
+  let sel = 0, hits = [], todo = null, falla = false, pedido = false, antes = null;
+  const local = () => flat.map((f) => ({ t: f.t, h: f.href, b: f.norma ? 'marca' : (f.lib || BOOK_ID), p: f.path, s: f.s, k: f.k || '', n: !!f.norma }));
+  const cargar = () => {
+    if (pedido) return; pedido = true;
+    const sx = document.createElement('script');
+    sx.src = url('js/busqueda-indice.js');
+    sx.onload = () => { const B = window.KEYONS_BUSQUEDA; if (B && B.items) { todo = B.items; Object.assign(LIB, B.libros || {}); } else falla = true; if (sb.classList.contains('is-open')) draw(); };
+    sx.onerror = () => { falla = true; if (sb.classList.contains('is-open')) draw(); };
+    document.head.appendChild(sx);
+  };
   const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const draw = () => {
     const q = norm(input.value.trim());
-    hits = (q ? flat.filter((f) => norm(f.t + ' ' + f.path + ' ' + (f.k || '')).includes(q)).sort((a, b) => (norm(b.k || '').includes(q) && b.norma) - (norm(a.k || '').includes(q) && a.norma)) : flat.filter((f) => f.href && !f.norma)).filter((f, i, all) => !f.href || all.findIndex((g) => g.href === f.href) === i).slice(0, 12);
+    const pool = todo || local();
+    const propio = (h) => (h.b === BOOK_ID ? 1 : 0);
+    hits = (q
+      ? pool.filter((f) => norm(f.t + ' ' + f.p + ' ' + (f.k || '') + ' ' + (LIB[f.b] || '')).includes(q))
+        .sort((a, b) => ((norm(b.k || '').includes(q) && b.n) - (norm(a.k || '').includes(q) && a.n)) || (propio(b) - propio(a)))
+      : pool.filter((f) => f.h && !f.n && f.b === BOOK_ID))
+      .filter((f, i, all) => !f.h || all.findIndex((g) => g.h === f.h) === i).slice(0, 12);
     sel = Math.min(sel, Math.max(hits.length - 1, 0));
     res.innerHTML = hits.length ? hits.map((h, i) => {
-      const inner = `<span class="r-body"><span class="r-t">${esc(h.t)}</span><br><span class="r-path">${esc(h.path)}</span></span>${dot(h.s)}`;
+      const lib = LIB[h.b] ? `<span class="r-lib">${esc(LIB[h.b])}</span> · ` : '';
+      const inner = `<span class="r-body"><span class="r-t">${esc(h.t)}</span><br><span class="r-path">${lib}${esc(h.p || '')}</span></span>${dot(h.s)}`;
       const c = i === sel ? ' is-sel' : '';
-      return h.href ? `<a class="${c}" href="${url(h.href)}" role="option">${inner}</a>` : `<div class="r${c}" role="option" aria-disabled="true">${inner}</div>`;
-    }).join('') : `<div class="search__empty">Nada con ese nombre todavía.</div>`;
+      return h.h ? `<a class="${c.trim()}" id="sr-${i}" href="${url(h.h)}" role="option" aria-selected="${i === sel}" tabindex="-1">${inner}</a>`
+        : `<div class="r${c}" id="sr-${i}" role="option" aria-selected="${i === sel}" aria-disabled="true">${inner}</div>`;
+    }).join('') : `<div class="search__empty">Sin resultados para «${esc(input.value.trim())}». Pruebe con otra palabra o con el ID de una norma.</div>`;
+    const aviso = falla ? '<div class="search__empty">La búsqueda en toda la Biblioteca está fuera de servicio por ahora. Estos resultados son de este libro.</div>' : '';
+    if (aviso) res.insertAdjacentHTML('afterbegin', aviso);
+    if (hits.length) input.setAttribute('aria-activedescendant', 'sr-' + sel); else input.removeAttribute('aria-activedescendant');
+    live.textContent = q ? (hits.length ? `${hits.length} resultado${hits.length === 1 ? '' : 's'}` : 'Sin resultados') : '';
   };
-  const open = () => { sb.classList.add('is-open'); input.value = ''; sel = 0; draw(); setTimeout(() => input.focus(), 10); };
-  const close = () => sb.classList.remove('is-open');
+  const open = () => {
+    if (window.KEYONS_CERRAR_LIBROS) window.KEYONS_CERRAR_LIBROS();
+    const a = document.activeElement;
+    antes = a && a !== body && !a.closest('.bks') ? a : document.querySelector('.hdr__search');
+    cargar();
+    sb.classList.add('is-open'); input.value = ''; sel = 0; draw(); setTimeout(() => input.focus(), 10);
+  };
+  const close = () => {
+    sb.classList.remove('is-open');
+    if (antes && document.contains(antes)) antes.focus({ preventScroll: true });
+  };
   input.addEventListener('input', () => { sel = 0; draw(); });
-  const mark = () => res.querySelectorAll('[role="option"]').forEach((el, k) => el.classList.toggle('is-sel', k === sel));
+  const mark = () => {
+    res.querySelectorAll('[role="option"]').forEach((el, k) => { el.classList.toggle('is-sel', k === sel); el.setAttribute('aria-selected', String(k === sel)); });
+    if (hits.length) { input.setAttribute('aria-activedescendant', 'sr-' + sel); const el = document.getElementById('sr-' + sel); if (el) el.scrollIntoView({ block: 'nearest' }); }
+  };
   res.addEventListener('mousemove', (e) => {
     const o = e.target.closest('[role="option"]');
     if (!o) return;
@@ -1689,10 +1722,12 @@
   document.addEventListener('keydown', (e) => {
     if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); sb.classList.contains('is-open') ? close() : open(); return; }
     if (!sb.classList.contains('is-open')) return;
-    if (e.key === 'Escape') close();
+    if (e.key === 'Escape') { e.preventDefault(); close(); }
+    /* El foco queda dentro del buscador: las flechas recorren los resultados y Tab vuelve al campo */
+    if (e.key === 'Tab') { e.preventDefault(); input.focus(); }
     if (e.key === 'ArrowDown') { e.preventDefault(); sel = Math.min(sel + 1, hits.length - 1); mark(); }
     if (e.key === 'ArrowUp') { e.preventDefault(); sel = Math.max(sel - 1, 0); mark(); }
-    if (e.key === 'Enter' && hits[sel] && hits[sel].href) location.href = url(hits[sel].href);
+    if (e.key === 'Enter' && hits[sel] && hits[sel].h) { e.preventDefault(); location.href = url(hits[sel].h); }
   });
 
   /* ─── Copiar al portapapeles ─── */

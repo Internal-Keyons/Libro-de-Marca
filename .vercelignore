@@ -3,3 +3,16 @@ docs/
 
 _lab/
 .env.local
+
+# Archivos internos de trabajo: instrucciones, reglas de trabajo, borradores y herramientas de generación.
+# El sitio no los enlaza; las versiones para IA se publican en ia/.
+/CLAUDE.md
+/reglas-visuales.md
+/reglas-de-voz.md
+/capitulo-*.md
+/normas-ux-sistema-diseno.md
+/principios-comunes-lectura.md
+/tools/
+/propuestas/
+/_tmp/
+/Libro de marcar/

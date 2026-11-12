@@ -10,7 +10,6 @@
 window.KEYONS_BOOK = {
   id: 'sistema-diseno',
   home: 'sistema-diseno/index.html',
-  menuLabel: 'Módulos del Sistema de Diseño',
   alt: [['Descargar PDF', 'documental/sistema-diseno-keyons.pdf', 'down', true], ['Normas para IA', 'ia/sistema-diseno.md', 'code']],
   words: { ch: 'Capítulos', pg: 'Subcapítulos', pgs: 'subcapítulos' },
   cardShort: true,
@@ -25,10 +24,10 @@ window.KEYONS_NAV = [
     ch: [
       { n: '01', k: '01-01', t: 'Principios comunes', full: 'Principios comunes', d: 'Cinco principios que rigen el diseño de todos los productos digitales de Keyons: SaaS de nicho, herramientas internas y desarrollos a medida. Son la base de los demás capítulos de este libro.', s: 'b', items: [
           { t: 'Claridad', st: 'Claridad', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-01' },
-          { t: 'Coherencia', st: 'Coherencia', s: 'p', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-02' },
-          { t: 'Control', st: 'Control', s: 'p', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-03' },
-          { t: 'Diseño honesto', st: 'Diseño honesto', s: 'p', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-04' },
-          { t: 'Firma UX', st: 'Firma UX', s: 'p', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-05' } ] },
+          { t: 'Coherencia', st: 'Coherencia', s: 'p' },
+          { t: 'Control', st: 'Control', s: 'p' },
+          { t: 'Diseño honesto', st: 'Diseño honesto', s: 'p' },
+          { t: 'Firma UX', st: 'Firma UX', s: 'p' } ] },
       { n: '02', k: '01-02', t: 'Personas y contextos', full: 'Personas y contextos de uso', d: 'Quién usa cada producto, para qué tarea, con qué frecuencia y con cuánta carga.', s: 'p', items: [
           { t: 'Roles y capacidades', st: 'Roles y capacidades', s: 'p', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-01' },
           { t: 'Objetivos y tareas', st: 'Objetivos y tareas', s: 'p', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-02' },

@@ -87,15 +87,27 @@ def dot(k):
     return f'<span class="dot dot--{CLASE[k]}" title="{TEXTO[k]}" aria-label="{TEXTO[k]}"></span>'
 
 
+def anclas_redactadas(c):
+    """Anclas del contenido redactado de un capítulo; None si el capítulo usa la lista generada (todas existen)."""
+    p = os.path.join(CONTENIDO, c['slug'] + '.html')
+    return set(re.findall(r'\sid="([^"]+)"', io.open(p, encoding='utf-8').read())) if os.path.exists(p) else None
+
+
 def nav(d):
-    """Doce áreas (una por módulo); cada capítulo lista sus subcapítulos como secciones de su página."""
+    """Doce áreas (una por módulo); cada capítulo lista sus subcapítulos como secciones de su página.
+    Un subcapítulo sin sección escrita queda en el índice sin enlace (Por definir): ningún enlace lleva a un ancla que no existe."""
     areas = []
     for i, m in enumerate(d['modulos']):
         color = COLORES[i % 4]
         caps = []
         for c in m['capitulos']:
+            hay = anclas_redactadas(c)
+            def destino(s):
+                if hay is not None and ancla(s['n']) not in hay:
+                    return ''
+                return f", href: 'sistema-diseno/{m['slug']}/{c['slug']}.html#{ancla(s['n'])}'"
             items = ',\n          '.join(
-                f"{{ t: '{js(s['st'])}', st: '{js(s['st'])}', s: '{ESTADO[s['estado']]}', href: 'sistema-diseno/{m['slug']}/{c['slug']}.html#{ancla(s['n'])}' }}"   # reglas-visuales 3.5 (R19): el índice usa el nombre corto
+                f"{{ t: '{js(s['st'])}', st: '{js(s['st'])}', s: '{ESTADO[s['estado']]}'{destino(s)} }}"   # reglas-visuales 3.5 (R19): el índice usa el nombre corto
                 for s in c['subcapitulos'])
             caps.append(f"      {{ n: '{c['num']}', k: '{c['n'].replace('.', '-')}', t: '{js(c['st'])}', full: '{js(c['t'])}', d: '{js(c['dc'])}', s: '{ESTADO[c['estado']]}', items: [\n          {items} ] }}")
         areas.append(f'''  {{
@@ -118,7 +130,6 @@ def nav(d):
 window.KEYONS_BOOK = {
   id: 'sistema-diseno',
   home: 'sistema-diseno/index.html',
-  menuLabel: 'Módulos del Sistema de Diseño',
   alt: [['Descargar PDF', 'documental/sistema-diseno-keyons.pdf', 'down', true], ['Normas para IA', 'ia/sistema-diseno.md', 'code']],
   words: { ch: 'Capítulos', pg: 'Subcapítulos', pgs: 'subcapítulos' },
   cardShort: true,
@@ -136,11 +147,13 @@ def modulo(i, m, reg):
     for r in m['marca']:
         if isinstance(r, list):
             h, num, t = r
-            lab = 'Capítulo'
-        else:
+            refs.append(f'<a class="xref" href="../{h}">el capítulo {num} {e(t)}</a>')
+        elif 'KYN-MRK-' + r in reg:
             h, t, num = reg['KYN-MRK-' + r]
-            lab = 'KYN-MRK-' + r
-        refs.append(f'          <a class="kidx__r" href="../{h}"><b>{lab}</b><span class="kidx__n">{num}</span><span class="kidx__t">{e(t)}</span></a>')
+            refs.append(f'<a class="xref" href="../{h}" title="{e(t)}">KYN-MRK-{r}</a>')
+        else:   # una norma que no está vigente no se cita como aplicable; se avisa en vez de detener la generación
+            print(f'  aviso: {m["k"]} cita KYN-MRK-{r}, que no está vigente ni integrada')
+    lista = refs[0] if len(refs) == 1 else ', '.join(refs[:-1]) + ' y ' + refs[-1]
     nota = f'\n        <p class="ed__more">{e(m["nota"])}</p>' if m.get('nota') else ''
     return head(m['t'], '..') + f'''<body class="is-area" data-root=".." data-area="{m['k'].lower()}" data-page="sistema-diseno/{m['slug']}.html">
 
@@ -154,14 +167,11 @@ def modulo(i, m, reg):
     <!-- Contenido generado desde js/nav-sistema-diseno.js, igual que las áreas del Libro de Marca -->
     <div id="area-page"></div>
 
-    <!-- Relación con el Libro de Marca: se cita, no se duplica -->
+    <!-- Relación con el Libro de Marca: se cita dentro del texto, con enlace (CLAUDE.md) -->
     <section class="ed" id="marca">
-      <div class="ed__label"><span>Módulo {m['n']}</span><span>Relación</span></div>
+      <div class="ed__label"><span>Módulo {m['n']}</span><span>Libro de Marca</span></div>
       <div>
-        <h2 class="ed__title">Normas relacionadas</h2>
-        <div class="kidx__list sd-refs">
-{chr(10).join(refs)}
-        </div>
+        <p class="ed__lead">Del Libro de Marca, este módulo aplica {lista}.</p>
       </div>
     </section>
 

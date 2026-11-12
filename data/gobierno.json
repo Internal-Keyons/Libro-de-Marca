@@ -89,8 +89,14 @@
     }
   ],
   "ambitos_criterio": [
-    "Las reglas comunes de calidad y experiencia pueden aplicarse a varios ámbitos.",
-    "Las reglas visuales de identidad se aplican a los productos y comunicaciones que adoptan esa identidad."
+    {
+      "k": "Calidad y experiencia",
+      "t": "Las reglas comunes de calidad y experiencia pueden aplicarse a varios ámbitos."
+    },
+    {
+      "k": "Identidad visual",
+      "t": "Las reglas visuales de identidad se aplican a los productos y comunicaciones que adoptan esa identidad."
+    }
   ],
   "dimensiones": [
     "Identificador permanente",
@@ -115,7 +121,7 @@
     "formato": "KYN-<LIBRO>-<ÁREA>-<número de tres cifras>",
     "reglas": [
       "Los identificadores son permanentes desde la versión 1: no se reutilizan ni se renumeran.",
-      "Las referencias entre libros se resuelven mediante el ID permanente. Estado actual: los ID enlazan dentro del Libro de Marca; el Sistema de Diseño aún no emite códigos propios."
+      "Las referencias entre libros se resuelven mediante el ID permanente. Estado actual: los ID enlazan dentro del Libro de Marca; el Sistema de Diseño cita las normas heredadas KYN-PRD-UIX y reserva KYN-SDI para sus normas nuevas."
     ],
     "prefijos": [
       {
@@ -126,12 +132,12 @@
       {
         "k": "KYN-SDI",
         "t": "Sistema de Diseño",
-        "estado": "Propuesto, sin emitir"
+        "estado": "Reservado para sus normas nuevas, sin emitir. Cita las normas heredadas KYN-PRD-UIX sin cambiarlas"
       },
       {
         "k": "KYN-PRD",
         "t": "Producto e Ingeniería",
-        "estado": "Identificadores históricos del Manual de Producto"
+        "estado": "Identificadores históricos del Manual de Producto, entre ellos KYN-PRD-UIX"
       },
       {
         "k": "Por asignar",
@@ -249,7 +255,7 @@
         ],
         [
           "Aplicar las normas de la tarea",
-          "ia/normas/"
+          "ia/index.html"
         ]
       ],
       "reglas": [
@@ -268,7 +274,7 @@
         ],
         [
           "Aprobar la clasificación pendiente",
-          "docs/CLASIFICACION_NORMATIVA.md"
+          "data/clasificacion-propuesta.json"
         ],
         [
           "Resolver excepciones y aprobaciones",

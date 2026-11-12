@@ -9,12 +9,12 @@
 | Dato | Valor |
 |---|---|
 | Normas inventariadas | 126 |
-| Requisitos detectados | 226 |
-| DEBE | 89 |
+| Requisitos detectados | 230 |
+| DEBE | 90 |
 | NO DEBE | 84 |
 | DEBERÍA | 9 |
-| PUEDE | 44 |
-| Requisitos con ambigüedad | 40 |
+| PUEDE | 47 |
+| Requisitos con ambigüedad | 41 |
 | Frases duplicadas entre normas | 0 |
 | Contradicciones con el código | 7 |
 
@@ -81,6 +81,7 @@ Las normas de calidad y experiencia KYN-MRK-VIS-008 suman Productos personalizad
 | KYN-MRK-ESP-004.3 | DEBE | varias expresiones normativas en la misma frase; «siempre» sin verbo normativo | La cantidad de columnas se adapta a la tarea y al espacio disponible.02Estructura adaptablePara sitios web, páginas informativas y experiencias comerciales.Las … |
 | KYN-MRK-ESP-005.2 | DEBE | «siempre» sin verbo normativo | Una composición limpia no necesita ser siempre poco densa. |
 | KYN-MRK-ESP-005.4 | DEBERÍA | varias expresiones normativas en la misma frase | (Ejemplo)Propuesta comercial: una idea, mucho aireCorporativo · densidad contenidaPrioriza una jerarquía clara, espacio negativo y una lectura cómoda.La cantida… |
+| KYN-MRK-EST-001.3 | DEBE | «siempre» sin verbo normativo | Para la persona, todo eso se presenta como un solo personaje.La persona reconoce a Estela como su interlocutora, mientras el sistema utiliza las capacidades dis… |
 | KYN-MRK-ICO-002.1 | DEBE | «siempre» sin verbo normativo | (Interfaz · sólida)Solo para el estado activo o seleccionado, y siempre como pareja de un ícono de contorno. |
 | KYN-MRK-ICO-003.2 | DEBE | «siempre» sin verbo normativo | Debajo de 16 se pierde el trazo.Con textoÍcono y etiqueta a 8 px de distancia, alineados al centro.Sin textoSolo para acciones universales; siempre con nombre a… |
 | KYN-MRK-ICO-004.1 | DEBE | «siempre» sin verbo normativo | Animación Siempre en la misma dirección Todos los íconos usan la misma animación: aparecen desde el centro y se asientan en 550 ms, para que la familia se mueva… |
@@ -163,7 +164,7 @@ Ninguna.
 | KYN-MRK-ESP-004 | 3 | 0 | 0 | 1 |
 | KYN-MRK-ESP-005 | 3 | 2 | 1 | 1 |
 | KYN-MRK-ESP-006 | 2 | 1 | 0 | 0 |
-| KYN-MRK-EST-001 | 0 | 0 | 0 | 0 |
+| KYN-MRK-EST-001 | 1 | 0 | 0 | 3 |
 | KYN-MRK-GAL-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-ICN-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-ICO-001 | 0 | 0 | 0 | 0 |

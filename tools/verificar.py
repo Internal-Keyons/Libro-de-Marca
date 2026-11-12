@@ -12,9 +12,20 @@ Errores (salida 1):
 - Una norma registrada en data/normas.json sin su sección en el libro.
 - Una sección cuyo texto volvió a una redacción anterior a la aprobada: una reversión.
 Avisos (salida 0): secciones nuevas o con redacción cambiada, que esperan aprobación.
+
+Biblioteca (errores, salida 1), en los dos libros abiertos (Marca y Sistema de Diseño):
+- IDs de norma duplicados: en data/normas.json, en data/sistema-diseno.json o entre los dos.
+- Enlaces del índice de cada libro (js/nav-data.js, js/nav-sistema-diseno.js) a páginas o anclas que no existen.
+- Referencias KYN-MRK en las páginas del Sistema de Diseño a normas que no están en el registro.
+- Normas KYN-PRD-UIX citadas por el Sistema de Diseño sin su archivo en ia/normas.
+- Un ID KYN-SDI emitido en el contenido sin estar registrado (el prefijo está reservado, sin emitir).
+- Bloques «Normas relacionadas» o «Relacionado» (CLAUDE.md: la referencia va dentro del texto).
+- Cada norma redactada del Sistema de Diseño con su estructura: rótulo con ID, titular, entrada y filas con nivel.
+- Los seis libros con su nombre oficial (data/libros.json) en la portada, el selector, la Guía y la tabla de tramas.
 """
 import datetime
 import hashlib
+import io
 import json
 import os
 import re
@@ -100,6 +111,71 @@ def historial(ref):
                     e['versiones'].append({'huella': h, 'aprobada': d, 'nota': f'commit {c}'})
 
 
+def biblioteca():
+    """Revisión de la Biblioteca: IDs, anclas, referencias, estructura y nombres. Devuelve la lista de errores."""
+    import glob
+    err = []
+    lee = lambda p: io.open(os.path.join(ROOT, p), encoding='utf-8').read() if os.path.exists(os.path.join(ROOT, p)) else None
+    ids_mrk = [v['id'] for v in json.load(io.open(os.path.join(ROOT, 'data', 'normas.json'), encoding='utf-8')).values()]
+    SD = json.load(io.open(os.path.join(ROOT, 'data', 'sistema-diseno.json'), encoding='utf-8'))
+    ids_sd = [sc['norma'] for m in SD['modulos'] for c in m['capitulos'] for sc in c['subcapitulos'] if sc.get('norma')]
+    for nombre, ids in (('data/normas.json', ids_mrk), ('data/sistema-diseno.json', ids_sd)):
+        for x in sorted({i for i in ids if ids.count(i) > 1}):
+            err.append(f'ID DOBLE {x}: aparece más de una vez en {nombre}')
+    for x in sorted(set(ids_mrk) & set(ids_sd)):
+        err.append(f'ID DOBLE {x}: está en el registro de Marca y en el del Sistema de Diseño')
+    for x in sorted(set(ids_sd)):
+        if not os.path.exists(os.path.join(ROOT, 'ia', 'normas', x + '.md')):
+            err.append(f'SIN NORMA {x}: el Sistema de Diseño la cita y no está en ia/normas')
+    # Anclas de los dos índices
+    def ids_de(p):
+        t = lee(p)
+        return None if t is None else set(re.findall(r'\sid="([^"]+)"', t))
+    for archivo in ('js/nav-data.js', 'js/nav-sistema-diseno.js'):
+        for h in sorted(set(re.findall(r"href: '([^']+)'", lee(archivo)))):
+            pg, _, an = h.partition('#')
+            hay = ids_de(pg)
+            if hay is None:
+                err.append(f'ENLACE  {archivo}: {h} lleva a una página que no existe')
+            elif an and an not in hay:
+                err.append(f'ANCLA   {archivo}: {h} lleva a un ancla que no existe')
+    # Referencias y bloques prohibidos en las páginas del Sistema de Diseño
+    for p in sorted(glob.glob(os.path.join(ROOT, 'sistema-diseno', '**', '*.html'), recursive=True)):
+        t = io.open(p, encoding='utf-8').read()
+        rel = os.path.relpath(p, ROOT).replace(os.sep, '/')
+        for x in sorted(set(re.findall(r'KYN-MRK-[A-Z]{3}-\d{3}', t)) - set(ids_mrk)):
+            err.append(f'REFERENCIA {rel}: cita {x}, que no está en data/normas.json')
+        for x in sorted(set(re.findall(r'KYN-SDI-[A-Z]{3}-\d{3}', t))):
+            err.append(f'SDI     {rel}: {x} aparece emitido; KYN-SDI está reservado y sin emitir')
+    for p in sorted(glob.glob(os.path.join(ROOT, '**', '*.html'), recursive=True)):
+        if any(x in p for x in ('_tmp', 'propuestas', 'Libro de marcar', '_lab', 'documental')):
+            continue
+        t = io.open(p, encoding='utf-8').read()
+        if re.search(r'<h[1-4][^>]*>\s*(Normas relacionadas|Relacionado)\s*</h[1-4]>', t):
+            err.append(f'BLOQUE  {os.path.relpath(p, ROOT)}: tiene un bloque «Normas relacionadas» o «Relacionado»')
+    # Estructura de cada norma redactada del Sistema de Diseño
+    for p in sorted(glob.glob(os.path.join(ROOT, 'data', 'sd-capitulos', '*.html'))):
+        t = io.open(p, encoding='utf-8').read()
+        for sec in re.findall(r'<section class="ed" id="[^"]+">.*?</section>', t, re.S):
+            sid = re.search(r'id="([^"]+)"', sec).group(1)
+            if 'ed__code' not in sec:
+                continue   # sección sin ID: contenido de lectura, no norma
+            falta = [k for k, rx in (('rótulo con ID', r'class="ed__code"'), ('titular', r'class="ed__title"'),
+                                     ('entrada', r'class="ed__lead"'), ('filas con nivel', r'data-lvl="(debe|deberia|puede)"')) if not re.search(rx, sec)]
+            if falta:
+                err.append(f'NORMA   {os.path.basename(p)}#{sid}: le falta {", ".join(falta)}')
+    # Nombres oficiales de los seis libros
+    L = json.load(io.open(os.path.join(ROOT, 'data', 'libros.json'), encoding='utf-8'))['libros']
+    for p in ('index.html', 'js/libro.js', 'guia/index.html', 'fundamentos/elementos/graficos.html'):
+        t = lee(p) or ''
+        for b in L:
+            if p == 'guia/index.html' and not b.get('prefijo'):
+                continue   # la Guía agrupa los libros sin prefijo en una sola fila
+            if b['nombre'] not in t:
+                err.append(f'NOMBRE  {p}: falta «{b["nombre"]}», el nombre oficial de data/libros.json')
+    return err
+
+
 def main():
     ref = cargar()
     cur, reg = actual()
@@ -118,7 +194,7 @@ def main():
         print(f'Aprobado: {nota}')
         return
 
-    errores, avisos = [], []
+    errores, avisos = biblioteca(), []
     for h, n in reg.items():
         if n['estado'] not in ('descontinuada', 'integrada') and h not in cur:
             errores.append(f'FALTA   {n["id"]} ({h}): la norma no tiene sección en el libro')

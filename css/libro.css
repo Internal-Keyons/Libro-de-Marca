@@ -5203,7 +5203,6 @@ body.nav-open .scrim{opacity:1;pointer-events:auto}
 .hdr__book:hover{opacity:.7}
 .hdr__book svg{width:13px;height:13px;stroke:currentColor;stroke-width:1.7;fill:none;transform:rotate(90deg)}
 .hdr__book-c{display:none}
-@media(max-width:480px){.hdr__book-t{display:none}.hdr__book-c{display:inline}.hdr__book{font-size:14px}}
 .hdr__burger,.hdr__index{display:none!important}
 
 /* Selector global de libros */
@@ -5241,24 +5240,6 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{background:var(--k-cielo-1
 .bks__rows a:hover,.bks__rows button:hover{background:var(--k-cielo-100)}
 .bks__rows svg{width:18px;height:18px}
 @media(max-width:600px){.bks__list{grid-template-columns:repeat(3,minmax(0,1fr));row-gap:var(--s6)}.bks__list li .bks__art{border-radius:var(--r-component)!important}}
-/* Escritorio: vista completa con transición editorial discreta */
-@media(min-width:901px){
-  .bks{align-items:stretch;background:var(--k-blanco);opacity:0;transition:opacity .42s var(--e-out)}
-  .bks.is-in{opacity:1;background:var(--k-blanco)}
-  .bks__panel{max-width:960px;margin:0 auto;padding:var(--s10) var(--s10) var(--s16);background:none;border-radius:0;transform:translateY(16px);transition:transform .6s var(--e-out)}
-  .bks.is-in .bks__panel{transform:none}
-  .bks__top{min-height:56px}
-  .bks__h{font-size:16px;font-weight:500;color:var(--color-text-3)}
-  .bks__cur{margin-top:var(--s10);padding:var(--s12) var(--s8);background:none;box-shadow:none}
-  .bks__card .bks__art{width:180px;height:180px}
-  .bks__card .bks__n{font-size:clamp(36px,4vw,56px);font-weight:500;letter-spacing:-.03em}
-  .bks__it .bks__art{max-width:128px}
-  .bks__rows{max-width:560px;margin-left:auto;margin-right:auto}
-  .bks__panel > *{opacity:0;transform:translateY(10px);transition:opacity .5s var(--e-out),transform .6s var(--e-out)}
-  .bks.is-in .bks__panel > *{opacity:1;transform:none}
-  .bks.is-in .bks__panel > :nth-child(2){transition-delay:60ms}.bks.is-in .bks__panel > :nth-child(3){transition-delay:120ms}
-  .bks.is-in .bks__panel > :nth-child(4){transition-delay:180ms}.bks.is-in .bks__panel > :nth-child(5){transition-delay:220ms}
-}
 body.bks-open{overflow:hidden}
 @media(prefers-reduced-motion:reduce){.bks,.bks__panel,.bks__panel > *{transition:none!important}}
 
@@ -6090,3 +6071,10 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)
 .lvx__fig.is-tx:hover .lvx__bx{opacity:1}
 .lvx__fig.is-tx:hover .lvx__tx{opacity:0}
 @media(prefers-reduced-motion:reduce){.lvx__bx,.lvx__tx{transition:none}}
+
+/* ═══ Biblioteca · P1 y P4 ═══ */
+/* En la Guía ningún libro es el actual: los seis mosaicos van en una fila (en móvil, 3 × 2) */
+.bks__list--todos{grid-template-columns:repeat(6,minmax(0,1fr))}
+@media(max-width:600px){.bks__list--todos{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* Buscador de la Biblioteca: cada resultado nombra su libro */
+.search__res .r-lib{font-weight:500;color:var(--color-text-2)}
