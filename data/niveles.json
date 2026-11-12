@@ -1,0 +1,1806 @@
+{
+ "nota": "Decisiones sobre la fuerza normativa de cada declaración candidata (tools/niveles.py). aplicada: norma confirmada con verbo modal explícito; pendiente: ambigüedad real, decide Keylin; redaccion: norma confirmada que necesita reescribirse con el verbo para llevar nivel; borrador: se decide al aprobar la norma; no-normativa: descripción o ejemplo.",
+ "fecha": "2026-11-12",
+ "declaraciones": [
+  {
+   "id": "KYN-MRK-RED-001",
+   "fuente": "aplicaciones/campanas.html#archivo",
+   "bloque": 3,
+   "frase": "Un mismo archivo puede aparecer en varios lugares mediante referencias, pero tiene una sola fuente original.",
+   "estado": "borrador",
+   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
+  },
+  {
+   "id": "KYN-MRK-RED-001",
+   "fuente": "aplicaciones/campanas.html#archivo",
+   "bloque": 3,
+   "frase": "Así nunca circulan dos versiones sin control.",
+   "estado": "borrador",
+   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
+  },
+  {
+   "id": "KYN-MRK-PER-001",
+   "fuente": "aplicaciones/personalizacion.html#modelos",
+   "bloque": 0,
+   "frase": "La firma visual cambia según el modelo comercial; la calidad técnica, nunca.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-PRE-014",
+   "fuente": "aplicaciones/presentaciones.html#antes",
+   "bloque": 6,
+   "frase": "Contraste medidoSolo grises oficiales; fotos siempre con velo.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-PRE-014",
+   "fuente": "aplicaciones/presentaciones.html#antes",
+   "bloque": 7,
+   "frase": "Salmón solo para el dato claveY nunca sobre Azul Cielo.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-PRE-005",
+   "fuente": "aplicaciones/presentaciones.html#escribir",
+   "bloque": 38,
+   "frase": "KYN-MRK-VOZ-002 · En modo expresivo se permite una negación, cuando es el giro.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-PRE-003",
+   "fuente": "aplicaciones/presentaciones.html#historia",
+   "bloque": 2,
+   "frase": "Keyons ocupa como máximo una diapositiva, y nunca la primera.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-PRE-003",
+   "fuente": "aplicaciones/presentaciones.html#historia",
+   "bloque": 17,
+   "frase": "[Audiencia]puede[cambio concreto]si[acción], porque[razón]",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-PRE-003",
+   "fuente": "aplicaciones/presentaciones.html#historia",
+   "bloque": 18,
+   "frase": "Los profesionales de Ingenya pueden usar IA todos los días sin exponer a sus clientes, si trabajan solo en el entorno corporativo y firman lo que validan.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-PRE-012",
+   "fuente": "aplicaciones/presentaciones.html#imagen",
+   "bloque": 0,
+   "frase": "Una ventana, una fotografía o una cifra; nunca las tres.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-PRE-012",
+   "fuente": "aplicaciones/presentaciones.html#imagen",
+   "bloque": 6,
+   "frase": "Aparecen al avanzarPor partes al hacer clic; nunca en bucle.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-PRE-007",
+   "fuente": "aplicaciones/presentaciones.html#lienzo",
+   "bloque": 6,
+   "frase": "Siempre en la misma posición.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-PRE-006",
+   "fuente": "aplicaciones/presentaciones.html#limites",
+   "bloque": 0,
+   "frase": "Lo que no cabe va a las notas, nunca a una letra más chica.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-PRE-006",
+   "fuente": "aplicaciones/presentaciones.html#limites",
+   "bloque": 24,
+   "frase": "Siempre con su fuente en el pie.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-PRE-006",
+   "fuente": "aplicaciones/presentaciones.html#limites",
+   "bloque": 35,
+   "frase": "Una cita externa necesita fuente y nunca cierra la presentación.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-PRE-002",
+   "fuente": "aplicaciones/presentaciones.html#metodo",
+   "bloque": 3,
+   "frase": "¿Qué debe pensar, sentir y hacer al salir?",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-PRE-002",
+   "fuente": "aplicaciones/presentaciones.html#metodo",
+   "bloque": 12,
+   "frase": "Nunca se copian diapositivas viejas.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-PRE-011",
+   "fuente": "aplicaciones/presentaciones.html#riesgo",
+   "bloque": 0,
+   "frase": "El color nunca va solo.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-PRE-001",
+   "fuente": "aplicaciones/presentaciones.html#tipos",
+   "bloque": 6,
+   "frase": "Corporativo; las prácticas pueden ser expresivas.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-COL-007",
+   "fuente": "fundamentos/color/cielos.html#cielos",
+   "bloque": 5,
+   "frase": "Azules profundos reales, nunca violetas saturados.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-COL-008",
+   "fuente": "fundamentos/color/cielos.html#especiales",
+   "bloque": 0,
+   "frase": "Auroras, tormentas de arena, monzones o cielos volcánicos pueden sumarse como excepción, nunca como reemplazo de los cinco cielos oficiales.",
+   "estado": "pendiente",
+   "motivo": "Mezcla dos fuerzas en una frase: PUEDE sumarse como excepción y nunca reemplazar a los cinco cielos (NO DEBE). Separar en dos declaraciones."
+  },
+  {
+   "id": "KYN-MRK-COL-008",
+   "fuente": "fundamentos/color/cielos.html#especiales",
+   "bloque": 10,
+   "frase": "Su frecuencia siempre es baja: por eso se nota.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-COL-009",
+   "fuente": "fundamentos/color/cielos.html#gradientes",
+   "bloque": 0,
+   "frase": "De tres a seis colores del cielo dominante, que debe reconocerse sin dudas.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-COL-009",
+   "fuente": "fundamentos/color/cielos.html#gradientes",
+   "bloque": 1,
+   "frase": "Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-COL-009",
+   "fuente": "fundamentos/color/cielos.html#gradientes",
+   "bloque": 2,
+   "frase": "Siempre propios",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-COL-009",
+   "fuente": "fundamentos/color/cielos.html#gradientes",
+   "bloque": 3,
+   "frase": "Nunca gradientes, imágenes ni ilustraciones de galería.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-COL-009",
+   "fuente": "fundamentos/color/cielos.html#gradientes",
+   "bloque": 7,
+   "frase": "Nunca abruptas ni bandeadas: varias paradas, blur, formas superpuestas o mallas.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-COL-009",
+   "fuente": "fundamentos/color/cielos.html#gradientes",
+   "bloque": 10,
+   "frase": "Los dos se permiten si están bien hechos.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-COL-015",
+   "fuente": "fundamentos/color/funcionales.html#accion",
+   "bloque": 2,
+   "frase": "Los tonos de Azul Cielo pueden utilizarse para acciones, seleccionando variantes que mantengan la legibilidad y visibilidad de los estados correspondientes.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-COL-014",
+   "fuente": "fundamentos/color/funcionales.html#estados",
+   "bloque": 0,
+   "frase": "Los colores de estado comunican significado y deben ser comprensibles, consistentes y accesibles.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-COL-014",
+   "fuente": "fundamentos/color/funcionales.html#estados",
+   "bloque": 1,
+   "frase": "Los errores y resultados negativos utilizan rojo semántico, nunca Salmón Tierra.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-COL-014",
+   "fuente": "fundamentos/color/funcionales.html#estados",
+   "bloque": 6,
+   "frase": "Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-COL-014",
+   "fuente": "fundamentos/color/funcionales.html#estados",
+   "bloque": 7,
+   "frase": "Los fondos y textos deben conservar el contraste correspondiente.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-COL-013",
+   "fuente": "fundamentos/color/funcionales.html#grises",
+   "bloque": 16,
+   "frase": "El deshabilitado no necesita contraste mínimo; nunca se usa para texto que hay que leer.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-COL-003",
+   "fuente": "fundamentos/color/paleta-base.html#apoyo",
+   "bloque": 0,
+   "frase": "Nunca reemplazan a la paleta principal.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-COL-001",
+   "fuente": "fundamentos/color/paleta-base.html#capas",
+   "bloque": 0,
+   "frase": "La paleta base está siempre; las demás se suman, de mayor a menor presencia, según el contexto real de cada pieza.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-COL-001",
+   "fuente": "fundamentos/color/paleta-base.html#capas",
+   "bloque": 5,
+   "frase": "Cambia su proporción según la pieza, nunca su presencia.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-COL-001",
+   "fuente": "fundamentos/color/paleta-base.html#capas",
+   "bloque": 9,
+   "frase": "La marca siempre se reconoce y aun así respira distinto según el mensaje.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-COL-002",
+   "fuente": "fundamentos/color/paleta-base.html#principales",
+   "bloque": 6,
+   "frase": "Va del acento puntual a superficies amplias, y es el único que puede tomar protagonismo en una pieza institucional.",
+   "estado": "pendiente",
+   "motivo": "«es el único que puede tomar protagonismo»: ¿es permiso para Azul Cielo (PUEDE) o prohibición para los demás colores (NO DEBEN)?"
+  },
+  {
+   "id": "KYN-MRK-COL-004",
+   "fuente": "fundamentos/color/paleta-base.html#reglas",
+   "bloque": 1,
+   "frase": "Sobre fondos claros, los textos DEBERÍAN ir en Azul Noche.",
+   "estado": "aplicada",
+   "nivel": "deberia"
+  },
+  {
+   "id": "KYN-MRK-COL-004",
+   "fuente": "fundamentos/color/paleta-base.html#reglas",
+   "bloque": 2,
+   "frase": "Azul Cielo y los salmones PUEDEN aportar acentos, superficies y señales gráficas.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-COL-004",
+   "fuente": "fundamentos/color/paleta-base.html#reglas",
+   "bloque": 3,
+   "frase": "Su uso en textos o elementos funcionales DEBE comprobar el contraste correspondiente.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-COL-004",
+   "fuente": "fundamentos/color/paleta-base.html#reglas",
+   "bloque": 4,
+   "frase": "Un elemento Salmón NO DEBE ir encima de un fondo Cielo, ni al revés.",
+   "estado": "aplicada",
+   "nivel": "no-debe"
+  },
+  {
+   "id": "KYN-MRK-COL-004",
+   "fuente": "fundamentos/color/paleta-base.html#reglas",
+   "bloque": 5,
+   "frase": "Cuando conviven, Cielo DEBE ocupar más área que Salmón.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-COL-004",
+   "fuente": "fundamentos/color/paleta-base.html#reglas",
+   "bloque": 7,
+   "frase": "Salmón Atardecer (#E99D9E) DEBE usarse solo sobre Azul Noche, donde alcanza 8,6:1.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VIS-008",
+   "fuente": "fundamentos/color/paleta-base.html#vis-008",
+   "bloque": 1,
+   "frase": "El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VIS-008",
+   "fuente": "fundamentos/color/paleta-base.html#vis-008",
+   "bloque": 6,
+   "frase": "No se puede leer",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-COL-011",
+   "fuente": "fundamentos/color/por-modo.html#expresivo",
+   "bloque": 0,
+   "frase": "En campañas, contenidos narrativos y piezas editoriales, los cielos pueden convertirse en protagonistas.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-COL-011",
+   "fuente": "fundamentos/color/por-modo.html#expresivo",
+   "bloque": 1,
+   "frase": "Cuando una pieza utiliza el cielo como recurso expresivo principal, su presencia debe estar justificada por la intención narrativa y conservar zonas de lectura clara.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-COL-011",
+   "fuente": "fundamentos/color/por-modo.html#expresivo",
+   "bloque": 3,
+   "frase": "No es obligatorio que supere siempre la superficie de la paleta base.",
+   "estado": "pendiente",
+   "motivo": "«No es obligatorio que supere siempre la superficie de la paleta base»: ¿permiso (PUEDE quedar por debajo) o solo aclaración sin fuerza normativa?"
+  },
+  {
+   "id": "KYN-MRK-COL-010",
+   "fuente": "fundamentos/color/por-modo.html#institucional",
+   "bloque": 2,
+   "frase": "Puede ir en portadas, encabezados, secciones destacadas e incluso como fondo dominante cuando el mensaje lo justifica.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-COL-010",
+   "fuente": "fundamentos/color/por-modo.html#institucional",
+   "bloque": 3,
+   "frase": "Cuando conviven, Cielo siempre ocupa más.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ESP-005",
+   "fuente": "fundamentos/composicion/editorial.html#densidad",
+   "bloque": 1,
+   "frase": "Una composición limpia no necesita ser siempre poco densa.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ESP-005",
+   "fuente": "fundamentos/composicion/editorial.html#densidad",
+   "bloque": 1,
+   "frase": "Una composición informativa no debe convertirse en una acumulación de elementos.",
+   "estado": "aplicada",
+   "nivel": "no-debe"
+  },
+  {
+   "id": "KYN-MRK-ESP-005",
+   "fuente": "fundamentos/composicion/editorial.html#densidad",
+   "bloque": 4,
+   "frase": "La cantidad de bloques, llamadas a la acción y espacios depende de la información y de las decisiones que debe tomar el lector.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ESP-005",
+   "fuente": "fundamentos/composicion/editorial.html#densidad",
+   "bloque": 10,
+   "frase": "La densidad debe facilitar la tarea, no dificultarla.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-ESP-005",
+   "fuente": "fundamentos/composicion/editorial.html#densidad",
+   "bloque": 10,
+   "frase": "Las vistas de uso frecuente pueden presentar información compacta cuando mantienen legibilidad, orientación y controles accesibles.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-ESP-005",
+   "fuente": "fundamentos/composicion/editorial.html#densidad",
+   "bloque": 33,
+   "frase": "Nunca queda suelto.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ESP-006",
+   "fuente": "fundamentos/composicion/editorial.html#diagramas",
+   "bloque": 0,
+   "frase": "Su geometría debe corresponder a la relación representada: secuencia, agrupación, jerarquía, inclusión o conexión.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-ESP-006",
+   "fuente": "fundamentos/composicion/editorial.html#diagramas",
+   "bloque": 1,
+   "frase": "Los círculos, arcos y anillos son recursos disponibles, no soluciones obligatorias para cualquier contenido.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-ESP-006",
+   "fuente": "fundamentos/composicion/editorial.html#diagramas",
+   "bloque": 5,
+   "frase": "Las etiquetas salen arriba y abajo, nunca a los lados.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ESP-006",
+   "fuente": "fundamentos/composicion/editorial.html#diagramas",
+   "bloque": 15,
+   "frase": "No es obligatorio utilizar estrellas, círculos o indicadores decorativos.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-ESP-006",
+   "fuente": "fundamentos/composicion/editorial.html#diagramas",
+   "bloque": 16,
+   "frase": "Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-ESP-004",
+   "fuente": "fundamentos/composicion/editorial.html#reticula",
+   "bloque": 0,
+   "frase": "Las doce columnas constituyen una referencia versátil, pero la estructura debe adaptarse al contenido y a las necesidades de cada experiencia.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-ESP-004",
+   "fuente": "fundamentos/composicion/editorial.html#reticula",
+   "bloque": 1,
+   "frase": "La claridad y la coherencia son obligatorias; una distribución específica de columnas no lo es en todos los formatos.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-ESP-004",
+   "fuente": "fundamentos/composicion/editorial.html#reticula",
+   "bloque": 4,
+   "frase": "La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-ESP-004",
+   "fuente": "fundamentos/composicion/editorial.html#reticula",
+   "bloque": 10,
+   "frase": "Se permite una mayor experimentación mediante simetría, asimetría y cambios de escala, siempre que el contenido mantenga una lectura clara.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-ESP-004",
+   "fuente": "fundamentos/composicion/editorial.html#reticula",
+   "bloque": 12,
+   "frase": "Los productos pueden necesitar ajustes según el ancho disponible, el contenido y las necesidades de sus usuarios.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-CMP-003",
+   "fuente": "fundamentos/composicion/editorial.html#reticulas",
+   "bloque": 3,
+   "frase": "La proporción, el aire y la legibilidad no se rompen nunca.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-CMP-004",
+   "fuente": "fundamentos/composicion/editorial.html#ritmo",
+   "bloque": 4,
+   "frase": "Una diferencia de tamaño puede señalar información protagonista.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-CMP-004",
+   "fuente": "fundamentos/composicion/editorial.html#ritmo",
+   "bloque": 6,
+   "frase": "Repetir una composición aporta coherencia cuando facilita la lectura; cambiarla puede comunicar una nueva intención.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-VIS-001",
+   "fuente": "fundamentos/composicion/editorial.html#vis-001",
+   "bloque": 0,
+   "frase": "La composición debe responder a las relaciones y prioridades del contenido.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VIS-002",
+   "fuente": "fundamentos/composicion/editorial.html#vis-002",
+   "bloque": 0,
+   "frase": "Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VIS-002",
+   "fuente": "fundamentos/composicion/editorial.html#vis-002",
+   "bloque": 1,
+   "frase": "Cuando el contenido puede organizarse mediante alineación, tipografía, espacio y separadores, no necesita encapsularse automáticamente.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-VIS-005",
+   "fuente": "fundamentos/composicion/editorial.html#vis-005",
+   "bloque": 1,
+   "frase": "La jerarquía no debe depender de la cantidad de elementos decorativos.",
+   "estado": "aplicada",
+   "nivel": "no-debe"
+  },
+  {
+   "id": "KYN-MRK-VIS-006",
+   "fuente": "fundamentos/composicion/editorial.html#vis-006",
+   "bloque": 1,
+   "frase": "Ninguna debe utilizarse automáticamente.",
+   "estado": "aplicada",
+   "nivel": "no-debe"
+  },
+  {
+   "id": "KYN-MRK-VIS-012",
+   "fuente": "fundamentos/composicion/editorial.html#vis-012",
+   "bloque": 0,
+   "frase": "Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia.",
+   "estado": "aplicada",
+   "nivel": "no-debe"
+  },
+  {
+   "id": "KYN-MRK-VIS-012",
+   "fuente": "fundamentos/composicion/editorial.html#vis-012",
+   "bloque": 1,
+   "frase": "Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VIS-012",
+   "fuente": "fundamentos/composicion/editorial.html#vis-012",
+   "bloque": 2,
+   "frase": "En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-DAT-005",
+   "fuente": "fundamentos/datos/graficos.html#estructura",
+   "bloque": 12,
+   "frase": "Cada diapositiva de datos debe tener una conclusión o una pregunta reconocible.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-DAT-005",
+   "fuente": "fundamentos/datos/graficos.html#estructura",
+   "bloque": 15,
+   "frase": "Una diapositiva expresiva puede dar gran protagonismo a una cifra mediante TASA Orbiter, color y espacio.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DAT-002",
+   "fuente": "fundamentos/datos/graficos.html#paleta",
+   "bloque": 8,
+   "frase": "Puede destacar una categoría o establecer un contraste cálido entre series.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DAT-002",
+   "fuente": "fundamentos/datos/graficos.html#paleta",
+   "bloque": 9,
+   "frase": "Su significado cromático debe conservarse independiente de los estados desfavorables.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-DAT-002",
+   "fuente": "fundamentos/datos/graficos.html#paleta",
+   "bloque": 9,
+   "frase": "NO DEBE utilizarse para comunicar por sí mismo errores, pérdidas, resultados negativos o alertas críticas.",
+   "estado": "aplicada",
+   "nivel": "no-debe"
+  },
+  {
+   "id": "KYN-MRK-DAT-002",
+   "fuente": "fundamentos/datos/graficos.html#paleta",
+   "bloque": 19,
+   "frase": "Las ilustraciones e infografías pueden utilizar estos colores con mayor libertad compositiva, conservando los significados estadísticos cuando representan datos.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DAT-002",
+   "fuente": "fundamentos/datos/graficos.html#paleta",
+   "bloque": 21,
+   "frase": "La composición puede destacar los extremos y la referencia central mediante tipografía, espacio, posición y valores numéricos.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DAT-002",
+   "fuente": "fundamentos/datos/graficos.html#paleta",
+   "bloque": 22,
+   "frase": "La paleta puede expresar relaciones entre dos condiciones, manteniendo información suficiente para comprender las diferencias.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DAT-002",
+   "fuente": "fundamentos/datos/graficos.html#paleta",
+   "bloque": 23,
+   "frase": "Los colores complementarios de los cielos pueden utilizarse en composiciones expresivas, de acuerdo con las normas de identidad visual Keyons.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DAT-001",
+   "fuente": "fundamentos/datos/graficos.html#principios",
+   "bloque": 15,
+   "frase": "La identidad Keyons puede expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conserve la precisión de los datos.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DAT-004",
+   "fuente": "fundamentos/datos/graficos.html#tipos",
+   "bloque": 22,
+   "frase": "Nunca en bucle.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-DAT-004",
+   "fuente": "fundamentos/datos/graficos.html#tipos",
+   "bloque": 28,
+   "frase": "Nunca, en ningún formato.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-004",
+   "fuente": "fundamentos/elementos/graficos.html#cristal",
+   "bloque": 4,
+   "frase": "Nunca sobre un fondo oscuro al 100 %, porque se pierde la lectura del cielo.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-004",
+   "fuente": "fundamentos/elementos/graficos.html#cristal",
+   "bloque": 4,
+   "frase": "Siempre con cielo real debajo, nunca con un degradado puro.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-004",
+   "fuente": "fundamentos/elementos/graficos.html#cristal",
+   "bloque": 5,
+   "frase": "El cristal filtra, nunca oculta.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-002",
+   "fuente": "fundamentos/elementos/graficos.html#enfasis",
+   "bloque": 4,
+   "frase": "Lo anterior va en gris, nunca tachado.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-002",
+   "fuente": "fundamentos/elementos/graficos.html#enfasis",
+   "bloque": 6,
+   "frase": "Nunca en recuadros ni acordeones.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-002",
+   "fuente": "fundamentos/elementos/graficos.html#enfasis",
+   "bloque": 7,
+   "frase": "Lo llamamos human in the loop: la persona siempre decide.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ILU-002",
+   "fuente": "fundamentos/elementos/graficos.html#enfasis",
+   "bloque": 8,
+   "frase": "Nunca para frases completas ni como énfasis general.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-002",
+   "fuente": "fundamentos/elementos/graficos.html#enfasis",
+   "bloque": 10,
+   "frase": "Las flechas integradas en diagramas de información pueden seguir las convenciones del diagrama y la materia que representan.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-ILU-008",
+   "fuente": "fundamentos/elementos/graficos.html#fotografia",
+   "bloque": 6,
+   "frase": "Montaña, bosque y paisaje: el lugar desde donde se mira el cielo, siempre como ancla y nunca como protagonista.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-008",
+   "fuente": "fundamentos/elementos/graficos.html#fotografia",
+   "bloque": 8,
+   "frase": "Retratos y equipo en sesión, siempre con permiso y con luz natural.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-008",
+   "fuente": "fundamentos/elementos/graficos.html#fotografia",
+   "bloque": 14,
+   "frase": "Luz y fondoFondos limpios e iluminación natural o de estudio, siempre consistente.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 0,
+   "frase": "Patrones y texturas son recursos de fondo o de superficie, nunca protagonistas.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 0,
+   "frase": "Construyen atmósfera, nunca ruido.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 1,
+   "frase": "Los recursos de un contexto específico pueden aplicar las variantes cromáticas documentadas para ese contexto.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 9,
+   "frase": "Siempre nacen de la base y se abren hacia arriba.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 12,
+   "frase": "Sobre fondo oscuro o degradado de cielo, nunca sobre Blanco Keyons.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 18,
+   "frase": "Nunca una trama rígida.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 26,
+   "frase": "En fondos amplios; nunca detrás de texto largo.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 32,
+   "frase": "La forma contrasta con su columna: claro sobre oscuro u oscuro sobre claro, nunca dos tonos vecinos.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 39,
+   "frase": "Un solo color de la paleta con Blanco Keyons; nunca dos colores.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 40,
+   "frase": "El círculo siempre cruza la división: de un lado nítido, del otro disuelto en el difuminado.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 49,
+   "frase": "Se producen con código a partir de foto propia; nunca generadas por IA desde cero.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 52,
+   "frase": "Es terminación, nunca protagonista.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 53,
+   "frase": "Opacidad de 15 a 20 %, nunca más.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 54,
+   "frase": "Siempre del color del fondo, nunca de colores.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-007",
+   "fuente": "fundamentos/elementos/graficos.html#patrones",
+   "bloque": 60,
+   "frase": "Los patrones construyen atmósfera; nunca compiten con el contenido.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-009",
+   "fuente": "fundamentos/elementos/graficos.html#profundidad",
+   "bloque": 0,
+   "frase": "Sobre cielos u otras superficies expresivas se puede crear profundidad atmosférica con sombras difusas.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-ILU-006",
+   "fuente": "fundamentos/elementos/graficos.html#rafagas",
+   "bloque": 4,
+   "frase": "Tampoco sobre fondos de color: siempre sobre Blanco Keyons o Crema.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-006",
+   "fuente": "fundamentos/elementos/graficos.html#rafagas",
+   "bloque": 5,
+   "frase": "Nunca una mezcla de fases.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-006",
+   "fuente": "fundamentos/elementos/graficos.html#rafagas",
+   "bloque": 6,
+   "frase": "TexturaGrano fino al 15 a 20 % de opacidad, siempre.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-006",
+   "fuente": "fundamentos/elementos/graficos.html#rafagas",
+   "bloque": 7,
+   "frase": "Nunca geométrica ni un círculo perfecto.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-006",
+   "fuente": "fundamentos/elementos/graficos.html#rafagas",
+   "bloque": 8,
+   "frase": "Nunca estática ni centrada.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-006",
+   "fuente": "fundamentos/elementos/graficos.html#rafagas",
+   "bloque": 10,
+   "frase": "Orgánico, nunca mecánico.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-006",
+   "fuente": "fundamentos/elementos/graficos.html#rafagas",
+   "bloque": 11,
+   "frase": "Se ubica en el blanco que rodea, nunca sobre la zona densa.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-005",
+   "fuente": "fundamentos/elementos/graficos.html#ventana",
+   "bloque": 11,
+   "frase": "El fondo exterior puede ser cielo esmerilado o cielo pleno.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-ILU-005",
+   "fuente": "fundamentos/elementos/graficos.html#ventana",
+   "bloque": 17,
+   "frase": "Dentro de la figura siempre hay cielo real fotografiado por el equipo Keyons.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-005",
+   "fuente": "fundamentos/elementos/graficos.html#ventana",
+   "bloque": 17,
+   "frase": "Nunca un degradado digital puro, nunca stock, nunca una imagen generada por IA.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-005",
+   "fuente": "fundamentos/elementos/graficos.html#ventana",
+   "bloque": 19,
+   "frase": "Nunca menos del doble del grosor del canto.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ILU-001",
+   "fuente": "fundamentos/elementos/graficos.html#vinetas",
+   "bloque": 1,
+   "frase": "Funcionan con dos ritmos independientes: la forma alterna siempre y el color varía según el modo.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ILU-001",
+   "fuente": "fundamentos/elementos/graficos.html#vinetas",
+   "bloque": 3,
+   "frase": "La secuencia alterna círculo y cuadrado y siempre abre con el círculo.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ILU-001",
+   "fuente": "fundamentos/elementos/graficos.html#vinetas",
+   "bloque": 4,
+   "frase": "La forma alterna por su cuenta, así que nunca se repite la misma combinación seguida.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ILU-001",
+   "fuente": "fundamentos/elementos/graficos.html#vinetas",
+   "bloque": 5,
+   "frase": "Viñetas de colorPiezas que deben destacar: presentaciones, web, redes y volantes.Azul NocheDocumentación larga: manuales, informes, guías y propuestas extensas.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ESP-003",
+   "fuente": "fundamentos/forma/espacio.html#espaciado",
+   "bloque": 2,
+   "frase": "No es obligatorio utilizar grandes espacios en todos los contextos ni comprimir una composición para mostrar más información.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-ESP-003",
+   "fuente": "fundamentos/forma/espacio.html#espaciado",
+   "bloque": 3,
+   "frase": "Cuando la escala no resuelva una necesidad técnica justificada, la excepción debe documentarse en el sistema correspondiente.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-ESP-001",
+   "fuente": "fundamentos/forma/espacio.html#esquinas",
+   "bloque": 1,
+   "frase": "Cuando varios elementos forman un conjunto reconocible, pueden combinarse esquinas exteriores rectas e interiores curvas para expresar su relación.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ESP-001",
+   "fuente": "fundamentos/forma/espacio.html#esquinas",
+   "bloque": 2,
+   "frase": "En un conjunto horizontal, las esquinas exteriores son rectas y las interiores pueden curvarse cuando refuerzan la agrupación.",
+   "estado": "pendiente",
+   "motivo": "Mezcla una regla implícita (las esquinas exteriores son rectas: DEBE) y una opción (las interiores PUEDEN curvarse). Separar."
+  },
+  {
+   "id": "KYN-MRK-ESP-002",
+   "fuente": "fundamentos/forma/espacio.html#radios",
+   "bloque": 1,
+   "frase": "El tamaño puede orientar la elección, pero no determina automáticamente que una superficie grande deba tener esquinas más redondeadas.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ESP-002",
+   "fuente": "fundamentos/forma/espacio.html#radios",
+   "bloque": 12,
+   "frase": "Cuando un contenedor curvo contiene otro elemento, los radios y el espacio interior deben mantener una relación visual coherente, evitando encuentros irregulares.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-ESP-002",
+   "fuente": "fundamentos/forma/espacio.html#radios",
+   "bloque": 13,
+   "frase": "La fórmula del radio exterior menos el relleno puede utilizarse como referencia geométrica, pero debe comprobarse visualmente y no aplicarse de manera automática en todos los casos.",
+   "estado": "pendiente",
+   "motivo": "Mezcla PUEDE (la fórmula como referencia) y DEBE (comprobarla visualmente). Separar."
+  },
+  {
+   "id": "KYN-MRK-ESP-002",
+   "fuente": "fundamentos/forma/espacio.html#radios",
+   "bloque": 14,
+   "frase": "Siempre con su variable: var(--r-card), nunca con un número suelto.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-VIS-003",
+   "fuente": "fundamentos/forma/espacio.html#vis-003",
+   "bloque": 0,
+   "frase": "La geometría de los elementos debe responder a su función y relación compositiva.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-ICO-004",
+   "fuente": "fundamentos/iconografia/iconos.html#animacion",
+   "bloque": 1,
+   "frase": "Se anima al aparecer o al confirmar una acción, nunca en bucle.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ICO-005",
+   "fuente": "fundamentos/iconografia/iconos.html#catalogo",
+   "bloque": 0,
+   "frase": "Los íconos de la marca se usan en tres colores y nunca en otros.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ICO-005",
+   "fuente": "fundamentos/iconografia/iconos.html#catalogo",
+   "bloque": 0,
+   "frase": "El trazo es siempre el mismo; lo que cambia es el fondo sobre el que viven.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ICO-005",
+   "fuente": "fundamentos/iconografia/iconos.html#catalogo",
+   "bloque": 10,
+   "frase": "EstadosÉxito, error o advertencia usan los colores de estado de KYN-MRK-COL-014, nunca un color nuevo.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ICO-002",
+   "fuente": "fundamentos/iconografia/iconos.html#familias",
+   "bloque": 2,
+   "frase": "Solo para el estado activo o seleccionado, y siempre como pareja de un ícono de contorno.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ICO-003",
+   "fuente": "fundamentos/iconografia/iconos.html#uso",
+   "bloque": 0,
+   "frase": "Solo, debe ser inequívoco.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-ICO-003",
+   "fuente": "fundamentos/iconografia/iconos.html#uso",
+   "bloque": 3,
+   "frase": "Sin textoSolo para acciones universales; siempre con nombre accesible.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-ICO-003",
+   "fuente": "fundamentos/iconografia/iconos.html#uso",
+   "bloque": 6,
+   "frase": "Nunca se redibujan.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-VIS-004",
+   "fuente": "fundamentos/iconografia/iconos.html#vis-004",
+   "bloque": 1,
+   "frase": "Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VIS-004",
+   "fuente": "fundamentos/iconografia/iconos.html#vis-004",
+   "bloque": 1,
+   "frase": "Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-LOG-008",
+   "fuente": "fundamentos/identidad/isotipo.html#evolucion",
+   "bloque": 1,
+   "frase": "El isotipo puede acompañar al logotipo o utilizarse individualmente cuando el entorno identifica claramente a Keyons, como el favicon de su sitio o los avatares de sus cuentas oficiales.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-LOG-008",
+   "fuente": "fundamentos/identidad/isotipo.html#evolucion",
+   "bloque": 2,
+   "frase": "El isotipo no debe sustituir automáticamente al nombre completo cuando el público todavía no puede reconocerlo como Keyons.",
+   "estado": "aplicada",
+   "nivel": "no-debe"
+  },
+  {
+   "id": "KYN-MRK-LOG-008",
+   "fuente": "fundamentos/identidad/isotipo.html#evolucion",
+   "bloque": 3,
+   "frase": "El isotipo podrá representar a Keyons sin el nombre cuando se autorice su autonomía conforme a los criterios establecidos en KYN-MRK-LOG-010.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-LOG-010",
+   "fuente": "fundamentos/identidad/isotipo.html#transicion",
+   "bloque": 0,
+   "frase": "El isotipo podrá utilizarse como identificador independiente cuando exista reconocimiento comprobado entre las audiencias correspondientes y aprobación expresa de la dirección de marca.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-LOG-010",
+   "fuente": "fundamentos/identidad/isotipo.html#transicion",
+   "bloque": 11,
+   "frase": "La prueba debe documentar el público evaluado, la metodología, los resultados y sus limitaciones.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-LOG-006",
+   "fuente": "fundamentos/identidad/logotipo.html#incorrectos",
+   "bloque": 6,
+   "frase": "No reorganizarKEY y ONS van siempre en dos niveles.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-LOG-006",
+   "fuente": "fundamentos/identidad/logotipo.html#incorrectos",
+   "bloque": 7,
+   "frase": "No recortarLa palabra se muestra completa, siempre.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-LOG-001",
+   "fuente": "fundamentos/identidad/logotipo.html#versiones",
+   "bloque": 1,
+   "frase": "Nunca en Salmón.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-LOG-001",
+   "fuente": "fundamentos/identidad/logotipo.html#versiones",
+   "bloque": 2,
+   "frase": "La primera opción siempre que el espacio lo permita.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-LOG-001",
+   "fuente": "fundamentos/identidad/logotipo.html#versiones",
+   "bloque": 4,
+   "frase": "Solo cuando otra versión resulte más adecuada para el formato o el contexto puede utilizarse esa alternativa.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-TYP-002",
+   "fuente": "fundamentos/tipografia/sistema.html#escala",
+   "bloque": 28,
+   "frase": "Las composiciones breves podrán utilizar título contextual, declaración protagonista y cuerpo.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-TYP-002",
+   "fuente": "fundamentos/tipografia/sistema.html#escala",
+   "bloque": 29,
+   "frase": "Los contenidos extensos podrán incorporar texto de entrada cuando ayude a organizar la lectura.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-TYP-002",
+   "fuente": "fundamentos/tipografia/sistema.html#escala",
+   "bloque": 38,
+   "frase": "Los títulos y las declaraciones pueden variar su escala, proporción y tratamiento visual según la intención editorial.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-TYP-005",
+   "fuente": "fundamentos/tipografia/sistema.html#reglas",
+   "bloque": 0,
+   "frase": "La tipografía debe organizar la lectura, transmitir identidad y adaptarse a las necesidades del contenido.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-TYP-005",
+   "fuente": "fundamentos/tipografia/sistema.html#reglas",
+   "bloque": 3,
+   "frase": "Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-TYP-005",
+   "fuente": "fundamentos/tipografia/sistema.html#reglas",
+   "bloque": 8,
+   "frase": "No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.",
+   "estado": "aplicada",
+   "nivel": "no-debe"
+  },
+  {
+   "id": "KYN-MRK-TYP-005",
+   "fuente": "fundamentos/tipografia/sistema.html#reglas",
+   "bloque": 13,
+   "frase": "Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-TYP-005",
+   "fuente": "fundamentos/tipografia/sistema.html#reglas",
+   "bloque": 14,
+   "frase": "El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-ADN-001",
+   "fuente": "marca/adn.html#esencia",
+   "bloque": 1,
+   "frase": "Cada modalidad ofrece distintos niveles de adaptación y acompañamiento, siempre a partir de las necesidades reales de la operación.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ADN-001",
+   "fuente": "marca/adn.html#esencia",
+   "bloque": 2,
+   "frase": "Creemos que la tecnología debe potenciar el criterio humano, no imponer nuevas complejidades.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-ADN-003",
+   "fuente": "marca/adn.html#espectro",
+   "bloque": 0,
+   "frase": "Entre niveles cambia la profundidad; lo que abarca ambas columnas no cambia nunca.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-CON-003",
+   "fuente": "marca/cielo.html#diario",
+   "bloque": 1,
+   "frase": "Si la pieza no lo necesita, puede ser 100 % cielo.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-CON-003",
+   "fuente": "marca/cielo.html#diario",
+   "bloque": 6,
+   "frase": "Nunca se publica un cielosin procedencia documentada.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-CON-002",
+   "fuente": "marca/cielo.html#jerarquia",
+   "bloque": 1,
+   "frase": "No son cuotas obligatorias para cada documento, campaña o producto.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-CON-002",
+   "fuente": "marca/cielo.html#jerarquia",
+   "bloque": 13,
+   "frase": "Nunca se fuerza un cielo solo por cambiar.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-CON-001",
+   "fuente": "marca/cielo.html#simbolo",
+   "bloque": 2,
+   "frase": "Cuando la marca llega a un nuevo país, suma los cielos de ese lugar, siempre con fotografías reales.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-CON-007",
+   "fuente": "marca/composicion.html#contraste",
+   "bloque": 2,
+   "frase": "Un elemento inesperado que muestra que ya no hay límites, siempre con sobriedad.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-CON-009",
+   "fuente": "marca/composicion.html#herencia",
+   "bloque": 2,
+   "frase": "Afirmar que la belleza, la precisión geométrica y la calidez humana pueden convivir con la máquina.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-CON-006",
+   "fuente": "marca/composicion.html#reglas",
+   "bloque": 4,
+   "frase": "La creación puede integrar fotografía, ilustración, diseño digital o IA, siempre bajo dirección artística definida y revisada por una persona responsable.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-CON-006",
+   "fuente": "marca/composicion.html#reglas",
+   "bloque": 6,
+   "frase": "Las fotografías del cielo deben tener procedencia verificable y cumplir las reglas del Diario de Cielos, evitando presentar imágenes sintéticas como auténticas.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-CON-006",
+   "fuente": "marca/composicion.html#reglas",
+   "bloque": 8,
+   "frase": "Cada pieza se contrasta con lo que no representa a la marca; si puede confundirse con otra identidad, regresa a diseño para asegurar carácter único.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-CON-006",
+   "fuente": "marca/composicion.html#reglas",
+   "bloque": 10,
+   "frase": "La base debe ser siempre creada por una persona.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-CON-006",
+   "fuente": "marca/composicion.html#reglas",
+   "bloque": 11,
+   "frase": "La inteligencia artificial puede participar para potenciar o extender la pieza, siempre que respete la dirección creativa y el concepto inicial humano.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-CON-006",
+   "fuente": "marca/composicion.html#reglas",
+   "bloque": 12,
+   "frase": "Deben distinguirse claramente de las representaciones artísticas.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-CON-006",
+   "fuente": "marca/composicion.html#reglas",
+   "bloque": 14,
+   "frase": "Todos los resultados deben cumplir las reglas visuales de la marca, sin importar la herramienta empleada.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-EST-001",
+   "fuente": "marca/estela.html#quien",
+   "bloque": 9,
+   "frase": "Por dentro, el sistema puede combinar varios agentes, herramientas y servicios.",
+   "estado": "borrador",
+   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
+  },
+  {
+   "id": "KYN-MRK-EST-001",
+   "fuente": "marca/estela.html#quien",
+   "bloque": 11,
+   "frase": "Estela siempre se presenta como la inteligencia artificial de Keyons, con una personalidad expresiva.",
+   "estado": "borrador",
+   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
+  },
+  {
+   "id": "KYN-MRK-EST-001",
+   "fuente": "marca/estela.html#quien",
+   "bloque": 12,
+   "frase": "Estela puede acompañar la narrativa y las experiencias de la metodología Prisma en sus cinco fases oficiales.",
+   "estado": "borrador",
+   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
+  },
+  {
+   "id": "KYN-MRK-CON-005",
+   "fuente": "marca/metaforas.html#canal",
+   "bloque": 6,
+   "frase": "(Receptor)Buscando información concreta.(Metáforas)Solo en secciones clave, nunca en la navegación.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-CON-004",
+   "fuente": "marca/metaforas.html#condiciones",
+   "bloque": 3,
+   "frase": "La primera lectura debe ser clara y comprensible, con significados adicionales al observarla en detalle.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-CON-004",
+   "fuente": "marca/metaforas.html#condiciones",
+   "bloque": 15,
+   "frase": "Nace desde el boceto inicial, nunca como un filtro o adhesivo final.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-CON-004",
+   "fuente": "marca/metaforas.html#condiciones",
+   "bloque": 16,
+   "frase": "En composiciones editoriales puede convertirse en protagonista.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-CON-004",
+   "fuente": "marca/metaforas.html#condiciones",
+   "bloque": 17,
+   "frase": "En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DIS-002",
+   "fuente": "marca/principios.html#capas",
+   "bloque": 1,
+   "frase": "Los productos desarrollados para clientes pueden tener identidades visuales diferentes sin perder los estándares de calidad, claridad, accesibilidad y experiencia que caracterizan el trabajo de Keyons.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DIS-002",
+   "fuente": "marca/principios.html#capas",
+   "bloque": 3,
+   "frase": "Los productos sin identidad visual propia pueden utilizar una estética desarrollada por Keyons, adaptable según los límites de cada modalidad de servicio.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DIS-005",
+   "fuente": "marca/principios.html#comprension",
+   "bloque": 0,
+   "frase": "Una buena experiencia permite comprender dónde se está, qué se puede hacer, qué está ocurriendo y cómo continuar.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-DIS-005",
+   "fuente": "marca/principios.html#comprension",
+   "bloque": 1,
+   "frase": "Keyons debe resolver la complejidad durante el proceso de diseño, en lugar de trasladarla innecesariamente al usuario.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-DIS-005",
+   "fuente": "marca/principios.html#comprension",
+   "bloque": 2,
+   "frase": "Las soluciones deben ser comprensibles incluso para personas con baja familiaridad tecnológica.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-DIS-005",
+   "fuente": "marca/principios.html#comprension",
+   "bloque": 3,
+   "frase": "Cuando algo falla, la interfaz también debe ayudar a comprender qué ocurrió y cómo resolverlo o continuar.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-DIS-004",
+   "fuente": "marca/principios.html#contexto",
+   "bloque": 1,
+   "frase": "Puede utilizar grandes fotografías, composiciones experimentales y movimiento atmosférico.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DIS-004",
+   "fuente": "marca/principios.html#contexto",
+   "bloque": 2,
+   "frase": "Utilizada repetidamente durante el día, debe priorizar legibilidad, navegación sencilla, claridad y estabilidad visual.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-DIS-004",
+   "fuente": "marca/principios.html#contexto",
+   "bloque": 3,
+   "frase": "La intensidad también puede variar dentro de un mismo producto: una bienvenida admite mayor expresión gráfica que un formulario o una tabla utilizada diariamente.",
+   "estado": "aplicada",
+   "nivel": "puede"
+  },
+  {
+   "id": "KYN-MRK-DIS-004",
+   "fuente": "marca/principios.html#contexto",
+   "bloque": 4,
+   "frase": "La creatividad nunca debe obstaculizar una decisión funcional.",
+   "estado": "aplicada",
+   "nivel": "no-debe"
+  },
+  {
+   "id": "KYN-MRK-DIS-001",
+   "fuente": "marca/principios.html#criterio",
+   "bloque": 0,
+   "frase": "Keyons debe diferenciarse por diseñar experiencias reconocibles, inteligibles y cuidadosamente resueltas, utilizando la libertad gráfica donde aporta valor y la disciplina funcional donde el usuario necesita certeza.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VOZ-006",
+   "fuente": "marca/trato.html#persona",
+   "bloque": 5,
+   "frase": "No es obligatorio comenzar siempre en tercera persona ni cambiar automáticamente después del primer párrafo.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-VOZ-006",
+   "fuente": "marca/trato.html#persona",
+   "bloque": 6,
+   "frase": "Los cambios de persona deben cumplir una función comunicativa clara.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VOZ-007",
+   "fuente": "marca/trato.html#traduccion",
+   "bloque": 5,
+   "frase": "Las comparaciones ayudan a explicar conceptos complejos, siempre que no creen equivalencias incorrectas.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-VOZ-007",
+   "fuente": "marca/trato.html#traduccion",
+   "bloque": 19,
+   "frase": "Reglas que delimitan qué puede hacer la IA.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-VOZ-007",
+   "fuente": "marca/trato.html#traduccion",
+   "bloque": 20,
+   "frase": "Cantidad de información que un modelo puede considerar dentro de una interacción, según sus límites técnicos.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-VOZ-007",
+   "fuente": "marca/trato.html#traduccion",
+   "bloque": 41,
+   "frase": "Reglas de quién puede ver, usar y modificar los datos.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-VOZ-007",
+   "fuente": "marca/trato.html#traduccion",
+   "bloque": 54,
+   "frase": "La traducción aclara, nunca reemplaza el nombre oficial.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-VOZ-007",
+   "fuente": "marca/trato.html#traduccion",
+   "bloque": 65,
+   "frase": "La comunicación comercial de consumo de IA debe expresar unidades comprensibles para el cliente.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VOZ-007",
+   "fuente": "marca/trato.html#traduccion",
+   "bloque": 66,
+   "frase": "No se deben introducir términos internos de ingeniería en interfaces comerciales cuando no aportan valor al usuario.",
+   "estado": "aplicada",
+   "nivel": "no-debe"
+  },
+  {
+   "id": "KYN-MRK-VOZ-005",
+   "fuente": "marca/trato.html#usted",
+   "bloque": 7,
+   "frase": "El tono profesional y cercano debe trasladarse de manera natural al inglés, respetando las convenciones del idioma.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VOZ-005",
+   "fuente": "marca/trato.html#usted",
+   "bloque": 7,
+   "frase": "No se deben reproducir literalmente las construcciones del español cuando produzcan expresiones poco naturales.",
+   "estado": "aplicada",
+   "nivel": "no-debe"
+  },
+  {
+   "id": "KYN-MRK-VOZ-004",
+   "fuente": "marca/vocabulario.html#evita",
+   "bloque": 8,
+   "frase": "Indicar qué puede adaptarse, con qué alcance y bajo qué condiciones.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  },
+  {
+   "id": "KYN-MRK-VIS-009",
+   "fuente": "marca/vocabulario.html#vis-009",
+   "bloque": 0,
+   "frase": "El contenido debe ser específico, comprensible y significativo.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VOZ-002",
+   "fuente": "marca/voz.html#reglas",
+   "bloque": 6,
+   "frase": "Cada oración debe tener una intención clara.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-VOZ-002",
+   "fuente": "marca/voz.html#reglas",
+   "bloque": 14,
+   "frase": "Los adjetivos deben aportar información, nunca sustituirla.",
+   "estado": "aplicada",
+   "nivel": "debe"
+  },
+  {
+   "id": "KYN-MRK-REF-001",
+   "fuente": "recursos/referencia.html#nomenclatura",
+   "bloque": 6,
+   "frase": "Un identificador emitido nunca se renombra, se elimina ni se reutiliza.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-REF-001",
+   "fuente": "recursos/referencia.html#nomenclatura",
+   "bloque": 9,
+   "frase": "El texto de la norma nunca se copia en otro documento, para que no se desactualice.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada con «siempre» o «nunca» sin verbo modal: no se convierte sola; necesita redacción aprobada con DEBE o NO DEBE."
+  },
+  {
+   "id": "KYN-MRK-REF-001",
+   "fuente": "recursos/referencia.html#nomenclatura",
+   "bloque": 10,
+   "frase": "Cuando una regla de marca debe figurar en un contrato con terceros, como agencias o diseñadores externos, se redacta la cláusula completa y el ID va al final, solo como referencia administrativa.",
+   "estado": "redaccion",
+   "motivo": "Norma confirmada que expresa permiso u opción sin el verbo PUEDE («podrá», «se permite», «no es obligatorio»): necesita redacción aprobada."
+  },
+  {
+   "id": "KYN-MRK-TEC-001",
+   "fuente": "recursos/tecnicos.html#tecnicos",
+   "bloque": 0,
+   "frase": "Cada recurso se prueba aquí y se copia tal como lo usa este libro: el ejemplo, el código y las descargas salen de los mismos archivos, así nunca se separan.",
+   "estado": "no-normativa",
+   "motivo": "Descripción, explicación, ejemplo, glosario o título."
+  }
+ ]
+}

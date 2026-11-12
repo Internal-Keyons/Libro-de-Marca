@@ -197,6 +197,75 @@ def biblioteca():
     return err
 
 
+def auditoria():
+    """Auditoría para Polaris: niveles por declaración, referencias, metadatos, índice y exportaciones.
+    Devuelve (errores, avisos). Los avisos informan sin detener: metadatos sin designar, exportaciones desactualizadas a propósito."""
+    import glob
+    err, av = [], []
+    lee = lambda p: io.open(os.path.join(ROOT, p), encoding='utf-8').read() if os.path.exists(os.path.join(ROOT, p)) else ''
+    N = json.load(io.open(os.path.join(ROOT, 'data', 'normas.json'), encoding='utf-8'))
+    ids = {v['id'] for v in N.values()}
+    PAL = {'debe': r'\bDEBE[N]?\b', 'deberia': r'\bDEBERÍA[N]?\b', 'puede': r'\bPUEDE[N]?\b'}
+    paginas = [p for p in glob.glob(os.path.join(ROOT, '**', '*.html'), recursive=True)
+               if not any(x in p for x in ('_tmp', 'propuestas', 'Libro de marcar', '_lab', 'documental', os.sep + 'tools' + os.sep))]
+    sin_icono = 0
+    for p in paginas:
+        t = io.open(p, encoding='utf-8').read()
+        rel = os.path.relpath(p, ROOT).replace(os.sep, '/')
+        # 1 · Cada ícono de nivel corresponde a la palabra de su declaración (la frase que termina en el ícono)
+        for m in re.finditer(r'<span class="nvl nvl--fin" data-lvl="(\w+)"([^>]*)>', t):
+            lvl, attrs = m.group(1), m.group(2)
+            antes = re.sub(r'<[^>]+>', '', t[max(0, m.start() - 600):m.start()])
+            frase = re.split(r'(?<=[.;!?])\s+|<', antes)[-1] if antes else ''
+            frase = re.split(r'(?<=[.;!?:])\s+(?=[A-ZÁÉÍÓÚÑ¿«(])', antes.strip())[-1]
+            if lvl not in PAL:
+                err.append(f'NIVEL   {rel}: ícono con nivel desconocido «{lvl}»')
+            elif not re.search(PAL[lvl], frase):
+                err.append(f'NIVEL   {rel}: el ícono «{lvl}» no tiene su palabra en mayúscula en la declaración «…{frase[-70:]}»')
+            if 'aria-label="Nivel:' not in attrs:
+                err.append(f'NIVEL   {rel}: ícono de nivel sin alternativa accesible')
+        # Una palabra de nivel en mayúscula sin ícono en su declaración (en el texto del libro, no en ejemplos de «No hacer»)
+        plano = re.sub(r'<span class="nvl nvl--fin"[^>]*>', '¶', t)
+        plano = re.sub(r'<[^>]+>', ' ', plano)
+        plano = re.sub(r'([.;!?])\s*¶', r'¶', plano)   # el ícono va después del punto final de su declaración
+        if rel in ('inicio.html', 'guia/index.html', 'sistema-diseno/index.html'):
+            plano = ''   # leyendas que explican los niveles: no son declaraciones
+        for f in re.split(r'(?<=[.;!?])\s+', plano):
+            if re.search(r'\b(DEBE[N]?|DEBERÍA[N]?|PUEDE[N]?)\b', f) and '¶' not in f and 'KYN-' not in f:
+                sin_icono += 1
+        # 2 · Referencias a normas que no se resuelven (se informan, nunca se borran)
+        if not rel.startswith(('sistema-diseno/', 'data/')):
+            for x in sorted(set(re.findall(r'KYN-MRK-[A-Z]{3}-\d{3}', t)) - ids):
+                av.append(f'REFERENCIA {rel}: cita {x}, que no está en el registro (se conserva; revisar)')
+    if sin_icono:
+        av.append(f'NIVEL   {sin_icono} frases con DEBE/DEBERÍA/PUEDE en mayúscula sin ícono en su declaración (revisar con tools/niveles.py)')
+    # 3 · Metadatos esenciales: se informan los que faltan, no se inventan
+    A = json.load(io.open(os.path.join(ROOT, 'data', 'autoridad.json'), encoding='utf-8'))['normas']
+    for campo, nombre in (('ambito', 'ámbito'), ('responsable', 'responsable'), ('fecha_aprobacion', 'fecha de aprobación')):
+        n = sum(1 for v in A.values() if not v.get(campo))
+        if n:
+            av.append(f'METADATO {nombre}: vacío en {n} de {len(A)} normas (pendiente de designar; no se completa sin aprobación)')
+    for v in N.values():
+        if v['id'] not in A:
+            av.append(f'METADATO {v["id"]}: sin ficha en data/autoridad.json (correr tools/gobierno.py)')
+    # 4 · Índice y contenido: cada sección con rótulo debería estar en el índice del libro
+    nav = lee('js/nav-data.js')
+    fuera = [h for h in N if h not in nav and N[h]['estado'] in ('vigente', 'borrador')]
+    if fuera:
+        av.append(f'ÍNDICE  {len(fuera)} normas sin entrada propia en js/nav-data.js (subsecciones): ' + ', '.join(N[h]['id'] for h in fuera[:8]) + (' …' if len(fuera) > 8 else ''))
+    # 5 · Exportaciones (no se regeneran en esta ronda): se informa la diferencia
+    ia = {os.path.basename(x)[:-3] for x in glob.glob(os.path.join(ROOT, 'ia', 'normas', 'KYN-MRK-*.md'))}
+    faltan = sorted(ids - ia)
+    if faltan:
+        av.append(f'EXPORTACIÓN {len(faltan)} normas sin archivo en ia/normas: ' + ', '.join(faltan))
+    md = lee('ia/libro-de-marca.md')
+    if md:
+        f2 = sorted(i for i in ids if i not in md)
+        if f2:
+            av.append(f'EXPORTACIÓN {len(f2)} normas ausentes de ia/libro-de-marca.md: ' + ', '.join(f2))
+    return err, av
+
+
 def main():
     ref = cargar()
     cur, reg = actual()
@@ -216,6 +285,8 @@ def main():
         return
 
     errores, avisos = biblioteca(), []
+    e2, auditados = auditoria()
+    errores += e2
     for h, n in reg.items():
         if n['estado'] not in ('descontinuada', 'integrada') and h not in cur:
             errores.append(f'FALTA   {n["id"]} ({h}): la norma no tiene sección en el libro')
@@ -236,6 +307,8 @@ def main():
             avisos.append(f'CAMBIO  {nombre}: redacción distinta de la aprobada el {e["versiones"][-1]["aprobada"]}')
     for x in errores + avisos:
         print(x)
+    for x in auditados:
+        print('AVISO  ', x)
     print(f'{len(cur)} secciones · {len(errores)} errores · {len(avisos)} cambios por aprobar')
     sys.exit(1 if errores else 0)
 

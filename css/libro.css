@@ -6108,3 +6108,7 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
 .fpop__row .fpop__reset{display:grid;place-items:center;width:var(--s8);height:var(--s8);margin-left:auto;padding:0;border-radius:50%;box-shadow:none;background:none;color:var(--k-cielo);opacity:.8;transition:opacity var(--m-fast) var(--e-out)}
 .fpop__row .fpop__reset:hover,[data-kbd] .fpop__row .fpop__reset:focus-visible{background:none;color:var(--k-cielo);opacity:1}
 .fpop__reset svg{width:var(--s5);height:var(--s5)}
+
+/* Nivel de la norma (reglas-visuales R16, todos los libros): la palabra en mayúscula dentro de la frase y el ícono oficial
+   al final de la declaración, en línea con el texto y sin sangría */
+.nvl--fin{display:inline-flex;margin-left:var(--s2);vertical-align:.08em}

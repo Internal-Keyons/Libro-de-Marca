@@ -274,7 +274,7 @@ El radio de una esquina curva sale del **lado corto** del elemento:
     2. Titular.
     3. Fundamento: la entrada de 20 px, con una sola frase destacada.
     4. Norma: filas con su nivel a la izquierda y el enunciado a la derecha, en 16 px, peso regular, con un máximo de dos renglones.
-  - **Tres niveles: Debe, Debería y Puede.** Cada enunciado empieza con un cuadrado de 8 px (`--lvl-mark`), del mismo tamaño y colores que el punto de estado. La palabra del nivel va dentro de la frase, en mayúscula: «Cada pantalla DEBE tener una acción principal…».
+  - **Tres niveles: Debe, Debería y Puede (todos los libros, 2026-11-12).** La palabra del nivel (DEBE, NO DEBE, DEBERÍA, PUEDE) va dentro de la redacción, natural y en mayúscula: «Cada pantalla DEBE tener una acción principal…». El ícono oficial, un cuadrado de 8 px (`--lvl-mark`, `.nvl--fin`) del mismo tamaño y colores que el punto de estado, va al final de la declaración, en línea con el texto y sin sangría; NO DEBE ir junto a la palabra ni al inicio. Cada declaración lleva su propio ícono: un párrafo con dos fuerzas se separa en dos declaraciones. El texto DEBE entenderse sin el ícono, que tiene su etiqueta al pasar el cursor y su alternativa accesible («Nivel: Debe»). «Siempre» y «nunca» no se convierten solos en DEBE o NO DEBE: el nivel se decide en `data/niveles.json` (`tools/niveles.py`).
     - Debe: cuadrado lleno en Azul Noche. Obligatorio, sin excepciones.
     - Debería: cuadrado a medias en Azul Noche. Lo que se hace por defecto; otra solución necesita un motivo escrito.
     - Puede: cuadrado de contorno gris. Una alternativa permitida, a elección.
