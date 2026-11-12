@@ -147,8 +147,14 @@
     ]
   },
   "versionado": [
-    "Cada norma lleva una versión. Un cambio de redacción que altera su alcance incrementa la versión; una corrección menor la conserva.",
-    "El historial de cambios se conserva en el control de versiones del proyecto y en el registro de aprobaciones de contenido (data/referencia-contenido.json)."
+    {
+      "k": "Versión",
+      "t": "Cada norma lleva una versión. Un cambio de redacción que altera su alcance incrementa la versión; una corrección menor la conserva."
+    },
+    {
+      "k": "Historial",
+      "t": "El historial de cambios se conserva en el control de versiones del proyecto y en el registro de aprobaciones de contenido (data/referencia-contenido.json)."
+    }
   ],
   "excepciones": {
     "pasos": [

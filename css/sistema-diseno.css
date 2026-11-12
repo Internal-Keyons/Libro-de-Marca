@@ -2,7 +2,9 @@
    KEYONS · SISTEMA DE DISEÑO · complementos mínimos
    El libro usa los componentes del Libro de Marca (libro.css): portada,
    tarjetas de área, páginas de área, portales, lateral y menú.
-   Aquí solo vive lo que Marca no tiene. Prefijo sd- o [data-libro].
+   Aquí solo vive lo que Marca no tiene. Prefijo sd-, sdl-, sdx- o html[data-libro="sistema-diseno"].
+   Solo las páginas del Sistema de Diseño cargan esta hoja: un cambio aquí no alcanza al Libro de Marca
+   (docs/ARQUITECTURA_BIBLIOTECA.md; tools/verificar.py lo comprueba).
    ═══════════════════════════════════════════════════════════════ */
 
 /* Normas de Marca que aplica cada módulo: una sola columna a todo el ancho */
@@ -13,9 +15,9 @@
 .sd-st{display:inline-flex;align-items:center;gap:var(--s2);font-size:12px;color:var(--color-text-3);white-space:nowrap}
 
 /* Subcapítulos de un capítulo: una sola columna, número · título · estado */
-#subcapitulos .kidx__list{display:block}
-#subcapitulos .kidx__r.sd-sub{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:var(--s5);padding:var(--s4) 0}
-#subcapitulos .sd-sub .kidx__t{font-size:16px;color:var(--color-text)}
+html[data-libro="sistema-diseno"] #subcapitulos .kidx__list{display:block}
+html[data-libro="sistema-diseno"] #subcapitulos .kidx__r.sd-sub{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:var(--s5);padding:var(--s4) 0}
+html[data-libro="sistema-diseno"] #subcapitulos .sd-sub .kidx__t{font-size:16px;color:var(--color-text)}
 
 
 /* Ejemplo interactivo: un mismo componente en los cuatro contextos */
@@ -38,21 +40,21 @@
 .sd-ui__f:focus-visible{outline:2px solid var(--ui-accent);outline-offset:2px}
 .sd-ui__b{margin-top:var(--s5);padding:11px 18px;border-radius:var(--ui-radius);background:var(--ui-accent);color:var(--ui-on-accent);font-size:16px;font-weight:600}
 .sd-ui__b:focus-visible{outline:2px solid var(--ui-text);outline-offset:2px}
-[data-ctx="web"]{--ui-bg:var(--g-cielo,#638FD3);--ui-surface:var(--k-blanco);--ui-text:var(--k-noche);--ui-text-2:#4A4C60;--ui-border:#C7C8CB;--ui-field:#FFFFFF;--ui-accent:var(--k-noche);--ui-on-accent:var(--k-blanco);--ui-radius:12px;--ui-pad:32px;--ui-title:22px;--ui-shadow:none}
-[data-ctx="interna"]{--ui-bg:#ECEDEF;--ui-surface:var(--k-blanco);--ui-text:var(--k-noche);--ui-text-2:#5A5C6E;--ui-border:#D4D5D9;--ui-field:#FFFFFF;--ui-accent:var(--k-noche);--ui-on-accent:var(--k-blanco);--ui-radius:6px;--ui-pad:20px;--ui-title:17px;--ui-shadow:inset 0 0 0 1px #D4D5D9}
-[data-ctx="saas"]{--ui-bg:#F2F2F3;--ui-surface:#FFFFFF;--ui-text:#18181B;--ui-text-2:#5F5F66;--ui-border:#DCDCE0;--ui-field:#FFFFFF;--ui-accent:#18181B;--ui-on-accent:#FFFFFF;--ui-radius:8px;--ui-pad:24px;--ui-title:18px;--ui-shadow:0 1px 2px rgba(24,24,27,.06),inset 0 0 0 1px #E4E4E7}
-[data-ctx="cliente"]{--ui-bg:#E9F0EC;--ui-surface:#FFFFFF;--ui-text:#14281F;--ui-text-2:#4D5E55;--ui-border:#C9D6CF;--ui-field:#FFFFFF;--ui-accent:#1F6B4A;--ui-on-accent:#FFFFFF;--ui-radius:4px;--ui-pad:24px;--ui-title:18px;--ui-shadow:inset 0 0 0 1px #C9D6CF}
+html[data-libro="sistema-diseno"] [data-ctx="web"]{--ui-bg:var(--g-cielo,#638FD3);--ui-surface:var(--k-blanco);--ui-text:var(--k-noche);--ui-text-2:#4A4C60;--ui-border:#C7C8CB;--ui-field:#FFFFFF;--ui-accent:var(--k-noche);--ui-on-accent:var(--k-blanco);--ui-radius:12px;--ui-pad:32px;--ui-title:22px;--ui-shadow:none}
+html[data-libro="sistema-diseno"] [data-ctx="interna"]{--ui-bg:#ECEDEF;--ui-surface:var(--k-blanco);--ui-text:var(--k-noche);--ui-text-2:#5A5C6E;--ui-border:#D4D5D9;--ui-field:#FFFFFF;--ui-accent:var(--k-noche);--ui-on-accent:var(--k-blanco);--ui-radius:6px;--ui-pad:20px;--ui-title:17px;--ui-shadow:inset 0 0 0 1px #D4D5D9}
+html[data-libro="sistema-diseno"] [data-ctx="saas"]{--ui-bg:#F2F2F3;--ui-surface:#FFFFFF;--ui-text:#18181B;--ui-text-2:#5F5F66;--ui-border:#DCDCE0;--ui-field:#FFFFFF;--ui-accent:#18181B;--ui-on-accent:#FFFFFF;--ui-radius:8px;--ui-pad:24px;--ui-title:18px;--ui-shadow:0 1px 2px rgba(24,24,27,.06),inset 0 0 0 1px #E4E4E7}
+html[data-libro="sistema-diseno"] [data-ctx="cliente"]{--ui-bg:#E9F0EC;--ui-surface:#FFFFFF;--ui-text:#14281F;--ui-text-2:#4D5E55;--ui-border:#C9D6CF;--ui-field:#FFFFFF;--ui-accent:#1F6B4A;--ui-on-accent:#FFFFFF;--ui-radius:4px;--ui-pad:24px;--ui-title:18px;--ui-shadow:inset 0 0 0 1px #C9D6CF}
 
 
 /* Menú con más de cinco áreas: columnas de cinco elementos */
-.hdr__panel nav.is-cols{display:grid;grid-auto-flow:column;grid-template-rows:repeat(5,auto);grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 32px}
-.hdr__panel nav.is-cols a{white-space:nowrap}
-.hdr.is-open .hdr__panel nav a:nth-child(7){transition-delay:240ms}.hdr.is-open .hdr__panel nav a:nth-child(8){transition-delay:280ms}
-.hdr.is-open .hdr__panel nav a:nth-child(9){transition-delay:320ms}.hdr.is-open .hdr__panel nav a:nth-child(10){transition-delay:360ms}
-.hdr.is-open .hdr__panel nav a:nth-child(11){transition-delay:400ms}.hdr.is-open .hdr__panel nav a:nth-child(12){transition-delay:440ms}
-@media(max-width:1179px){.hdr__panel nav.is-cols{gap:14px 16px}}
+html[data-libro="sistema-diseno"] .hdr__panel nav.is-cols{display:grid;grid-auto-flow:column;grid-template-rows:repeat(5,auto);grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 32px}
+html[data-libro="sistema-diseno"] .hdr__panel nav.is-cols a{white-space:nowrap}
+html[data-libro="sistema-diseno"] .hdr.is-open .hdr__panel nav a:nth-child(7){transition-delay:240ms}html[data-libro="sistema-diseno"] .hdr.is-open .hdr__panel nav a:nth-child(8){transition-delay:280ms}
+html[data-libro="sistema-diseno"] .hdr.is-open .hdr__panel nav a:nth-child(9){transition-delay:320ms}html[data-libro="sistema-diseno"] .hdr.is-open .hdr__panel nav a:nth-child(10){transition-delay:360ms}
+html[data-libro="sistema-diseno"] .hdr.is-open .hdr__panel nav a:nth-child(11){transition-delay:400ms}html[data-libro="sistema-diseno"] .hdr.is-open .hdr__panel nav a:nth-child(12){transition-delay:440ms}
+@media(max-width:1179px){html[data-libro="sistema-diseno"] .hdr__panel nav.is-cols{gap:14px 16px}}
 /* Móvil: los módulos vuelven a una lista hacia abajo */
-@media(max-width:760px){.hdr__panel nav.is-cols{display:flex;flex-direction:column}}
+@media(max-width:760px){html[data-libro="sistema-diseno"] .hdr__panel nav.is-cols{display:flex;flex-direction:column}}
 
 /* ═══ Capítulo 01 · Principios compartidos: principios, ejemplos estáticos y comprobación ═══ */
 .ed__label .sd-st{margin-top:var(--s2)}
@@ -200,3 +202,6 @@
 /* Rótulo de un principio: el ID en gris terciario de 12 px y debajo el nombre en 14 px, sin estado */
 .sdn-label .ed__code{font-size:var(--fs-12);color:var(--color-text-3)}
 .sdn-label span:last-child{font-size:var(--fs-14);color:var(--k-noche)}
+
+/* Trama del Libro 02: retícula horizontal y vertical en encabezados y subencabezados (la del Libro 01 está en libro.css) */
+html[data-libro="sistema-diseno"]{--trama:var(--trama-v),var(--trama-h);--trama-o:var(--trama-v-o),var(--trama-h-o)}

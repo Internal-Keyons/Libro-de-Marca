@@ -5,7 +5,7 @@ Uso:  python tools/biblioteca.py
 
 Fuente única: data/libros.json (nombre oficial, nombre corto, trama, ruta, acceso, estado editorial y prefijo).
 Escribe:
-- js/libro.js              el bloque LIBROS entre /* libros:inicio */ y /* libros:fin */ (selector y buscador)
+- js/libro.js              el bloque LIBROS (con su presentación: documental o editorial) entre /* libros:inicio */ y /* libros:fin */ (selector y buscador)
 - index.html               las seis filas de la portada entre <!-- libros:inicio --> y <!-- libros:fin --> (la portada funciona sin JS)
 - data/gobierno.json       la tabla de prefijos por libro que muestra la Guía
 - js/busqueda-indice.js    el índice del buscador: áreas, secciones y normas de los libros con acceso abierto
@@ -63,7 +63,7 @@ for b in LIBROS:
     abierto = b['acceso'] == 'abierto'
     filas.append(f"    {{ id: '{b['id']}', t: '{js_str(b['nombre'])}', c: '{js_str(b['corto'])}', tr: '{b['trama']}', "
                  + (f"h: '{b['ruta']}', on: true, " if abierto else '')
-                 + f"e: '{b['estado']}', el: '{js_str(ESTADOS[b['estado']])}' }}")
+                 + f"e: '{b['estado']}', el: '{js_str(ESTADOS[b['estado']])}', p: '{b.get('presentacion', 'documental')}' }}")
 bloque = '\n  const LIBROS = [\n' + ',\n'.join(filas) + ',\n  ];\n  '
 s = leer('js/libro.js')
 escribir('js/libro.js', entre(s, '/* libros:inicio */', '/* libros:fin */', bloque, 'js/libro.js'))

@@ -204,7 +204,7 @@ S += sec('referencias', '03', 'Referencias y versiones', 'Un ID permanente para 
          + ''.join(f'<div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">{e(p["k"])}</span><span class="matrix__v" role="cell">{e(p["t"])}</span><span class="matrix__v" role="cell">{e(p["estado"])}</span></div>' for p in G['identificadores']['prefijos']) + '</div>\n'
          + '        <h3 class="ed__sub">Citación</h3>\n' + stack([(c['k'], e(c['d'])) for c in G['citacion']], v=True)
          + f'        <p class="ed__more">{e(G["citacion_nota"])}</p>\n'
-         + '        <h3 class="ed__sub">Versionado y trazabilidad</h3>\n' + lis(G['versionado'], v=True))
+         + '        <h3 class="ed__sub">Versionado y trazabilidad</h3>\n' + stack([(x['k'], e(x['t'])) for x in G['versionado']]))
 S += sec('gobierno', '04', 'Gobierno y aprobaciones', 'Quién aprueba y cómo se exceptúa',
          f'        <p class="ed__lead">{e(G["autoridad"]["texto"])}</p>\n'
          + stack([('Estado actual', e(G['autoridad'].get('actual', G['autoridad']['estado']))), ('Propuesta', e(G['autoridad']['propuesta']))])

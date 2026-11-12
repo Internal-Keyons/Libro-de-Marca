@@ -22,6 +22,7 @@ Biblioteca (errores, salida 1), en los dos libros abiertos (Marca y Sistema de D
 - Bloques «Normas relacionadas» o «Relacionado» (CLAUDE.md: la referencia va dentro del texto).
 - Cada norma redactada del Sistema de Diseño con su estructura: rótulo con ID, titular, entrada y filas con nivel.
 - Los seis libros con su nombre oficial (data/libros.json) en la portada, el selector, la Guía y la tabla de tramas.
+- Estilos independientes: cada libro carga solo su hoja; libro.css sin reglas de un libro; sistema-diseno.css acotado.
 """
 import datetime
 import hashlib
@@ -164,6 +165,26 @@ def biblioteca():
                                      ('entrada', r'class="ed__lead"'), ('filas con nivel', r'data-lvl="(debe|deberia|puede)"')) if not re.search(rx, sec)]
             if falta:
                 err.append(f'NORMA   {os.path.basename(p)}#{sid}: le falta {", ".join(falta)}')
+    # Estilos independientes por libro (docs/ARQUITECTURA_BIBLIOTECA.md)
+    for p in sorted(glob.glob(os.path.join(ROOT, '**', '*.html'), recursive=True)):
+        if any(x in p for x in ('_tmp', 'propuestas', 'Libro de marcar', '_lab', 'documental')):
+            continue
+        t = io.open(p, encoding='utf-8').read()
+        rel = os.path.relpath(p, ROOT).replace(os.sep, '/')
+        if 'js/nav-data.js' in t and 'sistema-diseno.css' in t:
+            err.append(f'ESTILOS {rel}: una página del Libro de Marca carga la hoja del Sistema de Diseño')
+        if 'nav-sistema-diseno.js' in t and 'css/marca.css' in t:
+            err.append(f'ESTILOS {rel}: una página del Sistema de Diseño carga la hoja del Libro de Marca')
+        if 'nav-sistema-diseno.js' in t and 'sistema-diseno.css' not in t:
+            err.append(f'ESTILOS {rel}: una página del Sistema de Diseño no carga su hoja propia')
+    if re.search(r'\[data-libro="(?!biblioteca)', re.sub(r'/\*.*?\*/', '', lee('css/libro.css'), flags=re.S)):
+        err.append('ESTILOS css/libro.css: tiene reglas de un libro concreto; van en la hoja de ese libro')
+    css = re.sub(r'/\*.*?\*/', '', lee('css/sistema-diseno.css'), flags=re.S)
+    for sel in re.findall(r'([^{};]+)\{', css):
+        for x in sel.split(','):
+            x = x.strip()
+            if x and not x.startswith('@') and not re.search(r'\.sd[a-z]*[-_]|\.sdn|html\[data-libro="sistema-diseno"\]', x):
+                err.append(f'ESTILOS css/sistema-diseno.css: «{x}» no está acotado al Sistema de Diseño')
     # Nombres oficiales de los seis libros
     L = json.load(io.open(os.path.join(ROOT, 'data', 'libros.json'), encoding='utf-8'))['libros']
     for p in ('index.html', 'js/libro.js', 'guia/index.html', 'fundamentos/elementos/graficos.html'):

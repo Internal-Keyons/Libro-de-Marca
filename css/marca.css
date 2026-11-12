@@ -1,0 +1,10 @@
+/* ═══════════════════════════════════════════════════════════════
+   KEYONS · LIBRO 01 · MARCA Y EXPERIENCIA · capa propia
+   Arquitectura de la Biblioteca (docs/ARQUITECTURA_BIBLIOTECA.md):
+   - css/tokens.css     valores comunes (color, escala, espacio, movimiento)
+   - css/libro.css      componentes y comportamiento comunes · presentación documental
+   - css/marca.css      lo que solo usa el Libro de Marca (esta hoja)
+   - css/sistema-diseno.css  lo que solo usa el Sistema de Diseño
+   Solo las páginas del Libro de Marca cargan esta hoja: un cambio aquí no alcanza al Sistema de Diseño.
+   tools/verificar.py comprueba que ninguna página de otro libro la cargue.
+   ═══════════════════════════════════════════════════════════════ */

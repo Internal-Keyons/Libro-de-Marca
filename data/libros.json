@@ -1,5 +1,5 @@
 {
-  "nota": "Registro único de los seis libros de la Biblioteca Keyons. Fuente de tools/biblioteca.py, que escribe js/libros.js, las filas de index.html, la tabla de prefijos de data/gobierno.json y js/busqueda-indice.js. «acceso» dice si el libro se puede abrir; «estado», en qué punto está su contenido: un libro puede ser accesible y estar en construcción. «trama»: v verticales, g retícula, x diagonales cruzadas, d diagonales, c curvas, h horizontales.",
+  "nota": "Registro único de los seis libros de la Biblioteca Keyons. Fuente de tools/biblioteca.py, que escribe el bloque LIBROS de js/libro.js, las filas de index.html, la tabla de prefijos de data/gobierno.json y js/busqueda-indice.js. «acceso» dice si el libro se puede abrir; «estado», en qué punto está su contenido: un libro puede ser accesible y estar en construcción. «trama»: v verticales, g retícula, x diagonales cruzadas, d diagonales, c curvas, h horizontales. «presentacion»: documental (diseño actual, css/libro.css) o editorial (futura, sin desarrollar); la página la recibe en html[data-presentacion].",
   "estados": {
     "disponible": "Disponible",
     "construccion": "En construcción",
@@ -16,7 +16,8 @@
       "estado": "disponible",
       "prefijo": "KYN-MRK",
       "prefijo_estado": "En uso",
-      "desc": "Define la identidad de Keyons: personalidad, narrativa, tipografía, color, geometría, composición, recursos gráficos y aplicaciones corporativas."
+      "desc": "Define la identidad de Keyons: personalidad, narrativa, tipografía, color, geometría, composición, recursos gráficos y aplicaciones corporativas.",
+      "presentacion": "documental"
     },
     {
       "id": "sistema-diseno",
@@ -28,7 +29,8 @@
       "estado": "construccion",
       "prefijo": "KYN-SDI",
       "prefijo_estado": "Reservado para sus normas nuevas, sin emitir. Cita las normas heredadas KYN-PRD-UIX sin cambiarlas",
-      "desc": "Reúne UX y UI: navegación, componentes, patrones, accesibilidad, interacciones, tokens y experiencias de Estela. También establece las variantes visuales de los productos."
+      "desc": "Reúne UX y UI: navegación, componentes, patrones, accesibilidad, interacciones, tokens y experiencias de Estela. También establece las variantes visuales de los productos.",
+      "presentacion": "documental"
     },
     {
       "id": "producto",
@@ -40,7 +42,8 @@
       "estado": "preparacion",
       "prefijo": "KYN-PRD",
       "prefijo_estado": "Identificadores históricos del Manual de Producto, entre ellos KYN-PRD-UIX",
-      "desc": "Es la evolución del Manual de Producto. Conserva sus normas, el Método Prisma y el desarrollo de soluciones, ampliando progresivamente la documentación técnica de ingeniería."
+      "desc": "Es la evolución del Manual de Producto. Conserva sus normas, el Método Prisma y el desarrollo de soluciones, ampliando progresivamente la documentación técnica de ingeniería.",
+      "presentacion": "documental"
     },
     {
       "id": "ventas",
@@ -51,7 +54,8 @@
       "acceso": "preparacion",
       "estado": "preparacion",
       "prefijo": "",
-      "desc": ""
+      "desc": "",
+      "presentacion": "documental"
     },
     {
       "id": "servicio",
@@ -62,7 +66,8 @@
       "acceso": "preparacion",
       "estado": "preparacion",
       "prefijo": "",
-      "desc": ""
+      "desc": "",
+      "presentacion": "documental"
     },
     {
       "id": "cultura",
@@ -73,7 +78,8 @@
       "acceso": "preparacion",
       "estado": "preparacion",
       "prefijo": "",
-      "desc": ""
+      "desc": "",
+      "presentacion": "documental"
     }
   ]
 }

@@ -4209,7 +4209,6 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
   --trama-h:repeating-linear-gradient(0deg,rgba(255,255,255,.16) 0px,rgba(255,255,255,.16) 1px,rgba(255,255,255,.07) 1px,rgba(255,255,255,.01) 25px,rgba(255,255,255,.01) 26px,rgba(255,255,255,.07) 49px,rgba(255,255,255,.07) 50px);
   --trama:var(--trama-v);
 }
-html[data-libro="sistema-diseno"]{--trama:var(--trama-v),var(--trama-h)}
 .hero__glass{background-image:var(--trama)}
 .portal .portal__arcs{display:block!important;z-index:1;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;background-color:transparent!important;background-image:var(--trama)!important;animation:none!important;transform:none!important}
 .band{position:relative}
@@ -4222,7 +4221,6 @@ html[data-libro="sistema-diseno"]{--trama:var(--trama-v),var(--trama-h)}
   --trama-h-o:repeating-linear-gradient(0deg,rgba(150,158,210,.16) 0px,rgba(150,158,210,.16) 1px,rgba(5,8,23,.12) 1px,rgba(5,8,23,0) 25px,rgba(5,8,23,0) 26px,rgba(5,8,23,.12) 49px,rgba(5,8,23,.12) 50px);
   --trama-o:var(--trama-v-o);
 }
-html[data-libro="sistema-diseno"]{--trama-o:var(--trama-v-o),var(--trama-h-o)}
 .portal:not(.portal--cielo):not(.portal--salmon):not(.portal--photo) .portal__arcs{background-image:var(--trama-o)!important}
 .band.grad--noche::before{background-image:var(--trama-o)}
 
@@ -5461,6 +5459,7 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:rgba(255,255,255,.8)
 .gov__list li{padding-left:36px}
 .gov__list li::before{top:calc(var(--s3) + 3px);width:20px;height:20px}
 .gov__list:not(.gov__list--v) li::before,.gov__list:not(.gov__list--v) li:nth-child(even)::before{background:var(--k-noche);-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'/%3E%3C/svg%3E")}
+.gov__list:not(.gov__list--v) li:nth-child(even)::before{-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill-rule='evenodd' d='M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'/%3E%3C/svg%3E")}   /* reglas-visuales R02: las viñetas alternan círculo y cuadrado en toda lista */
 
 /* Portada · Cómo utilizar: título pequeño oscuro, subtítulo grande en gris y pasos apilados */
 .howto{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--s6);row-gap:var(--s12);padding-top:var(--s12);border-top:1px solid var(--color-border)}

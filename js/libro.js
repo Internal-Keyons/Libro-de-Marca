@@ -60,12 +60,12 @@
      on: se puede abrir (acceso); e: estado editorial de su contenido. Un libro abierto puede estar en construcción. */
   /* libros:inicio */
   const LIBROS = [
-    { id: 'marca', t: 'Marca y Experiencia', c: 'Marca', tr: 'v', h: 'inicio.html', on: true, e: 'disponible', el: 'Disponible' },
-    { id: 'sistema-diseno', t: 'Sistema de Diseño', c: 'Diseño', tr: 'g', h: 'sistema-diseno/index.html', on: true, e: 'construccion', el: 'En construcción' },
-    { id: 'producto', t: 'Producto e Ingeniería', c: 'Producto', tr: 'x', e: 'preparacion', el: 'En preparación' },
-    { id: 'ventas', t: 'Ventas y Crecimiento', c: 'Ventas', tr: 'd', e: 'preparacion', el: 'En preparación' },
-    { id: 'servicio', t: 'Servicio al Cliente', c: 'Servicio', tr: 'c', e: 'preparacion', el: 'En preparación' },
-    { id: 'cultura', t: 'Cultura y Operaciones', c: 'Cultura', tr: 'h', e: 'preparacion', el: 'En preparación' },
+    { id: 'marca', t: 'Marca y Experiencia', c: 'Marca', tr: 'v', h: 'inicio.html', on: true, e: 'disponible', el: 'Disponible', p: 'documental' },
+    { id: 'sistema-diseno', t: 'Sistema de Diseño', c: 'Diseño', tr: 'g', h: 'sistema-diseno/index.html', on: true, e: 'construccion', el: 'En construcción', p: 'documental' },
+    { id: 'producto', t: 'Producto e Ingeniería', c: 'Producto', tr: 'x', e: 'preparacion', el: 'En preparación', p: 'documental' },
+    { id: 'ventas', t: 'Ventas y Crecimiento', c: 'Ventas', tr: 'd', e: 'preparacion', el: 'En preparación', p: 'documental' },
+    { id: 'servicio', t: 'Servicio al Cliente', c: 'Servicio', tr: 'c', e: 'preparacion', el: 'En preparación', p: 'documental' },
+    { id: 'cultura', t: 'Cultura y Operaciones', c: 'Cultura', tr: 'h', e: 'preparacion', el: 'En preparación', p: 'documental' },
   ];
   /* libros:fin */
   /* Trama oficial de cada libro, dibujada en línea fina: v verticales, h horizontales, d diagonales,
@@ -109,6 +109,9 @@
 
   /* Cada libro de la Biblioteca lleva su trama en encabezados y subencabezados (css: --trama) */
   document.documentElement.dataset.libro = (window.KEYONS_BOOK || {}).id || 'marca';
+  /* Presentación del libro (data/libros.json): documental, el diseño actual de libro.css; editorial, futura y sin desarrollar.
+     Una presentación nueva vive en su propia hoja acotada a html[data-presentacion] y no cambia la documental (docs/ARQUITECTURA_BIBLIOTECA.md) */
+  document.documentElement.dataset.presentacion = LIBRO.p || 'documental';
 
   /* ─── Cabecera · misma especificación que el sitio web ─── */
   const top = $('topbar');
