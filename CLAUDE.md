@@ -25,7 +25,11 @@ Vale para el Sistema de Diseño y para todo capítulo que reciba normas (`reglas
 - La página muestra solo la **capa de lectura**. Si Keylin no te pasó la capa de lectura de una norma, pedísela. No la escribas vos a partir del texto normativo.
 - **Índices:** usan el nombre corto de cada ítem, no el titular.
 - **Cada norma:** rótulo (ID y nombre corto), titular, fundamento con una frase destacada, y la norma en filas con su nivel: Debe, Debería o Puede. El modelo es el capítulo 01 Principios comunes y su archivo `capitulo-01-principios-comunes.md`.
-- **Niveles (todos los libros, decisión de Keylin del 2026-11-12):** la palabra del nivel va dentro de la redacción, natural y en mayúscula y nunca como primera palabra: «Cada pantalla DEBE tener…». El ícono (el cuadrado de 8 px, `.nvl--fin` en `libro.css`, del mismo tamaño y colores que el punto de estado, con su etiqueta al pasar el cursor) va al final de la declaración, en línea y sin sangría, nunca junto a la palabra ni al inicio. Una declaración = un ícono. Las decisiones se registran en `data/niveles.json` (`tools/niveles.py`); «siempre» y «nunca» no se convierten solos. Cambiar un enunciado para meter el nivel es cambiar texto: se propone y Keylin lo aprueba.
+- **Niveles (todos los libros, decisión de Keylin del 2026-11-12):** la palabra del nivel va dentro de la redacción, natural y en mayúscula y nunca como primera palabra: «Cada pantalla DEBE tener…». El ícono (el cuadrado de 8 px, `.nvl--fin` en `libro.css`, con su etiqueta al pasar el cursor) va al final del PÁRRAFO, unido a la última palabra, nunca entre oraciones, junto a la palabra o al inicio.
+  - Caso A: una norma con su explicación → un ícono al final del párrafo completo.
+  - Caso B: varias normas independientes → un párrafo por norma, cada uno con su ícono.
+  - Caso C: texto descriptivo → sin ícono.
+  - Se aplica solo con `python tools/niveles.py --aplicar` (registro interno `docs/niveles/niveles.json`, no se publica); nunca a mano. «Siempre» y «nunca» no se convierten solos. Cambiar un enunciado para meter el nivel es cambiar texto: se propone y Keylin lo aprueba.
   - Debe por defecto, en positivo y con precisión que cierre el límite.
   - No debe solo cuando la prohibición necesita fuerza explícita. Usa la marca de Debe y no va en las leyendas.
 - **Leyendas:** en el menú lateral, solo los niveles; los estados (Vigente, Borrador, Por definir), en la franja de la portada.

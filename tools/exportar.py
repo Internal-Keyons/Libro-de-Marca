@@ -100,7 +100,7 @@ class Tree(HTMLParser):
 
 
 def ws(s):
-    return re.sub(r'\s+', ' ', s.replace('\xa0', ' '))
+    return re.sub(r'\s+', ' ', s.replace('\xa0', ' ').replace('⁠', ''))   # sin la unión de palabra del ícono de nivel
 
 
 def joinp(parts):
@@ -219,6 +219,8 @@ class Page:
             return ''
         if n.tag == 'br':
             return ' '
+        if n.has('nvl--fin'):   # nivel de la norma (reglas-visuales R16): en Markdown y PDF, «(Debe)» al final del párrafo
+            return ' (' + (n.attrs.get('aria-label') or '').replace('Nivel: ', '') + ')'
         inner = joinp((isinstance(k, Node), self.inl(k)) for k in n.kids)
         core = inner.strip()
         if not core:

@@ -274,7 +274,13 @@ El radio de una esquina curva sale del **lado corto** del elemento:
     2. Titular.
     3. Fundamento: la entrada de 20 px, con una sola frase destacada.
     4. Norma: filas con su nivel a la izquierda y el enunciado a la derecha, en 16 px, peso regular, con un máximo de dos renglones.
-  - **Tres niveles: Debe, Debería y Puede (todos los libros, 2026-11-12).** La palabra del nivel (DEBE, NO DEBE, DEBERÍA, PUEDE) va dentro de la redacción, natural y en mayúscula: «Cada pantalla DEBE tener una acción principal…». El ícono oficial, un cuadrado de 8 px (`--lvl-mark`, `.nvl--fin`) del mismo tamaño y colores que el punto de estado, va al final de la declaración, en línea con el texto y sin sangría; NO DEBE ir junto a la palabra ni al inicio. Cada declaración lleva su propio ícono: un párrafo con dos fuerzas se separa en dos declaraciones. El texto DEBE entenderse sin el ícono, que tiene su etiqueta al pasar el cursor y su alternativa accesible («Nivel: Debe»). «Siempre» y «nunca» no se convierten solos en DEBE o NO DEBE: el nivel se decide en `data/niveles.json` (`tools/niveles.py`).
+  - **Tres niveles: Debe, Debería y Puede (todos los libros, 2026-11-12).** La palabra del nivel (DEBE, NO DEBE, DEBERÍA, PUEDE) va dentro de la redacción, natural y en mayúscula: «Cada pantalla DEBE tener una acción principal…». El ícono oficial es un cuadrado de 8 px (`--lvl-mark`, `.nvl--fin`), del mismo tamaño y colores que el punto de estado, con su etiqueta al pasar el cursor y su alternativa accesible («Nivel: Debe»). Su lugar:
+    - **Caso A · una norma con su explicación:** el párrafo se conserva y lleva un solo ícono al final del párrafo completo, aunque la norma esté en la primera oración.
+    - **Caso B · varias normas independientes:** cada norma va en su propio párrafo, con su ícono al final.
+    - **Caso C · texto descriptivo:** sin ícono.
+    - El ícono DEBE quedar unido a la última palabra del párrafo (`.nvl-cola` y unión de palabra) y NO DEBE confundirse con el comienzo de la oración siguiente ni ir junto a la palabra del nivel.
+    - El texto DEBE entenderse sin el ícono. Arreglar la vista nunca cambia la obligatoriedad ni el significado.
+    - Lo aplica `tools/niveles.py --aplicar` desde el registro interno `docs/niveles/niveles.json`: se repite sin duplicar íconos ni cambiar textos ya corregidos. «Siempre» y «nunca» no se convierten solos. `tools/verificar.py` comprueba un ícono por párrafo, al final, unido y con su palabra.
     - Debe: cuadrado lleno en Azul Noche. Obligatorio, sin excepciones.
     - Debería: cuadrado a medias en Azul Noche. Lo que se hace por defecto; otra solución necesita un motivo escrito.
     - Puede: cuadrado de contorno gris. Una alternativa permitida, a elección.

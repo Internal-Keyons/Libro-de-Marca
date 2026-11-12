@@ -1,16 +1,17 @@
 """Fuerza normativa de las declaraciones del Libro de Marca: DEBE / NO DEBE / DEBERÍA / PUEDE.
 
-Uso:  python tools/niveles.py            lista los candidatos y escribe data/niveles-candidatos.json
-      python tools/niveles.py --aplicar  aplica en las páginas las decisiones «aplicada» de data/niveles.json
+Uso:  python tools/niveles.py            lista los candidatos y escribe docs/niveles/candidatos.json
+      python tools/niveles.py --aplicar  aplica en las páginas las decisiones «aplicada» de docs/niveles/niveles.json
 
 Regla (reglas-visuales R16, 2026-11-12, para todos los libros):
 - La palabra del nivel va dentro de la redacción, natural y en mayúscula: «Los gradientes DEBEN construirse en casa».
-- El ícono oficial (cuadrado de 8 px, .nvl) va al final de la declaración, nunca junto a la palabra.
-- Una declaración = un nivel. Un párrafo con dos fuerzas se separa o queda pendiente.
+- El ícono oficial (cuadrado de 8 px, .nvl--fin) va al final del párrafo, unido a la última palabra, nunca junto a la palabra del nivel.
+- Caso A: una norma con su explicación, un ícono al final del párrafo. Caso B: varias normas, un párrafo por norma.
+- Caso C: el texto descriptivo no lleva ícono.
 
 Clasificación (decide una persona, no el script):
 - El script solo propone candidatos: frases de una sección normativa con un verbo modal o una marca de obligación.
-- data/niveles.json guarda la decisión de cada candidato: «aplicada» (norma confirmada con verbo modal explícito),
+- docs/niveles/niveles.json (interno, no se publica) guarda la decisión de cada candidato: «aplicada» (norma confirmada con verbo modal explícito),
   «no-normativa» (descripción, historia o ejemplo) o «pendiente» (normativa pero ambigua o sin verbo: decide Keylin).
 - «Siempre» y «nunca» nunca se convierten solos en DEBE o NO DEBE.
 """
@@ -23,8 +24,8 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REG = json.load(io.open(os.path.join(ROOT, 'data', 'normas.json'), encoding='utf-8'))
-DEC = os.path.join(ROOT, 'data', 'niveles.json')
-CAND = os.path.join(ROOT, 'data', 'niveles-candidatos.json')
+DEC = os.path.join(ROOT, 'docs', 'niveles', 'niveles.json')   # registro interno de trabajo: no se publica
+CAND = os.path.join(ROOT, 'docs', 'niveles', 'candidatos.json')
 
 MODAL = re.compile(r'\b(no\s+(?:se\s+)?deben?|deben?|deberían?|pueden?|podrán?|se\s+permiten?|se\s+recomienda|nunca|siempre|jamás|obligatori[oa]s?|prohibid[oa]s?)\b', re.I)
 BLOQUE = re.compile(r'<(p|li|dd|td|figcaption|span class="pgrid__d"|p class="[^"]*")[^>]*>(.*?)</(?:p|li|dd|td|figcaption|span)>', re.S)
@@ -104,55 +105,103 @@ def mapa(inner):
     return ''.join(txt), pos
 
 
+WJ = '\u2060'   # unión de palabra: el ícono nunca queda solo al comienzo de una línea
+ICONO_RX = re.compile(r'(?:\u2060|&#8288;)?<span class="nvl nvl--fin"[^>]*><i class="nvl__m[^"]*" aria-hidden="true"></i></span>')
+
+
+COLA_RX = re.compile(r'<span class="nvl-cola">(.*?)</span>(?=</(?:p|li|dd)>)', re.S)
+
+
+def limpiar(src):
+    """Quita todos los íconos de nivel y su envoltura: la operación se repite desde cero y nunca duplica."""
+    src = ICONO_RX.sub('', src)
+    return COLA_RX.sub(lambda m: m.group(1), src)
+
+
+def con_icono(t, nivel):
+    """El final del párrafo y su ícono van juntos en una sola pieza (.nvl-cola): siguen unidos aunque el párrafo
+    sea una retícula o una fila flexible, y la unión de palabra impide que el ícono empiece una línea."""
+    i = t.rfind('>') + 1
+    if t[i:].strip():                                       # el párrafo termina en texto
+        return t[:i] + f'<span class="nvl-cola">{t[i:]}{WJ}{icono(nivel)}</span>'
+    m = re.search(r'<(\w+)\b[^>]*>[^<]*</\1>$', t)          # termina en un elemento corto, por ejemplo <strong>
+    if m:
+        return t[:m.start()] + f'<span class="nvl-cola">{m.group(0)}{WJ}{icono(nivel)}</span>'
+    return t + WJ + icono(nivel)
+
+
+def profundidad(html):
+    """Etiquetas en línea abiertas al final de un fragmento: un párrafo solo se separa donde no hay ninguna abierta."""
+    d = 0
+    for m in re.finditer(r'<(/?)(strong|b|em|span|a|i)\b[^>]*>', html):
+        d += -1 if m.group(1) else 1
+    return d
+
+
 def aplicar():
+    """Regla de niveles (reglas-visuales R16):
+    - Caso A · una sola norma en el párrafo, con o sin explicación: un ícono al final del párrafo completo.
+    - Caso B · varias normas independientes en un párrafo: se separan en párrafos, cada uno con su ícono al final.
+      La explicación que sigue a una norma queda con ella; lo que va antes de la primera, también con la primera.
+    - Caso C · texto descriptivo: sin ícono.
+    Cada declaración se busca por su texto (no por posición), así que la operación se puede repetir sin cambios nuevos."""
     D = json.load(io.open(DEC, encoding='utf-8'))['declaraciones']
-    hechas, fallos = 0, []
     por_pagina = {}
     for d in D:
         if d['estado'] == 'aplicada':
             por_pagina.setdefault(d['fuente'].split('#')[0], []).append(d)
+    hechas, separados, fallos = 0, 0, []
     for pg, ds in por_pagina.items():
         ruta = os.path.join(ROOT, pg)
-        src = io.open(ruta, encoding='utf-8').read()
+        src = limpiar(io.open(ruta, encoding='utf-8').read())
+        # La palabra del nivel en mayúscula dentro de su frase (idempotente)
+        grupos = {}
         for d in ds:
             an = d['fuente'].split('#')[1]
             ms = re.search(r'<section class="[^"]*\bed\b[^"]*" id="%s">(.*?)</section>' % re.escape(an), src, re.S)
-            bs = list(re.finditer(r'<(p|li|dd)\b[^>]*>(.*?)</\1>', ms.group(1), re.S)) if ms else []
-            if d['bloque'] >= len(bs):
-                fallos.append((d['id'], d['frase'][:60], 'sin bloque')); continue
-            b = bs[d['bloque']]
-            ini = ms.start(1) + b.start(2)
-            inner = b.group(2)
-            plano, pos = mapa(inner)
-            plano_s = plano.strip(); off = len(plano) - len(plano.lstrip())
-            k = plano_s.lower().find(d['frase'].lower())   # sin distinguir mayúsculas: una frase ya aplicada se reconoce
-            if k < 0:
+            if not ms:
+                fallos.append((d['id'], d['frase'][:60], 'sin sección')); continue
+            hallado = None
+            for b in re.finditer(r'<(p|li|dd)\b[^>]*>(.*?)</\1>', ms.group(1), re.S):
+                plano, pos = mapa(b.group(2))
+                if d['frase'].lower() in plano.lower():
+                    hallado = (ms.start(1) + b.start(), ms.start(1) + b.end()); break
+            if not hallado:
                 fallos.append((d['id'], d['frase'][:60], 'frase no encontrada')); continue
-            k += off
-            fin = k + len(d['frase'])
-            if 'nvl--fin' in inner[pos[fin - 1]:pos[fin - 1] + 160]:
-                continue   # ya aplicada
-            nuevo = inner
-            # 1 · El ícono al final de la declaración, después de las etiquetas que la cierran
-            corte = pos[fin - 1] + 1
-            while True:
-                m = re.match(r'</(strong|b|em|span|a)>', nuevo[corte:])
-                if not m:
-                    break
-                corte += m.end()
-            nuevo = nuevo[:corte] + icono(d['nivel']) + nuevo[corte:]
-            # 2 · La palabra del nivel en mayúscula, dentro de la frase
-            m = re.search(PALABRA[d['nivel']], d['frase'], re.I)
-            if m:
-                for g in range(1, (m.lastindex or 0) + 1):
-                    if m.group(g) is None:
-                        continue
-                    a0 = pos[k + m.start(g)]; a1 = pos[k + m.end(g) - 1] + 1
-                    nuevo = nuevo[:a0] + nuevo[a0:a1].upper() + nuevo[a1:]
-            src = src[:ini] + nuevo + src[ini + len(inner):]
-            hechas += 1
+            grupos.setdefault(hallado, []).append(d)
+        # De atrás hacia adelante, para que las posiciones anteriores no cambien
+        for (a0, a1), dd in sorted(grupos.items(), key=lambda x: -x[0][0]):
+            bloque = src[a0:a1]
+            m = re.match(r'(<(p|li|dd)\b[^>]*>)(.*?)(</\2>)$', bloque, re.S)
+            abre, tag, inner, cierra = m.group(1), m.group(2), m.group(3), m.group(4)
+            plano, pos = mapa(inner)
+            for d in dd:   # mayúscula
+                k = plano.lower().find(d['frase'].lower())
+                w = re.search(PALABRA[d['nivel']], d['frase'], re.I)
+                if w:
+                    for g in range(1, (w.lastindex or 0) + 1):
+                        if w.group(g):
+                            p0 = pos[k + w.start(g)]; p1 = pos[k + w.end(g) - 1] + 1
+                            inner = inner[:p0] + inner[p0:p1].upper() + inner[p1:]
+            dd.sort(key=lambda d: plano.lower().find(d['frase'].lower()))
+            if len(dd) == 1:   # Caso A
+                partes = [(inner.rstrip(), dd[0])]
+            else:              # Caso B
+                cortes = [pos[plano.lower().find(d['frase'].lower())] for d in dd[1:]]
+                if any(profundidad(inner[:c]) for c in cortes) or tag != 'p':
+                    fallos.append((dd[0]['id'], dd[0]['frase'][:60], 'no se puede separar sin romper el formato: revisar a mano'))
+                    partes = [(inner.rstrip(), dd[-1])]
+                else:
+                    lims = [0] + cortes + [len(inner)]
+                    partes = [(inner[lims[n]:lims[n + 1]].strip(), dd[n]) for n in range(len(dd))]
+                    separados += 1
+            sangria = re.search(r'\n([ \t]*)$', src[:a0])
+            sep = '\n' + (sangria.group(1) if sangria else '')
+            nuevo = sep.join(f'{abre}{con_icono(t, d["nivel"])}{cierra}' for t, d in partes)
+            src = src[:a0] + nuevo + src[a1:]
+            hechas += len(partes)
         io.open(ruta, 'w', encoding='utf-8', newline='\n').write(src)
-    print(f'{hechas} declaraciones con su nivel · {len(fallos)} sin aplicar')
+    print(f'{hechas} párrafos con su nivel · {separados} párrafos separados en varias normas · {len(fallos)} sin aplicar')
     for f in fallos:
         print('  ', f)
 
@@ -162,4 +211,4 @@ if __name__ == '__main__' and '--aplicar' in sys.argv:
 elif __name__ == '__main__':
     c = candidatos()
     io.open(CAND, 'w', encoding='utf-8', newline='\n').write(json.dumps(c, ensure_ascii=False, indent=1) + '\n')
-    print(f'{len(c)} candidatos en {len({x["id"] for x in c})} normas · data/niveles-candidatos.json')
+    print(f'{len(c)} candidatos en {len({x["id"] for x in c})} normas · docs/niveles/candidatos.json')

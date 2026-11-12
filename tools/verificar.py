@@ -212,33 +212,41 @@ def auditoria():
     for p in paginas:
         t = io.open(p, encoding='utf-8').read()
         rel = os.path.relpath(p, ROOT).replace(os.sep, '/')
-        # 1 · Cada ícono de nivel corresponde a la palabra de su declaración (la frase que termina en el ícono)
-        for m in re.finditer(r'<span class="nvl nvl--fin" data-lvl="(\w+)"([^>]*)>', t):
+        # 1 · Niveles (R16): un solo ícono por párrafo, al final del párrafo, unido a la última palabra,
+        #     y la palabra de su nivel en mayúscula dentro de ese párrafo
+        for b in re.finditer(r'<(p|li|dd)\b[^>]*>(.*?)</\1>', t, re.S):
+            inner = b.group(2)
+            ics = list(re.finditer(r'<span class="nvl nvl--fin" data-lvl="(\w+)"([^>]*)>', inner))
+            if not ics:
+                continue
+            txt = re.sub(r'<[^>]+>', '', inner)
+            if len(ics) > 1:
+                err.append(f'NIVEL   {rel}: un párrafo con {len(ics)} íconos de nivel; cada norma va en su párrafo (Caso B) «{txt[:60]}…»')
+            m = ics[-1]
+            cola = re.sub(r'<i class="nvl__m[^"]*" aria-hidden="true"></i></span>(</span>)?', '', inner[m.end():], count=1).strip()   # (cierre de .nvl-cola)
+            if cola:
+                err.append(f'NIVEL   {rel}: el ícono no está al final de su párrafo «{txt[:60]}…»')
+            if not inner[:m.start()].endswith('⁠'):
+                err.append(f'NIVEL   {rel}: el ícono puede quedar solo al comienzo de una línea (falta la unión con la última palabra) «{txt[:60]}…»')
             lvl, attrs = m.group(1), m.group(2)
-            antes = re.sub(r'<[^>]+>', '', t[max(0, m.start() - 600):m.start()])
-            frase = re.split(r'(?<=[.;!?])\s+|<', antes)[-1] if antes else ''
-            frase = re.split(r'(?<=[.;!?:])\s+(?=[A-ZÁÉÍÓÚÑ¿«(])', antes.strip())[-1]
             if lvl not in PAL:
                 err.append(f'NIVEL   {rel}: ícono con nivel desconocido «{lvl}»')
-            elif not re.search(PAL[lvl], frase):
-                err.append(f'NIVEL   {rel}: el ícono «{lvl}» no tiene su palabra en mayúscula en la declaración «…{frase[-70:]}»')
+            elif not re.search(PAL[lvl], txt):
+                err.append(f'NIVEL   {rel}: el ícono «{lvl}» no tiene su palabra en mayúscula en el párrafo «{txt[:60]}…»')
             if 'aria-label="Nivel:' not in attrs:
                 err.append(f'NIVEL   {rel}: ícono de nivel sin alternativa accesible')
-        # Una palabra de nivel en mayúscula sin ícono en su declaración (en el texto del libro, no en ejemplos de «No hacer»)
-        plano = re.sub(r'<span class="nvl nvl--fin"[^>]*>', '¶', t)
-        plano = re.sub(r'<[^>]+>', ' ', plano)
-        plano = re.sub(r'([.;!?])\s*¶', r'¶', plano)   # el ícono va después del punto final de su declaración
-        if rel in ('inicio.html', 'guia/index.html', 'sistema-diseno/index.html'):
-            plano = ''   # leyendas que explican los niveles: no son declaraciones
-        for f in re.split(r'(?<=[.;!?])\s+', plano):
-            if re.search(r'\b(DEBE[N]?|DEBERÍA[N]?|PUEDE[N]?)\b', f) and '¶' not in f and 'KYN-' not in f:
-                sin_icono += 1
+        # Una palabra de nivel en mayúscula en un párrafo sin ícono (las leyendas que explican los niveles no cuentan)
+        if rel not in ('inicio.html', 'guia/index.html', 'sistema-diseno/index.html'):
+            for b in re.finditer(r'<(p|li|dd)\b[^>]*>(.*?)</\1>', t, re.S):
+                txt = re.sub(r'<[^>]+>', '', b.group(2))
+                if re.search(r'\b(DEBE[N]?|DEBERÍA[N]?|PUEDE[N]?)\b', txt) and 'nvl--fin' not in b.group(2) and 'KYN-' not in txt:
+                    sin_icono += 1
         # 2 · Referencias a normas que no se resuelven (se informan, nunca se borran)
         if not rel.startswith(('sistema-diseno/', 'data/')):
             for x in sorted(set(re.findall(r'KYN-MRK-[A-Z]{3}-\d{3}', t)) - ids):
                 av.append(f'REFERENCIA {rel}: cita {x}, que no está en el registro (se conserva; revisar)')
     if sin_icono:
-        av.append(f'NIVEL   {sin_icono} frases con DEBE/DEBERÍA/PUEDE en mayúscula sin ícono en su declaración (revisar con tools/niveles.py)')
+        av.append(f'NIVEL   {sin_icono} párrafos con DEBE/DEBERÍA/PUEDE en mayúscula sin ícono (revisar) (revisar con tools/niveles.py)')
     # 3 · Metadatos esenciales: se informan los que faltan, no se inventan
     A = json.load(io.open(os.path.join(ROOT, 'data', 'autoridad.json'), encoding='utf-8'))['normas']
     for campo, nombre in (('ambito', 'ámbito'), ('responsable', 'responsable'), ('fecha_aprobacion', 'fecha de aprobación')):

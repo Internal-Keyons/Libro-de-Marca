@@ -116,6 +116,12 @@
   --chart-vacio:var(--k-noche-150);
   /* Medida de lectura de un párrafo · reglas-visuales 3.4 */
   --measure:600px;
+  /* Tracking (reglas-visuales 2.4): la escala de seis valores. El código aún usa valores sueltos: unificarlos cambia la apariencia y lo decide Keylin */
+  --tr-0:0;
+  --tr-1:-.02em;
+  --tr-2:-.03em;
+  --tr-3:-.05em;
+  --tr-caps:.05em;
   /* Tracking del kicker y de los rótulos en mayúsculas · reglas-visuales 2.4 */
   --tr-kicker:.02em;
   /* Marca de nivel de norma (Debe, Debería, Puede) · reglas-visuales R16 */

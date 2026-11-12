@@ -234,7 +234,9 @@
         const fila = (o, alfa) => {
           const [, , f, c] = o.id.split('-');
           const off = o.e === 'descontinuada' || o.e === 'integrada';
-          return `<a class="kidx__r${off ? ' is-off' : ''}" href="${root}${o.h}" title="${o.id}" data-q="${(o.id + ' ' + o.n + ' ' + o.t).toLowerCase()}"><b>${alfa ? f + '-' + c : c}</b><span class="kidx__t">${o.t}</span><span class="kidx__n">${off ? '[DESCONTINUADA]' : o.n}</span></a>`;
+          /* Se localiza por ID, título, número de capítulo y estado; el estado se ve solo cuando no es vigente (punto de estado) */
+          const est = o.e === 'vigente' ? 'v' : o.e === 'borrador' ? 'b' : 'p';
+          return `<a class="kidx__r${off ? ' is-off' : ''}" href="${root}${o.h}" title="${o.id} · ${STATUS[est]}" data-q="${(o.id + ' ' + o.n + ' ' + o.t + ' ' + (off ? o.e : STATUS[est])).toLowerCase()}"><b>${alfa ? f + '-' + c : c}</b><span class="kidx__t">${o.t}</span><span class="kidx__n">${off ? '[DESCONTINUADA]' : (est === 'v' ? '' : dot(est) + ' ') + o.n}</span></a>`;
         };
         const draw = (key) => {
           const alfa = key === 't', gr = new Map();

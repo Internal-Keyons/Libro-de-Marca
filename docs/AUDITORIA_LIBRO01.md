@@ -32,7 +32,7 @@ Documento interno (no se publica). Acompaña al informe final de la rama `biblio
 - **Ambiguos reales: 5.** Van en la tabla de decisiones del informe.
 - **Normas confirmadas sin verbo modal: 92.** Usan «siempre», «nunca», «podrá», «se permite» o «no es obligatorio». No se convirtieron solas: necesitan una redacción aprobada (lista abajo).
 
-La palabra quedó en mayúscula dentro de la frase, sin cambiar nada más del texto. El ícono va al final de cada declaración, con «Nivel: …» como alternativa accesible.
+La palabra quedó en mayúscula dentro de la frase, sin cambiar nada más del texto. El ícono va al final del párrafo (Caso A: una norma con su explicación; Caso B: varias normas, un párrafo cada una; Caso C: texto descriptivo sin ícono), unido a la última palabra y con «Nivel: …» como alternativa accesible. Cuatro párrafos se separaron por tener dos normas: DAT-002, ESP-005, VIS-004 y VOZ-005.
 
 **DAT-001:** sus filas usan el formato anterior, con el nivel como rótulo («(DEBE · Calidad)»). Pasarlas al formato nuevo (palabra en la frase e ícono al final) cambia el texto: pendiente de su decisión.
 
@@ -163,7 +163,7 @@ La palabra quedó en mayúscula dentro de la frase, sin cambiar nada más del te
 ## E · Exportaciones y acceso
 
 - **Generación:** `tools/exportar.py` genera, desde las páginas oficiales, el Markdown completo (`ia/libro-de-marca.md`), uno por norma (`ia/normas/`) y el PDF completo (`--pdf`). En esta ronda no se corrió, por decisión de Keylin.
-- **Niveles en Markdown y PDF:** hoy el exportador no reconoce el ícono `.nvl--fin`, pero la palabra en mayúscula queda en el texto, así que el nivel se entiende. Falta enseñarle a `exportar.py` a escribir «(Debe)», «(Debería)» o «(Puede)» al final de cada declaración, leyendo el `aria-label` del ícono. Es un cambio pequeño que conviene hacer justo antes de regenerar.
+- **Niveles en Markdown y PDF:** `exportar.py` ya escribe «(Debe)», «(Debería)» o «(Puede)» al final de cada párrafo con ícono (probado en una página; no se regeneró nada).
 - **Riesgo de acceso, antes de integrar Polaris:** hoy son públicos y se enlazan desde el menú lateral:
   - `documental/libro-de-marca-keyons.pdf`
   - `documental/sistema-diseno-keyons.pdf`

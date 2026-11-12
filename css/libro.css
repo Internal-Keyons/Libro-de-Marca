@@ -6112,3 +6112,5 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
 /* Nivel de la norma (reglas-visuales R16, todos los libros): la palabra en mayúscula dentro de la frase y el ícono oficial
    al final de la declaración, en línea con el texto y sin sangría */
 .nvl--fin{display:inline-flex;margin-left:var(--s2);vertical-align:.08em}
+/* El final del párrafo y su ícono forman una sola pieza: siguen juntos también en párrafos en retícula o en fila */
+.nvl-cola{display:inline}
