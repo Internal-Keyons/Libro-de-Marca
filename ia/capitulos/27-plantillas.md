@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-09"
+fecha: "2026-11-11"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "27"
 titulo: "Plantillas"
@@ -83,8 +83,8 @@ Los manuales que acompañan a este. **Cada uno se enlaza aquí cuando esté publ
 
 01
 
-Manual de voz
-Cómo escribe Keyons, en un documento para compartir.
+Sistema de Diseño
+Experiencia, interfaz y componentes de los productos.
 
 Documento
 
@@ -92,8 +92,35 @@ Por enlazar
 
 02
 
-Manual de producto
-Interfaz, componentes y modo digital.
+Producto e Ingeniería
+Normas de producto, Método Prisma y desarrollo.
+
+Documento
+
+Por enlazar
+
+03
+
+Ventas y Crecimiento
+Propuestas, proceso comercial y crecimiento.
+
+Documento
+
+Por enlazar
+
+04
+
+Servicio al Cliente
+Atención, acompañamiento y seguimiento.
+
+Documento
+
+Por enlazar
+
+05
+
+Cultura y Operaciones
+Equipo, procesos internos y forma de trabajar.
 
 Documento
 

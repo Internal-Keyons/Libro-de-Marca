@@ -8,7 +8,7 @@
 
 | Dato | Valor |
 |---|---|
-| Normas inventariadas | 125 |
+| Normas inventariadas | 126 |
 | Requisitos detectados | 226 |
 | DEBE | 89 |
 | NO DEBE | 84 |
@@ -163,6 +163,7 @@ Ninguna.
 | KYN-MRK-ESP-004 | 3 | 0 | 0 | 1 |
 | KYN-MRK-ESP-005 | 3 | 2 | 1 | 1 |
 | KYN-MRK-ESP-006 | 2 | 1 | 0 | 0 |
+| KYN-MRK-EST-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-GAL-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-ICN-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-ICO-001 | 0 | 0 | 0 | 0 |

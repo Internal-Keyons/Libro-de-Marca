@@ -108,6 +108,21 @@
   --r-none:0px; --r-micro:3px; --r-control:12px; --r-component:18px;
   --r-card:30px; --r-block:50px; --r-pill:9999px;
 
+  /* Grosor de línea de los controles · reglas-visuales 4.3 y 5.2 */
+  --line-w-control:1.5px;
+
+  /* Grises en gráficos · reglas-visuales 1.11: dato en gris y sin dato o fuera de foco */
+  --chart-gris:var(--k-noche-200);
+  --chart-vacio:var(--k-noche-150);
+  /* Medida de lectura de un párrafo · reglas-visuales 3.4 */
+  --measure:600px;
+  /* Tracking del kicker y de los rótulos en mayúsculas · reglas-visuales 2.4 */
+  --tr-kicker:.02em;
+  /* Marca de nivel de norma (Debe, Debería, Puede) · reglas-visuales R16 */
+  --lvl-mark:8px;   /* igual que el punto de estado */
+  /* Puntos de carrusel: círculo y cuadrado alternados · reglas-visuales 8 (piloto) */
+  --mark-car:10px;
+
   /* Movimiento */
   --m-fast:180ms; --m-base:300ms; --m-slow:520ms;
   --e-out:cubic-bezier(.22,.61,.36,1);
@@ -140,7 +155,12 @@
   --glass-bg-strong:rgba(244,244,244,.62);
   --glass-border:rgba(255,255,255,.5);
   --glass-blur:24px;
-  --glass-shadow:0 20px 50px -20px rgba(16,18,42,.28);
+  --glass-shadow:var(--shadow-3);
+
+  /* Sombras · solo para elevación · reglas-visuales 5.3 */
+  --shadow-1:0 1px 2px rgba(16,18,42,.06), 0 4px 12px -2px rgba(16,18,42,.08);   /* píldora activa, controles flotantes */
+  --shadow-2:0 8px 24px -6px rgba(16,18,42,.14);                                  /* menús y desplegables */
+  --shadow-3:0 20px 50px -20px rgba(16,18,42,.28);                                /* ventanas y paneles */
 
   /* Cielos · degradados oficiales (orgánicos, asimétricos, con punto focal) */
   --sky-amanecer:

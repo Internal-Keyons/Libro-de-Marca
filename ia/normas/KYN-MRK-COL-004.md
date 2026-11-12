@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-09"
+fecha: "2026-11-11"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 id: "KYN-MRK-COL-004"
 titulo: "Reglas de uso"
@@ -24,23 +24,25 @@ Las reglas que protegen la jerarquía de la paleta. **Se suman nuevas a medida q
 
 **01 · El color señala, no sustituye la legibilidad**
 
-Sobre fondos claros, utilizamos preferentemente Azul Noche para los textos.
+Sobre fondos claros, los textos DEBERÍAN ir en Azul Noche.
 
-Azul Cielo y los salmones pueden aportar acentos, superficies y señales gráficas. Su utilización en textos o elementos funcionales requiere comprobar el contraste correspondiente.
+Azul Cielo y los salmones PUEDEN aportar acentos, superficies y señales gráficas.
+
+Su uso en textos o elementos funcionales DEBE comprobar el contraste correspondiente.
 
 **02 · Cielo y Salmón no se apoyan uno sobre otro**
 
-Nunca un elemento Salmón encima de un fondo Cielo, ni al revés.
+Un elemento Salmón NO DEBE ir encima de un fondo Cielo, ni al revés.
 
 **03 · Azul Cielo gana en superficie**
 
-Cuando conviven, Cielo ocupa más área que Salmón. Salmón domina solo en piezas expresivas donde la calidez es el mensaje.
+Cuando conviven, Cielo DEBE ocupar más área que Salmón. Salmón domina solo en piezas expresivas donde la calidez es el mensaje.
 
 Esta jerarquía no sustituye los colores semánticos ni las necesidades específicas de una visualización de datos.
 
 **04 · Salmón Atardecer vive sobre Azul Noche**
 
-#E99D9E es la versión de Salmón para fondos oscuros, donde alcanza 8.6:1.
+Salmón Atardecer (#E99D9E) DEBE usarse solo sobre Azul Noche, donde alcanza 8,6:1.
 
 **05 · La proporción orienta**
 

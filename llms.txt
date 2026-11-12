@@ -1,6 +1,6 @@
 # Libro de Marca Keyons
 
-> Manual de identidad y expresión visual de Keyons. Versión 0.1, exportada el 2026-11-09. Cada norma tiene un ID permanente KYN-MRK-XXX-### y un estado: vigente o borrador.
+> Manual de identidad y expresión visual de Keyons. Versión 0.1, exportada el 2026-11-11. Cada norma tiene un ID permanente KYN-MRK-XXX-### y un estado: vigente o borrador.
 
 Escrito una vez en el libro (HTML) y publicado en tres formas: lectura visual, documental y estructurada. Permisos: por definir; se asignarán con la Biblioteca Keyons.
 
@@ -8,6 +8,7 @@ Escrito una vez en el libro (HTML) y publicado en tres formas: lectura visual, d
 
 - [Convenciones de autoridad normativa](/ia/gobierno.json): niveles DEBE, NO DEBE, DEBERÍA y PUEDE; estados de vigencia; ámbitos; aprobación, excepciones y citación. Una clasificación propuesta por IA no tiene vigencia sin aprobación humana.
 - [Guía de la Biblioteca: convenciones y rutas de lectura](/guia/index.html)
+- [Reglas de voz](/ia/reglas-de-voz.md): se leen antes de escribir cualquier texto de Keyons. Trato de usted, frases en positivo, límites medibles y convenciones.
 
 ## Libro completo
 

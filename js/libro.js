@@ -17,6 +17,12 @@
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const $ = (id) => document.getElementById(id);
 
+  /* Foco solo con teclado (reglas-visuales 4.5): Tab, flechas, Inicio y Fin encienden el anillo; un clic o un toque lo apagan.
+     Shift, Windows, Ctrl o Alt solos (por ejemplo, para una captura de pantalla) no lo encienden. */
+  const KBD = ['Tab', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Home', 'End', 'PageUp', 'PageDown'];
+  document.addEventListener('keydown', (e) => { if (KBD.includes(e.key) && !e.metaKey && !e.ctrlKey && !e.altKey) document.documentElement.setAttribute('data-kbd', ''); }, true);
+  document.addEventListener('pointerdown', () => document.documentElement.removeAttribute('data-kbd'), true);
+
   const ic = (d, cls = '') => `<svg class="${cls}" viewBox="0 0 16 16" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   const I = {
     search: '<circle cx="7" cy="7" r="4.6"/><path d="m10.4 10.4 3.2 3.2"/>',
@@ -37,6 +43,14 @@
   const W = Object.assign({ ch: 'Capítulos', pg: 'Páginas', pgs: 'páginas' }, BOOK.words || {});
   const counted = (it) => it.t && !it.idx;
   const dot = (s = 'p') => `<span class="dot dot--${SKEY[s]}" title="${STATUS[s]}" aria-label="${STATUS[s]}"></span>`;
+  /* Niveles de norma · reglas-visuales R16: tres niveles; «No debe» usa la marca de Debe */
+  const LEVEL = { debe: 'Debe', deberia: 'Debería', puede: 'Puede' };
+  const LEVEL_TIP = {
+    debe: 'Obligatorio, sin excepciones. «No debe» usa esta misma marca.',
+    deberia: 'Lo que se hace por defecto. Otra solución necesita un motivo escrito.',
+    puede: 'Una alternativa permitida, a elección.'
+  };
+  const lvl = (k) => `<span class="nvl" tabindex="0" data-lvl="${k}" aria-label="${LEVEL[k]}: ${LEVEL_TIP[k]}"><i class="nvl__m nvl__m--${k}" aria-hidden="true"></i>${LEVEL[k]}</span>`;
   /* Ancla estable por clave: el número de capítulo puede cambiar, la clave no */
   const slug = (c) => 'cap-' + (c.k || c.n);
   const base = (h) => (h || '').split('#')[0];
@@ -199,7 +213,8 @@
       });
       document.querySelectorAll('section.ed[id] > .ed__label').forEach((lb) => {
         const o = byH[`${here}#${lb.parentElement.id}`];
-        if (!o || o.e !== 'vigente') return;
+        /* Toda norma con ID lo muestra en su rótulo, también en borrador (un capítulo sin ID no existe) */
+        if (!o || !['vigente', 'borrador'].includes(o.e)) return;
         const num = lb.firstElementChild;
         num.dataset.n = num.textContent; num.textContent = o.id; num.classList.add('ed__code');
         num.dataset.copy = o.id; num.dataset.copyMsg = 'ID copiado · ' + o.id; num.title = 'Copiar el ID de esta norma';
@@ -616,7 +631,8 @@
     const OPT = { w: [400, 500, 600, 700], lh: [0.93, 1, 1.1, 1.2, 1.3, 1.4, 1.55, 1.6, 1.65], ls: [8, 0, -1.5, -2, -3, -4, -5] };
     const LAB = { w: String, lh: tNum, ls: tPct };
     const q = (x) => tb.querySelector(x);
-    const inp = q('.tester__in'), out = q('.tester__out'), meta = q('.tester__meta'), comp = q('.tester__comp'), sizes = q('.tester__sizes');
+    const out = q('.tester__out'), comp = q('.tester__comp'), sizes = q('.tester__sizes');
+    const txt = () => out.textContent.trim() || ' ';   // el ejemplo se escribe en el lugar (clic para escribir)
     Object.keys(OPT).forEach((k) => { const s = q(`[data-ex="${k}"]`); if (s) s.innerHTML = OPT[k].map((v) => `<option value="${v}">${LAB[k](v)}</option>`).join(''); });
     let lv = 'display';
     const EX = {};
@@ -627,9 +643,10 @@
     };
     const draw = () => {
       const n = tLv(LVK[lv]);
-      out.textContent = inp.value || ' '; out.className = 'tester__out ' + CLS[lv];
+      out.className = 'tester__out ' + CLS[lv];
       out.style.fontWeight = EX.w; out.style.lineHeight = EX.lh; out.style.letterSpacing = `${EX.ls / 100}em`;
-      meta.textContent = `${TIPO.familias[n.f]} ${EX.w}${n.mayus ? ' · mayúsculas' : ''} · ${tRango(n).replace(' a ', '–')} · interlineado ${tNum(EX.lh)} · tracking ${tPct(EX.ls)}`;
+      q('[data-tx="f"]').textContent = TIPO.familias[n.f] + (n.mayus ? ' · mayúsculas' : '');
+      q('[data-tx="px"]').textContent = tRango(n).replace(' a ', '–');
     };
     /* Composición de muestra: cada combinación con las fuentes oficiales */
     const CF = { j: 'trad', i: 'contenida', o: 'breve' };
@@ -647,7 +664,7 @@
     };
     const drawComp = () => {
       if (!comp) return;
-      const px = Object.fromEntries(sizesFor(CF.j, CF.i)), pro = inp.value || ' ';
+      const px = Object.fromEntries(sizesFor(CF.j, CF.i)), pro = txt();
       const used = [];
       const put = (k, txt, cls) => { if (!used.includes(k)) used.push(k); return el(k, px[k], txt, cls); };
       let h = '';
@@ -667,7 +684,8 @@
     };
     tb.querySelectorAll('[data-ex]').forEach((s) => s.addEventListener('change', () => { EX[s.dataset.ex] = Number(s.value); draw(); }));
     tb.querySelectorAll('[data-cf]').forEach((s) => s.addEventListener('change', () => { CF[s.dataset.cf] = s.value; drawComp(); }));
-    inp.addEventListener('input', () => { draw(); drawComp(); });
+    out.addEventListener('input', () => { if (out.textContent.length > 120) out.textContent = out.textContent.slice(0, 120); drawComp(); });
+    out.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); out.blur(); } });   // una sola línea de texto
     tb.querySelectorAll('[data-lv]').forEach((b) => b.addEventListener('click', () => {
       lv = b.dataset.lv; tb.querySelectorAll('[data-lv]').forEach((o) => o.setAttribute('aria-pressed', o === b)); setLv(); draw();
     }));
@@ -953,7 +971,8 @@
       + `<div class="nav-area__body" id="nav-area-${i}"${on ? '' : ' hidden'}>${chapters(a)}</div></div>`;
   };
   side.innerHTML = `<nav class="side__tree" aria-label="Índice de ${esc(LIBRO.t)}">${NAV.map(areaHtml).join('')}</nav>`
-    + `<div class="side__legend">${LEGEND.map((k) => `<span>${dot(k)} ${STATUS[k]}</span>`).join('')}</div>`
+    /* En el menú lateral, solo los niveles de norma; los estados se explican en la portada (reglas-visuales R16) */
+    + `<div class="side__legend">${Object.keys(LEVEL).map(lvl).join('')}</div>`
     + `<div class="side__alt">${alt.map(([t, h, d, dl]) => `<a href="${url(h)}"${dl ? ' download' : ''}>${d ? ic(I[d] || d) : ''}${esc(t)}</a>`).join('')}</div>`
     /* Contraer: un control de panel al pie del menú, distinto de los chevrones de áreas y capítulos */
     + `<div class="side__foot"><button class="side__toggle" type="button" aria-pressed="false" aria-label="Contraer el menú lateral" title="Contraer el menú"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2.75" y="3.75" width="14.5" height="12.5" rx="2.5"/><path class="side__toggle-l" d="M7.75 4.5v11"/></svg><span>Contraer menú</span></button></div>`;
@@ -1447,7 +1466,7 @@
   const carousel = (el, sel, ms, onGo) => {
     const n = el.querySelectorAll(sel).length; let k = 0, t;
     const go = (i) => { k = (i + n) % n; onGo(k); };
-    const play = () => { clearInterval(t); if (!still) t = setInterval(() => go(k + 1), ms); };
+    const play = () => { clearInterval(t); if (!still && ms) t = setInterval(() => go(k + 1), ms); };   // ms 0: sin avance automático
     el.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); go(k + (e.key === 'ArrowRight' ? 1 : -1)); play(); } });
     let seen = false, inview = !('IntersectionObserver' in window);
     const run = () => { clearInterval(t); if (inview) play(); };
@@ -1465,15 +1484,58 @@
     });
     el.querySelectorAll('[data-cs]').forEach((b) => b.addEventListener('click', () => c.go(c.at() + Number(b.dataset.cs))));
   });
+  /* Puntos de carrusel (reglas-visuales 8, piloto): al cambiar, la marca salta del punto anterior al nuevo y toma su forma */
+  const msVar = (v) => parseFloat(getComputedStyle(document.documentElement).getPropertyValue(v)) || 300;
+  const saltar = (nav, de, a) => {
+    if (still || !de || de === a || !nav.animate) return;
+    let g = nav.querySelector('.pt__go');
+    if (!g) { g = document.createElement('span'); g.className = 'pt__go'; g.setAttribute('aria-hidden', 'true'); nav.appendChild(g); }
+    const n = nav.getBoundingClientRect(), x = (b) => { const r = b.querySelector('i').getBoundingClientRect(); return r.left - n.left; };
+    const forma = (b) => getComputedStyle(b.querySelector('i')).borderRadius;
+    g.animate([
+      { transform: `translateX(${x(de)}px)`, borderRadius: forma(de), opacity: 1 },
+      { transform: `translateX(${x(a)}px) translateY(-6px) scale(.8)`, offset: .5, opacity: 1 },
+      { transform: `translateX(${x(a)}px)`, borderRadius: forma(a), opacity: 1 },
+      { transform: `translateX(${x(a)}px)`, borderRadius: forma(a), opacity: 0 }
+    ], { duration: msVar('--m-base') * 1.4, easing: getComputedStyle(document.documentElement).getPropertyValue('--e-io').trim() || 'ease-in-out' });
+  };
   document.querySelectorAll('[data-icar]').forEach((el) => {
     const ss = el.querySelectorAll('.icar__s'), its = el.querySelectorAll('.icar__it'), bs = el.querySelectorAll('[data-ci]');
-    const c = carousel(el, '.icar__s', 3600, (k) => {
+    const ms = el.dataset.ms !== undefined ? Number(el.dataset.ms) : 3600, nav = el.querySelector('.icar__nav--pt');
+    el.style.setProperty('--car-ms', ms + 'ms');
+    let prev = null;
+    const c = carousel(el, '.icar__s', ms, (k) => {
       ss.forEach((s, j) => s.classList.toggle('is-on', j === k));
       its.forEach((s, j) => { s.hidden = j !== k; });
       bs.forEach((b, j) => { b.classList.remove('is-on'); void b.offsetWidth; b.classList.toggle('is-on', j === k); });
+      if (nav) { saltar(nav, prev, bs[k]); prev = bs[k]; }
       el.querySelector('.icar__stage').style.background = getComputedStyle(ss[k]).getPropertyValue('--bg');
     });
     bs.forEach((b) => b.addEventListener('click', () => c.go(Number(b.dataset.ci))));
+  });
+  /* ESP-004 · cada retícula muestra primero su estructura y, al entrar en pantalla, la misma composición con texto real */
+  document.querySelectorAll('.lvx__fig').forEach((f) => {
+    if (!f.querySelector('.lvx__tx')) return;
+    if (still || !('IntersectionObserver' in window)) { f.classList.add('is-tx'); return; }
+    const io = new IntersectionObserver(([e]) => { if (e.isIntersecting) { io.disconnect(); setTimeout(() => f.classList.add('is-tx'), msVar('--m-slow') * 2); } }, { threshold: .6 });
+    io.observe(f);
+  });
+  /* ILU-007 · tarjetas en fila: el texto del estilo activo a la izquierda; avanza con los puntos, las flechas o un clic en otra tarjeta */
+  document.querySelectorAll('[data-tcar]').forEach((el) => {
+    const cs = el.querySelectorAll('.tcar__c'), its = el.querySelectorAll('.tcar__it'), bs = el.querySelectorAll('[data-ci]');
+    const tr = el.querySelector('.tcar__track'), nav = el.querySelector('.icar__nav--pt');
+    el.style.setProperty('--car-ms', '0ms');
+    let prev = null;
+    const c = carousel(el, '.tcar__c', 0, (k) => {
+      cs.forEach((x, j) => x.classList.toggle('is-on', j === k));
+      its.forEach((x, j) => { x.hidden = j !== k; });
+      bs.forEach((b, j) => b.classList.toggle('is-on', j === k));
+      if (nav) { saltar(nav, prev, bs[k]); prev = bs[k]; }
+      tr.style.transform = `translateX(${-cs[k].offsetLeft}px)`;
+    });
+    bs.forEach((b) => b.addEventListener('click', () => c.go(Number(b.dataset.ci))));
+    cs.forEach((x, j) => x.addEventListener('click', () => c.go(j)));
+    addEventListener('resize', () => { tr.style.transform = `translateX(${-cs[c.at()].offsetLeft}px)`; });
   });
 
   /* ─── Retícula dinámica de líneas (lgrid) ───
@@ -1763,7 +1825,13 @@
   document.querySelectorAll('.ed__title').forEach((t) => {
     if (t.children.length || t.textContent.length < 34) return;
     const m = t.textContent.match(/^(.{8,}?[,;])\s+(.{8,})$/);
-    if (m) t.innerHTML = `${esc(m[1])}<br>${esc(m[2])}`;
+    if (!m) return;
+    const antes = t.textContent;
+    t.innerHTML = `${esc(m[1])}<br>${esc(m[2])}`;
+    /* reglas-visuales 2.6 (R11): dos renglones. Si el corte deja tres, el titular vuelve a cortarse solo.
+       Se mide con la tipografía ya cargada, que es más ancha que la de reserva */
+    const medir = () => { if (t.getBoundingClientRect().height > 2.5 * parseFloat(getComputedStyle(t).lineHeight)) t.textContent = antes; };
+    (document.fonts ? document.fonts.ready : Promise.resolve()).then(medir);
   });
   /* Sin palabras sueltas: la primera palabra de cada oración no queda sola al final de un renglón,
      y el último renglón de un párrafo nunca es una sola palabra */
@@ -1778,5 +1846,118 @@
       if (v !== n.nodeValue) n.nodeValue = v;
     });
   });
+
+  /* Una sola línea entre dos bloques · reglas-visuales 3.5
+     Si un bloque cierra con su línea y el siguiente abre con la suya, sin nada entre ellas, el anterior cierra
+     sin línea. Vale para cualquier par de componentes, también los que se agreguen después.
+     Se mide con la posición de maquetación (offsetTop), que no cambia con la animación de entrada. */
+  {
+    const raiz = document.querySelector('main');
+    const caja = (e) => {
+      while (e && !(e instanceof HTMLElement)) e = e.parentElement;
+      if (!e || !e.offsetParent) return null;
+      let x = 0, y = 0;
+      for (let p = e; p; p = p.offsetParent) { x += p.offsetLeft; y += p.offsetTop; }
+      return { t: y, b: y + e.offsetHeight, l: x, r: x + e.offsetWidth };
+    };
+    const quitadas = [];
+    const unaLinea = () => {
+      quitadas.splice(0).forEach((e) => { e.style.borderBottomColor = ''; });
+      if (!raiz) return;
+      const lineas = [], cont = [];
+      raiz.querySelectorAll('*').forEach((e) => {
+        if (e.closest('.side, .toc, .portal, .hero, nav, [hidden]')) return;
+        const cs = getComputedStyle(e), k = caja(e);
+        if (!k || cs.visibility === 'hidden') return;
+        const lado = (s) => parseFloat(cs[`border${s}Width`]) > 0 && cs[`border${s}Style`] !== 'none' && cs[`border${s}Color`] !== 'rgba(0, 0, 0, 0)';
+        /* Una caja, con borde a ambos lados, no es una línea divisoria */
+        if (k.r - k.l >= 120 && !(lado('Left') && lado('Right'))) {
+          if (lado('Top')) lineas.push({ y: k.t, l: k.l, r: k.r, e, abre: true });
+          if (lado('Bottom')) lineas.push({ y: k.b, l: k.l, r: k.r, e, abre: false });
+        }
+        if (/^(IMG|CANVAS|VIDEO|PICTURE)$/.test(e.tagName) || [...e.childNodes].some((n) => n.nodeType === 3 && /\S/.test(n.data))) cont.push(k);
+      });
+      /* Un SVG no tiene offsetTop: se mide en pantalla; los que no se ven (símbolos, filtros) no cuentan */
+      raiz.querySelectorAll('svg').forEach((s) => {
+        const r = s.getBoundingClientRect();
+        if (r.width > 1 && r.height > 1) cont.push({ t: r.top + scrollY, b: r.bottom + scrollY, l: r.left + scrollX, r: r.right + scrollX });
+      });
+      lineas.sort((a, b) => a.y - b.y);
+      lineas.forEach((a, i) => {
+        if (a.abre) return;
+        const b = lineas.slice(i + 1).find((x) => x.abre && x.y - a.y > 1 && Math.min(a.r, x.r) - Math.max(a.l, x.l) > 0.6 * Math.min(a.r - a.l, x.r - x.l));
+        if (!b || b.y - a.y > 140) return;
+        const l = Math.max(a.l, b.l), r = Math.min(a.r, b.r);
+        if (cont.some((c) => c.b > a.y + 1 && c.t < b.y - 1 && c.r > l && c.l < r)) return;
+        a.e.style.borderBottomColor = 'transparent';
+        quitadas.push(a.e);
+      });
+    };
+    let espera;
+    const programar = () => { clearTimeout(espera); espera = setTimeout(unaLinea, 120); };
+    (document.fonts ? document.fonts.ready : Promise.resolve()).then(programar);
+    addEventListener('load', programar);
+    addEventListener('resize', programar);
+  }
+
+  /* Pasos con salto (portada del Sistema de Diseño): un punto recorre cada arco y, al aterrizar,
+     aparece el texto de ese paso. Ritmo de viento: --m-slow por salto con --e-io; una sola vez (reglas-visuales 7) */
+  document.querySelectorAll('.lbw__steps').forEach((ol) => {
+    const lis = [...ol.children];
+    if (!lis.length || matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window) || !CSS.supports('offset-path', 'path("M0 0")')) return;
+    const css = getComputedStyle(document.documentElement);
+    const dur = parseFloat(css.getPropertyValue('--m-slow')) || 520;
+    const ease = css.getPropertyValue('--e-io').trim() || 'ease-in-out';
+    ol.classList.add('is-anim');
+    const dot = document.createElement('span');
+    dot.className = 'lbw__dot'; dot.setAttribute('aria-hidden', 'true');
+    ol.appendChild(dot);
+    const arco = (li) => {
+      const h = parseFloat(getComputedStyle(li, '::after').height) || 96;
+      const x0 = li.offsetLeft, x1 = x0 + li.offsetWidth, y = li.offsetTop + li.offsetHeight;
+      return `path("M ${x0} ${y} A ${li.offsetWidth / 2} ${h} 0 0 1 ${x1} ${y}")`;
+    };
+    const saltar = async () => {
+      dot.classList.add('is-on');
+      for (const li of lis) {
+        dot.style.offsetPath = arco(li);
+        await dot.animate([{ offsetDistance: '0%' }, { offsetDistance: '100%' }], { duration: dur, easing: ease, fill: 'forwards' }).finished;
+        li.classList.add('is-shown', 'is-done');
+      }
+      dot.classList.remove('is-on');
+    };
+    new IntersectionObserver((es, io) => es.forEach((e) => { if (e.isIntersecting) { io.disconnect(); saltar(); } }), { threshold: .5 }).observe(ol);
+  });
+
+  /* Leyenda de estados en la portada: Vigente, Borrador y Por definir, en una franja sobre el carrusel (reglas-visuales R16) */
+  document.querySelectorAll('[data-estados]').forEach((el) => {
+    el.innerHTML = LEGEND.map((k) => `<span>${dot(k)} ${STATUS[k]}</span>`).join('');
+  });
+
+  /* Niveles de norma: la marca muestra su significado en una etiqueta al pasar el cursor o con el foco (reglas-visuales R16) */
+  {
+    document.querySelectorAll('.nvl[data-lvl]').forEach((el) => {
+      if (!el.hasAttribute('tabindex')) el.tabIndex = 0;
+      if (!el.hasAttribute('aria-label') && LEVEL_TIP[el.dataset.lvl]) el.setAttribute('aria-label', `${el.textContent.trim() || LEVEL[el.dataset.lvl]}: ${LEVEL_TIP[el.dataset.lvl]}`);
+    });
+    let tip = null;
+    const poner = (el) => {
+      const k = el.dataset.lvl;
+      if (!LEVEL_TIP[k]) return;
+      if (!tip) { tip = document.createElement('div'); tip.className = 'ctip ctip--nvl'; tip.setAttribute('aria-hidden', 'true'); document.body.appendChild(tip); }
+      tip.replaceChildren(Object.assign(document.createElement('b'), { textContent: el.textContent.trim() || LEVEL[k] }),
+        Object.assign(document.createElement('span'), { textContent: LEVEL_TIP[k] }));
+      const r = el.getBoundingClientRect();
+      tip.style.left = `${Math.min(Math.max(r.left + r.width / 2, 130), innerWidth - 130)}px`;
+      tip.style.top = `${r.top}px`;
+      tip.classList.add('is-on');
+    };
+    const quitar = () => tip && tip.classList.remove('is-on');
+    document.addEventListener('mouseover', (e) => { const el = e.target.closest('.nvl'); if (el) poner(el); });
+    document.addEventListener('mouseout', (e) => { if (e.target.closest('.nvl') && !e.relatedTarget?.closest?.('.nvl')) quitar(); });
+    document.addEventListener('focusin', (e) => { const el = e.target.closest('.nvl'); if (el) poner(el); });
+    document.addEventListener('focusout', quitar);
+    addEventListener('scroll', quitar, { passive: true });
+  }
 
 })();

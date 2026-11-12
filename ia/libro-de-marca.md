@@ -1,13 +1,13 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-09"
+fecha: "2026-11-11"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 ---
 
 # Libro de Marca Keyons
 
-Versión: 0.1 · Fecha de exportación: 2026-11-09 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
+Versión: 0.1 · Fecha de exportación: 2026-11-11 · Fuente: `/inicio.html` · Permisos: por definir; se asignarán con la Biblioteca Keyons
 
 Exportación íntegra generada desde las páginas del libro con tools/exportar.py. Conserva la redacción y el orden del índice. Cada sección indica su ruta de origen; los recursos visuales se citan con su ruta o su descripción.
 
@@ -26,7 +26,7 @@ Este es el **manual de marca de Keyons**. Aquí vive todo lo que hace **reconoci
 Este libro reúne la identidad de Keyons y los criterios para aplicarla. Cada norma establece su autoridad, vigencia y ámbito de aplicación.
 
 1. Encuentra lo esencial · Utiliza el índice y la búsqueda para localizar las normas relacionadas con tu tarea.
-2. Interpretar las normas · Indican si son obligatorias, si orientan la práctica o si ofrecen alternativas.
+2. Interpretar las normas · DEBE y NO DEBE establecen requisitos; DEBERÍA orienta decisiones y PUEDE ofrece alternativas.
 3. Vigencia y alcance · Consulta el estado de cada norma y los contextos donde corresponde aplicarla.
 4. Reglas en conjunto · Las referencias por código conectan las normas relacionadas entre capítulos y libros.
 
@@ -1106,20 +1106,66 @@ Cada término nuevo se traduce con estos cuatro principios y entra en su temáti
 
 ### Capítulo 05 · Estela
 
-Estado: por definir · Clave: estela · Número anterior: 04
+Estado: borrador · Clave: estela · Ruta: `/marca/estela.html` · Número anterior: 04
 
 La cara de Keyons: quién es, cómo habla, cómo se ve y cómo actúa.
 
 **Contenido del capítulo**
 
-- Quién es · por definir
-- Personalidad · por definir
+- Quién es Estela · borrador · `/marca/estela.html#quien`
+- Origen y personalidad · por definir
 - Voz y trato · por definir
-- Estética · por definir
 - Comportamiento · por definir
-- En la interfaz · por definir
+- Identidad visual · por definir
+- Presencia · por definir
 
-*Capítulo sin página: solo existe su índice en el libro.*
+#### Estela
+
+Rótulo: Capítulo 05 · Marca · Fuente: `/marca/estela.html`
+
+Establecer la identidad pública de Estela, su personalidad, su voz y los principios que la mantienen reconocible en todos los canales de Keyons.
+
+#### KYN-MRK-EST-001 · 5.1 Quién es Estela
+
+Número: 5.1 · ID: `KYN-MRK-EST-001` · Estado: borrador · Fuente: `/marca/estela.html#quien`
+
+##### Estela es el personaje y rostro reconocible de Keyons
+
+Representa una inteligencia cercana, curiosa, creativa y resolutiva. Su identidad abarca más que una interfaz de conversación o un agente que ejecuta tareas.
+
+Estela tiene dos dimensiones complementarias:
+
+> Recurso visual: Figura: «Espacio reservado para la imagen de Estela»
+
+Personaje de marca
+Tiene personalidad, carácter, voz e identidad visual. Participa en historias, publicaciones, campañas, contenidos educativos y experiencias digitales.
+
+Asistente de inteligencia artificial
+Ayuda a las personas a comprender información, explorar alternativas y completar tareas con las capacidades que cada producto tiene disponibles y autorizadas.
+
+Una misma identidad · Las dos dimensiones comparten una sola identidad. En una campaña, Estela muestra su carácter; en un producto, actúa con las capacidades que ese producto ofrece.
+
+###### Relación con Keyons
+
+Estela representa a Keyons y tiene personalidad suficiente para ganar un reconocimiento propio.
+Cuando aparece en público, la asociación con Keyons es clara. Estela es de Keyons: forma parte de la marca corporativa y la complementa.
+Su presencia hace más cercana la relación de las personas con Keyons.
+
+###### Un personaje, múltiples capacidades
+
+Estela es la identidad pública de varias capacidades especializadas.
+
+Por dentro, el sistema puede combinar varios agentes, herramientas y servicios. La persona ve un solo personaje.
+La persona conversa con Estela y el sistema usa las capacidades disponibles para atender cada necesidad.
+Estela siempre se presenta como la inteligencia artificial de Keyons, con una personalidad expresiva.
+
+###### Relación con Prisma
+
+Estela puede acompañar la narrativa y las experiencias de la metodología Prisma en sus cinco fases oficiales.
+
+01 · Amanecer · 02 · Mediodía · 03 · Atardecer · 04 · Anochecer · 05 · Galaxia
+
+Su papel en cada fase y las historias que las conectan quedan pendientes de desarrollo narrativo.
 
 ## Área 02 · Fundamentos
 
@@ -1559,23 +1605,25 @@ Las reglas que protegen la jerarquía de la paleta. **Se suman nuevas a medida q
 
 **01 · El color señala, no sustituye la legibilidad**
 
-Sobre fondos claros, utilizamos preferentemente Azul Noche para los textos.
+Sobre fondos claros, los textos DEBERÍAN ir en Azul Noche.
 
-Azul Cielo y los salmones pueden aportar acentos, superficies y señales gráficas. Su utilización en textos o elementos funcionales requiere comprobar el contraste correspondiente.
+Azul Cielo y los salmones PUEDEN aportar acentos, superficies y señales gráficas.
+
+Su uso en textos o elementos funcionales DEBE comprobar el contraste correspondiente.
 
 **02 · Cielo y Salmón no se apoyan uno sobre otro**
 
-Nunca un elemento Salmón encima de un fondo Cielo, ni al revés.
+Un elemento Salmón NO DEBE ir encima de un fondo Cielo, ni al revés.
 
 **03 · Azul Cielo gana en superficie**
 
-Cuando conviven, Cielo ocupa más área que Salmón. Salmón domina solo en piezas expresivas donde la calidez es el mensaje.
+Cuando conviven, Cielo DEBE ocupar más área que Salmón. Salmón domina solo en piezas expresivas donde la calidez es el mensaje.
 
 Esta jerarquía no sustituye los colores semánticos ni las necesidades específicas de una visualización de datos.
 
 **04 · Salmón Atardecer vive sobre Azul Noche**
 
-#E99D9E es la versión de Salmón para fondos oscuros, donde alcanza 8.6:1.
+Salmón Atardecer (#E99D9E) DEBE usarse solo sobre Azul Noche, donde alcanza 8,6:1.
 
 **05 · La proporción orienta**
 
@@ -2116,8 +2164,16 @@ Número: 8.3 · ID: `KYN-MRK-TYP-003` · Estado: vigente · Fuente: `/fundamento
 ##### Escriba y compare
 
 El mismo cielo, nadie lo ve igual
-TASA Orbiter 500 · 52–128 px
-**(Peso)(Interlineado)(Tracking)(Jerarquía)(Intensidad)(Organización)**
+
+Familia
+**(Peso)**
+Tamaño
+**(Interlineado)**
+**(Tracking)**
+
+**(Jerarquía)**
+**(Intensidad)**
+**(Organización)**
 
 ###### Jerarquía tradicional
 
@@ -3339,8 +3395,6 @@ Un plano liso y uno difuminado, divididos por una línea vertical; un círculo l
 
 **(Cuándo se usa)** Portadas sobrias, aperturas de capítulo, invitaciones y piezas de una sola idea.
 
-> Recurso visual: Imagen: /assets/texturas/textura-acuarela-con-nubes.svg · «Textura de cielo»
-
 ###### Texturas de cielo
 
 Requiere revisión: su regla sobre IA contradice KYN-MRK-CON-006
@@ -3365,6 +3419,22 @@ Ruido monocromático fino sobre fondos planos o degradados: le da alma editorial
 - Grano fino, de 0,5 a 1,5 px según la resolución de salida.
 
 **(Cuándo se usa)** Sobre degradados, cielos lisos y fondos planos, en piezas impresas o digitales.
+
+01 · Arcos naturales
+
+02 · Líneas de viento
+
+03 · Franjas de cielo
+
+04 · Formas de cielo
+
+05 · Eclipse
+
+> Recurso visual: Imagen: /assets/texturas/textura-acuarela-con-nubes.svg · «Textura de cielo»
+
+06 · Texturas de cielo
+
+07 · Grano
 
 **(Formato)**
 **Las texturas y degradados de Recursos están hechos con código** (SVG): no se pixelan a ningún tamaño, pesan poco y se adaptan a cualquier proporción. Por eso son los indicados para fondos web que cambian de tamaño, interfaces, pantallas de eventos e impresión en gran formato.
@@ -5362,8 +5432,8 @@ Los manuales que acompañan a este. **Cada uno se enlaza aquí cuando esté publ
 
 01
 
-Manual de voz
-Cómo escribe Keyons, en un documento para compartir.
+Sistema de Diseño
+Experiencia, interfaz y componentes de los productos.
 
 Documento
 
@@ -5371,8 +5441,35 @@ Por enlazar
 
 02
 
-Manual de producto
-Interfaz, componentes y modo digital.
+Producto e Ingeniería
+Normas de producto, Método Prisma y desarrollo.
+
+Documento
+
+Por enlazar
+
+03
+
+Ventas y Crecimiento
+Propuestas, proceso comercial y crecimiento.
+
+Documento
+
+Por enlazar
+
+04
+
+Servicio al Cliente
+Atención, acompañamiento y seguimiento.
+
+Documento
+
+Por enlazar
+
+05
+
+Cultura y Operaciones
+Equipo, procesos internos y forma de trabajar.
 
 Documento
 

@@ -576,6 +576,17 @@
    "excepciones": [],
    "relacionadas": []
   },
+  "KYN-MRK-EST-001": {
+   "titulo": "Quién es Estela",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
   "KYN-MRK-GAL-001": {
    "titulo": "Galería",
    "estado": "vigente",

@@ -19,32 +19,49 @@
    "capitulos": [
     {
      "n": "01.01",
-     "t": "Principios compartidos",
+     "t": "Principios comunes",
      "slug": "principios-compartidos",
      "estado": "borrador",
      "subcapitulos": [
       {
        "n": "01.01.01",
-       "t": "Claridad y orientación",
+       "t": "Cada pantalla presenta solo la información necesaria para la tarea en curso",
        "estado": "borrador",
-       "st": "Claridad y orientación"
+       "st": "Claridad",
+       "norma": "KYN-PRD-UIX-001"
       },
       {
        "n": "01.01.02",
-       "t": "Consistencia y previsibilidad",
-       "estado": "borrador",
-       "st": "Consistencia"
+       "t": "Todos los productos Keyons comparten la misma lógica de uso",
+       "estado": "pendiente",
+       "st": "Coherencia",
+       "norma": "KYN-PRD-UIX-013"
       },
       {
        "n": "01.01.03",
-       "t": "Control y confianza",
-       "estado": "borrador",
-       "st": "Control y confianza"
+       "t": "La persona conserva el criterio en cada decisión",
+       "estado": "pendiente",
+       "st": "Control",
+       "norma": "KYN-PRD-UIX-005"
+      },
+      {
+       "n": "01.01.04",
+       "t": "Cada decisión se toma con información clara y en libertad",
+       "estado": "pendiente",
+       "st": "Diseño honesto",
+       "norma": "KYN-PRD-UIX-006"
+      },
+      {
+       "n": "01.01.05",
+       "t": "Ocho elementos que hacen reconocible la calidad Keyons",
+       "estado": "pendiente",
+       "st": "Firma UX",
+       "norma": "KYN-PRD-UIX-012"
       }
      ],
      "st": "Principios comunes",
      "num": "01",
-     "dc": "Claridad, consistencia y control: lo que toda experiencia Keyons debe asegurar."
+     "dc": "Cinco principios que rigen el diseño de **todos los productos digitales de Keyons**: SaaS de nicho, herramientas internas y desarrollos a medida. Son la base de los demás capítulos de este libro."
     },
     {
      "n": "01.02",

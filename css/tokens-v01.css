@@ -1,0 +1,285 @@
+/* ═══════════════════════════════════════════════════════════════
+   KEYONS · TOKENS · v0.1 (propuesta)
+   Fuente de los valores. Las reglas que explican cada valor están en
+   reglas-visuales.md: si este archivo y las reglas no coinciden, se
+   corrige este archivo.
+   Tres capas: primitivos → semánticos → componentes.
+   Los productos solo leen las capas 2 y 3.
+   ═══════════════════════════════════════════════════════════════ */
+@font-face{
+  font-family:'TASA Orbiter';
+  src:url('../assets/fonts/TASAOrbiter-VariableFont_wght.ttf') format('truetype');
+  font-weight:400 800;
+  font-display:swap;
+}
+:root{
+  /* ─────────────────────────────────────────────
+     1 · PRIMITIVOS · valores crudos, nunca se usan directo
+     ───────────────────────────────────────────── */
+  /* Paleta base · reglas-visuales 1.1 */
+  --k-noche:#10122A;
+  --k-blanco:#F4F4F4;
+  --k-cielo:#729BDD;
+  --k-salmon:#CE635D;
+  --k-atardecer:#E99D9E;          /* solo sobre Azul Noche */
+  --k-puro:#FFFFFF;
+
+  /* Escala Azul Noche · única escala neutra · 1.2 */
+  --k-noche-100:#F4F4F4; --k-noche-150:#DDDDDF; --k-noche-200:#C6C7CB; --k-noche-250:#BBBBC1;
+  --k-noche-300:#B0B0B8; --k-noche-350:#A4A4AD; --k-noche-400:#9899A3; --k-noche-450:#82838F;
+  --k-noche-500:#6C6D7B; --k-noche-550:#606171; --k-noche-600:#555667; --k-noche-650:#494A5D;
+  --k-noche-700:#3E3F53; --k-noche-750:#2D2F45; --k-noche-800:#1D1F38; --k-noche-850:#161831;
+  --k-noche-900:#10122A;
+
+  /* Escala Azul Cielo */
+  --k-cielo-100:#E0E7F1; --k-cielo-150:#D3DEEF; --k-cielo-200:#C6D5EC; --k-cielo-250:#B9CCEA;
+  --k-cielo-300:#ACC3E7; --k-cielo-350:#9DB9E5; --k-cielo-400:#8FAFE2; --k-cielo-450:#80A5E0;
+  --k-cielo-500:#729BDD; --k-cielo-550:#688DCB; --k-cielo-600:#5E80B9; --k-cielo-650:#5370A5;
+  --k-cielo-700:#496192; --k-cielo-750:#3F5380; --k-cielo-800:#35466E; --k-cielo-850:#2C395E;
+  --k-cielo-900:#242D4E;
+
+  /* Escala Salmón Tierra */
+  --k-salmon-100:#F7ECEB; --k-salmon-150:#F3E5E4; --k-salmon-200:#EEDEDD; --k-salmon-250:#EBCFCE;
+  --k-salmon-300:#E7C1BF; --k-salmon-350:#E3B2B0; --k-salmon-400:#DFA4A1; --k-salmon-450:#DB948F;
+  --k-salmon-500:#D6837E; --k-salmon-550:#D2736E; --k-salmon-600:#CE635D; --k-salmon-650:#BB5B58;
+  --k-salmon-700:#A85353; --k-salmon-750:#934A4E; --k-salmon-800:#7E4148; --k-salmon-850:#6A373D;
+  --k-salmon-900:#562E33;
+
+  /* Gris Plata · solo para el borde del botón de ícono */
+  --k-plata:#A8AAB5;
+
+  /* Fondos de estado · 1.7 */
+  --k-est-cielo:#C6D5EC; --k-est-verde:#D5E0D2; --k-est-mostaza:#F4E8C1;
+  --k-est-lavanda:#D9D6ED; --k-est-terracota:#F0D0CB; --k-est-naranja:#F5D8B8;
+  --k-est-gris:#E0E1E5;
+
+  /* Ingredientes de Cielo Mediodía */
+  --k-med-profundo:#3D6BAF; --k-med-medio:#8FB4DC; --k-med-claro:#C4DBF0; --k-med-sombra:#CCD6E5;
+
+  /* ─────────────────────────────────────────────
+     2 · SEMÁNTICOS · lo que el valor significa
+     ───────────────────────────────────────────── */
+  /* Superficies */
+  --color-bg:var(--k-blanco);
+  --color-surface:var(--k-puro);
+  --color-inverse:var(--k-noche);
+
+  /* Grises de texto · pasos de la escala Azul Noche · 1.3 */
+  --color-text:var(--k-noche-900);              /* 16,7:1 */
+  --color-text-2:var(--k-noche-650);            /* 7,9:1 */
+  --color-text-3:var(--k-noche-500);            /* 4,6:1 */
+  --color-text-title-muted:var(--k-noche-450);  /* 3,4:1 · solo titulares ≥ 24 px */
+  --color-text-disabled:var(--k-noche-350);     /* 2,2:1 · nunca texto que haya que leer */
+  --color-text-inverse:var(--k-blanco);
+  --color-text-inverse-2:rgba(244,244,244,.72);   /* sobre fondos oscuros e imágenes */
+
+  /* Líneas · 5.2 */
+  --line-row:var(--k-cielo-100);        /* fila · 1 px */
+  --line-group:var(--k-noche);          /* grupo · 1 px */
+  --line-structure:var(--k-cielo-200);  /* estructura · 4 px */
+  --line-w:1px;
+  --line-w-control:1.5px;
+  --line-w-structure:4px;
+  --color-border:var(--line-row);
+  --color-border-strong:var(--line-structure);
+
+  /* Marca y acento */
+  --color-brand:var(--k-cielo);
+  --color-brand-soft:var(--k-cielo-200);
+  --color-warm:var(--k-salmon);
+  --color-warm-on-dark:var(--k-atardecer);
+  --color-focus:var(--k-cielo);
+
+  /* Estados · el texto y el ícono van siempre en Azul Noche */
+  --color-status-success:var(--k-est-verde);
+  --color-status-warning:var(--k-est-mostaza);
+  --color-status-error:var(--k-est-terracota);
+  --color-status-info:var(--k-est-cielo);
+  --color-status-review:var(--k-est-lavanda);
+  --color-status-locked:var(--k-est-naranja);
+  --color-status-neutral:var(--k-est-gris);
+
+  /* Familias · 2.1 */
+  --font-display:'TASA Orbiter','Plus Jakarta Sans',system-ui,sans-serif;
+  --font-sans:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:ui-monospace,'SFMono-Regular','Cascadia Mono',Consolas,monospace;
+
+  /* Escala de lectura · solo cinco tamaños · 2.2 */
+  --fs-12:12px; --fs-14:14px; --fs-16:16px; --fs-20:20px; --fs-24:24px;
+  --fs-20-24:20px;   /* paso responsivo: 20 → 24 desde 1200 px */
+  --fs-24-32:24px;   /* paso responsivo: 24 → 32 desde 1200 px */
+
+  /* Escala de exhibición · 2.3 */
+  --fs-title-s:32px;
+  --fs-title:clamp(32px,3.2vw,44px);
+  --fs-display-m:clamp(52px,6vw,80px);
+  --fs-display:clamp(56px,8.6vw,128px);
+
+  /* Interlineado */
+  --lh-display:.9; --lh-display-m:.95; --lh-title:1.08; --lh-ui:1.2;
+  --lh-lead:1.5; --lh-body:1.6; --lh-small:1.55; --lh-label:1.4; --lh-kicker:1;
+
+  /* Tracking · solo seis valores · 2.4 */
+  --tr-0:0; --tr-1:-.02em; --tr-2:-.03em; --tr-3:-.05em;
+  --tr-kicker:.02em; --tr-caps:.05em;
+
+  /* Espacio · base 4 · 3.3 */
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:20px; --s6:24px;
+  --s8:32px; --s10:40px; --s12:48px; --s16:64px; --s20:80px; --s24:96px; --s32:128px;
+  --gap-fusion:0px;
+  --gap-list:12px;
+  --gap:24px;
+  --gap-component:48px;
+  --gap-section:64px;
+
+  /* Medida de lectura · 3.4 */
+  --measure-min:600px;
+  --measure:640px;
+
+  /* Radios · salen del lado corto · 3.2 */
+  --r-none:0px; --r-micro:3px; --r-control:12px; --r-component:18px;
+  --r-card:30px; --r-block:50px; --r-pill:9999px;
+
+  /* Movimiento · viento, no líquido · 7 */
+  --m-fast:180ms; --m-base:300ms; --m-slow:520ms; --m-icon:550ms;
+  --e-out:cubic-bezier(.22,.61,.36,1);
+  --e-io:cubic-bezier(.65,.05,.36,1);     /* firma de movimiento Keyons */
+  --spring-lift:linear(0, .0293, .1035, .2049, .3196, .4373, .5505, .6543, .7459, .8238, .8878, .9387, .9776, 1.006, 1.0254, 1.0376, 1.044, 1.046, 1.0448, 1.0416, 1.037, 1.0317, 1.0263, 1.0211, 1.0163, 1.012, 1.0084, 1.0054, 1.003, 1.0012, .9998, .9989, .9983, .998, .9979, .9979, .9981, .9983, .9985, .9988, 1);
+  --spring-line:linear(0, .0205, .0728, .1457, .2303, .3199, .4095, .4958, .5763, .6496, .715, .7722, .8215, .8633, .8981, .9267, .9497, .968, .9821, .9928, 1.0006, 1.0062, 1.0098, 1.012, 1.0131, 1.0134, 1.0131, 1.0123, 1.0113, 1.0102, 1.009, 1.0078, 1.0066, 1.0056, 1.0046, 1.0037, 1.003, 1.0023, 1.0018, 1.0013, 1);
+
+  /* Cristal · solo con función · dos intensidades · 5.1 */
+  --blur-1:12px;   /* controles sobre imagen o cielo */
+  --blur-2:22px;   /* cristal acanalado y ventana esmerilada */
+  --fluted-veil:rgba(255,255,255,.06);
+  --fluted-step:50px;
+  --fluted-line:1px;
+  --trama-v:repeating-linear-gradient(90deg,rgba(255,255,255,.16) 0px,rgba(255,255,255,.16) 1px,rgba(255,255,255,.07) 1px,rgba(255,255,255,.01) 25px,rgba(255,255,255,.01) 26px,rgba(255,255,255,.07) 49px,rgba(255,255,255,.07) 50px);
+  --trama-h:repeating-linear-gradient(0deg,rgba(255,255,255,.16) 0px,rgba(255,255,255,.16) 1px,rgba(255,255,255,.07) 1px,rgba(255,255,255,.01) 25px,rgba(255,255,255,.01) 26px,rgba(255,255,255,.07) 49px,rgba(255,255,255,.07) 50px);
+  --trama-v-o:repeating-linear-gradient(90deg,rgba(150,158,210,.16) 0px,rgba(150,158,210,.16) 1px,rgba(5,8,23,.12) 1px,rgba(5,8,23,0) 25px,rgba(5,8,23,0) 26px,rgba(5,8,23,.12) 49px,rgba(5,8,23,.12) 50px);
+  --trama-h-o:repeating-linear-gradient(0deg,rgba(150,158,210,.16) 0px,rgba(150,158,210,.16) 1px,rgba(5,8,23,.12) 1px,rgba(5,8,23,0) 25px,rgba(5,8,23,0) 26px,rgba(5,8,23,.12) 49px,rgba(5,8,23,.12) 50px);
+  --trama:var(--trama-v);       /* 01 Marca y Experiencia */
+  --trama-o:var(--trama-v-o);
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+
+  /* Sombras · solo para elevación · 5.3 */
+  --shadow-1:0 1px 2px rgba(16,18,42,.06), 0 4px 12px -2px rgba(16,18,42,.08);   /* píldora activa, controles flotantes */
+  --shadow-2:0 8px 24px -6px rgba(16,18,42,.14);                                  /* menús y desplegables */
+  --shadow-3:0 20px 50px -20px rgba(16,18,42,.28);                                /* ventanas y paneles */
+
+  /* Cielos · cinco oficiales (variante 01) · 1.8 */
+  --sky-amanecer:
+    radial-gradient(42% 52% at 72% 92%,#FFCE49 0%,rgba(255,206,73,0) 70%),
+    radial-gradient(46% 50% at 12% 74%,rgba(233,157,158,.85) 0%,rgba(233,157,158,0) 72%),
+    radial-gradient(60% 50% at 8% 0%,rgba(114,155,221,.75) 0%,rgba(114,155,221,0) 75%),
+    linear-gradient(180deg,#B2BFE5 0%,#FED8B5 58%,#FFEBB1 100%);
+  --sky-mediodia:
+    radial-gradient(34% 46% at 80% 30%,rgba(255,255,255,.85) 0%,rgba(255,255,255,0) 70%),
+    radial-gradient(56% 44% at 16% 96%,#CCD6E5 0%,rgba(204,214,229,0) 80%),
+    linear-gradient(180deg,#3D6BAF 0%,#729BDD 38%,#8FB4DC 70%,#C4DBF0 100%);
+  --sky-atardecer:
+    radial-gradient(40% 46% at 28% 96%,#F5A742 0%,rgba(245,167,66,0) 72%),
+    radial-gradient(44% 44% at 84% 64%,rgba(233,157,158,.8) 0%,rgba(233,157,158,0) 72%),
+    linear-gradient(180deg,#3D6BAF 0%,#7D81B9 30%,#C4658B 60%,#E87838 84%,#F5A742 100%);
+  --sky-noche:
+    radial-gradient(44% 40% at 76% 22%,rgba(62,84,127,.9) 0%,rgba(62,84,127,0) 72%),
+    radial-gradient(50% 46% at 14% 84%,rgba(44,60,120,.85) 0%,rgba(44,60,120,0) 74%),
+    linear-gradient(180deg,#10122A 0%,#17234F 58%,#2D4775 100%);
+  --sky-galaxia:
+    radial-gradient(30% 34% at 70% 30%,rgba(232,212,176,.35) 0%,rgba(232,212,176,0) 70%),
+    radial-gradient(42% 46% at 32% 66%,rgba(139,58,71,.75) 0%,rgba(139,58,71,0) 72%),
+    radial-gradient(46% 44% at 78% 78%,rgba(107,46,92,.7) 0%,rgba(107,46,92,0) 72%),
+    radial-gradient(1.2px 1.2px at 22% 24%,#FFF8E7 50%,transparent 51%),
+    radial-gradient(1px 1px at 64% 14%,#FFF8E7 50%,transparent 51%),
+    radial-gradient(1.4px 1.4px at 86% 46%,#FFF8E7 50%,transparent 51%),
+    radial-gradient(1px 1px at 44% 82%,#FFF8E7 50%,transparent 51%),
+    linear-gradient(180deg,#050817 0%,#1E2A5C 62%,#2D4775 100%);
+
+  /* Variantes de cielo · antes --sk-* en libro.css
+     A REVISAR (P4): usan colores que no están entre los ingredientes de su cielo */
+  --sky-amanecer-02:radial-gradient(60% 40% at 30% 100%,rgba(233,157,158,.75) 0%,rgba(233,157,158,0) 72%),linear-gradient(180deg,#10122A 0%,#1F2C5C 45%,#4D5590 80%,#8D6F9C 100%);   /* antes --sk-alba */
+  --sky-amanecer-03:radial-gradient(55% 50% at 86% 104%,#FFCE49 0%,rgba(255,206,73,0) 70%),radial-gradient(50% 46% at 16% 104%,rgba(233,157,158,.9) 0%,rgba(233,157,158,0) 72%),linear-gradient(180deg,#22336A 0%,#3D6BAF 58%,#7D95CE 100%);   /* antes --sk-amanecer */
+  --sky-atardecer-02:radial-gradient(46% 40% at 26% 104%,#F5A742 0%,rgba(245,167,66,0) 72%),linear-gradient(180deg,#1E2550 0%,#3D3F7A 42%,#8E5C86 76%,#D9714A 100%);   /* antes --sk-atardecer */
+  --sky-mediodia-02:radial-gradient(40% 50% at 80% 24%,rgba(255,255,255,.75) 0%,rgba(255,255,255,0) 70%),linear-gradient(180deg,#C4DBF0 0%,#ACC8EA 60%,#8FB4DC 100%);   /* antes --sk-dia */
+
+  /* Degradados de área · no son cielos · antes --g-* en libro.css */
+  --area-noche:linear-gradient(180deg,#0F1128 0%,#15172F 55%,#22243B 100%);
+  --area-cielo:linear-gradient(180deg,#4F7BBF 0%,#638FD3 50%,#86ABE5 100%);
+  --area-cielo-2:radial-gradient(60% 80% at 70% 90%,rgba(196,219,240,.85),rgba(160,188,239,0) 70%),linear-gradient(160deg,#7DA0DF 0%,#6B95D6 50%,#84A6E1 100%);
+  --area-salmon:radial-gradient(48% 62% at 66% 0%,rgba(242,212,210,.95) 0%,rgba(228,172,169,.6) 38%,rgba(206,99,93,0) 76%),linear-gradient(180deg,#D47D78 0%,#CF6B65 55%,#C95852 100%);
+  --area-atardecer:radial-gradient(42% 60% at 24% 22%,rgba(236,204,202,.95),rgba(232,170,170,0) 72%),linear-gradient(160deg,#E8B2B1 0%,#E8A1A2 55%,#E7999B 100%);
+
+  /* ─────────────────────────────────────────────
+     3 · COMPONENTES · reglas-visuales 4
+     ───────────────────────────────────────────── */
+  /* Principal de producto · Azul Cielo con texto Azul Noche */
+  --btn-primary-bg:var(--k-cielo);
+  --btn-primary-fg:var(--k-noche);
+  /* Principal de marca · Salmón Tierra · P1 pendiente: texto Noche (A) o blanco (C, D, E) */
+  --btn-brand-bg:var(--k-salmon);
+  --btn-brand-fg:var(--k-noche);
+  /* Sólido */
+  --btn-solid-bg:var(--k-noche);
+  --btn-solid-fg:var(--k-blanco);
+  --btn-solid-hover-bg:var(--k-cielo);
+  --btn-solid-hover-fg:var(--k-noche);
+  /* Contorno */
+  --btn-outline-border:var(--k-cielo);
+  --btn-outline-fg:var(--k-noche);
+  --btn-outline-hover-bg:var(--k-noche);
+  --btn-outline-hover-fg:var(--k-blanco);
+  /* Ícono */
+  --btn-icon-size:36px;
+  --btn-icon-border:rgba(168,170,181,.7);   /* Gris Plata al 70 % */
+  --btn-icon-fg:var(--color-text-3);
+  /* Texto */
+  --btn-text-fg:var(--color-text-3);
+  --btn-text-hover-fg:var(--k-noche);
+  /* Base */
+  --btn-border-w:var(--line-w-control);
+  --btn-press:.97;
+  --btn-disabled:.5;
+  /* Enlaces y badges */
+  --link-fg:var(--k-noche);
+  --link-underline:var(--k-cielo);
+  --badge-fg:var(--k-noche);
+  /* Íconos · 2,5 px en lienzo de 32 = 1,6 px a 20 px */
+  --icon-stroke:1.6px;
+  --icon-gap:8px;
+  /* Viñetas · R02 */
+  --bullet-size:20px;
+  --bullet-gap:20px;
+  /* Campos · los anillos de foco y error se definen con el primer formulario (B04) */
+  --field-radius:var(--r-pill);
+
+  /* ─────────────────────────────────────────────
+     ALIAS TEMPORALES · solo para que el libro no se rompa durante la limpieza.
+     Se borran cuando libro.css ya no los use.
+     ───────────────────────────────────────────── */
+  --k-gris-1:var(--color-text);
+  --k-gris-2:var(--color-text-2);
+  --k-gris-3:var(--color-text-3);
+  --k-gris-titular:var(--color-text-title-muted);
+  --k-gris-4:var(--color-text-disabled);
+  --k-gris-5:var(--line-row);   /* era «divisores» en gris; pasa a Cielo 100 (C05) */
+  --k-gris-200:var(--k-noche-150);
+  --k-gris-300:var(--k-noche-150);
+  --k-gris-400:var(--k-noche-200);
+  --fs-32:var(--fs-title-s);
+  --glass-blur:var(--blur-2);
+  --glass-bg:rgba(255,255,255,.24);
+  --glass-bg-strong:rgba(244,244,244,.62);
+  --glass-border:rgba(255,255,255,.5);
+  --glass-shadow:var(--shadow-3);
+  --sk-alba:var(--sky-amanecer-02);
+  --sk-amanecer:var(--sky-amanecer-03);
+  --sk-atardecer:var(--sky-atardecer-02);
+  --sk-dia:var(--sky-mediodia-02);
+  --sk-noche:var(--sky-noche);
+  --g-noche:var(--area-noche);
+  --g-cielo:var(--area-cielo);
+  --g-cielo2:var(--area-cielo-2);
+  --g-salmon:var(--area-salmon);
+  --g-atardecer:var(--area-atardecer);
+}
+/* Pasos responsivos de la escala de lectura */
+@media(min-width:1200px){:root{--fs-20-24:24px;--fs-24-32:32px}}

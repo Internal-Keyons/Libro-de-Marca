@@ -11,9 +11,8 @@ interior queda lleno y el borde se disuelve sin perder la forma.
 El color sigue a la cinta: avanza a lo largo de la curva y cambia de un borde al otro, mezclado en OKLab.
 Por eso la forma se lee también desde adentro.
 
-Además de la imagen se genera el cauce (data-cauce): un mapa pequeño con la dirección de la corriente
-(R y G) y la distancia recorrida a lo largo de la cinta (B). js/keyons-rafaga.js lo usa para que el color
-corra por dentro de la forma, como agua. El grano no va en la imagen: lo pone el shader, quieto en pantalla.
+En reposo la ráfaga queda quieta: la página no lleva cauce ni flujo (pedido de Keylin, 2026-11-11).
+El grano no va en la imagen: lo pone el shader de js/keyons-rafaga.js, quieto en pantalla.
 """
 import argparse
 import base64
@@ -184,18 +183,18 @@ RAFAGAS = [
              colores=[(0, CLARO, MEDIO, CIELO), (1, CLARO, MEDIO, CIELO)], borde=(.015, 1.)),
     ]},
     {'n': 'Estela', 'seed': 22, 'dots': ['#ACC3E7', CIELO, '#496192'], 'warp': 2, 'ancho': .94, 'capas': [
-        dict(puntos=[(-130, -110, 26, 26, .6), (20, 70, 56, 56, .8), (130, 210, 92, 92), (182, 330, 118, 118), (226, 452, 128, 128), (312, 572, 118, 118), (396, 700, 92, 92), (480, 850, 56, 56, .8), (590, 1030, 26, 26, .6)],
-             colores=[(0, '#C6D5EC', '#C6D5EC', '#C6D5EC'), (1, '#C6D5EC', '#C6D5EC', '#C6D5EC')], borde=(.02, 1.), opacidad=.42, largo=1.),
-        dict(puntos=[(-130, -110, 10, 10), (20, 70, 24, 24), (130, 210, 48, 48), (182, 330, 68, 68), (226, 452, 76, 76), (312, 572, 68, 68), (396, 700, 48, 48), (480, 850, 24, 24), (590, 1030, 10, 10)],
-             colores=[(0, '#ACC3E7', '#8FAFE2', CIELO), (.5, CIELO, '#5E80B9', '#496192'), (1, '#ACC3E7', '#8FAFE2', CIELO)], largo=1.),
+        dict(puntos=[(-130, -110, 16, 16, 0.6), (40, 60, 30, 30, 0.8), (165, 205, 48, 48), (250, 300, 62, 62), (215, 395, 70, 70), (300, 500, 74, 74), (360, 610, 66, 66), (325, 700, 50, 50), (420, 830, 30, 30, 0.8), (600, 1030, 16, 16, 0.6)],
+             colores=[(0, '#C6D5EC', '#C6D5EC', '#C6D5EC'), (1, '#C6D5EC', '#C6D5EC', '#C6D5EC')], borde=(.04, .9), opacidad=.5, largo=1.),
+        dict(puntos=[(-130, -110, 6, 6), (40, 60, 12, 12), (165, 205, 22, 22), (250, 300, 32, 32), (215, 395, 40, 40), (300, 500, 44, 44), (360, 610, 38, 38), (325, 700, 26, 26), (420, 830, 12, 12), (600, 1030, 6, 6)],
+             colores=[(0, '#C6D5EC', '#ACC3E7', '#8FAFE2'), (.5, '#ACC3E7', '#8FAFE2', CIELO), (1, '#C6D5EC', '#ACC3E7', '#8FAFE2')], borde=(.06, .8), largo=1.),
     ]},
     {'n': 'Pulso', 'seed': 33, 'fase': 'Atardecer', 'dots': [ATARDECER, SALMON], 'warp': 1, 'capas': [
         dict(esfera=(236, 410, 176), colores=[(0, ATARDECER), (.46, ATARDECER), (1, SALMON)]),
     ]},
-    {'n': 'Corriente', 'seed': 44, 'dots': [NARANJA, SALMON, NOCHE], 'warp': 4, 'ancho': .95, 'capas': [
+    {'n': 'Corriente', 'seed': 44, 'dots': ['#ACC3E7', CIELO, '#5370A5'], 'warp': 4, 'ancho': .95, 'capas': [
         dict(puntos=[(120, -100, 96, 98), (130, 80, 88, 102), (165, 210, 80, 94), (235, 320, 74, 92), (306, 392, 56, 80), (352, 446, 40, 62), (340, 512, 42, 56), (272, 566, 50, 58), (206, 628, 54, 56), (206, 706, 52, 52), (262, 796, 52, 52), (342, 906, 54, 54), (410, 1040, 56, 56)],
-             colores=[(0, ROSA, SALMON, NARANJA, AMBAR, AMARILLO), (.18, ROSA, SALMON, NARANJA, AMBAR, AMARILLO), (.33, ROSA, SALMON, NARANJA, NARANJA, AMBAR),
-                      (.42, NOCHE, NOCHE2, SALMON, ROSA, ATARDECER), (.49, NOCHE, NOCHE, NOCHE, SALMON, ATARDECER), (.6, NOCHE, NOCHE, NOCHE, ROSA, SALMON), (.72, NOCHE2, ROSA, SALMON, SALMON, ATARDECER), (1, ATARDECER, SALMON, NARANJA, SALMON, ATARDECER)]),
+             colores=[(0, '#ACC3E7', CIELO, CIELO, '#ACC3E7', '#D3DEEF'), (.18, '#ACC3E7', CIELO, CIELO, '#ACC3E7', '#D3DEEF'), (.33, '#ACC3E7', CIELO, CIELO, CIELO, '#ACC3E7'),
+                      (.42, '#35466E', '#5370A5', CIELO, '#ACC3E7', '#ACC3E7'), (.49, '#35466E', '#35466E', '#5370A5', CIELO, '#ACC3E7'), (.6, '#35466E', '#5370A5', '#5370A5', '#ACC3E7', CIELO), (.72, '#5370A5', '#ACC3E7', CIELO, CIELO, '#ACC3E7'), (1, '#ACC3E7', CIELO, CIELO, CIELO, '#ACC3E7')]),
     ]},
     {'n': 'Giro', 'seed': 55, 'dots': [LAVANDA, '#FED8B5', AMARILLO], 'warp': 2, 'capas': [
         dict(puntos=espiral(236, 452, 186, 1.56, 54, 32), colores=[(0, CREMA, AMARILLO, AMARILLO), (1, CREMA, AMARILLO, AMARILLO)], borde=(.05, .75), opacidad=.62),
@@ -282,16 +281,13 @@ def main():
     for k, r in enumerate(RAFAGAS, 1):
         b = io.BytesIO()
         Image.fromarray(imgs[r['n']], 'RGBA').save(b, 'WEBP', quality=90, alpha_quality=95, method=6)
-        c = io.BytesIO()
-        r['_cauce'].save(c, 'PNG', optimize=True)
-        uri = 'data:image/png;base64,' + base64.b64encode(c.getvalue()).decode()
         f = por[r['n']]
         f = re.sub(r'<svg.*?</svg>', lambda m: svg(r, b.getvalue()), f, count=1, flags=re.S)
         if r.get('fase'):
             f = re.sub(r'(rfp__t">[^<]+<small>)[^<]*', lambda m: m.group(1) + r['fase'], f, count=1)
         f = re.sub(r'rfp__n">\(\d+/06\)', f'rfp__n">({k:02d}/06)', f)
         f = re.sub(r'(rfp__dots">).*?(</span>)', lambda m: m.group(1) + ''.join(f'<i style="background:{x}"></i>' for x in r['dots']) + m.group(2), f, count=1, flags=re.S)
-        f = re.sub(r'<figure class="rfp"[^>]*>', f'<figure class="rfp" data-rfp data-flow data-cauce="{uri}">', f, count=1)
+        f = re.sub(r'<figure class="rfp"[^>]*>', '<figure class="rfp" data-rfp>', f, count=1)
         nuevas.append(f)
     ini, fin = src.index(figs[0]), src.index(figs[-1]) + len(figs[-1])
     src = src[:ini] + ''.join(nuevas) + src[fin:]

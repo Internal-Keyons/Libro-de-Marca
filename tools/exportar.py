@@ -552,6 +552,52 @@ def conv(v, names):
     return None
 
 
+# ─── Normas UX del Sistema de Diseño: texto normativo completo ───
+def normas_ux(base):
+    """Escribe ia/normas/KYN-PRD-UIX-###.md con el texto completo de cada norma, tal cual está en
+    normas-ux-sistema-diseno.md, y ia/sistema-diseno/<capítulo>.md con las normas de cada capítulo.
+    El Sistema de Diseño muestra solo la capa de lectura; al final de cada capítulo con normas, un botón
+    descarga su archivo para usarlo con IA (reglas-visuales 3.5, R16)."""
+    src = os.path.join(ROOT, 'normas-ux-sistema-diseno.md')
+    if not os.path.exists(src):
+        return 0
+    lines = open(src, encoding='utf-8').read().split('\n')
+    n = 0
+    textos = {}
+    for i, l in enumerate(lines):
+        m = re.match(r'^###\s+\*\*(KYN-PRD-UIX-\d{3})\s*\|\s*(.+?)\*\*\s*$', l)
+        if not m:
+            continue
+        j = i + 1
+        while j < len(lines) and not re.match(r'^#{1,3}\s', lines[j]):
+            j += 1
+        nid, titulo = m.group(1), m.group(2).strip()
+        cuerpo = '\n'.join(lines[i + 1:j]).strip()
+        write(os.path.join(IA, 'normas', nid + '.md'),
+              front({**base, 'manual': 'Sistema de Diseño Keyons', 'id': nid, 'titulo': titulo, 'estado': 'borrador',
+                     'fuente': '/normas-ux-sistema-diseno.md'}) + f'# {nid} · {titulo}\n\n{cuerpo}\n')
+        textos[nid] = (titulo, cuerpo)
+        n += 1
+    sd = json.load(open(os.path.join(ROOT, 'data', 'sistema-diseno.json'), encoding='utf-8'))
+    libro = []   # el libro entero, para la descarga del menú lateral (reglas-visuales R16)
+    for mo in sd['modulos']:
+        for c in mo['capitulos']:
+            ids = [x['norma'] for x in c['subcapitulos'] if x.get('norma') in textos]
+            if not ids:
+                continue
+            partes = [f'## {nid} · {textos[nid][0]}\n\n{textos[nid][1]}' for nid in ids]
+            write(os.path.join(IA, 'sistema-diseno', c['slug'] + '.md'),
+                  front({**base, 'manual': 'Sistema de Diseño Keyons', 'capitulo': c['num'], 'titulo': c['t'], 'modulo': mo['t'],
+                         'normas': ids, 'estado': 'borrador', 'fuente': '/normas-ux-sistema-diseno.md'})
+                  + f'# Capítulo {c["num"]} · {c["t"]}\n\n' + '\n\n'.join(partes) + '\n')
+            libro.append(f'# Capítulo {c["num"]} · {c["t"]}\n\n' + '\n\n'.join(partes))
+    if libro:
+        write(os.path.join(IA, 'sistema-diseno.md'),
+              front({**base, 'manual': 'Sistema de Diseño Keyons', 'estado': 'borrador', 'fuente': '/normas-ux-sistema-diseno.md'})
+              + '\n\n'.join(libro) + '\n')
+    return n
+
+
 # ─── Libro ───
 def main():
     today = datetime.date.today().isoformat()
@@ -651,6 +697,11 @@ def main():
             write(os.path.join(IA, 'normas', nid + '.md'), fm + md(nb) + '\n')
         index['normas'].append(r)
 
+    nux = normas_ux(base)
+    # Reglas de voz: las lee toda IA antes de escribir un texto de Keyons (CLAUDE.md, Redacción)
+    voz = os.path.join(ROOT, 'reglas-de-voz.md')
+    if os.path.exists(voz):
+        write(os.path.join(IA, 'reglas-de-voz.md'), open(voz, encoding='utf-8').read())
     write(os.path.join(IA, 'libro-de-marca.md'), front(base) + md(full) + '\n')
     write(os.path.join(IA, 'indice.json'), json.dumps(index, ensure_ascii=False, indent=1) + '\n')
     tk, skipped = tokens()
@@ -665,7 +716,8 @@ def main():
         f'Permisos: {PERMISOS}.', '',
         '## Antes de consultar', '',
         '- [Convenciones de autoridad normativa](/ia/gobierno.json): niveles DEBE, NO DEBE, DEBERÍA y PUEDE; estados de vigencia; ámbitos; aprobación, excepciones y citación. Una clasificación propuesta por IA no tiene vigencia sin aprobación humana.',
-        '- [Guía de la Biblioteca: convenciones y rutas de lectura](/guia/index.html)', '',
+        '- [Guía de la Biblioteca: convenciones y rutas de lectura](/guia/index.html)',
+        '- [Reglas de voz](/ia/reglas-de-voz.md): se leen antes de escribir cualquier texto de Keyons. Trato de usted, frases en positivo, límites medibles y convenciones.', '',
         '## Libro completo', '',
         '- [Libro completo en Markdown](/ia/libro-de-marca.md)',
         '- [Índice de áreas, capítulos y normas](/ia/indice.json): estado, versión, rutas y referencias cruzadas',
@@ -680,7 +732,7 @@ def main():
     tpl = open(os.path.join(ROOT, 'tools', 'documental.html'), encoding='utf-8').read()
     write(os.path.join(DOC, 'index.html'), tpl.replace('{{VERSION}}', version).replace('{{FECHA}}', today).replace('{{TOC}}', toc).replace('{{BODY}}', body))
 
-    print(f'{len(caps)} capítulos · {sum(1 for r in norm_rows.values() if "markdown" in r)} normas con archivo · '
+    print(f'{len(caps)} capítulos · {sum(1 for r in norm_rows.values() if "markdown" in r)} normas con archivo · {nux} normas UX · '
           f'{len(norm_rows)} en el índice · tokens sin formato DTCG: {", ".join(skipped) or "ninguno"}')
     if '--pdf' in sys.argv:
         pdf()
@@ -700,8 +752,26 @@ def pdf():
                 print('PDF:', os.path.relpath(out, ROOT), f'{os.path.getsize(out) // 1024} KB')
             else:
                 print('El navegador no generó el PDF: se obtiene imprimiendo documental/index.html')
+            pdf_sd(exe)
             return
     print('No se encontró Edge ni Chrome: el PDF se obtiene imprimiendo documental/index.html')
+
+
+def pdf_sd(exe):
+    """PDF del Sistema de Diseño para «Descargar PDF» de su menú lateral (reglas-visuales R16).
+    Mientras se trabaja su contenido, reúne el primer capítulo con normas; luego se amplía a todo el libro."""
+    sd = json.load(open(os.path.join(ROOT, 'data', 'sistema-diseno.json'), encoding='utf-8'))
+    caps = [(m, c) for m in sd['modulos'] for c in m['capitulos'] if any(x.get('norma') for x in c['subcapitulos'])]
+    if not caps:
+        return
+    m, c = caps[0]
+    out = os.path.join(DOC, 'sistema-diseno-keyons.pdf')
+    src = pathlib.Path(ROOT, 'sistema-diseno', m['slug'], c['slug'] + '.html').as_uri()
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as prof:
+        subprocess.run([exe, '--headless', '--disable-gpu', '--no-pdf-header-footer', '--allow-file-access-from-files', '--virtual-time-budget=15000',
+                        f'--user-data-dir={prof}', f'--print-to-pdf={out}', src], capture_output=True, timeout=300)
+    if os.path.exists(out):
+        print('PDF:', os.path.relpath(out, ROOT), f'{os.path.getsize(out) // 1024} KB')
 
 
 if __name__ == '__main__':

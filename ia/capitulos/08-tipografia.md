@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-09"
+fecha: "2026-11-11"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "08"
 titulo: "Tipografía"
@@ -173,8 +173,16 @@ Número: 8.3 · ID: `KYN-MRK-TYP-003` · Estado: vigente · Fuente: `/fundamento
 ### Escriba y compare
 
 El mismo cielo, nadie lo ve igual
-TASA Orbiter 500 · 52–128 px
-**(Peso)(Interlineado)(Tracking)(Jerarquía)(Intensidad)(Organización)**
+
+Familia
+**(Peso)**
+Tamaño
+**(Interlineado)**
+**(Tracking)**
+
+**(Jerarquía)**
+**(Intensidad)**
+**(Organización)**
 
 #### Jerarquía tradicional
 

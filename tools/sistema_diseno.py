@@ -17,6 +17,7 @@ import html
 import io
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -42,7 +43,12 @@ def e(t):
 
 
 def js(t):
-    return t.replace('\\', '\\\\').replace("'", "\\'")
+    return t.replace('\\', '\\\\').replace("'", "\\'").replace('**', '')
+
+
+def destacado(t):
+    """La frase entre ** va en semibold (reglas-visuales R18); el resto, escapado."""
+    return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', e(t))
 
 
 def ancla(n):
@@ -89,7 +95,7 @@ def nav(d):
         caps = []
         for c in m['capitulos']:
             items = ',\n          '.join(
-                f"{{ t: '{js(s['t'])}', st: '{js(s['st'])}', s: '{ESTADO[s['estado']]}', href: 'sistema-diseno/{m['slug']}/{c['slug']}.html#{ancla(s['n'])}' }}"
+                f"{{ t: '{js(s['st'])}', st: '{js(s['st'])}', s: '{ESTADO[s['estado']]}', href: 'sistema-diseno/{m['slug']}/{c['slug']}.html#{ancla(s['n'])}' }}"   # reglas-visuales 3.5 (R19): el índice usa el nombre corto
                 for s in c['subcapitulos'])
             caps.append(f"      {{ n: '{c['num']}', k: '{c['n'].replace('.', '-')}', t: '{js(c['st'])}', full: '{js(c['t'])}', d: '{js(c['dc'])}', s: '{ESTADO[c['estado']]}', items: [\n          {items} ] }}")
         areas.append(f'''  {{
@@ -113,7 +119,7 @@ window.KEYONS_BOOK = {
   id: 'sistema-diseno',
   home: 'sistema-diseno/index.html',
   menuLabel: 'Módulos del Sistema de Diseño',
-  alt: [['Libro de Marca', 'inicio.html', 'right'], ['Plantilla de norma', 'sistema-diseno/plantilla.html', 'code'], ['Laboratorio de Interfaces', 'sistema-diseno/laboratorio.html', 'code']],
+  alt: [['Descargar PDF', 'documental/sistema-diseno-keyons.pdf', 'down', true], ['Normas para IA', 'ia/sistema-diseno.md', 'code']],
   words: { ch: 'Capítulos', pg: 'Subcapítulos', pgs: 'subcapítulos' },
   cardShort: true,
   areaFull: true
@@ -208,7 +214,7 @@ def capitulo(i, m, c):
       <div class="portal__txt">
         <span class="kicker">Capítulo {c['num']} · {e(m['st'])}</span>
         <h1 class="t-display">{e(c['t'])}</h1>
-        <p>{e(c['dc'])}</p>
+        <p>{destacado(c['dc'])}</p>
       </div>
     </section>
 

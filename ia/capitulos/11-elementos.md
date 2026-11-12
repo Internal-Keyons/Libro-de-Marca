@@ -1,7 +1,7 @@
 ---
 manual: "Libro de Marca Keyons"
 version: "0.1"
-fecha: "2026-11-09"
+fecha: "2026-11-11"
 permisos: "por definir; se asignarán con la Biblioteca Keyons"
 capitulo: "11"
 titulo: "Elementos gráficos"
@@ -442,8 +442,6 @@ Un plano liso y uno difuminado, divididos por una línea vertical; un círculo l
 
 **(Cuándo se usa)** Portadas sobrias, aperturas de capítulo, invitaciones y piezas de una sola idea.
 
-> Recurso visual: Imagen: /assets/texturas/textura-acuarela-con-nubes.svg · «Textura de cielo»
-
 #### Texturas de cielo
 
 Requiere revisión: su regla sobre IA contradice KYN-MRK-CON-006
@@ -468,6 +466,22 @@ Ruido monocromático fino sobre fondos planos o degradados: le da alma editorial
 - Grano fino, de 0,5 a 1,5 px según la resolución de salida.
 
 **(Cuándo se usa)** Sobre degradados, cielos lisos y fondos planos, en piezas impresas o digitales.
+
+01 · Arcos naturales
+
+02 · Líneas de viento
+
+03 · Franjas de cielo
+
+04 · Formas de cielo
+
+05 · Eclipse
+
+> Recurso visual: Imagen: /assets/texturas/textura-acuarela-con-nubes.svg · «Textura de cielo»
+
+06 · Texturas de cielo
+
+07 · Grano
 
 **(Formato)**
 **Las texturas y degradados de Recursos están hechos con código** (SVG): no se pixelan a ningún tamaño, pesan poco y se adaptan a cualquier proporción. Por eso son los indicados para fondos web que cambian de tamaño, interfaces, pantallas de eventos e impresión en gran formato.

@@ -1,7 +1,7 @@
 {
  "manual": "Libro de Marca Keyons",
  "version": "0.1",
- "fecha": "2026-11-09",
+ "fecha": "2026-11-11",
  "permisos": "por definir; se asignarán con la Biblioteca Keyons",
  "areas": [
   {
@@ -100,11 +100,15 @@
      "n": "05",
      "clave": "estela",
      "titulo": "Estela",
-     "estado": "por definir",
+     "estado": "borrador",
      "descripcion": "La cara de Keyons: quién es, cómo habla, cómo se ve y cómo actúa.",
-     "rutas": [],
+     "rutas": [
+      "/marca/estela.html"
+     ],
      "markdown": "/ia/capitulos/05-estela.md",
-     "normas": []
+     "normas": [
+      "KYN-MRK-EST-001"
+     ]
     }
    ]
   },
@@ -1236,6 +1240,19 @@
    "area": "fundamentos",
    "fuente": "/fundamentos/composicion/editorial.html#diagramas",
    "markdown": "/ia/normas/KYN-MRK-ESP-006.md",
+   "referencias": [],
+   "citada_por": []
+  },
+  {
+   "id": "KYN-MRK-EST-001",
+   "titulo": "Quién es Estela",
+   "numero": "5.1",
+   "rotulo": "Quién es Estela",
+   "estado": "borrador",
+   "capitulo": "05",
+   "area": "marca",
+   "fuente": "/marca/estela.html#quien",
+   "markdown": "/ia/normas/KYN-MRK-EST-001.md",
    "referencias": [],
    "citada_por": []
   },

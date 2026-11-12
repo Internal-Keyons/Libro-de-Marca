@@ -44,9 +44,8 @@ window.KEYONS_NAV = [
         { sub: 'Trato y traducción' },
         { t: 'El trato', s: 'b', href: 'marca/trato.html#usted' }, { t: 'Primera o tercera persona', st: 'Persona gramatical', s: 'b', href: 'marca/trato.html#persona' },
         { t: 'De lo técnico a lo humano', st: 'Traducción técnica', s: 'b', href: 'marca/trato.html#traduccion' } ] },
-      { n: '05', k: 'estela', was: '04', t: 'Estela', s: 'p', d: 'La cara de Keyons: quién es, cómo habla, cómo se ve y cómo actúa.', items: [
-        { t: 'Quién es', s: 'p' }, { t: 'Personalidad', s: 'p' }, { t: 'Voz y trato', s: 'p' },
-        { t: 'Estética', s: 'p' }, { t: 'Comportamiento', s: 'p' }, { t: 'En la interfaz', s: 'p' } ] }
+      { n: '05', k: 'estela', was: '04', t: 'Estela', s: 'b', d: 'La cara de Keyons: quién es, cómo habla, cómo se ve y cómo actúa.', items: [
+        { t: 'Quién es Estela', s: 'b', href: 'marca/estela.html#quien' }, { t: 'Origen y personalidad', s: 'p' }, { t: 'Voz y trato', s: 'p' }, { t: 'Comportamiento', s: 'p' }, { t: 'Identidad visual', s: 'p' }, { t: 'Presencia', s: 'p' } ] }
     ]
   },
   {

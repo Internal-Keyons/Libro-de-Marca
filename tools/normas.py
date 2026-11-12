@@ -47,6 +47,8 @@ NUEVAS = {
     'fundamentos/elementos/graficos.html#profundidad': ('KYN-MRK-ILU-009', 'Profundidad atmosférica'),
     # 29 · Recursos técnicos (2026-11-06)
     'recursos/tecnicos.html#tecnicos': ('KYN-MRK-TEC-001', 'Recursos técnicos'),
+    # 05 · Estela (2026-11-11, en borrador): una norma por sección, desde capitulo-05-estela.md
+    'marca/estela.html#quien': ('KYN-MRK-EST-001', 'Quién es Estela', 'borrador'),
 }
 
 # Traslados (2026-11, consolidación de Fundamentos): ruta anterior → ruta vigente
@@ -148,14 +150,14 @@ def main():
         elif v['estado'] != 'descontinuada':
             print('AVISO: la norma', v['id'], 'ya no tiene sección en', h, '(no se borra)')
     movidas = {old for v in reg.values() for old in v.get('antes', [])}
-    for h, (nid, t) in NUEVAS.items():
+    for h, (nid, t, *est) in NUEVAS.items():
         if h in reg or h in movidas:
             continue
         if nid in ids:
             sys.exit(f'{nid} ya existe en el registro: un ID nunca se reutiliza')
         if h not in secs:
             sys.exit(f'{nid}: no existe la sección {h}')
-        reg[h] = {'estado': 'vigente', 'id': nid, 'n': secs[h][0], 't': t}
+        reg[h] = {'estado': est[0] if est else 'vigente', 'id': nid, 'n': secs[h][0], 't': t}
         ids.add(nid)
 
     with open(REG, 'w', encoding='utf-8', newline='\n') as f:

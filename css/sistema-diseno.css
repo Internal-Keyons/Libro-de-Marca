@@ -189,3 +189,14 @@
 .sdl-split--wide .sdl-steps::before{left:20px;right:20px;top:19px;bottom:auto;width:auto;height:1px}
 .sdl-split--wide .sdl-steps li{grid-template-columns:minmax(0,1fr);gap:var(--s3)}
 @media(max-width:900px){.sdl-split--wide .sdl-steps{grid-template-columns:minmax(0,1fr)}.sdl-split--wide .sdl-steps::before{display:none}}
+
+
+
+
+/* Norma en filas con su nivel: la etiqueta a la izquierda, el enunciado a la derecha · capitulo-01, Diagramación */
+.sdn{margin-top:var(--s12);border-bottom:1px solid var(--color-border)}
+.sdn__r{padding:var(--s4) 0;border-top:1px solid var(--color-border)}
+.sdn__t{font-size:var(--fs-16);font-weight:400;color:var(--k-noche)}
+/* Rótulo de un principio: el ID en gris terciario de 12 px y debajo el nombre en 14 px, sin estado */
+.sdn-label .ed__code{font-size:var(--fs-12);color:var(--color-text-3)}
+.sdn-label span:last-child{font-size:var(--fs-14);color:var(--k-noche)}
