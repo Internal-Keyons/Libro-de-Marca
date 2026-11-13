@@ -15,7 +15,7 @@ Este archivo es la fuente única de las reglas visuales. Lo leen personas y cual
 
 ## Alcance
 
-- **Incluye:** libro de marca (Marca, Fundamentos, Modos, Aplicaciones, Recursos) y todo lo digital con identidad Keyons.
+- **Incluye:** libro de marca (Marca, Fundamentos, Expresión, Aplicaciones, Recursos) y todo lo digital con identidad Keyons.
 - **No incluye todavía:** los capítulos del Sistema de Diseño ni el Laboratorio. No se toman como referencia visual hasta que Keylin los edite.
 - **No incluye todavía:** formularios (anillos de foco y error, B04). Se definen cuando se diseñe el primer formulario real.
 

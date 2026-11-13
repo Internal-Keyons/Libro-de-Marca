@@ -120,33 +120,30 @@ window.KEYONS_NAV = [
     ]
   },
   {
-    id: 'modos', t: 'Modos', href: 'modos/index.html', color: 'salmon', colorName: 'Salmón Tierra',
+    id: 'modos', t: 'Expresión', full: 'Expresión de marca', href: 'modos/index.html', color: 'salmon', colorName: 'Salmón Tierra',
     d: 'Cómo se ve y suena la marca en cada registro.',
+    /* 2026-11-13 · El área Modos pasa a Expresión: una identidad con intensidad continua (propuestas en docs/EXPRESION_PROPUESTA.md).
+       Se conservan id, ruta y claves de capítulo; Digital pasó a Aplicaciones con su mismo número. */
     ch: [
       { n: '16', k: 'corporativo', was: ['14', '17'], t: 'Corporativo', s: 'p', d: 'El registro formal: sobrio, claro y preciso, de principio a fin.', items: [
-        { sub: 'Principios' },
-        { t: 'Cuándo aplica' }, { t: 'Color en el modo' }, { t: 'Metáfora contenida' },
-        { sub: 'Sistema' },
-        { t: 'Formatos de página' }, { t: 'Retícula y márgenes' }, { t: 'Tipografía en documento', st: 'Tipografía' }, { t: 'Uso del logo' },
-        { sub: 'Componentes' },
-        { t: 'Portada' }, { t: 'Encabezado y pie' }, { t: 'Títulos y numeración' }, { t: 'Tablas y cifras' },
-        { t: 'Gráficos' }, { t: 'Notas y citas' }, { t: 'Bloque de firmas' }, { t: 'Sellos y marca de agua', st: 'Sellos' } ] },
-      { n: '17', k: 'expresivo', was: ['15', '18'], t: 'Expresivo', s: 'b', d: 'El registro abierto: cielos, narrativa y emoción, siempre sobre la retícula.', items: [
-        { sub: 'Principios' }, { t: 'Libertad por canal', s: 'b' },
-        { sub: 'Sistema' }, { t: 'Cielos aplicados', s: 'b' }, { t: 'Degradados', s: 'b' },
-        { sub: 'Componentes' }, { t: 'Firma humana' }, { t: 'Titulares expresivos' } ] },
-      { n: '18', k: 'digital', was: ['16', '19'], t: 'Digital', s: 'b', d: 'Producto e interfaz: sobrio con momentos vivos. Componentes y patrones.', items: [
-        { sub: 'Principios' }, { t: 'Sobrio con momentos vivos', st: 'Sobriedad viva', s: 'b' },
-        { sub: 'Sistema' }, { t: 'Tokens', s: 'b' }, { t: 'Densidad' },
-        { sub: 'Componentes' }, { t: 'Botones', s: 'b' }, { t: 'Campos de formulario', st: 'Formularios', s: 'v' },
-        { t: 'Mensajes de estado', s: 'v' }, { t: 'Badges', s: 'b' }, { t: 'Navegación' }, { t: 'Tablas y datos' },
-        { sub: 'Aplicaciones' }, { t: 'Estela · acciones generativas', st: 'Estela en interfaz', s: 'b' }, { t: 'Estados vacíos' }, { t: 'Onboarding' }, { t: 'Dashboards' } ] }
+        { t: 'Principios' }, { t: 'Formal' }, { t: 'Editorial' }, { t: 'Intensidad' },
+        { grp: 'Documentos' },
+        { t: 'Formatos de página', st: 'Formatos', deep: 1 }, { t: 'Márgenes y retícula', deep: 1 }, { t: 'Tipografía en documento', st: 'Tipografía', deep: 1 },
+        { t: 'Uso del logo', deep: 1 }, { t: 'Portada', deep: 1 }, { t: 'Encabezado y pie', deep: 1 }, { t: 'Títulos y numeración', deep: 1 },
+        { t: 'Tablas y cifras', deep: 1 }, { t: 'Gráficos', deep: 1 }, { t: 'Notas y citas', deep: 1 }, { t: 'Bloque de firmas', st: 'Firmas', deep: 1 },
+        { t: 'Sellos y marca de agua', st: 'Sellos', deep: 1 } ] },
+      { n: '17', k: 'expresivo', was: ['15', '18'], t: 'Expresivo', s: 'p', d: 'El registro abierto: cielos, narrativa y emoción, siempre sobre la retícula.', items: [
+        { t: 'Principios' }, { t: 'Composición' }, { t: 'Tipografía' }, { t: 'Color y cielos' }, { t: 'Recursos' }, { t: 'Límites' } ] }
     ]
   },
   {
     id: 'aplicaciones', t: 'Aplicaciones', href: 'aplicaciones/index.html', color: 'atardecer', colorName: 'Salmón Atardecer',
     d: 'Dónde se aplica la marca: cada canal con sus reglas.',
     ch: [
+      /* 18 · Digital (2026-11-13): sale de Expresión; solo identidad visual en pantalla. Lo funcional (tokens, componentes,
+         formularios, navegación, tablas, dashboards, estados vacíos, onboarding, Estela en interfaz) es del Libro 02 */
+      { n: '18', k: 'digital', was: ['16', '19'], t: 'Digital', s: 'p', d: 'La identidad de Keyons en pantalla: sobria, con momentos vivos.', items: [
+        { t: 'Sobrio con momentos vivos', st: 'Sobriedad viva' }, { t: 'Momentos vivos' }, { t: 'Íconos de aplicación' } ] },
       { n: '19', k: 'documentos', was: ['17', '20'], t: 'Documentos', s: 'p', d: 'Propuestas, contratos, facturas, correspondencia y papelería.', items: [
         { grp: 'Comerciales' }, { t: 'Propuesta comercial', deep: 1 }, { t: 'Cotización', deep: 1 }, { t: 'Presentación', deep: 1 }, { t: 'Caso de éxito', deep: 1 },
         { grp: 'Legales' }, { t: 'Contrato', deep: 1 }, { t: 'Confidencialidad', deep: 1 }, { t: 'Anexos', deep: 1 },

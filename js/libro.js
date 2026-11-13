@@ -311,6 +311,13 @@
         const K = window.KeyonsCielo.SKIES, r = el.getBoundingClientRect(), asp = r.width / Math.max(r.height, 1);
         key = `${sky}-sub${i}`;
         K[key] = Object.assign({}, K[sky], { ws: SUB_SPEED / asp, clouds: Object.assign({}, K[sky].clouds, sky === 'noche' ? { alpha: .72 } : {}) });
+        /* Subencabezados de atardecer (Aplicaciones): el recorrido suave de Prisma (EST-001), con rosados antes de un naranja tenue.
+           Solo configuración del módulo: mismos parámetros, colores más suaves */
+        if (sky === 'atardecer') Object.assign(K[key], {
+          stops: [['#3D6BAF', 0], ['#667CBE', .2], ['#968AC4', .36], ['#C494BE', .5], ['#E4A0B6', .62], ['#F0B0AA', .74], ['#F4BA96', .86], ['#F4AA70', 1]],
+          glow: ['#F4BA96', .3, 0, .45, .4], band: ['#E4A0B6', .44, .08, .12],
+          clouds: Object.assign({}, K[key].clouds, { lit: '#F4BA96', low: '#E4A0B6', high: '#968AC4', alpha: .6 }),
+        });
       }
       el.classList.add('has-cielo'); window.KeyonsCielo.mount(el, { sky: key, seed });
     });
