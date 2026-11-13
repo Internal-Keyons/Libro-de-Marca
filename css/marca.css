@@ -75,8 +75,10 @@
 /* Desplegables del probador: la flecha a la misma distancia del texto en todos (modelo: «Tradicional ⌄», --s2) */
 .tester--min .tester__spec .kdd__btn{width:auto;min-width:0;justify-content:flex-start;gap:var(--s2)}
 
-/* Aplicaciones (local): los encabezados de capítulo usan el degradado de atardecer del carrusel de Prisma (EST-001) */
-body[data-area="aplicaciones"] .portal.portal--atardecer{background:url("../assets/img/ventanas/prisma-atardecer.webp") center / cover no-repeat,var(--k-atardecer)}
+/* reglas-visuales 1.8 · Subencabezados de atardecer: los módulos Salmón Tierra muestran el atardecer de Prisma (imagen);
+   los módulos Salmón Atardecer, el atardecer tenue en código (js/libro.js), con este degradado mientras carga */
+body .portal.portal--salmon:not(.portal--atardecer):not(.portal--plano){background:url("../assets/img/ventanas/prisma-atardecer.webp") center / cover no-repeat,var(--k-salmon)}
+body .portal.portal--salmon.portal--atardecer:not(.portal--plano){background:linear-gradient(180deg,var(--k-cielo-400) 0%,var(--k-cielo-200) 42%,var(--k-lavanda-tenue) 60%,var(--k-atardecer-300) 80%,var(--k-atardecer) 100%)}
 
 /* DAT-002 (local): los colores corporativos disponibles se muestran en círculo */
 .dchip{border-radius:50%}

@@ -30,6 +30,10 @@
   --k-cielo-400:#8FAFE2; --k-cielo-500:#729BDD; --k-cielo-600:#5E80B9;
   --k-cielo-700:#496192; --k-cielo-800:#35466E; --k-cielo-900:#242D4E;
 
+  /* Atardecer tenue (reglas-visuales 1.8): subencabezados de los módulos Salmón Atardecer, de la escala Azul Cielo a Salmón Atardecer */
+  --k-atardecer-200:#F2DEDF; --k-atardecer-300:#EFC9C9;   /* Salmón Atardecer mezclado con Blanco Keyons al 75 % y al 50 % */
+  --k-lavanda-tenue:#DCDAE5;                               /* punto medio entre Cielo 200 y Atardecer 200 */
+
   /* Escalas con medios pasos (6.6): 100 a 900 y sus 150, 250… interpolados en OKLab */
   --k-gris-100:#F4F4F4; --k-gris-150:#EFEFEF; --k-gris-200:#EAEAEB; --k-gris-250:#E3E3E5; --k-gris-300:#DDDDDF; --k-gris-350:#D2D2D5; --k-gris-400:#C7C8CB; --k-gris-450:#B9BABD; --k-gris-500:#ABACB0; --k-gris-550:#9B9CA1; --k-gris-600:#8B8C92; --k-gris-650:#7A7B82; --k-gris-700:#6A6B72; --k-gris-750:#595A61; --k-gris-800:#494A51; --k-gris-850:#393A41; --k-gris-900:#2A2B31;
   --k-noche-100:#F4F4F4; --k-noche-150:#DDDDDF; --k-noche-200:#C6C7CB; --k-noche-250:#BBBBC1; --k-noche-300:#B0B0B8; --k-noche-350:#A4A4AD; --k-noche-400:#9899A3; --k-noche-450:#82838F; --k-noche-500:#6C6D7B; --k-noche-550:#606171; --k-noche-600:#555667; --k-noche-650:#494A5D; --k-noche-700:#3E3F53; --k-noche-750:#2D2F45; --k-noche-800:#1D1F38; --k-noche-850:#161831; --k-noche-900:#10122A;

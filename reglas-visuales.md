@@ -118,6 +118,9 @@ Los niveles se separan por saltos grandes de contraste para que los textos no se
 - Ingredientes de Amanecer: #FFEBB1 · **#FFCE49** · #FED8B5 · #E99D9E · #729BDD · #2A4275 · #10122A · #B2BFE5 · #D4DBA5 · #A8C2A0. (Se corrige #FFCE86 por #FFCE49, que es el que usa el degradado.)
 - Frecuencia: Mediodía, 40 a 50 % de las piezas expresivas; Galaxia, 5 a 10 %.
 - Los degradados de cada área del libro NO son cielos: se llaman `--area-*` (C07).
+- **Subencabezados de atardecer (2026-11-13):** según el color del módulo.
+  - Un módulo Salmón Tierra (Expresión) DEBE mostrar el atardecer de Prisma, la imagen `prisma-atardecer.webp`.
+  - Un módulo Salmón Atardecer (Aplicaciones) DEBE mostrar el atardecer tenue animado: de la escala Azul Cielo (`--k-cielo-400`, `-300`, `-200`) a Salmón Atardecer (`--k-lavanda-tenue`, `--k-atardecer-300`, `--k-atardecer`).
 
 ### 1.9 Degradados (7.9)
 
@@ -300,6 +303,11 @@ El radio de una esquina curva sale del **lado corto** del elemento:
   - Se usa cuando el contenido es texto. Si la información tiene partes, pasos o datos, va en el componente que corresponde.
   - Espacio antes del bloque (2026-11-13): DEBE empezar a 24 px (`--s6`) después de la entrada (`.ed__lead`) y a 32 px (`--s8`) después de un componente (filas, tarjetas, viñetas, espectro o muestras de color).
   - Un cierre (`.ed__close`) con más de una frase DEBE separar sus párrafos 16 px (`--s4`).
+- **R22 · Entrada en niveles (2026-11-13):** bajo el titular de una sección, el texto DEBE ir en tres niveles, nunca como varios párrafos iguales seguidos.
+  1. La entrada (`.ed__lead`): una frase de 20 px con la idea central, y en ella la frase destacada en semibold (R18).
+  2. El apoyo (`.ed__apoyo`): una frase breve de 16 px en Azul Noche, a 16 px de la entrada (`--s4`).
+  3. El desarrollo: filas, tarjetas o lectura continua, a 40 px del apoyo (`--s10`). Cada fila lleva una o dos frases cortas.
+  - Los títulos visibles describen el contenido. Los rótulos del proceso de elaboración («Ejemplo aprobado», «Principio de cierre», «Contenido pendiente») NO DEBEN ir en la página, ni el metatexto sobre qué libro o documento regula cada tema.
 
 ---
 

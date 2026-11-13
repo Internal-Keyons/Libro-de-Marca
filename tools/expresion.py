@@ -4,15 +4,23 @@ Uso:  python tools/expresion.py
 Texto: Keylin, 2026-11-13. Escribe la introducción en modos/index.html (<template id="area-intro">),
 modos/corporativo.html y modos/expresivo.html, y los ítems del índice de los capítulos 16 y 17 en js/nav-data.js.
 
+Segunda ronda (2026-11-13): los capítulos 16 y 17 se reescribieron en forma directa (pendientes de aprobación de Keylin);
+la introducción del área conserva su texto.
+Cada sección sigue la entrada en niveles (reglas-visuales R22): título, entrada, apoyo breve y después el desarrollo.
 Diagramación con los componentes del libro:
-- base: título, entrada (.ed__lead), lectura continua (.prosa), filas con rótulo (.ed__stack), cierre (.ed__close);
-- creativa donde ayuda a leer: tarjetas numeradas (.pgrid) para principios, preguntas y recursos; el espectro de intensidad
-  (.espectro) en la introducción; la paleta corporativa en fila (.paleta5) en Editorial.
+- base: título, entrada (.ed__lead), apoyo (.ed__apoyo), filas con rótulo (.ed__stack), cierre (.ed__close);
+- creativa donde ayuda a leer: tarjetas con viñeta (.pgrid + .pgrid__v) para principios, preguntas y recursos; la comparación
+  en tres columnas (.tri3) en Intensidad; el espectro (.espectro) en la introducción; la paleta en fila (.paleta5) en Editorial.
+Cada párrafo normativo se marca con N(texto, nivel) (tools/normativa.py); después: python tools/niveles.py --aplicar
 """
 import html
 import io
 import os
 import re
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from normativa import N, registrar   # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 esc = lambda t: html.escape(t, quote=False)
@@ -32,6 +40,18 @@ def pgrid(items, dos=True):
     return (f'{I}<div class="pgrid{" pgrid--2" if dos else ""}">' + ''.join(
         f'<div><span class="pgrid__n">{k:02d}</span><p class="pgrid__t">{esc(t)}</p>{P(*ps, cls="pgrid__d")}</div>' for k, (t, ps) in enumerate(items, 1)) + '</div>')
 def cierre(*ps): return f'{I}<div class="ed__close">{P(*ps)}</div>'
+def apoyo(t): return f'{I}<p class="ed__apoyo">{t}</p>'
+C_ = 'M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'
+Q_ = 'M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'
+def vin(k): return f'<svg viewBox="0 0 20 20" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="{C_ if k % 2 == 0 else Q_}"/></svg>'
+def pgrid_v(items):
+    """Tarjetas con viñeta (círculo y cuadrado alternados) en lugar de número"""
+    return (f'{I}<div class="pgrid pgrid--2">' + ''.join(
+        f'<div><span class="pgrid__v">{vin(k)}</span><p class="pgrid__t">{esc(t)}</p>{P(*ps, cls="pgrid__d")}</div>' for k, (t, ps) in enumerate(items)) + '</div>')
+def tri3(cols):
+    """Comparación en tres columnas: cada columna con su nombre y las mismas filas, alineadas entre columnas"""
+    return (f'{I}<div class="tri3">' + ''.join(f'<div><p class="tri3__t">{esc(t)}</p>' + ''.join(f'<div class="tri3__c"><span class="tri3__k">{esc(k)}</span><p>{esc(v)}</p></div>' for k, v in filas) + '</div>'
+                                              for t, filas in cols) + '</div>')
 
 
 def seccion(sid, num, corto, titular, partes):
@@ -71,121 +91,124 @@ PALETA = (f'{I}<ul class="paleta5" aria-label="Los cinco colores oficiales">'
               ('--k-blanco', 'Blanco Keyons', 'Estructura y contraste'), ('--k-noche', 'Azul Noche', 'Estructura y contraste'),
               ('--k-cielo', 'Azul Cielo', 'Reconocimiento y acento'), ('--k-salmon', 'Salmón Tierra', 'Expresión según el contexto'),
               ('--k-atardecer', 'Salmón Atardecer', 'Variante para composiciones oscuras')]) + '</ul>')
+TRI = tri3([('Formal', [('Propósito', 'Informar con exactitud.'), ('Recursos', 'Tipografía, retícula y espacio, con acentos puntuales.'),
+                        ('Color', 'Blanco Keyons y Azul Noche, con Azul Cielo para orientar.'), ('Piezas', 'Contratos, políticas, certificaciones e informes técnicos.')]),
+            ('Corporativo Editorial', [('Propósito', 'Explicar y convencer.'), ('Recursos', 'Fotografía protagonista, titulares grandes y atmósferas.'),
+                                       ('Color', 'Los cinco colores oficiales, cada uno en su función.'), ('Piezas', 'Presentaciones, informes ejecutivos, propuestas y memorias.')]),
+            ('Expresivo', [('Propósito', 'Inspirar y construir una experiencia.'), ('Recursos', 'Composición experimental, cielos, texturas y movimiento.'),
+                           ('Color', 'Cielos, degradados o monocromía, según la atmósfera.'), ('Piezas', 'Campañas, piezas narrativas y aperturas editoriales.')])])
 C16 = [
     ('principios', '16.1', 'Principios', 'Claridad con carácter', [
-        lead('La expresión corporativa de Keyons comunica profesionalismo, confianza y criterio. Se apoya en una composición clara, una jerarquía reconocible y un uso deliberado del espacio.'),
-        prosa('Su sobriedad no implica ausencia de personalidad. La identidad puede manifestarse mediante una decisión tipográfica, una fotografía, un acento cromático o una composición editorial bien resuelta.',
-              'Dentro de este capítulo conviven dos referencias de intensidad: Formal y Corporativo Editorial. Ambas comparten los mismos fundamentos visuales y pueden combinarse según las necesidades del contenido.'),
-        pgrid([('La claridad dirige', ['Cada pieza debe establecer qué información tiene mayor importancia y cómo debe recorrerla quien la recibe.', 'La composición ordena el contenido antes de incorporar recursos decorativos. La tipografía, el espacio y la retícula deben resolver la jerarquía incluso cuando la pieza no utiliza fotografías ni elementos expresivos.']),
-               ('La sobriedad es una elección, no una restricción', ['La expresión corporativa puede utilizar los recursos completos de la identidad Keyons.', 'Su selección debe responder a la función de cada pieza. Una composición contenida puede requerir pocos recursos; otra puede beneficiarse de una fotografía de gran formato o una presencia cromática más marcada.', 'Lo importante es conservar precisión, equilibrio y reconocimiento de marca.']),
-               ('El carácter nace de la composición', ['Keyons no necesita repetir un motivo gráfico para que todas sus piezas se reconozcan.', 'La relación entre tipografía, proporciones, imágenes, color y espacio debe generar continuidad sin convertir la identidad en una plantilla intercambiable.']),
-               ('La función determina la intensidad', ['Una comunicación legal, una propuesta comercial y una memoria corporativa no requieren necesariamente el mismo tratamiento visual.', 'Comparten identidad, pero pueden variar en ritmo, recursos e intensidad según el tipo de información y las expectativas de lectura.'])]),
+        lead('La expresión corporativa comunica <strong>profesionalismo, confianza y criterio</strong>.'),
+        apoyo('Se apoya en una composición clara, una jerarquía reconocible y un uso deliberado del espacio.'),
+        prosa('Abarca dos referencias de intensidad, Formal y Corporativo Editorial, que comparten fundamentos y se combinan según el contenido.'),
+        pgrid_v([('La claridad dirige', [N('Cada pieza debe dejar claro qué información importa más y en qué orden se lee.', 'debe'), 'La tipografía, el espacio y la retícula resuelven la jerarquía antes que cualquier recurso decorativo.']),
+                 ('La sobriedad es una elección', [N('La expresión corporativa puede usar todos los recursos de la identidad Keyons.', 'puede'), 'Cada pieza elige los que su función necesita, con precisión y equilibrio.']),
+                 ('El carácter nace de la composición', ['Keyons se reconoce por la relación entre tipografía, proporción, imagen, color y espacio, sin repetir un motivo gráfico.']),
+                 ('La función marca la intensidad', ['Un aviso legal, una propuesta comercial y una memoria corporativa comparten identidad y varían en ritmo, recursos e intensidad.'])]),
     ]),
     ('formal', '16.2', 'Formal', 'Precisión que transmite confianza', [
-        lead('Formal es la referencia más contenida del sistema de expresión.'),
-        prosa('Está especialmente indicada para comunicaciones donde predominan la exactitud, la trazabilidad documental, la lectura prolongada o las consecuencias institucionales de la información.',
-              'Su composición debería priorizar fondos claros, texto de alto contraste, una retícula estable y recursos gráficos discretos.',
-              'El blanco y el Azul Noche constituyen una base especialmente apropiada. Azul Cielo puede utilizarse para identificar, orientar o establecer acentos. Otros colores oficiales también pueden incorporarse cuando exista una razón de comunicación y se mantenga la legibilidad.',
-              'Esta preferencia no prohíbe los recursos cromáticos de Keyons. Define una dirección visual recomendada.'),
-        stack([('Tipografía y jerarquía', ['La tipografía conduce la lectura mediante diferencias claras de tamaño, peso, posición y espacio.', 'Los títulos deben permitir localizar rápidamente el contenido. Los párrafos mantienen una medida cómoda, interlineado suficiente y una secuencia de lectura predecible.', 'La expresividad tipográfica puede aparecer en portadas o aperturas, sin comprometer la comprensión del documento.']),
-               ('Composición', ['Las retículas regulares y los márgenes generosos favorecen la lectura y la estabilidad visual.', 'La simetría es apropiada cuando refuerza la formalidad. La asimetría controlada también puede utilizarse si conserva equilibrio y continuidad.', 'Los elementos gráficos deben cumplir una función identificable: organizar, separar, destacar o contextualizar.']),
-               ('Aplicación', ['Formal resulta especialmente útil en contratos, políticas, documentos regulatorios, certificaciones, comunicaciones oficiales e informes que requieren lectura técnica o administrativa.', 'No es una categoría obligatoria por tipo de archivo. Un informe también puede adoptar tratamiento editorial cuando el contenido y la audiencia lo permiten.'])]),
+        lead('Formal es la referencia <strong>más contenida</strong> del sistema.'),
+        apoyo('Sirve cuando importan la exactitud, la lectura prolongada o las consecuencias institucionales de la información.'),
+        stack([('Color', [N('La composición formal debería partir de fondos claros, texto de alto contraste, Azul Noche y Blanco Keyons, con Azul Cielo para orientar y acentuar.', 'deberia'),
+                          N('Otros colores oficiales pueden sumarse cuando hay una razón de comunicación y se conserva la legibilidad.', 'puede')]),
+               ('Tipografía y jerarquía', [N('Los títulos deben permitir localizar el contenido de un vistazo, y los párrafos, mantener una medida cómoda.', 'debe'),
+                                           N('La tipografía expresiva puede aparecer en portadas y aperturas.', 'puede')]),
+               ('Composición', [N('Retículas regulares y márgenes generosos sostienen la lectura. Cada elemento gráfico debe cumplir una función: organizar, separar, destacar o contextualizar.', 'debe')]),
+               ('Dónde se usa', ['Contratos, políticas, documentos regulatorios, certificaciones, comunicaciones oficiales e informes técnicos. Un informe también admite el tratamiento editorial cuando el contenido y la audiencia lo permiten.'])]),
     ]),
     ('editorial', '16.3', 'Editorial', 'El rigor también puede ser memorable', [
-        lead('Corporativo Editorial amplía la libertad compositiva sin abandonar la precisión.'),
-        prosa('Combina la claridad institucional con una dirección visual más reconocible. Puede utilizar fotografía protagonista, titulares de mayor escala, relaciones espaciales menos convencionales y un uso más amplio del color.',
-              'Es una referencia apropiada para presentaciones corporativas, informes ejecutivos, publicaciones de marca, propuestas, memorias y comunicaciones cuyo contenido se beneficia de una lectura editorial.'),
-        stack([('Composición y ritmo', ['La retícula continúa siendo el fundamento, pero permite variaciones de escala, alineación y ocupación del espacio.', 'Una página puede contener una sola idea protagonista. Otra puede organizar varias capas de información mediante bloques, fotografía y contrastes tipográficos.', 'El cambio de ritmo debe facilitar la lectura, no interrumpirla.', 'Los espacios blancos tienen valor compositivo. No deben llenarse únicamente para equilibrar visualmente la cantidad de contenido.'])]),
-        sub('El color corporativo completo'),
-        prosa('Corporativo Editorial puede utilizar los cinco colores oficiales de la identidad, respetando sus funciones y condiciones de uso: Blanco Keyons, Azul Noche, Azul Cielo, Salmón Tierra y Salmón Atardecer.',
-              'Esto no significa que todos deban aparecer en cada pieza ni que tengan la misma función.'),
+        lead('Corporativo Editorial suma <strong>libertad compositiva</strong> sin perder precisión.'),
+        apoyo('Admite fotografía protagonista, titulares de mayor escala y un uso más amplio del color.'),
+        stack([('Dónde se usa', ['Presentaciones corporativas, informes ejecutivos, publicaciones de marca, propuestas y memorias.']),
+               ('Composición y ritmo', [N('La retícula sigue siendo la base y admite variaciones de escala, alineación y ocupación. Cada cambio de ritmo debe facilitar la lectura.', 'debe')]),
+               ('Espacio', [N('Los espacios blancos tienen valor compositivo y no deben llenarse solo para equilibrar la cantidad de contenido.', 'no-debe')])]),
+        sub('Los cinco colores'),
+        prosa(N('Corporativo Editorial puede usar los cinco colores oficiales, cada uno en su función.', 'puede')),
         PALETA,
-        prosa('Blanco Keyons y Azul Noche sostienen la estructura y el contraste. Azul Cielo aporta reconocimiento y acento. Salmón Tierra y Salmón Atardecer enriquecen la expresión según el contexto y las combinaciones definidas por el sistema cromático.',
-              'El uso de Salmón Atardecer debe respetar especialmente su función como variante para composiciones oscuras.',
-              'La composición puede utilizar varios de estos colores, incluso con gran presencia visual, siempre que conserve jerarquía, equilibrio y contraste suficiente.'),
-        stack([('Fotografía y atmósfera', ['Las fotografías deben aportar significado, contexto o una perspectiva reconocible.', 'Pueden ocupar una página completa, convivir con grandes espacios vacíos o integrarse mediante recortes y composiciones editoriales.', 'Los cielos, degradados y texturas pueden acompañar las imágenes cuando ayudan a construir una atmósfera.', 'No deben utilizarse como una obligación estética ni sustituir la claridad del mensaje.']),
-               ('Reconocimiento de marca', ['Una pieza editorial debe poder reconocerse como Keyons a través de su tipografía, diagramación, proporciones y decisiones visuales, sin depender exclusivamente del logotipo.', 'La coherencia se alcanza por la relación entre los elementos, no por repetir siempre el mismo recurso.'])]),
+        prosa(N('La pieza debe conservar jerarquía, equilibrio y contraste suficiente, aunque el color tenga gran presencia.', 'debe'),
+              N('Salmón Atardecer debe reservarse para composiciones oscuras.', 'debe')),
+        stack([('Fotografía y atmósfera', [N('Cada fotografía debe aportar significado, contexto o una perspectiva reconocible.', 'debe'),
+                                           N('Cielos, degradados y texturas pueden acompañarla cuando construyen una atmósfera.', 'puede')]),
+               ('Reconocimiento', [N('Una pieza editorial debe reconocerse como Keyons por su tipografía, su diagramación y sus proporciones, sin depender del logotipo.', 'debe')])]),
     ]),
     ('intensidad', '16.4', 'Intensidad', 'Elegir cuánto expresar', [
-        lead('La intensidad corporativa no se selecciona mediante una etiqueta fija. Se ajusta durante el diseño de acuerdo con la función de la pieza.'),
-        prosa('Cuando el contenido exige precisión, estabilidad o lectura extensa, conviene reducir la competencia visual.',
-              'Cuando la intención es explicar una visión, presentar un proyecto o construir una narrativa, puede aumentar el protagonismo de la fotografía, el color y la composición.',
-              'La decisión debe considerar:'),
-        pgrid([('Propósito', ['Informar, explicar, convencer, documentar o inspirar.']), ('Audiencia', ['Conocimientos, expectativas y necesidades de lectura.']),
-               ('Canal', ['Documento, pantalla, presentación, publicación o soporte físico.']), ('Contenido', ['Volumen, complejidad, importancia y sensibilidad de la información.'])]),
-        stack([('Una misma pieza puede variar', ['Una propuesta comercial puede comenzar con una portada de alto impacto, desarrollar su argumento mediante páginas editoriales y cerrar con condiciones formales de composición contenida.', 'No necesita escoger un único nivel para toda su extensión.', 'Las transiciones deben conservar continuidad tipográfica, cromática y compositiva.']),
-               ('Intensidad y densidad son diferentes', ['Una composición puede ser intensa y contener muy poca información.', 'También puede presentar numerosos datos sin ser visualmente expresiva.', 'La intensidad describe el protagonismo de los recursos de identidad. La densidad describe la concentración y organización de información.', 'Ambas dimensiones deben regularse por separado.'])]),
+        lead('La intensidad <strong>se ajusta durante el diseño</strong>, según la función de la pieza.'),
+        apoyo('La precisión y la lectura extensa piden menos competencia visual. Una visión o un proyecto admiten más fotografía, color y composición.'),
+        TRI,
+        sub('Cuatro preguntas para decidir'),
+        pgrid_v([('Propósito', ['Informar, explicar, convencer, documentar o inspirar.']), ('Audiencia', ['Conocimientos, expectativas y necesidades de lectura.']),
+                 ('Canal', ['Documento, pantalla, presentación, publicación o soporte físico.']), ('Contenido', ['Volumen, complejidad, importancia y sensibilidad de la información.'])]),
+        stack([('Una pieza, varias intensidades', [N('Una propuesta puede abrir con una portada de alto impacto, argumentar en páginas editoriales y cerrar con condiciones formales.', 'puede'),
+                                                   N('Las transiciones deben conservar continuidad tipográfica, cromática y compositiva.', 'debe')]),
+               ('Intensidad y densidad', [N('La intensidad mide el protagonismo de los recursos de identidad; la densidad, la cantidad y organización de la información. Cada una debe regularse por separado.', 'debe')])]),
     ]),
     ('documentos', '16.5', 'Documentos', 'El documento como expresión de marca', [
-        lead('Los documentos Keyons deben funcionar como herramientas claras y confiables, sin renunciar a su identidad visual.'),
-        prosa('La estructura documental establece continuidad entre diferentes usos. El nivel expresivo modifica la presentación sin alterar la integridad de la información.'),
-        stack([('Formatos', ['Se utiliza el formato que mejor responda al destino del documento: impresión, lectura digital, distribución o edición.', 'La elección debe considerar compatibilidad, facilidad de consulta, exportación y conservación.', 'No se crean formatos nuevos únicamente para diferenciarlos visualmente.']),
-               ('Márgenes y retícula', ['Los márgenes proporcionan protección al contenido y espacio para la lectura.', 'La retícula debe facilitar la alineación de títulos, párrafos, tablas, imágenes y referencias.', 'En documentos extensos, la repetición de posiciones permite reconocer la estructura de una página a otra.', 'Los valores exactos se toman de las especificaciones de formato correspondientes; no se improvisan para cada archivo.']),
-               ('Tipografía', ['Se utiliza el sistema tipográfico oficial de Keyons.', 'Los estilos de título, subtítulo, cuerpo, nota y cifra mantienen relaciones consistentes de tamaño, peso e interlineado.', 'La tipografía no debe reemplazarse por fuentes decorativas para simular una expresión más creativa.']),
-               ('Portada', ['La portada identifica el documento y establece su jerarquía principal.', 'Debe mostrar con claridad el título, el emisor y los datos de identificación necesarios.', 'Puede ser formal o editorial. El uso de fotografía, composición asimétrica o recursos cromáticos depende del contenido y la audiencia.']),
-               ('Encabezado y pie', ['Estos elementos contienen información recurrente útil, como identidad, título abreviado, versión o paginación.', 'Deben mantener una presencia discreta y consistente.', 'No es necesario repetir todos los metadatos en cada página cuando no aportan valor a la consulta.']),
-               ('Títulos y numeración', ['La jerarquía permite identificar capítulos, secciones y apartados sin depender únicamente del tamaño o del color.', 'La numeración se utiliza cuando facilita referencias, auditoría o navegación.', 'Los documentos editoriales pueden emplear encabezados más libres si su organización sigue siendo comprensible.']),
-               ('Tablas y cifras', ['Las tablas priorizan la comparación y la precisión.', 'Los números deben alinearse de manera consistente, mantener unidades visibles y permitir distinguir encabezados, valores, totales y notas.', 'El color puede ayudar a interpretar, pero no debe ser la única forma de diferenciar información.']),
-               ('Gráficos', ['Los gráficos se seleccionan según el tipo de relación que deben comunicar.', 'Se utilizan las <a href="../fundamentos/datos/graficos.html">normas de datos y visualización de Keyons</a> como fuente única para las paletas categóricas, secuenciales y divergentes.', 'Las decisiones gráficas deben favorecer lectura, comparación y exactitud antes que decoración.']),
-               ('Notas y citas', ['Las notas, fuentes y referencias deben ser fáciles de localizar sin competir con el contenido principal.', 'Los sistemas de citación siguen las exigencias del documento y su contexto.', 'La identidad visual puede definir su presentación, pero no modificar el sentido ni la integridad de las referencias.']),
-               ('Firmas', ['Los bloques de firma deben mostrar claramente quién interviene, su función y el dato que corresponda al procedimiento.', 'El diseño no puede crear ambigüedad sobre autoría, aprobación o responsabilidad.', 'La firma visual y la firma con validez jurídica son elementos distintos.']),
-               ('Sellos', ['Los sellos, marcas de agua y otros indicadores documentales se utilizan cuando cumplen una función de identificación, clasificación o control.', 'No deben presentarse como certificaciones o aprobaciones si no existe el respaldo correspondiente.', 'Su presencia debe conservar la legibilidad del documento.'])]),
-        cierre('Una pieza corporativa Keyons no necesita elegir entre rigor y personalidad. Su calidad está en saber cuánto protagonismo dar a cada uno.',
-               'El contenido determina la estructura. El criterio determina la expresión.'),
+        lead('Un documento Keyons es <strong>una herramienta clara y confiable</strong> con identidad propia.'),
+        apoyo('La estructura da continuidad. La intensidad cambia la presentación, nunca la información.'),
+        stack([('Formato', [N('El formato debe responder al destino del documento: impresión, lectura digital, distribución o edición.', 'debe')]),
+               ('Márgenes y retícula', [N('Márgenes y retícula deben tomarse de las especificaciones de cada formato y repetir sus posiciones de una página a otra.', 'debe')]),
+               ('Tipografía', [N('Títulos, cuerpo, notas y cifras deben usar el sistema tipográfico oficial, con relaciones constantes de tamaño, peso e interlineado.', 'debe')]),
+               ('Portada', [N('La portada debe mostrar el título, el emisor y los datos de identificación. Su intensidad, formal o editorial, depende del contenido y la audiencia.', 'debe')]),
+               ('Encabezado y pie', [N('Encabezado y pie deberían llevar solo la información recurrente útil: identidad, título breve, versión o página.', 'deberia')]),
+               ('Títulos y numeración', [N('La jerarquía debe distinguir capítulos, secciones y apartados sin depender solo del tamaño o del color. La numeración se usa cuando facilita referencias o auditorías.', 'debe')]),
+               ('Tablas y cifras', [N('Las cifras deben alinearse de forma constante y mostrar sus unidades. El color ayuda a leer, pero nunca es la única diferencia.', 'debe')]),
+               ('Gráficos', [N('Los gráficos deben seguir las <a href="../fundamentos/datos/graficos.html">normas de datos y visualización</a> de Keyons, fuente única de sus paletas.', 'debe')]),
+               ('Notas y citas', [N('Notas y referencias deben encontrarse con facilidad, sin competir con el texto principal.', 'debe')]),
+               ('Firmas', [N('Cada bloque de firma debe mostrar quién firma, con qué función y bajo qué procedimiento. La firma visual y la firma con validez jurídica son elementos distintos.', 'debe')]),
+               ('Sellos', [N('Sellos y marcas de agua deben corresponder a una certificación o aprobación real y conservar la legibilidad.', 'debe')])]),
+        cierre('Una pieza corporativa Keyons no necesita elegir entre rigor y personalidad.', 'Su calidad está en saber cuánto protagonismo dar a cada uno.'),
     ]),
 ]
 
-# ───────────── Capítulo 17 · Expresivo ─────────────
 C17 = [
     ('principios', '17.1', 'Principios', 'Libertad con intención', [
-        lead('La expresión de Keyons puede ser intensa, sensible, experimental y memorable sin perder claridad.'),
-        prosa('El carácter expresivo no depende de utilizar muchos colores, llenar una composición de elementos o aplicar efectos visuales. Depende de construir una relación significativa entre forma, contenido y emoción.',
-              'Una imagen puede dominar todo el espacio. Un título puede alterar la escala habitual. Un cielo puede transformar la atmósfera de una página. Una composición casi vacía puede resultar igualmente expresiva.',
-              'La libertad visual se ejerce dentro de la identidad compartida de Keyons.'),
-        pgrid([('Una identidad que permite explorar', ['La expresión visual de Keyons admite variaciones, contrastes y decisiones inesperadas.', 'La experimentación debe conservar una relación con los fundamentos de marca. La tipografía, el sistema cromático, la geometría y los principios de composición constituyen referencias reconocibles incluso cuando la pieza adopta una dirección poco convencional.']),
-               ('La intensidad no es saturación', ['Una composición expresiva no necesita reunir todos los recursos disponibles.', 'El uso simultáneo de fotografías, degradados, texturas, titulares grandes y movimiento puede producir una imagen intensa, pero también generar competencia visual.', 'La intensidad se construye seleccionando qué elemento merece protagonismo y qué elementos deben acompañarlo.']),
-               ('La emoción tiene una función', ['Los recursos expresivos deben transmitir una idea, construir una atmósfera o provocar una experiencia relacionada con el contenido.', 'Una fotografía puede aportar cercanía. Una composición abierta puede sugerir libertad. Una escala tipográfica inesperada puede transmitir determinación.', 'El recurso debe tener un propósito identificable.']),
-               ('La claridad permanece', ['La libertad gráfica no elimina las responsabilidades de lectura, accesibilidad y comprensión.', 'La información esencial debe seguir siendo localizable. El contraste, la jerarquía y la organización del contenido no pueden depender de que la persona interprete correctamente una intención artística.'])]),
+        lead('La expresión de Keyons puede ser <strong>intensa, sensible y memorable</strong> sin perder claridad.'),
+        apoyo('Su fuerza nace de la relación entre forma, contenido y emoción, más que de la cantidad de recursos.'),
+        pgrid_v([('Una identidad que permite explorar', [N('La experimentación debe conservar una relación visible con la tipografía, el color, la geometría y la composición de Keyons.', 'debe')]),
+                 ('La intensidad no es saturación', [N('Cada composición debe elegir un protagonista y los elementos que lo acompañan.', 'debe'), 'Reunir todos los recursos a la vez genera competencia visual.']),
+                 ('La emoción tiene una función', [N('Cada recurso expresivo debe transmitir una idea, una atmósfera o una experiencia ligada al contenido.', 'debe')]),
+                 ('La claridad permanece', [N('La información esencial debe seguir siendo fácil de encontrar, con contraste y jerarquía suficientes.', 'debe')])]),
     ]),
     ('composicion', '17.2', 'Composición', 'Una retícula que permite explorar', [
-        lead('La retícula de Keyons es una herramienta de composición, no una plantilla que todas las piezas deban repetir.'),
-        prosa('Puede utilizarse una estructura simétrica, una composición asimétrica controlada o una organización editorial más experimental.',
-              'Las variaciones deben conservar relaciones comprensibles entre los elementos.'),
-        stack([('Jerarquía y protagonismo', ['Cada composición debería establecer un centro de atención reconocible.', 'El protagonismo puede recaer en una fotografía, una frase, una cifra, una textura o una relación espacial.', 'Los elementos secundarios deben apoyar esa decisión.', 'No es necesario que todos los componentes tengan una presencia equivalente.']),
-               ('Espacio como recurso expresivo', ['El espacio libre permite crear contraste, pausa y expectativa.', 'Una composición con pocos elementos puede resultar más memorable que otra con abundantes recursos gráficos.', 'El espacio no debe entenderse como una zona pendiente de llenar.']),
-               ('Asimetría con equilibrio', ['La asimetría puede utilizarse para producir movimiento, tensión o una lectura menos convencional.', 'Debe mantenerse un equilibrio perceptible mediante escala, distribución, alineación o contraste.', 'La irregularidad no es por sí misma una señal de creatividad.']),
-               ('Composición no intercambiable', ['Cada pieza debe presentar decisiones visuales relacionadas con su contenido y propósito.', 'No basta con sustituir una fotografía, cambiar un título y conservar una composición genérica para considerar que existe una dirección creativa.', 'La identidad Keyons debe reconocerse por la calidad y coherencia de sus decisiones, no por repetir fórmulas visuales.'])]),
+        lead('La retícula es <strong>una herramienta</strong>, no una plantilla.'),
+        apoyo('Admite simetría, asimetría controlada o una organización editorial experimental.'),
+        stack([('Protagonista', [N('Cada composición debería tener un centro de atención reconocible: una fotografía, una frase, una cifra o una relación espacial.', 'deberia')]),
+               ('Espacio', ['El espacio libre crea contraste, pausa y expectativa. Pocos elementos bien elegidos suelen recordarse más que muchos.']),
+               ('Asimetría', [N('La asimetría puede generar movimiento o tensión, siempre con un equilibrio perceptible.', 'puede')]),
+               ('Composición propia', [N('Cada pieza debe tener decisiones visuales propias de su contenido. Cambiar solo la foto y el título de una composición genérica tampoco es dirección creativa.', 'debe')])]),
     ]),
     ('tipografia', '17.3', 'Tipografía', 'La letra también expresa', [
-        lead('La tipografía puede asumir una función narrativa además de informativa.'),
-        prosa('La escala, el peso, la alineación, el ritmo y el espacio permiten construir composiciones con personalidad sin abandonar las familias tipográficas oficiales.',
-              'Un titular puede ocupar una proporción considerable del lienzo. Una palabra puede destacarse por su posición. Una composición puede utilizar un contraste marcado entre título y cuerpo.'),
-        stack([('Libertad con jerarquía', ['Los tratamientos expresivos se concentran preferentemente en títulos, aperturas, mensajes breves y elementos editoriales protagonistas.', 'Los textos destinados a lectura continua mantienen condiciones de legibilidad, contraste y espaciado apropiadas.', 'La experimentación no debe trasladar complejidad innecesaria a párrafos, instrucciones o contenidos operativos.']),
-               ('Tipografía como firma', ['La combinación de tipografía y diagramación puede ser suficiente para identificar una pieza como Keyons.', 'Una composición sin fotografía, ilustración ni degradado puede expresar plenamente la marca mediante proporciones, contraste y ritmo.', 'No es obligatorio incorporar recursos adicionales cuando la tipografía resuelve la intención visual.'])]),
+        lead('La tipografía <strong>también narra</strong>.'),
+        apoyo('Escala, peso, alineación y ritmo construyen personalidad con las familias oficiales.'),
+        stack([('Dónde se expresa', [N('Los tratamientos expresivos deberían concentrarse en títulos, aperturas y mensajes breves.', 'deberia')]),
+               ('Lectura continua', [N('Los textos de lectura continua deben mantener legibilidad, contraste y espaciado adecuados.', 'debe')]),
+               ('Tipografía como firma', [N('Tipografía y diagramación pueden bastar para que una pieza se reconozca como Keyons, sin otros recursos.', 'puede')])]),
     ]),
     ('color', '17.4', 'Color y cielos', 'El color construye atmósfera', [
-        lead('El sistema cromático de Keyons permite composiciones contenidas e intensas.'),
-        prosa('La expresión puede aumentar mediante contrastes, superficies de color, fotografías, cielos y degradados.',
-              'La intensidad no exige utilizar toda la paleta. Una pieza monocromática también puede ser expresiva.'),
-        stack([('Cielos', ['Los cielos son un recurso atmosférico propio de la identidad Keyons.', 'Permiten explorar transiciones de luz, profundidad, temperatura y estados visuales.', 'Su utilización debe responder a la intención de la pieza y a las normas de construcción cromática correspondientes.', 'No constituyen una paleta para representar categorías nominales, resultados o estados funcionales.']),
-               ('Degradados', ['Los degradados deben percibirse como transiciones naturales y cuidadas.', 'Se deben evitar cambios bruscos de color, cortes visuales no intencionados y combinaciones que comprometan el contraste del contenido superpuesto.', 'La posición, extensión y dirección de un degradado pueden adaptarse a la composición.', 'No es necesario reproducir exactamente el mismo encuadre en todos los soportes.']),
-               ('Color con propósito', ['El color puede establecer protagonismo, separar planos, comunicar temperatura emocional o reforzar una identidad.', 'Debe respetarse la diferencia entre color expresivo, color de datos y color semántico.', 'Un color oficial de marca no adquiere automáticamente una función de advertencia, éxito o error.', 'Las reglas cromáticas y de contraste existentes siguen siendo la fuente normativa para sus aplicaciones.'])]),
+        lead('El sistema cromático permite <strong>piezas contenidas e intensas</strong>.'),
+        apoyo('La intensidad no exige toda la paleta: una pieza monocromática también puede ser expresiva.'),
+        stack([('Cielos', [N('Los cielos deben responder a la intención de la pieza y a sus normas de construcción. Su función es atmosférica: categorías, resultados y estados usan otros colores.', 'debe')]),
+               ('Degradados', [N('Los degradados deben verse como transiciones naturales, sin cortes ni saltos que afecten el contraste del texto.', 'debe'),
+                               N('Su posición, extensión y dirección pueden adaptarse a cada soporte.', 'puede')]),
+               ('Color con propósito', [N('El color expresivo, el color de datos y el color semántico deben mantenerse separados. Un color de marca nunca indica por sí solo éxito, advertencia o error.', 'debe')])]),
     ]),
     ('recursos', '17.5', 'Recursos', 'Cada recurso con un propósito', [
-        pgrid([('Fotografía', ['La fotografía puede asumir el protagonismo de una composición.', 'Su selección debe responder a una intención narrativa y a criterios de calidad, autenticidad y pertinencia.', 'Se favorecen imágenes con carácter, iluminación cuidada, composición deliberada y una relación clara con el contenido.', 'No se requiere que todas las fotografías tengan una estética idéntica.']),
-               ('Ilustración e imágenes sintéticas', ['La ilustración y las imágenes generadas mediante inteligencia artificial pueden formar parte de la expresión de Keyons.', 'Su dirección artística debe estar gobernada por criterio humano, originalidad y cumplimiento de derechos.', 'Una imagen sintética no debe presentarse como documentación fotográfica de un hecho real.']),
-               ('Texturas y tramas', ['Las texturas pueden crear profundidad y carácter sin afectar la información.', 'Las tramas geométricas mantienen trazos definidos, continuos y uniformes.', 'Su presencia debe ser proporcionada al contenido. Cuando compiten con textos, cifras o elementos esenciales, deben reducirse o retirarse.']),
-               ('Movimiento', ['El movimiento puede aportar ritmo, transición y carácter.', 'Las animaciones editoriales tienen mayor libertad expresiva que las operativas, pero deben conservar intención, continuidad y respeto por las preferencias de accesibilidad.', 'La animación no debe convertirse en un requisito para comprender el contenido.']),
-               ('Firma humana', ['La expresión Keyons nace de decisiones de diseño deliberadas.', 'La intervención humana se manifiesta en la selección, composición, edición y evaluación del resultado, no en introducir defectos artificiales para aparentar originalidad.', 'La tecnología puede ampliar las posibilidades creativas; el criterio determina cuáles vale la pena utilizar.'])]),
+        lead('Cada recurso entra <strong>cuando ayuda a comunicar</strong>.'),
+        apoyo('Fotografía, ilustración, texturas y movimiento suman carácter; la decisión siempre es humana.'),
+        pgrid_v([('Fotografía', [N('La fotografía puede asumir el protagonismo de una composición.', 'puede'), N('Su selección debe responder a una intención narrativa, con calidad, autenticidad y pertinencia.', 'debe')]),
+                 ('Ilustración e imágenes sintéticas', [N('Su dirección artística debe partir de criterio humano, originalidad y respeto de derechos.', 'debe'), N('Una imagen sintética no debe presentarse como fotografía documental de un hecho real.', 'no-debe')]),
+                 ('Texturas y tramas', [N('Las texturas deben ceder ante textos, cifras y elementos esenciales: si compiten, se reducen o se retiran.', 'debe')]),
+                 ('Movimiento', [N('El contenido debe comprenderse sin la animación, y el movimiento, respetar las preferencias de accesibilidad.', 'debe')]),
+                 ('Firma humana', ['La expresión Keyons nace de decisiones deliberadas: selección, composición, edición y evaluación.', 'La tecnología amplía las posibilidades; el criterio decide cuáles usar.'])]),
     ]),
     ('limites', '17.6', 'Límites', 'La libertad no elimina la responsabilidad', [
-        lead('Las composiciones expresivas deben conservar las condiciones necesarias de contraste, accesibilidad, comprensión y reconocimiento de marca.'),
-        prosa('La intensidad visual nunca justifica ocultar información esencial o dificultar una acción.'),
-        stack([('El recurso no es una obligación', ['No todas las piezas expresivas necesitan fotografía, textura, cielos, degradados o movimiento.', 'Tampoco existe un porcentaje universal de distribución cromática que determine si una pieza es válida.', 'Las proporciones orientativas pueden ayudar a iniciar una composición, pero su calidad se evalúa por el resultado y el contexto.']),
-               ('Evitar la expresión automática', ['Una pieza pierde singularidad cuando sus decisiones gráficas son intercambiables con las de cualquier otra marca.', 'La acumulación de tendencias, efectos y recursos reconocibles no sustituye una dirección creativa propia.']),
-               ('Cada contexto establece sus límites', ['Una campaña puede permitir una composición altamente experimental.', 'Un formulario de uso frecuente exige mayor estabilidad y previsibilidad.', 'La identidad puede expresar carácter en ambos contextos, pero no necesariamente con los mismos recursos ni la misma intensidad.'])]),
-        cierre('Keyons no necesita verse siempre igual para ser reconocible.', 'Su identidad ofrece un lenguaje compartido. La expresión permite utilizarlo con libertad, sensibilidad y criterio.',
-               'La creatividad no consiste en añadir más. Consiste en encontrar la forma que mejor comunica lo que importa.'),
+        lead(N('Toda pieza expresiva debe conservar contraste, accesibilidad, comprensión y reconocimiento de marca.', 'debe')),
+        apoyo('La intensidad visual nunca justifica ocultar información o dificultar una acción.'),
+        stack([('Recursos opcionales', ['Fotografía, texturas, cielos, degradados y movimiento son opcionales. Las proporciones de color sirven como punto de partida; la calidad se juzga por el resultado y el contexto.']),
+               ('Expresión propia', [N('Las decisiones gráficas deben ser propias de Keyons. Sumar tendencias y efectos de moda tampoco sustituye una dirección creativa.', 'debe')]),
+               ('Cada contexto', [N('Una campaña puede ser muy experimental; un formulario de uso frecuente pide estabilidad y previsibilidad.', 'puede')])]),
+        cierre('Keyons no necesita verse siempre igual para ser reconocible.', 'La creatividad no consiste en añadir más. Consiste en encontrar la forma que mejor comunica lo que importa.'),
     ]),
 ]
 
@@ -268,3 +291,6 @@ s = re.sub(r"(\{ n: '17', k: 'expresivo',[^\n]*?)s: '[pbv]'(, d: '[^']*', items:
            lambda m: m.group(1) + "s: 'b'" + m.group(2) + '\n        ' + items('expresivo.html', C17) + ' ] }', s, count=1, flags=re.S)
 io.open(nav, 'w', encoding='utf-8', newline='\n').write(s)
 print('ok · 16:', len(C16), 'secciones · 17:', len(C17), 'secciones')
+
+registrar('modos/corporativo.html')
+registrar('modos/expresivo.html')

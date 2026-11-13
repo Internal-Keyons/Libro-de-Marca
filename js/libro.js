@@ -292,9 +292,10 @@
   const heroEl = document.querySelector('.hero');
   if (heroEl) cielos.push([heroEl, 'mediodia', 'portada']);
   document.querySelectorAll('.portal').forEach((p) => {
-    /* Sin cielo animado: --plano muestra solo el color de su área; --atardecer (Aplicaciones), la imagen de Prisma de marca.css */
-    if (p.matches('.portal--photo, .portal--img, .portal--plano, .portal--atardecer')) return;
-    const sky = p.matches('.portal--cielo') ? 'mediodia' : p.matches('.portal--salmon') ? 'atardecer' : 'noche';
+    /* Sin cielo animado: --plano muestra solo el color de su área; un módulo Salmón Tierra (--salmon sin --atardecer),
+       la imagen de atardecer de Prisma de marca.css (reglas-visuales 1.8) */
+    if (p.matches('.portal--photo, .portal--img, .portal--plano, .portal--salmon:not(.portal--atardecer)')) return;
+    const sky = p.matches('.portal--cielo') ? 'mediodia' : p.matches('.portal--atardecer') ? 'tenue' : 'noche';
     cielos.push([p, sky, document.body.dataset.page || location.pathname, true]);
   });
   /* Muestras de cielo dentro del contenido (ESP-006, Secuencia Prisma): el mismo cielo en código, una fase por muestra */
@@ -307,6 +308,18 @@
     const SUB_SPEED = 1.5;
     s.onload = () => cielos.forEach(([el, sky, seed, sub], i) => {
       let key = sky;
+      /* Atardecer tenue (reglas-visuales 1.8): el cielo de atardecer con los tonos de tokens.css, de Azul Cielo a Salmón Atardecer.
+         Solo configuración del módulo (máximo seis paradas) */
+      const K0 = window.KeyonsCielo.SKIES;
+      if (sky === 'tenue' && !K0.tenue) {
+        const t = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+        const c = { c4: t('--k-cielo-400'), c3: t('--k-cielo-300'), c2: t('--k-cielo-200'), lv: t('--k-lavanda-tenue'), a3: t('--k-atardecer-300'), a2: t('--k-atardecer-200'), a: t('--k-atardecer') };
+        K0.tenue = Object.assign({}, K0.atardecer, {
+          stops: [[c.c4, 0], [c.c3, .22], [c.c2, .42], [c.lv, .6], [c.a3, .8], [c.a, 1]],
+          glow: [c.a2, .3, 0, .45, .35], band: [c.lv, .5, .1, .1],
+          clouds: Object.assign({}, K0.atardecer.clouds, { lit: c.a2, low: c.a, high: c.c2, alpha: .5 }),
+        });
+      }
       if (sub) {
         const K = window.KeyonsCielo.SKIES, r = el.getBoundingClientRect(), asp = r.width / Math.max(r.height, 1);
         key = `${sky}-sub${i}`;

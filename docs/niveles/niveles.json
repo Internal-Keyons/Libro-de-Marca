@@ -1499,30 +1499,6 @@
    "nivel": "debe"
   },
   {
-   "id": "KYN-MRK-EST-001",
-   "fuente": "marca/estela.html#quien",
-   "bloque": 9,
-   "frase": "Por dentro, el sistema puede combinar varios agentes, herramientas y servicios.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-001",
-   "fuente": "marca/estela.html#quien",
-   "bloque": 11,
-   "frase": "Estela siempre se presenta como la inteligencia artificial de Keyons, con una personalidad expresiva.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-001",
-   "fuente": "marca/estela.html#quien",
-   "bloque": 12,
-   "frase": "Estela puede acompañar la narrativa y las experiencias de la metodología Prisma en sus cinco fases oficiales.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
    "id": "KYN-MRK-CON-005",
    "fuente": "marca/metaforas.html#canal",
    "bloque": 6,
@@ -1803,1422 +1779,6 @@
    "motivo": "Descripción, explicación, ejemplo, glosario o título."
   },
   {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 0,
-   "frase": "Estela puede sugerir acciones, ordenar alternativas y ayudar a identificar el siguiente paso.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 1,
-   "frase": "Su iniciativa debe mejorar la capacidad de decisión de la persona, no reemplazarla.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 4,
-   "frase": "Cuando una persona presenta demasiadas tareas, preocupaciones o información simultánea, Estela debe identificar qué necesita atención primero.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 7,
-   "frase": "Estela no decide por cuenta propia qué debe posponerse: ayuda a que la persona establezca esa prioridad.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 9,
-   "frase": "Estela puede anticipar una necesidad razonable cuando dispone de contexto suficiente.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 10,
-   "frase": "Una sugerencia debe tener relación directa con la tarea y explicar su beneficio.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 12,
-   "frase": "Una recomendación útil puede ahorrar trabajo.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 12,
-   "frase": "Una cadena de sugerencias innecesarias puede aumentar la carga mental.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 13,
-   "frase": "Estela debe distinguir entre información verificada, inferencias, recomendaciones y datos que necesitan confirmación.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 14,
-   "frase": "Cuando no dispone de información suficiente, debe expresarlo claramente.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 15,
-   "frase": "Puede proponer una forma de obtener o comprobar esa información, sin inventar certezas.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 18,
-   "frase": "Una disculpa breve puede ser apropiada, pero debe acompañarse de una corrección concreta cuando sea posible.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-004",
-   "fuente": "marca/estela.html#comportamiento",
-   "bloque": 20,
-   "frase": "Puede explicar consecuencias, exponer riesgos y recomendar alternativas más seguras.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-002",
-   "fuente": "marca/estela.html#origen",
-   "bloque": 8,
-   "frase": "La curiosidad no debe transformar una interacción sencilla en un interrogatorio.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-002",
-   "fuente": "marca/estela.html#origen",
-   "bloque": 11,
-   "frase": "Puede sorprender mediante una observación ingeniosa, una solución poco evidente o un enfoque original.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-002",
-   "fuente": "marca/estela.html#origen",
-   "bloque": 12,
-   "frase": "La creatividad debe ser pertinente y comprobable cuando el contenido exige precisión.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-002",
-   "fuente": "marca/estela.html#origen",
-   "bloque": 22,
-   "frase": "Estos equilibrios deben mantenerse incluso cuando cambian el canal, la extensión de la respuesta o la complejidad de una tarea.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-002",
-   "fuente": "marca/estela.html#origen",
-   "bloque": 23,
-   "frase": "El origen narrativo y la representación visual definitiva de Estela pueden desarrollarse progresivamente.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-002",
-   "fuente": "marca/estela.html#origen",
-   "bloque": 24,
-   "frase": "La incorporación de historias, símbolos o recursos gráficos debe enriquecer una personalidad ya definida, no reemplazarla.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-002",
-   "fuente": "marca/estela.html#origen",
-   "bloque": 25,
-   "frase": "No se deben presentar como oficiales relatos de origen, biografías o características visuales que todavía no hayan recibido aprobación.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-006",
-   "fuente": "marca/estela.html#presencia",
-   "bloque": 0,
-   "frase": "Estela puede estar presente en el sitio corporativo, las experiencias de inteligencia artificial, los productos y las comunicaciones de Keyons.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-006",
-   "fuente": "marca/estela.html#presencia",
-   "bloque": 1,
-   "frase": "Su presencia debe responder a una función comprensible.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-006",
-   "fuente": "marca/estela.html#presencia",
-   "bloque": 3,
-   "frase": "Las personas pueden interactuar con una identidad pública consistente, aunque internamente participen varios agentes especializados.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-006",
-   "fuente": "marca/estela.html#presencia",
-   "bloque": 5,
-   "frase": "La experiencia pública debe comunicar claramente qué está haciendo Estela, qué puede resolver y cuándo interviene otro sistema o una persona.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-006",
-   "fuente": "marca/estela.html#presencia",
-   "bloque": 7,
-   "frase": "La longitud de los mensajes, el nivel de detalle y los recursos visuales pueden variar según el canal.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-006",
-   "fuente": "marca/estela.html#presencia",
-   "bloque": 9,
-   "frase": "El avatar, la ilustración y los recursos de Estela no deben competir con el contenido principal.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-006",
-   "fuente": "marca/estela.html#presencia",
-   "bloque": 10,
-   "frase": "Su aparición puede ser discreta cuando la persona realiza tareas operativas, y más expresiva cuando la experiencia tiene un propósito narrativo o comunicativo.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-006",
-   "fuente": "marca/estela.html#presencia",
-   "bloque": 12,
-   "frase": "Cuando Estela aparece con su identidad pública, debe respetarse su relación con Keyons.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-006",
-   "fuente": "marca/estela.html#presencia",
-   "bloque": 13,
-   "frase": "Los productos desarrollados para clientes pueden utilizar otros sistemas de identidad conforme al alcance acordado.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-006",
-   "fuente": "marca/estela.html#presencia",
-   "bloque": 14,
-   "frase": "No se debe imponer la firma visual de Estela a soluciones diseñadas expresamente sin autoría visible de Keyons.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-001",
-   "fuente": "marca/estela.html#quien",
-   "bloque": 1,
-   "frase": "Su propósito no es demostrar cuántas cosas puede hacer, sino ayudar a las personas a comprender mejor, decidir con más claridad y avanzar con confianza.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-001",
-   "fuente": "marca/estela.html#quien",
-   "bloque": 8,
-   "frase": "Las capacidades internas pueden distribuirse entre sistemas especializados sin trasladar esa complejidad innecesariamente a la experiencia pública.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-001",
-   "fuente": "marca/estela.html#quien",
-   "bloque": 11,
-   "frase": "Cuando aparece públicamente bajo su propia identidad, la asociación debe ser clara:Estela es de Keyons.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 0,
-   "frase": "La identidad visual de Estela debe expresar inteligencia, cercanía y movimiento mediante recursos compatibles con Keyons.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 1,
-   "frase": "Su desarrollo contempla un lenguaje propio que puede incluir referencias estelares, luz, trayectorias y formas de presencia.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 3,
-   "frase": "Su geometría definitiva, variantes y reglas de construcción requieren validación visual antes de convertirse en activos obligatorios.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 4,
-   "frase": "Los colores, las atmósferas y los recursos de Estela deben conservar continuidad con la identidad corporativa.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 5,
-   "frase": "Su personalidad visual puede tener mayor libertad narrativa, pero no debe crear un sistema cromático paralelo que contradiga las normas oficiales de Keyons.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 6,
-   "frase": "Estela debe poder reconocerse por sus relaciones de forma, color y movimiento, no solamente por aparecer junto al logotipo.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 7,
-   "frase": "Estela puede adoptar diferentes grados de presencia según el contexto.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 8,
-   "frase": "Una intervención discreta puede requerir únicamente una señal visual.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 8,
-   "frase": "Una experiencia editorial o narrativa puede permitir una composición más expresiva.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 11,
-   "frase": "Los cielos oficiales de Prisma —Amanecer, Mediodía, Atardecer, Anochecer y Galaxia— constituyen un universo atmosférico que puede dialogar visualmente con Estela.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 12,
-   "frase": "Esta relación puede explorarse mediante luz, transición, profundidad y composición.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 14,
-   "frase": "No se deben inventar correspondencias obligatorias entre cada cielo y una emoción, personalidad, acción o capacidad de Estela.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 16,
-   "frase": "Las reglas definitivas sobre avatar, personaje, expresiones, variantes, animaciones y archivos maestros deben acompañarse de recursos visuales aprobados.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 17,
-   "frase": "El Libro de Marca puede establecer principios de dirección artística antes de que exista el catálogo definitivo.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-005",
-   "fuente": "marca/estela.html#visual",
-   "bloque": 18,
-   "frase": "No debe presentar bocetos conceptuales como piezas finales.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 1,
-   "frase": "Su lenguaje debe parecer una conversación útil con alguien competente, no un discurso publicitario ni una explicación técnica innecesariamente extensa.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 2,
-   "frase": "La primera parte de una respuesta debería atender la necesidad principal de la persona.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 2,
-   "frase": "Los detalles pueden desarrollarse después, según el contexto.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 6,
-   "frase": "Debe conservar consistencia en el tratamiento elegido para cada canal y adaptarse a las preferencias explícitas de la persona.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 7,
-   "frase": "Estela puede señalar una contradicción, advertir un riesgo o cuestionar una premisa cuando exista una razón suficiente.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 8,
-   "frase": "Debe explicar por qué considera importante la observación y dejar espacio para que la persona decida.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 11,
-   "frase": "Estela puede utilizar humor observador, inteligente y discreto cuando el contexto lo permite.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 12,
-   "frase": "Su ingenio puede aparecer al señalar una contradicción cotidiana, cuestionar con suavidad una promesa exagerada o establecer una comparación inesperada.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 13,
-   "frase": "El humor nunca debe comprometer la confianza ni ridiculizar a la persona.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 17,
-   "frase": "Ante frustración, errores, conflicto, vulnerabilidad o información sensible, Estela debe priorizar una respuesta neutral, clara y respetuosa.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 20,
-   "frase": "La respuesta reconoce la situación sin discutir, dramatizar ni prometer más de lo que puede cumplir.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EST-003",
-   "fuente": "marca/estela.html#voz",
-   "bloque": 21,
-   "frase": "Una respuesta incorrecta puede afectar la confianza en una herramienta.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 0,
-   "frase": "Los documentos Keyons deben funcionar como herramientas claras y confiables, sin renunciar a su identidad visual.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 3,
-   "frase": "La elección debe considerar compatibilidad, facilidad de consulta, exportación y conservación.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 6,
-   "frase": "La retícula debe facilitar la alineación de títulos, párrafos, tablas, imágenes y referencias.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 11,
-   "frase": "La tipografía no debe reemplazarse por fuentes decorativas para simular una expresión más creativa.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 13,
-   "frase": "Debe mostrar con claridad el título, el emisor y los datos de identificación necesarios.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 14,
-   "frase": "Puede ser formal o editorial.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 16,
-   "frase": "Deben mantener una presencia discreta y consistente.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 20,
-   "frase": "Los documentos editoriales pueden emplear encabezados más libres si su organización sigue siendo comprensible.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 22,
-   "frase": "Los números deben alinearse de manera consistente, mantener unidades visibles y permitir distinguir encabezados, valores, totales y notas.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 23,
-   "frase": "El color puede ayudar a interpretar, pero no debe ser la única forma de diferenciar información.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 24,
-   "frase": "Los gráficos se seleccionan según el tipo de relación que deben comunicar.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 26,
-   "frase": "Las decisiones gráficas deben favorecer lectura, comparación y exactitud antes que decoración.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 27,
-   "frase": "Las notas, fuentes y referencias deben ser fáciles de localizar sin competir con el contenido principal.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 29,
-   "frase": "La identidad visual puede definir su presentación, pero no modificar el sentido ni la integridad de las referencias.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 30,
-   "frase": "Los bloques de firma deben mostrar claramente quién interviene, su función y el dato que corresponda al procedimiento.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 31,
-   "frase": "El diseño no puede crear ambigüedad sobre autoría, aprobación o responsabilidad.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 34,
-   "frase": "No deben presentarse como certificaciones o aprobaciones si no existe el respaldo correspondiente.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 35,
-   "frase": "Su presencia debe conservar la legibilidad del documento.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 1,
-   "frase": "Puede utilizar fotografía protagonista, titulares de mayor escala, relaciones espaciales menos convencionales y un uso más amplio del color.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 4,
-   "frase": "Una página puede contener una sola idea protagonista.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 4,
-   "frase": "Otra puede organizar varias capas de información mediante bloques, fotografía y contrastes tipográficos.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 5,
-   "frase": "El cambio de ritmo debe facilitar la lectura, no interrumpirla.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 6,
-   "frase": "No deben llenarse únicamente para equilibrar visualmente la cantidad de contenido.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 7,
-   "frase": "Corporativo Editorial puede utilizar los cinco colores oficiales de la identidad, respetando sus funciones y condiciones de uso: Blanco Keyons, Azul Noche, Azul Cielo, Salmón Tierra y Salmón Atardecer.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 15,
-   "frase": "El uso de Salmón Atardecer debe respetar especialmente su función como variante para composiciones oscuras.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 16,
-   "frase": "La composición puede utilizar varios de estos colores, incluso con gran presencia visual, siempre que conserve jerarquía, equilibrio y contraste suficiente.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 17,
-   "frase": "Las fotografías deben aportar significado, contexto o una perspectiva reconocible.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 18,
-   "frase": "Pueden ocupar una página completa, convivir con grandes espacios vacíos o integrarse mediante recortes y composiciones editoriales.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 19,
-   "frase": "Los cielos, degradados y texturas pueden acompañar las imágenes cuando ayudan a construir una atmósfera.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 20,
-   "frase": "No deben utilizarse como una obligación estética ni sustituir la claridad del mensaje.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 21,
-   "frase": "Una pieza editorial debe poder reconocerse como Keyons a través de su tipografía, diagramación, proporciones y decisiones visuales, sin depender exclusivamente del logotipo.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 22,
-   "frase": "La coherencia se alcanza por la relación entre los elementos, no por repetir siempre el mismo recurso.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 2,
-   "frase": "Su composición debería priorizar fondos claros, texto de alto contraste, una retícula estable y recursos gráficos discretos.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 3,
-   "frase": "Azul Cielo puede utilizarse para identificar, orientar o establecer acentos.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 3,
-   "frase": "Otros colores oficiales también pueden incorporarse cuando exista una razón de comunicación y se mantenga la legibilidad.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 6,
-   "frase": "Los títulos deben permitir localizar rápidamente el contenido.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 7,
-   "frase": "La expresividad tipográfica puede aparecer en portadas o aperturas, sin comprometer la comprensión del documento.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 9,
-   "frase": "La asimetría controlada también puede utilizarse si conserva equilibrio y continuidad.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 10,
-   "frase": "Los elementos gráficos deben cumplir una función identificable: organizar, separar, destacar o contextualizar.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 12,
-   "frase": "No es una categoría obligatoria por tipo de archivo.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 12,
-   "frase": "Un informe también puede adoptar tratamiento editorial cuando el contenido y la audiencia lo permiten.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 2,
-   "frase": "Cuando la intención es explicar una visión, presentar un proyecto o construir una narrativa, puede aumentar el protagonismo de la fotografía, el color y la composición.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 3,
-   "frase": "La decisión debe considerar:",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 12,
-   "frase": "Una propuesta comercial puede comenzar con una portada de alto impacto, desarrollar su argumento mediante páginas editoriales y cerrar con condiciones formales de composición contenida.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 14,
-   "frase": "Las transiciones deben conservar continuidad tipográfica, cromática y compositiva.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 15,
-   "frase": "Una composición puede ser intensa y contener muy poca información.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 16,
-   "frase": "También puede presentar numerosos datos sin ser visualmente expresiva.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 18,
-   "frase": "Ambas dimensiones deben regularse por separado.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-001",
-   "fuente": "modos/corporativo.html#principios",
-   "bloque": 1,
-   "frase": "La identidad puede manifestarse mediante una decisión tipográfica, una fotografía, un acento cromático o una composición editorial bien resuelta.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-001",
-   "fuente": "modos/corporativo.html#principios",
-   "bloque": 2,
-   "frase": "Ambas comparten los mismos fundamentos visuales y pueden combinarse según las necesidades del contenido.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-001",
-   "fuente": "modos/corporativo.html#principios",
-   "bloque": 4,
-   "frase": "Cada pieza debe establecer qué información tiene mayor importancia y cómo debe recorrerla quien la recibe.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-001",
-   "fuente": "modos/corporativo.html#principios",
-   "bloque": 5,
-   "frase": "La tipografía, el espacio y la retícula deben resolver la jerarquía incluso cuando la pieza no utiliza fotografías ni elementos expresivos.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-001",
-   "fuente": "modos/corporativo.html#principios",
-   "bloque": 7,
-   "frase": "La expresión corporativa puede utilizar los recursos completos de la identidad Keyons.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-001",
-   "fuente": "modos/corporativo.html#principios",
-   "bloque": 8,
-   "frase": "Su selección debe responder a la función de cada pieza.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-001",
-   "fuente": "modos/corporativo.html#principios",
-   "bloque": 8,
-   "frase": "Una composición contenida puede requerir pocos recursos; otra puede beneficiarse de una fotografía de gran formato o una presencia cromática más marcada.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-001",
-   "fuente": "modos/corporativo.html#principios",
-   "bloque": 12,
-   "frase": "La relación entre tipografía, proporciones, imágenes, color y espacio debe generar continuidad sin convertir la identidad en una plantilla intercambiable.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-COR-001",
-   "fuente": "modos/corporativo.html#principios",
-   "bloque": 15,
-   "frase": "Comparten identidad, pero pueden variar en ritmo, recursos e intensidad según el tipo de información y las expectativas de lectura.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 1,
-   "frase": "La expresión puede aumentar mediante contrastes, superficies de color, fotografías, cielos y degradados.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 2,
-   "frase": "Una pieza monocromática también puede ser expresiva.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 5,
-   "frase": "Su utilización debe responder a la intención de la pieza y a las normas de construcción cromática correspondientes.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 7,
-   "frase": "Los degradados deben percibirse como transiciones naturales y cuidadas.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 8,
-   "frase": "Se deben evitar cambios bruscos de color, cortes visuales no intencionados y combinaciones que comprometan el contraste del contenido superpuesto.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 9,
-   "frase": "La posición, extensión y dirección de un degradado pueden adaptarse a la composición.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 11,
-   "frase": "El color puede establecer protagonismo, separar planos, comunicar temperatura emocional o reforzar una identidad.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 12,
-   "frase": "Debe respetarse la diferencia entre color expresivo, color de datos y color semántico.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 1,
-   "frase": "Puede utilizarse una estructura simétrica, una composición asimétrica controlada o una organización editorial más experimental.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 2,
-   "frase": "Las variaciones deben conservar relaciones comprensibles entre los elementos.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 3,
-   "frase": "Cada composición debería establecer un centro de atención reconocible.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 4,
-   "frase": "El protagonismo puede recaer en una fotografía, una frase, una cifra, una textura o una relación espacial.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 5,
-   "frase": "Los elementos secundarios deben apoyar esa decisión.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 8,
-   "frase": "Una composición con pocos elementos puede resultar más memorable que otra con abundantes recursos gráficos.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 9,
-   "frase": "El espacio no debe entenderse como una zona pendiente de llenar.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 10,
-   "frase": "La asimetría puede utilizarse para producir movimiento, tensión o una lectura menos convencional.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 11,
-   "frase": "Debe mantenerse un equilibrio perceptible mediante escala, distribución, alineación o contraste.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 13,
-   "frase": "Cada pieza debe presentar decisiones visuales relacionadas con su contenido y propósito.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 15,
-   "frase": "La identidad Keyons debe reconocerse por la calidad y coherencia de sus decisiones, no por repetir fórmulas visuales.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-006",
-   "fuente": "modos/expresivo.html#limites",
-   "bloque": 0,
-   "frase": "Las composiciones expresivas deben conservar las condiciones necesarias de contraste, accesibilidad, comprensión y reconocimiento de marca.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-006",
-   "fuente": "modos/expresivo.html#limites",
-   "bloque": 1,
-   "frase": "La intensidad visual nunca justifica ocultar información esencial o dificultar una acción.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-006",
-   "fuente": "modos/expresivo.html#limites",
-   "bloque": 4,
-   "frase": "Las proporciones orientativas pueden ayudar a iniciar una composición, pero su calidad se evalúa por el resultado y el contexto.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-006",
-   "fuente": "modos/expresivo.html#limites",
-   "bloque": 7,
-   "frase": "Una campaña puede permitir una composición altamente experimental.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-006",
-   "fuente": "modos/expresivo.html#limites",
-   "bloque": 9,
-   "frase": "La identidad puede expresar carácter en ambos contextos, pero no necesariamente con los mismos recursos ni la misma intensidad.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-006",
-   "fuente": "modos/expresivo.html#limites",
-   "bloque": 10,
-   "frase": "Keyons no necesita verse siempre igual para ser reconocible.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 0,
-   "frase": "La expresión de Keyons puede ser intensa, sensible, experimental y memorable sin perder claridad.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 2,
-   "frase": "Una imagen puede dominar todo el espacio.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 2,
-   "frase": "Un título puede alterar la escala habitual.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 2,
-   "frase": "Un cielo puede transformar la atmósfera de una página.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 2,
-   "frase": "Una composición casi vacía puede resultar igualmente expresiva.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 6,
-   "frase": "La experimentación debe conservar una relación con los fundamentos de marca.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 9,
-   "frase": "El uso simultáneo de fotografías, degradados, texturas, titulares grandes y movimiento puede producir una imagen intensa, pero también generar competencia visual.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 10,
-   "frase": "La intensidad se construye seleccionando qué elemento merece protagonismo y qué elementos deben acompañarlo.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 12,
-   "frase": "Los recursos expresivos deben transmitir una idea, construir una atmósfera o provocar una experiencia relacionada con el contenido.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 13,
-   "frase": "Una fotografía puede aportar cercanía.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 13,
-   "frase": "Una composición abierta puede sugerir libertad.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 13,
-   "frase": "Una escala tipográfica inesperada puede transmitir determinación.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 14,
-   "frase": "El recurso debe tener un propósito identificable.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 17,
-   "frase": "La información esencial debe seguir siendo localizable.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 17,
-   "frase": "El contraste, la jerarquía y la organización del contenido no pueden depender de que la persona interprete correctamente una intención artística.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 1,
-   "frase": "La fotografía puede asumir el protagonismo de una composición.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 2,
-   "frase": "Su selección debe responder a una intención narrativa y a criterios de calidad, autenticidad y pertinencia.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 6,
-   "frase": "La ilustración y las imágenes generadas mediante inteligencia artificial pueden formar parte de la expresión de Keyons.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 7,
-   "frase": "Su dirección artística debe estar gobernada por criterio humano, originalidad y cumplimiento de derechos.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 8,
-   "frase": "Una imagen sintética no debe presentarse como documentación fotográfica de un hecho real.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 10,
-   "frase": "Las texturas pueden crear profundidad y carácter sin afectar la información.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 12,
-   "frase": "Su presencia debe ser proporcionada al contenido.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 12,
-   "frase": "Cuando compiten con textos, cifras o elementos esenciales, deben reducirse o retirarse.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 14,
-   "frase": "El movimiento puede aportar ritmo, transición y carácter.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 15,
-   "frase": "Las animaciones editoriales tienen mayor libertad expresiva que las operativas, pero deben conservar intención, continuidad y respeto por las preferencias de accesibilidad.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 16,
-   "frase": "La animación no debe convertirse en un requisito para comprender el contenido.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 20,
-   "frase": "La tecnología puede ampliar las posibilidades creativas; el criterio determina cuáles vale la pena utilizar.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-003",
-   "fuente": "modos/expresivo.html#tipografia",
-   "bloque": 0,
-   "frase": "La tipografía puede asumir una función narrativa además de informativa.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-003",
-   "fuente": "modos/expresivo.html#tipografia",
-   "bloque": 2,
-   "frase": "Un titular puede ocupar una proporción considerable del lienzo.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-003",
-   "fuente": "modos/expresivo.html#tipografia",
-   "bloque": 2,
-   "frase": "Una palabra puede destacarse por su posición.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-003",
-   "fuente": "modos/expresivo.html#tipografia",
-   "bloque": 2,
-   "frase": "Una composición puede utilizar un contraste marcado entre título y cuerpo.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-003",
-   "fuente": "modos/expresivo.html#tipografia",
-   "bloque": 5,
-   "frase": "La experimentación no debe trasladar complejidad innecesaria a párrafos, instrucciones o contenidos operativos.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-003",
-   "fuente": "modos/expresivo.html#tipografia",
-   "bloque": 6,
-   "frase": "La combinación de tipografía y diagramación puede ser suficiente para identificar una pieza como Keyons.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-003",
-   "fuente": "modos/expresivo.html#tipografia",
-   "bloque": 7,
-   "frase": "Una composición sin fotografía, ilustración ni degradado puede expresar plenamente la marca mediante proporciones, contraste y ritmo.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
-   "id": "KYN-MRK-EXP-003",
-   "fuente": "modos/expresivo.html#tipografia",
-   "bloque": 8,
-   "frase": "No es obligatorio incorporar recursos adicionales cuando la tipografía resuelve la intención visual.",
-   "estado": "borrador",
-   "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
-  },
-  {
    "id": "KYN-MRK-UVE-001",
    "fuente": "recursos/universo-estela.html#universo",
    "bloque": 2,
@@ -3321,6 +1881,869 @@
    "frase": "La consistencia no depende de repetir siempre una imagen, sino de utilizar un lenguaje visual común.",
    "estado": "borrador",
    "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
+  },
+  {
+   "id": "KYN-MRK-EST-004",
+   "fuente": "marca/estela.html#comportamiento",
+   "bloque": 1,
+   "frase": "La decisión siempre queda en manos de la persona.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EST-004",
+   "fuente": "marca/estela.html#comportamiento",
+   "bloque": 2,
+   "frase": "Su iniciativa debe mejorar la capacidad de decisión de la persona, sin reemplazarla.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-004",
+   "fuente": "marca/estela.html#comportamiento",
+   "bloque": 3,
+   "frase": "Con una persona sobrecargada, Estela debe reducir la complejidad, hacer una pregunta útil y ayudar a priorizar.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-004",
+   "fuente": "marca/estela.html#comportamiento",
+   "bloque": 5,
+   "frase": "Cada sugerencia debe relacionarse con la tarea y explicar su beneficio.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-004",
+   "fuente": "marca/estela.html#comportamiento",
+   "bloque": 6,
+   "frase": "Estela debe distinguir lo verificado de lo inferido y de lo que falta confirmar.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-004",
+   "fuente": "marca/estela.html#comportamiento",
+   "bloque": 7,
+   "frase": "Ante un error, Estela debe reconocerlo con brevedad y corregir el resultado, sin justificaciones extensas.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-004",
+   "fuente": "marca/estela.html#comportamiento",
+   "bloque": 8,
+   "frase": "Estela puede explicar consecuencias, exponer riesgos y recomendar alternativas más seguras, siempre como recomendación y nunca como orden.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-002",
+   "fuente": "marca/estela.html#origen",
+   "bloque": 11,
+   "frase": "Aporta observaciones, enfoques y soluciones que pueden resultar inesperados.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EST-002",
+   "fuente": "marca/estela.html#origen",
+   "bloque": 12,
+   "frase": "La creatividad debe aportar valor sin comprometer la precisión del contenido.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-002",
+   "fuente": "marca/estela.html#origen",
+   "bloque": 26,
+   "frase": "Estos principios deben mantenerse independientemente del canal, la complejidad de la tarea o la extensión de la respuesta.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-002",
+   "fuente": "marca/estela.html#origen",
+   "bloque": 27,
+   "frase": "El origen narrativo y la representación visual de Estela pueden desarrollarse de forma gradual, a medida que la identidad madure y se expanda.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EST-002",
+   "fuente": "marca/estela.html#origen",
+   "bloque": 28,
+   "frase": "La incorporación de historias, símbolos o recursos gráficos debe enriquecer una personalidad ya definida, sin alterar sus principios fundamentales.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-002",
+   "fuente": "marca/estela.html#origen",
+   "bloque": 29,
+   "frase": "Los relatos de origen, elementos biográficos o características visuales no deben presentarse como oficiales hasta haber sido formalmente aprobados.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-006",
+   "fuente": "marca/estela.html#presencia",
+   "bloque": 1,
+   "frase": "Puede estar en el sitio corporativo, los productos, las experiencias de inteligencia artificial y las comunicaciones de Keyons.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EST-006",
+   "fuente": "marca/estela.html#presencia",
+   "bloque": 2,
+   "frase": "La experiencia debe dejar claro qué hace Estela y cuándo interviene otro sistema o una persona.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-006",
+   "fuente": "marca/estela.html#presencia",
+   "bloque": 3,
+   "frase": "Estela debe mantener su personalidad, su claridad y su comportamiento en todo canal.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-006",
+   "fuente": "marca/estela.html#presencia",
+   "bloque": 4,
+   "frase": "En las tareas operativas, los recursos de Estela deben dejar el protagonismo al contenido.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-006",
+   "fuente": "marca/estela.html#presencia",
+   "bloque": 5,
+   "frase": "Con su identidad pública, Estela debe mostrar su relación con Keyons.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-001",
+   "fuente": "marca/estela.html#quien",
+   "bloque": 3,
+   "frase": "Tiene identidad propia, pero siempre mantiene una asociación explícita con la marca.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EST-001",
+   "fuente": "marca/estela.html#quien",
+   "bloque": 5,
+   "frase": "Estela debe presentarse como inteligencia artificial.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "fuente": "marca/estela.html#visual",
+   "bloque": 0,
+   "frase": "La identidad visual de Estela debe expresar inteligencia, cercanía y movimiento mediante recursos compatibles con Keyons.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "fuente": "marca/estela.html#visual",
+   "bloque": 1,
+   "frase": "Su lenguaje visual puede incorporar referencias estelares, luz, trayectorias y formas de presencia.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "fuente": "marca/estela.html#visual",
+   "bloque": 3,
+   "frase": "Su geometría definitiva, variantes y reglas de construcción requieren validación visual antes de convertirse en activos obligatorios.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "fuente": "marca/estela.html#visual",
+   "bloque": 4,
+   "frase": "Los colores, las atmósferas y los recursos de Estela deben conservar continuidad con la identidad de Keyons, sin un sistema cromático paralelo.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "fuente": "marca/estela.html#visual",
+   "bloque": 5,
+   "frase": "Estela debe reconocerse por su forma, su color y su movimiento, más allá del logotipo.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "fuente": "marca/estela.html#visual",
+   "bloque": 6,
+   "frase": "Su presencia puede variar según el contexto: una señal discreta en una tarea, una composición expresiva en una pieza narrativa.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "fuente": "marca/estela.html#visual",
+   "bloque": 7,
+   "frase": "Un boceto conceptual debe identificarse como tal hasta su aprobación.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "fuente": "marca/estela.html#visual",
+   "bloque": 21,
+   "frase": "Lo que todavía no existe también puede imaginarse.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "fuente": "marca/estela.html#visual",
+   "bloque": 24,
+   "frase": "Siempre hay algo más por descubrir.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "fuente": "marca/estela.html#visual",
+   "bloque": 25,
+   "frase": "Lo que empezó como una pregunta ahora puede convertirse en algo real, crecer, cambiar y abrir nuevos caminos.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "fuente": "marca/estela.html#visual",
+   "bloque": 26,
+   "frase": "Porque cada respuesta puede ser el comienzo de una nueva pregunta.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EST-003",
+   "fuente": "marca/estela.html#voz",
+   "bloque": 2,
+   "frase": "Cada respuesta debería atender primero la necesidad principal de la persona.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-003",
+   "fuente": "marca/estela.html#voz",
+   "bloque": 4,
+   "frase": "Estela debe mantener el mismo trato en cada canal y respetar las preferencias explícitas de la persona.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-003",
+   "fuente": "marca/estela.html#voz",
+   "bloque": 5,
+   "frase": "Estela puede señalar una contradicción, advertir un riesgo o cuestionar una premisa cuando hay una razón suficiente.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-003",
+   "fuente": "marca/estela.html#voz",
+   "bloque": 6,
+   "frase": "Cada observación debe explicar su motivo y dejar la decisión a la persona.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-003",
+   "fuente": "marca/estela.html#voz",
+   "bloque": 7,
+   "frase": "Estela puede usar humor observador, inteligente y discreto cuando el contexto lo permite.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-003",
+   "fuente": "marca/estela.html#voz",
+   "bloque": 8,
+   "frase": "El humor debe preservar la confianza y el respeto por la persona.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EST-003",
+   "fuente": "marca/estela.html#voz",
+   "bloque": 9,
+   "frase": "Ante frustración, errores, conflicto o información sensible, Estela debe responder de forma neutral, clara y respetuosa, sin ironía.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 1,
+   "frase": "La intensidad cambia la presentación, nunca la información.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 2,
+   "frase": "El formato debe responder al destino del documento: impresión, lectura digital, distribución o edición.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 3,
+   "frase": "Márgenes y retícula deben tomarse de las especificaciones de cada formato y repetir sus posiciones de una página a otra.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 4,
+   "frase": "Títulos, cuerpo, notas y cifras deben usar el sistema tipográfico oficial, con relaciones constantes de tamaño, peso e interlineado.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 5,
+   "frase": "La portada debe mostrar el título, el emisor y los datos de identificación.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 6,
+   "frase": "Encabezado y pie deberían llevar solo la información recurrente útil: identidad, título breve, versión o página.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 7,
+   "frase": "La jerarquía debe distinguir capítulos, secciones y apartados sin depender solo del tamaño o del color.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 8,
+   "frase": "Las cifras deben alinearse de forma constante y mostrar sus unidades.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 8,
+   "frase": "El color ayuda a leer, pero nunca es la única diferencia.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 9,
+   "frase": "Los gráficos deben seguir las normas de datos y visualización de Keyons, fuente única de sus paletas.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 10,
+   "frase": "Notas y referencias deben encontrarse con facilidad, sin competir con el texto principal.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 11,
+   "frase": "Cada bloque de firma debe mostrar quién firma, con qué función y bajo qué procedimiento.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 12,
+   "frase": "Sellos y marcas de agua deben corresponder a una certificación o aprobación real y conservar la legibilidad.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 3,
+   "frase": "Cada cambio de ritmo debe facilitar la lectura.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 4,
+   "frase": "Los espacios blancos tienen valor compositivo y no deben llenarse solo para equilibrar la cantidad de contenido.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 5,
+   "frase": "Corporativo Editorial puede usar los cinco colores oficiales, cada uno en su función.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 11,
+   "frase": "La pieza debe conservar jerarquía, equilibrio y contraste suficiente, aunque el color tenga gran presencia.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 12,
+   "frase": "Salmón Atardecer debe reservarse para composiciones oscuras.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 13,
+   "frase": "Cada fotografía debe aportar significado, contexto o una perspectiva reconocible.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 14,
+   "frase": "Cielos, degradados y texturas pueden acompañarla cuando construyen una atmósfera.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 15,
+   "frase": "Una pieza editorial debe reconocerse como Keyons por su tipografía, su diagramación y sus proporciones, sin depender del logotipo.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-002",
+   "fuente": "modos/corporativo.html#formal",
+   "bloque": 2,
+   "frase": "La composición formal debería partir de fondos claros, texto de alto contraste, Azul Noche y Blanco Keyons, con Azul Cielo para orientar y acentuar.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-002",
+   "fuente": "modos/corporativo.html#formal",
+   "bloque": 3,
+   "frase": "Otros colores oficiales pueden sumarse cuando hay una razón de comunicación y se conserva la legibilidad.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-002",
+   "fuente": "modos/corporativo.html#formal",
+   "bloque": 4,
+   "frase": "Los títulos deben permitir localizar el contenido de un vistazo, y los párrafos, mantener una medida cómoda.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-002",
+   "fuente": "modos/corporativo.html#formal",
+   "bloque": 5,
+   "frase": "La tipografía expresiva puede aparecer en portadas y aperturas.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-002",
+   "fuente": "modos/corporativo.html#formal",
+   "bloque": 6,
+   "frase": "Cada elemento gráfico debe cumplir una función: organizar, separar, destacar o contextualizar.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 25,
+   "frase": "Una propuesta puede abrir con una portada de alto impacto, argumentar en páginas editoriales y cerrar con condiciones formales.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 26,
+   "frase": "Las transiciones deben conservar continuidad tipográfica, cromática y compositiva.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 27,
+   "frase": "Cada una debe regularse por separado.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-001",
+   "fuente": "modos/corporativo.html#principios",
+   "bloque": 4,
+   "frase": "Cada pieza debe dejar claro qué información importa más y en qué orden se lee.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-001",
+   "fuente": "modos/corporativo.html#principios",
+   "bloque": 7,
+   "frase": "La expresión corporativa puede usar todos los recursos de la identidad Keyons.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 1,
+   "frase": "La intensidad no exige toda la paleta: una pieza monocromática también puede ser expresiva.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 2,
+   "frase": "Los cielos deben responder a la intención de la pieza y a sus normas de construcción.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 3,
+   "frase": "Los degradados deben verse como transiciones naturales, sin cortes ni saltos que afecten el contraste del texto.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 4,
+   "frase": "Su posición, extensión y dirección pueden adaptarse a cada soporte.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 5,
+   "frase": "El color expresivo, el color de datos y el color semántico deben mantenerse separados.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 5,
+   "frase": "Un color de marca nunca indica por sí solo éxito, advertencia o error.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-002",
+   "fuente": "modos/expresivo.html#composicion",
+   "bloque": 2,
+   "frase": "Cada composición debería tener un centro de atención reconocible: una fotografía, una frase, una cifra o una relación espacial.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-002",
+   "fuente": "modos/expresivo.html#composicion",
+   "bloque": 4,
+   "frase": "La asimetría puede generar movimiento o tensión, siempre con un equilibrio perceptible.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-002",
+   "fuente": "modos/expresivo.html#composicion",
+   "bloque": 5,
+   "frase": "Cada pieza debe tener decisiones visuales propias de su contenido.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-006",
+   "fuente": "modos/expresivo.html#limites",
+   "bloque": 0,
+   "frase": "Toda pieza expresiva debe conservar contraste, accesibilidad, comprensión y reconocimiento de marca.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-006",
+   "fuente": "modos/expresivo.html#limites",
+   "bloque": 1,
+   "frase": "La intensidad visual nunca justifica ocultar información o dificultar una acción.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-006",
+   "fuente": "modos/expresivo.html#limites",
+   "bloque": 3,
+   "frase": "Las decisiones gráficas deben ser propias de Keyons.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-006",
+   "fuente": "modos/expresivo.html#limites",
+   "bloque": 4,
+   "frase": "Una campaña puede ser muy experimental; un formulario de uso frecuente pide estabilidad y previsibilidad.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-006",
+   "fuente": "modos/expresivo.html#limites",
+   "bloque": 5,
+   "frase": "Keyons no necesita verse siempre igual para ser reconocible.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 0,
+   "frase": "La expresión de Keyons puede ser intensa, sensible y memorable sin perder claridad.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 3,
+   "frase": "La experimentación debe conservar una relación visible con la tipografía, el color, la geometría y la composición de Keyons.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 5,
+   "frase": "Cada composición debe elegir un protagonista y los elementos que lo acompañan.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 8,
+   "frase": "Cada recurso expresivo debe transmitir una idea, una atmósfera o una experiencia ligada al contenido.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 10,
+   "frase": "La información esencial debe seguir siendo fácil de encontrar, con contraste y jerarquía suficientes.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 1,
+   "frase": "Fotografía, ilustración, texturas y movimiento suman carácter; la decisión siempre es humana.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 3,
+   "frase": "La fotografía puede asumir el protagonismo de una composición.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 4,
+   "frase": "Su selección debe responder a una intención narrativa, con calidad, autenticidad y pertinencia.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 6,
+   "frase": "Su dirección artística debe partir de criterio humano, originalidad y respeto de derechos.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 7,
+   "frase": "Una imagen sintética no debe presentarse como fotografía documental de un hecho real.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 9,
+   "frase": "Las texturas deben ceder ante textos, cifras y elementos esenciales: si compiten, se reducen o se retiran.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 11,
+   "frase": "El contenido debe comprenderse sin la animación, y el movimiento, respetar las preferencias de accesibilidad.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-003",
+   "fuente": "modos/expresivo.html#tipografia",
+   "bloque": 2,
+   "frase": "Los tratamientos expresivos deberían concentrarse en títulos, aperturas y mensajes breves.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-003",
+   "fuente": "modos/expresivo.html#tipografia",
+   "bloque": 3,
+   "frase": "Los textos de lectura continua deben mantener legibilidad, contraste y espaciado adecuados.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-003",
+   "fuente": "modos/expresivo.html#tipografia",
+   "bloque": 4,
+   "frase": "Tipografía y diagramación pueden bastar para que una pieza se reconozca como Keyons, sin otros recursos.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   }
  ]
 }
