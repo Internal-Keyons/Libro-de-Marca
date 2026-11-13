@@ -191,10 +191,11 @@ RAFAGAS = [
     {'n': 'Pulso', 'seed': 33, 'fase': 'Atardecer', 'dots': [ATARDECER, SALMON], 'warp': 1, 'capas': [
         dict(esfera=(236, 410, 176), colores=[(0, ATARDECER), (.46, ATARDECER), (1, SALMON)]),
     ]},
-    {'n': 'Corriente', 'seed': 44, 'dots': ['#ACC3E7', CIELO, '#5370A5'], 'warp': 4, 'ancho': .95, 'capas': [
+    # Corriente (2026-11-13): tonos claros de la escala Azul Cielo; el oficial #729BDD es el más oscuro
+    {'n': 'Corriente', 'seed': 44, 'dots': ['#C6D5EC', '#8FAFE2', CIELO], 'warp': 4, 'ancho': .95, 'capas': [
         dict(puntos=[(120, -100, 96, 98), (130, 80, 88, 102), (165, 210, 80, 94), (235, 320, 74, 92), (306, 392, 56, 80), (352, 446, 40, 62), (340, 512, 42, 56), (272, 566, 50, 58), (206, 628, 54, 56), (206, 706, 52, 52), (262, 796, 52, 52), (342, 906, 54, 54), (410, 1040, 56, 56)],
-             colores=[(0, '#ACC3E7', CIELO, CIELO, '#ACC3E7', '#D3DEEF'), (.18, '#ACC3E7', CIELO, CIELO, '#ACC3E7', '#D3DEEF'), (.33, '#ACC3E7', CIELO, CIELO, CIELO, '#ACC3E7'),
-                      (.42, '#35466E', '#5370A5', CIELO, '#ACC3E7', '#ACC3E7'), (.49, '#35466E', '#35466E', '#5370A5', CIELO, '#ACC3E7'), (.6, '#35466E', '#5370A5', '#5370A5', '#ACC3E7', CIELO), (.72, '#5370A5', '#ACC3E7', CIELO, CIELO, '#ACC3E7'), (1, '#ACC3E7', CIELO, CIELO, CIELO, '#ACC3E7')]),
+             colores=[(0, '#C6D5EC', '#ACC3E7', '#ACC3E7', '#C6D5EC', '#E0E7F1'), (.18, '#C6D5EC', '#ACC3E7', '#ACC3E7', '#C6D5EC', '#E0E7F1'), (.33, '#C6D5EC', '#ACC3E7', '#ACC3E7', '#ACC3E7', '#C6D5EC'),
+                      (.42, CIELO, '#8FAFE2', '#ACC3E7', '#C6D5EC', '#C6D5EC'), (.49, CIELO, CIELO, '#8FAFE2', '#ACC3E7', '#C6D5EC'), (.6, CIELO, '#8FAFE2', '#8FAFE2', '#C6D5EC', '#ACC3E7'), (.72, '#8FAFE2', '#C6D5EC', '#ACC3E7', '#ACC3E7', '#C6D5EC'), (1, '#C6D5EC', '#ACC3E7', '#ACC3E7', '#ACC3E7', '#C6D5EC')]),
     ]},
     {'n': 'Giro', 'seed': 55, 'dots': [LAVANDA, '#FED8B5', AMARILLO], 'warp': 2, 'capas': [
         dict(puntos=espiral(236, 452, 186, 1.56, 54, 32), colores=[(0, CREMA, AMARILLO, AMARILLO), (1, CREMA, AMARILLO, AMARILLO)], borde=(.05, .75), opacidad=.62),

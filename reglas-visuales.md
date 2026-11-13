@@ -343,7 +343,7 @@ Esta sección describe lo que hoy sale en pantalla (P5).
 
 - El anillo de foco (2 px Azul Noche) DEBE aparecer solo al navegar con el teclado: Tab, flechas, Inicio o Fin.
 - Un clic, un toque o una tecla suelta (Shift, Windows, Ctrl, Alt, por ejemplo al tomar una captura) NO DEBEN mostrarlo.
-- Los campos de texto conservan su indicador de foco siempre.
+- Los campos de texto muestran el foco con su propio borde o fondo, siempre. NO DEBEN llevar además el anillo de 2 px: dos contornos alrededor de un campo se leen como un error (2026-11-13).
 - `js/libro.js` marca la navegación con teclado (`data-kbd`) y cada estilo de foco del CSS se escribe como `[data-kbd] X:focus-visible`.
 
 ---

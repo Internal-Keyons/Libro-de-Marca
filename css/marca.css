@@ -81,15 +81,3 @@ body[data-area="aplicaciones"] .portal.portal--atardecer{background:url("../asse
 /* DAT-002 (local): los colores corporativos disponibles se muestran en círculo */
 .dchip{border-radius:50%}
 
-/* ADN-002 · Misión y visión (local): dos columnas con título, número, subtítulo breve, espacio para la foto y el texto */
-.mvis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s10);margin-top:var(--s12)}
-@media(max-width:760px){.mvis{grid-template-columns:minmax(0,1fr);gap:var(--s12)}}
-.mvis__h{display:flex;align-items:baseline;flex-wrap:wrap;gap:var(--s1) var(--s3);margin-bottom:var(--s5)}
-.mvis__t{font-family:var(--font-display);font-size:var(--fs-32);font-weight:500;line-height:1;letter-spacing:var(--tr-2);color:var(--k-noche)}
-.mvis__n{font-size:var(--fs-12);color:var(--color-text-3)}
-.mvis__s{margin-left:auto;max-width:16ch;font-size:var(--fs-12);line-height:1.4;color:var(--color-text-3)}
-.mvis__img{display:grid;place-items:center;aspect-ratio:4/3;background:var(--k-puro);box-shadow:inset 0 0 0 1px var(--color-border)}
-.mvis__img .paren{color:var(--color-text-3)}
-.mvis__txt{margin-top:var(--s5)}
-.mvis__txt p{font-size:var(--fs-16);line-height:1.65;color:var(--color-text-2)}
-.mvis__txt p + p{margin-top:var(--s3)}
