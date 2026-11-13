@@ -232,7 +232,7 @@
    "relacionadas": []
   },
   "KYN-MRK-COL-010": {
-   "titulo": "Modo institucional",
+   "titulo": "Expresión formal y corporativa",
    "estado": "vigente",
    "estado_documental": "vigente",
    "version": "1.0",
@@ -243,7 +243,7 @@
    "relacionadas": []
   },
   "KYN-MRK-COL-011": {
-   "titulo": "Modo expresivo",
+   "titulo": "Expresión creativa",
    "estado": "vigente",
    "estado_documental": "vigente",
    "version": "1.0",
@@ -254,7 +254,7 @@
    "relacionadas": []
   },
   "KYN-MRK-COL-012": {
-   "titulo": "Modo interfaz",
+   "titulo": "Color en pantalla",
    "estado": "vigente",
    "estado_documental": "vigente",
    "version": "1.0",
@@ -392,6 +392,61 @@
    "estado": "vigente",
    "estado_documental": "vigente",
    "version": "1.0",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-COR-001": {
+   "titulo": "Principios",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-COR-002": {
+   "titulo": "Formal",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-COR-003": {
+   "titulo": "Editorial",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-COR-004": {
+   "titulo": "Intensidad",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-COR-005": {
+   "titulo": "Documentos",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
    "ambito": [],
    "responsable": null,
    "fecha_aprobacion": null,
@@ -578,6 +633,127 @@
   },
   "KYN-MRK-EST-001": {
    "titulo": "Quién es Estela",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-EST-002": {
+   "titulo": "Origen y personalidad",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-EST-003": {
+   "titulo": "Voz y trato",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-EST-004": {
+   "titulo": "Comportamiento",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-EST-005": {
+   "titulo": "Identidad visual y expresión",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-EST-006": {
+   "titulo": "Presencia y aplicaciones",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-EXP-001": {
+   "titulo": "Principios",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-EXP-002": {
+   "titulo": "Composición",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-EXP-003": {
+   "titulo": "Tipografía",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-EXP-004": {
+   "titulo": "Color y cielos",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-EXP-005": {
+   "titulo": "Recursos",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-EXP-006": {
+   "titulo": "Límites",
    "estado": "en-revision",
    "estado_documental": "borrador",
    "version": "0.1",
@@ -1279,6 +1455,17 @@
   },
   "KYN-MRK-TYP-007": {
    "titulo": "Párrafos",
+   "estado": "en-revision",
+   "estado_documental": "borrador",
+   "version": "0.1",
+   "ambito": [],
+   "responsable": null,
+   "fecha_aprobacion": null,
+   "excepciones": [],
+   "relacionadas": []
+  },
+  "KYN-MRK-UVE-001": {
+   "titulo": "Universo visual",
    "estado": "en-revision",
    "estado_documental": "borrador",
    "version": "0.1",

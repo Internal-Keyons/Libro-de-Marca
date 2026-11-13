@@ -49,12 +49,31 @@ NUEVAS = {
     'recursos/tecnicos.html#tecnicos': ('KYN-MRK-TEC-001', 'Recursos técnicos'),
     # 05 · Estela (2026-11-11, en borrador): una norma por sección, desde capitulo-05-estela.md
     'marca/estela.html#quien': ('KYN-MRK-EST-001', 'Quién es Estela', 'borrador'),
+    'marca/estela.html#origen': ('KYN-MRK-EST-002', 'Origen y personalidad', 'borrador'),
+    'marca/estela.html#voz': ('KYN-MRK-EST-003', 'Voz y trato', 'borrador'),
+    'marca/estela.html#comportamiento': ('KYN-MRK-EST-004', 'Comportamiento', 'borrador'),
+    'marca/estela.html#visual': ('KYN-MRK-EST-005', 'Identidad visual y expresión', 'borrador'),
+    'marca/estela.html#presencia': ('KYN-MRK-EST-006', 'Presencia y aplicaciones', 'borrador'),
     # 06 · Isotipo (2026-11-12, en borrador): favicon, Apple Touch Icon e íconos PWA
     'fundamentos/identidad/isotipo.html#aplicaciones': ('KYN-MRK-LOG-011', 'Aplicaciones digitales', 'borrador'),
     # 08 · Tipografía (2026-11-12, en borrador): estilos de párrafo con sus medidas
     'fundamentos/tipografia/sistema.html#parrafos': ('KYN-MRK-TYP-007', 'Párrafos', 'borrador'),
     # 21 · Redes y campañas (2026-11-12, en borrador): archivo de campañas aprobadas
     'aplicaciones/campanas.html#archivo': ('KYN-MRK-RED-001', 'Archivo de campañas', 'borrador'),
+    # 16 · Corporativo y 17 · Expresivo (2026-11-13, en borrador): textos de Keylin, tools/expresion.py
+    'modos/corporativo.html#principios': ('KYN-MRK-COR-001', 'Principios', 'borrador'),
+    'modos/corporativo.html#formal': ('KYN-MRK-COR-002', 'Formal', 'borrador'),
+    'modos/corporativo.html#editorial': ('KYN-MRK-COR-003', 'Editorial', 'borrador'),
+    'modos/corporativo.html#intensidad': ('KYN-MRK-COR-004', 'Intensidad', 'borrador'),
+    'modos/corporativo.html#documentos': ('KYN-MRK-COR-005', 'Documentos', 'borrador'),
+    'modos/expresivo.html#principios': ('KYN-MRK-EXP-001', 'Principios', 'borrador'),
+    'modos/expresivo.html#composicion': ('KYN-MRK-EXP-002', 'Composición', 'borrador'),
+    'modos/expresivo.html#tipografia': ('KYN-MRK-EXP-003', 'Tipografía', 'borrador'),
+    'modos/expresivo.html#color': ('KYN-MRK-EXP-004', 'Color y cielos', 'borrador'),
+    'modos/expresivo.html#recursos': ('KYN-MRK-EXP-005', 'Recursos', 'borrador'),
+    'modos/expresivo.html#limites': ('KYN-MRK-EXP-006', 'Límites', 'borrador'),
+    # 30 · Universo visual de Estela (2026-11-13, en borrador)
+    'recursos/universo-estela.html#universo': ('KYN-MRK-UVE-001', 'Universo visual', 'borrador'),
 }
 
 # Traslados (2026-11, consolidación de Fundamentos): ruta anterior → ruta vigente
@@ -81,6 +100,10 @@ ANCLA_INTEGRADA = {}
 
 # Cambios de título o estado de normas ya emitidas (el ID nunca cambia)
 CAMBIOS = {
+    # 2026-11-13 · Expresión de marca: intensidad continua en lugar de modos (el ID no cambia)
+    'KYN-MRK-COL-010': {'t': 'Expresión formal y corporativa'},
+    'KYN-MRK-COL-011': {'t': 'Expresión creativa'},
+    'KYN-MRK-COL-012': {'t': 'Color en pantalla'},
     'KYN-MRK-DIS-002': {'t': 'Identidad, experiencia y sistema: roles definidos'},
     'KYN-MRK-DIS-003': {'t': 'Diseño: calma y expresión'},
     'KYN-MRK-DIS-004': {'t': 'Intensidad según contexto'},

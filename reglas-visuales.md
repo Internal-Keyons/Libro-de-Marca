@@ -298,6 +298,8 @@ El radio de una esquina curva sale del **lado corto** del elemento:
   - Cada párrafo desarrolla una idea y ocupa como máximo cuatro renglones.
   - La idea clave PUEDE marcarse con Azul Cielo dentro del texto, una sola por bloque.
   - Se usa cuando el contenido es texto. Si la información tiene partes, pasos o datos, va en el componente que corresponde.
+  - Espacio antes del bloque (2026-11-13): DEBE empezar a 24 px (`--s6`) después de la entrada (`.ed__lead`) y a 32 px (`--s8`) después de un componente (filas, tarjetas, viñetas, espectro o muestras de color).
+  - Un cierre (`.ed__close`) con más de una frase DEBE separar sus párrafos 16 px (`--s4`).
 
 ---
 

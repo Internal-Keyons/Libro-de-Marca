@@ -81,3 +81,18 @@ body[data-area="aplicaciones"] .portal.portal--atardecer{background:url("../asse
 /* DAT-002 (local): los colores corporativos disponibles se muestran en círculo */
 .dchip{border-radius:50%}
 
+
+/* Expresión de marca (introducción del área): espectro continuo de intensidad, de lo formal a lo expresivo */
+.espectro{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));row-gap:var(--s4);margin-top:var(--s10)}
+.espectro__barra{grid-column:1/-1;height:var(--s3);background:linear-gradient(90deg,var(--k-noche) 0%,var(--k-cielo) 50%,var(--k-salmon) 100%)}
+.espectro__k{font-size:var(--fs-14);color:var(--color-text-2)}
+.espectro__k:nth-child(3){text-align:center}
+.espectro__k:nth-child(4){text-align:right}
+
+/* COR-003 · Editorial (16.3): los cinco colores oficiales en fila, cada uno con su función */
+.paleta5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--s4);margin:var(--s10) 0 0;padding:0;list-style:none}
+.paleta5 li{display:grid;row-gap:var(--s1)}
+.paleta5 i{display:block;aspect-ratio:1;margin-bottom:var(--s3);border:1px solid var(--color-border)}
+.paleta5 b{font-size:var(--fs-14);font-weight:500;color:var(--color-text)}
+.paleta5 span{font-size:var(--fs-12);color:var(--color-text-3)}
+@media(max-width:900px){.paleta5{grid-template-columns:repeat(2,minmax(0,1fr))}}

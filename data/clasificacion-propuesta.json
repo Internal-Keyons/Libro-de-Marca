@@ -2,7 +2,7 @@
  "estado": "Propuesta pendiente de aprobación humana",
  "regla": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
  "resumen": {
-  "normas": 129,
+  "normas": 146,
   "requisitos": 230,
   "por_nivel": {
    "DEBE": 90,
@@ -413,7 +413,7 @@
   },
   {
    "id": "KYN-MRK-COL-010",
-   "titulo": "Modo institucional",
+   "titulo": "Expresión formal y corporativa",
    "estado": "vigente",
    "fuente": "fundamentos/color/por-modo.html#institucional",
    "ambito_propuesto": [
@@ -440,7 +440,7 @@
   },
   {
    "id": "KYN-MRK-COL-011",
-   "titulo": "Modo expresivo",
+   "titulo": "Expresión creativa",
    "estado": "vigente",
    "fuente": "fundamentos/color/por-modo.html#expresivo",
    "ambito_propuesto": [
@@ -472,7 +472,7 @@
   },
   {
    "id": "KYN-MRK-COL-012",
-   "titulo": "Modo interfaz",
+   "titulo": "Color en pantalla",
    "estado": "vigente",
    "fuente": "fundamentos/color/por-modo.html#interfaz",
    "ambito_propuesto": [
@@ -772,6 +772,71 @@
      "texto": "(Del Art Déco, la respuesta)Afirmar que la belleza, la precisión geométrica y la calidez humana pueden convivir con la máquina."
     }
    ]
+  },
+  {
+   "id": "KYN-MRK-COR-001",
+   "titulo": "Principios",
+   "estado": "borrador",
+   "fuente": "modos/corporativo.html#principios",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-COR-002",
+   "titulo": "Formal",
+   "estado": "borrador",
+   "fuente": "modos/corporativo.html#formal",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "titulo": "Editorial",
+   "estado": "borrador",
+   "fuente": "modos/corporativo.html#editorial",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "titulo": "Intensidad",
+   "estado": "borrador",
+   "fuente": "modos/corporativo.html#intensidad",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "titulo": "Documentos",
+   "estado": "borrador",
+   "fuente": "modos/corporativo.html#documentos",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
   },
   {
    "id": "KYN-MRK-DAT-001",
@@ -1322,6 +1387,149 @@
      "texto": "(Relación con Prisma)Estela puede acompañar la narrativa y las experiencias de la metodología Prisma, respetando sus cinco fases oficiales:Amanecer · Mediodía · Atardecer · Anochecer · Galaxia.Su papel específico dentro de cada fase y las historias que las conecten quedan pendientes de desarrollo narrativo."
     }
    ]
+  },
+  {
+   "id": "KYN-MRK-EST-002",
+   "titulo": "Origen y personalidad",
+   "estado": "borrador",
+   "fuente": "marca/estela.html#origen",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-EST-003",
+   "titulo": "Voz y trato",
+   "estado": "borrador",
+   "fuente": "marca/estela.html#voz",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-EST-004",
+   "titulo": "Comportamiento",
+   "estado": "borrador",
+   "fuente": "marca/estela.html#comportamiento",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-EST-005",
+   "titulo": "Identidad visual y expresión",
+   "estado": "borrador",
+   "fuente": "marca/estela.html#visual",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-EST-006",
+   "titulo": "Presencia y aplicaciones",
+   "estado": "borrador",
+   "fuente": "marca/estela.html#presencia",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "titulo": "Principios",
+   "estado": "borrador",
+   "fuente": "modos/expresivo.html#principios",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-EXP-002",
+   "titulo": "Composición",
+   "estado": "borrador",
+   "fuente": "modos/expresivo.html#composicion",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-EXP-003",
+   "titulo": "Tipografía",
+   "estado": "borrador",
+   "fuente": "modos/expresivo.html#tipografia",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "titulo": "Color y cielos",
+   "estado": "borrador",
+   "fuente": "modos/expresivo.html#color",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "titulo": "Recursos",
+   "estado": "borrador",
+   "fuente": "modos/expresivo.html#recursos",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-EXP-006",
+   "titulo": "Límites",
+   "estado": "borrador",
+   "fuente": "modos/expresivo.html#limites",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
   },
   {
    "id": "KYN-MRK-GAL-001",
@@ -2588,6 +2796,19 @@
    "titulo": "Párrafos",
    "estado": "borrador",
    "fuente": "fundamentos/tipografia/sistema.html#parrafos",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-UVE-001",
+   "titulo": "Universo visual",
+   "estado": "borrador",
+   "fuente": "recursos/universo-estela.html#universo",
    "ambito_propuesto": [
     "identidad",
     "web",

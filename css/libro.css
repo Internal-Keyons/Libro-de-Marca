@@ -769,6 +769,7 @@ a.pg:hover svg{opacity:1;transform:none}
 .hl--warm{background:rgba(206,99,93,.2)!important}
 .hl{background:rgba(114,155,221,.3);color:var(--color-text);padding:.04em .22em;border-radius:0;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .ed__close{margin-top:var(--s16);max-width:640px;font-size:var(--fs-20-24);line-height:1.5;color:var(--color-text-2);text-wrap:pretty}
+.ed__close p + p{margin-top:var(--s4)}   /* reglas-visuales R20: un cierre con varias frases */
 
 /* Texto en dos tiempos: primera frase destacada, segunda de apoyo */
 .ed__cols .p-lead{font-size:20px;line-height:1.5;color:var(--color-text);margin-bottom:var(--s5)}
@@ -5993,6 +5994,8 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
 .prosa p{font-size:var(--fs-16);line-height:1.65;color:var(--color-text-2)}
 .prosa p + p{margin-top:var(--s5)}
 .ed__sub + .prosa{margin-top:var(--s5)}
+.ed__lead + .prosa{margin-top:var(--s6)}   /* reglas-visuales R20 */
+.ed__stack + .prosa,.pgrid + .prosa,.vlist + .prosa,.espectro + .prosa,.paleta5 + .prosa{margin-top:var(--s8)}
 
 /* Párrafo mayor: la idea a la izquierda y sus detalles apilados a la derecha, por debajo del subtítulo en jerarquía */
 .pmayor{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,4fr);column-gap:var(--s12);margin-top:var(--s5);align-items:start}

@@ -198,19 +198,19 @@
   "estado": "vigente",
   "id": "KYN-MRK-COL-011",
   "n": "7.11",
-  "t": "Modo expresivo"
+  "t": "Expresión creativa"
  },
  "fundamentos/color/por-modo.html#institucional": {
   "estado": "vigente",
   "id": "KYN-MRK-COL-010",
   "n": "7.10",
-  "t": "Modo institucional"
+  "t": "Expresión formal y corporativa"
  },
  "fundamentos/color/por-modo.html#interfaz": {
   "estado": "vigente",
   "id": "KYN-MRK-COL-012",
   "n": "7.12",
-  "t": "Modo interfaz"
+  "t": "Color en pantalla"
  },
  "fundamentos/composicion/editorial.html#decidir": {
   "estado": "vigente",
@@ -665,11 +665,41 @@
   "n": "2.3",
   "t": "Reglas de composición"
  },
+ "marca/estela.html#comportamiento": {
+  "estado": "borrador",
+  "id": "KYN-MRK-EST-004",
+  "n": "5.4",
+  "t": "Comportamiento"
+ },
+ "marca/estela.html#origen": {
+  "estado": "borrador",
+  "id": "KYN-MRK-EST-002",
+  "n": "5.2",
+  "t": "Origen y personalidad"
+ },
+ "marca/estela.html#presencia": {
+  "estado": "borrador",
+  "id": "KYN-MRK-EST-006",
+  "n": "5.6",
+  "t": "Presencia y aplicaciones"
+ },
  "marca/estela.html#quien": {
   "estado": "borrador",
   "id": "KYN-MRK-EST-001",
   "n": "5.1",
   "t": "Quién es Estela"
+ },
+ "marca/estela.html#visual": {
+  "estado": "borrador",
+  "id": "KYN-MRK-EST-005",
+  "n": "5.5",
+  "t": "Identidad visual y expresión"
+ },
+ "marca/estela.html#voz": {
+  "estado": "borrador",
+  "id": "KYN-MRK-EST-003",
+  "n": "5.3",
+  "t": "Voz y trato"
  },
  "marca/metaforas.html#canal": {
   "estado": "vigente",
@@ -764,6 +794,72 @@
   "n": "4.2",
   "t": "Reglas de escritura"
  },
+ "modos/corporativo.html#documentos": {
+  "estado": "borrador",
+  "id": "KYN-MRK-COR-005",
+  "n": "16.5",
+  "t": "Documentos"
+ },
+ "modos/corporativo.html#editorial": {
+  "estado": "borrador",
+  "id": "KYN-MRK-COR-003",
+  "n": "16.3",
+  "t": "Editorial"
+ },
+ "modos/corporativo.html#formal": {
+  "estado": "borrador",
+  "id": "KYN-MRK-COR-002",
+  "n": "16.2",
+  "t": "Formal"
+ },
+ "modos/corporativo.html#intensidad": {
+  "estado": "borrador",
+  "id": "KYN-MRK-COR-004",
+  "n": "16.4",
+  "t": "Intensidad"
+ },
+ "modos/corporativo.html#principios": {
+  "estado": "borrador",
+  "id": "KYN-MRK-COR-001",
+  "n": "16.1",
+  "t": "Principios"
+ },
+ "modos/expresivo.html#color": {
+  "estado": "borrador",
+  "id": "KYN-MRK-EXP-004",
+  "n": "17.4",
+  "t": "Color y cielos"
+ },
+ "modos/expresivo.html#composicion": {
+  "estado": "borrador",
+  "id": "KYN-MRK-EXP-002",
+  "n": "17.2",
+  "t": "Composición"
+ },
+ "modos/expresivo.html#limites": {
+  "estado": "borrador",
+  "id": "KYN-MRK-EXP-006",
+  "n": "17.6",
+  "t": "Límites"
+ },
+ "modos/expresivo.html#principios": {
+  "estado": "borrador",
+  "id": "KYN-MRK-EXP-001",
+  "n": "17.1",
+  "t": "Principios"
+ },
+ "modos/expresivo.html#recursos": {
+  "estado": "borrador",
+  "id": "KYN-MRK-EXP-005",
+  "n": "17.5",
+  "t": "Recursos"
+ },
+ "modos/expresivo.html#tipografia": {
+  "estado": "borrador",
+  "id": "KYN-MRK-EXP-003",
+  "n": "17.3",
+  "t": "Tipografía"
+ },
  "recursos/galeria.html#galeria": {
   "estado": "vigente",
   "id": "KYN-MRK-GAL-001",
@@ -811,5 +907,11 @@
   "id": "KYN-MRK-TEX-001",
   "n": "25.1",
   "t": "Catálogo"
+ },
+ "recursos/universo-estela.html#universo": {
+  "estado": "borrador",
+  "id": "KYN-MRK-UVE-001",
+  "n": "30.1",
+  "t": "Universo visual"
  }
 }

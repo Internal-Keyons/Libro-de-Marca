@@ -292,8 +292,8 @@
   const heroEl = document.querySelector('.hero');
   if (heroEl) cielos.push([heroEl, 'mediodia', 'portada']);
   document.querySelectorAll('.portal').forEach((p) => {
-    /* Un portal --plano muestra solo el color de su área, sin cielo animado */
-    if (p.matches('.portal--photo, .portal--img, .portal--plano')) return;
+    /* Sin cielo animado: --plano muestra solo el color de su área; --atardecer (Aplicaciones), la imagen de Prisma de marca.css */
+    if (p.matches('.portal--photo, .portal--img, .portal--plano, .portal--atardecer')) return;
     const sky = p.matches('.portal--cielo') ? 'mediodia' : p.matches('.portal--salmon') ? 'atardecer' : 'noche';
     cielos.push([p, sky, document.body.dataset.page || location.pathname, true]);
   });
@@ -311,13 +311,6 @@
         const K = window.KeyonsCielo.SKIES, r = el.getBoundingClientRect(), asp = r.width / Math.max(r.height, 1);
         key = `${sky}-sub${i}`;
         K[key] = Object.assign({}, K[sky], { ws: SUB_SPEED / asp, clouds: Object.assign({}, K[sky].clouds, sky === 'noche' ? { alpha: .72 } : {}) });
-        /* Subencabezados de atardecer (Aplicaciones): el recorrido suave de Prisma (EST-001), con rosados antes de un naranja tenue.
-           Solo configuración del módulo: mismos parámetros, colores más suaves */
-        if (sky === 'atardecer') Object.assign(K[key], {
-          stops: [['#3D6BAF', 0], ['#667CBE', .2], ['#968AC4', .36], ['#C494BE', .5], ['#E4A0B6', .62], ['#F0B0AA', .74], ['#F4BA96', .86], ['#F4AA70', 1]],
-          glow: ['#F4BA96', .3, 0, .45, .4], band: ['#E4A0B6', .44, .08, .12],
-          clouds: Object.assign({}, K[key].clouds, { lit: '#F4BA96', low: '#E4A0B6', high: '#968AC4', alpha: .6 }),
-        });
       }
       el.classList.add('has-cielo'); window.KeyonsCielo.mount(el, { sky: key, seed });
     });
@@ -1458,6 +1451,8 @@
       return groups.map((g) => `<div>${g.t ? `<p class="chap__col-t">${esc(g.t)}</p>` : ''}${g.items.map((it) => it.grp ? `<p class="chap__grp">${esc(it.grp)}</p>` : pg(it)).join('')}</div>`).join('');
     };
     const badge = (st) => `<span class="badge badge--${SKEY[st]}">${ic({ v: I.check, b: '<circle cx="8" cy="8" r="5.6"/><path d="M8 2.4v11.2"/>', p: '<circle cx="8" cy="8" r="5.6"/>', e: '<path d="M2.5 4.5h11M2.5 8h11M2.5 11.5h7"/>', r: '<circle cx="8" cy="8" r="5.6"/><circle cx="8" cy="8" r="1.6"/>', d: '<circle cx="8" cy="8" r="5.6"/><path d="M4 12 12 4"/>' }[st])}${STATUS[st]}</span>`;
+    /* Introducción propia del área (opcional): <template id="area-intro"> en la página del área, entre la franja y los capítulos */
+    const tIntro = $('area-intro'), intro = tIntro ? tIntro.innerHTML : '';
     ap.innerHTML = `
       <header class="page-head">
         <h1 class="t-h1">${esc(area.full || area.t)}</h1>
@@ -1469,6 +1464,7 @@
         </div>
       </header>
       <div class="band grad grad--${area.color}" aria-hidden="true"></div>
+      ${intro}
       ${area.ch.map((c) => `
         <section class="chap" id="${slug(c)}">
           <div class="chap__head">

@@ -225,7 +225,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/cielos.html#gradientes",
   "bloque": 0,
-  "frase": "De tres a seis colores del cielo dominante, que debe reconocerse sin dudas.",
+  "frase": "De tres a seis colores del cielo dominante, que DEBE reconocerse sin dudas.⁠",
   "marcas": [
    "debe"
   ]
@@ -235,7 +235,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/cielos.html#gradientes",
   "bloque": 1,
-  "frase": "Los degradados deben responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.",
+  "frase": "Los degradados DEBEN responder a un concepto visual, una composición atmosférica o una necesidad comunicativa.⁠",
   "marcas": [
    "deben"
   ]
@@ -285,7 +285,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/funcionales.html#accion",
   "bloque": 2,
-  "frase": "Los tonos de Azul Cielo pueden utilizarse para acciones, seleccionando variantes que mantengan la legibilidad y visibilidad de los estados correspondientes.",
+  "frase": "Los tonos de Azul Cielo PUEDEN utilizarse para acciones, seleccionando variantes que mantengan la legibilidad y visibilidad de los estados correspondientes.⁠",
   "marcas": [
    "pueden"
   ]
@@ -295,7 +295,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/funcionales.html#estados",
   "bloque": 0,
-  "frase": "Los colores de estado comunican significado y deben ser comprensibles, consistentes y accesibles.",
+  "frase": "Los colores de estado comunican significado y DEBEN ser comprensibles, consistentes y accesibles.⁠",
   "marcas": [
    "deben"
   ]
@@ -315,7 +315,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/funcionales.html#estados",
   "bloque": 6,
-  "frase": "Los colores de estado deben acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.",
+  "frase": "Los colores de estado DEBEN acompañarse de etiquetas, iconos u otras señales cuando sean necesarios para comprender su significado.⁠",
   "marcas": [
    "deben"
   ]
@@ -325,7 +325,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/funcionales.html#estados",
   "bloque": 7,
-  "frase": "Los fondos y textos deben conservar el contraste correspondiente.",
+  "frase": "Los fondos y textos DEBEN conservar el contraste correspondiente.⁠",
   "marcas": [
    "deben"
   ]
@@ -395,7 +395,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/paleta-base.html#reglas",
   "bloque": 1,
-  "frase": "Sobre fondos claros, los textos DEBERÍAN ir en Azul Noche.",
+  "frase": "Sobre fondos claros, los textos DEBERÍAN ir en Azul Noche.⁠",
   "marcas": [
    "deberían"
   ]
@@ -405,7 +405,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/paleta-base.html#reglas",
   "bloque": 2,
-  "frase": "Azul Cielo y los salmones PUEDEN aportar acentos, superficies y señales gráficas.",
+  "frase": "Azul Cielo y los salmones PUEDEN aportar acentos, superficies y señales gráficas.⁠",
   "marcas": [
    "pueden"
   ]
@@ -415,7 +415,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/paleta-base.html#reglas",
   "bloque": 3,
-  "frase": "Su uso en textos o elementos funcionales DEBE comprobar el contraste correspondiente.",
+  "frase": "Su uso en textos o elementos funcionales DEBE comprobar el contraste correspondiente.⁠",
   "marcas": [
    "debe"
   ]
@@ -425,7 +425,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/paleta-base.html#reglas",
   "bloque": 4,
-  "frase": "Un elemento Salmón NO DEBE ir encima de un fondo Cielo, ni al revés.",
+  "frase": "Un elemento Salmón NO DEBE ir encima de un fondo Cielo, ni al revés.⁠",
   "marcas": [
    "no debe"
   ]
@@ -445,7 +445,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/paleta-base.html#reglas",
   "bloque": 7,
-  "frase": "Salmón Atardecer (#E99D9E) DEBE usarse solo sobre Azul Noche, donde alcanza 8,6:1.",
+  "frase": "Salmón Atardecer (#E99D9E) DEBE usarse solo sobre Azul Noche, donde alcanza 8,6:1.⁠",
   "marcas": [
    "debe"
   ]
@@ -455,7 +455,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/paleta-base.html#vis-008",
   "bloque": 1,
-  "frase": "El contraste debe comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.",
+  "frase": "El contraste DEBE comprobarse según la función real del elemento y los requisitos de accesibilidad aplicables.⁠",
   "marcas": [
    "debe"
   ]
@@ -475,7 +475,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/por-modo.html#expresivo",
   "bloque": 0,
-  "frase": "En campañas, contenidos narrativos y piezas editoriales, los cielos pueden convertirse en protagonistas.",
+  "frase": "En campañas, contenidos narrativos y piezas editoriales, los cielos PUEDEN convertirse en protagonistas.",
   "marcas": [
    "pueden"
   ]
@@ -485,7 +485,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/por-modo.html#expresivo",
   "bloque": 1,
-  "frase": "Cuando una pieza utiliza el cielo como recurso expresivo principal, su presencia debe estar justificada por la intención narrativa y conservar zonas de lectura clara.",
+  "frase": "Cuando una pieza utiliza el cielo como recurso expresivo principal, su presencia DEBE estar justificada por la intención narrativa y conservar zonas de lectura clara.⁠",
   "marcas": [
    "debe"
   ]
@@ -506,7 +506,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/color/por-modo.html#institucional",
   "bloque": 2,
-  "frase": "Puede ir en portadas, encabezados, secciones destacadas e incluso como fondo dominante cuando el mensaje lo justifica.",
+  "frase": "PUEDE ir en portadas, encabezados, secciones destacadas e incluso como fondo dominante cuando el mensaje lo justifica.⁠",
   "marcas": [
    "puede"
   ]
@@ -536,7 +536,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#densidad",
   "bloque": 1,
-  "frase": "Una composición informativa no debe convertirse en una acumulación de elementos.",
+  "frase": "Una composición informativa NO DEBE convertirse en una acumulación de elementos.⁠",
   "marcas": [
    "no debe"
   ]
@@ -556,7 +556,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#densidad",
   "bloque": 10,
-  "frase": "La densidad debe facilitar la tarea, no dificultarla.",
+  "frase": "La densidad DEBE facilitar la tarea, no dificultarla.⁠",
   "marcas": [
    "debe"
   ]
@@ -565,8 +565,8 @@
   "id": "KYN-MRK-ESP-005",
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#densidad",
-  "bloque": 10,
-  "frase": "Las vistas de uso frecuente pueden presentar información compacta cuando mantienen legibilidad, orientación y controles accesibles.",
+  "bloque": 11,
+  "frase": "Las vistas de uso frecuente PUEDEN presentar información compacta cuando mantienen legibilidad, orientación y controles accesibles.⁠",
   "marcas": [
    "pueden"
   ]
@@ -575,7 +575,7 @@
   "id": "KYN-MRK-ESP-005",
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#densidad",
-  "bloque": 33,
+  "bloque": 34,
   "frase": "Nunca queda suelto.",
   "marcas": [
    "nunca"
@@ -586,7 +586,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#diagramas",
   "bloque": 0,
-  "frase": "Su geometría debe corresponder a la relación representada: secuencia, agrupación, jerarquía, inclusión o conexión.",
+  "frase": "Su geometría DEBE corresponder a la relación representada: secuencia, agrupación, jerarquía, inclusión o conexión.⁠",
   "marcas": [
    "debe"
   ]
@@ -626,7 +626,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#diagramas",
   "bloque": 16,
-  "frase": "Las medidas de trazo y texto deben comprobarse según el tamaño final y el contexto de uso.",
+  "frase": "Las medidas de trazo y texto DEBEN comprobarse según el tamaño final y el contexto de uso.⁠",
   "marcas": [
    "deben"
   ]
@@ -636,7 +636,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#reticula",
   "bloque": 0,
-  "frase": "Las doce columnas constituyen una referencia versátil, pero la estructura debe adaptarse al contenido y a las necesidades de cada experiencia.",
+  "frase": "Las doce columnas constituyen una referencia versátil, pero la estructura DEBE adaptarse al contenido y a las necesidades de cada experiencia.⁠",
   "marcas": [
    "debe"
   ]
@@ -656,7 +656,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#reticula",
   "bloque": 4,
-  "frase": "La organización debe mantener alineaciones, agrupaciones y recorridos de lectura consistentes.",
+  "frase": "La organización DEBE mantener alineaciones, agrupaciones y recorridos de lectura consistentes.",
   "marcas": [
    "debe"
   ]
@@ -717,7 +717,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#vis-001",
   "bloque": 0,
-  "frase": "La composición debe responder a las relaciones y prioridades del contenido.",
+  "frase": "La composición DEBE responder a las relaciones y prioridades del contenido.⁠",
   "marcas": [
    "debe"
   ]
@@ -727,7 +727,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#vis-002",
   "bloque": 0,
-  "frase": "Las tarjetas deben representar agrupaciones funcionales o visualmente justificadas.",
+  "frase": "Las tarjetas DEBEN representar agrupaciones funcionales o visualmente justificadas.⁠",
   "marcas": [
    "deben"
   ]
@@ -747,7 +747,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#vis-005",
   "bloque": 1,
-  "frase": "La jerarquía no debe depender de la cantidad de elementos decorativos.",
+  "frase": "La jerarquía NO DEBE depender de la cantidad de elementos decorativos.",
   "marcas": [
    "no debe"
   ]
@@ -757,7 +757,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#vis-006",
   "bloque": 1,
-  "frase": "Ninguna debe utilizarse automáticamente.",
+  "frase": "Ninguna DEBE utilizarse automáticamente.⁠",
   "marcas": [
    "debe"
   ]
@@ -767,7 +767,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#vis-012",
   "bloque": 0,
-  "frase": "Una composición no debe aprobarse únicamente porque parezca moderna o siga una tendencia.",
+  "frase": "Una composición NO DEBE aprobarse únicamente porque parezca moderna o siga una tendencia.⁠",
   "marcas": [
    "no debe"
   ]
@@ -777,7 +777,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#vis-012",
   "bloque": 1,
-  "frase": "Las decisiones visuales deben responder al contenido, a las personas y a la identidad de la marca para la que se diseña.",
+  "frase": "Las decisiones visuales DEBEN responder al contenido, a las personas y a la identidad de la marca para la que se diseña.⁠",
   "marcas": [
    "deben"
   ]
@@ -787,7 +787,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/composicion/editorial.html#vis-012",
   "bloque": 2,
-  "frase": "En las piezas corporativas Keyons, el conjunto debe expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología.",
+  "frase": "En las piezas corporativas Keyons, el conjunto DEBE expresar su dirección artística y evitar soluciones intercambiables con cualquier empresa de tecnología.⁠",
   "marcas": [
    "debe"
   ]
@@ -797,7 +797,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/datos/graficos.html#estructura",
   "bloque": 12,
-  "frase": "Cada diapositiva de datos debe tener una conclusión o una pregunta reconocible.",
+  "frase": "Cada diapositiva de datos DEBE tener una conclusión o una pregunta reconocible.",
   "marcas": [
    "debe"
   ]
@@ -807,7 +807,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/datos/graficos.html#estructura",
   "bloque": 15,
-  "frase": "Una diapositiva expresiva puede dar gran protagonismo a una cifra mediante TASA Orbiter, color y espacio.",
+  "frase": "Una diapositiva expresiva PUEDE dar gran protagonismo a una cifra mediante TASA Orbiter, color y espacio.",
   "marcas": [
    "puede"
   ]
@@ -817,7 +817,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/datos/graficos.html#paleta",
   "bloque": 8,
-  "frase": "Puede destacar una categoría o establecer un contraste cálido entre series.",
+  "frase": "PUEDE destacar una categoría o establecer un contraste cálido entre series.⁠",
   "marcas": [
    "puede"
   ]
@@ -827,7 +827,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/datos/graficos.html#paleta",
   "bloque": 9,
-  "frase": "Su significado cromático debe conservarse independiente de los estados desfavorables.",
+  "frase": "Su significado cromático DEBE conservarse independiente de los estados desfavorables.⁠",
   "marcas": [
    "debe"
   ]
@@ -836,8 +836,8 @@
   "id": "KYN-MRK-DAT-002",
   "estado": "vigente",
   "fuente": "fundamentos/datos/graficos.html#paleta",
-  "bloque": 9,
-  "frase": "NO DEBE utilizarse para comunicar por sí mismo errores, pérdidas, resultados negativos o alertas críticas.",
+  "bloque": 10,
+  "frase": "NO DEBE utilizarse para comunicar por sí mismo errores, pérdidas, resultados negativos o alertas críticas.⁠",
   "marcas": [
    "no debe"
   ]
@@ -846,8 +846,8 @@
   "id": "KYN-MRK-DAT-002",
   "estado": "vigente",
   "fuente": "fundamentos/datos/graficos.html#paleta",
-  "bloque": 19,
-  "frase": "Las ilustraciones e infografías pueden utilizar estos colores con mayor libertad compositiva, conservando los significados estadísticos cuando representan datos.",
+  "bloque": 20,
+  "frase": "Las ilustraciones e infografías PUEDEN utilizar estos colores con mayor libertad compositiva, conservando los significados estadísticos cuando representan datos.⁠",
   "marcas": [
    "pueden"
   ]
@@ -856,18 +856,8 @@
   "id": "KYN-MRK-DAT-002",
   "estado": "vigente",
   "fuente": "fundamentos/datos/graficos.html#paleta",
-  "bloque": 21,
-  "frase": "La composición puede destacar los extremos y la referencia central mediante tipografía, espacio, posición y valores numéricos.",
-  "marcas": [
-   "puede"
-  ]
- },
- {
-  "id": "KYN-MRK-DAT-002",
-  "estado": "vigente",
-  "fuente": "fundamentos/datos/graficos.html#paleta",
   "bloque": 22,
-  "frase": "La paleta puede expresar relaciones entre dos condiciones, manteniendo información suficiente para comprender las diferencias.",
+  "frase": "La composición PUEDE destacar los extremos y la referencia central mediante tipografía, espacio, posición y valores numéricos.⁠",
   "marcas": [
    "puede"
   ]
@@ -877,7 +867,17 @@
   "estado": "vigente",
   "fuente": "fundamentos/datos/graficos.html#paleta",
   "bloque": 23,
-  "frase": "Los colores complementarios de los cielos pueden utilizarse en composiciones expresivas, de acuerdo con las normas de identidad visual Keyons.",
+  "frase": "La paleta PUEDE expresar relaciones entre dos condiciones, manteniendo información suficiente para comprender las diferencias.⁠",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-DAT-002",
+  "estado": "vigente",
+  "fuente": "fundamentos/datos/graficos.html#paleta",
+  "bloque": 24,
+  "frase": "Los colores complementarios de los cielos PUEDEN utilizarse en composiciones expresivas, de acuerdo con las normas de identidad visual Keyons.⁠",
   "marcas": [
    "pueden"
   ]
@@ -887,7 +887,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/datos/graficos.html#principios",
   "bloque": 15,
-  "frase": "La identidad Keyons puede expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conserve la precisión de los datos.",
+  "frase": "La identidad Keyons PUEDE expresarse mediante composición editorial, tipografía, color, geometría, líneas y tramas, siempre que conserve la precisión de los datos.⁠",
   "marcas": [
    "puede",
    "siempre"
@@ -989,7 +989,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/elementos/graficos.html#enfasis",
   "bloque": 10,
-  "frase": "Las flechas integradas en diagramas de información pueden seguir las convenciones del diagrama y la materia que representan.",
+  "frase": "Las flechas integradas en diagramas de información PUEDEN seguir las convenciones del diagrama y la materia que representan.⁠",
   "marcas": [
    "pueden"
   ]
@@ -1050,7 +1050,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/elementos/graficos.html#patrones",
   "bloque": 1,
-  "frase": "Los recursos de un contexto específico pueden aplicar las variantes cromáticas documentadas para ese contexto.",
+  "frase": "Los recursos de un contexto específico PUEDEN aplicar las variantes cromáticas documentadas para ese contexto.⁠",
   "marcas": [
    "pueden"
   ]
@@ -1181,7 +1181,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/elementos/graficos.html#profundidad",
   "bloque": 0,
-  "frase": "Sobre cielos u otras superficies expresivas se puede crear profundidad atmosférica con sombras difusas.",
+  "frase": "Sobre cielos u otras superficies expresivas se PUEDE crear profundidad atmosférica con sombras difusas.⁠",
   "marcas": [
    "puede"
   ]
@@ -1261,7 +1261,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/elementos/graficos.html#ventana",
   "bloque": 11,
-  "frase": "El fondo exterior puede ser cielo esmerilado o cielo pleno.",
+  "frase": "El fondo exterior PUEDE ser cielo esmerilado o cielo pleno.⁠",
   "marcas": [
    "puede"
   ]
@@ -1301,7 +1301,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/elementos/graficos.html#vinetas",
   "bloque": 1,
-  "frase": "Funcionan con dos ritmos independientes: la forma alterna siempre y el color varía según el modo.",
+  "frase": "Funcionan con dos ritmos independientes: la forma alterna siempre y el color varía según la intensidad de la pieza.",
   "marcas": [
    "siempre"
   ]
@@ -1351,7 +1351,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/forma/espacio.html#espaciado",
   "bloque": 3,
-  "frase": "Cuando la escala no resuelva una necesidad técnica justificada, la excepción debe documentarse en el sistema correspondiente.",
+  "frase": "Cuando la escala no resuelva una necesidad técnica justificada, la excepción DEBE documentarse en el sistema correspondiente.⁠",
   "marcas": [
    "debe"
   ]
@@ -1391,7 +1391,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/forma/espacio.html#radios",
   "bloque": 12,
-  "frase": "Cuando un contenedor curvo contiene otro elemento, los radios y el espacio interior deben mantener una relación visual coherente, evitando encuentros irregulares.",
+  "frase": "Cuando un contenedor curvo contiene otro elemento, los radios y el espacio interior DEBEN mantener una relación visual coherente, evitando encuentros irregulares.⁠",
   "marcas": [
    "deben"
   ]
@@ -1423,7 +1423,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/forma/espacio.html#vis-003",
   "bloque": 0,
-  "frase": "La geometría de los elementos debe responder a su función y relación compositiva.",
+  "frase": "La geometría de los elementos DEBE responder a su función y relación compositiva.⁠",
   "marcas": [
    "debe"
   ]
@@ -1483,7 +1483,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/iconografia/iconos.html#uso",
   "bloque": 0,
-  "frase": "Solo, debe ser inequívoco.",
+  "frase": "Solo, DEBE ser inequívoco.⁠",
   "marcas": [
    "debe"
   ]
@@ -1513,7 +1513,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/iconografia/iconos.html#vis-004",
   "bloque": 1,
-  "frase": "Los íconos deben favorecer orientación, comprensión, identificación o expresión visual justificada.",
+  "frase": "Los íconos DEBEN favorecer orientación, comprensión, identificación o expresión visual justificada.⁠",
   "marcas": [
    "deben"
   ]
@@ -1522,8 +1522,8 @@
   "id": "KYN-MRK-VIS-004",
   "estado": "vigente",
   "fuente": "fundamentos/iconografia/iconos.html#vis-004",
-  "bloque": 1,
-  "frase": "Los íconos expresivos pueden utilizarse cuando existe una intención visual justificada.",
+  "bloque": 2,
+  "frase": "Los íconos expresivos PUEDEN utilizarse cuando existe una intención visual justificada.⁠",
   "marcas": [
    "pueden"
   ]
@@ -1533,7 +1533,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/identidad/isotipo.html#evolucion",
   "bloque": 1,
-  "frase": "El isotipo puede acompañar al logotipo o utilizarse individualmente cuando el entorno identifica claramente a Keyons, como el favicon de su sitio o los avatares de sus cuentas oficiales.",
+  "frase": "El isotipo PUEDE acompañar al logotipo o utilizarse individualmente cuando el entorno identifica claramente a Keyons, como el favicon de su sitio o los avatares de sus cuentas oficiales.⁠",
   "marcas": [
    "puede"
   ]
@@ -1543,7 +1543,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/identidad/isotipo.html#evolucion",
   "bloque": 2,
-  "frase": "El isotipo no debe sustituir automáticamente al nombre completo cuando el público todavía no puede reconocerlo como Keyons.",
+  "frase": "El isotipo NO DEBE sustituir automáticamente al nombre completo cuando el público todavía no puede reconocerlo como Keyons.⁠",
   "marcas": [
    "no debe",
    "puede"
@@ -1574,7 +1574,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/identidad/isotipo.html#transicion",
   "bloque": 11,
-  "frase": "La prueba debe documentar el público evaluado, la metodología, los resultados y sus limitaciones.",
+  "frase": "La prueba DEBE documentar el público evaluado, la metodología, los resultados y sus limitaciones.⁠",
   "marcas": [
    "debe"
   ]
@@ -1624,7 +1624,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/identidad/logotipo.html#versiones",
   "bloque": 4,
-  "frase": "Solo cuando otra versión resulte más adecuada para el formato o el contexto puede utilizarse esa alternativa.",
+  "frase": "Solo cuando otra versión resulte más adecuada para el formato o el contexto PUEDE utilizarse esa alternativa.",
   "marcas": [
    "puede"
   ]
@@ -1654,7 +1654,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/tipografia/sistema.html#escala",
   "bloque": 38,
-  "frase": "Los títulos y las declaraciones pueden variar su escala, proporción y tratamiento visual según la intención editorial.",
+  "frase": "Los títulos y las declaraciones PUEDEN variar su escala, proporción y tratamiento visual según la intención editorial.",
   "marcas": [
    "pueden"
   ]
@@ -1664,7 +1664,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/tipografia/sistema.html#reglas",
   "bloque": 0,
-  "frase": "La tipografía debe organizar la lectura, transmitir identidad y adaptarse a las necesidades del contenido.",
+  "frase": "La tipografía DEBE organizar la lectura, transmitir identidad y adaptarse a las necesidades del contenido.⁠",
   "marcas": [
    "debe"
   ]
@@ -1674,7 +1674,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/tipografia/sistema.html#reglas",
   "bloque": 3,
-  "frase": "Los titulares pueden utilizar un interlineado compacto cuando conservan la legibilidad.",
+  "frase": "Los titulares PUEDEN utilizar un interlineado compacto cuando conservan la legibilidad.⁠",
   "marcas": [
    "pueden"
   ]
@@ -1684,7 +1684,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/tipografia/sistema.html#reglas",
   "bloque": 8,
-  "frase": "No debe utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.",
+  "frase": "NO DEBE utilizarse de manera excesiva ni como sustituto de una jerarquía bien construida.⁠",
   "marcas": [
    "no debe"
   ]
@@ -1694,7 +1694,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/tipografia/sistema.html#reglas",
   "bloque": 13,
-  "frase": "Las composiciones deben permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.",
+  "frase": "Las composiciones DEBEN permitir ampliar el texto y ajustar su espaciado sin perder información ni funcionalidad.⁠",
   "marcas": [
    "deben"
   ]
@@ -1704,7 +1704,7 @@
   "estado": "vigente",
   "fuente": "fundamentos/tipografia/sistema.html#reglas",
   "bloque": 14,
-  "frase": "El diseño debe considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.",
+  "frase": "El diseño DEBE considerar los criterios WCAG 2.2 AA aplicables a tamaño, redistribución y espaciado de texto.⁠",
   "marcas": [
    "debe"
   ]
@@ -1744,7 +1744,7 @@
   "estado": "vigente",
   "fuente": "marca/cielo.html#diario",
   "bloque": 1,
-  "frase": "Si la pieza no lo necesita, puede ser 100 % cielo.",
+  "frase": "Si la pieza no lo necesita, PUEDE ser 100 % cielo.⁠",
   "marcas": [
    "puede"
   ]
@@ -1814,7 +1814,7 @@
   "estado": "vigente",
   "fuente": "marca/composicion.html#reglas",
   "bloque": 4,
-  "frase": "La creación puede integrar fotografía, ilustración, diseño digital o IA, siempre bajo dirección artística definida y revisada por una persona responsable.",
+  "frase": "La creación PUEDE integrar fotografía, ilustración, diseño digital o IA, siempre bajo dirección artística definida y revisada por una persona responsable.⁠",
   "marcas": [
    "puede",
    "siempre"
@@ -1825,7 +1825,7 @@
   "estado": "vigente",
   "fuente": "marca/composicion.html#reglas",
   "bloque": 6,
-  "frase": "Las fotografías del cielo deben tener procedencia verificable y cumplir las reglas del Diario de Cielos, evitando presentar imágenes sintéticas como auténticas.",
+  "frase": "Las fotografías del cielo DEBEN tener procedencia verificable y cumplir las reglas del Diario de Cielos, evitando presentar imágenes sintéticas como auténticas.⁠",
   "marcas": [
    "deben"
   ]
@@ -1845,7 +1845,7 @@
   "estado": "vigente",
   "fuente": "marca/composicion.html#reglas",
   "bloque": 10,
-  "frase": "La base debe ser siempre creada por una persona.",
+  "frase": "La base DEBE ser siempre creada por una persona.⁠",
   "marcas": [
    "debe",
    "siempre"
@@ -1856,7 +1856,7 @@
   "estado": "vigente",
   "fuente": "marca/composicion.html#reglas",
   "bloque": 11,
-  "frase": "La inteligencia artificial puede participar para potenciar o extender la pieza, siempre que respete la dirección creativa y el concepto inicial humano.",
+  "frase": "La inteligencia artificial PUEDE participar para potenciar o extender la pieza, siempre que respete la dirección creativa y el concepto inicial humano.⁠",
   "marcas": [
    "puede",
    "siempre"
@@ -1867,7 +1867,7 @@
   "estado": "vigente",
   "fuente": "marca/composicion.html#reglas",
   "bloque": 12,
-  "frase": "Deben distinguirse claramente de las representaciones artísticas.",
+  "frase": "DEBEN distinguirse claramente de las representaciones artísticas.⁠",
   "marcas": [
    "deben"
   ]
@@ -1877,17 +1877,319 @@
   "estado": "vigente",
   "fuente": "marca/composicion.html#reglas",
   "bloque": 14,
-  "frase": "Todos los resultados deben cumplir las reglas visuales de la marca, sin importar la herramienta empleada.",
+  "frase": "Todos los resultados DEBEN cumplir las reglas visuales de la marca, sin importar la herramienta empleada.⁠",
   "marcas": [
    "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 0,
+  "frase": "Estela puede sugerir acciones, ordenar alternativas y ayudar a identificar el siguiente paso.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 1,
+  "frase": "Su iniciativa debe mejorar la capacidad de decisión de la persona, no reemplazarla.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 4,
+  "frase": "Cuando una persona presenta demasiadas tareas, preocupaciones o información simultánea, Estela debe identificar qué necesita atención primero.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 7,
+  "frase": "Estela no decide por cuenta propia qué debe posponerse: ayuda a que la persona establezca esa prioridad.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 9,
+  "frase": "Estela puede anticipar una necesidad razonable cuando dispone de contexto suficiente.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 10,
+  "frase": "Una sugerencia debe tener relación directa con la tarea y explicar su beneficio.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 12,
+  "frase": "Una recomendación útil puede ahorrar trabajo.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 12,
+  "frase": "Una cadena de sugerencias innecesarias puede aumentar la carga mental.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 13,
+  "frase": "Estela debe distinguir entre información verificada, inferencias, recomendaciones y datos que necesitan confirmación.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 14,
+  "frase": "Cuando no dispone de información suficiente, debe expresarlo claramente.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 15,
+  "frase": "Puede proponer una forma de obtener o comprobar esa información, sin inventar certezas.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 18,
+  "frase": "Una disculpa breve puede ser apropiada, pero debe acompañarse de una corrección concreta cuando sea posible.",
+  "marcas": [
+   "debe",
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-004",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#comportamiento",
+  "bloque": 20,
+  "frase": "Puede explicar consecuencias, exponer riesgos y recomendar alternativas más seguras.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-002",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#origen",
+  "bloque": 8,
+  "frase": "La curiosidad no debe transformar una interacción sencilla en un interrogatorio.",
+  "marcas": [
+   "no debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-002",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#origen",
+  "bloque": 11,
+  "frase": "Puede sorprender mediante una observación ingeniosa, una solución poco evidente o un enfoque original.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-002",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#origen",
+  "bloque": 12,
+  "frase": "La creatividad debe ser pertinente y comprobable cuando el contenido exige precisión.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-002",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#origen",
+  "bloque": 22,
+  "frase": "Estos equilibrios deben mantenerse incluso cuando cambian el canal, la extensión de la respuesta o la complejidad de una tarea.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-002",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#origen",
+  "bloque": 23,
+  "frase": "El origen narrativo y la representación visual definitiva de Estela pueden desarrollarse progresivamente.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-002",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#origen",
+  "bloque": 24,
+  "frase": "La incorporación de historias, símbolos o recursos gráficos debe enriquecer una personalidad ya definida, no reemplazarla.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-002",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#origen",
+  "bloque": 25,
+  "frase": "No se deben presentar como oficiales relatos de origen, biografías o características visuales que todavía no hayan recibido aprobación.",
+  "marcas": [
+   "no se deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-006",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#presencia",
+  "bloque": 0,
+  "frase": "Estela puede estar presente en el sitio corporativo, las experiencias de inteligencia artificial, los productos y las comunicaciones de Keyons.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-006",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#presencia",
+  "bloque": 1,
+  "frase": "Su presencia debe responder a una función comprensible.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-006",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#presencia",
+  "bloque": 3,
+  "frase": "Las personas pueden interactuar con una identidad pública consistente, aunque internamente participen varios agentes especializados.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-006",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#presencia",
+  "bloque": 5,
+  "frase": "La experiencia pública debe comunicar claramente qué está haciendo Estela, qué puede resolver y cuándo interviene otro sistema o una persona.",
+  "marcas": [
+   "debe",
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-006",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#presencia",
+  "bloque": 7,
+  "frase": "La longitud de los mensajes, el nivel de detalle y los recursos visuales pueden variar según el canal.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-006",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#presencia",
+  "bloque": 9,
+  "frase": "El avatar, la ilustración y los recursos de Estela no deben competir con el contenido principal.",
+  "marcas": [
+   "no deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-006",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#presencia",
+  "bloque": 10,
+  "frase": "Su aparición puede ser discreta cuando la persona realiza tareas operativas, y más expresiva cuando la experiencia tiene un propósito narrativo o comunicativo.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-006",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#presencia",
+  "bloque": 12,
+  "frase": "Cuando Estela aparece con su identidad pública, debe respetarse su relación con Keyons.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-006",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#presencia",
+  "bloque": 13,
+  "frase": "Los productos desarrollados para clientes pueden utilizar otros sistemas de identidad conforme al alcance acordado.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-006",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#presencia",
+  "bloque": 14,
+  "frase": "No se debe imponer la firma visual de Estela a soluciones diseñadas expresamente sin autoría visible de Keyons.",
+  "marcas": [
+   "no se debe"
   ]
  },
  {
   "id": "KYN-MRK-EST-001",
   "estado": "borrador",
   "fuente": "marca/estela.html#quien",
-  "bloque": 9,
-  "frase": "Por dentro, el sistema puede combinar varios agentes, herramientas y servicios.",
+  "bloque": 1,
+  "frase": "Su propósito no es demostrar cuántas cosas puede hacer, sino ayudar a las personas a comprender mejor, decidir con más claridad y avanzar con confianza.",
   "marcas": [
    "puede"
   ]
@@ -1896,18 +2198,291 @@
   "id": "KYN-MRK-EST-001",
   "estado": "borrador",
   "fuente": "marca/estela.html#quien",
-  "bloque": 11,
-  "frase": "Estela siempre se presenta como la inteligencia artificial de Keyons, con una personalidad expresiva.",
+  "bloque": 8,
+  "frase": "Las capacidades internas pueden distribuirse entre sistemas especializados sin trasladar esa complejidad innecesariamente a la experiencia pública.",
   "marcas": [
-   "siempre"
+   "pueden"
   ]
  },
  {
   "id": "KYN-MRK-EST-001",
   "estado": "borrador",
   "fuente": "marca/estela.html#quien",
+  "bloque": 11,
+  "frase": "Cuando aparece públicamente bajo su propia identidad, la asociación debe ser clara:Estela es de Keyons.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 0,
+  "frase": "La identidad visual de Estela debe expresar inteligencia, cercanía y movimiento mediante recursos compatibles con Keyons.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 1,
+  "frase": "Su desarrollo contempla un lenguaje propio que puede incluir referencias estelares, luz, trayectorias y formas de presencia.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 3,
+  "frase": "Su geometría definitiva, variantes y reglas de construcción requieren validación visual antes de convertirse en activos obligatorios.",
+  "marcas": [
+   "obligatorios"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 4,
+  "frase": "Los colores, las atmósferas y los recursos de Estela deben conservar continuidad con la identidad corporativa.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 5,
+  "frase": "Su personalidad visual puede tener mayor libertad narrativa, pero no debe crear un sistema cromático paralelo que contradiga las normas oficiales de Keyons.",
+  "marcas": [
+   "no debe",
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 6,
+  "frase": "Estela debe poder reconocerse por sus relaciones de forma, color y movimiento, no solamente por aparecer junto al logotipo.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 7,
+  "frase": "Estela puede adoptar diferentes grados de presencia según el contexto.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 8,
+  "frase": "Una intervención discreta puede requerir únicamente una señal visual.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 8,
+  "frase": "Una experiencia editorial o narrativa puede permitir una composición más expresiva.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 11,
+  "frase": "Los cielos oficiales de Prisma —Amanecer, Mediodía, Atardecer, Anochecer y Galaxia— constituyen un universo atmosférico que puede dialogar visualmente con Estela.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
   "bloque": 12,
-  "frase": "Estela puede acompañar la narrativa y las experiencias de la metodología Prisma en sus cinco fases oficiales.",
+  "frase": "Esta relación puede explorarse mediante luz, transición, profundidad y composición.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 14,
+  "frase": "No se deben inventar correspondencias obligatorias entre cada cielo y una emoción, personalidad, acción o capacidad de Estela.",
+  "marcas": [
+   "no se deben",
+   "obligatorias"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 16,
+  "frase": "Las reglas definitivas sobre avatar, personaje, expresiones, variantes, animaciones y archivos maestros deben acompañarse de recursos visuales aprobados.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 17,
+  "frase": "El Libro de Marca puede establecer principios de dirección artística antes de que exista el catálogo definitivo.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-005",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#visual",
+  "bloque": 18,
+  "frase": "No debe presentar bocetos conceptuales como piezas finales.",
+  "marcas": [
+   "no debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 1,
+  "frase": "Su lenguaje debe parecer una conversación útil con alguien competente, no un discurso publicitario ni una explicación técnica innecesariamente extensa.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 2,
+  "frase": "La primera parte de una respuesta debería atender la necesidad principal de la persona.",
+  "marcas": [
+   "debería"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 2,
+  "frase": "Los detalles pueden desarrollarse después, según el contexto.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 6,
+  "frase": "Debe conservar consistencia en el tratamiento elegido para cada canal y adaptarse a las preferencias explícitas de la persona.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 7,
+  "frase": "Estela puede señalar una contradicción, advertir un riesgo o cuestionar una premisa cuando exista una razón suficiente.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 8,
+  "frase": "Debe explicar por qué considera importante la observación y dejar espacio para que la persona decida.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 11,
+  "frase": "Estela puede utilizar humor observador, inteligente y discreto cuando el contexto lo permite.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 12,
+  "frase": "Su ingenio puede aparecer al señalar una contradicción cotidiana, cuestionar con suavidad una promesa exagerada o establecer una comparación inesperada.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 13,
+  "frase": "El humor nunca debe comprometer la confianza ni ridiculizar a la persona.",
+  "marcas": [
+   "debe",
+   "nunca"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 17,
+  "frase": "Ante frustración, errores, conflicto, vulnerabilidad o información sensible, Estela debe priorizar una respuesta neutral, clara y respetuosa.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 20,
+  "frase": "La respuesta reconoce la situación sin discutir, dramatizar ni prometer más de lo que puede cumplir.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EST-003",
+  "estado": "borrador",
+  "fuente": "marca/estela.html#voz",
+  "bloque": 21,
+  "frase": "Una respuesta incorrecta puede afectar la confianza en una herramienta.",
   "marcas": [
    "puede"
   ]
@@ -1927,7 +2502,7 @@
   "estado": "vigente",
   "fuente": "marca/metaforas.html#condiciones",
   "bloque": 3,
-  "frase": "La primera lectura debe ser clara y comprensible, con significados adicionales al observarla en detalle.",
+  "frase": "La primera lectura DEBE ser clara y comprensible, con significados adicionales al observarla en detalle.⁠",
   "marcas": [
    "debe"
   ]
@@ -1947,7 +2522,7 @@
   "estado": "vigente",
   "fuente": "marca/metaforas.html#condiciones",
   "bloque": 16,
-  "frase": "En composiciones editoriales puede convertirse en protagonista.",
+  "frase": "En composiciones editoriales PUEDE convertirse en protagonista.⁠",
   "marcas": [
    "puede"
   ]
@@ -1957,7 +2532,7 @@
   "estado": "vigente",
   "fuente": "marca/metaforas.html#condiciones",
   "bloque": 17,
-  "frase": "En documentos operativos e interfaces funcionales, la identidad puede expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.",
+  "frase": "En documentos operativos e interfaces funcionales, la identidad PUEDE expresarse mediante otros recursos aprobados, sin necesidad de incorporar literalmente una imagen del cielo.⁠",
   "marcas": [
    "puede"
   ]
@@ -1967,7 +2542,7 @@
   "estado": "vigente",
   "fuente": "marca/principios.html#capas",
   "bloque": 1,
-  "frase": "Los productos desarrollados para clientes pueden tener identidades visuales diferentes sin perder los estándares de calidad, claridad, accesibilidad y experiencia que caracterizan el trabajo de Keyons.",
+  "frase": "Los productos desarrollados para clientes PUEDEN tener identidades visuales diferentes sin perder los estándares de calidad, claridad, accesibilidad y experiencia que caracterizan el trabajo de Keyons.⁠",
   "marcas": [
    "pueden"
   ]
@@ -1977,7 +2552,7 @@
   "estado": "vigente",
   "fuente": "marca/principios.html#capas",
   "bloque": 3,
-  "frase": "Los productos sin identidad visual propia pueden utilizar una estética desarrollada por Keyons, adaptable según los límites de cada modalidad de servicio.",
+  "frase": "Los productos sin identidad visual propia PUEDEN utilizar una estética desarrollada por Keyons, adaptable según los límites de cada modalidad de servicio.⁠",
   "marcas": [
    "pueden"
   ]
@@ -1997,7 +2572,7 @@
   "estado": "vigente",
   "fuente": "marca/principios.html#comprension",
   "bloque": 1,
-  "frase": "Keyons debe resolver la complejidad durante el proceso de diseño, en lugar de trasladarla innecesariamente al usuario.",
+  "frase": "Keyons DEBE resolver la complejidad durante el proceso de diseño, en lugar de trasladarla innecesariamente al usuario.⁠",
   "marcas": [
    "debe"
   ]
@@ -2007,7 +2582,7 @@
   "estado": "vigente",
   "fuente": "marca/principios.html#comprension",
   "bloque": 2,
-  "frase": "Las soluciones deben ser comprensibles incluso para personas con baja familiaridad tecnológica.",
+  "frase": "Las soluciones DEBEN ser comprensibles incluso para personas con baja familiaridad tecnológica.⁠",
   "marcas": [
    "deben"
   ]
@@ -2017,7 +2592,7 @@
   "estado": "vigente",
   "fuente": "marca/principios.html#comprension",
   "bloque": 3,
-  "frase": "Cuando algo falla, la interfaz también debe ayudar a comprender qué ocurrió y cómo resolverlo o continuar.",
+  "frase": "Cuando algo falla, la interfaz también DEBE ayudar a comprender qué ocurrió y cómo resolverlo o continuar.⁠",
   "marcas": [
    "debe"
   ]
@@ -2027,7 +2602,7 @@
   "estado": "vigente",
   "fuente": "marca/principios.html#contexto",
   "bloque": 1,
-  "frase": "Puede utilizar grandes fotografías, composiciones experimentales y movimiento atmosférico.",
+  "frase": "PUEDE utilizar grandes fotografías, composiciones experimentales y movimiento atmosférico.⁠",
   "marcas": [
    "puede"
   ]
@@ -2037,7 +2612,7 @@
   "estado": "vigente",
   "fuente": "marca/principios.html#contexto",
   "bloque": 2,
-  "frase": "Utilizada repetidamente durante el día, debe priorizar legibilidad, navegación sencilla, claridad y estabilidad visual.",
+  "frase": "Utilizada repetidamente durante el día, DEBE priorizar legibilidad, navegación sencilla, claridad y estabilidad visual.⁠",
   "marcas": [
    "debe"
   ]
@@ -2047,7 +2622,7 @@
   "estado": "vigente",
   "fuente": "marca/principios.html#contexto",
   "bloque": 3,
-  "frase": "La intensidad también puede variar dentro de un mismo producto: una bienvenida admite mayor expresión gráfica que un formulario o una tabla utilizada diariamente.",
+  "frase": "La intensidad también PUEDE variar dentro de un mismo producto: una bienvenida admite mayor expresión gráfica que un formulario o una tabla utilizada diariamente.⁠",
   "marcas": [
    "puede"
   ]
@@ -2057,7 +2632,7 @@
   "estado": "vigente",
   "fuente": "marca/principios.html#contexto",
   "bloque": 4,
-  "frase": "La creatividad nunca debe obstaculizar una decisión funcional.",
+  "frase": "La creatividad nunca DEBE obstaculizar una decisión funcional.⁠",
   "marcas": [
    "debe",
    "nunca"
@@ -2068,7 +2643,7 @@
   "estado": "vigente",
   "fuente": "marca/principios.html#criterio",
   "bloque": 0,
-  "frase": "Keyons debe diferenciarse por diseñar experiencias reconocibles, inteligibles y cuidadosamente resueltas, utilizando la libertad gráfica donde aporta valor y la disciplina funcional donde el usuario necesita certeza.",
+  "frase": "Keyons DEBE diferenciarse por diseñar experiencias reconocibles, inteligibles y cuidadosamente resueltas, utilizando la libertad gráfica donde aporta valor y la disciplina funcional donde el usuario necesita certeza.⁠",
   "marcas": [
    "debe"
   ]
@@ -2089,7 +2664,7 @@
   "estado": "vigente",
   "fuente": "marca/trato.html#persona",
   "bloque": 6,
-  "frase": "Los cambios de persona deben cumplir una función comunicativa clara.",
+  "frase": "Los cambios de persona DEBEN cumplir una función comunicativa clara.⁠",
   "marcas": [
    "deben"
   ]
@@ -2149,7 +2724,7 @@
   "estado": "vigente",
   "fuente": "marca/trato.html#traduccion",
   "bloque": 65,
-  "frase": "La comunicación comercial de consumo de IA debe expresar unidades comprensibles para el cliente.",
+  "frase": "La comunicación comercial de consumo de IA DEBE expresar unidades comprensibles para el cliente.",
   "marcas": [
    "debe"
   ]
@@ -2159,7 +2734,7 @@
   "estado": "vigente",
   "fuente": "marca/trato.html#traduccion",
   "bloque": 66,
-  "frase": "No se deben introducir términos internos de ingeniería en interfaces comerciales cuando no aportan valor al usuario.",
+  "frase": "NO se DEBEN introducir términos internos de ingeniería en interfaces comerciales cuando no aportan valor al usuario.⁠",
   "marcas": [
    "no se deben"
   ]
@@ -2169,7 +2744,7 @@
   "estado": "vigente",
   "fuente": "marca/trato.html#usted",
   "bloque": 7,
-  "frase": "El tono profesional y cercano debe trasladarse de manera natural al inglés, respetando las convenciones del idioma.",
+  "frase": "El tono profesional y cercano DEBE trasladarse de manera natural al inglés, respetando las convenciones del idioma.⁠",
   "marcas": [
    "debe"
   ]
@@ -2178,8 +2753,8 @@
   "id": "KYN-MRK-VOZ-005",
   "estado": "vigente",
   "fuente": "marca/trato.html#usted",
-  "bloque": 7,
-  "frase": "No se deben reproducir literalmente las construcciones del español cuando produzcan expresiones poco naturales.",
+  "bloque": 8,
+  "frase": "NO se DEBEN reproducir literalmente las construcciones del español cuando produzcan expresiones poco naturales.⁠",
   "marcas": [
    "no se deben"
   ]
@@ -2199,7 +2774,7 @@
   "estado": "vigente",
   "fuente": "marca/vocabulario.html#vis-009",
   "bloque": 0,
-  "frase": "El contenido debe ser específico, comprensible y significativo.",
+  "frase": "El contenido DEBE ser específico, comprensible y significativo.⁠",
   "marcas": [
    "debe"
   ]
@@ -2209,7 +2784,7 @@
   "estado": "vigente",
   "fuente": "marca/voz.html#reglas",
   "bloque": 6,
-  "frase": "Cada oración debe tener una intención clara.",
+  "frase": "Cada oración DEBE tener una intención clara.",
   "marcas": [
    "debe"
   ]
@@ -2219,10 +2794,1182 @@
   "estado": "vigente",
   "fuente": "marca/voz.html#reglas",
   "bloque": 14,
-  "frase": "Los adjetivos deben aportar información, nunca sustituirla.",
+  "frase": "Los adjetivos DEBEN aportar información, nunca sustituirla.⁠",
   "marcas": [
    "deben",
    "nunca"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 0,
+  "frase": "Los documentos Keyons deben funcionar como herramientas claras y confiables, sin renunciar a su identidad visual.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 3,
+  "frase": "La elección debe considerar compatibilidad, facilidad de consulta, exportación y conservación.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 6,
+  "frase": "La retícula debe facilitar la alineación de títulos, párrafos, tablas, imágenes y referencias.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 11,
+  "frase": "La tipografía no debe reemplazarse por fuentes decorativas para simular una expresión más creativa.",
+  "marcas": [
+   "no debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 13,
+  "frase": "Debe mostrar con claridad el título, el emisor y los datos de identificación necesarios.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 14,
+  "frase": "Puede ser formal o editorial.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 16,
+  "frase": "Deben mantener una presencia discreta y consistente.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 20,
+  "frase": "Los documentos editoriales pueden emplear encabezados más libres si su organización sigue siendo comprensible.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 22,
+  "frase": "Los números deben alinearse de manera consistente, mantener unidades visibles y permitir distinguir encabezados, valores, totales y notas.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 23,
+  "frase": "El color puede ayudar a interpretar, pero no debe ser la única forma de diferenciar información.",
+  "marcas": [
+   "no debe",
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 24,
+  "frase": "Los gráficos se seleccionan según el tipo de relación que deben comunicar.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 26,
+  "frase": "Las decisiones gráficas deben favorecer lectura, comparación y exactitud antes que decoración.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 27,
+  "frase": "Las notas, fuentes y referencias deben ser fáciles de localizar sin competir con el contenido principal.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 29,
+  "frase": "La identidad visual puede definir su presentación, pero no modificar el sentido ni la integridad de las referencias.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 30,
+  "frase": "Los bloques de firma deben mostrar claramente quién interviene, su función y el dato que corresponda al procedimiento.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 31,
+  "frase": "El diseño no puede crear ambigüedad sobre autoría, aprobación o responsabilidad.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 34,
+  "frase": "No deben presentarse como certificaciones o aprobaciones si no existe el respaldo correspondiente.",
+  "marcas": [
+   "no deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-005",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#documentos",
+  "bloque": 35,
+  "frase": "Su presencia debe conservar la legibilidad del documento.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 1,
+  "frase": "Puede utilizar fotografía protagonista, titulares de mayor escala, relaciones espaciales menos convencionales y un uso más amplio del color.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 4,
+  "frase": "Una página puede contener una sola idea protagonista.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 4,
+  "frase": "Otra puede organizar varias capas de información mediante bloques, fotografía y contrastes tipográficos.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 5,
+  "frase": "El cambio de ritmo debe facilitar la lectura, no interrumpirla.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 6,
+  "frase": "No deben llenarse únicamente para equilibrar visualmente la cantidad de contenido.",
+  "marcas": [
+   "no deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 7,
+  "frase": "Corporativo Editorial puede utilizar los cinco colores oficiales de la identidad, respetando sus funciones y condiciones de uso: Blanco Keyons, Azul Noche, Azul Cielo, Salmón Tierra y Salmón Atardecer.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 15,
+  "frase": "El uso de Salmón Atardecer debe respetar especialmente su función como variante para composiciones oscuras.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 16,
+  "frase": "La composición puede utilizar varios de estos colores, incluso con gran presencia visual, siempre que conserve jerarquía, equilibrio y contraste suficiente.",
+  "marcas": [
+   "puede",
+   "siempre"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 17,
+  "frase": "Las fotografías deben aportar significado, contexto o una perspectiva reconocible.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 18,
+  "frase": "Pueden ocupar una página completa, convivir con grandes espacios vacíos o integrarse mediante recortes y composiciones editoriales.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 19,
+  "frase": "Los cielos, degradados y texturas pueden acompañar las imágenes cuando ayudan a construir una atmósfera.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 20,
+  "frase": "No deben utilizarse como una obligación estética ni sustituir la claridad del mensaje.",
+  "marcas": [
+   "no deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 21,
+  "frase": "Una pieza editorial debe poder reconocerse como Keyons a través de su tipografía, diagramación, proporciones y decisiones visuales, sin depender exclusivamente del logotipo.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-003",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#editorial",
+  "bloque": 22,
+  "frase": "La coherencia se alcanza por la relación entre los elementos, no por repetir siempre el mismo recurso.",
+  "marcas": [
+   "siempre"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-002",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#formal",
+  "bloque": 2,
+  "frase": "Su composición debería priorizar fondos claros, texto de alto contraste, una retícula estable y recursos gráficos discretos.",
+  "marcas": [
+   "debería"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-002",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#formal",
+  "bloque": 3,
+  "frase": "Azul Cielo puede utilizarse para identificar, orientar o establecer acentos.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-002",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#formal",
+  "bloque": 3,
+  "frase": "Otros colores oficiales también pueden incorporarse cuando exista una razón de comunicación y se mantenga la legibilidad.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-002",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#formal",
+  "bloque": 6,
+  "frase": "Los títulos deben permitir localizar rápidamente el contenido.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-002",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#formal",
+  "bloque": 7,
+  "frase": "La expresividad tipográfica puede aparecer en portadas o aperturas, sin comprometer la comprensión del documento.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-002",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#formal",
+  "bloque": 9,
+  "frase": "La asimetría controlada también puede utilizarse si conserva equilibrio y continuidad.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-002",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#formal",
+  "bloque": 10,
+  "frase": "Los elementos gráficos deben cumplir una función identificable: organizar, separar, destacar o contextualizar.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-002",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#formal",
+  "bloque": 12,
+  "frase": "No es una categoría obligatoria por tipo de archivo.",
+  "marcas": [
+   "obligatoria"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-002",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#formal",
+  "bloque": 12,
+  "frase": "Un informe también puede adoptar tratamiento editorial cuando el contenido y la audiencia lo permiten.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-004",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#intensidad",
+  "bloque": 2,
+  "frase": "Cuando la intención es explicar una visión, presentar un proyecto o construir una narrativa, puede aumentar el protagonismo de la fotografía, el color y la composición.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-004",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#intensidad",
+  "bloque": 3,
+  "frase": "La decisión debe considerar:",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-004",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#intensidad",
+  "bloque": 12,
+  "frase": "Una propuesta comercial puede comenzar con una portada de alto impacto, desarrollar su argumento mediante páginas editoriales y cerrar con condiciones formales de composición contenida.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-004",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#intensidad",
+  "bloque": 14,
+  "frase": "Las transiciones deben conservar continuidad tipográfica, cromática y compositiva.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-004",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#intensidad",
+  "bloque": 15,
+  "frase": "Una composición puede ser intensa y contener muy poca información.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-004",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#intensidad",
+  "bloque": 16,
+  "frase": "También puede presentar numerosos datos sin ser visualmente expresiva.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-004",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#intensidad",
+  "bloque": 18,
+  "frase": "Ambas dimensiones deben regularse por separado.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-001",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#principios",
+  "bloque": 1,
+  "frase": "La identidad puede manifestarse mediante una decisión tipográfica, una fotografía, un acento cromático o una composición editorial bien resuelta.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-001",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#principios",
+  "bloque": 2,
+  "frase": "Ambas comparten los mismos fundamentos visuales y pueden combinarse según las necesidades del contenido.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-001",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#principios",
+  "bloque": 4,
+  "frase": "Cada pieza debe establecer qué información tiene mayor importancia y cómo debe recorrerla quien la recibe.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-001",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#principios",
+  "bloque": 5,
+  "frase": "La tipografía, el espacio y la retícula deben resolver la jerarquía incluso cuando la pieza no utiliza fotografías ni elementos expresivos.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-001",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#principios",
+  "bloque": 7,
+  "frase": "La expresión corporativa puede utilizar los recursos completos de la identidad Keyons.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-001",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#principios",
+  "bloque": 8,
+  "frase": "Su selección debe responder a la función de cada pieza.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-001",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#principios",
+  "bloque": 8,
+  "frase": "Una composición contenida puede requerir pocos recursos; otra puede beneficiarse de una fotografía de gran formato o una presencia cromática más marcada.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-001",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#principios",
+  "bloque": 12,
+  "frase": "La relación entre tipografía, proporciones, imágenes, color y espacio debe generar continuidad sin convertir la identidad en una plantilla intercambiable.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-COR-001",
+  "estado": "borrador",
+  "fuente": "modos/corporativo.html#principios",
+  "bloque": 15,
+  "frase": "Comparten identidad, pero pueden variar en ritmo, recursos e intensidad según el tipo de información y las expectativas de lectura.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-004",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#color",
+  "bloque": 1,
+  "frase": "La expresión puede aumentar mediante contrastes, superficies de color, fotografías, cielos y degradados.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-004",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#color",
+  "bloque": 2,
+  "frase": "Una pieza monocromática también puede ser expresiva.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-004",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#color",
+  "bloque": 5,
+  "frase": "Su utilización debe responder a la intención de la pieza y a las normas de construcción cromática correspondientes.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-004",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#color",
+  "bloque": 7,
+  "frase": "Los degradados deben percibirse como transiciones naturales y cuidadas.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-004",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#color",
+  "bloque": 8,
+  "frase": "Se deben evitar cambios bruscos de color, cortes visuales no intencionados y combinaciones que comprometan el contraste del contenido superpuesto.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-004",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#color",
+  "bloque": 9,
+  "frase": "La posición, extensión y dirección de un degradado pueden adaptarse a la composición.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-004",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#color",
+  "bloque": 11,
+  "frase": "El color puede establecer protagonismo, separar planos, comunicar temperatura emocional o reforzar una identidad.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-004",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#color",
+  "bloque": 12,
+  "frase": "Debe respetarse la diferencia entre color expresivo, color de datos y color semántico.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-002",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#composicion",
+  "bloque": 1,
+  "frase": "Puede utilizarse una estructura simétrica, una composición asimétrica controlada o una organización editorial más experimental.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-002",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#composicion",
+  "bloque": 2,
+  "frase": "Las variaciones deben conservar relaciones comprensibles entre los elementos.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-002",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#composicion",
+  "bloque": 3,
+  "frase": "Cada composición debería establecer un centro de atención reconocible.",
+  "marcas": [
+   "debería"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-002",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#composicion",
+  "bloque": 4,
+  "frase": "El protagonismo puede recaer en una fotografía, una frase, una cifra, una textura o una relación espacial.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-002",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#composicion",
+  "bloque": 5,
+  "frase": "Los elementos secundarios deben apoyar esa decisión.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-002",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#composicion",
+  "bloque": 8,
+  "frase": "Una composición con pocos elementos puede resultar más memorable que otra con abundantes recursos gráficos.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-002",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#composicion",
+  "bloque": 9,
+  "frase": "El espacio no debe entenderse como una zona pendiente de llenar.",
+  "marcas": [
+   "no debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-002",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#composicion",
+  "bloque": 10,
+  "frase": "La asimetría puede utilizarse para producir movimiento, tensión o una lectura menos convencional.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-002",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#composicion",
+  "bloque": 11,
+  "frase": "Debe mantenerse un equilibrio perceptible mediante escala, distribución, alineación o contraste.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-002",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#composicion",
+  "bloque": 13,
+  "frase": "Cada pieza debe presentar decisiones visuales relacionadas con su contenido y propósito.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-002",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#composicion",
+  "bloque": 15,
+  "frase": "La identidad Keyons debe reconocerse por la calidad y coherencia de sus decisiones, no por repetir fórmulas visuales.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-006",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#limites",
+  "bloque": 0,
+  "frase": "Las composiciones expresivas deben conservar las condiciones necesarias de contraste, accesibilidad, comprensión y reconocimiento de marca.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-006",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#limites",
+  "bloque": 1,
+  "frase": "La intensidad visual nunca justifica ocultar información esencial o dificultar una acción.",
+  "marcas": [
+   "nunca"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-006",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#limites",
+  "bloque": 4,
+  "frase": "Las proporciones orientativas pueden ayudar a iniciar una composición, pero su calidad se evalúa por el resultado y el contexto.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-006",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#limites",
+  "bloque": 7,
+  "frase": "Una campaña puede permitir una composición altamente experimental.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-006",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#limites",
+  "bloque": 9,
+  "frase": "La identidad puede expresar carácter en ambos contextos, pero no necesariamente con los mismos recursos ni la misma intensidad.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-006",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#limites",
+  "bloque": 10,
+  "frase": "Keyons no necesita verse siempre igual para ser reconocible.",
+  "marcas": [
+   "siempre"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 0,
+  "frase": "La expresión de Keyons puede ser intensa, sensible, experimental y memorable sin perder claridad.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 2,
+  "frase": "Una imagen puede dominar todo el espacio.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 2,
+  "frase": "Un título puede alterar la escala habitual.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 2,
+  "frase": "Un cielo puede transformar la atmósfera de una página.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 2,
+  "frase": "Una composición casi vacía puede resultar igualmente expresiva.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 6,
+  "frase": "La experimentación debe conservar una relación con los fundamentos de marca.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 9,
+  "frase": "El uso simultáneo de fotografías, degradados, texturas, titulares grandes y movimiento puede producir una imagen intensa, pero también generar competencia visual.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 10,
+  "frase": "La intensidad se construye seleccionando qué elemento merece protagonismo y qué elementos deben acompañarlo.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 12,
+  "frase": "Los recursos expresivos deben transmitir una idea, construir una atmósfera o provocar una experiencia relacionada con el contenido.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 13,
+  "frase": "Una fotografía puede aportar cercanía.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 13,
+  "frase": "Una composición abierta puede sugerir libertad.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 13,
+  "frase": "Una escala tipográfica inesperada puede transmitir determinación.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 14,
+  "frase": "El recurso debe tener un propósito identificable.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 17,
+  "frase": "La información esencial debe seguir siendo localizable.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-001",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#principios",
+  "bloque": 17,
+  "frase": "El contraste, la jerarquía y la organización del contenido no pueden depender de que la persona interprete correctamente una intención artística.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 1,
+  "frase": "La fotografía puede asumir el protagonismo de una composición.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 2,
+  "frase": "Su selección debe responder a una intención narrativa y a criterios de calidad, autenticidad y pertinencia.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 6,
+  "frase": "La ilustración y las imágenes generadas mediante inteligencia artificial pueden formar parte de la expresión de Keyons.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 7,
+  "frase": "Su dirección artística debe estar gobernada por criterio humano, originalidad y cumplimiento de derechos.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 8,
+  "frase": "Una imagen sintética no debe presentarse como documentación fotográfica de un hecho real.",
+  "marcas": [
+   "no debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 10,
+  "frase": "Las texturas pueden crear profundidad y carácter sin afectar la información.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 12,
+  "frase": "Su presencia debe ser proporcionada al contenido.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 12,
+  "frase": "Cuando compiten con textos, cifras o elementos esenciales, deben reducirse o retirarse.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 14,
+  "frase": "El movimiento puede aportar ritmo, transición y carácter.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 15,
+  "frase": "Las animaciones editoriales tienen mayor libertad expresiva que las operativas, pero deben conservar intención, continuidad y respeto por las preferencias de accesibilidad.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 16,
+  "frase": "La animación no debe convertirse en un requisito para comprender el contenido.",
+  "marcas": [
+   "no debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-005",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#recursos",
+  "bloque": 20,
+  "frase": "La tecnología puede ampliar las posibilidades creativas; el criterio determina cuáles vale la pena utilizar.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-003",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#tipografia",
+  "bloque": 0,
+  "frase": "La tipografía puede asumir una función narrativa además de informativa.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-003",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#tipografia",
+  "bloque": 2,
+  "frase": "Un titular puede ocupar una proporción considerable del lienzo.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-003",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#tipografia",
+  "bloque": 2,
+  "frase": "Una palabra puede destacarse por su posición.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-003",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#tipografia",
+  "bloque": 2,
+  "frase": "Una composición puede utilizar un contraste marcado entre título y cuerpo.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-003",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#tipografia",
+  "bloque": 5,
+  "frase": "La experimentación no debe trasladar complejidad innecesaria a párrafos, instrucciones o contenidos operativos.",
+  "marcas": [
+   "no debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-003",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#tipografia",
+  "bloque": 6,
+  "frase": "La combinación de tipografía y diagramación puede ser suficiente para identificar una pieza como Keyons.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-003",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#tipografia",
+  "bloque": 7,
+  "frase": "Una composición sin fotografía, ilustración ni degradado puede expresar plenamente la marca mediante proporciones, contraste y ritmo.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-EXP-003",
+  "estado": "borrador",
+  "fuente": "modos/expresivo.html#tipografia",
+  "bloque": 8,
+  "frase": "No es obligatorio incorporar recursos adicionales cuando la tipografía resuelve la intención visual.",
+  "marcas": [
+   "obligatorio"
   ]
  },
  {
@@ -2263,6 +4010,136 @@
   "frase": "Cada recurso se prueba aquí y se copia tal como lo usa este libro: el ejemplo, el código y las descargas salen de los mismos archivos, así nunca se separan.",
   "marcas": [
    "nunca"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 2,
+  "frase": "Cada elemento debe conservar una relación reconocible con la identidad de Estela y con el sistema visual de Keyons.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 3,
+  "frase": "El catálogo debe distinguir las piezas principales de los recursos complementarios.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 5,
+  "frase": "Las representaciones del personaje, las ilustraciones, las atmósferas y los recursos animados pueden admitir mayor libertad expresiva dentro de las reglas aprobadas.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 6,
+  "frase": "Los recursos visuales de Estela pueden aparecer como protagonistas o como elementos secundarios.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 7,
+  "frase": "Su escala, posición y tratamiento deben responder al propósito del soporte.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 8,
+  "frase": "Una composición destinada a presentar a Estela puede darle mayor protagonismo que una interfaz donde simplemente acompaña una tarea.",
+  "marcas": [
+   "puede"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 9,
+  "frase": "Las escenas, los cielos y las representaciones narrativas pueden ampliar el universo de Estela cuando exista una historia o intención aprobada que las justifique.",
+  "marcas": [
+   "pueden"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 10,
+  "frase": "Los elementos narrativos no deben presentarse como parte de una historia oficial antes de su validación.",
+  "marcas": [
+   "no deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 11,
+  "frase": "Cada pieza publicada en el catálogo debe indicar su función, variantes disponibles, condiciones de uso, estado de aprobación y archivo maestro.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 12,
+  "frase": "Los recursos conceptuales deben distinguirse claramente de los definitivos.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 13,
+  "frase": "Las demás aplicaciones deben referirse a ella, sin mantener versiones independientes de las mismas piezas.",
+  "marcas": [
+   "deben"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 14,
+  "frase": "La identidad de Estela debe conservar su carácter tanto en una representación protagonista como en una presencia mínima.",
+  "marcas": [
+   "debe"
+  ]
+ },
+ {
+  "id": "KYN-MRK-UVE-001",
+  "estado": "borrador",
+  "fuente": "recursos/universo-estela.html#universo",
+  "bloque": 15,
+  "frase": "La consistencia no depende de repetir siempre una imagen, sino de utilizar un lenguaje visual común.",
+  "marcas": [
+   "siempre"
   ]
  }
 ]

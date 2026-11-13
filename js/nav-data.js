@@ -45,12 +45,12 @@ window.KEYONS_NAV = [
         { t: 'El trato', s: 'b', href: 'marca/trato.html#usted' }, { t: 'Primera o tercera persona', st: 'Persona gramatical', s: 'b', href: 'marca/trato.html#persona' },
         { t: 'De lo técnico a lo humano', st: 'Traducción técnica', s: 'b', href: 'marca/trato.html#traduccion' } ] },
       { n: '05', k: 'estela', was: '04', t: 'Estela', s: 'b', d: 'La cara de Keyons: quién es, cómo habla, cómo se ve y cómo actúa.', items: [
-        { t: 'Quién es Estela', s: 'b', href: 'marca/estela.html#quien' }, { t: 'Origen y personalidad', s: 'p' }, { t: 'Voz y trato', s: 'p' }, { t: 'Comportamiento', s: 'p' }, { t: 'Identidad visual', s: 'p' }, { t: 'Presencia', s: 'p' } ] }
+        { t: 'Quién es Estela', s: 'b', href: 'marca/estela.html#quien' }, { t: 'Origen y personalidad', s: 'b', href: 'marca/estela.html#origen' }, { t: 'Voz y trato', s: 'b', href: 'marca/estela.html#voz' }, { t: 'Comportamiento', s: 'b', href: 'marca/estela.html#comportamiento' }, { t: 'Identidad visual', s: 'b', href: 'marca/estela.html#visual' }, { t: 'Presencia', s: 'b', href: 'marca/estela.html#presencia' } ] }
     ]
   },
   {
     id: 'fundamentos', t: 'Fundamentos', href: 'fundamentos/index.html', color: 'cielo', colorName: 'Azul Cielo',
-    d: 'El núcleo visual que comparten todos los modos.',
+    d: 'El núcleo visual que comparten todas las piezas.',
     ch: [
       { n: '06', k: 'identidad', was: '05', t: 'Identidad', s: 'b', d: 'Logotipo, isotipo e insignia: construcción y uso.', items: [
         { sub: 'Logotipo' },
@@ -69,9 +69,9 @@ window.KEYONS_NAV = [
         { sub: 'Cielos' },
         { t: 'Cinco cielos', s: 'b', href: 'fundamentos/color/cielos.html#cielos' }, { t: 'Cielos especiales', s: 'b', href: 'fundamentos/color/cielos.html#especiales' },
         { t: 'Gradientes', s: 'b', href: 'fundamentos/color/cielos.html#gradientes' },
-        { sub: 'Color por modo' },
-        { t: 'Institucional', s: 'b', href: 'fundamentos/color/por-modo.html#institucional' }, { t: 'Expresivo', s: 'b', href: 'fundamentos/color/por-modo.html#expresivo' },
-        { t: 'Interfaz', s: 'b', href: 'fundamentos/color/por-modo.html#interfaz' },
+        { sub: 'Color por intensidad' },
+        { t: 'Formal y corporativa', s: 'b', href: 'fundamentos/color/por-modo.html#institucional' }, { t: 'Creativa', s: 'b', href: 'fundamentos/color/por-modo.html#expresivo' },
+        { t: 'En pantalla', s: 'b', href: 'fundamentos/color/por-modo.html#interfaz' },
         { sub: 'Funcionales' },
         { t: 'Grises tipográficos', s: 'b', href: 'fundamentos/color/funcionales.html#grises' }, { t: 'Estados del sistema', s: 'b', href: 'fundamentos/color/funcionales.html#estados' },
         { t: 'Acción y superficies', s: 'b', href: 'fundamentos/color/funcionales.html#accion' } ] },
@@ -121,19 +121,14 @@ window.KEYONS_NAV = [
   },
   {
     id: 'modos', t: 'Expresión', full: 'Expresión de marca', href: 'modos/index.html', color: 'salmon', colorName: 'Salmón Tierra',
-    d: 'Cómo se ve y suena la marca en cada registro.',
-    /* 2026-11-13 · El área Modos pasa a Expresión: una identidad con intensidad continua (propuestas en docs/EXPRESION_PROPUESTA.md).
+    d: 'Una identidad. Distintas intensidades.',
+    /* 2026-11-13 · El área Modos pasa a Expresión: una identidad con intensidad continua (textos de Keylin, tools/expresion.py).
        Se conservan id, ruta y claves de capítulo; Digital pasó a Aplicaciones con su mismo número. */
     ch: [
-      { n: '16', k: 'corporativo', was: ['14', '17'], t: 'Corporativo', s: 'p', d: 'El registro formal: sobrio, claro y preciso, de principio a fin.', items: [
-        { t: 'Principios' }, { t: 'Formal' }, { t: 'Editorial' }, { t: 'Intensidad' },
-        { grp: 'Documentos' },
-        { t: 'Formatos de página', st: 'Formatos', deep: 1 }, { t: 'Márgenes y retícula', deep: 1 }, { t: 'Tipografía en documento', st: 'Tipografía', deep: 1 },
-        { t: 'Uso del logo', deep: 1 }, { t: 'Portada', deep: 1 }, { t: 'Encabezado y pie', deep: 1 }, { t: 'Títulos y numeración', deep: 1 },
-        { t: 'Tablas y cifras', deep: 1 }, { t: 'Gráficos', deep: 1 }, { t: 'Notas y citas', deep: 1 }, { t: 'Bloque de firmas', st: 'Firmas', deep: 1 },
-        { t: 'Sellos y marca de agua', st: 'Sellos', deep: 1 } ] },
-      { n: '17', k: 'expresivo', was: ['15', '18'], t: 'Expresivo', s: 'p', d: 'El registro abierto: cielos, narrativa y emoción, siempre sobre la retícula.', items: [
-        { t: 'Principios' }, { t: 'Composición' }, { t: 'Tipografía' }, { t: 'Color y cielos' }, { t: 'Recursos' }, { t: 'Límites' } ] }
+      { n: '16', k: 'corporativo', was: ['14', '17'], t: 'Corporativo', s: 'b', d: 'Claridad con carácter.', items: [
+        { t: 'Principios', s: 'b', href: 'modos/corporativo.html#principios' }, { t: 'Formal', s: 'b', href: 'modos/corporativo.html#formal' }, { t: 'Editorial', s: 'b', href: 'modos/corporativo.html#editorial' }, { t: 'Intensidad', s: 'b', href: 'modos/corporativo.html#intensidad' }, { t: 'Documentos', s: 'b', href: 'modos/corporativo.html#documentos' } ] },
+      { n: '17', k: 'expresivo', was: ['15', '18'], t: 'Expresivo', s: 'b', d: 'Libertad con intención.', items: [
+        { t: 'Principios', s: 'b', href: 'modos/expresivo.html#principios' }, { t: 'Composición', s: 'b', href: 'modos/expresivo.html#composicion' }, { t: 'Tipografía', s: 'b', href: 'modos/expresivo.html#tipografia' }, { t: 'Color y cielos', s: 'b', href: 'modos/expresivo.html#color' }, { t: 'Recursos', s: 'b', href: 'modos/expresivo.html#recursos' }, { t: 'Límites', s: 'b', href: 'modos/expresivo.html#limites' } ] }
     ]
   },
   {
@@ -178,8 +173,8 @@ window.KEYONS_NAV = [
         { t: 'Trazabilidad de Criterios visuales', st: 'Trazabilidad', s: 'v', href: 'fundamentos/criterio/antipatrones.html#trazabilidad' }, { t: 'Registro de decisiones', st: 'Decisiones' }, { t: 'Glosario' }, { t: 'Cambios' } ] },
       { n: '29', k: 'tecnicos', t: 'Recursos técnicos', st: 'Técnicos', s: 'b', d: 'La expresión visual en HTML, CSS y JS, lista para copiar.', items: [
         { t: 'Catálogo', s: 'b', href: 'recursos/tecnicos.html#tecnicos' } ] },
-      { n: '30', k: 'universo-estela', t: 'Universo visual de Estela', st: 'Estela', s: 'p', d: 'El catálogo oficial de las piezas visuales de Estela.', items: [
-        { t: 'Catálogo oficial de Estela' } ] }
+      { n: '30', k: 'universo-estela', t: 'Universo visual de Estela', st: 'Estela', s: 'b', d: 'El catálogo oficial de las piezas visuales de Estela.', items: [
+        { t: 'Universo visual', s: 'b', href: 'recursos/universo-estela.html#universo' } ] }
     ]
   }
 ];

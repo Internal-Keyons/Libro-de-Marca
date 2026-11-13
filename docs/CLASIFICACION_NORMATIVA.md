@@ -8,7 +8,7 @@
 
 | Dato | Valor |
 |---|---|
-| Normas inventariadas | 129 |
+| Normas inventariadas | 146 |
 | Requisitos detectados | 230 |
 | DEBE | 90 |
 | NO DEBE | 84 |
@@ -148,6 +148,11 @@ Ninguna.
 | KYN-MRK-CON-007 | 1 | 0 | 0 | 0 |
 | KYN-MRK-CON-008 | 0 | 0 | 0 | 0 |
 | KYN-MRK-CON-009 | 0 | 0 | 0 | 1 |
+| KYN-MRK-COR-001 | 0 | 0 | 0 | 0 |
+| KYN-MRK-COR-002 | 0 | 0 | 0 | 0 |
+| KYN-MRK-COR-003 | 0 | 0 | 0 | 0 |
+| KYN-MRK-COR-004 | 0 | 0 | 0 | 0 |
+| KYN-MRK-COR-005 | 0 | 0 | 0 | 0 |
 | KYN-MRK-DAT-001 | 6 | 0 | 1 | 0 |
 | KYN-MRK-DAT-002 | 5 | 1 | 0 | 4 |
 | KYN-MRK-DAT-003 | 0 | 0 | 0 | 0 |
@@ -165,6 +170,17 @@ Ninguna.
 | KYN-MRK-ESP-005 | 3 | 2 | 1 | 1 |
 | KYN-MRK-ESP-006 | 2 | 1 | 0 | 0 |
 | KYN-MRK-EST-001 | 1 | 0 | 0 | 3 |
+| KYN-MRK-EST-002 | 0 | 0 | 0 | 0 |
+| KYN-MRK-EST-003 | 0 | 0 | 0 | 0 |
+| KYN-MRK-EST-004 | 0 | 0 | 0 | 0 |
+| KYN-MRK-EST-005 | 0 | 0 | 0 | 0 |
+| KYN-MRK-EST-006 | 0 | 0 | 0 | 0 |
+| KYN-MRK-EXP-001 | 0 | 0 | 0 | 0 |
+| KYN-MRK-EXP-002 | 0 | 0 | 0 | 0 |
+| KYN-MRK-EXP-003 | 0 | 0 | 0 | 0 |
+| KYN-MRK-EXP-004 | 0 | 0 | 0 | 0 |
+| KYN-MRK-EXP-005 | 0 | 0 | 0 | 0 |
+| KYN-MRK-EXP-006 | 0 | 0 | 0 | 0 |
 | KYN-MRK-GAL-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-ICN-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-ICO-001 | 0 | 0 | 0 | 0 |
@@ -225,6 +241,7 @@ Ninguna.
 | KYN-MRK-TYP-005 | 3 | 1 | 1 | 0 |
 | KYN-MRK-TYP-006 | 0 | 0 | 0 | 0 |
 | KYN-MRK-TYP-007 | 0 | 0 | 0 | 0 |
+| KYN-MRK-UVE-001 | 0 | 0 | 0 | 0 |
 | KYN-MRK-VIS-001 | 1 | 0 | 0 | 0 |
 | KYN-MRK-VIS-002 | 1 | 0 | 0 | 1 |
 | KYN-MRK-VIS-003 | 1 | 1 | 0 | 0 |
