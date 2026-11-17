@@ -84,31 +84,17 @@ body .portal.portal--salmon.portal--atardecer:not(.portal--plano){background:lin
 .dchip{border-radius:50%}
 
 
-/* COR-004 · Intensidad (16.4): la línea de intensidad, de lo formal a lo expresivo (imagen de referencia de Keylin, 2026-11-17).
-   Una línea de un solo color (Azul Cielo), una marca por referencia (círculo y cuadrado alternados, R02) y la flecha al final;
-   debajo de cada marca, su nombre, su frase y su desarrollo. La marca tapa la línea con el color del fondo */
-.espectro{position:relative;margin-top:var(--s12)}
-.espectro::before{content:"";position:absolute;top:calc(var(--s5) / 2);left:0;right:var(--s4);border-top:1px solid var(--k-cielo)}
-.espectro__l{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:var(--s10);padding-right:var(--s10)}
-.espectro__i{position:relative}
-.espectro__m{position:relative;display:block;width:var(--s5);height:var(--s5);margin-bottom:var(--s8);background:var(--color-bg);color:var(--k-noche)}
-.espectro__m svg,.espectro__fin .ic{display:block;width:100%;height:100%}
-.espectro__fin{position:absolute;top:calc(var(--s5) / 2 - var(--s3));right:0;width:var(--s6);height:var(--s6);color:var(--k-noche)}
-.espectro__t{font-size:var(--fs-20);line-height:1.3;color:var(--color-text)}
-.espectro__f{margin-top:var(--s2);font-size:var(--fs-16);line-height:1.5;color:var(--k-noche)}
-.espectro__d{margin-top:var(--s3);font-size:var(--fs-16);line-height:1.6;color:var(--color-text-2)}
-@media(max-width:760px){
-  .espectro{padding-bottom:var(--s8)}
-  .espectro::before{bottom:var(--s6);left:calc(var(--s5) / 2);right:auto;border-top:0;border-left:1px solid var(--k-cielo)}
-  .espectro__l{grid-template-columns:minmax(0,1fr);row-gap:var(--s10);padding:0 0 0 var(--s10)}
-  .espectro__m{position:absolute;top:var(--s1);left:calc(-1 * var(--s10));margin:0}
-  .espectro__fin{top:auto;bottom:0;left:calc(var(--s5) / 2 - var(--s3));right:auto;transform:rotate(90deg)}
-}
+/* COR-004 · Intensidad (16.4): espectro continuo, de lo formal a lo expresivo (imagen 1 de Keylin, 2026-11-17).
+   Barra de un solo color (Azul Cielo), sin marcas, y los tres nombres debajo */
+.espectro{display:flex;flex-wrap:wrap;justify-content:space-between;gap:var(--s4) var(--s6);margin-top:var(--s10)}
+.espectro__barra{flex:0 0 100%;height:var(--s3);background:var(--k-cielo)}
+.espectro__k{font-size:var(--fs-14);color:var(--color-text-2);white-space:nowrap}
 
 /* COR-003 · Editorial (16.3): los cinco colores oficiales en fila, con muestras de 40 px como COL-007 y su función debajo */
 .paleta5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--s4);margin:var(--s8) 0 0;padding:0;list-style:none}
 .paleta5 li{display:grid;justify-items:start;align-content:start;row-gap:var(--s1)}
-.paleta5 i{display:block;width:var(--s10);height:var(--s10);margin-bottom:var(--s2);border-radius:50%;box-shadow:inset 0 0 0 1px var(--color-border)}   /* como las muestras de COL-007; R24 alterna la forma */
+.paleta5 i{display:block;width:var(--s10);height:var(--s10);margin-bottom:var(--s2);border-radius:50%;box-shadow:inset 0 0 0 1px var(--muestra-borde)}   /* R24: el filo de COL-007; R24 alterna la forma */
+.paleta5 li:first-child i{box-shadow:inset 0 0 0 1px var(--color-border)}   /* R24: Blanco Keyons conserva su filete Cielo 100 */
 .paleta5 b{font-size:var(--fs-14);font-weight:500;color:var(--color-text)}
 .paleta5 span{font-size:var(--fs-12);color:var(--color-text-3)}
 @media(max-width:900px){.paleta5{grid-template-columns:repeat(2,minmax(0,1fr))}}

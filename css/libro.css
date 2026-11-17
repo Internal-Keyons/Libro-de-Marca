@@ -823,7 +823,6 @@ a.pg:hover svg{opacity:1;transform:none}
 .pgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:var(--s12);border-top:1px solid var(--color-border-strong)}
 .pgrid > div{padding:var(--s8) var(--s6) var(--s10);border-bottom:1px solid var(--color-border);border-left:1px solid var(--color-border)}
 .pgrid > div:nth-child(3n+1){border-left:0;padding-left:0}
-.pgrid:not(.pgrid--2):not(.pgrid--4) > div:last-child:not(:nth-child(3n)){border-right:1px solid var(--color-border);padding-right:var(--s6)}
 .pgrid--close > div:last-child{grid-column:1/-1;border-left:0;padding-left:0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);column-gap:var(--s6);align-items:baseline}
 .pgrid__n{display:block;font-size:12px;color:var(--color-text-title-muted);font-variant-numeric:tabular-nums;margin-bottom:var(--s8)}
 .pgrid__t{font-size:20px;font-weight:600;letter-spacing:-.015em;line-height:1.3;margin-bottom:var(--s2)}
@@ -1352,7 +1351,7 @@ a.pg:hover svg{opacity:1;transform:none}
 .skyrow__f .paren{color:var(--color-text-3)}
 .ings{display:flex;flex-wrap:wrap;gap:var(--s3) var(--s4);margin-top:var(--s6)}
 .ing{display:grid;justify-items:start;row-gap:6px;font-size:12px;color:var(--color-text-3);font-variant-numeric:tabular-nums;cursor:copy;text-align:left}
-.ing i{width:40px;height:40px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(16,18,42,.08)}
+.ing i{width:40px;height:40px;border-radius:50%;box-shadow:inset 0 0 0 1px var(--muestra-borde)}   /* R24 */
 .ing--tbd{cursor:default}
 .ing--tbd i{background:transparent;box-shadow:none;border:1px dashed var(--color-border-strong)}
 @media(max-width:760px){.skyrow__img{grid-column:1 / span 5}.skyrow__body{grid-column:7 / -1}}
@@ -3237,14 +3236,14 @@ body .portal .portal__arcs{animation:none!important;--ripple:0px;will-change:tra
 /* Enlace en línea al cierre de una sección, en lugar de un botón */
 .ed__more{margin-top:var(--s8);max-width:640px;font-size:16px;line-height:1.65;color:var(--color-text-2)}
 /* reglas-visuales R06 · Enlaces editoriales: un solo patrón para todo enlace dentro del texto. Letra y subrayado Azul Noche;
-   al pasar el cursor o con el foco de teclado, el subrayado se refuerza en Azul Cielo. La letra nunca cambia de color.
+   al pasar el cursor o con el foco de teclado, la letra y el subrayado pasan a Azul Noche 500 y el subrayado se refuerza.
    La transición es breve y la anula la preferencia de movimiento reducido (regla global) */
 .xref,.ed__more a,.cstk__c a,.mtd__s a,.pvs a,.mt2__s a,.ptype__spec a,
 :is(.ed__lead,.prosa,.ed__stack,.ed__close,.pgrid__d,.matrix__v) a:not([class]){
   color:var(--link-fg);text-decoration:underline;text-decoration-color:currentColor;text-decoration-thickness:var(--link-line);text-underline-offset:var(--link-offset);
-  transition:text-decoration-color var(--m-fast) var(--e-out),text-decoration-thickness var(--m-fast) var(--e-out)}
+  transition:color var(--m-fast) var(--e-out),text-decoration-color var(--m-fast) var(--e-out),text-decoration-thickness var(--m-fast) var(--e-out)}
 :is(.xref,.ed__more a,.cstk__c a,.mtd__s a,.pvs a,.mt2__s a,.ptype__spec a,:is(.ed__lead,.prosa,.ed__stack,.ed__close,.pgrid__d,.matrix__v) a:not([class])):is(:hover,:focus-visible){
-  text-decoration-color:var(--link-underline);text-decoration-thickness:var(--link-line-hover)}
+  color:var(--link-hover);text-decoration-color:var(--link-hover);text-decoration-thickness:var(--link-line-hover)}
 .wr2__old{color:var(--color-text-3)}
 
 
@@ -4173,8 +4172,6 @@ body .portal.portal--salmon.portal--atardecer{background:var(--k-atardecer)}
 .pgrid > div{border-bottom:0;box-shadow:inset 0 -1px 0 var(--k-cielo-100)}
 .pairs__row,.step,.canon__row,.redline__i,.gloss > div{border-top:0;box-shadow:inset 0 1px 0 var(--k-cielo-100)}
 .pairs__row:first-child,.step:first-child,.canon__row:first-child,.redline__i:first-child{box-shadow:none}
-.pgrid:not(.pgrid--2):not(.pgrid--4) > div:last-child:not(:nth-child(3n)){border-right:4px solid var(--k-cielo-200);margin-right:-4px}
-@media(max-width:900px){.pgrid:not(.pgrid--2):not(.pgrid--4) > div:last-child:not(:nth-child(3n)){border-right:0;margin-right:0}}
 /* El espaciado vertical pasa a las celdas para que la barra ocupe toda la fila */
 @media(min-width:761px){
   .step{padding-top:0;padding-bottom:0;align-items:stretch}
@@ -6127,9 +6124,10 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
 /* Tarjetas con viñeta en lugar de número (R02: 20 px, círculo y cuadrado alternados, Azul Noche) */
 .pgrid__v{display:block;width:var(--s5);height:var(--s5);margin-bottom:var(--s5);color:var(--k-noche)}
 
-/* Equilibrios (EST-002): retícula abierta de dos columnas, sin líneas; la viñeta grande arriba y el texto abajo */
+/* Equilibrios (EST-002): retícula abierta de dos columnas, sin líneas; el ícono arriba y el texto abajo */
 .eqls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s12) var(--s10);margin-top:var(--s10)}
-.eqls svg{display:block;width:var(--s12);height:var(--s12);margin-bottom:var(--s6);color:var(--k-noche)}
+.eqls__ic{display:block;width:var(--s8);height:var(--s8);margin-bottom:var(--s5);color:var(--k-noche)}   /* mismo ícono que .pgrid--ico */
+.eqls__ic svg{display:block;width:100%;height:100%}
 .eqls__t{font-size:var(--fs-20);line-height:1.3;color:var(--color-text)}
 .eqls__d{margin-top:var(--s1);font-size:var(--fs-16);line-height:1.5;color:var(--color-text-2)}
 .eqls + .prosa{margin-top:var(--s12)}
@@ -6154,6 +6152,8 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
 /* reglas-visuales R23 · Integridad de la retícula: con un número impar de tarjetas en dos columnas, la última fila conserva
    su posición vacía, así la línea central y los filetes llegan hasta el final; en una columna, la posición vacía no existe */
 .pgrid__vacia{min-height:var(--s1)}
+/* R23 (2026-11-17): la posición vacía queda limpia, sin barra ni filete; el último ítem conserva solo su filete inferior */
+.pgrid > .pgrid__vacia.pgrid__vacia{border-left:0;border-right:0;box-shadow:none}
 @media(max-width:900px){.pgrid__vacia{display:none}}
 
 /* Escenarios en acordeón (EST-003): número a la izquierda y título a la derecha, uno abierto a la vez.
@@ -6174,7 +6174,7 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
 .caso__cita{margin:0}
 .caso__cita blockquote{margin:0;display:flex;align-items:flex-start;gap:var(--s3)}
 .cita__i{flex:none;width:var(--s4);height:var(--s3);margin-top:var(--s2);color:var(--k-noche)}
-.caso__cita blockquote p{font-size:var(--fs-20);line-height:1.5;color:var(--k-noche)}
+.caso__cita blockquote p{font-size:var(--fs-16);line-height:1.6;color:var(--k-noche)}   /* reglas-visuales 8 · EST-003: tamaño del cuerpo; la distinguen el color y la comilla */
 @media(max-width:760px){
   .caso summary{grid-template-columns:var(--s8) minmax(0,1fr) var(--s4);column-gap:var(--s3)}
   .caso__c{padding-left:0}

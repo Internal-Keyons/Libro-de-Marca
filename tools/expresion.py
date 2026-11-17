@@ -1,8 +1,7 @@
 """Área Expresión de marca · introducción, capítulo 16 Corporativo y capítulo 17 Expresivo.
 
 Uso:  python tools/expresion.py
-Texto: Keylin, 2026-11-13. Escribe la introducción en modos/index.html (<template id="area-intro">),
-modos/corporativo.html y modos/expresivo.html, y los ítems del índice de los capítulos 16 y 17 en js/nav-data.js.
+Texto: Keylin, 2026-11-13. Escribe modos/corporativo.html y modos/expresivo.html, y los ítems del índice de los capítulos 16 y 17 en js/nav-data.js.
 
 Segunda ronda (2026-11-13): los capítulos 16 y 17 se reescribieron en forma directa (pendientes de aprobación de Keylin);
 la introducción del área conserva su texto.
@@ -16,6 +15,9 @@ Diagramación con los componentes del libro:
 Cuarta ronda (2026-11-17): 16.4 con la línea de intensidad (.espectro con marcas y flecha), la tabla «Lo que permanece
 y lo que varía» (.matrix), las cuatro preguntas reales con íconos oficiales (.pgrid--ico, tools/iconos_oficiales.py) y
 «Los niveles pueden convivir»; 17.1 con íconos; 16.5 cita con enlace lo que ya regulan TYP, ESP y DAT.
+Quinta ronda (2026-11-17): 16.4 vuelve a la imagen 1 (barra Azul Cielo lisa, tres nombres y Propósito, Recursos, Color y
+Piezas) y abre con «La identidad permanece. La intensidad cambia.», que deja la página del área; las cuatro preguntas
+van numeradas como CMP-004; 16.1 con íconos del catálogo aprobado.
 Cada párrafo normativo se marca con N(texto, nivel) (tools/normativa.py); después: python tools/niveles.py --aplicar
 """
 import html
@@ -44,8 +46,10 @@ def prosa(*ps): return f'{I}<div class="prosa">{P(*ps)}</div>'
 def sub(t): return f'{I}<h3 class="ed__sub">{esc(t)}</h3>'
 def stack(filas): return f'{I}<div class="ed__stack">' + ''.join(f'<div><span class="paren">({esc(k)})</span>{P(*ps)}</div>' for k, ps in filas) + '</div>'
 def pgrid(items, dos=True):
+    """Tarjetas numeradas (como CMP-004): (título, párrafos) o (título, párrafos, orientación en Azul Noche)"""
     return (f'{I}<div class="pgrid{" pgrid--2" if dos else ""}">' + ''.join(
-        f'<div><span class="pgrid__n">{k:02d}</span><p class="pgrid__t">{esc(t)}</p>{P(*ps, cls="pgrid__d")}</div>' for k, (t, ps) in enumerate(items, 1)) + '</div>')
+        f'<div><span class="pgrid__n">{k:02d}</span><p class="pgrid__t">{esc(it[0])}</p>{P(*it[1], cls="pgrid__d")}'
+        + (f'<p class="pgrid__d pgrid__o">{it[2]}</p>' if len(it) > 2 and it[2] else '') + '</div>' for k, it in enumerate(items, 1)) + '</div>')
 def cierre(*ps): return f'{I}<div class="ed__close">{P(*ps)}</div>'
 C_ = 'M10 0a10 10 0 1 0 0 20a10 10 0 1 0 0-20ZM7.76 6h4.48A1.76 1.76 0 0 1 14 7.76v4.48A1.76 1.76 0 0 1 12.24 14H7.76A1.76 1.76 0 0 1 6 12.24V7.76A1.76 1.76 0 0 1 7.76 6Z'
 Q_ = 'M1.1 1.1h17.8v17.8H1.1ZM10 5.55a4.45 4.45 0 1 0 0 8.9a4.45 4.45 0 1 0 0-8.9Z'
@@ -62,15 +66,6 @@ def pgrid_i(items):
     return (f'{I}<div class="pgrid pgrid--2 pgrid--ico">' + ''.join(
         f'<div><span class="pgrid__ic">{icono(ic)}</span><p class="pgrid__t">{esc(t)}</p>{P(*ps, cls="pgrid__d")}'
         + (f'<p class="pgrid__d pgrid__o">{o}</p>' if o else '') + '</div>' for ic, t, ps, o in items) + vacia + '</div>')
-def espectro(niveles):
-    """COR-004 · Las tres referencias sobre una línea continua de un solo color, con su marca (círculo y cuadrado
-    alternados, R02) y la flecha al final: la intensidad crece hacia la derecha. Debajo de cada marca, su nombre,
-    su frase y su desarrollo. En móvil, la línea baja en vertical junto a las marcas."""
-    # Ítems en bloques con rol de lista (no <li>): así tools/niveles.py lee cada párrafo por separado
-    lis = ''.join(f'<div class="espectro__i" role="listitem"><span class="espectro__m">{vin(k)}</span><p class="espectro__t">{esc(t)}</p><p class="espectro__f">{esc(f)}</p>{P(*ps, cls="espectro__d")}</div>'
-                  for k, (t, f, ps) in enumerate(niveles))
-    return (f'{I}<div class="espectro"><div class="espectro__l" role="list" aria-label="Espectro continuo de intensidad, de lo formal a lo expresivo">{lis}</div>'
-            f'<span class="espectro__fin" aria-hidden="true">{icono("flecha-derecha-larga")}</span></div>')
 def matriz(etq, cols, filas):
     """Tabla editorial del libro (.matrix): una fila por tema y una columna por condición, alineadas"""
     head = ('<div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span>'
@@ -97,11 +92,17 @@ def seccion(sid, num, corto, titular, partes):
             f'{I}<h2 class="ed__title">{esc(titular)}</h2>\n' + '\n'.join(partes) + '\n      </div>\n    </section>\n')
 
 
-# ───────────── Introducción del área ─────────────
-# Página del área (Arquitectura editorial, Guía 05): título, una entrada breve y los accesos a los capítulos, sin desarrollo
-INTRO = (seccion('intro', 'Intro', 'Expresión de marca', 'La identidad permanece. La intensidad cambia.', [
-    lead('Keyons tiene <strong>una sola identidad visual</strong>. Su expresión cambia según lo que necesita comunicar, las personas a quienes se dirige y el entorno en el que aparece.'),
-]))
+# ───────────── 16.4 · Espectro de la imagen 1 (Keylin, 2026-11-17) ─────────────
+# Barra de un solo color (Azul Cielo), sin marcas, con los tres nombres debajo y la comparación en tres columnas
+ESPECTRO = (f'{I}<div class="espectro" role="img" aria-label="Espectro continuo de intensidad: Formal, Corporativo Editorial y Expresivo">'
+            '<span class="espectro__barra" aria-hidden="true"></span>'
+            '<span class="espectro__k">Formal</span><span class="espectro__k">Corporativo Editorial</span><span class="espectro__k">Expresivo</span></div>')
+TRI = tri3([('Formal', [('Propósito', 'Informar con exactitud.'), ('Recursos', 'Tipografía, retícula y espacio, con acentos puntuales.'),
+                        ('Color', 'Blanco Keyons y Azul Noche, con Azul Cielo para orientar.'), ('Piezas', 'Contratos, políticas, certificaciones e informes técnicos.')]),
+            ('Corporativo Editorial', [('Propósito', 'Explicar y convencer.'), ('Recursos', 'Fotografía protagonista, titulares grandes y atmósferas.'),
+                                       ('Color', 'Los cinco colores oficiales, cada uno en su función.'), ('Piezas', 'Presentaciones, informes ejecutivos, propuestas y memorias.')]),
+            ('Expresivo', [('Propósito', 'Inspirar y construir una experiencia.'), ('Recursos', 'Composición experimental, cielos, texturas y movimiento.'),
+                           ('Color', 'Cielos, degradados o monocromía, según la atmósfera.'), ('Piezas', 'Campañas, piezas narrativas y aperturas editoriales.')])])
 
 # ───────────── Capítulo 16 · Corporativo ─────────────
 PALETA = (f'{I}<ul class="paleta5" aria-label="Los cinco colores oficiales">'
@@ -112,10 +113,10 @@ PALETA = (f'{I}<ul class="paleta5" aria-label="Los cinco colores oficiales">'
 C16 = [
     ('principios', '16.1', 'Principios', 'Claridad con carácter', [
         lead('La expresión corporativa de Keyons combina <strong>claridad, confianza y personalidad</strong> mediante una composición precisa y un uso deliberado del espacio.'),
-        pgrid_v([('La claridad dirige', [N('Cada pieza debe dejar claro qué información importa más y en qué orden se lee.', 'debe'), 'La tipografía, el espacio y la retícula resuelven la jerarquía antes que cualquier recurso decorativo.']),
-                 ('La sobriedad es una elección', [N('La expresión corporativa puede usar todos los recursos de la identidad Keyons.', 'puede'), 'Cada pieza elige los que su función necesita, con precisión y equilibrio.']),
-                 ('El carácter nace de la composición', ['Keyons se reconoce por la relación entre tipografía, proporción, imagen, color y espacio, sin repetir un motivo gráfico.']),
-                 ('La función marca la intensidad', ['Un aviso legal, una propuesta comercial y una memoria corporativa comparten identidad y varían en ritmo, recursos e intensidad.'])]),
+        pgrid_i([('navegar', 'La claridad dirige', [N('Cada pieza debe dejar claro qué información importa más y en qué orden se lee.', 'debe'), 'La tipografía, el espacio y la retícula resuelven la jerarquía antes que cualquier recurso decorativo.'], None),
+                 ('menos', 'La sobriedad es una elección', [N('La expresión corporativa puede usar todos los recursos de la identidad Keyons.', 'puede'), 'Cada pieza elige los que su función necesita, con precisión y equilibrio.'], None),
+                 ('formas', 'El carácter nace de la composición', ['Keyons se reconoce por la relación entre tipografía, proporción, imagen, color y espacio, sin repetir un motivo gráfico.'], None),
+                 ('progreso-50', 'La función marca la intensidad', ['Un aviso legal, una propuesta comercial y una memoria corporativa comparten identidad y varían en ritmo, recursos e intensidad.'], None)]),
     ]),
     ('formal', '16.2', 'Formal', 'Precisión que transmite confianza', [
         lead('Formal es la referencia <strong>más contenida</strong> del sistema: sirve cuando importan la exactitud, la lectura prolongada o las consecuencias institucionales de la información.'),
@@ -140,20 +141,11 @@ C16 = [
                                            N('Cielos, degradados y texturas pueden acompañarla cuando construyen una atmósfera.', 'puede')]),
                ('Reconocimiento', [N('Una pieza editorial debe reconocerse como Keyons por su tipografía, su diagramación y sus proporciones, sin depender del logotipo.', 'debe')])]),
     ]),
-    ('intensidad', '16.4', 'Intensidad', 'Elegir cuánto expresar', [
-        lead('Formal, Corporativo Editorial y Expresivo son <strong>tres referencias dentro de un mismo continuo</strong>; la intensidad se ajusta durante el diseño, según la función de la pieza.'),
-        # Cómo cambia la expresión (texto de Keylin, 2026-11-17): la línea de intensidad con las tres referencias
-        espectro([
-            ('Formal', 'La información toma el protagonismo.', [
-                'Predominan las composiciones estables, los fondos claros y el uso contenido del color. Blanco Keyons y Azul Noche ofrecen una base recomendable.',
-                N('La fotografía y los elementos expresivos pueden utilizarse cuando aportan valor, sin competir con la información.', 'puede')]),
-            ('Corporativo Editorial', 'La información y el carácter comparten protagonismo.', [
-                'La composición admite mayor libertad: titulares amplios, fotografía, asimetría controlada y los cinco colores corporativos.',
-                'La creatividad se integra en una estructura reconocible y fácil de recorrer.']),
-            ('Expresivo', 'La dirección creativa adquiere mayor libertad.', [
-                N('La escala, el color, la fotografía, las texturas y el movimiento pueden asumir mayor protagonismo.', 'puede'),
-                'También puede ser minimalista: una sola imagen, una palabra o una composición prácticamente vacía pueden producir una expresión intensa.',
-                'La libertad no elimina las condiciones de legibilidad, accesibilidad ni coherencia.'])]),
+    ('intensidad', '16.4', 'Intensidad', 'La identidad permanece. La intensidad cambia.', [
+        # Apertura: la intro del área Expresión pasa aquí (Keylin, 2026-11-17)
+        lead('Keyons tiene <strong>una sola identidad visual</strong>. Su expresión cambia según lo que necesita comunicar, las personas a quienes se dirige y el entorno en el que aparece.'),
+        ESPECTRO,
+        TRI,
         sub('Lo que permanece y lo que varía'),
         lead('La identidad Keyons no cambia entre los niveles de expresión. Lo que cambia es <strong>la manera de combinar sus recursos</strong> y el protagonismo que adquieren.'),
         matriz('Lo que permanece y lo que varía entre los niveles de expresión',
@@ -166,14 +158,10 @@ C16 = [
               N('La intensidad debería responder al contenido y al contexto, no a una cantidad predeterminada de recursos.', 'deberia')),
         sub('Cuatro preguntas para decidir'),
         lead(N('Antes de establecer la intensidad visual de una pieza, el diseñador debería responder estas cuatro preguntas.', 'deberia')),
-        pgrid_i([('brujula', '¿Qué necesita conseguir esta pieza?', ['¿Informar con precisión, explicar un concepto, presentar una propuesta o generar una experiencia memorable?'],
-                  'El objetivo determina qué merece protagonismo.'),
-                 ('perfil', '¿Quién va a leerla o utilizarla?', ['¿Qué conocimientos tiene la persona? ¿Necesita revisar detalles, comparar información o comprender una idea rápidamente?'],
-                  'La audiencia determina la claridad y el nivel de familiaridad visual necesarios.'),
-                 ('globo', '¿Dónde y cómo se utilizará?', ['¿Será un documento de consulta, una presentación, una publicación digital o una experiencia interactiva?'],
-                  'El soporte y las condiciones de uso determinan cuánto espacio existe para la experimentación.'),
-                 ('capas', '¿Qué información debe destacar y qué tan compleja es?', ['¿Contiene datos sensibles, instrucciones, cifras o una narrativa visual?'],
-                  'La complejidad determina qué recursos conviene contener y cuáles pueden adquirir protagonismo.')]),
+        pgrid([('¿Qué debe lograr la pieza?', ['Informar, explicar, persuadir o generar impacto.'], 'El objetivo define qué debe destacar.'),
+               ('¿Quién la utilizará?', ['Nivel de conocimiento y necesidad de detalle.'], 'La audiencia define el nivel de claridad requerido.'),
+               ('¿Dónde se usará?', ['Documento, presentación, digital o interactivo.'], 'El contexto define el margen de experimentación.'),
+               ('¿Qué tan compleja es la información?', ['Datos, instrucciones, cifras o narrativa visual.'], 'La complejidad define los recursos visuales necesarios.')]),
         sub('Los niveles pueden convivir'),
         lead('Una propuesta comercial puede abrir con una portada expresiva, desarrollar su argumento mediante composiciones editoriales y cerrar con condiciones formales.'),
         prosa(N('Los cambios de intensidad pueden ocurrir dentro de una misma pieza.', 'puede'),
@@ -310,11 +298,10 @@ def escribir(p, s):
 escribir('modos/corporativo.html', pagina('corporativo.html', '16', 'Corporativo', 'Claridad con carácter.', C16))
 escribir('modos/expresivo.html', pagina('expresivo.html', '17', 'Expresivo', 'Libertad con intención.', C17))
 
-# Introducción del área en modos/index.html
+# La página del área queda sin intro, como las demás áreas (Keylin, 2026-11-17)
 p = os.path.join(ROOT, 'modos', 'index.html')
 s = io.open(p, encoding='utf-8').read()
 s = re.sub(r'\n[ \t]*<template id="area-intro">.*?</template>', '', s, flags=re.S)   # quita exactamente lo que se insertó
-s = s.replace('<div id="area-page"></div>', '<div id="area-page"></div>\n    <template id="area-intro">' + INTRO + '    </template>', 1)
 io.open(p, 'w', encoding='utf-8', newline='\n').write(s)
 
 # Índice: los ítems de 16 y 17 enlazan a sus secciones

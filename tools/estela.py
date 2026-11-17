@@ -3,7 +3,7 @@ Después: python tools/niveles.py --aplicar
 
 Capítulo 05 Estela · textos de Keylin del 2026-11-13 (tercera ronda):
 - 5.1 vuelve al carrusel grande (imagen y texto al lado) con las tres funciones.
-- 5.2 lleva los cuatro rasgos con viñeta, los equilibrios en cuatro columnas con viñeta grande
+- 5.2 lleva los cuatro rasgos y los equilibrios en cuatro columnas con íconos del catálogo aprobado (2026-11-17)
   y «Una identidad con espacio para crecer» en filas.
 - 5.3 suma «Así responde Estela»: ocho escenarios en acordeón, cada uno con su contexto y la cita.
 - 5.5 lleva «Una presencia reconocible» y «La luz que acompaña» (las cinco fases del cielo).
@@ -19,6 +19,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from normativa import N, registrar   # noqa: E402
+from iconos_oficiales import icono   # noqa: E402
 
 sys.stdout.reconfigure(encoding='utf-8')
 esc = lambda t: html.escape(t, quote=False)
@@ -42,6 +43,11 @@ def pgrid_v(items):
     vacia = '<div class="pgrid__vacia" aria-hidden="true"></div>' if len(items) % 2 else ''
     return (f'{I}<div class="pgrid pgrid--2">' + ''.join(
         f'<div><span class="pgrid__v">{vin(k)}</span><p class="pgrid__t">{esc(t)}</p>{P(*ps, cls="pgrid__d")}</div>' for k, (t, ps) in enumerate(items)) + vacia + '</div>')
+def pgrid_i(items):
+    """Tarjetas con ícono del catálogo aprobado (capítulo 26) en lugar de viñeta: (ícono, título, párrafos)"""
+    vacia = '<div class="pgrid__vacia" aria-hidden="true"></div>' if len(items) % 2 else ''
+    return (f'{I}<div class="pgrid pgrid--2 pgrid--ico">' + ''.join(
+        f'<div><span class="pgrid__ic">{icono(ic)}</span><p class="pgrid__t">{esc(t)}</p>{P(*ps, cls="pgrid__d")}</div>' for ic, t, ps in items) + vacia + '</div>')
 # Comilla de apertura pequeña en Azul Noche: dos formas de coma, sin las comillas tipográficas
 CITA = ('<svg class="cita__i" viewBox="0 0 16 12" aria-hidden="true"><path fill="currentColor" d="M3.6 0a3.1 3.1 0 1 1-1.2 5.96C2.9 8 4 9.3 5.9 10l-.5 1.3C1.9 10.2 0 7.4 0 3.6A3.6 3.6 0 0 1 3.6 0Z'
         'M12.4 0a3.1 3.1 0 1 1-1.2 5.96C11.7 8 12.8 9.3 14.7 10l-.5 1.3C10.7 10.2 8.8 7.4 8.8 3.6A3.6 3.6 0 0 1 12.4 0Z"/></svg>')
@@ -58,7 +64,8 @@ def casos(items):
     return f'{I}<div class="casos">{out}</div>'
 
 def eqls(items):
-    return f'{I}<div class="eqls">' + ''.join(f'<div>{vin(k)}<p class="eqls__t">{esc(t)}</p><p class="eqls__d">{esc(d)}</p></div>' for k, (t, d) in enumerate(items)) + '</div>'
+    """Equilibrios en cuatro columnas, cada uno con su ícono del catálogo arriba (Keylin, 2026-11-17): (ícono, título, texto)"""
+    return f'{I}<div class="eqls">' + ''.join(f'<div><span class="eqls__ic">{icono(ic)}</span><p class="eqls__t">{esc(t)}</p><p class="eqls__d">{esc(d)}</p></div>' for ic, t, d in items) + '</div>'
 def cierre(*ps): return f'{I}<div class="ed__close">{P(*ps)}</div>'
 
 
@@ -91,13 +98,13 @@ S += seccion('quien', '5.1', 'Quién es Estela', 'Una identidad que representa y
 # ── 5.2 · Origen y personalidad ──
 S += seccion('origen', '5.2', 'Origen y personalidad', 'Una personalidad que se reconoce al interactuar', [
     lead('La personalidad de Estela se expresa mediante <strong>cuatro rasgos esenciales</strong>. Cada uno orienta su manera de comunicarse, comprender y actuar.'),
-    pgrid_v([('Cercana', [N('Estela debe comunicarse con naturalidad y respeto, prestando atención al contexto y a las necesidades de cada persona, sin presumir lo que siente ni recurrir a la complacencia.', 'debe')]),
-             ('Curiosa', [N('Estela debe comprender antes de responder. Identifica información faltante, considera diferentes perspectivas y formula preguntas únicamente cuando ayudan a avanzar.', 'debe')]),
-             ('Creativa', [N('Estela encuentra conexiones, propone enfoques originales y explora nuevas soluciones cuando aportan valor. Su creatividad debe conservar siempre la precisión y la pertinencia.', 'debe')]),
-             ('Resolutiva', [N('Estela transforma información en pasos claros, establece prioridades y propone acciones útiles. Su iniciativa debe dejar las decisiones en manos de la persona.', 'debe')])]),
+    pgrid_i([('chat', 'Cercana', [N('Estela debe comunicarse con naturalidad y respeto, prestando atención al contexto y a las necesidades de cada persona, sin presumir lo que siente ni recurrir a la complacencia.', 'debe')]),
+             ('ayuda', 'Curiosa', [N('Estela debe comprender antes de responder. Identifica información faltante, considera diferentes perspectivas y formula preguntas únicamente cuando ayudan a avanzar.', 'debe')]),
+             ('asterisco', 'Creativa', [N('Estela encuentra conexiones, propone enfoques originales y explora nuevas soluciones cuando aportan valor. Su creatividad debe conservar siempre la precisión y la pertinencia.', 'debe')]),
+             ('check', 'Resolutiva', [N('Estela transforma información en pasos claros, establece prioridades y propone acciones útiles. Su iniciativa debe dejar las decisiones en manos de la persona.', 'debe')])]),
     sub('Equilibrios de personalidad'),
     lead('La personalidad de Estela se expresa a través de cuatro equilibrios que orientan su comportamiento en cualquier contexto.'),
-    eqls([('Cercana,', 'sin perder objetividad.'), ('Creativa,', 'sin comprometer la precisión.'), ('Firme,', 'sin imponer decisiones.'), ('Profesional,', 'sin generar fricción innecesaria.')]),
+    eqls([('chat-check', 'Cercana,', 'sin perder objetividad.'), ('seleccion', 'Creativa,', 'sin comprometer la precisión.'), ('brujula', 'Firme,', 'sin imponer decisiones.'), ('flecha-derecha-larga', 'Profesional,', 'sin generar fricción innecesaria.')]),
     prosa(N('Estos principios deben mantenerse independientemente del canal, la complejidad de la tarea o la extensión de la respuesta.', 'debe')),
     sub('Una identidad con espacio para crecer'),
     stack([('Desarrollo progresivo', ['El origen narrativo y la representación visual de Estela pueden desarrollarse de forma gradual, a medida que la identidad madure y se expanda.']),

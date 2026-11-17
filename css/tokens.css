@@ -161,8 +161,10 @@
   --link-fg:var(--k-noche);
   --link-underline:var(--k-cielo);
   --link-line:1px;                    /* reglas-visuales R06 · subrayado en reposo, del color de la letra */
-  --link-line-hover:2px;              /* subrayado reforzado en Azul Cielo al pasar el cursor o con el foco */
+  --link-line-hover:2px;              /* subrayado reforzado al pasar el cursor o con el foco */
+  --link-hover:var(--k-noche-500);    /* R06 · letra y subrayado al pasar el cursor o con el foco: Azul Noche 500, contraste 4,6:1 sobre Blanco Keyons */
   --link-offset:4px;
+  --muestra-borde:rgba(16,18,42,.08); /* reglas-visuales R24 · filo interior de las muestras de color: Azul Noche al 8 %, un tono apenas más oscuro que el relleno */
 
   --badge-fg:var(--k-noche);          /* texto e icono siempre Azul Noche */
   --icon-stroke:1.6px;                /* trazo constante, nunca bold */

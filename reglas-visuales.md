@@ -215,10 +215,10 @@ Solo seis valores:
 - **R04 · Un solo color:** un título DEBE ir en un solo color. PUEDE destacarse una parte en Azul Noche solo cuando la frase lo justifica. Con título pequeño y subtítulo, el título va en Azul Noche y el subtítulo en Gris titular si mide 24 px o más; si mide menos, en gris terciario (P2).
 - **R05 · Destacado:** dentro del texto se destaca con semibold en Azul Noche. La idea clave se marca con Azul Cielo, sin comillas ni recuadros.
 - **R18 · Semibold:** el semibold DEBE usarse solo en dos casos: la frase destacada de cada entrada (una por entrada) y los rótulos en recuadro blanco sobre una imagen, que van pegados al borde izquierdo, sin margen. Nada más va en semibold: filas, listas y enunciados, en peso regular.
-- **R06 · Enlaces (actualizada el 2026-11-17):** todo enlace dentro del texto editorial DEBE usar un solo patrón (`.xref` y los enlaces equivalentes en `libro.css`): letra Azul Noche (`--link-fg`) y subrayado visible del color de la letra, de 1 px (`--link-line`) a 4 px de distancia (`--link-offset`). Al pasar el cursor o con el foco de teclado, el subrayado se refuerza en Azul Cielo de 2 px (`--link-underline`, `--link-line-hover`); la letra conserva su color.
+- **R06 · Enlaces (actualizada el 2026-11-17):** todo enlace dentro del texto editorial DEBE usar un solo patrón (`.xref` y los enlaces equivalentes en `libro.css`): letra Azul Noche (`--link-fg`) y subrayado visible del color de la letra, de 1 px (`--link-line`) a 4 px de distancia (`--link-offset`). Al pasar el cursor o con el foco de teclado, la letra y el subrayado DEBEN pasar a Azul Noche 500 (`--link-hover`, #6C6D7B, contraste 4,6:1 sobre Blanco Keyons) y el subrayado se refuerza a 2 px (`--link-line-hover`). Keylin, 2026-11-17: Azul Cielo sale del enlace, porque como letra no alcanza el contraste de lectura (2,6:1).
   - El foco de teclado DEBE mostrarse con el anillo de 2 px en Azul Noche (4.5), además del subrayado reforzado.
   - La transición dura `--m-fast` y la anula la preferencia de movimiento reducido.
-  - Un enlace de texto NO DEBE convertirse en botón ni usar Azul Cielo como color de letra pequeña sobre fondo claro.
+  - Un enlace de texto NO DEBE convertirse en botón ni usar Azul Cielo, ni en la letra ni en el subrayado.
   - «Leer más» va sin contenedor.
 - **R10 · Gris titular:** solo en titulares de 24 px o más. Números y rótulos pequeños van en gris terciario.
 - **R11 · Renglones:** un título que no cabe DEBE ir en dos renglones equilibrados y NO DEBE cortarse. Un párrafo NO DEBE terminar con una palabra suelta en el último renglón.
@@ -314,6 +314,7 @@ El radio de una esquina curva sale del **lado corto** del elemento:
   - Los contenidos narrativos o documentales PUEDEN llevar varios párrafos cuando los necesitan; lo que se evita es la introducción redundante.
   - Los títulos visibles describen el contenido. Los rótulos del proceso de elaboración («Ejemplo aprobado», «Principio de cierre», «Contenido pendiente») NO DEBEN ir en la página.
   - Dónde va cada contenido (área, capítulo o norma) lo decide la regla «Arquitectura editorial» de la Guía de la Biblioteca, sección 05.
+- **R25 · Implementación editorial de capítulos (Keylin, 2026-11-17):** su fuente única es la Guía de la Biblioteca, sección 05, bloque «Implementación editorial de capítulos» (`data/gobierno.json` → `arquitectura`). Este archivo no la copia: antes de diagramar un capítulo nuevo, se lee allí.
 - **R24 · Muestras cromáticas editoriales (Keylin, 2026-11-16; alcance revisado el 2026-11-17):** una serie de muestras cromáticas editoriales DEBE alternar círculo y cuadrado, empezando por el círculo, como las viñetas (R02). Una muestra editorial presenta un color o un cielo de la marca para conocerlo: los cielos de COL-007 y los cinco colores de COR-003.
   - R24 NO DEBE extenderse a todo elemento que represente un color. Conservan su forma, porque en ellos la forma tiene una función:
     - las escalas y rampas de datos (DAT-002): la forma se lee junto a los gráficos, donde marca series y estados;
@@ -322,11 +323,12 @@ El radio de una esquina curva sale del **lado corto** del elemento:
     - las leyendas de gráficos, los indicadores de estado y los controles de interfaz;
     - los catálogos de color aprobados del capítulo 7 (paleta base, escalas, funcionales).
   - Una serie nueva se suma a R24 solo cuando su función es mostrar la paleta.
+  - Filo (Keylin, 2026-11-17): cada muestra editorial DEBE llevar un filo interior de 1 px en Azul Noche al 8 % (`--muestra-borde`), que se ve como un tono apenas más oscuro de su propio color. Blanco Keyons conserva su filete Cielo 100 (`--color-border`) para recortarse del fondo.
 - **R23 · Integridad de la retícula (Keylin, 2026-11-13):** en una retícula visible, los separadores DEBEN mantener continuidad, alineación y coherencia en toda la estructura, sin importar cuántos elementos contenga.
   - Los separadores DEBEN depender de la estructura de filas y columnas: la ausencia de contenido en una celda NO DEBE interrumpirlos ni acortarlos.
-  - Con un número impar de elementos en dos columnas, la última fila DEBE conservar su posición vacía (`.pgrid__vacia`, la escriben los generadores), con la línea central y los filetes completos y sin contenido de relleno.
+  - Fila incompleta (Keylin, 2026-11-17, cambia la versión del 2026-11-13): el espacio vacío DEBE quedar limpio, sin barra vertical ni filete. El último ítem NO DEBE llevar barra a su derecha y conserva solo su filete inferior. En dos columnas, la posición vacía la escriben los generadores (`.pgrid__vacia`) y no lleva contenido de relleno. Vale para todas las retículas: ADN-007 y EXP-005 son los modelos.
   - En móvil, con una sola columna, la posición vacía desaparece y no quedan líneas verticales.
-  - Cuando la retícula cierra su sección, su última fila DEBE conservar el filete inferior completo (Keylin, 2026-11-17, EXP-005 «Firma humana»), aunque la sección siguiente abra con su propia línea (3.5).
+  - Cuando la retícula cierra su sección, el filete inferior de sus ítems DEBE conservarse (Keylin, 2026-11-17, EXP-005 «Firma humana»), aunque la sección siguiente abra con su propia línea (3.5).
 
 ---
 
@@ -459,3 +461,4 @@ Toda excepción a una regla DEBE anotarse aquí. Un comentario en el CSS no cuen
 | N.º | Regla | Dónde | Motivo | Aprobó | Fecha |
 | --- | --- | --- | --- | --- | --- |
 | E1 | 3.5 · Carruseles | Estela 5.1 (dos dimensiones y Prisma) y Elementos gráficos 11.8 | Piloto de los puntos de carrusel: círculo y cuadrado alternados de 10 px (`--mark-car`); el activo se llena con el tiempo y la marca salta al siguiente cambiando de forma (`--m-base`, `--e-io`). Si se aprueba, pasa a regla para todos los carruseles | Pendiente | 2026-11-11 |
+| E2 | 2.2 · Escala de lectura | Estela 5.3, «Así responde Estela» (`.caso__cita`) | La respuesta de Estela baja de 20 px al tamaño del cuerpo (16 px) para ordenar el acordeón; la distinguen el Azul Noche y la comilla | Keylin (plan del 2026-11-17) | 2026-11-17 |
