@@ -160,6 +160,9 @@
 
   --link-fg:var(--k-noche);
   --link-underline:var(--k-cielo);
+  --link-line:1px;                    /* reglas-visuales R06 · subrayado en reposo, del color de la letra */
+  --link-line-hover:2px;              /* subrayado reforzado en Azul Cielo al pasar el cursor o con el foco */
+  --link-offset:4px;
 
   --badge-fg:var(--k-noche);          /* texto e icono siempre Azul Noche */
   --icon-stroke:1.6px;                /* trazo constante, nunca bold */

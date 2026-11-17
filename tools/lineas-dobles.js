@@ -64,6 +64,7 @@ export function revisarDoc(doc) {
     for (let j = i + 1; j < L.length && L[j].y - L[i].y < DISTANCIA; j++) {
       const a = L[i], b = L[j];
       if (b.y - a.y < 1 || a.el === b.el) continue;   // una misma caja no forma pareja
+      if (b.el.tagName === 'SECTION' && a.el.parentElement && a.el.parentElement.matches('.pgrid')) continue;   // R23: el cierre de una retícula al final de su sección no es una línea doble
       const solape = Math.min(a.x2, b.x2) - Math.max(a.x1, b.x1);
       if (solape < 0.6 * Math.min(a.x2 - a.x1, b.x2 - b.x1)) continue;
       if (hayContenido(C, a.y, b.y, Math.max(a.x1, b.x1), Math.min(a.x2, b.x2))) continue;

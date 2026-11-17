@@ -5,6 +5,30 @@
   "n": "21.3",
   "t": "Archivo de campañas"
  },
+ "aplicaciones/digital.html#estela": {
+  "estado": "borrador",
+  "id": "KYN-MRK-UI-004",
+  "n": "18.4",
+  "t": "Estela en pantalla"
+ },
+ "aplicaciones/digital.html#momentos": {
+  "estado": "borrador",
+  "id": "KYN-MRK-UI-002",
+  "n": "18.2",
+  "t": "Momentos vivos"
+ },
+ "aplicaciones/digital.html#producto": {
+  "estado": "borrador",
+  "id": "KYN-MRK-UI-003",
+  "n": "18.3",
+  "t": "Según el producto"
+ },
+ "aplicaciones/digital.html#sobriedad": {
+  "estado": "borrador",
+  "id": "KYN-MRK-UI-001",
+  "n": "18.1",
+  "t": "Sobriedad viva"
+ },
  "aplicaciones/personalizacion.html#blanca": {
   "estado": "vigente",
   "id": "KYN-MRK-PER-004",

@@ -137,8 +137,8 @@ window.KEYONS_NAV = [
     ch: [
       /* 18 · Digital (2026-11-13): sale de Expresión; solo identidad visual en pantalla. Lo funcional (tokens, componentes,
          formularios, navegación, tablas, dashboards, estados vacíos, onboarding, Estela en interfaz) es del Libro 02 */
-      { n: '18', k: 'digital', was: ['16', '19'], t: 'Digital', s: 'p', d: 'La identidad de Keyons en pantalla: sobria, con momentos vivos.', items: [
-        { t: 'Sobrio con momentos vivos', st: 'Sobriedad viva' }, { t: 'Momentos vivos' }, { t: 'Íconos de aplicación' } ] },
+      { n: '18', k: 'digital', was: ['16', '19'], t: 'Digital', s: 'b', d: 'La identidad de Keyons en pantalla: sobria, con momentos vivos.', items: [
+        { t: 'Sobriedad viva', s: 'b', href: 'aplicaciones/digital.html#sobriedad' }, { t: 'Momentos vivos', s: 'b', href: 'aplicaciones/digital.html#momentos' }, { t: 'Según el producto', s: 'b', href: 'aplicaciones/digital.html#producto' }, { t: 'Estela en pantalla', s: 'b', href: 'aplicaciones/digital.html#estela' }, { t: 'Íconos de aplicación' } ] },
       { n: '19', k: 'documentos', was: ['17', '20'], t: 'Documentos', s: 'p', d: 'Propuestas, contratos, facturas, correspondencia y papelería.', items: [
         { grp: 'Comerciales' }, { t: 'Propuesta comercial', deep: 1 }, { t: 'Cotización', deep: 1 }, { t: 'Presentación', deep: 1 }, { t: 'Caso de éxito', deep: 1 },
         { grp: 'Legales' }, { t: 'Contrato', deep: 1 }, { t: 'Confidencialidad', deep: 1 }, { t: 'Anexos', deep: 1 },

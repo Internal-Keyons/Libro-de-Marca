@@ -72,6 +72,11 @@ NUEVAS = {
     'modos/expresivo.html#color': ('KYN-MRK-EXP-004', 'Color y cielos', 'borrador'),
     'modos/expresivo.html#recursos': ('KYN-MRK-EXP-005', 'Recursos', 'borrador'),
     'modos/expresivo.html#limites': ('KYN-MRK-EXP-006', 'Límites', 'borrador'),
+    # 18 · Digital (2026-11-17, en borrador): propuesta de texto de Claude para aprobación de Keylin, tools/digital.py
+    'aplicaciones/digital.html#sobriedad': ('KYN-MRK-UI-001', 'Sobriedad viva', 'borrador'),
+    'aplicaciones/digital.html#momentos': ('KYN-MRK-UI-002', 'Momentos vivos', 'borrador'),
+    'aplicaciones/digital.html#producto': ('KYN-MRK-UI-003', 'Según el producto', 'borrador'),
+    'aplicaciones/digital.html#estela': ('KYN-MRK-UI-004', 'Estela en pantalla', 'borrador'),
     # 30 · Universo visual de Estela (2026-11-13, en borrador)
     'recursos/universo-estela.html#universo': ('KYN-MRK-UVE-001', 'Universo visual', 'borrador'),
 }

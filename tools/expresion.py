@@ -13,6 +13,9 @@ Diagramación con los componentes del libro:
 - base: título, entrada (.ed__lead), filas con rótulo (.ed__stack), cierre (.ed__close);
 - creativa donde ayuda a leer: tarjetas con viñeta (.pgrid + .pgrid__v) para principios, preguntas y recursos; la comparación
   en tres columnas (.tri3) y el espectro (.espectro) en Intensidad; la paleta en fila (.paleta5) en Editorial.
+Cuarta ronda (2026-11-17): 16.4 con la línea de intensidad (.espectro con marcas y flecha), la tabla «Lo que permanece
+y lo que varía» (.matrix), las cuatro preguntas reales con íconos oficiales (.pgrid--ico, tools/iconos_oficiales.py) y
+«Los niveles pueden convivir»; 17.1 con íconos; 16.5 cita con enlace lo que ya regulan TYP, ESP y DAT.
 Cada párrafo normativo se marca con N(texto, nivel) (tools/normativa.py); después: python tools/niveles.py --aplicar
 """
 import html
@@ -23,6 +26,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from normativa import N, registrar   # noqa: E402
+from iconos_oficiales import icono   # noqa: E402
+import json   # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 esc = lambda t: html.escape(t, quote=False)
@@ -50,6 +55,37 @@ def pgrid_v(items):
     vacia = '<div class="pgrid__vacia" aria-hidden="true"></div>' if len(items) % 2 else ''
     return (f'{I}<div class="pgrid pgrid--2">' + ''.join(
         f'<div><span class="pgrid__v">{vin(k)}</span><p class="pgrid__t">{esc(t)}</p>{P(*ps, cls="pgrid__d")}</div>' for k, (t, ps) in enumerate(items)) + vacia + '</div>')
+def pgrid_i(items):
+    """Tarjetas con ícono oficial (capítulo 26) en lugar de viñeta: (ícono, título, párrafos, orientación o None).
+    La orientación cierra la tarjeta en Azul Noche. Con un número impar, la posición vacía de R23."""
+    vacia = '<div class="pgrid__vacia" aria-hidden="true"></div>' if len(items) % 2 else ''
+    return (f'{I}<div class="pgrid pgrid--2 pgrid--ico">' + ''.join(
+        f'<div><span class="pgrid__ic">{icono(ic)}</span><p class="pgrid__t">{esc(t)}</p>{P(*ps, cls="pgrid__d")}'
+        + (f'<p class="pgrid__d pgrid__o">{o}</p>' if o else '') + '</div>' for ic, t, ps, o in items) + vacia + '</div>')
+def espectro(niveles):
+    """COR-004 · Las tres referencias sobre una línea continua de un solo color, con su marca (círculo y cuadrado
+    alternados, R02) y la flecha al final: la intensidad crece hacia la derecha. Debajo de cada marca, su nombre,
+    su frase y su desarrollo. En móvil, la línea baja en vertical junto a las marcas."""
+    # Ítems en bloques con rol de lista (no <li>): así tools/niveles.py lee cada párrafo por separado
+    lis = ''.join(f'<div class="espectro__i" role="listitem"><span class="espectro__m">{vin(k)}</span><p class="espectro__t">{esc(t)}</p><p class="espectro__f">{esc(f)}</p>{P(*ps, cls="espectro__d")}</div>'
+                  for k, (t, f, ps) in enumerate(niveles))
+    return (f'{I}<div class="espectro"><div class="espectro__l" role="list" aria-label="Espectro continuo de intensidad, de lo formal a lo expresivo">{lis}</div>'
+            f'<span class="espectro__fin" aria-hidden="true">{icono("flecha-derecha-larga")}</span></div>')
+def matriz(etq, cols, filas):
+    """Tabla editorial del libro (.matrix): una fila por tema y una columna por condición, alineadas"""
+    head = ('<div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span>'
+            + ''.join(f'<span class="matrix__lvl" role="columnheader">{esc(t)}<small>{esc(s)}</small></span>' for t, s in cols) + '</div>')
+    rows = ''.join(f'<div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">{esc(k)}</span>'
+                   + ''.join(f'<span class="matrix__v" role="cell">{esc(v)}</span>' for v in vs) + '</div>' for k, vs in filas)
+    return f'{I}<div class="matrix" role="table" aria-label="{esc(etq)}">{head}{rows}</div>'
+_NORMAS = None
+def xref(nid, texto=None):
+    """Referencia a otra norma dentro del texto (R17), con el enlace editorial del libro (R06)"""
+    global _NORMAS
+    if _NORMAS is None:
+        _NORMAS = {v['id']: (k, v['t']) for k, v in json.load(io.open(os.path.join(ROOT, 'data', 'normas.json'), encoding='utf-8')).items()}
+    ruta, t = _NORMAS[nid]
+    return f'<a class="xref" href="../{ruta}" title="{nid}">{esc(texto or t)}</a>'
 def tri3(cols):
     """Comparación en tres columnas: cada columna con su nombre y las mismas filas, alineadas entre columnas"""
     return (f'{I}<div class="tri3">' + ''.join(f'<div><p class="tri3__t">{esc(t)}</p>' + ''.join(f'<div class="tri3__c"><span class="tri3__k">{esc(k)}</span><p>{esc(v)}</p></div>' for k, v in filas) + '</div>'
@@ -62,9 +98,6 @@ def seccion(sid, num, corto, titular, partes):
 
 
 # ───────────── Introducción del área ─────────────
-ESPECTRO = (f'{I}<div class="espectro" role="img" aria-label="Espectro continuo de intensidad: Formal, Corporativo Editorial y Expresivo">'
-            '<span class="espectro__barra" aria-hidden="true"></span>'
-            '<span class="espectro__k">Formal</span><span class="espectro__k">Corporativo Editorial</span><span class="espectro__k">Expresivo</span></div>')
 # Página del área (Arquitectura editorial, Guía 05): título, una entrada breve y los accesos a los capítulos, sin desarrollo
 INTRO = (seccion('intro', 'Intro', 'Expresión de marca', 'La identidad permanece. La intensidad cambia.', [
     lead('Keyons tiene <strong>una sola identidad visual</strong>. Su expresión cambia según lo que necesita comunicar, las personas a quienes se dirige y el entorno en el que aparece.'),
@@ -76,12 +109,6 @@ PALETA = (f'{I}<ul class="paleta5" aria-label="Los cinco colores oficiales">'
               ('--k-blanco', 'Blanco Keyons', 'Estructura y contraste'), ('--k-noche', 'Azul Noche', 'Estructura y contraste'),
               ('--k-cielo', 'Azul Cielo', 'Reconocimiento y acento'), ('--k-salmon', 'Salmón Tierra', 'Expresión según el contexto'),
               ('--k-atardecer', 'Salmón Atardecer', 'Variante para composiciones oscuras')]) + '</ul>')
-TRI = tri3([('Formal', [('Propósito', 'Informar con exactitud.'), ('Recursos', 'Tipografía, retícula y espacio, con acentos puntuales.'),
-                        ('Color', 'Blanco Keyons y Azul Noche, con Azul Cielo para orientar.'), ('Piezas', 'Contratos, políticas, certificaciones e informes técnicos.')]),
-            ('Corporativo Editorial', [('Propósito', 'Explicar y convencer.'), ('Recursos', 'Fotografía protagonista, titulares grandes y atmósferas.'),
-                                       ('Color', 'Los cinco colores oficiales, cada uno en su función.'), ('Piezas', 'Presentaciones, informes ejecutivos, propuestas y memorias.')]),
-            ('Expresivo', [('Propósito', 'Inspirar y construir una experiencia.'), ('Recursos', 'Composición experimental, cielos, texturas y movimiento.'),
-                           ('Color', 'Cielos, degradados o monocromía, según la atmósfera.'), ('Piezas', 'Campañas, piezas narrativas y aperturas editoriales.')])])
 C16 = [
     ('principios', '16.1', 'Principios', 'Claridad con carácter', [
         lead('La expresión corporativa de Keyons combina <strong>claridad, confianza y personalidad</strong> mediante una composición precisa y un uso deliberado del espacio.'),
@@ -115,31 +142,55 @@ C16 = [
     ]),
     ('intensidad', '16.4', 'Intensidad', 'Elegir cuánto expresar', [
         lead('Formal, Corporativo Editorial y Expresivo son <strong>tres referencias dentro de un mismo continuo</strong>; la intensidad se ajusta durante el diseño, según la función de la pieza.'),
-        ESPECTRO,
-        TRI,
+        # Cómo cambia la expresión (texto de Keylin, 2026-11-17): la línea de intensidad con las tres referencias
+        espectro([
+            ('Formal', 'La información toma el protagonismo.', [
+                'Predominan las composiciones estables, los fondos claros y el uso contenido del color. Blanco Keyons y Azul Noche ofrecen una base recomendable.',
+                N('La fotografía y los elementos expresivos pueden utilizarse cuando aportan valor, sin competir con la información.', 'puede')]),
+            ('Corporativo Editorial', 'La información y el carácter comparten protagonismo.', [
+                'La composición admite mayor libertad: titulares amplios, fotografía, asimetría controlada y los cinco colores corporativos.',
+                'La creatividad se integra en una estructura reconocible y fácil de recorrer.']),
+            ('Expresivo', 'La dirección creativa adquiere mayor libertad.', [
+                N('La escala, el color, la fotografía, las texturas y el movimiento pueden asumir mayor protagonismo.', 'puede'),
+                'También puede ser minimalista: una sola imagen, una palabra o una composición prácticamente vacía pueden producir una expresión intensa.',
+                'La libertad no elimina las condiciones de legibilidad, accesibilidad ni coherencia.'])]),
         sub('Lo que permanece y lo que varía'),
-        pgrid_v([('Lo que permanece', [N('La tipografía, el sistema cromático, la geometría, los criterios de composición y los principios de claridad son una base compartida. Su aplicación puede variar, pero debe conservar una relación reconocible con la identidad Keyons.', 'debe'),
-                                       'La coherencia se construye con decisiones que responden a una gramática visual común, sin repetir una misma distribución, un mismo degradado o una misma cantidad de color.']),
-                 ('Lo que varía', ['El protagonismo de la fotografía, la intensidad cromática, la escala tipográfica, el ritmo, las texturas, el movimiento y la libertad de composición.',
-                                   'Cada variación responde al propósito de la pieza: comunicar una idea, construir una atmósfera o generar una experiencia memorable.'])]),
+        lead('La identidad Keyons no cambia entre los niveles de expresión. Lo que cambia es <strong>la manera de combinar sus recursos</strong> y el protagonismo que adquieren.'),
+        matriz('Lo que permanece y lo que varía entre los niveles de expresión',
+               [('Lo que permanece', 'Los tres niveles comparten las mismas bases'), ('Lo que varía', 'Cada nivel puede modificar')],
+               [('Tipografía', ['Familias oficiales y principios de jerarquía.', 'Escala, contraste, alineación y protagonismo.']),
+                ('Color', ['Paleta corporativa, funciones cromáticas y criterios de contraste.', 'Proporción, intensidad, fondos y presencia de acentos.']),
+                ('Composición', ['Retícula, equilibrio, claridad y geometría de marca.', 'Simetría, asimetría, espacios y ritmo.']),
+                ('Recursos', ['Criterios de calidad, originalidad y pertinencia visual.', 'Fotografía, cielos, ilustración, texturas y movimiento.'])]),
+        prosa(N('La pieza debe conservar una relación reconocible con Keyons, aunque su apariencia cambie considerablemente.', 'debe'),
+              N('La intensidad debería responder al contenido y al contexto, no a una cantidad predeterminada de recursos.', 'deberia')),
         sub('Cuatro preguntas para decidir'),
-        pgrid_v([('Propósito', ['Informar, explicar, convencer, documentar o inspirar.']), ('Audiencia', ['Conocimientos, expectativas y necesidades de lectura.']),
-                 ('Canal', ['Documento, pantalla, presentación, publicación o soporte físico.']), ('Contenido', ['Volumen, complejidad, importancia y sensibilidad de la información.'])]),
-        stack([('Referencias abiertas', ['Las tres referencias son abiertas: una pieza puede situarse entre dos niveles, adoptar características de ambos o cambiar su intensidad entre secciones.']),
-               ('Una pieza, varias intensidades', [N('Una propuesta puede abrir con una portada de alto impacto, argumentar en páginas editoriales y cerrar con condiciones formales.', 'puede'),
-                                                   N('Las transiciones deben conservar continuidad tipográfica, cromática y compositiva.', 'debe')]),
-               ('Intensidad y densidad', [N('La intensidad mide el protagonismo de los recursos de identidad; la densidad, la cantidad y organización de la información. Cada una debe regularse por separado.', 'debe')])]),
+        lead(N('Antes de establecer la intensidad visual de una pieza, el diseñador debería responder estas cuatro preguntas.', 'deberia')),
+        pgrid_i([('brujula', '¿Qué necesita conseguir esta pieza?', ['¿Informar con precisión, explicar un concepto, presentar una propuesta o generar una experiencia memorable?'],
+                  'El objetivo determina qué merece protagonismo.'),
+                 ('perfil', '¿Quién va a leerla o utilizarla?', ['¿Qué conocimientos tiene la persona? ¿Necesita revisar detalles, comparar información o comprender una idea rápidamente?'],
+                  'La audiencia determina la claridad y el nivel de familiaridad visual necesarios.'),
+                 ('globo', '¿Dónde y cómo se utilizará?', ['¿Será un documento de consulta, una presentación, una publicación digital o una experiencia interactiva?'],
+                  'El soporte y las condiciones de uso determinan cuánto espacio existe para la experimentación.'),
+                 ('capas', '¿Qué información debe destacar y qué tan compleja es?', ['¿Contiene datos sensibles, instrucciones, cifras o una narrativa visual?'],
+                  'La complejidad determina qué recursos conviene contener y cuáles pueden adquirir protagonismo.')]),
+        sub('Los niveles pueden convivir'),
+        lead('Una propuesta comercial puede abrir con una portada expresiva, desarrollar su argumento mediante composiciones editoriales y cerrar con condiciones formales.'),
+        prosa(N('Los cambios de intensidad pueden ocurrir dentro de una misma pieza.', 'puede'),
+              N('Sus transiciones deben conservar continuidad tipográfica, cromática y compositiva.', 'debe')),
+        stack([('Intensidad y densidad', [N('La intensidad mide el protagonismo de los recursos de identidad; la densidad, la cantidad y organización de la información. Cada una debe regularse por separado.', 'debe')])]),
     ]),
     ('documentos', '16.5', 'Documentos', 'El documento como expresión de marca', [
         lead('Un documento Keyons es <strong>una herramienta clara y confiable</strong> con identidad propia: la estructura da continuidad y la intensidad cambia la presentación, nunca la información.'),
         stack([('Formato', [N('El formato debe responder al destino del documento: impresión, lectura digital, distribución o edición.', 'debe')]),
-               ('Márgenes y retícula', [N('Márgenes y retícula deben tomarse de las especificaciones de cada formato y repetir sus posiciones de una página a otra.', 'debe')]),
-               ('Tipografía', [N('Títulos, cuerpo, notas y cifras deben usar el sistema tipográfico oficial, con relaciones constantes de tamaño, peso e interlineado.', 'debe')]),
+               # Auditoría del 2026-11-17: lo que ya regula otra norma se cita con enlace (R17) y aquí queda solo lo propio del documento
+               ('Márgenes y retícula', [N(f'Columnas, márgenes y medianiles siguen la norma {xref("KYN-MRK-ESP-004")}. En un documento, sus posiciones deben repetirse de una página a otra.', 'debe')]),
+               ('Tipografía', [f'La jerarquía de títulos, cuerpo, notas y cifras sigue la norma {xref("KYN-MRK-TYP-002")}, y cada familia se usa según {xref("KYN-MRK-TYP-006")}.']),
                ('Portada', [N('La portada debe mostrar el título, el emisor y los datos de identificación. Su intensidad, formal o editorial, depende del contenido y la audiencia.', 'debe')]),
                ('Encabezado y pie', [N('Encabezado y pie deberían llevar solo la información recurrente útil: identidad, título breve, versión o página.', 'deberia')]),
                ('Títulos y numeración', [N('La jerarquía debe distinguir capítulos, secciones y apartados sin depender solo del tamaño o del color. La numeración se usa cuando facilita referencias o auditorías.', 'debe')]),
-               ('Tablas y cifras', [N('Las cifras deben alinearse de forma constante y mostrar sus unidades. El color ayuda a leer, pero nunca es la única diferencia.', 'debe')]),
-               ('Gráficos', [N('Los gráficos deben seguir las <a href="../fundamentos/datos/graficos.html">normas de datos y visualización</a> de Keyons, fuente única de sus paletas.', 'debe')]),
+               ('Tablas y cifras', [N(f'Las cifras deben mostrar sus unidades y alinearse según {xref("KYN-MRK-TYP-006")}. El color ayuda a leer, pero nunca es la única diferencia.', 'debe')]),
+               ('Gráficos', [N(f'Los gráficos deben seguir las {xref("KYN-MRK-DAT-001", "normas de datos y visualización")} de Keyons, fuente única de sus paletas.', 'debe')]),
                ('Notas y citas', [N('Notas y referencias deben encontrarse con facilidad, sin competir con el texto principal.', 'debe')]),
                ('Firmas', [N('Cada bloque de firma debe mostrar quién firma, con qué función y bajo qué procedimiento. La firma visual y la firma con validez jurídica son elementos distintos.', 'debe')]),
                ('Sellos', [N('Sellos y marcas de agua deben corresponder a una certificación o aprobación real y conservar la legibilidad.', 'debe')])]),
@@ -150,10 +201,10 @@ C16 = [
 C17 = [
     ('principios', '17.1', 'Principios', 'Libertad con intención', [
         lead('La expresión de Keyons puede ser <strong>intensa, sensible y memorable</strong> sin perder claridad: su fuerza nace de la relación entre forma, contenido y emoción.'),
-        pgrid_v([('Una identidad que permite explorar', [N('La experimentación debe conservar una relación visible con la tipografía, el color, la geometría y la composición de Keyons.', 'debe')]),
-                 ('La intensidad no es saturación', [N('Cada composición debe elegir un protagonista y los elementos que lo acompañan.', 'debe'), 'Reunir todos los recursos a la vez genera competencia visual.']),
-                 ('La emoción tiene una función', [N('Cada recurso expresivo debe transmitir una idea, una atmósfera o una experiencia ligada al contenido.', 'debe')]),
-                 ('La claridad permanece', [N('La información esencial debe seguir siendo fácil de encontrar, con contraste y jerarquía suficientes.', 'debe')])]),
+        pgrid_i([('brujula', 'Una identidad que permite explorar', [N('La experimentación debe conservar una relación visible con la tipografía, el color, la geometría y la composición de Keyons.', 'debe')], None),
+                 ('seleccion', 'La intensidad no es saturación', [N('Cada composición debe elegir un protagonista y los elementos que lo acompañan.', 'debe'), 'Reunir todos los recursos a la vez genera competencia visual.'], None),
+                 ('favorito-circulo', 'La emoción tiene una función', [N('Cada recurso expresivo debe transmitir una idea, una atmósfera o una experiencia ligada al contenido.', 'debe')], None),
+                 ('buscar', 'La claridad permanece', [N('La información esencial debe seguir siendo fácil de encontrar, con contraste y jerarquía suficientes.', 'debe')], None)]),
         sub('Estructura y expresión'),
         lead('Keyons combina la disciplina de una <strong>estructura clara</strong> con la libertad de una expresión visual propia.'),
         stack([('La metáfora 60/40', ['La relación 60/40 describe ese equilibrio: una base estructural sólida que sostiene una capa expresiva con personalidad, sin ser una proporción técnica ni un reparto por porcentajes.']),
@@ -262,7 +313,7 @@ escribir('modos/expresivo.html', pagina('expresivo.html', '17', 'Expresivo', 'Li
 # Introducción del área en modos/index.html
 p = os.path.join(ROOT, 'modos', 'index.html')
 s = io.open(p, encoding='utf-8').read()
-s = re.sub(r'\n?<template id="area-intro">.*?</template>\n?', '\n', s, flags=re.S)
+s = re.sub(r'\n[ \t]*<template id="area-intro">.*?</template>', '', s, flags=re.S)   # quita exactamente lo que se insertó
 s = s.replace('<div id="area-page"></div>', '<div id="area-page"></div>\n    <template id="area-intro">' + INTRO + '    </template>', 1)
 io.open(p, 'w', encoding='utf-8', newline='\n').write(s)
 

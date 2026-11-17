@@ -2049,6 +2049,8 @@
         if (a.abre) return;
         const b = lineas.slice(i + 1).find((x) => x.abre && x.y - a.y > 1 && Math.min(a.r, x.r) - Math.max(a.l, x.l) > 0.6 * Math.min(a.r - a.l, x.r - x.l));
         if (!b || b.e === a.e || b.y - a.y > 200) return;   // hasta 200 px de espacio vacío; una misma caja no forma pareja
+        /* R23: una retícula que cierra su sección conserva su filete final; la línea de la sección siguiente también queda */
+        if (b.e.tagName === 'SECTION' && a.e.parentElement && a.e.parentElement.matches('.pgrid')) return;
         const l = Math.max(a.l, b.l), r = Math.min(a.r, b.r);
         if (cont.some((c) => c.b > a.y + 1 && c.t < b.y - 1 && c.r > l && c.l < r)) return;
         if (a.sombra) a.e.style.boxShadow = 'none'; else a.e.style.borderBottomColor = 'transparent';

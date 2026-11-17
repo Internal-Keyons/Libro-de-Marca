@@ -2549,7 +2549,6 @@ body .portal .portal__arcs{backdrop-filter:none;-webkit-backdrop-filter:none;bac
 .ptype__spec div{display:grid;grid-template-columns:96px 1fr;gap:var(--s4);padding:12px 0;border-top:1px solid var(--color-border)}
 .ptype__spec dt{font-size:12px;color:var(--color-text-3)}
 .ptype__spec dd{margin:0;font-size:15px;line-height:1.5;color:var(--color-text)}
-.ptype__spec a{color:inherit;text-decoration:underline;text-decoration-color:var(--k-cielo);text-underline-offset:3px}
 @keyframes fadeUp{from{opacity:0;transform:translateY(14px)}}
 @media(max-width:900px){.ptype__panel{grid-template-columns:1fr}}
 /* 18.2 · Así no, así sí */
@@ -2742,7 +2741,6 @@ body .portal .portal__arcs{backdrop-filter:none;-webkit-backdrop-filter:none;bac
 .mtd__s > div{padding-top:14px}
 .mtd__t{margin:0 0 6px;font-size:20px;font-weight:500;letter-spacing:-.01em;color:var(--color-text)}
 .mtd__s p:not(.mtd__t){margin:0;max-width:58ch;font-size:16px;line-height:1.55;color:var(--color-text-2)}
-.mtd__s a{color:inherit;text-decoration:underline;text-decoration-color:var(--k-cielo);text-underline-offset:3px}
 .mtd__gate{position:relative;z-index:1;display:flex;align-items:center;gap:var(--s4);margin:var(--s2) 0;padding:var(--s3) 0}
 .mtd__gate svg{width:20px;height:20px;margin-left:18px;background:var(--color-bg)}
 .mtd__gate span{font-size:12px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--k-cielo-700)}
@@ -2751,7 +2749,6 @@ body .portal .portal__arcs{backdrop-filter:none;-webkit-backdrop-filter:none;bac
 .pvs > div{padding-top:var(--s4);border-top:1px solid var(--color-border-strong)}
 .pvs p{margin:0}
 .pvs p + p{margin-top:var(--s2);font-size:16px;line-height:1.55;color:var(--color-text-2)}
-.pvs a{color:inherit;text-decoration:underline;text-decoration-color:var(--k-cielo);text-underline-offset:3px}
 @media(max-width:760px){.pvs{grid-template-columns:1fr}}
 /* 18.3 · Principios y fórmula */
 .prin{margin-top:var(--s10)}
@@ -2971,7 +2968,6 @@ body .portal .portal__arcs{backdrop-filter:none;-webkit-backdrop-filter:none;bac
 .mt2__col--d .mt2__n{color:var(--k-cielo)}
 .mt2__t{margin:2px 0 6px;font-size:20px;font-weight:500;letter-spacing:-.01em}
 .mt2__s p:not(.mt2__t){margin:0;font-size:16px;line-height:1.55;color:var(--color-text-2)}
-.mt2__s a{color:inherit;text-decoration:underline;text-decoration-color:var(--k-cielo);text-underline-offset:3px}
 .mt2__s .blist{margin-top:var(--s2)}
 .mt2__note{margin-top:var(--s8);padding:var(--s6);background:var(--k-puro);border-radius:var(--r-card)}
 .mt2__note p{margin:0}
@@ -3236,13 +3232,19 @@ body .portal .portal__arcs{animation:none!important;--ripple:0px;will-change:tra
 .portal__txt{max-width:min(880px,calc(100% - 2 * var(--s10)))}
 /* Barra de búsqueda más contenida */
 .gal .icat__bar,.texf .texf__bar .texf__q{max-width:560px}
-.xref{color:inherit;text-decoration:underline;text-decoration-color:var(--k-cielo);text-decoration-thickness:1.5px;text-underline-offset:3px;transition:color var(--m-fast)}.xref:hover{color:var(--k-cielo-700)}
 
 /* ═══ Ronda 28-b ═══ */
 /* Enlace en línea al cierre de una sección, en lugar de un botón */
 .ed__more{margin-top:var(--s8);max-width:640px;font-size:16px;line-height:1.65;color:var(--color-text-2)}
-.ed__more a,.cstk__c a,.xref{color:var(--color-text);text-decoration:underline;text-decoration-color:var(--k-cielo);text-decoration-thickness:1.5px;text-underline-offset:4px;transition:color var(--m-fast),text-decoration-color var(--m-fast)}
-.ed__more a:hover,.cstk__c a:hover,.xref:hover{color:var(--k-cielo-700);text-decoration-color:currentColor}
+/* reglas-visuales R06 · Enlaces editoriales: un solo patrón para todo enlace dentro del texto. Letra y subrayado Azul Noche;
+   al pasar el cursor o con el foco de teclado, el subrayado se refuerza en Azul Cielo. La letra nunca cambia de color.
+   La transición es breve y la anula la preferencia de movimiento reducido (regla global) */
+.xref,.ed__more a,.cstk__c a,.mtd__s a,.pvs a,.mt2__s a,.ptype__spec a,
+:is(.ed__lead,.prosa,.ed__stack,.ed__close,.pgrid__d,.matrix__v) a:not([class]){
+  color:var(--link-fg);text-decoration:underline;text-decoration-color:currentColor;text-decoration-thickness:var(--link-line);text-underline-offset:var(--link-offset);
+  transition:text-decoration-color var(--m-fast) var(--e-out),text-decoration-thickness var(--m-fast) var(--e-out)}
+:is(.xref,.ed__more a,.cstk__c a,.mtd__s a,.pvs a,.mt2__s a,.ptype__spec a,:is(.ed__lead,.prosa,.ed__stack,.ed__close,.pgrid__d,.matrix__v) a:not([class])):is(:hover,:focus-visible){
+  text-decoration-color:var(--link-underline);text-decoration-thickness:var(--link-line-hover)}
 .wr2__old{color:var(--color-text-3)}
 
 
@@ -3770,9 +3772,11 @@ body .portal .portal__arcs{animation:none!important;--ripple:0px;will-change:tra
 .cstk__it{margin-top:auto}
 .cstk__ctl{margin-top:var(--s10)}
 
-/* DAT-004 · lo que no se usa, en la retícula de cuatro, con íconos */
-.pgrid--ico .pgrid__ic{display:block;width:28px;height:28px;margin-bottom:var(--s6)}
-.pgrid--ico .pgrid__ic svg{width:100%;height:100%;fill:none;stroke:var(--k-noche);stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter}
+/* Tarjetas con ícono oficial del capítulo 26 en lugar de viñeta: 32 px, Azul Noche, con el trazo propio del ícono.
+   La orientación que cierra la tarjeta va en el color del texto principal */
+.pgrid--ico .pgrid__ic{display:block;width:var(--s8);height:var(--s8);margin-bottom:var(--s5);color:var(--k-noche)}
+.pgrid--ico .pgrid__ic svg{display:block;width:100%;height:100%}
+.pgrid__o{color:var(--color-text)}
 
 /* Galería y texturas: la barra pegada a las imágenes y del ancho de la sección */
 .gsl{padding-top:0;margin-top:var(--s6)}
@@ -5995,7 +5999,7 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
 .prosa p + p{margin-top:var(--s5)}
 .ed__sub + .prosa{margin-top:var(--s5)}
 .ed__lead + .prosa{margin-top:var(--s6)}   /* reglas-visuales R20 */
-.ed__stack + .prosa,.pgrid + .prosa,.vlist + .prosa,.espectro + .prosa,.paleta5 + .prosa{margin-top:var(--s8)}
+.ed__stack + .prosa,.pgrid + .prosa,.vlist + .prosa,.espectro + .prosa,.paleta5 + .prosa,.matrix + .prosa{margin-top:var(--s8)}
 
 /* Párrafo mayor: la idea a la izquierda y sus detalles apilados a la derecha, por debajo del subtítulo en jerarquía */
 .pmayor{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,4fr);column-gap:var(--s12);margin-top:var(--s5);align-items:start}
@@ -6176,5 +6180,7 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
   .caso__c{padding-left:0}
 }
 
-/* reglas-visuales R24 · Muestras de color: toda serie alterna círculo y cuadrado, empezando por el círculo (como R02) */
-.ings .ing:nth-child(even) i,.paleta5 li:nth-child(even) i,.dpal__ramp .dsw:nth-child(even) i,.ctab__r:nth-child(odd) .ctab__c i,.dchip:nth-of-type(even){border-radius:0}
+/* reglas-visuales R24 · Muestras cromáticas editoriales: la serie alterna círculo y cuadrado, empezando por el círculo (como R02).
+   Solo en las muestras editoriales (cielos de COL-007 y los cinco colores de COR-003). Las escalas de datos, los puntos de color
+   del texto, la tabla de contraste, las leyendas y los controles conservan su forma (R24, excepciones) */
+.ings .ing:nth-child(even) i,.paleta5 li:nth-child(even) i{border-radius:0}

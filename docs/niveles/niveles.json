@@ -1883,571 +1883,6 @@
    "motivo": "La norma está en borrador: el nivel se decide al aprobar su texto."
   },
   {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 0,
-   "frase": "Un documento Keyons es una herramienta clara y confiable con identidad propia: la estructura da continuidad y la intensidad cambia la presentación, nunca la información.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 1,
-   "frase": "El formato debe responder al destino del documento: impresión, lectura digital, distribución o edición.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 2,
-   "frase": "Márgenes y retícula deben tomarse de las especificaciones de cada formato y repetir sus posiciones de una página a otra.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 3,
-   "frase": "Títulos, cuerpo, notas y cifras deben usar el sistema tipográfico oficial, con relaciones constantes de tamaño, peso e interlineado.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 4,
-   "frase": "La portada debe mostrar el título, el emisor y los datos de identificación.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 5,
-   "frase": "Encabezado y pie deberían llevar solo la información recurrente útil: identidad, título breve, versión o página.",
-   "estado": "aplicada",
-   "nivel": "deberia",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 6,
-   "frase": "La jerarquía debe distinguir capítulos, secciones y apartados sin depender solo del tamaño o del color.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 7,
-   "frase": "Las cifras deben alinearse de forma constante y mostrar sus unidades.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 7,
-   "frase": "El color ayuda a leer, pero nunca es la única diferencia.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 8,
-   "frase": "Los gráficos deben seguir las normas de datos y visualización de Keyons, fuente única de sus paletas.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 9,
-   "frase": "Notas y referencias deben encontrarse con facilidad, sin competir con el texto principal.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 10,
-   "frase": "Cada bloque de firma debe mostrar quién firma, con qué función y bajo qué procedimiento.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-005",
-   "fuente": "modos/corporativo.html#documentos",
-   "bloque": 11,
-   "frase": "Sellos y marcas de agua deben corresponder a una certificación o aprobación real y conservar la legibilidad.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 2,
-   "frase": "Cada cambio de ritmo debe facilitar la lectura.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 3,
-   "frase": "Los espacios blancos tienen valor compositivo y no deben llenarse solo para equilibrar la cantidad de contenido.",
-   "estado": "aplicada",
-   "nivel": "no-debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 4,
-   "frase": "Corporativo Editorial puede usar los cinco colores oficiales, cada uno en su función.",
-   "estado": "aplicada",
-   "nivel": "puede",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 10,
-   "frase": "La pieza debe conservar jerarquía, equilibrio y contraste suficiente, aunque el color tenga gran presencia.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 11,
-   "frase": "Salmón Atardecer debe reservarse para composiciones oscuras.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 12,
-   "frase": "Cada fotografía debe aportar significado, contexto o una perspectiva reconocible.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 13,
-   "frase": "Cielos, degradados y texturas pueden acompañarla cuando construyen una atmósfera.",
-   "estado": "aplicada",
-   "nivel": "puede",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-003",
-   "fuente": "modos/corporativo.html#editorial",
-   "bloque": 14,
-   "frase": "Una pieza editorial debe reconocerse como Keyons por su tipografía, su diagramación y sus proporciones, sin depender del logotipo.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 1,
-   "frase": "La composición formal debería partir de fondos claros, texto de alto contraste, Azul Noche y Blanco Keyons, con Azul Cielo para orientar y acentuar.",
-   "estado": "aplicada",
-   "nivel": "deberia",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 2,
-   "frase": "Otros colores oficiales pueden sumarse cuando hay una razón de comunicación y se conserva la legibilidad.",
-   "estado": "aplicada",
-   "nivel": "puede",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 3,
-   "frase": "Los títulos deben permitir localizar el contenido de un vistazo, y los párrafos, mantener una medida cómoda.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 4,
-   "frase": "La tipografía expresiva puede aparecer en portadas y aperturas.",
-   "estado": "aplicada",
-   "nivel": "puede",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-002",
-   "fuente": "modos/corporativo.html#formal",
-   "bloque": 5,
-   "frase": "Cada elemento gráfico debe cumplir una función: organizar, separar, destacar o contextualizar.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 17,
-   "frase": "Su aplicación puede variar, pero debe conservar una relación reconocible con la identidad Keyons.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 30,
-   "frase": "Las tres referencias son abiertas: una pieza puede situarse entre dos niveles, adoptar características de ambos o cambiar su intensidad entre secciones.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 31,
-   "frase": "Una propuesta puede abrir con una portada de alto impacto, argumentar en páginas editoriales y cerrar con condiciones formales.",
-   "estado": "aplicada",
-   "nivel": "puede",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 32,
-   "frase": "Las transiciones deben conservar continuidad tipográfica, cromática y compositiva.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-004",
-   "fuente": "modos/corporativo.html#intensidad",
-   "bloque": 33,
-   "frase": "Cada una debe regularse por separado.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-001",
-   "fuente": "modos/corporativo.html#principios",
-   "bloque": 2,
-   "frase": "Cada pieza debe dejar claro qué información importa más y en qué orden se lee.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-COR-001",
-   "fuente": "modos/corporativo.html#principios",
-   "bloque": 5,
-   "frase": "La expresión corporativa puede usar todos los recursos de la identidad Keyons.",
-   "estado": "aplicada",
-   "nivel": "puede",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 0,
-   "frase": "El sistema cromático permite piezas contenidas e intensas; una pieza monocromática también puede ser expresiva.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 1,
-   "frase": "Los cielos deben responder a la intención de la pieza y a sus normas de construcción.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 2,
-   "frase": "Los degradados deben verse como transiciones naturales, sin cortes ni saltos que afecten el contraste del texto.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 3,
-   "frase": "Su posición, extensión y dirección pueden adaptarse a cada soporte.",
-   "estado": "aplicada",
-   "nivel": "puede",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 4,
-   "frase": "El color expresivo, el color de datos y el color semántico deben mantenerse separados.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-004",
-   "fuente": "modos/expresivo.html#color",
-   "bloque": 4,
-   "frase": "Un color de marca nunca indica por sí solo éxito, advertencia o error.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 1,
-   "frase": "Cada composición debería tener un centro de atención reconocible: una fotografía, una frase, una cifra o una relación espacial.",
-   "estado": "aplicada",
-   "nivel": "deberia",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 3,
-   "frase": "La asimetría puede generar movimiento o tensión, siempre con un equilibrio perceptible.",
-   "estado": "aplicada",
-   "nivel": "puede",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-002",
-   "fuente": "modos/expresivo.html#composicion",
-   "bloque": 4,
-   "frase": "Cada pieza debe tener decisiones visuales propias de su contenido.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-006",
-   "fuente": "modos/expresivo.html#limites",
-   "bloque": 0,
-   "frase": "Toda pieza expresiva debe conservar contraste, accesibilidad, comprensión y reconocimiento de marca.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-006",
-   "fuente": "modos/expresivo.html#limites",
-   "bloque": 1,
-   "frase": "La intensidad visual nunca justifica ocultar información o dificultar una acción.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-MRK-EXP-006",
-   "fuente": "modos/expresivo.html#limites",
-   "bloque": 3,
-   "frase": "Las decisiones gráficas deben ser propias de Keyons.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-006",
-   "fuente": "modos/expresivo.html#limites",
-   "bloque": 4,
-   "frase": "Una campaña puede ser muy experimental; un formulario de uso frecuente pide estabilidad y previsibilidad.",
-   "estado": "aplicada",
-   "nivel": "puede",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-006",
-   "fuente": "modos/expresivo.html#limites",
-   "bloque": 5,
-   "frase": "Keyons no necesita verse siempre igual para ser reconocible.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 0,
-   "frase": "La expresión de Keyons puede ser intensa, sensible y memorable sin perder claridad: su fuerza nace de la relación entre forma, contenido y emoción.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 2,
-   "frase": "La experimentación debe conservar una relación visible con la tipografía, el color, la geometría y la composición de Keyons.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 4,
-   "frase": "Cada composición debe elegir un protagonista y los elementos que lo acompañan.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 7,
-   "frase": "Cada recurso expresivo debe transmitir una idea, una atmósfera o una experiencia ligada al contenido.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 9,
-   "frase": "La información esencial debe seguir siendo fácil de encontrar, con contraste y jerarquía suficientes.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 12,
-   "frase": "Son recursos que pueden convivir dentro de una misma pieza.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-MRK-EXP-001",
-   "fuente": "modos/expresivo.html#principios",
-   "bloque": 12,
-   "frase": "Una fotografía intensa puede ocupar una composición muy sencilla; una página casi monocromática puede lograr gran expresividad con escala, ritmo y espacio.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 0,
-   "frase": "Cada recurso entra cuando ayuda a comunicar, y la decisión siempre es humana.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 2,
-   "frase": "La fotografía puede asumir el protagonismo de una composición.",
-   "estado": "aplicada",
-   "nivel": "puede",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 3,
-   "frase": "Su selección debe responder a una intención narrativa, con calidad, autenticidad y pertinencia.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 5,
-   "frase": "Su dirección artística debe partir de criterio humano, originalidad y respeto de derechos.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 6,
-   "frase": "Una imagen sintética no debe presentarse como fotografía documental de un hecho real.",
-   "estado": "aplicada",
-   "nivel": "no-debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 8,
-   "frase": "Las texturas deben ceder ante textos, cifras y elementos esenciales: si compiten, se reducen o se retiran.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-005",
-   "fuente": "modos/expresivo.html#recursos",
-   "bloque": 10,
-   "frase": "El contenido debe comprenderse sin la animación, y el movimiento, respetar las preferencias de accesibilidad.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-003",
-   "fuente": "modos/expresivo.html#tipografia",
-   "bloque": 1,
-   "frase": "Los tratamientos expresivos deberían concentrarse en títulos, aperturas y mensajes breves.",
-   "estado": "aplicada",
-   "nivel": "deberia",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-003",
-   "fuente": "modos/expresivo.html#tipografia",
-   "bloque": 2,
-   "frase": "Los textos de lectura continua deben mantener legibilidad, contraste y espaciado adecuados.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EXP-003",
-   "fuente": "modos/expresivo.html#tipografia",
-   "bloque": 3,
-   "frase": "Tipografía y diagramación pueden bastar para que una pieza se reconozca como Keyons, sin otros recursos.",
-   "estado": "aplicada",
-   "nivel": "puede",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
    "id": "KYN-MRK-EST-004",
    "fuente": "marca/estela.html#comportamiento",
    "bloque": 1,
@@ -2772,6 +2207,676 @@
    "frase": "Qué demuestraPuede usar humor sin perder precisión ni prometer más de lo que puede hacer.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-UI-004",
+   "fuente": "aplicaciones/digital.html#estela",
+   "bloque": 1,
+   "frase": "Una capacidad de IA puede presentarse sin representar a Estela.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-UI-004",
+   "fuente": "aplicaciones/digital.html#estela",
+   "bloque": 2,
+   "frase": "En un producto de cliente, Estela no debe mostrarse con la identidad pública de Keyons.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-UI-002",
+   "fuente": "aplicaciones/digital.html#momentos",
+   "bloque": 1,
+   "frase": "Cada recurso expresivo en pantalla debe ayudar a comprender, orientar o comunicar.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-UI-002",
+   "fuente": "aplicaciones/digital.html#momentos",
+   "bloque": 2,
+   "frase": "Un momento vivo no debe competir con una acción importante ni convertir una pantalla de trabajo en una pieza publicitaria.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-UI-001",
+   "fuente": "aplicaciones/digital.html#sobriedad",
+   "bloque": 1,
+   "frase": "Cada superficie operativa debe priorizar claridad, navegación, jerarquía y concentración.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-UI-001",
+   "fuente": "aplicaciones/digital.html#sobriedad",
+   "bloque": 5,
+   "frase": "Los detalles expresivos deberían ser pocos y precisos: una ventana de cielo en un encabezado, un acento de color o una transición breve.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 0,
+   "frase": "Un documento Keyons es una herramienta clara y confiable con identidad propia: la estructura da continuidad y la intensidad cambia la presentación, nunca la información.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 1,
+   "frase": "El formato debe responder al destino del documento: impresión, lectura digital, distribución o edición.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 2,
+   "frase": "En un documento, sus posiciones deben repetirse de una página a otra.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 4,
+   "frase": "La portada debe mostrar el título, el emisor y los datos de identificación.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 5,
+   "frase": "Encabezado y pie deberían llevar solo la información recurrente útil: identidad, título breve, versión o página.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 6,
+   "frase": "La jerarquía debe distinguir capítulos, secciones y apartados sin depender solo del tamaño o del color.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 7,
+   "frase": "Las cifras deben mostrar sus unidades y alinearse según Uso por función.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 7,
+   "frase": "El color ayuda a leer, pero nunca es la única diferencia.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 8,
+   "frase": "Los gráficos deben seguir las normas de datos y visualización de Keyons, fuente única de sus paletas.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 9,
+   "frase": "Notas y referencias deben encontrarse con facilidad, sin competir con el texto principal.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 10,
+   "frase": "Cada bloque de firma debe mostrar quién firma, con qué función y bajo qué procedimiento.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-005",
+   "fuente": "modos/corporativo.html#documentos",
+   "bloque": 11,
+   "frase": "Sellos y marcas de agua deben corresponder a una certificación o aprobación real y conservar la legibilidad.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 2,
+   "frase": "Cada cambio de ritmo debe facilitar la lectura.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 3,
+   "frase": "Los espacios blancos tienen valor compositivo y no deben llenarse solo para equilibrar la cantidad de contenido.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 4,
+   "frase": "Corporativo Editorial puede usar los cinco colores oficiales, cada uno en su función.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 10,
+   "frase": "La pieza debe conservar jerarquía, equilibrio y contraste suficiente, aunque el color tenga gran presencia.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 11,
+   "frase": "Salmón Atardecer debe reservarse para composiciones oscuras.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 12,
+   "frase": "Cada fotografía debe aportar significado, contexto o una perspectiva reconocible.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 13,
+   "frase": "Cielos, degradados y texturas pueden acompañarla cuando construyen una atmósfera.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-003",
+   "fuente": "modos/corporativo.html#editorial",
+   "bloque": 14,
+   "frase": "Una pieza editorial debe reconocerse como Keyons por su tipografía, su diagramación y sus proporciones, sin depender del logotipo.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-002",
+   "fuente": "modos/corporativo.html#formal",
+   "bloque": 1,
+   "frase": "La composición formal debería partir de fondos claros, texto de alto contraste, Azul Noche y Blanco Keyons, con Azul Cielo para orientar y acentuar.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-002",
+   "fuente": "modos/corporativo.html#formal",
+   "bloque": 2,
+   "frase": "Otros colores oficiales pueden sumarse cuando hay una razón de comunicación y se conserva la legibilidad.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-002",
+   "fuente": "modos/corporativo.html#formal",
+   "bloque": 3,
+   "frase": "Los títulos deben permitir localizar el contenido de un vistazo, y los párrafos, mantener una medida cómoda.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-002",
+   "fuente": "modos/corporativo.html#formal",
+   "bloque": 4,
+   "frase": "La tipografía expresiva puede aparecer en portadas y aperturas.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-002",
+   "fuente": "modos/corporativo.html#formal",
+   "bloque": 5,
+   "frase": "Cada elemento gráfico debe cumplir una función: organizar, separar, destacar o contextualizar.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 4,
+   "frase": "La fotografía y los elementos expresivos pueden utilizarse cuando aportan valor, sin competir con la información.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 11,
+   "frase": "La escala, el color, la fotografía, las texturas y el movimiento pueden asumir mayor protagonismo.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 12,
+   "frase": "También puede ser minimalista: una sola imagen, una palabra o una composición prácticamente vacía pueden producir una expresión intensa.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 15,
+   "frase": "La pieza debe conservar una relación reconocible con Keyons, aunque su apariencia cambie considerablemente.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 16,
+   "frase": "La intensidad debería responder al contenido y al contexto, no a una cantidad predeterminada de recursos.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 17,
+   "frase": "Antes de establecer la intensidad visual de una pieza, el diseñador debería responder estas cuatro preguntas.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 27,
+   "frase": "¿Qué información debe destacar y qué tan compleja es?",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 29,
+   "frase": "La complejidad determina qué recursos conviene contener y cuáles pueden adquirir protagonismo.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 30,
+   "frase": "Una propuesta comercial puede abrir con una portada expresiva, desarrollar su argumento mediante composiciones editoriales y cerrar con condiciones formales.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 31,
+   "frase": "Los cambios de intensidad pueden ocurrir dentro de una misma pieza.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 32,
+   "frase": "Sus transiciones deben conservar continuidad tipográfica, cromática y compositiva.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-004",
+   "fuente": "modos/corporativo.html#intensidad",
+   "bloque": 33,
+   "frase": "Cada una debe regularse por separado.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-001",
+   "fuente": "modos/corporativo.html#principios",
+   "bloque": 2,
+   "frase": "Cada pieza debe dejar claro qué información importa más y en qué orden se lee.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-COR-001",
+   "fuente": "modos/corporativo.html#principios",
+   "bloque": 5,
+   "frase": "La expresión corporativa puede usar todos los recursos de la identidad Keyons.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 0,
+   "frase": "El sistema cromático permite piezas contenidas e intensas; una pieza monocromática también puede ser expresiva.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 1,
+   "frase": "Los cielos deben responder a la intención de la pieza y a sus normas de construcción.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 2,
+   "frase": "Los degradados deben verse como transiciones naturales, sin cortes ni saltos que afecten el contraste del texto.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 3,
+   "frase": "Su posición, extensión y dirección pueden adaptarse a cada soporte.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 4,
+   "frase": "El color expresivo, el color de datos y el color semántico deben mantenerse separados.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-004",
+   "fuente": "modos/expresivo.html#color",
+   "bloque": 4,
+   "frase": "Un color de marca nunca indica por sí solo éxito, advertencia o error.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-002",
+   "fuente": "modos/expresivo.html#composicion",
+   "bloque": 1,
+   "frase": "Cada composición debería tener un centro de atención reconocible: una fotografía, una frase, una cifra o una relación espacial.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-002",
+   "fuente": "modos/expresivo.html#composicion",
+   "bloque": 3,
+   "frase": "La asimetría puede generar movimiento o tensión, siempre con un equilibrio perceptible.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-002",
+   "fuente": "modos/expresivo.html#composicion",
+   "bloque": 4,
+   "frase": "Cada pieza debe tener decisiones visuales propias de su contenido.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-006",
+   "fuente": "modos/expresivo.html#limites",
+   "bloque": 0,
+   "frase": "Toda pieza expresiva debe conservar contraste, accesibilidad, comprensión y reconocimiento de marca.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-006",
+   "fuente": "modos/expresivo.html#limites",
+   "bloque": 1,
+   "frase": "La intensidad visual nunca justifica ocultar información o dificultar una acción.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-006",
+   "fuente": "modos/expresivo.html#limites",
+   "bloque": 3,
+   "frase": "Las decisiones gráficas deben ser propias de Keyons.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-006",
+   "fuente": "modos/expresivo.html#limites",
+   "bloque": 4,
+   "frase": "Una campaña puede ser muy experimental; un formulario de uso frecuente pide estabilidad y previsibilidad.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-006",
+   "fuente": "modos/expresivo.html#limites",
+   "bloque": 5,
+   "frase": "Keyons no necesita verse siempre igual para ser reconocible.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 0,
+   "frase": "La expresión de Keyons puede ser intensa, sensible y memorable sin perder claridad: su fuerza nace de la relación entre forma, contenido y emoción.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 2,
+   "frase": "La experimentación debe conservar una relación visible con la tipografía, el color, la geometría y la composición de Keyons.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 4,
+   "frase": "Cada composición debe elegir un protagonista y los elementos que lo acompañan.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 7,
+   "frase": "Cada recurso expresivo debe transmitir una idea, una atmósfera o una experiencia ligada al contenido.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 9,
+   "frase": "La información esencial debe seguir siendo fácil de encontrar, con contraste y jerarquía suficientes.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 12,
+   "frase": "Son recursos que pueden convivir dentro de una misma pieza.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-001",
+   "fuente": "modos/expresivo.html#principios",
+   "bloque": 12,
+   "frase": "Una fotografía intensa puede ocupar una composición muy sencilla; una página casi monocromática puede lograr gran expresividad con escala, ritmo y espacio.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 0,
+   "frase": "Cada recurso entra cuando ayuda a comunicar, y la decisión siempre es humana.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 2,
+   "frase": "La fotografía puede asumir el protagonismo de una composición.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 3,
+   "frase": "Su selección debe responder a una intención narrativa, con calidad, autenticidad y pertinencia.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 5,
+   "frase": "Su dirección artística debe partir de criterio humano, originalidad y respeto de derechos.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 6,
+   "frase": "Una imagen sintética no debe presentarse como fotografía documental de un hecho real.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 8,
+   "frase": "Las texturas deben ceder ante textos, cifras y elementos esenciales: si compiten, se reducen o se retiran.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-005",
+   "fuente": "modos/expresivo.html#recursos",
+   "bloque": 10,
+   "frase": "El contenido debe comprenderse sin la animación, y el movimiento, respetar las preferencias de accesibilidad.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-003",
+   "fuente": "modos/expresivo.html#tipografia",
+   "bloque": 1,
+   "frase": "Los tratamientos expresivos deberían concentrarse en títulos, aperturas y mensajes breves.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-003",
+   "fuente": "modos/expresivo.html#tipografia",
+   "bloque": 2,
+   "frase": "Los textos de lectura continua deben mantener legibilidad, contraste y espaciado adecuados.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-MRK-EXP-003",
+   "fuente": "modos/expresivo.html#tipografia",
+   "bloque": 3,
+   "frase": "Tipografía y diagramación pueden bastar para que una pieza se reconozca como Keyons, sin otros recursos.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   }
  ]
 }
