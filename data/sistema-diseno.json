@@ -171,30 +171,54 @@
      "n": "02.02",
      "t": "Estructura de navegación",
      "slug": "estructura-de-navegacion",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "02.02.01",
-       "t": "Estructura base de aplicación",
-       "estado": "pendiente",
-       "st": "Estructura base"
+       "t": "Ubicación actual",
+       "estado": "borrador",
+       "st": "Ubicación actual",
+       "norma": "KYN-SDI-ARQ-005"
       },
       {
        "n": "02.02.02",
-       "t": "Menús laterales, cabeceras y navegación contextual",
-       "estado": "pendiente",
-       "st": "Menús laterales"
+       "t": "Acciones previsibles",
+       "estado": "borrador",
+       "st": "Acciones previsibles",
+       "norma": "KYN-SDI-ARQ-006"
       },
       {
        "n": "02.02.03",
-       "t": "Rutas, niveles y navegación adaptable",
-       "estado": "pendiente",
-       "st": "Rutas y niveles"
+       "t": "Navegación visible",
+       "estado": "borrador",
+       "st": "Navegación visible",
+       "norma": "KYN-SDI-ARQ-007"
+      },
+      {
+       "n": "02.02.04",
+       "t": "Identificación de controles",
+       "estado": "borrador",
+       "st": "Identificación de controles",
+       "norma": "KYN-SDI-ARQ-008"
+      },
+      {
+       "n": "02.02.05",
+       "t": "Adaptación por dispositivo",
+       "estado": "borrador",
+       "st": "Adaptación por dispositivo",
+       "norma": "KYN-SDI-ARQ-009"
+      },
+      {
+       "n": "02.02.06",
+       "t": "Regreso sin pérdida",
+       "estado": "borrador",
+       "st": "Regreso sin pérdida",
+       "norma": "KYN-SDI-ARQ-010"
       }
      ],
      "st": "Navegación",
      "num": "05",
-     "dc": "Estructura base de aplicación, menús, cabeceras, rutas y niveles."
+     "dc": "Cómo se reconoce la ubicación, se recorren los destinos y se retoma el trabajo, en cualquier forma de navegación."
     },
     {
      "n": "02.03",

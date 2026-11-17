@@ -125,9 +125,20 @@ def biblioteca():
             err.append(f'ID DOBLE {x}: aparece más de una vez en {nombre}')
     for x in sorted(set(ids_mrk) & set(ids_sd)):
         err.append(f'ID DOBLE {x}: está en el registro de Marca y en el del Sistema de Diseño')
+    # Normas propias del Sistema de Diseño (data/sd-normas.json): borrador = emitida con página; reservado = sin publicar
+    SDN = json.load(io.open(os.path.join(ROOT, 'data', 'sd-normas.json'), encoding='utf-8'))['normas']
+    sdi_emitidas = {n['id'] for n in SDN if n['estado'] in ('borrador', 'vigente')}
+    sdi_reservadas = {n['id'] for n in SDN if n['estado'] == 'reservado'}
+    for x in sorted({n['id'] for n in SDN if [m['id'] for m in SDN].count(n['id']) > 1}):
+        err.append(f'ID DOBLE {x}: aparece más de una vez en data/sd-normas.json')
     for x in sorted(set(ids_sd)):
-        if not os.path.exists(os.path.join(ROOT, 'ia', 'normas', x + '.md')):
+        if x.startswith('KYN-SDI-'):
+            if x not in sdi_emitidas:
+                err.append(f'SDI     {x}: está en data/sistema-diseno.json y no figura emitida en data/sd-normas.json')
+        elif not os.path.exists(os.path.join(ROOT, 'ia', 'normas', x + '.md')):
             err.append(f'SIN NORMA {x}: el Sistema de Diseño la cita y no está en ia/normas')
+    for x in sorted(sdi_emitidas - set(ids_sd)):
+        err.append(f'SDI     {x}: emitida en data/sd-normas.json y sin subcapítulo en data/sistema-diseno.json')
     # Anclas de los dos índices
     def ids_de(p):
         t = lee(p)
@@ -147,7 +158,10 @@ def biblioteca():
         for x in sorted(set(re.findall(r'KYN-MRK-[A-Z]{3}-\d{3}', t)) - set(ids_mrk)):
             err.append(f'REFERENCIA {rel}: cita {x}, que no está en data/normas.json')
         for x in sorted(set(re.findall(r'KYN-SDI-[A-Z]{3}-\d{3}', t))):
-            err.append(f'SDI     {rel}: {x} aparece emitido; KYN-SDI está reservado y sin emitir')
+            if x in sdi_reservadas:
+                err.append(f'SDI     {rel}: {x} está reservado y aparece publicado')
+            elif x not in sdi_emitidas:
+                err.append(f'SDI     {rel}: {x} no está en el registro data/sd-normas.json')
     for p in sorted(glob.glob(os.path.join(ROOT, '**', '*.html'), recursive=True)):
         if any(x in p for x in ('_tmp', 'propuestas', 'Libro de marcar', '_lab', 'documental')):
             continue

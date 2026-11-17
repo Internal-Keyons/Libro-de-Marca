@@ -2851,6 +2851,87 @@
    "frase": "Qué demuestraPuede usar humor sin perder precisión ni prometer más de lo que puede hacer.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-ARQ-005",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-01",
+   "bloque": 1,
+   "frase": "La navegación debe permitir reconocer en qué sección se encuentra la persona y cómo acceder a las demás áreas autorizadas.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-005",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-01",
+   "bloque": 2,
+   "frase": "La sección activa debe distinguirse visualmente y mantener una relación comprensible con sus secciones superiores cuando existan.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-006",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-02",
+   "bloque": 1,
+   "frase": "Los elementos navegables deben mantener nombres, destinos y comportamientos consistentes en todo el producto.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-006",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-02",
+   "bloque": 2,
+   "frase": "Las funciones principales deberían conservar una ubicación y denominación consistentes entre las pantallas equivalentes.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-007",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-03",
+   "bloque": 1,
+   "frase": "Las funciones necesarias no deben depender exclusivamente de interacciones ocultas o de pasar el cursor sobre una zona sin señal.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-008",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-04",
+   "bloque": 1,
+   "frase": "Los controles de navegación deben comunicar su función y estado mediante señales comprensibles y accesibles.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-009",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-05",
+   "bloque": 1,
+   "frase": "La navegación puede modificar su presentación según el espacio disponible, conservando acceso a las funciones esenciales.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-009",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-05",
+   "bloque": 2,
+   "frase": "La navegación debe conservar acceso a sus destinos esenciales cuando cambia de escritorio a móvil.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-010",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-06",
+   "bloque": 1,
+   "frase": "Cuando se vuelve desde un detalle a un listado, el sistema debería conservar filtros, búsqueda y posición cuando sean relevantes para continuar la tarea.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   }
  ]
 }

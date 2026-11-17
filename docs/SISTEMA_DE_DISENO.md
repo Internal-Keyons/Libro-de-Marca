@@ -52,7 +52,7 @@ Documentación de desarrollo. No se publica con el sitio.
 
 ## Pendientes de decisión
 
-1. **Prefijo de normas:** `KYN-SDI` y los códigos de módulo (PEX, ARQ, FUI, CPE, PAT, ACC, CNT, DAV, IAE, SPR, MOV, GOB) son provisionales.
+1. **Prefijo de normas:** `KYN-SDI` con PEX y ARQ en uso desde el 2026-11-17 (registro `data/sd-normas.json`, generador `tools/sd_capitulos.py`). Los demás códigos de módulo (FUI, CPE, PAT, ACC, CNT, DAV, IAE, SPR, MOV, GOB) siguen provisionales.
 2. **Identidades de los cuatro contextos:** los valores del ejemplo interactivo son de muestra.
 3. **Registro y exportación propios:** aún no existen para este libro.
 4. **Interfaces del Libro de Marca:**

@@ -24,9 +24,17 @@ Comprobaciones hechas antes de decidir:
 | Libro | Prefijo | Normas emitidas |
 |---|---|---|
 | Marca y Experiencia | `KYN-MRK` | 126 (`data/normas.json`) |
-| Sistema de Diseño | `KYN-SDI` | 0 · reservado |
+| Sistema de Diseño | `KYN-SDI` | 6 emitidas en borrador (ARQ-005 a 010, capítulo 05) y 25 reservadas, en `data/sd-normas.json` |
 | Sistema de Diseño (heredadas) | `KYN-PRD-UIX` | 52 |
 
 ## Verificación
 
 `python tools/verificar.py` revisa en cada corrida: IDs duplicados en los dos registros y entre ellos, normas `KYN-PRD-UIX` citadas sin su archivo en `ia/normas`, `KYN-SDI` emitidos sin registro, referencias `KYN-MRK` del Sistema de Diseño a normas inexistentes, anclas de los dos índices, bloques «Normas relacionadas» y la estructura de cada norma redactada.
+
+## Actualización del 2026-11-17
+
+- Registro propio: `data/sd-normas.json` (fuente única de los códigos `KYN-SDI-<módulo>-###`). Lo generan y leen `tools/sd_capitulos.py`, `tools/niveles.py` y `tools/verificar.py`.
+- Códigos de módulo en uso: PEX (Experiencia, capítulos 01–03) y ARQ (Arquitectura, capítulos 04–06). Decisión de Keylin: un código por norma.
+- Emitidas en borrador, con página: KYN-SDI-ARQ-005 a 010 (capítulo 05 Navegación).
+- Reservadas, sin página ni buscador: PEX-001 a 015 y ARQ-001 a 004 y 011 a 016. `verificar.py` da error si una reservada aparece publicada.
+- Las UIX conservan su ID; su destino en los 45 capítulos está en `propuestas/auditoria-uix-2026-11-17.md`; la matriz, en `propuestas/matriz-normativa-sd-01-06.md`.

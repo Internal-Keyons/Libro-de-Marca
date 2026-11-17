@@ -1,0 +1,419 @@
+{
+ "nota": "Registro de normas propias del Sistema de Diseño (KYN-SDI-<módulo>-###). Fuente única de los códigos. borrador = emitido, con página; reservado = número apartado en la matriz normativa, sin página ni buscador (Keylin, 2026-11-17). Lo leen tools/sd_capitulos.py, tools/niveles.py y tools/verificar.py.",
+ "version": "2026-11-17",
+ "normas": [
+  {
+   "id": "KYN-SDI-PEX-001",
+   "capitulo": "01",
+   "nombre": "La tarea primero",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "La tarea primero (base)",
+    "Una acción reconocible (ampliación)",
+    "Sin competencia visual innecesaria (ampliación)",
+    "UIX-001",
+    "UIX-028"
+   ],
+   "responsabilidad": "Cada pantalla deja reconocer su propósito y su acción principal sin que los recursos gráficos compitan.",
+   "cita": "11 Recursos visuales (Expresión proporcionada) cita esta norma"
+  },
+  {
+   "id": "KYN-SDI-PEX-002",
+   "capitulo": "01",
+   "nombre": "Claridad antes que novedad",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Claridad antes que novedad (base)",
+    "UIX-005"
+   ],
+   "responsabilidad": "Las funciones y los patrones comprensibles se conservan por encima de la originalidad.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-PEX-003",
+   "capitulo": "01",
+   "nombre": "Complejidad justificada",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Complejidad justificada (base)",
+    "UIX-001"
+   ],
+   "responsabilidad": "La cantidad de información y controles corresponde a la tarea, al perfil y a la frecuencia.",
+   "cita": "04 Información progresiva (ARQ-004) desarrolla el detalle bajo demanda"
+  },
+  {
+   "id": "KYN-SDI-PEX-004",
+   "capitulo": "01",
+   "nombre": "Estado comprensible",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Estado comprensible (base)",
+    "UIX-012",
+    "UIX-013"
+   ],
+   "responsabilidad": "Después de una acción, el sistema comunica si procesa, terminó o necesita intervención.",
+   "cita": "15 Retroalimentación (Resultado visible) desarrolla los componentes y cita esta norma"
+  },
+  {
+   "id": "KYN-SDI-PEX-005",
+   "capitulo": "01",
+   "nombre": "Comportamiento previsible",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Comportamiento previsible (ampliación)",
+    "UIX-013"
+   ],
+   "responsabilidad": "Una misma función se comporta igual en todas las pantallas y productos.",
+   "cita": "05 Acciones previsibles (ARQ-006) aplica el principio a la navegación"
+  },
+  {
+   "id": "KYN-SDI-PEX-006",
+   "capitulo": "01",
+   "nombre": "Contexto antes de actuar",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Contexto antes de actuar (ampliación)",
+    "UIX-006"
+   ],
+   "responsabilidad": "Antes de una acción de consecuencias, la persona ve qué va a cambiar.",
+   "cita": "19 Procesos críticos (Consecuencias claras) se integra en esta norma o la cita"
+  },
+  {
+   "id": "KYN-SDI-PEX-007",
+   "capitulo": "02",
+   "nombre": "Diseñar para quienes utilizan el producto",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Diseñar para quienes utilizan el producto (base)",
+    "UIX-007",
+    "UIX-009"
+   ],
+   "responsabilidad": "Las decisiones de experiencia parten de tareas y necesidades reales de quienes operan el producto.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-PEX-008",
+   "capitulo": "02",
+   "nombre": "Roles y permisos",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Roles y necesidades diferenciadas (base)",
+    "Acceso por responsabilidades (ampliación)",
+    "UIX-008"
+   ],
+   "responsabilidad": "Los permisos efectivos determinan acciones y datos; la interfaz no reemplaza la validación.",
+   "cita": "06 Resultados autorizados (ARQ-016) aplica el límite a la búsqueda"
+  },
+  {
+   "id": "KYN-SDI-PEX-009",
+   "capitulo": "02",
+   "nombre": "Uso ocasional y frecuente",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Uso ocasional y frecuente (base)",
+    "Frecuencia de uso (ampliación)",
+    "Contextos distintos (ampliación)",
+    "UIX-008",
+    "UIX-029"
+   ],
+   "responsabilidad": "Densidad, ayudas y esfuerzo se ajustan a la frecuencia y al contexto, con los mismos patrones.",
+   "cita": "10 Espacio y retícula define los modos de densidad"
+  },
+  {
+   "id": "KYN-SDI-PEX-010",
+   "capitulo": "03",
+   "nombre": "Decisiones justificadas",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Decisiones justificadas (base)",
+    "Problema antes de solución (ampliación)",
+    "UIX-003"
+   ],
+   "responsabilidad": "Cada decisión significativa se vincula con un problema, una necesidad o una hipótesis.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-PEX-011",
+   "capitulo": "03",
+   "nombre": "Prisma como metodología",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Prisma como metodología (base)",
+    "UIX-002"
+   ],
+   "responsabilidad": "Los proyectos siguen las cinco fases de Prisma.",
+   "cita": "43 Implementación conserva la operación del método"
+  },
+  {
+   "id": "KYN-SDI-PEX-012",
+   "capitulo": "03",
+   "nombre": "Diseño por capas",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Diseño por capas (base)",
+    "Estructura antes de expresión (ampliación)"
+   ],
+   "responsabilidad": "Estructura, interacción y expresión se trabajan por capas, de forma iterativa, sobre todo en Anochecer y de nuevo en Galaxia.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-PEX-013",
+   "capitulo": "03",
+   "nombre": "Diseño basado en resultados",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Diseño basado en resultados (base)"
+   ],
+   "responsabilidad": "Una propuesta se aprueba por sus resultados de comprensión, navegación e interacción, no solo por su apariencia.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-PEX-014",
+   "capitulo": "03",
+   "nombre": "Evidencia diferenciada",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Evidencia diferenciada (ampliación)",
+    "Hipótesis y evidencia (base, capítulo 02)"
+   ],
+   "responsabilidad": "Observaciones, hipótesis, resultados y decisiones se distinguen en la documentación.",
+   "cita": "44 Validación (Evidencia registrada) cita esta norma"
+  },
+  {
+   "id": "KYN-SDI-PEX-015",
+   "capitulo": "03",
+   "nombre": "Evaluación posterior",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Evaluación posterior (ampliación)",
+    "UIX-048"
+   ],
+   "responsabilidad": "Los cambios se comprueban en las tareas afectadas antes de extenderse.",
+   "cita": "44 Validación define el protocolo de prueba"
+  },
+  {
+   "id": "KYN-SDI-ARQ-001",
+   "capitulo": "04",
+   "nombre": "Organización comprensible",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Organización comprensible (base)",
+    "Agrupación con sentido (ampliación)"
+   ],
+   "responsabilidad": "El contenido se agrupa por tareas y conceptos de las personas, no por la estructura interna.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-ARQ-002",
+   "capitulo": "04",
+   "nombre": "Nombres comprensibles",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Nombres comprensibles (ampliación)",
+    "UIX-041"
+   ],
+   "responsabilidad": "Categorías, secciones y destinos usan nombres que las personas reconocen.",
+   "cita": "23 Escritura (Consistencia) desarrolla la redacción"
+  },
+  {
+   "id": "KYN-SDI-ARQ-003",
+   "capitulo": "04",
+   "nombre": "Jerarquía identificable",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Jerarquía identificable (base)"
+   ],
+   "responsabilidad": "Las páginas distinguen información principal, secundaria y complementaria.",
+   "cita": "09 Tipografía define la jerarquía visual"
+  },
+  {
+   "id": "KYN-SDI-ARQ-004",
+   "capitulo": "04",
+   "nombre": "Información progresiva",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Información progresiva (base)",
+    "Detalle progresivo (ampliación)",
+    "Información esencial visible (ampliación)",
+    "UIX-028"
+   ],
+   "responsabilidad": "Lo esencial está visible en su momento; el detalle se ofrece bajo demanda sin ocultar requisitos.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-ARQ-005",
+   "capitulo": "05",
+   "nombre": "Ubicación actual",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-01",
+   "origen": [
+    "Ubicación actual (base)",
+    "Ubicación actual (ampliación)",
+    "Verificación base del capítulo 05"
+   ],
+   "responsabilidad": "La persona reconoce la sección activa, su grupo superior y cómo llegar a las demás áreas.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-ARQ-006",
+   "capitulo": "05",
+   "nombre": "Acciones previsibles",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-02",
+   "origen": [
+    "Acciones previsibles (base)",
+    "Acceso consistente (ampliación)"
+   ],
+   "responsabilidad": "Cada destino conserva su nombre, su lugar y su comportamiento en todo el producto.",
+   "cita": "Aplica PEX-005 a la navegación; los nombres siguen ARQ-002"
+  },
+  {
+   "id": "KYN-SDI-ARQ-007",
+   "capitulo": "05",
+   "nombre": "Navegación visible",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-03",
+   "origen": [
+    "Navegación visible (base)"
+   ],
+   "responsabilidad": "Toda función necesaria tiene una señal visible para puntero, teclado y tacto.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-ARQ-008",
+   "capitulo": "05",
+   "nombre": "Identificación de controles",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-04",
+   "origen": [
+    "Identificación de controles (ampliación)",
+    "UIX-038"
+   ],
+   "responsabilidad": "Los controles de navegación comunican función y estado con semántica y señales accesibles.",
+   "cita": "21 Operación (Teclado, Foco identificable) define el foco del producto"
+  },
+  {
+   "id": "KYN-SDI-ARQ-009",
+   "capitulo": "05",
+   "nombre": "Adaptación por dispositivo",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-05",
+   "origen": [
+    "Adaptación por dispositivo (base)",
+    "Menús adaptables (ampliación)",
+    "UIX-039"
+   ],
+   "responsabilidad": "La presentación cambia con el espacio; los destinos esenciales y sus nombres se mantienen.",
+   "cita": "22 Adaptación define tamaños de objetivo; 37 Product Default, el patrón SaaS"
+  },
+  {
+   "id": "KYN-SDI-ARQ-010",
+   "capitulo": "05",
+   "nombre": "Regreso sin pérdida",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-06",
+   "origen": [
+    "Regreso sin pérdida (ampliación)",
+    "Recuperación (base, capítulo 06)",
+    "Recuperación del contexto (ampliación, capítulo 06)",
+    "UIX-025"
+   ],
+   "responsabilidad": "Al volver de un detalle, la lista conserva búsqueda, filtros, orden y posición.",
+   "cita": "06 Búsqueda cita esta norma para la consulta conservada"
+  },
+  {
+   "id": "KYN-SDI-ARQ-011",
+   "capitulo": "06",
+   "nombre": "Alcance identificable",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Alcance identificable (ampliación)"
+   ],
+   "responsabilidad": "Se entiende si la búsqueda es global o está limitada a una sección o conjunto.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-ARQ-012",
+   "capitulo": "06",
+   "nombre": "Resultados pertinentes",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Resultados pertinentes (base)"
+   ],
+   "responsabilidad": "La búsqueda usa los campos relevantes para la tarea.",
+   "cita": "El límite de permisos está en ARQ-016"
+  },
+  {
+   "id": "KYN-SDI-ARQ-013",
+   "capitulo": "06",
+   "nombre": "Resultados comprensibles",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Resultados comprensibles (base)"
+   ],
+   "responsabilidad": "Cada resultado se distingue de otros similares.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-ARQ-014",
+   "capitulo": "06",
+   "nombre": "Filtros visibles",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Filtros visibles (ampliación)"
+   ],
+   "responsabilidad": "Los filtros activos se ven y se modifican sin perder la consulta.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-ARQ-015",
+   "capitulo": "06",
+   "nombre": "Sin resultados",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Sin resultados (base)",
+    "Ausencia de resultados (ampliación)",
+    "UIX-026",
+    "UIX-023"
+   ],
+   "responsabilidad": "Sin coincidencias, la interfaz lo explica y ofrece una acción; un error se distingue de una búsqueda vacía.",
+   "cita": "24 Mensajes define la redacción del error"
+  },
+  {
+   "id": "KYN-SDI-ARQ-016",
+   "capitulo": "06",
+   "nombre": "Resultados autorizados",
+   "estado": "reservado",
+   "ruta": null,
+   "origen": [
+    "Resultados autorizados (ampliación)"
+   ],
+   "responsabilidad": "La búsqueda no revela, por ninguna vía, información sin permiso.",
+   "cita": "Aplica PEX-008 a la búsqueda"
+  }
+ ]
+}

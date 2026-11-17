@@ -42,9 +42,22 @@ def secciones(src):
     return out
 
 
+def sd_registro():
+    """Normas emitidas del Sistema de Diseño (data/sd-normas.json): sus secciones viven en data/sd-capitulos/<capítulo>.html,
+    que tools/sistema_diseno.py pega en la página. Los niveles se aplican sobre ese archivo. Las reservadas no tienen sección."""
+    p = os.path.join(ROOT, 'data', 'sd-normas.json')
+    out = {}
+    if os.path.exists(p):
+        for v in json.load(io.open(p, encoding='utf-8'))['normas']:
+            if v['estado'] in ('vigente', 'borrador') and v.get('ruta'):
+                pg, an = v['ruta'].split('#')
+                out['data/sd-capitulos/' + pg.rsplit('/', 1)[1] + '#' + an] = v
+    return out
+
+
 def candidatos():
     paginas = {}
-    for h, v in REG.items():
+    for h, v in list(REG.items()) + list(sd_registro().items()):
         if v['estado'] not in ('vigente', 'borrador'):
             continue
         pg, an = h.split('#')

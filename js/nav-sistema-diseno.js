@@ -47,10 +47,13 @@ window.KEYONS_NAV = [
           { t: 'Mapas de contenido', st: 'Mapas de contenido', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-01' },
           { t: 'Taxonomías', st: 'Taxonomías', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-02' },
           { t: 'Jerarquías', st: 'Jerarquías', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-03' } ] },
-      { n: '05', k: '02-02', t: 'Navegación', full: 'Estructura de navegación', d: 'Estructura base de aplicación, menús, cabeceras, rutas y niveles.', s: 'p', items: [
-          { t: 'Estructura base', st: 'Estructura base', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-01' },
-          { t: 'Menús laterales', st: 'Menús laterales', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-02' },
-          { t: 'Rutas y niveles', st: 'Rutas y niveles', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-03' } ] },
+      { n: '05', k: '02-02', t: 'Navegación', full: 'Estructura de navegación', d: 'Cómo se reconoce la ubicación, se recorren los destinos y se retoma el trabajo, en cualquier forma de navegación.', s: 'b', items: [
+          { t: 'Ubicación actual', st: 'Ubicación actual', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-01' },
+          { t: 'Acciones previsibles', st: 'Acciones previsibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-02' },
+          { t: 'Navegación visible', st: 'Navegación visible', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-03' },
+          { t: 'Identificación de controles', st: 'Identificación de controles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-04' },
+          { t: 'Adaptación por dispositivo', st: 'Adaptación por dispositivo', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-05' },
+          { t: 'Regreso sin pérdida', st: 'Regreso sin pérdida', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-06' } ] },
       { n: '06', k: '02-03', t: 'Búsqueda', full: 'Búsqueda y orientación', d: 'Búsqueda, filtros y orientación sobre dónde se está y cómo continuar.', s: 'p', items: [
           { t: 'Búsqueda global', st: 'Búsqueda global', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-01' },
           { t: 'Filtros', st: 'Filtros', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-02' },
