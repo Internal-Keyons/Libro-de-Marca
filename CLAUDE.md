@@ -13,6 +13,12 @@ Cuando dos fuentes no coinciden, manda la primera de esta lista:
 
 Si encontrás una contradicción, no la resuelvas por tu cuenta: avisale a Keylin y proponé cómo cerrarla.
 
+## Dónde va cada contenido
+
+- Antes de ubicar contenido nuevo, leé la regla «Arquitectura editorial y distribución del contenido»: Guía de la Biblioteca, sección 05 (`guia/index.html#arquitectura`). Su fuente es `data/gobierno.json` → `arquitectura` y la genera `tools/gobierno.py`. No la copies acá.
+- Las páginas de área llevan solo una introducción breve y los accesos a sus capítulos; `tools/verificar.py` lo comprueba.
+- Cada sección abre con título, una sola entrada y la composición principal (`reglas-visuales.md` R22). Las retículas conservan sus separadores completos (R23).
+
 ## Alcance
 
 - Los capítulos del Sistema de Diseño y el Laboratorio **no son referencia visual** hasta que Keylin diga que ya los editó. No copies estilos de ahí.

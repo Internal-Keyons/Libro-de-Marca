@@ -274,6 +274,32 @@ def auditoria():
     return err, av
 
 
+AREA_MAX = 80   # palabras de la introducción de una página de área (Guía de la Biblioteca 05 · Arquitectura editorial)
+
+
+def areas():
+    """Páginas de área (Guía 05 · Arquitectura editorial): solo una introducción breve y los accesos a sus capítulos.
+    Comprueba lo que se puede medir; las duplicaciones de sentido y la pertinencia quedan para la revisión editorial humana."""
+    errores, avisos = [], []
+    for a in nav():
+        ruta = os.path.join(ROOT, a['href'])
+        if not os.path.exists(ruta):
+            errores.append(f'ÁREA    {a["href"]}: la página del área no existe'); continue
+        src = io.open(ruta, encoding='utf-8').read()
+        m = re.search(r'<main\b.*?</main>', src, re.S)
+        cuerpo = re.sub(r'<script\b.*?</script>|<nav\b.*?</nav>', '', m.group(0) if m else '', flags=re.S)
+        texto = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', cuerpo)).strip()
+        palabras = len(texto.split())
+        if palabras > AREA_MAX:
+            avisos.append(f'ÁREA    {a["href"]}: introducción de {palabras} palabras (máximo {AREA_MAX}); el desarrollo va en sus capítulos')
+        if re.search(r'nvl--fin|class="(?:pgrid|ed__stack|tri3|espectro|matrix|canon|prosa|casos)\b', cuerpo) or re.search(r'\b(?:NO DEBEN?|DEBEN?|DEBERÍAN?|PUEDEN?)\b', texto):
+            errores.append(f'ÁREA    {a["href"]}: contenido normativo o de desarrollo en la página del área; corresponde a un capítulo o a una norma')
+        for c in a['ch']:
+            if c.get('s') in ('b', 'v') and not any(it.get('href') for it in c.get('items', [])):
+                avisos.append(f'ÁREA    {a["href"]}: el capítulo {c["n"]} {c["t"]} tiene contenido y ningún acceso desde el área')
+    return errores, avisos
+
+
 def main():
     ref = cargar()
     cur, reg = actual()
@@ -295,6 +321,9 @@ def main():
     errores, avisos = biblioteca(), []
     e2, auditados = auditoria()
     errores += e2
+    e3, a3 = areas()
+    errores += e3
+    avisos += a3
     for h, n in reg.items():
         if n['estado'] not in ('descontinuada', 'integrada') and h not in cur:
             errores.append(f'FALTA   {n["id"]} ({h}): la norma no tiene sección en el libro')
@@ -318,6 +347,7 @@ def main():
     for x in auditados:
         print('AVISO  ', x)
     print(f'{len(cur)} secciones · {len(errores)} errores · {len(avisos)} cambios por aprobar')
+    print('Revisión humana: las duplicaciones de sentido entre área, capítulo y norma, y la pertinencia de cada contenido (Guía 05).')
     sys.exit(1 if errores else 0)
 
 

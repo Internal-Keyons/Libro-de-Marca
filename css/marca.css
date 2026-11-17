@@ -84,17 +84,15 @@ body .portal.portal--salmon.portal--atardecer:not(.portal--plano){background:lin
 .dchip{border-radius:50%}
 
 
-/* Expresión de marca (introducción del área): espectro continuo de intensidad, de lo formal a lo expresivo */
-.espectro{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));row-gap:var(--s4);margin-top:var(--s10)}
-.espectro__barra{grid-column:1/-1;height:var(--s3);background:linear-gradient(90deg,var(--k-noche) 0%,var(--k-cielo) 50%,var(--k-salmon) 100%)}
-.espectro__k{font-size:var(--fs-14);color:var(--color-text-2)}
-.espectro__k:nth-child(3){text-align:center}
-.espectro__k:nth-child(4){text-align:right}
+/* COR-004 · Intensidad (16.4): espectro continuo, de lo formal a lo expresivo */
+.espectro{display:flex;flex-wrap:wrap;justify-content:space-between;gap:var(--s4) var(--s6);margin-top:var(--s10)}
+.espectro__barra{flex:0 0 100%;height:var(--s3);background:linear-gradient(90deg,var(--k-noche) 0%,var(--k-cielo) 50%,var(--k-salmon) 100%)}
+.espectro__k{font-size:var(--fs-14);color:var(--color-text-2);white-space:nowrap}   /* cada referencia en su lugar, separada de la siguiente */
 
-/* COR-003 · Editorial (16.3): los cinco colores oficiales en fila, cada uno con su función */
-.paleta5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--s4);margin:var(--s10) 0 0;padding:0;list-style:none}
-.paleta5 li{display:grid;row-gap:var(--s1)}
-.paleta5 i{display:block;aspect-ratio:1;margin-bottom:var(--s3);border:1px solid var(--color-border)}
+/* COR-003 · Editorial (16.3): los cinco colores oficiales en fila, con muestras de 40 px como COL-007 y su función debajo */
+.paleta5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--s4);margin:var(--s8) 0 0;padding:0;list-style:none}
+.paleta5 li{display:grid;justify-items:start;align-content:start;row-gap:var(--s1)}
+.paleta5 i{display:block;width:var(--s10);height:var(--s10);margin-bottom:var(--s2);border-radius:50%;box-shadow:inset 0 0 0 1px var(--color-border)}   /* como las muestras de COL-007; R24 alterna la forma */
 .paleta5 b{font-size:var(--fs-14);font-weight:500;color:var(--color-text)}
 .paleta5 span{font-size:var(--fs-12);color:var(--color-text-3)}
 @media(max-width:900px){.paleta5{grid-template-columns:repeat(2,minmax(0,1fr))}}

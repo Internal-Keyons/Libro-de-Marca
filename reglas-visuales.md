@@ -119,7 +119,8 @@ Los niveles se separan por saltos grandes de contraste para que los textos no se
 - Frecuencia: Mediodía, 40 a 50 % de las piezas expresivas; Galaxia, 5 a 10 %.
 - Los degradados de cada área del libro NO son cielos: se llaman `--area-*` (C07).
 - **Subencabezados de atardecer (2026-11-13):** según el color del módulo.
-  - Un módulo Salmón Tierra (Expresión) DEBE mostrar el atardecer de Prisma, la imagen `prisma-atardecer.webp`.
+  - Todo subencabezado con cielo DEBE mostrar sus nubes en movimiento, como el de ADN.
+  - Un módulo Salmón Tierra (Expresión) DEBE mostrar el atardecer de Prisma animado, con los colores medidos en `prisma-atardecer.webp` (`--sky-prisma-1` a `-6`).
   - Un módulo Salmón Atardecer (Aplicaciones) DEBE mostrar el atardecer tenue animado: de la escala Azul Cielo (`--k-cielo-400`, `-300`, `-200`) a Salmón Atardecer (`--k-lavanda-tenue`, `--k-atardecer-300`, `--k-atardecer`).
 
 ### 1.9 Degradados (7.9)
@@ -303,11 +304,16 @@ El radio de una esquina curva sale del **lado corto** del elemento:
   - Se usa cuando el contenido es texto. Si la información tiene partes, pasos o datos, va en el componente que corresponde.
   - Espacio antes del bloque (2026-11-13): DEBE empezar a 24 px (`--s6`) después de la entrada (`.ed__lead`) y a 32 px (`--s8`) después de un componente (filas, tarjetas, viñetas, espectro o muestras de color).
   - Un cierre (`.ed__close`) con más de una frase DEBE separar sus párrafos 16 px (`--s4`).
-- **R22 · Entrada en niveles (2026-11-13):** bajo el titular de una sección, el texto DEBE ir en tres niveles, nunca como varios párrafos iguales seguidos.
-  1. La entrada (`.ed__lead`): una frase de 20 px con la idea central, y en ella la frase destacada en semibold (R18).
-  2. El apoyo (`.ed__apoyo`): una frase breve de 16 px en Azul Noche, a 16 px de la entrada (`--s4`).
-  3. El desarrollo: filas, tarjetas o lectura continua, a 40 px del apoyo (`--s10`). Cada fila lleva una o dos frases cortas.
-  - Los títulos visibles describen el contenido. Los rótulos del proceso de elaboración («Ejemplo aprobado», «Principio de cierre», «Contenido pendiente») NO DEBEN ir en la página, ni el metatexto sobre qué libro o documento regula cada tema.
+- **R22 · Continuidad compositiva (Keylin, 2026-11-13):** las nuevas secciones DEBEN reutilizar los patrones de apertura y jerarquía establecidos en la Biblioteca Keyons. El contenido adicional NO DEBE producir párrafos introductorios sucesivos que retrasen injustificadamente el comienzo de la composición principal. Los desarrollos secundarios DEBERÍAN integrarse en los bloques a los que pertenecen.
+  - El patrón de apertura del libro es: titular (`.ed__title`), una sola entrada de 20 px con su frase destacada (`.ed__lead`, R18) y enseguida la composición principal (filas, tarjetas, carrusel, matriz). Ejemplos aprobados: ADN 1.1 Esencia, El cielo 2.1 y Principios 3.1.
+  - Los contenidos narrativos o documentales PUEDEN llevar varios párrafos cuando los necesitan; lo que se evita es la introducción redundante.
+  - Los títulos visibles describen el contenido. Los rótulos del proceso de elaboración («Ejemplo aprobado», «Principio de cierre», «Contenido pendiente») NO DEBEN ir en la página.
+  - Dónde va cada contenido (área, capítulo o norma) lo decide la regla «Arquitectura editorial» de la Guía de la Biblioteca, sección 05.
+- **R24 · Muestras de color (Keylin, 2026-11-16):** toda serie de muestras de color DEBE alternar círculo y cuadrado, empezando por el círculo, como las viñetas (R02). Aplica a las muestras de los cielos (COL-007), los cinco colores de COR-003, las rampas de datos (DAT), la tabla de contraste de Presentaciones y los puntos de color en el texto (`.dchip`). Las leyendas de gráficos y los controles de interfaz conservan su forma.
+- **R23 · Integridad de la retícula (Keylin, 2026-11-13):** en una retícula visible, los separadores DEBEN mantener continuidad, alineación y coherencia en toda la estructura, sin importar cuántos elementos contenga.
+  - Los separadores DEBEN depender de la estructura de filas y columnas: la ausencia de contenido en una celda NO DEBE interrumpirlos ni acortarlos.
+  - Con un número impar de elementos en dos columnas, la última fila DEBE conservar su posición vacía (`.pgrid__vacia`, la escriben los generadores), con la línea central y los filetes completos y sin contenido de relleno.
+  - En móvil, con una sola columna, la posición vacía desaparece y no quedan líneas verticales.
 
 ---
 

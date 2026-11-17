@@ -317,7 +317,123 @@
    "Cada ruta tiene un propósito identificable, un orden de consulta y enlaces directos a los contenidos correspondientes.",
    "La navegación y los resultados de búsqueda deberán respetar los permisos efectivos del lector. Estado actual: la Biblioteca no tiene control de acceso y todo lo publicado es de consulta abierta.",
    "Las rutas se construyen a partir del contenido disponible y se actualizan conforme evolucionan los libros."
-  ]
+  ],
+  "arquitectura": {
+   "nota": "Regla transversal de la Biblioteca Keyons (Keylin, 2026-11-13). Fuente única: la Guía la publica y las instrucciones de los agentes la citan.",
+   "titulo": "Cada página cumple una función",
+   "entrada": "La Biblioteca Keyons organiza su contenido mediante <strong>tres tipos de página: área, capítulo y norma</strong>. Cada tipo tiene una responsabilidad editorial distinta.",
+   "bloques": [
+    {
+     "sub": null,
+     "filas": [
+      {
+       "k": "Página de área",
+       "p": [
+        [
+         "Presenta el propósito del área y facilita el acceso a sus capítulos. Su contenido visible DEBE limitarse a una introducción breve y a los elementos necesarios para orientar la navegación.",
+         "debe"
+        ],
+        [
+         "Los desarrollos conceptuales, explicaciones extensas, comparativas y criterios normativos DEBEN incorporarse en los capítulos o normas correspondientes, no en la portada del área.",
+         "debe"
+        ]
+       ]
+      },
+      {
+       "k": "Página de capítulo",
+       "p": [
+        [
+         "Cada capítulo DEBE desarrollar su tema mediante una secuencia editorial clara, que organice principios, recursos y ejemplos para comprender y aplicar su contenido.",
+         "debe"
+        ],
+        [
+         "Los textos introductorios DEBERÍAN ser breves y evitar repetir lo que desarrollan las secciones posteriores.",
+         "deberia"
+        ]
+       ]
+      },
+      {
+       "k": "Norma",
+       "p": [
+        [
+         "Cada norma DEBE establecer criterios concretos y aplicables, con los indicadores oficiales según su alcance: Debe, No debe, Debería y Puede.",
+         "debe"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "sub": "Relevancia y ausencia de duplicaciones",
+     "filas": [
+      {
+       "k": "Lugar de cada contenido",
+       "p": [
+        [
+         "Cada contenido DEBE incorporarse en el lugar donde aporta mayor valor a la comprensión y aplicación de la marca.",
+         "debe"
+        ]
+       ]
+      },
+      {
+       "k": "Una sola vez",
+       "p": [
+        [
+         "La misma explicación NO DEBE reproducirse en la portada de un área, la introducción del capítulo y sus normas.",
+         "no-debe"
+        ]
+       ]
+      },
+      {
+       "k": "Sin metatexto",
+       "p": [
+        [
+         "Las explicaciones sobre la arquitectura documental, las instrucciones de implementación o los estados internos de elaboración NO DEBEN incorporarse como contenido editorial cuando no aportan valor al lector.",
+         "no-debe"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "sub": "Continuidad visual",
+     "filas": [
+      {
+       "k": "Patrones existentes",
+       "p": [
+        [
+         "Las páginas nuevas DEBEN usar los patrones editoriales existentes de la Biblioteca Keyons. Los recursos de composición se modifican o se introducen solo con una razón editorial, nunca para acomodar contenido adicional.",
+         "debe"
+        ]
+       ]
+      },
+      {
+       "k": "Ampliaciones",
+       "p": [
+        [
+         "La ampliación del contenido DEBE preservar la claridad, la jerarquía, el ritmo visual y la facilidad de navegación.",
+         "debe"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "sub": "Control editorial",
+     "filas": [
+      {
+       "k": "Antes de integrar",
+       "p": [
+        [
+         "Antes de integrar contenido nuevo, DEBE identificarse su destino: página de área, capítulo o norma. Se comprueba que no esté desarrollado en otra ubicación y que su presentación corresponda a la función de la página.",
+         "debe"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  }
  },
  "normas": {
   "KYN-MRK-ADN-001": {

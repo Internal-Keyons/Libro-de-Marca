@@ -214,6 +214,16 @@ S += sec('gobierno', '04', 'Gobierno y aprobaciones', 'Quién aprueba y cómo se
          + '        <h3 class="ed__sub">Permisos de consulta</h3>\n'
          + f'        <div class="gov__perm"><div class="gov__perm-k"><span class="gov__perm-l">Estado</span><span class="gov__perm-v"><span class="dot dot--borrador"></span>{e(G["permisos"]["estado"])}</span></div><p class="gov__perm-t">{e(G["permisos"]["texto"])}</p></div>\n')
 
+# 05 · Arquitectura editorial (regla transversal): cada párrafo normativo lleva su nivel con el mismo mecanismo de tools/niveles.py
+import importlib.util as _iu
+_sp = _iu.spec_from_file_location('niveles', os.path.join(ROOT, 'tools', 'niveles.py')); _nv = _iu.module_from_spec(_sp); _sp.loader.exec_module(_nv)
+AQ = G['arquitectura']
+def _filas(fs):
+    return '        <div class="ed__stack">' + ''.join(f'<div><span class="paren">({e(f["k"])})</span>' + ''.join(f'<p>{_nv.con_icono(t, n)}</p>' for t, n in f['p']) + '</div>' for f in fs) + '</div>\n'
+S += sec('arquitectura', '05', 'Arquitectura editorial', e(AQ['titulo']),
+         f'        <p class="ed__lead">{AQ["entrada"]}</p>\n'
+         + ''.join((f'        <h3 class="ed__sub">{e(b["sub"])}</h3>\n' if b['sub'] else '') + _filas(b['filas']) for b in AQ['bloques']))
+
 STATE = f'{e(G["estado"])} · versión {e(G["version"])}'
 PAGE = '''<!DOCTYPE html>
 <html lang="es">
