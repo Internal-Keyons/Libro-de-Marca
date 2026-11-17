@@ -219,7 +219,7 @@ import importlib.util as _iu
 _sp = _iu.spec_from_file_location('niveles', os.path.join(ROOT, 'tools', 'niveles.py')); _nv = _iu.module_from_spec(_sp); _sp.loader.exec_module(_nv)
 AQ = G['arquitectura']
 def _filas(fs):
-    return '        <div class="ed__stack">' + ''.join(f'<div><span class="paren">({e(f["k"])})</span>' + ''.join(f'<p>{_nv.con_icono(t, n)}</p>' for t, n in f['p']) + '</div>' for f in fs) + '</div>\n'
+    return '        <div class="ed__stack">' + ''.join(f'<div><span class="paren">({e(f["k"])})</span>' + ''.join(f'<p>{_nv.con_icono(t, n) if n else t}</p>' for t, n in f['p']) + '</div>' for f in fs) + '</div>\n'
 S += sec('arquitectura', '05', 'Arquitectura editorial', e(AQ['titulo']),
          f'        <p class="ed__lead">{AQ["entrada"]}</p>\n'
          + ''.join((f'        <h3 class="ed__sub">{e(b["sub"])}</h3>\n' if b['sub'] else '') + _filas(b['filas']) for b in AQ['bloques']))

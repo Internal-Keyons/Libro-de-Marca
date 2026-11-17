@@ -16,7 +16,9 @@ Si encontrás una contradicción, no la resuelvas por tu cuenta: avisale a Keyli
 ## Dónde va cada contenido
 
 - Antes de ubicar contenido nuevo, leé la regla «Arquitectura editorial y distribución del contenido»: Guía de la Biblioteca, sección 05 (`guia/index.html#arquitectura`). Su fuente es `data/gobierno.json` → `arquitectura` y la genera `tools/gobierno.py`. No la copies acá.
+- Antes de diagramar un capítulo, leé el bloque «Implementación editorial de capítulos» de la misma sección 05 de la Guía. Es la fuente única; acá no se copia.
 - Las páginas de área llevan solo una introducción breve y los accesos a sus capítulos; `tools/verificar.py` lo comprueba.
+- En el Sistema de Diseño, por pedido de Keylin (2026-11-17), Claude redacta las decisiones de interfaz, comportamientos, excepciones y verificaciones de cada norma como propuesta en borrador. Los requisitos salen de sus textos.
 - Cada sección abre con título, una sola entrada y la composición principal (`reglas-visuales.md` R22). Las retículas conservan sus separadores completos (R23).
 
 ## Alcance

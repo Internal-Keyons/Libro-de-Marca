@@ -318,7 +318,7 @@
     "Las rutas se construyen a partir del contenido disponible y se actualizan conforme evolucionan los libros."
   ],
   "arquitectura": {
-    "nota": "Regla transversal de la Biblioteca Keyons (Keylin, 2026-11-13). Fuente única: la Guía la publica y las instrucciones de los agentes la citan.",
+    "nota": "Regla transversal de la Biblioteca Keyons (Keylin, 2026-11-13). Fuente única: la Guía la publica y las instrucciones de los agentes la citan. Bloque «Implementación editorial de capítulos»: texto de Keylin del 2026-11-17, fuente única (reglas-visuales R25 y CLAUDE.md la citan).",
     "titulo": "Cada página cumple una función",
     "entrada": "La Biblioteca Keyons organiza su contenido mediante <strong>tres tipos de página: área, capítulo y norma</strong>. Cada tipo tiene una responsabilidad editorial distinta.",
     "bloques": [
@@ -344,10 +344,6 @@
               [
                 "Cada capítulo DEBE desarrollar su tema mediante una secuencia editorial clara, que organice principios, recursos y ejemplos para comprender y aplicar su contenido.",
                 "debe"
-              ],
-              [
-                "Los textos introductorios DEBERÍAN ser breves y evitar repetir lo que desarrollan las secciones posteriores.",
-                "deberia"
               ]
             ]
           },
@@ -398,20 +394,120 @@
         "sub": "Continuidad visual",
         "filas": [
           {
-            "k": "Patrones existentes",
-            "p": [
-              [
-                "Las páginas nuevas DEBEN usar los patrones editoriales existentes de la Biblioteca Keyons. Los recursos de composición se modifican o se introducen solo con una razón editorial, nunca para acomodar contenido adicional.",
-                "debe"
-              ]
-            ]
-          },
-          {
             "k": "Ampliaciones",
             "p": [
               [
                 "La ampliación del contenido DEBE preservar la claridad, la jerarquía, el ritmo visual y la facilidad de navegación.",
                 "debe"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Implementación editorial de capítulos",
+        "filas": [
+          {
+            "k": "Reutilización del sistema",
+            "p": [
+              [
+                "Los capítulos nuevos DEBEN utilizar los componentes, patrones, tokens y jerarquías existentes en la Biblioteca Keyons.",
+                "debe"
+              ],
+              [
+                "Una composición nueva DEBE responder a una necesidad concreta que los patrones existentes no puedan resolver adecuadamente.",
+                "debe"
+              ]
+            ]
+          },
+          {
+            "k": "Diseño según el contenido",
+            "p": [
+              [
+                "El patrón de presentación DEBE seleccionarse según el tipo de contenido: norma, comparación, proceso, ejemplo, componente o interacción.",
+                "debe"
+              ],
+              [
+                "Los capítulos NO DEBEN utilizar retículas, tarjetas, iconos o divisores únicamente para producir variedad visual.",
+                "no-debe"
+              ]
+            ]
+          },
+          {
+            "k": "Aperturas",
+            "p": [
+              [
+                "Las aperturas DEBERÍAN utilizar un título, una entrada editorial breve y una transición directa al contenido principal.",
+                "deberia"
+              ],
+              [
+                "Los párrafos introductorios adicionales DEBEN aportar información distinta y necesaria.",
+                "debe"
+              ]
+            ]
+          },
+          {
+            "k": "Normas",
+            "p": [
+              [
+                "Las declaraciones normativas DEBEN utilizar los indicadores oficiales DEBE, NO DEBE, DEBERÍA y PUEDE, con su presentación gráfica establecida.",
+                "debe"
+              ],
+              [
+                "Las explicaciones y ejemplos NO DEBEN recibir indicadores normativos cuando no establezcan requisitos.",
+                "no-debe"
+              ]
+            ]
+          },
+          {
+            "k": "Ejemplos",
+            "p": [
+              [
+                "Los ejemplos DEBEN demostrar cómo aplicar una decisión o cómo se comporta un componente.",
+                "debe"
+              ],
+              [
+                "Los ejemplos NO DEBEN limitarse a repetir visualmente la norma que los precede.",
+                "no-debe"
+              ]
+            ]
+          },
+          {
+            "k": "Iconografía",
+            "p": [
+              [
+                "Los iconos DEBEN proceder de la biblioteca oficial y cumplir una función identificable.",
+                "debe"
+              ],
+              [
+                "Los símbolos decorativos NO DEBEN sustituir arbitrariamente a los iconos funcionales.",
+                "no-debe"
+              ]
+            ]
+          },
+          {
+            "k": "Continuidad visual",
+            "p": [
+              [
+                "Los cambios DEBEN conservar la identidad tipográfica, cromática, espacial y compositiva ya aprobada.",
+                "debe"
+              ],
+              [
+                "La creación de nuevos estilos globales, tokens o componentes compartidos requiere revisión de sus consecuencias antes de incorporarlos.",
+                null
+              ]
+            ]
+          },
+          {
+            "k": "Validación editorial",
+            "p": [
+              [
+                "Las páginas nuevas DEBEN comprobarse en escritorio y móvil, considerando legibilidad, jerarquía, continuidad visual, navegación y densidad de información.",
+                "debe"
+              ],
+              [
+                "Una página NO DEBE considerarse terminada únicamente porque su código sea válido o sus verificaciones automáticas no reporten errores.",
+                "no-debe"
               ]
             ]
           }
