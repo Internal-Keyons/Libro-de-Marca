@@ -2,7 +2,7 @@
  "estado": "Propuesta pendiente de aprobación humana",
  "regla": "La clasificación normativa propuesta por un agente de IA requiere aprobación humana antes de adquirir vigencia.",
  "resumen": {
-  "normas": 146,
+  "normas": 150,
   "requisitos": 230,
   "por_nivel": {
    "DEBE": 90,
@@ -2796,6 +2796,58 @@
    "titulo": "Párrafos",
    "estado": "borrador",
    "fuente": "fundamentos/tipografia/sistema.html#parrafos",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-UI-001",
+   "titulo": "Sobriedad viva",
+   "estado": "borrador",
+   "fuente": "aplicaciones/digital.html#sobriedad",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-UI-002",
+   "titulo": "Momentos vivos",
+   "estado": "borrador",
+   "fuente": "aplicaciones/digital.html#momentos",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-UI-003",
+   "titulo": "Según el producto",
+   "estado": "borrador",
+   "fuente": "aplicaciones/digital.html#producto",
+   "ambito_propuesto": [
+    "identidad",
+    "web",
+    "internas",
+    "saas"
+   ],
+   "requisitos": []
+  },
+  {
+   "id": "KYN-MRK-UI-004",
+   "titulo": "Estela en pantalla",
+   "estado": "borrador",
+   "fuente": "aplicaciones/digital.html#estela",
    "ambito_propuesto": [
     "identidad",
     "web",
