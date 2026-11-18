@@ -1869,17 +1869,7 @@
     const c = e.target.closest('[data-copy-code]');
     if (c) copy(c.closest('.code').querySelector('pre').innerText, 'Código copiado');
   });
-  /* Acordeones: el primer ítem se abre cuando el acordeón entra en pantalla, para que se entienda la interacción */
-  document.querySelectorAll('.promises').forEach((acc) => {
-    const first = acc.querySelector('details');
-    if (!first) return;
-    acc.querySelectorAll('details[open]').forEach((d) => d.removeAttribute('open'));
-    if (!('IntersectionObserver' in window)) { first.open = true; return; }
-    const io = new IntersectionObserver((es) => {
-      if (es.some((e) => e.isIntersecting)) { setTimeout(() => { first.open = true; }, 450); io.disconnect(); }
-    }, { rootMargin: '0px 0px -35% 0px' });
-    io.observe(acc);
-  });
+  /* Acordeones (reglas-visuales R27): ninguno se abre solo al aparecer y varios pueden quedar abiertos; details y summary son el control */
 
 
   /* Carrusel horizontal: varias piezas a la vista, con el pie de los demás carruseles */

@@ -18,6 +18,8 @@ y lo que varía» (.matrix), las cuatro preguntas reales con íconos oficiales (
 Quinta ronda (2026-11-17): 16.4 vuelve a la imagen 1 (barra Azul Cielo lisa, tres nombres y Propósito, Recursos, Color y
 Piezas) y abre con «La identidad permanece. La intensidad cambia.», que deja la página del área; las cuatro preguntas
 van numeradas como CMP-004; 16.1 con íconos del catálogo aprobado.
+Sexta ronda (2026-11-17): marcadores según reglas-visuales R26 (16.1 y 17.1 con viñetas, 17.5 con íconos, 16.4 con números);
+16.4 sin barra ni nombres sueltos, solo las tres columnas.
 Cada párrafo normativo se marca con N(texto, nivel) (tools/normativa.py); después: python tools/niveles.py --aplicar
 """
 import html
@@ -93,10 +95,7 @@ def seccion(sid, num, corto, titular, partes):
 
 
 # ───────────── 16.4 · Espectro de la imagen 1 (Keylin, 2026-11-17) ─────────────
-# Barra de un solo color (Azul Cielo), sin marcas, con los tres nombres debajo y la comparación en tres columnas
-ESPECTRO = (f'{I}<div class="espectro" role="img" aria-label="Espectro continuo de intensidad: Formal, Corporativo Editorial y Expresivo">'
-            '<span class="espectro__barra" aria-hidden="true"></span>'
-            '<span class="espectro__k">Formal</span><span class="espectro__k">Corporativo Editorial</span><span class="espectro__k">Expresivo</span></div>')
+# Solo la comparación en tres columnas: la barra y los nombres salieron (Keylin, 2026-11-17); cada columna lleva su nombre
 TRI = tri3([('Formal', [('Propósito', 'Informar con exactitud.'), ('Recursos', 'Tipografía, retícula y espacio, con acentos puntuales.'),
                         ('Color', 'Blanco Keyons y Azul Noche, con Azul Cielo para orientar.'), ('Piezas', 'Contratos, políticas, certificaciones e informes técnicos.')]),
             ('Corporativo Editorial', [('Propósito', 'Explicar y convencer.'), ('Recursos', 'Fotografía protagonista, titulares grandes y atmósferas.'),
@@ -113,10 +112,10 @@ PALETA = (f'{I}<ul class="paleta5" aria-label="Los cinco colores oficiales">'
 C16 = [
     ('principios', '16.1', 'Principios', 'Claridad con carácter', [
         lead('La expresión corporativa de Keyons combina <strong>claridad, confianza y personalidad</strong> mediante una composición precisa y un uso deliberado del espacio.'),
-        pgrid_i([('navegar', 'La claridad dirige', [N('Cada pieza debe dejar claro qué información importa más y en qué orden se lee.', 'debe'), 'La tipografía, el espacio y la retícula resuelven la jerarquía antes que cualquier recurso decorativo.'], None),
-                 ('menos', 'La sobriedad es una elección', [N('La expresión corporativa puede usar todos los recursos de la identidad Keyons.', 'puede'), 'Cada pieza elige los que su función necesita, con precisión y equilibrio.'], None),
-                 ('formas', 'El carácter nace de la composición', ['Keyons se reconoce por la relación entre tipografía, proporción, imagen, color y espacio, sin repetir un motivo gráfico.'], None),
-                 ('progreso-50', 'La función marca la intensidad', ['Un aviso legal, una propuesta comercial y una memoria corporativa comparten identidad y varían en ritmo, recursos e intensidad.'], None)]),
+        pgrid_v([('La claridad dirige', [N('Cada pieza debe dejar claro qué información importa más y en qué orden se lee.', 'debe'), 'La tipografía, el espacio y la retícula resuelven la jerarquía antes que cualquier recurso decorativo.']),
+                 ('La sobriedad es una elección', [N('La expresión corporativa puede usar todos los recursos de la identidad Keyons.', 'puede'), 'Cada pieza elige los que su función necesita, con precisión y equilibrio.']),
+                 ('El carácter nace de la composición', ['Keyons se reconoce por la relación entre tipografía, proporción, imagen, color y espacio, sin repetir un motivo gráfico.']),
+                 ('La función marca la intensidad', ['Un aviso legal, una propuesta comercial y una memoria corporativa comparten identidad y varían en ritmo, recursos e intensidad.'])]),
     ]),
     ('formal', '16.2', 'Formal', 'Precisión que transmite confianza', [
         lead('Formal es la referencia <strong>más contenida</strong> del sistema: sirve cuando importan la exactitud, la lectura prolongada o las consecuencias institucionales de la información.'),
@@ -144,7 +143,6 @@ C16 = [
     ('intensidad', '16.4', 'Intensidad', 'La identidad permanece. La intensidad cambia.', [
         # Apertura: la intro del área Expresión pasa aquí (Keylin, 2026-11-17)
         lead('Keyons tiene <strong>una sola identidad visual</strong>. Su expresión cambia según lo que necesita comunicar, las personas a quienes se dirige y el entorno en el que aparece.'),
-        ESPECTRO,
         TRI,
         sub('Lo que permanece y lo que varía'),
         lead('La identidad Keyons no cambia entre los niveles de expresión. Lo que cambia es <strong>la manera de combinar sus recursos</strong> y el protagonismo que adquieren.'),
@@ -189,10 +187,10 @@ C16 = [
 C17 = [
     ('principios', '17.1', 'Principios', 'Libertad con intención', [
         lead('La expresión de Keyons puede ser <strong>intensa, sensible y memorable</strong> sin perder claridad: su fuerza nace de la relación entre forma, contenido y emoción.'),
-        pgrid_i([('brujula', 'Una identidad que permite explorar', [N('La experimentación debe conservar una relación visible con la tipografía, el color, la geometría y la composición de Keyons.', 'debe')], None),
-                 ('seleccion', 'La intensidad no es saturación', [N('Cada composición debe elegir un protagonista y los elementos que lo acompañan.', 'debe'), 'Reunir todos los recursos a la vez genera competencia visual.'], None),
-                 ('favorito-circulo', 'La emoción tiene una función', [N('Cada recurso expresivo debe transmitir una idea, una atmósfera o una experiencia ligada al contenido.', 'debe')], None),
-                 ('buscar', 'La claridad permanece', [N('La información esencial debe seguir siendo fácil de encontrar, con contraste y jerarquía suficientes.', 'debe')], None)]),
+        pgrid_v([('Una identidad que permite explorar', [N('La experimentación debe conservar una relación visible con la tipografía, el color, la geometría y la composición de Keyons.', 'debe')]),
+                 ('La intensidad no es saturación', [N('Cada composición debe elegir un protagonista y los elementos que lo acompañan.', 'debe'), 'Reunir todos los recursos a la vez genera competencia visual.']),
+                 ('La emoción tiene una función', [N('Cada recurso expresivo debe transmitir una idea, una atmósfera o una experiencia ligada al contenido.', 'debe')]),
+                 ('La claridad permanece', [N('La información esencial debe seguir siendo fácil de encontrar, con contraste y jerarquía suficientes.', 'debe')])]),
         sub('Estructura y expresión'),
         lead('Keyons combina la disciplina de una <strong>estructura clara</strong> con la libertad de una expresión visual propia.'),
         stack([('La metáfora 60/40', ['La relación 60/40 describe ese equilibrio: una base estructural sólida que sostiene una capa expresiva con personalidad, sin ser una proporción técnica ni un reparto por porcentajes.']),
@@ -221,11 +219,11 @@ C17 = [
     ]),
     ('recursos', '17.5', 'Recursos', 'Cada recurso con un propósito', [
         lead('Cada recurso entra <strong>cuando ayuda a comunicar</strong>, y la decisión siempre es humana.'),
-        pgrid_v([('Fotografía', [N('La fotografía puede asumir el protagonismo de una composición.', 'puede'), N('Su selección debe responder a una intención narrativa, con calidad, autenticidad y pertinencia.', 'debe')]),
-                 ('Ilustración e imágenes sintéticas', [N('Su dirección artística debe partir de criterio humano, originalidad y respeto de derechos.', 'debe'), N('Una imagen sintética no debe presentarse como fotografía documental de un hecho real.', 'no-debe')]),
-                 ('Texturas y tramas', [N('Las texturas deben ceder ante textos, cifras y elementos esenciales: si compiten, se reducen o se retiran.', 'debe')]),
-                 ('Movimiento', [N('El contenido debe comprenderse sin la animación, y el movimiento, respetar las preferencias de accesibilidad.', 'debe')]),
-                 ('Firma humana', ['La expresión Keyons nace de decisiones deliberadas: selección, composición, edición y evaluación.', 'La tecnología amplía las posibilidades; el criterio decide cuáles usar.'])]),
+        pgrid_i([('camara', 'Fotografía', [N('La fotografía puede asumir el protagonismo de una composición.', 'puede'), N('Su selección debe responder a una intención narrativa, con calidad, autenticidad y pertinencia.', 'debe')], None),
+                 ('formas', 'Ilustración e imágenes sintéticas', [N('Su dirección artística debe partir de criterio humano, originalidad y respeto de derechos.', 'debe'), N('Una imagen sintética no debe presentarse como fotografía documental de un hecho real.', 'no-debe')], None),
+                 ('capas', 'Texturas y tramas', [N('Las texturas deben ceder ante textos, cifras y elementos esenciales: si compiten, se reducen o se retiran.', 'debe')], None),
+                 ('flecha-giro', 'Movimiento', [N('El contenido debe comprenderse sin la animación, y el movimiento, respetar las preferencias de accesibilidad.', 'debe')], None),
+                 ('perfil', 'Firma humana', ['La expresión Keyons nace de decisiones deliberadas: selección, composición, edición y evaluación.', 'La tecnología amplía las posibilidades; el criterio decide cuáles usar.'], None)]),
     ]),
     ('limites', '17.6', 'Límites', 'La libertad no elimina la responsabilidad', [
         lead(N('Toda pieza expresiva debe conservar contraste, accesibilidad, comprensión y reconocimiento de marca.', 'debe')),

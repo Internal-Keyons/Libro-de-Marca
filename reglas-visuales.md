@@ -268,7 +268,17 @@ El radio de una esquina curva sale del **lado corto** del elemento:
 ### 3.5 Composición editorial
 
 - **R01 · Sin cajas por defecto:** la información se ordena con rótulo a la izquierda, contenido a la derecha, líneas finas y espacio negativo. Una tarjeta solo cuando agrupa algo.
-- **R02 · Viñetas:** miden 20 px y dejan 20 px hasta el texto. Las viñetas DEBEN alternar círculo y cuadrado en toda lista, también en las listas cortas Azul Noche: círculo, cuadrado, círculo… NO DEBE haber una lista de una sola forma. En listas de color la secuencia es Azul Cielo → Salmón Tierra; las listas cortas van en Azul Noche.
+- **R02 · Viñetas:** cuándo se usa una viñeta lo decide R26. Miden 20 px y dejan 20 px hasta el texto. Las viñetas DEBEN alternar círculo y cuadrado en toda lista, también en las listas cortas Azul Noche: círculo, cuadrado, círculo… NO DEBE haber una lista de una sola forma. En listas de color la secuencia es Azul Cielo → Salmón Tierra; las listas cortas van en Azul Noche.
+- **R26 · Marcador de cada ítem (Keylin, 2026-11-17):** es una regla de diagramación. El marcador de un ítem DEBE elegirse por su significado y por la composición, nunca por la cantidad de elementos ni de forma automática. Hay cuatro posibilidades:
+  - **Ícono:** cuando representa claramente el concepto; sale del catálogo aprobado (capítulo 26). Ejemplo: los recursos de EXP-005.
+  - **Número:** cuando expresa una secuencia, una referencia o una enumeración útil, por ejemplo, cuando el título anuncia cuántos ítems son. Ejemplo: las cuatro preguntas de COR-004.
+  - **Viñeta:** cuando ayuda a identificar elementos equivalentes. Ejemplos: los principios de COR-001 y EXP-001. Su forma y su color siguen R02.
+  - **Sin marcador:** cuando la composición y la jerarquía ya permiten comprender el contenido.
+- **R27 · Acordeón único (Keylin, 2026-11-17):** todo acordeón de la Biblioteca DEBE usar el de ADN-006 «Cinco promesas» (`.promises` y `details.promise`): número, título y el signo + a la derecha.
+  - `details` y `summary` son el único control. El + es un indicador decorativo (`span` con `aria-hidden`); NO DEBE haber un botón dentro de `summary`.
+  - Ningún acordeón se abre solo al aparecer en pantalla, salvo que haya una necesidad funcional justificada.
+  - Varios ítems PUEDEN quedar abiertos a la vez, para comparar. Ningún ítem cierra a los demás.
+  - Un cuerpo con más de un párrafo usa filas rotuladas (`.promise__body` con `dl`), como los escenarios de Estela 5.3.
 - **R21 · Carruseles de imágenes:** todo carrusel de imágenes DEBE tener dos flechas dentro de la imagen, a los lados y centradas en vertical, a `--car-arrow-inset` del borde. Son el botón Ícono de 4.2 (`--car-arrow`, 36 px) en Blanco Puro con ícono Azul Noche; al pasar el cursor se llenan de Azul Noche, sin borde. Aparecen al pasar el cursor por la imagen o al llegar con el teclado; en pantallas táctiles se ven siempre. Los puntos DEBEN ir centrados debajo de la imagen. Una imagen de carrusel DEBE mostrarse completa, con su proporción, sin asomar la siguiente. `js/libro.js` arma flechas y puntos en todo `[data-icar]` y `[data-tcar]`.
 - **R03 · Sin tachados:** lo que no se usa va en gris o con la etiqueta «Antes».
 - **R12 · Menús desplegables:** ventana recta, hacia abajo y pegada al campo.
@@ -461,4 +471,4 @@ Toda excepción a una regla DEBE anotarse aquí. Un comentario en el CSS no cuen
 | N.º | Regla | Dónde | Motivo | Aprobó | Fecha |
 | --- | --- | --- | --- | --- | --- |
 | E1 | 3.5 · Carruseles | Estela 5.1 (dos dimensiones y Prisma) y Elementos gráficos 11.8 | Piloto de los puntos de carrusel: círculo y cuadrado alternados de 10 px (`--mark-car`); el activo se llena con el tiempo y la marca salta al siguiente cambiando de forma (`--m-base`, `--e-io`). Si se aprueba, pasa a regla para todos los carruseles | Pendiente | 2026-11-11 |
-| E2 | 2.2 · Escala de lectura | Estela 5.3, «Así responde Estela» (`.caso__cita`) | La respuesta de Estela baja de 20 px al tamaño del cuerpo (16 px) para ordenar el acordeón; la distinguen el Azul Noche y la comilla | Keylin (plan del 2026-11-17) | 2026-11-17 |
+| E2 | 2.2 · Escala de lectura | Estela 5.3, «Así responde Estela» (`.cita-estela`) | La respuesta de Estela va al tamaño del cuerpo (16 px), en el gris del texto y en cursiva; la distinguen la cursiva y la comilla (Keylin, 2026-11-17) | Keylin | 2026-11-17 |

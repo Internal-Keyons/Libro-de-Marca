@@ -5996,7 +5996,7 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
 .prosa p + p{margin-top:var(--s5)}
 .ed__sub + .prosa{margin-top:var(--s5)}
 .ed__lead + .prosa{margin-top:var(--s6)}   /* reglas-visuales R20 */
-.ed__stack + .prosa,.pgrid + .prosa,.vlist + .prosa,.espectro + .prosa,.paleta5 + .prosa,.matrix + .prosa{margin-top:var(--s8)}
+.ed__stack + .prosa,.pgrid + .prosa,.vlist + .prosa,.paleta5 + .prosa,.matrix + .prosa{margin-top:var(--s8)}
 
 /* Párrafo mayor: la idea a la izquierda y sus detalles apilados a la derecha, por debajo del subtítulo en jerarquía */
 .pmayor{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,4fr);column-gap:var(--s12);margin-top:var(--s5);align-items:start}
@@ -6156,29 +6156,16 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
 .pgrid > .pgrid__vacia.pgrid__vacia{border-left:0;border-right:0;box-shadow:none}
 @media(max-width:900px){.pgrid__vacia{display:none}}
 
-/* Escenarios en acordeón (EST-003): número a la izquierda y título a la derecha, uno abierto a la vez.
-   Al abrir, todo en vertical: qué está pasando, clave del tono, la respuesta de Estela con su comilla y lo que demuestra */
-.casos{margin-top:var(--s8);border-top:1px solid var(--color-border-strong)}
-.caso{border-bottom:1px solid var(--color-border)}
-.caso summary{display:grid;grid-template-columns:var(--s16) minmax(0,1fr) var(--s4);column-gap:var(--s6);align-items:center;padding:var(--s5) 0;cursor:pointer;list-style:none}
-.caso summary::-webkit-details-marker{display:none}
-.caso__n{font-size:var(--fs-14);color:var(--color-text-3);font-variant-numeric:tabular-nums}
-.caso__t{font-size:var(--fs-20);line-height:1.35;color:var(--color-text-2);transition:color var(--m-fast) var(--e-out)}
-.caso summary:hover .caso__t,.caso[open] .caso__t{color:var(--k-noche)}
-.caso__x{width:var(--s4);height:var(--s4);color:var(--color-text-3);transition:transform var(--m-fast) var(--e-out)}
-.caso[open] .caso__x{transform:rotate(180deg)}
-.caso__c{display:grid;row-gap:var(--s5);max-width:var(--measure);padding:0 0 var(--s8) calc(var(--s16) + var(--s6))}
-.caso__c dl{display:grid;row-gap:var(--s5);margin:0}
-.caso__k{display:block;margin-bottom:var(--s1);font-size:var(--fs-12);color:var(--color-text-3)}
-.caso__c dd,.caso__dem{margin:0;font-size:var(--fs-16);line-height:1.6;color:var(--color-text-2)}
-.caso__cita{margin:0}
-.caso__cita blockquote{margin:0;display:flex;align-items:flex-start;gap:var(--s3)}
+/* Acordeón único (reglas-visuales R27, modelo ADN-006): cuerpo con filas rotuladas, como los escenarios de Estela 5.3 */
+.promise__body dl{display:grid;row-gap:var(--s5);margin:0}
+.promise__body dd{margin:0}
+.promise__body > * + *{margin-top:var(--s5)}
+.promise__k{display:block;margin-bottom:var(--s1);font-size:var(--fs-12);line-height:1.4;color:var(--color-text-3)}
+.cita-estela{margin:var(--s5) 0 0}
+.cita-estela blockquote{margin:0;display:flex;align-items:flex-start;gap:var(--s3)}
 .cita__i{flex:none;width:var(--s4);height:var(--s3);margin-top:var(--s2);color:var(--k-noche)}
-.caso__cita blockquote p{font-size:var(--fs-16);line-height:1.6;color:var(--k-noche)}   /* reglas-visuales 8 · EST-003: tamaño del cuerpo; la distinguen el color y la comilla */
-@media(max-width:760px){
-  .caso summary{grid-template-columns:var(--s8) minmax(0,1fr) var(--s4);column-gap:var(--s3)}
-  .caso__c{padding-left:0}
-}
+.cita-estela blockquote p{font-size:var(--fs-16);line-height:1.6;color:var(--color-text-2);font-style:italic}   /* reglas-visuales 8 · E2 */
+
 
 /* reglas-visuales R24 · Muestras cromáticas editoriales: la serie alterna círculo y cuadrado, empezando por el círculo (como R02).
    Solo en las muestras editoriales (cielos de COL-007 y los cinco colores de COR-003). Las escalas de datos, los puntos de color

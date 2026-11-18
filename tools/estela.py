@@ -5,7 +5,7 @@ Capítulo 05 Estela · textos de Keylin del 2026-11-13 (tercera ronda):
 - 5.1 vuelve al carrusel grande (imagen y texto al lado) con las tres funciones.
 - 5.2 lleva los cuatro rasgos y los equilibrios en cuatro columnas con íconos del catálogo aprobado (2026-11-17)
   y «Una identidad con espacio para crecer» en filas.
-- 5.3 suma «Así responde Estela»: ocho escenarios en acordeón, cada uno con su contexto y la cita.
+- 5.3 suma «Así responde Estela»: ocho escenarios en el acordeón único (R27), cada uno con su contexto y la cita.
 - 5.5 lleva «Una presencia reconocible» y «La luz que acompaña» (las cinco fases del cielo).
 - 5.3, 5.4 y 5.6 se reescribieron en forma directa (pendientes de su aprobación).
 
@@ -51,17 +51,18 @@ def pgrid_i(items):
 # Comilla de apertura pequeña en Azul Noche: dos formas de coma, sin las comillas tipográficas
 CITA = ('<svg class="cita__i" viewBox="0 0 16 12" aria-hidden="true"><path fill="currentColor" d="M3.6 0a3.1 3.1 0 1 1-1.2 5.96C2.9 8 4 9.3 5.9 10l-.5 1.3C1.9 10.2 0 7.4 0 3.6A3.6 3.6 0 0 1 3.6 0Z'
         'M12.4 0a3.1 3.1 0 1 1-1.2 5.96C11.7 8 12.8 9.3 14.7 10l-.5 1.3C10.7 10.2 8.8 7.4 8.8 3.6A3.6 3.6 0 0 1 12.4 0Z"/></svg>')
-FLECHA = '<svg class="caso__x" viewBox="0 0 16 16" aria-hidden="true"><path d="m3.5 6 4.5 4.5L12.5 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>'
+MAS = '<span class="btn-icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path class="v" d="M8 3v10"/><path d="M3 8h10"/></svg></span>'
 def casos(items):
-    """Escenarios en acordeón, uno abierto a la vez. Al abrir, en vertical: qué está pasando, clave del tono,
+    """Escenarios en el acordeón único de la Biblioteca (reglas-visuales R27, modelo ADN-006): número, título y +.
+    Ninguno se abre solo y varios pueden quedar abiertos. Al abrir: qué está pasando, clave del tono,
     «Así responde Estela» con la respuesta y, al final, qué demuestra."""
     out = ''
     for k, (t, pasa, tono, cita, demuestra) in enumerate(items):
-        out += (f'<details class="caso" name="casos-estela"{" open" if k == 0 else ""}><summary><span class="caso__n">{k + 1:02d}</span><span class="caso__t">{esc(t)}</span>{FLECHA}</summary>'
-                f'<div class="caso__c"><dl><div><dt class="caso__k">Qué está pasando</dt><dd>{esc(pasa)}</dd></div><div><dt class="caso__k">Clave del tono</dt><dd>{esc(tono)}</dd></div></dl>'
-                f'<figure class="caso__cita"><figcaption class="caso__k">Así responde Estela</figcaption><blockquote>{CITA}<p>{esc(cita)}</p></blockquote></figure>'
-                f'<p class="caso__dem"><span class="caso__k">Qué demuestra</span>{esc(demuestra)}</p></div></details>')
-    return f'{I}<div class="casos">{out}</div>'
+        out += (f'<details class="promise"><summary><span class="promise__n">{k + 1:02d}</span><span class="promise__t">{esc(t)}</span>{MAS}</summary>'
+                f'<div class="promise__body"><dl><div><dt class="promise__k">Qué está pasando</dt><dd>{esc(pasa)}</dd></div><div><dt class="promise__k">Clave del tono</dt><dd>{esc(tono)}</dd></div></dl>'
+                f'<figure class="cita-estela"><figcaption class="promise__k">Así responde Estela</figcaption><blockquote>{CITA}<p>{esc(cita)}</p></blockquote></figure>'
+                f'<p><span class="promise__k">Qué demuestra</span>{esc(demuestra)}</p></div></details>')
+    return f'{I}<div class="promises">{out}</div>'
 
 def eqls(items):
     """Equilibrios en cuatro columnas, cada uno con su ícono del catálogo arriba (Keylin, 2026-11-17): (ícono, título, texto)"""
@@ -103,9 +104,12 @@ S += seccion('origen', '5.2', 'Origen y personalidad', 'Una personalidad que se 
              ('asterisco', 'Creativa', [N('Estela encuentra conexiones, propone enfoques originales y explora nuevas soluciones cuando aportan valor. Su creatividad debe conservar siempre la precisión y la pertinencia.', 'debe')]),
              ('check', 'Resolutiva', [N('Estela transforma información en pasos claros, establece prioridades y propone acciones útiles. Su iniciativa debe dejar las decisiones en manos de la persona.', 'debe')])]),
     sub('Equilibrios de personalidad'),
-    lead('La personalidad de Estela se expresa a través de cuatro equilibrios que orientan su comportamiento en cualquier contexto.'),
-    eqls([('chat-check', 'Cercana,', 'sin perder objetividad.'), ('seleccion', 'Creativa,', 'sin comprometer la precisión.'), ('brujula', 'Firme,', 'sin imponer decisiones.'), ('flecha-derecha-larga', 'Profesional,', 'sin generar fricción innecesaria.')]),
-    prosa(N('Estos principios deben mantenerse independientemente del canal, la complejidad de la tarea o la extensión de la respuesta.', 'debe')),
+    lead('La personalidad de Estela se adapta a la situación sin perder sus principios.'),
+    # Textos de Keylin (2026-11-17): los equilibrios enseñan cómo se regula cada rasgo, sin repetirlo
+    eqls([('chat-check', 'Cercana, sin adular.', 'Escucha y reconoce el contexto sin dar la razón automáticamente.'),
+          ('seleccion', 'Creativa, sin inventar.', 'Propone alternativas originales y distingue las ideas de los hechos comprobados.'),
+          ('brujula', 'Firme, sin imponer.', 'Advierte sobre errores o riesgos sin sustituir las decisiones de la persona.'),
+          ('flecha-derecha-larga', 'Profesional, sin complicar.', 'Responde con precisión y evita explicaciones o pasos innecesarios.')]),
     sub('Una identidad con espacio para crecer'),
     stack([('Desarrollo progresivo', ['El origen narrativo y la representación visual de Estela pueden desarrollarse de forma gradual, a medida que la identidad madure y se expanda.']),
            ('Evolución consistente', [N('La incorporación de historias, símbolos o recursos gráficos debe enriquecer una personalidad ya definida, sin alterar sus principios fundamentales.', 'debe')]),

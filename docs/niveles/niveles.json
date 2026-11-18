@@ -2620,15 +2620,6 @@
    "id": "KYN-MRK-EST-002",
    "fuente": "marca/estela.html#origen",
    "bloque": 18,
-   "frase": "Estos principios deben mantenerse independientemente del canal, la complejidad de la tarea o la extensión de la respuesta.",
-   "estado": "aplicada",
-   "nivel": "debe",
-   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-MRK-EST-002",
-   "fuente": "marca/estela.html#origen",
-   "bloque": 19,
    "frase": "El origen narrativo y la representación visual de Estela pueden desarrollarse de forma gradual, a medida que la identidad madure y se expanda.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
@@ -2636,7 +2627,7 @@
   {
    "id": "KYN-MRK-EST-002",
    "fuente": "marca/estela.html#origen",
-   "bloque": 20,
+   "bloque": 19,
    "frase": "La incorporación de historias, símbolos o recursos gráficos debe enriquecer una personalidad ya definida, sin alterar sus principios fundamentales.",
    "estado": "aplicada",
    "nivel": "debe",
@@ -2645,7 +2636,7 @@
   {
    "id": "KYN-MRK-EST-002",
    "fuente": "marca/estela.html#origen",
-   "bloque": 21,
+   "bloque": 20,
    "frase": "Los relatos de origen, elementos biográficos o características visuales no deben presentarse como oficiales hasta haber sido formalmente aprobados.",
    "estado": "aplicada",
    "nivel": "no-debe",
@@ -2889,6 +2880,22 @@
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   },
   {
+   "id": "KYN-SDI-ARQ-006",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-02",
+   "bloque": 3,
+   "frase": "Puede abreviarse o precisarse sin cambiar de significado; su redacción sigue Nombres comprensibles, en 04 Información.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-ARQ-007",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-03",
+   "bloque": 0,
+   "frase": "Lo que se ve se puede usar con puntero, teclado y tacto.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
    "id": "KYN-SDI-ARQ-007",
    "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-03",
    "bloque": 1,
@@ -2905,6 +2912,40 @@
    "estado": "aplicada",
    "nivel": "debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-008",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-04",
+   "bloque": 2,
+   "frase": "Los elementos de navegación deben distinguir su estado actual, disponibilidad y comportamiento interactivo sin depender exclusivamente del color.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-008",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-04",
+   "bloque": 3,
+   "frase": "Los estados de foco y selección no deben confundirse: el foco identifica dónde está interactuando la persona; la selección identifica la ubicación o contenido actual.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-008",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-04",
+   "bloque": 4,
+   "frase": "Foco y actual pueden coincidir y se ven a la vez.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-ARQ-008",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-04",
+   "bloque": 16,
+   "frase": "Resultado esperado: el foco siempre visible y en el lugar descrito.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-ARQ-009",
@@ -2931,6 +2972,32 @@
    "frase": "Cuando se vuelve desde un detalle a un listado, el sistema debería conservar filtros, búsqueda y posición cuando sean relevantes para continuar la tarea.",
    "estado": "aplicada",
    "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-010",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-06",
+   "bloque": 16,
+   "frase": "Si la vista se puede recargar, los filtros siguen aplicados después de hacerlo.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-ARQ-017",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-07",
+   "bloque": 1,
+   "frase": "Las rutas internas deben permitir abrir directamente una página autorizada cuando el producto admita navegación mediante enlaces.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-017",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-07",
+   "bloque": 2,
+   "frase": "Cuando una ruta no exista, no esté disponible o carezca de autorización, el sistema debe comunicar la situación y ofrecer una salida apropiada, sin revelar información restringida.",
+   "estado": "aplicada",
+   "nivel": "debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   }
  ]

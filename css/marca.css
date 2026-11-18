@@ -84,12 +84,6 @@ body .portal.portal--salmon.portal--atardecer:not(.portal--plano){background:lin
 .dchip{border-radius:50%}
 
 
-/* COR-004 · Intensidad (16.4): espectro continuo, de lo formal a lo expresivo (imagen 1 de Keylin, 2026-11-17).
-   Barra de un solo color (Azul Cielo), sin marcas, y los tres nombres debajo */
-.espectro{display:flex;flex-wrap:wrap;justify-content:space-between;gap:var(--s4) var(--s6);margin-top:var(--s10)}
-.espectro__barra{flex:0 0 100%;height:var(--s3);background:var(--k-cielo)}
-.espectro__k{font-size:var(--fs-14);color:var(--color-text-2);white-space:nowrap}
-
 /* COR-003 · Editorial (16.3): los cinco colores oficiales en fila, con muestras de 40 px como COL-007 y su función debajo */
 .paleta5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:var(--s4);margin:var(--s8) 0 0;padding:0;list-style:none}
 .paleta5 li{display:grid;justify-items:start;align-content:start;row-gap:var(--s1)}
