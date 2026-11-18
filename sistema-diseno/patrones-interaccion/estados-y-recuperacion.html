@@ -39,17 +39,62 @@
       </div>
     </section>
 
-    <!-- Subcapítulos: cada uno reunirá sus normas. Generado por tools/sistema_diseno.py -->
-    <section class="ed" id="subcapitulos">
-      <div class="ed__label"><span>18</span><span>Subcapítulos</span></div>
+    <!-- Capítulo 18 · generado por tools/sd_capitulos.py (tools/sd/). No se edita a mano. Borrador. -->
+    <!-- KYN-SDI-PAT-007 · Ruta de salida -->
+    <section class="ed" id="s-05-03-01">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-PAT-007" data-copy-msg="ID copiado · KYN-SDI-PAT-007" title="Copiar el ID de esta norma">KYN-SDI-PAT-007</span><span>Ruta de salida</span></div>
       <div>
-        <h2 class="ed__title">Subcapítulos</h2>
-        <p class="ed__lead">Cada subcapítulo reunirá sus <strong>reglas, ejemplos y especificaciones</strong>. Sus 3 subcapítulos todavía no tienen normas aprobadas.</p>
-        <div class="kidx__list sd-refs">
-          <div class="kidx__r sd-sub" id="s-05-03-01"><span class="kidx__t">Estados vacíos y de espera</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-          <div class="kidx__r sd-sub" id="s-05-03-02"><span class="kidx__t">Reintentos, deshacer y recuperación</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-          <div class="kidx__r sd-sub" id="s-05-03-03"><span class="kidx__t">Errores y continuidad operativa</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-        </div>
+        <h2 class="ed__title">Ante un error, siempre hay un camino</h2>
+        <p class="ed__lead">Un error <strong>explica y ofrece una salida</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Ante un error que impide continuar, la interfaz DEBE ofrecer una alternativa viable o explicar claramente qué impide la recuperación.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="matrix" role="table" aria-label="Errores y salidas"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span><span class="matrix__lvl" role="columnheader">Qué se dice<small></small></span><span class="matrix__lvl" role="columnheader">Salida<small></small></span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Red o servidor</span><span class="matrix__v" role="cell">Que la acción no se completó y si los datos se conservaron.</span><span class="matrix__v" role="cell">Reintentar.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Servicio externo o IA</span><span class="matrix__v" role="cell">Que el servicio no respondió.</span><span class="matrix__v" role="cell">Una ruta manual en el mismo lugar (desde UIX-023).</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Permiso</span><span class="matrix__v" role="cell">Que no tiene acceso, sin revelar datos.</span><span class="matrix__v" role="cell">Volver o solicitar acceso (ARQ-017 en <a class="xref" href="../arquitectura-navegacion/estructura-de-navegacion.html">05 Navegación</a>).</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Datos inválidos</span><span class="matrix__v" role="cell">Qué dato y cómo corregirlo.</span><span class="matrix__v" role="cell">El campo, con su mensaje (CPE-006).</span></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Simulación</dt><dd>Se simulan errores de red, de servicio, de permiso y de datos. Resultado esperado: cada uno ofrece su salida.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-PAT-008 · Reversibilidad -->
+    <section class="ed" id="s-05-03-02">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-PAT-008" data-copy-msg="ID copiado · KYN-SDI-PAT-008" title="Copiar el ID de esta norma">KYN-SDI-PAT-008</span><span>Reversibilidad</span></div>
+      <div>
+        <h2 class="ed__title">Lo que se puede deshacer, se ofrece deshacer</h2>
+        <p class="ed__lead">Deshacer <strong>quita el miedo a equivocarse</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Las acciones reversibles DEBERÍAN ofrecer una opción de deshacer o restaurar cuando resulte técnica y funcionalmente apropiado.⁠<span class="nvl nvl--fin" data-lvl="deberia" role="img" aria-label="Nivel: Debería"><i class="nvl__m nvl__m--deberia" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="ed__stack"><div><span class="paren">(Deshacer)</span><p>Aviso breve, sin bloquear la pantalla, con «Deshacer» durante un tiempo suficiente; se anuncia con <code>role="status"</code>.</p></div><div><span class="paren">(Restaurar)</span><p>Lo eliminado pasa a una papelera desde donde se recupera, cuando el producto lo permite.</p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Deshacer</dt><dd>Se ejecuta una acción reversible y se deshace. Resultado esperado: el estado anterior vuelve completo.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-PAT-009 · Persistencia -->
+    <section class="ed" id="s-05-03-03">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-PAT-009" data-copy-msg="ID copiado · KYN-SDI-PAT-009" title="Copiar el ID de esta norma">KYN-SDI-PAT-009</span><span>Persistencia</span></div>
+      <div>
+        <h2 class="ed__title">Un fallo no borra lo que estaba bien</h2>
+        <p class="ed__lead">Lo válido <strong>sobrevive al error</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Un fallo NO DEBE eliminar información válida que pueda conservarse de forma segura.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: No debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="ed__stack"><div><span class="paren">(Qué se conserva)</span><p>Datos escritos, filtros, selección y posición, mientras sea seguro.</p></div><div><span class="paren">(Qué no se conserva)</span><p>Datos de pago y contraseñas, por seguridad.</p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Fallo forzado</dt><dd>Se fuerza un fallo a mitad de una tarea. Resultado esperado: al reintentar, los datos válidos siguen ahí.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-PAT-010 · Estados vacíos y de espera -->
+    <section class="ed" id="s-05-03-04">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-PAT-010" data-copy-msg="ID copiado · KYN-SDI-PAT-010" title="Copiar el ID de esta norma">KYN-SDI-PAT-010</span><span>Estados vacíos y de espera</span></div>
+      <div>
+        <h2 class="ed__title">Un vacío y una espera también orientan</h2>
+        <p class="ed__lead">Ninguna pantalla queda <strong>sin explicación</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Un estado vacío DEBE explicar por qué no hay contenido y ofrecer el siguiente paso.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Una espera DEBE indicar que el sistema está trabajando.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="matrix" role="table" aria-label="Estados vacíos y de espera"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span><span class="matrix__lvl" role="columnheader">Qué muestra<small></small></span><span class="matrix__lvl" role="columnheader">Acción<small></small></span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Vacío por primera vez</span><span class="matrix__v" role="cell">Para qué sirve el espacio: «Aún no hay solicitudes».</span><span class="matrix__v" role="cell">Crear la primera.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Vacío por filtros</span><span class="matrix__v" role="cell">Que los filtros no tienen coincidencias (<a class="xref" href="../arquitectura-navegacion/busqueda-y-orientacion.html">06 Búsqueda</a>).</span><span class="matrix__v" role="cell">Quitar filtros.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Espera breve</span><span class="matrix__v" role="cell">Un indicador en el lugar de la acción.</span><span class="matrix__v" role="cell">—</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Espera larga</span><span class="matrix__v" role="cell">Qué está haciendo el sistema y, si se conoce, el avance (<a class="xref" href="../componentes-estados/retroalimentacion-y-superposiciones.html">15 Retroalimentación</a>).</span><span class="matrix__v" role="cell">Cancelar, si se puede.</span></div></div>
+        <div class="dets"><details class="det"><summary>Notas técnicas<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Anuncio</dt><dd>Los cambios de estado se anuncian en una región <code>role="status"</code>, sin mover el foco.</dd></div><div><dt class="promise__k">Umbral</dt><dd>El tiempo a partir del cual una espera es larga es una hipótesis que hay que validar (UIX-021 proponía 400 ms y 3 s).</dd></div></dl></div></details><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Cuatro casos</dt><dd>Se fuerza cada estado. Resultado esperado: ninguno queda en blanco ni sin una acción posible.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- Ejemplo de aplicación -->
+    <section class="ed" id="ejemplo">
+      <div class="ed__label"><span>18</span><span>Ejemplo de aplicación</span></div>
+      <div>
+        <h2 class="ed__title">Un pago que no se verificó</h2>
+        <p class="ed__lead">Si la verificación automática de un pago falla, <strong>la persona puede adjuntar el comprobante</strong> en el mismo lugar.</p>
+        <div class="ed__stack"><div><span class="paren">(Verificación del capítulo)</span><p>Simular errores de red, validación y operación, comprobando la recuperación.</p></div></div>
       </div>
     </section>
 

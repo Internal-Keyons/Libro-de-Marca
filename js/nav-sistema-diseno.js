@@ -106,14 +106,15 @@ window.KEYONS_NAV = [
     cd: 'Piezas reutilizables, sus variantes y sus estados.',
     d: 'Define los componentes reutilizables y sus variantes. Aquí se documentan las piezas, mientras que los flujos completos pertenecen a Patrones de interacción.',
     ch: [
-      { n: '12', k: '04-01', t: 'Acciones', full: 'Componentes de acción', d: 'Botones, enlaces, menús y sus estados de disponibilidad y proceso.', s: 'p', items: [
-          { t: 'Botones', st: 'Botones', s: 'p', href: 'sistema-diseno/componentes-estados/componentes-de-accion.html#s-04-01-01' },
-          { t: 'Enlaces', st: 'Enlaces', s: 'p', href: 'sistema-diseno/componentes-estados/componentes-de-accion.html#s-04-01-02' },
-          { t: 'Disponibilidad', st: 'Disponibilidad', s: 'p', href: 'sistema-diseno/componentes-estados/componentes-de-accion.html#s-04-01-03' } ] },
-      { n: '13', k: '04-02', t: 'Entradas', full: 'Controles de entrada', d: 'Campos, selectores, casillas, interruptores, fechas y archivos.', s: 'p', items: [
-          { t: 'Campos de texto', st: 'Campos de texto', s: 'p', href: 'sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-01' },
-          { t: 'Selectores', st: 'Selectores', s: 'p', href: 'sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-02' },
-          { t: 'Fechas', st: 'Fechas', s: 'p', href: 'sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-03' } ] },
+      { n: '12', k: '04-01', t: 'Acciones', full: 'Componentes de acción', d: 'Botones, enlaces, menús y sus estados de disponibilidad y proceso.', s: 'b', items: [
+          { t: 'Jerarquía', st: 'Jerarquía', s: 'b', href: 'sistema-diseno/componentes-estados/componentes-de-accion.html#s-04-01-01' },
+          { t: 'Estados', st: 'Estados', s: 'b', href: 'sistema-diseno/componentes-estados/componentes-de-accion.html#s-04-01-02' },
+          { t: 'Destructivas', st: 'Destructivas', s: 'b', href: 'sistema-diseno/componentes-estados/componentes-de-accion.html#s-04-01-03' },
+          { t: 'Menú de acciones', st: 'Menú de acciones', s: 'b', href: 'sistema-diseno/componentes-estados/componentes-de-accion.html#s-04-01-04' } ] },
+      { n: '13', k: '04-02', t: 'Entradas', full: 'Controles de entrada', d: 'Campos, selectores, casillas, interruptores, fechas y archivos.', s: 'b', items: [
+          { t: 'Etiquetas', st: 'Etiquetas', s: 'b', href: 'sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-01' },
+          { t: 'Validación', st: 'Validación', s: 'b', href: 'sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-02' },
+          { t: 'Control apropiado', st: 'Control apropiado', s: 'b', href: 'sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-03' } ] },
       { n: '14', k: '04-03', t: 'Estructura', full: 'Componentes de estructura', d: 'Pestañas, tablas, listas, contenedores y contenido expandible.', s: 'p', items: [
           { t: 'Pestañas', st: 'Pestañas', s: 'p', href: 'sistema-diseno/componentes-estados/componentes-de-estructura.html#s-04-03-01' },
           { t: 'Tablas', st: 'Tablas', s: 'p', href: 'sistema-diseno/componentes-estados/componentes-de-estructura.html#s-04-03-02' },
@@ -129,18 +130,19 @@ window.KEYONS_NAV = [
     cd: 'Componentes combinados para resolver tareas completas.',
     d: 'Define cómo se combinan los componentes para resolver tareas y procesos completos.',
     ch: [
-      { n: '16', k: '05-01', t: 'Formularios', full: 'Formularios y validaciones', d: 'Estructura, ayuda contextual, validación y formularios de varios pasos.', s: 'p', items: [
-          { t: 'Estructura y ayuda', st: 'Estructura y ayuda', s: 'p', href: 'sistema-diseno/patrones-interaccion/formularios-y-validaciones.html#s-05-01-01' },
-          { t: 'Validación', st: 'Validación', s: 'p', href: 'sistema-diseno/patrones-interaccion/formularios-y-validaciones.html#s-05-01-02' },
-          { t: 'Múltiples pasos', st: 'Múltiples pasos', s: 'p', href: 'sistema-diseno/patrones-interaccion/formularios-y-validaciones.html#s-05-01-03' } ] },
-      { n: '17', k: '05-02', t: 'Flujos de trabajo', full: 'Flujos de trabajo', d: 'Crear, editar, guardar, eliminar y continuar tareas sin perder trabajo.', s: 'p', items: [
-          { t: 'Creación', st: 'Creación', s: 'p', href: 'sistema-diseno/patrones-interaccion/flujos-de-trabajo.html#s-05-02-01' },
-          { t: 'Eliminación', st: 'Eliminación', s: 'p', href: 'sistema-diseno/patrones-interaccion/flujos-de-trabajo.html#s-05-02-02' },
-          { t: 'Borradores', st: 'Borradores', s: 'p', href: 'sistema-diseno/patrones-interaccion/flujos-de-trabajo.html#s-05-02-03' } ] },
-      { n: '18', k: '05-03', t: 'Recuperación', full: 'Estados y recuperación', d: 'Estados vacíos y de espera, reintentos, deshacer y errores.', s: 'p', items: [
-          { t: 'Estados vacíos', st: 'Estados vacíos', s: 'p', href: 'sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-01' },
-          { t: 'Reintentos', st: 'Reintentos', s: 'p', href: 'sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-02' },
-          { t: 'Errores', st: 'Errores', s: 'p', href: 'sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-03' } ] },
+      { n: '16', k: '05-01', t: 'Formularios', full: 'Formularios y validaciones', d: 'Estructura, ayuda contextual, validación y formularios de varios pasos.', s: 'b', items: [
+          { t: 'Flujo', st: 'Flujo', s: 'b', href: 'sistema-diseno/patrones-interaccion/formularios-y-validaciones.html#s-05-01-01' },
+          { t: 'Sin pérdidas', st: 'Sin pérdidas', s: 'b', href: 'sistema-diseno/patrones-interaccion/formularios-y-validaciones.html#s-05-01-02' },
+          { t: 'Validación', st: 'Validación', s: 'b', href: 'sistema-diseno/patrones-interaccion/formularios-y-validaciones.html#s-05-01-03' } ] },
+      { n: '17', k: '05-02', t: 'Flujos de trabajo', full: 'Flujos de trabajo', d: 'Crear, editar, guardar, eliminar y continuar tareas sin perder trabajo.', s: 'b', items: [
+          { t: 'Progreso', st: 'Progreso', s: 'b', href: 'sistema-diseno/patrones-interaccion/flujos-de-trabajo.html#s-05-02-01' },
+          { t: 'Contexto', st: 'Contexto', s: 'b', href: 'sistema-diseno/patrones-interaccion/flujos-de-trabajo.html#s-05-02-02' },
+          { t: 'Terminación', st: 'Terminación', s: 'b', href: 'sistema-diseno/patrones-interaccion/flujos-de-trabajo.html#s-05-02-03' } ] },
+      { n: '18', k: '05-03', t: 'Recuperación', full: 'Estados y recuperación', d: 'Estados vacíos y de espera, reintentos, deshacer y errores.', s: 'b', items: [
+          { t: 'Ruta de salida', st: 'Ruta de salida', s: 'b', href: 'sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-01' },
+          { t: 'Deshacer', st: 'Deshacer', s: 'b', href: 'sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-02' },
+          { t: 'Persistencia', st: 'Persistencia', s: 'b', href: 'sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-03' },
+          { t: 'Vacíos y esperas', st: 'Vacíos y esperas', s: 'b', href: 'sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-04' } ] },
       { n: '19', k: '05-04', t: 'Procesos críticos', full: 'Decisiones y operaciones sensibles', d: 'Confirmaciones de alto impacto, permisos y trazabilidad de acciones.', s: 'p', items: [
           { t: 'Confirmaciones', st: 'Confirmaciones', s: 'p', href: 'sistema-diseno/patrones-interaccion/decisiones-y-operaciones-sensibles.html#s-05-04-01' },
           { t: 'Permisos', st: 'Permisos', s: 'p', href: 'sistema-diseno/patrones-interaccion/decisiones-y-operaciones-sensibles.html#s-05-04-02' },

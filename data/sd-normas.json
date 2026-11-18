@@ -703,6 +703,244 @@
    "responsabilidad": "La retícula se adapta sin solapamientos ni pérdidas, con densidad y esquinas oficiales.",
    "cita": "",
    "corto": "Adaptación"
+  },
+  {
+   "id": "KYN-SDI-CPE-001",
+   "capitulo": "12",
+   "nombre": "Jerarquía de acciones",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/componentes-de-accion.html#s-04-01-01",
+   "origen": [
+    "Jerarquía (base)",
+    "Variantes y jerarquía (matriz)"
+   ],
+   "responsabilidad": "Las acciones principales, secundarias y destructivas se distinguen con consistencia.",
+   "cita": "",
+   "corto": "Jerarquía"
+  },
+  {
+   "id": "KYN-SDI-CPE-002",
+   "capitulo": "12",
+   "nombre": "Estados de los controles",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/componentes-de-accion.html#s-04-01-02",
+   "origen": [
+    "Estados (base)",
+    "Activación, foco, carga y deshabilitación (matriz)",
+    "Propuesta P5 de las UIX (siete estados)"
+   ],
+   "responsabilidad": "Los controles contemplan reposo, cursor encima, foco, presionado, carga, deshabilitado y activado.",
+   "cita": "",
+   "corto": "Estados"
+  },
+  {
+   "id": "KYN-SDI-CPE-003",
+   "capitulo": "12",
+   "nombre": "Acciones destructivas",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/componentes-de-accion.html#s-04-01-03",
+   "origen": [
+    "Acciones destructivas (base)",
+    "UIX-025"
+   ],
+   "responsabilidad": "Las acciones de alto impacto comunican consecuencias y aplican protección según el riesgo.",
+   "cita": "",
+   "corto": "Destructivas"
+  },
+  {
+   "id": "KYN-SDI-CPE-004",
+   "capitulo": "12",
+   "nombre": "Menú de acciones",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/componentes-de-accion.html#s-04-01-04",
+   "origen": [
+    "Menús (descripción del capítulo; requisito redactado por Claude)"
+   ],
+   "responsabilidad": "Las acciones ocasionales se agrupan en un menú accesible.",
+   "cita": "",
+   "corto": "Menú de acciones"
+  },
+  {
+   "id": "KYN-SDI-CPE-005",
+   "capitulo": "13",
+   "nombre": "Etiquetas identificables",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-01",
+   "origen": [
+    "Etiquetas identificables (base)",
+    "Etiqueta y formato esperado (matriz)"
+   ],
+   "responsabilidad": "Cada campo tiene etiqueta visible, ayuda cuando hace falta y asociaciones accesibles.",
+   "cita": "",
+   "corto": "Etiquetas"
+  },
+  {
+   "id": "KYN-SDI-CPE-006",
+   "capitulo": "13",
+   "nombre": "Validación útil",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-02",
+   "origen": [
+    "Validación útil (base)",
+    "Comportamiento de validación y recuperación (matriz)"
+   ],
+   "responsabilidad": "Los errores identifican el campo y explican cómo corregir, en el momento adecuado.",
+   "cita": "",
+   "corto": "Validación"
+  },
+  {
+   "id": "KYN-SDI-CPE-007",
+   "capitulo": "13",
+   "nombre": "Control apropiado",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-03",
+   "origen": [
+    "Control apropiado (base)",
+    "Campos, selectores, casillas, interruptores, fechas y archivos (descripción del capítulo)"
+   ],
+   "responsabilidad": "Cada dato usa el control que corresponde a su tipo y esfuerzo.",
+   "cita": "",
+   "corto": "Control apropiado"
+  },
+  {
+   "id": "KYN-SDI-PAT-001",
+   "capitulo": "16",
+   "nombre": "Flujo comprensible",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/formularios-y-validaciones.html#s-05-01-01",
+   "origen": [
+    "Flujo comprensible (base)",
+    "Agrupación comprensible y formularios multipaso (matriz)"
+   ],
+   "responsabilidad": "Los formularios agrupan campos y siguen la secuencia del proceso real.",
+   "cita": "",
+   "corto": "Flujo"
+  },
+  {
+   "id": "KYN-SDI-PAT-002",
+   "capitulo": "16",
+   "nombre": "Prevención de pérdidas",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/formularios-y-validaciones.html#s-05-01-02",
+   "origen": [
+    "Prevención de pérdidas (base)",
+    "UIX-025"
+   ],
+   "responsabilidad": "El sistema advierte o recupera ante el riesgo de perder lo escrito.",
+   "cita": "",
+   "corto": "Sin pérdidas"
+  },
+  {
+   "id": "KYN-SDI-PAT-003",
+   "capitulo": "16",
+   "nombre": "Validación proporcionada",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/formularios-y-validaciones.html#s-05-01-03",
+   "origen": [
+    "Validación proporcionada (base)"
+   ],
+   "responsabilidad": "La validación no interrumpe ni borra valores correctos.",
+   "cita": "13 Entradas (CPE-006) define cuándo y cómo se valida",
+   "corto": "Validación"
+  },
+  {
+   "id": "KYN-SDI-PAT-004",
+   "capitulo": "17",
+   "nombre": "Secuencia y progreso",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/flujos-de-trabajo.html#s-05-02-01",
+   "origen": [
+    "Secuencia y progreso (base)",
+    "UIX-031"
+   ],
+   "responsabilidad": "Los procesos de varios pasos comunican avance y lo necesario para continuar.",
+   "cita": "",
+   "corto": "Progreso"
+  },
+  {
+   "id": "KYN-SDI-PAT-005",
+   "capitulo": "17",
+   "nombre": "Contexto conservado",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/flujos-de-trabajo.html#s-05-02-02",
+   "origen": [
+    "Contexto conservado (base)",
+    "Continuidad del trabajo (ampliación del capítulo 02)"
+   ],
+   "responsabilidad": "El sistema conserva decisiones válidas al retroceder y el progreso al interrumpir.",
+   "cita": "",
+   "corto": "Contexto"
+  },
+  {
+   "id": "KYN-SDI-PAT-006",
+   "capitulo": "17",
+   "nombre": "Terminación clara",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/flujos-de-trabajo.html#s-05-02-03",
+   "origen": [
+    "Terminación clara (base)",
+    "Crear, editar, guardar y eliminar (descripción del capítulo)"
+   ],
+   "responsabilidad": "Cada proceso termina con su resultado y un siguiente paso; el ciclo de un registro es consistente.",
+   "cita": "",
+   "corto": "Terminación"
+  },
+  {
+   "id": "KYN-SDI-PAT-007",
+   "capitulo": "18",
+   "nombre": "Ruta de salida",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-01",
+   "origen": [
+    "Ruta de salida (base)",
+    "UIX-023",
+    "UIX-024"
+   ],
+   "responsabilidad": "Ante un error, la interfaz ofrece una alternativa viable o explica qué la impide.",
+   "cita": "24 Mensajes define la redacción del error",
+   "corto": "Ruta de salida"
+  },
+  {
+   "id": "KYN-SDI-PAT-008",
+   "capitulo": "18",
+   "nombre": "Reversibilidad",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-02",
+   "origen": [
+    "Reversibilidad (base)",
+    "UIX-025"
+   ],
+   "responsabilidad": "Las acciones reversibles ofrecen deshacer o restaurar.",
+   "cita": "Aplica Control de la persona (PEX-017)",
+   "corto": "Deshacer"
+  },
+  {
+   "id": "KYN-SDI-PAT-009",
+   "capitulo": "18",
+   "nombre": "Persistencia",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-03",
+   "origen": [
+    "Persistencia (base)"
+   ],
+   "responsabilidad": "Un fallo no elimina información válida que pueda conservarse con seguridad.",
+   "cita": "",
+   "corto": "Persistencia"
+  },
+  {
+   "id": "KYN-SDI-PAT-010",
+   "capitulo": "18",
+   "nombre": "Estados vacíos y de espera",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-04",
+   "origen": [
+    "Estados vacíos y de espera (matriz y descripción del capítulo; requisito redactado por Claude)",
+    "UIX-021",
+    "UIX-026"
+   ],
+   "responsabilidad": "Los estados vacíos explican y orientan; las esperas muestran que el sistema trabaja.",
+   "cita": "",
+   "corto": "Vacíos y esperas"
   }
  ]
 }

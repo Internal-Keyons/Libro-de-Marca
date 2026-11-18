@@ -3557,6 +3557,234 @@
    "estado": "aplicada",
    "nivel": "debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-001",
+   "fuente": "data/sd-capitulos/componentes-de-accion.html#s-04-01-01",
+   "bloque": 1,
+   "frase": "Las acciones principales y secundarias deben distinguirse de forma consistente dentro de cada grupo de decisión.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-002",
+   "fuente": "data/sd-capitulos/componentes-de-accion.html#s-04-01-02",
+   "bloque": 1,
+   "frase": "Los controles interactivos deben contemplar los estados aplicables: normal, hover cuando corresponda, foco, activación, carga y deshabilitado.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-002",
+   "fuente": "data/sd-capitulos/componentes-de-accion.html#s-04-01-02",
+   "bloque": 3,
+   "frase": "Si la persona necesita saber por qué no puede usarlo, se prefiere aria-disabled a disabled: el control sigue recibiendo el foco y su explicación se lee.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-CPE-003",
+   "fuente": "data/sd-capitulos/componentes-de-accion.html#s-04-01-03",
+   "bloque": 1,
+   "frase": "Las acciones de alto impacto deben comunicar sus consecuencias y aplicar la protección correspondiente a su riesgo.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-004",
+   "fuente": "data/sd-capitulos/componentes-de-accion.html#s-04-01-04",
+   "bloque": 1,
+   "frase": "Las acciones secundarias de un elemento pueden agruparse en un menú cuando son ocasionales o no caben.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-004",
+   "fuente": "data/sd-capitulos/componentes-de-accion.html#s-04-01-04",
+   "bloque": 2,
+   "frase": "El botón que abre el menú debe nombrar su función.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-005",
+   "fuente": "data/sd-capitulos/controles-de-entrada.html#s-04-02-01",
+   "bloque": 1,
+   "frase": "Cada campo debe tener una etiqueta que explique qué información solicita, independientemente del texto de ejemplo.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-005",
+   "fuente": "data/sd-capitulos/controles-de-entrada.html#s-04-02-01",
+   "bloque": 2,
+   "frase": "Se marca lo que es menos frecuente en el formulario: si casi todo es obligatorio, se marca «(opcional)».",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-CPE-005",
+   "fuente": "data/sd-capitulos/controles-de-entrada.html#s-04-02-01",
+   "bloque": 3,
+   "frase": "Muestra un valor posible; nunca reemplaza a la etiqueta ni a la ayuda.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-CPE-006",
+   "fuente": "data/sd-capitulos/controles-de-entrada.html#s-04-02-02",
+   "bloque": 1,
+   "frase": "Los errores de entrada deben identificar el campo afectado y explicar cómo corregir la información.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-007",
+   "fuente": "data/sd-capitulos/controles-de-entrada.html#s-04-02-03",
+   "bloque": 1,
+   "frase": "La selección de un control debería responder al tipo de dato y al esfuerzo que requiere introducirlo.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-007",
+   "fuente": "data/sd-capitulos/controles-de-entrada.html#s-04-02-03",
+   "bloque": 4,
+   "frase": "El valor se lee y se puede copiar, sin aspecto de campo editable.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PAT-001",
+   "fuente": "data/sd-capitulos/formularios-y-validaciones.html#s-05-01-01",
+   "bloque": 1,
+   "frase": "Los formularios deben agrupar campos relacionados y seguir una secuencia que corresponda al proceso real.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-001",
+   "fuente": "data/sd-capitulos/formularios-y-validaciones.html#s-05-01-01",
+   "bloque": 10,
+   "frase": "Cada dato del resumen se puede editar.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PAT-002",
+   "fuente": "data/sd-capitulos/formularios-y-validaciones.html#s-05-01-02",
+   "bloque": 1,
+   "frase": "Cuando exista riesgo de perder información introducida, el sistema debe ofrecer un mecanismo apropiado de recuperación o advertencia.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-003",
+   "fuente": "data/sd-capitulos/formularios-y-validaciones.html#s-05-01-03",
+   "bloque": 1,
+   "frase": "La validación no debe interrumpir innecesariamente la entrada ni provocar la eliminación de valores correctos.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-003",
+   "fuente": "data/sd-capitulos/formularios-y-validaciones.html#s-05-01-03",
+   "bloque": 3,
+   "frase": "Un error del servidor nunca borra lo que estaba bien.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PAT-004",
+   "fuente": "data/sd-capitulos/flujos-de-trabajo.html#s-05-02-01",
+   "bloque": 1,
+   "frase": "Los procesos de varios pasos deben comunicar su avance y las acciones necesarias para continuar.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-005",
+   "fuente": "data/sd-capitulos/flujos-de-trabajo.html#s-05-02-02",
+   "bloque": 1,
+   "frase": "El sistema debería conservar información y decisiones válidas cuando la persona retrocede o corrige un paso.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-005",
+   "fuente": "data/sd-capitulos/flujos-de-trabajo.html#s-05-02-02",
+   "bloque": 2,
+   "frase": "Cuando una tarea pueda interrumpirse, el producto debería conservar el progreso recuperable, respetando los requisitos de seguridad y privacidad.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-006",
+   "fuente": "data/sd-capitulos/flujos-de-trabajo.html#s-05-02-03",
+   "bloque": 1,
+   "frase": "Al finalizar, la interfaz debe indicar el resultado y ofrecer un destino o siguiente acción comprensible.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-007",
+   "fuente": "data/sd-capitulos/estados-y-recuperacion.html#s-05-03-01",
+   "bloque": 1,
+   "frase": "Ante un error que impide continuar, la interfaz debe ofrecer una alternativa viable o explicar claramente qué impide la recuperación.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-008",
+   "fuente": "data/sd-capitulos/estados-y-recuperacion.html#s-05-03-02",
+   "bloque": 1,
+   "frase": "Las acciones reversibles deberían ofrecer una opción de deshacer o restaurar cuando resulte técnica y funcionalmente apropiado.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-009",
+   "fuente": "data/sd-capitulos/estados-y-recuperacion.html#s-05-03-03",
+   "bloque": 1,
+   "frase": "Un fallo no debe eliminar información válida que pueda conservarse de forma segura.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-010",
+   "fuente": "data/sd-capitulos/estados-y-recuperacion.html#s-05-03-04",
+   "bloque": 1,
+   "frase": "Un estado vacío debe explicar por qué no hay contenido y ofrecer el siguiente paso.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-010",
+   "fuente": "data/sd-capitulos/estados-y-recuperacion.html#s-05-03-04",
+   "bloque": 2,
+   "frase": "Una espera debe indicar que el sistema está trabajando.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   }
  ]
 }

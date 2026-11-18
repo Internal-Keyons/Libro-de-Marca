@@ -547,7 +547,7 @@
    "t": "Componentes y estados",
    "slug": "componentes-estados",
    "d": "Define los componentes reutilizables y sus variantes. Aquí se documentan las piezas, mientras que los flujos completos pertenecen a Patrones de interacción.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "COL-014",
     "COL-015",
@@ -559,25 +559,35 @@
      "n": "04.01",
      "t": "Componentes de acción",
      "slug": "componentes-de-accion",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "04.01.01",
-       "t": "Botones y botones con icono",
-       "estado": "pendiente",
-       "st": "Botones"
+       "t": "Jerarquía de acciones",
+       "estado": "borrador",
+       "st": "Jerarquía",
+       "norma": "KYN-SDI-CPE-001"
       },
       {
        "n": "04.01.02",
-       "t": "Enlaces, menús y acciones",
-       "estado": "pendiente",
-       "st": "Enlaces"
+       "t": "Estados de los controles",
+       "estado": "borrador",
+       "st": "Estados",
+       "norma": "KYN-SDI-CPE-002"
       },
       {
        "n": "04.01.03",
-       "t": "Estados de disponibilidad y procesamiento",
-       "estado": "pendiente",
-       "st": "Disponibilidad"
+       "t": "Acciones destructivas",
+       "estado": "borrador",
+       "st": "Destructivas",
+       "norma": "KYN-SDI-CPE-003"
+      },
+      {
+       "n": "04.01.04",
+       "t": "Menú de acciones",
+       "estado": "borrador",
+       "st": "Menú de acciones",
+       "norma": "KYN-SDI-CPE-004"
       }
      ],
      "st": "Acciones",
@@ -588,25 +598,28 @@
      "n": "04.02",
      "t": "Controles de entrada",
      "slug": "controles-de-entrada",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "04.02.01",
-       "t": "Campos de texto y áreas de escritura",
-       "estado": "pendiente",
-       "st": "Campos de texto"
+       "t": "Etiquetas identificables",
+       "estado": "borrador",
+       "st": "Etiquetas",
+       "norma": "KYN-SDI-CPE-005"
       },
       {
        "n": "04.02.02",
-       "t": "Selectores, casillas, radios e interruptores",
-       "estado": "pendiente",
-       "st": "Selectores"
+       "t": "Validación útil",
+       "estado": "borrador",
+       "st": "Validación",
+       "norma": "KYN-SDI-CPE-006"
       },
       {
        "n": "04.02.03",
-       "t": "Fechas, archivos y entradas especializadas",
-       "estado": "pendiente",
-       "st": "Fechas"
+       "t": "Control apropiado",
+       "estado": "borrador",
+       "st": "Control apropiado",
+       "norma": "KYN-SDI-CPE-007"
       }
      ],
      "st": "Entradas",
@@ -681,7 +694,7 @@
    "t": "Patrones de interacción",
    "slug": "patrones-interaccion",
    "d": "Define cómo se combinan los componentes para resolver tareas y procesos completos.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "DIS-004",
     "DIS-005",
@@ -692,25 +705,28 @@
      "n": "05.01",
      "t": "Formularios y validaciones",
      "slug": "formularios-y-validaciones",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "05.01.01",
-       "t": "Estructura y ayuda contextual",
-       "estado": "pendiente",
-       "st": "Estructura y ayuda"
+       "t": "Flujo comprensible",
+       "estado": "borrador",
+       "st": "Flujo",
+       "norma": "KYN-SDI-PAT-001"
       },
       {
        "n": "05.01.02",
-       "t": "Validación y comunicación de errores",
-       "estado": "pendiente",
-       "st": "Validación"
+       "t": "Prevención de pérdidas",
+       "estado": "borrador",
+       "st": "Sin pérdidas",
+       "norma": "KYN-SDI-PAT-002"
       },
       {
        "n": "05.01.03",
-       "t": "Formularios de múltiples pasos",
-       "estado": "pendiente",
-       "st": "Múltiples pasos"
+       "t": "Validación proporcionada",
+       "estado": "borrador",
+       "st": "Validación",
+       "norma": "KYN-SDI-PAT-003"
       }
      ],
      "st": "Formularios",
@@ -721,25 +737,28 @@
      "n": "05.02",
      "t": "Flujos de trabajo",
      "slug": "flujos-de-trabajo",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "05.02.01",
-       "t": "Creación, edición y guardado",
-       "estado": "pendiente",
-       "st": "Creación"
+       "t": "Secuencia y progreso",
+       "estado": "borrador",
+       "st": "Progreso",
+       "norma": "KYN-SDI-PAT-004"
       },
       {
        "n": "05.02.02",
-       "t": "Eliminación y acciones masivas",
-       "estado": "pendiente",
-       "st": "Eliminación"
+       "t": "Contexto conservado",
+       "estado": "borrador",
+       "st": "Contexto",
+       "norma": "KYN-SDI-PAT-005"
       },
       {
        "n": "05.02.03",
-       "t": "Borradores y continuidad de tareas",
-       "estado": "pendiente",
-       "st": "Borradores"
+       "t": "Terminación clara",
+       "estado": "borrador",
+       "st": "Terminación",
+       "norma": "KYN-SDI-PAT-006"
       }
      ],
      "st": "Flujos de trabajo",
@@ -750,25 +769,35 @@
      "n": "05.03",
      "t": "Estados y recuperación",
      "slug": "estados-y-recuperacion",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "05.03.01",
-       "t": "Estados vacíos y de espera",
-       "estado": "pendiente",
-       "st": "Estados vacíos"
+       "t": "Ruta de salida",
+       "estado": "borrador",
+       "st": "Ruta de salida",
+       "norma": "KYN-SDI-PAT-007"
       },
       {
        "n": "05.03.02",
-       "t": "Reintentos, deshacer y recuperación",
-       "estado": "pendiente",
-       "st": "Reintentos"
+       "t": "Reversibilidad",
+       "estado": "borrador",
+       "st": "Deshacer",
+       "norma": "KYN-SDI-PAT-008"
       },
       {
        "n": "05.03.03",
-       "t": "Errores y continuidad operativa",
-       "estado": "pendiente",
-       "st": "Errores"
+       "t": "Persistencia",
+       "estado": "borrador",
+       "st": "Persistencia",
+       "norma": "KYN-SDI-PAT-009"
+      },
+      {
+       "n": "05.03.04",
+       "t": "Estados vacíos y de espera",
+       "estado": "borrador",
+       "st": "Vacíos y esperas",
+       "norma": "KYN-SDI-PAT-010"
       }
      ],
      "st": "Recuperación",
