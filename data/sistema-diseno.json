@@ -512,25 +512,28 @@
      "n": "03.05",
      "t": "Recursos visuales de interfaz",
      "slug": "recursos-visuales-de-interfaz",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "03.05.01",
-       "t": "Iconografía funcional",
-       "estado": "pendiente",
-       "st": "Iconografía funcional"
+       "t": "Iconos funcionales",
+       "estado": "borrador",
+       "st": "Íconos",
+       "norma": "KYN-SDI-FUI-015"
       },
       {
        "n": "03.05.02",
-       "t": "Bordes, sombras y elevación",
-       "estado": "pendiente",
-       "st": "Bordes"
+       "t": "Identidad visual",
+       "estado": "borrador",
+       "st": "Identidad",
+       "norma": "KYN-SDI-FUI-016"
       },
       {
        "n": "03.05.03",
-       "t": "Imágenes, degradados y texturas aplicadas",
-       "estado": "pendiente",
-       "st": "Imágenes"
+       "t": "Expresión proporcionada",
+       "estado": "borrador",
+       "st": "Expresión",
+       "norma": "KYN-SDI-FUI-017"
       }
      ],
      "st": "Recursos visuales",
@@ -630,25 +633,28 @@
      "n": "04.03",
      "t": "Componentes de estructura",
      "slug": "componentes-de-estructura",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "04.03.01",
-       "t": "Pestañas y componentes de navegación",
-       "estado": "pendiente",
-       "st": "Pestañas"
+       "t": "Contenedores con función",
+       "estado": "borrador",
+       "st": "Contenedores",
+       "norma": "KYN-SDI-CPE-008"
       },
       {
        "n": "04.03.02",
-       "t": "Tablas, listas y contenedores",
-       "estado": "pendiente",
-       "st": "Tablas"
+       "t": "Jerarquía estable",
+       "estado": "borrador",
+       "st": "Jerarquía",
+       "norma": "KYN-SDI-CPE-009"
       },
       {
        "n": "04.03.03",
-       "t": "Acordeones, árboles y contenido expandible",
-       "estado": "pendiente",
-       "st": "Acordeones"
+       "t": "Diálogos",
+       "estado": "borrador",
+       "st": "Diálogos",
+       "norma": "KYN-SDI-CPE-010"
       }
      ],
      "st": "Estructura",
@@ -659,25 +665,28 @@
      "n": "04.04",
      "t": "Retroalimentación y superposiciones",
      "slug": "retroalimentacion-y-superposiciones",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "04.04.01",
-       "t": "Alertas, notificaciones y etiquetas de estado",
-       "estado": "pendiente",
-       "st": "Alertas"
+       "t": "Resultado visible",
+       "estado": "borrador",
+       "st": "Resultado",
+       "norma": "KYN-SDI-CPE-011"
       },
       {
        "n": "04.04.02",
-       "t": "Diálogos, paneles y ventanas emergentes",
-       "estado": "pendiente",
-       "st": "Diálogos"
+       "t": "Mensajes pertinentes",
+       "estado": "borrador",
+       "st": "Mensajes",
+       "norma": "KYN-SDI-CPE-012"
       },
       {
        "n": "04.04.03",
-       "t": "Indicadores de progreso y carga",
-       "estado": "pendiente",
-       "st": "Progreso"
+       "t": "Atención proporcionada",
+       "estado": "borrador",
+       "st": "Atención",
+       "norma": "KYN-SDI-CPE-013"
       }
      ],
      "st": "Retroalimentación",
@@ -808,25 +817,21 @@
      "n": "05.04",
      "t": "Decisiones y operaciones sensibles",
      "slug": "decisiones-y-operaciones-sensibles",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "05.04.01",
-       "t": "Confirmaciones de alto impacto",
-       "estado": "pendiente",
-       "st": "Confirmaciones"
+       "t": "Autorización",
+       "estado": "borrador",
+       "st": "Autorización",
+       "norma": "KYN-SDI-PAT-011"
       },
       {
        "n": "05.04.02",
-       "t": "Permisos y autorizaciones humanas",
-       "estado": "pendiente",
-       "st": "Permisos"
-      },
-      {
-       "n": "05.04.03",
-       "t": "Trazabilidad visible de acciones",
-       "estado": "pendiente",
-       "st": "Trazabilidad visible"
+       "t": "Trazabilidad",
+       "estado": "borrador",
+       "st": "Trazabilidad",
+       "norma": "KYN-SDI-PAT-012"
       }
      ],
      "st": "Procesos críticos",
@@ -960,7 +965,7 @@
    "t": "Contenido y comunicación",
    "slug": "contenido-comunicacion",
    "d": "Aplica los principios de voz y claridad a los mensajes de las interfaces.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "VOZ-001",
     "VOZ-002",
@@ -973,25 +978,28 @@
      "n": "07.01",
      "t": "Escritura de interfaz",
      "slug": "escritura-de-interfaz",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "07.01.01",
-       "t": "Etiquetas y llamadas a la acción",
-       "estado": "pendiente",
-       "st": "Etiquetas"
+       "t": "Lenguaje funcional",
+       "estado": "borrador",
+       "st": "Lenguaje funcional",
+       "norma": "KYN-SDI-CNT-001"
       },
       {
        "n": "07.01.02",
-       "t": "Instrucciones y textos de ayuda",
-       "estado": "pendiente",
-       "st": "Instrucciones"
+       "t": "Consistencia",
+       "estado": "borrador",
+       "st": "Consistencia",
+       "norma": "KYN-SDI-CNT-002"
       },
       {
        "n": "07.01.03",
-       "t": "Brevedad, claridad y consistencia verbal",
-       "estado": "pendiente",
-       "st": "Brevedad"
+       "t": "Brevedad útil",
+       "estado": "borrador",
+       "st": "Brevedad",
+       "norma": "KYN-SDI-CNT-003"
       }
      ],
      "st": "Escritura",
@@ -1002,25 +1010,28 @@
      "n": "07.02",
      "t": "Mensajes del sistema",
      "slug": "mensajes-del-sistema",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "07.02.01",
-       "t": "Confirmaciones y mensajes de progreso",
-       "estado": "pendiente",
-       "st": "Confirmaciones"
+       "t": "Errores comprensibles",
+       "estado": "borrador",
+       "st": "Errores",
+       "norma": "KYN-SDI-CNT-004"
       },
       {
        "n": "07.02.02",
-       "t": "Errores y acciones de recuperación",
-       "estado": "pendiente",
-       "st": "Errores"
+       "t": "Confirmaciones específicas",
+       "estado": "borrador",
+       "st": "Confirmaciones",
+       "norma": "KYN-SDI-CNT-005"
       },
       {
        "n": "07.02.03",
-       "t": "Advertencias, límites y estados vacíos",
-       "estado": "pendiente",
-       "st": "Advertencias"
+       "t": "Información segura",
+       "estado": "borrador",
+       "st": "Seguridad",
+       "norma": "KYN-SDI-CNT-006"
       }
      ],
      "st": "Mensajes",
@@ -1031,25 +1042,28 @@
      "n": "07.03",
      "t": "Lenguaje y localización",
      "slug": "lenguaje-y-localizacion",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "07.03.01",
-       "t": "Terminología y lenguaje técnico",
-       "estado": "pendiente",
-       "st": "Terminología"
+       "t": "Lenguaje adecuado",
+       "estado": "borrador",
+       "st": "Lenguaje",
+       "norma": "KYN-SDI-CNT-007"
       },
       {
        "n": "07.03.02",
-       "t": "Español, inglés y adaptación regional",
-       "estado": "pendiente",
-       "st": "Idiomas y regiones"
+       "t": "Consistencia lingüística",
+       "estado": "borrador",
+       "st": "Traducción",
+       "norma": "KYN-SDI-CNT-008"
       },
       {
        "n": "07.03.03",
-       "t": "Voz y tono según identidad de producto",
-       "estado": "pendiente",
-       "st": "Voz y tono"
+       "t": "Espacio variable",
+       "estado": "borrador",
+       "st": "Espacio variable",
+       "norma": "KYN-SDI-CNT-009"
       }
      ],
      "st": "Localización",
@@ -1111,25 +1125,28 @@
      "n": "08.02",
      "t": "Gráficos de datos",
      "slug": "graficos-de-datos",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "08.02.01",
-       "t": "Selección del tipo de visualización",
-       "estado": "pendiente",
-       "st": "Tipo de gráfico"
+       "t": "Representación apropiada",
+       "estado": "borrador",
+       "st": "Representación",
+       "norma": "KYN-SDI-DAV-007"
       },
       {
        "n": "08.02.02",
-       "t": "Paletas categóricas, secuenciales y divergentes",
-       "estado": "pendiente",
-       "st": "Paletas categóricas"
+       "t": "Color de datos",
+       "estado": "borrador",
+       "st": "Color de datos",
+       "norma": "KYN-SDI-DAV-008"
       },
       {
        "n": "08.02.03",
-       "t": "Escalas, leyendas y accesibilidad de gráficos",
-       "estado": "pendiente",
-       "st": "Escalas"
+       "t": "Interpretación accesible",
+       "estado": "borrador",
+       "st": "Interpretación",
+       "norma": "KYN-SDI-DAV-009"
       }
      ],
      "st": "Gráficos",
@@ -1140,25 +1157,28 @@
      "n": "08.03",
      "t": "Indicadores y cifras",
      "slug": "indicadores-y-cifras",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "08.03.01",
-       "t": "Formatos numéricos, unidades y fechas",
-       "estado": "pendiente",
-       "st": "Formatos numéricos"
+       "t": "Contexto suficiente",
+       "estado": "borrador",
+       "st": "Contexto",
+       "norma": "KYN-SDI-DAV-010"
       },
       {
        "n": "08.03.02",
-       "t": "Variaciones, comparaciones y tendencias",
-       "estado": "pendiente",
-       "st": "Variaciones"
+       "t": "Estados fundamentados",
+       "estado": "borrador",
+       "st": "Umbrales",
+       "norma": "KYN-SDI-DAV-011"
       },
       {
        "n": "08.03.03",
-       "t": "Datos ausentes, inciertos o incompletos",
-       "estado": "pendiente",
-       "st": "Datos ausentes"
+       "t": "Actualización visible",
+       "estado": "borrador",
+       "st": "Actualización",
+       "norma": "KYN-SDI-DAV-012"
       }
      ],
      "st": "Indicadores",
@@ -1207,7 +1227,7 @@
    "t": "Experiencias con IA y Estela",
    "slug": "ia-estela",
    "d": "Define la interacción con IA. La identidad y personalidad de Estela se documentarán en el Libro de Marca; aquí se definirá cómo se aplican en productos.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "VOZ-005",
     "ADN-007",
@@ -1222,25 +1242,28 @@
      "n": "09.01",
      "t": "Principios de experiencia con IA",
      "slug": "principios-de-experiencia-con-ia",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "09.01.01",
-       "t": "Transparencia de capacidades y límites",
-       "estado": "pendiente",
-       "st": "Transparencia"
+       "t": "Transparencia",
+       "estado": "borrador",
+       "st": "Transparencia",
+       "norma": "KYN-SDI-IAE-001"
       },
       {
        "n": "09.01.02",
-       "t": "Incertidumbre, fuentes y verificación",
-       "estado": "pendiente",
-       "st": "Incertidumbre"
+       "t": "Incertidumbre",
+       "estado": "borrador",
+       "st": "Incertidumbre",
+       "norma": "KYN-SDI-IAE-002"
       },
       {
        "n": "09.01.03",
-       "t": "Control del usuario sobre la interacción",
-       "estado": "pendiente",
-       "st": "Control del usuario"
+       "t": "Control humano",
+       "estado": "borrador",
+       "st": "Control humano",
+       "norma": "KYN-SDI-IAE-003"
       }
      ],
      "st": "Principios de IA",
@@ -1251,25 +1274,28 @@
      "n": "09.02",
      "t": "Interfaz conversacional de Estela",
      "slug": "interfaz-conversacional-de-estela",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "09.02.01",
-       "t": "Aplicación de su identidad y personalidad",
-       "estado": "pendiente",
-       "st": "Identidad de Estela"
+       "t": "Contexto útil",
+       "estado": "borrador",
+       "st": "Contexto",
+       "norma": "KYN-SDI-IAE-004"
       },
       {
        "n": "09.02.02",
-       "t": "Mensajes, referencias y archivos",
-       "estado": "pendiente",
-       "st": "Mensajes"
+       "t": "Preguntas pertinentes",
+       "estado": "borrador",
+       "st": "Preguntas",
+       "norma": "KYN-SDI-IAE-005"
       },
       {
        "n": "09.02.03",
-       "t": "Historial, contexto y continuidad conversacional",
-       "estado": "pendiente",
-       "st": "Historial"
+       "t": "Respuesta accionable",
+       "estado": "borrador",
+       "st": "Respuesta",
+       "norma": "KYN-SDI-IAE-006"
       }
      ],
      "st": "Conversación",
@@ -1280,25 +1306,28 @@
      "n": "09.03",
      "t": "Agentes y ejecución de acciones",
      "slug": "agentes-y-ejecucion-de-acciones",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "09.03.01",
-       "t": "Orquestación y representación de agentes",
-       "estado": "pendiente",
-       "st": "Orquestación"
+       "t": "Responsabilidad identificable",
+       "estado": "borrador",
+       "st": "Responsabilidad",
+       "norma": "KYN-SDI-IAE-007"
       },
       {
        "n": "09.03.02",
-       "t": "Planificación y visualización de acciones",
-       "estado": "pendiente",
-       "st": "Planificación"
+       "t": "Límites de actuación",
+       "estado": "borrador",
+       "st": "Límites",
+       "norma": "KYN-SDI-IAE-008"
       },
       {
        "n": "09.03.03",
-       "t": "Confirmaciones, aprobaciones y registro de ejecución",
-       "estado": "pendiente",
-       "st": "Aprobaciones"
+       "t": "Identidad pública consistente",
+       "estado": "borrador",
+       "st": "Identidad",
+       "norma": "KYN-SDI-IAE-009"
       }
      ],
      "st": "Agentes",
@@ -1309,25 +1338,28 @@
      "n": "09.04",
      "t": "Seguridad y confianza en IA",
      "slug": "seguridad-y-confianza-en-ia",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "09.04.01",
-       "t": "Privacidad y control de acceso",
-       "estado": "pendiente",
-       "st": "Privacidad"
+       "t": "Confianza calibrada",
+       "estado": "borrador",
+       "st": "Confianza",
+       "norma": "KYN-SDI-IAE-010"
       },
       {
        "n": "09.04.02",
-       "t": "Errores, límites y escalamiento humano",
-       "estado": "pendiente",
-       "st": "Errores"
+       "t": "Verificación humana",
+       "estado": "borrador",
+       "st": "Verificación",
+       "norma": "KYN-SDI-IAE-011"
       },
       {
        "n": "09.04.03",
-       "t": "Diferenciación entre acciones automáticas y humanas",
-       "estado": "pendiente",
-       "st": "Acciones automáticas"
+       "t": "Privacidad",
+       "estado": "borrador",
+       "st": "Privacidad",
+       "norma": "KYN-SDI-IAE-012"
       }
      ],
      "st": "Confianza segura",
@@ -1357,25 +1389,28 @@
      "n": "10.01",
      "t": "Base compartida",
      "slug": "base-compartida",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "10.01.01",
-       "t": "Estándares UX comunes",
-       "estado": "pendiente",
-       "st": "Estándares UX"
+       "t": "Infraestructura común",
+       "estado": "borrador",
+       "st": "Infraestructura",
+       "norma": "KYN-SDI-SPR-005"
       },
       {
        "n": "10.01.02",
-       "t": "Reutilización de componentes",
-       "estado": "pendiente",
-       "st": "Reutilización"
+       "t": "Variaciones justificadas",
+       "estado": "borrador",
+       "st": "Variaciones",
+       "norma": "KYN-SDI-SPR-006"
       },
       {
        "n": "10.01.03",
-       "t": "Herencia y variación de temas visuales",
-       "estado": "pendiente",
-       "st": "Herencia de temas"
+       "t": "Compatibilidad",
+       "estado": "borrador",
+       "st": "Compatibilidad",
+       "norma": "KYN-SDI-SPR-007"
       }
      ],
      "st": "Base compartida",
@@ -1386,25 +1421,21 @@
      "n": "10.02",
      "t": "Sitio web corporativo Keyons",
      "slug": "sitio-web-corporativo-keyons",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "10.02.01",
-       "t": "Aplicación funcional de la identidad corporativa",
-       "estado": "pendiente",
-       "st": "Aplicación funcional"
+       "t": "Navegación y propósito",
+       "estado": "borrador",
+       "st": "Navegación",
+       "norma": "KYN-SDI-SPR-008"
       },
       {
        "n": "10.02.02",
-       "t": "Navegación y composición web",
-       "estado": "pendiente",
-       "st": "Navegación"
-      },
-      {
-       "n": "10.02.03",
-       "t": "Interacciones y acciones públicas",
-       "estado": "pendiente",
-       "st": "Interacciones"
+       "t": "Interacción accesible",
+       "estado": "borrador",
+       "st": "Interacción",
+       "norma": "KYN-SDI-SPR-009"
       }
      ],
      "st": "Sitio web",
@@ -1415,25 +1446,21 @@
      "n": "10.03",
      "t": "Herramientas internas Keyons",
      "slug": "herramientas-internas-keyons",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "10.03.01",
-       "t": "Identidad visual operativa Keyons",
-       "estado": "pendiente",
-       "st": "Identidad visual"
+       "t": "Eficiencia operativa",
+       "estado": "borrador",
+       "st": "Eficiencia",
+       "norma": "KYN-SDI-SPR-010"
       },
       {
        "n": "10.03.02",
-       "t": "Navegación por roles y tareas",
-       "estado": "pendiente",
-       "st": "Navegación por roles"
-      },
-      {
-       "n": "10.03.03",
-       "t": "Densidad informativa y espacios de trabajo",
-       "estado": "pendiente",
-       "st": "Densidad informativa"
+       "t": "Permisos y contexto",
+       "estado": "borrador",
+       "st": "Permisos",
+       "norma": "KYN-SDI-SPR-011"
       }
      ],
      "st": "Herramientas",
@@ -1483,25 +1510,28 @@
      "n": "10.05",
      "t": "Soluciones personalizadas y white-label",
      "slug": "soluciones-personalizadas-y-white-label",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "10.05.01",
-       "t": "Aplicación de identidades de clientes",
-       "estado": "pendiente",
-       "st": "Identidades"
+       "t": "Identidad del cliente",
+       "estado": "borrador",
+       "st": "Identidad",
+       "norma": "KYN-SDI-SPR-012"
       },
       {
        "n": "10.05.02",
-       "t": "Marca blanca sin firma visual del proveedor",
-       "estado": "pendiente",
-       "st": "Marca blanca"
+       "t": "Calidad funcional",
+       "estado": "borrador",
+       "st": "Calidad",
+       "norma": "KYN-SDI-SPR-013"
       },
       {
        "n": "10.05.03",
-       "t": "Límites de personalización y consistencia funcional",
-       "estado": "pendiente",
-       "st": "Límites"
+       "t": "Ausencia de firma",
+       "estado": "borrador",
+       "st": "Sin firma",
+       "norma": "KYN-SDI-SPR-014"
       }
      ],
      "st": "White-label",
@@ -1518,7 +1548,7 @@
    "t": "Movimiento e interacción sensorial",
    "slug": "movimiento-sensorial",
    "d": "Regula el movimiento y los recursos sensoriales, sin convertirlos en requisitos decorativos.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "ICO-004",
     "ILU-006",
@@ -1533,25 +1563,21 @@
      "n": "11.01",
      "t": "Movimiento operativo",
      "slug": "movimiento-operativo",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "11.01.01",
-       "t": "Transiciones funcionales",
-       "estado": "pendiente",
-       "st": "Transiciones"
+       "t": "Movimiento funcional",
+       "estado": "borrador",
+       "st": "Funcional",
+       "norma": "KYN-SDI-MOV-001"
       },
       {
        "n": "11.01.02",
-       "t": "Retroalimentación y progreso",
-       "estado": "pendiente",
-       "st": "Retroalimentación"
-      },
-      {
-       "n": "11.01.03",
-       "t": "Interrupciones y límites del movimiento",
-       "estado": "pendiente",
-       "st": "Interrupciones"
+       "t": "Duración proporcionada",
+       "estado": "borrador",
+       "st": "Duración",
+       "norma": "KYN-SDI-MOV-002"
       }
      ],
      "st": "Operación activa",
@@ -1562,25 +1588,21 @@
      "n": "11.02",
      "t": "Movimiento editorial",
      "slug": "movimiento-editorial",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "11.02.01",
-       "t": "Entradas y cambios de escena",
-       "estado": "pendiente",
-       "st": "Entradas"
+       "t": "Expresión con propósito",
+       "estado": "borrador",
+       "st": "Expresión",
+       "norma": "KYN-SDI-MOV-003"
       },
       {
        "n": "11.02.02",
-       "t": "Movimiento atmosférico y expresivo",
-       "estado": "pendiente",
-       "st": "Atmósfera"
-      },
-      {
-       "n": "11.02.03",
-       "t": "Intensidad y adaptación al contexto",
-       "estado": "pendiente",
-       "st": "Intensidad"
+       "t": "Comprensión independiente",
+       "estado": "borrador",
+       "st": "Comprensión",
+       "norma": "KYN-SDI-MOV-004"
       }
      ],
      "st": "Movimiento editorial",
@@ -1591,25 +1613,28 @@
      "n": "11.03",
      "t": "Interacción multisensorial",
      "slug": "interaccion-multisensorial",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "11.03.01",
-       "t": "Sonido y control de reproducción",
-       "estado": "pendiente",
-       "st": "Sonido"
+       "t": "Sonido",
+       "estado": "borrador",
+       "st": "Sonido",
+       "norma": "KYN-SDI-MOV-005"
       },
       {
        "n": "11.03.02",
-       "t": "Respuesta háptica",
-       "estado": "pendiente",
-       "st": "Respuesta háptica"
+       "t": "Háptica",
+       "estado": "borrador",
+       "st": "Háptica",
+       "norma": "KYN-SDI-MOV-006"
       },
       {
        "n": "11.03.03",
-       "t": "Atajos de teclado y convenciones del sistema operativo",
-       "estado": "pendiente",
-       "st": "Atajos de teclado"
+       "t": "Alternativas",
+       "estado": "borrador",
+       "st": "Alternativas",
+       "norma": "KYN-SDI-MOV-007"
       }
      ],
      "st": "Multisensorial",
@@ -1640,25 +1665,21 @@
      "n": "12.01",
      "t": "Gobierno normativo",
      "slug": "gobierno-normativo",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "12.01.01",
-       "t": "Propiedad y fuente oficial de cada norma",
-       "estado": "pendiente",
-       "st": "Propiedad"
+       "t": "Fuente única",
+       "estado": "borrador",
+       "st": "Fuente única",
+       "norma": "KYN-SDI-GOB-004"
       },
       {
        "n": "12.01.02",
-       "t": "Identificadores y referencias permanentes",
-       "estado": "pendiente",
-       "st": "Identificadores"
-      },
-      {
-       "n": "12.01.03",
-       "t": "Aprobación, cambios y descontinuación",
-       "estado": "pendiente",
-       "st": "Aprobación"
+       "t": "Estado visible",
+       "estado": "borrador",
+       "st": "Estado",
+       "norma": "KYN-SDI-GOB-005"
       }
      ],
      "st": "Gobierno normativo",
@@ -1669,25 +1690,28 @@
      "n": "12.02",
      "t": "Implementación técnica",
      "slug": "implementacion-tecnica",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "12.02.01",
-       "t": "Traducción de tokens y componentes a código",
-       "estado": "pendiente",
-       "st": "Traducción de tokens"
+       "t": "Uso de componentes canónicos",
+       "estado": "borrador",
+       "st": "Canónicos",
+       "norma": "KYN-SDI-GOB-006"
       },
       {
        "n": "12.02.02",
-       "t": "Especificaciones para desarrollo",
-       "estado": "pendiente",
-       "st": "Especificaciones"
+       "t": "Excepciones justificadas",
+       "estado": "borrador",
+       "st": "Excepciones",
+       "norma": "KYN-SDI-GOB-007"
       },
       {
        "n": "12.02.03",
-       "t": "Compatibilidad, mantenimiento y versiones",
-       "estado": "pendiente",
-       "st": "Compatibilidad"
+       "t": "Entrega comprobable",
+       "estado": "borrador",
+       "st": "Entrega",
+       "norma": "KYN-SDI-GOB-008"
       }
      ],
      "st": "Implementación",
@@ -1730,25 +1754,28 @@
      "n": "12.04",
      "t": "Documentación y consulta",
      "slug": "documentacion-y-consulta",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "12.04.01",
-       "t": "Catálogo y relaciones entre normas",
-       "estado": "pendiente",
-       "st": "Catálogo"
+       "t": "Componentes documentados",
+       "estado": "borrador",
+       "st": "Componentes",
+       "norma": "KYN-SDI-GOB-009"
       },
       {
        "n": "12.04.02",
-       "t": "Exportación para personas y sistemas de IA",
-       "estado": "pendiente",
-       "st": "Exportación para IA"
+       "t": "Ejemplos funcionales",
+       "estado": "borrador",
+       "st": "Ejemplos",
+       "norma": "KYN-SDI-GOB-010"
       },
       {
        "n": "12.04.03",
-       "t": "Consulta autorizada y permisos documentales",
-       "estado": "pendiente",
-       "st": "Consulta autorizada"
+       "t": "Versionado",
+       "estado": "borrador",
+       "st": "Versionado",
+       "norma": "KYN-SDI-GOB-011"
       }
      ],
      "st": "Documentación",

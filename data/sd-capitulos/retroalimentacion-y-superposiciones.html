@@ -1,0 +1,46 @@
+    <!-- Capítulo 15 · generado por tools/sd_capitulos.py (tools/sd/). No se edita a mano. Borrador. -->
+    <!-- KYN-SDI-CPE-011 · Resultado visible -->
+    <section class="ed" id="s-04-04-01">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-CPE-011" data-copy-msg="ID copiado · KYN-SDI-CPE-011" title="Copiar el ID de esta norma">KYN-SDI-CPE-011</span><span>Resultado visible</span></div>
+      <div>
+        <h2 class="ed__title">Cada cambio muestra su resultado</h2>
+        <p class="ed__lead">La persona <strong>ve que lo hecho quedó hecho</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Las acciones que modifican información DEBEN comunicar su resultado o estado de procesamiento.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="matrix" role="table" aria-label="Componentes de respuesta"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span><span class="matrix__lvl" role="columnheader">Cuándo<small></small></span><span class="matrix__lvl" role="columnheader">Anuncio<small></small></span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">En línea</span><span class="matrix__v" role="cell">Resultado junto al elemento: «Guardado».</span><span class="matrix__v" role="cell">role="status"</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Aviso breve</span><span class="matrix__v" role="cell">Confirmación que no bloquea, con Deshacer si aplica.</span><span class="matrix__v" role="cell">role="status"; se mantiene si tiene foco o cursor encima</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Banner</span><span class="matrix__v" role="cell">Estado que afecta a toda la pantalla.</span><span class="matrix__v" role="cell">role="status" o role="alert" si es urgente</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Progreso</span><span class="matrix__v" role="cell">Procesos largos: barra con porcentaje o pasos.</span><span class="matrix__v" role="cell">progressbar con su valor</span></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Cuatro casos</dt><dd>Éxito, espera, fallo y repetición de la acción. Resultado esperado: cada uno se ve y se anuncia.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-CPE-012 · Mensajes pertinentes -->
+    <section class="ed" id="s-04-04-02">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-CPE-012" data-copy-msg="ID copiado · KYN-SDI-CPE-012" title="Copiar el ID de esta norma">KYN-SDI-CPE-012</span><span>Mensajes pertinentes</span></div>
+      <div>
+        <h2 class="ed__title">La respuesta dice lo que realmente pasó</h2>
+        <p class="ed__lead">Un mensaje concreto <strong>evita la duda</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">La retroalimentación DEBE explicar lo ocurrido sin utilizar mensajes genéricos que impidan comprender el estado real.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="ed__stack"><div><span class="paren">(Concreto)</span><p>«Cliente Ana Mora registrado» en lugar de «Éxito».</p></div><div><span class="paren">(Redacción)</span><p>Según <a class="xref" href="../contenido-comunicacion/mensajes-del-sistema.html">24 Mensajes</a>.</p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Mensajes</dt><dd>Ningún mensaje de respuesta es genérico: cada uno nombra el objeto y el resultado.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-CPE-013 · Atención proporcionada -->
+    <section class="ed" id="s-04-04-03">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-CPE-013" data-copy-msg="ID copiado · KYN-SDI-CPE-013" title="Copiar el ID de esta norma">KYN-SDI-CPE-013</span><span>Atención proporcionada</span></div>
+      <div>
+        <h2 class="ed__title">Cada aviso pide la atención que merece</h2>
+        <p class="ed__lead">Interrumpir <strong>solo lo urgente</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Las notificaciones DEBERÍAN diferenciarse según urgencia y consecuencias, evitando interrumpir tareas por eventos menores.⁠<span class="nvl nvl--fin" data-lvl="deberia" role="img" aria-label="Nivel: Debería"><i class="nvl__m nvl__m--deberia" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="matrix" role="table" aria-label="Niveles de urgencia (desde UIX-030 y UIX-046, unidas)"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span><span class="matrix__lvl" role="columnheader">Qué es<small></small></span><span class="matrix__lvl" role="columnheader">Cómo avisa<small></small></span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Bajo</span><span class="matrix__v" role="cell">Confirmaciones de rutina.</span><span class="matrix__v" role="cell">Cambio en el lugar o aviso breve.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Medio</span><span class="matrix__v" role="cell">Algo que conviene revisar pronto.</span><span class="matrix__v" role="cell">Banner o contador en la navegación.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Alto</span><span class="matrix__v" role="cell">Algo que pide acción hoy.</span><span class="matrix__v" role="cell">Banner persistente y notificación.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Crítico</span><span class="matrix__v" role="cell">Riesgo o bloqueo inmediato.</span><span class="matrix__v" role="cell">Diálogo o alerta que interrumpe.</span></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Escalada</dt><dd>Ningún evento sube de nivel solo para «asegurar que se vea».</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- Ejemplo de aplicación -->
+    <section class="ed" id="ejemplo">
+      <div class="ed__label"><span>15</span><span>Ejemplo de aplicación</span></div>
+      <div>
+        <h2 class="ed__title">Después de guardar</h2>
+        <p class="ed__lead">Después de guardar, la persona <strong>reconoce que el cambio se registró</strong>. Si falló, entiende qué debe hacer.</p>
+        <div class="ed__stack"><div><span class="paren">(Verificación del capítulo)</span><p>Se prueban éxito, espera, fallo y repetición de acciones.</p></div></div>
+      </div>
+    </section>

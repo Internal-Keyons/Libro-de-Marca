@@ -59,6 +59,9 @@ Generada por `tools/sd_capitulos.py` desde `data/sd-normas.json` (fuente única 
 | KYN-SDI-FUI-012 | 10 | Espaciado compartido | borrador | Espaciado compartido (base) | Los componentes usan la escala espacial oficial. | — |
 | KYN-SDI-FUI-013 | 10 | Agrupación semántica | borrador | Agrupación semántica (base) | La proximidad refleja la relación funcional. | — |
 | KYN-SDI-FUI-014 | 10 | Composición adaptable | borrador | Composición adaptable (base) · Densidad y esquinas (descripción del capítulo) · UIX-029 | La retícula se adapta sin solapamientos ni pérdidas, con densidad y esquinas oficiales. | — |
+| KYN-SDI-FUI-015 | 11 | Iconos funcionales | borrador | Iconos funcionales (base) | Cada ícono identifica una acción, estado, categoría o significado. | — |
+| KYN-SDI-FUI-016 | 11 | Identidad visual | borrador | Identidad visual (base) | Los recursos gráficos aplican las normas oficiales de la marca. | — |
+| KYN-SDI-FUI-017 | 11 | Expresión proporcionada | borrador | Expresión proporcionada (base) | Los recursos expresivos no compiten con tareas ni información esencial. | Desarrolla PEX-001 (01) para los recursos gráficos |
 | KYN-SDI-CPE-001 | 12 | Jerarquía de acciones | borrador | Jerarquía (base) · Variantes y jerarquía (matriz) | Las acciones principales, secundarias y destructivas se distinguen con consistencia. | — |
 | KYN-SDI-CPE-002 | 12 | Estados de los controles | borrador | Estados (base) · Activación, foco, carga y deshabilitación (matriz) · Propuesta P5 de las UIX (siete estados) | Los controles contemplan reposo, cursor encima, foco, presionado, carga, deshabilitado y activado. | — |
 | KYN-SDI-CPE-003 | 12 | Acciones destructivas | borrador | Acciones destructivas (base) · UIX-025 | Las acciones de alto impacto comunican consecuencias y aplican protección según el riesgo. | — |
@@ -66,6 +69,12 @@ Generada por `tools/sd_capitulos.py` desde `data/sd-normas.json` (fuente única 
 | KYN-SDI-CPE-005 | 13 | Etiquetas identificables | borrador | Etiquetas identificables (base) · Etiqueta y formato esperado (matriz) | Cada campo tiene etiqueta visible, ayuda cuando hace falta y asociaciones accesibles. | — |
 | KYN-SDI-CPE-006 | 13 | Validación útil | borrador | Validación útil (base) · Comportamiento de validación y recuperación (matriz) | Los errores identifican el campo y explican cómo corregir, en el momento adecuado. | — |
 | KYN-SDI-CPE-007 | 13 | Control apropiado | borrador | Control apropiado (base) · Campos, selectores, casillas, interruptores, fechas y archivos (descripción del capítulo) | Cada dato usa el control que corresponde a su tipo y esfuerzo. | — |
+| KYN-SDI-CPE-008 | 14 | Contenedores con función | borrador | Contenedores con función (base) | Paneles, pestañas, acordeones y diálogos se usan cuando facilitan la tarea. | — |
+| KYN-SDI-CPE-009 | 14 | Jerarquía estable | borrador | Jerarquía estable (base) | El contenido no se fragmenta en contenedores sin razón. | — |
+| KYN-SDI-CPE-010 | 14 | Diálogos | borrador | Diálogos (base) | Los diálogos presentan propósito, acciones y salida, con foco gestionado. | — |
+| KYN-SDI-CPE-011 | 15 | Resultado visible | borrador | Resultado visible (base) · UIX-027 | Las acciones que modifican información comunican su resultado o su proceso. | Desarrolla PEX-004 (01) en componentes |
+| KYN-SDI-CPE-012 | 15 | Mensajes pertinentes | borrador | Mensajes pertinentes (base) | La retroalimentación explica el estado real, sin mensajes genéricos. | 24 Mensajes define la redacción |
+| KYN-SDI-CPE-013 | 15 | Atención proporcionada | borrador | Atención proporcionada (base) · UIX-030 · UIX-046 | Las notificaciones se diferencian por urgencia y no interrumpen por eventos menores. | — |
 | KYN-SDI-PAT-001 | 16 | Flujo comprensible | borrador | Flujo comprensible (base) · Agrupación comprensible y formularios multipaso (matriz) | Los formularios agrupan campos y siguen la secuencia del proceso real. | — |
 | KYN-SDI-PAT-002 | 16 | Prevención de pérdidas | borrador | Prevención de pérdidas (base) · UIX-025 | El sistema advierte o recupera ante el riesgo de perder lo escrito. | — |
 | KYN-SDI-PAT-003 | 16 | Validación proporcionada | borrador | Validación proporcionada (base) | La validación no interrumpe ni borra valores correctos. | 13 Entradas (CPE-006) define cuándo y cómo se valida |
@@ -76,6 +85,8 @@ Generada por `tools/sd_capitulos.py` desde `data/sd-normas.json` (fuente única 
 | KYN-SDI-PAT-008 | 18 | Reversibilidad | borrador | Reversibilidad (base) · UIX-025 | Las acciones reversibles ofrecen deshacer o restaurar. | Aplica Control de la persona (PEX-017) |
 | KYN-SDI-PAT-009 | 18 | Persistencia | borrador | Persistencia (base) | Un fallo no elimina información válida que pueda conservarse con seguridad. | — |
 | KYN-SDI-PAT-010 | 18 | Estados vacíos y de espera | borrador | Estados vacíos y de espera (matriz y descripción del capítulo; requisito redactado por Claude) · UIX-021 · UIX-026 | Los estados vacíos explican y orientan; las esperas muestran que el sistema trabaja. | — |
+| KYN-SDI-PAT-011 | 19 | Autorización | borrador | Autorización (base) · Consecuencias claras (base; integrada en PEX-006) · UIX-014 | Las operaciones críticas comprueban permisos y piden la confirmación que corresponde al riesgo. | — |
+| KYN-SDI-PAT-012 | 19 | Trazabilidad | borrador | Trazabilidad (base) | Las operaciones críticas quedan registradas con su autorización. | — |
 | KYN-SDI-ACC-001 | 20 | Referencia de conformidad | borrador | Referencia de conformidad (base) · UIX-038 | Los productos web se diseñan y verifican con WCAG 2.2 AA como mínimo. | — |
 | KYN-SDI-ACC-002 | 20 | Información perceptible | borrador | Información perceptible (base) | El significado no depende de un único recurso sensorial. | 08 Color funcional (FUI-007) fija los mínimos de contraste |
 | KYN-SDI-ACC-003 | 20 | Lectura adaptable | borrador | Lectura adaptable (base) | La interfaz conserva contenido y funciones con ampliación y ajustes de texto. | 09 Tipografía (FUI-010) desarrolla las decisiones de texto |
@@ -85,16 +96,68 @@ Generada por `tools/sd_capitulos.py` desde `data/sd-normas.json` (fuente única 
 | KYN-SDI-ACC-007 | 22 | Diseño adaptable | borrador | Diseño adaptable (base) | Las pantallas se reorganizan sin eliminar funciones esenciales. | — |
 | KYN-SDI-ACC-008 | 22 | Interacciones accesibles | borrador | Interacciones accesibles (base) · UIX-038 · UIX-039 (44 px, revisado) | Los objetivos cumplen el tamaño y la separación de WCAG 2.2 AA; 44 px es una preferencia por aprobar. | — |
 | KYN-SDI-ACC-009 | 22 | Variaciones de uso | borrador | Variaciones de uso (base) · Preferencias del sistema y distintas capacidades (descripción del capítulo) · UIX-039 | Las experiencias consideran dispositivos, métodos de entrada, preferencias y condiciones. | — |
+| KYN-SDI-CNT-001 | 23 | Lenguaje funcional | borrador | Lenguaje funcional (base) · UIX-041 · UIX-040 | Instrucciones y etiquetas dicen qué hacer y qué resultado esperar. | — |
+| KYN-SDI-CNT-002 | 23 | Consistencia | borrador | Consistencia (base) | Cada acción o concepto usa una sola denominación. | — |
+| KYN-SDI-CNT-003 | 23 | Brevedad útil | borrador | Brevedad útil (base) | Los textos son tan breves como permite la comprensión. | — |
+| KYN-SDI-CNT-004 | 24 | Errores comprensibles | borrador | Errores comprensibles (base) · UIX-024 | Los errores explican qué pasó y cómo continuar. | — |
+| KYN-SDI-CNT-005 | 24 | Confirmaciones específicas | borrador | Confirmaciones específicas (base) | Las confirmaciones describen el resultado real. | — |
+| KYN-SDI-CNT-006 | 24 | Información segura | borrador | Información segura (base) | Los mensajes no exponen información técnica sensible ni datos restringidos. | — |
+| KYN-SDI-CNT-007 | 25 | Lenguaje adecuado | borrador | Lenguaje adecuado (base) · Convenciones de escritura (reglas de voz) | Las localizaciones adaptan idioma, formatos, unidades y convenciones. | — |
+| KYN-SDI-CNT-008 | 25 | Consistencia lingüística | borrador | Consistencia lingüística (base) | Las traducciones conservan el significado funcional. | — |
+| KYN-SDI-CNT-009 | 25 | Espacio variable | borrador | Espacio variable (base) | Los componentes toleran textos de distinta longitud entre idiomas. | — |
 | KYN-SDI-DAV-001 | 26 | Lectura y comparación | borrador | Lectura y comparación (base) · UIX-037 | Las tablas tienen encabezados, alineación y organización para comparar. | — |
 | KYN-SDI-DAV-002 | 26 | Herramientas proporcionadas | borrador | Herramientas proporcionadas (base) | Búsqueda, filtros, orden y paginación se ajustan al volumen y la tarea. | — |
 | KYN-SDI-DAV-003 | 26 | Acciones identificables | borrador | Acciones identificables (base) | Las acciones por registro se distinguen de los valores y respetan permisos. | — |
+| KYN-SDI-DAV-007 | 27 | Representación apropiada | borrador | Representación apropiada (base) | El tipo de gráfico corresponde a la relación que comunica. | — |
+| KYN-SDI-DAV-008 | 27 | Color de datos | borrador | Color de datos (base) | Los gráficos usan las paletas oficiales según sus datos. | — |
+| KYN-SDI-DAV-009 | 27 | Interpretación accesible | borrador | Interpretación accesible (base) | Los gráficos no dependen del color y muestran unidades y escalas. | — |
+| KYN-SDI-DAV-010 | 28 | Contexto suficiente | borrador | Contexto suficiente (base) | Cada indicador muestra significado, unidad, período y referencia. | — |
+| KYN-SDI-DAV-011 | 28 | Estados fundamentados | borrador | Estados fundamentados (base) | Umbrales y colores de evaluación responden a criterios definidos. | — |
+| KYN-SDI-DAV-012 | 28 | Actualización visible | borrador | Actualización visible (base) | La información muestra cuándo se actualizó cuando su vigencia importa. | — |
 | KYN-SDI-DAV-004 | 29 | Diseño por tarea | borrador | Diseño por tarea (base) | Los tableros priorizan la información para las decisiones de sus usuarios. | — |
 | KYN-SDI-DAV-005 | 29 | Jerarquía informativa | borrador | Jerarquía informativa (base) | Los indicadores reciben protagonismo según su importancia operativa. | Aplica 04 Jerarquía identificable (ARQ-003) |
 | KYN-SDI-DAV-006 | 29 | Profundidad de consulta | borrador | Profundidad de consulta (base) · Exploración y exportación (descripción del capítulo) · UIX-037 | El tablero lleva a vistas detalladas, filtros y exportación cuando la tarea lo necesita. | — |
+| KYN-SDI-IAE-001 | 30 | Transparencia | borrador | Transparencia (base) · UIX-017 | Se distingue lo que proviene de la IA cuando afecta la decisión. | — |
+| KYN-SDI-IAE-002 | 30 | Incertidumbre | borrador | Incertidumbre (base) · UIX-016 · UIX-018 | La información generada sin comprobar no aparece como verificada. | — |
+| KYN-SDI-IAE-003 | 30 | Control humano | borrador | Control humano (base) · UIX-014 · UIX-015 | Las decisiones automatizadas tienen la supervisión que corresponde a su riesgo. | — |
+| KYN-SDI-IAE-004 | 31 | Contexto útil | borrador | Contexto útil (base) · UIX-034 · UIX-035 | La conversación conserva el contexto necesario dentro de permisos y privacidad. | — |
+| KYN-SDI-IAE-005 | 31 | Preguntas pertinentes | borrador | Preguntas pertinentes (base) | Estela solo pide la información necesaria para avanzar. | — |
+| KYN-SDI-IAE-006 | 31 | Respuesta accionable | borrador | Respuesta accionable (base) · UIX-042 · UIX-043 | Las respuestas distinguen información, recomendaciones y acciones ejecutables. | — |
+| KYN-SDI-IAE-007 | 32 | Responsabilidad identificable | borrador | Responsabilidad identificable (base) | Las acciones de los agentes son comprensibles y registradas. | — |
+| KYN-SDI-IAE-008 | 32 | Límites de actuación | borrador | Límites de actuación (base) | Los agentes actúan solo dentro de sus permisos. | — |
+| KYN-SDI-IAE-009 | 32 | Identidad pública consistente | borrador | Identidad pública consistente (base) | Estela es la identidad pública de las capacidades coordinadas. | — |
+| KYN-SDI-IAE-010 | 33 | Confianza calibrada | borrador | Confianza calibrada (base) | Los indicadores de confianza corresponden a su evidencia. | — |
+| KYN-SDI-IAE-011 | 33 | Verificación humana | borrador | Verificación humana (base) · UIX-019 · UIX-020 | Las aprobaciones muestran la información para evaluar. | — |
+| KYN-SDI-IAE-012 | 33 | Privacidad | borrador | Privacidad (base) · UIX-032 · UIX-033 · UIX-036 | La IA no revela contenido o contexto de otras personas. | — |
+| KYN-SDI-SPR-005 | 34 | Infraestructura común | borrador | Infraestructura común (base) · UIX-012 · UIX-013 | Los productos reutilizan componentes, tokens y patrones canónicos. | — |
+| KYN-SDI-SPR-006 | 34 | Variaciones justificadas | borrador | Variaciones justificadas (base) | Las diferencias entre productos responden a requisitos comprobables. | — |
+| KYN-SDI-SPR-007 | 34 | Compatibilidad | borrador | Compatibilidad (base) | Los cambios compartidos se evalúan en sus productos dependientes. | Aplica FUI-003 (07) a componentes |
+| KYN-SDI-SPR-008 | 35 | Navegación y propósito | borrador | Navegación y propósito (base) | Las páginas web facilitan encontrar información, servicios y acciones. | — |
+| KYN-SDI-SPR-009 | 35 | Interacción accesible | borrador | Interacción accesible (base) | Formularios, menús y controles del sitio respetan las normas compartidas. | — |
+| KYN-SDI-SPR-010 | 36 | Eficiencia operativa | borrador | Eficiencia operativa (base) | Las herramientas internas priorizan tareas frecuentes y reducen pasos. | — |
+| KYN-SDI-SPR-011 | 36 | Permisos y contexto | borrador | Permisos y contexto (base) | Cada herramienta presenta funciones y datos según el rol del operador. | — |
 | KYN-SDI-SPR-001 | 37 | Experiencia predeterminada | borrador | Experiencia predeterminada (base) | Los productos Default aplican los componentes canónicos y el tema aprobado. | — |
 | KYN-SDI-SPR-002 | 37 | Sobriedad operativa | borrador | Sobriedad operativa (base) · Estética neutral premium (descripción del capítulo) | Las interfaces frecuentes priorizan superficies contenidas, claridad y jerarquía. | Libro de Marca, capítulo 18 Digital (UI-001 y UI-002), en borrador |
 | KYN-SDI-SPR-003 | 37 | Personalización controlada | borrador | Personalización controlada (base) · Opciones de configuración (descripción del capítulo) · UIX-045 | Las variaciones permitidas conservan accesibilidad, consistencia y comportamiento. | 38 White-label regula los productos sin firma Keyons |
 | KYN-SDI-SPR-004 | 37 | Navegación predeterminada | borrador | Patrón SaaS (decisión pendiente del capítulo 05; requisito redactado por Claude) | Los productos SaaS usan el patrón de navegación predeterminado o justifican otro. | — |
+| KYN-SDI-SPR-012 | 38 | Identidad del cliente | borrador | Identidad del cliente (base) · UIX-052 | Las soluciones de marca blanca pueden usar la identidad del cliente dentro de límites. | — |
+| KYN-SDI-SPR-013 | 38 | Calidad funcional | borrador | Calidad funcional (base) | La personalización no compromete accesibilidad, seguridad ni patrones. | — |
+| KYN-SDI-SPR-014 | 38 | Ausencia de firma | borrador | Ausencia de firma (base) | Los productos sin firma no muestran autoría Keyons. | — |
+| KYN-SDI-MOV-001 | 39 | Movimiento funcional | borrador | Movimiento funcional (base) | Las transiciones operativas comunican cambios de estado o continuidad. | — |
+| KYN-SDI-MOV-002 | 39 | Duración proporcionada | borrador | Duración proporcionada (base) | El movimiento no retrasa las tareas. | — |
+| KYN-SDI-MOV-003 | 40 | Expresión con propósito | borrador | Expresión con propósito (base) | El movimiento editorial se usa cuando aporta a la narrativa o la identidad. | — |
+| KYN-SDI-MOV-004 | 40 | Comprensión independiente | borrador | Comprensión independiente (base) | La información esencial se entiende sin animación. | — |
+| KYN-SDI-MOV-005 | 41 | Sonido | borrador | Sonido (base) | Los sonidos no esenciales están desactivados por defecto. | — |
+| KYN-SDI-MOV-006 | 41 | Háptica | borrador | Háptica (base) · UIX-046 | La háptica se usa en dispositivos compatibles cuando confirma algo útil. | — |
+| KYN-SDI-MOV-007 | 41 | Alternativas | borrador | Alternativas (base) | La información importante no depende solo de sonido o vibración. | — |
+| KYN-SDI-GOB-004 | 42 | Fuente única | borrador | Fuente única (base) · UIX-010 | Cada requisito tiene una fuente identificable y sin duplicaciones. | — |
+| KYN-SDI-GOB-005 | 42 | Estado visible | borrador | Estado visible (base) | Las normas muestran su estado de aprobación y versión. | — |
+| KYN-SDI-GOB-006 | 43 | Uso de componentes canónicos | borrador | Uso de componentes canónicos (base) · UIX-011 | Las implementaciones usan los componentes y tokens compartidos. | Aplica FUI-001 (07) y SPR-005 (34) |
+| KYN-SDI-GOB-007 | 43 | Excepciones justificadas | borrador | Excepciones justificadas (base) | Las desviaciones documentan necesidad, alcance y revisión. | — |
+| KYN-SDI-GOB-008 | 43 | Entrega comprobable | borrador | Entrega comprobable (base) | Los componentes compartidos se entregan con pruebas. | — |
 | KYN-SDI-GOB-001 | 44 | Tareas reales | borrador | Tareas reales (base) · Evidencia registrada (base; se cita PEX-014) · UIX-047 | Las evaluaciones usan tareas representativas y registran su evidencia. | — |
 | KYN-SDI-GOB-002 | 44 | Problemas críticos | borrador | Problemas críticos (base) | Los defectos críticos se resuelven o bloquean el lanzamiento con decisión explícita. | — |
 | KYN-SDI-GOB-003 | 44 | Protocolo previo al lanzamiento | borrador | Verificación visual, funcional, de usabilidad y de accesibilidad (descripción del capítulo; requisito redactado por Claude) · UIX-047 · UIX-050 | Cada lanzamiento completa la verificación visual, funcional, de usabilidad y de accesibilidad. | — |
+| KYN-SDI-GOB-009 | 45 | Componentes documentados | borrador | Componentes documentados (base) | Cada componente canónico documenta propósito, variantes, estados, comportamiento y accesibilidad. | — |
+| KYN-SDI-GOB-010 | 45 | Ejemplos funcionales | borrador | Ejemplos funcionales (base) | La documentación ofrece ejemplos correctos e incorrectos cuando ayudan. | — |
+| KYN-SDI-GOB-011 | 45 | Versionado | borrador | Versionado (base) | Los cambios relevantes son trazables y comunican sus efectos. | — |

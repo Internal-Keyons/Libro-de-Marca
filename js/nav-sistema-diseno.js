@@ -95,10 +95,10 @@ window.KEYONS_NAV = [
           { t: 'Espaciado', st: 'Espaciado', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-01' },
           { t: 'Agrupación', st: 'Agrupación', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-02' },
           { t: 'Adaptación', st: 'Adaptación', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-03' } ] },
-      { n: '11', k: '03-05', t: 'Recursos visuales', full: 'Recursos visuales de interfaz', d: 'Iconografía funcional, bordes, sombras, elevación e imágenes aplicadas.', s: 'p', items: [
-          { t: 'Iconografía funcional', st: 'Iconografía funcional', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/recursos-visuales-de-interfaz.html#s-03-05-01' },
-          { t: 'Bordes', st: 'Bordes', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/recursos-visuales-de-interfaz.html#s-03-05-02' },
-          { t: 'Imágenes', st: 'Imágenes', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/recursos-visuales-de-interfaz.html#s-03-05-03' } ] }
+      { n: '11', k: '03-05', t: 'Recursos visuales', full: 'Recursos visuales de interfaz', d: 'Iconografía funcional, bordes, sombras, elevación e imágenes aplicadas.', s: 'b', items: [
+          { t: 'Íconos', st: 'Íconos', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/recursos-visuales-de-interfaz.html#s-03-05-01' },
+          { t: 'Identidad', st: 'Identidad', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/recursos-visuales-de-interfaz.html#s-03-05-02' },
+          { t: 'Expresión', st: 'Expresión', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/recursos-visuales-de-interfaz.html#s-03-05-03' } ] }
     ]
   },
   {
@@ -115,14 +115,14 @@ window.KEYONS_NAV = [
           { t: 'Etiquetas', st: 'Etiquetas', s: 'b', href: 'sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-01' },
           { t: 'Validación', st: 'Validación', s: 'b', href: 'sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-02' },
           { t: 'Control apropiado', st: 'Control apropiado', s: 'b', href: 'sistema-diseno/componentes-estados/controles-de-entrada.html#s-04-02-03' } ] },
-      { n: '14', k: '04-03', t: 'Estructura', full: 'Componentes de estructura', d: 'Pestañas, tablas, listas, contenedores y contenido expandible.', s: 'p', items: [
-          { t: 'Pestañas', st: 'Pestañas', s: 'p', href: 'sistema-diseno/componentes-estados/componentes-de-estructura.html#s-04-03-01' },
-          { t: 'Tablas', st: 'Tablas', s: 'p', href: 'sistema-diseno/componentes-estados/componentes-de-estructura.html#s-04-03-02' },
-          { t: 'Acordeones', st: 'Acordeones', s: 'p', href: 'sistema-diseno/componentes-estados/componentes-de-estructura.html#s-04-03-03' } ] },
-      { n: '15', k: '04-04', t: 'Retroalimentación', full: 'Retroalimentación y superposiciones', d: 'Alertas, etiquetas de estado, diálogos, paneles e indicadores de carga.', s: 'p', items: [
-          { t: 'Alertas', st: 'Alertas', s: 'p', href: 'sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-01' },
-          { t: 'Diálogos', st: 'Diálogos', s: 'p', href: 'sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-02' },
-          { t: 'Progreso', st: 'Progreso', s: 'p', href: 'sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-03' } ] }
+      { n: '14', k: '04-03', t: 'Estructura', full: 'Componentes de estructura', d: 'Pestañas, tablas, listas, contenedores y contenido expandible.', s: 'b', items: [
+          { t: 'Contenedores', st: 'Contenedores', s: 'b', href: 'sistema-diseno/componentes-estados/componentes-de-estructura.html#s-04-03-01' },
+          { t: 'Jerarquía', st: 'Jerarquía', s: 'b', href: 'sistema-diseno/componentes-estados/componentes-de-estructura.html#s-04-03-02' },
+          { t: 'Diálogos', st: 'Diálogos', s: 'b', href: 'sistema-diseno/componentes-estados/componentes-de-estructura.html#s-04-03-03' } ] },
+      { n: '15', k: '04-04', t: 'Retroalimentación', full: 'Retroalimentación y superposiciones', d: 'Alertas, etiquetas de estado, diálogos, paneles e indicadores de carga.', s: 'b', items: [
+          { t: 'Resultado', st: 'Resultado', s: 'b', href: 'sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-01' },
+          { t: 'Mensajes', st: 'Mensajes', s: 'b', href: 'sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-02' },
+          { t: 'Atención', st: 'Atención', s: 'b', href: 'sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-03' } ] }
     ]
   },
   {
@@ -143,10 +143,9 @@ window.KEYONS_NAV = [
           { t: 'Deshacer', st: 'Deshacer', s: 'b', href: 'sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-02' },
           { t: 'Persistencia', st: 'Persistencia', s: 'b', href: 'sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-03' },
           { t: 'Vacíos y esperas', st: 'Vacíos y esperas', s: 'b', href: 'sistema-diseno/patrones-interaccion/estados-y-recuperacion.html#s-05-03-04' } ] },
-      { n: '19', k: '05-04', t: 'Procesos críticos', full: 'Decisiones y operaciones sensibles', d: 'Confirmaciones de alto impacto, permisos y trazabilidad de acciones.', s: 'p', items: [
-          { t: 'Confirmaciones', st: 'Confirmaciones', s: 'p', href: 'sistema-diseno/patrones-interaccion/decisiones-y-operaciones-sensibles.html#s-05-04-01' },
-          { t: 'Permisos', st: 'Permisos', s: 'p', href: 'sistema-diseno/patrones-interaccion/decisiones-y-operaciones-sensibles.html#s-05-04-02' },
-          { t: 'Trazabilidad visible', st: 'Trazabilidad visible', s: 'p', href: 'sistema-diseno/patrones-interaccion/decisiones-y-operaciones-sensibles.html#s-05-04-03' } ] }
+      { n: '19', k: '05-04', t: 'Procesos críticos', full: 'Decisiones y operaciones sensibles', d: 'Confirmaciones de alto impacto, permisos y trazabilidad de acciones.', s: 'b', items: [
+          { t: 'Autorización', st: 'Autorización', s: 'b', href: 'sistema-diseno/patrones-interaccion/decisiones-y-operaciones-sensibles.html#s-05-04-01' },
+          { t: 'Trazabilidad', st: 'Trazabilidad', s: 'b', href: 'sistema-diseno/patrones-interaccion/decisiones-y-operaciones-sensibles.html#s-05-04-02' } ] }
     ]
   },
   {
@@ -173,18 +172,18 @@ window.KEYONS_NAV = [
     cd: 'La voz de Keyons aplicada a los mensajes de interfaz.',
     d: 'Aplica los principios de voz y claridad a los mensajes de las interfaces.',
     ch: [
-      { n: '23', k: '07-01', t: 'Escritura', full: 'Escritura de interfaz', d: 'Etiquetas, llamadas a la acción, instrucciones y textos de ayuda.', s: 'p', items: [
-          { t: 'Etiquetas', st: 'Etiquetas', s: 'p', href: 'sistema-diseno/contenido-comunicacion/escritura-de-interfaz.html#s-07-01-01' },
-          { t: 'Instrucciones', st: 'Instrucciones', s: 'p', href: 'sistema-diseno/contenido-comunicacion/escritura-de-interfaz.html#s-07-01-02' },
-          { t: 'Brevedad', st: 'Brevedad', s: 'p', href: 'sistema-diseno/contenido-comunicacion/escritura-de-interfaz.html#s-07-01-03' } ] },
-      { n: '24', k: '07-02', t: 'Mensajes', full: 'Mensajes del sistema', d: 'Confirmaciones, progreso, errores, advertencias y estados vacíos.', s: 'p', items: [
-          { t: 'Confirmaciones', st: 'Confirmaciones', s: 'p', href: 'sistema-diseno/contenido-comunicacion/mensajes-del-sistema.html#s-07-02-01' },
-          { t: 'Errores', st: 'Errores', s: 'p', href: 'sistema-diseno/contenido-comunicacion/mensajes-del-sistema.html#s-07-02-02' },
-          { t: 'Advertencias', st: 'Advertencias', s: 'p', href: 'sistema-diseno/contenido-comunicacion/mensajes-del-sistema.html#s-07-02-03' } ] },
-      { n: '25', k: '07-03', t: 'Localización', full: 'Lenguaje y localización', d: 'Terminología, idiomas, adaptación regional y tono de cada producto.', s: 'p', items: [
-          { t: 'Terminología', st: 'Terminología', s: 'p', href: 'sistema-diseno/contenido-comunicacion/lenguaje-y-localizacion.html#s-07-03-01' },
-          { t: 'Idiomas y regiones', st: 'Idiomas y regiones', s: 'p', href: 'sistema-diseno/contenido-comunicacion/lenguaje-y-localizacion.html#s-07-03-02' },
-          { t: 'Voz y tono', st: 'Voz y tono', s: 'p', href: 'sistema-diseno/contenido-comunicacion/lenguaje-y-localizacion.html#s-07-03-03' } ] }
+      { n: '23', k: '07-01', t: 'Escritura', full: 'Escritura de interfaz', d: 'Etiquetas, llamadas a la acción, instrucciones y textos de ayuda.', s: 'b', items: [
+          { t: 'Lenguaje funcional', st: 'Lenguaje funcional', s: 'b', href: 'sistema-diseno/contenido-comunicacion/escritura-de-interfaz.html#s-07-01-01' },
+          { t: 'Consistencia', st: 'Consistencia', s: 'b', href: 'sistema-diseno/contenido-comunicacion/escritura-de-interfaz.html#s-07-01-02' },
+          { t: 'Brevedad', st: 'Brevedad', s: 'b', href: 'sistema-diseno/contenido-comunicacion/escritura-de-interfaz.html#s-07-01-03' } ] },
+      { n: '24', k: '07-02', t: 'Mensajes', full: 'Mensajes del sistema', d: 'Confirmaciones, progreso, errores, advertencias y estados vacíos.', s: 'b', items: [
+          { t: 'Errores', st: 'Errores', s: 'b', href: 'sistema-diseno/contenido-comunicacion/mensajes-del-sistema.html#s-07-02-01' },
+          { t: 'Confirmaciones', st: 'Confirmaciones', s: 'b', href: 'sistema-diseno/contenido-comunicacion/mensajes-del-sistema.html#s-07-02-02' },
+          { t: 'Seguridad', st: 'Seguridad', s: 'b', href: 'sistema-diseno/contenido-comunicacion/mensajes-del-sistema.html#s-07-02-03' } ] },
+      { n: '25', k: '07-03', t: 'Localización', full: 'Lenguaje y localización', d: 'Terminología, idiomas, adaptación regional y tono de cada producto.', s: 'b', items: [
+          { t: 'Lenguaje', st: 'Lenguaje', s: 'b', href: 'sistema-diseno/contenido-comunicacion/lenguaje-y-localizacion.html#s-07-03-01' },
+          { t: 'Traducción', st: 'Traducción', s: 'b', href: 'sistema-diseno/contenido-comunicacion/lenguaje-y-localizacion.html#s-07-03-02' },
+          { t: 'Espacio variable', st: 'Espacio variable', s: 'b', href: 'sistema-diseno/contenido-comunicacion/lenguaje-y-localizacion.html#s-07-03-03' } ] }
     ]
   },
   {
@@ -196,14 +195,14 @@ window.KEYONS_NAV = [
           { t: 'Lectura', st: 'Lectura', s: 'b', href: 'sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-01' },
           { t: 'Herramientas', st: 'Herramientas', s: 'b', href: 'sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-02' },
           { t: 'Acciones', st: 'Acciones', s: 'b', href: 'sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-03' } ] },
-      { n: '27', k: '08-02', t: 'Gráficos', full: 'Gráficos de datos', d: 'Tipo de gráfico, paletas, escalas, leyendas y accesibilidad.', s: 'p', items: [
-          { t: 'Tipo de gráfico', st: 'Tipo de gráfico', s: 'p', href: 'sistema-diseno/datos-visualizacion/graficos-de-datos.html#s-08-02-01' },
-          { t: 'Paletas categóricas', st: 'Paletas categóricas', s: 'p', href: 'sistema-diseno/datos-visualizacion/graficos-de-datos.html#s-08-02-02' },
-          { t: 'Escalas', st: 'Escalas', s: 'p', href: 'sistema-diseno/datos-visualizacion/graficos-de-datos.html#s-08-02-03' } ] },
-      { n: '28', k: '08-03', t: 'Indicadores', full: 'Indicadores y cifras', d: 'Formatos numéricos, unidades, variaciones y datos incompletos.', s: 'p', items: [
-          { t: 'Formatos numéricos', st: 'Formatos numéricos', s: 'p', href: 'sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-01' },
-          { t: 'Variaciones', st: 'Variaciones', s: 'p', href: 'sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-02' },
-          { t: 'Datos ausentes', st: 'Datos ausentes', s: 'p', href: 'sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-03' } ] },
+      { n: '27', k: '08-02', t: 'Gráficos', full: 'Gráficos de datos', d: 'Tipo de gráfico, paletas, escalas, leyendas y accesibilidad.', s: 'b', items: [
+          { t: 'Representación', st: 'Representación', s: 'b', href: 'sistema-diseno/datos-visualizacion/graficos-de-datos.html#s-08-02-01' },
+          { t: 'Color de datos', st: 'Color de datos', s: 'b', href: 'sistema-diseno/datos-visualizacion/graficos-de-datos.html#s-08-02-02' },
+          { t: 'Interpretación', st: 'Interpretación', s: 'b', href: 'sistema-diseno/datos-visualizacion/graficos-de-datos.html#s-08-02-03' } ] },
+      { n: '28', k: '08-03', t: 'Indicadores', full: 'Indicadores y cifras', d: 'Formatos numéricos, unidades, variaciones y datos incompletos.', s: 'b', items: [
+          { t: 'Contexto', st: 'Contexto', s: 'b', href: 'sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-01' },
+          { t: 'Umbrales', st: 'Umbrales', s: 'b', href: 'sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-02' },
+          { t: 'Actualización', st: 'Actualización', s: 'b', href: 'sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-03' } ] },
       { n: '29', k: '08-04', t: 'Dashboards', full: 'Dashboards e informes', d: 'Tableros organizados por tareas, exploración y exportación de resultados.', s: 'b', items: [
           { t: 'Por tarea', st: 'Por tarea', s: 'b', href: 'sistema-diseno/datos-visualizacion/dashboards-e-informes.html#s-08-04-01' },
           { t: 'Jerarquía', st: 'Jerarquía', s: 'b', href: 'sistema-diseno/datos-visualizacion/dashboards-e-informes.html#s-08-04-02' },
@@ -215,22 +214,22 @@ window.KEYONS_NAV = [
     cd: 'Cómo se interactúa con la IA y con Estela en los productos.',
     d: 'Define la interacción con IA. La identidad y personalidad de Estela se documentarán en el Libro de Marca; aquí se definirá cómo se aplican en productos.',
     ch: [
-      { n: '30', k: '09-01', t: 'Principios de IA', full: 'Principios de experiencia con IA', d: 'Capacidades, límites, fuentes y control del usuario frente a la IA.', s: 'p', items: [
-          { t: 'Transparencia', st: 'Transparencia', s: 'p', href: 'sistema-diseno/ia-estela/principios-de-experiencia-con-ia.html#s-09-01-01' },
-          { t: 'Incertidumbre', st: 'Incertidumbre', s: 'p', href: 'sistema-diseno/ia-estela/principios-de-experiencia-con-ia.html#s-09-01-02' },
-          { t: 'Control del usuario', st: 'Control del usuario', s: 'p', href: 'sistema-diseno/ia-estela/principios-de-experiencia-con-ia.html#s-09-01-03' } ] },
-      { n: '31', k: '09-02', t: 'Conversación', full: 'Interfaz conversacional de Estela', d: 'Cómo se aplica Estela en la conversación: mensajes, archivos e historial.', s: 'p', items: [
-          { t: 'Identidad de Estela', st: 'Identidad de Estela', s: 'p', href: 'sistema-diseno/ia-estela/interfaz-conversacional-de-estela.html#s-09-02-01' },
-          { t: 'Mensajes', st: 'Mensajes', s: 'p', href: 'sistema-diseno/ia-estela/interfaz-conversacional-de-estela.html#s-09-02-02' },
-          { t: 'Historial', st: 'Historial', s: 'p', href: 'sistema-diseno/ia-estela/interfaz-conversacional-de-estela.html#s-09-02-03' } ] },
-      { n: '32', k: '09-03', t: 'Agentes', full: 'Agentes y ejecución de acciones', d: 'Agentes, planificación, aprobaciones y registro de cada ejecución.', s: 'p', items: [
-          { t: 'Orquestación', st: 'Orquestación', s: 'p', href: 'sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-01' },
-          { t: 'Planificación', st: 'Planificación', s: 'p', href: 'sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-02' },
-          { t: 'Aprobaciones', st: 'Aprobaciones', s: 'p', href: 'sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-03' } ] },
-      { n: '33', k: '09-04', t: 'Confianza segura', full: 'Seguridad y confianza en IA', d: 'Privacidad, acceso, escalamiento humano y acciones automáticas visibles.', s: 'p', items: [
-          { t: 'Privacidad', st: 'Privacidad', s: 'p', href: 'sistema-diseno/ia-estela/seguridad-y-confianza-en-ia.html#s-09-04-01' },
-          { t: 'Errores', st: 'Errores', s: 'p', href: 'sistema-diseno/ia-estela/seguridad-y-confianza-en-ia.html#s-09-04-02' },
-          { t: 'Acciones automáticas', st: 'Acciones automáticas', s: 'p', href: 'sistema-diseno/ia-estela/seguridad-y-confianza-en-ia.html#s-09-04-03' } ] }
+      { n: '30', k: '09-01', t: 'Principios de IA', full: 'Principios de experiencia con IA', d: 'Capacidades, límites, fuentes y control del usuario frente a la IA.', s: 'b', items: [
+          { t: 'Transparencia', st: 'Transparencia', s: 'b', href: 'sistema-diseno/ia-estela/principios-de-experiencia-con-ia.html#s-09-01-01' },
+          { t: 'Incertidumbre', st: 'Incertidumbre', s: 'b', href: 'sistema-diseno/ia-estela/principios-de-experiencia-con-ia.html#s-09-01-02' },
+          { t: 'Control humano', st: 'Control humano', s: 'b', href: 'sistema-diseno/ia-estela/principios-de-experiencia-con-ia.html#s-09-01-03' } ] },
+      { n: '31', k: '09-02', t: 'Conversación', full: 'Interfaz conversacional de Estela', d: 'Cómo se aplica Estela en la conversación: mensajes, archivos e historial.', s: 'b', items: [
+          { t: 'Contexto', st: 'Contexto', s: 'b', href: 'sistema-diseno/ia-estela/interfaz-conversacional-de-estela.html#s-09-02-01' },
+          { t: 'Preguntas', st: 'Preguntas', s: 'b', href: 'sistema-diseno/ia-estela/interfaz-conversacional-de-estela.html#s-09-02-02' },
+          { t: 'Respuesta', st: 'Respuesta', s: 'b', href: 'sistema-diseno/ia-estela/interfaz-conversacional-de-estela.html#s-09-02-03' } ] },
+      { n: '32', k: '09-03', t: 'Agentes', full: 'Agentes y ejecución de acciones', d: 'Agentes, planificación, aprobaciones y registro de cada ejecución.', s: 'b', items: [
+          { t: 'Responsabilidad', st: 'Responsabilidad', s: 'b', href: 'sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-01' },
+          { t: 'Límites', st: 'Límites', s: 'b', href: 'sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-02' },
+          { t: 'Identidad', st: 'Identidad', s: 'b', href: 'sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-03' } ] },
+      { n: '33', k: '09-04', t: 'Confianza segura', full: 'Seguridad y confianza en IA', d: 'Privacidad, acceso, escalamiento humano y acciones automáticas visibles.', s: 'b', items: [
+          { t: 'Confianza', st: 'Confianza', s: 'b', href: 'sistema-diseno/ia-estela/seguridad-y-confianza-en-ia.html#s-09-04-01' },
+          { t: 'Verificación', st: 'Verificación', s: 'b', href: 'sistema-diseno/ia-estela/seguridad-y-confianza-en-ia.html#s-09-04-02' },
+          { t: 'Privacidad', st: 'Privacidad', s: 'b', href: 'sistema-diseno/ia-estela/seguridad-y-confianza-en-ia.html#s-09-04-03' } ] }
     ]
   },
   {
@@ -238,27 +237,25 @@ window.KEYONS_NAV = [
     cd: 'Una base común con expresiones visuales distintas.',
     d: 'Define las diferentes aplicaciones del sistema de diseño, con fundamentos compartidos y expresiones visuales distintas.',
     ch: [
-      { n: '34', k: '10-01', t: 'Base compartida', full: 'Base compartida', d: 'Estándares UX comunes, componentes reutilizables y herencia de temas.', s: 'p', items: [
-          { t: 'Estándares UX', st: 'Estándares UX', s: 'p', href: 'sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-01' },
-          { t: 'Reutilización', st: 'Reutilización', s: 'p', href: 'sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-02' },
-          { t: 'Herencia de temas', st: 'Herencia de temas', s: 'p', href: 'sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-03' } ] },
-      { n: '35', k: '10-02', t: 'Sitio web', full: 'Sitio web corporativo Keyons', d: 'La identidad corporativa en el sitio web: navegación, composición y acciones.', s: 'p', items: [
-          { t: 'Aplicación funcional', st: 'Aplicación funcional', s: 'p', href: 'sistema-diseno/sistemas-producto/sitio-web-corporativo-keyons.html#s-10-02-01' },
-          { t: 'Navegación', st: 'Navegación', s: 'p', href: 'sistema-diseno/sistemas-producto/sitio-web-corporativo-keyons.html#s-10-02-02' },
-          { t: 'Interacciones', st: 'Interacciones', s: 'p', href: 'sistema-diseno/sistemas-producto/sitio-web-corporativo-keyons.html#s-10-02-03' } ] },
-      { n: '36', k: '10-03', t: 'Herramientas', full: 'Herramientas internas Keyons', d: 'Identidad operativa, navegación por roles y espacios de trabajo densos.', s: 'p', items: [
-          { t: 'Identidad visual', st: 'Identidad visual', s: 'p', href: 'sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-01' },
-          { t: 'Navegación por roles', st: 'Navegación por roles', s: 'p', href: 'sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-02' },
-          { t: 'Densidad informativa', st: 'Densidad informativa', s: 'p', href: 'sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-03' } ] },
+      { n: '34', k: '10-01', t: 'Base compartida', full: 'Base compartida', d: 'Estándares UX comunes, componentes reutilizables y herencia de temas.', s: 'b', items: [
+          { t: 'Infraestructura', st: 'Infraestructura', s: 'b', href: 'sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-01' },
+          { t: 'Variaciones', st: 'Variaciones', s: 'b', href: 'sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-02' },
+          { t: 'Compatibilidad', st: 'Compatibilidad', s: 'b', href: 'sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-03' } ] },
+      { n: '35', k: '10-02', t: 'Sitio web', full: 'Sitio web corporativo Keyons', d: 'La identidad corporativa en el sitio web: navegación, composición y acciones.', s: 'b', items: [
+          { t: 'Navegación', st: 'Navegación', s: 'b', href: 'sistema-diseno/sistemas-producto/sitio-web-corporativo-keyons.html#s-10-02-01' },
+          { t: 'Interacción', st: 'Interacción', s: 'b', href: 'sistema-diseno/sistemas-producto/sitio-web-corporativo-keyons.html#s-10-02-02' } ] },
+      { n: '36', k: '10-03', t: 'Herramientas', full: 'Herramientas internas Keyons', d: 'Identidad operativa, navegación por roles y espacios de trabajo densos.', s: 'b', items: [
+          { t: 'Eficiencia', st: 'Eficiencia', s: 'b', href: 'sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-01' },
+          { t: 'Permisos', st: 'Permisos', s: 'b', href: 'sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-02' } ] },
       { n: '37', k: '10-04', t: 'Product Default', full: 'Keyons Product Default', d: 'Estética neutral premium, estructura SaaS y opciones de configuración.', s: 'b', items: [
           { t: 'Predeterminada', st: 'Predeterminada', s: 'b', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-01' },
           { t: 'Sobriedad', st: 'Sobriedad', s: 'b', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-02' },
           { t: 'Personalización', st: 'Personalización', s: 'b', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-03' },
           { t: 'Navegación', st: 'Navegación', s: 'b', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-04' } ] },
-      { n: '38', k: '10-05', t: 'White-label', full: 'Soluciones personalizadas y white-label', d: 'Identidades de clientes, marca blanca y límites de personalización.', s: 'p', items: [
-          { t: 'Identidades', st: 'Identidades', s: 'p', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-01' },
-          { t: 'Marca blanca', st: 'Marca blanca', s: 'p', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-02' },
-          { t: 'Límites', st: 'Límites', s: 'p', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-03' } ] }
+      { n: '38', k: '10-05', t: 'White-label', full: 'Soluciones personalizadas y white-label', d: 'Identidades de clientes, marca blanca y límites de personalización.', s: 'b', items: [
+          { t: 'Identidad', st: 'Identidad', s: 'b', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-01' },
+          { t: 'Calidad', st: 'Calidad', s: 'b', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-02' },
+          { t: 'Sin firma', st: 'Sin firma', s: 'b', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-03' } ] }
     ]
   },
   {
@@ -266,18 +263,16 @@ window.KEYONS_NAV = [
     cd: 'Movimiento y recursos sensoriales con un propósito claro.',
     d: 'Regula el movimiento y los recursos sensoriales, sin convertirlos en requisitos decorativos.',
     ch: [
-      { n: '39', k: '11-01', t: 'Operación activa', full: 'Movimiento operativo', d: 'Transiciones funcionales, retroalimentación, progreso y sus límites.', s: 'p', items: [
-          { t: 'Transiciones', st: 'Transiciones', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-operativo.html#s-11-01-01' },
-          { t: 'Retroalimentación', st: 'Retroalimentación', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-operativo.html#s-11-01-02' },
-          { t: 'Interrupciones', st: 'Interrupciones', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-operativo.html#s-11-01-03' } ] },
-      { n: '40', k: '11-02', t: 'Movimiento editorial', full: 'Movimiento editorial', d: 'Entradas, cambios de escena y movimiento atmosférico según el contexto.', s: 'p', items: [
-          { t: 'Entradas', st: 'Entradas', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-editorial.html#s-11-02-01' },
-          { t: 'Atmósfera', st: 'Atmósfera', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-editorial.html#s-11-02-02' },
-          { t: 'Intensidad', st: 'Intensidad', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-editorial.html#s-11-02-03' } ] },
-      { n: '41', k: '11-03', t: 'Multisensorial', full: 'Interacción multisensorial', d: 'Sonido, respuesta háptica y atajos del sistema operativo.', s: 'p', items: [
-          { t: 'Sonido', st: 'Sonido', s: 'p', href: 'sistema-diseno/movimiento-sensorial/interaccion-multisensorial.html#s-11-03-01' },
-          { t: 'Respuesta háptica', st: 'Respuesta háptica', s: 'p', href: 'sistema-diseno/movimiento-sensorial/interaccion-multisensorial.html#s-11-03-02' },
-          { t: 'Atajos de teclado', st: 'Atajos de teclado', s: 'p', href: 'sistema-diseno/movimiento-sensorial/interaccion-multisensorial.html#s-11-03-03' } ] }
+      { n: '39', k: '11-01', t: 'Operación activa', full: 'Movimiento operativo', d: 'Transiciones funcionales, retroalimentación, progreso y sus límites.', s: 'b', items: [
+          { t: 'Funcional', st: 'Funcional', s: 'b', href: 'sistema-diseno/movimiento-sensorial/movimiento-operativo.html#s-11-01-01' },
+          { t: 'Duración', st: 'Duración', s: 'b', href: 'sistema-diseno/movimiento-sensorial/movimiento-operativo.html#s-11-01-02' } ] },
+      { n: '40', k: '11-02', t: 'Movimiento editorial', full: 'Movimiento editorial', d: 'Entradas, cambios de escena y movimiento atmosférico según el contexto.', s: 'b', items: [
+          { t: 'Expresión', st: 'Expresión', s: 'b', href: 'sistema-diseno/movimiento-sensorial/movimiento-editorial.html#s-11-02-01' },
+          { t: 'Comprensión', st: 'Comprensión', s: 'b', href: 'sistema-diseno/movimiento-sensorial/movimiento-editorial.html#s-11-02-02' } ] },
+      { n: '41', k: '11-03', t: 'Multisensorial', full: 'Interacción multisensorial', d: 'Sonido, respuesta háptica y atajos del sistema operativo.', s: 'b', items: [
+          { t: 'Sonido', st: 'Sonido', s: 'b', href: 'sistema-diseno/movimiento-sensorial/interaccion-multisensorial.html#s-11-03-01' },
+          { t: 'Háptica', st: 'Háptica', s: 'b', href: 'sistema-diseno/movimiento-sensorial/interaccion-multisensorial.html#s-11-03-02' },
+          { t: 'Alternativas', st: 'Alternativas', s: 'b', href: 'sistema-diseno/movimiento-sensorial/interaccion-multisensorial.html#s-11-03-03' } ] }
     ]
   },
   {
@@ -285,22 +280,21 @@ window.KEYONS_NAV = [
     cd: 'Cómo se gestionan, implementan y prueban las normas.',
     d: 'Establece cómo se gestionan, implementan, prueban y mantienen las reglas del Sistema de Diseño.',
     ch: [
-      { n: '42', k: '12-01', t: 'Gobierno normativo', full: 'Gobierno normativo', d: 'Fuente oficial, identificadores permanentes, aprobación y cambios.', s: 'p', items: [
-          { t: 'Propiedad', st: 'Propiedad', s: 'p', href: 'sistema-diseno/calidad-gobierno/gobierno-normativo.html#s-12-01-01' },
-          { t: 'Identificadores', st: 'Identificadores', s: 'p', href: 'sistema-diseno/calidad-gobierno/gobierno-normativo.html#s-12-01-02' },
-          { t: 'Aprobación', st: 'Aprobación', s: 'p', href: 'sistema-diseno/calidad-gobierno/gobierno-normativo.html#s-12-01-03' } ] },
-      { n: '43', k: '12-02', t: 'Implementación', full: 'Implementación técnica', d: 'Tokens y componentes en código, especificaciones y versiones.', s: 'p', items: [
-          { t: 'Traducción de tokens', st: 'Traducción de tokens', s: 'p', href: 'sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-01' },
-          { t: 'Especificaciones', st: 'Especificaciones', s: 'p', href: 'sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-02' },
-          { t: 'Compatibilidad', st: 'Compatibilidad', s: 'p', href: 'sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-03' } ] },
+      { n: '42', k: '12-01', t: 'Gobierno normativo', full: 'Gobierno normativo', d: 'Fuente oficial, identificadores permanentes, aprobación y cambios.', s: 'b', items: [
+          { t: 'Fuente única', st: 'Fuente única', s: 'b', href: 'sistema-diseno/calidad-gobierno/gobierno-normativo.html#s-12-01-01' },
+          { t: 'Estado', st: 'Estado', s: 'b', href: 'sistema-diseno/calidad-gobierno/gobierno-normativo.html#s-12-01-02' } ] },
+      { n: '43', k: '12-02', t: 'Implementación', full: 'Implementación técnica', d: 'Tokens y componentes en código, especificaciones y versiones.', s: 'b', items: [
+          { t: 'Canónicos', st: 'Canónicos', s: 'b', href: 'sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-01' },
+          { t: 'Excepciones', st: 'Excepciones', s: 'b', href: 'sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-02' },
+          { t: 'Entrega', st: 'Entrega', s: 'b', href: 'sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-03' } ] },
       { n: '44', k: '12-03', t: 'Validación', full: 'Validación de calidad', d: 'Verificación visual, funcional, de usabilidad y de accesibilidad.', s: 'b', items: [
           { t: 'Tareas reales', st: 'Tareas reales', s: 'b', href: 'sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-01' },
           { t: 'Problemas críticos', st: 'Problemas críticos', s: 'b', href: 'sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-02' },
           { t: 'Protocolo', st: 'Protocolo', s: 'b', href: 'sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-03' } ] },
-      { n: '45', k: '12-04', t: 'Documentación', full: 'Documentación y consulta', d: 'Catálogo de normas, exportación para personas e IA y permisos.', s: 'p', items: [
-          { t: 'Catálogo', st: 'Catálogo', s: 'p', href: 'sistema-diseno/calidad-gobierno/documentacion-y-consulta.html#s-12-04-01' },
-          { t: 'Exportación para IA', st: 'Exportación para IA', s: 'p', href: 'sistema-diseno/calidad-gobierno/documentacion-y-consulta.html#s-12-04-02' },
-          { t: 'Consulta autorizada', st: 'Consulta autorizada', s: 'p', href: 'sistema-diseno/calidad-gobierno/documentacion-y-consulta.html#s-12-04-03' } ] }
+      { n: '45', k: '12-04', t: 'Documentación', full: 'Documentación y consulta', d: 'Catálogo de normas, exportación para personas e IA y permisos.', s: 'b', items: [
+          { t: 'Componentes', st: 'Componentes', s: 'b', href: 'sistema-diseno/calidad-gobierno/documentacion-y-consulta.html#s-12-04-01' },
+          { t: 'Ejemplos', st: 'Ejemplos', s: 'b', href: 'sistema-diseno/calidad-gobierno/documentacion-y-consulta.html#s-12-04-02' },
+          { t: 'Versionado', st: 'Versionado', s: 'b', href: 'sistema-diseno/calidad-gobierno/documentacion-y-consulta.html#s-12-04-03' } ] }
     ]
   }
 ];

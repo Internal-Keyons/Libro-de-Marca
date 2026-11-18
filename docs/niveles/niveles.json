@@ -3559,6 +3559,113 @@
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   },
   {
+   "id": "KYN-SDI-FUI-015",
+   "fuente": "data/sd-capitulos/recursos-visuales-de-interfaz.html#s-03-05-01",
+   "bloque": 1,
+   "frase": "Los iconos deben identificar una acción, estado, categoría o significado comprensible.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-016",
+   "fuente": "data/sd-capitulos/recursos-visuales-de-interfaz.html#s-03-05-02",
+   "bloque": 1,
+   "frase": "Los recursos gráficos deben utilizar las normas oficiales de iconografía, ilustración, fotografía y composición cuando corresponda aplicar la identidad Keyons.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-017",
+   "fuente": "data/sd-capitulos/recursos-visuales-de-interfaz.html#s-03-05-03",
+   "bloque": 1,
+   "frase": "Fotografías, degradados, texturas y otros recursos expresivos no deben competir con tareas o información esencial.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-008",
+   "fuente": "data/sd-capitulos/componentes-de-estructura.html#s-04-03-01",
+   "bloque": 1,
+   "frase": "Paneles, pestañas, acordeones y diálogos deben utilizarse cuando su estructura facilite la comprensión o interacción.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-009",
+   "fuente": "data/sd-capitulos/componentes-de-estructura.html#s-04-03-02",
+   "bloque": 1,
+   "frase": "El contenido no debe fragmentarse en contenedores adicionales sin una razón funcional o informativa.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-010",
+   "fuente": "data/sd-capitulos/componentes-de-estructura.html#s-04-03-03",
+   "bloque": 1,
+   "frase": "Un diálogo que interrumpe la tarea debe presentar claramente su propósito, las acciones disponibles y la forma de salir.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-011",
+   "fuente": "data/sd-capitulos/retroalimentacion-y-superposiciones.html#s-04-04-01",
+   "bloque": 1,
+   "frase": "Las acciones que modifican información deben comunicar su resultado o estado de procesamiento.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-012",
+   "fuente": "data/sd-capitulos/retroalimentacion-y-superposiciones.html#s-04-04-02",
+   "bloque": 1,
+   "frase": "La retroalimentación debe explicar lo ocurrido sin utilizar mensajes genéricos que impidan comprender el estado real.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CPE-013",
+   "fuente": "data/sd-capitulos/retroalimentacion-y-superposiciones.html#s-04-04-03",
+   "bloque": 1,
+   "frase": "Las notificaciones deberían diferenciarse según urgencia y consecuencias, evitando interrumpir tareas por eventos menores.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-011",
+   "fuente": "data/sd-capitulos/decisiones-y-operaciones-sensibles.html#s-05-04-01",
+   "bloque": 1,
+   "frase": "El sistema debe comprobar los permisos y las confirmaciones correspondientes al riesgo de la acción.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-012",
+   "fuente": "data/sd-capitulos/decisiones-y-operaciones-sensibles.html#s-05-04-02",
+   "bloque": 0,
+   "frase": "Lo importante se puede reconstruir.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PAT-012",
+   "fuente": "data/sd-capitulos/decisiones-y-operaciones-sensibles.html#s-05-04-02",
+   "bloque": 1,
+   "frase": "Las operaciones críticas deben permitir reconstruir qué ocurrió y bajo qué autorización, según los requisitos de seguridad y auditoría del producto.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
    "id": "KYN-SDI-CPE-001",
    "fuente": "data/sd-capitulos/componentes-de-accion.html#s-04-01-01",
    "bloque": 1,
@@ -3876,6 +3983,165 @@
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   },
   {
+   "id": "KYN-SDI-CNT-001",
+   "fuente": "data/sd-capitulos/escritura-de-interfaz.html#s-07-01-01",
+   "bloque": 1,
+   "frase": "Las instrucciones y etiquetas deben indicar con claridad qué puede hacer la persona y qué resultado esperar.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CNT-002",
+   "fuente": "data/sd-capitulos/escritura-de-interfaz.html#s-07-01-02",
+   "bloque": 0,
+   "frase": "El mismo concepto se llama siempre igual.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-CNT-002",
+   "fuente": "data/sd-capitulos/escritura-de-interfaz.html#s-07-01-02",
+   "bloque": 1,
+   "frase": "Una misma acción o concepto debe utilizar una denominación consistente dentro del contexto del producto.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CNT-003",
+   "fuente": "data/sd-capitulos/escritura-de-interfaz.html#s-07-01-03",
+   "bloque": 1,
+   "frase": "El contenido debería ser tan breve como permita la comprensión, sin eliminar información necesaria.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CNT-004",
+   "fuente": "data/sd-capitulos/mensajes-del-sistema.html#s-07-02-01",
+   "bloque": 1,
+   "frase": "Los mensajes de error deben explicar qué ocurrió y cómo continuar o recuperarse cuando exista una acción posible.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CNT-005",
+   "fuente": "data/sd-capitulos/mensajes-del-sistema.html#s-07-02-02",
+   "bloque": 1,
+   "frase": "Los mensajes de éxito deben describir el resultado real y no afirmar acciones que todavía no se hayan completado.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CNT-006",
+   "fuente": "data/sd-capitulos/mensajes-del-sistema.html#s-07-02-03",
+   "bloque": 1,
+   "frase": "Los mensajes no deben exponer información técnica sensible ni datos que la persona no está autorizada a consultar.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CNT-007",
+   "fuente": "data/sd-capitulos/lenguaje-y-localizacion.html#s-07-03-01",
+   "bloque": 1,
+   "frase": "Las interfaces deben adaptar idioma, formatos, unidades y convenciones cuando se ofrece una localización específica.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CNT-008",
+   "fuente": "data/sd-capitulos/lenguaje-y-localizacion.html#s-07-03-02",
+   "bloque": 1,
+   "frase": "Las traducciones deben conservar el significado funcional de acciones, estados e instrucciones.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-CNT-009",
+   "fuente": "data/sd-capitulos/lenguaje-y-localizacion.html#s-07-03-03",
+   "bloque": 1,
+   "frase": "Los componentes deben tolerar variaciones razonables de longitud entre idiomas sin perder funcionalidad.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-007",
+   "fuente": "data/sd-capitulos/graficos-de-datos.html#s-08-02-01",
+   "bloque": 1,
+   "frase": "El tipo de gráfico debe corresponder a la relación que se necesita comunicar.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-008",
+   "fuente": "data/sd-capitulos/graficos-de-datos.html#s-08-02-02",
+   "bloque": 1,
+   "frase": "Los gráficos deben respetar las reglas oficiales de paletas categóricas, secuenciales y divergentes según la naturaleza de los datos.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-009",
+   "fuente": "data/sd-capitulos/graficos-de-datos.html#s-08-02-03",
+   "bloque": 0,
+   "frase": "Los valores se pueden leer de más de una forma.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-DAV-009",
+   "fuente": "data/sd-capitulos/graficos-de-datos.html#s-08-02-03",
+   "bloque": 1,
+   "frase": "La información no debe depender exclusivamente del color ni ocultar unidades, escalas o referencias necesarias.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-010",
+   "fuente": "data/sd-capitulos/indicadores-y-cifras.html#s-08-03-01",
+   "bloque": 0,
+   "frase": "Una cifra sin contexto no se puede interpretar.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-DAV-010",
+   "fuente": "data/sd-capitulos/indicadores-y-cifras.html#s-08-03-01",
+   "bloque": 1,
+   "frase": "Cada indicador debe identificar su significado, unidad, período y referencia cuando sean necesarios para interpretarlo.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-011",
+   "fuente": "data/sd-capitulos/indicadores-y-cifras.html#s-08-03-02",
+   "bloque": 1,
+   "frase": "Los umbrales y colores de evaluación deben responder a criterios definidos, no a límites arbitrarios introducidos por diseño.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-012",
+   "fuente": "data/sd-capitulos/indicadores-y-cifras.html#s-08-03-03",
+   "bloque": 1,
+   "frase": "La información debería indicar cuándo fue actualizada cuando su vigencia afecte una decisión.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
    "id": "KYN-SDI-DAV-001",
    "fuente": "data/sd-capitulos/tablas-y-datos-estructurados.html#s-08-01-01",
    "bloque": 1,
@@ -3930,6 +4196,162 @@
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   },
   {
+   "id": "KYN-SDI-IAE-001",
+   "fuente": "data/sd-capitulos/principios-de-experiencia-con-ia.html#s-09-01-01",
+   "bloque": 1,
+   "frase": "Las personas deben poder distinguir qué contenido o acción proviene de capacidades de inteligencia artificial cuando esa distinción afecta la comprensión o decisión.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-002",
+   "fuente": "data/sd-capitulos/principios-de-experiencia-con-ia.html#s-09-01-02",
+   "bloque": 1,
+   "frase": "El sistema no debe presentar como verificada información generada que no ha sido comprobada.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-003",
+   "fuente": "data/sd-capitulos/principios-de-experiencia-con-ia.html#s-09-01-03",
+   "bloque": 1,
+   "frase": "Las decisiones automatizadas deben incorporar el nivel de supervisión y autorización correspondiente a su riesgo.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-004",
+   "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-01",
+   "bloque": 1,
+   "frase": "La conversación debe conservar el contexto necesario dentro de los límites de permisos y privacidad aplicables.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-005",
+   "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-02",
+   "bloque": 1,
+   "frase": "Estela debería solicitar únicamente la información adicional necesaria para avanzar con precisión.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-006",
+   "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-03",
+   "bloque": 0,
+   "frase": "La persona sabe qué puede hacer Estela de verdad.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-IAE-006",
+   "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-03",
+   "bloque": 1,
+   "frase": "Las respuestas deben distinguir información, recomendaciones y acciones que el sistema realmente puede ejecutar.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-006",
+   "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-03",
+   "bloque": 2,
+   "frase": "Las que Estela puede ejecutar aparecen como botones; las demás, como pasos para la persona.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-IAE-006",
+   "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-03",
+   "bloque": 3,
+   "frase": "Cuando no sabe o no puede, lo dice y ofrece una alternativa (desde UIX-043; voz en Voz y trato).",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-IAE-006",
+   "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-03",
+   "bloque": 4,
+   "frase": "Cada respuesta separa lo informativo de lo que se puede ejecutar.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-IAE-007",
+   "fuente": "data/sd-capitulos/agentes-y-ejecucion-de-acciones.html#s-09-03-01",
+   "bloque": 1,
+   "frase": "Las acciones visibles ejecutadas por agentes deben permitir comprender qué se está haciendo y cuál fue su resultado.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-008",
+   "fuente": "data/sd-capitulos/agentes-y-ejecucion-de-acciones.html#s-09-03-02",
+   "bloque": 1,
+   "frase": "Los agentes no deben ejecutar acciones fuera de sus permisos o autorizaciones.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-008",
+   "fuente": "data/sd-capitulos/agentes-y-ejecucion-de-acciones.html#s-09-03-02",
+   "bloque": 2,
+   "frase": "Los del rol que lo autorizó, nunca más amplios (PEX-008).",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-IAE-009",
+   "fuente": "data/sd-capitulos/agentes-y-ejecucion-de-acciones.html#s-09-03-03",
+   "bloque": 1,
+   "frase": "La experiencia puede presentar a Estela como identidad pública de capacidades coordinadas, sin exponer innecesariamente su arquitectura interna.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-010",
+   "fuente": "data/sd-capitulos/seguridad-y-confianza-en-ia.html#s-09-04-01",
+   "bloque": 1,
+   "frase": "Los indicadores de confianza deben corresponder al significado y evidencia definidos para cada estado.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-011",
+   "fuente": "data/sd-capitulos/seguridad-y-confianza-en-ia.html#s-09-04-02",
+   "bloque": 1,
+   "frase": "Cuando una decisión requiera aprobación, el sistema debe presentar información suficiente para evaluarla antes de continuar.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-012",
+   "fuente": "data/sd-capitulos/seguridad-y-confianza-en-ia.html#s-09-04-03",
+   "bloque": 1,
+   "frase": "Las interfaces de IA no deben revelar contenido o contexto de otros usuarios sin autorización.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-IAE-012",
+   "fuente": "data/sd-capitulos/seguridad-y-confianza-en-ia.html#s-09-04-03",
+   "bloque": 3,
+   "frase": "El cliente puede restringir qué datos pasan por modelos externos (desde UIX-036).",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
    "id": "KYN-SDI-SPR-001",
    "fuente": "data/sd-capitulos/keyons-product-default.html#s-10-04-01",
    "bloque": 1,
@@ -3963,6 +4385,247 @@
    "frase": "Los productos SaaS de Keyons deberían usar el patrón de navegación predeterminado, salvo que su estructura justifique otro.",
    "estado": "aplicada",
    "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-005",
+   "fuente": "data/sd-capitulos/base-compartida.html#s-10-01-01",
+   "bloque": 1,
+   "frase": "Los productos deben reutilizar componentes, tokens y patrones canónicos cuando exista una solución adecuada a su necesidad.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-006",
+   "fuente": "data/sd-capitulos/base-compartida.html#s-10-01-02",
+   "bloque": 1,
+   "frase": "Las diferencias entre productos deberían responder a requisitos funcionales, de contexto o de identidad comprobables.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-007",
+   "fuente": "data/sd-capitulos/base-compartida.html#s-10-01-03",
+   "bloque": 1,
+   "frase": "Los cambios compartidos deben evaluarse contra las aplicaciones que dependen de ellos.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-008",
+   "fuente": "data/sd-capitulos/sitio-web-corporativo-keyons.html#s-10-02-01",
+   "bloque": 1,
+   "frase": "Las páginas web deben facilitar la localización de información, servicios y acciones relevantes.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-009",
+   "fuente": "data/sd-capitulos/sitio-web-corporativo-keyons.html#s-10-02-02",
+   "bloque": 1,
+   "frase": "Los formularios, menús y controles del sitio deben respetar las normas funcionales compartidas.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-010",
+   "fuente": "data/sd-capitulos/herramientas-internas-keyons.html#s-10-03-01",
+   "bloque": 1,
+   "frase": "Las herramientas internas deberían priorizar tareas frecuentes, legibilidad y reducción de pasos innecesarios.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-011",
+   "fuente": "data/sd-capitulos/herramientas-internas-keyons.html#s-10-03-02",
+   "bloque": 1,
+   "frase": "Cada herramienta debe presentar las funciones y datos correspondientes al rol y contexto del operador.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-012",
+   "fuente": "data/sd-capitulos/soluciones-personalizadas-y-white-label.html#s-10-05-01",
+   "bloque": 1,
+   "frase": "Las soluciones de marca blanca pueden sustituir los recursos visuales de Keyons dentro de los límites definidos para el producto.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-013",
+   "fuente": "data/sd-capitulos/soluciones-personalizadas-y-white-label.html#s-10-05-02",
+   "bloque": 1,
+   "frase": "La personalización no debe comprometer accesibilidad, seguridad ni patrones de interacción necesarios.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-014",
+   "fuente": "data/sd-capitulos/soluciones-personalizadas-y-white-label.html#s-10-05-03",
+   "bloque": 1,
+   "frase": "Los productos contratados sin firma visible no deben incorporar elementos de autoría Keyons que contradigan el acuerdo.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-MOV-001",
+   "fuente": "data/sd-capitulos/movimiento-operativo.html#s-11-01-01",
+   "bloque": 1,
+   "frase": "Las transiciones operativas deben comunicar cambios de estado o continuidad cuando el movimiento facilite comprender la interacción.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-MOV-002",
+   "fuente": "data/sd-capitulos/movimiento-operativo.html#s-11-01-02",
+   "bloque": 1,
+   "frase": "El movimiento no debe retrasar innecesariamente la ejecución de tareas.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-MOV-002",
+   "fuente": "data/sd-capitulos/movimiento-operativo.html#s-11-01-02",
+   "bloque": 3,
+   "frase": "Una transición se puede interrumpir con una nueva acción.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-MOV-003",
+   "fuente": "data/sd-capitulos/movimiento-editorial.html#s-11-02-01",
+   "bloque": 1,
+   "frase": "Los recursos de movimiento editorial pueden utilizarse cuando contribuyan a la narrativa o identidad del producto.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-MOV-004",
+   "fuente": "data/sd-capitulos/movimiento-editorial.html#s-11-02-02",
+   "bloque": 1,
+   "frase": "La información esencial debe poder comprenderse sin depender de una animación decorativa.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-MOV-005",
+   "fuente": "data/sd-capitulos/interaccion-multisensorial.html#s-11-03-01",
+   "bloque": 1,
+   "frase": "Los sonidos no esenciales pueden habilitarse mediante una preferencia explícita y permanecen desactivados por defecto.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-MOV-006",
+   "fuente": "data/sd-capitulos/interaccion-multisensorial.html#s-11-03-02",
+   "bloque": 1,
+   "frase": "Las respuestas hápticas pueden utilizarse en dispositivos compatibles cuando aporten una confirmación útil.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-MOV-007",
+   "fuente": "data/sd-capitulos/interaccion-multisensorial.html#s-11-03-03",
+   "bloque": 0,
+   "frase": "Siempre también se ve.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-MOV-007",
+   "fuente": "data/sd-capitulos/interaccion-multisensorial.html#s-11-03-03",
+   "bloque": 1,
+   "frase": "La información importante no debe depender únicamente de sonido o vibración.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-GOB-004",
+   "fuente": "data/sd-capitulos/gobierno-normativo.html#s-12-01-01",
+   "bloque": 1,
+   "frase": "Cada requisito del sistema debe tener una fuente normativa identificable y evitar duplicaciones entre capítulos.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-GOB-005",
+   "fuente": "data/sd-capitulos/gobierno-normativo.html#s-12-01-02",
+   "bloque": 1,
+   "frase": "Las normas deben distinguir claramente su estado de aprobación y versión.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-GOB-006",
+   "fuente": "data/sd-capitulos/implementacion-tecnica.html#s-12-02-01",
+   "bloque": 1,
+   "frase": "Las implementaciones deben utilizar los componentes y tokens compartidos cuando sean aplicables.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-GOB-007",
+   "fuente": "data/sd-capitulos/implementacion-tecnica.html#s-12-02-02",
+   "bloque": 1,
+   "frase": "Las desviaciones deben documentar su necesidad, alcance y condiciones de revisión.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-GOB-008",
+   "fuente": "data/sd-capitulos/implementacion-tecnica.html#s-12-02-03",
+   "bloque": 1,
+   "frase": "Los componentes compartidos deben incluir pruebas de comportamiento, accesibilidad y estados relevantes antes de considerarse listos para reutilización.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-GOB-009",
+   "fuente": "data/sd-capitulos/documentacion-y-consulta.html#s-12-04-01",
+   "bloque": 1,
+   "frase": "Cada componente canónico debe describir propósito, variantes, estados, comportamiento, accesibilidad y restricciones de uso.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-GOB-010",
+   "fuente": "data/sd-capitulos/documentacion-y-consulta.html#s-12-04-02",
+   "bloque": 1,
+   "frase": "La documentación debería ofrecer ejemplos correctos y usos incorrectos cuando ayuden a evitar interpretaciones ambiguas.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-GOB-011",
+   "fuente": "data/sd-capitulos/documentacion-y-consulta.html#s-12-04-03",
+   "bloque": 1,
+   "frase": "Los cambios relevantes deben mantener trazabilidad y comunicar sus efectos sobre productos existentes.",
+   "estado": "aplicada",
+   "nivel": "debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   },
   {

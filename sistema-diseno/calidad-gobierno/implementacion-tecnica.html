@@ -39,17 +39,39 @@
       </div>
     </section>
 
-    <!-- Subcapítulos: cada uno reunirá sus normas. Generado por tools/sistema_diseno.py -->
-    <section class="ed" id="subcapitulos">
-      <div class="ed__label"><span>43</span><span>Subcapítulos</span></div>
+    <!-- Capítulo 43 · generado por tools/sd_capitulos.py (tools/sd/). No se edita a mano. Borrador. -->
+    <!-- KYN-SDI-GOB-006 · Uso de componentes canónicos -->
+    <section class="ed" id="s-12-02-01">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-GOB-006" data-copy-msg="ID copiado · KYN-SDI-GOB-006" title="Copiar el ID de esta norma">KYN-SDI-GOB-006</span><span>Uso de componentes canónicos</span></div>
       <div>
-        <h2 class="ed__title">Subcapítulos</h2>
-        <p class="ed__lead">Cada subcapítulo reunirá sus <strong>reglas, ejemplos y especificaciones</strong>. Sus 3 subcapítulos todavía no tienen normas aprobadas.</p>
-        <div class="kidx__list sd-refs">
-          <div class="kidx__r sd-sub" id="s-12-02-01"><span class="kidx__t">Traducción de tokens y componentes a código</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-          <div class="kidx__r sd-sub" id="s-12-02-02"><span class="kidx__t">Especificaciones para desarrollo</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-          <div class="kidx__r sd-sub" id="s-12-02-03"><span class="kidx__t">Compatibilidad, mantenimiento y versiones</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-        </div>
+        <h2 class="ed__title">Se implementa con lo compartido</h2>
+        <p class="ed__lead">Construir <strong>sobre el sistema</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Las implementaciones DEBEN utilizar los componentes y tokens compartidos cuando sean aplicables.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Código</dt><dd>La revisión de código comprueba el uso de componentes y tokens compartidos.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-GOB-007 · Excepciones justificadas -->
+    <section class="ed" id="s-12-02-02">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-GOB-007" data-copy-msg="ID copiado · KYN-SDI-GOB-007" title="Copiar el ID de esta norma">KYN-SDI-GOB-007</span><span>Excepciones justificadas</span></div>
+      <div>
+        <h2 class="ed__title">Cada desviación se documenta</h2>
+        <p class="ed__lead">Una excepción <strong>tiene fecha de revisión</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Las desviaciones DEBEN documentar su necesidad, alcance y condiciones de revisión.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="ed__stack"><div><span class="paren">(Registro)</span><p>Motivo, alcance, responsable y fecha de revisión (PEX-010).</p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Registro</dt><dd>Toda desviación encontrada en el código tiene su registro.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-GOB-008 · Entrega comprobable -->
+    <section class="ed" id="s-12-02-03">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-GOB-008" data-copy-msg="ID copiado · KYN-SDI-GOB-008" title="Copiar el ID de esta norma">KYN-SDI-GOB-008</span><span>Entrega comprobable</span></div>
+      <div>
+        <h2 class="ed__title">Un componente compartido llega con sus pruebas</h2>
+        <p class="ed__lead">Probado <strong>antes de reutilizarse</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Los componentes compartidos DEBEN incluir pruebas de comportamiento, accesibilidad y estados relevantes antes de considerarse listos para reutilización.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="ed__stack"><div><span class="paren">(Pruebas)</span><p>Comportamiento, estados (CPE-002), teclado y accesibilidad automática y manual.</p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Listo para reutilizar</dt><dd>El componente tiene sus pruebas en verde y su documentación (GOB-009).</dd></div></dl></div></details></div>
       </div>
     </section>
 

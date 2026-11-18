@@ -39,17 +39,40 @@
       </div>
     </section>
 
-    <!-- Subcapítulos: cada uno reunirá sus normas. Generado por tools/sistema_diseno.py -->
-    <section class="ed" id="subcapitulos">
-      <div class="ed__label"><span>34</span><span>Subcapítulos</span></div>
+    <!-- Capítulo 34 · generado por tools/sd_capitulos.py (tools/sd/). No se edita a mano. Borrador. -->
+    <!-- KYN-SDI-SPR-005 · Infraestructura común -->
+    <section class="ed" id="s-10-01-01">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-SPR-005" data-copy-msg="ID copiado · KYN-SDI-SPR-005" title="Copiar el ID de esta norma">KYN-SDI-SPR-005</span><span>Infraestructura común</span></div>
       <div>
-        <h2 class="ed__title">Subcapítulos</h2>
-        <p class="ed__lead">Cada subcapítulo reunirá sus <strong>reglas, ejemplos y especificaciones</strong>. Sus 3 subcapítulos todavía no tienen normas aprobadas.</p>
-        <div class="kidx__list sd-refs">
-          <div class="kidx__r sd-sub" id="s-10-01-01"><span class="kidx__t">Estándares UX comunes</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-          <div class="kidx__r sd-sub" id="s-10-01-02"><span class="kidx__t">Reutilización de componentes</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-          <div class="kidx__r sd-sub" id="s-10-01-03"><span class="kidx__t">Herencia y variación de temas visuales</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-        </div>
+        <h2 class="ed__title">Los productos reutilizan lo que ya funciona</h2>
+        <p class="ed__lead">Lo común <strong>se construye una vez</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Los productos DEBEN reutilizar componentes, tokens y patrones canónicos cuando exista una solución adecuada a su necesidad.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="ed__stack"><div><span class="paren">(Biblioteca)</span><p>Componentes, tokens y patrones de este libro, versionados (FUI-003).</p></div><div><span class="paren">(Firma UX)</span><p>Los comportamientos comunes que hacen reconocible la calidad Keyons (desde UIX-012).</p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Reutilización</dt><dd>Cada componente nuevo justifica por qué no sirve uno canónico.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-SPR-006 · Variaciones justificadas -->
+    <section class="ed" id="s-10-01-02">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-SPR-006" data-copy-msg="ID copiado · KYN-SDI-SPR-006" title="Copiar el ID de esta norma">KYN-SDI-SPR-006</span><span>Variaciones justificadas</span></div>
+      <div>
+        <h2 class="ed__title">Cada diferencia entre productos tiene una razón</h2>
+        <p class="ed__lead">Distinto <strong>solo cuando hace falta</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Las diferencias entre productos DEBERÍAN responder a requisitos funcionales, de contexto o de identidad comprobables.⁠<span class="nvl nvl--fin" data-lvl="deberia" role="img" aria-label="Nivel: Debería"><i class="nvl__m nvl__m--deberia" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="ed__stack"><div><span class="paren">(Registro)</span><p>Cada variación se registra con su motivo (PEX-010).</p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Revisión</dt><dd>Toda diferencia entre dos productos tiene su motivo registrado.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-SPR-007 · Compatibilidad -->
+    <section class="ed" id="s-10-01-03">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-SPR-007" data-copy-msg="ID copiado · KYN-SDI-SPR-007" title="Copiar el ID de esta norma">KYN-SDI-SPR-007</span><span>Compatibilidad</span></div>
+      <div>
+        <h2 class="ed__title">Un cambio compartido se prueba en todos</h2>
+        <p class="ed__lead">Lo común <strong>se cuida en común</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Los cambios compartidos DEBEN evaluarse contra las aplicaciones que dependen de ellos.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="ed__stack"><div><span class="paren">(Dependencias)</span><p>Cada componente compartido lista los productos que lo usan.</p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Regresiones</dt><dd>Antes de publicar un cambio, se prueban los productos que dependen de él.</dd></div></dl></div></details></div>
       </div>
     </section>
 

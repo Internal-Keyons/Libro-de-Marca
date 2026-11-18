@@ -1243,6 +1243,854 @@
    "responsabilidad": "Cada lanzamiento completa la verificación visual, funcional, de usabilidad y de accesibilidad.",
    "cita": "",
    "corto": "Protocolo"
+  },
+  {
+   "id": "KYN-SDI-FUI-015",
+   "capitulo": "11",
+   "nombre": "Iconos funcionales",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/recursos-visuales-de-interfaz.html#s-03-05-01",
+   "origen": [
+    "Iconos funcionales (base)"
+   ],
+   "responsabilidad": "Cada ícono identifica una acción, estado, categoría o significado.",
+   "cita": "",
+   "corto": "Íconos"
+  },
+  {
+   "id": "KYN-SDI-FUI-016",
+   "capitulo": "11",
+   "nombre": "Identidad visual",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/recursos-visuales-de-interfaz.html#s-03-05-02",
+   "origen": [
+    "Identidad visual (base)"
+   ],
+   "responsabilidad": "Los recursos gráficos aplican las normas oficiales de la marca.",
+   "cita": "",
+   "corto": "Identidad"
+  },
+  {
+   "id": "KYN-SDI-FUI-017",
+   "capitulo": "11",
+   "nombre": "Expresión proporcionada",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/recursos-visuales-de-interfaz.html#s-03-05-03",
+   "origen": [
+    "Expresión proporcionada (base)"
+   ],
+   "responsabilidad": "Los recursos expresivos no compiten con tareas ni información esencial.",
+   "cita": "Desarrolla PEX-001 (01) para los recursos gráficos",
+   "corto": "Expresión"
+  },
+  {
+   "id": "KYN-SDI-CPE-008",
+   "capitulo": "14",
+   "nombre": "Contenedores con función",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/componentes-de-estructura.html#s-04-03-01",
+   "origen": [
+    "Contenedores con función (base)"
+   ],
+   "responsabilidad": "Paneles, pestañas, acordeones y diálogos se usan cuando facilitan la tarea.",
+   "cita": "",
+   "corto": "Contenedores"
+  },
+  {
+   "id": "KYN-SDI-CPE-009",
+   "capitulo": "14",
+   "nombre": "Jerarquía estable",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/componentes-de-estructura.html#s-04-03-02",
+   "origen": [
+    "Jerarquía estable (base)"
+   ],
+   "responsabilidad": "El contenido no se fragmenta en contenedores sin razón.",
+   "cita": "",
+   "corto": "Jerarquía"
+  },
+  {
+   "id": "KYN-SDI-CPE-010",
+   "capitulo": "14",
+   "nombre": "Diálogos",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/componentes-de-estructura.html#s-04-03-03",
+   "origen": [
+    "Diálogos (base)"
+   ],
+   "responsabilidad": "Los diálogos presentan propósito, acciones y salida, con foco gestionado.",
+   "cita": "",
+   "corto": "Diálogos"
+  },
+  {
+   "id": "KYN-SDI-CPE-011",
+   "capitulo": "15",
+   "nombre": "Resultado visible",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-01",
+   "origen": [
+    "Resultado visible (base)",
+    "UIX-027"
+   ],
+   "responsabilidad": "Las acciones que modifican información comunican su resultado o su proceso.",
+   "cita": "Desarrolla PEX-004 (01) en componentes",
+   "corto": "Resultado"
+  },
+  {
+   "id": "KYN-SDI-CPE-012",
+   "capitulo": "15",
+   "nombre": "Mensajes pertinentes",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-02",
+   "origen": [
+    "Mensajes pertinentes (base)"
+   ],
+   "responsabilidad": "La retroalimentación explica el estado real, sin mensajes genéricos.",
+   "cita": "24 Mensajes define la redacción",
+   "corto": "Mensajes"
+  },
+  {
+   "id": "KYN-SDI-CPE-013",
+   "capitulo": "15",
+   "nombre": "Atención proporcionada",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-03",
+   "origen": [
+    "Atención proporcionada (base)",
+    "UIX-030",
+    "UIX-046"
+   ],
+   "responsabilidad": "Las notificaciones se diferencian por urgencia y no interrumpen por eventos menores.",
+   "cita": "",
+   "corto": "Atención"
+  },
+  {
+   "id": "KYN-SDI-PAT-011",
+   "capitulo": "19",
+   "nombre": "Autorización",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/decisiones-y-operaciones-sensibles.html#s-05-04-01",
+   "origen": [
+    "Autorización (base)",
+    "Consecuencias claras (base; integrada en PEX-006)",
+    "UIX-014"
+   ],
+   "responsabilidad": "Las operaciones críticas comprueban permisos y piden la confirmación que corresponde al riesgo.",
+   "cita": "",
+   "corto": "Autorización"
+  },
+  {
+   "id": "KYN-SDI-PAT-012",
+   "capitulo": "19",
+   "nombre": "Trazabilidad",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/patrones-interaccion/decisiones-y-operaciones-sensibles.html#s-05-04-02",
+   "origen": [
+    "Trazabilidad (base)"
+   ],
+   "responsabilidad": "Las operaciones críticas quedan registradas con su autorización.",
+   "cita": "",
+   "corto": "Trazabilidad"
+  },
+  {
+   "id": "KYN-SDI-CNT-001",
+   "capitulo": "23",
+   "nombre": "Lenguaje funcional",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/contenido-comunicacion/escritura-de-interfaz.html#s-07-01-01",
+   "origen": [
+    "Lenguaje funcional (base)",
+    "UIX-041",
+    "UIX-040"
+   ],
+   "responsabilidad": "Instrucciones y etiquetas dicen qué hacer y qué resultado esperar.",
+   "cita": "",
+   "corto": "Lenguaje funcional"
+  },
+  {
+   "id": "KYN-SDI-CNT-002",
+   "capitulo": "23",
+   "nombre": "Consistencia",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/contenido-comunicacion/escritura-de-interfaz.html#s-07-01-02",
+   "origen": [
+    "Consistencia (base)"
+   ],
+   "responsabilidad": "Cada acción o concepto usa una sola denominación.",
+   "cita": "",
+   "corto": "Consistencia"
+  },
+  {
+   "id": "KYN-SDI-CNT-003",
+   "capitulo": "23",
+   "nombre": "Brevedad útil",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/contenido-comunicacion/escritura-de-interfaz.html#s-07-01-03",
+   "origen": [
+    "Brevedad útil (base)"
+   ],
+   "responsabilidad": "Los textos son tan breves como permite la comprensión.",
+   "cita": "",
+   "corto": "Brevedad"
+  },
+  {
+   "id": "KYN-SDI-CNT-004",
+   "capitulo": "24",
+   "nombre": "Errores comprensibles",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/contenido-comunicacion/mensajes-del-sistema.html#s-07-02-01",
+   "origen": [
+    "Errores comprensibles (base)",
+    "UIX-024"
+   ],
+   "responsabilidad": "Los errores explican qué pasó y cómo continuar.",
+   "cita": "",
+   "corto": "Errores"
+  },
+  {
+   "id": "KYN-SDI-CNT-005",
+   "capitulo": "24",
+   "nombre": "Confirmaciones específicas",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/contenido-comunicacion/mensajes-del-sistema.html#s-07-02-02",
+   "origen": [
+    "Confirmaciones específicas (base)"
+   ],
+   "responsabilidad": "Las confirmaciones describen el resultado real.",
+   "cita": "",
+   "corto": "Confirmaciones"
+  },
+  {
+   "id": "KYN-SDI-CNT-006",
+   "capitulo": "24",
+   "nombre": "Información segura",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/contenido-comunicacion/mensajes-del-sistema.html#s-07-02-03",
+   "origen": [
+    "Información segura (base)"
+   ],
+   "responsabilidad": "Los mensajes no exponen información técnica sensible ni datos restringidos.",
+   "cita": "",
+   "corto": "Seguridad"
+  },
+  {
+   "id": "KYN-SDI-CNT-007",
+   "capitulo": "25",
+   "nombre": "Lenguaje adecuado",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/contenido-comunicacion/lenguaje-y-localizacion.html#s-07-03-01",
+   "origen": [
+    "Lenguaje adecuado (base)",
+    "Convenciones de escritura (reglas de voz)"
+   ],
+   "responsabilidad": "Las localizaciones adaptan idioma, formatos, unidades y convenciones.",
+   "cita": "",
+   "corto": "Lenguaje"
+  },
+  {
+   "id": "KYN-SDI-CNT-008",
+   "capitulo": "25",
+   "nombre": "Consistencia lingüística",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/contenido-comunicacion/lenguaje-y-localizacion.html#s-07-03-02",
+   "origen": [
+    "Consistencia lingüística (base)"
+   ],
+   "responsabilidad": "Las traducciones conservan el significado funcional.",
+   "cita": "",
+   "corto": "Traducción"
+  },
+  {
+   "id": "KYN-SDI-CNT-009",
+   "capitulo": "25",
+   "nombre": "Espacio variable",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/contenido-comunicacion/lenguaje-y-localizacion.html#s-07-03-03",
+   "origen": [
+    "Espacio variable (base)"
+   ],
+   "responsabilidad": "Los componentes toleran textos de distinta longitud entre idiomas.",
+   "cita": "",
+   "corto": "Espacio variable"
+  },
+  {
+   "id": "KYN-SDI-DAV-007",
+   "capitulo": "27",
+   "nombre": "Representación apropiada",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/graficos-de-datos.html#s-08-02-01",
+   "origen": [
+    "Representación apropiada (base)"
+   ],
+   "responsabilidad": "El tipo de gráfico corresponde a la relación que comunica.",
+   "cita": "",
+   "corto": "Representación"
+  },
+  {
+   "id": "KYN-SDI-DAV-008",
+   "capitulo": "27",
+   "nombre": "Color de datos",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/graficos-de-datos.html#s-08-02-02",
+   "origen": [
+    "Color de datos (base)"
+   ],
+   "responsabilidad": "Los gráficos usan las paletas oficiales según sus datos.",
+   "cita": "",
+   "corto": "Color de datos"
+  },
+  {
+   "id": "KYN-SDI-DAV-009",
+   "capitulo": "27",
+   "nombre": "Interpretación accesible",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/graficos-de-datos.html#s-08-02-03",
+   "origen": [
+    "Interpretación accesible (base)"
+   ],
+   "responsabilidad": "Los gráficos no dependen del color y muestran unidades y escalas.",
+   "cita": "",
+   "corto": "Interpretación"
+  },
+  {
+   "id": "KYN-SDI-DAV-010",
+   "capitulo": "28",
+   "nombre": "Contexto suficiente",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-01",
+   "origen": [
+    "Contexto suficiente (base)"
+   ],
+   "responsabilidad": "Cada indicador muestra significado, unidad, período y referencia.",
+   "cita": "",
+   "corto": "Contexto"
+  },
+  {
+   "id": "KYN-SDI-DAV-011",
+   "capitulo": "28",
+   "nombre": "Estados fundamentados",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-02",
+   "origen": [
+    "Estados fundamentados (base)"
+   ],
+   "responsabilidad": "Umbrales y colores de evaluación responden a criterios definidos.",
+   "cita": "",
+   "corto": "Umbrales"
+  },
+  {
+   "id": "KYN-SDI-DAV-012",
+   "capitulo": "28",
+   "nombre": "Actualización visible",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-03",
+   "origen": [
+    "Actualización visible (base)"
+   ],
+   "responsabilidad": "La información muestra cuándo se actualizó cuando su vigencia importa.",
+   "cita": "",
+   "corto": "Actualización"
+  },
+  {
+   "id": "KYN-SDI-IAE-001",
+   "capitulo": "30",
+   "nombre": "Transparencia",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/principios-de-experiencia-con-ia.html#s-09-01-01",
+   "origen": [
+    "Transparencia (base)",
+    "UIX-017"
+   ],
+   "responsabilidad": "Se distingue lo que proviene de la IA cuando afecta la decisión.",
+   "cita": "",
+   "corto": "Transparencia"
+  },
+  {
+   "id": "KYN-SDI-IAE-002",
+   "capitulo": "30",
+   "nombre": "Incertidumbre",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/principios-de-experiencia-con-ia.html#s-09-01-02",
+   "origen": [
+    "Incertidumbre (base)",
+    "UIX-016",
+    "UIX-018"
+   ],
+   "responsabilidad": "La información generada sin comprobar no aparece como verificada.",
+   "cita": "",
+   "corto": "Incertidumbre"
+  },
+  {
+   "id": "KYN-SDI-IAE-003",
+   "capitulo": "30",
+   "nombre": "Control humano",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/principios-de-experiencia-con-ia.html#s-09-01-03",
+   "origen": [
+    "Control humano (base)",
+    "UIX-014",
+    "UIX-015"
+   ],
+   "responsabilidad": "Las decisiones automatizadas tienen la supervisión que corresponde a su riesgo.",
+   "cita": "",
+   "corto": "Control humano"
+  },
+  {
+   "id": "KYN-SDI-IAE-004",
+   "capitulo": "31",
+   "nombre": "Contexto útil",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/interfaz-conversacional-de-estela.html#s-09-02-01",
+   "origen": [
+    "Contexto útil (base)",
+    "UIX-034",
+    "UIX-035"
+   ],
+   "responsabilidad": "La conversación conserva el contexto necesario dentro de permisos y privacidad.",
+   "cita": "",
+   "corto": "Contexto"
+  },
+  {
+   "id": "KYN-SDI-IAE-005",
+   "capitulo": "31",
+   "nombre": "Preguntas pertinentes",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/interfaz-conversacional-de-estela.html#s-09-02-02",
+   "origen": [
+    "Preguntas pertinentes (base)"
+   ],
+   "responsabilidad": "Estela solo pide la información necesaria para avanzar.",
+   "cita": "",
+   "corto": "Preguntas"
+  },
+  {
+   "id": "KYN-SDI-IAE-006",
+   "capitulo": "31",
+   "nombre": "Respuesta accionable",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/interfaz-conversacional-de-estela.html#s-09-02-03",
+   "origen": [
+    "Respuesta accionable (base)",
+    "UIX-042",
+    "UIX-043"
+   ],
+   "responsabilidad": "Las respuestas distinguen información, recomendaciones y acciones ejecutables.",
+   "cita": "",
+   "corto": "Respuesta"
+  },
+  {
+   "id": "KYN-SDI-IAE-007",
+   "capitulo": "32",
+   "nombre": "Responsabilidad identificable",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-01",
+   "origen": [
+    "Responsabilidad identificable (base)"
+   ],
+   "responsabilidad": "Las acciones de los agentes son comprensibles y registradas.",
+   "cita": "",
+   "corto": "Responsabilidad"
+  },
+  {
+   "id": "KYN-SDI-IAE-008",
+   "capitulo": "32",
+   "nombre": "Límites de actuación",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-02",
+   "origen": [
+    "Límites de actuación (base)"
+   ],
+   "responsabilidad": "Los agentes actúan solo dentro de sus permisos.",
+   "cita": "",
+   "corto": "Límites"
+  },
+  {
+   "id": "KYN-SDI-IAE-009",
+   "capitulo": "32",
+   "nombre": "Identidad pública consistente",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-03",
+   "origen": [
+    "Identidad pública consistente (base)"
+   ],
+   "responsabilidad": "Estela es la identidad pública de las capacidades coordinadas.",
+   "cita": "",
+   "corto": "Identidad"
+  },
+  {
+   "id": "KYN-SDI-IAE-010",
+   "capitulo": "33",
+   "nombre": "Confianza calibrada",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/seguridad-y-confianza-en-ia.html#s-09-04-01",
+   "origen": [
+    "Confianza calibrada (base)"
+   ],
+   "responsabilidad": "Los indicadores de confianza corresponden a su evidencia.",
+   "cita": "",
+   "corto": "Confianza"
+  },
+  {
+   "id": "KYN-SDI-IAE-011",
+   "capitulo": "33",
+   "nombre": "Verificación humana",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/seguridad-y-confianza-en-ia.html#s-09-04-02",
+   "origen": [
+    "Verificación humana (base)",
+    "UIX-019",
+    "UIX-020"
+   ],
+   "responsabilidad": "Las aprobaciones muestran la información para evaluar.",
+   "cita": "",
+   "corto": "Verificación"
+  },
+  {
+   "id": "KYN-SDI-IAE-012",
+   "capitulo": "33",
+   "nombre": "Privacidad",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/ia-estela/seguridad-y-confianza-en-ia.html#s-09-04-03",
+   "origen": [
+    "Privacidad (base)",
+    "UIX-032",
+    "UIX-033",
+    "UIX-036"
+   ],
+   "responsabilidad": "La IA no revela contenido o contexto de otras personas.",
+   "cita": "",
+   "corto": "Privacidad"
+  },
+  {
+   "id": "KYN-SDI-SPR-005",
+   "capitulo": "34",
+   "nombre": "Infraestructura común",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-01",
+   "origen": [
+    "Infraestructura común (base)",
+    "UIX-012",
+    "UIX-013"
+   ],
+   "responsabilidad": "Los productos reutilizan componentes, tokens y patrones canónicos.",
+   "cita": "",
+   "corto": "Infraestructura"
+  },
+  {
+   "id": "KYN-SDI-SPR-006",
+   "capitulo": "34",
+   "nombre": "Variaciones justificadas",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-02",
+   "origen": [
+    "Variaciones justificadas (base)"
+   ],
+   "responsabilidad": "Las diferencias entre productos responden a requisitos comprobables.",
+   "cita": "",
+   "corto": "Variaciones"
+  },
+  {
+   "id": "KYN-SDI-SPR-007",
+   "capitulo": "34",
+   "nombre": "Compatibilidad",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-03",
+   "origen": [
+    "Compatibilidad (base)"
+   ],
+   "responsabilidad": "Los cambios compartidos se evalúan en sus productos dependientes.",
+   "cita": "Aplica FUI-003 (07) a componentes",
+   "corto": "Compatibilidad"
+  },
+  {
+   "id": "KYN-SDI-SPR-008",
+   "capitulo": "35",
+   "nombre": "Navegación y propósito",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/sitio-web-corporativo-keyons.html#s-10-02-01",
+   "origen": [
+    "Navegación y propósito (base)"
+   ],
+   "responsabilidad": "Las páginas web facilitan encontrar información, servicios y acciones.",
+   "cita": "",
+   "corto": "Navegación"
+  },
+  {
+   "id": "KYN-SDI-SPR-009",
+   "capitulo": "35",
+   "nombre": "Interacción accesible",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/sitio-web-corporativo-keyons.html#s-10-02-02",
+   "origen": [
+    "Interacción accesible (base)"
+   ],
+   "responsabilidad": "Formularios, menús y controles del sitio respetan las normas compartidas.",
+   "cita": "",
+   "corto": "Interacción"
+  },
+  {
+   "id": "KYN-SDI-SPR-010",
+   "capitulo": "36",
+   "nombre": "Eficiencia operativa",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-01",
+   "origen": [
+    "Eficiencia operativa (base)"
+   ],
+   "responsabilidad": "Las herramientas internas priorizan tareas frecuentes y reducen pasos.",
+   "cita": "",
+   "corto": "Eficiencia"
+  },
+  {
+   "id": "KYN-SDI-SPR-011",
+   "capitulo": "36",
+   "nombre": "Permisos y contexto",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-02",
+   "origen": [
+    "Permisos y contexto (base)"
+   ],
+   "responsabilidad": "Cada herramienta presenta funciones y datos según el rol del operador.",
+   "cita": "",
+   "corto": "Permisos"
+  },
+  {
+   "id": "KYN-SDI-SPR-012",
+   "capitulo": "38",
+   "nombre": "Identidad del cliente",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-01",
+   "origen": [
+    "Identidad del cliente (base)",
+    "UIX-052"
+   ],
+   "responsabilidad": "Las soluciones de marca blanca pueden usar la identidad del cliente dentro de límites.",
+   "cita": "",
+   "corto": "Identidad"
+  },
+  {
+   "id": "KYN-SDI-SPR-013",
+   "capitulo": "38",
+   "nombre": "Calidad funcional",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-02",
+   "origen": [
+    "Calidad funcional (base)"
+   ],
+   "responsabilidad": "La personalización no compromete accesibilidad, seguridad ni patrones.",
+   "cita": "",
+   "corto": "Calidad"
+  },
+  {
+   "id": "KYN-SDI-SPR-014",
+   "capitulo": "38",
+   "nombre": "Ausencia de firma",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-03",
+   "origen": [
+    "Ausencia de firma (base)"
+   ],
+   "responsabilidad": "Los productos sin firma no muestran autoría Keyons.",
+   "cita": "",
+   "corto": "Sin firma"
+  },
+  {
+   "id": "KYN-SDI-MOV-001",
+   "capitulo": "39",
+   "nombre": "Movimiento funcional",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/movimiento-sensorial/movimiento-operativo.html#s-11-01-01",
+   "origen": [
+    "Movimiento funcional (base)"
+   ],
+   "responsabilidad": "Las transiciones operativas comunican cambios de estado o continuidad.",
+   "cita": "",
+   "corto": "Funcional"
+  },
+  {
+   "id": "KYN-SDI-MOV-002",
+   "capitulo": "39",
+   "nombre": "Duración proporcionada",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/movimiento-sensorial/movimiento-operativo.html#s-11-01-02",
+   "origen": [
+    "Duración proporcionada (base)"
+   ],
+   "responsabilidad": "El movimiento no retrasa las tareas.",
+   "cita": "",
+   "corto": "Duración"
+  },
+  {
+   "id": "KYN-SDI-MOV-003",
+   "capitulo": "40",
+   "nombre": "Expresión con propósito",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/movimiento-sensorial/movimiento-editorial.html#s-11-02-01",
+   "origen": [
+    "Expresión con propósito (base)"
+   ],
+   "responsabilidad": "El movimiento editorial se usa cuando aporta a la narrativa o la identidad.",
+   "cita": "",
+   "corto": "Expresión"
+  },
+  {
+   "id": "KYN-SDI-MOV-004",
+   "capitulo": "40",
+   "nombre": "Comprensión independiente",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/movimiento-sensorial/movimiento-editorial.html#s-11-02-02",
+   "origen": [
+    "Comprensión independiente (base)"
+   ],
+   "responsabilidad": "La información esencial se entiende sin animación.",
+   "cita": "",
+   "corto": "Comprensión"
+  },
+  {
+   "id": "KYN-SDI-MOV-005",
+   "capitulo": "41",
+   "nombre": "Sonido",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/movimiento-sensorial/interaccion-multisensorial.html#s-11-03-01",
+   "origen": [
+    "Sonido (base)"
+   ],
+   "responsabilidad": "Los sonidos no esenciales están desactivados por defecto.",
+   "cita": "",
+   "corto": "Sonido"
+  },
+  {
+   "id": "KYN-SDI-MOV-006",
+   "capitulo": "41",
+   "nombre": "Háptica",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/movimiento-sensorial/interaccion-multisensorial.html#s-11-03-02",
+   "origen": [
+    "Háptica (base)",
+    "UIX-046"
+   ],
+   "responsabilidad": "La háptica se usa en dispositivos compatibles cuando confirma algo útil.",
+   "cita": "",
+   "corto": "Háptica"
+  },
+  {
+   "id": "KYN-SDI-MOV-007",
+   "capitulo": "41",
+   "nombre": "Alternativas",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/movimiento-sensorial/interaccion-multisensorial.html#s-11-03-03",
+   "origen": [
+    "Alternativas (base)"
+   ],
+   "responsabilidad": "La información importante no depende solo de sonido o vibración.",
+   "cita": "",
+   "corto": "Alternativas"
+  },
+  {
+   "id": "KYN-SDI-GOB-004",
+   "capitulo": "42",
+   "nombre": "Fuente única",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/calidad-gobierno/gobierno-normativo.html#s-12-01-01",
+   "origen": [
+    "Fuente única (base)",
+    "UIX-010"
+   ],
+   "responsabilidad": "Cada requisito tiene una fuente identificable y sin duplicaciones.",
+   "cita": "",
+   "corto": "Fuente única"
+  },
+  {
+   "id": "KYN-SDI-GOB-005",
+   "capitulo": "42",
+   "nombre": "Estado visible",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/calidad-gobierno/gobierno-normativo.html#s-12-01-02",
+   "origen": [
+    "Estado visible (base)"
+   ],
+   "responsabilidad": "Las normas muestran su estado de aprobación y versión.",
+   "cita": "",
+   "corto": "Estado"
+  },
+  {
+   "id": "KYN-SDI-GOB-006",
+   "capitulo": "43",
+   "nombre": "Uso de componentes canónicos",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-01",
+   "origen": [
+    "Uso de componentes canónicos (base)",
+    "UIX-011"
+   ],
+   "responsabilidad": "Las implementaciones usan los componentes y tokens compartidos.",
+   "cita": "Aplica FUI-001 (07) y SPR-005 (34)",
+   "corto": "Canónicos"
+  },
+  {
+   "id": "KYN-SDI-GOB-007",
+   "capitulo": "43",
+   "nombre": "Excepciones justificadas",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-02",
+   "origen": [
+    "Excepciones justificadas (base)"
+   ],
+   "responsabilidad": "Las desviaciones documentan necesidad, alcance y revisión.",
+   "cita": "",
+   "corto": "Excepciones"
+  },
+  {
+   "id": "KYN-SDI-GOB-008",
+   "capitulo": "43",
+   "nombre": "Entrega comprobable",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-03",
+   "origen": [
+    "Entrega comprobable (base)"
+   ],
+   "responsabilidad": "Los componentes compartidos se entregan con pruebas.",
+   "cita": "",
+   "corto": "Entrega"
+  },
+  {
+   "id": "KYN-SDI-GOB-009",
+   "capitulo": "45",
+   "nombre": "Componentes documentados",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/calidad-gobierno/documentacion-y-consulta.html#s-12-04-01",
+   "origen": [
+    "Componentes documentados (base)"
+   ],
+   "responsabilidad": "Cada componente canónico documenta propósito, variantes, estados, comportamiento y accesibilidad.",
+   "cita": "",
+   "corto": "Componentes"
+  },
+  {
+   "id": "KYN-SDI-GOB-010",
+   "capitulo": "45",
+   "nombre": "Ejemplos funcionales",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/calidad-gobierno/documentacion-y-consulta.html#s-12-04-02",
+   "origen": [
+    "Ejemplos funcionales (base)"
+   ],
+   "responsabilidad": "La documentación ofrece ejemplos correctos e incorrectos cuando ayudan.",
+   "cita": "",
+   "corto": "Ejemplos"
+  },
+  {
+   "id": "KYN-SDI-GOB-011",
+   "capitulo": "45",
+   "nombre": "Versionado",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/calidad-gobierno/documentacion-y-consulta.html#s-12-04-03",
+   "origen": [
+    "Versionado (base)"
+   ],
+   "responsabilidad": "Los cambios relevantes son trazables y comunican sus efectos.",
+   "cita": "",
+   "corto": "Versionado"
   }
  ]
 }
