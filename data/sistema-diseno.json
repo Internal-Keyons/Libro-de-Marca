@@ -131,7 +131,7 @@
    "t": "Arquitectura y navegación",
    "slug": "arquitectura-navegacion",
    "d": "Establece cómo se organiza la información y cómo las personas se desplazan por las aplicaciones.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "ESP-004",
     "CMP-001",
@@ -214,6 +214,13 @@
        "estado": "borrador",
        "st": "Regreso sin pérdida",
        "norma": "KYN-SDI-ARQ-010"
+      },
+      {
+       "n": "02.02.07",
+       "t": "Acceso directo y rutas no disponibles",
+       "estado": "borrador",
+       "st": "Acceso directo y rutas no disponibles",
+       "norma": "KYN-SDI-ARQ-017"
       }
      ],
      "st": "Navegación",

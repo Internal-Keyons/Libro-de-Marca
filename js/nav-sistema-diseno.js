@@ -53,7 +53,8 @@ window.KEYONS_NAV = [
           { t: 'Navegación visible', st: 'Navegación visible', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-03' },
           { t: 'Identificación de controles', st: 'Identificación de controles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-04' },
           { t: 'Adaptación por dispositivo', st: 'Adaptación por dispositivo', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-05' },
-          { t: 'Regreso sin pérdida', st: 'Regreso sin pérdida', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-06' } ] },
+          { t: 'Regreso sin pérdida', st: 'Regreso sin pérdida', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-06' },
+          { t: 'Acceso directo y rutas no disponibles', st: 'Acceso directo y rutas no disponibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-07' } ] },
       { n: '06', k: '02-03', t: 'Búsqueda', full: 'Búsqueda y orientación', d: 'Búsqueda, filtros y orientación sobre dónde se está y cómo continuar.', s: 'p', items: [
           { t: 'Búsqueda global', st: 'Búsqueda global', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-01' },
           { t: 'Filtros', st: 'Filtros', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-02' },

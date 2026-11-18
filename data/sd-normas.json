@@ -283,7 +283,7 @@
     "Acciones previsibles (base)",
     "Acceso consistente (ampliación)"
    ],
-   "responsabilidad": "Cada destino conserva su nombre, su lugar y su comportamiento en todo el producto.",
+   "responsabilidad": "Cada destino conserva un nombre coherente, su lugar y su comportamiento en todo el producto.",
    "cita": "Aplica PEX-005 a la navegación; los nombres siguen ARQ-002"
   },
   {
@@ -306,9 +306,10 @@
    "ruta": "sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-04",
    "origen": [
     "Identificación de controles (ampliación)",
+    "Estados de navegación (texto de Keylin, 2026-11-17)",
     "UIX-038"
    ],
-   "responsabilidad": "Los controles de navegación comunican función y estado con semántica y señales accesibles.",
+   "responsabilidad": "Los controles de navegación comunican función, estado y disponibilidad con semántica y señales accesibles, y distinguen foco de selección.",
    "cita": "21 Operación (Teclado, Foco identificable) define el foco del producto"
   },
   {
@@ -322,8 +323,8 @@
     "Menús adaptables (ampliación)",
     "UIX-039"
    ],
-   "responsabilidad": "La presentación cambia con el espacio; los destinos esenciales y sus nombres se mantienen.",
-   "cita": "22 Adaptación define tamaños de objetivo; 37 Product Default, el patrón SaaS"
+   "responsabilidad": "La presentación cambia con el espacio; los destinos esenciales se mantienen accesibles y reconocibles.",
+   "cita": "22 Adaptación define el tamaño de los objetivos; 37 Product Default, el patrón SaaS"
   },
   {
    "id": "KYN-SDI-ARQ-010",
@@ -337,8 +338,8 @@
     "Recuperación del contexto (ampliación, capítulo 06)",
     "UIX-025"
    ],
-   "responsabilidad": "Al volver de un detalle, la lista conserva búsqueda, filtros, orden y posición.",
-   "cita": "06 Búsqueda cita esta norma para la consulta conservada"
+   "responsabilidad": "Al volver de un detalle, la lista conserva búsqueda, filtros, orden y posición cuando sirven para continuar.",
+   "cita": "06 Búsqueda cita esta norma para la consulta conservada; 16 y 17 regulan los cambios pendientes"
   },
   {
    "id": "KYN-SDI-ARQ-011",
@@ -414,6 +415,18 @@
    ],
    "responsabilidad": "La búsqueda no revela, por ninguna vía, información sin permiso.",
    "cita": "Aplica PEX-008 a la búsqueda"
+  },
+  {
+   "id": "KYN-SDI-ARQ-017",
+   "capitulo": "05",
+   "nombre": "Acceso directo y rutas no disponibles",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-07",
+   "origen": [
+    "Acceso directo y rutas no disponibles (texto de Keylin, 2026-11-17)"
+   ],
+   "responsabilidad": "Las rutas internas se abren directamente y las no disponibles comunican la situación con una salida, sin revelar información.",
+   "cita": "24 Mensajes define el texto; 18 Recuperación, las rutas alternativas"
   }
  ]
 }

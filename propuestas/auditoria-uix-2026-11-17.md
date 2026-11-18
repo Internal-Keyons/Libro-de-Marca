@@ -71,7 +71,7 @@ Estas normas quedan registradas para sus capítulos. Ninguna se mezcla en 01–0
 
 ## 4 · Contradicciones y decisiones abiertas
 
-1. **Tamaño táctil:** 44 × 44 px (UIX-039) frente a 24 × 24 px (UIX-038 y WCAG 2.2 AA). Se decide en 22 Adaptación.
+1. **Tamaño de los objetivos:** UIX-039 presenta 44 × 44 px como requisito de WCAG, y no lo es. WCAG 2.2 AA (2.5.8) pide un mínimo de 24 × 24 px CSS, con excepciones; 44 × 44 px es el criterio AAA (2.5.5). Keyons puede adoptar 44 × 44 px como preferencia propia en los controles táctiles principales, sujeta a aprobación en 22 Adaptación. ARQ-009 ya documenta los tres niveles.
 2. **«5 segundos»** (UIX-001, UIX-028): queda como hipótesis inicial de prueba, no como obligación universal (indicación de Keylin, 2026-11-17).
 3. **Notificaciones** (UIX-030 y 046): dicen lo mismo. Se proponen como una sola norma en 15.
 4. **UIX-004** compara Prisma con otro método. La Biblioteca describe a Keyons sin compararse (reglas de voz).
