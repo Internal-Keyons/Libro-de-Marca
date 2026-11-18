@@ -108,7 +108,7 @@ PALETA = (f'{I}<ul class="paleta5" aria-label="Los cinco colores oficiales">'
           + ''.join(f'<li><i style="background:var({v})"></i><b>{n}</b><span>{d}</span></li>' for v, n, d in [
               ('--k-blanco', 'Blanco Keyons', 'Estructura y contraste'), ('--k-noche', 'Azul Noche', 'Estructura y contraste'),
               ('--k-cielo', 'Azul Cielo', 'Reconocimiento y acento'), ('--k-salmon', 'Salmón Tierra', 'Expresión según el contexto'),
-              ('--k-atardecer', 'Salmón Atardecer', 'Variante para composiciones oscuras')]) + '</ul>')
+              ('--k-atardecer', 'Salmón Atardecer', 'Expresión según el contexto')]) + '</ul>')
 C16 = [
     ('principios', '16.1', 'Principios', 'Claridad con carácter', [
         lead('La expresión corporativa de Keyons combina <strong>claridad, confianza y personalidad</strong> mediante una composición precisa y un uso deliberado del espacio.'),

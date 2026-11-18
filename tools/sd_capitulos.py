@@ -63,7 +63,7 @@ def main():
         if n is None:
             n = dict(id=nid, capitulo=num_de[b['slug']], nombre='', estado='', ruta=None, origen=[], responsabilidad='', cita='')
             reg['normas'].append(n); por_id[nid] = n
-        n.update(nombre=b['nombre'], estado='borrador', ruta=b['ruta'], origen=b['origen'] or n['origen'],
+        n.update(nombre=b['nombre'], corto=b['corto'], estado='borrador', ruta=b['ruta'], origen=b['origen'] or n['origen'],
                  responsabilidad=b['responsabilidad'] or n['responsabilidad'], cita=b['cita'] or n['cita'])
     # El registro se escribe antes de clasificar los niveles: tools/niveles.py lee de él las secciones de cada norma
     io.open(base.REGISTRO, 'w', encoding='utf-8', newline='\n').write(json.dumps(reg, ensure_ascii=False, indent=1) + '\n')
@@ -75,7 +75,7 @@ def main():
         cp = next(x for x in m['capitulos'] if x['n'] == capn)
         nums = sorted((n for n in reg['normas'] if n['estado'] != 'reservado' and n['ruta'] and n['ruta'].split('#')[0].endswith('/' + slug + '.html')),
                       key=lambda n: n['ruta'])
-        cp['subcapitulos'] = [{'n': n['ruta'].split('#s-')[1].replace('-', '.'), 't': n['nombre'], 'estado': n['estado'], 'st': n['nombre'], 'norma': n['id']} for n in nums]
+        cp['subcapitulos'] = [{'n': n['ruta'].split('#s-')[1].replace('-', '.'), 't': n['nombre'], 'estado': n['estado'], 'st': n.get('corto') or n['nombre'], 'norma': n['id']} for n in nums]
         cp['estado'] = 'borrador'
         if dc:
             cp['dc'] = dc

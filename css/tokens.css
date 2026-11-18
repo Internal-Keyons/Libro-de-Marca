@@ -122,6 +122,7 @@
   --chart-vacio:var(--k-noche-150);
   /* Medida de lectura de un párrafo · reglas-visuales 3.4 */
   --measure:600px;
+  --promise-n:56px;   /* Guía 05 · Sistema de diagramación: columna del número en la serie desplegable (ADN-006) */
   /* Tracking (reglas-visuales 2.4): la escala de seis valores. El código aún usa valores sueltos: unificarlos cambia la apariencia y lo decide Keylin */
   --tr-0:0;
   --tr-1:-.02em;

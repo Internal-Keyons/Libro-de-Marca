@@ -16,7 +16,8 @@
     "UIX-028"
    ],
    "responsabilidad": "Cada pantalla deja reconocer su propósito y su acción principal sin que los recursos gráficos compitan.",
-   "cita": "11 Recursos visuales (Expresión proporcionada) cita esta norma"
+   "cita": "11 Recursos visuales (Expresión proporcionada) cita esta norma",
+   "corto": "La tarea primero"
   },
   {
    "id": "KYN-SDI-PEX-002",
@@ -29,7 +30,8 @@
     "UIX-005"
    ],
    "responsabilidad": "Las funciones y los patrones comprensibles se conservan por encima de la originalidad.",
-   "cita": ""
+   "cita": "",
+   "corto": "Claridad primero"
   },
   {
    "id": "KYN-SDI-PEX-003",
@@ -43,7 +45,8 @@
     "UIX-001"
    ],
    "responsabilidad": "La cantidad de información, controles y pasos corresponde a la tarea, al perfil y a la frecuencia.",
-   "cita": "04 Información progresiva (ARQ-004) desarrolla el detalle bajo demanda"
+   "cita": "04 Información progresiva (ARQ-004) desarrolla el detalle bajo demanda",
+   "corto": "Complejidad"
   },
   {
    "id": "KYN-SDI-PEX-004",
@@ -57,7 +60,8 @@
     "UIX-013"
    ],
    "responsabilidad": "Después de una acción, el sistema comunica si procesa, terminó, necesita intervención o falló.",
-   "cita": "15 Retroalimentación desarrolla los componentes"
+   "cita": "15 Retroalimentación desarrolla los componentes",
+   "corto": "Estado comprensible"
   },
   {
    "id": "KYN-SDI-PEX-005",
@@ -71,7 +75,8 @@
     "UIX-013"
    ],
    "responsabilidad": "Una misma función se comporta igual en todas las pantallas y productos.",
-   "cita": "05 Acciones previsibles (ARQ-006) aplica el principio a la navegación"
+   "cita": "05 Acciones previsibles (ARQ-006) aplica el principio a la navegación",
+   "corto": "Previsibilidad"
   },
   {
    "id": "KYN-SDI-PEX-006",
@@ -84,7 +89,8 @@
     "UIX-006"
    ],
    "responsabilidad": "Antes de una acción de consecuencias, la persona ve qué va a cambiar.",
-   "cita": "19 Procesos críticos (Consecuencias claras) se integra en esta norma o la cita"
+   "cita": "19 Procesos críticos (Consecuencias claras) se integra en esta norma o la cita",
+   "corto": "Contexto previo"
   },
   {
    "id": "KYN-SDI-PEX-007",
@@ -99,7 +105,8 @@
     "UIX-009"
    ],
    "responsabilidad": "Las decisiones de experiencia parten de tareas y necesidades reales de quienes operan el producto.",
-   "cita": ""
+   "cita": "",
+   "corto": "Personas reales"
   },
   {
    "id": "KYN-SDI-PEX-008",
@@ -113,7 +120,8 @@
     "UIX-008"
    ],
    "responsabilidad": "Los permisos efectivos determinan acciones y datos; la interfaz no reemplaza la validación.",
-   "cita": "06 Resultados autorizados (ARQ-016) aplica el límite a la búsqueda"
+   "cita": "06 Resultados autorizados (ARQ-016) aplica el límite a la búsqueda",
+   "corto": "Roles y permisos"
   },
   {
    "id": "KYN-SDI-PEX-009",
@@ -129,7 +137,8 @@
     "UIX-029"
    ],
    "responsabilidad": "Densidad, ayudas y esfuerzo se ajustan a la frecuencia y al contexto, con los mismos patrones.",
-   "cita": "10 Espacio y retícula define los modos de densidad"
+   "cita": "10 Espacio y retícula define los modos de densidad",
+   "corto": "Frecuencia de uso"
   },
   {
    "id": "KYN-SDI-PEX-010",
@@ -144,7 +153,8 @@
     "UIX-003"
    ],
    "responsabilidad": "Cada decisión significativa se vincula con un problema, una necesidad o una hipótesis, y queda registrada.",
-   "cita": ""
+   "cita": "",
+   "corto": "Decisiones"
   },
   {
    "id": "KYN-SDI-PEX-011",
@@ -157,7 +167,8 @@
     "UIX-002"
    ],
    "responsabilidad": "Los proyectos siguen las cinco fases de Prisma, con su entregable por fase.",
-   "cita": "43 Implementación conserva la operación del método"
+   "cita": "43 Implementación conserva la operación del método",
+   "corto": "Prisma"
   },
   {
    "id": "KYN-SDI-PEX-012",
@@ -170,7 +181,8 @@
     "Estructura antes de expresión (ampliación)"
    ],
    "responsabilidad": "Estructura, interacción y expresión se trabajan por capas, de forma iterativa, dentro de Prisma.",
-   "cita": ""
+   "cita": "",
+   "corto": "Diseño por capas"
   },
   {
    "id": "KYN-SDI-PEX-013",
@@ -183,7 +195,8 @@
     "Evaluar prototipos (ampliación de la matriz)"
    ],
    "responsabilidad": "Una propuesta se aprueba por sus resultados de comprensión, navegación e interacción.",
-   "cita": ""
+   "cita": "",
+   "corto": "Resultados"
   },
   {
    "id": "KYN-SDI-PEX-014",
@@ -196,7 +209,8 @@
     "Hipótesis y evidencia (base, capítulo 02)"
    ],
    "responsabilidad": "Observaciones, hipótesis, resultados y decisiones se distinguen en la documentación.",
-   "cita": "44 Validación (Evidencia registrada) cita esta norma"
+   "cita": "44 Validación (Evidencia registrada) cita esta norma",
+   "corto": "Evidencia"
   },
   {
    "id": "KYN-SDI-PEX-015",
@@ -209,7 +223,8 @@
     "UIX-048"
    ],
    "responsabilidad": "Los cambios se comprueban en las tareas afectadas antes de extenderse.",
-   "cita": "44 Validación define el protocolo de prueba"
+   "cita": "44 Validación define el protocolo de prueba",
+   "corto": "Evaluación posterior"
   },
   {
    "id": "KYN-SDI-ARQ-001",
@@ -223,7 +238,8 @@
     "Estructura de páginas, agrupación y navegación contextual (ampliación de la matriz)"
    ],
    "responsabilidad": "El contenido se agrupa por tareas y conceptos de las personas, con relaciones identificables.",
-   "cita": ""
+   "cita": "",
+   "corto": "Organización"
   },
   {
    "id": "KYN-SDI-ARQ-002",
@@ -237,7 +253,8 @@
     "UIX-041"
    ],
    "responsabilidad": "Categorías, secciones y destinos usan nombres que las personas reconocen.",
-   "cita": "23 Escritura (Consistencia) desarrolla la redacción"
+   "cita": "23 Escritura (Consistencia) desarrolla la redacción",
+   "corto": "Nombres"
   },
   {
    "id": "KYN-SDI-ARQ-003",
@@ -250,7 +267,8 @@
     "Jerarquías (ampliación de la matriz)"
    ],
    "responsabilidad": "Las páginas distinguen información principal, secundaria y complementaria.",
-   "cita": "09 Tipografía define la jerarquía visual"
+   "cita": "09 Tipografía define la jerarquía visual",
+   "corto": "Jerarquía identificable"
   },
   {
    "id": "KYN-SDI-ARQ-004",
@@ -266,7 +284,8 @@
     "UIX-028"
    ],
    "responsabilidad": "Lo esencial está visible en su momento; el detalle se ofrece a pedido sin ocultar requisitos.",
-   "cita": ""
+   "cita": "",
+   "corto": "Detalle a pedido"
   },
   {
    "id": "KYN-SDI-ARQ-005",
@@ -280,7 +299,8 @@
     "Verificación base del capítulo 05"
    ],
    "responsabilidad": "La persona reconoce la sección activa, su grupo superior y cómo llegar a las demás áreas.",
-   "cita": ""
+   "cita": "",
+   "corto": "Ubicación actual"
   },
   {
    "id": "KYN-SDI-ARQ-006",
@@ -293,7 +313,8 @@
     "Acceso consistente (ampliación)"
    ],
    "responsabilidad": "Cada destino conserva un nombre coherente, su lugar y su comportamiento en todo el producto.",
-   "cita": "Aplica PEX-005 a la navegación; los nombres siguen ARQ-002"
+   "cita": "Aplica PEX-005 a la navegación; los nombres siguen ARQ-002",
+   "corto": "Acciones previsibles"
   },
   {
    "id": "KYN-SDI-ARQ-007",
@@ -305,7 +326,8 @@
     "Navegación visible (base)"
    ],
    "responsabilidad": "Toda función necesaria tiene una señal visible para puntero, teclado y tacto.",
-   "cita": ""
+   "cita": "",
+   "corto": "Navegación visible"
   },
   {
    "id": "KYN-SDI-ARQ-008",
@@ -319,7 +341,8 @@
     "UIX-038"
    ],
    "responsabilidad": "Los controles de navegación comunican función, estado y disponibilidad con semántica y señales accesibles, y distinguen foco de selección.",
-   "cita": "21 Operación (Teclado, Foco identificable) define el foco del producto"
+   "cita": "21 Operación (Teclado, Foco identificable) define el foco del producto",
+   "corto": "Controles"
   },
   {
    "id": "KYN-SDI-ARQ-009",
@@ -333,7 +356,8 @@
     "UIX-039"
    ],
    "responsabilidad": "La presentación cambia con el espacio; los destinos esenciales se mantienen accesibles y reconocibles.",
-   "cita": "22 Adaptación define el tamaño de los objetivos; 37 Product Default, el patrón SaaS"
+   "cita": "22 Adaptación define el tamaño de los objetivos; 37 Product Default, el patrón SaaS",
+   "corto": "Adaptación"
   },
   {
    "id": "KYN-SDI-ARQ-010",
@@ -348,7 +372,8 @@
     "UIX-025"
    ],
    "responsabilidad": "Al volver de un detalle, la lista conserva búsqueda, filtros, orden y posición cuando sirven para continuar.",
-   "cita": "06 Búsqueda cita esta norma para la consulta conservada; 16 y 17 regulan los cambios pendientes"
+   "cita": "06 Búsqueda cita esta norma para la consulta conservada; 16 y 17 regulan los cambios pendientes",
+   "corto": "Regreso sin pérdida"
   },
   {
    "id": "KYN-SDI-ARQ-011",
@@ -361,7 +386,8 @@
     "Búsqueda global frente a local (ampliación de la matriz)"
    ],
    "responsabilidad": "Se entiende si la búsqueda es global o está limitada a una sección o conjunto.",
-   "cita": ""
+   "cita": "",
+   "corto": "Alcance identificable"
   },
   {
    "id": "KYN-SDI-ARQ-012",
@@ -374,7 +400,8 @@
     "Autocompletado, búsqueda parcial, errores ortográficos y resultados ordenados (ampliación de la matriz)"
    ],
    "responsabilidad": "La búsqueda usa los campos relevantes, encuentra por coincidencia parcial y ordena por pertinencia.",
-   "cita": "El límite de permisos está en ARQ-016"
+   "cita": "El límite de permisos está en ARQ-016",
+   "corto": "Pertinencia"
   },
   {
    "id": "KYN-SDI-ARQ-013",
@@ -387,7 +414,8 @@
     "Manejo de resultados extensos (ampliación de la matriz)"
    ],
    "responsabilidad": "Cada resultado se distingue de otros similares y los resultados extensos se pueden recorrer.",
-   "cita": ""
+   "cita": "",
+   "corto": "Resultados claros"
   },
   {
    "id": "KYN-SDI-ARQ-014",
@@ -400,7 +428,8 @@
     "Conservación de filtros (ampliación de la matriz)"
    ],
    "responsabilidad": "Los filtros activos se ven y se modifican sin perder la consulta.",
-   "cita": "La conservación al volver la regula ARQ-010 (05)"
+   "cita": "La conservación al volver la regula ARQ-010 (05)",
+   "corto": "Filtros visibles"
   },
   {
    "id": "KYN-SDI-ARQ-015",
@@ -415,7 +444,8 @@
     "UIX-023"
    ],
    "responsabilidad": "Sin coincidencias, la interfaz lo explica y ofrece una acción; un error y la falta de acceso se distinguen.",
-   "cita": "24 Mensajes define la redacción"
+   "cita": "24 Mensajes define la redacción",
+   "corto": "Sin resultados"
   },
   {
    "id": "KYN-SDI-ARQ-016",
@@ -427,7 +457,8 @@
     "Resultados autorizados (ampliación)"
    ],
    "responsabilidad": "La búsqueda no revela, por ninguna vía, información sin permiso.",
-   "cita": "Aplica PEX-008 a la búsqueda"
+   "cita": "Aplica PEX-008 a la búsqueda",
+   "corto": "Permisos"
   },
   {
    "id": "KYN-SDI-ARQ-017",
@@ -439,7 +470,8 @@
     "Acceso directo y rutas no disponibles (texto de Keylin, 2026-11-17)"
    ],
    "responsabilidad": "Las rutas internas se abren directamente y las no disponibles comunican la situación con una salida, sin revelar información.",
-   "cita": "24 Mensajes define el texto; 18 Recuperación, las rutas alternativas"
+   "cita": "24 Mensajes define el texto; 18 Recuperación, las rutas alternativas",
+   "corto": "Acceso directo"
   },
   {
    "id": "KYN-SDI-PEX-016",
@@ -451,7 +483,8 @@
     "Prevención de errores (ampliación de la matriz; requisito redactado por Claude)"
    ],
    "responsabilidad": "La interfaz previene los errores frecuentes antes de que ocurran.",
-   "cita": "13 Entradas y 16 Formularios desarrollan la validación"
+   "cita": "13 Entradas y 16 Formularios desarrollan la validación",
+   "corto": "Prevención de errores"
   },
   {
    "id": "KYN-SDI-PEX-017",
@@ -465,7 +498,8 @@
     "UIX-025"
    ],
    "responsabilidad": "La persona puede cancelar, deshacer y decidir sobre lo que el sistema propone.",
-   "cita": ""
+   "cita": "",
+   "corto": "Control de la persona"
   },
   {
    "id": "KYN-SDI-PEX-018",
@@ -477,7 +511,8 @@
     "Reconocimiento frente a memorización (ampliación de la matriz; requisito redactado por Claude)"
    ],
    "responsabilidad": "La interfaz muestra opciones, datos previos y contexto en lugar de exigir memoria.",
-   "cita": ""
+   "cita": "",
+   "corto": "Reconocer"
   }
  ]
 }

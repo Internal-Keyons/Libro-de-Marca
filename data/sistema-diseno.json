@@ -34,14 +34,14 @@
        "n": "01.01.02",
        "t": "Claridad antes que novedad",
        "estado": "borrador",
-       "st": "Claridad antes que novedad",
+       "st": "Claridad primero",
        "norma": "KYN-SDI-PEX-002"
       },
       {
        "n": "01.01.03",
        "t": "Complejidad justificada",
        "estado": "borrador",
-       "st": "Complejidad justificada",
+       "st": "Complejidad",
        "norma": "KYN-SDI-PEX-003"
       },
       {
@@ -55,14 +55,14 @@
        "n": "01.01.05",
        "t": "Comportamiento previsible",
        "estado": "borrador",
-       "st": "Comportamiento previsible",
+       "st": "Previsibilidad",
        "norma": "KYN-SDI-PEX-005"
       },
       {
        "n": "01.01.06",
        "t": "Contexto antes de actuar",
        "estado": "borrador",
-       "st": "Contexto antes de actuar",
+       "st": "Contexto previo",
        "norma": "KYN-SDI-PEX-006"
       },
       {
@@ -83,7 +83,7 @@
        "n": "01.01.09",
        "t": "Reconocer antes que recordar",
        "estado": "borrador",
-       "st": "Reconocer antes que recordar",
+       "st": "Reconocer",
        "norma": "KYN-SDI-PEX-018"
       }
      ],
@@ -101,7 +101,7 @@
        "n": "01.02.01",
        "t": "Diseñar para quienes utilizan el producto",
        "estado": "borrador",
-       "st": "Diseñar para quienes utilizan el producto",
+       "st": "Personas reales",
        "norma": "KYN-SDI-PEX-007"
       },
       {
@@ -115,7 +115,7 @@
        "n": "01.02.03",
        "t": "Uso ocasional y frecuente",
        "estado": "borrador",
-       "st": "Uso ocasional y frecuente",
+       "st": "Frecuencia de uso",
        "norma": "KYN-SDI-PEX-009"
       }
      ],
@@ -133,14 +133,14 @@
        "n": "01.03.01",
        "t": "Decisiones justificadas",
        "estado": "borrador",
-       "st": "Decisiones justificadas",
+       "st": "Decisiones",
        "norma": "KYN-SDI-PEX-010"
       },
       {
        "n": "01.03.02",
        "t": "Prisma como metodología",
        "estado": "borrador",
-       "st": "Prisma como metodología",
+       "st": "Prisma",
        "norma": "KYN-SDI-PEX-011"
       },
       {
@@ -154,14 +154,14 @@
        "n": "01.03.04",
        "t": "Diseño basado en resultados",
        "estado": "borrador",
-       "st": "Diseño basado en resultados",
+       "st": "Resultados",
        "norma": "KYN-SDI-PEX-013"
       },
       {
        "n": "01.03.05",
        "t": "Evidencia diferenciada",
        "estado": "borrador",
-       "st": "Evidencia diferenciada",
+       "st": "Evidencia",
        "norma": "KYN-SDI-PEX-014"
       },
       {
@@ -203,14 +203,14 @@
        "n": "02.01.01",
        "t": "Organización comprensible",
        "estado": "borrador",
-       "st": "Organización comprensible",
+       "st": "Organización",
        "norma": "KYN-SDI-ARQ-001"
       },
       {
        "n": "02.01.02",
        "t": "Nombres comprensibles",
        "estado": "borrador",
-       "st": "Nombres comprensibles",
+       "st": "Nombres",
        "norma": "KYN-SDI-ARQ-002"
       },
       {
@@ -224,7 +224,7 @@
        "n": "02.01.04",
        "t": "Información progresiva",
        "estado": "borrador",
-       "st": "Información progresiva",
+       "st": "Detalle a pedido",
        "norma": "KYN-SDI-ARQ-004"
       }
      ],
@@ -263,14 +263,14 @@
        "n": "02.02.04",
        "t": "Identificación de controles",
        "estado": "borrador",
-       "st": "Identificación de controles",
+       "st": "Controles",
        "norma": "KYN-SDI-ARQ-008"
       },
       {
        "n": "02.02.05",
        "t": "Adaptación por dispositivo",
        "estado": "borrador",
-       "st": "Adaptación por dispositivo",
+       "st": "Adaptación",
        "norma": "KYN-SDI-ARQ-009"
       },
       {
@@ -284,7 +284,7 @@
        "n": "02.02.07",
        "t": "Acceso directo y rutas no disponibles",
        "estado": "borrador",
-       "st": "Acceso directo y rutas no disponibles",
+       "st": "Acceso directo",
        "norma": "KYN-SDI-ARQ-017"
       }
      ],
@@ -309,14 +309,14 @@
        "n": "02.03.02",
        "t": "Resultados pertinentes",
        "estado": "borrador",
-       "st": "Resultados pertinentes",
+       "st": "Pertinencia",
        "norma": "KYN-SDI-ARQ-012"
       },
       {
        "n": "02.03.03",
        "t": "Resultados comprensibles",
        "estado": "borrador",
-       "st": "Resultados comprensibles",
+       "st": "Resultados claros",
        "norma": "KYN-SDI-ARQ-013"
       },
       {
@@ -337,7 +337,7 @@
        "n": "02.03.06",
        "t": "Resultados autorizados",
        "estado": "borrador",
-       "st": "Resultados autorizados",
+       "st": "Permisos",
        "norma": "KYN-SDI-ARQ-016"
       }
      ],
@@ -411,7 +411,7 @@
        "n": "03.02.02",
        "t": "Colores de interacción, foco y estados",
        "estado": "pendiente",
-       "st": "Colores de interacción"
+       "st": "Interacción"
       },
       {
        "n": "03.02.03",
@@ -638,7 +638,7 @@
        "n": "04.04.03",
        "t": "Indicadores de progreso y carga",
        "estado": "pendiente",
-       "st": "Indicadores de progreso"
+       "st": "Progreso"
       }
      ],
      "st": "Retroalimentación",
@@ -809,13 +809,13 @@
        "n": "06.01.01",
        "t": "Contraste y legibilidad",
        "estado": "pendiente",
-       "st": "Contraste y legibilidad"
+       "st": "Contraste"
       },
       {
        "n": "06.01.02",
        "t": "Información no dependiente del color",
        "estado": "pendiente",
-       "st": "Sin depender del color"
+       "st": "Más que color"
       },
       {
        "n": "06.01.03",
@@ -873,13 +873,13 @@
        "n": "06.03.02",
        "t": "Preferencias del sistema y movimiento reducido",
        "estado": "pendiente",
-       "st": "Preferencias del sistema"
+       "st": "Preferencias"
       },
       {
        "n": "06.03.03",
        "t": "Diferentes capacidades y condiciones de uso",
        "estado": "pendiente",
-       "st": "Diferentes capacidades"
+       "st": "Capacidades"
       }
      ],
      "st": "Adaptación",
@@ -1228,7 +1228,7 @@
        "n": "09.03.03",
        "t": "Confirmaciones, aprobaciones y registro de ejecución",
        "estado": "pendiente",
-       "st": "Aprobaciones y registro"
+       "st": "Aprobaciones"
       }
      ],
      "st": "Agentes",
@@ -1293,7 +1293,7 @@
        "n": "10.01.01",
        "t": "Estándares UX comunes",
        "estado": "pendiente",
-       "st": "Estándares UX comunes"
+       "st": "Estándares UX"
       },
       {
        "n": "10.01.02",
@@ -1380,7 +1380,7 @@
        "n": "10.04.01",
        "t": "Estética neutral premium",
        "estado": "pendiente",
-       "st": "Estética neutral premium"
+       "st": "Estética neutral"
       },
       {
        "n": "10.04.02",
@@ -1409,7 +1409,7 @@
        "n": "10.05.01",
        "t": "Aplicación de identidades de clientes",
        "estado": "pendiente",
-       "st": "Identidades de clientes"
+       "st": "Identidades"
       },
       {
        "n": "10.05.02",
@@ -1459,7 +1459,7 @@
        "n": "11.01.01",
        "t": "Transiciones funcionales",
        "estado": "pendiente",
-       "st": "Transiciones funcionales"
+       "st": "Transiciones"
       },
       {
        "n": "11.01.02",
@@ -1494,7 +1494,7 @@
        "n": "11.02.02",
        "t": "Movimiento atmosférico y expresivo",
        "estado": "pendiente",
-       "st": "Movimiento atmosférico"
+       "st": "Atmósfera"
       },
       {
        "n": "11.02.03",

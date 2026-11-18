@@ -6171,3 +6171,30 @@ a.bks__it:hover .bks__art,a.bks__card:hover .bks__art{color:var(--cover-line-hov
    Solo en las muestras editoriales (cielos de COL-007 y los cinco colores de COR-003). Las escalas de datos, los puntos de color
    del texto, la tabla de contraste, las leyendas y los controles conservan su forma (R24, excepciones) */
 .ings .ing:nth-child(even) i,.paleta5 li:nth-child(even) i{border-radius:0}
+
+/* ═══ Guía 05 · Sistema de diagramación (2026-11-17) ═══ */
+/* Ancho de lectura: el texto corrido de los dos libros usa --measure; tablas, código y componentes conservan su ancho */
+.prosa p,.ed__stack p,.sdn__t,.promise__body p,.promise__body dd,.det__c p,.det__c dd{max-width:var(--measure)}
+.promise__body{max-width:calc(var(--measure) + var(--promise-n) + var(--s4));padding-right:0}
+/* Cortes de línea: en la entrada, cada renglón se llena antes de cortar (text-wrap:pretty partía frases destacadas cortas) */
+.content .ed__lead,.ed__lead{text-wrap:wrap}
+/* Detalle plegable simple: un bloque secundario (verificación, entregable, notas técnicas, evidencia, excepciones).
+   Comparte el filete y el + de la serie desplegable, sin número ni círculo y con el rótulo a 16 px */
+.dets{margin-top:var(--s10);border-bottom:1px solid var(--color-border)}
+.det{border-top:1px solid var(--color-border)}
+.det summary{display:flex;align-items:center;justify-content:space-between;gap:var(--s4);padding:var(--s4) 0;cursor:pointer;list-style:none;font-size:var(--fs-16);line-height:1.4;color:var(--color-text-2);transition:color var(--m-fast) var(--e-out)}
+.det summary::-webkit-details-marker{display:none}
+.det summary:hover,.det[open] summary{color:var(--k-noche)}
+.det__mas{flex:none;width:var(--s4);height:var(--s4);color:var(--color-text-3)}
+.det__mas .v{transform-box:fill-box;transform-origin:center;transition:transform var(--m-base) var(--e-io)}
+.det[open] .det__mas .v{transform:scaleY(0)}
+.det__c{padding:0 0 var(--s6);font-size:var(--fs-16);line-height:1.6;color:var(--color-text-2)}
+.det__c dl{display:grid;row-gap:var(--s4);margin:0}
+.det__c dd{margin:0}
+.det__c .promise__k{margin-bottom:var(--s1)}
+/* EST-003: comillas con ícono al inicio y al final, unidas a la primera y a la última palabra; sin cursiva */
+.cita-estela blockquote{display:block}
+.cita-estela blockquote p{font-style:normal}
+.cita__pal{white-space:nowrap}
+.cita__pal .cita__i{display:inline-block;vertical-align:baseline;margin:0 var(--s1) 0 0}
+.cita__pal .cita__i--fin{margin:0 0 0 var(--s1);transform:rotate(180deg)}

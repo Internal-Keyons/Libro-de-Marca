@@ -51,6 +51,13 @@ def pgrid_i(items):
 # Comilla de apertura pequeña en Azul Noche: dos formas de coma, sin las comillas tipográficas
 CITA = ('<svg class="cita__i" viewBox="0 0 16 12" aria-hidden="true"><path fill="currentColor" d="M3.6 0a3.1 3.1 0 1 1-1.2 5.96C2.9 8 4 9.3 5.9 10l-.5 1.3C1.9 10.2 0 7.4 0 3.6A3.6 3.6 0 0 1 3.6 0Z'
         'M12.4 0a3.1 3.1 0 1 1-1.2 5.96C11.7 8 12.8 9.3 14.7 10l-.5 1.3C10.7 10.2 8.8 7.4 8.8 3.6A3.6 3.6 0 0 1 12.4 0Z"/></svg>')
+def entre_comillas(t):
+    """Comilla con ícono al inicio y la misma, girada, al final; cada una unida a su palabra (Keylin, 2026-11-17)"""
+    pal = esc(t).split(' ')
+    fin = CITA.replace('class="cita__i"', 'class="cita__i cita__i--fin"')
+    if len(pal) == 1:
+        return f'<span class="cita__pal">{CITA}{pal[0]}{fin}</span>'
+    return f'<span class="cita__pal">{CITA}{pal[0]}</span> ' + ' '.join(pal[1:-1]) + (' ' if len(pal) > 2 else '') + f'<span class="cita__pal">{pal[-1]}{fin}</span>'
 MAS = '<span class="btn-icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path class="v" d="M8 3v10"/><path d="M3 8h10"/></svg></span>'
 def casos(items):
     """Escenarios en el acordeón único de la Biblioteca (reglas-visuales R27, modelo ADN-006): número, título y +.
@@ -60,7 +67,7 @@ def casos(items):
     for k, (t, pasa, tono, cita, demuestra) in enumerate(items):
         out += (f'<details class="promise"><summary><span class="promise__n">{k + 1:02d}</span><span class="promise__t">{esc(t)}</span>{MAS}</summary>'
                 f'<div class="promise__body"><dl><div><dt class="promise__k">Qué está pasando</dt><dd>{esc(pasa)}</dd></div><div><dt class="promise__k">Clave del tono</dt><dd>{esc(tono)}</dd></div></dl>'
-                f'<figure class="cita-estela"><figcaption class="promise__k">Así responde Estela</figcaption><blockquote>{CITA}<p>{esc(cita)}</p></blockquote></figure>'
+                f'<figure class="cita-estela"><figcaption class="promise__k">Así responde Estela</figcaption><blockquote><p>{entre_comillas(cita)}</p></blockquote></figure>'
                 f'<p><span class="promise__k">Qué demuestra</span>{esc(demuestra)}</p></div></details>')
     return f'{I}<div class="promises">{out}</div>'
 

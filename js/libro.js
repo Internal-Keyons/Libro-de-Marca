@@ -19,8 +19,15 @@
 
   /* Foco solo con teclado (reglas-visuales 4.5): Tab, flechas, Inicio y Fin encienden el anillo; un clic o un toque lo apagan.
      Shift, Windows, Ctrl o Alt solos (por ejemplo, para una captura de pantalla) no lo encienden. */
-  const KBD = ['Tab', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Home', 'End', 'PageUp', 'PageDown'];
-  document.addEventListener('keydown', (e) => { if (KBD.includes(e.key) && !e.metaKey && !e.ctrlKey && !e.altKey) document.documentElement.setAttribute('data-kbd', ''); }, true);
+  /* El navegador marca :focus-visible también cuando, después de un clic, se pulsa una flecha o AvPág para desplazar la página
+     (comprobado el 2026-11-17). Esas teclas solo encienden el anillo dentro de un control que las usa; Tab, siempre. */
+  const MOVER = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Home', 'End', 'PageUp', 'PageDown'];
+  const USA_FLECHAS = 'input, select, textarea, [contenteditable], [role="tab"], [role="menuitem"], [role="option"], [role="radio"], [role="slider"], [role="treeitem"], [role="gridcell"], [role="listbox"], [role="combobox"], [data-icar], [data-tcar], [data-hcar]';
+  document.addEventListener('keydown', (e) => {
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    const a = document.activeElement;
+    if (e.key === 'Tab' || (MOVER.includes(e.key) && a && a !== document.body && a.closest(USA_FLECHAS))) document.documentElement.setAttribute('data-kbd', '');
+  }, true);
   document.addEventListener('pointerdown', () => document.documentElement.removeAttribute('data-kbd'), true);
 
   const ic = (d, cls = '') => `<svg class="${cls}" viewBox="0 0 16 16" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;

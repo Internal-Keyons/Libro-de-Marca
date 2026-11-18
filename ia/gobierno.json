@@ -515,6 +515,106 @@
      ]
     },
     {
+     "sub": "Sistema de diagramación",
+     "filas": [
+      {
+       "k": "Patrones editoriales",
+       "p": [
+        [
+         "Cada contenido DEBE presentarse con el patrón que corresponde a su naturaleza. Los patrones canónicos son cinco: apertura normativa, filas normativas, tabla o comparación, detalle plegable simple y serie desplegable.",
+         "debe"
+        ],
+        [
+         "Cuando una función lo necesita, una página PUEDE usar una representación especializada, como una secuencia de pasos, una demostración de componente, un diagrama o código, reutilizando una solución existente o documentando por qué hace falta.",
+         "puede"
+        ]
+       ]
+      },
+      {
+       "k": "Marcadores de ítems",
+       "p": [
+        [
+         "El marcador de cada ítem DEBE elegirse por su significado y por la composición, no por la cantidad de elementos.",
+         "debe"
+        ],
+        [
+         "Un ícono representa claramente el concepto; un número expresa una secuencia, una referencia o una enumeración útil; una viñeta identifica elementos equivalentes; y el ítem va sin marcador cuando la composición y la jerarquía ya bastan.",
+         null
+        ]
+       ]
+      },
+      {
+       "k": "Serie o detalle",
+       "p": [
+        [
+         "La serie desplegable DEBE reservarse para varios ítems comparables o recorribles, como escenarios, casos o principios equivalentes.",
+         "debe"
+        ],
+        [
+         "Un bloque secundario, como una verificación, un entregable, una nota técnica, una evidencia o una excepción, DEBE usar el detalle plegable simple.",
+         "debe"
+        ],
+        [
+         "Ningún acordeón se abre solo al aparecer en pantalla, y varios pueden quedar abiertos para comparar.",
+         null
+        ]
+       ]
+      },
+      {
+       "k": "Ancho de lectura",
+       "p": [
+        [
+         "El texto corrido DEBE respetar la medida de lectura de la Biblioteca, de 600 px, en todos los libros.",
+         "debe"
+        ],
+        [
+         "La medida se aplica al texto. Las tablas, los diagramas, las demostraciones, el código y los componentes interactivos pueden ocupar más ancho.",
+         null
+        ]
+       ]
+      },
+      {
+       "k": "Etiquetas del menú",
+       "p": [
+        [
+         "Cada etiqueta del menú lateral DEBE verse completa y en un renglón, sin puntos suspensivos.",
+         "debe"
+        ],
+        [
+         "Cuando el título es largo, el menú usa una etiqueta corta coherente con él; el nombre completo sigue en la página y al pasar el cursor.",
+         null
+        ]
+       ]
+      },
+      {
+       "k": "Foco",
+       "p": [
+        [
+         "El foco DEBE verse durante la navegación con teclado, incluso en los controles que usan flechas.",
+         "debe"
+        ],
+        [
+         "Después de un clic, desplazar la página con el teclado no enciende el foco, y las capturas de revisión se preparan sin estados temporales.",
+         null
+        ]
+       ]
+      },
+      {
+       "k": "Cortes de línea",
+       "p": [
+        [
+         "Los cortes de línea DEBERÍAN evitar palabras aisladas y frases destacadas partidas, sin perjudicar la legibilidad, la ampliación ni la adaptación a otros tamaños.",
+         "deberia"
+        ],
+        [
+         "Se corrigen en el componente que los produce.",
+         null
+        ]
+       ]
+      }
+     ]
+    },
+    {
      "sub": "Control editorial",
      "filas": [
       {

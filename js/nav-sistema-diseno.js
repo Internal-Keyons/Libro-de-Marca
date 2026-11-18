@@ -24,24 +24,24 @@ window.KEYONS_NAV = [
     ch: [
       { n: '01', k: '01-01', t: 'Principios comunes', full: 'Principios comunes', d: 'Los principios que rigen el diseño de todos los productos digitales de Keyons: SaaS de nicho, herramientas internas y desarrollos a medida.', s: 'b', items: [
           { t: 'La tarea primero', st: 'La tarea primero', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-01' },
-          { t: 'Claridad antes que novedad', st: 'Claridad antes que novedad', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-02' },
-          { t: 'Complejidad justificada', st: 'Complejidad justificada', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-03' },
+          { t: 'Claridad primero', st: 'Claridad primero', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-02' },
+          { t: 'Complejidad', st: 'Complejidad', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-03' },
           { t: 'Estado comprensible', st: 'Estado comprensible', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-04' },
-          { t: 'Comportamiento previsible', st: 'Comportamiento previsible', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-05' },
-          { t: 'Contexto antes de actuar', st: 'Contexto antes de actuar', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-06' },
+          { t: 'Previsibilidad', st: 'Previsibilidad', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-05' },
+          { t: 'Contexto previo', st: 'Contexto previo', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-06' },
           { t: 'Prevención de errores', st: 'Prevención de errores', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-07' },
           { t: 'Control de la persona', st: 'Control de la persona', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-08' },
-          { t: 'Reconocer antes que recordar', st: 'Reconocer antes que recordar', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-09' } ] },
+          { t: 'Reconocer', st: 'Reconocer', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-09' } ] },
       { n: '02', k: '01-02', t: 'Personas y contextos', full: 'Personas y contextos de uso', d: 'Quién usa cada producto, para qué tarea, con qué frecuencia y con cuánta carga.', s: 'b', items: [
-          { t: 'Diseñar para quienes utilizan el producto', st: 'Diseñar para quienes utilizan el producto', s: 'b', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-01' },
+          { t: 'Personas reales', st: 'Personas reales', s: 'b', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-01' },
           { t: 'Roles y permisos', st: 'Roles y permisos', s: 'b', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-02' },
-          { t: 'Uso ocasional y frecuente', st: 'Uso ocasional y frecuente', s: 'b', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-03' } ] },
+          { t: 'Frecuencia de uso', st: 'Frecuencia de uso', s: 'b', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-03' } ] },
       { n: '03', k: '01-03', t: 'Elecciones verificadas', full: 'Decisiones verificables de experiencia', d: 'Hipótesis, criterios de aceptación e indicadores para medir la experiencia.', s: 'b', items: [
-          { t: 'Decisiones justificadas', st: 'Decisiones justificadas', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-01' },
-          { t: 'Prisma como metodología', st: 'Prisma como metodología', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-02' },
+          { t: 'Decisiones', st: 'Decisiones', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-01' },
+          { t: 'Prisma', st: 'Prisma', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-02' },
           { t: 'Diseño por capas', st: 'Diseño por capas', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-03' },
-          { t: 'Diseño basado en resultados', st: 'Diseño basado en resultados', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-04' },
-          { t: 'Evidencia diferenciada', st: 'Evidencia diferenciada', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-05' },
+          { t: 'Resultados', st: 'Resultados', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-04' },
+          { t: 'Evidencia', st: 'Evidencia', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-05' },
           { t: 'Evaluación posterior', st: 'Evaluación posterior', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-06' } ] }
     ]
   },
@@ -51,25 +51,25 @@ window.KEYONS_NAV = [
     d: 'Establece cómo se organiza la información y cómo las personas se desplazan por las aplicaciones.',
     ch: [
       { n: '04', k: '02-01', t: 'Información', full: 'Arquitectura de información', d: 'Mapas de contenido, taxonomías y relaciones entre la información.', s: 'b', items: [
-          { t: 'Organización comprensible', st: 'Organización comprensible', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-01' },
-          { t: 'Nombres comprensibles', st: 'Nombres comprensibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-02' },
+          { t: 'Organización', st: 'Organización', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-01' },
+          { t: 'Nombres', st: 'Nombres', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-02' },
           { t: 'Jerarquía identificable', st: 'Jerarquía identificable', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-03' },
-          { t: 'Información progresiva', st: 'Información progresiva', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-04' } ] },
+          { t: 'Detalle a pedido', st: 'Detalle a pedido', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-04' } ] },
       { n: '05', k: '02-02', t: 'Navegación', full: 'Estructura de navegación', d: 'Cómo se reconoce la ubicación, se recorren los destinos y se retoma el trabajo, en cualquier forma de navegación.', s: 'b', items: [
           { t: 'Ubicación actual', st: 'Ubicación actual', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-01' },
           { t: 'Acciones previsibles', st: 'Acciones previsibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-02' },
           { t: 'Navegación visible', st: 'Navegación visible', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-03' },
-          { t: 'Identificación de controles', st: 'Identificación de controles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-04' },
-          { t: 'Adaptación por dispositivo', st: 'Adaptación por dispositivo', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-05' },
+          { t: 'Controles', st: 'Controles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-04' },
+          { t: 'Adaptación', st: 'Adaptación', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-05' },
           { t: 'Regreso sin pérdida', st: 'Regreso sin pérdida', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-06' },
-          { t: 'Acceso directo y rutas no disponibles', st: 'Acceso directo y rutas no disponibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-07' } ] },
+          { t: 'Acceso directo', st: 'Acceso directo', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-07' } ] },
       { n: '06', k: '02-03', t: 'Búsqueda', full: 'Búsqueda y orientación', d: 'Búsqueda, filtros y orientación sobre dónde se está y cómo continuar.', s: 'b', items: [
           { t: 'Alcance identificable', st: 'Alcance identificable', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-01' },
-          { t: 'Resultados pertinentes', st: 'Resultados pertinentes', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-02' },
-          { t: 'Resultados comprensibles', st: 'Resultados comprensibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-03' },
+          { t: 'Pertinencia', st: 'Pertinencia', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-02' },
+          { t: 'Resultados claros', st: 'Resultados claros', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-03' },
           { t: 'Filtros visibles', st: 'Filtros visibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-04' },
           { t: 'Sin resultados', st: 'Sin resultados', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-05' },
-          { t: 'Resultados autorizados', st: 'Resultados autorizados', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-06' } ] }
+          { t: 'Permisos', st: 'Permisos', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-06' } ] }
     ]
   },
   {
@@ -83,7 +83,7 @@ window.KEYONS_NAV = [
           { t: 'Temas visuales', st: 'Temas visuales', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/tokens-de-diseno.html#s-03-01-03' } ] },
       { n: '08', k: '03-02', t: 'Color funcional', full: 'Color funcional', d: 'Superficies, texto, bordes, interacción, foco, estados y contraste.', s: 'p', items: [
           { t: 'Superficies', st: 'Superficies', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-01' },
-          { t: 'Colores de interacción', st: 'Colores de interacción', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-02' },
+          { t: 'Interacción', st: 'Interacción', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-02' },
           { t: 'Contraste', st: 'Contraste', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-03' } ] },
       { n: '09', k: '03-03', t: 'Tipografía', full: 'Tipografía aplicada', d: 'Familias oficiales aplicadas a interfaz: jerarquías, escalas y cifras.', s: 'p', items: [
           { t: 'Familias tipográficas', st: 'Familias tipográficas', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-01' },
@@ -119,7 +119,7 @@ window.KEYONS_NAV = [
       { n: '15', k: '04-04', t: 'Retroalimentación', full: 'Retroalimentación y superposiciones', d: 'Alertas, etiquetas de estado, diálogos, paneles e indicadores de carga.', s: 'p', items: [
           { t: 'Alertas', st: 'Alertas', s: 'p', href: 'sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-01' },
           { t: 'Diálogos', st: 'Diálogos', s: 'p', href: 'sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-02' },
-          { t: 'Indicadores de progreso', st: 'Indicadores de progreso', s: 'p', href: 'sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-03' } ] }
+          { t: 'Progreso', st: 'Progreso', s: 'p', href: 'sistema-diseno/componentes-estados/retroalimentacion-y-superposiciones.html#s-04-04-03' } ] }
     ]
   },
   {
@@ -151,8 +151,8 @@ window.KEYONS_NAV = [
     d: 'Establece los requisitos de accesibilidad y adaptación, tomando WCAG 2.2 nivel AA como referencia de cumplimiento.',
     ch: [
       { n: '20', k: '06-01', t: 'Percepción', full: 'Accesibilidad perceptiva', d: 'Contraste, información más allá del color, zoom y espaciado de texto.', s: 'p', items: [
-          { t: 'Contraste y legibilidad', st: 'Contraste y legibilidad', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-01' },
-          { t: 'Sin depender del color', st: 'Sin depender del color', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-02' },
+          { t: 'Contraste', st: 'Contraste', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-01' },
+          { t: 'Más que color', st: 'Más que color', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-02' },
           { t: 'Zoom y redistribución', st: 'Zoom y redistribución', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-03' } ] },
       { n: '21', k: '06-02', t: 'Operación', full: 'Accesibilidad operativa', d: 'Teclado, foco, lectores de pantalla y objetivos táctiles.', s: 'p', items: [
           { t: 'Teclado', st: 'Teclado', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-operativa.html#s-06-02-01' },
@@ -160,8 +160,8 @@ window.KEYONS_NAV = [
           { t: 'Objetivos táctiles', st: 'Objetivos táctiles', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-operativa.html#s-06-02-03' } ] },
       { n: '22', k: '06-03', t: 'Adaptación', full: 'Adaptación de la experiencia', d: 'Dispositivos, preferencias del sistema y distintas capacidades de uso.', s: 'p', items: [
           { t: 'Diseño adaptable', st: 'Diseño adaptable', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-01' },
-          { t: 'Preferencias del sistema', st: 'Preferencias del sistema', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-02' },
-          { t: 'Diferentes capacidades', st: 'Diferentes capacidades', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-03' } ] }
+          { t: 'Preferencias', st: 'Preferencias', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-02' },
+          { t: 'Capacidades', st: 'Capacidades', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-03' } ] }
     ]
   },
   {
@@ -222,7 +222,7 @@ window.KEYONS_NAV = [
       { n: '32', k: '09-03', t: 'Agentes', full: 'Agentes y ejecución de acciones', d: 'Agentes, planificación, aprobaciones y registro de cada ejecución.', s: 'p', items: [
           { t: 'Orquestación', st: 'Orquestación', s: 'p', href: 'sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-01' },
           { t: 'Planificación', st: 'Planificación', s: 'p', href: 'sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-02' },
-          { t: 'Aprobaciones y registro', st: 'Aprobaciones y registro', s: 'p', href: 'sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-03' } ] },
+          { t: 'Aprobaciones', st: 'Aprobaciones', s: 'p', href: 'sistema-diseno/ia-estela/agentes-y-ejecucion-de-acciones.html#s-09-03-03' } ] },
       { n: '33', k: '09-04', t: 'Confianza segura', full: 'Seguridad y confianza en IA', d: 'Privacidad, acceso, escalamiento humano y acciones automáticas visibles.', s: 'p', items: [
           { t: 'Privacidad', st: 'Privacidad', s: 'p', href: 'sistema-diseno/ia-estela/seguridad-y-confianza-en-ia.html#s-09-04-01' },
           { t: 'Errores', st: 'Errores', s: 'p', href: 'sistema-diseno/ia-estela/seguridad-y-confianza-en-ia.html#s-09-04-02' },
@@ -235,7 +235,7 @@ window.KEYONS_NAV = [
     d: 'Define las diferentes aplicaciones del sistema de diseño, con fundamentos compartidos y expresiones visuales distintas.',
     ch: [
       { n: '34', k: '10-01', t: 'Base compartida', full: 'Base compartida', d: 'Estándares UX comunes, componentes reutilizables y herencia de temas.', s: 'p', items: [
-          { t: 'Estándares UX comunes', st: 'Estándares UX comunes', s: 'p', href: 'sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-01' },
+          { t: 'Estándares UX', st: 'Estándares UX', s: 'p', href: 'sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-01' },
           { t: 'Reutilización', st: 'Reutilización', s: 'p', href: 'sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-02' },
           { t: 'Herencia de temas', st: 'Herencia de temas', s: 'p', href: 'sistema-diseno/sistemas-producto/base-compartida.html#s-10-01-03' } ] },
       { n: '35', k: '10-02', t: 'Sitio web', full: 'Sitio web corporativo Keyons', d: 'La identidad corporativa en el sitio web: navegación, composición y acciones.', s: 'p', items: [
@@ -247,11 +247,11 @@ window.KEYONS_NAV = [
           { t: 'Navegación por roles', st: 'Navegación por roles', s: 'p', href: 'sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-02' },
           { t: 'Densidad informativa', st: 'Densidad informativa', s: 'p', href: 'sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-03' } ] },
       { n: '37', k: '10-04', t: 'Product Default', full: 'Keyons Product Default', d: 'Estética neutral premium, estructura SaaS y opciones de configuración.', s: 'p', items: [
-          { t: 'Estética neutral premium', st: 'Estética neutral premium', s: 'p', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-01' },
+          { t: 'Estética neutral', st: 'Estética neutral', s: 'p', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-01' },
           { t: 'Estructura base', st: 'Estructura base', s: 'p', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-02' },
           { t: 'Configuración', st: 'Configuración', s: 'p', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-03' } ] },
       { n: '38', k: '10-05', t: 'White-label', full: 'Soluciones personalizadas y white-label', d: 'Identidades de clientes, marca blanca y límites de personalización.', s: 'p', items: [
-          { t: 'Identidades de clientes', st: 'Identidades de clientes', s: 'p', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-01' },
+          { t: 'Identidades', st: 'Identidades', s: 'p', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-01' },
           { t: 'Marca blanca', st: 'Marca blanca', s: 'p', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-02' },
           { t: 'Límites', st: 'Límites', s: 'p', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-03' } ] }
     ]
@@ -262,12 +262,12 @@ window.KEYONS_NAV = [
     d: 'Regula el movimiento y los recursos sensoriales, sin convertirlos en requisitos decorativos.',
     ch: [
       { n: '39', k: '11-01', t: 'Operación activa', full: 'Movimiento operativo', d: 'Transiciones funcionales, retroalimentación, progreso y sus límites.', s: 'p', items: [
-          { t: 'Transiciones funcionales', st: 'Transiciones funcionales', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-operativo.html#s-11-01-01' },
+          { t: 'Transiciones', st: 'Transiciones', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-operativo.html#s-11-01-01' },
           { t: 'Retroalimentación', st: 'Retroalimentación', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-operativo.html#s-11-01-02' },
           { t: 'Interrupciones', st: 'Interrupciones', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-operativo.html#s-11-01-03' } ] },
       { n: '40', k: '11-02', t: 'Movimiento editorial', full: 'Movimiento editorial', d: 'Entradas, cambios de escena y movimiento atmosférico según el contexto.', s: 'p', items: [
           { t: 'Entradas', st: 'Entradas', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-editorial.html#s-11-02-01' },
-          { t: 'Movimiento atmosférico', st: 'Movimiento atmosférico', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-editorial.html#s-11-02-02' },
+          { t: 'Atmósfera', st: 'Atmósfera', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-editorial.html#s-11-02-02' },
           { t: 'Intensidad', st: 'Intensidad', s: 'p', href: 'sistema-diseno/movimiento-sensorial/movimiento-editorial.html#s-11-02-03' } ] },
       { n: '41', k: '11-03', t: 'Multisensorial', full: 'Interacción multisensorial', d: 'Sonido, respuesta háptica y atajos del sistema operativo.', s: 'p', items: [
           { t: 'Sonido', st: 'Sonido', s: 'p', href: 'sistema-diseno/movimiento-sensorial/interaccion-multisensorial.html#s-11-03-01' },

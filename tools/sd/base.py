@@ -20,6 +20,16 @@ REGISTRO = os.path.join(ROOT, 'data', 'sd-normas.json')
 REG = json.load(io.open(REGISTRO, encoding='utf-8'))
 NORMAS = {n['id']: n for n in REG['normas']}
 CONSTRUIDAS = {}   # id → metadatos de las normas escritas en esta corrida
+# Etiqueta corta del menú lateral (Guía 05 · Sistema de diagramación): completa y en un renglón; el nombre largo queda en la página
+CORTOS = {
+    'KYN-SDI-PEX-002': 'Claridad primero', 'KYN-SDI-PEX-003': 'Complejidad', 'KYN-SDI-PEX-005': 'Previsibilidad',
+    'KYN-SDI-PEX-006': 'Contexto previo', 'KYN-SDI-PEX-018': 'Reconocer', 'KYN-SDI-PEX-007': 'Personas reales',
+    'KYN-SDI-PEX-009': 'Frecuencia de uso', 'KYN-SDI-PEX-010': 'Decisiones', 'KYN-SDI-PEX-011': 'Prisma',
+    'KYN-SDI-PEX-013': 'Resultados', 'KYN-SDI-PEX-014': 'Evidencia', 'KYN-SDI-ARQ-001': 'Organización',
+    'KYN-SDI-ARQ-002': 'Nombres', 'KYN-SDI-ARQ-004': 'Detalle a pedido', 'KYN-SDI-ARQ-008': 'Controles',
+    'KYN-SDI-ARQ-009': 'Adaptación', 'KYN-SDI-ARQ-017': 'Acceso directo', 'KYN-SDI-ARQ-012': 'Pertinencia',
+    'KYN-SDI-ARQ-013': 'Resultados claros', 'KYN-SDI-ARQ-016': 'Permisos',
+}
 esc = lambda t: html.escape(t, quote=False)
 I = '        '
 
@@ -51,9 +61,17 @@ def contraste(items):
     """Correcto e incorrecto (.redline): lo que se corrige y la forma correcta"""
     return f'{I}<div class="redline">' + ''.join(f'<div class="redline__i"><p class="redline__no">{n}</p><p class="redline__yes">{s}</p></div>' for n, s in items) + '</div>'
 MAS = '<span class="btn-icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path class="v" d="M8 3v10"/><path d="M3 8h10"/></svg></span>'
+MAS_DET = '<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg>'
 def detalle(items):
-    """Acordeón único (R27): (título, [(rótulo, texto)]). details y summary son el control; el + es decorativo.
-    Ninguno se abre solo y varios pueden quedar abiertos."""
+    """Detalle plegable simple (Guía 05 · Sistema de diagramación): un bloque secundario por tema
+    (verificación, entregable, notas técnicas, evidencia, excepciones): (rótulo, [(rótulo, texto)]).
+    details y summary son el control; el + es decorativo; ninguno se abre solo y varios pueden quedar abiertos."""
+    out = ''.join(f'<details class="det"><summary>{esc(t)}{MAS_DET}</summary>'
+                  f'<div class="det__c"><dl>' + ''.join(f'<div><dt class="promise__k">{esc(r)}</dt><dd>{x}</dd></div>' for r, x in filas) + '</dl></div></details>'
+                  for t, filas in items)
+    return f'{I}<div class="dets">{out}</div>'
+def serie(items):
+    """Serie desplegable (R27, modelo ADN-006): varios ítems comparables o recorribles, numerados: (título, [(rótulo, texto)])"""
     out = ''.join(f'<details class="promise"><summary><span class="promise__n">{k:02d}</span><span class="promise__t">{esc(t)}</span>{MAS}</summary>'
                   f'<div class="promise__body"><dl>' + ''.join(f'<div><dt class="promise__k">{esc(r)}</dt><dd>{x}</dd></div>' for r, x in filas) + '</dl></div></details>'
                   for k, (t, filas) in enumerate(items, 1))
@@ -66,7 +84,7 @@ def ancla(capn, k):
     return 's-' + capn.replace('.', '-') + f'-{k:02d}'
 
 
-def norma(nid, nombre, capitulo, slug_mod, slug_cap, k, titular, entrada, partes, origen=(), responsabilidad='', cita=''):
+def norma(nid, nombre, capitulo, slug_mod, slug_cap, k, titular, entrada, partes, origen=(), responsabilidad='', cita='', corto=None):
     """Una norma emitida en borrador. Registra su ruta y sus metadatos para data/sd-normas.json."""
     an = ancla(capitulo, k)
     previo = NORMAS.get(nid)
@@ -74,7 +92,7 @@ def norma(nid, nombre, capitulo, slug_mod, slug_cap, k, titular, entrada, partes
         raise SystemExit(f'{nid} ya está emitido en otro capítulo')
     if nid in CONSTRUIDAS:
         raise SystemExit(f'{nid} se usa dos veces')
-    CONSTRUIDAS[nid] = dict(id=nid, nombre=nombre, slug=slug_cap, ruta=f'sistema-diseno/{slug_mod}/{slug_cap}.html#{an}', origen=list(origen),
+    CONSTRUIDAS[nid] = dict(id=nid, nombre=nombre, corto=corto or CORTOS.get(nid, nombre), slug=slug_cap, ruta=f'sistema-diseno/{slug_mod}/{slug_cap}.html#{an}', origen=list(origen),
                             responsabilidad=responsabilidad, cita=cita)
     return (f'\n    <!-- {nid} · {nombre} -->\n    <section class="ed" id="{an}">\n'
             f'      <div class="ed__label sdn-label"><span class="ed__code" data-copy="{nid}" data-copy-msg="ID copiado · {nid}" title="Copiar el ID de esta norma">{nid}</span><span>{esc(nombre)}</span></div>\n'
