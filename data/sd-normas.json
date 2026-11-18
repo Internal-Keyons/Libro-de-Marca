@@ -941,6 +941,308 @@
    "responsabilidad": "Los estados vacíos explican y orientan; las esperas muestran que el sistema trabaja.",
    "cita": "",
    "corto": "Vacíos y esperas"
+  },
+  {
+   "id": "KYN-SDI-ACC-001",
+   "capitulo": "20",
+   "nombre": "Referencia de conformidad",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-01",
+   "origen": [
+    "Referencia de conformidad (base)",
+    "UIX-038"
+   ],
+   "responsabilidad": "Los productos web se diseñan y verifican con WCAG 2.2 AA como mínimo.",
+   "cita": "",
+   "corto": "Conformidad"
+  },
+  {
+   "id": "KYN-SDI-ACC-002",
+   "capitulo": "20",
+   "nombre": "Información perceptible",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-02",
+   "origen": [
+    "Información perceptible (base)"
+   ],
+   "responsabilidad": "El significado no depende de un único recurso sensorial.",
+   "cita": "08 Color funcional (FUI-007) fija los mínimos de contraste",
+   "corto": "Perceptible"
+  },
+  {
+   "id": "KYN-SDI-ACC-003",
+   "capitulo": "20",
+   "nombre": "Lectura adaptable",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-03",
+   "origen": [
+    "Lectura adaptable (base)"
+   ],
+   "responsabilidad": "La interfaz conserva contenido y funciones con ampliación y ajustes de texto.",
+   "cita": "09 Tipografía (FUI-010) desarrolla las decisiones de texto",
+   "corto": "Lectura adaptable"
+  },
+  {
+   "id": "KYN-SDI-ACC-004",
+   "capitulo": "21",
+   "nombre": "Teclado",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/accesibilidad-adaptacion/accesibilidad-operativa.html#s-06-02-01",
+   "origen": [
+    "Teclado (base)",
+    "UIX-038"
+   ],
+   "responsabilidad": "Todas las funciones interactivas se usan con teclado.",
+   "cita": "05 Navegación (ARQ-008) desarrolla el teclado de los menús",
+   "corto": "Teclado"
+  },
+  {
+   "id": "KYN-SDI-ACC-005",
+   "capitulo": "21",
+   "nombre": "Foco identificable",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/accesibilidad-adaptacion/accesibilidad-operativa.html#s-06-02-02",
+   "origen": [
+    "Foco identificable (base)"
+   ],
+   "responsabilidad": "El foco es perceptible, sigue el orden lógico y no queda oculto.",
+   "cita": "",
+   "corto": "Foco"
+  },
+  {
+   "id": "KYN-SDI-ACC-006",
+   "capitulo": "21",
+   "nombre": "Tiempo y movimiento",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/accesibilidad-adaptacion/accesibilidad-operativa.html#s-06-02-03",
+   "origen": [
+    "Tiempo y movimiento (base)"
+   ],
+   "responsabilidad": "Se respetan los límites de tiempo, el control del movimiento y los destellos.",
+   "cita": "",
+   "corto": "Tiempo y movimiento"
+  },
+  {
+   "id": "KYN-SDI-ACC-007",
+   "capitulo": "22",
+   "nombre": "Diseño adaptable",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-01",
+   "origen": [
+    "Diseño adaptable (base)"
+   ],
+   "responsabilidad": "Las pantallas se reorganizan sin eliminar funciones esenciales.",
+   "cita": "",
+   "corto": "Diseño adaptable"
+  },
+  {
+   "id": "KYN-SDI-ACC-008",
+   "capitulo": "22",
+   "nombre": "Interacciones accesibles",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-02",
+   "origen": [
+    "Interacciones accesibles (base)",
+    "UIX-038",
+    "UIX-039 (44 px, revisado)"
+   ],
+   "responsabilidad": "Los objetivos cumplen el tamaño y la separación de WCAG 2.2 AA; 44 px es una preferencia por aprobar.",
+   "cita": "",
+   "corto": "Objetivos"
+  },
+  {
+   "id": "KYN-SDI-ACC-009",
+   "capitulo": "22",
+   "nombre": "Variaciones de uso",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-03",
+   "origen": [
+    "Variaciones de uso (base)",
+    "Preferencias del sistema y distintas capacidades (descripción del capítulo)",
+    "UIX-039"
+   ],
+   "responsabilidad": "Las experiencias consideran dispositivos, métodos de entrada, preferencias y condiciones.",
+   "cita": "",
+   "corto": "Variaciones"
+  },
+  {
+   "id": "KYN-SDI-DAV-001",
+   "capitulo": "26",
+   "nombre": "Lectura y comparación",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-01",
+   "origen": [
+    "Lectura y comparación (base)",
+    "UIX-037"
+   ],
+   "responsabilidad": "Las tablas tienen encabezados, alineación y organización para comparar.",
+   "cita": "",
+   "corto": "Lectura"
+  },
+  {
+   "id": "KYN-SDI-DAV-002",
+   "capitulo": "26",
+   "nombre": "Herramientas proporcionadas",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-02",
+   "origen": [
+    "Herramientas proporcionadas (base)"
+   ],
+   "responsabilidad": "Búsqueda, filtros, orden y paginación se ajustan al volumen y la tarea.",
+   "cita": "",
+   "corto": "Herramientas"
+  },
+  {
+   "id": "KYN-SDI-DAV-003",
+   "capitulo": "26",
+   "nombre": "Acciones identificables",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-03",
+   "origen": [
+    "Acciones identificables (base)"
+   ],
+   "responsabilidad": "Las acciones por registro se distinguen de los valores y respetan permisos.",
+   "cita": "",
+   "corto": "Acciones"
+  },
+  {
+   "id": "KYN-SDI-DAV-004",
+   "capitulo": "29",
+   "nombre": "Diseño por tarea",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/dashboards-e-informes.html#s-08-04-01",
+   "origen": [
+    "Diseño por tarea (base)"
+   ],
+   "responsabilidad": "Los tableros priorizan la información para las decisiones de sus usuarios.",
+   "cita": "",
+   "corto": "Por tarea"
+  },
+  {
+   "id": "KYN-SDI-DAV-005",
+   "capitulo": "29",
+   "nombre": "Jerarquía informativa",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/dashboards-e-informes.html#s-08-04-02",
+   "origen": [
+    "Jerarquía informativa (base)"
+   ],
+   "responsabilidad": "Los indicadores reciben protagonismo según su importancia operativa.",
+   "cita": "Aplica 04 Jerarquía identificable (ARQ-003)",
+   "corto": "Jerarquía"
+  },
+  {
+   "id": "KYN-SDI-DAV-006",
+   "capitulo": "29",
+   "nombre": "Profundidad de consulta",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/datos-visualizacion/dashboards-e-informes.html#s-08-04-03",
+   "origen": [
+    "Profundidad de consulta (base)",
+    "Exploración y exportación (descripción del capítulo)",
+    "UIX-037"
+   ],
+   "responsabilidad": "El tablero lleva a vistas detalladas, filtros y exportación cuando la tarea lo necesita.",
+   "cita": "",
+   "corto": "Profundidad"
+  },
+  {
+   "id": "KYN-SDI-SPR-001",
+   "capitulo": "37",
+   "nombre": "Experiencia predeterminada",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-01",
+   "origen": [
+    "Experiencia predeterminada (base)"
+   ],
+   "responsabilidad": "Los productos Default aplican los componentes canónicos y el tema aprobado.",
+   "cita": "",
+   "corto": "Predeterminada"
+  },
+  {
+   "id": "KYN-SDI-SPR-002",
+   "capitulo": "37",
+   "nombre": "Sobriedad operativa",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-02",
+   "origen": [
+    "Sobriedad operativa (base)",
+    "Estética neutral premium (descripción del capítulo)"
+   ],
+   "responsabilidad": "Las interfaces frecuentes priorizan superficies contenidas, claridad y jerarquía.",
+   "cita": "Libro de Marca, capítulo 18 Digital (UI-001 y UI-002), en borrador",
+   "corto": "Sobriedad"
+  },
+  {
+   "id": "KYN-SDI-SPR-003",
+   "capitulo": "37",
+   "nombre": "Personalización controlada",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-03",
+   "origen": [
+    "Personalización controlada (base)",
+    "Opciones de configuración (descripción del capítulo)",
+    "UIX-045"
+   ],
+   "responsabilidad": "Las variaciones permitidas conservan accesibilidad, consistencia y comportamiento.",
+   "cita": "38 White-label regula los productos sin firma Keyons",
+   "corto": "Personalización"
+  },
+  {
+   "id": "KYN-SDI-SPR-004",
+   "capitulo": "37",
+   "nombre": "Navegación predeterminada",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-04",
+   "origen": [
+    "Patrón SaaS (decisión pendiente del capítulo 05; requisito redactado por Claude)"
+   ],
+   "responsabilidad": "Los productos SaaS usan el patrón de navegación predeterminado o justifican otro.",
+   "cita": "",
+   "corto": "Navegación"
+  },
+  {
+   "id": "KYN-SDI-GOB-001",
+   "capitulo": "44",
+   "nombre": "Tareas reales",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-01",
+   "origen": [
+    "Tareas reales (base)",
+    "Evidencia registrada (base; se cita PEX-014)",
+    "UIX-047"
+   ],
+   "responsabilidad": "Las evaluaciones usan tareas representativas y registran su evidencia.",
+   "cita": "",
+   "corto": "Tareas reales"
+  },
+  {
+   "id": "KYN-SDI-GOB-002",
+   "capitulo": "44",
+   "nombre": "Problemas críticos",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-02",
+   "origen": [
+    "Problemas críticos (base)"
+   ],
+   "responsabilidad": "Los defectos críticos se resuelven o bloquean el lanzamiento con decisión explícita.",
+   "cita": "",
+   "corto": "Problemas críticos"
+  },
+  {
+   "id": "KYN-SDI-GOB-003",
+   "capitulo": "44",
+   "nombre": "Protocolo previo al lanzamiento",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-03",
+   "origen": [
+    "Verificación visual, funcional, de usabilidad y de accesibilidad (descripción del capítulo; requisito redactado por Claude)",
+    "UIX-047",
+    "UIX-050"
+   ],
+   "responsabilidad": "Cada lanzamiento completa la verificación visual, funcional, de usabilidad y de accesibilidad.",
+   "cita": "",
+   "corto": "Protocolo"
   }
  ]
 }

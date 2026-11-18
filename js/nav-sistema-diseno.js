@@ -154,18 +154,18 @@ window.KEYONS_NAV = [
     cd: 'Requisitos de acceso y adaptación, con WCAG 2.2 AA.',
     d: 'Establece los requisitos de accesibilidad y adaptación, tomando WCAG 2.2 nivel AA como referencia de cumplimiento.',
     ch: [
-      { n: '20', k: '06-01', t: 'Percepción', full: 'Accesibilidad perceptiva', d: 'Contraste, información más allá del color, zoom y espaciado de texto.', s: 'p', items: [
-          { t: 'Contraste', st: 'Contraste', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-01' },
-          { t: 'Más que color', st: 'Más que color', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-02' },
-          { t: 'Zoom y redistribución', st: 'Zoom y redistribución', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-03' } ] },
-      { n: '21', k: '06-02', t: 'Operación', full: 'Accesibilidad operativa', d: 'Teclado, foco, lectores de pantalla y objetivos táctiles.', s: 'p', items: [
-          { t: 'Teclado', st: 'Teclado', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-operativa.html#s-06-02-01' },
-          { t: 'Lectores de pantalla', st: 'Lectores de pantalla', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-operativa.html#s-06-02-02' },
-          { t: 'Objetivos táctiles', st: 'Objetivos táctiles', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-operativa.html#s-06-02-03' } ] },
-      { n: '22', k: '06-03', t: 'Adaptación', full: 'Adaptación de la experiencia', d: 'Dispositivos, preferencias del sistema y distintas capacidades de uso.', s: 'p', items: [
-          { t: 'Diseño adaptable', st: 'Diseño adaptable', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-01' },
-          { t: 'Preferencias', st: 'Preferencias', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-02' },
-          { t: 'Capacidades', st: 'Capacidades', s: 'p', href: 'sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-03' } ] }
+      { n: '20', k: '06-01', t: 'Percepción', full: 'Accesibilidad perceptiva', d: 'Contraste, información más allá del color, zoom y espaciado de texto.', s: 'b', items: [
+          { t: 'Conformidad', st: 'Conformidad', s: 'b', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-01' },
+          { t: 'Perceptible', st: 'Perceptible', s: 'b', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-02' },
+          { t: 'Lectura adaptable', st: 'Lectura adaptable', s: 'b', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-perceptiva.html#s-06-01-03' } ] },
+      { n: '21', k: '06-02', t: 'Operación', full: 'Accesibilidad operativa', d: 'Teclado, foco, lectores de pantalla y objetivos táctiles.', s: 'b', items: [
+          { t: 'Teclado', st: 'Teclado', s: 'b', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-operativa.html#s-06-02-01' },
+          { t: 'Foco', st: 'Foco', s: 'b', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-operativa.html#s-06-02-02' },
+          { t: 'Tiempo y movimiento', st: 'Tiempo y movimiento', s: 'b', href: 'sistema-diseno/accesibilidad-adaptacion/accesibilidad-operativa.html#s-06-02-03' } ] },
+      { n: '22', k: '06-03', t: 'Adaptación', full: 'Adaptación de la experiencia', d: 'Dispositivos, preferencias del sistema y distintas capacidades de uso.', s: 'b', items: [
+          { t: 'Diseño adaptable', st: 'Diseño adaptable', s: 'b', href: 'sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-01' },
+          { t: 'Objetivos', st: 'Objetivos', s: 'b', href: 'sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-02' },
+          { t: 'Variaciones', st: 'Variaciones', s: 'b', href: 'sistema-diseno/accesibilidad-adaptacion/adaptacion-de-la-experiencia.html#s-06-03-03' } ] }
     ]
   },
   {
@@ -192,10 +192,10 @@ window.KEYONS_NAV = [
     cd: 'Información cuantitativa clara y bien interpretada.',
     d: 'Define cómo presentar información cuantitativa y operativa sin comprometer la interpretación.',
     ch: [
-      { n: '26', k: '08-01', t: 'Tablas', full: 'Tablas y datos estructurados', d: 'Columnas, orden, filtros, paginación y densidad de tablas.', s: 'p', items: [
-          { t: 'Columnas', st: 'Columnas', s: 'p', href: 'sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-01' },
-          { t: 'Filtros', st: 'Filtros', s: 'p', href: 'sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-02' },
-          { t: 'Densidad', st: 'Densidad', s: 'p', href: 'sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-03' } ] },
+      { n: '26', k: '08-01', t: 'Tablas', full: 'Tablas y datos estructurados', d: 'Columnas, orden, filtros, paginación y densidad de tablas.', s: 'b', items: [
+          { t: 'Lectura', st: 'Lectura', s: 'b', href: 'sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-01' },
+          { t: 'Herramientas', st: 'Herramientas', s: 'b', href: 'sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-02' },
+          { t: 'Acciones', st: 'Acciones', s: 'b', href: 'sistema-diseno/datos-visualizacion/tablas-y-datos-estructurados.html#s-08-01-03' } ] },
       { n: '27', k: '08-02', t: 'Gráficos', full: 'Gráficos de datos', d: 'Tipo de gráfico, paletas, escalas, leyendas y accesibilidad.', s: 'p', items: [
           { t: 'Tipo de gráfico', st: 'Tipo de gráfico', s: 'p', href: 'sistema-diseno/datos-visualizacion/graficos-de-datos.html#s-08-02-01' },
           { t: 'Paletas categóricas', st: 'Paletas categóricas', s: 'p', href: 'sistema-diseno/datos-visualizacion/graficos-de-datos.html#s-08-02-02' },
@@ -204,10 +204,10 @@ window.KEYONS_NAV = [
           { t: 'Formatos numéricos', st: 'Formatos numéricos', s: 'p', href: 'sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-01' },
           { t: 'Variaciones', st: 'Variaciones', s: 'p', href: 'sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-02' },
           { t: 'Datos ausentes', st: 'Datos ausentes', s: 'p', href: 'sistema-diseno/datos-visualizacion/indicadores-y-cifras.html#s-08-03-03' } ] },
-      { n: '29', k: '08-04', t: 'Dashboards', full: 'Dashboards e informes', d: 'Tableros organizados por tareas, exploración y exportación de resultados.', s: 'p', items: [
-          { t: 'Organización', st: 'Organización', s: 'p', href: 'sistema-diseno/datos-visualizacion/dashboards-e-informes.html#s-08-04-01' },
-          { t: 'Exploración', st: 'Exploración', s: 'p', href: 'sistema-diseno/datos-visualizacion/dashboards-e-informes.html#s-08-04-02' },
-          { t: 'Exportación', st: 'Exportación', s: 'p', href: 'sistema-diseno/datos-visualizacion/dashboards-e-informes.html#s-08-04-03' } ] }
+      { n: '29', k: '08-04', t: 'Dashboards', full: 'Dashboards e informes', d: 'Tableros organizados por tareas, exploración y exportación de resultados.', s: 'b', items: [
+          { t: 'Por tarea', st: 'Por tarea', s: 'b', href: 'sistema-diseno/datos-visualizacion/dashboards-e-informes.html#s-08-04-01' },
+          { t: 'Jerarquía', st: 'Jerarquía', s: 'b', href: 'sistema-diseno/datos-visualizacion/dashboards-e-informes.html#s-08-04-02' },
+          { t: 'Profundidad', st: 'Profundidad', s: 'b', href: 'sistema-diseno/datos-visualizacion/dashboards-e-informes.html#s-08-04-03' } ] }
     ]
   },
   {
@@ -250,10 +250,11 @@ window.KEYONS_NAV = [
           { t: 'Identidad visual', st: 'Identidad visual', s: 'p', href: 'sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-01' },
           { t: 'Navegación por roles', st: 'Navegación por roles', s: 'p', href: 'sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-02' },
           { t: 'Densidad informativa', st: 'Densidad informativa', s: 'p', href: 'sistema-diseno/sistemas-producto/herramientas-internas-keyons.html#s-10-03-03' } ] },
-      { n: '37', k: '10-04', t: 'Product Default', full: 'Keyons Product Default', d: 'Estética neutral premium, estructura SaaS y opciones de configuración.', s: 'p', items: [
-          { t: 'Estética neutral', st: 'Estética neutral', s: 'p', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-01' },
-          { t: 'Estructura base', st: 'Estructura base', s: 'p', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-02' },
-          { t: 'Configuración', st: 'Configuración', s: 'p', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-03' } ] },
+      { n: '37', k: '10-04', t: 'Product Default', full: 'Keyons Product Default', d: 'Estética neutral premium, estructura SaaS y opciones de configuración.', s: 'b', items: [
+          { t: 'Predeterminada', st: 'Predeterminada', s: 'b', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-01' },
+          { t: 'Sobriedad', st: 'Sobriedad', s: 'b', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-02' },
+          { t: 'Personalización', st: 'Personalización', s: 'b', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-03' },
+          { t: 'Navegación', st: 'Navegación', s: 'b', href: 'sistema-diseno/sistemas-producto/keyons-product-default.html#s-10-04-04' } ] },
       { n: '38', k: '10-05', t: 'White-label', full: 'Soluciones personalizadas y white-label', d: 'Identidades de clientes, marca blanca y límites de personalización.', s: 'p', items: [
           { t: 'Identidades', st: 'Identidades', s: 'p', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-01' },
           { t: 'Marca blanca', st: 'Marca blanca', s: 'p', href: 'sistema-diseno/sistemas-producto/soluciones-personalizadas-y-white-label.html#s-10-05-02' },
@@ -292,10 +293,10 @@ window.KEYONS_NAV = [
           { t: 'Traducción de tokens', st: 'Traducción de tokens', s: 'p', href: 'sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-01' },
           { t: 'Especificaciones', st: 'Especificaciones', s: 'p', href: 'sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-02' },
           { t: 'Compatibilidad', st: 'Compatibilidad', s: 'p', href: 'sistema-diseno/calidad-gobierno/implementacion-tecnica.html#s-12-02-03' } ] },
-      { n: '44', k: '12-03', t: 'Validación', full: 'Validación de calidad', d: 'Verificación visual, funcional, de usabilidad y de accesibilidad.', s: 'p', items: [
-          { t: 'Verificación visual', st: 'Verificación visual', s: 'p', href: 'sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-01' },
-          { t: 'Pruebas de usabilidad', st: 'Pruebas de usabilidad', s: 'p', href: 'sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-02' },
-          { t: 'Regresiones', st: 'Regresiones', s: 'p', href: 'sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-03' } ] },
+      { n: '44', k: '12-03', t: 'Validación', full: 'Validación de calidad', d: 'Verificación visual, funcional, de usabilidad y de accesibilidad.', s: 'b', items: [
+          { t: 'Tareas reales', st: 'Tareas reales', s: 'b', href: 'sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-01' },
+          { t: 'Problemas críticos', st: 'Problemas críticos', s: 'b', href: 'sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-02' },
+          { t: 'Protocolo', st: 'Protocolo', s: 'b', href: 'sistema-diseno/calidad-gobierno/validacion-de-calidad.html#s-12-03-03' } ] },
       { n: '45', k: '12-04', t: 'Documentación', full: 'Documentación y consulta', d: 'Catálogo de normas, exportación para personas e IA y permisos.', s: 'p', items: [
           { t: 'Catálogo', st: 'Catálogo', s: 'p', href: 'sistema-diseno/calidad-gobierno/documentacion-y-consulta.html#s-12-04-01' },
           { t: 'Exportación para IA', st: 'Exportación para IA', s: 'p', href: 'sistema-diseno/calidad-gobierno/documentacion-y-consulta.html#s-12-04-02' },

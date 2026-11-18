@@ -1,0 +1,46 @@
+    <!-- Capítulo 21 · generado por tools/sd_capitulos.py (tools/sd/). No se edita a mano. Borrador. -->
+    <!-- KYN-SDI-ACC-004 · Teclado -->
+    <section class="ed" id="s-06-02-01">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-ACC-004" data-copy-msg="ID copiado · KYN-SDI-ACC-004" title="Copiar el ID de esta norma">KYN-SDI-ACC-004</span><span>Teclado</span></div>
+      <div>
+        <h2 class="ed__title">Todo lo que se hace con el puntero se hace con el teclado</h2>
+        <p class="ed__lead">El teclado <strong>es una forma completa de usar el producto</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Todas las funciones interactivas DEBEN poder utilizarse mediante teclado cuando corresponda a su plataforma.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="matrix" role="table" aria-label="Teclas esperadas"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span><span class="matrix__lvl" role="columnheader">Teclas<small></small></span><span class="matrix__lvl" role="columnheader">Dónde<small></small></span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Recorrer</span><span class="matrix__v" role="cell">Tab y Mayús + Tab.</span><span class="matrix__v" role="cell">Entre controles, en el orden visual.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Activar</span><span class="matrix__v" role="cell">Enter en enlaces; Enter y Espacio en botones.</span><span class="matrix__v" role="cell">Todos los controles.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Moverse dentro</span><span class="matrix__v" role="cell">Flechas, Inicio y Fin.</span><span class="matrix__v" role="cell">Menús, pestañas, listas y opciones.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Salir</span><span class="matrix__v" role="cell">Escape.</span><span class="matrix__v" role="cell">Menús, diálogos y paneles; el foco vuelve al control que los abrió.</span></div></div>
+        <div class="dets"><details class="det"><summary>Notas técnicas<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Trampas</dt><dd>Ningún componente atrapa el foco, salvo un diálogo modal mientras está abierto (2.1.2).</dd></div><div><dt class="promise__k">Atajos</dt><dd>Los atajos de una sola tecla se pueden desactivar o cambiar (2.1.4).</dd></div></dl></div></details><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Sin ratón</dt><dd>Se completan las tareas principales solo con teclado. Resultado esperado: todas se completan.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-ACC-005 · Foco identificable -->
+    <section class="ed" id="s-06-02-02">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-ACC-005" data-copy-msg="ID copiado · KYN-SDI-ACC-005" title="Copiar el ID de esta norma">KYN-SDI-ACC-005</span><span>Foco identificable</span></div>
+      <div>
+        <h2 class="ed__title">Siempre se ve dónde está el foco</h2>
+        <p class="ed__lead">El foco es <strong>la ubicación de quien usa el teclado</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">El foco DEBE ser perceptible y no quedar completamente oculto por otros elementos de la interfaz.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="ed__stack"><div><span class="paren">(Indicador)</span><p>Anillo de 2 px en Azul Noche, separado del borde, visible con el teclado (:focus-visible). La decisión sobre <code>--color-focus</code> está pendiente en FUI-007.</p></div><div><span class="paren">(Sin ocultarse)</span><p>Cabeceras fijas, avisos y paneles no tapan el elemento con foco (2.4.11).</p></div><div><span class="paren">(Orden)</span><p>El foco sigue el orden visual y lógico de la página (2.4.3).</p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Recorrido</dt><dd>Se recorre la página con Tab con la cabecera fija visible. Resultado esperado: el foco se ve completo en cada paso.</dd></div><div><dt class="promise__k">Contraste del indicador</dt><dd>El anillo alcanza 3:1 contra el fondo (1.4.11).</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-ACC-006 · Tiempo y movimiento -->
+    <section class="ed" id="s-06-02-03">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-ACC-006" data-copy-msg="ID copiado · KYN-SDI-ACC-006" title="Copiar el ID de esta norma">KYN-SDI-ACC-006</span><span>Tiempo y movimiento</span></div>
+      <div>
+        <h2 class="ed__title">La persona controla el tiempo y el movimiento</h2>
+        <p class="ed__lead">Nada se apura <strong>ni se mueve sin permiso</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Las interacciones DEBEN respetar los criterios de accesibilidad relacionados con límites de tiempo, movimiento y control de contenido.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="matrix" role="table" aria-label="Tiempo y movimiento"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span><span class="matrix__lvl" role="columnheader">Decisión<small></small></span><span class="matrix__lvl" role="columnheader">Criterio<small>WCAG</small></span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Límites de tiempo</span><span class="matrix__v" role="cell">Se avisa antes y se puede extender; la sesión conserva los datos (PAT-002).</span><span class="matrix__v" role="cell">2.2.1</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Contenido que se mueve o se actualiza solo</span><span class="matrix__v" role="cell">Se puede pausar, detener u ocultar.</span><span class="matrix__v" role="cell">2.2.2</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Destellos</span><span class="matrix__v" role="cell">Nada destella más de tres veces por segundo.</span><span class="matrix__v" role="cell">2.3.1</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Animaciones</span><span class="matrix__v" role="cell">Respetan la preferencia de movimiento reducido (<a class="xref" href="../movimiento-sensorial/movimiento-operativo.html">39 Operación activa</a>).</span><span class="matrix__v" role="cell">2.3.3, recomendado</span></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Preferencias</dt><dd>Con movimiento reducido activado, las animaciones no esenciales se detienen. Con una sesión por vencer, aparece el aviso con la opción de extender.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- Ejemplo de aplicación -->
+    <section class="ed" id="ejemplo">
+      <div class="ed__label"><span>21</span><span>Ejemplo de aplicación</span></div>
+      <div>
+        <h2 class="ed__title">Una tarea sin ratón</h2>
+        <p class="ed__lead">Una persona aprueba una solicitud <strong>solo con el teclado</strong>, desde el menú hasta la confirmación.</p>
+        <div class="ed__stack"><div><span class="paren">(Verificación del capítulo)</span><p>Completar recorridos sin ratón y comprobar orden de foco, controles y recuperación.</p></div></div>
+      </div>
+    </section>

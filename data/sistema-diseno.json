@@ -843,7 +843,7 @@
    "t": "Accesibilidad y adaptación",
    "slug": "accesibilidad-adaptacion",
    "d": "Establece los requisitos de accesibilidad y adaptación, tomando WCAG 2.2 nivel AA como referencia de cumplimiento.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "COL-005",
     "VIS-008",
@@ -858,25 +858,28 @@
      "n": "06.01",
      "t": "Accesibilidad perceptiva",
      "slug": "accesibilidad-perceptiva",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "06.01.01",
-       "t": "Contraste y legibilidad",
-       "estado": "pendiente",
-       "st": "Contraste"
+       "t": "Referencia de conformidad",
+       "estado": "borrador",
+       "st": "Conformidad",
+       "norma": "KYN-SDI-ACC-001"
       },
       {
        "n": "06.01.02",
-       "t": "Información no dependiente del color",
-       "estado": "pendiente",
-       "st": "Más que color"
+       "t": "Información perceptible",
+       "estado": "borrador",
+       "st": "Perceptible",
+       "norma": "KYN-SDI-ACC-002"
       },
       {
        "n": "06.01.03",
-       "t": "Zoom, redistribución y espaciado de texto",
-       "estado": "pendiente",
-       "st": "Zoom y redistribución"
+       "t": "Lectura adaptable",
+       "estado": "borrador",
+       "st": "Lectura adaptable",
+       "norma": "KYN-SDI-ACC-003"
       }
      ],
      "st": "Percepción",
@@ -887,25 +890,28 @@
      "n": "06.02",
      "t": "Accesibilidad operativa",
      "slug": "accesibilidad-operativa",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "06.02.01",
-       "t": "Teclado y secuencia de foco",
-       "estado": "pendiente",
-       "st": "Teclado"
+       "t": "Teclado",
+       "estado": "borrador",
+       "st": "Teclado",
+       "norma": "KYN-SDI-ACC-004"
       },
       {
        "n": "06.02.02",
-       "t": "Lectores de pantalla y semántica accesible",
-       "estado": "pendiente",
-       "st": "Lectores de pantalla"
+       "t": "Foco identificable",
+       "estado": "borrador",
+       "st": "Foco",
+       "norma": "KYN-SDI-ACC-005"
       },
       {
        "n": "06.02.03",
-       "t": "Objetivos táctiles y formas de interacción",
-       "estado": "pendiente",
-       "st": "Objetivos táctiles"
+       "t": "Tiempo y movimiento",
+       "estado": "borrador",
+       "st": "Tiempo y movimiento",
+       "norma": "KYN-SDI-ACC-006"
       }
      ],
      "st": "Operación",
@@ -916,25 +922,28 @@
      "n": "06.03",
      "t": "Adaptación de la experiencia",
      "slug": "adaptacion-de-la-experiencia",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "06.03.01",
-       "t": "Diseño adaptable y dispositivos",
-       "estado": "pendiente",
-       "st": "Diseño adaptable"
+       "t": "Diseño adaptable",
+       "estado": "borrador",
+       "st": "Diseño adaptable",
+       "norma": "KYN-SDI-ACC-007"
       },
       {
        "n": "06.03.02",
-       "t": "Preferencias del sistema y movimiento reducido",
-       "estado": "pendiente",
-       "st": "Preferencias"
+       "t": "Interacciones accesibles",
+       "estado": "borrador",
+       "st": "Objetivos",
+       "norma": "KYN-SDI-ACC-008"
       },
       {
        "n": "06.03.03",
-       "t": "Diferentes capacidades y condiciones de uso",
-       "estado": "pendiente",
-       "st": "Capacidades"
+       "t": "Variaciones de uso",
+       "estado": "borrador",
+       "st": "Variaciones",
+       "norma": "KYN-SDI-ACC-009"
       }
      ],
      "st": "Adaptación",
@@ -1057,7 +1066,7 @@
    "t": "Datos y visualización",
    "slug": "datos-visualizacion",
    "d": "Define cómo presentar información cuantitativa y operativa sin comprometer la interpretación.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "DAT-001",
     "DAT-002",
@@ -1070,25 +1079,28 @@
      "n": "08.01",
      "t": "Tablas y datos estructurados",
      "slug": "tablas-y-datos-estructurados",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "08.01.01",
-       "t": "Columnas, ordenamiento y estructura",
-       "estado": "pendiente",
-       "st": "Columnas"
+       "t": "Lectura y comparación",
+       "estado": "borrador",
+       "st": "Lectura",
+       "norma": "KYN-SDI-DAV-001"
       },
       {
        "n": "08.01.02",
-       "t": "Filtros, paginación y navegación de registros",
-       "estado": "pendiente",
-       "st": "Filtros"
+       "t": "Herramientas proporcionadas",
+       "estado": "borrador",
+       "st": "Herramientas",
+       "norma": "KYN-SDI-DAV-002"
       },
       {
        "n": "08.01.03",
-       "t": "Densidad y adaptación de tablas",
-       "estado": "pendiente",
-       "st": "Densidad"
+       "t": "Acciones identificables",
+       "estado": "borrador",
+       "st": "Acciones",
+       "norma": "KYN-SDI-DAV-003"
       }
      ],
      "st": "Tablas",
@@ -1157,25 +1169,28 @@
      "n": "08.04",
      "t": "Dashboards e informes",
      "slug": "dashboards-e-informes",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "08.04.01",
-       "t": "Organización según tareas y decisiones",
-       "estado": "pendiente",
-       "st": "Organización"
+       "t": "Diseño por tarea",
+       "estado": "borrador",
+       "st": "Por tarea",
+       "norma": "KYN-SDI-DAV-004"
       },
       {
        "n": "08.04.02",
-       "t": "Exploración y profundización de datos",
-       "estado": "pendiente",
-       "st": "Exploración"
+       "t": "Jerarquía informativa",
+       "estado": "borrador",
+       "st": "Jerarquía",
+       "norma": "KYN-SDI-DAV-005"
       },
       {
        "n": "08.04.03",
-       "t": "Exportación, impresión y presentación de resultados",
-       "estado": "pendiente",
-       "st": "Exportación"
+       "t": "Profundidad de consulta",
+       "estado": "borrador",
+       "st": "Profundidad",
+       "norma": "KYN-SDI-DAV-006"
       }
      ],
      "st": "Dashboards",
@@ -1329,7 +1344,7 @@
    "t": "Sistemas de producto",
    "slug": "sistemas-producto",
    "d": "Define las diferentes aplicaciones del sistema de diseño, con fundamentos compartidos y expresiones visuales distintas.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "DIS-002",
     "PER-001",
@@ -1429,25 +1444,35 @@
      "n": "10.04",
      "t": "Keyons Product Default",
      "slug": "keyons-product-default",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "10.04.01",
-       "t": "Estética neutral premium",
-       "estado": "pendiente",
-       "st": "Estética neutral"
+       "t": "Experiencia predeterminada",
+       "estado": "borrador",
+       "st": "Predeterminada",
+       "norma": "KYN-SDI-SPR-001"
       },
       {
        "n": "10.04.02",
-       "t": "Estructura base de aplicaciones SaaS",
-       "estado": "pendiente",
-       "st": "Estructura base"
+       "t": "Sobriedad operativa",
+       "estado": "borrador",
+       "st": "Sobriedad",
+       "norma": "KYN-SDI-SPR-002"
       },
       {
        "n": "10.04.03",
-       "t": "Opciones de configuración y personalización",
-       "estado": "pendiente",
-       "st": "Configuración"
+       "t": "Personalización controlada",
+       "estado": "borrador",
+       "st": "Personalización",
+       "norma": "KYN-SDI-SPR-003"
+      },
+      {
+       "n": "10.04.04",
+       "t": "Navegación predeterminada",
+       "estado": "borrador",
+       "st": "Navegación",
+       "norma": "KYN-SDI-SPR-004"
       }
      ],
      "st": "Product Default",
@@ -1602,7 +1627,7 @@
    "t": "Calidad y gobierno del diseño",
    "slug": "calidad-gobierno",
    "d": "Establece cómo se gestionan, implementan, prueban y mantienen las reglas del Sistema de Diseño.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "REF-001",
     "REF-002",
@@ -1673,25 +1698,28 @@
      "n": "12.03",
      "t": "Validación de calidad",
      "slug": "validacion-de-calidad",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "12.03.01",
-       "t": "Verificación visual y funcional",
-       "estado": "pendiente",
-       "st": "Verificación visual"
+       "t": "Tareas reales",
+       "estado": "borrador",
+       "st": "Tareas reales",
+       "norma": "KYN-SDI-GOB-001"
       },
       {
        "n": "12.03.02",
-       "t": "Pruebas de usabilidad por perfiles y tareas",
-       "estado": "pendiente",
-       "st": "Pruebas de usabilidad"
+       "t": "Problemas críticos",
+       "estado": "borrador",
+       "st": "Problemas críticos",
+       "norma": "KYN-SDI-GOB-002"
       },
       {
        "n": "12.03.03",
-       "t": "Verificación de accesibilidad y regresiones",
-       "estado": "pendiente",
-       "st": "Regresiones"
+       "t": "Protocolo previo al lanzamiento",
+       "estado": "borrador",
+       "st": "Protocolo",
+       "norma": "KYN-SDI-GOB-003"
       }
      ],
      "st": "Validación",

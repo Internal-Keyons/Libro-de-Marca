@@ -3785,6 +3785,212 @@
    "estado": "aplicada",
    "nivel": "debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ACC-001",
+   "fuente": "data/sd-capitulos/accesibilidad-perceptiva.html#s-06-01-01",
+   "bloque": 1,
+   "frase": "Los productos web de Keyons deben diseñarse y verificarse tomando WCAG 2.2 nivel AA como objetivo mínimo de accesibilidad.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ACC-002",
+   "fuente": "data/sd-capitulos/accesibilidad-perceptiva.html#s-06-01-02",
+   "bloque": 1,
+   "frase": "Los contenidos y controles deben ofrecer contraste, etiquetas y alternativas apropiadas para que su significado no dependa de un único recurso sensorial.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ACC-003",
+   "fuente": "data/sd-capitulos/accesibilidad-perceptiva.html#s-06-01-03",
+   "bloque": 1,
+   "frase": "La interfaz debe conservar su contenido y funcionalidad ante ampliación y ajustes de presentación, conforme a los criterios aplicables.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ACC-004",
+   "fuente": "data/sd-capitulos/accesibilidad-operativa.html#s-06-02-01",
+   "bloque": 1,
+   "frase": "Todas las funciones interactivas deben poder utilizarse mediante teclado cuando corresponda a su plataforma.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ACC-004",
+   "fuente": "data/sd-capitulos/accesibilidad-operativa.html#s-06-02-01",
+   "bloque": 3,
+   "frase": "Los atajos de una sola tecla se pueden desactivar o cambiar (2.1.4).",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-ACC-005",
+   "fuente": "data/sd-capitulos/accesibilidad-operativa.html#s-06-02-02",
+   "bloque": 1,
+   "frase": "El foco debe ser perceptible y no quedar completamente oculto por otros elementos de la interfaz.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ACC-006",
+   "fuente": "data/sd-capitulos/accesibilidad-operativa.html#s-06-02-03",
+   "bloque": 1,
+   "frase": "Las interacciones deben respetar los criterios de accesibilidad relacionados con límites de tiempo, movimiento y control de contenido.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ACC-007",
+   "fuente": "data/sd-capitulos/adaptacion-de-la-experiencia.html#s-06-03-01",
+   "bloque": 1,
+   "frase": "Las pantallas deben reorganizarse según el espacio disponible sin eliminar funcionalidades esenciales.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ACC-008",
+   "fuente": "data/sd-capitulos/adaptacion-de-la-experiencia.html#s-06-03-02",
+   "bloque": 1,
+   "frase": "Los objetivos interactivos deben cumplir los criterios aplicables de tamaño y separación de WCAG 2.2 AA.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ACC-009",
+   "fuente": "data/sd-capitulos/adaptacion-de-la-experiencia.html#s-06-03-03",
+   "bloque": 1,
+   "frase": "Las experiencias deberían considerar dispositivos, métodos de entrada y condiciones operativas diferentes.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-001",
+   "fuente": "data/sd-capitulos/tablas-y-datos-estructurados.html#s-08-01-01",
+   "bloque": 1,
+   "frase": "Las tablas deben utilizar encabezados comprensibles, alineación consistente y una organización apropiada para comparar datos.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-002",
+   "fuente": "data/sd-capitulos/tablas-y-datos-estructurados.html#s-08-01-02",
+   "bloque": 1,
+   "frase": "Búsqueda, filtros, orden y paginación deberían incorporarse según el volumen y las tareas reales.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-003",
+   "fuente": "data/sd-capitulos/tablas-y-datos-estructurados.html#s-08-01-03",
+   "bloque": 1,
+   "frase": "Las acciones por registro deben distinguirse de los valores informativos y respetar los permisos correspondientes.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-004",
+   "fuente": "data/sd-capitulos/dashboards-e-informes.html#s-08-04-01",
+   "bloque": 1,
+   "frase": "Los tableros deben priorizar la información necesaria para las decisiones y actividades de sus usuarios.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-005",
+   "fuente": "data/sd-capitulos/dashboards-e-informes.html#s-08-04-02",
+   "bloque": 1,
+   "frase": "Los indicadores no deben recibir el mismo protagonismo cuando su importancia operativa sea diferente.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-DAV-006",
+   "fuente": "data/sd-capitulos/dashboards-e-informes.html#s-08-04-03",
+   "bloque": 1,
+   "frase": "Un tablero puede ofrecer acceso a vistas detalladas, filtros y análisis cuando sean necesarios para completar una tarea.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-001",
+   "fuente": "data/sd-capitulos/keyons-product-default.html#s-10-04-01",
+   "bloque": 1,
+   "frase": "Los productos que utilizan Keyons Product Default deben aplicar los componentes funcionales canónicos y el tema visual predeterminado aprobado.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-002",
+   "fuente": "data/sd-capitulos/keyons-product-default.html#s-10-04-02",
+   "bloque": 1,
+   "frase": "Las interfaces de uso frecuente deberían priorizar superficies contenidas, claridad y jerarquía antes que recursos expresivos.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-003",
+   "fuente": "data/sd-capitulos/keyons-product-default.html#s-10-04-03",
+   "bloque": 1,
+   "frase": "Las variaciones permitidas deben conservar la accesibilidad, consistencia y comportamiento funcional del producto.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-004",
+   "fuente": "data/sd-capitulos/keyons-product-default.html#s-10-04-04",
+   "bloque": 1,
+   "frase": "Los productos SaaS de Keyons deberían usar el patrón de navegación predeterminado, salvo que su estructura justifique otro.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-GOB-001",
+   "fuente": "data/sd-capitulos/validacion-de-calidad.html#s-12-03-01",
+   "bloque": 1,
+   "frase": "Las evaluaciones deben utilizar tareas representativas de los perfiles que operarán el producto.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-GOB-002",
+   "fuente": "data/sd-capitulos/validacion-de-calidad.html#s-12-03-02",
+   "bloque": 1,
+   "frase": "Los defectos que impidan completar tareas esenciales de forma segura deben resolverse o contar con una decisión explícita de bloqueo antes del lanzamiento correspondiente.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-GOB-003",
+   "fuente": "data/sd-capitulos/validacion-de-calidad.html#s-12-03-03",
+   "bloque": 1,
+   "frase": "Antes del lanzamiento, cada producto debería completar la verificación visual, funcional, de usabilidad y de accesibilidad, con su registro firmado.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   }
  ]
 }
