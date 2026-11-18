@@ -2961,7 +2961,7 @@
    "id": "KYN-SDI-PEX-017",
    "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-08",
    "bloque": 4,
-   "frase": "Se pueden cancelar o pausar cuando el proceso lo permite, y se informa qué quedó hecho.",
+   "frase": "Un listado puede deshacer una eliminación y un pago, en cambio, pide confirmación previa.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
   },
@@ -3172,11 +3172,35 @@
   {
    "id": "KYN-SDI-ARQ-006",
    "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-02",
+   "bloque": 2,
+   "frase": "El significado se conserva siempre.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-ARQ-006",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-02",
    "bloque": 3,
+   "frase": "La interacción puede variar según los datos, la tarea y su complejidad, siempre que el resultado sea el que la persona espera.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-ARQ-006",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-02",
+   "bloque": 4,
    "frase": "Las funciones principales deberían conservar una ubicación y denominación consistentes entre las pantallas equivalentes.",
    "estado": "aplicada",
    "nivel": "deberia",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-006",
+   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-02",
+   "bloque": 9,
+   "frase": "«Exportar» siempre entrega un archivo.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-ARQ-007",
@@ -3303,6 +3327,14 @@
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   },
   {
+   "id": "KYN-SDI-ARQ-002",
+   "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-02",
+   "bloque": 3,
+   "frase": "El título de la página puede precisarlo sin cambiar su sentido: menú «Solicitudes» y título «Solicitudes pendientes».",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
    "id": "KYN-SDI-ARQ-003",
    "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-03",
    "bloque": 1,
@@ -3370,6 +3402,14 @@
    "estado": "aplicada",
    "nivel": "debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-012",
+   "fuente": "data/sd-capitulos/busqueda-y-orientacion.html#s-02-03-02",
+   "bloque": 2,
+   "frase": "Cada producto define la lista, y la búsqueda consulta solo lo que el perfil puede ver.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-ARQ-013",

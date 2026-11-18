@@ -80,7 +80,7 @@ CAP32 = [
         req(N('Las acciones visibles ejecutadas por agentes deben permitir comprender qué se está haciendo y cuál fue su resultado.', 'debe')),
         stack([('Estado', [f'En curso, terminado, fallido o en espera de aprobación ({R("KYN-SDI-PEX-004", "Estado comprensible")}).']),
                ('Registro', [f'Cada acción queda en el historial con su resultado ({R("KYN-SDI-PAT-012", "Trazabilidad")}).'])]),
-    ], verif=[('Historial', 'Se revisa el historial de un agente.', 'se entiende qué hizo, cuándo y con qué resultado.')], ver='breve',
+    ], verif=[('Historial', 'Se revisa el historial de un agente.', 'la persona dice qué hizo el agente, cuándo y con qué resultado, sin ayuda.')], ver='breve',
        origen=['Responsabilidad identificable (base)'], responsabilidad='Las acciones de los agentes son comprensibles y registradas.', corto='Responsabilidad'),
 
     n32('KYN-SDI-IAE-008', 'Límites de actuación', 2, 'Permisos de los agentes',

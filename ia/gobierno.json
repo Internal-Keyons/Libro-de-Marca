@@ -561,6 +561,40 @@
        ]
       },
       {
+       "k": "Proximidad",
+       "p": [
+        [
+         "Los contenidos relacionados DEBEN mantener una proximidad visual suficiente.",
+         "debe"
+        ],
+        [
+         "Una separación mayor marca un cambio real de sección, de responsabilidad o de tipo de información. Un margen amplio nunca reemplaza la jerarquía.",
+         null
+        ],
+        [
+         "Lo que puede integrarse en el bloque anterior se integra, sin un bloque ni un subtítulo propios.",
+         null
+        ]
+       ]
+      },
+      {
+       "k": "Visible o plegable",
+       "p": [
+        [
+         "El requisito, la decisión principal y el comportamiento necesario para aplicar la norma DEBEN quedar visibles.",
+         "debe"
+        ],
+        [
+         "Los procedimientos técnicos extensos, las excepciones poco frecuentes, las verificaciones largas y la evidencia adicional PUEDEN ir en un detalle plegable.",
+         "puede"
+        ],
+        [
+         "Un plegable se elige por la función del contenido, nunca por la herramienta que lo genera. Una secuencia de apartados separados por líneas sigue siendo una composición visible.",
+         null
+        ]
+       ]
+      },
+      {
        "k": "Ancho de lectura",
        "p": [
         [
@@ -663,6 +697,69 @@
         [
          "Su presentación PUEDE variar entre una indicación breve, un detalle plegable o una sección de validación agrupada, según la complejidad y la necesidad de consulta.",
          "puede"
+        ]
+       ]
+      },
+      {
+       "k": "Referencias",
+       "p": [
+        [
+         "El texto principal DEBE explicar la decisión que regula sin obligar a abrir otra norma.",
+         "debe"
+        ],
+        [
+         "Un enlace se incorpora cuando conduce a una especificación complementaria necesaria o claramente útil. Si solo repite el nombre de otra norma, sale de la composición principal.",
+         null
+        ],
+        [
+         "Las dependencias normativas DEBEN conservarse en el registro y en la trazabilidad, aunque no todas aparezcan como enlaces en los párrafos.",
+         "debe"
+        ],
+        [
+         "Cuando una norma necesita varias referencias complementarias, pueden reunirse en una nota secundaria discreta, que nunca es un bloque obligatorio. Los enlaces conservan sus estados aprobados al pasar el cursor y con el foco.",
+         null
+        ]
+       ]
+      },
+      {
+       "k": "Color del texto",
+       "p": [
+        [
+         "La lectura normativa DEBE usar el color principal de texto oficial.",
+         "debe"
+        ],
+        [
+         "El gris secundario se reserva para la información subordinada: metadatos, ayudas, aclaraciones y notas complementarias.",
+         null
+        ],
+        [
+         "El color NO DEBE sustituir la jerarquía tipográfica, el espaciado ni la composición.",
+         "no-debe"
+        ],
+        [
+         "El requisito y su aplicación NO DEBEN distinguirse solo por el color del párrafo.",
+         "no-debe"
+        ],
+        [
+         "Se conservan los indicadores DEBE, NO DEBE, DEBERÍA y PUEDE y los tokens aprobados, sin escalas ni colores paralelos.",
+         null
+        ]
+       ]
+      },
+      {
+       "k": "Celdas y resultados",
+       "p": [
+        [
+         "Cada celda que contiene una oración independiente DEBE comenzar con mayúscula y tener una construcción gramatical completa.",
+         "debe"
+        ],
+        [
+         "Los resultados esperados DEBEN describir hechos observables, y cada prueba DEBE relacionar una condición, una acción y su resultado.",
+         "debe"
+        ],
+        [
+         "Los encabezados, los rótulos y los resultados siguen una misma convención. Los nombres propios, los identificadores técnicos y el código conservan su escritura.",
+         null
         ]
        ]
       },

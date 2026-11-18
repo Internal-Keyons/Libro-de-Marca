@@ -37,7 +37,7 @@ CAP23 = [
         req(N('El contenido debería ser tan breve como permita la comprensión, sin eliminar información necesaria.', 'deberia')),
         stack([('Límites de la marca', ['Hasta 25 palabras por oración y frases con una sola idea (reglas de voz).']),
                ('Ayudas', [f'Una ayuda breve visible; el detalle, a pedido ({R("KYN-SDI-ARQ-004", "Información progresiva")}).'])]),
-    ], verif=[('Interpretación', 'Se pide interpretar etiquetas y acciones sin explicación adicional.', 'las personas las interpretan correctamente.')], ver='breve',
+    ], verif=[('Interpretación', 'Se pide interpretar etiquetas y acciones sin explicación adicional.', 'cada persona describe la función de cada etiqueta y acción tal como la define el producto.')], ver='breve',
        origen=['Brevedad útil (base)'], responsabilidad='Los textos son tan breves como permite la comprensión.', corto='Brevedad'),
 ]
 
@@ -105,11 +105,11 @@ CAP27 = [
     n27('KYN-SDI-DAV-007', 'Representación apropiada', 1, 'Tipo de gráfico según la relación',
         'Se aplica al elegir un gráfico: <strong>el tipo responde a la pregunta</strong> que los datos contestan.', [
         req(N('El tipo de gráfico debe corresponder a la relación que se necesita comunicar.', 'debe')),
-        matriz('Relación y gráfico', [('Gráfico', ''), ('Origen', 'Libro de Marca')], [
-            ('Evolución en el tiempo', ['Línea o columnas.', M('KYN-MRK-DAT-004')]),
-            ('Comparación entre categorías', ['Barras.', M('KYN-MRK-DAT-004')]),
-            ('Partes de un todo', ['Barras apiladas al 100 % o pocas porciones.', M('KYN-MRK-DAT-004')]),
-            ('Distribución', ['Histograma o puntos.', M('KYN-MRK-DAT-004')])]),
+        stack([('Evolución en el tiempo', ['Línea o columnas.']),
+               ('Comparación entre categorías', ['Barras.']),
+               ('Partes de un todo', ['Barras apiladas al 100 % o pocas porciones.']),
+               ('Distribución', ['Histograma o puntos.']),
+               ('Dibujo de cada tipo', [f'Lo define el Libro de Marca en {M("KYN-MRK-DAT-004")}.'])]),
     ], verif=[('Pregunta', 'Se escribe, para cada gráfico, la pregunta que responde.', 'el tipo de gráfico corresponde a esa pregunta según la tabla.')], ver='breve',
        origen=['Representación apropiada (base)'], responsabilidad='El tipo de gráfico corresponde a la relación que comunica.', corto='Representación'),
 

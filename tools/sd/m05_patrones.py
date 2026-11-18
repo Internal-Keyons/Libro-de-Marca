@@ -21,7 +21,7 @@ CAP16 = [
                ('Completar por grupos', f'Los campos relacionados van juntos, con un título de grupo ({c("<fieldset>")} y {c("<legend>")}).', 'Decisión', 'Una columna; el orden del grupo sigue el del proceso.'),
                ('Revisar', 'En los formularios de varios pasos, un resumen antes de enviar.', 'Decisión', 'Cada dato del resumen se puede editar.'),
                ('Enviar', 'El botón principal nombra la acción: «Enviar solicitud».', 'Decisión', f'Muestra la carga y evita el doble envío ({R("KYN-SDI-CPE-002", "Estados de los controles")}).'),
-               ('Confirmar', 'El resultado y el siguiente paso.', 'Decisión', f'Según Terminación clara ({R("KYN-SDI-PAT-006", "Terminación clara")}).')]),
+               ('Confirmar', 'El resultado y el siguiente paso.', 'Decisión', f'Lo define {R("KYN-SDI-PAT-006")}.')]),
         detalle([
             ('Varios pasos', [
                 ('Cuándo', f'Cuando el formulario reúne decisiones distintas o es largo. El progreso sigue {L("17")}.')])]),
@@ -46,7 +46,7 @@ CAP16 = [
     n16('KYN-SDI-PAT-003', 'Validación proporcionada', 3, 'Validación sin interrupciones',
         'Se aplica a la validación de un formulario completo: <strong>se corrige lo necesario sin empezar de nuevo</strong>.', [
         req(N('La validación no debe interrumpir innecesariamente la entrada ni provocar la eliminación de valores correctos.', 'no-debe')),
-        stack([('Momento', [f'Según Validación útil de 13 Entradas ({R("KYN-SDI-CPE-006", "Validación útil")}): sin errores mientras se escribe por primera vez.']),
+        stack([('Momento', [f'Sin errores mientras se escribe por primera vez, según {R("KYN-SDI-CPE-006")}.']),
                ('Valores correctos', ['Un error del servidor nunca borra lo que estaba bien.']),
                ('Errores del servidor', ['Se muestran junto al campo que corresponde, con el resto de los datos intactos.'])]),
     ], verif=[('Error al enviar', 'Se envía el formulario con un dato inválido.', 'solo ese campo se marca y los demás conservan su valor.')], ver='grupo',
@@ -90,7 +90,7 @@ CAP17 = [
             ('Crear', ['Formulario con los datos mínimos.', 'Muestra el registro creado y confirma: «Solicitud 2026-118 creada».']),
             ('Editar', ['En el lugar o en un formulario; Cancelar devuelve al estado anterior.', 'Muestra el valor nuevo y «Cambios guardados».']),
             ('Guardar', ['Explícito o automático; el estado «Guardando» o «Guardado» se ve.', 'Confirma sin bloquear el trabajo.']),
-            ('Eliminar', [f'Según Acciones destructivas ({R("KYN-SDI-CPE-003", "Acciones destructivas")}).', 'Confirma y ofrece Deshacer cuando se puede.'])]),
+            ('Eliminar', ['Confirma y ofrece Deshacer cuando se puede.', f'El nivel de protección lo define {R("KYN-SDI-CPE-003")}.'])]),
     ], verif=[('Cuatro acciones', 'Se crea, edita, guarda y elimina un registro.', 'cada acción termina con su resultado y un siguiente paso.')], ver='grupo',
        origen=['Terminación clara (base)', 'Crear, editar, guardar y eliminar (descripción del capítulo)'],
        responsabilidad='Cada proceso termina con su resultado y un siguiente paso; el ciclo de un registro es consistente.', corto='Terminación'),

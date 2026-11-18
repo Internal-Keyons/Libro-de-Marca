@@ -25,18 +25,19 @@ CAP04 = [
                'encuentran los elementos sin conocer cómo está organizada la base de datos.')], ver='grupo'),
 
     n4('KYN-SDI-ARQ-002', 'Nombres comprensibles', 2, 'Nombres reconocibles para secciones y destinos',
-       'Se aplica a categorías, secciones y destinos: <strong>cada nombre usa el vocabulario de quien trabaja con el producto</strong>.', [
+       'Se aplica al nombrar menús, categorías, secciones y funciones: <strong>cada nombre usa el vocabulario de quien trabaja con el producto</strong>.', [
         req(N('Las categorías, secciones y elementos de navegación deben utilizar denominaciones que las personas puedan reconocer según su contexto de trabajo.', 'debe')),
-        stack([('Vocabulario', ['El de los perfiles, en lugar del vocabulario del código o de la base de datos.']),
-               ('Un concepto, un nombre', [f'El mismo concepto se nombra igual en todo el producto, según {R("KYN-SDI-CNT-002")}.']),
-               ('Siglas', ['Solo las que el perfil usa a diario.'])]),
+        stack([('Vocabulario', ['Los nombres salen de las palabras que los perfiles usan en su trabajo, recogidas en entrevistas, documentos y solicitudes reales. El vocabulario del código o de la base de datos queda fuera de la interfaz.']),
+               ('Etiqueta y título', ['La etiqueta del menú es corta y nombra el destino. El título de la página puede precisarlo sin cambiar su sentido: menú «Solicitudes» y título «Solicitudes pendientes».']),
+               ('Siglas', ['Solo las que el perfil usa a diario. Las demás se escriben completas, y una sigla nueva aparece completa la primera vez.']),
+               ('Un concepto, un nombre', ['El mismo concepto conserva su nombre en el menú, los títulos, los botones y los mensajes de todo el producto.'])]),
         sub('Ejemplos'),
         contraste([('Entidades', 'Clientes'), ('Módulo de gestión de tickets', 'Solicitudes'), ('Config.', 'Configuración')]),
     ], origen=['Nombres comprensibles (ampliación)', 'Nombres de categorías (ampliación de la matriz)', 'UIX-041'],
        responsabilidad='Categorías, secciones y destinos usan nombres que las personas reconocen.',
-       cita='23 Escritura (Consistencia) desarrolla la redacción',
-       verif=[('Comprensión', 'Se muestra cada nombre de sección sin contexto y se pide decir qué se espera encontrar.', 'lo que la persona espera coincide con el contenido de la sección.')], ver='grupo'),
-
+       cita='23 Escritura (Consistencia) desarrolla la redacción', rel=['KYN-SDI-CNT-002'],
+       verif=[('Comprensión', 'Se muestra cada nombre de sección sin contexto y se pide decir qué se espera encontrar.', 'lo que la persona espera coincide con el contenido de la sección.'),
+              ('Tarea real', 'Se pide completar una tarea real eligiendo su destino en el menú.', 'la persona elige el destino correcto al primer intento.')], ver='grupo'),
     n4('KYN-SDI-ARQ-003', 'Jerarquía identificable', 3, 'Información principal, secundaria y complementaria',
        'Se aplica a cada página: <strong>tres niveles de información con un lugar y un peso propios</strong>.', [
         req(N('Las páginas deben diferenciar información principal, secundaria y complementaria mediante una jerarquía consistente.', 'debe')),
@@ -85,13 +86,14 @@ CAP06 = [
        responsabilidad='Se entiende si la búsqueda es global o está limitada a una sección o conjunto.',
        verif=[('Dos búsquedas', 'Se muestran una búsqueda global y una local, sin escribir nada.', 'la persona distingue cuál busca en todo el producto y cuál dentro de la lista.')]),
 
-    n6('KYN-SDI-ARQ-012', 'Resultados pertinentes', 2, 'Campos y orden de los resultados',
-       'Define qué datos usa la búsqueda y en qué orden muestra lo que encuentra: <strong>se encuentra por lo que la persona recuerda</strong>.', [
+    n6('KYN-SDI-ARQ-012', 'Resultados pertinentes', 2, 'Campos, coincidencias y orden de la búsqueda',
+       'Define qué datos consulta la búsqueda, cómo compara lo que se escribe y en qué orden presenta lo encontrado: <strong>cada producto configura estos criterios según sus tareas y permisos</strong>.', [
         req(N('La búsqueda debe utilizar los campos y contenidos relevantes para la tarea, respetando los permisos de acceso.', 'debe')),
-        stack([('Campos', ['Nombre, código, identificación y los datos que el perfil usa para recordar un registro.']),
-               ('Coincidencia parcial', ['Encuentra por parte del texto, sin distinguir mayúsculas ni tildes.']),
-               ('Orden', ['Primero las coincidencias exactas; después, las más recientes o las más usadas, según la tarea.']),
-               ('Permisos', [f'El límite de lo que se busca lo define {R("KYN-SDI-ARQ-016")}.'])]),
+        stack([('Campos consultables', ['Los que el perfil usa para reconocer un registro: nombre, código, identificación y los datos propios de la tarea. Cada producto define la lista, y la búsqueda consulta solo lo que el perfil puede ver.']),
+               ('Coincidencias', ['La exacta y la parcial cuentan: una parte del nombre encuentra el registro completo.']),
+               ('Tildes, mayúsculas e identificadores', ['Las tildes y las mayúsculas se ignoran. Un identificador se compara sin espacios, guiones ni puntos, y así «001-234» y «001234» encuentran el mismo registro.']),
+               ('Orden', ['Cada producto define sus criterios y los documenta: coincidencia exacta, uso reciente, frecuencia o fecha. Una tarea de consulta suele empezar por la coincidencia exacta; una bandeja de trabajo, por lo más reciente.']),
+               ('Buscar, filtrar y ordenar', ['Buscar encuentra registros por lo que se escribe. Filtrar reduce el conjunto con criterios conocidos, como el estado o la fecha. Ordenar cambia la secuencia sin quitar registros, y cada uno se muestra por separado.'])]),
         detalle([
             ('Autocompletado', [
                 ('Cuándo', 'En listas conocidas: clientes, productos, direcciones.'),
@@ -99,10 +101,9 @@ CAP06 = [
             ('Errores de escritura', [
                 ('Sugerencia', 'Cuando el producto lo permite, se ofrece la forma correcta: «¿Quiso decir…?».')])]),
     ], origen=['Resultados pertinentes (base)', 'Autocompletado, búsqueda parcial, errores ortográficos y resultados ordenados (ampliación de la matriz)'],
-       responsabilidad='La búsqueda usa los campos relevantes, encuentra por coincidencia parcial y ordena por pertinencia.',
-       cita='El límite de permisos está en ARQ-016',
-       verif=[('Consultas reales', 'Se buscan registros con nombre parcial, sin tildes y con un error de escritura.', 'el registro buscado aparece entre los primeros resultados.')], ver='grupo'),
-
+       responsabilidad='La búsqueda usa los campos relevantes, encuentra por coincidencia parcial y ordena según los criterios de cada producto.',
+       cita='El límite de permisos está en ARQ-016', rel=['KYN-SDI-ARQ-016'],
+       verif=[('Consultas reales', 'Se buscan registros con nombre parcial, sin tildes, con un identificador escrito de otra forma y con un error de escritura.', 'el registro buscado aparece entre los primeros resultados.')], ver='grupo'),
     n6('KYN-SDI-ARQ-013', 'Resultados comprensibles', 3, 'Datos que distinguen cada resultado',
        'Se aplica a cada resultado de búsqueda: <strong>se elige el correcto sin abrirlo</strong>.', [
         req(N('Cada resultado debe proporcionar información suficiente para distinguirlo de otros elementos similares.', 'debe')),

@@ -52,11 +52,9 @@ def stack(filas): return f'{I}<div class="ed__stack">' + ''.join(f'<div><span cl
 def dims(filas):
     """Dimensiones integradas (Guía 05 · Composición normativa): cada fila reúne el requisito de su dimensión, con su nivel (N),
     y su decisión de aplicación, sin repetirse en otra composición: (rótulo, [requisito, decisión, …]).
-    El requisito usa el texto de las filas normativas (.sdn__t, Azul Noche) y la decisión, el gris de lectura: la jerarquía
-    distingue qué se exige de cómo se aplica."""
-    req_ = {m[0] for m in MARCADAS}
-    def p(x): return f'<p class="sdn__t">{x}</p>' if _np(x) in req_ else f'<p>{x}</p>'
-    return f'{I}<div class="ed__stack">' + ''.join(f'<div><span class="paren">({esc(k)})</span>' + ''.join(p(x) for x in ps) + '</div>' for k, ps in filas) + '</div>'
+    Requisito y decisión van en el color principal de lectura (Guía 05 · Color del texto): los distinguen el orden, el nivel
+    al final del requisito y el párrafo propio, no el color."""
+    return stack(filas)
 def matriz(etq, cols, filas, kh=False):
     """Tabla del libro (.matrix): (rótulo de fila, [celdas]). Las celdas admiten código y enlaces; con kh, también el rótulo."""
     head = ('<div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span>'
@@ -112,9 +110,11 @@ def _verif_html(ver, verif, ref):
 
 
 def norma(nid, nombre, capitulo, slug_mod, slug_cap, k, titular, entrada, partes, origen=(), responsabilidad='', cita='', corto=None,
-          verif=(), ver='breve', ref=''):
+          verif=(), ver='breve', ref='', rel=()):
     """Una norma emitida en borrador. Registra su ruta, su titular y su verificación para data/sd-normas.json.
-    verif: [(rótulo, condición, resultado esperado)]; ver: breve, tecnica, grupo o referencia (ref: el texto que remite)."""
+    verif: [(rótulo, condición, resultado esperado)]; ver: breve, tecnica, grupo o referencia (ref: el texto que remite).
+    rel: dependencias normativas que no llevan enlace en la página (Guía 05 · Referencias). El registro las recibe junto con
+    las referencias R() del texto: aquí está la fuente; data/sd-normas.json («relaciones») se genera y no se edita."""
     if ver not in VER:
         raise SystemExit(f'{nid}: presentación de la verificación desconocida «{ver}»')
     if not verif or any(len(v) != 3 or not v[1] or not v[2] for v in verif):
@@ -130,7 +130,8 @@ def norma(nid, nombre, capitulo, slug_mod, slug_cap, k, titular, entrada, partes
     CONSTRUIDAS[nid] = dict(id=nid, nombre=nombre, corto=corto or CORTOS.get(nid, nombre), slug=slug_cap, ruta=f'sistema-diseno/{slug_mod}/{slug_cap}.html#{an}', origen=list(origen),
                             responsabilidad=responsabilidad, cita=cita, titular=titular, ancla=an,
                             verificacion=[dict(rotulo=r, condicion=plano(cnd), resultado=plano(res)) for r, cnd, res in verif], presentacion=ver,
-                            _verif=list(verif))
+                            _verif=list(verif),
+                            relaciones=sorted(set(rel) | set(re.findall(r'⟦R:([A-Z0-9-]+)\|', ''.join(partes) + ref))))
     partes = list(partes) + ([_verif_html(ver, verif, ref)] if ver != 'grupo' else [])
     return (f'\n    <!-- {nid} · {nombre} -->\n    <section class="ed" id="{an}">\n'
             f'      <div class="ed__label sdn-label"><span class="ed__code" data-copy="{nid}" data-copy-msg="ID copiado · {nid}" title="Copiar el ID de esta norma">{nid}</span><span>{esc(nombre)}</span></div>\n'
@@ -199,16 +200,27 @@ def resolver(t, slug_actual):
     return re.sub(r'⟦R:([A-Z0-9-]+)\|([^⟧]*)⟧', un, t)
 
 
+def may(t):
+    """Una celda con una oración independiente empieza con mayúscula (Guía 05 · Celdas y resultados). El código, las cifras
+    y los nombres que ya empiezan con mayúscula quedan como están."""
+    return t[:1].upper() + t[1:] if t[:1].islower() else t
+
+
 def validacion(capn, slug_cap, entrada):
     """Validación del capítulo: la verificación del capítulo y las pruebas que conviene consultar juntas (ver='grupo').
-    Tabla solo cuando reúne tres pruebas o más; si no, filas."""
+    Tabla solo cuando reúne tres pruebas o más; si no, filas. El rótulo de cada fila nombra la norma sin enlace
+    (Guía 05 · Referencias): la norma está en la misma página y el menú lleva a ella; con dos pruebas, se suma su rótulo."""
     VALIDADOS.add(slug_cap)
     pr = [(b, v) for b in CONSTRUIDAS.values() if b['slug'] == slug_cap and b['presentacion'] == 'grupo' for v in b['_verif']]
+    cuenta = {}
+    for b, _ in pr:
+        cuenta[b['id']] = cuenta.get(b['id'], 0) + 1
+    def rot(b, r): return b['corto'] + (f' · {r}' if cuenta[b['id']] > 1 else '')
     partes = []
     if len(pr) >= 3:
         partes.append(matriz('Pruebas del capítulo', [('Qué se comprueba', 'Condición'), ('Qué se espera', 'Resultado')],
-                             [(f'<a class="xref" href="#{b["ancla"]}">{esc(b["corto"])}</a>', [cnd, res]) for b, (r, cnd, res) in pr], kh=True))
+                             [(rot(b, r), [cnd, may(res)]) for b, (r, cnd, res) in pr]))
     elif pr:
         partes.append(f'{I}<div class="ed__stack">' + ''.join(
-            f'<div><span class="paren">({esc(b["corto"])})</span><p>{cnd} Resultado esperado: {res}</p></div>' for b, (r, cnd, res) in pr) + '</div>')
+            f'<div><span class="paren">({esc(rot(b, r))})</span><p>{cnd} Resultado esperado: {res}</p></div>' for b, (r, cnd, res) in pr) + '</div>')
     return seccion('validacion', _SLUG[slug_cap][0], 'Validación', 'Validación del capítulo', entrada, partes)

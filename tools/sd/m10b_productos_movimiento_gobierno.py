@@ -15,12 +15,12 @@ def nG(slug, n):
     return f
 
 
-def simple(fn, nid, nombre, k, titular, entrada, reqs, filas, verif, origen, resp, corto, cita='', ver='breve', ref=''):
+def simple(fn, nid, nombre, k, titular, entrada, reqs, filas, verif, origen, resp, corto, cita='', ver='breve', ref='', rel=()):
     """Norma breve: requisitos y filas de decisión. La verificación (rótulo, condición, resultado) se presenta según su función."""
     partes = [req(*reqs)]
     if filas:
         partes.append(stack(filas))
-    return fn(nid, nombre, k, titular, entrada, partes, origen=origen, responsabilidad=resp, corto=corto, cita=cita, verif=verif, ver=ver, ref=ref)
+    return fn(nid, nombre, k, titular, entrada, partes, origen=origen, responsabilidad=resp, corto=corto, cita=cita, verif=verif, ver=ver, ref=ref, rel=rel)
 
 
 n34, n35, n36, n38 = nP('base-compartida', '10.01'), nP('sitio-web-corporativo-keyons', '10.02'), nP('herramientas-internas-keyons', '10.03'), nP('soluciones-personalizadas-y-white-label', '10.05')
@@ -47,14 +47,14 @@ CAP34 = [
 CAP35 = [
     simple(n35, 'KYN-SDI-SPR-008', 'Navegación y propósito', 1, 'Información y acciones del sitio web', 'Se aplica al sitio corporativo de Keyons: <strong>lleva a la información y a la acción</strong>.',
            [N('Las páginas web deben facilitar la localización de información, servicios y acciones relevantes.', 'debe')],
-           [('Navegación', [f'Según {L("05")}.']), ('Identidad', [f'La expresión sigue el Libro de Marca ({M("KYN-MRK-COR-001")}).'])],
+           [('Navegación', [f'Ubicación visible, nombres reconocibles y destinos estables, como en los productos ({L("05")}).']), ('Identidad', [f'La expresión sigue el Libro de Marca ({M("KYN-MRK-COR-001")}).'])],
            [('Tareas', 'Se buscan información, servicios y contacto en escritorio y móvil.', 'se encuentran sin ayuda en los dos.')], ['Navegación y propósito (base)'],
-           'Las páginas web facilitan encontrar información, servicios y acciones.', 'Navegación', ver='breve'),
+           'Las páginas web facilitan encontrar información, servicios y acciones.', 'Navegación', rel=['KYN-SDI-ARQ-005'], ver='breve'),
     simple(n35, 'KYN-SDI-SPR-009', 'Interacción accesible', 2, 'Formularios y controles del sitio web', 'Se aplica a formularios, menús y controles del sitio: <strong>siguen las mismas normas que los productos</strong>.',
            [N('Los formularios, menús y controles del sitio deben respetar las normas funcionales compartidas.', 'debe')],
-           [('Normas', [f'{L("13")}, {L("16")} y {L("20")} a {L("22")}.'])],
+           [('Normas', ['Campos, formularios y accesibilidad siguen las mismas normas que los productos: 13 Entradas, 16 Formularios y los capítulos 20 a 22 de Accesibilidad.'])],
            [('Acciones', 'Se completan las acciones del sitio con teclado y en móvil.', 'todas se completan.')], ['Interacción accesible (base)'],
-           'Formularios, menús y controles del sitio respetan las normas compartidas.', 'Interacción', ver='breve'),
+           'Formularios, menús y controles del sitio respetan las normas compartidas.', 'Interacción', rel=['KYN-SDI-CPE-005', 'KYN-SDI-PAT-001', 'KYN-SDI-ACC-001'], ver='breve'),
 ]
 CAP36 = [
     simple(n36, 'KYN-SDI-SPR-010', 'Eficiencia operativa', 1, 'Eficiencia de las herramientas internas', 'Se aplica a las herramientas de uso interno: <strong>lo frecuente, en menos pasos</strong>.',
@@ -64,14 +64,14 @@ CAP36 = [
            'Las herramientas internas priorizan tareas frecuentes y reducen pasos.', 'Eficiencia', ver='breve'),
     simple(n36, 'KYN-SDI-SPR-011', 'Permisos y contexto', 2, 'Funciones según el rol del operador', 'Se aplica a cada herramienta interna: <strong>cada operador ve lo de su rol y su contexto</strong>.',
            [N('Cada herramienta debe presentar las funciones y datos correspondientes al rol y contexto del operador.', 'debe')],
-           [('Roles', [f'Según Roles y permisos ({R("KYN-SDI-PEX-008", "Roles y permisos")}).'])],
+           [('Roles', [f'Las funciones y los datos de otro rol quedan ocultos y el servidor rechaza su uso, según {R("KYN-SDI-PEX-008")}.'])],
            [('Cambio de contexto', 'Se cambia entre contextos autorizados con cada rol.', 'cada rol ve solo sus funciones y datos en cada contexto.')], ['Permisos y contexto (base)'],
            'Cada herramienta presenta funciones y datos según el rol del operador.', 'Permisos', ver='breve'),
 ]
 CAP38 = [
     simple(n38, 'KYN-SDI-SPR-012', 'Identidad del cliente', 1, 'Identidad del cliente en marca blanca', 'Se aplica a las soluciones de marca blanca: <strong>la marca cambia y la calidad se conserva</strong>.',
            [N('Las soluciones de marca blanca pueden sustituir los recursos visuales de Keyons dentro de los límites definidos para el producto.', 'puede')],
-           [('Límites', [f'Los de Personalización controlada ({R("KYN-SDI-SPR-003", "Personalización controlada")}).'])],
+           [('Límites', [f'Cambian la marca, el acento y las imágenes; el contraste, los componentes y el comportamiento se conservan, según {R("KYN-SDI-SPR-003")}.'])],
            [('Tema del cliente', 'Se aplica la identidad del cliente y se revisan contraste y componentes.', 'se cumplen los mismos mínimos que con la identidad Keyons.')], ['Identidad del cliente (base)', 'UIX-052'],
            'Las soluciones de marca blanca pueden usar la identidad del cliente dentro de límites.', 'Identidad', ver='breve'),
     simple(n38, 'KYN-SDI-SPR-013', 'Calidad funcional', 2, 'Accesibilidad y seguridad con cualquier marca', 'Se aplica a toda personalización de marca blanca: <strong>lo esencial se mantiene</strong>.',
@@ -104,7 +104,7 @@ CAP40 = [
            'El movimiento editorial se usa cuando aporta a la narrativa o la identidad.', 'Expresión', ver='breve'),
     simple(n40, 'KYN-SDI-MOV-004', 'Comprensión independiente', 2, 'Información comprensible sin animación', 'Se aplica a la información de una pieza animada: <strong>se entiende sin la animación</strong>.',
            [N('La información esencial debe poder comprenderse sin depender de una animación decorativa.', 'debe')],
-           [], [('Tres modos', 'Se revisa la pieza con movimiento normal, reducido y desactivado.', 'la información esencial se entiende en los tres.')], ['Comprensión independiente (base)'],
+           [], [('Tres modos', 'Se revisa la pieza con movimiento normal, reducido y desactivado.', 'en los tres modos, la persona identifica la misma información esencial.')], ['Comprensión independiente (base)'],
            'La información esencial se entiende sin animación.', 'Comprensión', ver='breve'),
 ]
 CAP41 = [

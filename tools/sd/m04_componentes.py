@@ -22,13 +22,13 @@ CAP12 = [
             ('De texto', ['Acciones menores o de navegación: Ver detalle, Editar.', 'Las necesarias.']),
             ('Destructiva', [f'Eliminar, revocar, cerrar una cuenta ({R("KYN-SDI-CPE-003", "Acciones destructivas")}).', 'La que corresponda; nunca con el aspecto de la principal.'])]),
         stack([('Anatomía', ['Etiqueta con verbo y objeto («Guardar cambios»), ícono opcional y área de toque suficiente. El ícono va a la izquierda; a la derecha, solo si indica dirección.']),
-               ('Botón o enlace', [f'Un botón ejecuta una acción; un enlace lleva a otro lugar, según Acciones previsibles de {L("05")}.']),
+               ('Botón o enlace', ['Un botón ejecuta una acción y un enlace lleva a otro lugar, en todas las pantallas.']),
                ('Apariencia', [f'Los colores de la principal siguen {M("KYN-MRK-COL-015")}; los radios, {c("--r-control")} o {c("--r-pill")}.'])]),
         detalle([
             ('Orden en un grupo', [
                 ('Escritorio', 'La principal, al final del grupo, a la derecha; las secundarias, a su izquierda.'),
                 ('Móvil', 'La principal ocupa el ancho y va primero, arriba de las secundarias.')])]),
-    ], verif=[('Grupo', 'Se revisa cada grupo de decisión de una pantalla.', 'hay una sola acción principal por grupo.'), ('Comparación', 'Se ven Guardar, Cancelar y Eliminar en escala de grises.', 'las tres se distinguen a simple vista.')], ver='breve',
+    ], rel=['KYN-SDI-ARQ-006'], verif=[('Grupo', 'Se revisa cada grupo de decisión de una pantalla.', 'hay una sola acción principal por grupo.'), ('Comparación', 'Se ven Guardar, Cancelar y Eliminar en escala de grises.', 'las tres se distinguen a simple vista.')], ver='breve',
        origen=['Jerarquía (base)', 'Variantes y jerarquía (matriz)'], responsabilidad='Las acciones principales, secundarias y destructivas se distinguen con consistencia.',
        corto='Jerarquía'),
 

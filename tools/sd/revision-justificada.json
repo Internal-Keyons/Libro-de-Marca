@@ -50,5 +50,13 @@
  "composición:documentacion-y-consulta.html": {
   "motivo": "Cada norma tiene una sola condición breve; se lee mejor junto a la norma.",
   "fecha": "2026-11-17"
+ },
+ "enlaces:KYN-SDI-PEX-004": {
+  "motivo": "La columna «Cómo · Dónde se desarrolla» existe para llevar a la norma que implementa cada estado; cada enlace es la especificación necesaria.",
+  "fecha": "2026-11-18"
+ },
+ "enlaces:KYN-SDI-FUI-004": {
+  "motivo": "La tabla asigna cada función de color a su norma del Libro de Marca, que el Sistema de Diseño cita en lugar de copiar.",
+  "fecha": "2026-11-18"
  }
 }

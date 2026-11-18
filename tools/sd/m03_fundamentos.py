@@ -41,7 +41,7 @@ CAP07 = [
                         f'Confirmaciones, avisos, errores, información y revisión ({R("KYN-SDI-FUI-005", "Estados semánticos")}).'])]),
         detalle([('Temas', [
             ('Cómo funciona', 'Un tema redefine los tokens semánticos; los de base y los componentes se mantienen.'),
-            ('Estado', f'El tema claro es el actual. El tema oscuro y los temas de cliente ({L("38")}) están pendientes.')])]),
+            ('Estado', 'El tema claro es el actual. El tema oscuro y los temas de cliente para marca blanca están pendientes.')])]),
     ], origen=['Roles semánticos (base)', 'Temas claro y oscuro (pendiente de la matriz)'],
        responsabilidad='Los tokens se nombran por su función y permiten cambiar de tema.', corto='Roles semánticos',
        verif=[('Revisión de nombres', 'Se revisan los tokens que usa cada componente.', 'ninguno usa un token con nombre de color para expresar una función.')]),
@@ -205,11 +205,11 @@ CAP10 = [
         'Se aplica cuando cambia el ancho o la densidad de una pantalla: <strong>cambia la disposición y la tarea sigue completa</strong>.', [
         req(N('Las retículas deben reorganizarse sin producir solapamientos, pérdida de controles ni recortes que impidan completar tareas.', 'debe')),
         stack([('Retícula', [f'Columnas, márgenes y medianiles siguen {M("KYN-MRK-ESP-004")}.']),
-               ('Densidad', [f'Modo cómodo y modo denso, con valor predeterminado según el perfil ({R("KYN-SDI-PEX-009", "Densidad y ayudas")}), según {M("KYN-MRK-ESP-005")}.']),
+               ('Densidad', [f'Modo cómodo y modo denso, con valor predeterminado según el perfil según la frecuencia de uso, como define {M("KYN-MRK-ESP-005")}.']),
                ('Esquinas', [f'Radios de la escala: {c("--r-control")} en controles, {c("--r-component")} en componentes y {c("--r-card")} en tarjetas ({M("KYN-MRK-ESP-002")}).'])]),
     ], origen=['Composición adaptable (base)', 'Densidad y esquinas (descripción del capítulo)', 'UIX-029'],
        responsabilidad='La retícula se adapta sin solapamientos ni pérdidas, con densidad y esquinas oficiales.', corto='Adaptación',
-       verif=[('Cuatro casos', 'Se prueban contenido largo, estados de error, anchos de 320 a 1440 px y los dos modos de densidad.', 'sin solapamientos ni controles perdidos.')], ver='grupo'),
+       rel=['KYN-SDI-PEX-009'], verif=[('Cuatro casos', 'Se prueban contenido largo, estados de error, anchos de 320 a 1440 px y los dos modos de densidad.', 'sin solapamientos ni controles perdidos.')], ver='grupo'),
 
     seccion('ejemplo', '10', 'Ejemplo de aplicación', 'Un formulario agrupado',
             'En un formulario, <strong>cada etiqueta permanece asociada visualmente a su campo</strong> y los grupos de información son reconocibles.', [

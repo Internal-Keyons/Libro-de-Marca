@@ -13,9 +13,9 @@ CAP37 = [
     n37('KYN-SDI-SPR-001', 'Experiencia predeterminada', 1, 'Componentes canónicos en Product Default',
         'Se aplica a los productos que parten de Keyons Product Default: <strong>empiezan con los componentes canónicos</strong>, no desde cero.', [
         req(N('Los productos que utilizan Keyons Product Default deben aplicar los componentes funcionales canónicos y el tema visual predeterminado aprobado.', 'debe')),
-        stack([('Qué incluye', [f'Los tokens ({L("07")}), los componentes de {L("12")} y {L("13")}, los patrones de {L("16")} a {L("18")} y la navegación de {R("KYN-SDI-SPR-004", "Navegación predeterminada")}.']),
+        stack([('Qué incluye', [f'Los tokens del capítulo 07, los componentes de 12 Acciones y 13 Entradas, los patrones de 16 Formularios a 18 Recuperación y la navegación de {R("KYN-SDI-SPR-004", "Navegación predeterminada")}.']),
                ('Estado del tema', ['El tema visual predeterminado está pendiente de aprobación; mientras tanto se usan los tokens actuales.'])]),
-    ], verif=[('Inventario', 'Se revisan los componentes de cada pantalla del producto.', 'son canónicos, o tienen su justificación registrada.')], ver='breve',
+    ], rel=['KYN-SDI-FUI-001', 'KYN-SDI-CPE-001', 'KYN-SDI-CPE-005', 'KYN-SDI-PAT-001', 'KYN-SDI-PAT-008'], verif=[('Inventario', 'Se revisan los componentes de cada pantalla del producto.', 'son canónicos, o tienen su justificación registrada.')], ver='breve',
        origen=['Experiencia predeterminada (base)'], responsabilidad='Los productos Default aplican los componentes canónicos y el tema aprobado.', corto='Predeterminada'),
 
     n37('KYN-SDI-SPR-002', 'Sobriedad operativa', 2, 'Superficies contenidas para el uso frecuente',
@@ -25,7 +25,7 @@ CAP37 = [
             ('Operación diaria', ['Blanco, grises y Azul Noche; color solo con función.', 'Ninguno, salvo el que tenga función.']),
             ('Bienvenida y estados vacíos', ['Contenida, con un acento.', f'Puntuales, según los momentos vivos de {M("KYN-MRK-UI-002")}.']),
             ('Recorridos de presentación', ['Más libre.', 'Fotografía o ilustración que acompaña.'])]),
-    ], verif=[('Sin decoración', 'Se quitan los recursos decorativos de una pantalla operativa.', 'la tarea se entiende y se completa igual.')], ver='breve',
+    ], verif=[('Sin decoración', 'Se quitan los recursos decorativos de una pantalla operativa.', 'la persona completa la tarea en el mismo tiempo y sin preguntas nuevas.')], ver='breve',
        origen=['Sobriedad operativa (base)', 'Estética neutral premium (descripción del capítulo)'],
        responsabilidad='Las interfaces frecuentes priorizan superficies contenidas, claridad y jerarquía.', corto='Sobriedad',
        cita='Libro de Marca, capítulo 18 Digital (UI-001 y UI-002), en borrador'),

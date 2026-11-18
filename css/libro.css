@@ -6205,3 +6205,8 @@ body .portal.portal--salmon.portal--atardecer:not(.portal--plano){background:lin
 
 /* Guía 05 · Composición normativa: dentro de una celda de tabla, un enlace de varias palabras se parte en renglones (sin desborde en móvil) */
 .matrix .xref{white-space:normal}
+/* Guía 05 · Proximidad: las filas y su detalle plegable, los detalles seguidos y el detalle con su nota de verificación
+   comparten una sola línea, sin el margen de un bloque nuevo */
+.ed__stack:has(+ .dets),.dets:has(+ .dets){border-bottom:0}
+.ed__stack + .dets,.dets + .dets{margin-top:0}
+.dets + .ed__more{margin-top:0;border-top:0}

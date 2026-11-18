@@ -23,50 +23,48 @@ CAP05 = [
         dims([('Ubicación', [N('La navegación debe permitir reconocer en qué sección se encuentra la persona y cómo acceder a las demás áreas autorizadas.', 'debe'),
                              'El título de la página nombra la sección y la navegación muestra los demás destinos autorizados. Desde el tercer nivel, una ruta jerárquica muestra el camino.']),
               ('Sección activa', [N('La sección activa debe distinguirse visualmente y mantener una relación comprensible con sus secciones superiores cuando existan.', 'debe'),
-                                  f'Se marca con una señal de forma, como una barra, un fondo o un subrayado, y otra de color o de peso. Su grupo superior queda abierto o señalado. La apariencia la definen {L("08")} y {L("14")}.']),
+                                  'Se marca con una señal de forma, como una barra, un fondo o un subrayado, y otra de color o de peso. Su grupo superior queda abierto o señalado.']),
               ('Al navegar', ['El indicador, el título y la ruta cambian juntos, y el foco se ubica según el tipo de cambio.'])]),
+        sub('Según el tipo de navegación'),
+        stack([('Lateral o superior', ['El destino de la página abierta lleva el indicador. En la lateral, su grupo queda abierto; en la superior, señalado en la barra.']),
+               ('Pestañas', [f'Las que llevan a otra página son enlaces y la activa lleva {c('aria-current="page"')}. Las que cambian un panel en la misma página siguen el patrón de pestañas de {R("KYN-SDI-ARQ-008")}.']),
+               ('Ruta jerárquica', [f'Un {c("<nav>")} con nombre accesible («Ruta») y una lista ordenada, del nivel más general al actual. El último nivel nombra la página y lleva {c("aria-current")}.']),
+               ('Móvil', ['El título de la pantalla nombra la sección y la ruta se abrevia al nivel superior inmediato. Al abrir el menú, el destino activo se ve marcado.']),
+               ('Sin navegación general', ['Los flujos de un paso, los diálogos y el inicio de sesión conservan su título visible y una salida.'])]),
         detalle([
-            ('Según el tipo de navegación', [
-                ('Lateral o superior', 'El destino de la página abierta lleva el indicador. En la lateral, su grupo queda abierto; en la superior, señalado en la barra.'),
-                ('Pestañas', f'Las que llevan a otra página son enlaces y la activa lleva {c('aria-current="page"')}. Las que cambian un panel en la misma página siguen el patrón de pestañas de {R("KYN-SDI-ARQ-008")}.'),
-                ('Ruta jerárquica', f'Un {c("<nav>")} con nombre accesible («Ruta») y una lista ordenada, del nivel más general al actual. El último nivel nombra la página y lleva {c("aria-current")}.'),
-                ('Móvil', 'El título de la pantalla nombra la sección y la ruta se abrevia al nivel superior inmediato. Al abrir el menú, el destino activo se ve marcado.')]),
             ('Foco según el tipo de cambio', [
                 ('Página nueva completa', 'El foco queda donde lo deja el navegador, al inicio del documento. El enlace «Ir al contenido» es lo primero que alcanza el teclado, sin recibir el foco automáticamente.'),
                 ('Vista nueva sin recargar', 'El foco pasa al título principal de la vista. Si la tarea necesita que el foco se quede donde estaba, una región en vivo anuncia el cambio.'),
                 ('Filtro, orden o pestaña de panel', 'El foco queda en el control que se usó. Si el resultado cambia fuera de la vista, se anuncia.'),
-                ('Panel o diálogo', f'El foco entra al abrir y vuelve al control que lo abrió al cerrar, según {R("KYN-SDI-ARQ-009")}.')]),
-            ('Pantallas sin navegación general', [
-                ('Cuáles', 'Los flujos de un paso, los diálogos y el inicio de sesión.'),
-                ('Qué conservan', 'Su título visible y una salida.')])]),
+                ('Panel o diálogo', 'El foco entra al abrir y vuelve al control que lo abrió al cerrar.')])]),
     ], origen=['Ubicación actual (base)', 'Ubicación actual (ampliación)', 'Verificación base del capítulo 05'],
        responsabilidad='La persona reconoce la sección activa, su grupo superior y cómo llegar a las demás áreas.',
+       rel=['KYN-SDI-ARQ-009', 'KYN-SDI-FUI-004', 'KYN-SDI-CPE-010'],
        verif=[('Con personas', 'Se abre con un enlace directo una pantalla de segundo o tercer nivel. Se pide nombrar la sección y el grupo, y llegar a otra sección principal. '
                'Se registra el tiempo; cinco segundos es la hipótesis inicial de prueba, no un requisito.', 'la persona lo logra sin ayuda.'),
               ('Escala de grises', 'Se ve la pantalla en escala de grises.', 'la sección activa sigue distinguiéndose.'),
               ('Lector de pantalla', 'Se recorre la navegación con NVDA o VoiceOver.', 'el enlace activo se anuncia como «página actual».'),
               ('Cambio de destino', 'Se prueba cada tipo de cambio de destino.', 'el indicador, el título, la ruta y el foco se comportan como indica «Foco según el tipo de cambio».')], ver='tecnica'),
-
     n5('KYN-SDI-ARQ-006', 'Acciones previsibles', 2, 'Nombres, destinos y comportamientos estables',
-       'Se aplica a todo elemento navegable: <strong>cada destino conserva su nombre, su lugar y su comportamiento</strong> en todo el producto.', [
-        dims([('Nombre y comportamiento', [N('Los elementos navegables deben mantener nombres, destinos y comportamientos consistentes en todo el producto.', 'debe'),
-                                           f'Un destino se nombra de forma coherente en el menú, la ruta y el título; se abrevia o se precisa sin cambiar de significado, según {R("KYN-SDI-ARQ-002")}. '
-                                           'Un enlace lleva a otro lugar y un botón ejecuta una acción, en todas las pantallas.']),
+       'Se aplica a todo elemento navegable y a las funciones que se repiten entre pantallas: <strong>la persona anticipa qué ocurrirá</strong>, aunque el mecanismo cambie según los datos.', [
+        dims([('Significado y comportamiento', [N('Los elementos navegables deben mantener nombres, destinos y comportamientos consistentes en todo el producto.', 'debe'),
+                                               'El significado se conserva siempre. Un destino se nombra igual en el menú, la ruta y el título, y se abrevia o se precisa sin cambiar de sentido. '
+                                               'El tipo de control también se conserva: un enlace lleva a otro lugar y un botón ejecuta una acción.',
+                                               'La interacción puede variar según los datos, la tarea y su complejidad, siempre que el resultado sea el que la persona espera.']),
               ('Ubicación', [N('Las funciones principales deberían conservar una ubicación y denominación consistentes entre las pantallas equivalentes.', 'deberia'),
-                             'En todos los listados de un módulo, «Exportar» ocupa la misma posición.'])]),
+                             'En los listados de un módulo, «Exportar» ocupa la misma posición y conserva su nombre.'])]),
         sub('Ejemplos'),
         contraste([('Menú «Solicitudes» y título «Gestión de trámites»', 'Menú «Solicitudes» y título «Solicitudes pendientes»: el título precisa sin cambiar el sentido.'),
-                   ('«Exportar» descarga en un listado y abre un diálogo en otro', '«Exportar» abre el mismo diálogo en todos los listados.'),
+                   ('«Exportar» descarga un archivo en un listado y en otro envía los datos a imprimir', '«Exportar» siempre entrega un archivo. En un listado breve lo descarga al instante; en uno extenso, un diálogo permite elegir columnas y formato.'),
                    ('Un texto subrayado que guarda cambios', 'Guardar es un botón; el texto subrayado lleva a otro lugar.')]),
         detalle([('Otra pestaña o salida del producto', [
             ('Comportamiento', 'Los enlaces abren en la misma pestaña.'),
             ('Excepción', 'El enlace que abre otra pestaña o sale del producto lo anuncia con el ícono «abrir externo» y un texto accesible.')])]),
     ], origen=['Acciones previsibles (base)', 'Acceso consistente (ampliación)'],
-       responsabilidad='Cada destino conserva un nombre coherente, su lugar y su comportamiento en todo el producto.',
-       cita='Aplica PEX-005 a la navegación; los nombres siguen ARQ-002',
+       responsabilidad='Cada destino conserva su significado, su lugar y el tipo de control en todo el producto; el mecanismo puede variar según la tarea.',
+       cita='Aplica PEX-005 a la navegación; los nombres siguen ARQ-002', rel=['KYN-SDI-ARQ-002', 'KYN-SDI-PEX-005'],
        verif=[('Inventario', 'Se listan los destinos con su nombre en el menú, la ruta y el título.', 'cada variante conserva el significado del destino.'),
-              ('Recorrido', 'Se completa la misma tarea desde dos áreas autorizadas.', 'se llega al mismo destino, con el mismo comportamiento.')]),
-
+              ('Recorrido', 'Se completa la misma tarea desde dos áreas autorizadas.', 'se llega al mismo destino y el resultado es el esperado.')]),
     n5('KYN-SDI-ARQ-007', 'Navegación visible', 3, 'Señales visibles para cada función',
        'Se aplica a menús, acciones y destinos: <strong>toda función necesaria tiene una señal a la vista</strong> para puntero, teclado y tacto.', [
         req(N('Las funciones necesarias no deben depender exclusivamente de interacciones ocultas o de pasar el cursor sobre una zona sin señal.', 'no-debe')),

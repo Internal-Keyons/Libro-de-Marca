@@ -55,7 +55,7 @@ CAP14 = [
         req(N('Paneles, pestañas, acordeones y diálogos deben utilizarse cuando su estructura facilite la comprensión o interacción.', 'debe')),
         matriz('Qué contenedor usar', [('Cuándo', ''), ('Comportamiento', '')], [
             ('Pestañas', ['Vistas paralelas del mismo objeto, una a la vez.', f'Flechas entre pestañas; el panel cambia al activarlas ({R("KYN-SDI-ARQ-008", "Identificación de controles")}).']),
-            ('Acordeón', ['Secciones largas que se consultan por partes.', 'details y summary; varios abiertos; ninguno se abre solo.']),
+            ('Acordeón', ['Secciones largas que se consultan por partes.', f'Elementos {c("details")} y {c("summary")}; varios abiertos; ninguno se abre solo.']),
             ('Panel lateral', ['Detalle de un elemento sin perder la lista.', 'Se cierra con Escape y devuelve el foco.']),
             ('Diálogo', [f'Una decisión que interrumpe la tarea ({R("KYN-SDI-CPE-010", "Diálogos")}).', 'Modal, con foco dentro.'])]),
     ], verif=[('Por contenedor', 'Se abre, se cierra y se recorre cada contenedor con teclado.', 'el foco vuelve al control que lo abrió.')], ver='tecnica',
@@ -66,7 +66,7 @@ CAP14 = [
         req(N('El contenido no debe fragmentarse en contenedores adicionales sin una razón funcional o informativa.', 'no-debe')),
         stack([('Regla', ['Una tarjeta solo cuando agrupa algo que se mueve, se selecciona o se lee como unidad.']),
                ('Anidamiento', ['Sin contenedores dentro de contenedores, salvo una tabla dentro de un panel.'])]),
-    ], verif=[('Quitar un contenedor', 'Se quita un contenedor y se lee su contenido.', 'si la información se entiende igual, el contenedor se elimina.')], ver='breve',
+    ], verif=[('Quitar un contenedor', 'Se quita un contenedor y una persona completa la tarea con su contenido.', 'la persona agrupa y encuentra la información igual que antes; en ese caso, el contenedor se elimina.')], ver='breve',
        origen=['Jerarquía estable (base)'], responsabilidad='El contenido no se fragmenta en contenedores sin razón.', corto='Jerarquía'),
 
     n14('KYN-SDI-CPE-010', 'Diálogos', 3, 'Propósito, acciones y salida de los diálogos',
@@ -110,7 +110,7 @@ CAP15 = [
         'Se aplica a todo mensaje de respuesta: <strong>dice lo que realmente pasó</strong>, con su objeto y su resultado.', [
         req(N('La retroalimentación debe explicar lo ocurrido sin utilizar mensajes genéricos que impidan comprender el estado real.', 'debe')),
         stack([('Concreto', ['«Cliente Ana Mora registrado» en lugar de «Éxito».']),
-               ('Redacción', [f'Según {L("24")}.'])]),
+               ('Redacción', [f'Trato de usted, voz activa y palabras del perfil, según {L("24")}.'])]),
     ], verif=[('Mensajes', 'Se revisan los mensajes de respuesta del producto.', 'cada uno nombra el objeto y el resultado.')], ver='grupo',
        origen=['Mensajes pertinentes (base)'], responsabilidad='La retroalimentación explica el estado real, sin mensajes genéricos.', corto='Mensajes',
        cita='24 Mensajes define la redacción'),
@@ -140,10 +140,10 @@ CAP19 = [
     n19('KYN-SDI-PAT-011', 'Autorización', 1, 'Autorización y confirmación de operaciones críticas',
         'Se aplica a las operaciones de alto riesgo: <strong>se comprueba quién puede hacerlas</strong> y se pide la confirmación que corresponde.', [
         req(N('El sistema debe comprobar los permisos y las confirmaciones correspondientes al riesgo de la acción.', 'debe')),
-        stack([('Consecuencias', [f'Antes de ejecutar, la interfaz muestra qué va a cambiar, según Contexto antes de actuar ({L("01")}).']),
-               ('Confirmación', [f'Su nivel sigue Acciones destructivas ({R("KYN-SDI-CPE-003", "Acciones destructivas")}): deshacer, confirmar o confirmar con refuerzo.']),
+        stack([('Consecuencias', ['Antes de ejecutar, la interfaz muestra qué va a cambiar y en cuántos elementos.']),
+               ('Confirmación', [f'Su nivel lo define {R("KYN-SDI-CPE-003")}: deshacer, confirmar o confirmar con refuerzo.']),
                ('Intervención humana', [f'Las acciones automatizadas de riesgo piden aprobación según {L("32")}.'])]),
-    ], verif=[('Cuatro casos', 'Se prueban la ejecución autorizada, el permiso insuficiente, la cancelación y el fallo.', 'cada caso termina como describe la norma, sin ejecutar nada sin autorización.')], ver='tecnica',
+    ], rel=['KYN-SDI-PEX-006'], verif=[('Cuatro casos', 'Se prueban la ejecución autorizada, el permiso insuficiente, la cancelación y el fallo.', 'cada caso termina como describe la norma, sin ejecutar nada sin autorización.')], ver='tecnica',
        origen=['Autorización (base)', 'Consecuencias claras (base; integrada en PEX-006)', 'UIX-014'],
        responsabilidad='Las operaciones críticas comprueban permisos y piden la confirmación que corresponde al riesgo.', corto='Autorización'),
 

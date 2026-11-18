@@ -130,6 +130,33 @@ for pg, ps in pres.items():
     if len(ps) >= 3 and len(set(ps)) == 1:
         aviso('composición', pg.split('/')[-1], f'las {len(ps)} normas usan la misma verificación «{ps[0]}»: ¿es consistencia justificada?')
 
+# Guía 05 · Celdas y resultados: una oración independiente en una celda empieza con mayúscula (salvo código o cifras)
+for pg, (t, secs) in paginas.items():
+    for celda in re.findall(r'<span class="matrix__v" role="cell">(.*?)</span>(?=<span class="matrix__v"|</div>)', t, re.S):
+        p = plano(celda)
+        if p[:1].islower() and p.endswith('.') and not celda.lstrip().startswith('<code'):
+            err.append(f'ERROR   celda        {pg.split("/")[-1]}: oración en minúscula «{p[:60]}…»')
+    # Guía 05 · Referencias: el rótulo de una prueba del capítulo nombra la norma sin enlace
+    val = secs.get('validacion', '')
+    if re.search(r'<span class="matrix__k" role="rowheader"><a ', val):
+        err.append(f'ERROR   validación   {pg.split("/")[-1]}: el rótulo de una prueba lleva enlace')
+
+ids = {n['id'] for n in REG['normas']}
+for n in normas:
+    # Relaciones del registro con destino
+    for r in n.get('relaciones', []):
+        if r not in ids:
+            err.append(f'ERROR   relación     {n["id"]}: la relación {r} no tiene destino')
+    # Resultados que describen un juicio en lugar de un hecho observable (revisión humana)
+    for v in n.get('verificacion', []):
+        if re.search(r'\b(correctamente|adecuad\w*|apropiad\w*|claramente|bien|se entiende|es claro|es fácil)\b', v['resultado'], re.I):
+            aviso('resultado', f'{n["id"]}:{v["rotulo"]}', f'¿describe un hecho observable? «{v["resultado"]}»')
+    # Densidad de enlaces visibles (revisión humana, sin máximo fijo)
+    pg, an = n['ruta'].split('#')
+    k = paginas[pg][1].get(an, '').count('class="xref"')
+    if k >= 4:
+        aviso('enlaces', n['id'], f'{k} enlaces visibles: ¿cada uno conduce a una especificación necesaria?')
+
 # Códigos conservados respecto del último commit
 try:
     prev = json.loads(subprocess.run(['git', 'show', 'HEAD:data/sd-normas.json'], cwd=ROOT, capture_output=True, encoding='utf-8').stdout)
