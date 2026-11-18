@@ -20,7 +20,7 @@ CAP23 = [
         contraste([('Aceptar', 'Agregar cliente'), ('Ok', 'Enviar comprobante'), ('Enviar', 'Enviar solicitud de mantenimiento')]),
         stack([('Botones', ['Verbo y objeto.']),
                ('Etiquetas', ['El nombre del dato en el lenguaje de la persona: «Nombre completo», no «Name».']),
-               ('Voz', [f'Trato de usted y voz del sistema según el capítulo Voz del Libro de Marca ({M("KYN-MRK-VOZ-001")}).'])]),
+               ('Voz', [f'Trato de usted y la {M("KYN-MRK-VOZ-001", "voz de Keyons")} del Libro de Marca.'])]),
     ], verif=[('Sin explicación', 'Se pregunta a la persona qué hará cada botón antes de usarlo.', 'lo dice sin ayuda externa.')], ver='breve',
        origen=['Lenguaje funcional (base)', 'UIX-041', 'UIX-040'], responsabilidad='Instrucciones y etiquetas dicen qué hacer y qué resultado esperar.', corto='Lenguaje funcional'),
 
@@ -28,16 +28,16 @@ CAP23 = [
         'Se aplica a todo el producto: <strong>el mismo concepto se llama siempre igual</strong>.', [
         req(N('Una misma acción o concepto debe utilizar una denominación consistente dentro del contexto del producto.', 'debe')),
         stack([('Glosario', ['Cada producto mantiene su lista de términos: acción, objeto y estados.']),
-               ('Navegación', [f'Para nombres de secciones rige Nombres comprensibles ({L("04")}).'])]),
-    ], verif=[('Glosario', 'Se revisan todas las pantallas contra el glosario del producto.', 'un término por concepto.')], ver='breve',
+               ('Navegación', [f'Para nombres de secciones rige Nombres comprensibles.'])]),
+    ], rel=['SD-04'], verif=[('Glosario', 'Se revisan todas las pantallas contra el glosario del producto.', 'un término por concepto.')], ver='breve',
        origen=['Consistencia (base)'], responsabilidad='Cada acción o concepto usa una sola denominación.', corto='Consistencia'),
 
     n23('KYN-SDI-CNT-003', 'Brevedad útil', 3, 'Extensión de los textos de interfaz',
         'Se aplica a todo texto de interfaz: <strong>tan breve como permita la comprensión</strong>.', [
         req(N('El contenido debería ser tan breve como permita la comprensión, sin eliminar información necesaria.', 'deberia')),
         stack([('Límites de la marca', ['Hasta 25 palabras por oración y frases con una sola idea (reglas de voz).']),
-               ('Ayudas', [f'Una ayuda breve visible; el detalle, a pedido ({R("KYN-SDI-ARQ-004", "Información progresiva")}).'])]),
-    ], verif=[('Interpretación', 'Se pide interpretar etiquetas y acciones sin explicación adicional.', 'cada persona describe la función de cada etiqueta y acción tal como la define el producto.')], ver='breve',
+               ('Ayudas', [f'Una ayuda breve visible; el detalle, a pedido.'])]),
+    ], rel=['KYN-SDI-ARQ-004'], verif=[('Interpretación', 'Se pide interpretar etiquetas y acciones sin explicación adicional.', 'cada persona describe la función de cada etiqueta y acción tal como la define el producto.')], ver='breve',
        origen=['Brevedad útil (base)'], responsabilidad='Los textos son tan breves como permite la comprensión.', corto='Brevedad'),
 ]
 
@@ -65,8 +65,8 @@ CAP24 = [
         'Se aplica a todo mensaje del sistema: <strong>explica sin exponer</strong>.', [
         req(N('Los mensajes no deben exponer información técnica sensible ni datos que la persona no está autorizada a consultar.', 'no-debe')),
         stack([('Técnico', ['Rutas, consultas y trazas de error se registran internamente, no en pantalla.']),
-               ('Permisos', [f'Ver Acceso directo y rutas no disponibles ({L("05")}) y Resultados autorizados ({L("06")}).'])]),
-    ], verif=[('Fallos forzados', 'Se fuerzan errores de servidor y de permisos.', 'ningún mensaje muestra datos internos ni restringidos.')], ver='tecnica',
+               ('Permisos', [f'Ver Acceso directo y rutas no disponibles y Resultados autorizados.'])]),
+    ], rel=['SD-05', 'SD-06'], verif=[('Fallos forzados', 'Se fuerzan errores de servidor y de permisos.', 'ningún mensaje muestra datos internos ni restringidos.')], ver='tecnica',
        origen=['Información segura (base)'], responsabilidad='Los mensajes no exponen información técnica sensible ni datos restringidos.', corto='Seguridad'),
 ]
 
@@ -86,8 +86,8 @@ CAP25 = [
     n25('KYN-SDI-CNT-008', 'Consistencia lingüística', 2, 'Traducciones que conservan la función',
         'Se aplica a acciones, estados e instrucciones traducidos: <strong>cada idioma dice lo mismo</strong>.', [
         req(N('Las traducciones deben conservar el significado funcional de acciones, estados e instrucciones.', 'debe')),
-        stack([('Glosario por idioma', [f'El glosario de cada producto ({R("KYN-SDI-CNT-002", "Consistencia")}) tiene su versión en cada idioma.'])]),
-    ], verif=[('Revisión cruzada', 'Una persona nativa revisa acciones, estados y mensajes contra el original.', 'cada texto conserva su función.')], ver='grupo',
+        stack([('Glosario por idioma', [f'El glosario de cada producto tiene su versión en cada idioma.'])]),
+    ], rel=['KYN-SDI-CNT-002'], verif=[('Revisión cruzada', 'Una persona nativa revisa acciones, estados y mensajes contra el original.', 'cada texto conserva su función.')], ver='grupo',
        origen=['Consistencia lingüística (base)'], responsabilidad='Las traducciones conservan el significado funcional.', corto='Traducción'),
 
     n25('KYN-SDI-CNT-009', 'Espacio variable', 3, 'Componentes que admiten textos más largos',
@@ -109,7 +109,7 @@ CAP27 = [
                ('Comparación entre categorías', ['Barras.']),
                ('Partes de un todo', ['Barras apiladas al 100 % o pocas porciones.']),
                ('Distribución', ['Histograma o puntos.']),
-               ('Dibujo de cada tipo', [f'Lo define el Libro de Marca en {M("KYN-MRK-DAT-004")}.'])]),
+               ('Dibujo', [f'Cada tipo se dibuja como indican los {M("KYN-MRK-DAT-004", "gráficos del Libro de Marca")}.'])]),
     ], verif=[('Pregunta', 'Se escribe, para cada gráfico, la pregunta que responde.', 'el tipo de gráfico corresponde a esa pregunta según la tabla.')], ver='breve',
        origen=['Representación apropiada (base)'], responsabilidad='El tipo de gráfico corresponde a la relación que comunica.', corto='Representación'),
 
@@ -147,8 +147,8 @@ CAP28 = [
         'Se aplica a los colores y estados de evaluación de un indicador: <strong>cada umbral tiene una regla detrás</strong>.', [
         req(N('Los umbrales y colores de evaluación deben responder a criterios definidos, no a límites arbitrarios introducidos por diseño.', 'debe')),
         stack([('Origen del umbral', ['Lo define el área responsable del dato; diseño lo representa.']),
-               ('Señal', [f'Estado con color, ícono y texto ({R("KYN-SDI-FUI-005", "Estados semánticos")}).'])]),
-    ], verif=[('Registro', 'Se revisan los umbrales de los indicadores.', 'cada uno tiene su criterio y su responsable registrados.')], ver='breve',
+               ('Señal', [f'Estado con color, ícono y texto.'])]),
+    ], rel=['KYN-SDI-FUI-005'], verif=[('Registro', 'Se revisan los umbrales de los indicadores.', 'cada uno tiene su criterio y su responsable registrados.')], ver='breve',
        origen=['Estados fundamentados (base)'], responsabilidad='Umbrales y colores de evaluación responden a criterios definidos.', corto='Umbrales'),
 
     n28('KYN-SDI-DAV-012', 'Actualización visible', 3, 'Fecha de actualización de los datos',

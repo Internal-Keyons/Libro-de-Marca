@@ -21,11 +21,11 @@ CAP16 = [
                ('Completar por grupos', f'Los campos relacionados van juntos, con un título de grupo ({c("<fieldset>")} y {c("<legend>")}).', 'Decisión', 'Una columna; el orden del grupo sigue el del proceso.'),
                ('Revisar', 'En los formularios de varios pasos, un resumen antes de enviar.', 'Decisión', 'Cada dato del resumen se puede editar.'),
                ('Enviar', 'El botón principal nombra la acción: «Enviar solicitud».', 'Decisión', f'Muestra la carga y evita el doble envío ({R("KYN-SDI-CPE-002", "Estados de los controles")}).'),
-               ('Confirmar', 'El resultado y el siguiente paso.', 'Decisión', f'Lo define {R("KYN-SDI-PAT-006")}.')]),
+               ('Confirmar', 'El resultado y el siguiente paso.', 'Decisión', 'Muestra el resultado con su identificador, como «Solicitud 2026-118 creada», y el siguiente paso.')]),
         detalle([
             ('Varios pasos', [
-                ('Cuándo', f'Cuando el formulario reúne decisiones distintas o es largo. El progreso sigue {L("17")}.')])]),
-    ], verif=[('Recorrido', 'Personas del perfil completan el formulario sin ayuda.', 'siguen el orden propuesto sin volver atrás para buscar un campo.')], ver='grupo',
+                ('Cuándo', f'Cuando el formulario reúne decisiones distintas o es largo.')])]),
+    ], rel=['KYN-SDI-PAT-006', 'SD-17'], verif=[('Recorrido', 'Personas del perfil completan el formulario sin ayuda.', 'siguen el orden propuesto sin volver atrás para buscar un campo.')], ver='grupo',
        origen=['Flujo comprensible (base)', 'Agrupación comprensible y formularios multipaso (matriz)'],
        responsabilidad='Los formularios agrupan campos y siguen la secuencia del proceso real.', corto='Flujo'),
 
@@ -66,11 +66,11 @@ CAP17 = [
         req(N('Los procesos de varios pasos deben comunicar su avance y las acciones necesarias para continuar.', 'debe')),
         stack([('Indicador', ['Paso actual, total y nombre de cada paso: «Paso 2 de 4 · Datos del residente».']),
                ('Avanzar', ['Cada paso se valida al continuar; el botón dice adónde lleva: «Continuar a pagos».']),
-               ('Retroceder', [f'Atrás vuelve al paso anterior con sus datos ({R("KYN-SDI-PAT-005", "Contexto conservado")}).'])]),
+               ('Retroceder', [f'Atrás vuelve al paso anterior con sus datos.'])]),
         detalle([
             ('Notas técnicas', [
                 ('Anuncio', f'El indicador marca el paso actual con {c("aria-current=" + chr(34) + "step" + chr(34))}.')])]),
-    ], verif=[('Recorrido', 'Se pregunta a la persona, en cada paso, cuántos faltan y qué necesita para continuar.', 'responde sin buscar la información fuera de la pantalla.')], ver='grupo',
+    ], rel=['KYN-SDI-PAT-005'], verif=[('Recorrido', 'Se pregunta a la persona, en cada paso, cuántos faltan y qué necesita para continuar.', 'responde sin buscar la información fuera de la pantalla.')], ver='grupo',
        origen=['Secuencia y progreso (base)', 'UIX-031'], responsabilidad='Los procesos de varios pasos comunican avance y lo necesario para continuar.', corto='Progreso'),
 
     n17('KYN-SDI-PAT-005', 'Contexto conservado', 2, 'Decisiones conservadas al retroceder',
@@ -90,7 +90,7 @@ CAP17 = [
             ('Crear', ['Formulario con los datos mínimos.', 'Muestra el registro creado y confirma: «Solicitud 2026-118 creada».']),
             ('Editar', ['En el lugar o en un formulario; Cancelar devuelve al estado anterior.', 'Muestra el valor nuevo y «Cambios guardados».']),
             ('Guardar', ['Explícito o automático; el estado «Guardando» o «Guardado» se ve.', 'Confirma sin bloquear el trabajo.']),
-            ('Eliminar', ['Confirma y ofrece Deshacer cuando se puede.', f'El nivel de protección lo define {R("KYN-SDI-CPE-003")}.'])]),
+            ('Eliminar', [f'Confirma según su {R("KYN-SDI-CPE-003", "nivel de riesgo")} y ofrece Deshacer cuando se puede.', 'El registro sale de la lista y el mensaje lo confirma.'])]),
     ], verif=[('Cuatro acciones', 'Se crea, edita, guarda y elimina un registro.', 'cada acción termina con su resultado y un siguiente paso.')], ver='grupo',
        origen=['Terminación clara (base)', 'Crear, editar, guardar y eliminar (descripción del capítulo)'],
        responsabilidad='Cada proceso termina con su resultado y un siguiente paso; el ciclo de un registro es consistente.', corto='Terminación'),
@@ -109,9 +109,9 @@ CAP18 = [
         matriz('Errores y salidas', [('Qué se dice', ''), ('Salida', '')], [
             ('Red o servidor', ['Que la acción no se completó y si los datos se conservaron.', 'Reintentar.']),
             ('Servicio externo o IA', ['Que el servicio no respondió.', 'Una ruta manual en el mismo lugar (desde UIX-023).']),
-            ('Permiso', ['Que no tiene acceso, sin revelar datos.', f'Volver o solicitar acceso ({R("KYN-SDI-ARQ-017", "Enlaces directos y rutas no disponibles")}).']),
-            ('Datos inválidos', ['Qué dato y cómo corregirlo.', f'El campo, con su mensaje ({R("KYN-SDI-CPE-006", "Validación útil")}).'])]),
-    ], verif=[('Simulación', 'Se simulan errores de red, de servicio, de permiso y de datos.', 'cada uno muestra qué pasó y ofrece su salida.')], ver='grupo',
+            ('Permiso', ['Que no tiene acceso, sin revelar datos.', f'Volver o solicitar acceso.']),
+            ('Datos inválidos', ['Qué dato y cómo corregirlo.', f'El campo, con su mensaje.'])]),
+    ], rel=['KYN-SDI-ARQ-017', 'KYN-SDI-CPE-006'], verif=[('Simulación', 'Se simulan errores de red, de servicio, de permiso y de datos.', 'cada uno muestra qué pasó y ofrece su salida.')], ver='grupo',
        origen=['Ruta de salida (base)', 'UIX-023', 'UIX-024'], responsabilidad='Ante un error, la interfaz ofrece una alternativa viable o explica qué la impide.',
        corto='Ruta de salida', cita='24 Mensajes define la redacción del error'),
 
@@ -138,14 +138,14 @@ CAP18 = [
             N('Una espera debe indicar que el sistema está trabajando.', 'debe')),
         matriz('Estados vacíos y de espera', [('Qué muestra', ''), ('Acción', '')], [
             ('Vacío por primera vez', ['Para qué sirve el espacio: «Aún no hay solicitudes».', 'Crear la primera.']),
-            ('Vacío por filtros', [f'Que los filtros no tienen coincidencias ({R("KYN-SDI-ARQ-015", "Búsquedas sin resultados")}).', 'Quitar filtros.']),
+            ('Vacío por filtros', [f'Que los filtros no tienen coincidencias.', 'Quitar filtros.']),
             ('Espera breve', ['Un indicador en el lugar de la acción.', '—']),
-            ('Espera larga', [f'Qué está haciendo el sistema y, si se conoce, el avance ({R("KYN-SDI-CPE-011", "Resultado visible")}).', 'Cancelar, si se puede.'])]),
+            ('Espera larga', [f'Qué está haciendo el sistema y, si se conoce, el avance.', 'Cancelar, si se puede.'])]),
         detalle([
             ('Notas técnicas', [
                 ('Anuncio', f'Los cambios de estado se anuncian en una región {c("role=" + chr(34) + "status" + chr(34))}, sin mover el foco.'),
                 ('Umbral', 'El tiempo a partir del cual una espera es larga es una hipótesis que hay que validar (UIX-021 proponía 400 ms y 3 s).')])]),
-    ], verif=[('Cuatro casos', 'Se fuerzan una lista vacía por primera vez, una búsqueda vacía, una espera corta y una espera larga.', 'ninguno queda en blanco ni sin una acción posible.'), ('Lector de pantalla', 'Se provoca una espera con un lector de pantalla activo.', 'se anuncia que el sistema está trabajando y, después, el resultado.')], ver='tecnica',
+    ], rel=['KYN-SDI-ARQ-015', 'KYN-SDI-CPE-011'], verif=[('Cuatro casos', 'Se fuerzan una lista vacía por primera vez, una búsqueda vacía, una espera corta y una espera larga.', 'ninguno queda en blanco ni sin una acción posible.'), ('Lector de pantalla', 'Se provoca una espera con un lector de pantalla activo.', 'se anuncia que el sistema está trabajando y, después, el resultado.')], ver='tecnica',
        origen=['Estados vacíos y de espera (matriz y descripción del capítulo; requisito redactado por Claude)', 'UIX-021', 'UIX-026'],
        responsabilidad='Los estados vacíos explican y orientan; las esperas muestran que el sistema trabaja.', corto='Vacíos y esperas'),
 

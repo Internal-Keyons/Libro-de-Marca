@@ -703,19 +703,23 @@
             "k": "Referencias",
             "p": [
               [
-                "El texto principal DEBE explicar la decisión que regula sin obligar a abrir otra norma.",
+                "Cada norma DEBE ser autosuficiente en su responsabilidad: explica qué decisión regula, cómo se aplica y qué se necesita para implementarla.",
                 "debe"
               ],
               [
-                "Un enlace se incorpora cuando conduce a una especificación complementaria necesaria o claramente útil. Si solo repite el nombre de otra norma, sale de la composición principal.",
+                "Un enlace visible es una excepción justificada por la tarea. Se conserva cuando hace falta consultar un token, un componente, un procedimiento o una especificación canónica, y se integra en el contenido.",
                 null
               ],
               [
-                "Las dependencias normativas DEBEN conservarse en el registro y en la trazabilidad, aunque no todas aparezcan como enlaces en los párrafos.",
+                "Las normas NO DEBEN incluir apartados recurrentes de referencias ni frases que solo presentan un enlace, como «Ver también» o «Se desarrolla en».",
+                "no-debe"
+              ],
+              [
+                "Las dependencias complementarias y de trazabilidad DEBEN conservarse en el registro canónico, aunque no se muestren en la página.",
                 "debe"
               ],
               [
-                "Cuando una norma necesita varias referencias complementarias, pueden reunirse en una nota secundaria discreta, que nunca es un bloque obligatorio. Los enlaces conservan sus estados aprobados al pasar el cursor y con el foco.",
+                "Cuando una norma depende de muchas otras, se corrige la causa: falta de contenido propio, responsabilidad mal distribuida o información duplicada.",
                 null
               ]
             ]

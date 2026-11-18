@@ -215,7 +215,8 @@
    "presentacion_verificacion": "grupo",
    "relaciones": [
     "KYN-SDI-ACC-001",
-    "KYN-SDI-PEX-014"
+    "KYN-SDI-PEX-014",
+    "SD-20"
    ]
   },
   {
@@ -275,7 +276,9 @@
     }
    ],
    "presentacion_verificacion": "grupo",
-   "relaciones": []
+   "relaciones": [
+    "SD-10"
+   ]
   },
   {
    "id": "KYN-SDI-PEX-010",
@@ -302,7 +305,8 @@
    ],
    "presentacion_verificacion": "breve",
    "relaciones": [
-    "KYN-SDI-GOB-007"
+    "KYN-SDI-GOB-007",
+    "SD-34"
    ]
   },
   {
@@ -328,7 +332,8 @@
    ],
    "presentacion_verificacion": "breve",
    "relaciones": [
-    "KYN-SDI-PEX-012"
+    "KYN-SDI-PEX-012",
+    "SD-42"
    ]
   },
   {
@@ -427,7 +432,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "SD-34"
+   ]
   },
   {
    "id": "KYN-SDI-ARQ-001",
@@ -447,12 +454,13 @@
    "verificacion": [
     {
      "rotulo": "Prueba de árbol",
-     "condicion": "Personas de cada perfil buscan cinco elementos frecuentes en la estructura, sin la interfaz. El umbral de éxito se fija según KYN-SDI-GOB-001.",
+     "condicion": "Personas de cada perfil buscan cinco elementos frecuentes en la estructura, sin la interfaz. El umbral de éxito se fija antes de la prueba.",
      "resultado": "encuentran los elementos sin conocer cómo está organizada la base de datos."
     }
    ],
    "presentacion_verificacion": "grupo",
    "relaciones": [
+    "KYN-SDI-GOB-001",
     "KYN-SDI-PEX-007"
    ]
   },
@@ -506,12 +514,13 @@
     {
      "rotulo": "Tres datos",
      "condicion": "Se pide a la persona que nombre los tres datos más importantes de la pantalla.",
-     "resultado": "coinciden con la información principal definida, y su jerarquía visual cumple KYN-SDI-FUI-009."
+     "resultado": "coinciden con la información principal definida y son lo primero que destaca la jerarquía visual."
     }
    ],
    "presentacion_verificacion": "breve",
    "relaciones": [
-    "KYN-SDI-ARQ-004"
+    "KYN-SDI-ARQ-004",
+    "KYN-SDI-FUI-009"
    ]
   },
   {
@@ -824,7 +833,8 @@
    ],
    "presentacion_verificacion": "grupo",
    "relaciones": [
-    "KYN-SDI-ARQ-016"
+    "KYN-SDI-ARQ-016",
+    "SD-13"
    ]
   },
   {
@@ -899,12 +909,13 @@
     {
      "rotulo": "Tres casos",
      "condicion": "Se fuerza cada situación de la tabla.",
-     "resultado": "tres mensajes distintos, cada uno con su salida y redactado según KYN-SDI-CNT-004."
+     "resultado": "tres mensajes distintos, cada uno con lo que pasó y su salida."
     }
    ],
    "presentacion_verificacion": "grupo",
    "relaciones": [
     "KYN-SDI-ARQ-016",
+    "KYN-SDI-CNT-004",
     "KYN-SDI-PAT-007"
    ]
   },
@@ -1093,6 +1104,7 @@
    ],
    "presentacion_verificacion": "breve",
    "relaciones": [
+    "KYN-MRK-COL-015",
     "KYN-SDI-FUI-005",
     "KYN-SDI-FUI-007"
    ]
@@ -1120,7 +1132,8 @@
    ],
    "presentacion_verificacion": "grupo",
    "relaciones": [
-    "KYN-SDI-GOB-011"
+    "KYN-SDI-GOB-011",
+    "SD-42"
    ]
   },
   {
@@ -1144,7 +1157,13 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-COL-012",
+    "KYN-MRK-COL-013",
+    "KYN-MRK-COL-014",
+    "KYN-MRK-COL-015",
+    "KYN-MRK-DAT-002"
+   ]
   },
   {
    "id": "KYN-SDI-FUI-005",
@@ -1168,7 +1187,9 @@
     }
    ],
    "presentacion_verificacion": "grupo",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-ICO-005"
+   ]
   },
   {
    "id": "KYN-SDI-FUI-006",
@@ -1192,6 +1213,7 @@
    ],
    "presentacion_verificacion": "grupo",
    "relaciones": [
+    "KYN-MRK-COL-004",
     "KYN-SDI-FUI-005"
    ]
   },
@@ -1240,7 +1262,10 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-TYP-002",
+    "KYN-MRK-TYP-006"
+   ]
   },
   {
    "id": "KYN-SDI-FUI-009",
@@ -1332,7 +1357,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-ESP-003"
+   ]
   },
   {
    "id": "KYN-SDI-FUI-013",
@@ -1381,6 +1408,9 @@
    ],
    "presentacion_verificacion": "grupo",
    "relaciones": [
+    "KYN-MRK-ESP-002",
+    "KYN-MRK-ESP-004",
+    "KYN-MRK-ESP-005",
     "KYN-SDI-PEX-009"
    ]
   },
@@ -1412,6 +1442,7 @@
    ],
    "presentacion_verificacion": "breve",
    "relaciones": [
+    "KYN-MRK-COL-015",
     "KYN-SDI-ARQ-006",
     "KYN-SDI-CPE-003"
    ]
@@ -1449,7 +1480,9 @@
     }
    ],
    "presentacion_verificacion": "tecnica",
-   "relaciones": []
+   "relaciones": [
+    "SD-21"
+   ]
   },
   {
    "id": "KYN-SDI-CPE-003",
@@ -1473,7 +1506,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "SD-19"
+   ]
   },
   {
    "id": "KYN-SDI-CPE-004",
@@ -1558,7 +1593,9 @@
     }
    ],
    "presentacion_verificacion": "grupo",
-   "relaciones": []
+   "relaciones": [
+    "SD-24"
+   ]
   },
   {
    "id": "KYN-SDI-CPE-007",
@@ -1608,7 +1645,8 @@
    "presentacion_verificacion": "grupo",
    "relaciones": [
     "KYN-SDI-CPE-002",
-    "KYN-SDI-PAT-006"
+    "KYN-SDI-PAT-006",
+    "SD-17"
    ]
   },
   {
@@ -1871,7 +1909,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "SD-44"
+   ]
   },
   {
    "id": "KYN-SDI-ACC-002",
@@ -1895,7 +1935,8 @@
    ],
    "presentacion_verificacion": "grupo",
    "relaciones": [
-    "KYN-SDI-FUI-005"
+    "KYN-SDI-FUI-005",
+    "SD-27"
    ]
   },
   {
@@ -1919,7 +1960,10 @@
     }
    ],
    "presentacion_verificacion": "grupo",
-   "relaciones": []
+   "relaciones": [
+    "KYN-SDI-FUI-010",
+    "SD-09"
+   ]
   },
   {
    "id": "KYN-SDI-ACC-004",
@@ -2002,7 +2046,8 @@
    ],
    "presentacion_verificacion": "tecnica",
    "relaciones": [
-    "KYN-SDI-PAT-002"
+    "KYN-SDI-PAT-002",
+    "SD-39"
    ]
   },
   {
@@ -2026,7 +2071,10 @@
     }
    ],
    "presentacion_verificacion": "tecnica",
-   "relaciones": []
+   "relaciones": [
+    "SD-05",
+    "SD-10"
+   ]
   },
   {
    "id": "KYN-SDI-ACC-008",
@@ -2133,7 +2181,10 @@
     }
    ],
    "presentacion_verificacion": "grupo",
-   "relaciones": []
+   "relaciones": [
+    "SD-05",
+    "SD-06"
+   ]
   },
   {
    "id": "KYN-SDI-DAV-003",
@@ -2183,7 +2234,8 @@
    ],
    "presentacion_verificacion": "grupo",
    "relaciones": [
-    "KYN-SDI-PEX-007"
+    "KYN-SDI-PEX-007",
+    "SD-28"
    ]
   },
   {
@@ -2207,7 +2259,9 @@
     }
    ],
    "presentacion_verificacion": "grupo",
-   "relaciones": []
+   "relaciones": [
+    "SD-27"
+   ]
   },
   {
    "id": "KYN-SDI-DAV-006",
@@ -2286,7 +2340,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-UI-002"
+   ]
   },
   {
    "id": "KYN-SDI-SPR-003",
@@ -2336,7 +2392,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "SD-05"
+   ]
   },
   {
    "id": "KYN-SDI-GOB-001",
@@ -2362,7 +2420,8 @@
    ],
    "presentacion_verificacion": "breve",
    "relaciones": [
-    "KYN-SDI-PEX-007"
+    "KYN-SDI-PEX-007",
+    "SD-03"
    ]
   },
   {
@@ -2386,7 +2445,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "SD-42"
+   ]
   },
   {
    "id": "KYN-SDI-GOB-003",
@@ -2411,7 +2472,10 @@
     }
    ],
    "presentacion_verificacion": "tecnica",
-   "relaciones": []
+   "relaciones": [
+    "SD-20",
+    "SD-22"
+   ]
   },
   {
    "id": "KYN-SDI-FUI-015",
@@ -2435,6 +2499,7 @@
    ],
    "presentacion_verificacion": "breve",
    "relaciones": [
+    "KYN-MRK-ICO-005",
     "KYN-SDI-FUI-005"
    ]
   },
@@ -2459,7 +2524,11 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-ESP-004",
+    "KYN-MRK-ICO-003",
+    "SD-38"
+   ]
   },
   {
    "id": "KYN-SDI-FUI-017",
@@ -2483,7 +2552,8 @@
    ],
    "presentacion_verificacion": "breve",
    "relaciones": [
-    "KYN-SDI-SPR-002"
+    "KYN-SDI-SPR-002",
+    "SD-01"
    ]
   },
   {
@@ -2603,7 +2673,9 @@
     }
    ],
    "presentacion_verificacion": "grupo",
-   "relaciones": []
+   "relaciones": [
+    "SD-24"
+   ]
   },
   {
    "id": "KYN-SDI-CPE-013",
@@ -2655,7 +2727,8 @@
    "presentacion_verificacion": "tecnica",
    "relaciones": [
     "KYN-SDI-CPE-003",
-    "KYN-SDI-PEX-006"
+    "KYN-SDI-PEX-006",
+    "SD-32"
    ]
   },
   {
@@ -2704,7 +2777,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-VOZ-001"
+   ]
   },
   {
    "id": "KYN-SDI-CNT-002",
@@ -2727,7 +2802,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "SD-04"
+   ]
   },
   {
    "id": "KYN-SDI-CNT-003",
@@ -2822,7 +2899,10 @@
     }
    ],
    "presentacion_verificacion": "tecnica",
-   "relaciones": []
+   "relaciones": [
+    "SD-05",
+    "SD-06"
+   ]
   },
   {
    "id": "KYN-SDI-CNT-007",
@@ -2917,7 +2997,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-DAT-004"
+   ]
   },
   {
    "id": "KYN-SDI-DAV-008",
@@ -2940,7 +3022,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-DAT-002"
+   ]
   },
   {
    "id": "KYN-SDI-DAV-009",
@@ -3160,7 +3244,9 @@
     }
    ],
    "presentacion_verificacion": "grupo",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-EST-002"
+   ]
   },
   {
    "id": "KYN-SDI-IAE-006",
@@ -3185,7 +3271,9 @@
     }
    ],
    "presentacion_verificacion": "grupo",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-EST-003"
+   ]
   },
   {
    "id": "KYN-SDI-IAE-007",
@@ -3260,7 +3348,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-EST-005"
+   ]
   },
   {
    "id": "KYN-SDI-IAE-010",
@@ -3437,7 +3527,9 @@
    ],
    "presentacion_verificacion": "breve",
    "relaciones": [
-    "KYN-SDI-ARQ-005"
+    "KYN-MRK-COR-001",
+    "KYN-SDI-ARQ-005",
+    "SD-05"
    ]
   },
   {
@@ -3587,7 +3679,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-PER-004"
+   ]
   },
   {
    "id": "KYN-SDI-MOV-001",
@@ -3658,7 +3752,9 @@
     }
    ],
    "presentacion_verificacion": "breve",
-   "relaciones": []
+   "relaciones": [
+    "KYN-MRK-ICO-004"
+   ]
   },
   {
    "id": "KYN-SDI-MOV-004",

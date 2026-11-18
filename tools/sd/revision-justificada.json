@@ -51,12 +51,24 @@
   "motivo": "Cada norma tiene una sola condición breve; se lee mejor junto a la norma.",
   "fecha": "2026-11-17"
  },
- "enlaces:KYN-SDI-PEX-004": {
-  "motivo": "La columna «Cómo · Dónde se desarrolla» existe para llevar a la norma que implementa cada estado; cada enlace es la especificación necesaria.",
+ "referencia:KYN-SDI-FUI-004:Color en pantalla": {
+  "motivo": "Columna de origen de cada función de color, indispensable hasta que la Fase B muestre los colores y tokens desde su fuente canónica (Keylin, 2026-11-18).",
   "fecha": "2026-11-18"
  },
- "enlaces:KYN-SDI-FUI-004": {
-  "motivo": "La tabla asigna cada función de color a su norma del Libro de Marca, que el Sistema de Diseño cita en lugar de copiar.",
+ "referencia:KYN-SDI-FUI-004:Grises tipográficos": {
+  "motivo": "Columna de origen de cada función de color, indispensable hasta que la Fase B muestre los colores y tokens desde su fuente canónica (Keylin, 2026-11-18).",
+  "fecha": "2026-11-18"
+ },
+ "referencia:KYN-SDI-FUI-004:Acción y superficies": {
+  "motivo": "Columna de origen de cada función de color, indispensable hasta que la Fase B muestre los colores y tokens desde su fuente canónica (Keylin, 2026-11-18).",
+  "fecha": "2026-11-18"
+ },
+ "referencia:KYN-SDI-FUI-004:Estados del sistema": {
+  "motivo": "Columna de origen de cada función de color, indispensable hasta que la Fase B muestre los colores y tokens desde su fuente canónica (Keylin, 2026-11-18).",
+  "fecha": "2026-11-18"
+ },
+ "referencia:KYN-SDI-FUI-004:Sistema cromático": {
+  "motivo": "Columna de origen de cada función de color, indispensable hasta que la Fase B muestre los colores y tokens desde su fuente canónica (Keylin, 2026-11-18).",
   "fecha": "2026-11-18"
  }
 }

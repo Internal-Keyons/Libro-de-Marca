@@ -2883,7 +2883,7 @@
    "id": "KYN-SDI-PEX-002",
    "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-02",
    "bloque": 5,
-   "frase": "La persona puede intervenir, revertir y decidir, según Control de la persona.",
+   "frase": "La persona puede intervenir, revertir y decidir.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
   },
@@ -3249,7 +3249,7 @@
   {
    "id": "KYN-SDI-ARQ-008",
    "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-04",
-   "bloque": 16,
+   "bloque": 15,
    "frase": "Resultado esperado: el foco siempre visible y en el lugar descrito.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
@@ -4325,7 +4325,7 @@
    "id": "KYN-SDI-IAE-006",
    "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-03",
    "bloque": 3,
-   "frase": "Cuando no sabe o no puede, lo dice y ofrece una alternativa (desde UIX-043; voz en Voz y trato).",
+   "frase": "Cuando no sabe o no puede, lo dice y ofrece una alternativa.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
   },
@@ -4351,7 +4351,7 @@
    "id": "KYN-SDI-IAE-008",
    "fuente": "data/sd-capitulos/agentes-y-ejecucion-de-acciones.html#s-09-03-02",
    "bloque": 2,
-   "frase": "Los del rol que lo autorizó, nunca más amplios (Roles y permisos).",
+   "frase": "Los del rol que lo autorizó, nunca más amplios.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
   },

@@ -141,7 +141,9 @@ for pg, (t, secs) in paginas.items():
     if re.search(r'<span class="matrix__k" role="rowheader"><a ', val):
         err.append(f'ERROR   validación   {pg.split("/")[-1]}: el rótulo de una prueba lleva enlace')
 
-ids = {n['id'] for n in REG['normas']}
+ids = {n['id'] for n in REG['normas']} | set(json.load(io.open(os.path.join(ROOT, 'data', 'normas.json'), encoding='utf-8')).get('_ids', []))
+ids |= {v['id'] for k, v in json.load(io.open(os.path.join(ROOT, 'data', 'normas.json'), encoding='utf-8')).items() if isinstance(v, dict) and 'id' in v}
+ids |= {'SD-' + c['num'] for m in json.load(io.open(os.path.join(ROOT, 'data', 'sistema-diseno.json'), encoding='utf-8'))['modulos'] for c in m['capitulos']}
 for n in normas:
     # Relaciones del registro con destino
     for r in n.get('relaciones', []):
@@ -151,11 +153,17 @@ for n in normas:
     for v in n.get('verificacion', []):
         if re.search(r'\b(correctamente|adecuad\w*|apropiad\w*|claramente|bien|se entiende|es claro|es fácil)\b', v['resultado'], re.I):
             aviso('resultado', f'{n["id"]}:{v["rotulo"]}', f'¿describe un hecho observable? «{v["resultado"]}»')
-    # Densidad de enlaces visibles (revisión humana, sin máximo fijo)
+    # Guía 05 · Referencias: frases que solo presentan un enlace (revisión humana; la cantidad de enlaces no es criterio)
     pg, an = n['ruta'].split('#')
-    k = paginas[pg][1].get(an, '').count('class="xref"')
-    if k >= 4:
-        aviso('enlaces', n['id'], f'{k} enlaces visibles: ¿cada uno conduce a una especificación necesaria?')
+    sec = paginas[pg][1].get(an, '')
+    for blk in re.findall(r'<(?:p|dd)[^>]*>(.*?)</(?:p|dd)>|<span class="matrix__v" role="cell">(.*?)</span>', sec, re.S):
+        x = blk[0] or blk[1]
+        if 'class="xref"' not in x:
+            continue
+        p = plano(x)
+        sin = plano(re.sub(r'<a class="xref"[^>]*>.*?</a>(, en \d\d [^.;:]+)?', '', x)).strip(' .,;:()')
+        if re.search(r'^(Ver|Consult|Se desarrolla|Se describe|Lo define|Según)|(lo|la|los|las) define|sigue[n]? *$', sin) or len(sin.split()) < 3:
+            aviso('referencia', f'{n["id"]}:{p[:30]}', f'¿la frase solo presenta un enlace? «{p[:80]}»')
 
 # Códigos conservados respecto del último commit
 try:

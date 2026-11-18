@@ -17,8 +17,8 @@ CAP20 = [
         'Define el mínimo de accesibilidad de todo producto web de Keyons: <strong>WCAG 2.2 nivel AA</strong>, comprobado con herramientas y con personas.', [
         req(N('Los productos web de Keyons deben diseñarse y verificarse tomando WCAG 2.2 nivel AA como objetivo mínimo de accesibilidad.', 'debe')),
         stack([('Alcance', ['Todas las pantallas, estados y documentos que el producto genera.']),
-               ('Declaración', [f'Cada producto registra su nivel alcanzado y las excepciones justificadas, con su plan de corrección ({L("44")}).'])]),
-    ], verif=[('Revisión doble', 'Se revisa cada pantalla con una herramienta automática y, después, a mano con teclado y lector de pantalla.', 'ningún criterio AA queda incumplido; la herramienta sola no alcanza para darlo por cumplido.')], ver='breve',
+               ('Declaración', [f'Cada producto registra su nivel alcanzado y las excepciones justificadas, con su plan de corrección.'])]),
+    ], rel=['SD-44'], verif=[('Revisión doble', 'Se revisa cada pantalla con una herramienta automática y, después, a mano con teclado y lector de pantalla.', 'ningún criterio AA queda incumplido; la herramienta sola no alcanza para darlo por cumplido.')], ver='breve',
        origen=['Referencia de conformidad (base)', 'UIX-038'], responsabilidad='Los productos web se diseñan y verifican con WCAG 2.2 AA como mínimo.', corto='Conformidad'),
 
     n20('KYN-SDI-ACC-002', 'Información perceptible', 2, 'Alternativas para cada recurso sensorial',
@@ -27,19 +27,18 @@ CAP20 = [
         matriz('Alternativas por tipo de contenido', [('Alternativa', ''), ('Criterio', 'WCAG')], [
             ('Imagen informativa', ['Texto alternativo que dice lo que la imagen comunica.', '1.1.1']),
             ('Imagen decorativa', [f'Texto alternativo vacío ({c("alt=" + chr(34) + chr(34))}).', '1.1.1']),
-            ('Gráfico de datos', [f'Valores accesibles en tabla o texto ({L("27")}).', '1.1.1']),
-            ('Color con significado', [f'Ícono, texto o forma además del color ({R("KYN-SDI-FUI-005", "Estados semánticos")}).', '1.4.1']),
+            ('Gráfico de datos', ['Valores accesibles en tabla o texto.', '1.1.1']),
+            ('Color con significado', ['Ícono, texto o forma además del color.', '1.4.1']),
             ('Audio o video', ['Subtítulos y transcripción.', '1.2'])]),
-    ], verif=[('Sin imágenes ni color', 'Se recorre la pantalla con imágenes desactivadas y en escala de grises.', 'el significado se mantiene.')], ver='grupo',
+    ], rel=['KYN-SDI-FUI-005', 'SD-27'], verif=[('Sin imágenes ni color', 'Se recorre la pantalla con imágenes desactivadas y en escala de grises.', 'el significado se mantiene.')], ver='grupo',
        origen=['Información perceptible (base)'], responsabilidad='El significado no depende de un único recurso sensorial.', corto='Perceptible',
        cita=f'08 Color funcional ({R("KYN-SDI-FUI-007", "Contraste")}) fija los mínimos de contraste'),
 
     n20('KYN-SDI-ACC-003', 'Lectura adaptable', 3, 'Ampliación y ajustes de presentación',
         'Se aplica cuando la persona amplía la pantalla o ajusta el texto: <strong>el contenido y las funciones se conservan</strong>.', [
         req(N('La interfaz debe conservar su contenido y funcionalidad ante ampliación y ajustes de presentación, conforme a los criterios aplicables.', 'debe')),
-        stack([('Criterios', ['Ampliación al 200 % (1.4.4), adaptación a 320 px sin desplazamiento horizontal (1.4.10) y espaciado de texto (1.4.12).']),
-               ('Desarrollo', [f'Las decisiones de texto están en Legibilidad, en {L("09")}.'])]),
-    ], verif=[('Tres pruebas', 'Se aplican ampliación al 200 % y al 400 %, ancho de 320 px y espaciado de texto aumentado.', 'sin pérdida de contenido ni de funciones.')], ver='grupo',
+        stack([('Criterios', ['Ampliación al 200 % (1.4.4), adaptación a 320 px sin desplazamiento horizontal (1.4.10) y espaciado de texto (1.4.12).'])]),
+    ], rel=['KYN-SDI-FUI-010', 'SD-09'], verif=[('Tres pruebas', 'Se aplican ampliación al 200 % y al 400 %, ancho de 320 px y espaciado de texto aumentado.', 'sin pérdida de contenido ni de funciones.')], ver='grupo',
        origen=['Lectura adaptable (base)'], responsabilidad='La interfaz conserva contenido y funciones con ampliación y ajustes de texto.', corto='Lectura adaptable',
        cita=f'09 Tipografía ({R("KYN-SDI-FUI-010", "Legibilidad")}) desarrolla las decisiones de texto'),
 
@@ -70,21 +69,21 @@ CAP21 = [
     n21('KYN-SDI-ACC-005', 'Foco identificable', 2, 'Indicador de foco visible',
         'Se aplica a todo control que recibe el foco: <strong>siempre se ve dónde está</strong>.', [
         req(N('El foco debe ser perceptible y no quedar completamente oculto por otros elementos de la interfaz.', 'debe')),
-        stack([('Indicador', [f'Anillo de 2 px en Azul Noche, separado del borde, visible con el teclado (:focus-visible). La decisión sobre {c("--color-focus")} está pendiente en {R("KYN-SDI-FUI-007")}.']),
+        stack([('Indicador', [f'Anillo de 2 px en Azul Noche, separado del borde, visible con el teclado (:focus-visible). La decisión sobre {c("--color-focus")} está pendiente.']),
                ('Sin ocultarse', ['Cabeceras fijas, avisos y paneles no tapan el elemento con foco (2.4.11).']),
                ('Orden', ['El foco sigue el orden visual y lógico de la página (2.4.3).'])]),
-    ], verif=[('Recorrido', 'Se recorre la página con Tab con la cabecera fija visible.', 'el foco se ve completo en cada paso.'), ('Contraste del indicador', 'Se mide el anillo de foco contra su fondo.', 'alcanza 3:1 (WCAG 1.4.11).')], ver='tecnica',
+    ], rel=['KYN-SDI-FUI-007'], verif=[('Recorrido', 'Se recorre la página con Tab con la cabecera fija visible.', 'el foco se ve completo en cada paso.'), ('Contraste del indicador', 'Se mide el anillo de foco contra su fondo.', 'alcanza 3:1 (WCAG 1.4.11).')], ver='tecnica',
        origen=['Foco identificable (base)'], responsabilidad='El foco es perceptible, sigue el orden lógico y no queda oculto.', corto='Foco'),
 
     n21('KYN-SDI-ACC-006', 'Tiempo y movimiento', 3, 'Límites de tiempo y movimiento',
         'Se aplica a sesiones con tiempo, contenidos que se mueven y animaciones: <strong>la persona controla el tiempo y el movimiento</strong>.', [
         req(N('Las interacciones deben respetar los criterios de accesibilidad relacionados con límites de tiempo, movimiento y control de contenido.', 'debe')),
         matriz('Tiempo y movimiento', [('Decisión', ''), ('Criterio', 'WCAG')], [
-            ('Límites de tiempo', [f'Se avisa antes y se puede extender; la sesión conserva los datos ({R("KYN-SDI-PAT-002", "Prevención de pérdidas")}).', '2.2.1']),
+            ('Límites de tiempo', [f'Se avisa antes y se puede extender; la sesión conserva los datos.', '2.2.1']),
             ('Contenido que se mueve o se actualiza solo', ['Se puede pausar, detener u ocultar.', '2.2.2']),
             ('Destellos', ['Nada destella más de tres veces por segundo.', '2.3.1']),
-            ('Animaciones', [f'Respetan la preferencia de movimiento reducido ({L("39")}).', '2.3.3, recomendado'])]),
-    ], verif=[('Movimiento reducido', 'Se activa la preferencia de movimiento reducido del sistema.', 'las animaciones no esenciales se detienen.'), ('Sesión por vencer', 'Se deja una sesión hasta el aviso de vencimiento.', 'aparece el aviso con la opción de extender el tiempo.')], ver='tecnica',
+            ('Animaciones', [f'Respetan la preferencia de movimiento reducido.', '2.3.3, recomendado'])]),
+    ], rel=['KYN-SDI-PAT-002', 'SD-39'], verif=[('Movimiento reducido', 'Se activa la preferencia de movimiento reducido del sistema.', 'las animaciones no esenciales se detienen.'), ('Sesión por vencer', 'Se deja una sesión hasta el aviso de vencimiento.', 'aparece el aviso con la opción de extender el tiempo.')], ver='tecnica',
        origen=['Tiempo y movimiento (base)'], responsabilidad='Se respetan los límites de tiempo, el control del movimiento y los destellos.', corto='Tiempo y movimiento'),
 
     seccion('ejemplo', '21', 'Ejemplo de aplicación', 'Una tarea sin ratón',
@@ -98,9 +97,9 @@ CAP22 = [
     n22('KYN-SDI-ACC-007', 'Diseño adaptable', 1, 'Funciones completas en cualquier ancho',
         'Se aplica a toda pantalla en móvil, tableta y escritorio: <strong>cambia la disposición y se conservan las funciones</strong>.', [
         req(N('Las pantallas deben reorganizarse según el espacio disponible sin eliminar funcionalidades esenciales.', 'debe')),
-        stack([('Cómo se reorganiza', [f'Según la retícula de {L("10")} y la navegación de {L("05")}.']),
+        stack([('Cómo se reorganiza', ['El contenido pasa a una columna en el orden de lectura, y la navegación cambia de formato sin perder destinos.']),
                ('Orientación', ['La pantalla funciona en vertical y en horizontal, salvo que una orientación sea esencial (1.3.4).'])]),
-    ], verif=[('Anchos', 'Se recorre cada tarea a 320, 768, 1024 y 1440 px.', 'las funciones esenciales están en todos los anchos.')], ver='tecnica',
+    ], rel=['SD-05', 'SD-10'], verif=[('Anchos', 'Se recorre cada tarea a 320, 768, 1024 y 1440 px.', 'las funciones esenciales están en todos los anchos.')], ver='tecnica',
        origen=['Diseño adaptable (base)'], responsabilidad='Las pantallas se reorganizan sin eliminar funciones esenciales.', corto='Diseño adaptable'),
 
     n22('KYN-SDI-ACC-008', 'Interacciones accesibles', 2, 'Tamaño y separación de los objetivos',
@@ -124,8 +123,8 @@ CAP22 = [
             ('Métodos de entrada', ['Puntero, toque, teclado y voz.', 'Ninguna función exige un gesto complejo sin alternativa (2.5.1).']),
             ('Preferencias del sistema', ['Movimiento reducido, tamaño de texto y modo de alto contraste.', 'La interfaz respeta las preferencias del dispositivo.']),
             ('Condiciones', ['Una sola mano, luz exterior, conexión lenta.', 'Acciones principales al alcance del pulgar en móvil (desde UIX-039).']),
-            ('Capacidades', ['Visión, audición, motricidad y atención.', f'Perfiles con atención variable ({R("KYN-SDI-PEX-007", "Diseñar para quienes utilizan el producto")}).'])]),
-    ], verif=[('Matriz de uso', 'Se prueba cada tarea principal con dos métodos de entrada como mínimo y con las preferencias del sistema activadas.', 'la tarea se completa en cada combinación.')], ver='breve',
+            ('Capacidades', ['Visión, audición, motricidad y atención.', f'Perfiles con atención variable.'])]),
+    ], rel=['KYN-SDI-PEX-007'], verif=[('Matriz de uso', 'Se prueba cada tarea principal con dos métodos de entrada como mínimo y con las preferencias del sistema activadas.', 'la tarea se completa en cada combinación.')], ver='breve',
        origen=['Variaciones de uso (base)', 'Preferencias del sistema y distintas capacidades (descripción del capítulo)', 'UIX-039'],
        responsabilidad='Las experiencias consideran dispositivos, métodos de entrada, preferencias y condiciones.', corto='Variaciones'),
 

@@ -69,7 +69,7 @@ def main():
         n.update(nombre=b['nombre'], corto=b['corto'], titular=b['titular'], estado='borrador', ruta=b['ruta'], origen=b['origen'] or n['origen'],
                  responsabilidad=b['responsabilidad'] or n['responsabilidad'], cita=base.plano(b['cita']) if b['cita'] else n['cita'],
                  verificacion=b['verificacion'], presentacion_verificacion=b['presentacion'], relaciones=b['relaciones'])
-    sin = [f'{nid} → {r}' for nid, b in base.CONSTRUIDAS.items() for r in b['relaciones'] if r not in base.CONSTRUIDAS]
+    sin = [f'{nid} → {r}' for nid, b in base.CONSTRUIDAS.items() for r in b['relaciones'] if not base.relacion_valida(r)]
     if sin:
         raise SystemExit('Relación sin destino: ' + ', '.join(sin))
     # El registro se escribe antes de clasificar los niveles: tools/niveles.py lee de él las secciones de cada norma

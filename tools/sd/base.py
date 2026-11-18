@@ -109,6 +109,20 @@ def _verif_html(ver, verif, ref):
     return detalle([('Verificación', [(r, f'{cnd} Resultado esperado: {res}') for r, cnd, res in verif])])
 
 
+def _relaciones(rel, texto):
+    """Dependencias de una norma: las de rel=[…] y las que el texto enlaza (R, M y L). Formas: KYN-SDI-…, KYN-MRK-… y SD-NN
+    (un capítulo del Sistema de Diseño). La fuente es el módulo; el registro las recibe al generar."""
+    s = set(rel) | set(re.findall(r'⟦R:([A-Z0-9-]+)\|', texto)) | set(re.findall(r'title="(KYN-MRK-[A-Z]+-\d+)"', texto))
+    for slug in re.findall(r'href="\.\./[a-z-]+/([a-z0-9-]+)\.html"', texto):
+        if slug in _SLUG:
+            s.add('SD-' + _SLUG[slug][0])
+    return sorted(s)
+
+
+def relacion_valida(r):
+    return r in CONSTRUIDAS or (r.startswith('KYN-MRK-') and r in _MRK) or (r.startswith('SD-') and r[3:] in CAPS)
+
+
 def norma(nid, nombre, capitulo, slug_mod, slug_cap, k, titular, entrada, partes, origen=(), responsabilidad='', cita='', corto=None,
           verif=(), ver='breve', ref='', rel=()):
     """Una norma emitida en borrador. Registra su ruta, su titular y su verificación para data/sd-normas.json.
@@ -131,7 +145,7 @@ def norma(nid, nombre, capitulo, slug_mod, slug_cap, k, titular, entrada, partes
                             responsabilidad=responsabilidad, cita=cita, titular=titular, ancla=an,
                             verificacion=[dict(rotulo=r, condicion=plano(cnd), resultado=plano(res)) for r, cnd, res in verif], presentacion=ver,
                             _verif=list(verif),
-                            relaciones=sorted(set(rel) | set(re.findall(r'⟦R:([A-Z0-9-]+)\|', ''.join(partes) + ref))))
+                            relaciones=_relaciones(rel, ''.join(partes) + ref))
     partes = list(partes) + ([_verif_html(ver, verif, ref)] if ver != 'grupo' else [])
     return (f'\n    <!-- {nid} · {nombre} -->\n    <section class="ed" id="{an}">\n'
             f'      <div class="ed__label sdn-label"><span class="ed__code" data-copy="{nid}" data-copy-msg="ID copiado · {nid}" title="Copiar el ID de esta norma">{nid}</span><span>{esc(nombre)}</span></div>\n'

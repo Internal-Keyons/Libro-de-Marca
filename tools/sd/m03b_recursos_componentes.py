@@ -15,27 +15,25 @@ CAP11 = [
         matriz('Uso de íconos en la interfaz', [('Cómo', ''), ('Accesibilidad', '')], [
             ('Con texto', ['El ícono acompaña a la etiqueta.', 'Decorativo para el lector: aria-hidden.']),
             ('Solo ícono', ['Solo cuando su significado es universal: cerrar, buscar, más opciones.', 'Nombre accesible y etiqueta con el foco y el cursor.']),
-            ('De estado', [f'Junto al texto del estado ({R("KYN-SDI-FUI-005", "Estados semánticos")}).', 'El texto lleva el significado.'])]),
+            ('De estado', [f'Junto al texto del estado.', 'El texto lleva el significado.'])]),
         detalle([
             ('Notas técnicas', [
-                ('Catálogo', f'Del catálogo aprobado ({M("KYN-MRK-ICO-005")}); los decorativos no reemplazan a los funcionales.')])]),
-    ], verif=[('Comprensión', 'Se muestran los íconos sin etiquetas y se pregunta qué hace cada uno.', 'los que no se entienden solos llevan texto visible.')], ver='breve',
+                ('Catálogo', f'Del catálogo aprobado; los decorativos no reemplazan a los funcionales.')])]),
+    ], rel=['KYN-MRK-ICO-005', 'KYN-SDI-FUI-005'], verif=[('Comprensión', 'Se muestran los íconos sin etiquetas y se pregunta qué hace cada uno.', 'los que no se entienden solos llevan texto visible.')], ver='breve',
        origen=['Iconos funcionales (base)'], responsabilidad='Cada ícono identifica una acción, estado, categoría o significado.', corto='Íconos'),
 
     n11('KYN-SDI-FUI-016', 'Identidad visual', 2, 'Recursos gráficos según la marca',
         'Se aplica a íconos, ilustraciones, fotografías y patrones de una interfaz: <strong>la identidad se aplica con sus normas</strong>.', [
         req(N('Los recursos gráficos deben utilizar las normas oficiales de iconografía, ilustración, fotografía y composición cuando corresponda aplicar la identidad Keyons.', 'debe')),
-        stack([('Dónde están', [f'Iconografía, ilustración, fotografía y composición viven en el Libro de Marca; aquí se citan ({M("KYN-MRK-ICO-003")}, {M("KYN-MRK-ESP-004")}).']),
-               ('Productos sin firma', [f'Los recursos de cliente siguen {L("38")}.'])]),
-    ], verif=[('Revisión', 'Se revisan los recursos gráficos de una pantalla.', 'cada uno corresponde a una norma del Libro de Marca o a la identidad aprobada del cliente.')], ver='breve',
+    ], rel=['KYN-MRK-ESP-004', 'KYN-MRK-ICO-003', 'SD-38'], verif=[('Revisión', 'Se revisan los recursos gráficos de una pantalla.', 'cada uno corresponde a una norma del Libro de Marca o a la identidad aprobada del cliente.')], ver='breve',
        origen=['Identidad visual (base)'], responsabilidad='Los recursos gráficos aplican las normas oficiales de la marca.', corto='Identidad'),
 
     n11('KYN-SDI-FUI-017', 'Expresión proporcionada', 3, 'Recursos expresivos subordinados a la tarea',
         'Se aplica a fotografías, degradados, texturas y animaciones: <strong>acompañan sin competir</strong> con la información y las acciones.', [
         req(N('Fotografías, degradados, texturas y otros recursos expresivos no deben competir con tareas o información esencial.', 'no-debe')),
-        stack([('Principio', [f'Se aplica La tarea primero ({L("01")}): esta norma la desarrolla para los recursos gráficos.']),
-               ('Dónde sí', [f'Bienvenidas, estados vacíos y recorridos de presentación ({R("KYN-SDI-SPR-002", "Sobriedad operativa")}).'])]),
-    ], verif=[('Retirar lo decorativo', 'Se quita un recurso decorativo de la pantalla.', 'la información necesaria para usar la interfaz sigue completa.')], ver='breve',
+        stack([('Principio', [f'Se aplica La tarea primero: esta norma la desarrolla para los recursos gráficos.']),
+               ('Dónde sí', [f'Bienvenidas, estados vacíos y recorridos de presentación.'])]),
+    ], rel=['KYN-SDI-SPR-002', 'SD-01'], verif=[('Retirar lo decorativo', 'Se quita un recurso decorativo de la pantalla.', 'la información necesaria para usar la interfaz sigue completa.')], ver='breve',
        origen=['Expresión proporcionada (base)'], responsabilidad='Los recursos expresivos no compiten con tareas ni información esencial.', corto='Expresión',
        cita='Desarrolla PEX-001 (01) para los recursos gráficos'),
 
@@ -57,8 +55,8 @@ CAP14 = [
             ('Pestañas', ['Vistas paralelas del mismo objeto, una a la vez.', f'Flechas entre pestañas; el panel cambia al activarlas ({R("KYN-SDI-ARQ-008", "Identificación de controles")}).']),
             ('Acordeón', ['Secciones largas que se consultan por partes.', f'Elementos {c("details")} y {c("summary")}; varios abiertos; ninguno se abre solo.']),
             ('Panel lateral', ['Detalle de un elemento sin perder la lista.', 'Se cierra con Escape y devuelve el foco.']),
-            ('Diálogo', [f'Una decisión que interrumpe la tarea ({R("KYN-SDI-CPE-010", "Diálogos")}).', 'Modal, con foco dentro.'])]),
-    ], verif=[('Por contenedor', 'Se abre, se cierra y se recorre cada contenedor con teclado.', 'el foco vuelve al control que lo abrió.')], ver='tecnica',
+            ('Diálogo', [f'Una decisión que interrumpe la tarea.', 'Modal, con foco dentro.'])]),
+    ], rel=['KYN-SDI-CPE-010'], verif=[('Por contenedor', 'Se abre, se cierra y se recorre cada contenedor con teclado.', 'el foco vuelve al control que lo abrió.')], ver='tecnica',
        origen=['Contenedores con función (base)'], responsabilidad='Paneles, pestañas, acordeones y diálogos se usan cuando facilitan la tarea.', corto='Contenedores'),
 
     n14('KYN-SDI-CPE-009', 'Jerarquía estable', 2, 'Contenedores necesarios',
@@ -110,8 +108,8 @@ CAP15 = [
         'Se aplica a todo mensaje de respuesta: <strong>dice lo que realmente pasó</strong>, con su objeto y su resultado.', [
         req(N('La retroalimentación debe explicar lo ocurrido sin utilizar mensajes genéricos que impidan comprender el estado real.', 'debe')),
         stack([('Concreto', ['«Cliente Ana Mora registrado» en lugar de «Éxito».']),
-               ('Redacción', [f'Trato de usted, voz activa y palabras del perfil, según {L("24")}.'])]),
-    ], verif=[('Mensajes', 'Se revisan los mensajes de respuesta del producto.', 'cada uno nombra el objeto y el resultado.')], ver='grupo',
+               ('Redacción', [f'Trato de usted, voz activa y palabras del perfil.'])]),
+    ], rel=['SD-24'], verif=[('Mensajes', 'Se revisan los mensajes de respuesta del producto.', 'cada uno nombra el objeto y el resultado.')], ver='grupo',
        origen=['Mensajes pertinentes (base)'], responsabilidad='La retroalimentación explica el estado real, sin mensajes genéricos.', corto='Mensajes',
        cita='24 Mensajes define la redacción'),
 
@@ -141,9 +139,9 @@ CAP19 = [
         'Se aplica a las operaciones de alto riesgo: <strong>se comprueba quién puede hacerlas</strong> y se pide la confirmación que corresponde.', [
         req(N('El sistema debe comprobar los permisos y las confirmaciones correspondientes al riesgo de la acción.', 'debe')),
         stack([('Consecuencias', ['Antes de ejecutar, la interfaz muestra qué va a cambiar y en cuántos elementos.']),
-               ('Confirmación', [f'Su nivel lo define {R("KYN-SDI-CPE-003")}: deshacer, confirmar o confirmar con refuerzo.']),
-               ('Intervención humana', [f'Las acciones automatizadas de riesgo piden aprobación según {L("32")}.'])]),
-    ], rel=['KYN-SDI-PEX-006'], verif=[('Cuatro casos', 'Se prueban la ejecución autorizada, el permiso insuficiente, la cancelación y el fallo.', 'cada caso termina como describe la norma, sin ejecutar nada sin autorización.')], ver='tecnica',
+               ('Confirmación', [f'Según el riesgo: deshacer, confirmar o {R("KYN-SDI-CPE-003", "confirmar con refuerzo")}.']),
+               ('Intervención humana', [f'Las acciones automatizadas de riesgo piden aprobación.'])]),
+    ], rel=['SD-32', 'KYN-SDI-PEX-006'], verif=[('Cuatro casos', 'Se prueban la ejecución autorizada, el permiso insuficiente, la cancelación y el fallo.', 'cada caso termina como describe la norma, sin ejecutar nada sin autorización.')], ver='tecnica',
        origen=['Autorización (base)', 'Consecuencias claras (base; integrada en PEX-006)', 'UIX-014'],
        responsabilidad='Las operaciones críticas comprueban permisos y piden la confirmación que corresponde al riesgo.', corto='Autorización'),
 

@@ -16,12 +16,12 @@ CAP04 = [
     n4('KYN-SDI-ARQ-001', 'Organización comprensible', 1, 'Agrupación del contenido por tareas',
        'Define cómo se agrupa el contenido de un producto: <strong>según las tareas y los conceptos de las personas</strong>, y no según la estructura interna de la empresa.', [
         dims([('Agrupación', [N('El contenido debe agruparse según la relación entre tareas, conceptos y necesidades de las personas, no exclusivamente según la estructura interna de la empresa.', 'debe'),
-                              f'Se decide con las tareas y el vocabulario de los perfiles, según {R("KYN-SDI-PEX-007")}. Cuando la estructura es nueva, se prueba con un ordenamiento de tarjetas o una prueba de árbol.']),
+                              f'Se decide con las tareas y el vocabulario de los perfiles. Cuando la estructura es nueva, se prueba con un ordenamiento de tarjetas o una prueba de árbol.']),
               ('Relaciones', [N('Las agrupaciones de información deben responder a relaciones funcionales o conceptuales identificables.', 'debe'),
                               'Cada página tiene un objeto principal y sus grupos, nombrados por su contenido. Desde un elemento se llega a lo relacionado sin volver al menú: del cliente a sus facturas, de la factura a su pago.'])]),
     ], origen=['Organización comprensible (base)', 'Agrupación con sentido (ampliación)', 'Estructura de páginas, agrupación y navegación contextual (ampliación de la matriz)'],
        responsabilidad='El contenido se agrupa por tareas y conceptos de las personas, con relaciones identificables.',
-       verif=[('Prueba de árbol', f'Personas de cada perfil buscan cinco elementos frecuentes en la estructura, sin la interfaz. El umbral de éxito se fija según {R("KYN-SDI-GOB-001")}.',
+       rel=['KYN-SDI-PEX-007', 'KYN-SDI-GOB-001'], verif=[('Prueba de árbol', 'Personas de cada perfil buscan cinco elementos frecuentes en la estructura, sin la interfaz. El umbral de éxito se fija antes de la prueba.',
                'encuentran los elementos sin conocer cómo está organizada la base de datos.')], ver='grupo'),
 
     n4('KYN-SDI-ARQ-002', 'Nombres comprensibles', 2, 'Nombres reconocibles para secciones y destinos',
@@ -44,11 +44,11 @@ CAP04 = [
         matriz('Tres niveles de información', [('Qué contiene', ''), ('Dónde va', '')], [
             ('Principal', ['Lo que identifica el objeto y permite la tarea.', 'Título, datos clave y acción principal, arriba y con mayor peso.']),
             ('Secundaria', ['Lo que amplía o permite tareas frecuentes relacionadas.', 'Grupos rotulados, debajo o al lado.']),
-            ('Complementaria', ['Historial, auditoría y configuración.', f'A pedido: pestañas, acordeones o enlaces ({R("KYN-SDI-ARQ-004", "Información progresiva")}).'])]),
+            ('Complementaria', ['Historial, auditoría y configuración.', f'A pedido: pestañas, acordeones o enlaces.'])]),
     ], origen=['Jerarquía identificable (base)', 'Jerarquías (ampliación de la matriz)'],
        responsabilidad='Las páginas distinguen información principal, secundaria y complementaria.',
        cita='09 Tipografía define la jerarquía visual',
-       verif=[('Tres datos', 'Se pide a la persona que nombre los tres datos más importantes de la pantalla.', f'coinciden con la información principal definida, y su jerarquía visual cumple {R("KYN-SDI-FUI-009")}.')]),
+       rel=['KYN-SDI-ARQ-004', 'KYN-SDI-FUI-009'], verif=[('Tres datos', 'Se pide a la persona que nombre los tres datos más importantes de la pantalla.', 'coinciden con la información principal definida y son lo primero que destaca la jerarquía visual.')]),
 
     n4('KYN-SDI-ARQ-004', 'Información progresiva', 4, 'Información esencial y detalle progresivo',
        'Decide qué se ve al abrir una pantalla y qué se abre a pedido: <strong>lo necesario para la siguiente acción está siempre disponible</strong>.', [
@@ -109,17 +109,17 @@ CAP06 = [
         req(N('Cada resultado debe proporcionar información suficiente para distinguirlo de otros elementos similares.', 'debe')),
         stack([('Datos del resultado', ['Nombre, tipo y uno o dos datos que lo diferencian, como código, fecha o unidad.']),
                ('Coincidencia', ['El término buscado se resalta en el resultado.']),
-               ('Muchos resultados', [f'Se indica el total y se pagina o se carga por partes; los filtros reducen la lista, según {R("KYN-SDI-DAV-002")}.'])]),
+               ('Muchos resultados', [f'Se indica el total y se pagina o se carga por partes; los filtros reducen la lista.'])]),
     ], origen=['Resultados comprensibles (base)', 'Manejo de resultados extensos (ampliación de la matriz)'],
        responsabilidad='Cada resultado se distingue de otros similares y los resultados extensos se pueden recorrer.',
-       verif=[('Nombres parecidos', 'Se buscan dos registros con nombres casi iguales.', 'la persona elige el correcto sin abrirlos.')], ver='grupo'),
+       rel=['KYN-SDI-DAV-002'], verif=[('Nombres parecidos', 'Se buscan dos registros con nombres casi iguales.', 'la persona elige el correcto sin abrirlos.')], ver='grupo'),
 
     n6('KYN-SDI-ARQ-014', 'Filtros visibles', 4, 'Filtros activos a la vista',
        'Se aplica a toda lista filtrada: <strong>se ve qué la está filtrando</strong> y cada filtro se cambia sin perder la consulta.', [
         req(N('Los filtros activos deben poder identificarse y modificarse sin perder innecesariamente la consulta.', 'debe')),
         stack([('Filtros activos', ['Se muestran como etiquetas que se quitan una a una, con «Quitar filtros» para todos.']),
                ('Combinación', ['Los filtros se combinan sin borrar la consulta escrita.']),
-               ('Al volver', [f'Se conservan según {R("KYN-SDI-ARQ-010")}.'])]),
+               ('Al volver', [f'La consulta, los filtros y la posición en la lista se conservan, como en el {R("KYN-SDI-ARQ-010", "regreso sin pérdida")} de la navegación.'])]),
     ], origen=['Filtros visibles (ampliación)', 'Conservación de filtros (ampliación de la matriz)'],
        responsabilidad='Los filtros activos se ven y se modifican sin perder la consulta.',
        cita='La conservación al volver la regula ARQ-010 (05)',
@@ -131,12 +131,12 @@ CAP06 = [
             N('La interfaz debe distinguir entre una búsqueda sin coincidencias y un error que impidió realizar la consulta.', 'debe')),
         matriz('Tres situaciones sin resultados', [('Qué se dice', ''), ('Cómo sigue', '')], [
             ('Sin coincidencias', ['Que no hay resultados para esa consulta y esos filtros.', 'Revisar el término, quitar filtros o buscar en todo el producto.']),
-            ('Error de consulta', ['Que la búsqueda no se pudo realizar.', f'Reintentar; si persiste, una ruta alternativa ({R("KYN-SDI-PAT-007", "Ruta de salida")}).']),
-            ('Sin acceso al alcance', [f'Que no tiene acceso a ese conjunto, sin revelar su contenido, según {R("KYN-SDI-ARQ-016")}.', 'Cambiar de alcance o solicitar acceso, si el producto lo prevé.'])]),
+            ('Error de consulta', ['Que la búsqueda no se pudo realizar.', f'Reintentar; si persiste, una ruta alternativa.']),
+            ('Sin acceso al alcance', [f'Que no tiene acceso a ese conjunto, sin revelar su contenido.', 'Cambiar de alcance o solicitar acceso, si el producto lo prevé.'])]),
     ], origen=['Sin resultados (base)', 'Ausencia de resultados (ampliación)', 'UIX-026', 'UIX-023'],
        responsabilidad='Sin coincidencias, la interfaz lo explica y ofrece una acción; un error y la falta de acceso se distinguen.',
        cita='24 Mensajes define la redacción',
-       verif=[('Tres casos', 'Se fuerza cada situación de la tabla.', f'tres mensajes distintos, cada uno con su salida y redactado según {R("KYN-SDI-CNT-004")}.')], ver='grupo'),
+       rel=['KYN-SDI-ARQ-016', 'KYN-SDI-PAT-007', 'KYN-SDI-CNT-004'], verif=[('Tres casos', 'Se fuerza cada situación de la tabla.', 'tres mensajes distintos, cada uno con lo que pasó y su salida.')], ver='grupo'),
 
     n6('KYN-SDI-ARQ-016', 'Resultados autorizados', 6, 'Resultados según permisos',
        'Se aplica a resultados, totales, sugerencias y fragmentos: <strong>la búsqueda muestra solo lo que la persona puede consultar</strong>.', [

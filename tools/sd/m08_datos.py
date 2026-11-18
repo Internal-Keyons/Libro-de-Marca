@@ -15,17 +15,17 @@ CAP26 = [
         'Se aplica a toda tabla de datos: <strong>se lee por filas y se compara por columnas</strong>.', [
         req(N('Las tablas deben utilizar encabezados comprensibles, alineación consistente y una organización apropiada para comparar datos.', 'debe')),
         matriz('Alineación por tipo de dato', [('Alineación', ''), ('Formato', '')], [
-            ('Texto', ['A la izquierda.', f'Se trunca según {R("KYN-SDI-FUI-011")}.']),
+            ('Texto', ['A la izquierda.', f'Se {R("KYN-SDI-FUI-011", "trunca")} y el valor completo se ve al pasar el cursor y en el detalle.']),
             ('Números y montos', ['A la derecha, con cifras tabulares.', 'Miles con punto y decimales con coma; moneda pegada a la cifra.']),
             ('Fechas', ['A la izquierda.', 'Día, mes y año en el mismo formato en toda la tabla.']),
-            ('Estados', ['A la izquierda.', f'Etiqueta con color e ícono ({R("KYN-SDI-FUI-005", "Estados semánticos")}).'])]),
+            ('Estados', ['A la izquierda.', f'Etiqueta con color e ícono.'])]),
         stack([('Encabezados', ['Nombran el dato y su unidad: «Monto (₡)». Se mantienen visibles al desplazar una tabla larga.']),
                ('Primera columna', ['Identifica el registro: nombre o código.'])]),
         detalle([
             ('Notas técnicas', [
                 ('Estructura', f'{c("<table>")} con {c("<th scope>")} en encabezados de columna y de fila; un título o {c("<caption>")} nombra la tabla.'),
                 ('Orden', f'La columna ordenada lleva {c("aria-sort")} y una flecha que indica el sentido.')])]),
-    ], verif=[('Lector de pantalla', 'Se recorren las celdas con un lector de pantalla.', 'cada celda se anuncia con su fila y su columna.'), ('Comparación', 'Se pide comparar dos registros de la tabla.', 'la persona los compara sin abrirlos.')], ver='tecnica',
+    ], rel=['KYN-SDI-FUI-005'], verif=[('Lector de pantalla', 'Se recorren las celdas con un lector de pantalla.', 'cada celda se anuncia con su fila y su columna.'), ('Comparación', 'Se pide comparar dos registros de la tabla.', 'la persona los compara sin abrirlos.')], ver='tecnica',
        origen=['Lectura y comparación (base)', 'UIX-037'], responsabilidad='Las tablas tienen encabezados, alineación y organización para comparar.', corto='Lectura'),
 
     n26('KYN-SDI-DAV-002', 'Herramientas proporcionadas', 2, 'Búsqueda, filtros, orden y paginación de tablas',
@@ -35,21 +35,21 @@ CAP26 = [
             ('Pocos registros', ['Orden por columna.', 'Se ve todo de una vez.']),
             ('Decenas', ['Orden, búsqueda y filtros frecuentes.', 'Encontrar sin recorrer.']),
             ('Cientos o más', ['Además, paginación o carga por partes, y el total.', 'Mantener la respuesta rápida.'])]),
-        stack([('Conservación', [f'Búsqueda, filtros, orden y página se conservan al volver de un registro (Regreso sin pérdida, {L("05")}).']),
-               ('Filtros activos', [f'Visibles y removibles (Filtros visibles, {L("06")}).'])]),
-    ], verif=[('Volúmenes', 'Se prueba la tabla vacía, con pocos registros y con miles.', 'las herramientas responden al volumen y el total es correcto.')], ver='grupo',
+        stack([('Conservación', [f'Búsqueda, filtros, orden y página se conservan al volver de un registro.']),
+               ('Filtros activos', ['Visibles y removibles.'])]),
+    ], rel=['SD-05', 'SD-06'], verif=[('Volúmenes', 'Se prueba la tabla vacía, con pocos registros y con miles.', 'las herramientas responden al volumen y el total es correcto.')], ver='grupo',
        origen=['Herramientas proporcionadas (base)'], responsabilidad='Búsqueda, filtros, orden y paginación se ajustan al volumen y la tarea.', corto='Herramientas'),
 
     n26('KYN-SDI-DAV-003', 'Acciones identificables', 3, 'Acciones por registro',
         'Se aplica a las acciones de cada fila: <strong>leer y actuar se distinguen</strong>, y cada perfil ve sus acciones.', [
         req(N('Las acciones por registro deben distinguirse de los valores informativos y respetar los permisos correspondientes.', 'debe')),
-        stack([('Dónde van', [f'En la última columna: la frecuente visible y las demás en un menú de acciones ({R("KYN-SDI-CPE-004", "Menú de acciones")}).']),
+        stack([('Dónde van', [f'En la última columna: la frecuente visible y las demás en un menú de acciones.']),
                ('Selección múltiple', ['Casillas en la primera columna; las acciones sobre la selección aparecen arriba e indican cuántos registros afectan.']),
-               ('Permisos', [f'Cada persona ve solo las acciones de su rol ({R("KYN-SDI-PEX-008", "Roles y permisos")}).'])]),
+               ('Permisos', [f'Cada persona ve solo las acciones de su rol.'])]),
         detalle([
             ('En móvil', [
                 ('Adaptación', 'La tabla pasa a una lista de tarjetas con los datos clave y las acciones. Según la tarea, conserva en cambio el desplazamiento horizontal con la primera columna fija.')])]),
-    ], verif=[('Casos', 'Se prueban tablas vacías, extensas, filtradas, ordenadas y en pantallas pequeñas, con perfiles de distinto permiso.', 'las acciones se distinguen de los datos y cada perfil ve solo las suyas.')], ver='grupo',
+    ], rel=['KYN-SDI-CPE-004', 'KYN-SDI-PEX-008'], verif=[('Casos', 'Se prueban tablas vacías, extensas, filtradas, ordenadas y en pantallas pequeñas, con perfiles de distinto permiso.', 'las acciones se distinguen de los datos y cada perfil ve solo las suyas.')], ver='grupo',
        origen=['Acciones identificables (base)'], responsabilidad='Las acciones por registro se distinguen de los valores y respetan permisos.', corto='Acciones'),
 
     seccion('ejemplo', '26', 'Ejemplo de aplicación', 'Una lista de pagos',
@@ -63,10 +63,10 @@ CAP29 = [
     n29('KYN-SDI-DAV-004', 'Diseño por tarea', 1, 'Tableros según las decisiones de quien los usa',
         'Se aplica a todo tablero o panel de inicio: <strong>muestra lo necesario para decidir y actuar</strong>.', [
         req(N('Los tableros deben priorizar la información necesaria para las decisiones y actividades de sus usuarios.', 'debe')),
-        stack([('Punto de partida', [f'Las tareas y decisiones de cada perfil ({R("KYN-SDI-PEX-007", "Diseñar para quienes utilizan el producto")}): qué necesita saber al empezar el día y qué tiene que hacer.']),
+        stack([('Punto de partida', [f'Las tareas y decisiones de cada perfil: qué necesita saber al empezar el día y qué tiene que hacer.']),
                ('Contenido', ['Pendientes, excepciones y riesgos primero; los indicadores de contexto después.']),
-               ('Cada indicador', [f'Lleva su significado, unidad, período y referencia ({L("28")}).'])]),
-    ], verif=[('Con personas', 'Se pide a la persona que diga qué requiere su atención y que actúe.', 'lo hace sin recorrer datos irrelevantes.')], ver='grupo',
+               ('Cada indicador', [f'Lleva su significado, unidad, período y referencia.'])]),
+    ], rel=['KYN-SDI-PEX-007', 'SD-28'], verif=[('Con personas', 'Se pide a la persona que diga qué requiere su atención y que actúe.', 'lo hace sin recorrer datos irrelevantes.')], ver='grupo',
        origen=['Diseño por tarea (base)'], responsabilidad='Los tableros priorizan la información para las decisiones de sus usuarios.', corto='Por tarea'),
 
     n29('KYN-SDI-DAV-005', 'Jerarquía informativa', 2, 'Jerarquía de los indicadores',
@@ -75,8 +75,8 @@ CAP29 = [
         matriz('Niveles de un tablero', [('Qué contiene', ''), ('Cómo se presenta', '')], [
             ('Primero', ['Lo que exige acción hoy: pendientes, alertas, vencimientos.', 'Arriba, con mayor tamaño y su acción.']),
             ('Segundo', ['Los indicadores clave del período.', 'Cifras con su comparación y tendencia.']),
-            ('Tercero', ['Contexto y detalle.', f'Gráficos y tablas debajo o a pedido ({L("27")}).'])]),
-    ], verif=[('Primera mirada', 'Se muestra el tablero y se pregunta qué es lo más importante. Cinco segundos es una hipótesis de prueba.', 'la respuesta coincide con el indicador principal definido.')], ver='grupo',
+            ('Tercero', ['Contexto y detalle.', 'Gráficos y tablas debajo o a pedido.'])]),
+    ], rel=['SD-27'], verif=[('Primera mirada', 'Se muestra el tablero y se pregunta qué es lo más importante. Cinco segundos es una hipótesis de prueba.', 'la respuesta coincide con el indicador principal definido.')], ver='grupo',
        origen=['Jerarquía informativa (base)'], responsabilidad='Los indicadores reciben protagonismo según su importancia operativa.', corto='Jerarquía',
        cita=f'Aplica 04 Jerarquía identificable ({R("KYN-SDI-ARQ-003", "Jerarquía identificable")})'),
 

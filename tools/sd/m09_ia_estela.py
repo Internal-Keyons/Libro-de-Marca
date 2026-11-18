@@ -31,8 +31,8 @@ CAP30 = [
             ('Requiere validación', ['Resultado incierto.', 'Lo valida una persona.'])]),
         detalle([
             ('Notas', [
-                ('Señal', f'Etiqueta, color e ícono, sin porcentajes crudos por defecto ({R("KYN-SDI-FUI-005", "Estados semánticos")}).')])]),
-    ], verif=[('Resultados', 'Se prueban resultados correctos, inciertos e incompletos.', 'cada uno muestra su nivel de confianza.')], ver='breve',
+                ('Señal', f'Etiqueta, color e ícono, sin porcentajes crudos por defecto.')])]),
+    ], rel=['KYN-SDI-FUI-005'], verif=[('Resultados', 'Se prueban resultados correctos, inciertos e incompletos.', 'cada uno muestra su nivel de confianza.')], ver='breve',
        origen=['Incertidumbre (base)', 'UIX-016', 'UIX-018'], responsabilidad='La información generada sin comprobar no aparece como verificada.', corto='Incertidumbre'),
 
     n30('KYN-SDI-IAE-003', 'Control humano', 3, 'Supervisión según el riesgo',
@@ -41,8 +41,8 @@ CAP30 = [
         matriz('Supervisión según el riesgo (desde UIX-014, propuesta)', [('Supervisión', ''), ('Ejemplo', '')], [
             ('Bajo y reversible', ['Automático, con registro y deshacer.', 'Ordenar una bandeja.']),
             ('Medio', ['Propuesta que la persona confirma.', 'Clasificar un pago.']),
-            ('Alto o irreversible', [f'Aprobación explícita con contexto ({R("KYN-SDI-PAT-011", "Autorización")}).', 'Emitir una devolución.'])]),
-    ], verif=[('Acciones de riesgo', 'Se pide a la IA una acción de riesgo alto.', 'la acción espera la aprobación de una persona antes de ejecutarse.')], ver='tecnica',
+            ('Alto o irreversible', [f'Aprobación explícita con contexto.', 'Emitir una devolución.'])]),
+    ], rel=['KYN-SDI-PAT-011'], verif=[('Acciones de riesgo', 'Se pide a la IA una acción de riesgo alto.', 'la acción espera la aprobación de una persona antes de ejecutarse.')], ver='tecnica',
        origen=['Control humano (base)', 'UIX-014', 'UIX-015'], responsabilidad='Las decisiones automatizadas tienen la supervisión que corresponde a su riesgo.', corto='Control humano'),
 ]
 
@@ -59,17 +59,17 @@ CAP31 = [
     n31('KYN-SDI-IAE-005', 'Preguntas pertinentes', 2, 'Preguntas de Estela',
         'Se aplica cuando a Estela le falta información: <strong>pregunta solo lo necesario para avanzar</strong>.', [
         req(N('Estela debería solicitar únicamente la información adicional necesaria para avanzar con precisión.', 'deberia')),
-        stack([('Personalidad', [f'Curiosa: comprende antes de responder ({M("KYN-MRK-EST-002")}).']),
+        stack([('Personalidad', [f'Curiosa: comprende antes de responder.']),
                ('Una a la vez', ['Las preguntas se hacen de a una, con opciones cuando ayudan.'])]),
-    ], verif=[('Solicitudes ambiguas', 'Se hace a Estela una solicitud ambigua.', 'responde con una pregunta que resuelve la ambigüedad.')], ver='grupo',
+    ], rel=['KYN-MRK-EST-002'], verif=[('Solicitudes ambiguas', 'Se hace a Estela una solicitud ambigua.', 'responde con una pregunta que resuelve la ambigüedad.')], ver='grupo',
        origen=['Preguntas pertinentes (base)'], responsabilidad='Estela solo pide la información necesaria para avanzar.', corto='Preguntas'),
 
     n31('KYN-SDI-IAE-006', 'Respuesta accionable', 3, 'Información, recomendación y acción en las respuestas',
         'Se aplica a cada respuesta de Estela: <strong>se distingue lo que informa, lo que recomienda y lo que hace</strong>.', [
         req(N('Las respuestas deben distinguir información, recomendaciones y acciones que el sistema realmente puede ejecutar.', 'debe')),
         stack([('Acciones', ['Las que Estela puede ejecutar aparecen como botones; las demás, como pasos para la persona.']),
-               ('Límites', [f'Cuando no sabe o no puede, lo dice y ofrece una alternativa (desde UIX-043; voz en {M("KYN-MRK-EST-003")}).'])]),
-    ], verif=[('Respuestas', 'Se revisa una muestra de respuestas.', 'cada una separa lo informativo de lo que se puede ejecutar.')], ver='grupo',
+               ('Límites', [f'Cuando no sabe o no puede, lo dice y ofrece una alternativa.'])]),
+    ], rel=['KYN-MRK-EST-003'], verif=[('Respuestas', 'Se revisa una muestra de respuestas.', 'cada una separa lo informativo de lo que se puede ejecutar.')], ver='grupo',
        origen=['Respuesta accionable (base)', 'UIX-042', 'UIX-043'], responsabilidad='Las respuestas distinguen información, recomendaciones y acciones ejecutables.', corto='Respuesta'),
     validacion('09.02', 'interfaz-conversacional-de-estela', 'El capítulo se comprueba con <strong>conversaciones reales y largas</strong>, que cambian de tema e incluyen solicitudes ambiguas.'),
 ]
@@ -78,23 +78,23 @@ CAP32 = [
     n32('KYN-SDI-IAE-007', 'Responsabilidad identificable', 1, 'Acciones visibles de los agentes',
         'Se aplica a lo que un agente ejecuta en el producto: <strong>se ve qué hace y con qué resultado</strong>.', [
         req(N('Las acciones visibles ejecutadas por agentes deben permitir comprender qué se está haciendo y cuál fue su resultado.', 'debe')),
-        stack([('Estado', [f'En curso, terminado, fallido o en espera de aprobación ({R("KYN-SDI-PEX-004", "Estado comprensible")}).']),
-               ('Registro', [f'Cada acción queda en el historial con su resultado ({R("KYN-SDI-PAT-012", "Trazabilidad")}).'])]),
-    ], verif=[('Historial', 'Se revisa el historial de un agente.', 'la persona dice qué hizo el agente, cuándo y con qué resultado, sin ayuda.')], ver='breve',
+        stack([('Estado', [f'En curso, terminado, fallido o en espera de aprobación.']),
+               ('Registro', [f'Cada acción queda en el historial con su resultado.'])]),
+    ], rel=['KYN-SDI-PAT-012', 'KYN-SDI-PEX-004'], verif=[('Historial', 'Se revisa el historial de un agente.', 'la persona dice qué hizo el agente, cuándo y con qué resultado, sin ayuda.')], ver='breve',
        origen=['Responsabilidad identificable (base)'], responsabilidad='Las acciones de los agentes son comprensibles y registradas.', corto='Responsabilidad'),
 
     n32('KYN-SDI-IAE-008', 'Límites de actuación', 2, 'Permisos de los agentes',
         'Se aplica a todo agente: <strong>los permisos valen también para él</strong>.', [
         req(N('Los agentes no deben ejecutar acciones fuera de sus permisos o autorizaciones.', 'no-debe')),
-        stack([('Permisos', [f'Los del rol que lo autorizó, nunca más amplios ({R("KYN-SDI-PEX-008", "Roles y permisos")}).']),
-               ('Aprobación', [f'Las acciones de riesgo esperan aprobación ({R("KYN-SDI-IAE-003", "Control humano")}).'])]),
-    ], verif=[('Intento', 'Se pide al agente una acción fuera de sus permisos.', 'la rechaza y explica por qué.')], ver='tecnica',
+        stack([('Permisos', [f'Los del rol que lo autorizó, nunca más amplios.']),
+               ('Aprobación', [f'Las acciones de riesgo esperan aprobación.'])]),
+    ], rel=['KYN-SDI-IAE-003', 'KYN-SDI-PEX-008'], verif=[('Intento', 'Se pide al agente una acción fuera de sus permisos.', 'la rechaza y explica por qué.')], ver='tecnica',
        origen=['Límites de actuación (base)'], responsabilidad='Los agentes actúan solo dentro de sus permisos.', corto='Límites'),
 
     n32('KYN-SDI-IAE-009', 'Identidad pública consistente', 3, 'Estela como identidad pública',
         'Define cómo se presentan las capacidades coordinadas de IA: <strong>una sola identidad, Estela</strong>, sin exponer la arquitectura.', [
         req(N('La experiencia puede presentar a Estela como identidad pública de capacidades coordinadas, sin exponer innecesariamente su arquitectura interna.', 'puede')),
-        stack([('Identidad', [f'Según el capítulo Estela del Libro de Marca ({M("KYN-MRK-EST-005")}).'])]),
+        stack([('Identidad', [f'Su nombre y su {M("KYN-MRK-EST-005", "expresión visual")} son los del Libro de Marca.'])]),
     ], verif=[('Consistencia', 'Se compara la presentación de Estela en dos productos.', 'se presenta y se comporta igual en ambos.')], ver='breve',
        origen=['Identidad pública consistente (base)'], responsabilidad='Estela es la identidad pública de las capacidades coordinadas.', corto='Identidad'),
 ]
@@ -103,8 +103,8 @@ CAP33 = [
     n33('KYN-SDI-IAE-010', 'Confianza calibrada', 1, 'Indicadores de confianza calibrados',
         'Se aplica a todo indicador de confianza de la IA: <strong>cada nivel tiene su evidencia</strong>.', [
         req(N('Los indicadores de confianza deben corresponder al significado y evidencia definidos para cada estado.', 'debe')),
-        stack([('Definición', [f'Cada nivel ({R("KYN-SDI-IAE-002", "Incertidumbre")}) tiene su criterio técnico documentado.'])]),
-    ], verif=[('Muestra', 'Se revisa una muestra de resultados con su nivel de confianza.', 'el nivel mostrado coincide con su criterio.')], ver='breve',
+        stack([('Definición', [f'Cada nivel tiene su criterio técnico documentado.'])]),
+    ], rel=['KYN-SDI-IAE-002'], verif=[('Muestra', 'Se revisa una muestra de resultados con su nivel de confianza.', 'el nivel mostrado coincide con su criterio.')], ver='breve',
        origen=['Confianza calibrada (base)'], responsabilidad='Los indicadores de confianza corresponden a su evidencia.', corto='Confianza'),
 
     n33('KYN-SDI-IAE-011', 'Verificación humana', 2, 'Información para aprobar',

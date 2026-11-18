@@ -35,26 +35,26 @@ CAP07 = [
             ('Superficie', [f'{c("--color-bg")}, {c("--color-surface")}, {c("--color-inverse")}', 'Fondos de página, de componentes y de bloques invertidos.']),
             ('Texto', [f'{c("--color-text")}, {c("--color-text-2")}, {c("--color-text-3")}, {c("--color-text-disabled")}', 'Jerarquía de lectura y estado deshabilitado.']),
             ('Borde', [f'{c("--color-border")}, {c("--color-border-strong")}', 'Divisores y contornos de controles.']),
-            ('Foco', [c('--color-focus'), f'El indicador de foco. Su color está en revisión ({R("KYN-SDI-FUI-007", "Contraste")}).']),
+            ('Foco', [c('--color-focus'), f'El indicador de foco. Su color está en revisión.']),
             ('Acción', ['Hoy sin token propio.', f'El botón principal usa los colores de {M("KYN-MRK-COL-015")}. Se propone {c("--color-action")} y {c("--color-on-action")}.']),
             ('Estado', [f'{c("--color-status-success")}, {c("--color-status-warning")}, {c("--color-status-error")}, {c("--color-status-info")}, {c("--color-status-review")}',
-                        f'Confirmaciones, avisos, errores, información y revisión ({R("KYN-SDI-FUI-005", "Estados semánticos")}).'])]),
+                        f'Confirmaciones, avisos, errores, información y revisión.'])]),
         detalle([('Temas', [
             ('Cómo funciona', 'Un tema redefine los tokens semánticos; los de base y los componentes se mantienen.'),
             ('Estado', 'El tema claro es el actual. El tema oscuro y los temas de cliente para marca blanca están pendientes.')])]),
     ], origen=['Roles semánticos (base)', 'Temas claro y oscuro (pendiente de la matriz)'],
        responsabilidad='Los tokens se nombran por su función y permiten cambiar de tema.', corto='Roles semánticos',
-       verif=[('Revisión de nombres', 'Se revisan los tokens que usa cada componente.', 'ninguno usa un token con nombre de color para expresar una función.')]),
+       rel=['KYN-SDI-FUI-005', 'KYN-SDI-FUI-007'], verif=[('Revisión de nombres', 'Se revisan los tokens que usa cada componente.', 'ninguno usa un token con nombre de color para expresar una función.')]),
 
     n7('KYN-SDI-FUI-003', 'Cambios controlados', 3, 'Revisión de cambios en tokens compartidos',
        'Se aplica antes de cambiar un token que usan varios productos: <strong>el cambio se comprueba donde llega</strong>.', [
         req(N('Una modificación de tokens compartidos debe comprobarse en los componentes y productos afectados antes de aprobarse.', 'debe')),
         stack([('Procedimiento', ['Propuesta con el motivo, lista de componentes y productos afectados, revisión visual en cada uno y aprobación.']),
-               ('Versión', [f'Cada cambio publicado lleva su versión y su nota de cambios, según {R("KYN-SDI-GOB-011")}.']),
-               ('Aprobación', [f'Los cambios en tokens compartidos se aprueban según {L("42")}.'])]),
+               ('Versión', ['Cada cambio publicado lleva su versión y su nota de cambios.']),
+               ('Aprobación', ['Los cambios en tokens compartidos se aprueban antes de publicarse.'])]),
     ], origen=['Cambios controlados (base)', 'UIX-011'],
        responsabilidad='Los cambios de tokens se comprueban en componentes y productos antes de aprobarse.', corto='Cambios controlados',
-       verif=[('Antes y después', f'Se cambia {c("--color-text")} en una rama de prueba y se capturan las pantallas clave de cada producto antes y después.', 'cambian todos los textos y nada más.')], ver='grupo'),
+       rel=['KYN-SDI-GOB-011', 'SD-42'], verif=[('Antes y después', f'Se cambia {c("--color-text")} en una rama de prueba y se capturan las pantallas clave de cada producto antes y después.', 'cambian todos los textos y nada más.')], ver='grupo'),
 
     seccion('ejemplo', '07', 'Ejemplo de aplicación', 'Un botón principal',
             'Un botón usa <strong>tokens de acción y de texto sobre acción</strong>, no un color hexadecimal escrito en cada pantalla.', [
@@ -88,17 +88,17 @@ CAP08 = [
             ('En revisión', [c('--color-status-review'), 'Etiqueta de texto.'])]),
         detalle([('Notas técnicas', [
             ('Texto sobre el fondo de estado', 'Azul Noche, que cumple el contraste de lectura sobre los cinco fondos.'),
-            ('Íconos', f'Del catálogo aprobado ({M("KYN-MRK-ICO-005")}).')])]),
+            ('Íconos', f'Del catálogo aprobado.')])]),
     ], origen=['Estados semánticos (base)', 'UIX-038'], responsabilidad='Los estados usan el color oficial y una señal adicional.', corto='Estados',
-       verif=[('Escala de grises', 'Se ve una pantalla con los cinco estados en escala de grises.', 'cada estado sigue distinguiéndose por su ícono y su texto.')], ver='grupo'),
+       rel=['KYN-MRK-ICO-005'], verif=[('Escala de grises', 'Se ve una pantalla con los cinco estados en escala de grises.', 'cada estado sigue distinguiéndose por su ícono y su texto.')], ver='grupo'),
 
     n8('KYN-SDI-FUI-006', 'Separación de significados', 3, 'Salmón Tierra y el color de error',
        'Se aplica a errores y a acentos de identidad: <strong>cada color conserva un solo significado</strong>.', [
         req(N('Salmón Tierra no debe utilizarse como sustituto del color semántico de error.', 'no-debe')),
-        stack([('Salmón Tierra', [f'Es un color de identidad y de acento expresivo ({M("KYN-MRK-COL-004")}).']),
-               ('Error', [f'Usa {c("--color-status-error")} con su ícono y su mensaje, según {R("KYN-SDI-FUI-005")}.'])]),
+        stack([('Salmón Tierra', [f'Es un color de identidad y de acento expresivo.']),
+               ('Error', [f'Usa {c("--color-status-error")} con su ícono y su mensaje.'])]),
     ], origen=['Separación de significados (base)'], responsabilidad='Salmón Tierra no reemplaza al color de error.', corto='Significados',
-       verif=[('Revisión de errores', 'Se revisan los mensajes de error y los campos inválidos de una pantalla.', 'ninguno usa Salmón Tierra.')], ver='grupo'),
+       rel=['KYN-MRK-COL-004', 'KYN-SDI-FUI-005'], verif=[('Revisión de errores', 'Se revisan los mensajes de error y los campos inválidos de una pantalla.', 'ninguno usa Salmón Tierra.')], ver='grupo'),
 
     n8('KYN-SDI-FUI-007', 'Contraste', 4, 'Contraste mínimo de las combinaciones',
        'Se aplica a todo par de texto, borde, ícono o foco con su fondo: <strong>el contraste se mide</strong> contra los mínimos de WCAG 2.2 AA.', [
@@ -133,11 +133,11 @@ CAP09 = [
             ('Etiquetas', [c('--fs-14'), 'Rótulos de campos, botones y menús.']),
             ('Ayudas y metadatos', [c('--fs-12'), 'Fechas, contadores y notas breves.'])]),
         detalle([('Notas técnicas', [
-            ('Familias', f'{c("--font-sans")} para la interfaz; {c("--font-display")} solo en títulos expresivos. Su uso sigue {M("KYN-MRK-TYP-006")}.'),
+            ('Familias', f'{c("--font-sans")} para la interfaz; {c("--font-display")} solo en títulos expresivos.'),
             ('Cifras', 'Las cifras de tablas e indicadores usan números tabulares para alinearse.'),
             ('Escala', f'La escala viene de {M("KYN-MRK-TYP-002")}. La asignación por uso es una propuesta.')])]),
     ], origen=['Sistema tipográfico (base)'], responsabilidad='Las interfaces usan las familias, pesos y escala oficiales.', corto='Sistema tipográfico',
-       verif=[('Inventario', 'Se revisa cada texto de una pantalla con el inspector del navegador.', 'cada uno usa un tamaño de la escala y su familia oficial.')]),
+       rel=['KYN-MRK-TYP-006'], verif=[('Inventario', 'Se revisa cada texto de una pantalla con el inspector del navegador.', 'cada uno usa un tamaño de la escala y su familia oficial.')]),
 
     n9('KYN-SDI-FUI-009', 'Jerarquía consistente', 2, 'Jerarquía de las funciones de texto',
        'Se aplica a títulos, etiquetas, valores y ayudas: <strong>la misma función conserva el mismo aspecto</strong> en todas las pantallas.', [
@@ -205,11 +205,11 @@ CAP10 = [
         'Se aplica cuando cambia el ancho o la densidad de una pantalla: <strong>cambia la disposición y la tarea sigue completa</strong>.', [
         req(N('Las retículas deben reorganizarse sin producir solapamientos, pérdida de controles ni recortes que impidan completar tareas.', 'debe')),
         stack([('Retícula', [f'Columnas, márgenes y medianiles siguen {M("KYN-MRK-ESP-004")}.']),
-               ('Densidad', [f'Modo cómodo y modo denso, con valor predeterminado según el perfil según la frecuencia de uso, como define {M("KYN-MRK-ESP-005")}.']),
-               ('Esquinas', [f'Radios de la escala: {c("--r-control")} en controles, {c("--r-component")} en componentes y {c("--r-card")} en tarjetas ({M("KYN-MRK-ESP-002")}).'])]),
+               ('Densidad', ['Modo cómodo y modo denso; el predeterminado depende de la frecuencia de uso del perfil.']),
+               ('Esquinas', [f'Radios de la escala: {c("--r-control")} en controles, {c("--r-component")} en componentes y {c("--r-card")} en tarjetas.'])]),
     ], origen=['Composición adaptable (base)', 'Densidad y esquinas (descripción del capítulo)', 'UIX-029'],
        responsabilidad='La retícula se adapta sin solapamientos ni pérdidas, con densidad y esquinas oficiales.', corto='Adaptación',
-       rel=['KYN-SDI-PEX-009'], verif=[('Cuatro casos', 'Se prueban contenido largo, estados de error, anchos de 320 a 1440 px y los dos modos de densidad.', 'sin solapamientos ni controles perdidos.')], ver='grupo'),
+       rel=['KYN-MRK-ESP-002', 'KYN-MRK-ESP-005', 'KYN-SDI-PEX-009'], verif=[('Cuatro casos', 'Se prueban contenido largo, estados de error, anchos de 320 a 1440 px y los dos modos de densidad.', 'sin solapamientos ni controles perdidos.')], ver='grupo'),
 
     seccion('ejemplo', '10', 'Ejemplo de aplicación', 'Un formulario agrupado',
             'En un formulario, <strong>cada etiqueta permanece asociada visualmente a su campo</strong> y los grupos de información son reconocibles.', [

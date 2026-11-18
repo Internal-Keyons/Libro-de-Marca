@@ -20,7 +20,7 @@ CAP12 = [
             ('Principal', ['La acción que completa la tarea: Guardar, Enviar, Aprobar.', 'Una.']),
             ('Secundaria', ['Alternativas de la misma decisión: Cancelar, Guardar borrador.', 'Las necesarias.']),
             ('De texto', ['Acciones menores o de navegación: Ver detalle, Editar.', 'Las necesarias.']),
-            ('Destructiva', [f'Eliminar, revocar, cerrar una cuenta ({R("KYN-SDI-CPE-003", "Acciones destructivas")}).', 'La que corresponda; nunca con el aspecto de la principal.'])]),
+            ('Destructiva', [f'Eliminar, revocar, cerrar una cuenta.', 'La que corresponda; nunca con el aspecto de la principal.'])]),
         stack([('Anatomía', ['Etiqueta con verbo y objeto («Guardar cambios»), ícono opcional y área de toque suficiente. El ícono va a la izquierda; a la derecha, solo si indica dirección.']),
                ('Botón o enlace', ['Un botón ejecuta una acción y un enlace lleva a otro lugar, en todas las pantallas.']),
                ('Apariencia', [f'Los colores de la principal siguen {M("KYN-MRK-COL-015")}; los radios, {c("--r-control")} o {c("--r-pill")}.'])]),
@@ -28,7 +28,7 @@ CAP12 = [
             ('Orden en un grupo', [
                 ('Escritorio', 'La principal, al final del grupo, a la derecha; las secundarias, a su izquierda.'),
                 ('Móvil', 'La principal ocupa el ancho y va primero, arriba de las secundarias.')])]),
-    ], rel=['KYN-SDI-ARQ-006'], verif=[('Grupo', 'Se revisa cada grupo de decisión de una pantalla.', 'hay una sola acción principal por grupo.'), ('Comparación', 'Se ven Guardar, Cancelar y Eliminar en escala de grises.', 'las tres se distinguen a simple vista.')], ver='breve',
+    ], rel=['KYN-SDI-CPE-003', 'KYN-SDI-ARQ-006'], verif=[('Grupo', 'Se revisa cada grupo de decisión de una pantalla.', 'hay una sola acción principal por grupo.'), ('Comparación', 'Se ven Guardar, Cancelar y Eliminar en escala de grises.', 'las tres se distinguen a simple vista.')], ver='breve',
        origen=['Jerarquía (base)', 'Variantes y jerarquía (matriz)'], responsabilidad='Las acciones principales, secundarias y destructivas se distinguen con consistencia.',
        corto='Jerarquía'),
 
@@ -38,7 +38,7 @@ CAP12 = [
         matriz('Estados de un botón', [('Cómo se ve', ''), ('Cómo se comporta', '')], [
             ('Reposo', ['Su variante.', 'Responde al puntero, al toque y al teclado.']),
             ('Cursor encima', ['Cambio de fondo o de subrayado.', 'Solo con puntero; en pantallas táctiles no existe.']),
-            ('Foco', [f'Anillo de 2 px en Azul Noche, separado del borde ({L("21")}).', 'Solo al llegar con el teclado (:focus-visible).']),
+            ('Foco', [f'Anillo de 2 px en Azul Noche, separado del borde.', 'Solo al llegar con el teclado (:focus-visible).']),
             ('Presionado', ['Leve cambio de tono.', 'Mientras se mantiene presionado.']),
             ('Cargando', ['Indicador dentro del botón; la etiqueta conserva su ancho.', 'Ignora nuevos clics; anuncia «procesando» con aria-busy.']),
             ('Deshabilitado', ['Texto y fondo atenuados.', 'Explica cerca por qué no está disponible.']),
@@ -48,7 +48,7 @@ CAP12 = [
                 ('Teclado', f'Un {c("<button>")} se activa con Enter y con Espacio; un enlace, con Enter.'),
                 ('Deshabilitado', f'Si la persona necesita saber por qué no puede usarlo, se prefiere {c("aria-disabled")} a {c("disabled")}: el control sigue recibiendo el foco y su explicación se lee.'),
                 ('Doble envío', 'Un segundo clic durante la carga no repite la acción.')])]),
-    ], verif=[('Cuatro formas', 'Se activa cada variante con puntero, toque, Enter y Espacio.', 'responde igual por las cuatro vías.'), ('Carga', 'Se hace doble clic durante la carga.', 'la acción se ejecuta una sola vez.'), ('Lector de pantalla', 'Se recorre cada control con NVDA o VoiceOver.', 'se anuncian el nombre, el estado activado y la carga.')], ver='tecnica',
+    ], rel=['SD-21'], verif=[('Cuatro formas', 'Se activa cada variante con puntero, toque, Enter y Espacio.', 'responde igual por las cuatro vías.'), ('Carga', 'Se hace doble clic durante la carga.', 'la acción se ejecuta una sola vez.'), ('Lector de pantalla', 'Se recorre cada control con NVDA o VoiceOver.', 'se anuncian el nombre, el estado activado y la carga.')], ver='tecnica',
        origen=['Estados (base)', 'Activación, foco, carga y deshabilitación (matriz)', 'Propuesta P5 de las UIX (siete estados)'],
        responsabilidad='Los controles contemplan reposo, cursor encima, foco, presionado, carga, deshabilitado y activado.', corto='Estados'),
 
@@ -58,17 +58,17 @@ CAP12 = [
         matriz('Protección según el riesgo', [('Protección', ''), ('Ejemplo', '')], [
             ('Reversible', ['Se ejecuta y ofrece Deshacer.', 'Archivar una solicitud.']),
             ('Irreversible', ['Confirmación en un diálogo que nombra el objeto y la consecuencia.', '«Eliminar la factura 2026-118. Esta acción no se puede deshacer.»']),
-            ('Irreversible y crítica', [f'Confirmación reforzada: escribir el nombre del objeto o una autorización adicional ({L("19")}).', 'Cerrar una cuenta con datos de clientes.'])]),
+            ('Irreversible y crítica', [f'Confirmación reforzada: escribir el nombre del objeto o una autorización adicional.', 'Cerrar una cuenta con datos de clientes.'])]),
         stack([('Etiqueta', ['El botón nombra la consecuencia: «Eliminar 3 facturas», no «Aceptar».']),
                ('Diálogo de confirmación', ['El botón de confirmar repite el verbo; el foco inicial va a Cancelar.'])]),
-    ], verif=[('Prueba de riesgo', 'Se intenta cada acción destructiva del producto.', 'la protección corresponde a su fila de la tabla y el texto nombra lo que se pierde.')], ver='breve',
+    ], rel=['SD-19'], verif=[('Prueba de riesgo', 'Se intenta cada acción destructiva del producto.', 'la protección corresponde a su fila de la tabla y el texto nombra lo que se pierde.')], ver='breve',
        origen=['Acciones destructivas (base)', 'UIX-025'], responsabilidad='Las acciones de alto impacto comunican consecuencias y aplican protección según el riesgo.',
        corto='Destructivas'),
 
     n12('KYN-SDI-CPE-004', 'Menú de acciones', 4, 'Menú de acciones ocasionales',
         'Se aplica cuando un elemento tiene más acciones de las que caben o conviene mostrar: <strong>lo ocasional se agrupa sin esconder lo necesario</strong>.', [
         dims([('Qué va en el menú', [N('Las acciones secundarias de un elemento pueden agruparse en un menú cuando son ocasionales o no caben.', 'puede'),
-                                     f'La acción frecuente o principal queda visible, según {R("KYN-SDI-ARQ-007")}.']),
+                                     f'La acción frecuente o principal queda visible.']),
               ('Botón', [N('El botón que abre el menú debe nombrar su función.', 'debe'),
                          f'Lleva el ícono de más opciones y un nombre accesible con su objeto: «Más acciones para la factura 2026-118», con {c("aria-haspopup")} y {c("aria-expanded")}.'])]),
         detalle([
@@ -76,7 +76,7 @@ CAP12 = [
                 ('Abrir', 'Enter, Espacio o flecha abajo abren el menú y el foco pasa a la primera opción.'),
                 ('Recorrer', 'Las flechas recorren las opciones; Inicio y Fin van a la primera y a la última.'),
                 ('Cerrar', 'Escape cierra el menú y el foco vuelve al botón. Elegir una opción lo cierra y ejecuta la acción.')])]),
-    ], verif=[('Teclado', 'Se abre el menú, se recorre y se cierra solo con teclado.', 'el foco sigue el recorrido descrito y vuelve al botón al cerrar.'), ('Lector de pantalla', 'Se abre el menú con NVDA o VoiceOver.', 'se anuncian el menú, su estado y cada opción.')], ver='tecnica',
+    ], rel=['KYN-SDI-ARQ-007'], verif=[('Teclado', 'Se abre el menú, se recorre y se cierra solo con teclado.', 'el foco sigue el recorrido descrito y vuelve al botón al cerrar.'), ('Lector de pantalla', 'Se abre el menú con NVDA o VoiceOver.', 'se anuncian el menú, su estado y cada opción.')], ver='tecnica',
        origen=['Menús (descripción del capítulo; requisito redactado por Claude)'], responsabilidad='Las acciones ocasionales se agrupan en un menú accesible.',
        corto='Menú de acciones'),
 
@@ -96,7 +96,7 @@ CAP13 = [
             ('Etiqueta', ['Nombre del dato, visible arriba del campo.', 'Siempre.']),
             ('Ayuda o formato', ['Formato esperado o aclaración breve.', 'Cuando el dato tiene formato o reglas: «DD/MM/AAAA».']),
             ('Campo', ['El control de entrada.', 'Siempre.']),
-            ('Mensaje de error', [f'Qué falta y cómo corregirlo ({R("KYN-SDI-CPE-006", "Validación útil")}).', 'Cuando el valor no es válido.']),
+            ('Mensaje de error', [f'Qué falta y cómo corregirlo.', 'Cuando el valor no es válido.']),
             ('Contador', ['Caracteres usados y límite.', 'Cuando hay un límite de longitud.'])]),
         stack([('Obligatorio u opcional', ['Se marca lo que es menos frecuente en el formulario: si casi todo es obligatorio, se marca «(opcional)».']),
                ('Texto de ejemplo', ['Muestra un valor posible; nunca reemplaza a la etiqueta ni a la ayuda.'])]),
@@ -104,7 +104,7 @@ CAP13 = [
             ('Notas técnicas', [
                 ('Asociación', f'{c("<label for>")} une etiqueta y campo; {c("aria-describedby")} une la ayuda y el error.'),
                 ('Autocompletado', f'Los datos personales llevan su {c("autocomplete")} correcto: nombre, correo, teléfono, dirección.')])]),
-    ], verif=[('Lector de pantalla', 'Se entra en cada campo con un lector de pantalla.', 'se anuncian la etiqueta, la ayuda y, si existe, el error.'), ('Campo con valor', 'Se completa cada campo.', 'la etiqueta sigue visible.')], ver='grupo',
+    ], rel=['KYN-SDI-CPE-006'], verif=[('Lector de pantalla', 'Se entra en cada campo con un lector de pantalla.', 'se anuncian la etiqueta, la ayuda y, si existe, el error.'), ('Campo con valor', 'Se completa cada campo.', 'la etiqueta sigue visible.')], ver='grupo',
        origen=['Etiquetas identificables (base)', 'Etiqueta y formato esperado (matriz)'], responsabilidad='Cada campo tiene etiqueta visible, ayuda cuando hace falta y asociaciones accesibles.',
        corto='Etiquetas'),
 
@@ -120,8 +120,8 @@ CAP13 = [
             ('Notas técnicas', [
                 ('Estado', f'El campo con error lleva {c("aria-invalid")} y su mensaje unido con {c("aria-describedby")}.'),
                 ('Resumen', f'El resumen de errores se anuncia ({c("role=" + chr(34) + "alert" + chr(34))}) y cada error enlaza a su campo.'),
-                ('Redacción', f'Qué pasó y qué hacer, según {L("24")}: «Ingrese un correo con @».')])]),
-    ], verif=[('Cuatro casos', 'Se prueban campos vacíos, valores incorrectos, entradas largas y la corrección de cada error.', 'cada error nombra el campo y la corrección, y desaparece al corregirse.')], ver='grupo',
+                ('Redacción', f'Qué pasó y qué hacer: «Ingrese un correo con @».')])]),
+    ], rel=['SD-24'], verif=[('Cuatro casos', 'Se prueban campos vacíos, valores incorrectos, entradas largas y la corrección de cada error.', 'cada error nombra el campo y la corrección, y desaparece al corregirse.')], ver='grupo',
        origen=['Validación útil (base)', 'Comportamiento de validación y recuperación (matriz)'], responsabilidad='Los errores identifican el campo y explican cómo corregir, en el momento adecuado.',
        corto='Validación'),
 

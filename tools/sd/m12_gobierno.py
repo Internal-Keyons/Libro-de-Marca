@@ -14,14 +14,14 @@ CAP44 = [
     n44('KYN-SDI-GOB-001', 'Tareas reales', 1, 'Tareas representativas en las evaluaciones',
         'Se aplica a toda evaluación de un producto: <strong>se prueba con lo que las personas hacen de verdad</strong>.', [
         req(N('Las evaluaciones deben utilizar tareas representativas de los perfiles que operarán el producto.', 'debe')),
-        stack([('Tareas', [f'Las frecuentes y las críticas de cada perfil ({R("KYN-SDI-PEX-007", "Diseñar para quienes utilizan el producto")}), con datos realistas.']),
+        stack([('Tareas', [f'Las frecuentes y las críticas de cada perfil, con datos realistas.']),
                ('Participantes', ['Personas del perfil, no el equipo del proyecto.']),
-               ('Evidencia', [f'Los resultados distinguen observaciones, problemas, hipótesis y decisiones, según Evidencia diferenciada de {L("03")}.'])]),
+               ('Evidencia', [f'Los resultados distinguen observaciones, problemas, hipótesis y decisiones.'])]),
         detalle([
             ('Entregable', [
                 ('Plan de prueba', 'Perfiles, tareas, criterios de éxito y método.'),
                 ('Informe', 'Tareas completadas, errores, dificultades y decisiones, con su evidencia.')])]),
-    ], verif=[('Plan de prueba', 'Se revisan las tareas del plan de evaluación.', 'cada una corresponde a una tarea documentada de un perfil.')], ver='breve',
+    ], rel=['KYN-SDI-PEX-007', 'SD-03'], verif=[('Plan de prueba', 'Se revisan las tareas del plan de evaluación.', 'cada una corresponde a una tarea documentada de un perfil.')], ver='breve',
        origen=['Tareas reales (base)', 'Evidencia registrada (base; se cita PEX-014)', 'UIX-047'],
        responsabilidad='Las evaluaciones usan tareas representativas y registran su evidencia.', corto='Tareas reales'),
 
@@ -34,8 +34,8 @@ CAP44 = [
             ('Menor', ['Molestia que no impide la tarea.', 'Se planifica.'])]),
         detalle([
             ('Aprobación', [
-                ('Quién decide', f'La decisión de bloqueo o excepción la toman los responsables definidos en {L("42")}.')])]),
-    ], verif=[('Registro', 'Se revisa el registro de problemas de un lanzamiento.', 'cada problema crítico tiene su resolución o su decisión de bloqueo, con fecha y responsable.')], ver='breve',
+                ('Quién decide', 'La decisión de bloqueo o excepción la toman los responsables de aprobación del producto.')])]),
+    ], rel=['SD-42'], verif=[('Registro', 'Se revisa el registro de problemas de un lanzamiento.', 'cada problema crítico tiene su resolución o su decisión de bloqueo, con fecha y responsable.')], ver='breve',
        origen=['Problemas críticos (base)'], responsabilidad='Los defectos críticos se resuelven o bloquean el lanzamiento con decisión explícita.', corto='Problemas críticos'),
 
     n44('KYN-SDI-GOB-003', 'Protocolo previo al lanzamiento', 3, 'Protocolo previo al lanzamiento',
@@ -44,12 +44,12 @@ CAP44 = [
         pasos([('Visual', 'Revisión contra el sistema: tokens, componentes y patrones.', 'Evidencia', 'Capturas de escritorio y móvil.'),
                ('Funcional', 'Estados, errores y recuperación de cada tarea.', 'Evidencia', 'Lista de casos probados.'),
                ('Usabilidad', 'Prueba con personas reales del perfil (desde UIX-047, que pedía al menos cinco).', 'Evidencia', 'Informe con tareas y problemas.'),
-               ('Accesibilidad', f'WCAG 2.2 AA, automática y manual ({L("20")} a {L("22")}).', 'Evidencia', 'Resultados y excepciones.'),
+               ('Accesibilidad', 'WCAG 2.2 AA, automática y manual, con los criterios de los capítulos 20 a 22.', 'Evidencia', 'Resultados y excepciones.'),
                ('Aprobación', 'Registro firmado por los responsables.', 'Evidencia', 'Decisión de lanzamiento.')]),
         detalle([
             ('Origen', [
                 ('UIX', 'Recupera UIX-047 y UIX-050 como referencia; el número mínimo de participantes y los firmantes requieren aprobación.')])]),
-    ], verif=[('Expediente', 'Se revisa el expediente del lanzamiento.', 'tiene las cinco evidencias del protocolo, cada una con su resultado.')], ver='tecnica',
+    ], rel=['SD-20', 'SD-22'], verif=[('Expediente', 'Se revisa el expediente del lanzamiento.', 'tiene las cinco evidencias del protocolo, cada una con su resultado.')], ver='tecnica',
        origen=['Verificación visual, funcional, de usabilidad y de accesibilidad (descripción del capítulo; requisito redactado por Claude)', 'UIX-047', 'UIX-050'],
        responsabilidad='Cada lanzamiento completa la verificación visual, funcional, de usabilidad y de accesibilidad.', corto='Protocolo'),
 

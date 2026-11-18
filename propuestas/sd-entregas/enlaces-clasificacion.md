@@ -2,6 +2,35 @@
 
 2026-11-18 · revisión sin cambios en las páginas. Las normas siguen como quedaron en la Fase A (commit `cf9aa66`). Este documento clasifica cada enlace visible y propone, con cinco ejemplos, qué se conserva y qué se reubica. Nada se aplica hasta su revisión.
 
+## Decisión aplicada (Keylin, 2026-11-18)
+
+Keylin no aprobó las notas «Se desarrolla en». Las propuestas de reubicación a esa nota que siguen en este documento quedan **reemplazadas** por lo que se aplicó:
+
+| Clase | Antes | Aplicado |
+| --- | --- | --- |
+| Esencial | 37 visibles | **38 visibles**, integrados en el texto: el enlace va sobre el concepto («la [confirmación] se refuerza según el riesgo»), sin frases del tipo «Lo define…» o «Según el capítulo…» |
+| Complementaria | 76 visibles | **0 visibles.** Quedan en el registro (`relaciones`) |
+| Trazabilidad | 42 visibles | **0 visibles.** Quedan en el registro |
+
+Hay 38 visibles y no 37 porque uno de los enlaces esenciales se dividió al integrarlo en el texto.
+
+**Cómo se trató cada norma**
+- **Normas autosuficientes.** Donde una oración solo remitía, se escribió la decisión con contenido que ya estaba aprobado en el sistema, sin obligaciones nuevas. Donde no había nada propio, la fila se quitó.
+- **Los cinco ejemplos:**
+  - **PEX-004:** la tabla queda autosuficiente, sin enlaces. Su columna se llama «Cómo · En la interfaz».
+  - **FUI-004:** conserva sus cinco enlaces hasta la Fase B.
+  - **PAT-001:** el paso «Confirmar» se desarrolló («Muestra el resultado con su identificador… y el siguiente paso»).
+  - **FUI-014:** redacción corregida, con un solo enlace (la retícula).
+  - **FUI-016:** se quitaron las filas «Dónde están» y «Productos sin firma».
+- **Las cinco filas que solo remitían:**
+  - ACC-007 y CNT-006 tienen ahora su decisión.
+  - En ARQ-008, ACC-003 y CNT-002 la fila se quitó.
+
+**Registro y regla**
+- **Registro canónico:** 180 relaciones en 103 normas, generadas desde los módulos. Ahora incluyen normas del Libro de Marca (`KYN-MRK-…`) y capítulos (`SD-NN`).
+- **Guía 05, fila «Referencias»:** quedó reescrita con estos criterios.
+- **`tools/sd_revisar.py`:** dejó de contar enlaces. Ahora avisa cuando una frase solo presenta un enlace.
+
 ## Criterio
 
 | Clase | Qué significa | Dónde queda |

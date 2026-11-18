@@ -22,9 +22,9 @@ CAP01 = [
         dims([('Propósito', [N('Cada pantalla debe identificar su propósito y permitir reconocer la acción o información principal sin depender de elementos decorativos.', 'debe'),
                              'El título nombra la tarea o el objeto de la pantalla, no el nombre técnico del módulo: «Solicitudes pendientes», en lugar de «Gestión de trámites».']),
               ('Acción principal', [N('Cuando una pantalla permite realizar una tarea principal, esa acción debe distinguirse de las secundarias mediante una jerarquía visual y funcional consistente.', 'debe'),
-                                    f'Cada grupo de decisión tiene una sola acción principal; las demás son secundarias. Su apariencia y su orden los define {R("KYN-SDI-CPE-001")}.']),
+                                    f'Cada grupo de decisión tiene una sola {R("KYN-SDI-CPE-001", "acción principal")}; las demás son secundarias.']),
               ('Recursos gráficos', [N('Los recursos gráficos no deben competir por la atención con información esencial o acciones necesarias para completar una tarea.', 'no-debe'),
-                                     f'Ilustraciones, fotografías y color expresivo acompañan a la tarea sin ocupar el lugar de un dato o de una acción, según {R("KYN-SDI-FUI-017")}.'])]),
+                                     f'Ilustraciones, fotografías y color expresivo acompañan a la tarea sin ocupar el lugar de un dato o de una acción.'])]),
         detalle([('Aplicación según el contexto', [
             ('Pantallas de consulta', 'Sin una acción principal, la información principal ocupa su lugar en la jerarquía.'),
             ('Varias tareas en una pantalla', 'Se separan en grupos rotulados, cada uno con su acción principal.'),
@@ -32,7 +32,7 @@ CAP01 = [
     ], origen=['La tarea primero (base)', 'Una acción reconocible (ampliación)', 'Sin competencia visual innecesaria (ampliación)', 'UIX-001', 'UIX-028'],
        responsabilidad='Cada pantalla deja reconocer su propósito y su acción principal sin que los recursos gráficos compitan.',
        cita='11 Recursos visuales (Expresión proporcionada) cita esta norma',
-       rel=['KYN-SDI-DAV-004'], verif=[('Primera mirada', 'Una persona que no conoce la pantalla la ve sin instrucciones. Cinco segundos es la hipótesis inicial de prueba, no un requisito.',
+       rel=['KYN-SDI-CPE-001', 'KYN-SDI-FUI-017', 'KYN-SDI-DAV-004'], verif=[('Primera mirada', 'Una persona que no conoce la pantalla la ve sin instrucciones. Cinco segundos es la hipótesis inicial de prueba, no un requisito.',
                'señala el propósito y la acción principal sin ayuda.'),
               ('Sin decoración', 'Se quitan de la pantalla los recursos decorativos.', 'la persona completa la tarea en el mismo tiempo y sin preguntas nuevas.')]),
 
@@ -40,58 +40,58 @@ CAP01 = [
        'Se aplica al diseñar un control o un recorrido: <strong>la convención conocida es el punto de partida</strong> y un patrón propio se justifica.', [
         req(N('La interfaz no debe ocultar funciones necesarias ni sustituir patrones comprensibles únicamente para conseguir una apariencia original.', 'no-debe')),
         stack([('Controles conocidos', ['Enlaces, casillas, menús y pestañas siguen las convenciones de la web y del sistema operativo. Un enlace subrayado lleva a otro lugar y una casilla marca una opción.']),
-               ('Patrón propio', [f'Responde a un problema que el convencional no resuelve y se evalúa antes de extenderse, según {R("KYN-SDI-PEX-015")}.'])]),
+               ('Patrón propio', [f'Responde a un problema que el convencional no resuelve y se evalúa antes de extenderse.'])]),
         detalle([('Prioridad entre criterios (propuesta, desde UIX-005)', [
             ('Transparencia antes que fluidez', 'Cada paso importante se muestra, aunque el recorrido sea más largo.'),
-            ('Control antes que automatización', f'La persona puede intervenir, revertir y decidir, según {R("KYN-SDI-PEX-017")}.'),
+            ('Control antes que automatización', f'La persona puede intervenir, revertir y decidir.'),
             ('Comprensión antes que velocidad', 'Un recorrido claro antes que uno rápido y confuso.'),
             ('Convención antes que novedad', 'Se innova donde aporta un valor comprobado.')])]),
     ], origen=['Claridad antes que novedad (base)', 'UIX-005'],
        responsabilidad='Las funciones y los patrones comprensibles se conservan por encima de la originalidad.',
-       verif=[('Comparación', 'Se prueba la misma tarea con el patrón propio y con el convencional.', 'el propio se conserva solo si iguala o mejora el resultado.')]),
+       rel=['KYN-SDI-PEX-015', 'KYN-SDI-PEX-017'], verif=[('Comparación', 'Se prueba la misma tarea con el patrón propio y con el convencional.', 'el propio se conserva solo si iguala o mejora el resultado.')]),
 
     n1('KYN-SDI-PEX-003', 'Complejidad justificada', 3, 'Controles pertinentes a la tarea',
        'Decide cuántos controles, datos y pasos quedan a la vista: <strong>los que la tarea, el perfil y la frecuencia de uso necesitan</strong>.', [
         req(N('La cantidad de información y controles visibles debería corresponder a la tarea, al perfil de usuario y a la frecuencia de uso.', 'deberia')),
-        stack([('Lo visible', [f'Lo que se usa en cada sesión queda a la vista; lo ocasional, a un paso, según {R("KYN-SDI-ARQ-004")}. La densidad según el perfil la define {R("KYN-SDI-PEX-009")}.']),
+        stack([('Lo visible', [f'Lo que se usa en cada sesión queda a la vista; lo ocasional, a un paso.']),
                ('Pasos', ['Cada paso de una tarea pide una decisión o un dato nuevo. Los pasos que repiten información conocida se completan solos o se eliminan.']),
                ('Ejemplo', [f'En un listado de solicitudes, «Aprobar» y «Ver» están en cada fila; «Exportar» y «Archivar» van en el menú de acciones de la lista.'])]),
     ], origen=['Complejidad justificada (base)', 'Reducción de pasos innecesarios (ampliación de la matriz)', 'UIX-001'],
        responsabilidad='La cantidad de información, controles y pasos corresponde a la tarea, al perfil y a la frecuencia.',
        cita='04 Información progresiva (ARQ-004) desarrolla el detalle bajo demanda',
-       rel=['KYN-SDI-CPE-004'], verif=[('Controles', 'Se listan los controles visibles de la pantalla con su frecuencia de uso.', 'los de uso ocasional están en un segundo nivel.'),
+       rel=['KYN-SDI-ARQ-004', 'KYN-SDI-PEX-009', 'KYN-SDI-CPE-004'], verif=[('Controles', 'Se listan los controles visibles de la pantalla con su frecuencia de uso.', 'los de uso ocasional están en un segundo nivel.'),
               ('Pasos', 'Se cuentan los pasos de las tres tareas más frecuentes.', 'cada paso tiene una razón registrada.')]),
 
     n1('KYN-SDI-PEX-004', 'Estado comprensible', 4, 'Comunicar el estado de cada acción',
        'Se aplica a toda acción que la persona inicia: <strong>el sistema responde con su estado</strong> hasta que la acción termina o necesita algo.', [
         req(N('Después de una acción, el sistema debe comunicar si está procesando, si terminó o si requiere intervención.', 'debe')),
-        matriz('Qué comunica el sistema después de una acción', [('Qué comunica', 'A la persona'), ('Cómo', 'Dónde se desarrolla')], [
-            ('Procesando', ['Que la acción se recibió y sigue en curso.', f'Indicador en el control o en la zona afectada; texto descriptivo si la espera es larga ({R("KYN-SDI-PAT-010", "Estados de espera")}).']),
-            ('Terminó', ['El resultado real: qué cambió y dónde.', f'Confirmación específica ({R("KYN-SDI-CNT-005", "Confirmaciones")}).']),
-            ('Requiere intervención', ['Qué falta y cómo continuar.', f'Mensaje junto al elemento afectado, con una acción ({R("KYN-SDI-CPE-012", "Mensajes")}).']),
-            ('Falló', ['Qué pasó y cómo seguir.', f'Mensaje con una salida ({R("KYN-SDI-PAT-007", "Ruta de salida")}).'])]),
+        matriz('Qué comunica el sistema después de una acción', [('Qué comunica', 'A la persona'), ('Cómo', 'En la interfaz')], [
+            ('Procesando', ['Que la acción se recibió y sigue en curso.', f'Indicador en el control o en la zona afectada; texto descriptivo si la espera es larga.']),
+            ('Terminó', ['El resultado real: qué cambió y dónde.', f'Confirmación específica.']),
+            ('Requiere intervención', ['Qué falta y cómo continuar.', f'Mensaje junto al elemento afectado, con una acción.']),
+            ('Falló', ['Qué pasó y cómo seguir.', f'Mensaje con una salida.'])]),
     ], origen=['Estado comprensible (base)', 'UIX-012', 'UIX-013'],
        responsabilidad='Después de una acción, el sistema comunica si procesa, terminó, necesita intervención o falló.',
        cita='15 Retroalimentación (Resultado visible) desarrolla los componentes',
-       verif=[('Tres situaciones', 'Cada acción principal se ejecuta con éxito, con una espera larga y con un fallo.', 'en los tres casos, la persona describe el estado sin preguntar.')], ver='grupo'),
+       rel=['KYN-SDI-CNT-005', 'KYN-SDI-CPE-012', 'KYN-SDI-PAT-007', 'KYN-SDI-PAT-010'], verif=[('Tres situaciones', 'Cada acción principal se ejecuta con éxito, con una espera larga y con un fallo.', 'en los tres casos, la persona describe el estado sin preguntar.')], ver='grupo'),
 
     n1('KYN-SDI-PEX-005', 'Comportamiento previsible', 5, 'Comportamientos consistentes entre pantallas',
        'Una misma función se usa igual en todo el producto: <strong>lo aprendido en una pantalla sirve en las demás</strong>.', [
         req(N('Los componentes que realizan una misma función deben mantener un comportamiento consistente entre pantallas. Las diferencias requieren una justificación funcional.', 'debe')),
         stack([('Entre pantallas', ['Guardar, cancelar, eliminar y deshacer dan el mismo resultado, con los mismos mensajes y las mismas teclas, en todo el producto.']),
-               ('Entre productos', [f'Los componentes canónicos se comportan igual en todos los productos Keyons, según {R("KYN-SDI-SPR-005")}.']),
-               ('Navegación', [f'Los nombres y destinos de navegación siguen {R("KYN-SDI-ARQ-006")}.'])]),
+               ('Entre productos', [f'Los componentes canónicos se comportan igual en todos los productos Keyons.']),
+               ('Navegación', ['Un destino se nombra igual en el menú, la ruta y el título, y conserva su lugar entre pantallas.'])]),
     ], origen=['Comportamiento previsible (ampliación)', 'Consistencia entre pantallas (ampliación de la matriz)', 'UIX-013'],
        responsabilidad='Una misma función se comporta igual en todas las pantallas y productos.',
        cita='05 Acciones previsibles (ARQ-006) aplica el principio a la navegación',
-       rel=['KYN-SDI-PEX-010'], verif=[('Dos contextos', 'Se ejecuta la misma operación en dos pantallas.', 'mismo resultado, mismos mensajes y mismas teclas.'),
+       rel=['KYN-SDI-ARQ-006', 'KYN-SDI-SPR-005', 'KYN-SDI-PEX-010'], verif=[('Dos contextos', 'Se ejecuta la misma operación en dos pantallas.', 'mismo resultado, mismos mensajes y mismas teclas.'),
               ('Diferencias', f'Se revisa cada diferencia de comportamiento entre pantallas.', 'cada una tiene su justificación registrada.')]),
 
     n1('KYN-SDI-PEX-006', 'Contexto antes de actuar', 6, 'Consecuencias visibles antes de confirmar',
        'Se aplica a las acciones que cambian información o decisiones importantes: <strong>la persona ve qué va a cambiar antes de confirmar</strong>.', [
         req(N('Cuando una acción puede afectar información o decisiones importantes, la interfaz debe proporcionar el contexto necesario para comprender sus consecuencias.', 'debe')),
         stack([('Qué se muestra', ['Qué va a cambiar, cuántos elementos, si se puede deshacer y quién más se ve afectado.']),
-               ('Proporción', [f'La protección crece con el impacto: deshacer para lo reversible y confirmación explícita para lo irreversible. Los niveles los define {R("KYN-SDI-CPE-003")}.']),
+               ('Proporción', [f'La protección crece con el impacto: deshacer para lo reversible y {R("KYN-SDI-CPE-003", "confirmación explícita")} para lo irreversible.']),
                ('Ejemplo', ['Antes de eliminar 12 facturas, el diálogo indica cuántas son, que la acción no se puede deshacer y que el cliente dejará de verlas.'])]),
     ], origen=['Contexto antes de actuar (ampliación)', 'UIX-006'],
        responsabilidad='Antes de una acción de consecuencias, la persona ve qué va a cambiar.',
@@ -102,19 +102,19 @@ CAP01 = [
        'Se aplica a los datos y las acciones donde las personas se equivocan con frecuencia: <strong>la interfaz evita el error antes de tener que corregirlo</strong>.', [
         req(N('La interfaz debería prevenir los errores frecuentes mediante opciones válidas, valores sugeridos y formatos comprensibles antes de que la persona los cometa.', 'deberia')),
         stack([('Opciones válidas', ['Solo se ofrecen las opciones posibles: fechas existentes, cantidades dentro del rango y estados permitidos.']),
-               ('Formatos', [f'El formato esperado se ve antes de escribir, en la etiqueta o en la ayuda del campo, según {R("KYN-SDI-CPE-005")}.']),
-               ('Acciones de riesgo', [f'Se separan de las frecuentes y llevan su protección, según {R("KYN-SDI-PEX-006")}.'])]),
+               ('Formatos', [f'El formato esperado se ve antes de escribir, en la etiqueta o en la ayuda del campo.']),
+               ('Acciones de riesgo', [f'Se separan de las frecuentes y llevan su protección.'])]),
     ], origen=['Prevención de errores (ampliación de la matriz; requisito redactado por Claude)'],
        responsabilidad='La interfaz previene los errores frecuentes antes de que ocurran.',
        cita='13 Entradas y 16 Formularios desarrollan la validación',
-       verif=[('Errores frecuentes', 'Se registran los errores más frecuentes de una prueba con personas.', 'cada uno tiene una medida preventiva o una razón documentada para no tenerla.')], ver='grupo'),
+       rel=['KYN-SDI-CPE-005', 'KYN-SDI-PEX-006'], verif=[('Errores frecuentes', 'Se registran los errores más frecuentes de una prueba con personas.', 'cada uno tiene una medida preventiva o una razón documentada para no tenerla.')], ver='grupo'),
 
     n1('KYN-SDI-PEX-017', 'Control de la persona', 8, 'Cancelar, deshacer y decidir',
        'Se aplica a toda operación que la persona inicia y a lo que el sistema completa o sugiere: <strong>cada operación ofrece la salida que corresponde a su efecto</strong>, antes y después de confirmarla.', [
         req(N('La persona debe poder cancelar, deshacer o corregir las acciones reversibles y decidir sobre lo que el sistema propone.', 'debe')),
         matriz('Salida según la operación', [('Antes de confirmar', 'Mientras se decide'), ('Después de confirmar', 'Cuando ya ocurrió')], [
             ('Acción reversible', ['Cancelar cierra sin cambios.', 'Deshacer en el mismo lugar, mientras el cambio no afecte a otras personas o sistemas. Después, la corrección es una acción nueva que queda registrada.']),
-            ('Acción irreversible', ['El botón nombra la consecuencia, como «Eliminar definitivamente», y la confirmación dice qué se pierde.', f'Sin deshacer. La protección según el riesgo la define {R("KYN-SDI-CPE-003")}.']),
+            ('Acción irreversible', ['El botón nombra la consecuencia, como «Eliminar definitivamente», y la confirmación dice qué se pierde.', f'Sin deshacer; la {R("KYN-SDI-CPE-003", "confirmación")} se refuerza según el riesgo.']),
             ('Proceso largo', ['Cancelar antes de iniciar.', 'Cancelar o pausar cuando el sistema puede detenerlo sin dejar datos a medias. Al hacerlo, informa qué quedó hecho y qué no.']),
             ('Propuesta del sistema', ['Lo completado o sugerido queda editable y marcado como propuesta.', 'Se corrige como cualquier dato propio.'])]),
         stack([('Aprobación de la persona', ['Una propuesta necesita aprobación explícita cuando cambia datos de otras personas, envía algo fuera del producto o tiene efecto económico o legal.']),
@@ -153,13 +153,13 @@ CAP02 = [
         req(N('Las decisiones de experiencia deben basarse en tareas, responsabilidades y necesidades reales de los perfiles que utilizan el sistema.', 'debe')),
         stack([('Perfiles operativos', ['Cada producto documenta quién lo opera: tareas, frecuencia, responsabilidades, condiciones de uso y experiencia. Quien compra el producto y quien lo usa pueden ser personas distintas.']),
                ('Condiciones de uso', ['Dispositivo, entorno, interrupciones y conectividad forman parte del perfil.']),
-               ('Accesibilidad', [f'Los perfiles incluyen personas con discapacidad y con atención variable. Sus criterios técnicos están en {L("20", "los capítulos 20 a 22 de Accesibilidad")}.'])]),
+               ('Accesibilidad', [f'Los perfiles incluyen personas con discapacidad y con atención variable.'])]),
         detalle([('Entregable: perfil operativo', [
             ('Contenido', 'Rol, tareas frecuentes y ocasionales, permisos, contexto de uso, dificultades observadas y fuente de cada dato.'),
-            ('Fuente', f'Cada dato se marca como observado o como hipótesis, según {R("KYN-SDI-PEX-014")}.')])]),
+            ('Fuente', f'Cada dato se marca como observado o como hipótesis.')])]),
     ], origen=['Diseñar para quienes utilizan el producto (base)', 'Perfiles operativos y condiciones de uso (ampliación de la matriz)', 'UIX-007', 'UIX-009'],
        responsabilidad='Las decisiones de experiencia parten de tareas y necesidades reales de quienes operan el producto.',
-       rel=['KYN-SDI-ACC-001'], verif=[('Pruebas por perfil', 'Se revisan las pruebas de tareas del producto.', 'cada perfil documentado tiene pruebas con personas de ese perfil, además de las de administración.')], ver='grupo'),
+       rel=['KYN-SDI-PEX-014', 'SD-20', 'KYN-SDI-ACC-001'], verif=[('Pruebas por perfil', 'Se revisan las pruebas de tareas del producto.', 'cada perfil documentado tiene pruebas con personas de ese perfil, además de las de administración.')], ver='grupo'),
 
     n2('KYN-SDI-PEX-008', 'Roles y permisos', 2, 'Acciones y datos según el rol',
        'Se aplica a todo producto con roles: <strong>los permisos efectivos deciden qué acciones y datos ve cada persona</strong>, y el servidor lo confirma.', [
@@ -168,17 +168,17 @@ CAP02 = [
               ('Permisos efectivos', [N('Los permisos efectivos deben determinar las acciones y datos disponibles.', 'debe'),
                                       'Se calculan con el rol y el contexto del registro, como la unidad o el estado. La interfaz muestra lo que ese cálculo permite.']),
               ('Validación en el servidor', [N('Ocultar un control en la interfaz no debe sustituir la validación de autorización.', 'no-debe'),
-                                             f'El servidor rechaza toda operación sin permiso, aunque la interfaz ya la oculte, con un mensaje que no revela datos, según {R("KYN-SDI-ARQ-017")}.'])]),
+                                             f'El servidor rechaza toda operación sin permiso, aunque la interfaz ya la oculte, con un mensaje que no revela datos.'])]),
     ], origen=['Roles y necesidades diferenciadas (base)', 'Acceso por responsabilidades (ampliación)', 'UIX-008'],
        responsabilidad='Los permisos efectivos determinan acciones y datos; la interfaz no reemplaza la validación.',
        cita='06 Resultados autorizados (ARQ-016) aplica el límite a la búsqueda',
-       verif=[('Perfiles', 'Se repite cada tarea con perfiles de distinto permiso.', 'cada perfil ve solo sus acciones y sus datos.'),
+       rel=['KYN-SDI-ARQ-017'], verif=[('Perfiles', 'Se repite cada tarea con perfiles de distinto permiso.', 'cada perfil ve solo sus acciones y sus datos.'),
               ('Operación directa', 'Se envía la operación no autorizada directamente al servidor, sin pasar por la interfaz.', 'el servidor la rechaza y la respuesta no incluye datos del registro.')], ver='tecnica'),
 
     n2('KYN-SDI-PEX-009', 'Uso ocasional y frecuente', 3, 'Densidad y ayudas según la frecuencia de uso',
        'Se aplica cuando un producto tiene personas que lo usan a diario y otras que lo usan de vez en cuando: <strong>cambian la ayuda y la densidad, no los patrones</strong>.', [
         dims([('Densidad y ayudas', [N('Un mismo producto puede presentar distintas densidades y ayudas según el contexto operativo, sin cambiar innecesariamente sus patrones de interacción.', 'puede'),
-                                     f'El uso ocasional lleva instrucciones visibles, ejemplos y el modo cómodo. El frecuente, ayuda a pedido y el modo denso, si el producto lo ofrece ({L("10")}). Los controles y los nombres son los mismos.']),
+                                     f'El uso ocasional lleva instrucciones visibles, ejemplos y el modo cómodo. El frecuente, ayuda a pedido y el modo denso, si el producto lo ofrece. Los controles y los nombres son los mismos.']),
               ('Esfuerzo de navegación', [N('Las tareas frecuentes deberían requerir menos esfuerzo de navegación que las tareas ocasionales, manteniendo controles y confirmaciones necesarios.', 'deberia'),
                                           'Las tareas diarias tienen accesos directos y elementos recientes; las ocasionales siguen el recorrido de la navegación.']),
               ('Presentación por tarea', [N('Una misma información puede presentarse de distintas maneras según la tarea y el rol, siempre que conserve su significado.', 'puede'),
@@ -186,7 +186,7 @@ CAP02 = [
     ], origen=['Uso ocasional y frecuente (base)', 'Frecuencia de uso (ampliación)', 'Contextos distintos (ampliación)', 'UIX-008', 'UIX-029'],
        responsabilidad='Densidad, ayudas y esfuerzo se ajustan a la frecuencia y al contexto, con los mismos patrones.',
        cita='10 Espacio y retícula define los modos de densidad',
-       verif=[('Esfuerzo', 'Se miden los pasos y el tiempo de las tres tareas más frecuentes y de tres ocasionales comparables.', 'las frecuentes requieren menos esfuerzo, con los mismos patrones.')], ver='grupo'),
+       rel=['SD-10'], verif=[('Esfuerzo', 'Se miden los pasos y el tiempo de las tres tareas más frecuentes y de tres ocasionales comparables.', 'las frecuentes requieren menos esfuerzo, con los mismos patrones.')], ver='grupo'),
 
     seccion('ejemplo', '02', 'Ejemplo de aplicación', 'Administración y residentes',
             'La administración de un residencial y un residente pueden compartir componentes visuales, pero <strong>no necesitan las mismas acciones</strong>, navegación ni profundidad informativa.', [
@@ -203,15 +203,15 @@ CAP03 = [
        'Se aplica a toda decisión que cambia cómo se usa un producto: <strong>se registra con el problema que resuelve</strong>, para poder revisarla después.', [
         req(N('Toda decisión significativa de diseño debe relacionarse con un problema, una necesidad o una oportunidad identificable.', 'debe')),
         stack([('Alternativas', ['Se comparan al menos dos opciones con los mismos criterios: tarea, perfiles, riesgo y costo.']),
-               ('Excepciones', [f'Una desviación de una norma se registra con su motivo, alcance y fecha de revisión, según {R("KYN-SDI-GOB-007")}.'])]),
+               ('Excepciones', [f'Una desviación de una norma se registra con su motivo, alcance y fecha de revisión.'])]),
         detalle([('Entregable: ficha de decisión', [
             ('Problema', 'Qué pasa y a quién afecta, con su evidencia.'),
             ('Decisión', 'Qué se eligió y por qué, frente a qué alternativas.'),
             ('Resultado esperado', 'Qué debería cambiar y cómo se va a medir.'),
-            ('Reutilización', f'Si la decisión sirve a otros productos, se propone para {L("34")}.')])]),
+            ('Reutilización', 'Si la decisión sirve a otros productos, se propone para la base compartida.')])]),
     ], origen=['Decisiones justificadas (base)', 'Problema antes de solución (ampliación)', 'Comparar alternativas y registrar excepciones (ampliación de la matriz)', 'UIX-003'],
        responsabilidad='Cada decisión significativa se vincula con un problema, una necesidad o una hipótesis, y queda registrada.',
-       verif=[('Muestra', 'Se toman al azar tres decisiones de un proyecto.', 'cada una tiene su ficha completa.')]),
+       rel=['KYN-SDI-GOB-007', 'SD-34'], verif=[('Muestra', 'Se toman al azar tres decisiones de un proyecto.', 'cada una tiene su ficha completa.')]),
 
     n3('KYN-SDI-PEX-011', 'Prisma como metodología', 2, 'Fases de Prisma y sus entregables',
        'Ordena todo proyecto de diseño en <strong>cinco fases de nombre fijo</strong>, cada una con su entregable.', [
@@ -219,15 +219,14 @@ CAP03 = [
         pasos([('Amanecer', 'Arranque: tipo de proyecto, alcance, quién lo opera y modalidad de investigación.', 'Entregable', 'Acta de inicio aprobada.'),
                ('Mediodía', 'Investigación del contexto operativo real.', 'Entregable', 'Reporte de hallazgos.'),
                ('Atardecer', 'Definición del problema que se resuelve y del que queda fuera.', 'Entregable', 'Brief con criterios de aceptación medibles.'),
-               ('Anochecer', f'Ideación, prototipado y validación con personas reales, por capas ({R("KYN-SDI-PEX-012", "Diseño por capas")}).', 'Entregable', 'Prototipo validado con su reporte.'),
+               ('Anochecer', f'Ideación, prototipado y validación con personas reales, por capas.', 'Entregable', 'Prototipo validado con su reporte.'),
                ('Galaxia', 'Producto vivo: evoluciona con lo observado.', 'Entregable', 'Bitácora de evolución.')]),
         detalle([('Origen y aprobación', [
-            ('Fuente', 'Las fases y sus entregables vienen de UIX-002, con traslado aprobado el 2026-11-09.'),
-            ('Aprobación', f'Las firmas y los roles de aprobación se definen en {L("42")}.')])]),
+            ('Fuente', 'Las fases y sus entregables vienen de UIX-002, con traslado aprobado el 2026-11-09.')])]),
     ], origen=['Prisma como metodología (base)', 'UIX-002'],
        responsabilidad='Los proyectos siguen las cinco fases de Prisma, con su entregable por fase.',
        cita='43 Implementación conserva la operación del método',
-       verif=[('Expediente', 'Se revisa el expediente de un proyecto en curso.', 'cada fase cerrada tiene su entregable antes de abrir la siguiente.')]),
+       rel=['KYN-SDI-PEX-012', 'SD-42'], verif=[('Expediente', 'Se revisa el expediente de un proyecto en curso.', 'cada fase cerrada tiene su entregable antes de abrir la siguiente.')]),
 
     n3('KYN-SDI-PEX-012', 'Diseño por capas', 3, 'Estructura, interacción y expresión por capas',
        'Define el orden de trabajo dentro de Anochecer: <strong>primero lo que funciona y después lo que expresa</strong>.', [
@@ -272,11 +271,11 @@ CAP03 = [
        'Se aplica a los cambios que podrían pasar a otros productos: <strong>primero se miden donde actúan</strong>.', [
         req(N('Los cambios relevantes deberían comprobarse en las tareas afectadas antes de extenderse a otros productos.', 'deberia')),
         stack([('Medidas', ['Completitud de tareas críticas, tiempo, errores y abandono, antes y después del cambio. Las medidas exactas se acuerdan con Producto, con UIX-048 como referencia.']),
-               ('Extensión', [f'Un cambio pasa a {L("34")} solo con su evaluación.'])]),
+               ('Extensión', ['Un cambio pasa a la base compartida solo con su evaluación.'])]),
     ], origen=['Evaluación posterior (ampliación)', 'UIX-048'],
        responsabilidad='Los cambios se comprueban en las tareas afectadas antes de extenderse.',
        cita='44 Validación define el protocolo de prueba',
-       verif=[('Antes y después', 'Se revisa un cambio relevante ya extendido.', 'tiene sus medidas de antes y de después en la misma tarea.')]),
+       rel=['SD-34'], verif=[('Antes y después', 'Se revisa un cambio relevante ya extendido.', 'tiene sus medidas de antes y de después en la misma tarea.')]),
 
     seccion('ejemplo', '03', 'Ejemplo de aplicación', 'Un formulario por capas',
             'Se evalúa primero un formulario con blanco, grises y Azul Noche. Después se incorporan <strong>los colores funcionales y los recursos expresivos</strong> justificados.', [
