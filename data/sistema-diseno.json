@@ -355,7 +355,7 @@
    "t": "Fundamentos de interfaz",
    "slug": "fundamentos-interfaz",
    "d": "Traduce los fundamentos visuales de Marca a reglas técnicas y visuales aplicables a interfaces.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "COL-012",
     "COL-013",
@@ -370,25 +370,28 @@
      "n": "03.01",
      "t": "Tokens de diseño",
      "slug": "tokens-de-diseno",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "03.01.01",
-       "t": "Tokens base, semánticos y de componente",
-       "estado": "pendiente",
-       "st": "Tokens base"
+       "t": "Fuente única de valores",
+       "estado": "borrador",
+       "st": "Fuente única",
+       "norma": "KYN-SDI-FUI-001"
       },
       {
        "n": "03.01.02",
-       "t": "Nomenclatura, jerarquía y herencia",
-       "estado": "pendiente",
-       "st": "Nomenclatura"
+       "t": "Roles semánticos",
+       "estado": "borrador",
+       "st": "Roles semánticos",
+       "norma": "KYN-SDI-FUI-002"
       },
       {
        "n": "03.01.03",
-       "t": "Temas visuales y versionado",
-       "estado": "pendiente",
-       "st": "Temas visuales"
+       "t": "Cambios controlados",
+       "estado": "borrador",
+       "st": "Cambios controlados",
+       "norma": "KYN-SDI-FUI-003"
       }
      ],
      "st": "Tokens",
@@ -399,25 +402,35 @@
      "n": "03.02",
      "t": "Color funcional",
      "slug": "color-funcional",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "03.02.01",
-       "t": "Superficies, texto y bordes",
-       "estado": "pendiente",
-       "st": "Superficies"
+       "t": "Color con función",
+       "estado": "borrador",
+       "st": "Color con función",
+       "norma": "KYN-SDI-FUI-004"
       },
       {
        "n": "03.02.02",
-       "t": "Colores de interacción, foco y estados",
-       "estado": "pendiente",
-       "st": "Interacción"
+       "t": "Estados semánticos",
+       "estado": "borrador",
+       "st": "Estados",
+       "norma": "KYN-SDI-FUI-005"
       },
       {
        "n": "03.02.03",
-       "t": "Contraste y adaptación entre modos de color",
-       "estado": "pendiente",
-       "st": "Contraste"
+       "t": "Separación de significados",
+       "estado": "borrador",
+       "st": "Significados",
+       "norma": "KYN-SDI-FUI-006"
+      },
+      {
+       "n": "03.02.04",
+       "t": "Contraste",
+       "estado": "borrador",
+       "st": "Contraste",
+       "norma": "KYN-SDI-FUI-007"
       }
      ],
      "st": "Color funcional",
@@ -428,25 +441,35 @@
      "n": "03.03",
      "t": "Tipografía aplicada",
      "slug": "tipografia-aplicada",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "03.03.01",
-       "t": "Funciones de las familias tipográficas oficiales",
-       "estado": "pendiente",
-       "st": "Familias tipográficas"
+       "t": "Sistema tipográfico",
+       "estado": "borrador",
+       "st": "Sistema tipográfico",
+       "norma": "KYN-SDI-FUI-008"
       },
       {
        "n": "03.03.02",
-       "t": "Jerarquías, escalas y legibilidad",
-       "estado": "pendiente",
-       "st": "Jerarquías y escalas"
+       "t": "Jerarquía consistente",
+       "estado": "borrador",
+       "st": "Jerarquía",
+       "norma": "KYN-SDI-FUI-009"
       },
       {
        "n": "03.03.03",
-       "t": "Números, cifras y tipografía de datos",
-       "estado": "pendiente",
-       "st": "Cifras y datos"
+       "t": "Legibilidad",
+       "estado": "borrador",
+       "st": "Legibilidad",
+       "norma": "KYN-SDI-FUI-010"
+      },
+      {
+       "n": "03.03.04",
+       "t": "Truncamiento",
+       "estado": "borrador",
+       "st": "Truncamiento",
+       "norma": "KYN-SDI-FUI-011"
       }
      ],
      "st": "Tipografía",
@@ -457,25 +480,28 @@
      "n": "03.04",
      "t": "Espacio, retícula y geometría",
      "slug": "espacio-reticula-y-geometria",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "03.04.01",
-       "t": "Retículas y puntos de adaptación",
-       "estado": "pendiente",
-       "st": "Retículas"
+       "t": "Espaciado compartido",
+       "estado": "borrador",
+       "st": "Espaciado",
+       "norma": "KYN-SDI-FUI-012"
       },
       {
        "n": "03.04.02",
-       "t": "Espaciado y densidad de interfaz",
-       "estado": "pendiente",
-       "st": "Espaciado"
+       "t": "Agrupación semántica",
+       "estado": "borrador",
+       "st": "Agrupación",
+       "norma": "KYN-SDI-FUI-013"
       },
       {
        "n": "03.04.03",
-       "t": "Geometría y esquinas de componentes",
-       "estado": "pendiente",
-       "st": "Geometría"
+       "t": "Composición adaptable",
+       "estado": "borrador",
+       "st": "Adaptación",
+       "norma": "KYN-SDI-FUI-014"
       }
      ],
      "st": "Espacio y retícula",

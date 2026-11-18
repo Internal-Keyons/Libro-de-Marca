@@ -45,3 +45,17 @@ Generada por `tools/sd_capitulos.py` desde `data/sd-normas.json` (fuente única 
 | KYN-SDI-ARQ-014 | 06 | Filtros visibles | borrador | Filtros visibles (ampliación) · Conservación de filtros (ampliación de la matriz) | Los filtros activos se ven y se modifican sin perder la consulta. | La conservación al volver la regula ARQ-010 (05) |
 | KYN-SDI-ARQ-015 | 06 | Sin resultados | borrador | Sin resultados (base) · Ausencia de resultados (ampliación) · UIX-026 · UIX-023 | Sin coincidencias, la interfaz lo explica y ofrece una acción; un error y la falta de acceso se distinguen. | 24 Mensajes define la redacción |
 | KYN-SDI-ARQ-016 | 06 | Resultados autorizados | borrador | Resultados autorizados (ampliación) | La búsqueda no revela, por ninguna vía, información sin permiso. | Aplica PEX-008 a la búsqueda |
+| KYN-SDI-FUI-001 | 07 | Fuente única de valores | borrador | Fuente única de valores (base) · Tokens semánticos oficiales (matriz) · UIX-011 | Los componentes usan tokens oficiales para todo valor compartido. | — |
+| KYN-SDI-FUI-002 | 07 | Roles semánticos | borrador | Roles semánticos (base) · Temas claro y oscuro (pendiente de la matriz) | Los tokens se nombran por su función y permiten cambiar de tema. | — |
+| KYN-SDI-FUI-003 | 07 | Cambios controlados | borrador | Cambios controlados (base) · UIX-011 | Los cambios de tokens se comprueban en componentes y productos antes de aprobarse. | — |
+| KYN-SDI-FUI-004 | 08 | Color con función | borrador | Color con función (base) | Cada color de la interfaz cumple una función identificable. | — |
+| KYN-SDI-FUI-005 | 08 | Estados semánticos | borrador | Estados semánticos (base) · UIX-038 | Los estados usan el color oficial y una señal adicional. | — |
+| KYN-SDI-FUI-006 | 08 | Separación de significados | borrador | Separación de significados (base) | Salmón Tierra no reemplaza al color de error. | — |
+| KYN-SDI-FUI-007 | 08 | Contraste | borrador | Contraste (base) · UIX-038 | Las combinaciones cumplen los mínimos de contraste de WCAG 2.2 AA. | — |
+| KYN-SDI-FUI-008 | 09 | Sistema tipográfico | borrador | Sistema tipográfico (base) | Las interfaces usan las familias, pesos y escala oficiales. | — |
+| KYN-SDI-FUI-009 | 09 | Jerarquía consistente | borrador | Jerarquía consistente (base) | Cada función de texto mantiene un aspecto reconocible. | — |
+| KYN-SDI-FUI-010 | 09 | Legibilidad | borrador | Legibilidad (base) | El texto se lee con ampliación, espaciado y en cualquier pantalla. | — |
+| KYN-SDI-FUI-011 | 09 | Truncamiento | borrador | Truncamiento (base) | Lo acortado sigue disponible completo. | — |
+| KYN-SDI-FUI-012 | 10 | Espaciado compartido | borrador | Espaciado compartido (base) | Los componentes usan la escala espacial oficial. | — |
+| KYN-SDI-FUI-013 | 10 | Agrupación semántica | borrador | Agrupación semántica (base) | La proximidad refleja la relación funcional. | — |
+| KYN-SDI-FUI-014 | 10 | Composición adaptable | borrador | Composición adaptable (base) · Densidad y esquinas (descripción del capítulo) · UIX-029 | La retícula se adapta sin solapamientos ni pérdidas, con densidad y esquinas oficiales. | — |

@@ -39,17 +39,50 @@
       </div>
     </section>
 
-    <!-- Subcapítulos: cada uno reunirá sus normas. Generado por tools/sistema_diseno.py -->
-    <section class="ed" id="subcapitulos">
-      <div class="ed__label"><span>10</span><span>Subcapítulos</span></div>
+    <!-- Capítulo 10 · generado por tools/sd_capitulos.py (tools/sd/). No se edita a mano. Borrador. -->
+    <!-- KYN-SDI-FUI-012 · Espaciado compartido -->
+    <section class="ed" id="s-03-04-01">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-FUI-012" data-copy-msg="ID copiado · KYN-SDI-FUI-012" title="Copiar el ID de esta norma">KYN-SDI-FUI-012</span><span>Espaciado compartido</span></div>
       <div>
-        <h2 class="ed__title">Subcapítulos</h2>
-        <p class="ed__lead">Cada subcapítulo reunirá sus <strong>reglas, ejemplos y especificaciones</strong>. Sus 3 subcapítulos todavía no tienen normas aprobadas.</p>
-        <div class="kidx__list sd-refs">
-          <div class="kidx__r sd-sub" id="s-03-04-01"><span class="kidx__t">Retículas y puntos de adaptación</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-          <div class="kidx__r sd-sub" id="s-03-04-02"><span class="kidx__t">Espaciado y densidad de interfaz</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-          <div class="kidx__r sd-sub" id="s-03-04-03"><span class="kidx__t">Geometría y esquinas de componentes</span><span class="sd-st"><span class="dot dot--pendiente" title="Por definir" aria-label="Por definir"></span>Por definir</span></div>
-        </div>
+        <h2 class="ed__title">Los espacios salen de la escala oficial</h2>
+        <p class="ed__lead">Un ritmo común <strong>ordena todas las pantallas</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Los componentes DEBEN aplicar la escala espacial oficial de Keyons y sus tokens correspondientes.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="matrix" role="table" aria-label="Escala espacial"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span><span class="matrix__lvl" role="columnheader">Tokens<small></small></span><span class="matrix__lvl" role="columnheader">Uso habitual en interfaz (propuesta)<small></small></span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">4 a 12 px</span><span class="matrix__v" role="cell"><code>--s1</code>, <code>--s2</code>, <code>--s3</code></span><span class="matrix__v" role="cell">Dentro de un control: ícono y texto, etiqueta y campo.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">16 a 24 px</span><span class="matrix__v" role="cell"><code>--s4</code>, <code>--s5</code>, <code>--s6</code></span><span class="matrix__v" role="cell">Entre campos y entre filas de una lista.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">32 a 48 px</span><span class="matrix__v" role="cell"><code>--s8</code>, <code>--s10</code>, <code>--s12</code></span><span class="matrix__v" role="cell">Entre grupos y secciones de una pantalla.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">64 px o más</span><span class="matrix__v" role="cell"><code>--s16</code> en adelante</span><span class="matrix__v" role="cell">Entre bloques mayores de una página.</span></div></div>
+        <div class="dets"><details class="det"><summary>Notas técnicas<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Origen</dt><dd>La escala es la de <a class="xref" href="../../fundamentos/forma/espacio.html#espaciado" title="KYN-MRK-ESP-003">Sistema de espaciado</a>; la asignación por uso es una propuesta.</dd></div></dl></div></details><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Búsqueda</dt><dd>Ningún margen ni separación de un componente usa un valor fuera de la escala.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-FUI-013 · Agrupación semántica -->
+    <section class="ed" id="s-03-04-02">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-FUI-013" data-copy-msg="ID copiado · KYN-SDI-FUI-013" title="Copiar el ID de esta norma">KYN-SDI-FUI-013</span><span>Agrupación semántica</span></div>
+      <div>
+        <h2 class="ed__title">Lo que está cerca está relacionado</h2>
+        <p class="ed__lead">La distancia <strong>dice qué va junto</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">La proximidad entre elementos DEBE reflejar su relación funcional: etiqueta y campo, título y contenido, acción y resultado.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="ed__stack"><div><span class="paren">(Regla de proximidad)</span><p>El espacio dentro de un grupo es menor que el espacio entre grupos.</p></div><div><span class="paren">(Acción y resultado)</span><p>El mensaje de resultado aparece junto a la acción o al elemento afectado.</p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Agrupación</dt><dd>La persona señala qué elementos van juntos sin leer las etiquetas. Resultado esperado: coincide con los grupos definidos.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- KYN-SDI-FUI-014 · Composición adaptable -->
+    <section class="ed" id="s-03-04-03">
+      <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-FUI-014" data-copy-msg="ID copiado · KYN-SDI-FUI-014" title="Copiar el ID de esta norma">KYN-SDI-FUI-014</span><span>Composición adaptable</span></div>
+      <div>
+        <h2 class="ed__title">La retícula se reorganiza sin perder nada</h2>
+        <p class="ed__lead">Cambia la disposición; <strong>la tarea sigue completa</strong>.</p>
+        <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Las retículas DEBEN reorganizarse sin producir solapamientos, pérdida de controles ni recortes que impidan completar tareas.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
+        <div class="ed__stack"><div><span class="paren">(Retícula)</span><p>Columnas, márgenes y medianiles siguen <a class="xref" href="../../fundamentos/composicion/editorial.html#reticula" title="KYN-MRK-ESP-004">Retícula y responsive</a>.</p></div><div><span class="paren">(Densidad)</span><p>Modo cómodo y modo denso, con valor predeterminado según el perfil (PEX-009), según <a class="xref" href="../../fundamentos/composicion/editorial.html#densidad" title="KYN-MRK-ESP-005">Jerarquía y densidad de información</a>.</p></div><div><span class="paren">(Esquinas)</span><p>Radios de la escala: <code>--r-control</code> en controles, <code>--r-component</code> en componentes y <code>--r-card</code> en tarjetas (<a class="xref" href="../../fundamentos/forma/espacio.html#radios" title="KYN-MRK-ESP-002">Sistema de radios y curvaturas</a>).</p></div></div>
+        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Cuatro casos</dt><dd>Contenido largo, estados de error, anchos de 320 a 1440 px y los dos modos de densidad. Resultado esperado: sin solapamientos ni controles perdidos.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- Ejemplo de aplicación -->
+    <section class="ed" id="ejemplo">
+      <div class="ed__label"><span>10</span><span>Ejemplo de aplicación</span></div>
+      <div>
+        <h2 class="ed__title">Un formulario agrupado</h2>
+        <p class="ed__lead">En un formulario, <strong>cada etiqueta permanece asociada visualmente a su campo</strong> y los grupos de información son reconocibles.</p>
+        <div class="ed__stack"><div><span class="paren">(Verificación del capítulo)</span><p>Se prueban contenido largo, estados de error, distintos anchos y variaciones de densidad.</p></div></div>
       </div>
     </section>
 

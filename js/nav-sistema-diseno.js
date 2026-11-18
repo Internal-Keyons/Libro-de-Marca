@@ -77,22 +77,24 @@ window.KEYONS_NAV = [
     cd: 'Los fundamentos de Marca convertidos en reglas de interfaz.',
     d: 'Traduce los fundamentos visuales de Marca a reglas técnicas y visuales aplicables a interfaces.',
     ch: [
-      { n: '07', k: '03-01', t: 'Tokens', full: 'Tokens de diseño', d: 'Tokens base, semánticos y de componente; nomenclatura, temas y versiones.', s: 'p', items: [
-          { t: 'Tokens base', st: 'Tokens base', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/tokens-de-diseno.html#s-03-01-01' },
-          { t: 'Nomenclatura', st: 'Nomenclatura', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/tokens-de-diseno.html#s-03-01-02' },
-          { t: 'Temas visuales', st: 'Temas visuales', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/tokens-de-diseno.html#s-03-01-03' } ] },
-      { n: '08', k: '03-02', t: 'Color funcional', full: 'Color funcional', d: 'Superficies, texto, bordes, interacción, foco, estados y contraste.', s: 'p', items: [
-          { t: 'Superficies', st: 'Superficies', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-01' },
-          { t: 'Interacción', st: 'Interacción', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-02' },
-          { t: 'Contraste', st: 'Contraste', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-03' } ] },
-      { n: '09', k: '03-03', t: 'Tipografía', full: 'Tipografía aplicada', d: 'Familias oficiales aplicadas a interfaz: jerarquías, escalas y cifras.', s: 'p', items: [
-          { t: 'Familias tipográficas', st: 'Familias tipográficas', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-01' },
-          { t: 'Jerarquías y escalas', st: 'Jerarquías y escalas', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-02' },
-          { t: 'Cifras y datos', st: 'Cifras y datos', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-03' } ] },
-      { n: '10', k: '03-04', t: 'Espacio y retícula', full: 'Espacio, retícula y geometría', d: 'Retículas, puntos de adaptación, espaciado, densidad y esquinas.', s: 'p', items: [
-          { t: 'Retículas', st: 'Retículas', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-01' },
-          { t: 'Espaciado', st: 'Espaciado', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-02' },
-          { t: 'Geometría', st: 'Geometría', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-03' } ] },
+      { n: '07', k: '03-01', t: 'Tokens', full: 'Tokens de diseño', d: 'Tokens base, semánticos y de componente; nomenclatura, temas y versiones.', s: 'b', items: [
+          { t: 'Fuente única', st: 'Fuente única', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/tokens-de-diseno.html#s-03-01-01' },
+          { t: 'Roles semánticos', st: 'Roles semánticos', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/tokens-de-diseno.html#s-03-01-02' },
+          { t: 'Cambios controlados', st: 'Cambios controlados', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/tokens-de-diseno.html#s-03-01-03' } ] },
+      { n: '08', k: '03-02', t: 'Color funcional', full: 'Color funcional', d: 'Superficies, texto, bordes, interacción, foco, estados y contraste.', s: 'b', items: [
+          { t: 'Color con función', st: 'Color con función', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-01' },
+          { t: 'Estados', st: 'Estados', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-02' },
+          { t: 'Significados', st: 'Significados', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-03' },
+          { t: 'Contraste', st: 'Contraste', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-04' } ] },
+      { n: '09', k: '03-03', t: 'Tipografía', full: 'Tipografía aplicada', d: 'Familias oficiales aplicadas a interfaz: jerarquías, escalas y cifras.', s: 'b', items: [
+          { t: 'Sistema tipográfico', st: 'Sistema tipográfico', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-01' },
+          { t: 'Jerarquía', st: 'Jerarquía', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-02' },
+          { t: 'Legibilidad', st: 'Legibilidad', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-03' },
+          { t: 'Truncamiento', st: 'Truncamiento', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-04' } ] },
+      { n: '10', k: '03-04', t: 'Espacio y retícula', full: 'Espacio, retícula y geometría', d: 'Retículas, puntos de adaptación, espaciado, densidad y esquinas.', s: 'b', items: [
+          { t: 'Espaciado', st: 'Espaciado', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-01' },
+          { t: 'Agrupación', st: 'Agrupación', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-02' },
+          { t: 'Adaptación', st: 'Adaptación', s: 'b', href: 'sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-03' } ] },
       { n: '11', k: '03-05', t: 'Recursos visuales', full: 'Recursos visuales de interfaz', d: 'Iconografía funcional, bordes, sombras, elevación e imágenes aplicadas.', s: 'p', items: [
           { t: 'Iconografía funcional', st: 'Iconografía funcional', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/recursos-visuales-de-interfaz.html#s-03-05-01' },
           { t: 'Bordes', st: 'Bordes', s: 'p', href: 'sistema-diseno/fundamentos-interfaz/recursos-visuales-de-interfaz.html#s-03-05-02' },

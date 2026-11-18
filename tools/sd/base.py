@@ -120,3 +120,12 @@ def numeradas(items, cols=3):
     m = {2: ' pgrid--2', 3: '', 4: ' pgrid--4'}[cols]
     return (f'{I}<div class="pgrid{m}">' + ''.join(
         f'<div><span class="pgrid__n">{k:02d}</span><p class="pgrid__t">{esc(t)}</p>{P(*ps, cls="pgrid__d")}</div>' for k, (t, ps) in enumerate(items, 1)) + '</div>')
+
+
+_MRK = {v['id']: (k, v['t']) for k, v in json.load(io.open(os.path.join(ROOT, 'data', 'normas.json'), encoding='utf-8')).items()}
+
+
+def M(nid, texto=None):
+    """Enlace a una norma del Libro de Marca desde una página de capítulo del Sistema de Diseño (se cita, no se copia)"""
+    ruta, t = _MRK[nid]
+    return f'<a class="xref" href="../../{ruta}" title="{nid}">{esc(texto or t)}</a>'

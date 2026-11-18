@@ -513,6 +513,196 @@
    "responsabilidad": "La interfaz muestra opciones, datos previos y contexto en lugar de exigir memoria.",
    "cita": "",
    "corto": "Reconocer"
+  },
+  {
+   "id": "KYN-SDI-FUI-001",
+   "capitulo": "07",
+   "nombre": "Fuente única de valores",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/tokens-de-diseno.html#s-03-01-01",
+   "origen": [
+    "Fuente única de valores (base)",
+    "Tokens semánticos oficiales (matriz)",
+    "UIX-011"
+   ],
+   "responsabilidad": "Los componentes usan tokens oficiales para todo valor compartido.",
+   "cita": "",
+   "corto": "Fuente única"
+  },
+  {
+   "id": "KYN-SDI-FUI-002",
+   "capitulo": "07",
+   "nombre": "Roles semánticos",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/tokens-de-diseno.html#s-03-01-02",
+   "origen": [
+    "Roles semánticos (base)",
+    "Temas claro y oscuro (pendiente de la matriz)"
+   ],
+   "responsabilidad": "Los tokens se nombran por su función y permiten cambiar de tema.",
+   "cita": "",
+   "corto": "Roles semánticos"
+  },
+  {
+   "id": "KYN-SDI-FUI-003",
+   "capitulo": "07",
+   "nombre": "Cambios controlados",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/tokens-de-diseno.html#s-03-01-03",
+   "origen": [
+    "Cambios controlados (base)",
+    "UIX-011"
+   ],
+   "responsabilidad": "Los cambios de tokens se comprueban en componentes y productos antes de aprobarse.",
+   "cita": "",
+   "corto": "Cambios controlados"
+  },
+  {
+   "id": "KYN-SDI-FUI-004",
+   "capitulo": "08",
+   "nombre": "Color con función",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-01",
+   "origen": [
+    "Color con función (base)"
+   ],
+   "responsabilidad": "Cada color de la interfaz cumple una función identificable.",
+   "cita": "",
+   "corto": "Color con función"
+  },
+  {
+   "id": "KYN-SDI-FUI-005",
+   "capitulo": "08",
+   "nombre": "Estados semánticos",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-02",
+   "origen": [
+    "Estados semánticos (base)",
+    "UIX-038"
+   ],
+   "responsabilidad": "Los estados usan el color oficial y una señal adicional.",
+   "cita": "",
+   "corto": "Estados"
+  },
+  {
+   "id": "KYN-SDI-FUI-006",
+   "capitulo": "08",
+   "nombre": "Separación de significados",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-03",
+   "origen": [
+    "Separación de significados (base)"
+   ],
+   "responsabilidad": "Salmón Tierra no reemplaza al color de error.",
+   "cita": "",
+   "corto": "Significados"
+  },
+  {
+   "id": "KYN-SDI-FUI-007",
+   "capitulo": "08",
+   "nombre": "Contraste",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/color-funcional.html#s-03-02-04",
+   "origen": [
+    "Contraste (base)",
+    "UIX-038"
+   ],
+   "responsabilidad": "Las combinaciones cumplen los mínimos de contraste de WCAG 2.2 AA.",
+   "cita": "",
+   "corto": "Contraste"
+  },
+  {
+   "id": "KYN-SDI-FUI-008",
+   "capitulo": "09",
+   "nombre": "Sistema tipográfico",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-01",
+   "origen": [
+    "Sistema tipográfico (base)"
+   ],
+   "responsabilidad": "Las interfaces usan las familias, pesos y escala oficiales.",
+   "cita": "",
+   "corto": "Sistema tipográfico"
+  },
+  {
+   "id": "KYN-SDI-FUI-009",
+   "capitulo": "09",
+   "nombre": "Jerarquía consistente",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-02",
+   "origen": [
+    "Jerarquía consistente (base)"
+   ],
+   "responsabilidad": "Cada función de texto mantiene un aspecto reconocible.",
+   "cita": "",
+   "corto": "Jerarquía"
+  },
+  {
+   "id": "KYN-SDI-FUI-010",
+   "capitulo": "09",
+   "nombre": "Legibilidad",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-03",
+   "origen": [
+    "Legibilidad (base)"
+   ],
+   "responsabilidad": "El texto se lee con ampliación, espaciado y en cualquier pantalla.",
+   "cita": "",
+   "corto": "Legibilidad"
+  },
+  {
+   "id": "KYN-SDI-FUI-011",
+   "capitulo": "09",
+   "nombre": "Truncamiento",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/tipografia-aplicada.html#s-03-03-04",
+   "origen": [
+    "Truncamiento (base)"
+   ],
+   "responsabilidad": "Lo acortado sigue disponible completo.",
+   "cita": "",
+   "corto": "Truncamiento"
+  },
+  {
+   "id": "KYN-SDI-FUI-012",
+   "capitulo": "10",
+   "nombre": "Espaciado compartido",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-01",
+   "origen": [
+    "Espaciado compartido (base)"
+   ],
+   "responsabilidad": "Los componentes usan la escala espacial oficial.",
+   "cita": "",
+   "corto": "Espaciado"
+  },
+  {
+   "id": "KYN-SDI-FUI-013",
+   "capitulo": "10",
+   "nombre": "Agrupación semántica",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-02",
+   "origen": [
+    "Agrupación semántica (base)"
+   ],
+   "responsabilidad": "La proximidad refleja la relación funcional.",
+   "cita": "",
+   "corto": "Agrupación"
+  },
+  {
+   "id": "KYN-SDI-FUI-014",
+   "capitulo": "10",
+   "nombre": "Composición adaptable",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/fundamentos-interfaz/espacio-reticula-y-geometria.html#s-03-04-03",
+   "origen": [
+    "Composición adaptable (base)",
+    "Densidad y esquinas (descripción del capítulo)",
+    "UIX-029"
+   ],
+   "responsabilidad": "La retícula se adapta sin solapamientos ni pérdidas, con densidad y esquinas oficiales.",
+   "cita": "",
+   "corto": "Adaptación"
   }
  ]
 }

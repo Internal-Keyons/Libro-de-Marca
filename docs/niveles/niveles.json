@@ -3423,6 +3423,140 @@
    "estado": "aplicada",
    "nivel": "no-debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-001",
+   "fuente": "data/sd-capitulos/tokens-de-diseno.html#s-03-01-01",
+   "bloque": 1,
+   "frase": "Los componentes deben utilizar tokens oficiales para los valores visuales y funcionales compartidos, evitando valores arbitrarios repetidos en el código.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-002",
+   "fuente": "data/sd-capitulos/tokens-de-diseno.html#s-03-01-02",
+   "bloque": 1,
+   "frase": "Los tokens deben describir su función, como superficie, texto, borde, foco, acción o estado, en lugar de depender únicamente del nombre de un color.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-003",
+   "fuente": "data/sd-capitulos/tokens-de-diseno.html#s-03-01-03",
+   "bloque": 1,
+   "frase": "Una modificación de tokens compartidos debe comprobarse en los componentes y productos afectados antes de aprobarse.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-004",
+   "fuente": "data/sd-capitulos/color-funcional.html#s-03-02-01",
+   "bloque": 1,
+   "frase": "Cada color aplicado a una interfaz debe cumplir una función de identidad, jerarquía, acción, estado o diferenciación de información.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-005",
+   "fuente": "data/sd-capitulos/color-funcional.html#s-03-02-02",
+   "bloque": 1,
+   "frase": "Los errores, advertencias y confirmaciones deben utilizar las funciones cromáticas oficiales y señales adicionales que permitan comprenderlos sin depender exclusivamente del color.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-006",
+   "fuente": "data/sd-capitulos/color-funcional.html#s-03-02-03",
+   "bloque": 1,
+   "frase": "Salmón Tierra no debe utilizarse como sustituto del color semántico de error.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-007",
+   "fuente": "data/sd-capitulos/color-funcional.html#s-03-02-04",
+   "bloque": 1,
+   "frase": "Las combinaciones cromáticas deben respetar los criterios de contraste aplicables de WCAG 2.2 AA.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-008",
+   "fuente": "data/sd-capitulos/tipografia-aplicada.html#s-03-03-01",
+   "bloque": 1,
+   "frase": "Las interfaces deben utilizar las familias, pesos y criterios tipográficos oficiales de Keyons o el tema aprobado para el producto.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-009",
+   "fuente": "data/sd-capitulos/tipografia-aplicada.html#s-03-03-02",
+   "bloque": 1,
+   "frase": "Títulos, etiquetas, valores, ayudas y textos operativos deben mantener diferencias reconocibles de función y jerarquía.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-010",
+   "fuente": "data/sd-capitulos/tipografia-aplicada.html#s-03-03-03",
+   "bloque": 1,
+   "frase": "Los textos deben conservar legibilidad con ampliación, ajustes de espaciado y diferentes tamaños de pantalla.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-011",
+   "fuente": "data/sd-capitulos/tipografia-aplicada.html#s-03-03-04",
+   "bloque": 1,
+   "frase": "La información necesaria para comprender o ejecutar una tarea no debe perderse definitivamente por truncamiento visual.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-011",
+   "fuente": "data/sd-capitulos/tipografia-aplicada.html#s-03-03-04",
+   "bloque": 2,
+   "frase": "Resultado esperado: el valor completo se puede leer en cada caso.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-FUI-012",
+   "fuente": "data/sd-capitulos/espacio-reticula-y-geometria.html#s-03-04-01",
+   "bloque": 1,
+   "frase": "Los componentes deben aplicar la escala espacial oficial de Keyons y sus tokens correspondientes.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-013",
+   "fuente": "data/sd-capitulos/espacio-reticula-y-geometria.html#s-03-04-02",
+   "bloque": 1,
+   "frase": "La proximidad entre elementos debe reflejar su relación funcional: etiqueta y campo, título y contenido, acción y resultado.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-FUI-014",
+   "fuente": "data/sd-capitulos/espacio-reticula-y-geometria.html#s-03-04-03",
+   "bloque": 1,
+   "frase": "Las retículas deben reorganizarse sin producir solapamientos, pérdida de controles ni recortes que impidan completar tareas.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   }
  ]
 }
