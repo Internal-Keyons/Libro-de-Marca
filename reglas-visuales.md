@@ -121,6 +121,7 @@ Los niveles se separan por saltos grandes de contraste para que los textos no se
 - **Subencabezados de atardecer (2026-11-13):** según el color del módulo.
   - Todo subencabezado con cielo DEBE mostrar sus nubes en movimiento, como el de ADN.
   - Un módulo Salmón Tierra (Expresión) DEBE mostrar el atardecer de Prisma animado, con los colores medidos en `prisma-atardecer.webp` (`--sky-prisma-1` a `-6`).
+  - Vale para todos los libros de la Biblioteca (Keylin, 2026-11-17): en el Sistema de Diseño, Fundamentos, Contenido y Movimiento son Salmón Tierra; Componentes, Datos y Gobierno son Salmón Atardecer. La regla vive en `css/libro.css`; el color de cada módulo sale del ciclo de áreas (`COLORES` en `tools/sistema_diseno.py`). Los módulos Azul Noche y Azul Cielo del Sistema de Diseño conservan el encabezado plano.
   - Un módulo Salmón Atardecer (Aplicaciones) DEBE mostrar el atardecer tenue animado: de la escala Azul Cielo (`--k-cielo-400`, `-300`, `-200`) a Salmón Atardecer (`--k-lavanda-tenue`, `--k-atardecer-300`, `--k-atardecer`).
 
 ### 1.9 Degradados (7.9)
@@ -269,13 +270,13 @@ El radio de una esquina curva sale del **lado corto** del elemento:
 
 - **R01 · Sin cajas por defecto:** la información se ordena con rótulo a la izquierda, contenido a la derecha, líneas finas y espacio negativo. Una tarjeta solo cuando agrupa algo.
 - **R02 · Viñetas:** cuándo se usa una viñeta lo decide R26. Miden 20 px y dejan 20 px hasta el texto. Las viñetas DEBEN alternar círculo y cuadrado en toda lista, también en las listas cortas Azul Noche: círculo, cuadrado, círculo… NO DEBE haber una lista de una sola forma. En listas de color la secuencia es Azul Cielo → Salmón Tierra; las listas cortas van en Azul Noche.
-- **Sistema de diagramación (Keylin, 2026-11-17):** su fuente única es la Guía de la Biblioteca, sección 05, bloque «Sistema de diagramación»: patrones editoriales, marcadores, serie o detalle, ancho de lectura, etiquetas del menú, foco y cortes de línea. Aquí quedan solo los valores: `--measure` (600 px), `--promise-n`, `.promise` (serie), `.det` (detalle plegable simple), `.ed__lead{text-wrap:wrap}` y el detector `tools/menu-etiquetas.js`.
+- **Sistema de diagramación (Keylin, 2026-11-17):** su fuente única es la Guía de la Biblioteca, sección 05, bloque «Sistema de diagramación»: patrones editoriales, marcadores, serie o detalle, ancho de lectura, etiquetas del menú, foco y cortes de línea; y bloque «Composición normativa según el contenido» (2026-11-17): jerarquía, integración de requisitos y aplicaciones, títulos directos, apartados según pertinencia, verificación y sin relleno. Aquí quedan solo los valores: `--measure` (600 px), `.promise` (serie, sin número), `.det` (detalle plegable simple), `.ed__lead{text-wrap:wrap}` y el detector `tools/menu-etiquetas.js`.
 - **R26 · Marcador de cada ítem (Keylin, 2026-11-17):** es una regla de diagramación. (Resumen; la regla publicada está en la Guía.) El marcador de un ítem DEBE elegirse por su significado y por la composición, nunca por la cantidad de elementos ni de forma automática. Hay cuatro posibilidades:
   - **Ícono:** cuando representa claramente el concepto; sale del catálogo aprobado (capítulo 26). Ejemplo: los recursos de EXP-005.
   - **Número:** cuando expresa una secuencia, una referencia o una enumeración útil, por ejemplo, cuando el título anuncia cuántos ítems son. Ejemplo: las cuatro preguntas de COR-004.
   - **Viñeta:** cuando ayuda a identificar elementos equivalentes. Ejemplos: los principios de COR-001 y EXP-001. Su forma y su color siguen R02.
   - **Sin marcador:** cuando la composición y la jerarquía ya permiten comprender el contenido.
-- **R27 · Acordeón único (Keylin, 2026-11-17):** todo acordeón de la Biblioteca DEBE usar el de ADN-006 «Cinco promesas» (`.promises` y `details.promise`): número, título y el signo + a la derecha.
+- **R27 · Acordeón único (Keylin, 2026-11-17):** todo acordeón de la Biblioteca DEBE usar el de ADN-006 «Cinco promesas» (`.promises` y `details.promise`): título y el signo + a la derecha, sin número (Keylin, 2026-11-17: «eliminar los números de los ítems del acordeón… aplicar en todos los acordeones»). El cuerpo se alinea con el título y mide `--measure`.
   - `details` y `summary` son el único control. El + es un indicador decorativo (`span` con `aria-hidden`); NO DEBE haber un botón dentro de `summary`.
   - Ningún acordeón se abre solo al aparecer en pantalla, salvo que haya una necesidad funcional justificada.
   - Varios ítems PUEDEN quedar abiertos a la vez, para comparar. Ningún ítem cierra a los demás.

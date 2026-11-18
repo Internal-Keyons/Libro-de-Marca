@@ -139,15 +139,20 @@ def biblioteca():
             err.append(f'SIN NORMA {x}: el Sistema de Diseño la cita y no está en ia/normas')
     for x in sorted(sdi_emitidas - set(ids_sd)):
         err.append(f'SDI     {x}: emitida en data/sd-normas.json y sin subcapítulo en data/sistema-diseno.json')
-    # Piso mínimo: un capítulo del Sistema de Diseño en borrador tiene normas redactadas (rótulo, requisito con nivel y verificación).
-    # No mide la cobertura: esa la muestra la matriz de cobertura de cada entrega (propuestas/sd-entregas/).
+    # Piso mínimo: un capítulo del Sistema de Diseño en borrador tiene normas redactadas (rótulo y requisito con nivel), y cada
+    # norma emitida tiene su verificación con condición y resultado en data/sd-normas.json (Guía 05 · Composición normativa: la
+    # verificación se presenta según su función, así que la palabra puede no estar en cada norma). No mide la cobertura: esa la
+    # muestra la matriz de cobertura de cada entrega (propuestas/sd-entregas/). El control editorial completo es tools/sd_revisar.py.
     for m in SD['modulos']:
         for c in m['capitulos']:
             if c.get('estado') not in ('borrador', 'vigente'):
                 continue
             t = lee(f"data/sd-capitulos/{c['slug']}.html") or ''
-            if not (re.search(r'class="ed__code"', t) and re.search(r'data-lvl="(debe|deberia|puede)"', t) and 'Verificación' in t):
-                err.append(f"CAPÍTULO {c['num']} {c['st']}: está en borrador sin normas redactadas (rótulo, requisito con nivel y verificación)")
+            if not (re.search(r'class="ed__code"', t) and re.search(r'data-lvl="(debe|deberia|puede)"', t)):
+                err.append(f"CAPÍTULO {c['num']} {c['st']}: está en borrador sin normas redactadas (rótulo y requisito con nivel)")
+    for n in SDN:
+        if n.get('estado') == 'borrador' and not all(v.get('condicion') and v.get('resultado') for v in (n.get('verificacion') or [{}])):
+            err.append(f"SDI     {n['id']}: en borrador sin verificación con condición y resultado esperado")
     # Anclas de los dos índices
     def ids_de(p):
         t = lee(p)

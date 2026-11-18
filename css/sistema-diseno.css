@@ -199,6 +199,7 @@ html[data-libro="sistema-diseno"] .hdr.is-open .hdr__panel nav a:nth-child(11){t
 .sdn{margin-top:var(--s12);border-bottom:1px solid var(--color-border)}
 .sdn__r{padding:var(--s4) 0;border-top:1px solid var(--color-border)}
 .sdn__t{max-width:var(--measure);font-size:var(--fs-16);font-weight:400;color:var(--k-noche)}   /* medida de lectura del libro (Keylin, 2026-11-17) */
+.ed__stack p.sdn__t{color:var(--k-noche)}   /* Guía 05 · Composición normativa: en las dimensiones integradas, el requisito se distingue de su decisión */
 /* Rótulo de un principio: el ID en gris terciario de 12 px y debajo el nombre en 14 px, sin estado */
 .sdn-label .ed__code{font-size:var(--fs-12);color:var(--color-text-3)}
 .sdn-label span:last-child{font-size:var(--fs-14);color:var(--k-noche)}

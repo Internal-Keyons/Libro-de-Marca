@@ -3,7 +3,7 @@ Requisitos: textos de Keylin (docs/sd/fuente-keylin-2026-11-17.md). «Evidencia 
 que PEX-014 (03) y se cita. GOB-003 (protocolo previo al lanzamiento) recupera UIX-047 y UIX-050 con un requisito redactado por
 Claude; requiere aprobación. Gobierno: responsabilidades, procedimiento, aprobación, evidencia y trazabilidad.
 """
-from .base import N, req, stack, matriz, pasos, detalle, c, L, norma, seccion
+from .base import N, req, stack, matriz, pasos, detalle, c, L, norma, seccion, R, validacion, dims
 
 MOD = 'calidad-gobierno'
 C44 = 'validacion-de-calidad'
@@ -11,23 +11,22 @@ def n44(nid, nombre, k, *a, **kw): return norma(nid, nombre, '12.03', MOD, C44, 
 
 
 CAP44 = [
-    n44('KYN-SDI-GOB-001', 'Tareas reales', 1, 'Se evalúa con lo que las personas hacen de verdad',
-        'Una prueba vale <strong>lo que valen sus tareas</strong>.', [
+    n44('KYN-SDI-GOB-001', 'Tareas reales', 1, 'Tareas representativas en las evaluaciones',
+        'Se aplica a toda evaluación de un producto: <strong>se prueba con lo que las personas hacen de verdad</strong>.', [
         req(N('Las evaluaciones deben utilizar tareas representativas de los perfiles que operarán el producto.', 'debe')),
-        stack([('Tareas', ['Las frecuentes y las críticas de cada perfil (PEX-007), con datos realistas.']),
+        stack([('Tareas', [f'Las frecuentes y las críticas de cada perfil ({R("KYN-SDI-PEX-007", "Diseñar para quienes utilizan el producto")}), con datos realistas.']),
                ('Participantes', ['Personas del perfil, no el equipo del proyecto.']),
                ('Evidencia', [f'Los resultados distinguen observaciones, problemas, hipótesis y decisiones, según Evidencia diferenciada de {L("03")}.'])]),
         detalle([
             ('Entregable', [
                 ('Plan de prueba', 'Perfiles, tareas, criterios de éxito y método.'),
-                ('Informe', 'Tareas completadas, errores, dificultades y decisiones, con su evidencia.')]),
-            ('Verificación', [
-                ('Revisión del plan', 'Cada tarea del plan corresponde a una tarea documentada de un perfil.')])]),
-    ], origen=['Tareas reales (base)', 'Evidencia registrada (base; se cita PEX-014)', 'UIX-047'],
+                ('Informe', 'Tareas completadas, errores, dificultades y decisiones, con su evidencia.')])]),
+    ], verif=[('Plan de prueba', 'Se revisan las tareas del plan de evaluación.', 'cada una corresponde a una tarea documentada de un perfil.')], ver='breve',
+       origen=['Tareas reales (base)', 'Evidencia registrada (base; se cita PEX-014)', 'UIX-047'],
        responsabilidad='Las evaluaciones usan tareas representativas y registran su evidencia.', corto='Tareas reales'),
 
-    n44('KYN-SDI-GOB-002', 'Problemas críticos', 2, 'Un defecto crítico se resuelve o bloquea el lanzamiento',
-        'Ningún lanzamiento <strong>esconde un problema grave</strong>.', [
+    n44('KYN-SDI-GOB-002', 'Problemas críticos', 2, 'Defectos críticos antes del lanzamiento',
+        'Se aplica a los defectos que impiden completar una tarea esencial: <strong>se resuelven o bloquean el lanzamiento</strong>.', [
         req(N('Los defectos que impidan completar tareas esenciales de forma segura deben resolverse o contar con una decisión explícita de bloqueo antes del lanzamiento correspondiente.', 'debe')),
         matriz('Gravedad de un problema (propuesta)', [('Qué significa', ''), ('Qué se hace', '')], [
             ('Crítico', ['Impide completar una tarea esencial o la hace insegura.', 'Se resuelve o bloquea el lanzamiento, con decisión registrada.']),
@@ -35,13 +34,12 @@ CAP44 = [
             ('Menor', ['Molestia que no impide la tarea.', 'Se planifica.'])]),
         detalle([
             ('Aprobación', [
-                ('Quién decide', f'La decisión de bloqueo o excepción la toman los responsables definidos en {L("42")}.')]),
-            ('Verificación', [
-                ('Registro', 'Cada problema crítico tiene su resolución o su decisión de bloqueo, con fecha y responsable.')])]),
-    ], origen=['Problemas críticos (base)'], responsabilidad='Los defectos críticos se resuelven o bloquean el lanzamiento con decisión explícita.', corto='Problemas críticos'),
+                ('Quién decide', f'La decisión de bloqueo o excepción la toman los responsables definidos en {L("42")}.')])]),
+    ], verif=[('Registro', 'Se revisa el registro de problemas de un lanzamiento.', 'cada problema crítico tiene su resolución o su decisión de bloqueo, con fecha y responsable.')], ver='breve',
+       origen=['Problemas críticos (base)'], responsabilidad='Los defectos críticos se resuelven o bloquean el lanzamiento con decisión explícita.', corto='Problemas críticos'),
 
-    n44('KYN-SDI-GOB-003', 'Protocolo previo al lanzamiento', 3, 'Antes de lanzar, una verificación completa',
-        'Cada lanzamiento <strong>pasa por la misma revisión</strong>.', [
+    n44('KYN-SDI-GOB-003', 'Protocolo previo al lanzamiento', 3, 'Protocolo previo al lanzamiento',
+        'Se aplica antes de lanzar cada producto o versión: <strong>la misma revisión visual, funcional, de uso y de accesibilidad</strong>.', [
         req(N('Antes del lanzamiento, cada producto debería completar la verificación visual, funcional, de usabilidad y de accesibilidad, con su registro firmado.', 'deberia')),
         pasos([('Visual', 'Revisión contra el sistema: tokens, componentes y patrones.', 'Evidencia', 'Capturas de escritorio y móvil.'),
                ('Funcional', 'Estados, errores y recuperación de cada tarea.', 'Evidencia', 'Lista de casos probados.'),
@@ -50,10 +48,9 @@ CAP44 = [
                ('Aprobación', 'Registro firmado por los responsables.', 'Evidencia', 'Decisión de lanzamiento.')]),
         detalle([
             ('Origen', [
-                ('UIX', 'Recupera UIX-047 y UIX-050 como referencia; el número mínimo de participantes y los firmantes requieren aprobación.')]),
-            ('Verificación', [
-                ('Expediente', 'Cada lanzamiento tiene las cinco evidencias.')])]),
-    ], origen=['Verificación visual, funcional, de usabilidad y de accesibilidad (descripción del capítulo; requisito redactado por Claude)', 'UIX-047', 'UIX-050'],
+                ('UIX', 'Recupera UIX-047 y UIX-050 como referencia; el número mínimo de participantes y los firmantes requieren aprobación.')])]),
+    ], verif=[('Expediente', 'Se revisa el expediente del lanzamiento.', 'tiene las cinco evidencias del protocolo, cada una con su resultado.')], ver='tecnica',
+       origen=['Verificación visual, funcional, de usabilidad y de accesibilidad (descripción del capítulo; requisito redactado por Claude)', 'UIX-047', 'UIX-050'],
        responsabilidad='Cada lanzamiento completa la verificación visual, funcional, de usabilidad y de accesibilidad.', corto='Protocolo'),
 
     seccion('ejemplo', '44', 'Ejemplo de aplicación', 'Una prueba antes de lanzar',

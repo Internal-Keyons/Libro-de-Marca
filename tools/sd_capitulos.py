@@ -10,8 +10,8 @@ comunes, en tools/sd/base.py. Este archivo:
 - actualiza data/sd-normas.json, fuente única de los códigos: lo construido queda «borrador»; lo demás conserva su estado;
 - escribe propuestas/matriz-normativa-sd-01-06.md desde el registro.
 
-Criterios: Guía 05 «Implementación editorial de capítulos», reglas-visuales R22, R26 y R27, y las indicaciones de Keylin
-del 2026-11-17 (lectura principal breve, detalle en el acordeón único, verificación ejecutable, sin maquetas).
+Criterios: Guía 05 «Implementación editorial de capítulos», «Sistema de diagramación» y «Composición normativa según el contenido».
+Las referencias entre normas (base.R) se resuelven aquí, cuando todas las normas están escritas.
 Todo es borrador: un capítulo con contenido no es un capítulo terminado; su cobertura está en propuestas/sd-entregas/.
 """
 import importlib
@@ -54,6 +54,9 @@ def matriz_md(reg):
 
 def main():
     caps = modulos()
+    sueltas = [n for n, b in base.CONSTRUIDAS.items() if b['presentacion'] == 'grupo' and b['slug'] not in base.VALIDADOS]
+    if sueltas:
+        raise SystemExit('Verificación agrupada sin sección «Validación del capítulo»: ' + ', '.join(sueltas))
     sd_json = json.load(io.open(os.path.join(ROOT, 'data', 'sistema-diseno.json'), encoding='utf-8'))
     num_de = {c['slug']: c['num'] for m in sd_json['modulos'] for c in m['capitulos']}
     reg = base.REG
@@ -63,14 +66,15 @@ def main():
         if n is None:
             n = dict(id=nid, capitulo=num_de[b['slug']], nombre='', estado='', ruta=None, origen=[], responsabilidad='', cita='')
             reg['normas'].append(n); por_id[nid] = n
-        n.update(nombre=b['nombre'], corto=b['corto'], estado='borrador', ruta=b['ruta'], origen=b['origen'] or n['origen'],
-                 responsabilidad=b['responsabilidad'] or n['responsabilidad'], cita=b['cita'] or n['cita'])
+        n.update(nombre=b['nombre'], corto=b['corto'], titular=b['titular'], estado='borrador', ruta=b['ruta'], origen=b['origen'] or n['origen'],
+                 responsabilidad=b['responsabilidad'] or n['responsabilidad'], cita=base.plano(b['cita']) if b['cita'] else n['cita'],
+                 verificacion=b['verificacion'], presentacion_verificacion=b['presentacion'])
     # El registro se escribe antes de clasificar los niveles: tools/niveles.py lee de él las secciones de cada norma
     io.open(base.REGISTRO, 'w', encoding='utf-8', newline='\n').write(json.dumps(reg, ensure_ascii=False, indent=1) + '\n')
     for mod, capn, slug, secs, dc in caps:
         dst = os.path.join(ROOT, 'data', 'sd-capitulos', slug + '.html')
         io.open(dst, 'w', encoding='utf-8', newline='\n').write(
-            f'    <!-- Capítulo {num_de[slug]} · generado por tools/sd_capitulos.py (tools/sd/). No se edita a mano. Borrador. -->' + ''.join(secs))
+            f'    <!-- Capítulo {num_de[slug]} · generado por tools/sd_capitulos.py (tools/sd/). No se edita a mano. Borrador. -->' + base.resolver(''.join(secs), slug))
         m = next(x for x in sd_json['modulos'] if x['n'] == mod)
         cp = next(x for x in m['capitulos'] if x['n'] == capn)
         nums = sorted((n for n in reg['normas'] if n['estado'] != 'reservado' and n['ruta'] and n['ruta'].split('#')[0].endswith('/' + slug + '.html')),

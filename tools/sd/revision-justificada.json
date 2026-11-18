@@ -1,0 +1,54 @@
+{
+ "casos límite:KYN-SDI-ARQ-010": {
+  "motivo": "Registro eliminado o fuera del filtro y sesión nueva son resultados inesperados al volver a un listado: casos límite reales.",
+  "fecha": "2026-11-17"
+ },
+ "composición:controles-de-entrada.html": {
+  "motivo": "Las tres pruebas se hacen en el mismo formulario y en la misma sesión; la tabla de validación las reúne.",
+  "fecha": "2026-11-17"
+ },
+ "composición:formularios-y-validaciones.html": {
+  "motivo": "Completar, interrumpir y corregir se prueban en el mismo formulario: una sola sesión de prueba.",
+  "fecha": "2026-11-17"
+ },
+ "composición:flujos-de-trabajo.html": {
+  "motivo": "Avanzar, retroceder y terminar se prueban en el mismo proceso de varios pasos.",
+  "fecha": "2026-11-17"
+ },
+ "composición:accesibilidad-operativa.html": {
+  "motivo": "Teclado, foco y tiempo requieren pruebas técnicas paso a paso: cada norma conserva su detalle plegable.",
+  "fecha": "2026-11-17"
+ },
+ "composición:dashboards-e-informes.html": {
+  "motivo": "Las tres normas se prueban con la misma persona frente al mismo tablero.",
+  "fecha": "2026-11-17"
+ },
+ "composición:recursos-visuales-de-interfaz.html": {
+  "motivo": "Cada norma tiene una sola condición breve; se lee mejor junto a la norma.",
+  "fecha": "2026-11-17"
+ },
+ "composición:escritura-de-interfaz.html": {
+  "motivo": "Cada norma tiene una sola condición breve; se lee mejor junto a la norma.",
+  "fecha": "2026-11-17"
+ },
+ "composición:lenguaje-y-localizacion.html": {
+  "motivo": "Las tres pruebas usan el mismo conjunto de datos reales en cada idioma.",
+  "fecha": "2026-11-17"
+ },
+ "composición:indicadores-y-cifras.html": {
+  "motivo": "Cada norma tiene una sola condición breve; se lee mejor junto a la norma.",
+  "fecha": "2026-11-17"
+ },
+ "composición:interfaz-conversacional-de-estela.html": {
+  "motivo": "Las tres pruebas se hacen en las mismas conversaciones largas.",
+  "fecha": "2026-11-17"
+ },
+ "composición:interaccion-multisensorial.html": {
+  "motivo": "Cada norma tiene una sola condición breve; se lee mejor junto a la norma.",
+  "fecha": "2026-11-17"
+ },
+ "composición:documentacion-y-consulta.html": {
+  "motivo": "Cada norma tiene una sola condición breve; se lee mejor junto a la norma.",
+  "fecha": "2026-11-17"
+ }
+}

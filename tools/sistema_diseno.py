@@ -30,6 +30,8 @@ OUT = os.path.join(ROOT, 'sistema-diseno')
 # Mismo ciclo de color que las áreas del Libro de Marca
 COLORES = ['noche', 'cielo', 'salmon', 'atardecer']
 PORTAL = {'noche': 'portal', 'cielo': 'portal portal--cielo', 'salmon': 'portal portal--salmon', 'atardecer': 'portal portal--salmon portal--atardecer'}
+# reglas-visuales 1.8: los módulos Salmón Tierra y Salmón Atardecer llevan su atardecer animado; Azul Noche y Azul Cielo, el color plano
+PLANO = {'noche': ' portal--plano', 'cielo': ' portal--plano', 'salmon': '', 'atardecer': ''}
 NOMBRE_COLOR = {'noche': 'Azul Noche', 'cielo': 'Azul Cielo', 'salmon': 'Salmón Tierra', 'atardecer': 'Salmón Atardecer'}
 ESTADO = {'vigente': 'v', 'borrador': 'b', 'pendiente': 'p', 'estructura': 'e', 'revision': 'r', 'descontinuado': 'd'}
 TEXTO = {'v': 'Vigente', 'b': 'Borrador', 'p': 'Por definir', 'e': 'Por definir', 'r': 'Borrador', 'd': 'Descontinuado'}
@@ -219,7 +221,7 @@ def capitulo(i, m, c):
       <span>{c['num']} {e(c['st'])}</span>
     </nav>
 
-    <section class="{PORTAL[color]} portal--plano" aria-label="Capítulo {c['num']} · {e(c['t'])}">
+    <section class="{PORTAL[color]}{PLANO[color]}" aria-label="Capítulo {c['num']} · {e(c['t'])}">
       <div class="portal__arcs" aria-hidden="true"></div>
       <div class="portal__txt">
         <span class="kicker">Capítulo {c['num']} · {e(m['st'])}</span>

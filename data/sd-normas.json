@@ -17,7 +17,21 @@
    ],
    "responsabilidad": "Cada pantalla deja reconocer su propósito y su acción principal sin que los recursos gráficos compitan.",
    "cita": "11 Recursos visuales (Expresión proporcionada) cita esta norma",
-   "corto": "La tarea primero"
+   "corto": "La tarea primero",
+   "titular": "Propósito y prioridad de la pantalla",
+   "verificacion": [
+    {
+     "rotulo": "Primera mirada",
+     "condicion": "Una persona que no conoce la pantalla la ve sin instrucciones. Cinco segundos es la hipótesis inicial de prueba, no un requisito.",
+     "resultado": "señala el propósito y la acción principal sin ayuda."
+    },
+    {
+     "rotulo": "Sin decoración",
+     "condicion": "Se quitan de la pantalla los recursos decorativos.",
+     "resultado": "la tarea se entiende y se completa igual."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-PEX-002",
@@ -31,7 +45,16 @@
    ],
    "responsabilidad": "Las funciones y los patrones comprensibles se conservan por encima de la originalidad.",
    "cita": "",
-   "corto": "Claridad primero"
+   "corto": "Claridad primero",
+   "titular": "Patrones de interacción conocidos",
+   "verificacion": [
+    {
+     "rotulo": "Comparación",
+     "condicion": "Se prueba la misma tarea con el patrón propio y con el convencional.",
+     "resultado": "el propio se conserva solo si iguala o mejora el resultado."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-PEX-003",
@@ -46,7 +69,21 @@
    ],
    "responsabilidad": "La cantidad de información, controles y pasos corresponde a la tarea, al perfil y a la frecuencia.",
    "cita": "04 Información progresiva (ARQ-004) desarrolla el detalle bajo demanda",
-   "corto": "Complejidad"
+   "corto": "Complejidad",
+   "titular": "Controles pertinentes a la tarea",
+   "verificacion": [
+    {
+     "rotulo": "Controles",
+     "condicion": "Se listan los controles visibles de la pantalla con su frecuencia de uso.",
+     "resultado": "los de uso ocasional están en un segundo nivel."
+    },
+    {
+     "rotulo": "Pasos",
+     "condicion": "Se cuentan los pasos de las tres tareas más frecuentes.",
+     "resultado": "cada paso tiene una razón registrada."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-PEX-004",
@@ -60,8 +97,17 @@
     "UIX-013"
    ],
    "responsabilidad": "Después de una acción, el sistema comunica si procesa, terminó, necesita intervención o falló.",
-   "cita": "15 Retroalimentación desarrolla los componentes",
-   "corto": "Estado comprensible"
+   "cita": "15 Retroalimentación (Resultado visible) desarrolla los componentes",
+   "corto": "Estado comprensible",
+   "titular": "Comunicar el estado de cada acción",
+   "verificacion": [
+    {
+     "rotulo": "Tres situaciones",
+     "condicion": "Cada acción principal se ejecuta con éxito, con una espera larga y con un fallo.",
+     "resultado": "en los tres casos, la persona describe el estado sin preguntar."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PEX-005",
@@ -76,7 +122,21 @@
    ],
    "responsabilidad": "Una misma función se comporta igual en todas las pantallas y productos.",
    "cita": "05 Acciones previsibles (ARQ-006) aplica el principio a la navegación",
-   "corto": "Previsibilidad"
+   "corto": "Previsibilidad",
+   "titular": "Comportamientos consistentes entre pantallas",
+   "verificacion": [
+    {
+     "rotulo": "Dos contextos",
+     "condicion": "Se ejecuta la misma operación en dos pantallas.",
+     "resultado": "mismo resultado, mismos mensajes y mismas teclas."
+    },
+    {
+     "rotulo": "Diferencias",
+     "condicion": "Se revisa cada diferencia de comportamiento entre pantallas.",
+     "resultado": "cada una tiene su justificación registrada, según KYN-SDI-PEX-010."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-PEX-006",
@@ -89,8 +149,17 @@
     "UIX-006"
    ],
    "responsabilidad": "Antes de una acción de consecuencias, la persona ve qué va a cambiar.",
-   "cita": "19 Procesos críticos (Consecuencias claras) se integra en esta norma o la cita",
-   "corto": "Contexto previo"
+   "cita": "19 Procesos críticos (Consecuencias claras) se integra en esta norma",
+   "corto": "Contexto previo",
+   "titular": "Consecuencias visibles antes de confirmar",
+   "verificacion": [
+    {
+     "rotulo": "Antes de confirmar",
+     "condicion": "Antes de cada acción de impacto, se pide a la persona que describa qué va a cambiar.",
+     "resultado": "su descripción coincide con lo que ocurre después."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PEX-007",
@@ -106,7 +175,16 @@
    ],
    "responsabilidad": "Las decisiones de experiencia parten de tareas y necesidades reales de quienes operan el producto.",
    "cita": "",
-   "corto": "Personas reales"
+   "corto": "Personas reales",
+   "titular": "Perfiles operativos como base del diseño",
+   "verificacion": [
+    {
+     "rotulo": "Pruebas por perfil",
+     "condicion": "Se revisan las pruebas de tareas del producto.",
+     "resultado": "cada perfil documentado tiene pruebas con personas de ese perfil, además de las de administración."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PEX-008",
@@ -121,7 +199,21 @@
    ],
    "responsabilidad": "Los permisos efectivos determinan acciones y datos; la interfaz no reemplaza la validación.",
    "cita": "06 Resultados autorizados (ARQ-016) aplica el límite a la búsqueda",
-   "corto": "Roles y permisos"
+   "corto": "Roles y permisos",
+   "titular": "Acciones y datos según el rol",
+   "verificacion": [
+    {
+     "rotulo": "Perfiles",
+     "condicion": "Se repite cada tarea con perfiles de distinto permiso.",
+     "resultado": "cada perfil ve solo sus acciones y sus datos."
+    },
+    {
+     "rotulo": "Operación directa",
+     "condicion": "Se envía la operación no autorizada directamente al servidor, sin pasar por la interfaz.",
+     "resultado": "el servidor la rechaza y la respuesta no incluye datos del registro."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-PEX-009",
@@ -138,7 +230,16 @@
    ],
    "responsabilidad": "Densidad, ayudas y esfuerzo se ajustan a la frecuencia y al contexto, con los mismos patrones.",
    "cita": "10 Espacio y retícula define los modos de densidad",
-   "corto": "Frecuencia de uso"
+   "corto": "Frecuencia de uso",
+   "titular": "Densidad y ayudas según la frecuencia de uso",
+   "verificacion": [
+    {
+     "rotulo": "Esfuerzo",
+     "condicion": "Se miden los pasos y el tiempo de las tres tareas más frecuentes y de tres ocasionales comparables.",
+     "resultado": "las frecuentes requieren menos esfuerzo, con los mismos patrones."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PEX-010",
@@ -154,7 +255,16 @@
    ],
    "responsabilidad": "Cada decisión significativa se vincula con un problema, una necesidad o una hipótesis, y queda registrada.",
    "cita": "",
-   "corto": "Decisiones"
+   "corto": "Decisiones",
+   "titular": "Registro de decisiones de diseño",
+   "verificacion": [
+    {
+     "rotulo": "Muestra",
+     "condicion": "Se toman al azar tres decisiones de un proyecto.",
+     "resultado": "cada una tiene su ficha completa."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-PEX-011",
@@ -168,7 +278,16 @@
    ],
    "responsabilidad": "Los proyectos siguen las cinco fases de Prisma, con su entregable por fase.",
    "cita": "43 Implementación conserva la operación del método",
-   "corto": "Prisma"
+   "corto": "Prisma",
+   "titular": "Fases de Prisma y sus entregables",
+   "verificacion": [
+    {
+     "rotulo": "Expediente",
+     "condicion": "Se revisa el expediente de un proyecto en curso.",
+     "resultado": "cada fase cerrada tiene su entregable antes de abrir la siguiente."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-PEX-012",
@@ -182,7 +301,16 @@
    ],
    "responsabilidad": "Estructura, interacción y expresión se trabajan por capas, de forma iterativa, dentro de Prisma.",
    "cita": "",
-   "corto": "Diseño por capas"
+   "corto": "Diseño por capas",
+   "titular": "Estructura, interacción y expresión por capas",
+   "verificacion": [
+    {
+     "rotulo": "Base contenida",
+     "condicion": "En la revisión de Anochecer se prueban las tareas principales con la propuesta en blanco, grises y Azul Noche.",
+     "resultado": "las tareas se completan antes de sumar la expresión."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-PEX-013",
@@ -196,7 +324,16 @@
    ],
    "responsabilidad": "Una propuesta se aprueba por sus resultados de comprensión, navegación e interacción.",
    "cita": "",
-   "corto": "Resultados"
+   "corto": "Resultados",
+   "titular": "Aprobación por resultados de uso",
+   "verificacion": [
+    {
+     "rotulo": "Aprobación",
+     "condicion": "Se revisa el acta de aprobación de una propuesta.",
+     "resultado": "incluye la lista de problemas conocidos, con su gravedad y su decisión."
+    }
+   ],
+   "presentacion_verificacion": "referencia"
   },
   {
    "id": "KYN-SDI-PEX-014",
@@ -210,7 +347,16 @@
    ],
    "responsabilidad": "Observaciones, hipótesis, resultados y decisiones se distinguen en la documentación.",
    "cita": "44 Validación (Evidencia registrada) cita esta norma",
-   "corto": "Evidencia"
+   "corto": "Evidencia",
+   "titular": "Observaciones, hipótesis y decisiones diferenciadas",
+   "verificacion": [
+    {
+     "rotulo": "Documento de diseño",
+     "condicion": "Se revisan las afirmaciones sobre personas de un documento de diseño.",
+     "resultado": "cada una lleva su tipo y ninguna hipótesis aparece como hecho."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-PEX-015",
@@ -224,7 +370,16 @@
    ],
    "responsabilidad": "Los cambios se comprueban en las tareas afectadas antes de extenderse.",
    "cita": "44 Validación define el protocolo de prueba",
-   "corto": "Evaluación posterior"
+   "corto": "Evaluación posterior",
+   "titular": "Evaluación de cambios antes de extenderlos",
+   "verificacion": [
+    {
+     "rotulo": "Antes y después",
+     "condicion": "Se revisa un cambio relevante ya extendido.",
+     "resultado": "tiene sus medidas de antes y de después en la misma tarea."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-ARQ-001",
@@ -239,7 +394,16 @@
    ],
    "responsabilidad": "El contenido se agrupa por tareas y conceptos de las personas, con relaciones identificables.",
    "cita": "",
-   "corto": "Organización"
+   "corto": "Organización",
+   "titular": "Agrupación del contenido por tareas",
+   "verificacion": [
+    {
+     "rotulo": "Prueba de árbol",
+     "condicion": "Personas de cada perfil buscan cinco elementos frecuentes en la estructura, sin la interfaz. El umbral de éxito se fija según KYN-SDI-GOB-001.",
+     "resultado": "encuentran los elementos sin conocer cómo está organizada la base de datos."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-ARQ-002",
@@ -254,7 +418,16 @@
    ],
    "responsabilidad": "Categorías, secciones y destinos usan nombres que las personas reconocen.",
    "cita": "23 Escritura (Consistencia) desarrolla la redacción",
-   "corto": "Nombres"
+   "corto": "Nombres",
+   "titular": "Nombres reconocibles para secciones y destinos",
+   "verificacion": [
+    {
+     "rotulo": "Comprensión",
+     "condicion": "Se muestra cada nombre de sección sin contexto y se pide decir qué se espera encontrar.",
+     "resultado": "lo que la persona espera coincide con el contenido de la sección."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-ARQ-003",
@@ -268,7 +441,16 @@
    ],
    "responsabilidad": "Las páginas distinguen información principal, secundaria y complementaria.",
    "cita": "09 Tipografía define la jerarquía visual",
-   "corto": "Jerarquía identificable"
+   "corto": "Jerarquía identificable",
+   "titular": "Información principal, secundaria y complementaria",
+   "verificacion": [
+    {
+     "rotulo": "Tres datos",
+     "condicion": "Se pide a la persona que nombre los tres datos más importantes de la pantalla.",
+     "resultado": "coinciden con la información principal definida, y su jerarquía visual cumple KYN-SDI-FUI-009."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-ARQ-004",
@@ -285,7 +467,21 @@
    ],
    "responsabilidad": "Lo esencial está visible en su momento; el detalle se ofrece a pedido sin ocultar requisitos.",
    "cita": "",
-   "corto": "Detalle a pedido"
+   "corto": "Detalle a pedido",
+   "titular": "Información esencial y detalle progresivo",
+   "verificacion": [
+    {
+     "rotulo": "Siguiente acción",
+     "condicion": "Se recorre cada paso de una tarea.",
+     "resultado": "la persona decide sin abrir detalles para buscar un dato necesario."
+    },
+    {
+     "rotulo": "Detalle",
+     "condicion": "Se busca cada detalle oculto desde el control que lo anuncia.",
+     "resultado": "se encuentra sin perder la tarea."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-ARQ-005",
@@ -300,7 +496,31 @@
    ],
    "responsabilidad": "La persona reconoce la sección activa, su grupo superior y cómo llegar a las demás áreas.",
    "cita": "",
-   "corto": "Ubicación actual"
+   "corto": "Ubicación actual",
+   "titular": "Ubicación y sección activa",
+   "verificacion": [
+    {
+     "rotulo": "Con personas",
+     "condicion": "Se abre con un enlace directo una pantalla de segundo o tercer nivel. Se pide nombrar la sección y el grupo, y llegar a otra sección principal. Se registra el tiempo; cinco segundos es la hipótesis inicial de prueba, no un requisito.",
+     "resultado": "la persona lo logra sin ayuda."
+    },
+    {
+     "rotulo": "Escala de grises",
+     "condicion": "Se ve la pantalla en escala de grises.",
+     "resultado": "la sección activa sigue distinguiéndose."
+    },
+    {
+     "rotulo": "Lector de pantalla",
+     "condicion": "Se recorre la navegación con NVDA o VoiceOver.",
+     "resultado": "el enlace activo se anuncia como «página actual»."
+    },
+    {
+     "rotulo": "Cambio de destino",
+     "condicion": "Se prueba cada tipo de cambio de destino.",
+     "resultado": "el indicador, el título, la ruta y el foco se comportan como indica «Foco según el tipo de cambio»."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-ARQ-006",
@@ -314,7 +534,21 @@
    ],
    "responsabilidad": "Cada destino conserva un nombre coherente, su lugar y su comportamiento en todo el producto.",
    "cita": "Aplica PEX-005 a la navegación; los nombres siguen ARQ-002",
-   "corto": "Acciones previsibles"
+   "corto": "Acciones previsibles",
+   "titular": "Nombres, destinos y comportamientos estables",
+   "verificacion": [
+    {
+     "rotulo": "Inventario",
+     "condicion": "Se listan los destinos con su nombre en el menú, la ruta y el título.",
+     "resultado": "cada variante conserva el significado del destino."
+    },
+    {
+     "rotulo": "Recorrido",
+     "condicion": "Se completa la misma tarea desde dos áreas autorizadas.",
+     "resultado": "se llega al mismo destino, con el mismo comportamiento."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-ARQ-007",
@@ -327,7 +561,21 @@
    ],
    "responsabilidad": "Toda función necesaria tiene una señal visible para puntero, teclado y tacto.",
    "cita": "",
-   "corto": "Navegación visible"
+   "corto": "Navegación visible",
+   "titular": "Señales visibles para cada función",
+   "verificacion": [
+    {
+     "rotulo": "Tres recorridos",
+     "condicion": "Se completan las tareas principales solo con teclado, solo con toques y solo con puntero.",
+     "resultado": "todas se completan por las tres vías."
+    },
+    {
+     "rotulo": "Contenido emergente",
+     "condicion": "Se abre cada contenido que aparece con el cursor usando el foco del teclado, y se pulsa Escape.",
+     "resultado": "se abre con el foco y se cierra con Escape."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-ARQ-008",
@@ -342,7 +590,31 @@
    ],
    "responsabilidad": "Los controles de navegación comunican función, estado y disponibilidad con semántica y señales accesibles, y distinguen foco de selección.",
    "cita": "21 Operación (Teclado, Foco identificable) define el foco del producto",
-   "corto": "Controles"
+   "corto": "Controles",
+   "titular": "Función y estado de los controles de navegación",
+   "verificacion": [
+    {
+     "rotulo": "Revisión automática",
+     "condicion": "Se pasa una herramienta como axe o Lighthouse por cada tipo de pantalla.",
+     "resultado": "sin errores de nombre, rol ni estado. Es necesaria, pero no alcanza."
+    },
+    {
+     "rotulo": "Teclado",
+     "condicion": "Se recorre la navegación con Tab, se abre con Enter o Espacio y se cierra con Escape.",
+     "resultado": "el foco siempre visible y en el lugar descrito."
+    },
+    {
+     "rotulo": "Lector de pantalla",
+     "condicion": "Se recorre la navegación con NVDA y Firefox o Chrome, y con VoiceOver y Safari.",
+     "resultado": "cada navegación se anuncia con su nombre; cada grupo, «expandido» o «contraído»; la página activa, «página actual»; la pestaña, «seleccionada»."
+    },
+    {
+     "rotulo": "Foco y selección",
+     "condicion": "Se mueven el foco y el puntero por otros destinos.",
+     "resultado": "la sección activa sigue marcada y distinta del foco."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-ARQ-009",
@@ -357,7 +629,31 @@
    ],
    "responsabilidad": "La presentación cambia con el espacio; los destinos esenciales se mantienen accesibles y reconocibles.",
    "cita": "22 Adaptación define el tamaño de los objetivos; 37 Product Default, el patrón SaaS",
-   "corto": "Adaptación"
+   "corto": "Adaptación",
+   "titular": "Navegación adaptable por dispositivo",
+   "verificacion": [
+    {
+     "rotulo": "Ancho y ampliación",
+     "condicion": "Se buscan los destinos esenciales de escritorio a 320 px de ancho y con ampliación del 400 %.",
+     "resultado": "están todos, sin desplazamiento horizontal (WCAG 1.4.10)."
+    },
+    {
+     "rotulo": "Orden",
+     "condicion": "Se busca cada destino por su nombre en los distintos dispositivos.",
+     "resultado": "se encuentra aunque el orden cambie."
+    },
+    {
+     "rotulo": "Panel",
+     "condicion": "Se abre y se cierra el panel con teclado y con toque.",
+     "resultado": "el foco entra, el fondo no responde y el foco vuelve al botón."
+    },
+    {
+     "rotulo": "Objetivos",
+     "condicion": "Se mide el menor objetivo interactivo.",
+     "resultado": "24 × 24 px CSS como mínimo, o una excepción documentada."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-ARQ-010",
@@ -373,7 +669,26 @@
    ],
    "responsabilidad": "Al volver de un detalle, la lista conserva búsqueda, filtros, orden y posición cuando sirven para continuar.",
    "cita": "06 Búsqueda cita esta norma para la consulta conservada; 16 y 17 regulan los cambios pendientes",
-   "corto": "Regreso sin pérdida"
+   "corto": "Regreso sin pérdida",
+   "titular": "Listados que conservan su estado al volver",
+   "verificacion": [
+    {
+     "rotulo": "Volver",
+     "condicion": "Se abre el registro número 15 de un listado filtrado y ordenado, y se vuelve con los dos controles.",
+     "resultado": "mismos filtros, orden, página y posición, con el foco en ese registro."
+    },
+    {
+     "rotulo": "Recargar",
+     "condicion": "Se recarga una vista que admite recarga.",
+     "resultado": "los filtros siguen aplicados."
+    },
+    {
+     "rotulo": "Privacidad",
+     "condicion": "Se revisan la dirección y el historial del navegador después de filtrar.",
+     "resultado": "ningún dato sensible queda en ellos."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-ARQ-011",
@@ -387,7 +702,16 @@
    ],
    "responsabilidad": "Se entiende si la búsqueda es global o está limitada a una sección o conjunto.",
    "cita": "",
-   "corto": "Alcance identificable"
+   "corto": "Alcance identificable",
+   "titular": "Alcance de la búsqueda",
+   "verificacion": [
+    {
+     "rotulo": "Dos búsquedas",
+     "condicion": "Se muestran una búsqueda global y una local, sin escribir nada.",
+     "resultado": "la persona distingue cuál busca en todo el producto y cuál dentro de la lista."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-ARQ-012",
@@ -401,7 +725,16 @@
    ],
    "responsabilidad": "La búsqueda usa los campos relevantes, encuentra por coincidencia parcial y ordena por pertinencia.",
    "cita": "El límite de permisos está en ARQ-016",
-   "corto": "Pertinencia"
+   "corto": "Pertinencia",
+   "titular": "Campos y orden de los resultados",
+   "verificacion": [
+    {
+     "rotulo": "Consultas reales",
+     "condicion": "Se buscan registros con nombre parcial, sin tildes y con un error de escritura.",
+     "resultado": "el registro buscado aparece entre los primeros resultados."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-ARQ-013",
@@ -415,7 +748,16 @@
    ],
    "responsabilidad": "Cada resultado se distingue de otros similares y los resultados extensos se pueden recorrer.",
    "cita": "",
-   "corto": "Resultados claros"
+   "corto": "Resultados claros",
+   "titular": "Datos que distinguen cada resultado",
+   "verificacion": [
+    {
+     "rotulo": "Nombres parecidos",
+     "condicion": "Se buscan dos registros con nombres casi iguales.",
+     "resultado": "la persona elige el correcto sin abrirlos."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-ARQ-014",
@@ -429,7 +771,16 @@
    ],
    "responsabilidad": "Los filtros activos se ven y se modifican sin perder la consulta.",
    "cita": "La conservación al volver la regula ARQ-010 (05)",
-   "corto": "Filtros visibles"
+   "corto": "Filtros visibles",
+   "titular": "Filtros activos a la vista",
+   "verificacion": [
+    {
+     "rotulo": "Aplicar y quitar",
+     "condicion": "Se aplican, combinan y quitan filtros sobre una consulta escrita.",
+     "resultado": "la consulta se mantiene y cada filtro activo se ve."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-ARQ-015",
@@ -445,7 +796,16 @@
    ],
    "responsabilidad": "Sin coincidencias, la interfaz lo explica y ofrece una acción; un error y la falta de acceso se distinguen.",
    "cita": "24 Mensajes define la redacción",
-   "corto": "Sin resultados"
+   "corto": "Sin resultados",
+   "titular": "Búsquedas sin resultados",
+   "verificacion": [
+    {
+     "rotulo": "Tres casos",
+     "condicion": "Se fuerza cada situación de la tabla.",
+     "resultado": "tres mensajes distintos, cada uno con su salida y redactado según KYN-SDI-CNT-004."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-ARQ-016",
@@ -458,7 +818,16 @@
    ],
    "responsabilidad": "La búsqueda no revela, por ninguna vía, información sin permiso.",
    "cita": "Aplica PEX-008 a la búsqueda",
-   "corto": "Permisos"
+   "corto": "Permisos",
+   "titular": "Resultados según permisos",
+   "verificacion": [
+    {
+     "rotulo": "Perfiles distintos",
+     "condicion": "Se repiten las mismas consultas con perfiles de distinto permiso y se revisan las respuestas del servidor.",
+     "resultado": "resultados, totales, sugerencias y fragmentos cambian según el permiso, y ninguna respuesta incluye datos no autorizados."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-ARQ-017",
@@ -471,7 +840,16 @@
    ],
    "responsabilidad": "Las rutas internas se abren directamente y las no disponibles comunican la situación con una salida, sin revelar información.",
    "cita": "24 Mensajes define el texto; 18 Recuperación, las rutas alternativas",
-   "corto": "Acceso directo"
+   "corto": "Acceso directo",
+   "titular": "Enlaces directos y rutas no disponibles",
+   "verificacion": [
+    {
+     "rotulo": "Cuatro rutas",
+     "condicion": "Se abren directamente una ruta válida, una inexistente, una no autorizada y una con la sesión vencida.",
+     "resultado": "la página correcta o un mensaje con salida, sin datos restringidos en el título, el mensaje ni el código. Tras iniciar sesión, se llega a la página pedida."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-PEX-016",
@@ -484,7 +862,16 @@
    ],
    "responsabilidad": "La interfaz previene los errores frecuentes antes de que ocurran.",
    "cita": "13 Entradas y 16 Formularios desarrollan la validación",
-   "corto": "Prevención de errores"
+   "corto": "Prevención de errores",
+   "titular": "Prevención de errores frecuentes",
+   "verificacion": [
+    {
+     "rotulo": "Errores frecuentes",
+     "condicion": "Se registran los errores más frecuentes de una prueba con personas.",
+     "resultado": "cada uno tiene una medida preventiva o una razón documentada para no tenerla."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PEX-017",
@@ -499,7 +886,21 @@
    ],
    "responsabilidad": "La persona puede cancelar, deshacer y decidir sobre lo que el sistema propone.",
    "cita": "",
-   "corto": "Control de la persona"
+   "corto": "Control de la persona",
+   "titular": "Cancelar, deshacer y decidir",
+   "verificacion": [
+    {
+     "rotulo": "Reversión",
+     "condicion": "Se ejecuta cada acción reversible y se deshace.",
+     "resultado": "el estado anterior vuelve completo."
+    },
+    {
+     "rotulo": "Propuestas",
+     "condicion": "Se revisan los datos que completa el sistema antes de confirmar.",
+     "resultado": "cada uno se puede cambiar antes de confirmarlo."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PEX-018",
@@ -512,7 +913,16 @@
    ],
    "responsabilidad": "La interfaz muestra opciones, datos previos y contexto en lugar de exigir memoria.",
    "cita": "",
-   "corto": "Reconocer"
+   "corto": "Reconocer",
+   "titular": "Opciones y datos previos a la vista",
+   "verificacion": [
+    {
+     "rotulo": "Recorrido",
+     "condicion": "Se recorre una tarea de varios pasos sin papel ni notas.",
+     "resultado": "ningún paso pide un dato que la persona vio o eligió antes y que ya no está a la vista."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-FUI-001",
@@ -527,7 +937,16 @@
    ],
    "responsabilidad": "Los componentes usan tokens oficiales para todo valor compartido.",
    "cita": "",
-   "corto": "Fuente única"
+   "corto": "Fuente única",
+   "titular": "Tokens para todo valor compartido",
+   "verificacion": [
+    {
+     "rotulo": "Búsqueda en el código",
+     "condicion": "Se buscan colores, medidas y radios escritos a mano en el código de los componentes.",
+     "resultado": "solo aparecen en el archivo de tokens."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-FUI-002",
@@ -541,7 +960,16 @@
    ],
    "responsabilidad": "Los tokens se nombran por su función y permiten cambiar de tema.",
    "cita": "",
-   "corto": "Roles semánticos"
+   "corto": "Roles semánticos",
+   "titular": "Tokens nombrados por su función",
+   "verificacion": [
+    {
+     "rotulo": "Revisión de nombres",
+     "condicion": "Se revisan los tokens que usa cada componente.",
+     "resultado": "ninguno usa un token con nombre de color para expresar una función."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-FUI-003",
@@ -555,7 +983,16 @@
    ],
    "responsabilidad": "Los cambios de tokens se comprueban en componentes y productos antes de aprobarse.",
    "cita": "",
-   "corto": "Cambios controlados"
+   "corto": "Cambios controlados",
+   "titular": "Revisión de cambios en tokens compartidos",
+   "verificacion": [
+    {
+     "rotulo": "Antes y después",
+     "condicion": "Se cambia --color-text en una rama de prueba y se capturan las pantallas clave de cada producto antes y después.",
+     "resultado": "cambian todos los textos y nada más."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-FUI-004",
@@ -568,7 +1005,16 @@
    ],
    "responsabilidad": "Cada color de la interfaz cumple una función identificable.",
    "cita": "",
-   "corto": "Color con función"
+   "corto": "Color con función",
+   "titular": "Función de cada color en la interfaz",
+   "verificacion": [
+    {
+     "rotulo": "Inventario",
+     "condicion": "Se listan los colores de una pantalla con la función de cada uno.",
+     "resultado": "ninguno queda sin función."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-FUI-005",
@@ -582,7 +1028,16 @@
    ],
    "responsabilidad": "Los estados usan el color oficial y una señal adicional.",
    "cita": "",
-   "corto": "Estados"
+   "corto": "Estados",
+   "titular": "Estados con color y señal adicional",
+   "verificacion": [
+    {
+     "rotulo": "Escala de grises",
+     "condicion": "Se ve una pantalla con los cinco estados en escala de grises.",
+     "resultado": "cada estado sigue distinguiéndose por su ícono y su texto."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-FUI-006",
@@ -595,7 +1050,16 @@
    ],
    "responsabilidad": "Salmón Tierra no reemplaza al color de error.",
    "cita": "",
-   "corto": "Significados"
+   "corto": "Significados",
+   "titular": "Salmón Tierra y el color de error",
+   "verificacion": [
+    {
+     "rotulo": "Revisión de errores",
+     "condicion": "Se revisan los mensajes de error y los campos inválidos de una pantalla.",
+     "resultado": "ninguno usa Salmón Tierra."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-FUI-007",
@@ -609,7 +1073,16 @@
    ],
    "responsabilidad": "Las combinaciones cumplen los mínimos de contraste de WCAG 2.2 AA.",
    "cita": "",
-   "corto": "Contraste"
+   "corto": "Contraste",
+   "titular": "Contraste mínimo de las combinaciones",
+   "verificacion": [
+    {
+     "rotulo": "Pares de tokens",
+     "condicion": "Se mide con una herramienta de contraste cada par de texto y fondo, y de borde y fondo, de los tokens semánticos. Las combinaciones aprobadas están en Combinaciones.",
+     "resultado": "cada par alcanza el mínimo de la tabla; el foco queda como excepción pendiente hasta su decisión."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-FUI-008",
@@ -622,7 +1095,16 @@
    ],
    "responsabilidad": "Las interfaces usan las familias, pesos y escala oficiales.",
    "cita": "",
-   "corto": "Sistema tipográfico"
+   "corto": "Sistema tipográfico",
+   "titular": "Familias, pesos y escala tipográfica",
+   "verificacion": [
+    {
+     "rotulo": "Inventario",
+     "condicion": "Se revisa cada texto de una pantalla con el inspector del navegador.",
+     "resultado": "cada uno usa un tamaño de la escala y su familia oficial."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-FUI-009",
@@ -635,7 +1117,16 @@
    ],
    "responsabilidad": "Cada función de texto mantiene un aspecto reconocible.",
    "cita": "",
-   "corto": "Jerarquía"
+   "corto": "Jerarquía",
+   "titular": "Jerarquía de las funciones de texto",
+   "verificacion": [
+    {
+     "rotulo": "Comparación",
+     "condicion": "Se compara un mismo tipo de texto en dos pantallas distintas.",
+     "resultado": "tiene el mismo tamaño, peso y color."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-FUI-010",
@@ -648,7 +1139,16 @@
    ],
    "responsabilidad": "El texto se lee con ampliación, espaciado y en cualquier pantalla.",
    "cita": "",
-   "corto": "Legibilidad"
+   "corto": "Legibilidad",
+   "titular": "Legibilidad con ampliación y espaciado",
+   "verificacion": [
+    {
+     "rotulo": "Tres pruebas",
+     "condicion": "Se aplican a cada pantalla la ampliación al 200 %, el ancho de 320 px y el espaciado de texto aumentado.",
+     "resultado": "se cumple cada fila de la tabla."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-FUI-011",
@@ -661,7 +1161,16 @@
    ],
    "responsabilidad": "Lo acortado sigue disponible completo.",
    "cita": "",
-   "corto": "Truncamiento"
+   "corto": "Truncamiento",
+   "titular": "Textos truncados y su valor completo",
+   "verificacion": [
+    {
+     "rotulo": "Textos largos",
+     "condicion": "Se cargan nombres y descripciones de longitud máxima.",
+     "resultado": "el valor completo se puede leer en cada caso."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-FUI-012",
@@ -674,7 +1183,16 @@
    ],
    "responsabilidad": "Los componentes usan la escala espacial oficial.",
    "cita": "",
-   "corto": "Espaciado"
+   "corto": "Espaciado",
+   "titular": "Escala espacial de los componentes",
+   "verificacion": [
+    {
+     "rotulo": "Búsqueda en el código",
+     "condicion": "Se buscan márgenes y separaciones escritos a mano en los componentes.",
+     "resultado": "todos usan un valor de la escala."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-FUI-013",
@@ -687,7 +1205,16 @@
    ],
    "responsabilidad": "La proximidad refleja la relación funcional.",
    "cita": "",
-   "corto": "Agrupación"
+   "corto": "Agrupación",
+   "titular": "Proximidad según la relación funcional",
+   "verificacion": [
+    {
+     "rotulo": "Agrupación",
+     "condicion": "Se pide a la persona que señale qué elementos van juntos, sin leer las etiquetas.",
+     "resultado": "coincide con los grupos definidos."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-FUI-014",
@@ -702,7 +1229,16 @@
    ],
    "responsabilidad": "La retícula se adapta sin solapamientos ni pérdidas, con densidad y esquinas oficiales.",
    "cita": "",
-   "corto": "Adaptación"
+   "corto": "Adaptación",
+   "titular": "Retícula adaptable, densidad y esquinas",
+   "verificacion": [
+    {
+     "rotulo": "Cuatro casos",
+     "condicion": "Se prueban contenido largo, estados de error, anchos de 320 a 1440 px y los dos modos de densidad.",
+     "resultado": "sin solapamientos ni controles perdidos."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-CPE-001",
@@ -716,7 +1252,21 @@
    ],
    "responsabilidad": "Las acciones principales, secundarias y destructivas se distinguen con consistencia.",
    "cita": "",
-   "corto": "Jerarquía"
+   "corto": "Jerarquía",
+   "titular": "Acción principal, secundaria y destructiva",
+   "verificacion": [
+    {
+     "rotulo": "Grupo",
+     "condicion": "Se revisa cada grupo de decisión de una pantalla.",
+     "resultado": "hay una sola acción principal por grupo."
+    },
+    {
+     "rotulo": "Comparación",
+     "condicion": "Se ven Guardar, Cancelar y Eliminar en escala de grises.",
+     "resultado": "las tres se distinguen a simple vista."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-CPE-002",
@@ -731,7 +1281,26 @@
    ],
    "responsabilidad": "Los controles contemplan reposo, cursor encima, foco, presionado, carga, deshabilitado y activado.",
    "cita": "",
-   "corto": "Estados"
+   "corto": "Estados",
+   "titular": "Estados de los controles interactivos",
+   "verificacion": [
+    {
+     "rotulo": "Cuatro formas",
+     "condicion": "Se activa cada variante con puntero, toque, Enter y Espacio.",
+     "resultado": "responde igual por las cuatro vías."
+    },
+    {
+     "rotulo": "Carga",
+     "condicion": "Se hace doble clic durante la carga.",
+     "resultado": "la acción se ejecuta una sola vez."
+    },
+    {
+     "rotulo": "Lector de pantalla",
+     "condicion": "Se recorre cada control con NVDA o VoiceOver.",
+     "resultado": "se anuncian el nombre, el estado activado y la carga."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-CPE-003",
@@ -745,7 +1314,16 @@
    ],
    "responsabilidad": "Las acciones de alto impacto comunican consecuencias y aplican protección según el riesgo.",
    "cita": "",
-   "corto": "Destructivas"
+   "corto": "Destructivas",
+   "titular": "Protección de las acciones destructivas",
+   "verificacion": [
+    {
+     "rotulo": "Prueba de riesgo",
+     "condicion": "Se intenta cada acción destructiva del producto.",
+     "resultado": "la protección corresponde a su fila de la tabla y el texto nombra lo que se pierde."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-CPE-004",
@@ -758,7 +1336,21 @@
    ],
    "responsabilidad": "Las acciones ocasionales se agrupan en un menú accesible.",
    "cita": "",
-   "corto": "Menú de acciones"
+   "corto": "Menú de acciones",
+   "titular": "Menú de acciones ocasionales",
+   "verificacion": [
+    {
+     "rotulo": "Teclado",
+     "condicion": "Se abre el menú, se recorre y se cierra solo con teclado.",
+     "resultado": "el foco sigue el recorrido descrito y vuelve al botón al cerrar."
+    },
+    {
+     "rotulo": "Lector de pantalla",
+     "condicion": "Se abre el menú con NVDA o VoiceOver.",
+     "resultado": "se anuncian el menú, su estado y cada opción."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-CPE-005",
@@ -772,7 +1364,21 @@
    ],
    "responsabilidad": "Cada campo tiene etiqueta visible, ayuda cuando hace falta y asociaciones accesibles.",
    "cita": "",
-   "corto": "Etiquetas"
+   "corto": "Etiquetas",
+   "titular": "Etiqueta, ayuda y error de cada campo",
+   "verificacion": [
+    {
+     "rotulo": "Lector de pantalla",
+     "condicion": "Se entra en cada campo con un lector de pantalla.",
+     "resultado": "se anuncian la etiqueta, la ayuda y, si existe, el error."
+    },
+    {
+     "rotulo": "Campo con valor",
+     "condicion": "Se completa cada campo.",
+     "resultado": "la etiqueta sigue visible."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-CPE-006",
@@ -786,7 +1392,16 @@
    ],
    "responsabilidad": "Los errores identifican el campo y explican cómo corregir, en el momento adecuado.",
    "cita": "",
-   "corto": "Validación"
+   "corto": "Validación",
+   "titular": "Mensajes de error en los campos",
+   "verificacion": [
+    {
+     "rotulo": "Cuatro casos",
+     "condicion": "Se prueban campos vacíos, valores incorrectos, entradas largas y la corrección de cada error.",
+     "resultado": "cada error nombra el campo y la corrección, y desaparece al corregirse."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-CPE-007",
@@ -800,7 +1415,16 @@
    ],
    "responsabilidad": "Cada dato usa el control que corresponde a su tipo y esfuerzo.",
    "cita": "",
-   "corto": "Control apropiado"
+   "corto": "Control apropiado",
+   "titular": "Control según el tipo de dato",
+   "verificacion": [
+    {
+     "rotulo": "Tipos de dato",
+     "condicion": "Se revisa el control de cada campo del formulario contra la tabla.",
+     "resultado": "coincide con la tabla o tiene una razón registrada."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PAT-001",
@@ -814,7 +1438,16 @@
    ],
    "responsabilidad": "Los formularios agrupan campos y siguen la secuencia del proceso real.",
    "cita": "",
-   "corto": "Flujo"
+   "corto": "Flujo",
+   "titular": "Orden y agrupación de los formularios",
+   "verificacion": [
+    {
+     "rotulo": "Recorrido",
+     "condicion": "Personas del perfil completan el formulario sin ayuda.",
+     "resultado": "siguen el orden propuesto sin volver atrás para buscar un campo."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PAT-002",
@@ -828,7 +1461,16 @@
    ],
    "responsabilidad": "El sistema advierte o recupera ante el riesgo de perder lo escrito.",
    "cita": "",
-   "corto": "Sin pérdidas"
+   "corto": "Sin pérdidas",
+   "titular": "Protección de lo escrito",
+   "verificacion": [
+    {
+     "rotulo": "Interrupciones",
+     "condicion": "Se interrumpe el formulario de cuatro formas: salir, vencer la sesión, cortar la red y cerrar la pestaña.",
+     "resultado": "el trabajo se recupera o el aviso llega antes de perderlo."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PAT-003",
@@ -840,8 +1482,17 @@
     "Validación proporcionada (base)"
    ],
    "responsabilidad": "La validación no interrumpe ni borra valores correctos.",
-   "cita": "13 Entradas (CPE-006) define cuándo y cómo se valida",
-   "corto": "Validación"
+   "cita": "13 Entradas (Validación útil) define cuándo y cómo se valida",
+   "corto": "Validación",
+   "titular": "Validación sin interrupciones",
+   "verificacion": [
+    {
+     "rotulo": "Error al enviar",
+     "condicion": "Se envía el formulario con un dato inválido.",
+     "resultado": "solo ese campo se marca y los demás conservan su valor."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PAT-004",
@@ -855,7 +1506,16 @@
    ],
    "responsabilidad": "Los procesos de varios pasos comunican avance y lo necesario para continuar.",
    "cita": "",
-   "corto": "Progreso"
+   "corto": "Progreso",
+   "titular": "Avance de los procesos de varios pasos",
+   "verificacion": [
+    {
+     "rotulo": "Recorrido",
+     "condicion": "Se pregunta a la persona, en cada paso, cuántos faltan y qué necesita para continuar.",
+     "resultado": "responde sin buscar la información fuera de la pantalla."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PAT-005",
@@ -869,7 +1529,21 @@
    ],
    "responsabilidad": "El sistema conserva decisiones válidas al retroceder y el progreso al interrumpir.",
    "cita": "",
-   "corto": "Contexto"
+   "corto": "Contexto",
+   "titular": "Decisiones conservadas al retroceder",
+   "verificacion": [
+    {
+     "rotulo": "Corregir un paso",
+     "condicion": "Se corrige el paso 1 desde el paso 3.",
+     "resultado": "solo cambia lo que depende de esa corrección."
+    },
+    {
+     "rotulo": "Interrumpir",
+     "condicion": "Se cierra la sesión en el paso 3 y se vuelve.",
+     "resultado": "el proceso sigue en el paso 3."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PAT-006",
@@ -883,7 +1557,16 @@
    ],
    "responsabilidad": "Cada proceso termina con su resultado y un siguiente paso; el ciclo de un registro es consistente.",
    "cita": "",
-   "corto": "Terminación"
+   "corto": "Terminación",
+   "titular": "Resultado y siguiente paso al terminar",
+   "verificacion": [
+    {
+     "rotulo": "Cuatro acciones",
+     "condicion": "Se crea, edita, guarda y elimina un registro.",
+     "resultado": "cada acción termina con su resultado y un siguiente paso."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PAT-007",
@@ -898,7 +1581,16 @@
    ],
    "responsabilidad": "Ante un error, la interfaz ofrece una alternativa viable o explica qué la impide.",
    "cita": "24 Mensajes define la redacción del error",
-   "corto": "Ruta de salida"
+   "corto": "Ruta de salida",
+   "titular": "Salida ante errores que impiden continuar",
+   "verificacion": [
+    {
+     "rotulo": "Simulación",
+     "condicion": "Se simulan errores de red, de servicio, de permiso y de datos.",
+     "resultado": "cada uno muestra qué pasó y ofrece su salida."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PAT-008",
@@ -911,8 +1603,17 @@
     "UIX-025"
    ],
    "responsabilidad": "Las acciones reversibles ofrecen deshacer o restaurar.",
-   "cita": "Aplica Control de la persona (PEX-017)",
-   "corto": "Deshacer"
+   "cita": "Aplica Control de la persona (Control de la persona)",
+   "corto": "Deshacer",
+   "titular": "Deshacer y restaurar",
+   "verificacion": [
+    {
+     "rotulo": "Deshacer",
+     "condicion": "Se ejecuta una acción reversible y se deshace.",
+     "resultado": "el estado anterior vuelve completo."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-PAT-009",
@@ -925,7 +1626,16 @@
    ],
    "responsabilidad": "Un fallo no elimina información válida que pueda conservarse con seguridad.",
    "cita": "",
-   "corto": "Persistencia"
+   "corto": "Persistencia",
+   "titular": "Datos válidos que sobreviven a un fallo",
+   "verificacion": [
+    {
+     "rotulo": "Fallo forzado",
+     "condicion": "Se fuerza un fallo a mitad de una tarea y se reintenta.",
+     "resultado": "los datos válidos siguen ahí."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-PAT-010",
@@ -940,7 +1650,21 @@
    ],
    "responsabilidad": "Los estados vacíos explican y orientan; las esperas muestran que el sistema trabaja.",
    "cita": "",
-   "corto": "Vacíos y esperas"
+   "corto": "Vacíos y esperas",
+   "titular": "Estados vacíos y de espera",
+   "verificacion": [
+    {
+     "rotulo": "Cuatro casos",
+     "condicion": "Se fuerzan una lista vacía por primera vez, una búsqueda vacía, una espera corta y una espera larga.",
+     "resultado": "ninguno queda en blanco ni sin una acción posible."
+    },
+    {
+     "rotulo": "Lector de pantalla",
+     "condicion": "Se provoca una espera con un lector de pantalla activo.",
+     "resultado": "se anuncia que el sistema está trabajando y, después, el resultado."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-ACC-001",
@@ -954,7 +1678,16 @@
    ],
    "responsabilidad": "Los productos web se diseñan y verifican con WCAG 2.2 AA como mínimo.",
    "cita": "",
-   "corto": "Conformidad"
+   "corto": "Conformidad",
+   "titular": "WCAG 2.2 AA como referencia de conformidad",
+   "verificacion": [
+    {
+     "rotulo": "Revisión doble",
+     "condicion": "Se revisa cada pantalla con una herramienta automática y, después, a mano con teclado y lector de pantalla.",
+     "resultado": "ningún criterio AA queda incumplido; la herramienta sola no alcanza para darlo por cumplido."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-ACC-002",
@@ -966,8 +1699,17 @@
     "Información perceptible (base)"
    ],
    "responsabilidad": "El significado no depende de un único recurso sensorial.",
-   "cita": "08 Color funcional (FUI-007) fija los mínimos de contraste",
-   "corto": "Perceptible"
+   "cita": "08 Color funcional (Contraste) fija los mínimos de contraste",
+   "corto": "Perceptible",
+   "titular": "Alternativas para cada recurso sensorial",
+   "verificacion": [
+    {
+     "rotulo": "Sin imágenes ni color",
+     "condicion": "Se recorre la pantalla con imágenes desactivadas y en escala de grises.",
+     "resultado": "el significado se mantiene."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-ACC-003",
@@ -979,8 +1721,17 @@
     "Lectura adaptable (base)"
    ],
    "responsabilidad": "La interfaz conserva contenido y funciones con ampliación y ajustes de texto.",
-   "cita": "09 Tipografía (FUI-010) desarrolla las decisiones de texto",
-   "corto": "Lectura adaptable"
+   "cita": "09 Tipografía (Legibilidad) desarrolla las decisiones de texto",
+   "corto": "Lectura adaptable",
+   "titular": "Ampliación y ajustes de presentación",
+   "verificacion": [
+    {
+     "rotulo": "Tres pruebas",
+     "condicion": "Se aplican ampliación al 200 % y al 400 %, ancho de 320 px y espaciado de texto aumentado.",
+     "resultado": "sin pérdida de contenido ni de funciones."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-ACC-004",
@@ -993,8 +1744,17 @@
     "UIX-038"
    ],
    "responsabilidad": "Todas las funciones interactivas se usan con teclado.",
-   "cita": "05 Navegación (ARQ-008) desarrolla el teclado de los menús",
-   "corto": "Teclado"
+   "cita": "05 Navegación (Identificación de controles) desarrolla el teclado de los menús",
+   "corto": "Teclado",
+   "titular": "Uso completo con teclado",
+   "verificacion": [
+    {
+     "rotulo": "Sin ratón",
+     "condicion": "Se completan las tareas principales solo con teclado.",
+     "resultado": "todas se completan, sin trampas de foco."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-ACC-005",
@@ -1007,7 +1767,21 @@
    ],
    "responsabilidad": "El foco es perceptible, sigue el orden lógico y no queda oculto.",
    "cita": "",
-   "corto": "Foco"
+   "corto": "Foco",
+   "titular": "Indicador de foco visible",
+   "verificacion": [
+    {
+     "rotulo": "Recorrido",
+     "condicion": "Se recorre la página con Tab con la cabecera fija visible.",
+     "resultado": "el foco se ve completo en cada paso."
+    },
+    {
+     "rotulo": "Contraste del indicador",
+     "condicion": "Se mide el anillo de foco contra su fondo.",
+     "resultado": "alcanza 3:1 (WCAG 1.4.11)."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-ACC-006",
@@ -1020,7 +1794,21 @@
    ],
    "responsabilidad": "Se respetan los límites de tiempo, el control del movimiento y los destellos.",
    "cita": "",
-   "corto": "Tiempo y movimiento"
+   "corto": "Tiempo y movimiento",
+   "titular": "Límites de tiempo y movimiento",
+   "verificacion": [
+    {
+     "rotulo": "Movimiento reducido",
+     "condicion": "Se activa la preferencia de movimiento reducido del sistema.",
+     "resultado": "las animaciones no esenciales se detienen."
+    },
+    {
+     "rotulo": "Sesión por vencer",
+     "condicion": "Se deja una sesión hasta el aviso de vencimiento.",
+     "resultado": "aparece el aviso con la opción de extender el tiempo."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-ACC-007",
@@ -1033,7 +1821,16 @@
    ],
    "responsabilidad": "Las pantallas se reorganizan sin eliminar funciones esenciales.",
    "cita": "",
-   "corto": "Diseño adaptable"
+   "corto": "Diseño adaptable",
+   "titular": "Funciones completas en cualquier ancho",
+   "verificacion": [
+    {
+     "rotulo": "Anchos",
+     "condicion": "Se recorre cada tarea a 320, 768, 1024 y 1440 px.",
+     "resultado": "las funciones esenciales están en todos los anchos."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-ACC-008",
@@ -1048,7 +1845,16 @@
    ],
    "responsabilidad": "Los objetivos cumplen el tamaño y la separación de WCAG 2.2 AA; 44 px es una preferencia por aprobar.",
    "cita": "",
-   "corto": "Objetivos"
+   "corto": "Objetivos",
+   "titular": "Tamaño y separación de los objetivos",
+   "verificacion": [
+    {
+     "rotulo": "Medición",
+     "condicion": "Se mide el menor objetivo interactivo de cada pantalla.",
+     "resultado": "24 × 24 px CSS como mínimo, o una excepción documentada."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-ACC-009",
@@ -1063,7 +1869,16 @@
    ],
    "responsabilidad": "Las experiencias consideran dispositivos, métodos de entrada, preferencias y condiciones.",
    "cita": "",
-   "corto": "Variaciones"
+   "corto": "Variaciones",
+   "titular": "Dispositivos, entradas y condiciones de uso",
+   "verificacion": [
+    {
+     "rotulo": "Matriz de uso",
+     "condicion": "Se prueba cada tarea principal con dos métodos de entrada como mínimo y con las preferencias del sistema activadas.",
+     "resultado": "la tarea se completa en cada combinación."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-DAV-001",
@@ -1077,7 +1892,21 @@
    ],
    "responsabilidad": "Las tablas tienen encabezados, alineación y organización para comparar.",
    "cita": "",
-   "corto": "Lectura"
+   "corto": "Lectura",
+   "titular": "Encabezados, alineación y lectura de tablas",
+   "verificacion": [
+    {
+     "rotulo": "Lector de pantalla",
+     "condicion": "Se recorren las celdas con un lector de pantalla.",
+     "resultado": "cada celda se anuncia con su fila y su columna."
+    },
+    {
+     "rotulo": "Comparación",
+     "condicion": "Se pide comparar dos registros de la tabla.",
+     "resultado": "la persona los compara sin abrirlos."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-DAV-002",
@@ -1090,7 +1919,16 @@
    ],
    "responsabilidad": "Búsqueda, filtros, orden y paginación se ajustan al volumen y la tarea.",
    "cita": "",
-   "corto": "Herramientas"
+   "corto": "Herramientas",
+   "titular": "Búsqueda, filtros, orden y paginación de tablas",
+   "verificacion": [
+    {
+     "rotulo": "Volúmenes",
+     "condicion": "Se prueba la tabla vacía, con pocos registros y con miles.",
+     "resultado": "las herramientas responden al volumen y el total es correcto."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-DAV-003",
@@ -1103,7 +1941,16 @@
    ],
    "responsabilidad": "Las acciones por registro se distinguen de los valores y respetan permisos.",
    "cita": "",
-   "corto": "Acciones"
+   "corto": "Acciones",
+   "titular": "Acciones por registro",
+   "verificacion": [
+    {
+     "rotulo": "Casos",
+     "condicion": "Se prueban tablas vacías, extensas, filtradas, ordenadas y en pantallas pequeñas, con perfiles de distinto permiso.",
+     "resultado": "las acciones se distinguen de los datos y cada perfil ve solo las suyas."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-DAV-004",
@@ -1116,7 +1963,16 @@
    ],
    "responsabilidad": "Los tableros priorizan la información para las decisiones de sus usuarios.",
    "cita": "",
-   "corto": "Por tarea"
+   "corto": "Por tarea",
+   "titular": "Tableros según las decisiones de quien los usa",
+   "verificacion": [
+    {
+     "rotulo": "Con personas",
+     "condicion": "Se pide a la persona que diga qué requiere su atención y que actúe.",
+     "resultado": "lo hace sin recorrer datos irrelevantes."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-DAV-005",
@@ -1128,8 +1984,17 @@
     "Jerarquía informativa (base)"
    ],
    "responsabilidad": "Los indicadores reciben protagonismo según su importancia operativa.",
-   "cita": "Aplica 04 Jerarquía identificable (ARQ-003)",
-   "corto": "Jerarquía"
+   "cita": "Aplica 04 Jerarquía identificable (Jerarquía identificable)",
+   "corto": "Jerarquía",
+   "titular": "Jerarquía de los indicadores",
+   "verificacion": [
+    {
+     "rotulo": "Primera mirada",
+     "condicion": "Se muestra el tablero y se pregunta qué es lo más importante. Cinco segundos es una hipótesis de prueba.",
+     "resultado": "la respuesta coincide con el indicador principal definido."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-DAV-006",
@@ -1144,7 +2009,16 @@
    ],
    "responsabilidad": "El tablero lleva a vistas detalladas, filtros y exportación cuando la tarea lo necesita.",
    "cita": "",
-   "corto": "Profundidad"
+   "corto": "Profundidad",
+   "titular": "Del resumen al detalle",
+   "verificacion": [
+    {
+     "rotulo": "Recorrido",
+     "condicion": "Desde un indicador se abre su detalle y se vuelve.",
+     "resultado": "el filtro y el período se conservan."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-SPR-001",
@@ -1157,7 +2031,16 @@
    ],
    "responsabilidad": "Los productos Default aplican los componentes canónicos y el tema aprobado.",
    "cita": "",
-   "corto": "Predeterminada"
+   "corto": "Predeterminada",
+   "titular": "Componentes canónicos en Product Default",
+   "verificacion": [
+    {
+     "rotulo": "Inventario",
+     "condicion": "Se revisan los componentes de cada pantalla del producto.",
+     "resultado": "son canónicos, o tienen su justificación registrada."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-SPR-002",
@@ -1171,7 +2054,16 @@
    ],
    "responsabilidad": "Las interfaces frecuentes priorizan superficies contenidas, claridad y jerarquía.",
    "cita": "Libro de Marca, capítulo 18 Digital (UI-001 y UI-002), en borrador",
-   "corto": "Sobriedad"
+   "corto": "Sobriedad",
+   "titular": "Superficies contenidas para el uso frecuente",
+   "verificacion": [
+    {
+     "rotulo": "Sin decoración",
+     "condicion": "Se quitan los recursos decorativos de una pantalla operativa.",
+     "resultado": "la tarea se entiende y se completa igual."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-SPR-003",
@@ -1186,7 +2078,16 @@
    ],
    "responsabilidad": "Las variaciones permitidas conservan accesibilidad, consistencia y comportamiento.",
    "cita": "38 White-label regula los productos sin firma Keyons",
-   "corto": "Personalización"
+   "corto": "Personalización",
+   "titular": "Límites de la personalización",
+   "verificacion": [
+    {
+     "rotulo": "Tema de prueba",
+     "condicion": "Se aplica una personalización completa y se repiten las pruebas de contraste y de teclado.",
+     "resultado": "los resultados son los mismos que con el tema predeterminado."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-SPR-004",
@@ -1199,7 +2100,16 @@
    ],
    "responsabilidad": "Los productos SaaS usan el patrón de navegación predeterminado o justifican otro.",
    "cita": "",
-   "corto": "Navegación"
+   "corto": "Navegación",
+   "titular": "Patrón de navegación de los productos SaaS",
+   "verificacion": [
+    {
+     "rotulo": "Dos productos",
+     "condicion": "Se comparan dos productos SaaS.",
+     "resultado": "tienen la misma estructura de navegación, con sus destinos propios."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-GOB-001",
@@ -1214,7 +2124,16 @@
    ],
    "responsabilidad": "Las evaluaciones usan tareas representativas y registran su evidencia.",
    "cita": "",
-   "corto": "Tareas reales"
+   "corto": "Tareas reales",
+   "titular": "Tareas representativas en las evaluaciones",
+   "verificacion": [
+    {
+     "rotulo": "Plan de prueba",
+     "condicion": "Se revisan las tareas del plan de evaluación.",
+     "resultado": "cada una corresponde a una tarea documentada de un perfil."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-GOB-002",
@@ -1227,7 +2146,16 @@
    ],
    "responsabilidad": "Los defectos críticos se resuelven o bloquean el lanzamiento con decisión explícita.",
    "cita": "",
-   "corto": "Problemas críticos"
+   "corto": "Problemas críticos",
+   "titular": "Defectos críticos antes del lanzamiento",
+   "verificacion": [
+    {
+     "rotulo": "Registro",
+     "condicion": "Se revisa el registro de problemas de un lanzamiento.",
+     "resultado": "cada problema crítico tiene su resolución o su decisión de bloqueo, con fecha y responsable."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-GOB-003",
@@ -1242,7 +2170,16 @@
    ],
    "responsabilidad": "Cada lanzamiento completa la verificación visual, funcional, de usabilidad y de accesibilidad.",
    "cita": "",
-   "corto": "Protocolo"
+   "corto": "Protocolo",
+   "titular": "Protocolo previo al lanzamiento",
+   "verificacion": [
+    {
+     "rotulo": "Expediente",
+     "condicion": "Se revisa el expediente del lanzamiento.",
+     "resultado": "tiene las cinco evidencias del protocolo, cada una con su resultado."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-FUI-015",
@@ -1255,7 +2192,16 @@
    ],
    "responsabilidad": "Cada ícono identifica una acción, estado, categoría o significado.",
    "cita": "",
-   "corto": "Íconos"
+   "corto": "Íconos",
+   "titular": "Función de cada ícono",
+   "verificacion": [
+    {
+     "rotulo": "Comprensión",
+     "condicion": "Se muestran los íconos sin etiquetas y se pregunta qué hace cada uno.",
+     "resultado": "los que no se entienden solos llevan texto visible."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-FUI-016",
@@ -1268,7 +2214,16 @@
    ],
    "responsabilidad": "Los recursos gráficos aplican las normas oficiales de la marca.",
    "cita": "",
-   "corto": "Identidad"
+   "corto": "Identidad",
+   "titular": "Recursos gráficos según la marca",
+   "verificacion": [
+    {
+     "rotulo": "Revisión",
+     "condicion": "Se revisan los recursos gráficos de una pantalla.",
+     "resultado": "cada uno corresponde a una norma del Libro de Marca o a la identidad aprobada del cliente."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-FUI-017",
@@ -1281,7 +2236,16 @@
    ],
    "responsabilidad": "Los recursos expresivos no compiten con tareas ni información esencial.",
    "cita": "Desarrolla PEX-001 (01) para los recursos gráficos",
-   "corto": "Expresión"
+   "corto": "Expresión",
+   "titular": "Recursos expresivos subordinados a la tarea",
+   "verificacion": [
+    {
+     "rotulo": "Retirar lo decorativo",
+     "condicion": "Se quita un recurso decorativo de la pantalla.",
+     "resultado": "la información necesaria para usar la interfaz sigue completa."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-CPE-008",
@@ -1294,7 +2258,16 @@
    ],
    "responsabilidad": "Paneles, pestañas, acordeones y diálogos se usan cuando facilitan la tarea.",
    "cita": "",
-   "corto": "Contenedores"
+   "corto": "Contenedores",
+   "titular": "Paneles, pestañas, acordeones y diálogos",
+   "verificacion": [
+    {
+     "rotulo": "Por contenedor",
+     "condicion": "Se abre, se cierra y se recorre cada contenedor con teclado.",
+     "resultado": "el foco vuelve al control que lo abrió."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-CPE-009",
@@ -1307,7 +2280,16 @@
    ],
    "responsabilidad": "El contenido no se fragmenta en contenedores sin razón.",
    "cita": "",
-   "corto": "Jerarquía"
+   "corto": "Jerarquía",
+   "titular": "Contenedores necesarios",
+   "verificacion": [
+    {
+     "rotulo": "Quitar un contenedor",
+     "condicion": "Se quita un contenedor y se lee su contenido.",
+     "resultado": "si la información se entiende igual, el contenedor se elimina."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-CPE-010",
@@ -1320,7 +2302,16 @@
    ],
    "responsabilidad": "Los diálogos presentan propósito, acciones y salida, con foco gestionado.",
    "cita": "",
-   "corto": "Diálogos"
+   "corto": "Diálogos",
+   "titular": "Propósito, acciones y salida de los diálogos",
+   "verificacion": [
+    {
+     "rotulo": "Ciclo",
+     "condicion": "Se abre el diálogo, se recorre con Tab y se cierra con Escape.",
+     "resultado": "el foco queda dentro mientras está abierto y vuelve al control que lo abrió."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-CPE-011",
@@ -1334,7 +2325,16 @@
    ],
    "responsabilidad": "Las acciones que modifican información comunican su resultado o su proceso.",
    "cita": "Desarrolla PEX-004 (01) en componentes",
-   "corto": "Resultado"
+   "corto": "Resultado",
+   "titular": "Componentes de respuesta a una acción",
+   "verificacion": [
+    {
+     "rotulo": "Cuatro casos",
+     "condicion": "Se prueban éxito, espera, fallo y repetición de la acción.",
+     "resultado": "cada caso se ve y se anuncia con su componente."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-CPE-012",
@@ -1347,7 +2347,16 @@
    ],
    "responsabilidad": "La retroalimentación explica el estado real, sin mensajes genéricos.",
    "cita": "24 Mensajes define la redacción",
-   "corto": "Mensajes"
+   "corto": "Mensajes",
+   "titular": "Mensajes que explican lo ocurrido",
+   "verificacion": [
+    {
+     "rotulo": "Mensajes",
+     "condicion": "Se revisan los mensajes de respuesta del producto.",
+     "resultado": "cada uno nombra el objeto y el resultado."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-CPE-013",
@@ -1362,7 +2371,16 @@
    ],
    "responsabilidad": "Las notificaciones se diferencian por urgencia y no interrumpen por eventos menores.",
    "cita": "",
-   "corto": "Atención"
+   "corto": "Atención",
+   "titular": "Niveles de urgencia de las notificaciones",
+   "verificacion": [
+    {
+     "rotulo": "Escalada",
+     "condicion": "Se revisa el nivel asignado a cada evento notificado.",
+     "resultado": "cada nivel corresponde a la urgencia y la consecuencia del evento."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-PAT-011",
@@ -1377,7 +2395,16 @@
    ],
    "responsabilidad": "Las operaciones críticas comprueban permisos y piden la confirmación que corresponde al riesgo.",
    "cita": "",
-   "corto": "Autorización"
+   "corto": "Autorización",
+   "titular": "Autorización y confirmación de operaciones críticas",
+   "verificacion": [
+    {
+     "rotulo": "Cuatro casos",
+     "condicion": "Se prueban la ejecución autorizada, el permiso insuficiente, la cancelación y el fallo.",
+     "resultado": "cada caso termina como describe la norma, sin ejecutar nada sin autorización."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-PAT-012",
@@ -1390,7 +2417,16 @@
    ],
    "responsabilidad": "Las operaciones críticas quedan registradas con su autorización.",
    "cita": "",
-   "corto": "Trazabilidad"
+   "corto": "Trazabilidad",
+   "titular": "Registro de operaciones críticas",
+   "verificacion": [
+    {
+     "rotulo": "Reconstrucción",
+     "condicion": "Se reconstruye una operación crítica desde su registro.",
+     "resultado": "se sabe qué ocurrió, quién lo autorizó y cuándo, sin preguntar a nadie."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-CNT-001",
@@ -1405,7 +2441,16 @@
    ],
    "responsabilidad": "Instrucciones y etiquetas dicen qué hacer y qué resultado esperar.",
    "cita": "",
-   "corto": "Lenguaje funcional"
+   "corto": "Lenguaje funcional",
+   "titular": "Instrucciones y etiquetas claras",
+   "verificacion": [
+    {
+     "rotulo": "Sin explicación",
+     "condicion": "Se pregunta a la persona qué hará cada botón antes de usarlo.",
+     "resultado": "lo dice sin ayuda externa."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-CNT-002",
@@ -1418,7 +2463,16 @@
    ],
    "responsabilidad": "Cada acción o concepto usa una sola denominación.",
    "cita": "",
-   "corto": "Consistencia"
+   "corto": "Consistencia",
+   "titular": "Un nombre por acción y concepto",
+   "verificacion": [
+    {
+     "rotulo": "Glosario",
+     "condicion": "Se revisan todas las pantallas contra el glosario del producto.",
+     "resultado": "un término por concepto."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-CNT-003",
@@ -1431,7 +2485,16 @@
    ],
    "responsabilidad": "Los textos son tan breves como permite la comprensión.",
    "cita": "",
-   "corto": "Brevedad"
+   "corto": "Brevedad",
+   "titular": "Extensión de los textos de interfaz",
+   "verificacion": [
+    {
+     "rotulo": "Interpretación",
+     "condicion": "Se pide interpretar etiquetas y acciones sin explicación adicional.",
+     "resultado": "las personas las interpretan correctamente."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-CNT-004",
@@ -1445,7 +2508,16 @@
    ],
    "responsabilidad": "Los errores explican qué pasó y cómo continuar.",
    "cita": "",
-   "corto": "Errores"
+   "corto": "Errores",
+   "titular": "Mensajes de error",
+   "verificacion": [
+    {
+     "rotulo": "Revisión",
+     "condicion": "Se revisan los mensajes de error del producto.",
+     "resultado": "ninguno muestra códigos técnicos y cada uno ofrece una acción cuando existe."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-CNT-005",
@@ -1458,7 +2530,16 @@
    ],
    "responsabilidad": "Las confirmaciones describen el resultado real.",
    "cita": "",
-   "corto": "Confirmaciones"
+   "corto": "Confirmaciones",
+   "titular": "Mensajes de éxito",
+   "verificacion": [
+    {
+     "rotulo": "Procesos en curso",
+     "condicion": "Se ejecuta una acción cuyo proceso sigue después.",
+     "resultado": "el mensaje dice que el proceso continúa y no lo da por terminado."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-CNT-006",
@@ -1471,7 +2552,16 @@
    ],
    "responsabilidad": "Los mensajes no exponen información técnica sensible ni datos restringidos.",
    "cita": "",
-   "corto": "Seguridad"
+   "corto": "Seguridad",
+   "titular": "Información técnica y datos restringidos en mensajes",
+   "verificacion": [
+    {
+     "rotulo": "Fallos forzados",
+     "condicion": "Se fuerzan errores de servidor y de permisos.",
+     "resultado": "ningún mensaje muestra datos internos ni restringidos."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-CNT-007",
@@ -1485,7 +2575,16 @@
    ],
    "responsabilidad": "Las localizaciones adaptan idioma, formatos, unidades y convenciones.",
    "cita": "",
-   "corto": "Lenguaje"
+   "corto": "Lenguaje",
+   "titular": "Idioma, formatos y unidades",
+   "verificacion": [
+    {
+     "rotulo": "Datos reales",
+     "condicion": "Se prueban fechas, números, montos y nombres reales en cada idioma admitido.",
+     "resultado": "cada dato sigue las convenciones de su región."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-CNT-008",
@@ -1498,7 +2597,16 @@
    ],
    "responsabilidad": "Las traducciones conservan el significado funcional.",
    "cita": "",
-   "corto": "Traducción"
+   "corto": "Traducción",
+   "titular": "Traducciones que conservan la función",
+   "verificacion": [
+    {
+     "rotulo": "Revisión cruzada",
+     "condicion": "Una persona nativa revisa acciones, estados y mensajes contra el original.",
+     "resultado": "cada texto conserva su función."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-CNT-009",
@@ -1511,7 +2619,16 @@
    ],
    "responsabilidad": "Los componentes toleran textos de distinta longitud entre idiomas.",
    "cita": "",
-   "corto": "Espacio variable"
+   "corto": "Espacio variable",
+   "titular": "Componentes que admiten textos más largos",
+   "verificacion": [
+    {
+     "rotulo": "Textos largos",
+     "condicion": "Se prueba con textos un tercio más largos que el español.",
+     "resultado": "nada se corta ni se superpone."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-DAV-007",
@@ -1524,7 +2641,16 @@
    ],
    "responsabilidad": "El tipo de gráfico corresponde a la relación que comunica.",
    "cita": "",
-   "corto": "Representación"
+   "corto": "Representación",
+   "titular": "Tipo de gráfico según la relación",
+   "verificacion": [
+    {
+     "rotulo": "Pregunta",
+     "condicion": "Se escribe, para cada gráfico, la pregunta que responde.",
+     "resultado": "el tipo de gráfico corresponde a esa pregunta según la tabla."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-DAV-008",
@@ -1537,7 +2663,16 @@
    ],
    "responsabilidad": "Los gráficos usan las paletas oficiales según sus datos.",
    "cita": "",
-   "corto": "Color de datos"
+   "corto": "Color de datos",
+   "titular": "Paletas según la naturaleza de los datos",
+   "verificacion": [
+    {
+     "rotulo": "Paleta",
+     "condicion": "Se revisa la paleta de cada gráfico.",
+     "resultado": "usa una sola paleta oficial, la que corresponde a sus datos."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-DAV-009",
@@ -1550,7 +2685,16 @@
    ],
    "responsabilidad": "Los gráficos no dependen del color y muestran unidades y escalas.",
    "cita": "",
-   "corto": "Interpretación"
+   "corto": "Interpretación",
+   "titular": "Gráficos legibles sin depender del color",
+   "verificacion": [
+    {
+     "rotulo": "Formas de acceso",
+     "condicion": "Se interpretan los valores en escala de grises, con lector de pantalla y con la tabla de datos.",
+     "resultado": "se obtienen los mismos valores por las tres vías."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-DAV-010",
@@ -1563,7 +2707,16 @@
    ],
    "responsabilidad": "Cada indicador muestra significado, unidad, período y referencia.",
    "cita": "",
-   "corto": "Contexto"
+   "corto": "Contexto",
+   "titular": "Significado, unidad y período de cada indicador",
+   "verificacion": [
+    {
+     "rotulo": "Interpretación",
+     "condicion": "Se pide a personas distintas que interpreten el indicador.",
+     "resultado": "lo interpretan de la misma forma."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-DAV-011",
@@ -1576,7 +2729,16 @@
    ],
    "responsabilidad": "Umbrales y colores de evaluación responden a criterios definidos.",
    "cita": "",
-   "corto": "Umbrales"
+   "corto": "Umbrales",
+   "titular": "Criterios de los umbrales",
+   "verificacion": [
+    {
+     "rotulo": "Registro",
+     "condicion": "Se revisan los umbrales de los indicadores.",
+     "resultado": "cada uno tiene su criterio y su responsable registrados."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-DAV-012",
@@ -1589,7 +2751,16 @@
    ],
    "responsabilidad": "La información muestra cuándo se actualizó cuando su vigencia importa.",
    "cita": "",
-   "corto": "Actualización"
+   "corto": "Actualización",
+   "titular": "Fecha de actualización de los datos",
+   "verificacion": [
+    {
+     "rotulo": "Datos viejos",
+     "condicion": "Se deja un indicador sin actualizar más allá de su período.",
+     "resultado": "el aviso de vigencia se ve junto al dato."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-IAE-001",
@@ -1603,7 +2774,16 @@
    ],
    "responsabilidad": "Se distingue lo que proviene de la IA cuando afecta la decisión.",
    "cita": "",
-   "corto": "Transparencia"
+   "corto": "Transparencia",
+   "titular": "Contenido y acciones generados por IA",
+   "verificacion": [
+    {
+     "rotulo": "Distinción",
+     "condicion": "Se pide a la persona que señale qué contenido de la pantalla viene de la IA.",
+     "resultado": "lo señala sin ayuda."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-IAE-002",
@@ -1618,7 +2798,16 @@
    ],
    "responsabilidad": "La información generada sin comprobar no aparece como verificada.",
    "cita": "",
-   "corto": "Incertidumbre"
+   "corto": "Incertidumbre",
+   "titular": "Información generada no verificada",
+   "verificacion": [
+    {
+     "rotulo": "Resultados",
+     "condicion": "Se prueban resultados correctos, inciertos e incompletos.",
+     "resultado": "cada uno muestra su nivel de confianza."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-IAE-003",
@@ -1633,7 +2822,16 @@
    ],
    "responsabilidad": "Las decisiones automatizadas tienen la supervisión que corresponde a su riesgo.",
    "cita": "",
-   "corto": "Control humano"
+   "corto": "Control humano",
+   "titular": "Supervisión según el riesgo",
+   "verificacion": [
+    {
+     "rotulo": "Acciones de riesgo",
+     "condicion": "Se pide a la IA una acción de riesgo alto.",
+     "resultado": "la acción espera la aprobación de una persona antes de ejecutarse."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-IAE-004",
@@ -1648,7 +2846,16 @@
    ],
    "responsabilidad": "La conversación conserva el contexto necesario dentro de permisos y privacidad.",
    "cita": "",
-   "corto": "Contexto"
+   "corto": "Contexto",
+   "titular": "Contexto de la conversación",
+   "verificacion": [
+    {
+     "rotulo": "Cambio de tema",
+     "condicion": "Se mantiene una conversación larga que cambia de dirección.",
+     "resultado": "Estela conserva lo pertinente y nunca mezcla datos de otras personas."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-IAE-005",
@@ -1661,7 +2868,16 @@
    ],
    "responsabilidad": "Estela solo pide la información necesaria para avanzar.",
    "cita": "",
-   "corto": "Preguntas"
+   "corto": "Preguntas",
+   "titular": "Preguntas de Estela",
+   "verificacion": [
+    {
+     "rotulo": "Solicitudes ambiguas",
+     "condicion": "Se hace a Estela una solicitud ambigua.",
+     "resultado": "responde con una pregunta que resuelve la ambigüedad."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-IAE-006",
@@ -1676,7 +2892,16 @@
    ],
    "responsabilidad": "Las respuestas distinguen información, recomendaciones y acciones ejecutables.",
    "cita": "",
-   "corto": "Respuesta"
+   "corto": "Respuesta",
+   "titular": "Información, recomendación y acción en las respuestas",
+   "verificacion": [
+    {
+     "rotulo": "Respuestas",
+     "condicion": "Se revisa una muestra de respuestas.",
+     "resultado": "cada una separa lo informativo de lo que se puede ejecutar."
+    }
+   ],
+   "presentacion_verificacion": "grupo"
   },
   {
    "id": "KYN-SDI-IAE-007",
@@ -1689,7 +2914,16 @@
    ],
    "responsabilidad": "Las acciones de los agentes son comprensibles y registradas.",
    "cita": "",
-   "corto": "Responsabilidad"
+   "corto": "Responsabilidad",
+   "titular": "Acciones visibles de los agentes",
+   "verificacion": [
+    {
+     "rotulo": "Historial",
+     "condicion": "Se revisa el historial de un agente.",
+     "resultado": "se entiende qué hizo, cuándo y con qué resultado."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-IAE-008",
@@ -1702,7 +2936,16 @@
    ],
    "responsabilidad": "Los agentes actúan solo dentro de sus permisos.",
    "cita": "",
-   "corto": "Límites"
+   "corto": "Límites",
+   "titular": "Permisos de los agentes",
+   "verificacion": [
+    {
+     "rotulo": "Intento",
+     "condicion": "Se pide al agente una acción fuera de sus permisos.",
+     "resultado": "la rechaza y explica por qué."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-IAE-009",
@@ -1715,7 +2958,16 @@
    ],
    "responsabilidad": "Estela es la identidad pública de las capacidades coordinadas.",
    "cita": "",
-   "corto": "Identidad"
+   "corto": "Identidad",
+   "titular": "Estela como identidad pública",
+   "verificacion": [
+    {
+     "rotulo": "Consistencia",
+     "condicion": "Se compara la presentación de Estela en dos productos.",
+     "resultado": "se presenta y se comporta igual en ambos."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-IAE-010",
@@ -1728,7 +2980,16 @@
    ],
    "responsabilidad": "Los indicadores de confianza corresponden a su evidencia.",
    "cita": "",
-   "corto": "Confianza"
+   "corto": "Confianza",
+   "titular": "Indicadores de confianza calibrados",
+   "verificacion": [
+    {
+     "rotulo": "Muestra",
+     "condicion": "Se revisa una muestra de resultados con su nivel de confianza.",
+     "resultado": "el nivel mostrado coincide con su criterio."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-IAE-011",
@@ -1743,7 +3004,16 @@
    ],
    "responsabilidad": "Las aprobaciones muestran la información para evaluar.",
    "cita": "",
-   "corto": "Verificación"
+   "corto": "Verificación",
+   "titular": "Información para aprobar",
+   "verificacion": [
+    {
+     "rotulo": "Aprobación",
+     "condicion": "Se pide a la persona que apruebe o rechace una propuesta y explique por qué.",
+     "resultado": "lo explica con la información mostrada."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-IAE-012",
@@ -1759,7 +3029,16 @@
    ],
    "responsabilidad": "La IA no revela contenido o contexto de otras personas.",
    "cita": "",
-   "corto": "Privacidad"
+   "corto": "Privacidad",
+   "titular": "Privacidad entre personas en la IA",
+   "verificacion": [
+    {
+     "rotulo": "Perfiles cruzados",
+     "condicion": "Se usan dos perfiles distintos con las mismas consultas.",
+     "resultado": "ninguno recibe datos del otro en respuestas, sugerencias ni fuentes."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-SPR-005",
@@ -1774,7 +3053,16 @@
    ],
    "responsabilidad": "Los productos reutilizan componentes, tokens y patrones canónicos.",
    "cita": "",
-   "corto": "Infraestructura"
+   "corto": "Infraestructura",
+   "titular": "Reutilización de componentes, tokens y patrones",
+   "verificacion": [
+    {
+     "rotulo": "Reutilización",
+     "condicion": "Se revisan los componentes nuevos de un producto.",
+     "resultado": "cada uno justifica por qué no sirve uno canónico."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-SPR-006",
@@ -1787,7 +3075,16 @@
    ],
    "responsabilidad": "Las diferencias entre productos responden a requisitos comprobables.",
    "cita": "",
-   "corto": "Variaciones"
+   "corto": "Variaciones",
+   "titular": "Diferencias justificadas entre productos",
+   "verificacion": [
+    {
+     "rotulo": "Revisión",
+     "condicion": "Se comparan dos productos y se listan sus diferencias.",
+     "resultado": "cada diferencia tiene su motivo registrado."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-SPR-007",
@@ -1800,7 +3097,16 @@
    ],
    "responsabilidad": "Los cambios compartidos se evalúan en sus productos dependientes.",
    "cita": "Aplica FUI-003 (07) a componentes",
-   "corto": "Compatibilidad"
+   "corto": "Compatibilidad",
+   "titular": "Pruebas de los cambios compartidos",
+   "verificacion": [
+    {
+     "rotulo": "Regresiones",
+     "condicion": "Antes de publicar un cambio compartido, se prueban los productos que dependen de él.",
+     "resultado": "ninguno presenta regresiones."
+    }
+   ],
+   "presentacion_verificacion": "referencia"
   },
   {
    "id": "KYN-SDI-SPR-008",
@@ -1813,7 +3119,16 @@
    ],
    "responsabilidad": "Las páginas web facilitan encontrar información, servicios y acciones.",
    "cita": "",
-   "corto": "Navegación"
+   "corto": "Navegación",
+   "titular": "Información y acciones del sitio web",
+   "verificacion": [
+    {
+     "rotulo": "Tareas",
+     "condicion": "Se buscan información, servicios y contacto en escritorio y móvil.",
+     "resultado": "se encuentran sin ayuda en los dos."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-SPR-009",
@@ -1826,7 +3141,16 @@
    ],
    "responsabilidad": "Formularios, menús y controles del sitio respetan las normas compartidas.",
    "cita": "",
-   "corto": "Interacción"
+   "corto": "Interacción",
+   "titular": "Formularios y controles del sitio web",
+   "verificacion": [
+    {
+     "rotulo": "Acciones",
+     "condicion": "Se completan las acciones del sitio con teclado y en móvil.",
+     "resultado": "todas se completan."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-SPR-010",
@@ -1839,7 +3163,16 @@
    ],
    "responsabilidad": "Las herramientas internas priorizan tareas frecuentes y reducen pasos.",
    "cita": "",
-   "corto": "Eficiencia"
+   "corto": "Eficiencia",
+   "titular": "Eficiencia de las herramientas internas",
+   "verificacion": [
+    {
+     "rotulo": "Tareas frecuentes",
+     "condicion": "Se cuentan los pasos y el tiempo de las tareas frecuentes.",
+     "resultado": "cada paso tiene una razón; los innecesarios se eliminan."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-SPR-011",
@@ -1852,7 +3185,16 @@
    ],
    "responsabilidad": "Cada herramienta presenta funciones y datos según el rol del operador.",
    "cita": "",
-   "corto": "Permisos"
+   "corto": "Permisos",
+   "titular": "Funciones según el rol del operador",
+   "verificacion": [
+    {
+     "rotulo": "Cambio de contexto",
+     "condicion": "Se cambia entre contextos autorizados con cada rol.",
+     "resultado": "cada rol ve solo sus funciones y datos en cada contexto."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-SPR-012",
@@ -1866,7 +3208,16 @@
    ],
    "responsabilidad": "Las soluciones de marca blanca pueden usar la identidad del cliente dentro de límites.",
    "cita": "",
-   "corto": "Identidad"
+   "corto": "Identidad",
+   "titular": "Identidad del cliente en marca blanca",
+   "verificacion": [
+    {
+     "rotulo": "Tema del cliente",
+     "condicion": "Se aplica la identidad del cliente y se revisan contraste y componentes.",
+     "resultado": "se cumplen los mismos mínimos que con la identidad Keyons."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-SPR-013",
@@ -1879,7 +3230,16 @@
    ],
    "responsabilidad": "La personalización no compromete accesibilidad, seguridad ni patrones.",
    "cita": "",
-   "corto": "Calidad"
+   "corto": "Calidad",
+   "titular": "Accesibilidad y seguridad con cualquier marca",
+   "verificacion": [
+    {
+     "rotulo": "Pruebas",
+     "condicion": "Se repiten las pruebas de accesibilidad y seguridad con la identidad del cliente.",
+     "resultado": "los resultados son los mismos que con la identidad Keyons."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-SPR-014",
@@ -1892,7 +3252,16 @@
    ],
    "responsabilidad": "Los productos sin firma no muestran autoría Keyons.",
    "cita": "",
-   "corto": "Sin firma"
+   "corto": "Sin firma",
+   "titular": "Firma Keyons en productos sin autoría visible",
+   "verificacion": [
+    {
+     "rotulo": "Revisión",
+     "condicion": "Se revisa el producto entregado.",
+     "resultado": "sin elementos de autoría Keyons fuera de lo acordado."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-MOV-001",
@@ -1905,7 +3274,16 @@
    ],
    "responsabilidad": "Las transiciones operativas comunican cambios de estado o continuidad.",
    "cita": "",
-   "corto": "Funcional"
+   "corto": "Funcional",
+   "titular": "Transiciones que explican un cambio",
+   "verificacion": [
+    {
+     "rotulo": "Transiciones",
+     "condicion": "Se prueban apertura, cierre, espera, confirmación e interrupción.",
+     "resultado": "cada transición comunica el cambio de estado o la continuidad."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-MOV-002",
@@ -1918,7 +3296,16 @@
    ],
    "responsabilidad": "El movimiento no retrasa las tareas.",
    "cita": "",
-   "corto": "Duración"
+   "corto": "Duración",
+   "titular": "Duración del movimiento",
+   "verificacion": [
+    {
+     "rotulo": "Interrupción",
+     "condicion": "Se lanza una nueva acción durante una transición.",
+     "resultado": "la transición se interrumpe y la acción se ejecuta."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-MOV-003",
@@ -1931,7 +3318,16 @@
    ],
    "responsabilidad": "El movimiento editorial se usa cuando aporta a la narrativa o la identidad.",
    "cita": "",
-   "corto": "Expresión"
+   "corto": "Expresión",
+   "titular": "Movimiento editorial con propósito",
+   "verificacion": [
+    {
+     "rotulo": "Propósito",
+     "condicion": "Se revisan las animaciones editoriales de una pieza.",
+     "resultado": "cada una tiene su propósito registrado."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-MOV-004",
@@ -1944,7 +3340,16 @@
    ],
    "responsabilidad": "La información esencial se entiende sin animación.",
    "cita": "",
-   "corto": "Comprensión"
+   "corto": "Comprensión",
+   "titular": "Información comprensible sin animación",
+   "verificacion": [
+    {
+     "rotulo": "Tres modos",
+     "condicion": "Se revisa la pieza con movimiento normal, reducido y desactivado.",
+     "resultado": "la información esencial se entiende en los tres."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-MOV-005",
@@ -1957,7 +3362,16 @@
    ],
    "responsabilidad": "Los sonidos no esenciales están desactivados por defecto.",
    "cita": "",
-   "corto": "Sonido"
+   "corto": "Sonido",
+   "titular": "Sonidos no esenciales",
+   "verificacion": [
+    {
+     "rotulo": "Preferencia",
+     "condicion": "Se usa el producto sin activar la preferencia de sonido.",
+     "resultado": "solo suenan los avisos esenciales."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-MOV-006",
@@ -1971,7 +3385,16 @@
    ],
    "responsabilidad": "La háptica se usa en dispositivos compatibles cuando confirma algo útil.",
    "cita": "",
-   "corto": "Háptica"
+   "corto": "Háptica",
+   "titular": "Respuestas hápticas",
+   "verificacion": [
+    {
+     "rotulo": "Dispositivos",
+     "condicion": "Se usa el producto en un dispositivo compatible.",
+     "resultado": "la vibración acompaña solo confirmaciones útiles."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-MOV-007",
@@ -1984,7 +3407,16 @@
    ],
    "responsabilidad": "La información importante no depende solo de sonido o vibración.",
    "cita": "",
-   "corto": "Alternativas"
+   "corto": "Alternativas",
+   "titular": "Alternativas visibles al sonido y la vibración",
+   "verificacion": [
+    {
+     "rotulo": "Sin sonido ni vibración",
+     "condicion": "Se desactivan el audio y la háptica.",
+     "resultado": "todas las funciones se comprenden."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-GOB-004",
@@ -1998,7 +3430,16 @@
    ],
    "responsabilidad": "Cada requisito tiene una fuente identificable y sin duplicaciones.",
    "cita": "",
-   "corto": "Fuente única"
+   "corto": "Fuente única",
+   "titular": "Fuente normativa de cada requisito",
+   "verificacion": [
+    {
+     "rotulo": "Consulta",
+     "condicion": "Se busca un requisito por nombre, código, estado y referencias.",
+     "resultado": "se encuentra en un solo lugar."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-GOB-005",
@@ -2011,7 +3452,16 @@
    ],
    "responsabilidad": "Las normas muestran su estado de aprobación y versión.",
    "cita": "",
-   "corto": "Estado"
+   "corto": "Estado",
+   "titular": "Estado y versión de las normas",
+   "verificacion": [
+    {
+     "rotulo": "Estado",
+     "condicion": "Se revisan las normas de un capítulo.",
+     "resultado": "cada una muestra su estado y su versión."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-GOB-006",
@@ -2025,7 +3475,16 @@
    ],
    "responsabilidad": "Las implementaciones usan los componentes y tokens compartidos.",
    "cita": "Aplica FUI-001 (07) y SPR-005 (34)",
-   "corto": "Canónicos"
+   "corto": "Canónicos",
+   "titular": "Implementación con componentes canónicos",
+   "verificacion": [
+    {
+     "rotulo": "Código",
+     "condicion": "La revisión de código busca componentes y tokens propios donde existe uno compartido.",
+     "resultado": "cada caso usa el compartido o tiene una excepción registrada."
+    }
+   ],
+   "presentacion_verificacion": "tecnica"
   },
   {
    "id": "KYN-SDI-GOB-007",
@@ -2038,7 +3497,16 @@
    ],
    "responsabilidad": "Las desviaciones documentan necesidad, alcance y revisión.",
    "cita": "",
-   "corto": "Excepciones"
+   "corto": "Excepciones",
+   "titular": "Registro de excepciones",
+   "verificacion": [
+    {
+     "rotulo": "Registro",
+     "condicion": "Se revisan las desviaciones encontradas en el código.",
+     "resultado": "cada una tiene su registro."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-GOB-008",
@@ -2051,7 +3519,16 @@
    ],
    "responsabilidad": "Los componentes compartidos se entregan con pruebas.",
    "cita": "",
-   "corto": "Entrega"
+   "corto": "Entrega",
+   "titular": "Pruebas de los componentes compartidos",
+   "verificacion": [
+    {
+     "rotulo": "Listo para reutilizar",
+     "condicion": "Se revisa el componente antes de publicarlo.",
+     "resultado": "sus pruebas pasan y su documentación está completa."
+    }
+   ],
+   "presentacion_verificacion": "referencia"
   },
   {
    "id": "KYN-SDI-GOB-009",
@@ -2064,7 +3541,16 @@
    ],
    "responsabilidad": "Cada componente canónico documenta propósito, variantes, estados, comportamiento y accesibilidad.",
    "cita": "",
-   "corto": "Componentes"
+   "corto": "Componentes",
+   "titular": "Documentación de los componentes canónicos",
+   "verificacion": [
+    {
+     "rotulo": "Implementación",
+     "condicion": "Un desarrollador implementa el componente solo con su documentación.",
+     "resultado": "sin inventar comportamientos fundamentales."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-GOB-010",
@@ -2077,7 +3563,16 @@
    ],
    "responsabilidad": "La documentación ofrece ejemplos correctos e incorrectos cuando ayudan.",
    "cita": "",
-   "corto": "Ejemplos"
+   "corto": "Ejemplos",
+   "titular": "Ejemplos de uso correcto e incorrecto",
+   "verificacion": [
+    {
+     "rotulo": "Ambigüedad",
+     "condicion": "Se revisan las dudas frecuentes de implementación.",
+     "resultado": "cada una tiene su ejemplo."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   },
   {
    "id": "KYN-SDI-GOB-011",
@@ -2090,7 +3585,16 @@
    ],
    "responsabilidad": "Los cambios relevantes son trazables y comunican sus efectos.",
    "cita": "",
-   "corto": "Versionado"
+   "corto": "Versionado",
+   "titular": "Versiones y notas de cambios",
+   "verificacion": [
+    {
+     "rotulo": "Trazabilidad",
+     "condicion": "Se revisan los cambios publicados.",
+     "resultado": "cada uno tiene su nota de cambios con los productos afectados."
+    }
+   ],
+   "presentacion_verificacion": "breve"
   }
  ]
 }

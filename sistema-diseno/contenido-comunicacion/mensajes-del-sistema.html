@@ -30,7 +30,7 @@
       <span>24 Mensajes</span>
     </nav>
 
-    <section class="portal portal--salmon portal--plano" aria-label="Capítulo 24 · Mensajes del sistema">
+    <section class="portal portal--salmon" aria-label="Capítulo 24 · Mensajes del sistema">
       <div class="portal__arcs" aria-hidden="true"></div>
       <div class="portal__txt">
         <span class="kicker">Capítulo 24 · Contenido</span>
@@ -44,11 +44,11 @@
     <section class="ed" id="s-07-02-01">
       <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-CNT-004" data-copy-msg="ID copiado · KYN-SDI-CNT-004" title="Copiar el ID de esta norma">KYN-SDI-CNT-004</span><span>Errores comprensibles</span></div>
       <div>
-        <h2 class="ed__title">Un error dice qué pasó y cómo seguir</h2>
-        <p class="ed__lead">Explicar <strong>y ofrecer una salida</strong>.</p>
+        <h2 class="ed__title">Mensajes de error</h2>
+        <p class="ed__lead">Define qué dice un mensaje de error: <strong>qué pasó y cómo seguir</strong>.</p>
         <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Los mensajes de error DEBEN explicar qué ocurrió y cómo continuar o recuperarse cuando exista una acción posible.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
         <div class="matrix" role="table" aria-label="Estructura de un mensaje de error (desde UIX-024)"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span><span class="matrix__lvl" role="columnheader">Qué dice<small></small></span><span class="matrix__lvl" role="columnheader">Ejemplo<small></small></span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Qué pasó</span><span class="matrix__v" role="cell">La situación en lenguaje claro, sin códigos técnicos.</span><span class="matrix__v" role="cell">«El pago está pendiente de verificación.»</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Por qué, si ayuda</span><span class="matrix__v" role="cell">La causa, cuando la persona puede hacer algo con ella.</span><span class="matrix__v" role="cell">«El comprobante no se pudo leer.»</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Qué hacer</span><span class="matrix__v" role="cell">La acción para continuar.</span><span class="matrix__v" role="cell">«Adjunte el comprobante de nuevo.»</span></div></div>
-        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Revisión</dt><dd>Ningún mensaje muestra códigos técnicos y cada uno ofrece una acción cuando existe.</dd></div></dl></div></details></div>
+        <div class="ed__more"><span class="ed__more-k">Verificación</span><p>Se revisan los mensajes de error del producto. Resultado esperado: ninguno muestra códigos técnicos y cada uno ofrece una acción cuando existe.</p></div>
       </div>
     </section>
 
@@ -56,12 +56,12 @@
     <section class="ed" id="s-07-02-02">
       <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-CNT-005" data-copy-msg="ID copiado · KYN-SDI-CNT-005" title="Copiar el ID de esta norma">KYN-SDI-CNT-005</span><span>Confirmaciones específicas</span></div>
       <div>
-        <h2 class="ed__title">Una confirmación dice lo que de verdad ocurrió</h2>
-        <p class="ed__lead">Confirmar <strong>solo lo hecho</strong>.</p>
+        <h2 class="ed__title">Mensajes de éxito</h2>
+        <p class="ed__lead">Define qué dice una confirmación: <strong>solo lo que de verdad ocurrió</strong>.</p>
         <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Los mensajes de éxito DEBEN describir el resultado real y no afirmar acciones que todavía no se hayan completado.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
         <h3 class="ed__sub">Ejemplos</h3>
         <div class="redline"><div class="redline__i"><p class="redline__no">¡Éxito!</p><p class="redline__yes">Cliente María González registrado.</p></div><div class="redline__i"><p class="redline__no">Pago realizado</p><p class="redline__yes">Pago enviado; la confirmación del banco llega en unos minutos.</p></div></div>
-        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Procesos en curso</dt><dd>En un proceso que sigue después de la acción, el mensaje no lo da por terminado.</dd></div></dl></div></details></div>
+        <div class="ed__more"><span class="ed__more-k">Verificación</span><p>Se ejecuta una acción cuyo proceso sigue después. Resultado esperado: el mensaje dice que el proceso continúa y no lo da por terminado.</p></div>
       </div>
     </section>
 
@@ -69,8 +69,8 @@
     <section class="ed" id="s-07-02-03">
       <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-CNT-006" data-copy-msg="ID copiado · KYN-SDI-CNT-006" title="Copiar el ID de esta norma">KYN-SDI-CNT-006</span><span>Información segura</span></div>
       <div>
-        <h2 class="ed__title">Un mensaje no revela lo que no corresponde</h2>
-        <p class="ed__lead">Explicar <strong>sin exponer</strong>.</p>
+        <h2 class="ed__title">Información técnica y datos restringidos en mensajes</h2>
+        <p class="ed__lead">Se aplica a todo mensaje del sistema: <strong>explica sin exponer</strong>.</p>
         <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Los mensajes NO DEBEN exponer información técnica sensible ni datos que la persona no está autorizada a consultar.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: No debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
         <div class="ed__stack"><div><span class="paren">(Técnico)</span><p>Rutas, consultas y trazas de error se registran internamente, no en pantalla.</p></div><div><span class="paren">(Permisos)</span><p>Ver Acceso directo y rutas no disponibles (<a class="xref" href="../arquitectura-navegacion/estructura-de-navegacion.html">05 Navegación</a>) y Resultados autorizados (<a class="xref" href="../arquitectura-navegacion/busqueda-y-orientacion.html">06 Búsqueda</a>).</p></div></div>
         <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Fallos forzados</dt><dd>Se fuerzan errores de servidor y de permisos. Resultado esperado: ningún mensaje muestra datos internos ni restringidos.</dd></div></dl></div></details></div>

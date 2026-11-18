@@ -44,11 +44,10 @@
     <section class="ed" id="s-09-02-01">
       <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-IAE-004" data-copy-msg="ID copiado · KYN-SDI-IAE-004" title="Copiar el ID de esta norma">KYN-SDI-IAE-004</span><span>Contexto útil</span></div>
       <div>
-        <h2 class="ed__title">La conversación recuerda lo necesario</h2>
-        <p class="ed__lead">Estela <strong>no hace repetir</strong> lo que ya se dijo.</p>
+        <h2 class="ed__title">Contexto de la conversación</h2>
+        <p class="ed__lead">Se aplica a las conversaciones con Estela: <strong>conserva lo necesario</strong> dentro de los permisos.</p>
         <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">La conversación DEBE conservar el contexto necesario dentro de los límites de permisos y privacidad aplicables.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
         <div class="matrix" role="table" aria-label="Memoria de la conversación (desde UIX-034 y UIX-035, propuesta)"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span><span class="matrix__lvl" role="columnheader">Qué recuerda<small></small></span><span class="matrix__lvl" role="columnheader">Control de la persona<small></small></span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Sesión</span><span class="matrix__v" role="cell">Lo dicho en la conversación actual.</span><span class="matrix__v" role="cell">Se borra al cerrarla.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">Persistente</span><span class="matrix__v" role="cell">Preferencias que la persona aceptó guardar.</span><span class="matrix__v" role="cell">Ver y olvidar en cualquier momento.</span></div></div>
-        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Cambio de tema</dt><dd>En una conversación larga que cambia de dirección, Estela conserva lo pertinente y no mezcla datos de otras personas.</dd></div></dl></div></details></div>
       </div>
     </section>
 
@@ -56,11 +55,10 @@
     <section class="ed" id="s-09-02-02">
       <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-IAE-005" data-copy-msg="ID copiado · KYN-SDI-IAE-005" title="Copiar el ID de esta norma">KYN-SDI-IAE-005</span><span>Preguntas pertinentes</span></div>
       <div>
-        <h2 class="ed__title">Estela pregunta solo lo que necesita</h2>
-        <p class="ed__lead">Una pregunta <strong>ayuda a avanzar</strong>.</p>
+        <h2 class="ed__title">Preguntas de Estela</h2>
+        <p class="ed__lead">Se aplica cuando a Estela le falta información: <strong>pregunta solo lo necesario para avanzar</strong>.</p>
         <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Estela DEBERÍA solicitar únicamente la información adicional necesaria para avanzar con precisión.⁠<span class="nvl nvl--fin" data-lvl="deberia" role="img" aria-label="Nivel: Debería"><i class="nvl__m nvl__m--deberia" aria-hidden="true"></i></span></span></p></div></div>
         <div class="ed__stack"><div><span class="paren">(Personalidad)</span><p>Curiosa: comprende antes de responder (<a class="xref" href="../../marca/estela.html#origen" title="KYN-MRK-EST-002">Origen y personalidad</a>).</p></div><div><span class="paren">(Una a la vez)</span><p>Las preguntas se hacen de a una, con opciones cuando ayudan.</p></div></div>
-        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Solicitudes ambiguas</dt><dd>Ante una solicitud ambigua, Estela hace una pregunta que la resuelve.</dd></div></dl></div></details></div>
       </div>
     </section>
 
@@ -68,11 +66,20 @@
     <section class="ed" id="s-09-02-03">
       <div class="ed__label sdn-label"><span class="ed__code" data-copy="KYN-SDI-IAE-006" data-copy-msg="ID copiado · KYN-SDI-IAE-006" title="Copiar el ID de esta norma">KYN-SDI-IAE-006</span><span>Respuesta accionable</span></div>
       <div>
-        <h2 class="ed__title">Se distingue informar, recomendar y hacer</h2>
-        <p class="ed__lead">La persona sabe <strong>qué puede hacer Estela de verdad</strong>.</p>
+        <h2 class="ed__title">Información, recomendación y acción en las respuestas</h2>
+        <p class="ed__lead">Se aplica a cada respuesta de Estela: <strong>se distingue lo que informa, lo que recomienda y lo que hace</strong>.</p>
         <div class="sdn"><div class="sdn__r"><p class="sdn__t"><span class="nvl-cola">Las respuestas DEBEN distinguir información, recomendaciones y acciones que el sistema realmente puede ejecutar.⁠<span class="nvl nvl--fin" data-lvl="debe" role="img" aria-label="Nivel: Debe"><i class="nvl__m nvl__m--debe" aria-hidden="true"></i></span></span></p></div></div>
         <div class="ed__stack"><div><span class="paren">(Acciones)</span><p>Las que Estela puede ejecutar aparecen como botones; las demás, como pasos para la persona.</p></div><div><span class="paren">(Límites)</span><p>Cuando no sabe o no puede, lo dice y ofrece una alternativa (desde UIX-043; voz en <a class="xref" href="../../marca/estela.html#voz" title="KYN-MRK-EST-003">Voz y trato</a>).</p></div></div>
-        <div class="dets"><details class="det"><summary>Verificación<svg class="det__mas" viewBox="0 0 16 16" aria-hidden="true"><path class="v" d="M8 3v10" stroke="currentColor" stroke-width="1.5"/><path d="M3 8h10" stroke="currentColor" stroke-width="1.5"/></svg></summary><div class="det__c"><dl><div><dt class="promise__k">Respuestas</dt><dd>Cada respuesta separa lo informativo de lo que se puede ejecutar.</dd></div></dl></div></details></div>
+      </div>
+    </section>
+
+    <!-- Validación -->
+    <section class="ed" id="validacion">
+      <div class="ed__label"><span>31</span><span>Validación</span></div>
+      <div>
+        <h2 class="ed__title">Validación del capítulo</h2>
+        <p class="ed__lead">El capítulo se comprueba con <strong>conversaciones reales y largas</strong>, que cambian de tema e incluyen solicitudes ambiguas.</p>
+        <div class="matrix" role="table" aria-label="Pruebas del capítulo"><div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span><span class="matrix__lvl" role="columnheader">Qué se comprueba<small>Condición</small></span><span class="matrix__lvl" role="columnheader">Qué se espera<small>Resultado</small></span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader"><a class="xref" href="#s-09-02-01">Contexto</a></span><span class="matrix__v" role="cell">Se mantiene una conversación larga que cambia de dirección.</span><span class="matrix__v" role="cell">Estela conserva lo pertinente y nunca mezcla datos de otras personas.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader"><a class="xref" href="#s-09-02-02">Preguntas</a></span><span class="matrix__v" role="cell">Se hace a Estela una solicitud ambigua.</span><span class="matrix__v" role="cell">responde con una pregunta que resuelve la ambigüedad.</span></div><div class="matrix__row" role="row"><span class="matrix__k" role="rowheader"><a class="xref" href="#s-09-02-03">Respuesta</a></span><span class="matrix__v" role="cell">Se revisa una muestra de respuestas.</span><span class="matrix__v" role="cell">cada una separa lo informativo de lo que se puede ejecutar.</span></div></div>
       </div>
     </section>
 

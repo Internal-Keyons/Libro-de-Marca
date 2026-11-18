@@ -537,7 +537,7 @@
                 "debe"
               ],
               [
-                "Un ícono representa claramente el concepto; un número expresa una secuencia, una referencia o una enumeración útil; una viñeta identifica elementos equivalentes; y el ítem va sin marcador cuando la composición y la jerarquía ya bastan.",
+                "Un ícono representa claramente el concepto; un número expresa una secuencia, una referencia o una enumeración útil en retículas y pasos; una viñeta identifica elementos equivalentes; y el ítem va sin marcador cuando la composición y la jerarquía ya bastan. Los acordeones no llevan número.",
                 null
               ]
             ]
@@ -554,7 +554,7 @@
                 "debe"
               ],
               [
-                "Ningún acordeón se abre solo al aparecer en pantalla, y varios pueden quedar abiertos para comparar.",
+                "Los acordeones de los dos tipos van sin número. Ninguno se abre solo al aparecer en pantalla, y varios pueden quedar abiertos para comparar.",
                 null
               ]
             ]
@@ -608,6 +608,69 @@
               [
                 "Se corrigen en el componente que los produce.",
                 null
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "sub": "Composición normativa según el contenido",
+        "filas": [
+          {
+            "k": "Jerarquía",
+            "p": [
+              [
+                "Las normas DEBEN presentar sus requisitos y decisiones de aplicación mediante una jerarquía que permita comprender qué se exige y cómo llevarlo a la práctica.",
+                "debe"
+              ]
+            ]
+          },
+          {
+            "k": "Integración",
+            "p": [
+              [
+                "Cuando los requisitos y sus aplicaciones traten las mismas dimensiones, DEBERÍAN integrarse en una sola composición, evitando explicaciones repetidas.",
+                "deberia"
+              ]
+            ]
+          },
+          {
+            "k": "Títulos",
+            "p": [
+              [
+                "Los títulos de las normas del Sistema de Diseño DEBEN identificar directamente el comportamiento, componente, requisito o decisión que regulan, sin depender de metáforas o frases interpretables para comunicar su función.",
+                "debe"
+              ]
+            ]
+          },
+          {
+            "k": "Apartados complementarios",
+            "p": [
+              [
+                "Los apartados complementarios, como aplicaciones, excepciones, casos especiales y verificaciones, DEBEN incorporarse según su pertinencia, no como elementos obligatorios de una plantilla.",
+                "debe"
+              ]
+            ]
+          },
+          {
+            "k": "Verificación",
+            "p": [
+              [
+                "Cada norma DEBE conservar criterios verificables.",
+                "debe"
+              ],
+              [
+                "Su presentación PUEDE variar entre una indicación breve, un detalle plegable o una sección de validación agrupada, según la complejidad y la necesidad de consulta.",
+                "puede"
+              ]
+            ]
+          },
+          {
+            "k": "Sin relleno",
+            "p": [
+              [
+                "La composición NO DEBE introducir contenido repetido ni elementos visuales cuya única finalidad sea mantener una estructura uniforme entre normas diferentes.",
+                "no-debe"
               ]
             ]
           }

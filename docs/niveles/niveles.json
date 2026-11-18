@@ -2855,7 +2855,7 @@
   {
    "id": "KYN-SDI-PEX-001",
    "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-01",
-   "bloque": 2,
+   "bloque": 3,
    "frase": "Cuando una pantalla permite realizar una tarea principal, esa acción debe distinguirse de las secundarias mediante una jerarquía visual y funcional consistente.",
    "estado": "aplicada",
    "nivel": "debe",
@@ -2864,7 +2864,7 @@
   {
    "id": "KYN-SDI-PEX-001",
    "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-01",
-   "bloque": 3,
+   "bloque": 5,
    "frase": "Los recursos gráficos no deben competir por la atención con información esencial o acciones necesarias para completar una tarea.",
    "estado": "aplicada",
    "nivel": "no-debe",
@@ -2883,7 +2883,7 @@
    "id": "KYN-SDI-PEX-002",
    "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-02",
    "bloque": 5,
-   "frase": "La persona puede intervenir, revertir y decidir (PEX-017).",
+   "frase": "La persona puede intervenir, revertir y decidir, según Control de la persona.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
   },
@@ -2932,6 +2932,14 @@
    "motivo": "Explicación, ejemplo o descripción."
   },
   {
+   "id": "KYN-SDI-PEX-006",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-06",
+   "bloque": 4,
+   "frase": "Antes de eliminar 12 facturas, el diálogo indica cuántas son, que la acción no se puede deshacer y que el cliente dejará de verlas.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
    "id": "KYN-SDI-PEX-016",
    "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-07",
    "bloque": 1,
@@ -2953,15 +2961,7 @@
    "id": "KYN-SDI-PEX-017",
    "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-08",
    "bloque": 4,
-   "frase": "Se pueden cancelar o pausar cuando el proceso lo permite, y se informa qué queda hecho.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-SDI-PEX-017",
-   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-08",
-   "bloque": 6,
-   "frase": "Cada dato que completa el sistema se puede revisar y cambiar antes de confirmarlo.",
+   "frase": "Se pueden cancelar o pausar cuando el proceso lo permite, y se informa qué quedó hecho.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
   },
@@ -2984,6 +2984,14 @@
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   },
   {
+   "id": "KYN-SDI-PEX-007",
+   "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-01",
+   "bloque": 2,
+   "frase": "Quien compra el producto y quien lo usa pueden ser personas distintas.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
    "id": "KYN-SDI-PEX-008",
    "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-02",
    "bloque": 1,
@@ -2995,7 +3003,7 @@
   {
    "id": "KYN-SDI-PEX-008",
    "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-02",
-   "bloque": 2,
+   "bloque": 3,
    "frase": "Los permisos efectivos deben determinar las acciones y datos disponibles.",
    "estado": "aplicada",
    "nivel": "debe",
@@ -3004,7 +3012,7 @@
   {
    "id": "KYN-SDI-PEX-008",
    "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-02",
-   "bloque": 3,
+   "bloque": 5,
    "frase": "Ocultar un control en la interfaz no debe sustituir la validación de autorización.",
    "estado": "aplicada",
    "nivel": "no-debe",
@@ -3022,7 +3030,7 @@
   {
    "id": "KYN-SDI-PEX-009",
    "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-03",
-   "bloque": 2,
+   "bloque": 3,
    "frase": "Las tareas frecuentes deberían requerir menos esfuerzo de navegación que las tareas ocasionales, manteniendo controles y confirmaciones necesarios.",
    "estado": "aplicada",
    "nivel": "deberia",
@@ -3031,19 +3039,11 @@
   {
    "id": "KYN-SDI-PEX-009",
    "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-03",
-   "bloque": 3,
+   "bloque": 5,
    "frase": "Una misma información puede presentarse de distintas maneras según la tarea y el rol, siempre que conserve su significado.",
    "estado": "aplicada",
    "nivel": "puede",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-SDI-PEX-010",
-   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-01",
-   "bloque": 0,
-   "frase": "Una decisión documentada se puede revisar.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-PEX-010",
@@ -3057,7 +3057,7 @@
   {
    "id": "KYN-SDI-PEX-010",
    "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-01",
-   "bloque": 7,
+   "bloque": 6,
    "frase": "Qué debería cambiar y cómo se va a medir.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
@@ -3083,7 +3083,7 @@
   {
    "id": "KYN-SDI-PEX-012",
    "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-03",
-   "bloque": 2,
+   "bloque": 8,
    "frase": "La estructura y la interacción deben poder evaluarse antes de incorporar recursos gráficos expresivos que no sean necesarios para comprender la experiencia.",
    "estado": "aplicada",
    "nivel": "debe",
@@ -3092,7 +3092,7 @@
   {
    "id": "KYN-SDI-PEX-012",
    "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-03",
-   "bloque": 3,
+   "bloque": 10,
    "frase": "Las propuestas de interfaces deberían evaluarse inicialmente con una base visual contenida, utilizando blanco, grises y Azul Noche, antes de incorporar recursos expresivos no esenciales.",
    "estado": "aplicada",
    "nivel": "deberia",
@@ -3101,7 +3101,7 @@
   {
    "id": "KYN-SDI-PEX-012",
    "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-03",
-   "bloque": 10,
+   "bloque": 12,
    "frase": "Las capas se trabajan sobre todo en Anochecer y pueden repetirse en Galaxia.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
@@ -3154,7 +3154,7 @@
   {
    "id": "KYN-SDI-ARQ-005",
    "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-01",
-   "bloque": 2,
+   "bloque": 3,
    "frase": "La sección activa debe distinguirse visualmente y mantener una relación comprensible con sus secciones superiores cuando existan.",
    "estado": "aplicada",
    "nivel": "debe",
@@ -3172,27 +3172,11 @@
   {
    "id": "KYN-SDI-ARQ-006",
    "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-02",
-   "bloque": 2,
+   "bloque": 3,
    "frase": "Las funciones principales deberían conservar una ubicación y denominación consistentes entre las pantallas equivalentes.",
    "estado": "aplicada",
    "nivel": "deberia",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-SDI-ARQ-006",
-   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-02",
-   "bloque": 3,
-   "frase": "Puede abreviarse o precisarse sin cambiar de significado; su redacción sigue Nombres comprensibles, en 04 Información.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-SDI-ARQ-007",
-   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-03",
-   "bloque": 0,
-   "frase": "Lo que se ve se puede usar con puntero, teclado y tacto.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-ARQ-007",
@@ -3215,7 +3199,7 @@
   {
    "id": "KYN-SDI-ARQ-008",
    "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-04",
-   "bloque": 2,
+   "bloque": 3,
    "frase": "Los elementos de navegación deben distinguir su estado actual, disponibilidad y comportamiento interactivo sin depender exclusivamente del color.",
    "estado": "aplicada",
    "nivel": "debe",
@@ -3224,7 +3208,7 @@
   {
    "id": "KYN-SDI-ARQ-008",
    "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-04",
-   "bloque": 3,
+   "bloque": 5,
    "frase": "Los estados de foco y selección no deben confundirse: el foco identifica dónde está interactuando la persona; la selección identifica la ubicación o contenido actual.",
    "estado": "aplicada",
    "nivel": "no-debe",
@@ -3233,7 +3217,7 @@
   {
    "id": "KYN-SDI-ARQ-008",
    "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-04",
-   "bloque": 4,
+   "bloque": 6,
    "frase": "Foco y actual pueden coincidir y se ven a la vez.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
@@ -3274,14 +3258,6 @@
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   },
   {
-   "id": "KYN-SDI-ARQ-010",
-   "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-06",
-   "bloque": 16,
-   "frase": "Si la vista se puede recargar, los filtros siguen aplicados después de hacerlo.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
    "id": "KYN-SDI-ARQ-017",
    "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-07",
    "bloque": 1,
@@ -3311,7 +3287,7 @@
   {
    "id": "KYN-SDI-ARQ-001",
    "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-01",
-   "bloque": 2,
+   "bloque": 3,
    "frase": "Las agrupaciones de información deben responder a relaciones funcionales o conceptuales identificables.",
    "estado": "aplicada",
    "nivel": "debe",
@@ -3338,6 +3314,14 @@
   {
    "id": "KYN-SDI-ARQ-004",
    "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-04",
+   "bloque": 0,
+   "frase": "Decide qué se ve al abrir una pantalla y qué se abre a pedido: lo necesario para la siguiente acción está siempre disponible.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-ARQ-004",
+   "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-04",
    "bloque": 1,
    "frase": "La información necesaria para decidir o ejecutar la siguiente acción debe permanecer disponible en el momento correspondiente.",
    "estado": "aplicada",
@@ -3348,6 +3332,14 @@
    "id": "KYN-SDI-ARQ-004",
    "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-04",
    "bloque": 2,
+   "frase": "Requisitos, consecuencias, errores y datos obligatorios están a la vista en el paso que los necesita.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-ARQ-004",
+   "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-04",
+   "bloque": 3,
    "frase": "Los detalles especializados pueden presentarse progresivamente cuando su presencia inicial aumente innecesariamente la complejidad.",
    "estado": "aplicada",
    "nivel": "puede",
@@ -3356,8 +3348,8 @@
   {
    "id": "KYN-SDI-ARQ-004",
    "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-04",
-   "bloque": 3,
-   "frase": "Requisitos, consecuencias, errores y datos obligatorios.",
+   "bloque": 5,
+   "frase": "En una factura, el total, el estado y el vencimiento se ven siempre.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
   },
@@ -3414,6 +3406,14 @@
    "estado": "aplicada",
    "nivel": "debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-016",
+   "fuente": "data/sd-capitulos/busqueda-y-orientacion.html#s-02-03-06",
+   "bloque": 0,
+   "frase": "Se aplica a resultados, totales, sugerencias y fragmentos: la búsqueda muestra solo lo que la persona puede consultar.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-ARQ-016",
@@ -3506,6 +3506,14 @@
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   },
   {
+   "id": "KYN-SDI-FUI-009",
+   "fuente": "data/sd-capitulos/tipografia-aplicada.html#s-03-03-02",
+   "bloque": 2,
+   "frase": "La jerarquía combina tamaño, peso y color de la escala, y nunca depende de un solo rasgo.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
    "id": "KYN-SDI-FUI-010",
    "fuente": "data/sd-capitulos/tipografia-aplicada.html#s-03-03-03",
    "bloque": 1,
@@ -3517,19 +3525,19 @@
   {
    "id": "KYN-SDI-FUI-011",
    "fuente": "data/sd-capitulos/tipografia-aplicada.html#s-03-03-04",
+   "bloque": 0,
+   "frase": "Se aplica cuando un texto no cabe en su espacio: se puede abreviar, pero el valor completo sigue disponible.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-FUI-011",
+   "fuente": "data/sd-capitulos/tipografia-aplicada.html#s-03-03-04",
    "bloque": 1,
    "frase": "La información necesaria para comprender o ejecutar una tarea no debe perderse definitivamente por truncamiento visual.",
    "estado": "aplicada",
    "nivel": "no-debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-SDI-FUI-011",
-   "fuente": "data/sd-capitulos/tipografia-aplicada.html#s-03-03-04",
-   "bloque": 2,
-   "frase": "Resultado esperado: el valor completo se puede leer en cada caso.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-FUI-012",
@@ -3642,19 +3650,19 @@
   {
    "id": "KYN-SDI-PAT-011",
    "fuente": "data/sd-capitulos/decisiones-y-operaciones-sensibles.html#s-05-04-01",
+   "bloque": 0,
+   "frase": "Se aplica a las operaciones de alto riesgo: se comprueba quién puede hacerlas y se pide la confirmación que corresponde.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PAT-011",
+   "fuente": "data/sd-capitulos/decisiones-y-operaciones-sensibles.html#s-05-04-01",
    "bloque": 1,
    "frase": "El sistema debe comprobar los permisos y las confirmaciones correspondientes al riesgo de la acción.",
    "estado": "aplicada",
    "nivel": "debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-SDI-PAT-012",
-   "fuente": "data/sd-capitulos/decisiones-y-operaciones-sensibles.html#s-05-04-02",
-   "bloque": 0,
-   "frase": "Lo importante se puede reconstruir.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-PAT-012",
@@ -3712,7 +3720,7 @@
   {
    "id": "KYN-SDI-CPE-004",
    "fuente": "data/sd-capitulos/componentes-de-accion.html#s-04-01-04",
-   "bloque": 2,
+   "bloque": 3,
    "frase": "El botón que abre el menú debe nombrar su función.",
    "estado": "aplicada",
    "nivel": "debe",
@@ -3789,6 +3797,14 @@
   {
    "id": "KYN-SDI-PAT-002",
    "fuente": "data/sd-capitulos/formularios-y-validaciones.html#s-05-01-02",
+   "bloque": 0,
+   "frase": "Se aplica cuando lo escrito puede perderse al salir, al vencer la sesión o al fallar la red: el trabajo de la persona se protege.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PAT-002",
+   "fuente": "data/sd-capitulos/formularios-y-validaciones.html#s-05-01-02",
    "bloque": 1,
    "frase": "Cuando exista riesgo de perder información introducida, el sistema debe ofrecer un mecanismo apropiado de recuperación o advertencia.",
    "estado": "aplicada",
@@ -3833,7 +3849,7 @@
   {
    "id": "KYN-SDI-PAT-005",
    "fuente": "data/sd-capitulos/flujos-de-trabajo.html#s-05-02-02",
-   "bloque": 2,
+   "bloque": 3,
    "frase": "Cuando una tarea pueda interrumpirse, el producto debería conservar el progreso recuperable, respetando los requisitos de seguridad y privacidad.",
    "estado": "aplicada",
    "nivel": "deberia",
@@ -3856,6 +3872,14 @@
    "estado": "aplicada",
    "nivel": "debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PAT-008",
+   "fuente": "data/sd-capitulos/estados-y-recuperacion.html#s-05-03-02",
+   "bloque": 0,
+   "frase": "Se aplica a las acciones que se pueden revertir: deshacer está donde ocurrió la acción.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-PAT-008",
@@ -3940,6 +3964,14 @@
   {
    "id": "KYN-SDI-ACC-005",
    "fuente": "data/sd-capitulos/accesibilidad-operativa.html#s-06-02-02",
+   "bloque": 0,
+   "frase": "Se aplica a todo control que recibe el foco: siempre se ve dónde está.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-ACC-005",
+   "fuente": "data/sd-capitulos/accesibilidad-operativa.html#s-06-02-02",
    "bloque": 1,
    "frase": "El foco debe ser perceptible y no quedar completamente oculto por otros elementos de la interfaz.",
    "estado": "aplicada",
@@ -3985,6 +4017,14 @@
   {
    "id": "KYN-SDI-CNT-001",
    "fuente": "data/sd-capitulos/escritura-de-interfaz.html#s-07-01-01",
+   "bloque": 0,
+   "frase": "Se aplica a etiquetas, botones e instrucciones: cada texto dice qué se puede hacer y qué pasará.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-CNT-001",
+   "fuente": "data/sd-capitulos/escritura-de-interfaz.html#s-07-01-01",
    "bloque": 1,
    "frase": "Las instrucciones y etiquetas deben indicar con claridad qué puede hacer la persona y qué resultado esperar.",
    "estado": "aplicada",
@@ -3995,7 +4035,7 @@
    "id": "KYN-SDI-CNT-002",
    "fuente": "data/sd-capitulos/escritura-de-interfaz.html#s-07-01-02",
    "bloque": 0,
-   "frase": "El mismo concepto se llama siempre igual.",
+   "frase": "Se aplica a todo el producto: el mismo concepto se llama siempre igual.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
   },
@@ -4092,27 +4132,11 @@
   {
    "id": "KYN-SDI-DAV-009",
    "fuente": "data/sd-capitulos/graficos-de-datos.html#s-08-02-03",
-   "bloque": 0,
-   "frase": "Los valores se pueden leer de más de una forma.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-SDI-DAV-009",
-   "fuente": "data/sd-capitulos/graficos-de-datos.html#s-08-02-03",
    "bloque": 1,
    "frase": "La información no debe depender exclusivamente del color ni ocultar unidades, escalas o referencias necesarias.",
    "estado": "aplicada",
    "nivel": "no-debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-SDI-DAV-010",
-   "fuente": "data/sd-capitulos/indicadores-y-cifras.html#s-08-03-01",
-   "bloque": 0,
-   "frase": "Una cifra sin contexto no se puede interpretar.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-DAV-010",
@@ -4243,14 +4267,6 @@
   {
    "id": "KYN-SDI-IAE-006",
    "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-03",
-   "bloque": 0,
-   "frase": "La persona sabe qué puede hacer Estela de verdad.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-SDI-IAE-006",
-   "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-03",
    "bloque": 1,
    "frase": "Las respuestas deben distinguir información, recomendaciones y acciones que el sistema realmente puede ejecutar.",
    "estado": "aplicada",
@@ -4270,14 +4286,6 @@
    "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-03",
    "bloque": 3,
    "frase": "Cuando no sabe o no puede, lo dice y ofrece una alternativa (desde UIX-043; voz en Voz y trato).",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
-   "id": "KYN-SDI-IAE-006",
-   "fuente": "data/sd-capitulos/interfaz-conversacional-de-estela.html#s-09-02-03",
-   "bloque": 4,
-   "frase": "Cada respuesta separa lo informativo de lo que se puede ejecutar.",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
   },
@@ -4303,7 +4311,7 @@
    "id": "KYN-SDI-IAE-008",
    "fuente": "data/sd-capitulos/agentes-y-ejecucion-de-acciones.html#s-09-03-02",
    "bloque": 2,
-   "frase": "Los del rol que lo autorizó, nunca más amplios (PEX-008).",
+   "frase": "Los del rol que lo autorizó, nunca más amplios (Roles y permisos).",
    "estado": "no-normativa",
    "motivo": "Explicación, ejemplo o descripción."
   },
@@ -4368,6 +4376,14 @@
    "estado": "aplicada",
    "nivel": "deberia",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-SPR-003",
+   "fuente": "data/sd-capitulos/keyons-product-default.html#s-10-04-03",
+   "bloque": 0,
+   "frase": "Define qué se puede personalizar en un producto: lo que no compromete la accesibilidad ni la consistencia.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-SPR-003",
@@ -4496,14 +4512,6 @@
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   },
   {
-   "id": "KYN-SDI-MOV-002",
-   "fuente": "data/sd-capitulos/movimiento-operativo.html#s-11-01-02",
-   "bloque": 3,
-   "frase": "Una transición se puede interrumpir con una nueva acción.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
-  },
-  {
    "id": "KYN-SDI-MOV-003",
    "fuente": "data/sd-capitulos/movimiento-editorial.html#s-11-02-01",
    "bloque": 1,
@@ -4538,14 +4546,6 @@
    "estado": "aplicada",
    "nivel": "puede",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
-  },
-  {
-   "id": "KYN-SDI-MOV-007",
-   "fuente": "data/sd-capitulos/interaccion-multisensorial.html#s-11-03-03",
-   "bloque": 0,
-   "frase": "Siempre también se ve.",
-   "estado": "no-normativa",
-   "motivo": "Explicación, ejemplo o descripción."
   },
   {
    "id": "KYN-SDI-MOV-007",

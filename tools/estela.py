@@ -60,12 +60,12 @@ def entre_comillas(t):
     return f'<span class="cita__pal">{CITA}{pal[0]}</span> ' + ' '.join(pal[1:-1]) + (' ' if len(pal) > 2 else '') + f'<span class="cita__pal">{pal[-1]}{fin}</span>'
 MAS = '<span class="btn-icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path class="v" d="M8 3v10"/><path d="M3 8h10"/></svg></span>'
 def casos(items):
-    """Escenarios en el acordeón único de la Biblioteca (reglas-visuales R27, modelo ADN-006): número, título y +.
+    """Escenarios en el acordeón único de la Biblioteca (reglas-visuales R27, modelo ADN-006): título y +, sin número.
     Ninguno se abre solo y varios pueden quedar abiertos. Al abrir: qué está pasando, clave del tono,
     «Así responde Estela» con la respuesta y, al final, qué demuestra."""
     out = ''
     for k, (t, pasa, tono, cita, demuestra) in enumerate(items):
-        out += (f'<details class="promise"><summary><span class="promise__n">{k + 1:02d}</span><span class="promise__t">{esc(t)}</span>{MAS}</summary>'
+        out += (f'<details class="promise"><summary><span class="promise__t">{esc(t)}</span>{MAS}</summary>'
                 f'<div class="promise__body"><dl><div><dt class="promise__k">Qué está pasando</dt><dd>{esc(pasa)}</dd></div><div><dt class="promise__k">Clave del tono</dt><dd>{esc(tono)}</dd></div></dl>'
                 f'<figure class="cita-estela"><figcaption class="promise__k">Así responde Estela</figcaption><blockquote><p>{entre_comillas(cita)}</p></blockquote></figure>'
                 f'<p><span class="promise__k">Qué demuestra</span>{esc(demuestra)}</p></div></details>')

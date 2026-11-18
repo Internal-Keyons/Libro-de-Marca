@@ -1,25 +1,29 @@
 """Sistema de Diseño · piezas comunes de los capítulos redactados (tools/sd_capitulos.py las usa con los módulos tools/sd/m*.py).
 
-Cada norma abre como el resto de la Biblioteca: rótulo (ID y nombre corto), titular, una entrada breve y los requisitos
-en filas con nivel (.sdn). La lectura principal muestra el requisito y sus decisiones esenciales; los detalles técnicos,
-los casos límite y la verificación completa van en el acordeón único (reglas-visuales R27, modelo ADN-006).
-Componentes del libro, elegidos por el contenido: filas rotuladas (.ed__stack), tabla (.matrix), secuencia (.steps),
-correcto e incorrecto (.redline) y acordeón (.promises). Los requisitos son textos de Keylin; lo demás es propuesta en borrador.
+Criterios: Guía de la Biblioteca 05, bloques «Sistema de diagramación» y «Composición normativa según el contenido»
+(fuente única; aquí no se copian). Cada norma abre con rótulo, titular directo y una entrada que aclara su función. Después,
+su composición principal según el contenido: requisito central con sus filas (req + stack), dimensiones que integran cada
+requisito con su decisión (dims), tabla (matriz) o secuencia (pasos). Los apartados complementarios van solo cuando hacen
+falta (detalle). La verificación es parte de la norma (verif) y se presenta según su función (ver): breve, técnica, agrupada
+en la validación del capítulo o como referencia. Las verificaciones se escriben solo aquí; data/sd-normas.json las recibe al
+generar. Los requisitos son textos de Keylin; lo demás es propuesta en borrador.
 """
 import html
 import io
+import re
 import json
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from normativa import N  # noqa: E402,F401  (los módulos lo importan desde aquí)
+from normativa import N, MARCADAS, plano as _np  # noqa: E402,F401  (los módulos lo importan desde aquí)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 REGISTRO = os.path.join(ROOT, 'data', 'sd-normas.json')
 REG = json.load(io.open(REGISTRO, encoding='utf-8'))
 NORMAS = {n['id']: n for n in REG['normas']}
 CONSTRUIDAS = {}   # id → metadatos de las normas escritas en esta corrida
+VALIDADOS = set()   # capítulos con su sección «Validación del capítulo»
 # Etiqueta corta del menú lateral (Guía 05 · Sistema de diagramación): completa y en un renglón; el nombre largo queda en la página
 CORTOS = {
     'KYN-SDI-PEX-002': 'Claridad primero', 'KYN-SDI-PEX-003': 'Complejidad', 'KYN-SDI-PEX-005': 'Previsibilidad',
@@ -45,11 +49,19 @@ def req(*ps):
     """Requisitos con su nivel, en filas (modelo del capítulo 01). Cada uno, un párrafo (Caso B)."""
     return f'{I}<div class="sdn">' + ''.join(f'<div class="sdn__r"><p class="sdn__t">{p}</p></div>' for p in ps) + '</div>'
 def stack(filas): return f'{I}<div class="ed__stack">' + ''.join(f'<div><span class="paren">({esc(k)})</span>{P(*ps)}</div>' for k, ps in filas) + '</div>'
-def matriz(etq, cols, filas):
-    """Tabla del libro (.matrix): (rótulo de fila, [celdas]). Las celdas admiten código y enlaces."""
+def dims(filas):
+    """Dimensiones integradas (Guía 05 · Composición normativa): cada fila reúne el requisito de su dimensión, con su nivel (N),
+    y su decisión de aplicación, sin repetirse en otra composición: (rótulo, [requisito, decisión, …]).
+    El requisito usa el texto de las filas normativas (.sdn__t, Azul Noche) y la decisión, el gris de lectura: la jerarquía
+    distingue qué se exige de cómo se aplica."""
+    req_ = {m[0] for m in MARCADAS}
+    def p(x): return f'<p class="sdn__t">{x}</p>' if _np(x) in req_ else f'<p>{x}</p>'
+    return f'{I}<div class="ed__stack">' + ''.join(f'<div><span class="paren">({esc(k)})</span>' + ''.join(p(x) for x in ps) + '</div>' for k, ps in filas) + '</div>'
+def matriz(etq, cols, filas, kh=False):
+    """Tabla del libro (.matrix): (rótulo de fila, [celdas]). Las celdas admiten código y enlaces; con kh, también el rótulo."""
     head = ('<div class="matrix__row matrix__head" role="row"><span class="matrix__k" role="columnheader"></span>'
             + ''.join(f'<span class="matrix__lvl" role="columnheader">{esc(t)}<small>{esc(s)}</small></span>' for t, s in cols) + '</div>')
-    rows = ''.join(f'<div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">{esc(k)}</span>'
+    rows = ''.join(f'<div class="matrix__row" role="row"><span class="matrix__k" role="rowheader">{k if kh else esc(k)}</span>'
                    + ''.join(f'<span class="matrix__v" role="cell">{v}</span>' for v in vs) + '</div>' for k, vs in filas)
     return f'{I}<div class="matrix" role="table" aria-label="{esc(etq)}">{head}{rows}</div>'
 def pasos(items):
@@ -71,10 +83,10 @@ def detalle(items):
                   for t, filas in items)
     return f'{I}<div class="dets">{out}</div>'
 def serie(items):
-    """Serie desplegable (R27, modelo ADN-006): varios ítems comparables o recorribles, numerados: (título, [(rótulo, texto)])"""
-    out = ''.join(f'<details class="promise"><summary><span class="promise__n">{k:02d}</span><span class="promise__t">{esc(t)}</span>{MAS}</summary>'
+    """Serie desplegable (R27, modelo ADN-006): varios ítems comparables o recorribles, sin número: (título, [(rótulo, texto)])"""
+    out = ''.join(f'<details class="promise"><summary><span class="promise__t">{esc(t)}</span>{MAS}</summary>'
                   f'<div class="promise__body"><dl>' + ''.join(f'<div><dt class="promise__k">{esc(r)}</dt><dd>{x}</dd></div>' for r, x in filas) + '</dl></div></details>'
-                  for k, (t, filas) in enumerate(items, 1))
+                  for t, filas in items)
     return f'{I}<div class="promises">{out}</div>'
 def c(t): return f'<code>{esc(t)}</code>'
 def cap(href, t): return f'<a class="xref" href="{href}">{esc(t)}</a>'
@@ -84,8 +96,31 @@ def ancla(capn, k):
     return 's-' + capn.replace('.', '-') + f'-{k:02d}'
 
 
-def norma(nid, nombre, capitulo, slug_mod, slug_cap, k, titular, entrada, partes, origen=(), responsabilidad='', cita='', corto=None):
-    """Una norma emitida en borrador. Registra su ruta y sus metadatos para data/sd-normas.json."""
+VER = ('breve', 'tecnica', 'grupo', 'referencia')
+
+
+def _verif_html(ver, verif, ref):
+    """La verificación según su función (Guía 05 · Composición normativa): cada prueba es (rótulo, condición, resultado esperado)."""
+    if ver == 'grupo':
+        return ''
+    if ver == 'referencia':
+        return f'{I}<p class="ed__more"><span class="ed__more-k">Verificación</span>{ref}</p>'
+    if ver == 'breve':
+        return (f'{I}<div class="ed__more"><span class="ed__more-k">Verificación</span>'
+                + ''.join(f'<p>{cnd} Resultado esperado: {res}</p>' for _, cnd, res in verif) + '</div>')
+    return detalle([('Verificación', [(r, f'{cnd} Resultado esperado: {res}') for r, cnd, res in verif])])
+
+
+def norma(nid, nombre, capitulo, slug_mod, slug_cap, k, titular, entrada, partes, origen=(), responsabilidad='', cita='', corto=None,
+          verif=(), ver='breve', ref=''):
+    """Una norma emitida en borrador. Registra su ruta, su titular y su verificación para data/sd-normas.json.
+    verif: [(rótulo, condición, resultado esperado)]; ver: breve, tecnica, grupo o referencia (ref: el texto que remite)."""
+    if ver not in VER:
+        raise SystemExit(f'{nid}: presentación de la verificación desconocida «{ver}»')
+    if not verif or any(len(v) != 3 or not v[1] or not v[2] for v in verif):
+        raise SystemExit(f'{nid}: cada norma lleva su verificación con condición y resultado esperado')
+    if ver == 'referencia' and not ref:
+        raise SystemExit(f'{nid}: la verificación por referencia necesita el texto que remite')
     an = ancla(capitulo, k)
     previo = NORMAS.get(nid)
     if previo and previo.get('ruta') and not previo['ruta'].startswith(f'sistema-diseno/{slug_mod}/{slug_cap}.html#'):
@@ -93,7 +128,10 @@ def norma(nid, nombre, capitulo, slug_mod, slug_cap, k, titular, entrada, partes
     if nid in CONSTRUIDAS:
         raise SystemExit(f'{nid} se usa dos veces')
     CONSTRUIDAS[nid] = dict(id=nid, nombre=nombre, corto=corto or CORTOS.get(nid, nombre), slug=slug_cap, ruta=f'sistema-diseno/{slug_mod}/{slug_cap}.html#{an}', origen=list(origen),
-                            responsabilidad=responsabilidad, cita=cita)
+                            responsabilidad=responsabilidad, cita=cita, titular=titular, ancla=an,
+                            verificacion=[dict(rotulo=r, condicion=plano(cnd), resultado=plano(res)) for r, cnd, res in verif], presentacion=ver,
+                            _verif=list(verif))
+    partes = list(partes) + ([_verif_html(ver, verif, ref)] if ver != 'grupo' else [])
     return (f'\n    <!-- {nid} · {nombre} -->\n    <section class="ed" id="{an}">\n'
             f'      <div class="ed__label sdn-label"><span class="ed__code" data-copy="{nid}" data-copy-msg="ID copiado · {nid}" title="Copiar el ID de esta norma">{nid}</span><span>{esc(nombre)}</span></div>\n'
             f'      <div>\n{I}<h2 class="ed__title">{esc(titular)}</h2>\n{I}<p class="ed__lead">{entrada}</p>\n' + '\n'.join(partes) + '\n      </div>\n    </section>\n')
@@ -129,3 +167,48 @@ def M(nid, texto=None):
     """Enlace a una norma del Libro de Marca desde una página de capítulo del Sistema de Diseño (se cita, no se copia)"""
     ruta, t = _MRK[nid]
     return f'<a class="xref" href="../../{ruta}" title="{nid}">{esc(texto or t)}</a>'
+
+
+def plano(t):
+    """Texto sin etiquetas ni marcas de referencia, para el registro"""
+    t = re.sub(r'⟦R:([A-Z0-9-]+)\|([^⟧]*)⟧', lambda m: m.group(2) or (CONSTRUIDAS.get(m.group(1), {}).get('nombre') or m.group(1)), t)
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', t))).strip()
+
+
+def R(nid, texto=''):
+    """Referencia directa a otra norma del Sistema de Diseño. tools/sd_capitulos.py la resuelve cuando todas las normas
+    están escritas: enlace a su ancla, con su nombre y, si está en otro capítulo, el capítulo. Una norma sin destino detiene
+    la generación: la oración se redacta sin la referencia (Guía 05 · Composición normativa)."""
+    return f'⟦R:{nid}|{texto}⟧'
+
+
+_SLUG = {s: (num, mod, st) for num, (mod, s, st) in CAPS.items()}
+
+
+def resolver(t, slug_actual):
+    def un(m):
+        nid, texto = m.group(1), m.group(2)
+        b = CONSTRUIDAS.get(nid)
+        if not b:
+            raise SystemExit(f'Referencia sin destino: {nid} (en {slug_actual})')
+        num, mod, st = _SLUG[b['slug']]
+        if b['slug'] == slug_actual:
+            return f'<a class="xref" href="#{b["ancla"]}">{esc(texto or b["nombre"])}</a>'
+        return (f'<a class="xref" href="../{mod}/{b["slug"]}.html#{b["ancla"]}">{esc(texto or b["nombre"])}</a>'
+                + ('' if texto else f', en {num} {esc(st)}'))
+    return re.sub(r'⟦R:([A-Z0-9-]+)\|([^⟧]*)⟧', un, t)
+
+
+def validacion(capn, slug_cap, entrada):
+    """Validación del capítulo: la verificación del capítulo y las pruebas que conviene consultar juntas (ver='grupo').
+    Tabla solo cuando reúne tres pruebas o más; si no, filas."""
+    VALIDADOS.add(slug_cap)
+    pr = [(b, v) for b in CONSTRUIDAS.values() if b['slug'] == slug_cap and b['presentacion'] == 'grupo' for v in b['_verif']]
+    partes = []
+    if len(pr) >= 3:
+        partes.append(matriz('Pruebas del capítulo', [('Qué se comprueba', 'Condición'), ('Qué se espera', 'Resultado')],
+                             [(f'<a class="xref" href="#{b["ancla"]}">{esc(b["corto"])}</a>', [cnd, res]) for b, (r, cnd, res) in pr], kh=True))
+    elif pr:
+        partes.append(f'{I}<div class="ed__stack">' + ''.join(
+            f'<div><span class="paren">({esc(b["corto"])})</span><p>{cnd} Resultado esperado: {res}</p></div>' for b, (r, cnd, res) in pr) + '</div>')
+    return seccion('validacion', _SLUG[slug_cap][0], 'Validación', 'Validación del capítulo', entrada, partes)
