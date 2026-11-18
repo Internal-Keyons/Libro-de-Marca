@@ -22,20 +22,27 @@ window.KEYONS_NAV = [
     cd: 'Criterios de calidad comunes a herramientas internas y productos.',
     d: 'Define los principios de calidad de experiencia compartidos por las herramientas internas y los productos para clientes.',
     ch: [
-      { n: '01', k: '01-01', t: 'Principios comunes', full: 'Principios comunes', d: 'Cinco principios que rigen el diseño de todos los productos digitales de Keyons: SaaS de nicho, herramientas internas y desarrollos a medida. Son la base de los demás capítulos de este libro.', s: 'b', items: [
-          { t: 'Claridad', st: 'Claridad', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-01' },
-          { t: 'Coherencia', st: 'Coherencia', s: 'p' },
-          { t: 'Control', st: 'Control', s: 'p' },
-          { t: 'Diseño honesto', st: 'Diseño honesto', s: 'p' },
-          { t: 'Firma UX', st: 'Firma UX', s: 'p' } ] },
-      { n: '02', k: '01-02', t: 'Personas y contextos', full: 'Personas y contextos de uso', d: 'Quién usa cada producto, para qué tarea, con qué frecuencia y con cuánta carga.', s: 'p', items: [
-          { t: 'Roles y capacidades', st: 'Roles y capacidades', s: 'p', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-01' },
-          { t: 'Objetivos y tareas', st: 'Objetivos y tareas', s: 'p', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-02' },
-          { t: 'Carga cognitiva', st: 'Carga cognitiva', s: 'p', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-03' } ] },
-      { n: '03', k: '01-03', t: 'Elecciones verificadas', full: 'Decisiones verificables de experiencia', d: 'Hipótesis, criterios de aceptación e indicadores para medir la experiencia.', s: 'p', items: [
-          { t: 'Hipótesis y requisitos', st: 'Hipótesis y requisitos', s: 'p', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-01' },
-          { t: 'Criterios UX', st: 'Criterios UX', s: 'p', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-02' },
-          { t: 'Indicadores', st: 'Indicadores', s: 'p', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-03' } ] }
+      { n: '01', k: '01-01', t: 'Principios comunes', full: 'Principios comunes', d: 'Los principios que rigen el diseño de todos los productos digitales de Keyons: SaaS de nicho, herramientas internas y desarrollos a medida.', s: 'b', items: [
+          { t: 'La tarea primero', st: 'La tarea primero', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-01' },
+          { t: 'Claridad antes que novedad', st: 'Claridad antes que novedad', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-02' },
+          { t: 'Complejidad justificada', st: 'Complejidad justificada', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-03' },
+          { t: 'Estado comprensible', st: 'Estado comprensible', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-04' },
+          { t: 'Comportamiento previsible', st: 'Comportamiento previsible', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-05' },
+          { t: 'Contexto antes de actuar', st: 'Contexto antes de actuar', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-06' },
+          { t: 'Prevención de errores', st: 'Prevención de errores', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-07' },
+          { t: 'Control de la persona', st: 'Control de la persona', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-08' },
+          { t: 'Reconocer antes que recordar', st: 'Reconocer antes que recordar', s: 'b', href: 'sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-09' } ] },
+      { n: '02', k: '01-02', t: 'Personas y contextos', full: 'Personas y contextos de uso', d: 'Quién usa cada producto, para qué tarea, con qué frecuencia y con cuánta carga.', s: 'b', items: [
+          { t: 'Diseñar para quienes utilizan el producto', st: 'Diseñar para quienes utilizan el producto', s: 'b', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-01' },
+          { t: 'Roles y permisos', st: 'Roles y permisos', s: 'b', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-02' },
+          { t: 'Uso ocasional y frecuente', st: 'Uso ocasional y frecuente', s: 'b', href: 'sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-03' } ] },
+      { n: '03', k: '01-03', t: 'Elecciones verificadas', full: 'Decisiones verificables de experiencia', d: 'Hipótesis, criterios de aceptación e indicadores para medir la experiencia.', s: 'b', items: [
+          { t: 'Decisiones justificadas', st: 'Decisiones justificadas', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-01' },
+          { t: 'Prisma como metodología', st: 'Prisma como metodología', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-02' },
+          { t: 'Diseño por capas', st: 'Diseño por capas', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-03' },
+          { t: 'Diseño basado en resultados', st: 'Diseño basado en resultados', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-04' },
+          { t: 'Evidencia diferenciada', st: 'Evidencia diferenciada', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-05' },
+          { t: 'Evaluación posterior', st: 'Evaluación posterior', s: 'b', href: 'sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-06' } ] }
     ]
   },
   {
@@ -43,10 +50,11 @@ window.KEYONS_NAV = [
     cd: 'Cómo se organiza la información y cómo se recorre.',
     d: 'Establece cómo se organiza la información y cómo las personas se desplazan por las aplicaciones.',
     ch: [
-      { n: '04', k: '02-01', t: 'Información', full: 'Arquitectura de información', d: 'Mapas de contenido, taxonomías y relaciones entre la información.', s: 'p', items: [
-          { t: 'Mapas de contenido', st: 'Mapas de contenido', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-01' },
-          { t: 'Taxonomías', st: 'Taxonomías', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-02' },
-          { t: 'Jerarquías', st: 'Jerarquías', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-03' } ] },
+      { n: '04', k: '02-01', t: 'Información', full: 'Arquitectura de información', d: 'Mapas de contenido, taxonomías y relaciones entre la información.', s: 'b', items: [
+          { t: 'Organización comprensible', st: 'Organización comprensible', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-01' },
+          { t: 'Nombres comprensibles', st: 'Nombres comprensibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-02' },
+          { t: 'Jerarquía identificable', st: 'Jerarquía identificable', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-03' },
+          { t: 'Información progresiva', st: 'Información progresiva', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-04' } ] },
       { n: '05', k: '02-02', t: 'Navegación', full: 'Estructura de navegación', d: 'Cómo se reconoce la ubicación, se recorren los destinos y se retoma el trabajo, en cualquier forma de navegación.', s: 'b', items: [
           { t: 'Ubicación actual', st: 'Ubicación actual', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-01' },
           { t: 'Acciones previsibles', st: 'Acciones previsibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-02' },
@@ -55,10 +63,13 @@ window.KEYONS_NAV = [
           { t: 'Adaptación por dispositivo', st: 'Adaptación por dispositivo', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-05' },
           { t: 'Regreso sin pérdida', st: 'Regreso sin pérdida', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-06' },
           { t: 'Acceso directo y rutas no disponibles', st: 'Acceso directo y rutas no disponibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/estructura-de-navegacion.html#s-02-02-07' } ] },
-      { n: '06', k: '02-03', t: 'Búsqueda', full: 'Búsqueda y orientación', d: 'Búsqueda, filtros y orientación sobre dónde se está y cómo continuar.', s: 'p', items: [
-          { t: 'Búsqueda global', st: 'Búsqueda global', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-01' },
-          { t: 'Filtros', st: 'Filtros', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-02' },
-          { t: 'Ubicación y contexto', st: 'Ubicación y contexto', s: 'p', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-03' } ] }
+      { n: '06', k: '02-03', t: 'Búsqueda', full: 'Búsqueda y orientación', d: 'Búsqueda, filtros y orientación sobre dónde se está y cómo continuar.', s: 'b', items: [
+          { t: 'Alcance identificable', st: 'Alcance identificable', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-01' },
+          { t: 'Resultados pertinentes', st: 'Resultados pertinentes', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-02' },
+          { t: 'Resultados comprensibles', st: 'Resultados comprensibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-03' },
+          { t: 'Filtros visibles', st: 'Filtros visibles', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-04' },
+          { t: 'Sin resultados', st: 'Sin resultados', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-05' },
+          { t: 'Resultados autorizados', st: 'Resultados autorizados', s: 'b', href: 'sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-06' } ] }
     ]
   },
   {

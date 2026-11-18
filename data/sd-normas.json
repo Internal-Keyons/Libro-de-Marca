@@ -6,8 +6,8 @@
    "id": "KYN-SDI-PEX-001",
    "capitulo": "01",
    "nombre": "La tarea primero",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-01",
    "origen": [
     "La tarea primero (base)",
     "Una acción reconocible (ampliación)",
@@ -22,8 +22,8 @@
    "id": "KYN-SDI-PEX-002",
    "capitulo": "01",
    "nombre": "Claridad antes que novedad",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-02",
    "origen": [
     "Claridad antes que novedad (base)",
     "UIX-005"
@@ -35,37 +35,39 @@
    "id": "KYN-SDI-PEX-003",
    "capitulo": "01",
    "nombre": "Complejidad justificada",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-03",
    "origen": [
     "Complejidad justificada (base)",
+    "Reducción de pasos innecesarios (ampliación de la matriz)",
     "UIX-001"
    ],
-   "responsabilidad": "La cantidad de información y controles corresponde a la tarea, al perfil y a la frecuencia.",
+   "responsabilidad": "La cantidad de información, controles y pasos corresponde a la tarea, al perfil y a la frecuencia.",
    "cita": "04 Información progresiva (ARQ-004) desarrolla el detalle bajo demanda"
   },
   {
    "id": "KYN-SDI-PEX-004",
    "capitulo": "01",
    "nombre": "Estado comprensible",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-04",
    "origen": [
     "Estado comprensible (base)",
     "UIX-012",
     "UIX-013"
    ],
-   "responsabilidad": "Después de una acción, el sistema comunica si procesa, terminó o necesita intervención.",
-   "cita": "15 Retroalimentación (Resultado visible) desarrolla los componentes y cita esta norma"
+   "responsabilidad": "Después de una acción, el sistema comunica si procesa, terminó, necesita intervención o falló.",
+   "cita": "15 Retroalimentación desarrolla los componentes"
   },
   {
    "id": "KYN-SDI-PEX-005",
    "capitulo": "01",
    "nombre": "Comportamiento previsible",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-05",
    "origen": [
     "Comportamiento previsible (ampliación)",
+    "Consistencia entre pantallas (ampliación de la matriz)",
     "UIX-013"
    ],
    "responsabilidad": "Una misma función se comporta igual en todas las pantallas y productos.",
@@ -75,8 +77,8 @@
    "id": "KYN-SDI-PEX-006",
    "capitulo": "01",
    "nombre": "Contexto antes de actuar",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-06",
    "origen": [
     "Contexto antes de actuar (ampliación)",
     "UIX-006"
@@ -88,10 +90,11 @@
    "id": "KYN-SDI-PEX-007",
    "capitulo": "02",
    "nombre": "Diseñar para quienes utilizan el producto",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-01",
    "origen": [
     "Diseñar para quienes utilizan el producto (base)",
+    "Perfiles operativos y condiciones de uso (ampliación de la matriz)",
     "UIX-007",
     "UIX-009"
    ],
@@ -102,8 +105,8 @@
    "id": "KYN-SDI-PEX-008",
    "capitulo": "02",
    "nombre": "Roles y permisos",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-02",
    "origen": [
     "Roles y necesidades diferenciadas (base)",
     "Acceso por responsabilidades (ampliación)",
@@ -116,8 +119,8 @@
    "id": "KYN-SDI-PEX-009",
    "capitulo": "02",
    "nombre": "Uso ocasional y frecuente",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/personas-y-contextos-de-uso.html#s-01-02-03",
    "origen": [
     "Uso ocasional y frecuente (base)",
     "Frecuencia de uso (ampliación)",
@@ -132,60 +135,62 @@
    "id": "KYN-SDI-PEX-010",
    "capitulo": "03",
    "nombre": "Decisiones justificadas",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-01",
    "origen": [
     "Decisiones justificadas (base)",
     "Problema antes de solución (ampliación)",
+    "Comparar alternativas y registrar excepciones (ampliación de la matriz)",
     "UIX-003"
    ],
-   "responsabilidad": "Cada decisión significativa se vincula con un problema, una necesidad o una hipótesis.",
+   "responsabilidad": "Cada decisión significativa se vincula con un problema, una necesidad o una hipótesis, y queda registrada.",
    "cita": ""
   },
   {
    "id": "KYN-SDI-PEX-011",
    "capitulo": "03",
    "nombre": "Prisma como metodología",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-02",
    "origen": [
     "Prisma como metodología (base)",
     "UIX-002"
    ],
-   "responsabilidad": "Los proyectos siguen las cinco fases de Prisma.",
+   "responsabilidad": "Los proyectos siguen las cinco fases de Prisma, con su entregable por fase.",
    "cita": "43 Implementación conserva la operación del método"
   },
   {
    "id": "KYN-SDI-PEX-012",
    "capitulo": "03",
    "nombre": "Diseño por capas",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-03",
    "origen": [
     "Diseño por capas (base)",
     "Estructura antes de expresión (ampliación)"
    ],
-   "responsabilidad": "Estructura, interacción y expresión se trabajan por capas, de forma iterativa, sobre todo en Anochecer y de nuevo en Galaxia.",
+   "responsabilidad": "Estructura, interacción y expresión se trabajan por capas, de forma iterativa, dentro de Prisma.",
    "cita": ""
   },
   {
    "id": "KYN-SDI-PEX-013",
    "capitulo": "03",
    "nombre": "Diseño basado en resultados",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-04",
    "origen": [
-    "Diseño basado en resultados (base)"
+    "Diseño basado en resultados (base)",
+    "Evaluar prototipos (ampliación de la matriz)"
    ],
-   "responsabilidad": "Una propuesta se aprueba por sus resultados de comprensión, navegación e interacción, no solo por su apariencia.",
+   "responsabilidad": "Una propuesta se aprueba por sus resultados de comprensión, navegación e interacción.",
    "cita": ""
   },
   {
    "id": "KYN-SDI-PEX-014",
    "capitulo": "03",
    "nombre": "Evidencia diferenciada",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-05",
    "origen": [
     "Evidencia diferenciada (ampliación)",
     "Hipótesis y evidencia (base, capítulo 02)"
@@ -197,8 +202,8 @@
    "id": "KYN-SDI-PEX-015",
    "capitulo": "03",
    "nombre": "Evaluación posterior",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/decisiones-verificables-de-experiencia.html#s-01-03-06",
    "origen": [
     "Evaluación posterior (ampliación)",
     "UIX-048"
@@ -210,23 +215,25 @@
    "id": "KYN-SDI-ARQ-001",
    "capitulo": "04",
    "nombre": "Organización comprensible",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-01",
    "origen": [
     "Organización comprensible (base)",
-    "Agrupación con sentido (ampliación)"
+    "Agrupación con sentido (ampliación)",
+    "Estructura de páginas, agrupación y navegación contextual (ampliación de la matriz)"
    ],
-   "responsabilidad": "El contenido se agrupa por tareas y conceptos de las personas, no por la estructura interna.",
+   "responsabilidad": "El contenido se agrupa por tareas y conceptos de las personas, con relaciones identificables.",
    "cita": ""
   },
   {
    "id": "KYN-SDI-ARQ-002",
    "capitulo": "04",
    "nombre": "Nombres comprensibles",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-02",
    "origen": [
     "Nombres comprensibles (ampliación)",
+    "Nombres de categorías (ampliación de la matriz)",
     "UIX-041"
    ],
    "responsabilidad": "Categorías, secciones y destinos usan nombres que las personas reconocen.",
@@ -236,10 +243,11 @@
    "id": "KYN-SDI-ARQ-003",
    "capitulo": "04",
    "nombre": "Jerarquía identificable",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-03",
    "origen": [
-    "Jerarquía identificable (base)"
+    "Jerarquía identificable (base)",
+    "Jerarquías (ampliación de la matriz)"
    ],
    "responsabilidad": "Las páginas distinguen información principal, secundaria y complementaria.",
    "cita": "09 Tipografía define la jerarquía visual"
@@ -248,15 +256,16 @@
    "id": "KYN-SDI-ARQ-004",
    "capitulo": "04",
    "nombre": "Información progresiva",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/arquitectura-de-informacion.html#s-02-01-04",
    "origen": [
     "Información progresiva (base)",
     "Detalle progresivo (ampliación)",
     "Información esencial visible (ampliación)",
+    "Revelación progresiva (ampliación de la matriz)",
     "UIX-028"
    ],
-   "responsabilidad": "Lo esencial está visible en su momento; el detalle se ofrece bajo demanda sin ocultar requisitos.",
+   "responsabilidad": "Lo esencial está visible en su momento; el detalle se ofrece a pedido sin ocultar requisitos.",
    "cita": ""
   },
   {
@@ -345,10 +354,11 @@
    "id": "KYN-SDI-ARQ-011",
    "capitulo": "06",
    "nombre": "Alcance identificable",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-01",
    "origen": [
-    "Alcance identificable (ampliación)"
+    "Alcance identificable (ampliación)",
+    "Búsqueda global frente a local (ampliación de la matriz)"
    ],
    "responsabilidad": "Se entiende si la búsqueda es global o está limitada a una sección o conjunto.",
    "cita": ""
@@ -357,59 +367,62 @@
    "id": "KYN-SDI-ARQ-012",
    "capitulo": "06",
    "nombre": "Resultados pertinentes",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-02",
    "origen": [
-    "Resultados pertinentes (base)"
+    "Resultados pertinentes (base)",
+    "Autocompletado, búsqueda parcial, errores ortográficos y resultados ordenados (ampliación de la matriz)"
    ],
-   "responsabilidad": "La búsqueda usa los campos relevantes para la tarea.",
+   "responsabilidad": "La búsqueda usa los campos relevantes, encuentra por coincidencia parcial y ordena por pertinencia.",
    "cita": "El límite de permisos está en ARQ-016"
   },
   {
    "id": "KYN-SDI-ARQ-013",
    "capitulo": "06",
    "nombre": "Resultados comprensibles",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-03",
    "origen": [
-    "Resultados comprensibles (base)"
+    "Resultados comprensibles (base)",
+    "Manejo de resultados extensos (ampliación de la matriz)"
    ],
-   "responsabilidad": "Cada resultado se distingue de otros similares.",
+   "responsabilidad": "Cada resultado se distingue de otros similares y los resultados extensos se pueden recorrer.",
    "cita": ""
   },
   {
    "id": "KYN-SDI-ARQ-014",
    "capitulo": "06",
    "nombre": "Filtros visibles",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-04",
    "origen": [
-    "Filtros visibles (ampliación)"
+    "Filtros visibles (ampliación)",
+    "Conservación de filtros (ampliación de la matriz)"
    ],
    "responsabilidad": "Los filtros activos se ven y se modifican sin perder la consulta.",
-   "cita": ""
+   "cita": "La conservación al volver la regula ARQ-010 (05)"
   },
   {
    "id": "KYN-SDI-ARQ-015",
    "capitulo": "06",
    "nombre": "Sin resultados",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-05",
    "origen": [
     "Sin resultados (base)",
     "Ausencia de resultados (ampliación)",
     "UIX-026",
     "UIX-023"
    ],
-   "responsabilidad": "Sin coincidencias, la interfaz lo explica y ofrece una acción; un error se distingue de una búsqueda vacía.",
-   "cita": "24 Mensajes define la redacción del error"
+   "responsabilidad": "Sin coincidencias, la interfaz lo explica y ofrece una acción; un error y la falta de acceso se distinguen.",
+   "cita": "24 Mensajes define la redacción"
   },
   {
    "id": "KYN-SDI-ARQ-016",
    "capitulo": "06",
    "nombre": "Resultados autorizados",
-   "estado": "reservado",
-   "ruta": null,
+   "estado": "borrador",
+   "ruta": "sistema-diseno/arquitectura-navegacion/busqueda-y-orientacion.html#s-02-03-06",
    "origen": [
     "Resultados autorizados (ampliación)"
    ],
@@ -427,6 +440,44 @@
    ],
    "responsabilidad": "Las rutas internas se abren directamente y las no disponibles comunican la situación con una salida, sin revelar información.",
    "cita": "24 Mensajes define el texto; 18 Recuperación, las rutas alternativas"
+  },
+  {
+   "id": "KYN-SDI-PEX-016",
+   "capitulo": "01",
+   "nombre": "Prevención de errores",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-07",
+   "origen": [
+    "Prevención de errores (ampliación de la matriz; requisito redactado por Claude)"
+   ],
+   "responsabilidad": "La interfaz previene los errores frecuentes antes de que ocurran.",
+   "cita": "13 Entradas y 16 Formularios desarrollan la validación"
+  },
+  {
+   "id": "KYN-SDI-PEX-017",
+   "capitulo": "01",
+   "nombre": "Control de la persona",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-08",
+   "origen": [
+    "Control de la persona (ampliación de la matriz; requisito redactado por Claude)",
+    "UIX-005",
+    "UIX-025"
+   ],
+   "responsabilidad": "La persona puede cancelar, deshacer y decidir sobre lo que el sistema propone.",
+   "cita": ""
+  },
+  {
+   "id": "KYN-SDI-PEX-018",
+   "capitulo": "01",
+   "nombre": "Reconocer antes que recordar",
+   "estado": "borrador",
+   "ruta": "sistema-diseno/principios-experiencia/principios-compartidos.html#s-01-01-09",
+   "origen": [
+    "Reconocimiento frente a memorización (ampliación de la matriz; requisito redactado por Claude)"
+   ],
+   "responsabilidad": "La interfaz muestra opciones, datos previos y contexto en lugar de exigir memoria.",
+   "cita": ""
   }
  ]
 }

@@ -95,3 +95,10 @@ def L(num, texto=None):
     """Enlace a otro capítulo del Sistema de Diseño por su número visible (01 a 45), desde una página de capítulo."""
     mod, slug, st = CAPS[num]
     return cap(f'../{mod}/{slug}.html', texto or f'{num} {st}')
+
+
+def numeradas(items, cols=3):
+    """Retícula con número (R26: secuencia o enumeración útil), como CMP-004: (título, párrafos)"""
+    m = {2: ' pgrid--2', 3: '', 4: ' pgrid--4'}[cols]
+    return (f'{I}<div class="pgrid{m}">' + ''.join(
+        f'<div><span class="pgrid__n">{k:02d}</span><p class="pgrid__t">{esc(t)}</p>{P(*ps, cls="pgrid__d")}</div>' for k, (t, ps) in enumerate(items, 1)) + '</div>')

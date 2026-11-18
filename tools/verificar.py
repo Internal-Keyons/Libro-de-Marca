@@ -139,6 +139,15 @@ def biblioteca():
             err.append(f'SIN NORMA {x}: el Sistema de Diseño la cita y no está en ia/normas')
     for x in sorted(sdi_emitidas - set(ids_sd)):
         err.append(f'SDI     {x}: emitida en data/sd-normas.json y sin subcapítulo en data/sistema-diseno.json')
+    # Piso mínimo: un capítulo del Sistema de Diseño en borrador tiene normas redactadas (rótulo, requisito con nivel y verificación).
+    # No mide la cobertura: esa la muestra la matriz de cobertura de cada entrega (propuestas/sd-entregas/).
+    for m in SD['modulos']:
+        for c in m['capitulos']:
+            if c.get('estado') not in ('borrador', 'vigente'):
+                continue
+            t = lee(f"data/sd-capitulos/{c['slug']}.html") or ''
+            if not (re.search(r'class="ed__code"', t) and re.search(r'data-lvl="(debe|deberia|puede)"', t) and 'Verificación' in t):
+                err.append(f"CAPÍTULO {c['num']} {c['st']}: está en borrador sin normas redactadas (rótulo, requisito con nivel y verificación)")
     # Anclas de los dos índices
     def ids_de(p):
         t = lee(p)

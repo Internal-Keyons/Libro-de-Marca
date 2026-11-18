@@ -8,7 +8,7 @@
    "t": "Principios de experiencia",
    "slug": "principios-experiencia",
    "d": "Define los principios de calidad de experiencia compartidos por las herramientas internas y los productos para clientes.",
-   "estado": "estructura",
+   "estado": "borrador",
    "marca": [
     "DIS-001",
     "DIS-002",
@@ -25,67 +25,98 @@
      "subcapitulos": [
       {
        "n": "01.01.01",
-       "t": "Cada pantalla presenta solo la información necesaria para la tarea en curso",
+       "t": "La tarea primero",
        "estado": "borrador",
-       "st": "Claridad",
-       "norma": "KYN-PRD-UIX-001"
+       "st": "La tarea primero",
+       "norma": "KYN-SDI-PEX-001"
       },
       {
        "n": "01.01.02",
-       "t": "Todos los productos Keyons comparten la misma lógica de uso",
-       "estado": "pendiente",
-       "st": "Coherencia",
-       "norma": "KYN-PRD-UIX-013"
+       "t": "Claridad antes que novedad",
+       "estado": "borrador",
+       "st": "Claridad antes que novedad",
+       "norma": "KYN-SDI-PEX-002"
       },
       {
        "n": "01.01.03",
-       "t": "La persona conserva el criterio en cada decisión",
-       "estado": "pendiente",
-       "st": "Control",
-       "norma": "KYN-PRD-UIX-005"
+       "t": "Complejidad justificada",
+       "estado": "borrador",
+       "st": "Complejidad justificada",
+       "norma": "KYN-SDI-PEX-003"
       },
       {
        "n": "01.01.04",
-       "t": "Cada decisión se toma con información clara y en libertad",
-       "estado": "pendiente",
-       "st": "Diseño honesto",
-       "norma": "KYN-PRD-UIX-006"
+       "t": "Estado comprensible",
+       "estado": "borrador",
+       "st": "Estado comprensible",
+       "norma": "KYN-SDI-PEX-004"
       },
       {
        "n": "01.01.05",
-       "t": "Ocho elementos que hacen reconocible la calidad Keyons",
-       "estado": "pendiente",
-       "st": "Firma UX",
-       "norma": "KYN-PRD-UIX-012"
+       "t": "Comportamiento previsible",
+       "estado": "borrador",
+       "st": "Comportamiento previsible",
+       "norma": "KYN-SDI-PEX-005"
+      },
+      {
+       "n": "01.01.06",
+       "t": "Contexto antes de actuar",
+       "estado": "borrador",
+       "st": "Contexto antes de actuar",
+       "norma": "KYN-SDI-PEX-006"
+      },
+      {
+       "n": "01.01.07",
+       "t": "Prevención de errores",
+       "estado": "borrador",
+       "st": "Prevención de errores",
+       "norma": "KYN-SDI-PEX-016"
+      },
+      {
+       "n": "01.01.08",
+       "t": "Control de la persona",
+       "estado": "borrador",
+       "st": "Control de la persona",
+       "norma": "KYN-SDI-PEX-017"
+      },
+      {
+       "n": "01.01.09",
+       "t": "Reconocer antes que recordar",
+       "estado": "borrador",
+       "st": "Reconocer antes que recordar",
+       "norma": "KYN-SDI-PEX-018"
       }
      ],
      "st": "Principios comunes",
      "num": "01",
-     "dc": "Cinco principios que rigen el diseño de **todos los productos digitales de Keyons**: SaaS de nicho, herramientas internas y desarrollos a medida. Son la base de los demás capítulos de este libro."
+     "dc": "Los principios que rigen el diseño de **todos los productos digitales de Keyons**: SaaS de nicho, herramientas internas y desarrollos a medida."
     },
     {
      "n": "01.02",
      "t": "Personas y contextos de uso",
      "slug": "personas-y-contextos-de-uso",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "01.02.01",
-       "t": "Roles y capacidades de los usuarios",
-       "estado": "pendiente",
-       "st": "Roles y capacidades"
+       "t": "Diseñar para quienes utilizan el producto",
+       "estado": "borrador",
+       "st": "Diseñar para quienes utilizan el producto",
+       "norma": "KYN-SDI-PEX-007"
       },
       {
        "n": "01.02.02",
-       "t": "Objetivos, tareas y frecuencia de uso",
-       "estado": "pendiente",
-       "st": "Objetivos y tareas"
+       "t": "Roles y permisos",
+       "estado": "borrador",
+       "st": "Roles y permisos",
+       "norma": "KYN-SDI-PEX-008"
       },
       {
        "n": "01.02.03",
-       "t": "Carga cognitiva y densidad informativa",
-       "estado": "pendiente",
-       "st": "Carga cognitiva"
+       "t": "Uso ocasional y frecuente",
+       "estado": "borrador",
+       "st": "Uso ocasional y frecuente",
+       "norma": "KYN-SDI-PEX-009"
       }
      ],
      "st": "Personas y contextos",
@@ -96,25 +127,49 @@
      "n": "01.03",
      "t": "Decisiones verificables de experiencia",
      "slug": "decisiones-verificables-de-experiencia",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "01.03.01",
-       "t": "Principios, hipótesis y requisitos",
-       "estado": "pendiente",
-       "st": "Hipótesis y requisitos"
+       "t": "Decisiones justificadas",
+       "estado": "borrador",
+       "st": "Decisiones justificadas",
+       "norma": "KYN-SDI-PEX-010"
       },
       {
        "n": "01.03.02",
-       "t": "Criterios de aceptación UX",
-       "estado": "pendiente",
-       "st": "Criterios UX"
+       "t": "Prisma como metodología",
+       "estado": "borrador",
+       "st": "Prisma como metodología",
+       "norma": "KYN-SDI-PEX-011"
       },
       {
        "n": "01.03.03",
-       "t": "Indicadores de calidad de experiencia",
-       "estado": "pendiente",
-       "st": "Indicadores"
+       "t": "Diseño por capas",
+       "estado": "borrador",
+       "st": "Diseño por capas",
+       "norma": "KYN-SDI-PEX-012"
+      },
+      {
+       "n": "01.03.04",
+       "t": "Diseño basado en resultados",
+       "estado": "borrador",
+       "st": "Diseño basado en resultados",
+       "norma": "KYN-SDI-PEX-013"
+      },
+      {
+       "n": "01.03.05",
+       "t": "Evidencia diferenciada",
+       "estado": "borrador",
+       "st": "Evidencia diferenciada",
+       "norma": "KYN-SDI-PEX-014"
+      },
+      {
+       "n": "01.03.06",
+       "t": "Evaluación posterior",
+       "estado": "borrador",
+       "st": "Evaluación posterior",
+       "norma": "KYN-SDI-PEX-015"
       }
      ],
      "st": "Elecciones verificadas",
@@ -142,25 +197,35 @@
      "n": "02.01",
      "t": "Arquitectura de información",
      "slug": "arquitectura-de-informacion",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "02.01.01",
-       "t": "Mapas de contenido y módulos funcionales",
-       "estado": "pendiente",
-       "st": "Mapas de contenido"
+       "t": "Organización comprensible",
+       "estado": "borrador",
+       "st": "Organización comprensible",
+       "norma": "KYN-SDI-ARQ-001"
       },
       {
        "n": "02.01.02",
-       "t": "Taxonomías y nomenclatura",
-       "estado": "pendiente",
-       "st": "Taxonomías"
+       "t": "Nombres comprensibles",
+       "estado": "borrador",
+       "st": "Nombres comprensibles",
+       "norma": "KYN-SDI-ARQ-002"
       },
       {
        "n": "02.01.03",
-       "t": "Jerarquías y relaciones de información",
-       "estado": "pendiente",
-       "st": "Jerarquías"
+       "t": "Jerarquía identificable",
+       "estado": "borrador",
+       "st": "Jerarquía identificable",
+       "norma": "KYN-SDI-ARQ-003"
+      },
+      {
+       "n": "02.01.04",
+       "t": "Información progresiva",
+       "estado": "borrador",
+       "st": "Información progresiva",
+       "norma": "KYN-SDI-ARQ-004"
       }
      ],
      "st": "Información",
@@ -231,25 +296,49 @@
      "n": "02.03",
      "t": "Búsqueda y orientación",
      "slug": "busqueda-y-orientacion",
-     "estado": "pendiente",
+     "estado": "borrador",
      "subcapitulos": [
       {
        "n": "02.03.01",
-       "t": "Búsqueda global y contextual",
-       "estado": "pendiente",
-       "st": "Búsqueda global"
+       "t": "Alcance identificable",
+       "estado": "borrador",
+       "st": "Alcance identificable",
+       "norma": "KYN-SDI-ARQ-011"
       },
       {
        "n": "02.03.02",
-       "t": "Filtros y descubrimiento de contenido",
-       "estado": "pendiente",
-       "st": "Filtros"
+       "t": "Resultados pertinentes",
+       "estado": "borrador",
+       "st": "Resultados pertinentes",
+       "norma": "KYN-SDI-ARQ-012"
       },
       {
        "n": "02.03.03",
-       "t": "Ubicación, rutas de navegación y cambio de contexto",
-       "estado": "pendiente",
-       "st": "Ubicación y contexto"
+       "t": "Resultados comprensibles",
+       "estado": "borrador",
+       "st": "Resultados comprensibles",
+       "norma": "KYN-SDI-ARQ-013"
+      },
+      {
+       "n": "02.03.04",
+       "t": "Filtros visibles",
+       "estado": "borrador",
+       "st": "Filtros visibles",
+       "norma": "KYN-SDI-ARQ-014"
+      },
+      {
+       "n": "02.03.05",
+       "t": "Sin resultados",
+       "estado": "borrador",
+       "st": "Sin resultados",
+       "norma": "KYN-SDI-ARQ-015"
+      },
+      {
+       "n": "02.03.06",
+       "t": "Resultados autorizados",
+       "estado": "borrador",
+       "st": "Resultados autorizados",
+       "norma": "KYN-SDI-ARQ-016"
       }
      ],
      "st": "Búsqueda",

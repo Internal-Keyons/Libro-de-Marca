@@ -77,10 +77,13 @@ def main():
                       key=lambda n: n['ruta'])
         cp['subcapitulos'] = [{'n': n['ruta'].split('#s-')[1].replace('-', '.'), 't': n['nombre'], 'estado': n['estado'], 'st': n['nombre'], 'norma': n['id']} for n in nums]
         cp['estado'] = 'borrador'
-        cp['dc'] = dc
+        if dc:
+            cp['dc'] = dc
         if m['estado'] in ('estructura', 'pendiente'):
             m['estado'] = 'borrador'
-        registrar(os.path.relpath(dst, ROOT).replace(os.sep, '/'))
+    # Niveles: después de escribir todos los capítulos, porque tools/niveles.py los lee juntos
+    for mod, capn, slug, secs, dc in caps:
+        registrar('data/sd-capitulos/' + slug + '.html')
     io.open(os.path.join(ROOT, 'data', 'sistema-diseno.json'), 'w', encoding='utf-8', newline='\n').write(json.dumps(sd_json, ensure_ascii=False, indent=1) + '\n')
     io.open(os.path.join(ROOT, 'propuestas', 'matriz-normativa-sd-01-06.md'), 'w', encoding='utf-8', newline='\n').write(matriz_md(reg))
     print('ok ·', len(caps), 'capítulos ·', len(base.CONSTRUIDAS), 'normas en borrador')

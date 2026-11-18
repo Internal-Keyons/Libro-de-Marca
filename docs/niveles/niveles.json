@@ -2844,6 +2844,305 @@
    "motivo": "Explicación, ejemplo o descripción."
   },
   {
+   "id": "KYN-SDI-PEX-001",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-01",
+   "bloque": 1,
+   "frase": "Cada pantalla debe identificar su propósito y permitir reconocer la acción o información principal sin depender de elementos decorativos.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-001",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-01",
+   "bloque": 2,
+   "frase": "Cuando una pantalla permite realizar una tarea principal, esa acción debe distinguirse de las secundarias mediante una jerarquía visual y funcional consistente.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-001",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-01",
+   "bloque": 3,
+   "frase": "Los recursos gráficos no deben competir por la atención con información esencial o acciones necesarias para completar una tarea.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-002",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-02",
+   "bloque": 1,
+   "frase": "La interfaz no debe ocultar funciones necesarias ni sustituir patrones comprensibles únicamente para conseguir una apariencia original.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-002",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-02",
+   "bloque": 5,
+   "frase": "La persona puede intervenir, revertir y decidir (PEX-017).",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PEX-003",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-03",
+   "bloque": 1,
+   "frase": "La cantidad de información y controles visibles debería corresponder a la tarea, al perfil de usuario y a la frecuencia de uso.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-004",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-04",
+   "bloque": 1,
+   "frase": "Después de una acción, el sistema debe comunicar si está procesando, si terminó o si requiere intervención.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-005",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-05",
+   "bloque": 1,
+   "frase": "Los componentes que realizan una misma función deben mantener un comportamiento consistente entre pantallas.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-006",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-06",
+   "bloque": 1,
+   "frase": "Cuando una acción puede afectar información o decisiones importantes, la interfaz debe proporcionar el contexto necesario para comprender sus consecuencias.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-006",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-06",
+   "bloque": 2,
+   "frase": "Qué va a cambiar, cuántos elementos, si se puede deshacer y quién más se ve afectado.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PEX-016",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-07",
+   "bloque": 1,
+   "frase": "La interfaz debería prevenir los errores frecuentes mediante opciones válidas, valores sugeridos y formatos comprensibles antes de que la persona los cometa.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-017",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-08",
+   "bloque": 1,
+   "frase": "La persona debe poder cancelar, deshacer o corregir las acciones reversibles y decidir sobre lo que el sistema propone.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-017",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-08",
+   "bloque": 4,
+   "frase": "Se pueden cancelar o pausar cuando el proceso lo permite, y se informa qué queda hecho.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PEX-017",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-08",
+   "bloque": 6,
+   "frase": "Cada dato que completa el sistema se puede revisar y cambiar antes de confirmarlo.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PEX-018",
+   "fuente": "data/sd-capitulos/principios-compartidos.html#s-01-01-09",
+   "bloque": 1,
+   "frase": "La interfaz debería mostrar las opciones, los datos previos y el contexto necesario, en lugar de exigir que la persona los recuerde entre pantallas.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-007",
+   "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-01",
+   "bloque": 1,
+   "frase": "Las decisiones de experiencia deben basarse en tareas, responsabilidades y necesidades reales de los perfiles que utilizan el sistema.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-008",
+   "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-02",
+   "bloque": 1,
+   "frase": "La interfaz debe distinguir las acciones y la información disponibles para cada rol según sus permisos efectivos.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-008",
+   "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-02",
+   "bloque": 2,
+   "frase": "Los permisos efectivos deben determinar las acciones y datos disponibles.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-008",
+   "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-02",
+   "bloque": 3,
+   "frase": "Ocultar un control en la interfaz no debe sustituir la validación de autorización.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-009",
+   "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-03",
+   "bloque": 1,
+   "frase": "Un mismo producto puede presentar distintas densidades y ayudas según el contexto operativo, sin cambiar innecesariamente sus patrones de interacción.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-009",
+   "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-03",
+   "bloque": 2,
+   "frase": "Las tareas frecuentes deberían requerir menos esfuerzo de navegación que las tareas ocasionales, manteniendo controles y confirmaciones necesarios.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-009",
+   "fuente": "data/sd-capitulos/personas-y-contextos-de-uso.html#s-01-02-03",
+   "bloque": 3,
+   "frase": "Una misma información puede presentarse de distintas maneras según la tarea y el rol, siempre que conserve su significado.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-010",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-01",
+   "bloque": 0,
+   "frase": "Una decisión documentada se puede revisar.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PEX-010",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-01",
+   "bloque": 1,
+   "frase": "Toda decisión significativa de diseño debe relacionarse con un problema, una necesidad o una oportunidad identificable.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-010",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-01",
+   "bloque": 7,
+   "frase": "Qué debería cambiar y cómo se va a medir.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PEX-011",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-02",
+   "bloque": 1,
+   "frase": "Los proyectos deben seguir las cinco fases de Prisma: Amanecer, Mediodía, Atardecer, Anochecer y Galaxia.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-012",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-03",
+   "bloque": 1,
+   "frase": "Durante el diseño y la validación de interfaces se debería trabajar progresivamente sobre estructura, interacción y expresión.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-012",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-03",
+   "bloque": 2,
+   "frase": "La estructura y la interacción deben poder evaluarse antes de incorporar recursos gráficos expresivos que no sean necesarios para comprender la experiencia.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-012",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-03",
+   "bloque": 3,
+   "frase": "Las propuestas de interfaces deberían evaluarse inicialmente con una base visual contenida, utilizando blanco, grises y Azul Noche, antes de incorporar recursos expresivos no esenciales.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-012",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-03",
+   "bloque": 10,
+   "frase": "Las capas se trabajan sobre todo en Anochecer y pueden repetirse en Galaxia.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-PEX-013",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-04",
+   "bloque": 1,
+   "frase": "Una propuesta no debe aprobarse únicamente por su apariencia visual cuando todavía existen problemas conocidos de comprensión, navegación o interacción.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-014",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-05",
+   "bloque": 1,
+   "frase": "Las observaciones, hipótesis, resultados de pruebas y decisiones aprobadas deben distinguirse en la documentación.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-014",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-05",
+   "bloque": 2,
+   "frase": "Los comportamientos atribuidos a las personas que todavía no se hayan investigado deben identificarse como hipótesis.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-PEX-015",
+   "fuente": "data/sd-capitulos/decisiones-verificables-de-experiencia.html#s-01-03-06",
+   "bloque": 1,
+   "frase": "Los cambios relevantes deberían comprobarse en las tareas afectadas antes de extenderse a otros productos.",
+   "estado": "aplicada",
+   "nivel": "deberia",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
    "id": "KYN-SDI-ARQ-005",
    "fuente": "data/sd-capitulos/estructura-de-navegacion.html#s-02-02-01",
    "bloque": 1,
@@ -2998,6 +3297,131 @@
    "frase": "Cuando una ruta no exista, no esté disponible o carezca de autorización, el sistema debe comunicar la situación y ofrecer una salida apropiada, sin revelar información restringida.",
    "estado": "aplicada",
    "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-001",
+   "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-01",
+   "bloque": 1,
+   "frase": "El contenido debe agruparse según la relación entre tareas, conceptos y necesidades de las personas, no exclusivamente según la estructura interna de la empresa.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-001",
+   "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-01",
+   "bloque": 2,
+   "frase": "Las agrupaciones de información deben responder a relaciones funcionales o conceptuales identificables.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-002",
+   "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-02",
+   "bloque": 1,
+   "frase": "Las categorías, secciones y elementos de navegación deben utilizar denominaciones que las personas puedan reconocer según su contexto de trabajo.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-003",
+   "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-03",
+   "bloque": 1,
+   "frase": "Las páginas deben diferenciar información principal, secundaria y complementaria mediante una jerarquía consistente.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-004",
+   "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-04",
+   "bloque": 1,
+   "frase": "La información necesaria para decidir o ejecutar la siguiente acción debe permanecer disponible en el momento correspondiente.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-004",
+   "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-04",
+   "bloque": 2,
+   "frase": "Los detalles especializados pueden presentarse progresivamente cuando su presencia inicial aumente innecesariamente la complejidad.",
+   "estado": "aplicada",
+   "nivel": "puede",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-004",
+   "fuente": "data/sd-capitulos/arquitectura-de-informacion.html#s-02-01-04",
+   "bloque": 3,
+   "frase": "Requisitos, consecuencias, errores y datos obligatorios.",
+   "estado": "no-normativa",
+   "motivo": "Explicación, ejemplo o descripción."
+  },
+  {
+   "id": "KYN-SDI-ARQ-011",
+   "fuente": "data/sd-capitulos/busqueda-y-orientacion.html#s-02-03-01",
+   "bloque": 1,
+   "frase": "Cuando una búsqueda está limitada a una sección, categoría o conjunto de datos, su alcance debe resultar comprensible.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-012",
+   "fuente": "data/sd-capitulos/busqueda-y-orientacion.html#s-02-03-02",
+   "bloque": 1,
+   "frase": "La búsqueda debe utilizar los campos y contenidos relevantes para la tarea, respetando los permisos de acceso.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-013",
+   "fuente": "data/sd-capitulos/busqueda-y-orientacion.html#s-02-03-03",
+   "bloque": 1,
+   "frase": "Cada resultado debe proporcionar información suficiente para distinguirlo de otros elementos similares.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-014",
+   "fuente": "data/sd-capitulos/busqueda-y-orientacion.html#s-02-03-04",
+   "bloque": 1,
+   "frase": "Los filtros activos deben poder identificarse y modificarse sin perder innecesariamente la consulta.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-015",
+   "fuente": "data/sd-capitulos/busqueda-y-orientacion.html#s-02-03-05",
+   "bloque": 1,
+   "frase": "Cuando no existen coincidencias, la interfaz debe explicar la situación y ofrecer una acción útil, como modificar la consulta o retirar filtros.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-015",
+   "fuente": "data/sd-capitulos/busqueda-y-orientacion.html#s-02-03-05",
+   "bloque": 2,
+   "frase": "La interfaz debe distinguir entre una búsqueda sin coincidencias y un error que impidió realizar la consulta.",
+   "estado": "aplicada",
+   "nivel": "debe",
+   "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
+  },
+  {
+   "id": "KYN-SDI-ARQ-016",
+   "fuente": "data/sd-capitulos/busqueda-y-orientacion.html#s-02-03-06",
+   "bloque": 1,
+   "frase": "La búsqueda no debe revelar información que la persona carece de permiso para consultar, ni mediante resultados, cantidades, sugerencias o fragmentos de contenido.",
+   "estado": "aplicada",
+   "nivel": "no-debe",
    "motivo": "Norma con su nivel, clasificada al redactar (tools/normativa.py)."
   }
  ]
